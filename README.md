@@ -2,8 +2,6 @@
 
 ## A weekly social data project (in R)
 
-http://www.makeovermonday.co.uk/data/
-
 A weekly project that builds off #makeovermonday style projects but aimed at the R ecosystem. An emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem.
 
 ***
@@ -26,22 +24,20 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 
 ## Useful links
 
-The R4DS Online Learning Community
-https://www.jessemaegan.com/post/r4ds-the-next-iteration/
+[The R4DS Online Learning Community](https://www.jessemaegan.com/post/r4ds-the-next-iteration/)
 
-THe R for Data Science textbook
-http://r4ds.had.co.nz/
+[The R for Data Science textbook](http://r4ds.had.co.nz/)
 
-Carbon lets you post beautiful code directly to Twitter!
-https://carbon.now.sh/
+[Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
 
-We will use the fivethirtyeight package frequently for “tame” data
-https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf
+[We will use the fivethirtyeight package frequently for “tame” data]
+(https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
 
-GitHub lets you host raw code for free!
-https://github.com/
-https://guides.github.com/activities/hello-world/
+[GitHub lets you host raw code for free!]
+(https://github.com/)
 
-How to save high quality `ggplot2` images
-http://ggplot2.tidyverse.org/reference/ggsave.html
+[A guide to getting started with GitHub](https://guides.github.com/activities/hello-world/)
 
+[How to save high quality `ggplot2` images](http://ggplot2.tidyverse.org/reference/ggsave.html)
+
+[Makeover Monday](http://www.makeovermonday.co.uk/data/)
