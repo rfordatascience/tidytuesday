@@ -12,13 +12,14 @@ All data will be posted on the data sets page on Monday. It will include the lin
 
 We welcome all newcomers, enthusiasts, and experts to participate, but be mindful of a few things:
 
-1. This is not about criticizing the original authors. They are people like you and me and they have feelings. Focus on the data, the charts and improving your own techniques.
-2. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice data visualization and basic data wrangling.
-3. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
-4. Include a picture of the visualisation when you post to Twitter.
-5. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!
-6. Focus on improving your craft, even if you end up with someting simple! Make something quick, but purposeful!
-7. Give credit to the original data source whenever possible.
+1. This is NOT about criticizing the original authors. They are people like you and me and they have feelings. Focus on the data, the charts and improving your own techniques.
+2. This is NOT about criticizing or tearing down your fellow #RStats practitioners! Be supportive and kind to each other! Like other's posts and help promote the #RStats community!
+3. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice data visualization and basic data wrangling.
+4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
+5. Include a picture of the visualisation when you post to Twitter.
+6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!
+7. Focus on improving your craft, even if you end up with someting simple! Make something quick, but purposeful!
+8. Give credit to the original data source whenever possible.
 
 ***
 
