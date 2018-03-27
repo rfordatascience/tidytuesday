@@ -30,11 +30,9 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 
 [Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
 
-[We will use the fivethirtyeight package frequently for “tame” data]
-(https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
+[We will use the fivethirtyeight package frequently for “tame data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
 
-[GitHub lets you host raw code for free!]
-(https://github.com/)
+[GitHub lets you host raw code for free!](https://github.com/)
 
 [A guide to getting started with GitHub](https://guides.github.com/activities/hello-world/)
 
