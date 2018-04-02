@@ -40,3 +40,11 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [How to save high quality `ggplot2` images](http://ggplot2.tidyverse.org/reference/ggsave.html)
 
 [Makeover Monday](http://www.makeovermonday.co.uk/data/)
+
+***
+
+## DataSets
+### Week 1 - US Tuition Costs
+[DataSource](https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/)
+[RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx)
+[Original Graphic](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg)
