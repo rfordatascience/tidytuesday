@@ -54,3 +54,9 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [Article](https://fivethirtyeight.com/features/running-backs-are-finally-getting-paid-what-theyre-worth/)  
 [DatSource: Spotrac.com](http://www.spotrac.com/rankings/)  
 [Original Graphic](https://espnfivethirtyeight.files.wordpress.com/2017/05/morris-nflrb-1.png?w=575&h=488&quality=90&strip=info)  
+
+### Week 3 - Global causes of mortality
+[RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/global_mortality.xlsx)  
+[Article](https://ourworldindata.org/what-does-the-world-die-from)  
+[DatSource: ourworldindata.org](https://ourworldindata.org/)  
+[Original Graphic](https://ourworldindata.org/what-does-the-world-die-from)  
