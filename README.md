@@ -60,3 +60,8 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [Article](https://ourworldindata.org/what-does-the-world-die-from)  
 [DatSource: ourworldindata.org](https://ourworldindata.org/)  
 [Original Graphic](https://ourworldindata.org/what-does-the-world-die-from)  
+
+### Week 4 - Gender differences in Australian Salaries
+[RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week4_australian_salary.csv)  
+[Article](http://www.womensagenda.com.au/latest/eds-blog/australia-s-50-highest-paying-jobs-are-paying-men-significantly-more/)  
+[DataSource: data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  
