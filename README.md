@@ -12,14 +12,15 @@ All data will be posted on the data sets page on Monday. It will include the lin
 
 We welcome all newcomers, enthusiasts, and experts to participate, but be mindful of a few things:
 
-1. This is NOT about criticizing the original authors. They are people like you and me and they have feelings. Focus on the data, the charts and improving your own techniques.
-2. This is NOT about criticizing or tearing down your fellow #RStats practitioners! Be supportive and kind to each other! Like other's posts and help promote the #RStats community!
-3. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice data visualization and basic data wrangling.
+1. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice *data visualization* and *basic data wrangling* in R.  
+2. Again, the data is what it is! You are welcome to explore beyond the provided dataset, but the data is provided as a "toy" dataset to practice techniques on.  
+3. This is NOT about criticizing the original article or graph. Real people made the graphs, collected or acquired the data! Focus on the provided dataset, learning, and improving your techniques in R.  
+4. This is NOT about criticizing or tearing down your fellow #RStats practitioners! Be supportive and kind to each other! Like other's posts and help promote the #RStats community!  
 4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
-5. Include a picture of the visualisation when you post to Twitter.
-6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!
-7. Focus on improving your craft, even if you end up with someting simple! Make something quick, but purposeful!
-8. Give credit to the original data source whenever possible.
+5. Include a picture of the visualisation when you post to Twitter.  
+6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
+7. Focus on improving your craft, even if you end up with someting simple! Make something quick, but purposeful!  
+8. Give credit to the original data source whenever possible.  
 
 ***
 
@@ -61,7 +62,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [DatSource: ourworldindata.org](https://ourworldindata.org/)  
 [Original Graphic](https://ourworldindata.org/what-does-the-world-die-from)  
 
-### Week 4 - Gender differences in Australian Salaries
+### Week 4 - Gender differences in Australian Average Taxable Income
 [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week4_australian_salary.csv)  
 [Article](http://www.womensagenda.com.au/latest/eds-blog/australia-s-50-highest-paying-jobs-are-paying-men-significantly-more/)  
 [DataSource: data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  
