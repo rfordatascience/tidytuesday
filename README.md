@@ -66,3 +66,8 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week4_australian_salary.csv)  
 [Article](http://www.womensagenda.com.au/latest/eds-blog/australia-s-50-highest-paying-jobs-are-paying-men-significantly-more/)  
 [DataSource: data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  
+
+### Week 5 - County-level American Community Survey (5-year estimates) 2015
+[RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv)  
+[DataSource: census.gov](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)  
+[Kaggle source](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  
