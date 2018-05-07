@@ -78,7 +78,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 
 ### Week 6 - Global coffee-chain locations (as of 2017 or 2018)
 [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week6_coffee_chains.xlsx)  
+[Article](http://flowingdata.com/2014/03/18/coffee-place-geography/)  
 [DataSource (Starbucks): kaggle.com](https://www.kaggle.com/starbucks/store-locations)  
 [DataSource (Tim Horton): timhortons.com](https://locations.timhortons.com/)  
 [DataSource (Dunkin Donuts): odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip)   
-[Article](http://flowingdata.com/2014/03/18/coffee-place-geography/)  
