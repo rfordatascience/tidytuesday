@@ -81,3 +81,4 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [DataSource (Starbucks): kaggle.com](https://www.kaggle.com/starbucks/store-locations)  
 [DataSource (Tim Horton): timhortons.com](https://locations.timhortons.com/)  
 [DataSource (Dunkin Donuts): odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip)   
+[Article](http://flowingdata.com/2014/03/18/coffee-place-geography/)  
