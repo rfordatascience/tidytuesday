@@ -75,3 +75,9 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv)  
 [DataSource: census.gov](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)  
 [Kaggle source](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  
+
+### Week 5 - Global coffee-chain locations (as of 2017 or 2018)
+[RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week6_coffee_chains.xlsx)  
+[DataSource (Starbucks): kaggle.com](https://www.kaggle.com/starbucks/store-locations)  
+[DataSource (Tim Horton): timhortons.com](https://locations.timhortons.com/)  
+[DataSource (Dunkin Donuts): odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip)   
