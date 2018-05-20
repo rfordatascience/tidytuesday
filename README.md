@@ -28,7 +28,21 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 
 ***
 
-## Useful links
+# DataSets
+## 2018
+| Week | Date | Data | Source | Article
+| :---: | :---: | :--- | :--- | :---|
+| 1 | 2018-04-02 | [US Tuition Costs](https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx) | [onlinembapage.com](https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/) | [onlinembapage.com](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg) |
+| 2 | 2018-04-09 | [NFL Positional Salaries](https://github.com/rfordatascience/tidytuesday/blob/master/data/tidy_tuesday_week2.xlsx) | [Spotrac.com](http://www.spotrac.com/rankings/) | [fivethirtyeight.com](https://espnfivethirtyeight.files.wordpress.com/2017/05/morris-nflrb-1.png?w=575&h=488&quality=90&strip=info) |
+| 3|  2018-04-16| [Global Mortality](https://github.com/rfordatascience/tidytuesday/blob/master/data/global_mortality.xlsx) | [ourworldindata.org](https://ourworldindata.org/) | [ourworldindata.org](https://ourworldindata.org/what-does-the-world-die-from) | 
+| 4 | 2018-04-23| [Australian Salaries by Gender](https://github.com/rfordatascience/tidytuesday/blob/master/data/week4_australian_salary.csv) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  |
+| 5 | 2018-04-30 | [ACS Census Data (2015)](https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv) | [census.gov](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml) , [Kaggle](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  | No article |
+| 6 | 2018-05-07| [Global Coffee Chains](https://github.com/rfordatascience/tidytuesday/blob/master/data/week6_coffee_chains.xlsx) | [Starbucks: kaggle.com](https://www.kaggle.com/starbucks/store-locations) , [Tim Horton: timhortons.com](https://locations.timhortons.com/) , [Dunkin Donuts: odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip) | [flowingdata.com](http://flowingdata.com/2014/03/18/coffee-place-geography/)
+| 7 | 2018-05-14 | [Star Wars Survey](https://github.com/fivethirtyeight/data/blob/master/star-wars-survey/StarWars.csv) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight)    | [fivethirtyeight.com](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/)  |
+
+***  
+
+# Useful links
 
 [The R4DS Online Learning Community](https://www.jessemaegan.com/post/r4ds-the-next-iteration/)
 
@@ -47,15 +61,3 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 [Makeover Monday](http://www.makeovermonday.co.uk/data/)
 
 ***
-
-## DataSets
-## 2018
-| Week | Date | Data | Source | Article
-| :---: | :---: | :--- | :--- | :---|
-| 1 | 2018-04-02 | [US Tuition Costs](https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx) | [onlinembapage.com](https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/) | [onlinembapage.com](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg) |
-| 2 | 2018-04-09 | [NFL Positional Salaries](https://github.com/rfordatascience/tidytuesday/blob/master/data/tidy_tuesday_week2.xlsx) | [Spotrac.com](http://www.spotrac.com/rankings/) | [fivethirtyeight.com](https://espnfivethirtyeight.files.wordpress.com/2017/05/morris-nflrb-1.png?w=575&h=488&quality=90&strip=info) |
-| 3|  2018-04-16| [Global Mortality](https://github.com/rfordatascience/tidytuesday/blob/master/data/global_mortality.xlsx) | [ourworldindata.org](https://ourworldindata.org/) | [ourworldindata.org](https://ourworldindata.org/what-does-the-world-die-from) | 
-| 4 | 2018-04-23| [Australian Salaries by Gender](https://github.com/rfordatascience/tidytuesday/blob/master/data/week4_australian_salary.csv) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  |
-| 5 | 2018-04-30 | [ACS Census Data (2015)](https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv) | [census.gov](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml) , [Kaggle](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  | No article |
-| 6 | 2018-05-07| [Global Coffee Chains](https://github.com/rfordatascience/tidytuesday/blob/master/data/week6_coffee_chains.xlsx) | [Starbucks: kaggle.com](https://www.kaggle.com/starbucks/store-locations) , [Tim Horton: timhortons.com](https://locations.timhortons.com/) , [Dunkin Donuts: odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip) | [flowingdata.com](http://flowingdata.com/2014/03/18/coffee-place-geography/)
-| 7 | 2018-05-14 | [Star Wars Survey](https://github.com/fivethirtyeight/data/blob/master/star-wars-survey/StarWars.csv) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight)    | [fivethirtyeight.com](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/)  
