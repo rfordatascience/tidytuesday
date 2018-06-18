@@ -43,6 +43,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 | 9 | 2018-05-29 | [Comic book characters](https://github.com/rfordatascience/tidytuesday/blob/master/data/week9_comic_characters.csv) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/women-in-comic-books/)|
 | 10 | 2018-06-05 | [Biketown Bikeshare tidy](https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown.zip) [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown_raw.zip) | [BiketownPDX](https://www.biketownpdx.com/system-data) | [Biketown](https://www.biketownpdx.com/system-data) [cascadiaRconf/cRaggy](https://cascadiarconf.com/agenda/#craggy) |
 | 11 | 2018-06-12 | [FIFA World Cup Audience](https://github.com/rfordatascience/tidytuesday/blob/master/data/week11_fifa_audience.csv) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/how-to-break-fifa/)|
+| 12 | 2018-06-19 | [Hurricanes & Puerto Rico](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/the-media-really-has-neglected-puerto-rico/)|
 ***  
 
 # Useful links
