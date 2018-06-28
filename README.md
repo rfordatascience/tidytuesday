@@ -28,6 +28,11 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 
 ***
 
+## Submitting Datasets
+Want to submit an interesting dataset? Please open an [Issue](https://github.com/rfordatascience/tidytuesday/issues) and post a link to the article (or blogpost, etc) using the data, then we can discuss adding it to a future TidyTuesday Event!
+
+***
+
 # DataSets
 ## 2018
 | Week | Date | Data | Source | Article
