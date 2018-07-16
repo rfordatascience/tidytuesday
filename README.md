@@ -52,7 +52,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 13 | 2018-06-26 | [Alcohol Consumption](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/)|
 | 14 | 2018-07-03 | [Global Life Expectancy](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [ourworldindata.org](https://ourworldindata.org/) | [ourworldindata.org](https://ourworldindata.org/life-expectancy)|
 | 15 | 2018-07-10 | [Craft Beer USA](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [data.world](https://data.world/) | [thrillist.com](https://www.thrillist.com/news/nation/most-craft-breweries-by-state-united-states)|
-| 16 | 2018-07-17 | [Exercise USA](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [CDC](https://data.world/) | [CDC - National Health Statistics Reports](https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf)|
+| 16 | 2018-07-17 | [Exercise USA](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [CDC](https://www.cdc.gov/) | [CDC - National Health Statistics Reports](https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf)|
 
 ***  
 
