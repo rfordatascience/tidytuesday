@@ -74,4 +74,6 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 
 [Makeover Monday](http://www.makeovermonday.co.uk/data/)
 
+[Data Is Plural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+
 ***
