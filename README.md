@@ -54,6 +54,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 15 | 2018-07-10 | [Craft Beer USA](https://github.com/rfordatascience/tidytuesday/tree/master/data) | [data.world](https://data.world/) | [thrillist.com](https://www.thrillist.com/news/nation/most-craft-breweries-by-state-united-states)|
 | 16 | 2018-07-17 | [Exercise USA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week16_exercise.xlsx) | [CDC](https://www.cdc.gov/) | [CDC - National Health Statistics Reports](https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf)|
 | 17 | 2018-07-23 | [p-hack-athon collaboration](http://phackathon.netlify.com/#about) | [simplystatistics.org](https://simplystatistics.org/) | [p-hack-athon](http://phackathon.netlify.com/)|
+| 18 | 2018-07-31 | [Dallas Animal Shelter FY2017](https://github.com/rfordatascience/tidytuesday/blob/master/data/week18_dallas_animals.xlsx) | [Dallas OpenData](https://www.dallasopendata.com/City-Services/FY-2017-Dallas-Animal-Shelter-Data/sjyj-ydcj) | [Dallas OpenData FY2017 Summary](https://www.dallasopendata.com/stories/s/FY-2017-Dallas-Animal-Descriptive-Analysis/upeh-b6mt)|
 
 ***  
 
