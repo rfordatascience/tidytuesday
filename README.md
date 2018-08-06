@@ -23,7 +23,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
 5. Include a picture of the visualisation when you post to Twitter.  
 6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
-7. Focus on improving your craft, even if you end up with someting simple!  
+7. Focus on improving your craft, even if you end up with something simple!  
 8. Give credit to the original data source whenever possible.  
 
 ***
