@@ -56,7 +56,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 17 | 2018-07-23 | [p-hack-athon collaboration](http://phackathon.netlify.com/#about) | [simplystatistics.org](https://simplystatistics.org/) | [p-hack-athon](http://phackathon.netlify.com/)|
 | 18 | 2018-07-31 | [Dallas Animal Shelter FY2017](https://github.com/rfordatascience/tidytuesday/blob/master/data/week18_dallas_animals.xlsx) | [Dallas OpenData](https://www.dallasopendata.com/City-Services/FY-2017-Dallas-Animal-Shelter-Data/sjyj-ydcj) | [Dallas OpenData FY2017 Summary](https://www.dallasopendata.com/stories/s/FY-2017-Dallas-Animal-Descriptive-Analysis/upeh-b6mt)|
 | 19 | 2018-08-07 | [Airline Safety](https://github.com/rfordatascience/tidytuesday/blob/master/data/week19_airline_safety.csv) | [FiveThirtyEight Package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Airline Safety](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/)|
-
+| 20 | 2018-08-14 | [Russian Troll Tweets](https://github.com/fivethirtyeight/russian-troll-tweets) | [FiveThirtyEight.com](https://github.com/fivethirtyeight/russian-troll-tweets) | [538 - Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)|
 ***  
 
 # Useful links
