@@ -1,6 +1,6 @@
 # Week 21 data
 
-Data from the BuzzFeed news [GitHub](https://github.com/BuzzFeedNews/2018-07-wildfire-trends)
+Full data from the BuzzFeed news [GitHub](https://github.com/BuzzFeedNews/2018-07-wildfire-trends).
 
 # How A Booming Population And Climate Change Made California’s Wildfires Worse Than Ever
 
