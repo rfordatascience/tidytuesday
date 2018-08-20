@@ -62,7 +62,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 
 # Useful links
 
-[The R4DS Online Learning Community](https://www.jessemaegan.com/post/r4ds-the-next-iteration/)
+[The R4DS Online Learning Community](https://www.rfordatasci.com)
 
 [The R for Data Science textbook](http://r4ds.had.co.nz/)
 
