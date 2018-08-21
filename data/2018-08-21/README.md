@@ -3,6 +3,7 @@
 Full data from the BuzzFeed news [GitHub](https://github.com/BuzzFeedNews/2018-07-wildfire-trends).
 
 [Data Dictionary](https://t.co/Y5zqwKaCxZ)
+[Fire Incidents from John Saraceno](https://github.com/OneGneissGuy/CA-fires/tree/master/data)
 
 ## How A Booming Population And Climate Change Made California’s Wildfires Worse Than Ever
 
