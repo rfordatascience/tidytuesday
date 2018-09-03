@@ -46,7 +46,9 @@ sub_df <- food_scrape("subway", c(1,2,3,4,5,6,7,8,9))
 taco_df <- food_scrape("taco-bell", c(1,2,3,4,5,15,18,19,20,22,23,24))
 
 final_df <- bind_rows(mcd_df, cfa_df, sonic_df, arbys_df, bk_df, dq_df, sub_df, taco_df) %>% 
-    select(restaurant, everything())
+    select(restaurant, everything()) %>% 
+    mutate(salad = case_when(str_detect(item, "salad") ~ "Salad",
+                             TRUE ~ "Other"))
 
 final_df %>% write_csv("fastfood_calories.csv")
 ```
