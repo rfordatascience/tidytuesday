@@ -59,6 +59,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 20 | `2018-08-14` | [Russian Troll Tweets](https://github.com/fivethirtyeight/russian-troll-tweets) | [FiveThirtyEight.com](https://github.com/fivethirtyeight/russian-troll-tweets) | [538 - Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)|
 | 21 | `2018-08-21` | [California Fires](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-21) | [BuzzFeed.com](https://github.com/BuzzFeedNews/2018-07-wildfire-trends) | [BuzzFeed News - California Fires](https://www.buzzfeednews.com/article/peteraldhous/california-wildfires-people-climate), [RMarkdown](https://buzzfeednews.github.io/2018-07-wildfire-trends/)|
 | 22 | `2018-08-28` | [NFL Stats](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-28) | [pro-football-reference.com](https://www.pro-football-reference.com/) | [eldo.co](https://www.eldo.co/nfl-rushing-and-passing-in-four-charts.html)|
+| 23 | `2018-09-04` | [Fast Food Calories](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-04) | [fastfoodnutrition.org](https://fastfoodnutrition.org/) | [franchiseopportunities.com](https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts)|
 ***  
 
 # Useful links
