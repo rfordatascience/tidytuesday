@@ -37,7 +37,7 @@ food_scrape <- function(restaurant, tbl_sel){
 
 ```{r}
 mcd_df <- food_scrape("mcdonalds", c(1,2,3,9,19))
-cfa_df <- food_scrape("chick-fil-a", c(1,2,8,12))
+cfa_df <- food_scrape("chick-fil-a", c(1,2,8,13))
 sonic_df <- food_scrape("sonic", c(1,2,17,18,20))
 arbys_df <- food_scrape("arbys", c(1:4,8))
 bk_df <- food_scrape("burger-king", c(1:3,7,11:12))
