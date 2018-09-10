@@ -60,7 +60,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 21 | `2018-08-21` | [California Fires](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-21) | [BuzzFeed.com](https://github.com/BuzzFeedNews/2018-07-wildfire-trends) | [BuzzFeed News - California Fires](https://www.buzzfeednews.com/article/peteraldhous/california-wildfires-people-climate), [RMarkdown](https://buzzfeednews.github.io/2018-07-wildfire-trends/)|
 | 22 | `2018-08-28` | [NFL Stats](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-28) | [pro-football-reference.com](https://www.pro-football-reference.com/) | [eldo.co](https://www.eldo.co/nfl-rushing-and-passing-in-four-charts.html)|
 | 23 | `2018-09-04` | [Fast Food Calories](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-04) | [fastfoodnutrition.org](https://fastfoodnutrition.org/) | [franchiseopportunities.com](https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts)|
-| 23 | `2018-09-11` | [Airline Data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-11) | [faa.gov](https://www.faa.gov/airports/resources/data_stats/) | [telegraph.co.uk](https://www.telegraph.co.uk/travel/destinations/north-america/united-states/articles/the-worlds-busiest-airport-in-numbers/)|
+| 24 | `2018-09-11` | [Cats vs Dogs (USA)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-11) | [data.world](https://data.world/datanerd/cat-vs-dog-popularity-in-u-s) | [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2014/07/28/where-cats-are-more-popular-than-dogs-in-the-u-s-and-all-over-the-world/?utm_term=.b50cb49b78b5)|
 ***  
 
 # Useful links
