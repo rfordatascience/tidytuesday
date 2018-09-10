@@ -71,6 +71,8 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 
 [Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
 
+[Post to Carbon.now.sh from RStudio](https://github.com/MilesMcBain/gistfo)
+
 [We will use the fivethirtyeight package frequently for “tame" data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
 
 [GitHub lets you host raw code for free!](https://github.com/)
