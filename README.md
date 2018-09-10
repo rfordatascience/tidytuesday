@@ -73,6 +73,8 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 
 [Post to Carbon.now.sh from RStudio](https://github.com/MilesMcBain/gistfo)
 
+[Another carbon.now.sh from within RStudio](https://github.com/yonicd/carbonate)
+
 [We will use the fivethirtyeight package frequently for “tame" data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
 
 [GitHub lets you host raw code for free!](https://github.com/)
