@@ -138,5 +138,3 @@ tab_list <- list(table_1 = tab_1, table_2 = tab_2, table_3 = tab_3, table_4 = ta
 tab_list %>% 
         names() %>% 
         walk(~ write_csv(tab_list[[.]], glue::glue("{.}.csv")))
-
-df_test <- read_csv("table_2.csv")
