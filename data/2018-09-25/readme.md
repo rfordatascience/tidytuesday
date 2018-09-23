@@ -23,6 +23,7 @@ Tidy and cleaned data for the tables from Paini et al, 2016.
 * **Table 6**: List of 140 species and their **maximum** recorded **percentage** impact on one of their known host crops (source: CABI Crop Protection Compendium)
 
 ![Figure 1](http://www.pnas.org/content/pnas/113/27/7575/F1.large.jpg?width=800&height=600&carousel=1)
+* **Figure 1** World map representation of model outputs. (A) The overall invasion threat (`Table 1`) to each threatened country, (B) the total invasion cost (`Table 2`) (in millions of US dollars) to threatened countries; (C) the total invasion cost (`Table 3`) (in millions of US dollars) to threatened countries, as a proportion of GDP; and (D) the total invasion cost (`Table 4`) (in millions of US dollars) from source countries. Those countries without color were not included in the analysis.
 
 ## Invasive Species by African Countries
 
