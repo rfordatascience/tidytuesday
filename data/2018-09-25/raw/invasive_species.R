@@ -18,7 +18,7 @@ tab_1 <- df1 %>%
                           set_names("rank", "country", "o_tt")
         ) %>% 
         filter(!is.na(rank)) %>% 
-        rename("invasion_thread" = o_tt)
+        rename("invasion_threat" = o_tt)
 
 df2 <- read_csv("table2.csv") %>% janitor::clean_names()
 tab_2 <- df2 %>% 
