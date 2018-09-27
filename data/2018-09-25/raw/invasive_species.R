@@ -24,20 +24,20 @@ df2 <- read_csv("table2.csv") %>% janitor::clean_names()
 tab_2 <- df2 %>% 
         select("country" = x1, "ti_ct" = ti_ct_millions) %>% 
         mutate(rank = parse_number(country),
-               country = str_extract(country, "[:alpha:]+"),
+               country = str_extract(country, "[:alpha:].*$"),
                ti_ct = parse_number(ti_ct) * 1000000) %>% 
         filter(!is.na(rank)) %>%
         bind_rows(df2 %>% 
                 select("country" = x4, "ti_ct" = ti_ct_millions_1) %>% 
                         mutate(rank = parse_number(country),
-                               country = str_extract(country, "[:alpha:]+"),
+                               country = str_extract(country, "[:alpha:].*$"),
                                ti_ct = parse_number(ti_ct) * 1000000) %>% 
                         filter(!is.na(rank))
         ) %>% 
         bind_rows(df2 %>% 
                           select("country" = x7, "ti_ct" = ti_ct_millions_2) %>% 
                           mutate(rank = parse_number(country),
-                                 country = str_extract(country, "[:alpha:]+"),
+                                 country = str_extract(country, "[:alpha:].*$"),
                                  ti_ct = parse_number(ti_ct) * 1000000) %>% 
                           filter(!is.na(rank))
                 
@@ -49,7 +49,7 @@ tab_3 <- df3 %>%
         select("country" = x1, "ti_ct" = ti_ct_millions, 
                "gdp_mean" = x4, "gdp_proportion" = proportion_of) %>% 
         mutate(rank = parse_number(country),
-               country = str_extract(country, "[:alpha:]+"),
+               country = str_extract(country, "[:alpha:].*$"),
                ti_ct = parse_number(ti_ct) * 1000000,
                gdp_mean = parse_number(gdp_mean) * 1000000,
                gdp_proportion = as.numeric(gdp_proportion)
@@ -59,7 +59,7 @@ tab_3 <- df3 %>%
                           select("country" = x6, "ti_ct" = ti_ct_millions_1, 
                                  "gdp_mean" = x9, "gdp_proportion" = proportion_of_1) %>% 
                           mutate(rank = parse_number(country),
-                                 country = str_extract(country, "[:alpha:]+"),
+                                 country = str_extract(country, "[:alpha:].*$"),
                                  ti_ct = parse_number(ti_ct) * 1000000,
                                  gdp_mean = parse_number(gdp_mean) * 1000000,
                                  gdp_proportion = as.numeric(gdp_proportion)
@@ -70,7 +70,7 @@ tab_3 <- df3 %>%
                           select("country" = x11, "ti_ct" = ti_ct_millions_2, 
                                  "gdp_mean" = x14, "gdp_proportion" = proportion_of_2) %>% 
                           mutate(rank = parse_number(country),
-                                 country = str_extract(country, "[:alpha:]+"),
+                                 country = str_extract(country, "[:alpha:].*$"),
                                  ti_ct = parse_number(ti_ct) * 1000000,
                                  gdp_mean = parse_number(gdp_mean) * 1000000,
                                  gdp_proportion = as.numeric(gdp_proportion)
@@ -83,14 +83,14 @@ df4 <- read_csv("table4.csv") %>% janitor::clean_names()
 tab_4 <- df4 %>% 
         select("country" = rank_country, "ti_cs" = ti_cs_millions_us) %>% 
         mutate(rank = parse_number(country),
-               country = str_extract(country, "[:alpha:]+"),
+               country = str_extract(country, "[:alpha:].*$"),
                ti_cs = parse_number(ti_cs) * 1000000
                ) %>% 
         filter(!is.na(rank)) %>%
         bind_rows(df4 %>% 
                           select("country" = rank_country_1, "ti_cs" = ti_cs_millions_us_1) %>% 
                           mutate(rank = parse_number(country),
-                                 country = str_extract(country, "[:alpha:]+"),
+                                 country = str_extract(country, "[:alpha:].*$"),
                                  ti_cs = parse_number(ti_cs) * 1000000
                           ) %>% 
                           filter(!is.na(rank))
@@ -98,7 +98,7 @@ tab_4 <- df4 %>%
         bind_rows(df4 %>% 
                           select("country" = rank_country_2, "ti_cs" = ti_cs_millions_us_2) %>% 
                           mutate(rank = parse_number(country),
-                                 country = str_extract(country, "[:alpha:]+"),
+                                 country = str_extract(country, "[:alpha:].*$"),
                                  ti_cs = parse_number(ti_cs) * 1000000
                           ) %>% 
                           filter(!is.na(rank))
@@ -118,7 +118,7 @@ tab_6 <- df6 %>%
                                  "max_impact_percent" = maximum_reported_species_1) %>%
                           filter(species != "% impact") %>% 
                           mutate(rank = 1:n(),
-                                 species = str_extract(species, "[:alpha:]+"),
+                                 species = str_extract(species, "[:alpha:].*$"),
                                  max_impact_percent = parse_number(max_impact_percent)
                           )
         ) %>%
@@ -127,7 +127,7 @@ tab_6 <- df6 %>%
                                  "max_impact_percent" = maximum_reported) %>%
                           filter(species != "% impact") %>% 
                           mutate(rank = 1:n(),
-                                 species = str_extract(species, "[:alpha:]+"),
+                                 species = str_extract(species, "[:alpha:].*$"),
                                  max_impact_percent = parse_number(max_impact_percent)
                           )
         ) %>% 
