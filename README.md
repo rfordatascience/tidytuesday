@@ -65,6 +65,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 26 | `2018-09-25` | [Global Invasive Species](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-25) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/)|
 | 27 | `2018-10-02` | [US Births](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-02) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Births](https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/)|
 | 28 | `2018-10-09` | [US Voter Turnout](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-09) | [data.world](https://data.world/carlvlewis/voter-registration-and-criminal-records-by-state-1980-2014) | [Star Tribune](http://www.startribune.com/minnesota-leads-nation-in-turnout/400763681/)|
+| 29 | `2018-10-16` | [College Major & Income](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-16) | [fivethirtyeight/ACS](https://github.com/fivethirtyeight/data/tree/master/college-majors) | [fivethirtyeight](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/)|
 ***  
 
 # Useful links
