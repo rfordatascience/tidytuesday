@@ -66,6 +66,8 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 27 | `2018-10-02` | [US Births](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-02) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Births](https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/)|
 | 28 | `2018-10-09` | [US Voter Turnout](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-09) | [data.world](https://data.world/carlvlewis/voter-registration-and-criminal-records-by-state-1980-2014) | [Star Tribune](http://www.startribune.com/minnesota-leads-nation-in-turnout/400763681/)|
 | 29 | `2018-10-16` | [College Major & Income](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-16) | [fivethirtyeight/ACS](https://github.com/fivethirtyeight/data/tree/master/college-majors) | [fivethirtyeight](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/)|
+| 30 | `2018-10-23` | [Horror Movie Profit](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-23) | [the-numbers.com](https://www.the-numbers.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/)|
+
 ***  
 
 # Useful links
