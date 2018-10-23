@@ -25,3 +25,19 @@ Header | Description
 `distributor` | The distribution company
 `mpaa_rating` | Appropriate age rating by the US-based rating agency
 `genre` | Film category
+
+## Want to dive further?
+
+Check out the [`boxoffice`](https://cran.r-project.org/web/packages/boxoffice/vignettes/Using-boxoffice.html) package!
+
+`boxoffice()` is a simple package to get information about daily box office results of movies. It scrapes the webpages of either http://www.boxofficemojo.com or https://www.the-numbers.com/ for this information. The data it returns are the following:
+
+1. Movie name
+2. The studio that produced that movie
+3. The daily gross
+4. Daily percent change in gross
+5. Number of theaters it is playing in
+6. Average gross per theater (result of 4 / result of 5)
+7. Gross-to-date
+8. How many days the movie has been playing
+9. The date of the data
