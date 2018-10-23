@@ -1,6 +1,6 @@
 # Week 30 - Horror Movies and Profit
 
-[raw data]()
+[raw data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-10-23/movie_profit.csv)
 
 ## [Scary Movies Are The Best Investment In Hollywood](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/) - FiveThirtyEight
 
