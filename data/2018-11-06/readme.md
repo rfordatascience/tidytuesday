@@ -1,6 +1,12 @@
 # US Wind Turbine Data
 
-Wind turbine location and characteristic data across the USA can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-06/us_wind.csv).
+Wind turbine location and characteristic data across the USA can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-06/us_wind.csv). 
+
+Some potential questions: 
+- How do newer installations compare to older turbines? 
+- Which states/regions have the most wind farms?
+- Spread of wind-turbines over time?
+- Where is the most missing data?
 
 DISCLAIMER: There is quite a bit of missing data, but still an interesting dataset!
 
