@@ -68,6 +68,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 29 | `2018-10-16` | [College Major & Income](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-16) | [fivethirtyeight/ACS](https://github.com/fivethirtyeight/data/tree/master/college-majors) | [fivethirtyeight](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/)|
 | 30 | `2018-10-23` | [Horror Movie Profit](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-23) | [the-numbers.com](https://www.the-numbers.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/)|
 | 31 | `2018-10-30` | [R and R package downloads](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-30) | [cran-logs.rstudio.com](http://cran-logs.rstudio.com/) | No Article |
+| 32 | `2018-11-06` | [US Wind Farm locations](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-06) | [usgs.gov](https://eerscmap.usgs.gov/uswtdb/data/) | [Wind Market Reports](https://www.energy.gov/eere/wind/2017-wind-market-reports) |
 
 ***  
 
