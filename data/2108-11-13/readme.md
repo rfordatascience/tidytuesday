@@ -9,3 +9,8 @@ There is a [Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/5
 ## Our World In Data
 Alternatively, if you'd rather work with some simple aggregated malaria data from [Our World in Data](https://ourworldindata.org/malaria), you can see many different summary-level datasets related to malaria incidence by region, age, or time.
 
+__3 Datasets:__
+* malaria_inc.csv - Malaria incidence by country for all ages across the world across time
+* malaria_deaths.csv - Malaria deaths by country for all ages across the world and time.
+* malaria_deaths_age.csv - Malaria deaths by age across the world and time.
+
