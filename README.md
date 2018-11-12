@@ -69,6 +69,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 30 | `2018-10-23` | [Horror Movie Profit](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-23) | [the-numbers.com](https://www.the-numbers.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/)|
 | 31 | `2018-10-30` | [R and R package downloads](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-30) | [cran-logs.rstudio.com](http://cran-logs.rstudio.com/) | No Article |
 | 32 | `2018-11-06` | [US Wind Farm locations](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-06) | [usgs.gov](https://eerscmap.usgs.gov/uswtdb/data/) | [Wind Market Reports](https://www.energy.gov/eere/wind/2017-wind-market-reports) |
+| 33 | `2018-11-13` | [Malaria Data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-13) | [ourworldindata.org](https://ourworldindata.org/malaria)<br/>[Malaria Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) | [ourworldindata.org](https://ourworldindata.org/malaria) [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) |
 
 ***  
 
