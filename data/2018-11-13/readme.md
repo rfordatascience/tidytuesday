@@ -4,7 +4,7 @@ A lot of different options this week - all related to malaria data.
 
 
 ## Data Challenge
-There is a [Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) hosted by the Wellcome Trust and Sage Bionetworks using the [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) package of data and tools. It was supposed to be opened today (November 12th, 2018), but looks like they still may be in the pre-register phase. You can still access the package to use the mapping tools and access their dataset.
+There is a [Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) hosted by the Wellcome Trust and Sage Bionetworks using the [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) package of data and tools. It is officially open as of November 14th, 2018, with the potential to net a £15k (~$19,531) prize ! You can still access the package to use the mapping tools and access their dataset.
 
 A lot of it is related to mapping, feel free to dive in and participate in their challenge or just stay within `#TidyTuesday`!
 
