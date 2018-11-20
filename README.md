@@ -70,6 +70,7 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 31 | `2018-10-30` | [R and R package downloads](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-30) | [cran-logs.rstudio.com](http://cran-logs.rstudio.com/) | No Article |
 | 32 | `2018-11-06` | [US Wind Farm locations](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-06) | [usgs.gov](https://eerscmap.usgs.gov/uswtdb/data/) | [Wind Market Reports](https://www.energy.gov/eere/wind/2017-wind-market-reports) |
 | 33 | `2018-11-13` | [Malaria Data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-13) | [ourworldindata.org](https://ourworldindata.org/malaria)<br/>[Malaria Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) | [ourworldindata.org](https://ourworldindata.org/malaria) [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) |
+| 34 | `2018-11-20` | [Thanksgiving Dinner or Transgender Day of Remembrance](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-20) | [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/thanksgiving-2015)<br/>[TDoR](https://github.com/CaRdiffR/tdor) | [fivethirtyeight](https://fivethirtyeight.com/features/heres-what-your-part-of-america-eats-on-thanksgiving/)[TDoR](https://docs.google.com/presentation/d/1PNMa6LmjsofR8FUrnXHnwdMrvxTrBMZU2Lh8DQrsmr0/edit#slide=id.g47d8b045e7_0_127)|
 
 ***  
 
