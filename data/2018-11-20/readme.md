@@ -1,4 +1,4 @@
-# FiveThirtyEight Thanksgiving Dinner
+# FiveThirtyEight Thanksgiving Dinner or Transgender Day of Rembrance (TDoR)
 
 Data originally from [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/thanksgiving-2015).
 
