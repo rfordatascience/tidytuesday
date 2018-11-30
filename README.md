@@ -1,6 +1,6 @@
-# TidyTuesday
+![](https://github.com/rfordatascience/tidytuesday/blob/master/DjW0RrMUcAA-ssV.jpg)
 
-## A weekly social data project (in R)
+## A weekly social data project in R
 
 A weekly data project aimed at the R ecosystem. An emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem.
 
@@ -59,6 +59,21 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 | 20 | `2018-08-14` | [Russian Troll Tweets](https://github.com/fivethirtyeight/russian-troll-tweets) | [FiveThirtyEight.com](https://github.com/fivethirtyeight/russian-troll-tweets) | [538 - Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)|
 | 21 | `2018-08-21` | [California Fires](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-21) | [BuzzFeed.com](https://github.com/BuzzFeedNews/2018-07-wildfire-trends) | [BuzzFeed News - California Fires](https://www.buzzfeednews.com/article/peteraldhous/california-wildfires-people-climate), [RMarkdown](https://buzzfeednews.github.io/2018-07-wildfire-trends/)|
 | 22 | `2018-08-28` | [NFL Stats](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-28) | [pro-football-reference.com](https://www.pro-football-reference.com/) | [eldo.co](https://www.eldo.co/nfl-rushing-and-passing-in-four-charts.html)|
+| 23 | `2018-09-04` | [Fast Food Calories](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-04) | [fastfoodnutrition.org](https://fastfoodnutrition.org/) | [franchiseopportunities.com](https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts)|
+| 24 | `2018-09-11` | [Cats vs Dogs (USA)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-11) | [data.world](https://data.world/datanerd/cat-vs-dog-popularity-in-u-s) | [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2014/07/28/where-cats-are-more-popular-than-dogs-in-the-u-s-and-all-over-the-world/?utm_term=.b50cb49b78b5)|
+| 25 | `2018-09-18` | [US Flights or Hypoxia](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-18) | [faa.gov](https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/previous_years/)<br/>[Soaring Society of America](https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf) | [travelweekly.com](https://www.travelweekly.com/Travel-News/Airline-News/In-trend-reversal-midsized-airports-are-growing)<br/> [SSA - Hypoxia](https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf)|
+| 26 | `2018-09-25` | [Global Invasive Species](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-25) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/)|
+| 27 | `2018-10-02` | [US Births](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-02) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Births](https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/)|
+| 28 | `2018-10-09` | [US Voter Turnout](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-09) | [data.world](https://data.world/carlvlewis/voter-registration-and-criminal-records-by-state-1980-2014) | [Star Tribune](http://www.startribune.com/minnesota-leads-nation-in-turnout/400763681/)|
+| 29 | `2018-10-16` | [College Major & Income](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-16) | [fivethirtyeight/ACS](https://github.com/fivethirtyeight/data/tree/master/college-majors) | [fivethirtyeight](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/)|
+| 30 | `2018-10-23` | [Horror Movie Profit](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-23) | [the-numbers.com](https://www.the-numbers.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/)|
+| 31 | `2018-10-30` | [R and R package downloads](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-30) | [cran-logs.rstudio.com](http://cran-logs.rstudio.com/) | No Article |
+| 32 | `2018-11-06` | [US Wind Farm locations](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-06) | [usgs.gov](https://eerscmap.usgs.gov/uswtdb/data/) | [Wind Market Reports](https://www.energy.gov/eere/wind/2017-wind-market-reports) |
+| 33 | `2018-11-13` | [Malaria Data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-13) | [ourworldindata.org](https://ourworldindata.org/malaria)<br/>[Malaria Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) | [ourworldindata.org](https://ourworldindata.org/malaria) [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) |
+| 34 | `2018-11-20` | [Thanksgiving Dinner or Transgender Day of Remembrance](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-20) | [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/thanksgiving-2015)<br/>[TDoR](https://github.com/CaRdiffR/tdor) | [fivethirtyeight](https://fivethirtyeight.com/features/heres-what-your-part-of-america-eats-on-thanksgiving/)<br/>[TDoR](https://docs.google.com/presentation/d/1PNMa6LmjsofR8FUrnXHnwdMrvxTrBMZU2Lh8DQrsmr0/edit#slide=id.g47d8b045e7_0_127)|
+| 35 | `2018-11-27` | [Baltimore Bridges](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-27) | [Federal Highway Administration](https://www.fhwa.dot.gov/bridge/nbi.cfm) | [Baltimore Sun](https://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html)|
+
+
 ***  
 
 # Useful links
@@ -68,6 +83,10 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 [The R for Data Science textbook](http://r4ds.had.co.nz/)
 
 [Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
+
+[Post to Carbon.now.sh from RStudio](https://github.com/MilesMcBain/gistfo)
+
+[Another carbon.now.sh from within RStudio](https://github.com/yonicd/carbonate)
 
 [We will use the fivethirtyeight package frequently for “tame" data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
 
