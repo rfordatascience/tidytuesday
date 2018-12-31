@@ -1,0 +1,7 @@
+# Raw tabular data
+
+Table data extracted from supplementary PDF via [Tabula](https://tabula.technology/) open-source software. 
+
+This ended up being super messy - cleaning script found below.
+
+[Cleaning Script](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-09-25/raw/invasive_species.R)
