@@ -1,0 +1,56 @@
+# NYC Restaurant Inspections
+
+This week's data is from the New York [Open Data Portal](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/data).
+
+As the dataset is >100 MB (GitHub only allows 100 MB), I uploaded a [data selection](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-12-11/nyc_restaurants.csv) of 300,000 records sampled at random from the original dataset with `sample_n()`. You could read in the original dataset by using `read_csv` on the link as seen below.
+
+```
+library(tidyverse)
+
+set.seed(20181209)
+
+# You can use this url to download the data directly into R (will take a few seconds)
+df <- read_csv("https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv")
+
+# Cleaning names with janitor, sampling 300,000 records, and dropping some variables
+sampled_df <- df %>% 
+        janitor::clean_names() %>%
+        select(-phone, -grade_date, -record_date, -building, -street) %>% 
+        sample_n(size = 300000)
+
+# save the .csv
+write_csv(sampled_df, "nyc_restaurants.csv")
+```
+
+The original dataset can be found [here](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/data).
+
+## Data Dictionary
+
+| Column Name           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                          | Type        |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| camis                 | This is an unique identifier for the entity (restaurant); 10-digit integer, static per restaurant permit                                                                                                                                                                                                                                                                                                                                             | Plain Text  |
+| dba                   | This field represents the name (doing business as) of the entity (restaurant); Public business name, may change at discretion of restaurant owner                                                                                                                                                                                                                                                                                                    | Plain Text  |
+| boro                  | Borough in which the entity (restaurant) is located.;• 1 = MANHATTAN • 2 = BRONX • 3 = BROOKLYN • 4 = QUEENS • 5 = STATEN ISLAND • Missing; NOTE: There may be discrepancies between zip code and listed boro due to differences in an establishment's mailing address and physical location                                                                                                                                                         | Plain Text  |
+| building              | Building number for establishment (restaurant) location                                                                                                                                                                                                                                                                                                                                                                                              | Plain Text  |
+| street                | Street name for establishment (restaurant) location                                                                                                                                                                                                                                                                                                                                                                                                  | Plain Text  |
+| zipcode               | Zip code of establishment (restaurant) location                                                                                                                                                                                                                                                                                                                                                                                                      | Plain Text  |
+| phone                 | Phone Number; Phone number provided by restaurant owner/manager                                                                                                                                                                                                                                                                                                                                                                                      | Plain Text  |
+| cuisine_description   | This field describes the entity (restaurant) cuisine. ; Optional field provided by provided by restaurant owner/manager                                                                                                                                                                                                                                                                                                                              | Plain Text  |
+| inspection_type       | This field represents the date of inspection; NOTE: Inspection dates of 1/1/1900 mean an establishment has not yet had an inspection                                                                                                                                                                                                                                                                                                                 | Date & Time |
+| action                | This field represents the actions that is associated with each restaurant inspection. ; • Violations were cited in the following area(s). • No violations were recorded at the time of this inspection. • Establishment re-opened by DOHMH • Establishment re-closed by DOHMH • Establishment Closed by DOHMH.  Violations were cited in the following area(s) and those requiring immediate action were addressed. • "Missing" = not yet inspected; | Plain Text  |
+| violation_code        | Violation code associated with an establishment (restaurant) inspection                                                                                                                                                                                                                                                                                                                                                                              | Plain Text  |
+| violation_description | Violation description associated with an establishment  (restaurant) inspection                                                                                                                                                                                                                                                                                                                                                                      | Plain Text  |
+| critical_flag         | Indicator of critical violation;  "• Critical • Not Critical • Not Applicable"; Critical violations are those most likely to contribute to food-borne illness                                                                                                                                                                                                                                                                                        | Plain Text  |
+| score                 | Total score for a particular inspection; Scores are updated based on adjudication results                                                                                                                                                                                                                                                                                                                                                            | Number      |
+| grade                 | Grade associated with the inspection; N = Not Yet Graded, A = Grade A, B = Grade B, C = Grade C, Z = Grade Pending, P= Grade Pending issued on re-opening following an initial inspection that resulted in a closure                                                                                                                                                                                                                               | Plain Text  |
+| grade_date            | The date when the current grade was issued to the entity (restaurant)                                                                                                                                                                                                                                                                                                                                                                                | Date & Time |
+| record_date           | The date when the extract was run to produce this data set                                                                                                                                                                                                                                                                                                                                                                                           | Date & Time |
+| inspection_type       | A combination of the inspection program and the type of inspection performed; See Data Dictionary for full list of expected values                                                                                                                                                                                                                                                                                                                   | Plain Text  |
+
+## [FiveThirtyEight Article](https://fivethirtyeight.com/features/how-data-made-me-a-believer-in-new-york-citys-restaurant-grades/)
+
+*"How Data Made Me A Believer In New York City’s Restaurant Grades"*
+
+![](https://fivethirtyeight.com/wp-content/uploads/2014/08/fung-feature-health-grades-1.png?w=575)
+![](https://fivethirtyeight.com/wp-content/uploads/2014/08/fung-feature-health-grades-2.png?w=575)
+![](https://fivethirtyeight.com/wp-content/uploads/2014/08/fung-feature-health-grades-3.png?w=575)
