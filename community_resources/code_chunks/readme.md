@@ -4,6 +4,7 @@ This section is for useful generic functions that get created, discovered or sha
 
 * You can do a pull-request using the format seen in the below example
 * Give yourself credit (either w/ GitHub or Twitter handle)
+* Add to this readme.md or create a new .md file (will re-visit as this folder grows).
 
 
 ### Create a markdown table of column names and types
