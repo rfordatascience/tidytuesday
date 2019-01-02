@@ -1,4 +1,4 @@
-![](https://github.com/rfordatascience/tidytuesday/blob/master/static/tidytuesday_logo.jpg)
+![](static/tidytuesday_logo.jpg)
 
 ## A weekly social data project in R
 
@@ -34,12 +34,12 @@ Want to submit an interesting dataset? Please open an [Issue](https://github.com
 ***
 
 # DataSets
-## [2018](https://github.com/rfordatascience/data/2018)
+## [2018](data/2018)
 
 ## 2019
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2019-01-01` | [#Rstats & #TidyTuesday Tweets](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-01) | [`rtweet`](https://rtweet.info/) | [stackoverflow.blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) |
+| 1 | `2019-01-01` | [#Rstats & #TidyTuesday Tweets](data/2019/2019-01-01) | [`rtweet`](https://rtweet.info/) | [stackoverflow.blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) |
 ***  
 
 # Useful links
