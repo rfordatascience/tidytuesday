@@ -49,30 +49,25 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 
 # Useful links
 
-[The R4DS Online Learning Community](https://www.rfordatasci.com)
+| Link | Description |
+| --- | --- |
+| [:link:](https://www.rfordatasci.com) | The R4DS Online Learning Community Website|
+| [:link:](http://r4ds.had.co.nz/) | The R for Data Science textbook |
+| [:link:](https://carbon.now.sh/) | Carbon for sharing beautiful code pics |
+| [:link:](https://github.com/MilesMcBain/gistfo) | Post gist to Carbon from RStudio |
+| [:link:](https://github.com/yonicd/carbonate) | Post to Carbon from RStudio |
+| [:link:](https://github.com/join) | Join GitHub! |
+| [:link:](https://guides.github.com/activities/hello-world/) | Basics of GitHub |
+| [:link:](https://happygitwithr.com/) | Learn how to use GitHub with R |
+| [:link:](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package | [:link](http://ggplot2.tidyverse.org/reference/ggsave.html) | Save high-rez `ggplot2` images |
 
-[The R for Data Science textbook](http://r4ds.had.co.nz/)
+# Useful data sources
 
-[Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
+| Link | Description |
+| --- | --- |
+| [:link:](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) | Data is Plural collection |
+| [:link:](https://github.com/BuzzFeedNews/everything/blob/master/README.md) | BuzzFeedNews GitHub |
+| [:link:](https://github.com/theeconomist/) | The Economist GitHub |
 
-[Post to Carbon.now.sh from RStudio](https://github.com/MilesMcBain/gistfo)
-
-[Another Carbon.now.sh from within RStudio](https://github.com/yonicd/carbonate)
-
-[We will use the fivethirtyeight package frequently for “tame" data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
-
-[GitHub lets you host raw code for free!](https://github.com/)
-
-[A guide to getting started with GitHub](https://guides.github.com/activities/hello-world/)
-
-[How to save high quality `ggplot2` images](http://ggplot2.tidyverse.org/reference/ggsave.html)
-
-[Makeover Monday](http://www.makeovermonday.co.uk/data/)
-
-[Data Is Plural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-
-[BuzzFeed Data](https://github.com/BuzzFeedNews/everything/blob/master/README.md)
-
-[The Economist Data](https://github.com/theeconomist/)
 
 ***
