@@ -1,4 +1,4 @@
-![](static/tidytuesday_logo.jpg)
+![](static/tt_logo.png)
 
 ## A weekly social data project in R
 
