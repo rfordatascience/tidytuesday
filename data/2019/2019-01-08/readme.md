@@ -1,6 +1,6 @@
 # TV's golden age is real
 
-This week's [**DATA**](data/2019/2019-01-08/IMDb_Economist_tv_ratings.csv) is curated courtesy of [Sara Stoudt](https://twitter.com/sastoudt) and comes from the recently created **The Economist** [Data GitHub](https://github.com/TheEconomist)!
+This week's [**DATA**](IMDb_Economist_tv_ratings.csv) is curated courtesy of [Sara Stoudt](https://twitter.com/sastoudt) and comes from the recently created **The Economist** [Data GitHub](https://github.com/TheEconomist)!
 
 Their November 24th article on [TV ratings](https://www.economist.com/graphic-detail/2018/11/24/tvs-golden-age-is-real) covers 'all TV dramas ... via IMDb from 1990 to 2018'.
 
