@@ -44,6 +44,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | :---: | :---: | :--- | :--- | :---|
 | 1 | `2019-01-01` | [#Rstats & #TidyTuesday Tweets](data/2019/2019-01-01) | [`rtweet`](https://rtweet.info/) | [stackoverflow.blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) |
 | 2 | `2019-01-08` | [TV's Golden Age](data/2019/2019-01-08) | [IMDb](https://www.imdb.com/) | [The Economist](https://www.economist.com/graphic-detail/2018/11/24/tvs-golden-age-is-real) |
+| 3 | `2019-01-15` | [Space Launches](data/2019/2019-01-15) | [JSR Launch Vehicle Database](http://www.planet4589.org/space/lvdb/index.html) | [The Economist](https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders) |
 
 ***  
 
