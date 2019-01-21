@@ -1,6 +1,6 @@
 # Data Info
 
-Data comes from [The Vera Institute GitHub](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2018-10-20_space-launches). The raw dataset was taken from their GitHub - it is in a wide format and if you are keen on really flexing your data munging skills it is a worthy adversary! The truly raw data is seen [here](https://raw.githubusercontent.com/vera-institute/incarceration_trends/master/incarceration_trends.csv). My full code to reproduce the summary level datasets seen below can be found [here](example_code.R), you can adapt this minorly to get more data from the original wide dataset.
+Data comes from [The Vera Institute GitHub](https://github.com/vera-institute/incarceration_trends). The raw dataset was taken from their GitHub - it is in a wide format and if you are keen on really flexing your data munging skills it is a worthy adversary! The truly raw data is seen [here](https://raw.githubusercontent.com/vera-institute/incarceration_trends/master/incarceration_trends.csv). My full code to reproduce the summary level datasets seen below can be found [here](example_code.R), you can adapt this minorly to get more data from the original wide dataset.
 
 Alternatively, if you don't want to spend the bulk of your time tidying data - I provided summary level and a subset of some tidy county-level data for you to play around with and visualize.
 
