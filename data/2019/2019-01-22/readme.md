@@ -24,6 +24,10 @@ Please use your best judgement, be respectful and careful when reporting on tren
 
 ## Data Dictionary
 
+**Incarceration Trends**
+
+The full codebook from the Vera Institute can be found [here](https://github.com/vera-institute/incarceration_trends/blob/master/incarceration_trends-Codebook.pdf?raw=true).
+
 **Prison Summary**
 
 |variable        |class     | Description |
