@@ -61,7 +61,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | [:link:](https://github.com/join) | Join GitHub! |
 | [:link:](https://guides.github.com/activities/hello-world/) | Basics of GitHub |
 | [:link:](https://happygitwithr.com/) | Learn how to use GitHub with R |
-| [:link:](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package | [:link](http://ggplot2.tidyverse.org/reference/ggsave.html) | Save high-rez `ggplot2` images |
+| [:link:](http://ggplot2.tidyverse.org/reference/ggsave.html) | Save high-rez `ggplot2` images |
 
 # Useful data sources
 
@@ -70,6 +70,6 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | [:link:](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) | Data is Plural collection |
 | [:link:](https://github.com/BuzzFeedNews/everything/blob/master/README.md) | BuzzFeedNews GitHub |
 | [:link:](https://github.com/theeconomist/) | The Economist GitHub |
-
+| [:link:](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package 
 
 ***
