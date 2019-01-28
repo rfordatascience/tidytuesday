@@ -46,6 +46,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 2 | `2019-01-08` | [TV's Golden Age](data/2019/2019-01-08) | [IMDb](https://www.imdb.com/) | [The Economist](https://www.economist.com/graphic-detail/2018/11/24/tvs-golden-age-is-real) |
 | 3 | `2019-01-15` | [Space Launches](data/2019/2019-01-15) | [JSR Launch Vehicle Database](http://www.planet4589.org/space/lvdb/index.html) | [The Economist](https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders) |
 | 4 | `2019-01-22` | [Incarceration Trends](data/2019/2019-01-22) | [Vera Institute](https://github.com/vera-institute/incarceration_trends) | [Vera Institute](https://github.com/vera-institute/incarceration_trends) |
+| 5 | `2019-01-29` | [Dairy production & Consumption](data/2019/2019-01-29) | [USDA](https://www.ers.usda.gov/data-products/dairy-data/) | [NPR](https://www.npr.org/2019/01/09/683339929/nobody-is-moving-our-cheese-american-surplus-reaches-record-high) |
 
 ***  
 
