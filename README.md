@@ -72,5 +72,8 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | [:link:](https://github.com/BuzzFeedNews/everything/blob/master/README.md) | BuzzFeedNews GitHub |
 | [:link:](https://github.com/theeconomist/) | The Economist GitHub |
 | [:link:](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package 
+| [:link:](https://github.com/TheUpshot) | The Upshot by NY Times |
+| [:link:](https://github.com/baltimore-sun-data) | The Baltimore Sun Data Desk |
+| [:link:](https://github.com/datadesk) | The LA Times Sun Data Desk 
 
 ***
