@@ -78,3 +78,17 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | [:link:](https://github.com/OpenNewsLabs/news-graphics-team) | Open News Labs |
 
 ***
+
+# Data Viz/Science Books
+
+Only books available freely online are sourced here. Feel free to add to the list
+
+| Link | Description |
+| --- | --- |
+| [:link:](https://serialmentor.com/dataviz/) | Fundamentals of Data Viz by Claus Wilke |
+| [:link:](https://bookdown.org/rdpeng/artofdatascience/) | The Art of Data Science by Roger D. Peng & Elizabeth Matsui |
+| [:link:](https://www.tidytextmining.com/) | Tidy Text Mining by Julia Silge & David Robinson |
+| [:link:](https://geocompr.robinlovelace.net/) | Geocomputation with R by Robin Lovelace, Jakub Nowosad, Jannes Muenchow |
+| [:link:](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
+
+
