@@ -10,7 +10,7 @@ Hint: A useful summary statistic could be the 12-month (yearly) percent change i
 
 We also have mortgage rates for fixed 30, fixed 15, and adjustable 5-1 Hybrids across time. Some of the data was only introduced in the 1990s and late 2000s, and as such some information can only be pulled from more recent data.
 
-Lastly, I have included some recession dates in the US - the Great Recession (2007) had some major effects across many industries and markets. You can read more about some of the recent changes [here](http://bit.ly/2019-week6) from Fortune.
+Lastly, we have included some recession dates in the US - the Great Recession (2007) had some major effects across many industries and markets. You can read more about some of the recent changes [here](http://bit.ly/2019-week6) from Fortune.
 
 ### Grab the Data Here
 
