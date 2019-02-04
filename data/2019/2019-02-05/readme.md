@@ -47,8 +47,7 @@ recession_dates <- readr::read_csv("https://raw.githubusercontent.com/rfordatasc
 |fees_and_pts_15_yr                    |double |      Fees and percentage points of the loan amount      |
 |adjustable_rate_5_1_hybrid            |double |      5-1 Hybrid Adjustable rate mortgage (5 year fixed, then annual adjustable rate)     |
 |fees_and_pts_5_1_hybrid               |double |     Fees and percentage points of the loan amount       |
-|adjustable_margin_5_1_hybrid          |double |      A fixed amount added to the underlying index to establish the fully indexed rate for an ARM.
-       |
+|adjustable_margin_5_1_hybrid          |double |      A fixed amount added to the underlying index to establish the fully indexed rate for an ARM.|
 |spread_30_yr_fixed_and_5_1_adjustable |double |      Difference in rate between 30 year fixed and 5-1 adjustable      |
 
 
