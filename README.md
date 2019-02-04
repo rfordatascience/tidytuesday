@@ -47,7 +47,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 3 | `2019-01-15` | [Space Launches](data/2019/2019-01-15) | [JSR Launch Vehicle Database](http://www.planet4589.org/space/lvdb/index.html) | [The Economist](https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders) |
 | 4 | `2019-01-22` | [Incarceration Trends](data/2019/2019-01-22) | [Vera Institute](https://github.com/vera-institute/incarceration_trends) | [Vera Institute](https://github.com/vera-institute/incarceration_trends) |
 | 5 | `2019-01-29` | [Dairy production & Consumption](data/2019/2019-01-29) | [USDA](https://www.ers.usda.gov/data-products/dairy-data/) | [NPR](https://www.npr.org/2019/01/09/683339929/nobody-is-moving-our-cheese-american-surplus-reaches-record-high) |
-
+| 6 | `2019-02-05` | [House Price Index & Mortgage Rates](data/2019/2019-02-05) | [FreddieMac](http://www.freddiemac.com/research/indices/house-price-index.html) & [FreddieMac](http://www.freddiemac.com/pmms/) | [Fortune](http://fortune.com/2014/06/24/american-housing-the-good-the-bad-and-the-ugly-in-6-charts/) |
 ***  
 
 # Useful links
