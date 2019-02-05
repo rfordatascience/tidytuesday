@@ -1,0 +1,31 @@
+---
+title: "R-Ladies Ames Do Tidy Tuesday"
+author: "Sam Tyner, Haley Jeppson, Annette O'Connor, Soyoung Park"
+date: "2/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r pkgs}
+library(tidyverse)
+```
+
+```{r getdata}
+mort <- read_csv("mortgage.csv")
+recess <- read_csv("recessions.csv")
+hpi <- read_csv("state_hpi.csv")
+```
+
+```{r glimpse}
+glimpse(mort)
+glimpse(recess)
+glimpse(hpi)
+```
+
+
+## Start by tidying the mortgage data 
+
+DO COW DATA INSTEAD!!!!!
