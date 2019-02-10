@@ -13,7 +13,7 @@ Data comes directly from the American Association for the Advancement of Science
 or read the data directly into R!
 
 ```
-state_hpi <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-12/fed_r_d_spending.csv")
+fed_rd <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-12/fed_r_d_spending.csv")
 ```
 
 # Data Dictionary
