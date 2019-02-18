@@ -1,6 +1,10 @@
 # PhDs Awarded by Field
 
-[Dr. Ellie Murray](https://twitter.com/EpiEllie) proposed a DataViz challenge for the `#epibookclub` based around the number of PhD degrees awraded in the USA. As an epidemiology postdoc she was especially interested in how others would approach DataViz for Epidemiology PhDs. There are additional fields within this dataset, so take a crack at whatever looks interesting!
+[Dr. Ellie Murray](https://twitter.com/EpiEllie) proposed a [DataViz challenge](https://twitter.com/EpiEllie/status/1096876638632140805) for the `#epibookclub` based around the number of PhD degrees awraded in the USA. As an epidemiology postdoc she was especially interested in how others would approach DataViz for Epidemiology PhDs. There are additional fields within this dataset, so take a crack at whatever looks interesting!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy Saturday <a href="https://twitter.com/hashtag/datavizbook?src=hash&amp;ref_src=twsrc%5Etfw">#datavizbook</a> <a href="https://twitter.com/hashtag/epibookclub?src=hash&amp;ref_src=twsrc%5Etfw">#epibookclub</a>! For this week, since we&#39;ve learned a bit about <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a>, I thought we&#39;d try something new -- a <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> challenge! <br><br>The US gov collects data on all doctoral degree graduates every year. Let&#39;s see what we can learn! <a href="https://t.co/fjIBhq8Hkr">https://t.co/fjIBhq8Hkr</a></p>&mdash; Ellie Murray (@EpiEllie) <a href="https://twitter.com/EpiEllie/status/1096876638632140805?ref_src=twsrc%5Etfw">February 16, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 The data comes from the [NSF](https://ncses.nsf.gov/pubs/nsf19301/data) - where there are at least 72 different datasets if you wanted to approach the data from a different angle. They are primarily summary tables stored as `.xlsx` files. Cleaning these can be a bit awkward so if you are interested, it would be a cool project to try to do fully in R!
 
@@ -8,7 +12,7 @@ Alternatively - I have cleaned the data for you and saved as a `.csv` for you to
 
 To get at the details for broad or major fields, `dplyr::summarize` is your friend!
 
-```
+```{r}
 phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-19/phd_by_field.csv")
 ```
 
@@ -28,12 +32,12 @@ phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/
 
 ### Spoilers - Cleaning Script
 
-```
+```{r}
 # Because all the things
 library(tidyverse)
 ```
 
-```
+```{r}
 # Grab just the sub-major (major field) titles for separating the columns
 sub_major_fields <- readxl::read_excel("sed17-sr-tab012.xlsx", skip = 3) %>% 
   rename(field = `Field of study`) %>% 
