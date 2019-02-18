@@ -49,6 +49,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 5 | `2019-01-29` | [Dairy production & Consumption](data/2019/2019-01-29) | [USDA](https://www.ers.usda.gov/data-products/dairy-data/) | [NPR](https://www.npr.org/2019/01/09/683339929/nobody-is-moving-our-cheese-american-surplus-reaches-record-high) |
 | 6 | `2019-02-05` | [House Price Index & Mortgage Rates](data/2019/2019-02-05) | [FreddieMac](http://www.freddiemac.com/research/indices/house-price-index.html) & [FreddieMac](http://www.freddiemac.com/pmms/) | [Fortune](http://fortune.com/2014/06/24/american-housing-the-good-the-bad-and-the-ugly-in-6-charts/) |
 | 7 | `2019-02-12` | [Federal R&D Spending](data/2019/2019-02-12) | [AAAS](https://www.aaas.org/programs/r-d-budget-and-policy/historical-rd-data) | [New York Times](https://dotearth.blogs.nytimes.com/2014/11/02/panels-latest-warming-warning-misses-global-slumber-party-on-energy-research/) |
+| 8 | `2019-02-19` | [US PhD's Awarded](data/2019/2019-02-19) | [NSF](https://ncses.nsf.gov/pubs/nsf19301/data) | [`#epibookclub`](https://twitter.com/EpiEllie/status/1096876638632140805) |
 ***  
 
 # Useful links
