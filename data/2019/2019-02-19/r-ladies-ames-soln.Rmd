@@ -71,7 +71,7 @@ p <- phd_field %>%
   geom_line(alpha = .3) + 
   facet_wrap(~broad_field)
 p
-ggplotly(p)
+#ggplotly(p)
 ```
 
 ```{r psych}
@@ -80,7 +80,7 @@ p <- phd_field %>% filter(broad_field == "Psychology and social sciences") %>%
   geom_line(alpha = .5) + 
   facet_wrap(~major_field, scales = "free_y")
 p
-ggplotly(p)
+#ggplotly(p)
 ```
 
 ```{r byfield}
@@ -103,5 +103,5 @@ p <- phd_field %>% filter(broad_field == "Other") %>%
   geom_line() + 
   facet_wrap(~major_field)
 p
-ggplotly(p)
+#ggplotly(p)
 ```
