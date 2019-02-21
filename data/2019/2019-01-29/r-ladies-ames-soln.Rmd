@@ -2,7 +2,7 @@
 title: "Milk Production in the US"
 author: "R-Ladies Ames"
 date: "2/5/2019"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -46,14 +46,13 @@ usa <- usa %>% filter(name != "Alaska", name != "Hawaii", jurisdiction_type != "
 usa <- usa %>% filter(name != "District of Columbia")
 
 usa_milk <- usa %>% left_join(state_milk, by = c("name" = "state"))
-usa_milk %>% filter(year == 1970) %>% 
-ggplot() + 
-  geom_sf(aes(fill = milk_produced)) + 
-  scale_fill_distiller(name = paste("Pounds of Milk Year", i), palette = "YlOrBr", direction = 2) + 
-  coord_sf() + 
-  theme_void() + 
-  theme(panel.grid = element_line(color = 'white'))
-}
+# usa_milk %>% filter(year == 1970) %>% 
+# ggplot() + 
+#   geom_sf(aes(fill = milk_produced)) + 
+#   scale_fill_distiller(name = paste("Pounds of Milk Year", i), palette = "YlOrBr", direction = 2) + 
+#   coord_sf() + 
+#   theme_void() + 
+#   theme(panel.grid = element_line(color = 'white'))
 ```
 
 
