@@ -44,7 +44,7 @@ sub_major_fields <- readxl::read_excel("sed17-sr-tab012.xlsx", skip = 3) %>%
 
 # Manually grabbed the broad fields (based off indentation)
 major_fields <- c("Life sciences", 
-                  "Physical Sciences and earth sciences", 
+                  "Physical sciences and earth sciences", 
                   "Mathematics and computer sciences",
                   "Psychology and social sciences", 
                   "Engineering",
@@ -58,8 +58,8 @@ major_fields <- c("Life sciences",
 df <- read_csv("https://raw.githubusercontent.com/eleanormurray/dataviz_challenges/master/sed17-sr-tab013.csv") %>% 
   mutate(Field = case_when(Field == "Othero" ~ "Other",
                            TRUE ~ Field),
-         sub_major_field = case_when(Field %in% major_studies ~ Field,
-                                 TRUE ~ NA_character_),
+         sub_major_field = case_when(Field %in% sub_major_fields ~ Field,
+                                     TRUE ~ NA_character_),
          major_field = case_when(Field %in% major_fields ~ Field,
                                  TRUE ~ NA_character_))
 
@@ -68,7 +68,7 @@ df_field <- df %>%
   fill(major_field, .direction = "down") %>% 
   fill(sub_major_field, .direction = "down") %>% 
   filter(!Field %in% major_fields) %>% 
-  filter(!Field %in% major_studies)
+  filter(!Field %in% sub_major_fields)
 
 # gather the years, remove the commas, and rename to appropriate columns
 df_clean <- df_field %>% 
