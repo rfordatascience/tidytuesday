@@ -36,48 +36,65 @@ library(tidyverse)
 ```
 
 ```{r}
+library(tidyverse)
+
 # Grab just the sub-major (major field) titles for separating the columns
-sub_major_fields <- readxl::read_excel("sed17-sr-tab012.xlsx", skip = 3) %>% 
-  rename(field = `Field of study`) %>% 
-  filter(!is.na(field)) %>% 
+sub_major_fields <- readxl::read_excel("sed17-sr-tab012.xlsx", skip = 3) %>%
+  rename(field = `Field of study`) %>%
+  filter(!is.na(field)) %>%
   pull(field)
 
 # Manually grabbed the broad fields (based off indentation)
-major_fields <- c("Life sciences", 
-                  "Physical sciences and earth sciences", 
-                  "Mathematics and computer sciences",
-                  "Psychology and social sciences", 
-                  "Engineering",
-                  "Education",
-                  "Humanities and arts",
-                  "Other")
+major_fields <- c(
+  "Life sciences",
+  "Physical sciences and earth sciences",
+  "Mathematics and computer sciences",
+  "Psychology and social sciences",
+  "Engineering",
+  "Education",
+  "Humanities and arts",
+  "Other"
+)
 
-# read in Ellie's Dataset
+# read in fiend field dataset
 # create new columns based off the matching of additional major or broad fields
 
-df <- read_csv("https://raw.githubusercontent.com/eleanormurray/dataviz_challenges/master/sed17-sr-tab013.csv") %>% 
-  mutate(Field = case_when(Field == "Othero" ~ "Other",
-                           TRUE ~ Field),
-         sub_major_field = case_when(Field %in% sub_major_fields ~ Field,
-                                     TRUE ~ NA_character_),
-         major_field = case_when(Field %in% major_fields ~ Field,
-                                 TRUE ~ NA_character_))
+df <- readxl::read_excel("sed17-sr-tab013.xlsx", skip = 3) %>%
+  rename(field = `Fine field of study`) %>%
+  mutate(
+    field = case_when(
+      field == "Othero" ~ "Other",
+      TRUE ~ field
+    ),
+    sub_major_field = case_when(
+      field %in% sub_major_fields ~ field,
+      TRUE ~ NA_character_
+    ),
+    major_field = case_when(
+      field %in% major_fields ~ field,
+      TRUE ~ NA_character_
+    )
+  )
+
 
 # Use tidyr::fill() to fill in the repeats of each major/broad field
-df_field <- df %>% 
-  fill(major_field, .direction = "down") %>% 
-  fill(sub_major_field, .direction = "down") %>% 
-  filter(!Field %in% major_fields) %>% 
-  filter(!Field %in% sub_major_fields)
+df_field <- df %>%
+  fill(major_field, .direction = "down") %>%
+  fill(sub_major_field, .direction = "down") %>%
+  filter(!field %in% major_fields) %>%
+  filter(!field %in% sub_major_fields)
 
 # gather the years, remove the commas, and rename to appropriate columns
-df_clean <- df_field %>% 
-  gather(year, n_phds, `2008`:`2017`) %>% 
-  mutate(year = factor(year),
-         n_phds = parse_number(n_phds)) %>%
-  rename(field = Field) %>% 
+df_clean <- df_field %>%
+  gather(year, n_phds, `2008.0`:`2017.0`) %>%
+  mutate(
+    year = factor(as.integer(year)),
+    n_phds = parse_number(n_phds)
+  ) %>%
+  rename(field = field) %>%
   select(broad_field = major_field, major_field = sub_major_field, field, year, n_phds)
-  
+
+df_clean %>% View()
 ```
 
 
