@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, echo=FALSE, message = FALSE, warnings = FALSE}
 library(tidyverse)
-library(gghighlight)
 
-df <- readr::read_rds("2019-02-17_tidy_tuesday_tweets.rds")
+#df <- readr::read_rds("2019-02-17_tidy_tuesday_tweets.rds")
+df <- rtweet::search_tweets("#tidytuesday", n = 18000, include_rts = FALSE)
 
 clean_df <- df %>% 
   filter(is_retweet == "FALSE") %>% 
@@ -98,7 +98,7 @@ sum_df %>%
 
 ***  
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE, results='asis', eval = F}
 for(x in length(clean_df)) {
   cat(paste0("  \n## Submission by ", clean_df$screen_name ,"  \n",
              clean_df$text, "\n\n  ",
@@ -113,5 +113,17 @@ for(x in length(clean_df)) {
              "\n\n",
              "***  \n"))
   }
+```
+
+```{r, echo = FALSE, results = 'asis'}
+for(x in length(clean_df)) {
+  httr::GET(url = paste0("https://publish.twitter.com/oembed?url=https%3A%2F%2Ftwitter.com%2F", 
+                       clean_df$screen_name, 
+                       "%2Fstatus%2F", 
+                       clean_df$status_id)) %>% 
+  httr::content() %>% 
+  .[["html"]] %>% 
+  cat(paste0(., "\n\n"))
+}
 ```
 
