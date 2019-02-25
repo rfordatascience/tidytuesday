@@ -41,7 +41,9 @@ small_trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascien
 |delayed_number          |double    | Percent of trains delayed           |
 
 </br>
-***  
+
+***
+
 </br>
 
 [**`full_trains.csv`**](full_trains.csv)  
