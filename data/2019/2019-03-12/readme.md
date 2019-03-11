@@ -5,7 +5,7 @@ This week's data comes from the [Board Game Geek](http://boardgamegeek.com/) dat
 To follow along with a [fivethirtyeight article](https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/), I limited to only games with at least 50 ratings and for games between 1950 and 2016. This still leaves us with 10,532 games!
 
 ```{r}
-board_games <- readr::read_csv()
+board_games <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-12/board_games.csv")
 ```
 
 ### Data Dictionary
