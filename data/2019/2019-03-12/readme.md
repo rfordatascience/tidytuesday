@@ -34,3 +34,66 @@ board_games <- readr::read_csv("https://raw.githubusercontent.com/rfordatascienc
 |publisher      |character | Comoany/person who published the game, separated by comma        |
 |average_rating |double    | Average rating on Board Games Geek (1-10)        |
 |users_rated    |double    | Number of users that rated the game           |  
+
+
+
+### Data Cleaning
+
+```{r]
+library(bggAnalysis)
+library(tidyverse)
+
+named_games <- BoardGames %>% 
+  janitor::clean_names() %>% 
+  set_names(~str_replace(.x, "details_", "")) %>% 
+  set_names(~str_replace(.x, "attributes_boardgame", "")) %>% 
+  set_names(~str_replace(.x, "stats_", "")) %>% 
+  select(game_id:average, usersrated, averageweight) %>% 
+  filter(!is.na(yearpublished)) %>% 
+  filter(yearpublished <=2016 & yearpublished >= 1950) %>% 
+  filter(usersrated >= 50, game_type == "boardgame")
+
+named_games %>% 
+  group_by(yearpublished) %>% 
+  summarize(count = n()) %>% 
+  ggplot(aes(x = yearpublished, y = count)) +
+  geom_line()
+
+tidy_names <- c("game_id",
+  "game_type",
+  "description",
+  "image",
+  "max_players",
+  "max_playtime",
+  "min_age",
+  "min_players",
+  "min_playtime",
+  "name",
+  "playing_time",
+  "thumbnail",
+  "year_published",
+  "artist",
+  "category",
+  "compilation",
+  "designer",
+  "expansion",
+  "family",
+  "implementation",
+  "integration",
+  "mechanic",
+  "publisher",
+  "attributes_total",
+  "average_rating",
+  "users_rated",
+  "average_weight")
+
+tidy_games <- named_games %>% 
+  set_names(nm = tidy_names) %>% 
+  select(-attributes_total, -game_type, - implementation, -integration, - average_weight)
+
+tidy_games %>% 
+  tomtom::create_dictionary()
+
+tidy_games %>% write_csv("board_games.csv")
+
+```
