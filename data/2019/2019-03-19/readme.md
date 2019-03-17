@@ -1,0 +1,40 @@
+# The Stanford Open Policing Project
+
+Quotes below from the Stanford Open Policing Project [website](https://openpolicing.stanford.edu/).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iwOWcuFjNfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+"On a typical day in the United States, police officers make more than 50,000 traffic stops. Our team is gathering, analyzing, and releasing records from millions of traffic stops by law enforcement agencies across the country. Our goal is to help researchers, journalists, and policymakers investigate and improve interactions between police and the public.
+
+Currently, a comprehensive, national repository detailing interactions between police and the public doesn’t exist. That’s why the Stanford Open Policing Project is collecting and standardizing data on vehicle and pedestrian stops from law enforcement departments across the country — and we’re making that information freely available. We’ve already gathered over 200 million records from dozens of state and local police departments across the country.
+
+We, the Stanford Open Policing Project, are an interdisciplinary team of researchers and journalists at Stanford University. We are committed to combining the academic rigor of statistical analysis with the explanatory power of data journalism."
+
+NBC News recently covered this dataset (March 13, 2019) [here](https://www.nbcnews.com/news/us-news/inside-100-million-police-traffic-stops-new-evidence-racial-bias-n980556).
+
+# Important Notes
+
+This Stanford Open Policing project data will not all be duplicated on our GitHub as there is an abundance of datasets, many of which are larger than the 100 MB upload size allowed by GitHub. If you put together ALL of the datasets there are over 200 MILLION stops. The data is presented as is, and some datasets are missing large chunks of data while many are close to complete. Datasets are separated by state and/or city, in both `.csv` and `.rds` format.
+
+There are a LOT of datasets there and each one has a corresponding data dictionary [here](https://github.com/stanford-policylab/opp/blob/master/data_readme.md).
+
+## Summary level datasets
+
+If that is a bit too much data to dig into, consider checking out the summary-level datasets [here](https://github.com/5harad/openpolicing/tree/master/results/data_for_figures) and the included [figures](https://github.com/5harad/openpolicing/tree/master/results/figures) from the group's recent arXiv paper. If you do use the summary data - please cite their working paper ( [arXiv:1706.05678](https://arxiv.org/abs/1706.05678) ). They have been kind enough to include all the code, data, figures, and even a [tutorial](https://github.com/5harad/openpolicing/blob/master/tutorial/Rtutorial.Rmd)!
+
+These are datasets from the [working paper](https://arxiv.org/pdf/1706.05678.pdf) mentioned above - the parent folder with the full details can be found [here](https://github.com/5harad/openpolicing). Go [here](https://github.com/5harad/openpolicing/tree/master/results/data_for_figures) to skip straight to the results folder to get all the specific `.csv` files.
+
+### Get the summary data
+
+There are additional data files on their github, but a file was "created for convenience which combines data from all the main analyses in the paper".
+
+```{r}
+combined_data <- readr::read_csv("https://raw.githubusercontent.com/5harad/openpolicing/master/results/data_for_figures/combined_data.csv")
+```
+
+No cleaning scripts this week, the summary level data is in great shape!
+
+### Data Dictionary
+
+For the Summary-level datasets - there are a few data-dictionaries, you can find them [here](https://github.com/5harad/openpolicing/tree/master/resources/dictionaries). These can help with conversion of county or district codes to more meaningful data.
