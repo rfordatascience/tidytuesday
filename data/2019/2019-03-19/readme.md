@@ -20,7 +20,7 @@ NBC News recently covered this dataset (March 13, 2019) [here](https://www.nbcne
 
 This Stanford Open Policing project data will not all be duplicated on our GitHub as there is an abundance of datasets, many of which are larger than the 100 MB upload size allowed by GitHub. If you put together ALL of the datasets there are over 200 MILLION stops. The data is presented as is, and some datasets are missing large chunks of data while many are close to complete. Datasets are separated by state and/or city, in both `.csv` and `.rds` format.
 
-There are a LOT of datasets there and each one has a corresponding data dictionary [here](https://github.com/stanford-policylab/opp/blob/master/data_readme.md).
+There are a LOT of [datasets](https://openpolicing.stanford.edu/data/) there and each one has a corresponding data dictionary [here](https://github.com/stanford-policylab/opp/blob/master/data_readme.md).
 
 ## Summary level datasets
 
