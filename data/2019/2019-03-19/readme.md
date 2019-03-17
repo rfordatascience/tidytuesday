@@ -16,6 +16,9 @@ We, the Stanford Open Policing Project, are an interdisciplinary team of researc
 
 NBC News recently covered this dataset (March 13, 2019) [here](https://www.nbcnews.com/news/us-news/inside-100-million-police-traffic-stops-new-evidence-racial-bias-n980556).
 
+H/T to both [DJ Patil](https://twitter.com/dpatil/status/1106177431671582721) and [
+Alex Chohlas-Wood `@LX_CW`](https://twitter.com/LX_CW/status/1105995928740098048) for making us aware of the dataset, and credit to the [15 people](https://openpolicing.stanford.edu/) who helped contribute to collecting/cleaning/etc this data.
+
 # Important Notes
 
 This Stanford Open Policing project data will not all be duplicated on our GitHub as there is an abundance of datasets, many of which are larger than the 100 MB upload size allowed by GitHub. If you put together ALL of the datasets there are over 200 MILLION stops. The data is presented as is, and some datasets are missing large chunks of data while many are close to complete. Datasets are separated by state and/or city, in both `.csv` and `.rds` format.
