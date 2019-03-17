@@ -33,7 +33,7 @@ These are datasets from the [working paper](https://arxiv.org/pdf/1706.05678.pdf
 
 ### Get the summary data
 
-There are additional data files on their github, but a file was "created for convenience which combines data from all the main analyses in the paper".
+There are additional [data files](https://github.com/5harad/openpolicing/tree/master/results/data_for_figures) on their github, but a file was "created for convenience which combines data from all the main analyses in the paper".
 
 ```{r}
 combined_data <- readr::read_csv("https://raw.githubusercontent.com/5harad/openpolicing/master/results/data_for_figures/combined_data.csv")
