@@ -41,3 +41,17 @@ No cleaning scripts this week, the summary level data is in great shape!
 ### Data Dictionary
 
 For the Summary-level datasets - there are a few data-dictionaries, you can find them [here](https://github.com/5harad/openpolicing/tree/master/resources/dictionaries). These can help with conversion of county or district codes to more meaningful data.
+
+|variable                     |class     |description |
+|:----------------------------|:---------|:-----------|
+|location                     |character | County/District location for each incidence |
+|state                        |character | State for each incidence           |
+|driver_race                  |character | Driver's race           |
+|stops_per_year               |double    | Number of stops per year          |
+|stop_rate                    |double    | Stop rate (stop = police stop of a vehicle) (%)           |
+|search_rate                  |double    | Search rate (%)           |
+|consent_search_rate          |double    | Consent to search rate (%)           |
+|arrest_rate                  |double    | Arrest rate (%)           |
+|citation_rate_speeding_stops |double    | Citation rate for speeding stops (%)           |
+|hit_rate                     |double    | Hit rate (%): the proportion of searches that successfully turn up contraband |
+|inferred_threshold           |double    | Inferred threshold - based off the threshold test - please see section 4.2 of the paper. |
