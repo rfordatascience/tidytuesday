@@ -1,10 +1,13 @@
 # The Stanford Open Policing Project
 
-Quotes below from the Stanford Open Policing Project [website](https://openpolicing.stanford.edu/).
+The Stanford Open Policing Project Summary Video can be seen below.
+<br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iwOWcuFjNfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![The Stanford Open Policing Project Summary Video](https://img.youtube.com/vi/iwOWcuFjNfw/0.jpg)](https://www.youtube.com/watch?v=iwOWcuFjNfw)
 <br>
-<br>
+
+Quotes below from the Stanford Open Policing Project [website](https://openpolicing.stanford.edu/):
+
 "On a typical day in the United States, police officers make more than 50,000 traffic stops. Our team is gathering, analyzing, and releasing records from millions of traffic stops by law enforcement agencies across the country. Our goal is to help researchers, journalists, and policymakers investigate and improve interactions between police and the public.
 
 Currently, a comprehensive, national repository detailing interactions between police and the public doesn’t exist. That’s why the Stanford Open Policing Project is collecting and standardizing data on vehicle and pedestrian stops from law enforcement departments across the country — and we’re making that information freely available. We’ve already gathered over 200 million records from dozens of state and local police departments across the country.
