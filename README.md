@@ -54,6 +54,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 10 | `2019-03-05` | [Women in the Workplace](data/2019/2019-03-05) | [Census Bureau](https://www.census.gov/data/tables/time-series/demo/industry-occupation/median-earnings.html) & [Bureau of Labor](https://www.bls.gov/opub/ted/2012/ted_20121123.htm) | [Census Bureau](https://www.census.gov/library/stories/2018/05/gender-pay-gap-in-finance-sales.html) |
 | 11 | `2019-03-12` | [Board Games](data/2019/2019-03-12) | [Board Game Geeks](https://boardgamegeek.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/) |
 | 12 | `2019-03-19` | [Stanford Open Policing Project](data/2019/2019-03-19) | [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/) <br> [SOPP - arXiv:1706.05678](https://github.com/5harad/openpolicing) | [SOPP - arXiv:1706.05678](https://arxiv.org/abs/1706.05678) |
+| 13 | `2019-03-26` | [Seattle Pet Names](data/2019/2019-03-26) | [seattle.gov](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb) | [Curbed Seattle](https://seattle.curbed.com/2019/1/2/18165658/seattle-popular-pet-names-2018) |
 ***  
 
 # Useful links
