@@ -1,0 +1,57 @@
+---
+title:  "R-Ladies Ames Solution"
+author: "Sam Tyner, Amanda Rae"
+date: "3/19/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r getdat}
+library(tidyverse)
+combined_data <- read_csv("https://raw.githubusercontent.com/5harad/openpolicing/master/results/data_for_figures/combined_data.csv")
+head(combined_data)
+```
+
+Since we're in Iowa, let's isolate the Iowa data 
+
+```{r iowadat}
+iowa <- filter(combined_data, state == "IA")
+iowa
+```
+
+No Iowa. `r emo::ji("sad")`. 
+
+Dowload Iowa data directly from [the SOPP website](https://openpolicing.stanford.edu/data/). (Not on Gitub because it's too large.) 
+
+```{r iowadat2}
+iowa <- read_rds("iowa.rds")
+glimpse(iowa)
+summary(iowa$date)
+dim(iowa)
+```
+
+Lets only get the last 3 or so years in the data since there are over 2 million rows. 
+
+```{r last5}
+library(lubridate)
+iowa %>% mutate(year = year(date)) %>% 
+  filter(year >= 2013, !is.na(date)) -> iowa
+head(iowa)
+dim(iowa)
+```
+
+View the missingness with [`visdat`](http://dx.doi.org/10.21105/joss.00355). 
+
+```{r miss}
+library(visdat)
+vis_dat(iowa, warn_large_data = FALSE)
+```
+
+```{r location}
+count(iowa, location)
+count(iowa, department_name)
+```
+
