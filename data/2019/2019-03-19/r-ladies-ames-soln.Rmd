@@ -24,7 +24,7 @@ iowa
 
 No Iowa. `r emo::ji("sad")`. 
 
-Dowload Iowa data directly from [the SOPP website](https://openpolicing.stanford.edu/data/)
+Dowload Iowa data directly from [the SOPP website](https://openpolicing.stanford.edu/data/). (Not on Gitub because it's too large.) 
 
 ```{r iowadat2}
 iowa <- read_rds("iowa.rds")
