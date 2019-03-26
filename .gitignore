@@ -35,3 +35,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 .Rproj.user
+
+# large data files 
+data/2019/2019-03-19/iowa.rds
