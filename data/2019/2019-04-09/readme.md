@@ -40,6 +40,7 @@ grand_slam_timeline <- readr::read_csv("https://raw.githubusercontent.com/rforda
 # Data Dictionaries
 
 * `grand_slam_timeline`  
+
 |variable   |class     |description |
 |:----------|:---------|:-----------|
 |player     |character | Player Name         |
@@ -49,6 +50,7 @@ grand_slam_timeline <- readr::read_csv("https://raw.githubusercontent.com/rforda
 |gender     |character | Male/Female for this dataset  |
 
 * `grand_slams`  
+
 |variable          |class     |description |
 |:-----------------|:---------|:-----------|
 |year              |integer   | Tournament Year         |
@@ -59,6 +61,7 @@ grand_slam_timeline <- readr::read_csv("https://raw.githubusercontent.com/rforda
 |gender            |character | Male/Female for this dataset         |
 
 * `player_dob`    
+
 |variable            |class     |description |
 |:-------------------|:---------|:-----------|
 |name                |character | Player name         |
