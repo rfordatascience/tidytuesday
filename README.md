@@ -56,7 +56,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 12 | `2019-03-19` | [Stanford Open Policing Project](data/2019/2019-03-19) | [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/) <br> [SOPP - arXiv:1706.05678](https://github.com/5harad/openpolicing) | [SOPP - arXiv:1706.05678](https://arxiv.org/abs/1706.05678) |
 | 13 | `2019-03-26` | [Seattle Pet Names](data/2019/2019-03-26) | [seattle.gov](https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb) | [Curbed Seattle](https://seattle.curbed.com/2019/1/2/18165658/seattle-popular-pet-names-2018) |
 | 14 | `2019-04-02` | [Seattle Bike Traffic](data/2019/2019-04-02) | [seattle.gov](http://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters) | [Seattle Times](https://www.seattletimes.com/seattle-news/transportation/what-we-can-learn-from-seattles-bike-counter-data/) |
-
+| 15 | `2019-04-09` | [Tennis Grand Slam Champions](data/2019/2019-04-09) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions) | [Financial Times](https://ig.ft.com/sites/visual-history-of-womens-tennis/) |
 ***  
 
 # Useful links
