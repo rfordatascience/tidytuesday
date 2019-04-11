@@ -2,7 +2,7 @@
 
 The data behind the story [The Economic Guide To Picking A College Major](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/).
 
-[Raw data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-10-16/recent-grads.csv)
+[Raw data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018/2018-10-16/recent-grads.csv)
 
 All data is from American Community Survey 2010-2012 Public Use Microdata Series.
 
