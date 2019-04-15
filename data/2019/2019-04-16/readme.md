@@ -1,8 +1,6 @@
-# Economist's "Mistakes, we’ve drawn a few"
+# Economist's ["Mistakes, we’ve drawn a few"](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
 
-https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368
-
-Sarah Leo went through the Economist's archives and found 7 examples of charts that were in need of improvement.
+Sarah Leo from The Economist went through the Economist's archives and found 7 examples of charts that were in need of improvement.
 
 "I grouped our crimes against data visualisation into three categories: charts that are (1) misleading, (2) confusing and (3) failing to make a point. For each, I suggest an improved version that requires a similar amount of space — an important consideration when drawing charts to be published in print."
 
