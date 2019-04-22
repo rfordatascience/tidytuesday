@@ -58,6 +58,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 14 | `2019-04-02` | [Seattle Bike Traffic](data/2019/2019-04-02) | [seattle.gov](http://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters) | [Seattle Times](https://www.seattletimes.com/seattle-news/transportation/what-we-can-learn-from-seattles-bike-counter-data/) |
 | 15 | `2019-04-09` | [Tennis Grand Slam Champions](data/2019/2019-04-09) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions) | [Financial Times](https://ig.ft.com/sites/visual-history-of-womens-tennis/) |
 | 16 | `2019-04-16` | [The Economist Data Viz Mistakes](data/2019/2019-04-16) | [The Economist](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) | [The Economist](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) |
+| 17 | `2019-04-23` | [Anime Data](data/2019/2019-04-23) | [MyAnimeList](https://www.kaggle.com/aludosan/myanimelist-anime-dataset-as-20190204) | [MyAnimeList](https://myanimelist.net/topanime.php?type=bypopularity) |
 
 
 ***  
