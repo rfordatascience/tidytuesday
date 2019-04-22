@@ -9,7 +9,7 @@ Lots of interesting ways to explore the data this week!
 # Get the Data
 
 ```
-tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-22/tidy_anime.csv")
+tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/tidy_anime.csv")
 
 ```
 
