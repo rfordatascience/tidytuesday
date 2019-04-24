@@ -54,7 +54,7 @@ Heads up the dataset is about 97 mb - if you want to free up some space, drop th
 library(tidyverse)
 library(here)
 
-raw_df <- read_csv(here("2019", "2019-04-22", "Anime.csv"))
+raw_df <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/raw_anime.csv")
 
 clean_df <- raw_df %>% 
   # Producers
