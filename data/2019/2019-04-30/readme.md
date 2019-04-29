@@ -99,7 +99,7 @@ raw_birds %>%
   group_by(g_s) %>% 
   count(sort = TRUE)
 
-raw_light %>% write_csv(here("2019", "2019-04-30", "bird_collisions.csv"))
-clean_birds %>% write_csv(here("2019", "2019-04-30", "mp_light.csv"))
+clean_birds %>% write_csv(here("2019", "2019-04-30", "bird_collisions.csv"))
+raw_light %>% write_csv(here("2019", "2019-04-30", "mp_light.csv"))
 
 ```
