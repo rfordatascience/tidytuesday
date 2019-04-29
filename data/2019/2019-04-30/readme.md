@@ -6,7 +6,9 @@
 
 > "One of the few means to examine species-specific dynamics of social biology during nocturnal bird migration is through the study of short vocalizations made in flight by migrating birds. Many species of birds, especially passerines (order Passeriformes), produce such vocal signals during their nocturnal migrations. These calls (hereafter, ‘flight calls’) are hypothesized to function as important social cues for migrating birds that may aid in orientation, navigation and other decision-making behaviours.not all nocturnally migratory species make flight calls, raising the possibility that different lineages of migratory birds vary in the degree to which social cues and collective decisions are important for accomplishing migration. "
 
-I have only uploaded the raw and tamed Chicago dataset as it is the most complete, but you can access the full raw data [here](https://datadryad.org/resource/doi:10.5061/dryad.8rr0498).
+I have only uploaded the raw and tamed Chicago dataset as it is the most complete, but you can access the full raw data [here](https://datadryad.org/resource/doi:10.5061/dryad.8rr0498). 
+
+Each row in the `bird_collisions.csv` dataset accounts for a single observation of a bird collision. You can aggregate by species/genus, time, or other factors.
 
 h/t to [Data is Plural 2019/04/10](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
 
