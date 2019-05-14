@@ -79,11 +79,11 @@ chem_pubs <- read_csv(here("2019", "2019-05-14", "Chemistry publication record.c
 
 med_pubs <- read_csv(here("2019", "2019-05-14", "Medicine publication record.csv")) %>% 
   janitor::clean_names() %>% 
-  mutate(category = "chemistry")
+  mutate(category = "medicine")
 
 physics_pubs <- read_csv(here("2019", "2019-05-14", "Physics publication record.csv")) %>% 
   janitor::clean_names() %>% 
-  mutate(category = "chemistry")
+  mutate(category = "physics")
 
 all_pubs <- bind_rows(chem_pubs, med_pubs, physics_pubs)
 
