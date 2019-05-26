@@ -60,6 +60,9 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 16 | `2019-04-16` | [The Economist Data Viz Mistakes](data/2019/2019-04-16) | [The Economist](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) | [The Economist](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) |
 | 17 | `2019-04-23` | [Anime Data](data/2019/2019-04-23) | [MyAnimeList](https://www.kaggle.com/aludosan/myanimelist-anime-dataset-as-20190204) | [MyAnimeList](https://myanimelist.net/topanime.php?type=bypopularity) |
 | 18 | `2019-04-30` | [Chicago Bird Collisions](data/2019/2019-04-30) | [Winger et al, 2019](https://datadryad.org/resource/doi:10.5061/dryad.8rr0498) | [Winger et al, 2019](https://royalsocietypublishing.org/doi/10.1098/rspb.2019.0364#d3e550) |
+| 19 | `2019-05-07` | [Global Student to Teacher Ratios](data/2019/2019-05-07) | [UNESCO](http://data.uis.unesco.org/index.aspx?queryid=180) | [Center for Public Education](http://www.centerforpubliceducation.org/research/class-size-and-student-achievement) |
+| 19 | `2019-05-14` | [Nobel Prize Winners](data/2019/2019-05-14) | [Kaggle](https://www.kaggle.com/nobelfoundation/nobel-laureates) | [The Economist](https://www.economist.com/graphic-detail/2016/10/03/greying-of-the-nobel-laureates) |
+| 20 | `2019-05-21` | [Global Plastic Waste](data/2019/2019-05-21) | [Our World In Data](https://ourworldindata.org/plastic-pollution) | [Our World in Data](https://ourworldindata.org/plastic-pollution) |
 
 ***  
 
