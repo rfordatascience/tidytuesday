@@ -8,18 +8,19 @@ An article with some interesting graphs (different dataset) can be found [here](
 # Get the data!
 
 ```
-wine_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-28/winemag-data.csv")
+wine_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-28/winemag-data-130k-v2.csv")
 ```
 
 # Data Dictionary
 
 
-### `winemag-data.csv`
+### `winemag-data-130k-v2.csv`
 
 |variable              |class     |description |
 |:---|:---|:-----------|
 |country               |character | Country of origin |
 |description           |character | Flavors and taste profile as written by reviewer |
+|designation | character | The vineyard within the winery where the grapes that made the wine are from |
 |points                |double    | The number of points WineEnthusiast rated the wine on a scale of 1-100 (though they say they only post reviews for wines that score >=80) |
 |price                 |double    | The cost for a bottle of the wine |
 |province              |character | The province or state that the wine is from|
