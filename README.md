@@ -64,6 +64,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 20 | `2019-05-14` | [Nobel Prize Winners](data/2019/2019-05-14) | [Kaggle](https://www.kaggle.com/nobelfoundation/nobel-laureates) | [The Economist](https://www.economist.com/graphic-detail/2016/10/03/greying-of-the-nobel-laureates) |
 | 21 | `2019-05-21` | [Global Plastic Waste](data/2019/2019-05-21) | [Our World In Data](https://ourworldindata.org/plastic-pollution) | [Our World in Data](https://ourworldindata.org/plastic-pollution) |
 | 22 | `2019-05-28` | [Wine Ratings](data/2019/2019-05-28) | [Kaggle](https://www.kaggle.com/zynicide/wine-reviews) | [Vivino](https://www.vivino.com/wine-news/how-much-does-a-good-bottle-of-wine-cost) |
+| 23 | `2019-06-04` | [Ramen Ratings](data/2019/2019-06-04) | [TheRamenRater.com](https://www.theramenrater.com/resources-2/the-list/) | [Food Republic](https://www.foodrepublic.com/2014/12/02/theres-a-website-that-has-rated-1518-bowls-of-instant-ramen/) |
 
 ***  
 
