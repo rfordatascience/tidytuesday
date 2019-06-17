@@ -1,4 +1,4 @@
-# Meteorite Impacts
+# Christmas Bird Counts
 
 Every year around Christmas time, since 1921, birdwatchers in the Hamilton area of Ontario have gone out and counted all the birds they see or hear in a day.
 
