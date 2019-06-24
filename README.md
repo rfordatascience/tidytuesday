@@ -67,6 +67,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 23 | `2019-06-04` | [Ramen Ratings](data/2019/2019-06-04) | [TheRamenRater.com](https://www.theramenrater.com/resources-2/the-list/) | [Food Republic](https://www.foodrepublic.com/2014/12/02/theres-a-website-that-has-rated-1518-bowls-of-instant-ramen/) |
 | 24 | `2019-06-11` | [Meteorites](data/2019/2019-06-11) | [NASA](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/data) | [The Guardian - Meteorite map](https://www.theguardian.com/news/datablog/interactive/2013/feb/15/meteorite-fall-map) |
 | 25 | `2019-06-18` | [Christmas Bird Counts](data/2019/2019-06-18) | [Bird Studies Canada](https://www.birdscanada.org/index.jsp) | [Hamilton Christmas Bird Count](https://sharleenw.rbind.io/post/hamilton_cbc_part_1/hamilton-christmas-bird-count-part-1/) |
+| 26 | `2019-06-25` | [Global UFO Sightings](data/2019/2019-06-25) | [NUFORC](http://www.nuforc.org/) | [Example Plots](https://www.kaggle.com/jonathanbouchet/e-t-phone-home-but-mostly-after-8-00pm) |
 
 ***  
 
