@@ -58,8 +58,9 @@ total_sum_df <- clean_df %>%
 metadata_df <- clean_df %>% 
   select(franchise:revenue_category, original_media:owners, -total_revenue)
 
-final_df <- left_join(sum_df, metadata_df, by = c("franchise", "revenue_category"))
-
+final_df <- left_join(sum_df, metadata_df, 
+                      by = c("franchise", "revenue_category")) %>% 
+  distinct(.keep_all = TRUE)
 
 final_df
 write_csv(final_df, "media_franchises.csv")
