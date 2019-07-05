@@ -2,7 +2,7 @@
 
 ## A weekly social data project in R
 
-A weekly data project aimed at the R ecosystem. An emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem.
+A weekly data project aimed at the R ecosystem. As this project was borne out of the `R for Data Science` textbook, an emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results.
 
 ***
 
@@ -115,5 +115,3 @@ Only books available freely online are sourced here. Feel free to add to the lis
 | [:link:](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
 | [:link:](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
  [:link:](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
-
-
