@@ -2,11 +2,11 @@
 
 ## A weekly social data project in R
 
-A weekly data project aimed at the R ecosystem. An emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem.
+A weekly data project aimed at the R ecosystem. As this project was borne out of the `R4DS Online Learning Community` and the `R for Data Science` textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results.
 
 ***
 
-Join the R4DS online learning community in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other’s work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
+Join the `R4DS Online Learning Community` in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other’s work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
 
 We will have many sources of data and want to emphasize that **no causation** is implied. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our guidelines are to use the data provided to practice your data tidying and plotting techniques. Participants are invited to consider for themselves what nuancing factors might underlie these relationships. 
 
@@ -19,7 +19,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 1. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice **data visualization** and **basic data wrangling** in R.  
 2. Again, the data is what it is! You are welcome to explore beyond the provided dataset, but the data is provided as a "toy" dataset to practice techniques on.  
 3. This is NOT about criticizing the original article or graph. Real people made the graphs, collected or acquired the data! Focus on the provided dataset, learning, and improving your techniques in R.  
-4. This is NOT about criticizing or tearing down your fellow #RStats practitioners! Be supportive and kind to each other! Like other's posts and help promote the #RStats community!  
+4. This is NOT about criticizing or tearing down your fellow `#RStats` practitioners or their code! Be supportive and kind to each other! Like other's posts and help promote the `#RStats` community!  
 4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
 5. Include a picture of the visualisation when you post to Twitter.  
 6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
@@ -69,6 +69,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 25 | `2019-06-18` | [Christmas Bird Counts](data/2019/2019-06-18) | [Bird Studies Canada](https://www.birdscanada.org/index.jsp) | [Hamilton Christmas Bird Count](https://sharleenw.rbind.io/post/hamilton_cbc_part_1/hamilton-christmas-bird-count-part-1/) |
 | 26 | `2019-06-25` | [Global UFO Sightings](data/2019/2019-06-25) | [NUFORC](http://www.nuforc.org/) | [Example Plots](https://www.kaggle.com/jonathanbouchet/e-t-phone-home-but-mostly-after-8-00pm) |
 | 27 | `2019-07-02` | [Media Franchise Revenues](data/2019/2019-07-02) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises) | [reddit/dataisbeautiful post](https://www.reddit.com/r/dataisbeautiful/comments/c53540/highest_grossing_media_franchises_oc/) |
+| 28 | `2019-07-09` | [Women's World Cup](data/2019/2019-07-09) | [data.world](https://data.world/sportsvizsunday/womens-world-cup-data) | [Wikipedia](https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup) |
 
 ***  
 
@@ -115,5 +116,3 @@ Only books available freely online are sourced here. Feel free to add to the lis
 | [:link:](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
 | [:link:](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
  [:link:](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
-
-
