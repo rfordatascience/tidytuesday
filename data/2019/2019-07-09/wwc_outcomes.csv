@@ -1,0 +1,569 @@
+year,team,score,round,yearly_game_id,team_num,win_status
+1991,CHN,4,Group,1,1,Won
+1991,NOR,0,Group,1,2,Lost
+1991,DEN,3,Group,2,1,Won
+1991,NZL,0,Group,2,2,Lost
+1991,JPN,0,Group,3,1,Lost
+1991,BRA,1,Group,3,2,Won
+1991,GER,4,Group,4,1,Won
+1991,NGA,0,Group,4,2,Lost
+1991,SWE,2,Group,5,1,Lost
+1991,USA,3,Group,5,2,Won
+1991,TPE,0,Group,6,1,Lost
+1991,ITA,5,Group,6,2,Won
+1991,NOR,4,Group,7,1,Won
+1991,NZL,0,Group,7,2,Lost
+1991,CHN,2,Group,8,1,Tie
+1991,DEN,2,Group,8,2,Tie
+1991,JPN,0,Group,9,1,Lost
+1991,SWE,8,Group,9,2,Won
+1991,ITA,1,Group,10,1,Won
+1991,NGA,0,Group,10,2,Lost
+1991,BRA,0,Group,11,1,Lost
+1991,USA,5,Group,11,2,Won
+1991,TPE,0,Group,12,1,Lost
+1991,GER,3,Group,12,2,Won
+1991,JPN,0,Group,13,1,Lost
+1991,USA,3,Group,13,2,Won
+1991,CHN,4,Group,14,1,Won
+1991,NZL,1,Group,14,2,Lost
+1991,BRA,0,Group,15,1,Lost
+1991,SWE,2,Group,15,2,Won
+1991,NOR,2,Group,16,1,Won
+1991,DEN,1,Group,16,2,Lost
+1991,TPE,2,Group,17,1,Won
+1991,NGA,0,Group,17,2,Lost
+1991,ITA,0,Group,18,1,Lost
+1991,GER,1,Group,18,2,Won
+1991,CHN,0,Quarter Final,19,1,Lost
+1991,SWE,1,Quarter Final,19,2,Won
+1991,USA,7,Quarter Final,20,1,Won
+1991,TPE,0,Quarter Final,20,2,Lost
+1991,DEN,1,Quarter Final,21,1,Lost
+1991,GER,2,Quarter Final,21,2,Won
+1991,NOR,3,Quarter Final,22,1,Won
+1991,ITA,2,Quarter Final,22,2,Lost
+1991,GER,2,Semi Final,23,1,Lost
+1991,USA,5,Semi Final,23,2,Won
+1991,SWE,1,Semi Final,24,1,Lost
+1991,NOR,4,Semi Final,24,2,Won
+1991,SWE,4,Third Place Playoff,25,1,Won
+1991,GER,0,Third Place Playoff,25,2,Lost
+1991,NOR,1,Final,26,1,Lost
+1991,USA,2,Final,26,2,Won
+1995,GER,1,Group,1,1,Won
+1995,JPN,0,Group,1,2,Lost
+1995,SWE,0,Group,2,1,Lost
+1995,BRA,1,Group,2,2,Won
+1995,NOR,8,Group,3,1,Won
+1995,NGA,0,Group,3,2,Lost
+1995,ENG,3,Group,4,1,Won
+1995,CAN,2,Group,4,2,Lost
+1995,USA,3,Group,5,1,Tie
+1995,CHN,3,Group,5,2,Tie
+1995,DEN,5,Group,6,1,Won
+1995,AUS,0,Group,6,2,Lost
+1995,SWE,3,Group,7,1,Won
+1995,GER,2,Group,7,2,Lost
+1995,BRA,1,Group,8,1,Lost
+1995,JPN,2,Group,8,2,Won
+1995,NOR,2,Group,9,1,Won
+1995,ENG,0,Group,9,2,Lost
+1995,NGA,3,Group,10,1,Tie
+1995,CAN,3,Group,10,2,Tie
+1995,USA,2,Group,11,1,Won
+1995,DEN,0,Group,11,2,Lost
+1995,CHN,4,Group,12,1,Won
+1995,AUS,2,Group,12,2,Lost
+1995,SWE,2,Group,13,1,Won
+1995,JPN,0,Group,13,2,Lost
+1995,BRA,1,Group,14,1,Lost
+1995,GER,6,Group,14,2,Won
+1995,NOR,7,Group,15,1,Won
+1995,CAN,0,Group,15,2,Lost
+1995,NGA,2,Group,16,1,Lost
+1995,ENG,3,Group,16,2,Won
+1995,USA,4,Group,17,1,Won
+1995,AUS,1,Group,17,2,Lost
+1995,CHN,3,Group,18,1,Won
+1995,DEN,1,Group,18,2,Lost
+1995,JPN,0,Quarter Final,19,1,Lost
+1995,USA,4,Quarter Final,19,2,Won
+1995,NOR,3,Quarter Final,20,1,Won
+1995,DEN,1,Quarter Final,20,2,Lost
+1995,GER,3,Quarter Final,21,1,Won
+1995,ENG,0,Quarter Final,21,2,Lost
+1995,SWE,1,Quarter Final,22,1,Lost
+1995,CHN,1,Quarter Final,22,2,Won
+1995,USA,0,Semi Final,23,1,Lost
+1995,NOR,1,Semi Final,23,2,Won
+1995,GER,1,Semi Final,24,1,Won
+1995,CHN,0,Semi Final,24,2,Lost
+1995,CHN,0,Third Place Playoff,25,1,Lost
+1995,USA,2,Third Place Playoff,25,2,Won
+1995,GER,0,Final,26,1,Lost
+1995,NOR,2,Final,26,2,Won
+1999,USA,3,Group,1,1,Won
+1999,DEN,0,Group,1,2,Lost
+1999,CHN,2,Group,2,1,Won
+1999,SWE,1,Group,2,2,Lost
+1999,BRA,7,Group,3,1,Won
+1999,MEX,1,Group,3,2,Lost
+1999,JPN,1,Group,4,1,Tie
+1999,CAN,1,Group,4,2,Tie
+1999,NOR,2,Group,5,1,Won
+1999,RUS,1,Group,5,2,Lost
+1999,AUS,1,Group,6,1,Tie
+1999,GHA,1,Group,6,2,Tie
+1999,GER,1,Group,7,1,Tie
+1999,ITA,1,Group,7,2,Tie
+1999,PRK,1,Group,8,1,Lost
+1999,NGA,2,Group,8,2,Won
+1999,JPN,0,Group,9,1,Lost
+1999,RUS,5,Group,9,2,Won
+1999,CHN,7,Group,10,1,Won
+1999,GHA,0,Group,10,2,Lost
+1999,NOR,7,Group,11,1,Won
+1999,CAN,1,Group,11,2,Lost
+1999,AUS,1,Group,12,1,Lost
+1999,SWE,3,Group,12,2,Won
+1999,PRK,3,Group,13,1,Won
+1999,DEN,1,Group,13,2,Lost
+1999,GER,6,Group,14,1,Won
+1999,MEX,0,Group,14,2,Lost
+1999,BRA,2,Group,15,1,Won
+1999,ITA,0,Group,15,2,Lost
+1999,USA,7,Group,16,1,Won
+1999,NGA,1,Group,16,2,Lost
+1999,CAN,1,Group,17,1,Lost
+1999,RUS,4,Group,17,2,Won
+1999,CHN,3,Group,18,1,Won
+1999,AUS,1,Group,18,2,Lost
+1999,GHA,0,Group,19,1,Lost
+1999,SWE,2,Group,19,2,Won
+1999,NOR,4,Group,20,1,Won
+1999,JPN,0,Group,20,2,Lost
+1999,MEX,0,Group,21,1,Lost
+1999,ITA,2,Group,21,2,Won
+1999,GER,3,Group,22,1,Tie
+1999,BRA,3,Group,22,2,Tie
+1999,USA,3,Group,23,1,Won
+1999,PRK,0,Group,23,2,Lost
+1999,NGA,2,Group,24,1,Won
+1999,DEN,0,Group,24,2,Lost
+1999,CHN,2,Quarter Final,25,1,Won
+1999,RUS,0,Quarter Final,25,2,Lost
+1999,NOR,3,Quarter Final,26,1,Won
+1999,SWE,1,Quarter Final,26,2,Lost
+1999,USA,3,Quarter Final,27,1,Won
+1999,GER,2,Quarter Final,27,2,Lost
+1999,BRA,4,Quarter Final,28,1,Won
+1999,NGA,3,Quarter Final,28,2,Lost
+1999,NOR,0,Semi Final,29,1,Lost
+1999,CHN,5,Semi Final,29,2,Won
+1999,USA,2,Semi Final,30,1,Won
+1999,BRA,0,Semi Final,30,2,Lost
+1999,BRA,0,Third Place Playoff,31,1,Won
+1999,NOR,0,Third Place Playoff,31,2,Lost
+1999,USA,0,Final,32,1,Won
+1999,CHN,0,Final,32,2,Lost
+2003,NOR,2,Group,1,1,Won
+2003,FRA,0,Group,1,2,Lost
+2003,NGA,0,Group,2,1,Lost
+2003,PRK,3,Group,2,2,Won
+2003,GER,4,Group,3,1,Won
+2003,CAN,1,Group,3,2,Lost
+2003,JPN,6,Group,4,1,Won
+2003,ARG,0,Group,4,2,Lost
+2003,USA,3,Group,5,1,Won
+2003,SWE,1,Group,5,2,Lost
+2003,AUS,1,Group,6,1,Lost
+2003,RUS,2,Group,6,2,Won
+2003,BRA,3,Group,7,1,Won
+2003,KOR,0,Group,7,2,Lost
+2003,CHN,1,Group,8,1,Won
+2003,GHA,0,Group,8,2,Lost
+2003,NOR,1,Group,9,1,Lost
+2003,BRA,4,Group,9,2,Won
+2003,GER,3,Group,10,1,Won
+2003,JPN,0,Group,10,2,Lost
+2003,FRA,1,Group,11,1,Won
+2003,KOR,0,Group,11,2,Lost
+2003,CAN,3,Group,12,1,Won
+2003,ARG,0,Group,12,2,Lost
+2003,GHA,0,Group,13,1,Lost
+2003,RUS,3,Group,13,2,Won
+2003,SWE,1,Group,14,1,Won
+2003,PRK,0,Group,14,2,Lost
+2003,USA,5,Group,15,1,Won
+2003,NGA,0,Group,15,2,Lost
+2003,CHN,1,Group,16,1,Tie
+2003,AUS,1,Group,16,2,Tie
+2003,KOR,1,Group,17,1,Lost
+2003,NOR,7,Group,17,2,Won
+2003,CAN,3,Group,18,1,Won
+2003,JPN,1,Group,18,2,Lost
+2003,FRA,1,Group,19,1,Tie
+2003,BRA,1,Group,19,2,Tie
+2003,ARG,1,Group,20,1,Lost
+2003,GER,6,Group,20,2,Won
+2003,SWE,3,Group,21,1,Won
+2003,NGA,0,Group,21,2,Lost
+2003,GHA,2,Group,22,1,Won
+2003,AUS,1,Group,22,2,Lost
+2003,PRK,0,Group,23,1,Lost
+2003,USA,3,Group,23,2,Won
+2003,CHN,1,Group,24,1,Won
+2003,RUS,0,Group,24,2,Lost
+2003,USA,1,Quarter Final,25,1,Won
+2003,NOR,0,Quarter Final,25,2,Lost
+2003,BRA,1,Quarter Final,26,1,Lost
+2003,SWE,2,Quarter Final,26,2,Won
+2003,GER,7,Quarter Final,27,1,Won
+2003,RUS,1,Quarter Final,27,2,Lost
+2003,CHN,0,Quarter Final,28,1,Lost
+2003,CAN,1,Quarter Final,28,2,Won
+2003,USA,0,Semi Final,29,1,Lost
+2003,GER,3,Semi Final,29,2,Won
+2003,SWE,2,Semi Final,30,1,Won
+2003,CAN,1,Semi Final,30,2,Lost
+2003,USA,3,Third Place Playoff,31,1,Won
+2003,CAN,1,Third Place Playoff,31,2,Lost
+2003,GER,2,Final,32,1,Won
+2003,SWE,1,Final,32,2,Lost
+2007,GER,11,Group,1,1,Won
+2007,ARG,0,Group,1,2,Lost
+2007,USA,2,Group,2,1,Tie
+2007,PRK,2,Group,2,2,Tie
+2007,JPN,2,Group,3,1,Tie
+2007,ENG,2,Group,3,2,Tie
+2007,NGA,1,Group,4,1,Tie
+2007,SWE,1,Group,4,2,Tie
+2007,GHA,1,Group,5,1,Lost
+2007,AUS,4,Group,5,2,Won
+2007,NZL,0,Group,6,1,Lost
+2007,BRA,5,Group,6,2,Won
+2007,NOR,2,Group,7,1,Won
+2007,CAN,1,Group,7,2,Lost
+2007,CHN,3,Group,8,1,Won
+2007,DEN,2,Group,8,2,Lost
+2007,ARG,0,Group,9,1,Lost
+2007,JPN,1,Group,9,2,Won
+2007,SWE,0,Group,10,1,Lost
+2007,USA,2,Group,10,2,Won
+2007,ENG,0,Group,11,1,Tie
+2007,GER,0,Group,11,2,Tie
+2007,PRK,2,Group,12,1,Won
+2007,NGA,0,Group,12,2,Lost
+2007,CAN,4,Group,13,1,Won
+2007,GHA,0,Group,13,2,Lost
+2007,DEN,2,Group,14,1,Won
+2007,NZL,0,Group,14,2,Lost
+2007,AUS,1,Group,15,1,Tie
+2007,NOR,1,Group,15,2,Tie
+2007,BRA,4,Group,16,1,Won
+2007,CHN,0,Group,16,2,Lost
+2007,GER,2,Group,17,1,Won
+2007,JPN,0,Group,17,2,Lost
+2007,ENG,6,Group,18,1,Won
+2007,ARG,1,Group,18,2,Lost
+2007,NGA,0,Group,19,1,Lost
+2007,USA,1,Group,19,2,Won
+2007,PRK,1,Group,20,1,Lost
+2007,SWE,2,Group,20,2,Won
+2007,NOR,7,Group,21,1,Won
+2007,GHA,2,Group,21,2,Lost
+2007,AUS,2,Group,22,1,Tie
+2007,CAN,2,Group,22,2,Tie
+2007,CHN,2,Group,23,1,Won
+2007,NZL,0,Group,23,2,Lost
+2007,BRA,1,Group,24,1,Won
+2007,DEN,0,Group,24,2,Lost
+2007,GER,3,Quarter Final,25,1,Won
+2007,PRK,0,Quarter Final,25,2,Lost
+2007,USA,3,Quarter Final,26,1,Won
+2007,ENG,0,Quarter Final,26,2,Lost
+2007,NOR,1,Quarter Final,27,1,Won
+2007,CHN,0,Quarter Final,27,2,Lost
+2007,BRA,3,Quarter Final,28,1,Won
+2007,AUS,2,Quarter Final,28,2,Lost
+2007,GER,3,Semi Final,29,1,Won
+2007,NOR,0,Semi Final,29,2,Lost
+2007,USA,0,Semi Final,30,1,Lost
+2007,BRA,4,Semi Final,30,2,Won
+2007,NOR,1,Third Place Playoff,31,1,Lost
+2007,USA,4,Third Place Playoff,31,2,Won
+2007,GER,2,Final,32,1,Won
+2007,BRA,0,Final,32,2,Lost
+2011,NGA,0,Group,1,1,Lost
+2011,FRA,1,Group,1,2,Won
+2011,GER,2,Group,2,1,Won
+2011,CAN,1,Group,2,2,Lost
+2011,JPN,2,Group,3,1,Won
+2011,NZL,1,Group,3,2,Lost
+2011,MEX,1,Group,4,1,Tie
+2011,ENG,1,Group,4,2,Tie
+2011,COL,0,Group,5,1,Lost
+2011,SWE,1,Group,5,2,Won
+2011,USA,2,Group,6,1,Won
+2011,PRK,0,Group,6,2,Lost
+2011,NOR,1,Group,7,1,Won
+2011,EQG,0,Group,7,2,Lost
+2011,BRA,1,Group,8,1,Won
+2011,AUS,0,Group,8,2,Lost
+2011,CAN,0,Group,9,1,Lost
+2011,FRA,4,Group,9,2,Won
+2011,GER,1,Group,10,1,Won
+2011,NGA,0,Group,10,2,Lost
+2011,JPN,4,Group,11,1,Won
+2011,MEX,0,Group,11,2,Lost
+2011,NZL,1,Group,12,1,Lost
+2011,ENG,2,Group,12,2,Won
+2011,PRK,0,Group,13,1,Lost
+2011,SWE,1,Group,13,2,Won
+2011,USA,3,Group,14,1,Won
+2011,COL,0,Group,14,2,Lost
+2011,AUS,3,Group,15,1,Won
+2011,EQG,2,Group,15,2,Lost
+2011,BRA,3,Group,16,1,Won
+2011,NOR,0,Group,16,2,Lost
+2011,ENG,2,Group,17,1,Won
+2011,JPN,0,Group,17,2,Lost
+2011,NZL,2,Group,18,1,Tie
+2011,MEX,2,Group,18,2,Tie
+2011,FRA,2,Group,19,1,Lost
+2011,GER,4,Group,19,2,Won
+2011,CAN,0,Group,20,1,Lost
+2011,NGA,1,Group,20,2,Won
+2011,EQG,0,Group,21,1,Lost
+2011,BRA,3,Group,21,2,Won
+2011,AUS,2,Group,22,1,Won
+2011,NOR,1,Group,22,2,Lost
+2011,SWE,2,Group,23,1,Won
+2011,USA,1,Group,23,2,Lost
+2011,PRK,0,Group,24,1,Tie
+2011,COL,0,Group,24,2,Tie
+2011,ENG,1,Quarter Final,25,1,Lost
+2011,FRA,1,Quarter Final,25,2,Won
+2011,GER,0,Quarter Final,26,1,Lost
+2011,JPN,1,Quarter Final,26,2,Won
+2011,SWE,3,Quarter Final,27,1,Won
+2011,AUS,1,Quarter Final,27,2,Lost
+2011,BRA,2,Quarter Final,28,1,Lost
+2011,USA,2,Quarter Final,28,2,Won
+2011,FRA,1,Semi Final,29,1,Lost
+2011,USA,3,Semi Final,29,2,Won
+2011,JPN,3,Semi Final,30,1,Won
+2011,SWE,1,Semi Final,30,2,Lost
+2011,SWE,2,Third Place Playoff,31,1,Won
+2011,FRA,1,Third Place Playoff,31,2,Lost
+2011,JPN,2,Final,32,1,Won
+2011,USA,2,Final,32,2,Lost
+2015,CAN,1,Group,1,1,Tie
+2015,CHN,1,Group,1,2,Tie
+2015,NZL,0,Group,2,1,Lost
+2015,NED,2,Group,2,2,Won
+2015,NOR,4,Group,3,1,Won
+2015,THA,0,Group,3,2,Lost
+2015,GER,10,Group,4,1,Won
+2015,CIV,0,Group,4,2,Lost
+2015,SWE,3,Group,5,1,Tie
+2015,NGA,3,Group,5,2,Tie
+2015,CMR,6,Group,6,1,Won
+2015,ECU,0,Group,6,2,Lost
+2015,USA,3,Group,7,1,Won
+2015,AUS,1,Group,7,2,Lost
+2015,JPN,1,Group,8,1,Won
+2015,SUI,0,Group,8,2,Lost
+2015,FRA,1,Group,9,1,Won
+2015,ENG,0,Group,9,2,Lost
+2015,ESP,1,Group,10,1,Tie
+2015,CRC,1,Group,10,2,Tie
+2015,COL,1,Group,11,1,Tie
+2015,MEX,1,Group,11,2,Tie
+2015,BRA,2,Group,12,1,Won
+2015,KOR,0,Group,12,2,Lost
+2015,GER,1,Group,13,1,Tie
+2015,NOR,1,Group,13,2,Tie
+2015,CHN,1,Group,14,1,Won
+2015,NED,0,Group,14,2,Lost
+2015,CIV,2,Group,15,1,Lost
+2015,THA,3,Group,15,2,Won
+2015,CAN,0,Group,16,1,Tie
+2015,NZL,0,Group,16,2,Tie
+2015,AUS,2,Group,17,1,Won
+2015,NGA,0,Group,17,2,Lost
+2015,SUI,10,Group,18,1,Won
+2015,ECU,1,Group,18,2,Lost
+2015,USA,0,Group,19,1,Tie
+2015,SWE,0,Group,19,2,Tie
+2015,JPN,2,Group,20,1,Won
+2015,CMR,1,Group,20,2,Lost
+2015,FRA,0,Group,21,1,Lost
+2015,COL,2,Group,21,2,Won
+2015,BRA,1,Group,22,1,Won
+2015,ESP,0,Group,22,2,Lost
+2015,ENG,2,Group,23,1,Won
+2015,MEX,1,Group,23,2,Lost
+2015,KOR,2,Group,24,1,Tie
+2015,CRC,2,Group,24,2,Tie
+2015,THA,0,Group,25,1,Lost
+2015,GER,4,Group,25,2,Won
+2015,CIV,1,Group,26,1,Lost
+2015,NOR,3,Group,26,2,Won
+2015,NED,1,Group,27,1,Tie
+2015,CAN,1,Group,27,2,Tie
+2015,CHN,2,Group,28,1,Tie
+2015,NZL,2,Group,28,2,Tie
+2015,ECU,0,Group,29,1,Lost
+2015,JPN,1,Group,29,2,Won
+2015,SUI,1,Group,30,1,Lost
+2015,CMR,2,Group,30,2,Won
+2015,NGA,0,Group,31,1,Lost
+2015,USA,1,Group,31,2,Won
+2015,AUS,1,Group,32,1,Tie
+2015,SWE,1,Group,32,2,Tie
+2015,MEX,0,Group,33,1,Lost
+2015,FRA,5,Group,33,2,Won
+2015,ENG,2,Group,34,1,Won
+2015,COL,1,Group,34,2,Lost
+2015,CRC,0,Group,35,1,Lost
+2015,BRA,1,Group,35,2,Won
+2015,KOR,2,Group,36,1,Won
+2015,ESP,1,Group,36,2,Lost
+2015,GER,4,Round of 16,37,1,Won
+2015,SWE,1,Round of 16,37,2,Lost
+2015,CHN,1,Round of 16,38,1,Won
+2015,CMR,0,Round of 16,38,2,Lost
+2015,BRA,0,Round of 16,39,1,Lost
+2015,AUS,1,Round of 16,39,2,Won
+2015,FRA,3,Round of 16,40,1,Won
+2015,KOR,0,Round of 16,40,2,Lost
+2015,CAN,1,Round of 16,41,1,Won
+2015,SUI,0,Round of 16,41,2,Lost
+2015,NOR,1,Round of 16,42,1,Lost
+2015,ENG,2,Round of 16,42,2,Won
+2015,USA,2,Round of 16,43,1,Won
+2015,COL,0,Round of 16,43,2,Lost
+2015,JPN,2,Round of 16,44,1,Won
+2015,NED,1,Round of 16,44,2,Lost
+2015,GER,1,Quarter Final,45,1,Won
+2015,FRA,1,Quarter Final,45,2,Lost
+2015,CHN,0,Quarter Final,46,1,Lost
+2015,USA,1,Quarter Final,46,2,Won
+2015,AUS,0,Quarter Final,47,1,Lost
+2015,JPN,1,Quarter Final,47,2,Won
+2015,ENG,2,Quarter Final,48,1,Won
+2015,CAN,1,Quarter Final,48,2,Lost
+2015,USA,2,Semi Final,49,1,Won
+2015,GER,0,Semi Final,49,2,Lost
+2015,JPN,2,Semi Final,50,1,Won
+2015,ENG,1,Semi Final,50,2,Lost
+2015,GER,0,Third Place Playoff,51,1,Lost
+2015,ENG,1,Third Place Playoff,51,2,Won
+2015,USA,5,Final,52,1,Won
+2015,JPN,2,Final,52,2,Lost
+2019,FRA,4,Group,1,1,Won
+2019,KOR,0,Group,1,2,Lost
+2019,GER,1,Group,2,1,Won
+2019,CHN,0,Group,2,2,Lost
+2019,ESP,3,Group,3,1,Won
+2019,RSA,1,Group,3,2,Lost
+2019,NOR,3,Group,4,1,Won
+2019,NGA,0,Group,4,2,Lost
+2019,AUS,1,Group,5,1,Lost
+2019,ITA,2,Group,5,2,Won
+2019,BRA,3,Group,6,1,Won
+2019,JAM,0,Group,6,2,Lost
+2019,ENG,2,Group,7,1,Won
+2019,SCO,1,Group,7,2,Lost
+2019,ARG,0,Group,8,1,Tie
+2019,JPN,0,Group,8,2,Tie
+2019,CAN,1,Group,9,1,Won
+2019,CMR,0,Group,9,2,Lost
+2019,NZL,0,Group,10,1,Lost
+2019,NED,1,Group,10,2,Won
+2019,CHI,0,Group,11,1,Lost
+2019,SWE,2,Group,11,2,Won
+2019,USA,13,Group,12,1,Won
+2019,THA,0,Group,12,2,Lost
+2019,NGA,2,Group,13,1,Won
+2019,KOR,0,Group,13,2,Lost
+2019,GER,1,Group,14,1,Won
+2019,ESP,0,Group,14,2,Lost
+2019,FRA,2,Group,15,1,Won
+2019,NOR,1,Group,15,2,Lost
+2019,AUS,3,Group,16,1,Won
+2019,BRA,2,Group,16,2,Lost
+2019,RSA,0,Group,17,1,Lost
+2019,CHN,1,Group,17,2,Won
+2019,JPN,2,Group,18,1,Won
+2019,SCO,1,Group,18,2,Lost
+2019,JAM,0,Group,19,1,Lost
+2019,ITA,5,Group,19,2,Won
+2019,ENG,1,Group,20,1,Won
+2019,ARG,0,Group,20,2,Lost
+2019,NED,3,Group,21,1,Won
+2019,CMR,1,Group,21,2,Lost
+2019,CAN,2,Group,22,1,Won
+2019,NZL,0,Group,22,2,Lost
+2019,SWE,5,Group,23,1,Won
+2019,THA,1,Group,23,2,Lost
+2019,USA,3,Group,24,1,Won
+2019,CHI,0,Group,24,2,Lost
+2019,CHN,0,Group,25,1,Tie
+2019,ESP,0,Group,25,2,Tie
+2019,RSA,0,Group,26,1,Lost
+2019,GER,4,Group,26,2,Won
+2019,NGA,0,Group,27,1,Lost
+2019,FRA,1,Group,27,2,Won
+2019,KOR,1,Group,28,1,Lost
+2019,NOR,2,Group,28,2,Won
+2019,ITA,0,Group,29,1,Lost
+2019,BRA,1,Group,29,2,Won
+2019,JAM,1,Group,30,1,Lost
+2019,AUS,3,Group,30,2,Won
+2019,JPN,0,Group,31,1,Lost
+2019,ENG,2,Group,31,2,Won
+2019,SCO,3,Group,32,1,Tie
+2019,ARG,3,Group,32,2,Tie
+2019,NED,2,Group,33,1,Won
+2019,CAN,1,Group,33,2,Lost
+2019,CMR,2,Group,34,1,Won
+2019,NZL,1,Group,34,2,Lost
+2019,SWE,0,Group,35,1,Lost
+2019,USA,2,Group,35,2,Won
+2019,THA,0,Group,36,1,Lost
+2019,CHI,2,Group,36,2,Won
+2019,GER,3,Round of 16,37,1,Won
+2019,NGA,0,Round of 16,37,2,Lost
+2019,NOR,1,Round of 16,38,1,Won
+2019,AUS,1,Round of 16,38,2,Lost
+2019,ENG,3,Round of 16,39,1,Won
+2019,CMR,0,Round of 16,39,2,Lost
+2019,FRA,2,Round of 16,40,1,Won
+2019,BRA,1,Round of 16,40,2,Lost
+2019,ESP,1,Round of 16,41,1,Lost
+2019,USA,2,Round of 16,41,2,Won
+2019,SWE,1,Round of 16,42,1,Won
+2019,CAN,0,Round of 16,42,2,Lost
+2019,ITA,2,Round of 16,43,1,Won
+2019,CHN,0,Round of 16,43,2,Lost
+2019,NED,2,Round of 16,44,1,Won
+2019,JPN,1,Round of 16,44,2,Lost
+2019,NOR,0,Quarter Final,45,1,Lost
+2019,ENG,3,Quarter Final,45,2,Won
+2019,FRA,1,Quarter Final,46,1,Lost
+2019,USA,2,Quarter Final,46,2,Won
+2019,ITA,0,Quarter Final,47,1,Lost
+2019,NED,2,Quarter Final,47,2,Won
+2019,GER,1,Quarter Final,48,1,Lost
+2019,SWE,2,Quarter Final,48,2,Won
+2019,ENG,1,Semi Final,49,1,Lost
+2019,USA,2,Semi Final,49,2,Won
+2019,NED,1,Semi Final,50,1,Won
+2019,SWE,0,Semi Final,50,2,Lost
+2019,ENG,1,Third Place Playoff,51,1,Lost
+2019,SWE,2,Third Place Playoff,51,2,Won
+2019,USA,2,Final,52,1,Won
+2019,NED,0,Final,52,2,Lost
