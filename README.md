@@ -71,7 +71,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 27 | `2019-07-02` | [Media Franchise Revenues](data/2019/2019-07-02) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises) | [reddit/dataisbeautiful post](https://www.reddit.com/r/dataisbeautiful/comments/c53540/highest_grossing_media_franchises_oc/) |
 | 28 | `2019-07-09` | [Women's World Cup](data/2019/2019-07-09) | [data.world](https://data.world/sportsvizsunday/womens-world-cup-data) | [Wikipedia](https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup) |
 | 29 | `2019-07-16` | [R4DS Membership](data/2019/2019-07-16) | [R4DS Slack](https://join.slack.com/t/rfordatascience/shared_invite/enQtMzA1Nzk1MjIzNDczLTY0OTVlMzM3ZTU5ZjA3NWE5ZDkxOGVmNjRjODQ2YmRjMzg4NWQxMDAxZTcwNzViZTczOThiNzBhYWJhZDM2ZTU) | [R4DS useR Presentation](https://t.co/wNexiphbr5) |
-| 30 | `2019-07-23` | [Bird Strikes](data/2019/2019-07-23) | [FAA](https://wildlife.faa.gov/) | [FAA](https://www.faa.gov/airports/airport_safety/wildlife/media/Wildlife-Strike-Report-1990-2017.pdf) |
+| 30 | `2019-07-23` | [Wildlife Strikes](data/2019/2019-07-23) | [FAA](https://wildlife.faa.gov/) | [FAA](https://www.faa.gov/airports/airport_safety/wildlife/media/Wildlife-Strike-Report-1990-2017.pdf) |
 
 
 ***  
