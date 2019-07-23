@@ -13,13 +13,13 @@ h/t to my colleague Katie Masiello for sharing this dataset!
 # Get the data!
 
 ```
-bird_impacts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-23/bird_impacts.csv")
+wildlife_impacts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-23/wildlife_impacts.csv")
 
 ```
 
 # Data Dictionary
 
-### `bird_impacts.csv`
+### `wildlife_impacts.csv`
 
 |variable              |class     |description |
 |:---|:---|:-----------|
@@ -68,7 +68,7 @@ df_all <- bind_rows(df_aa, df_delta) %>%
          height, speed, phase_of_flt, sky, precip, cost_repairs_infl_adj)
 
 df_all %>% 
-  write_csv(here("2019" , "2019-07-23", "bird_impacts.csv"))
+  write_csv(here("2019" , "2019-07-23", "wildlife_impacts.csv"))
 
 # create dictionary
 tomtom::create_dictionary(df_all)
