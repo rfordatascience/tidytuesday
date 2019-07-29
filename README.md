@@ -72,6 +72,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 28 | `2019-07-09` | [Women's World Cup](data/2019/2019-07-09) | [data.world](https://data.world/sportsvizsunday/womens-world-cup-data) | [Wikipedia](https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup) |
 | 29 | `2019-07-16` | [R4DS Membership](data/2019/2019-07-16) | [R4DS Slack](https://join.slack.com/t/rfordatascience/shared_invite/enQtMzA1Nzk1MjIzNDczLTY0OTVlMzM3ZTU5ZjA3NWE5ZDkxOGVmNjRjODQ2YmRjMzg4NWQxMDAxZTcwNzViZTczOThiNzBhYWJhZDM2ZTU) | [R4DS useR Presentation](https://t.co/wNexiphbr5) |
 | 30 | `2019-07-23` | [Wildlife Strikes](data/2019/2019-07-23) | [FAA](https://wildlife.faa.gov/) | [FAA](https://www.faa.gov/airports/airport_safety/wildlife/media/Wildlife-Strike-Report-1990-2017.pdf) |
+| 31 | `2019-07-30` | [Video Games](data/2019/2019-07-30) | [Steam Spy](https://steamspy.com/year/) | [Liza Wood](https://cruiseofdimensionality.home.blog/2019/07/24/pc-video-games-we-still-play/) |
 
 
 ***  
