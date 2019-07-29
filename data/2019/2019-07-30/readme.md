@@ -6,6 +6,10 @@ She was kind enough to provide a fairly clean dataset, and I have done some smal
 
 There is time played, ownership, release date, publishing information, and for some a metascore! Lots of ways to slice and dice this data!
 
+### Warning 
+
+Please be advised that the average and median playtime is over the last two weeks, as such there are many many games where playtime is low or zero.
+
 # Get the data!
 
 
