@@ -6,6 +6,8 @@ Additional information can be found on [Wikipedia](https://en.wikipedia.org/wiki
 
 Additional related datasets can be found at [Our World in Data](https://ourworldindata.org/nuclear-weapons).
 
+For details around units for yield/magnitude, please see the [Nuclear Yield](https://seismo.berkeley.edu/~rallen/research/nuke/yield.html) formulas.
+
 
 # Get the data!
 
@@ -28,8 +30,8 @@ nuclear_explosions <- readr::read_csv("https://raw.githubusercontent.com/rfordat
 |source    |character | Source the reported the explosion event |
 |latitude  |double    | Latitude position |
 |longitude |double    | Longitude position |
-|magnitude_body    |double    | Body wave magnitude of explosion|
-|magnitude_surface |double    | Surface wave magnitude of explosion |
+|magnitude_body    |double    | Body wave magnitude of explosion (mb)|
+|magnitude_surface |double    | Surface wave magnitude of explosion (Ms) |
 |depth             |double    | Depth at detonation in Km (could be underground or above ground) -- please note that positive = depth (below ground), while negative = height (above ground) |
 |yield_lower       |double    | Explosion yield lower estimate in kilotons of TNT |
 |yield_upper       |double    | Explosion yield upper estimate in kilotons of TNT |
