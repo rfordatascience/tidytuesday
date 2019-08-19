@@ -4,6 +4,8 @@ This week's [**data**](nuclear_explosions.csv) is from [Stockholm International 
 
 Additional information can be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_nuclear_weapons_tests) or via the original report [PDF](https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf).
 
+Additional related datasets can be found at [Our World in Data](https://ourworldindata.org/nuclear-weapons).
+
 
 # Get the data!
 
