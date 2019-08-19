@@ -75,6 +75,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 31 | `2019-07-30` | [Video Games](data/2019/2019-07-30) | [Steam Spy](https://steamspy.com/year/) | [Liza Wood](https://cruiseofdimensionality.home.blog/2019/07/24/pc-video-games-we-still-play/) |
 | 32 | `2019-08-06` | [Bob Ross paintings](data/2019/2019-08-06) | [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/bob-ross) | [FiveThirtyEight](https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) |
 | 33 | `2019-08-13` | [Roman Emperors](data/2019/2019-08-13) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_Roman_emperors) / [Zonination](https://github.com/zonination/emperors/blob/master/README.md) | [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/8tzfgz/roman_emperors_by_year_oc/) |
+| 34 | `2019-08-20` | [Nuclear Explosions](data/2019/2019-08-20) | [SIPRI](https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf) | [Our World in Data](https://ourworldindata.org/nuclear-weapons) |
 
 
 ***  
