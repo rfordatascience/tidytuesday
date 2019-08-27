@@ -6,7 +6,7 @@ This week's [**data**](simpsons-guests.csv) is from [Wikipedia](https://en.wikip
 # Get the data!
 
 ```
-simpsons <- readr::read_delim("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-27/simpsons-guests.csv", delim = "|")
+simpsons <- readr::read_delim("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-27/simpsons-guests.csv", delim = "|", quote = "")
 
 ```
 
