@@ -6,7 +6,9 @@ This week's [**data**](simpsons-guests.csv) is from [Wikipedia](https://en.wikip
 # Get the data!
 
 ```
-simpsons <- read.table("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-27/simpsons-guests.csv", sep = "|", header = TRUE, quote = "")
+URL <- "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-27/simpsons-guests.csv"
+#
+simpsons <- read.table(URL, sep = "|", header = TRUE, quote = "")
 ```
 
 # Data Dictionary
