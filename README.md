@@ -77,6 +77,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 33 | `2019-08-13` | [Roman Emperors](data/2019/2019-08-13) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_Roman_emperors) / [Zonination](https://github.com/zonination/emperors/blob/master/README.md) | [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/8tzfgz/roman_emperors_by_year_oc/) |
 | 34 | `2019-08-20` | [Nuclear Explosions](data/2019/2019-08-20) | [SIPRI](https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf) | [Our World in Data](https://ourworldindata.org/nuclear-weapons) |
 | 35 | `2019-08-27` | [Simpsons Guest Stars](data/2019/2019-08-27) | [Wikipedia](https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars) |
+| 36 | `2019-09-03` | [Moore's Law](data/2019/2019-09-03) | [Wikipedia](https://en.wikipedia.org/wiki/Transistor_count) | [Wikipedia](https://ourworldindata.org/technological-progress) |
 
 
 ***  
