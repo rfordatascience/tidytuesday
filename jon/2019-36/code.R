@@ -1,8 +1,14 @@
-library(tidyverse)
-library(gganimate)
-library(ggthemes)
-library(scales)
+# ggplot2 & gganimate code adapted from the example at
+# https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
+
 library(fs)
+library(readr)
+library(dplyr)
+library(stringr)
+library(purrr)
+library(ggplot2)
+library(gganimate)
+library(scales)
 
 # To-do: Add logos of designers. Also: Understand the units in ggplot better so
 # I don't have to place things so much by trial and error.
@@ -39,12 +45,12 @@ gpu_data <- readr::read_csv(gpu_path) %>%
 chip_data <- cpu_data %>%
   dplyr::bind_rows(gpu_data) %>%
   dplyr::arrange(year) %>%
+  dplyr::mutate(
+    year = as.integer(year)
+  ) %>%
   dplyr::filter(
     !is.na(transistors),
     !is.na(year)
-  ) %>%
-  dplyr::mutate(
-    year = as.integer(year)
   ) %>%
   # For ranking, the dataset for each year is the dataset for that year *and all
   # previous years.* Let's use purrr::map to expand our list. Make sure all
@@ -67,7 +73,7 @@ starting_count <- chip_data %>%
   max()
 
 moore_prediction_simple <- dplyr::tibble(
-  year = 1972:(max(chip_data$year))
+  year = (min(chip_data$year) + 1):(max(chip_data$year))
 ) %>%
   dplyr::mutate(
     transistors = round(
@@ -103,7 +109,6 @@ full_dataset <- chip_data %>%
 # I spent too much time looking up logos of the various designers to find a
 # color for each. Most are blue, green, or red, though, so this isn't super
 # helpful.
-
 designer_logo_colors <- c(
   `3dfx` = "#d67600",
   Acorn = "#0cf41f",
@@ -146,6 +151,11 @@ designer_logo_colors <- c(
 )
 
 static_plot <- full_dataset %>%
+  # While tweaking, it can be helpful to only look at a subset of the data.
+  # dplyr::filter(
+  #   year_included >= 1971,
+  #   year_included <= 1974
+  # ) %>%
   ggplot2::ggplot() +
   ggplot2::aes(
     x = rank,
@@ -156,8 +166,9 @@ static_plot <- full_dataset %>%
   ggplot2::geom_col() +
   ggplot2::geom_text(
     ggplot2::aes(
-      # Place it at 1, because that will become 0 with the log transform.
-      y = 1,
+      # Place it at 1 if you do a log transform, because that will become 0 with
+      # the log transform.
+      y = 0,
       label = paste(processor, " ")
     ),
     vjust = 0.2,
@@ -181,10 +192,9 @@ static_plot <- full_dataset %>%
   # I did a lot of work to get a log-transformed scale working, but I think it
   # hides the advancement. Leave it untransformed.
   # ggplot2::scale_y_continuous(trans = "log2") +
-  # The example at
-  # https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
-  # used a ton of element_blanks specified in the theme call. Instead I'm using
-  # theme_void and then tweaking the few actual tweaks.
+  # The towardsdatascience example used a ton of element_blanks specified in the
+  # theme call. Instead I'm using theme_void and then tweaking the few actual
+  # tweaks.
   ggplot2::theme_void() +
   ggplot2::theme(
     panel.grid.major.x = ggplot2::element_line(
@@ -208,7 +218,6 @@ static_plot <- full_dataset %>%
       face = "italic"
     ),
     plot.caption = ggplot2::element_text(
-      # I feel like changing this is what caused the blinking. That's... weird.
       size = 120,
       hjust = 1,
       color = "white",
@@ -219,6 +228,10 @@ static_plot <- full_dataset %>%
   ) +
   ggplot2::scale_fill_manual(values = designer_logo_colors) +
   ggplot2::scale_color_manual(values = designer_logo_colors) +
+  # In the animation, I'm basically going to do a "facet_frame", so it can be
+  # helpful to look at the plot with a facet_wrap to kinda see what will happen
+  # in the animation.
+  # ggplot2::facet_wrap(ggplot2::vars(year_included), scales = "free_x") +
   # A NULL at the end of a ggplot + chain makes it easy to comment things out.
   NULL
 
@@ -232,7 +245,7 @@ animation <- static_plot +
     transition_length = 4,
     state_length = 1
   ) +
-  gganimate::view_follow(fixed_x = TRUE)  +
+  gganimate::view_follow(fixed_x = TRUE) +
   ggplot2::labs(
     title = "Moore's Law: Predictions vs Reality",
     subtitle  = "@jonthegeek | #TidyTuesday | 2019 week 36",
