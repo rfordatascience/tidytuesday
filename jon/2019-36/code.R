@@ -1,6 +1,9 @@
 # ggplot2 & gganimate code adapted from the example at
 # https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
 
+# Requires the dev build of ggplot2:
+# devtools::install_github("tidyverse/ggplot2#3506")
+
 library(fs)
 library(readr)
 library(dplyr)
@@ -60,32 +63,31 @@ chip_data <- cpu_data %>%
     min(.$year):max(.$year), function(this_year, chip_data) {
       chip_data %>%
         dplyr::filter(year <= this_year) %>%
-        dplyr::mutate(year_included = this_year)
+        dplyr::mutate(
+          year_included = this_year,
+          moore_prediction = 2*max(transistors)
+        )
     },
     chip_data = .
   )
 
-# We'll base the prediction on the count of transistors at the start of the
-# dataset.
-starting_count <- chip_data %>%
-  dplyr::filter(year == min(year)) %>%
-  dplyr::pull(transistors) %>%
-  max()
-
-moore_prediction_simple <- dplyr::tibble(
-  year = (min(chip_data$year) + 1):(max(chip_data$year))
-) %>%
+moore_prediction_rolling <- chip_data %>%
+  dplyr::distinct(year_included, moore_prediction) %>%
   dplyr::mutate(
-    transistors = round(
-      starting_count * 2^((year - min(chip_data$year))/2)
-    ),
+    # To convert these to predictions, we need to move them 2 years into the
+    # future.
+    year_included = year_included + 2,
+    year = year_included,
     designer = "Moore's Law",
     processor = "(prediction)",
-    year_included = year
-  )
+    type = "cpu"
+  ) %>%
+  dplyr::rename(transistors = moore_prediction) %>%
+  dplyr::filter(year_included <= max(chip_data$year_included))
 
 full_dataset <- chip_data %>%
-  dplyr::bind_rows(moore_prediction_simple) %>%
+  dplyr::select(-moore_prediction) %>%
+  dplyr::bind_rows(moore_prediction_rolling) %>%
   dplyr::group_by(year_included) %>%
   dplyr::mutate(
     rank = rank(
@@ -158,8 +160,8 @@ static_plot <- full_dataset %>%
   # ) %>%
   ggplot2::ggplot() +
   ggplot2::aes(
-    x = rank,
-    y = transistors,
+    x = transistors,
+    y = rank,
     fill = designer,
     color = designer
   ) +
@@ -168,7 +170,7 @@ static_plot <- full_dataset %>%
     ggplot2::aes(
       # Place it at 1 if you do a log transform, because that will become 0 with
       # the log transform.
-      y = 0,
+      x = 0,
       label = paste(processor, " ")
     ),
     vjust = 0.2,
@@ -177,21 +179,17 @@ static_plot <- full_dataset %>%
     color = "white"
   ) +
   ggplot2::geom_text(
-    ggplot2::aes(
-      y = transistors,
-      label = scales::comma(transistors)
-    ),
+    ggplot2::aes(label = scales::comma(transistors)),
     hjust = -0.1,
     size = 5,
     color = "white"
   ) +
   ggplot2::guides(color = FALSE, fill = FALSE) +
-  # Important note: The "x-axis" is the vertical axis, showing the rank.
-  ggplot2::coord_flip(clip = "off", expand = FALSE) +
-  ggplot2::scale_x_reverse() +
+  ggplot2::scale_y_reverse() +
+  ggplot2::coord_cartesian(clip = "off", expand = FALSE) +
   # I did a lot of work to get a log-transformed scale working, but I think it
   # hides the advancement. Leave it untransformed.
-  # ggplot2::scale_y_continuous(trans = "log2") +
+  # ggplot2::scale_x_continuous(trans = "log2") +
   # The towardsdatascience example used a ton of element_blanks specified in the
   # theme call. Instead I'm using theme_void and then tweaking the few actual
   # tweaks.
@@ -242,10 +240,10 @@ static_plot <- full_dataset %>%
 animation <- static_plot +
   gganimate::transition_states(
     year_included,
-    transition_length = 4,
+    transition_length = 8,
     state_length = 1
   ) +
-  gganimate::view_follow(fixed_x = TRUE) +
+  gganimate::view_follow(fixed_y = TRUE) +
   ggplot2::labs(
     title = "Moore's Law: Predictions vs Reality",
     subtitle  = "@jonthegeek | #TidyTuesday | 2019 week 36",
