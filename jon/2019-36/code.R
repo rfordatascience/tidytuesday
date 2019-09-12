@@ -1,6 +1,9 @@
 # ggplot2 & gganimate code adapted from the example at
 # https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
 
+# Requires the dev build of ggplot2:
+# devtools::install_github("tidyverse/ggplot2#3506")
+
 library(fs)
 library(readr)
 library(dplyr)
@@ -152,14 +155,14 @@ designer_logo_colors <- c(
 
 static_plot <- full_dataset %>%
   # While tweaking, it can be helpful to only look at a subset of the data.
-  # dplyr::filter(
-  #   year_included >= 1971,
-  #   year_included <= 1974
-  # ) %>%
+  dplyr::filter(
+    year_included >= 1971,
+    year_included <= 1974
+  ) %>%
   ggplot2::ggplot() +
   ggplot2::aes(
-    x = rank,
-    y = transistors,
+    x = transistors,
+    y = rank,
     fill = designer,
     color = designer
   ) +
@@ -168,7 +171,7 @@ static_plot <- full_dataset %>%
     ggplot2::aes(
       # Place it at 1 if you do a log transform, because that will become 0 with
       # the log transform.
-      y = 0,
+      x = 0,
       label = paste(processor, " ")
     ),
     vjust = 0.2,
@@ -177,18 +180,13 @@ static_plot <- full_dataset %>%
     color = "white"
   ) +
   ggplot2::geom_text(
-    ggplot2::aes(
-      y = transistors,
-      label = scales::comma(transistors)
-    ),
+    ggplot2::aes(label = scales::comma(transistors)),
     hjust = -0.1,
     size = 5,
     color = "white"
   ) +
   ggplot2::guides(color = FALSE, fill = FALSE) +
-  # Important note: The "x-axis" is the vertical axis, showing the rank.
-  ggplot2::coord_flip(clip = "off", expand = FALSE) +
-  ggplot2::scale_x_reverse() +
+  ggplot2::scale_y_reverse() +
   # I did a lot of work to get a log-transformed scale working, but I think it
   # hides the advancement. Leave it untransformed.
   # ggplot2::scale_y_continuous(trans = "log2") +
@@ -231,11 +229,11 @@ static_plot <- full_dataset %>%
   # In the animation, I'm basically going to do a "facet_frame", so it can be
   # helpful to look at the plot with a facet_wrap to kinda see what will happen
   # in the animation.
-  # ggplot2::facet_wrap(ggplot2::vars(year_included), scales = "free_x") +
+  ggplot2::facet_wrap(ggplot2::vars(year_included), scales = "free_x") +
   # A NULL at the end of a ggplot + chain makes it easy to comment things out.
   NULL
 
-# static_plot
+static_plot
 
 # Animation ---------------------------------------------------------------
 
@@ -245,7 +243,7 @@ animation <- static_plot +
     transition_length = 4,
     state_length = 1
   ) +
-  gganimate::view_follow(fixed_x = TRUE) +
+  gganimate::view_follow(fixed_y = TRUE) +
   ggplot2::labs(
     title = "Moore's Law: Predictions vs Reality",
     subtitle  = "@jonthegeek | #TidyTuesday | 2019 week 36",
@@ -253,7 +251,7 @@ animation <- static_plot +
   )
 
 # Swap this flag depending on whether you're tweaking the UI or rendering.
-tweaking <- FALSE
+tweaking <- TRUE
 
 length_seconds <- 45
 fps <- ifelse(tweaking, 2, 15)
