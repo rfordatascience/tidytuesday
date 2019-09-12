@@ -63,32 +63,31 @@ chip_data <- cpu_data %>%
     min(.$year):max(.$year), function(this_year, chip_data) {
       chip_data %>%
         dplyr::filter(year <= this_year) %>%
-        dplyr::mutate(year_included = this_year)
+        dplyr::mutate(
+          year_included = this_year,
+          moore_prediction = 2*max(transistors)
+        )
     },
     chip_data = .
   )
 
-# We'll base the prediction on the count of transistors at the start of the
-# dataset.
-starting_count <- chip_data %>%
-  dplyr::filter(year == min(year)) %>%
-  dplyr::pull(transistors) %>%
-  max()
-
-moore_prediction_simple <- dplyr::tibble(
-  year = (min(chip_data$year) + 1):(max(chip_data$year))
-) %>%
+moore_prediction_rolling <- chip_data %>%
+  dplyr::distinct(year_included, moore_prediction) %>%
   dplyr::mutate(
-    transistors = round(
-      starting_count * 2^((year - min(chip_data$year))/2)
-    ),
+    # To convert these to predictions, we need to move them 2 years into the
+    # future.
+    year_included = year_included + 2,
+    year = year_included,
     designer = "Moore's Law",
     processor = "(prediction)",
-    year_included = year
-  )
+    type = "cpu"
+  ) %>%
+  dplyr::rename(transistors = moore_prediction) %>%
+  dplyr::filter(year_included <= max(chip_data$year_included))
 
 full_dataset <- chip_data %>%
-  dplyr::bind_rows(moore_prediction_simple) %>%
+  dplyr::select(-moore_prediction) %>%
+  dplyr::bind_rows(moore_prediction_rolling) %>%
   dplyr::group_by(year_included) %>%
   dplyr::mutate(
     rank = rank(
@@ -155,10 +154,10 @@ designer_logo_colors <- c(
 
 static_plot <- full_dataset %>%
   # While tweaking, it can be helpful to only look at a subset of the data.
-  dplyr::filter(
-    year_included >= 1971,
-    year_included <= 1974
-  ) %>%
+  # dplyr::filter(
+  #   year_included >= 1971,
+  #   year_included <= 1974
+  # ) %>%
   ggplot2::ggplot() +
   ggplot2::aes(
     x = transistors,
@@ -187,9 +186,10 @@ static_plot <- full_dataset %>%
   ) +
   ggplot2::guides(color = FALSE, fill = FALSE) +
   ggplot2::scale_y_reverse() +
+  ggplot2::coord_cartesian(clip = "off", expand = FALSE) +
   # I did a lot of work to get a log-transformed scale working, but I think it
   # hides the advancement. Leave it untransformed.
-  # ggplot2::scale_y_continuous(trans = "log2") +
+  # ggplot2::scale_x_continuous(trans = "log2") +
   # The towardsdatascience example used a ton of element_blanks specified in the
   # theme call. Instead I'm using theme_void and then tweaking the few actual
   # tweaks.
@@ -229,18 +229,18 @@ static_plot <- full_dataset %>%
   # In the animation, I'm basically going to do a "facet_frame", so it can be
   # helpful to look at the plot with a facet_wrap to kinda see what will happen
   # in the animation.
-  ggplot2::facet_wrap(ggplot2::vars(year_included), scales = "free_x") +
+  # ggplot2::facet_wrap(ggplot2::vars(year_included), scales = "free_x") +
   # A NULL at the end of a ggplot + chain makes it easy to comment things out.
   NULL
 
-static_plot
+# static_plot
 
 # Animation ---------------------------------------------------------------
 
 animation <- static_plot +
   gganimate::transition_states(
     year_included,
-    transition_length = 4,
+    transition_length = 8,
     state_length = 1
   ) +
   gganimate::view_follow(fixed_y = TRUE) +
@@ -251,7 +251,7 @@ animation <- static_plot +
   )
 
 # Swap this flag depending on whether you're tweaking the UI or rendering.
-tweaking <- TRUE
+tweaking <- FALSE
 
 length_seconds <- 45
 fps <- ifelse(tweaking, 2, 15)
