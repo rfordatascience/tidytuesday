@@ -79,6 +79,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 35 | `2019-08-27` | [Simpsons Guest Stars](data/2019/2019-08-27) | [Wikipedia](https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars) |
 | 36 | `2019-09-03` | [Moore's Law](data/2019/2019-09-03) | [Wikipedia](https://en.wikipedia.org/wiki/Transistor_count) | [Wikipedia](https://ourworldindata.org/technological-progress) |
 | 37 | `2019-09-10` | [Amusement Park Injuries](data/2019/2019-09-10) | [Data.world](https://data.world/amillerbernd/texas-amusement-park-accidents/workspace/file?filename=Amusement-Park-Injuries-xlsxCleaned.xls) & [Saferparks](https://saferparksdata.org/) | [Saferparks](https://saferparksdata.org/) |
+| 38 | `2019-09-17` | [National Park Visits](data/2019/2019-09-17) | [Data.world](https://data.world/inform8n/us-national-parks-visitation-1904-2016-with-boundaries) | [`fivethirtyeight` article](https://fivethirtyeight.com/features/the-national-parks-have-never-been-more-popular/) |
 
 ***  
 
