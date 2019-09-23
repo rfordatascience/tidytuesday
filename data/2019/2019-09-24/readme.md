@@ -1,6 +1,6 @@
 # School Diversity
 
-This week's data is from [The Washington Post](https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/#methodology) courtesy of [Laura Meckler](https://twitter.com/laurameckler?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
+This week's data is from [The Washington Post](https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/#methodology) courtesy of [Kate Rabinowitz](https://twitter.com/dataKateR), [Laura Meckler](https://twitter.com/laurameckler), and [Armand Emamdjomeh](https://twitter.com/emamd).
 
 A lot of the visualizations were written in a `scrollytelling` format with `JavaScript`. If you want to play around with a similar format you could try out the experimental package [`rolldown`](https://github.com/yihui/rolldown) by Yihui. There is geospatial and shapefile data linked below in the methodology.
 
