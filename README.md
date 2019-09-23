@@ -80,6 +80,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 36 | `2019-09-03` | [Moore's Law](data/2019/2019-09-03) | [Wikipedia](https://en.wikipedia.org/wiki/Transistor_count) | [Wikipedia](https://ourworldindata.org/technological-progress) |
 | 37 | `2019-09-10` | [Amusement Park Injuries](data/2019/2019-09-10) | [Data.world](https://data.world/amillerbernd/texas-amusement-park-accidents/workspace/file?filename=Amusement-Park-Injuries-xlsxCleaned.xls) & [Saferparks](https://saferparksdata.org/) | [Saferparks](https://saferparksdata.org/) |
 | 38 | `2019-09-17` | [National Park Visits](data/2019/2019-09-17) | [Data.world](https://data.world/inform8n/us-national-parks-visitation-1904-2016-with-boundaries) | [`fivethirtyeight` article](https://fivethirtyeight.com/features/the-national-parks-have-never-been-more-popular/) |
+| 39 | `2019-09-24` | [School Diversity](data/2019/2019-09-24) | [NCES](https://nces.ed.gov/ccd/pubschuniv.asp) | [`Washington Post` article](https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/) |
 
 ***  
 
