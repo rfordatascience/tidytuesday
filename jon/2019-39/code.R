@@ -12,17 +12,15 @@
 # library(transformr)
 library(magrittr)
 
+data_dir <- "data/2019/2019-09-24/"
+save_dir <- "jon/2019-39"
+
 n_schools <- 12217
 circle_sides <- 6
 
 # Load and clean data -----------------------------------------------------
 
-path <- paste0(
-  'https://raw.githubusercontent.com/rfordatascience/tidytuesday/',
-  'master/data/2019/2019-09-24/'
-)
-
-data <- readr::read_csv(paste0(path, 'school_diversity.csv')) %>%
+data <- readr::read_csv(fs::path(data_dir, 'school_diversity.csv')) %>%
   janitor::clean_names()
 
 clean_data <- data %>%
@@ -392,7 +390,7 @@ gganimate::animate(
   fps = fps,
   width = 850,
   height = 800,
-  renderer = gganimate::gifski_renderer("school_diversity.gif"),
+  renderer = gganimate::gifski_renderer(fs::path(save_dir, "school_diversity.gif")),
   start_pause = 0,
   end_pause = pause_frames
 )
