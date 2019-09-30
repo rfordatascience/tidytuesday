@@ -61,7 +61,7 @@ pizza_datafiniti <- readr::read_csv("https://raw.githubusercontent.com/rfordatas
 |review_stats_dave_count              |double    | Dave review count |
 |review_stats_dave_total_score        |double    | Dave total score |
 
-## `pizza_barstool.csv`
+## `pizza_datafiniti.csv`
 
 |variable        |class     |description |
 |:---------------|:---------|:-----------|
