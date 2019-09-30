@@ -8,11 +8,14 @@ Check out her DataViz video and slides at her [GitHub](https://github.com/ljanda
 
 Jared's data is from top NY pizza restaurants, with a 6 point likert scale survey on ratings. The Barstool sports dataset has critic, public, and the Barstool Staff's rating as well as pricing, location, and geo-location. There are 22 pizza places that overlap between the two datasets.
 
+If you want to look more at geo-location of pizza places, checkout this one from [DataFiniti](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell). This includes 10000 pizza places, their price ranges and geo-locations.
+
 # Get the data!
 
 ```
 pizza_jared <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_jared.csv")
 pizza_barstool <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_barstool.csv")
+pizza_datafiniti <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_datafiniti.csv")
 ```
 
 # Data Dictionary
@@ -57,6 +60,21 @@ pizza_barstool <- readr::read_csv("https://raw.githubusercontent.com/rfordatasci
 |review_stats_dave_average_score      |double    | Dave (Barstool) average score|
 |review_stats_dave_count              |double    | Dave review count |
 |review_stats_dave_total_score        |double    | Dave total score |
+
+## `pizza_barstool.csv`
+
+|variable        |class     |description |
+|:---------------|:---------|:-----------|
+|name            |character | Pizza place |
+|address         |character | Address |
+|city            |character | City |
+|country         |character | Country |
+|province        |character | State |
+|latitude        |double    | Latitude|
+|longitude       |double    | Longitude |
+|categories      |character | Restaurant category |
+|price_range_min |double    | Price range min |
+|price_range_max |double    | Price range max|
 
 
 # Cleaning Script
