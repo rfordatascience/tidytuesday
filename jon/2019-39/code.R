@@ -1,6 +1,6 @@
 # Inspired by https://twitter.com/spren9er/status/1177810296607522816
 
-# This took a forever to render, so I don't library full packages unless I need
+# This took a ton of RAM to render, so I don't library full packages unless I need
 # them. However, these are the package needed for this:
 
 # library(dplyr)
@@ -41,7 +41,7 @@ clean_data <- data %>%
     total = as.integer(total)
   )
 
-rm(data, path)
+rm(data)
 
 # It doesn't work below to use all 12k schools. Randomly choose N. Increase N
 # once it works once to see how high it can be.
