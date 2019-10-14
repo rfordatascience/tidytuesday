@@ -83,6 +83,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 39 | `2019-09-24` | [School Diversity](data/2019/2019-09-24) | [NCES](https://nces.ed.gov/ccd/pubschuniv.asp) | [`Washington Post` article](https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/) |
 | 40 | `2019-10-01` | [All the Pizza](data/2019/2019-10-01) | [Jared Lander & Ludmila Janda](https://twitter.com/jaredlander/status/1178122846419193858?s=20), [Tyler Richards](https://github.com/tylerjrichards/Barstool_Pizza), [DataFiniti](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell) | [Tyler Richards on TWD](https://towardsdatascience.com/adventures-in-barstools-pizza-data-9b8ae6bb6cd1) |
 | 41 | `2019-10-08` | [Powerlifting](data/2019/2019-10-08) | [OpenPowerlifting.org](https://www.openpowerlifting.org/data) | [Elias Oziolor](https://oziolor.wordpress.com/2018/05/19/part-i-getting-old-you-can-still-lift/) |
+| 42 | `2019-10-15` | [Car Fuel Economy](data/2019/2019-10-15) | [EPA](https://www.fueleconomy.gov/feg/download.shtml) | [Ellis Hughes](https://thebioengineer.github.io/thebioengineer.github.io/2019/09/10/big-mtcars/) |
 
 ***  
 
