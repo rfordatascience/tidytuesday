@@ -21,14 +21,14 @@ horror_movies <- readr::read_csv("https://raw.githubusercontent.com/rfordatascie
 |variable          |class     |description |
 |:-----------------|:---------|:-----------|
 |title             |character | Title of the movie |
-|genres            |character | Movie Generes (separated by `|`) |
+|genres            |character | Movie Generes (separated by '|') |
 |release_date      |character | Movie release date - day-month-year |
 |release_country   |character | Release country |
 |movie_rating      |character | MPAA Rating |
 |review_rating     |double    | Movie rating (0 - 10) |
 |movie_run_time    |character | Movie run time (minutes) |
 |plot              |character | Short plot description (raw text) |
-|cast              |character | Cast (separated by `|`)|
+|cast              |character | Cast (separated by '|')|
 |language          |character | Language |
 |filming_locations |character | Filming location |
 |budget            |character | Budget (US Dollars) |
