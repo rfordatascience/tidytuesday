@@ -21,8 +21,7 @@ nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascie
 |:------------------------------------------|:---------|:-----------|
 |long                                       |double    | Longitude|
 |lat                                        |double    | Latitude|
-|unique_squirrel_id                         |character | Identification tag for each squirrel sightings. The tag is comprised of "Hectare ID" + "Shift" + "Date" + "Hectare Squirrel Number."
- |
+|unique_squirrel_id                         |character | Identification tag for each squirrel sightings. The tag is comprised of "Hectare ID" + "Shift" + "Date" + "Hectare Squirrel Number." |
 |hectare                                    |character | ID tag, which is derived from the hectare grid used to divide and count the park area. One axis that runs predominantly north-to-south is numerical (1-42), and the axis that runs predominantly east-to-west is roman characters (A-I).|
 |shift                                      |character | Value is either "AM" or "PM," to communicate whether or not the sighting session occurred in the morning or late afternoon. |
 |date                                       |double    | Concatenation of the sighting session day and month.|
@@ -39,8 +38,8 @@ nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascie
 |chasing                                    |logical   | Squirrel was seen chasing.|
 |climbing                                   |logical   |  Squirrel was seen climbing.|
 |eating                                     |logical   |  Squirrel was seen eating. |
-|foraging                                   |logical   |. Squirrel was seen foraging.|
-|other_activities                           |character |.           |
+|foraging                                   |logical   | Squirrel was seen foraging.|
+|other_activities                           |character | Other activities   |
 |kuks                                       |logical   | Squirrel was heard kukking, a chirpy vocal communication used for a variety of reasons.|
 |quaas                                      |logical   | Squirrel was heard quaaing, an elongated vocal communication which can indicate the presence of a ground predator such as a dog.|
 |moans                                      |logical   | Squirrel was heard moaning, a high-pitched vocal communication which can indicate the presence of an air predator such as a hawk.|
