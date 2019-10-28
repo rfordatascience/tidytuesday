@@ -18,7 +18,7 @@ nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascie
 ## `nyc_squirrels.csv`
 
 |variable                                   |class     |description |
-|:------------------------------------------|:---------|:-----------|
+|:---|:---|:-----------|
 |long                                       |double    | Longitude|
 |lat                                        |double    | Latitude|
 |unique_squirrel_id                         |character | Identification tag for each squirrel sightings. The tag is comprised of "Hectare ID" + "Shift" + "Date" + "Hectare Squirrel Number." |
