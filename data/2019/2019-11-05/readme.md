@@ -1,10 +1,6 @@
 # Modes Less Traveled - Bicycling and Walking to Work in the United States: 2008-2012
 
-![](data/2019/2019-11-05/pic1.png)
-
-![](data/2019/2019-11-05/pic2.png)
-
-This week's data is from the [ACS Survey](https://www.census.gov/library/publications/2014/acs/acs-25.html?#). The article and underlying data can be found at the [Census Website](https://www.census.gov/library/publications/2014/acs/acs-25.html?#). The PDF report is also available for [download](data/2019/2019-11-05/acs-25.pdf) if you'd like to try reading in some of the embedded tables.
+This week's data is from the [ACS Survey](https://www.census.gov/library/publications/2014/acs/acs-25.html?#). The article and underlying data can be found at the [Census Website](https://www.census.gov/library/publications/2014/acs/acs-25.html?#). The PDF report is also available for [download](/data/2019/2019-11-05/acs-25.pdf) if you'd like to try reading in some of the embedded tables.
 
 Please note that the raw excel files are uploaded (6 total), along with the cleaned/tidy data (`commute.csv`). There is also a cleaned up version of Table 3 from the article, which incorporates summary data around age, gender, race, children, income, and education for modes of travel (bike, walk, other). If you work with the ACS table 3 I'd suggest `dplyr::slice()` to grab the specific sub-tables from within it!
 
@@ -29,6 +25,12 @@ commute_mode <- readr::read_csv("https://raw.githubusercontent.com/rfordatascien
 |moe          |double    |Margin of Error (percent)|
 |state_abb    |character |Abbreviated state name |
 |state_region |character |ACS State region|
+
+# Spoilers
+
+![](/data/2019/2019-11-05/pic1.png)
+
+![](/data/2019/2019-11-05/pic2.png)
 
 
 # Cleaning Script
