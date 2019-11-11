@@ -9,7 +9,7 @@ He analyzed the lines of code and the different languages in all of the R packag
 ```
 cran_code <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-11-12/loc_cran_packages.csv")
 
-# Or read in with tidytuesdayR package
+# Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
 tuesdata <- tidytuesdayR::tt_load("2019-11-12")
 tuesdata <- tidytuesdayR::tt_load(2019, week = 46)
 
