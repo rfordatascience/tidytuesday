@@ -87,7 +87,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 43 | `2019-10-22` | [Horror movie ratings](data/2019/2019-10-22) | [IMDB](https://www.kaggle.com/PromptCloudHQ/imdb-horror-movie-dataset) | [Stephen Follows](https://stephenfollows.com/what-the-data-says-about-producing-low-budget-horror-films/) |
 | 44 | `2019-10-29` | [NYC Squirrel Census](data/2019/2019-10-29) | [Squirrel Census](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) | [CityLab](https://www.citylab.com/life/2019/06/squirrel-census-results-population-central-park-nyc/592162/) |
 | 45 | `2019-11-05` | [Bike & Walk Commutes](data/2019/2019-11-05) | [ACS](https://www.census.gov/library/publications/2014/acs/acs-25.html?#) | [ACS](https://www.census.gov/library/publications/2014/acs/acs-25.html?#) |
-
+| 46 | `2019-11-12` | [CRAN Code](data/2019/2019-11-12) | [CRAN](https://cran.r-project.org/src/contrib/) | [Phillip Massicotte](https://www.pmassicotte.com/post/analyzing-the-programming-languages-used-in-r-packages/) |
 
 
 ***  
