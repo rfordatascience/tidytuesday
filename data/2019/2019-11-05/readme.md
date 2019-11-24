@@ -135,7 +135,7 @@ race_data <- acs_data %>%
   rename("race" = age)
 
 children_data <- acs_data %>% 
-  slice(20:24) %>% 
+  slice(21:24) %>% 
   rename("children" = age)
 
 income_data <- acs_data %>% 
