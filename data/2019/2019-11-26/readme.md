@@ -20,7 +20,7 @@ loans <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidy
 tuesdata <- tidytuesdayR::tt_load("2019-11-26")
 tuesdata <- tidytuesdayR::tt_load(2019, week = 48)
 
-nz_bird <- tuesdata$nz_bird
+loans <- tuesdata$loans
 ```
 
 # Data Dictionary
