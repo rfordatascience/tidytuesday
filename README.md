@@ -89,7 +89,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 45 | `2019-11-05` | [Bike & Walk Commutes](data/2019/2019-11-05) | [ACS](https://www.census.gov/library/publications/2014/acs/acs-25.html?#) | [ACS](https://www.census.gov/library/publications/2014/acs/acs-25.html?#) |
 | 46 | `2019-11-12` | [CRAN Code](data/2019/2019-11-12) | [CRAN](https://cran.r-project.org/src/contrib/) | [Phillip Massicotte](https://www.pmassicotte.com/post/analyzing-the-programming-languages-used-in-r-packages/) |
 | 47 | `2019-11-19` | [NZ Bird of the Year](data/2019/2019-11-19) | [New Zealand Forest and Bird Org](https://www.forestandbird.org.nz/) | [Dragonfly Data Science](https://www.dragonfly.co.nz/news/2019-11-12-boty.html) & [Nathan Moore](https://twitter.com/nmoorenz) |
-
+| 48 | `2019-11-26` | [Student Loan Debt](data/2019/2019-11-26) | [Department of Education](https://studentaid.ed.gov/sa/about/data-center/student/default) | [Dignity and Debt](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/) |
 
 ***  
 
