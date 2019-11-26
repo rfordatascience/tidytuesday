@@ -34,11 +34,12 @@ loans <- tuesdata$loans
 |quarter            |integer   | Quarter (3 month period) |
 |starting           |double    | Total value in dollars at start of quarter |
 |added              |double    | Total value added during quarter |
+|total              |double    | Total dollars repaid |
 |consolidation      |double    | Consolidation reflects the dollar value of loands consolidated|
 |rehabilitation     |double    | Rehabilitation reflects the dollar value of loans rehabilitated|
 |voluntary_payments |double    | Voluntary payments reflects the total amount of payments received from borrowers|
 |wage_garnishments  |double    | Wage Garnishments reflect the total amount of wage garnishment payments|
-|total              |double    | Total dollars repaid |
+
 
 # Scripts
 
@@ -83,9 +84,10 @@ all_df <- map(.x = files, .f = read_excel, skip = 4) %>%
   map(~ filter(.x, !is.na(starting))) %>%
   map(~ filter(.x, starting != "At Start of Quarter"))  %>%
   map2(.x = ., .y = names(.), ~ mutate(.x, quarter = .y)) %>% 
-  map(~ select(.x, agency_name, quarter, starting, added, total, consolidation, rehabilitation)) %>%
+  map(~ select(.x, agency_name, quarter, starting, added, total, consolidation, 
+               rehabilitation, voluntary_payments, wage_garnishments)) %>%
   map(~ mutate_at(.x,
-                  .vars = vars(starting:rehabilitation),
+                  .vars = vars(starting:wage_garnishments),
                   .funs = as.double
   ))
 
