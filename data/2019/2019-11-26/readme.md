@@ -35,7 +35,7 @@ loans <- tuesdata$loans
 |starting           |double    | Total value in dollars at start of quarter |
 |added              |double    | Total value added during quarter |
 |total              |double    | Total dollars repaid |
-|consolidation      |double    | Consolidation reflects the dollar value of loands consolidated|
+|consolidation      |double    | Consolidation reflects the dollar value of loans consolidated|
 |rehabilitation     |double    | Rehabilitation reflects the dollar value of loans rehabilitated|
 |voluntary_payments |double    | Voluntary payments reflects the total amount of payments received from borrowers|
 |wage_garnishments  |double    | Wage Garnishments reflect the total amount of wage garnishment payments|
