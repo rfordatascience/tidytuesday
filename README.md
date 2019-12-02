@@ -90,6 +90,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 46 | `2019-11-12` | [CRAN Code](data/2019/2019-11-12) | [CRAN](https://cran.r-project.org/src/contrib/) | [Phillip Massicotte](https://www.pmassicotte.com/post/analyzing-the-programming-languages-used-in-r-packages/) |
 | 47 | `2019-11-19` | [NZ Bird of the Year](data/2019/2019-11-19) | [New Zealand Forest and Bird Org](https://www.forestandbird.org.nz/) | [Dragonfly Data Science](https://www.dragonfly.co.nz/news/2019-11-12-boty.html) & [Nathan Moore](https://twitter.com/nmoorenz) |
 | 48 | `2019-11-26` | [Student Loan Debt](data/2019/2019-11-26) | [Department of Education](https://studentaid.ed.gov/sa/about/data-center/student/default) | [Dignity and Debt](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/) |
+| 49 | `2019-12-03` | [Philly Parking Tickets](data/2019/2019-12-03) | [Open Data Philly](https://www.opendataphilly.org/dataset/parking-violations) | [NBC Philadelphia](https://www.nbcphiladelphia.com/news/local/Nearly-6-Million-Philadelphia-Parking-Authority-Tickets-Are-on-the-Rise-Since-2016-565438131.html) |
 
 ***  
 
