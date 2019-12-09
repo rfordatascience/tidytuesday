@@ -28,16 +28,16 @@ diseases <- tuesdata$diseases
 # Dictionary
 
 ### `diseases.csv`
-|variable        |class   |description |
-|:---------------|:-------|:-----------|
-|disease         |integer | Disease name |
-|state           |integer | State |
-|year            |double  | Year |
-|weeks_reporting |integer | N of weeks reporting |
-|count           |double  | Count of disease observsed |
-|population      |double  | Total population |
+|variable        |class     |description |
+|:---------------|:---------|:-----------|
+|disease         |integer   | Disease name |
+|state           |character | State |
+|year            |double    | Year |
+|weeks_reporting |integer   | N of weeks reporting |
+|count           |double    | Count of disease observed |
+|population      |double    | Total population |
 
-### `diseases.csv`
+### `nyc_regents.csv`
 |variable           |class  |description |
 |:------------------|:------|:-----------|
 |score              |double | Grading score (0 - 100)|
@@ -46,6 +46,21 @@ diseases <- tuesdata$diseases
 |living_environment |double | Total observations |
 |english            |double | Total observations |
 |us_history         |double | Total observations |
+
+### `international_murders.csv`
+|variable           |class     |description |
+|:------------------|:---------|:-----------|
+|country            |character | country |
+|count              |double    | Total observations |
+|label              |character | Total observations |
+|code               |character | 2 letter country code |
+
+
+### `gun_murders.csv`
+|variable           |class  |description |
+|:------------------|:------|:-----------|
+|country            |character | country |
+|count              |double | gun related homicides per 100,000 people |
 
 # Cleaning
 
