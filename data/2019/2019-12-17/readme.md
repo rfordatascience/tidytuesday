@@ -26,8 +26,8 @@ dog_descriptions <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 
 # Install via devtools::install_github(“thebioengineer/tidytuesdayR”)
 
-tuesdata <- tidytuesdayR::tt_load('2019-12-17') tuesdata <-
-tidytuesdayR::tt_load(2019, week = 51)
+tuesdata <- tidytuesdayR::tt_load('2019-12-17') 
+tuesdata <- tidytuesdayR::tt_load(2019, week = 51)
 
 
 dog_moves <- tuesdata$dog_moves
