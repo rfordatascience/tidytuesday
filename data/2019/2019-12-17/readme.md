@@ -24,7 +24,7 @@ dog_descriptions <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 
 # Either ISO-8601 date or year/week works!
 
-# Install via devtools::install_github(“thebioengineer/tidytuesdayR”)
+# Install via devtools::install_github("thebioengineer/tidytuesdayR")
 
 tuesdata <- tidytuesdayR::tt_load('2019-12-17') 
 tuesdata <- tidytuesdayR::tt_load(2019, week = 51)
