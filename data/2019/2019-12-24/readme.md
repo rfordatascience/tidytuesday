@@ -7,6 +7,7 @@ This week's data is about Christmas songs on the hot-100 list! Clean data comes 
 ```
 christmas_songs <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-12-24/christmas_songs.csv")
 
+christmas_lyrics <- readr::read_tsv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-12-24/christmas_lyrics.tsv")
 
 # Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
 # Either ISO-8601 date or year/week works!
