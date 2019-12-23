@@ -2,6 +2,8 @@
 
 This week's data is about Christmas songs on the hot-100 list! Clean data comes from [Kaggle](https://www.kaggle.com/sharkbait1223/billboard-top-100-christmas-carol-dataset) and originally from [data.world](https://data.world/kcmillersean/billboard-hot-100-1958-2017).
 
+The lyrics come courtest of Josiah Parry's [`genius`](https://github.com/josiahparry/genius) R package. It has several useful functions, mainly built around grabbing lyrics for specific artists, songs, or albums.
+
 # Get the Data
 
 ```
