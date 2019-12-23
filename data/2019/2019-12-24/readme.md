@@ -39,3 +39,35 @@ christmas_songs <- tuesdata$christmas_songs
 |year                   |double    | year|
 |month                  |double    | month|
 |day                    |double    | day |
+
+### `christmas_lyrics.csv`
+
+|variable    |class     |description |
+|:-----------|:---------|:-----------|
+|title       |character | Song title (same as song) |
+|artist      |character | Artist (same as performer) |
+|songid      |character | songid - join via this column |
+|weekid      |date | date|
+|track_title |character | Track title |
+|track_n     |integer   | Track number |
+|line        |integer   | Line number |
+|lyric       |character | Lyric text |
+
+```{r}
+library(tidyverse)
+library(genius)
+
+df <- read_csv(here("2019", "2019-12-24", "christmas_songs.csv"))
+
+lyric_df <- df %>% 
+  select("title" = song,
+         "artist" = performer,
+         songid,
+         weekid) %>% 
+  add_genius(artist = artist, title = title) %>% 
+  select(-lyrics)
+
+lyric_clean %>% 
+  write_tsv(here("2019", "2019-12-24","christmas_lyrics.tsv"))
+
+```
