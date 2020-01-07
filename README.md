@@ -37,10 +37,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 ***
 
 # DataSets
-## [2018](data/2018)  
-## [2019](data/2019)  
-
-## [2020](data/2020)  
+## [2018](data/2018) [2019](data/2019) [2020](data/2020)  
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
