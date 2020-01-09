@@ -93,7 +93,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 49 | `2019-12-03` | [Philly Parking Tickets](data/2019/2019-12-03) | [Open Data Philly](https://www.opendataphilly.org/dataset/parking-violations) | [NBC Philadelphia](https://www.nbcphiladelphia.com/news/local/Nearly-6-Million-Philadelphia-Parking-Authority-Tickets-Are-on-the-Rise-Since-2016-565438131.html) |
 | 50 | `2019-12-10` | [Replicating plots in R](data/2019/2019-12-10) | [Simply Statistics](https://simplystatistics.org/2019/08/28/you-can-replicate-almost-any-plot-with-ggplot2/) | [Rafael Irizarry](https://simplystatistics.org/2019/08/28/you-can-replicate-almost-any-plot-with-ggplot2/) |
 | 51 | `2019-12-17` | [Adoptable dogs](data/2019/2019-12-17) | [Petfinder](https://github.com/the-pudding/data/blob/master/dog-shelters/README.md) | [The Pudding](https://pudding.cool/2019/10/shelters/) |
-| 52 | `2019-12-24` | [Christmas Songs](data/2019/2019-12-24) | [Billboard Top 100](https://www.kaggle.com/sharkbait1223/billboard-top-100-christmas-carol-dataset) | [A Dash of Data](https://adashofdata.com/2014/12/21/how-christmas-songs-have-evolved-over-time/) |
+| 52 | `2019-12-24` | [Christmas Songs](2019-12-24) | [Billboard Top 100](https://www.kaggle.com/sharkbait1223/billboard-top-100-christmas-carol-dataset) | [A Dash of Data](https://adashofdata.com/2014/12/21/how-christmas-songs-have-evolved-over-time/) |
 
 ***  
 
