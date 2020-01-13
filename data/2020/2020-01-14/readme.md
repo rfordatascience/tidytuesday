@@ -32,8 +32,6 @@ passwords <- tuesdata$passwords
 ```
 ### Data Dictionary
 
-Please note that all weather station locations and metadata are in `weather_station_ids.txt`.
-
 # `passwords.csv`
 
 |variable          |class     |description |
