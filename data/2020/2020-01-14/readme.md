@@ -1,4 +1,5 @@
 ![https://xkcd.com/936/](https://imgs.xkcd.com/comics/password_strength.png)
+### [XKCD Source for Comic](https://xkcd.com/936/)
 
 
 # Passwords
