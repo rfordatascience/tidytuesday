@@ -9,6 +9,7 @@ There are dozens of tree species, and many other intresting features to explore 
 Also - make sure to follow [@tidypod](https://twitter.com/tidypod) - they'll have some interesting `#TidyTuesday` updates to come this week!
 
 Some interesting articles:
+- [Trees of Life in SF](https://www.sfweekly.com/news/feature/trees-of-life/)
 - [Landmark trees](http://www.sftrees.com/new-page-1)
 - [Non-native trees](https://medium.com/@tharkibo/none-of-these-trees-belong-in-san-francisco-and-neither-do-you-and-thats-ok-377ce44d7198)
 - [Friends of the urban forest](https://www.fuf.net/resources-reference/urban-tree-species-directory/)
