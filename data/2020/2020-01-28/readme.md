@@ -52,7 +52,7 @@ address order |
 |site_info    |character | Site Info - Where the tree resides |
 |caretaker    |character | Agency or person that is primary caregiver to tree -- Owner of Tree |
 |date         |double    | Date Planted (NA if before 1955)|
-|dbh          |double    | depth, height|
+|dbh          |double    | [Diameter at breast height](https://en.wikipedia.org/wiki/Diameter_at_breast_height) |
 |plot_size    |character | Dimension of plot - typically in feet |
 |latitude     |double    | Latitude |
 |longitude    |double    | Longitude |
