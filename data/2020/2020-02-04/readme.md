@@ -12,6 +12,7 @@ The data this week comes from Pro Football Reference [team standings](https://ww
 
 attendance <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-04/attendance.csv')
 standings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-04/standings.csv')
+games <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-04/games.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO UPDATE tidytuesdayR from GitHub
@@ -63,3 +64,27 @@ These can be joined relatively nicely with `dplyr::left_join(by = c("year", "tea
 |defensive_ranking    |double    | Team defense quality relative to average (0.0) as measured by SRS (Simple Rating System) |
 |playoffs             |character | Made playoffs or not |
 |sb_winner            |character | Won superbowl or not |
+
+# `games.csv`
+
+|variable       |class     |description |
+|:--------------|:---------|:-----------|
+|year           |integer   | season year, note that playoff games will still be in the previous season |
+|week           |character | week number (1-17, plus playoffs) |
+|home_team      |character | Home team |
+|away_team      |character | Away team|
+|winner         |character | Winning team |
+|tie            |character | If a tie, the "losing" team as well |
+|day            |character | Day of week |
+|date           |character | Date minus year |
+|time           |character | Time of game start |
+|pts_win        |double    | Points by winning team |
+|pts_loss       |double    |Points by losing team |
+|yds_win        |double    | Yards by winning team |
+|turnovers_win  |double    | Turnovers by winning team |
+|yds_loss       |double    | Yards by losing team |
+|turnovers_loss |double    | Turnovers by losing team |
+|home_team_name |character | Home team name |
+|home_team_city |character | Home team city |
+|away_team_name |character | Away team name |
+|away_team_city |character | Away team city |
