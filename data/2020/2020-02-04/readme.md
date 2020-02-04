@@ -58,8 +58,7 @@ These can be joined relatively nicely with `dplyr::left_join(by = c("year", "tea
 |points_differential  |double    | Point differential (points_for - points_against) |
 |margin_of_victory    |double    | (Points Scored - Points Allowed)/ Games Played |
 |strength_of_schedule |double    | Average quality of opponent as measured by SRS (Simple Rating System) |
-|simple_rating        |double    |Team quality relative to average (0.0) as measured by SRS (Simple Rating System)
-SRS = MoV + SoS = OSRS + DSRS |
+|simple_rating        |double    |Team quality relative to average (0.0) as measured by SRS (Simple Rating System) <br> SRS = MoV + SoS = OSRS + DSRS |
 |offensive_ranking    |double    | Team offense quality relative to average (0.0) as measured by SRS (Simple Rating System)|
 |defensive_ranking    |double    | Team defense quality relative to average (0.0) as measured by SRS (Simple Rating System) |
 |playoffs             |character | Made playoffs or not |
