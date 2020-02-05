@@ -45,7 +45,7 @@ These can be joined relatively nicely with `dplyr::left_join(by = c("year", "tea
 |week              |character | Week number (1-17)|
 |weekly_attendance |double    | Weekly attendance number |
 
-# `attendance.csv`
+# `standings.csv`
 
 |variable             |class     |description |
 |:--------------------|:---------|:-----------|
