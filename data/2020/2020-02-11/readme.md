@@ -46,8 +46,7 @@ hotels <- tuesdata$hotels
 |adults                         |double    | Number of adults|
 |children                       |double    | Number of children|
 |babies                         |double    |Number of babies |
-|meal                           |character | Type of meal booked. Categories are presented in standard hospitality meal packages: <br> Undefined/SC – no meal package;<br>BB – Bed & Breakfast; <br> HB – Half board (breakfast and one other meal – usually dinner); <br>
-FB – Full board (breakfast, lunch and dinner) |
+|meal                           |character | Type of meal booked. Categories are presented in standard hospitality meal packages: <br> Undefined/SC – no meal package;<br>BB – Bed & Breakfast; <br> HB – Half board (breakfast and one other meal – usually dinner); <br> FB – Full board (breakfast, lunch and dinner) |
 |country                        |character | Country of origin. Categories are represented in the ISO 3155–3:2013 format |
 |market_segment                 |character | Market segment designation. In categories, the term “TA” means “Travel Agents” and “TO” means “Tour Operators” |
 |distribution_channel           |character | Booking distribution channel. The term “TA” means “Travel Agents” and “TO” means “Tour Operators” |
