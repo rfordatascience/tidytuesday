@@ -72,11 +72,8 @@ hotels <- tuesdata$hotels
 ### Cleaning Script
 
 ```{r}
-library(tidytuesdaymeta)
 library(tidyverse)
 library(feasts)
-
-create_tidytuesday_folder()
 
 # resort hotel
 h1 <- read_csv(here::here("2020", "2020-02-11", "H1.csv")) %>% 
