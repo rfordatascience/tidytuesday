@@ -29,7 +29,32 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 ***
 
 ## Submitting Datasets
-Want to submit an interesting dataset? Please open an [Issue](https://github.com/rfordatascience/tidytuesday/issues) and post a link to the article (or blogpost, etc) using the data, then we can discuss adding it to a future TidyTuesday Event!
+
+`TidyTuesday` is built around open datasets that are found in the "wild" or submitted as [Issues](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub.
+
+If you find a dataset that you think would be interesting, you can approach it through two ways:
+
+## Two Ways to Contribute
+
+1. **Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesday/issues)**  
+a. Find an interesting dataset  
+b. Find a report, blog post, article etc relevant to the data   
+c. Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesday/issues) along with a link to the article  
+
+2. **Create an entire TidyTuesday challenge!**  
+a. Find an interesting dataset  
+b. Find a report, blog post, article etc relevant to the data (or create one yourself!)  
+c. Let us know you're found something interesting and are working on it by filing an [Issue](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub  
+d. Provide a link or the raw data and a cleaning script for the data  
+e. Write a basic `readme.md` file using the minimal template below and make sure to give yourself credit! 
+
+#### `readme.md` template
+
+```
+# INPUT THE SUBJECT TITLE OF THE DATASET
+
+The data this week comes from [SOURCE_OF_DATA](URL_TO_DATA).
+```
 
 ## Submitting Code Chunks
 Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
