@@ -1,3 +1,5 @@
+# ignore generated artifacts
+*.html
 
 # Created by https://www.gitignore.io/api/venv,linux,macos,python,pycharm,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=venv,linux,macos,python,pycharm,jupyternotebooks
