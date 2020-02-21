@@ -53,7 +53,11 @@ e. Write a basic `readme.md` file using the minimal template below and make sure
 ```
 # INPUT THE SUBJECT TITLE OF THE DATASET
 
-The data this week comes from [SOURCE_OF_DATA](URL_TO_DATA).
+The data this week comes from [SOURCE_OF_DATA](URL_TO_DATA). 
+
+This [ARTICLE_SOURCE](LINK_TO_ARTICLE) talks about SUBJECT TITLE in greater detail.
+
+Credit: [YOUR NAME](Twitter handle or other social media profile)
 ```
 
 ## Submitting Code Chunks
