@@ -8,9 +8,9 @@ The data this week comes from [The Wallstreet Journal](https://github.com/WSJ/me
 
 Additional data sources are available at:
 * [CDC Child immunization](https://www.cdc.gov/vaccines/imz-managers/coverage/childvaxview/data-reports/mmr/trend/index.html)  
-* [World Bank](https://data.worldbank.org/indicator/SH.IMM.MEAS?end=2018&locations=IT&start=1990&view=chart)  
-[CDC General Immunization](https://www.cdc.gov/nchs/fastats/immunize.htm)  
-[WSJ Measles](https://raw.githubusercontent.com/WSJ/measles-data/master/all-measles-rates.csv)  
+* [World Bank](https://data.worldbank.org/indicator/SH.IMM.MEAS?end=2018&locations=IT&start=1990&view=chart)   
+* [CDC General Immunization](https://www.cdc.gov/nchs/fastats/immunize.htm)  
+* [WSJ Measles](https://raw.githubusercontent.com/WSJ/measles-data/master/all-measles-rates.csv)  
 
 ### Get the data here
 
