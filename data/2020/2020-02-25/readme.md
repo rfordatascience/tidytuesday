@@ -40,7 +40,7 @@ measles <- tuesdata$measles
 |:--------|:---------|:-----------|
 |index    |double    | Index ID |
 |state    |character | School's state |
-|year     |character | School's district|
+|year     |character | School academic year|
 |name     |character | School name|
 |type     |character | Whether a school is public, private, charter |
 |city     |character | City |
