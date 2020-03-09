@@ -80,6 +80,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 8 | `2020-02-18` | [Food's Carbon Footprint](data/2020/2020-02-18/readme.md) | [nu3](https://www.nu3.de/blogs/nutrition/food-carbon-footprint-index-2018) | [`r-tastic` by Kasia Kulma](https://r-tastic.co.uk/post/from-messy-to-tidy/) |
 | 9 | `2020-02-25` | [Measles Vaccination](data/2020/2020-02-25/readme.md) | [The Wallstreet Journal](https://github.com/WSJ/measles-data) | [The Wall Street Journal](https://www.wsj.com/graphics/school-measles-rate-map/) |
 | 10 | `2020-03-03` | [NHL Goals](data/2020/2020-03-03/readme.md) | [HockeyReference.com](https://www.hockey-reference.com/leaders/goals_career.html) | [Washington Post](https://www.washingtonpost.com/graphics/2020/sports/capitals/ovechkin-700-goals/?utm_campaign=wp_graphics&utm_medium=social&utm_source=twitter)|
+| 11 | `2020-03-10` | [College Tuition, Diversity, and Pay](data/2020/2020-03-10/readme.md) | [TuitionTracker.org](https://www.tuitiontracker.org/) | [TuitionTracker.org](https://www.tuitiontracker.org/school.html?unitid=228778) |
 
 ***  
 
