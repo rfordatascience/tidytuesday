@@ -1,3 +1,5 @@
+![](https://images.unsplash.com/photo-1533854775446-95c4609da544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+
 # College tuition, diversity, and pay
 
 College tuition data is somewhat difficult to find - with many sites limiting it to online tools.
