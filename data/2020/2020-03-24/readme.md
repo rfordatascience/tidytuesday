@@ -9,7 +9,7 @@ The goal of this week's `#TidyTuesday` is to spread awareness for just how commo
 
 > One of every 60 people in the U.S. lives with a TBI related disability. Moderate and severe traumatic brain injury (TBI) can lead to a lifetime of physical, cognitive, emotional, and behavioral changes. 
 
-If you want to share an infographic or summary graphic from this data - please consider using the awareness hashtag: `#ChangeYourMind` and tagging the [Brain Injury Association](https://twitter.com/biaamerica). More details can be found at the [Brain Injury Association Website](https://www.biausa.org/public-affairs/public-awareness/brain-injury-awareness).
+If you want to share an infographic or summary graphic from this data - please consider using the awareness hashtag: `#ChangeYourMind`, `#braininjuryawarenessmonth`, or tagging the [Brain Injury Association](https://twitter.com/biaamerica). More details can be found at the [Brain Injury Association Website](https://www.biausa.org/public-affairs/public-awareness/brain-injury-awareness).
 
 The data this week comes from the [CDC](https://www.cdc.gov/traumaticbraininjury/pdf/TBI-Surveillance-Report-FINAL_508.pdf) and [Veterans Brain Injury Center](https://dvbic.dcoe.mil/dod-worldwide-numbers-tbi). Additional stats can be found at [CDC.gov](https://www.cdc.gov/traumaticbraininjury/data/index.html).
 
