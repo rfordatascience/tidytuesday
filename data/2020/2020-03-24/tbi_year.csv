@@ -1,0 +1,217 @@
+injury_mechanism,type,year,rate_est,number_est
+Motor vehicle crashes,Emergency Department Visit,2006,85.3,254793
+Motor vehicle crashes,Emergency Department Visit,2007,83.8,252459
+Motor vehicle crashes,Emergency Department Visit,2008,83.9,254391
+Motor vehicle crashes,Emergency Department Visit,2009,88.7,270240
+Motor vehicle crashes,Emergency Department Visit,2010,95.3,292942
+Motor vehicle crashes,Emergency Department Visit,2011,98.7,305694
+Motor vehicle crashes,Emergency Department Visit,2012,99.9,311271
+Motor vehicle crashes,Emergency Department Visit,2013,99.6,312048
+Motor vehicle crashes,Emergency Department Visit,2014,106,334144
+Unintentional falls,Emergency Department Visit,2006,208.8,625098
+Unintentional falls,Emergency Department Visit,2007,221.7,672504
+Unintentional falls,Emergency Department Visit,2008,240.9,740528
+Unintentional falls,Emergency Department Visit,2009,298.8,928049
+Unintentional falls,Emergency Department Visit,2010,316.3,980245
+Unintentional falls,Emergency Department Visit,2011,348.7,1090575
+Unintentional falls,Emergency Department Visit,2012,355.9,1120041
+Unintentional falls,Emergency Department Visit,2013,362.9,1163473
+Unintentional falls,Emergency Department Visit,2014,374.9,1213476
+Unintentionally struck by or against an object,Emergency Department Visit,2006,90.8,266268
+Unintentionally struck by or against an object,Emergency Department Visit,2007,90.6,267175
+Unintentionally struck by or against an object,Emergency Department Visit,2008,95.8,284297
+Unintentionally struck by or against an object,Emergency Department Visit,2009,123.9,369348
+Unintentionally struck by or against an object,Emergency Department Visit,2010,127,379601
+Unintentionally struck by or against an object,Emergency Department Visit,2011,138.8,415408
+Unintentionally struck by or against an object,Emergency Department Visit,2012,149.8,447591
+Unintentionally struck by or against an object,Emergency Department Visit,2013,141,423477
+Unintentionally struck by or against an object,Emergency Department Visit,2014,143.9,433951
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2006,40.4,118834
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2007,42.7,126635
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2008,43.1,129046
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2009,49.5,148703
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2010,50.5,153309
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2011,53.4,162553
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2012,55.4,169233
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2013,54.1,167107
+"Other unintentional injury, mechanism unspecified",Emergency Department Visit,2014,53.2,164942
+Intentional self-harm,Emergency Department Visit,2006,0.5,1401
+Intentional self-harm,Emergency Department Visit,2007,0.4,1254
+Intentional self-harm,Emergency Department Visit,2008,0.5,1425
+Intentional self-harm,Emergency Department Visit,2009,0.6,1669
+Intentional self-harm,Emergency Department Visit,2010,0.6,1807
+Intentional self-harm,Emergency Department Visit,2011,0.7,2029
+Intentional self-harm,Emergency Department Visit,2012,0.7,2214
+Intentional self-harm,Emergency Department Visit,2013,0.7,2284
+Intentional self-harm,Emergency Department Visit,2014,0.8,2567
+Assault,Emergency Department Visit,2006,57.6,171327
+Assault,Emergency Department Visit,2007,56.8,169638
+Assault,Emergency Department Visit,2008,60.3,181246
+Assault,Emergency Department Visit,2009,64.6,195231
+Assault,Emergency Department Visit,2010,68.7,209062
+Assault,Emergency Department Visit,2011,68.9,210772
+Assault,Emergency Department Visit,2012,69.9,214776
+Assault,Emergency Department Visit,2013,68,210220
+Assault,Emergency Department Visit,2014,67.8,210469
+Other or no mechanism specified,Emergency Department Visit,2006,38.2,113386
+Other or no mechanism specified,Emergency Department Visit,2007,37.7,113460
+Other or no mechanism specified,Emergency Department Visit,2008,35.3,107392
+Other or no mechanism specified,Emergency Department Visit,2009,44.2,134646
+Other or no mechanism specified,Emergency Department Visit,2010,41.1,126166
+Other or no mechanism specified,Emergency Department Visit,2011,47.1,145268
+Other or no mechanism specified,Emergency Department Visit,2012,40.4,125041
+Other or no mechanism specified,Emergency Department Visit,2013,58.3,181668
+Other or no mechanism specified,Emergency Department Visit,2014,55.3,172988
+Total,Emergency Department Visit,2006,521.6,NA
+Total,Emergency Department Visit,2007,533.8,NA
+Total,Emergency Department Visit,2008,559.8,NA
+Total,Emergency Department Visit,2009,670.2,NA
+Total,Emergency Department Visit,2010,699.5,NA
+Total,Emergency Department Visit,2011,756.3,NA
+Total,Emergency Department Visit,2012,771.9,NA
+Total,Emergency Department Visit,2013,784.6,NA
+Total,Emergency Department Visit,2014,801.9,NA
+Motor vehicle crashes,Hospitalizations,2006,27.6,82873
+Motor vehicle crashes,Hospitalizations,2007,23.5,71274
+Motor vehicle crashes,Hospitalizations,2008,23.4,71468
+Motor vehicle crashes,Hospitalizations,2009,22.7,70039
+Motor vehicle crashes,Hospitalizations,2010,27,84324
+Motor vehicle crashes,Hospitalizations,2011,18.4,58115
+Motor vehicle crashes,Hospitalizations,2012,21,66755
+Motor vehicle crashes,Hospitalizations,2013,18.8,60465
+Motor vehicle crashes,Hospitalizations,2014,18.1,58795
+Unintentional falls,Hospitalizations,2006,33.9,103608
+Unintentional falls,Hospitalizations,2007,33.5,104319
+Unintentional falls,Hospitalizations,2008,38.1,120775
+Unintentional falls,Hospitalizations,2009,40.2,129456
+Unintentional falls,Hospitalizations,2010,44.6,144854
+Unintentional falls,Hospitalizations,2011,40.6,134771
+Unintentional falls,Hospitalizations,2012,42,141620
+Unintentional falls,Hospitalizations,2013,41.2,141855
+Unintentional falls,Hospitalizations,2014,42.9,150745
+Unintentionally struck by or against an object,Hospitalizations,2006,2.7,8126
+Unintentionally struck by or against an object,Hospitalizations,2007,2.6,7684
+Unintentionally struck by or against an object,Hospitalizations,2008,2.5,7577
+Unintentionally struck by or against an object,Hospitalizations,2009,2.5,7659
+Unintentionally struck by or against an object,Hospitalizations,2010,2.9,8815
+Unintentionally struck by or against an object,Hospitalizations,2011,2.3,7218
+Unintentionally struck by or against an object,Hospitalizations,2012,2.5,7885
+Unintentionally struck by or against an object,Hospitalizations,2013,2.2,7010
+Unintentionally struck by or against an object,Hospitalizations,2014,2.2,7090
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2006,7.3,21905
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2007,6.5,19754
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2008,7.2,22025
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2009,7,21775
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2010,8,25226
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2011,6.3,20101
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2012,6.7,21705
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2013,6.2,20080
+"Other unintentional injury, mechanism unspecified",Hospitalizations,2014,6.4,21195
+Intentional self-harm,Hospitalizations,2006,0.4,1339
+Intentional self-harm,Hospitalizations,2007,0.4,1293
+Intentional self-harm,Hospitalizations,2008,0.4,1235
+Intentional self-harm,Hospitalizations,2009,0.4,1351
+Intentional self-harm,Hospitalizations,2010,0.6,1778
+Intentional self-harm,Hospitalizations,2011,0.5,1395
+Intentional self-harm,Hospitalizations,2012,0.5,1655
+Intentional self-harm,Hospitalizations,2013,0.5,1665
+Intentional self-harm,Hospitalizations,2014,0.6,1730
+Assault,Hospitalizations,2006,7.1,21270
+Assault,Hospitalizations,2007,6.8,20648
+Assault,Hospitalizations,2008,7.4,22405
+Assault,Hospitalizations,2009,7.2,21873
+Assault,Hospitalizations,2010,8.3,25355
+Assault,Hospitalizations,2011,6,18562
+Assault,Hospitalizations,2012,6.2,19545
+Assault,Hospitalizations,2013,5.6,17520
+Assault,Hospitalizations,2014,5.5,17395
+Other or no mechanism specified,Hospitalizations,2006,13,39535
+Other or no mechanism specified,Hospitalizations,2007,13.8,42378
+Other or no mechanism specified,Hospitalizations,2008,6.9,21532
+Other or no mechanism specified,Hospitalizations,2009,7.9,25162
+Other or no mechanism specified,Hospitalizations,2010,11.2,35642
+Other or no mechanism specified,Hospitalizations,2011,8.4,27318
+Other or no mechanism specified,Hospitalizations,2012,9.4,31195
+Other or no mechanism specified,Hospitalizations,2013,9.7,32960
+Other or no mechanism specified,Hospitalizations,2014,9.2,31470
+Total,Hospitalizations,2006,92.2,NA
+Total,Hospitalizations,2007,87.2,NA
+Total,Hospitalizations,2008,85.8,NA
+Total,Hospitalizations,2009,87.9,NA
+Total,Hospitalizations,2010,102.5,NA
+Total,Hospitalizations,2011,82.5,NA
+Total,Hospitalizations,2012,88.4,NA
+Total,Hospitalizations,2013,84.2,NA
+Total,Hospitalizations,2014,84.9,NA
+Motor vehicle crashes,Deaths,2006,5.4,16260
+Motor vehicle crashes,Deaths,2007,5,15080
+Motor vehicle crashes,Deaths,2008,4.4,13490
+Motor vehicle crashes,Deaths,2009,3.9,12074
+Motor vehicle crashes,Deaths,2010,3.6,11235
+Motor vehicle crashes,Deaths,2011,3.5,11136
+Motor vehicle crashes,Deaths,2012,3.6,11314
+Motor vehicle crashes,Deaths,2013,3.4,10781
+Motor vehicle crashes,Deaths,2014,3.3,10656
+Unintentional falls,Deaths,2006,3.6,10952
+Unintentional falls,Deaths,2007,3.7,11781
+Unintentional falls,Deaths,2008,3.8,12349
+Unintentional falls,Deaths,2009,3.9,12835
+Unintentional falls,Deaths,2010,4.1,13405
+Unintentional falls,Deaths,2011,4.1,13662
+Unintentional falls,Deaths,2012,4.2,14299
+Unintentional falls,Deaths,2013,4.3,15083
+Unintentional falls,Deaths,2014,4.4,15939
+Unintentionally struck by or against an object,Deaths,2006,0.1,371
+Unintentionally struck by or against an object,Deaths,2007,0.1,376
+Unintentionally struck by or against an object,Deaths,2008,0.1,396
+Unintentionally struck by or against an object,Deaths,2009,0.1,339
+Unintentionally struck by or against an object,Deaths,2010,0.1,369
+Unintentionally struck by or against an object,Deaths,2011,0.1,373
+Unintentionally struck by or against an object,Deaths,2012,0.1,373
+Unintentionally struck by or against an object,Deaths,2013,0.1,349
+Unintentionally struck by or against an object,Deaths,2014,0.1,378
+"Other unintentional injury, mechanism unspecified",Deaths,2006,1.4,4335
+"Other unintentional injury, mechanism unspecified",Deaths,2007,1.4,4371
+"Other unintentional injury, mechanism unspecified",Deaths,2008,1.3,4163
+"Other unintentional injury, mechanism unspecified",Deaths,2009,1.2,3774
+"Other unintentional injury, mechanism unspecified",Deaths,2010,1.2,3814
+"Other unintentional injury, mechanism unspecified",Deaths,2011,1.2,3891
+"Other unintentional injury, mechanism unspecified",Deaths,2012,1.2,3948
+"Other unintentional injury, mechanism unspecified",Deaths,2013,1.1,3772
+"Other unintentional injury, mechanism unspecified",Deaths,2014,1.2,3889
+Intentional self-harm,Deaths,2006,4.7,14292
+Intentional self-harm,Deaths,2007,4.8,14833
+Intentional self-harm,Deaths,2008,5,15585
+Intentional self-harm,Deaths,2009,5.1,15981
+Intentional self-harm,Deaths,2010,5.2,16519
+Intentional self-harm,Deaths,2011,5.3,17240
+Intentional self-harm,Deaths,2012,5.4,17609
+Intentional self-harm,Deaths,2013,5.6,18321
+Intentional self-harm,Deaths,2014,5.5,18485
+Assault,Deaths,2006,2,6051
+Assault,Deaths,2007,2,6058
+Assault,Deaths,2008,1.9,5742
+Assault,Deaths,2009,1.8,5483
+Assault,Deaths,2010,1.7,5182
+Assault,Deaths,2011,1.7,5227
+Assault,Deaths,2012,1.7,5261
+Assault,Deaths,2013,1.6,5102
+Assault,Deaths,2014,1.6,4906
+Other or no mechanism specified,Deaths,2006,0.7,2172
+Other or no mechanism specified,Deaths,2007,0.7,2200
+Other or no mechanism specified,Deaths,2008,0.7,2100
+Other or no mechanism specified,Deaths,2009,0.7,2181
+Other or no mechanism specified,Deaths,2010,0.7,2313
+Other or no mechanism specified,Deaths,2011,0.7,2308
+Other or no mechanism specified,Deaths,2012,0.8,2578
+Other or no mechanism specified,Deaths,2013,0.7,2513
+Other or no mechanism specified,Deaths,2014,0.7,2547
+Total,Deaths,2006,17.9,NA
+Total,Deaths,2007,17.8,NA
+Total,Deaths,2008,17.2,NA
+Total,Deaths,2009,16.6,NA
+Total,Deaths,2010,16.5,NA
+Total,Deaths,2011,16.6,NA
+Total,Deaths,2012,16.8,NA
+Total,Deaths,2013,16.8,NA
+Total,Deaths,2014,16.8,NA
