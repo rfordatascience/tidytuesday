@@ -1,6 +1,6 @@
 library(tidyverse)
 library(rvest)
-
+library(pdftools)
 
 # Hospital TBI data -------------------------------------------------------
 
@@ -354,31 +354,40 @@ get_dod_tbi <- function(year, page_number){
     str_split("\\\n", simplify = F) %>% 
     as.data.frame()
   
-  service_lab <- case_when(
-    page_number == 2 ~ "Army",
-    page_number == 3 ~ "Navy",
-    page_number == 4 ~ "Air Force",
-    page_number == 5 ~ "Marines"
-    
-  )
-  
   text_df %>% 
     rename("col1" = 1) %>% 
     as_tibble() %>% 
-    separate(col1, sep = "              ", into = c("service", "component", "severity", "diagnosed", "count", "count2")) %>% 
-    mutate_all(str_squish) %>% 
     slice(-1) %>% 
-    mutate(count = if_else(str_length(count) < 2, count2, count),
-           severity = if_else(str_length(severity) < 2, diagnosed, severity),
-           diagnosed = as.double(count),
-           service = if_else(str_length(service) == 0, NA_character_, service),
-           component = if_else(str_length(component) == 0, NA_character_, component),
-           year = year,
-           service = if_else(is.na(service), service_lab, service)) %>% 
-    select(-count2, -count) %>% 
-    filter(!is.na(diagnosed)) %>% 
+    mutate(service = case_when(
+      str_detect(col1, "Army") ~ "Army",
+      str_detect(col1, "Navy") ~ "Navy",
+      str_detect(col1, "Air Force") ~ "Air Force",
+      str_detect(col1, "Marines") ~ "Marines"
+    ),
+    component = case_when(
+      str_detect(col1, "Active") ~ "Active",
+      str_detect(col1, "Guard") ~ "Guard",
+      str_detect(col1, "Reserve") ~ "Reserve"
+    ),
+    severity = case_when(
+      str_detect(col1, "Penetrating") ~ "Penetrating",
+      str_detect(col1, "Severe") ~ "Severe",
+      str_detect(col1, "Moderate") ~ "Moderate",
+      str_detect(col1, "Mild") ~ "Mild",
+      str_detect(col1, "Not Classifiable") ~ "Not Classifiable",
+    ),
+    diagnosed = str_extract(col1, "[:digit:]+"),
+    diagnosed = as.double(diagnosed)) %>% 
+    mutate_at(vars(service:severity), str_squish) %>% 
+    select(-col1) %>% 
+    group_by(severity) %>% 
+    mutate(group_n = row_number()) %>% 
+    group_by(group_n) %>% 
+    fill(component, .direction = "downup") %>% 
+    ungroup() %>% 
     fill(service, .direction = "downup") %>% 
-    fill(component, .direction = "downup")
+    filter(!is.na(severity)) %>% 
+    select(-group_n)
   
   
 }
