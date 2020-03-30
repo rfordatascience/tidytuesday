@@ -292,7 +292,13 @@ get_beer_brewers <- function(year){
   raw_df %>% 
     add_column(year, .before = "brewer_size") %>% 
       mutate(total_shipped = str_extract(total_shipped, "[:digit:]+")) %>% 
-    mutate_at(vars(n_of_brewers:total_shipped), as.double)
+    mutate_at(vars(n_of_brewers:total_shipped), as.double) %>% 
+    mutate(brewer_size = if_else(
+      brewer_size %in% c("0 Barrels", "Zero barrels"),"Under 1 Barrel", brewer_size
+      ),
+      brewer_size = str_remove(brewer_size, " \\(5\\)")
+      ) %>% 
+    filter(!str_detect(brewer_size, "31 gallons"))
 
   
 }
