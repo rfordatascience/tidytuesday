@@ -1,3 +1,5 @@
+![Large brewing kettles](https://images.unsplash.com/photo-1559526642-c3f001ea68ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80)
+
 # Beer Production
 
 The data this week comes from the [Alcohol and Tobacco Tax and Trade Bureau (TTB)](https://www.ttb.gov/beer/statistics). H/t to [Bart Watson](https://twitter.com/brewersstats?lang=en) for sharing the source of the data.
