@@ -49,7 +49,7 @@ gdpr_violations <- tuesdata$gdpr_violations
 |source           |character | Original source (URL) of fine data |
 |summary          |character | Summary of violation |
 
-# `gdpr_text.tsv`
+# `gdpr_violations.tsv`
 
 |variable      |class     |description |
 |:-------------|:---------|:-----------|
