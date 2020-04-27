@@ -87,6 +87,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 15 | `2020-04-07` | [Tour de France](data/2020/2020-04-07/readme.md) | [`tdf` package](https://github.com/alastairrushworth/tdf) | [Alastair Rushworth's blog](https://alastairrushworth.github.io/Visualising-Tour-de-France-data-in-R/) |
 | 16 | `2020-04-14` | [Best Rap Artists](data/2020/2020-04-14/readme.md) | [BBC Music](http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted) | [Simon Jockers at Datawrapper](https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/) |
 | 17 | `2020-04-21` | [GDPR Violation](data/2020/2020-04-21/readme.md) | [Privacy Affairs](https://www.privacyaffairs.com/gdpr-fines/) | [Roel Hogervorst](https://blog.rmhogervorst.nl/blog/2020/04/08/scraping-gdpr-fines/) |
+| 18 | `2020-04-28` | [Broadway Musicals](data/2020/2020-04-28/readme.md) | [Playbill](https://www.playbill.com/grosses) | [Alex Cookson](https://www.alexcookson.com/post/most-successful-broadway-show-of-all-time/) |
 
 ***  
 
