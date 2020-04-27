@@ -10,6 +10,8 @@ This data comes from [Playbill](https://www.playbill.com/grosses). Weekly box of
 
 CPI data is from the [U.S. Bureau of Labor Statistics](https://www.bls.gov/). There are many, *many* measures of CPI, so the one used here is "All items less food and energy in U.S. city average, all urban consumers, seasonally adjusted" (table [CUSR0000SA0L1E](https://beta.bls.gov/dataViewer/view/timeseries/CUSR0000SA0L1E)).
 
+Check out all of the raw data and other details on [Alex's GitHub](https://github.com/tacookson/data/tree/master/broadway-grosses)
+
 ### Get the data here
 
 ```{r}
