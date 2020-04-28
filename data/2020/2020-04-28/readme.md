@@ -29,8 +29,8 @@ pre_1985_starts <- readr::read_csv('https://raw.githubusercontent.com/rfordatasc
 
 # Install via devtools::install_github("thebioengineer/tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2020-04-21')
-tuesdata <- tidytuesdayR::tt_load(2020, week = 17)
+tuesdata <- tidytuesdayR::tt_load('2020-04-28')
+tuesdata <- tidytuesdayR::tt_load(2020, week = 18)
 
 
 grosses <- tuesdata$grosses
