@@ -1,0 +1,17 @@
+{
+  "id": "acanthostega",
+  "name": "Acanthostega",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      }
+    }
+  },
+  "category": "Fossils"
+}

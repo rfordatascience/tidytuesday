@@ -1,0 +1,22 @@
+{
+  "id": "brown-seat",
+  "name": "Brown Seat",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "digby",
+        "kk",
+        "spike"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

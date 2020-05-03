@@ -1,0 +1,17 @@
+{
+  "id": "dal-slippers",
+  "name": "Dal Slippers",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "In the mail"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1010
+      }
+    }
+  },
+  "category": "Shoes"
+}

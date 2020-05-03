@@ -1,0 +1,19 @@
+{
+  "id": "rad-power-skirt-suit",
+  "name": "Rad Power Skirt Suit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "labelle-sneakers",
+  "name": "Labelle Sneakers",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 825
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3300
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

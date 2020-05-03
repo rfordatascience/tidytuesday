@@ -1,0 +1,19 @@
+{
+  "id": "cherry-blossom-flooring",
+  "name": "Cherry-blossom Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4400
+      },
+      "recipe": {
+        "cherry-blossom-petal": 10,
+        "clump-of-weeds": 20
+      }
+    }
+  },
+  "category": "Flooring"
+}

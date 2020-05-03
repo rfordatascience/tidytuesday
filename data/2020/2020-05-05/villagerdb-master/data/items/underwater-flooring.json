@@ -1,0 +1,19 @@
+{
+  "id": "underwater-flooring",
+  "name": "Underwater Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 26400
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

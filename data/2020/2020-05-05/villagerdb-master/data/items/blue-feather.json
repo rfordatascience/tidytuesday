@@ -1,0 +1,17 @@
+{
+  "id": "blue-feather",
+  "name": "Blue Feather",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      },
+      "sources": [
+        "Festivale (Drifting through town)"
+      ]
+    }
+  }
+}

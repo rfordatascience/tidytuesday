@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "8-17",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "splendid-shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "splendid-shirt",
+      "song": "Go K.K. Rider!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "splendid-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "splendid-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "GAHHHH",
+      "skill": "Chugging milk",
+      "goal": "Rugby player",
+      "fear": "Ghost Mask",
+      "quote": "If the mask fits, wear it!",
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "GAHHHH",
+      "song": "Go K.K. Rider!"
+    }
+  },
+  "name": "Stinky",
+  "id": "stinky"
+}

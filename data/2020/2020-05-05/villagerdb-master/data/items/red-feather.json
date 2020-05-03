@@ -1,0 +1,17 @@
+{
+  "id": "red-feather",
+  "name": "Red Feather",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Festivale (Drifting through town)"
+      ]
+    }
+  }
+}

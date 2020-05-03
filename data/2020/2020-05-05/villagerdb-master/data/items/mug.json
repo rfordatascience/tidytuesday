@@ -1,0 +1,37 @@
+{
+  "id": "mug",
+  "name": "Mug",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "norma",
+        "rex"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 115
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 460
+        }
+      ]
+    }
+  }
+}

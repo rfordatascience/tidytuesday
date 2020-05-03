@@ -1,0 +1,18 @@
+{
+  "id": "bunny-day-lamp",
+  "name": "Bunny Day Lamp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "recipe": {
+        "wood-egg": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

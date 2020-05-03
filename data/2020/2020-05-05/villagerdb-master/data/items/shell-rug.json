@@ -1,0 +1,23 @@
+{
+  "id": "shell-rug",
+  "name": "Shell Rug",
+  "games": {
+    "nh": {
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 21600
+        }
+      ],
+      "recipe": {
+        "giant-clam": 3
+      }
+    }
+  },
+  "category": "Flooring"
+}

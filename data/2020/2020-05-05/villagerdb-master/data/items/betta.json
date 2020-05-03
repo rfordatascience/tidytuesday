@@ -1,0 +1,18 @@
+{
+  "id": "betta",
+  "name": "Betta",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Small Shadows on River, May-Oct (9am-4pm)",
+        "South: Small Shadows on River, Nov-Apr (9am-4pm)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  },
+  "category": "Fish"
+}

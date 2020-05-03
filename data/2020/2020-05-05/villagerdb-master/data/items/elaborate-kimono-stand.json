@@ -1,0 +1,19 @@
+{
+  "id": "elaborate-kimono-stand",
+  "name": "Elaborate Kimono Stand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 55000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 220000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

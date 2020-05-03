@@ -1,0 +1,21 @@
+{
+  "id": "lily-lamp",
+  "name": "Lily Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "sources": [
+        "Leif (Weeding Day -- Happy Generosity Award)"
+      ]
+    }
+  }
+}

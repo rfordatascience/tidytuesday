@@ -1,0 +1,35 @@
+{
+  "id": "shoji-screen",
+  "name": "Shoji Screen",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1875
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "joan"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 470
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1880
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "3-14",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "blue-check-shirt",
+      "song": "K.K. Technopop",
+      "phrase": "wee one"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "blue-check-shirt",
+      "song": "K.K. Technopop"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "blue-check-tee",
+      "song": "K.K. Technopop",
+      "phrase": "wee one",
+      "quote": "Hop to it, wee one!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "blue-check-tee",
+      "song": "K.K. Technopop",
+      "phrase": "wee one"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "blue-check-tee",
+      "song": "K.K. Technopop",
+      "phrase": "wee one",
+      "skill": "Home repair",
+      "goal": "Tennis player",
+      "fear": "Monster Mask",
+      "quote": "It's always a good hare day.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "wee one",
+      "song": "K.K. Technopop"
+    }
+  },
+  "name": "Dotty",
+  "id": "dotty"
+}

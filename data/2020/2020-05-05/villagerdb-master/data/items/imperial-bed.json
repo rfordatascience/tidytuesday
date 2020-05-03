@@ -1,0 +1,19 @@
+{
+  "id": "imperial-bed",
+  "name": "Imperial Bed",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 23000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

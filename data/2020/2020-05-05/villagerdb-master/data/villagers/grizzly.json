@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-31",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "houndstooth-knit",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "houndstooth-knit",
+      "song": "K.K. Dirge"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "three-ball-tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "three-ball-tee",
+      "song": "K.K. Dirge",
+      "phrase": "grrr",
+      "skill": "Brainteasers",
+      "goal": "Photographer",
+      "fear": "Bug Mask",
+      "quote": "Those who live in glass houses shouldn't throw stones.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "grrr",
+      "song": "K.K. Dirge"
+    }
+  },
+  "name": "Grizzly",
+  "id": "grizzly"
+}

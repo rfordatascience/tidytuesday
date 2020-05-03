@@ -1,0 +1,14 @@
+{
+  "id": "rotten-peach",
+  "name": "Rotten Peach",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Dying perfect peach tree",
+        "rotten peach tree"
+      ]
+    }
+  }
+}

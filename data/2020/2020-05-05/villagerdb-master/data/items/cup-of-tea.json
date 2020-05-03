@@ -1,0 +1,21 @@
+{
+  "id": "cup-of-tea",
+  "name": "Cup Of Tea",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "boris",
+        "claude"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tweed-frilly-skirt",
+  "name": "Tweed Frilly Skirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1560
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

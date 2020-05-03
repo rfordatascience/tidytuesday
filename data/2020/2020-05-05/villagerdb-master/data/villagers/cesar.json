@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-6",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "two-ball-shirt",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "a-shirt",
+      "song": "K.K. Lament"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "a-tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness",
+      "quote": "All hail my moustache!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "a-tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "a-tee",
+      "song": "K.K. Lament",
+      "phrase": "Highness",
+      "skill": "Vaulting",
+      "goal": "Basketball player",
+      "fear": "Monster Mask",
+      "quote": "As soon as you can grow a moustache, do it.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "Highness",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Cesar",
+  "id": "cesar"
+}

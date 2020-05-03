@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "8-24",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "green-tie-dye",
+      "song": "K.K. Song"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "green-tie-dye-tank",
+      "song": "K.K. Song",
+      "phrase": "Chuuuuurp",
+      "skill": "Staying up late",
+      "goal": "Poet",
+      "fear": "Mummy Mask",
+      "quote": "Your greatest strength can be your greatest weakness.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "Chuuuuurp",
+      "song": "K.K. Song"
+    }
+  },
+  "name": "Jacob",
+  "id": "jacob"
+}

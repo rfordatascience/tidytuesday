@@ -1,0 +1,18 @@
+{
+  "id": "country-fence",
+  "name": "Country Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "recipe": {
+        "hardwood": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

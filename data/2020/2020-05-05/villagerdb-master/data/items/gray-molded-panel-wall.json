@@ -1,0 +1,20 @@
+{
+  "id": "gray-molded-panel-wall",
+  "name": "Gray Molded-panel Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 495
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1980
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "illuminated-present",
+  "name": "Illuminated Present",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2950
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 11800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

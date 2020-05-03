@@ -1,0 +1,13 @@
+{
+  "id": "honeybee-model",
+  "name": "Honeybee Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Furniture"
+}

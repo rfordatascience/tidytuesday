@@ -1,0 +1,27 @@
+{
+  "id": "desert-cactus",
+  "name": "Desert Cactus",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Western",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 223
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 892
+        }
+      ]
+    }
+  }
+}

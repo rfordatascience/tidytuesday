@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "5-9",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "flicker-shirt",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "flicker-shirt",
+      "song": "K.K. Aria"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee",
+      "quote": "Come on! Get amped!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Aria",
+      "phrase": "tee-hee",
+      "skill": "Staying positive",
+      "goal": "Gymnast",
+      "fear": "Monster Mask",
+      "quote": "Hare today, gone tomorrow.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "tee-hee",
+      "song": "K.K. Aria"
+    }
+  },
+  "name": "Bunnie",
+  "id": "bunnie"
+}

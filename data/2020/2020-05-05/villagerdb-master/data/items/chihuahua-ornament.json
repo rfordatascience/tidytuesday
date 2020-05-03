@@ -1,0 +1,18 @@
+{
+  "id": "chihuahua-ornament",
+  "name": "Chihuahua Ornament",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "sources": [
+        "Fortune cookie #53"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "planked-tatami",
+  "name": "Planked Tatami",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 335
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1340
+        }
+      ]
+    }
+  }
+}

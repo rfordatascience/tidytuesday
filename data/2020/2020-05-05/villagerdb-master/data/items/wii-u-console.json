@@ -1,0 +1,43 @@
+{
+  "id": "wii-u-console",
+  "name": "Wii U Console",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8100
+      },
+      "sources": [
+        "Fortune cookie #51",
+        "Fortune cookie #52"
+      ],
+      "rvs": [
+        "celeste",
+        "cyrus",
+        "digby",
+        "hopkins",
+        "isabelle",
+        "kk",
+        "kappn",
+        "kicks",
+        "lottie",
+        "mabel",
+        "reese",
+        "resetti",
+        "rover",
+        "timmy-tommy",
+        "tom-nook",
+        "villager"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

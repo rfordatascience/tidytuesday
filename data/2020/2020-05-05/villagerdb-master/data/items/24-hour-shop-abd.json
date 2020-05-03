@@ -1,0 +1,17 @@
+{
+  "id": "24-hour-shop-abd",
+  "name": "24-hour-shop ABD",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 711
+      },
+      "sources": [
+        "DLC (JP)"
+      ]
+    }
+  }
+}

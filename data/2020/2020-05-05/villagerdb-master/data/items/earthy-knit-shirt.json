@@ -1,0 +1,26 @@
+{
+  "id": "earthy-knit-shirt",
+  "name": "Earthy Knit Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 98
+      },
+      "sources": [
+        "Able Sisters (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 392
+        }
+      ]
+    }
+  }
+}

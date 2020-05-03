@@ -1,0 +1,26 @@
+{
+  "id": "soft-drink-display",
+  "name": "Soft-drink Display",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 711
+      },
+      "sources": [
+        "DLC (JP)"
+      ],
+      "rvs": [
+        "filly"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

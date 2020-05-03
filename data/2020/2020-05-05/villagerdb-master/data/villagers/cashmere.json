@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-2",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "nebula-shirt",
+      "song": "K.K. Country",
+      "phrase": "baaaby"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "nebula-shirt",
+      "song": "K.K. Country"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "nebula-tee",
+      "song": "K.K. Country",
+      "phrase": "baaaby",
+      "skill": "Peeling apples",
+      "goal": "Chef",
+      "fear": "Werewolf Hood",
+      "quote": "100% Wool.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "baaaby",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Cashmere",
+  "id": "cashmere"
+}

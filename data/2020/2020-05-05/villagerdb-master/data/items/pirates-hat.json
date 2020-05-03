@@ -1,0 +1,32 @@
+{
+  "id": "pirates-hat",
+  "name": "Pirate's Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Quirky",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "set": "Pirate Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 15
+        }
+      ]
+    }
+  }
+}

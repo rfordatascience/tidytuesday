@@ -1,0 +1,24 @@
+{
+  "id": "natural-low-table",
+  "name": "Natural Low Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cyrus",
+        "reese",
+        "sandy",
+        "stella",
+        "vivian"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

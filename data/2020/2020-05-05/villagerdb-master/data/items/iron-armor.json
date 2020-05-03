@@ -1,0 +1,19 @@
+{
+  "id": "iron-armor",
+  "name": "Iron Armor",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 24000
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

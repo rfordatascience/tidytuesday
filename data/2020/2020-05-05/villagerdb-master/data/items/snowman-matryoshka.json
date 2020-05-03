@@ -1,0 +1,21 @@
+{
+  "id": "snowman-matryoshka",
+  "name": "Snowman Matryoshka",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Snowtyke"
+      ]
+    }
+  }
+}

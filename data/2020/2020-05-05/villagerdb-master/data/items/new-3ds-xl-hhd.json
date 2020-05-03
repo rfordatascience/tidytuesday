@@ -1,0 +1,20 @@
+{
+  "id": "new-3ds-xl-hhd",
+  "name": "New 3DS XL - HHD",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "lottie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

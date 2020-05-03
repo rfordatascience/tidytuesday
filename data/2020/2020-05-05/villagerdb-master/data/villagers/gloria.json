@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "8-12",
+  "games": {
+    "cf": {
+      "personality": "snooty",
+      "clothes": "turnip-top",
+      "song": "K.K. Milonga",
+      "phrase": "quacker"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "corseted-shirt",
+      "song": "K.K. Milonga",
+      "phrase": "quacker",
+      "skill": "Board games",
+      "goal": "Stylist",
+      "fear": "Mummy Mask",
+      "quote": "Time is money.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "quacker",
+      "song": "K.K. Milonga"
+    }
+  },
+  "name": "Gloria",
+  "id": "gloria"
+}

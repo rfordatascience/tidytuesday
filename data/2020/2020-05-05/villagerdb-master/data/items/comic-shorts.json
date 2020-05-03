@@ -1,0 +1,19 @@
+{
+  "id": "comic-shorts",
+  "name": "Comic Shorts",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 285
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1140
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

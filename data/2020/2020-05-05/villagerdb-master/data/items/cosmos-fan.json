@@ -1,0 +1,21 @@
+{
+  "id": "cosmos-fan",
+  "name": "Cosmos Fan",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 595
+      },
+      "sources": [
+        "Leif (Weeding Day -- The Town Cleanup Prize)"
+      ]
+    }
+  }
+}

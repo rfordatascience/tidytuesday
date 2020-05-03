@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "monkey",
+  "birthday": "8-23",
+  "games": {
+    "ww": {
+      "personality": "normal",
+      "clothes": "bubble-gum-tee",
+      "song": "K.K. Dixie",
+      "phrase": "po po",
+      "quote": "Pink is the new black!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "bubble-gum-tee",
+      "song": "K.K. Dixie",
+      "phrase": "po po"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "bubble-gum-tee",
+      "song": "K.K. Dixie",
+      "phrase": "po po",
+      "skill": "Magic tricks",
+      "goal": "Judge",
+      "fear": "Monster Mask",
+      "quote": "Bread always falls peanut-butter side down.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "po po",
+      "song": "K.K. Dixie"
+    }
+  },
+  "name": "Nana",
+  "id": "nana"
+}

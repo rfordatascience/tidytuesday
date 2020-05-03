@@ -1,0 +1,19 @@
+{
+  "id": "belted-dotted-dress",
+  "name": "Belted Dotted Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

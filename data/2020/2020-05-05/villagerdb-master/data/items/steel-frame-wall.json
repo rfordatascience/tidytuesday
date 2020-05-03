@@ -1,0 +1,31 @@
+{
+  "id": "steel-frame-wall",
+  "name": "Steel-frame Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "ike"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6000
+      },
+      "recipe": {
+        "iron-nugget": 8
+      }
+    }
+  }
+}

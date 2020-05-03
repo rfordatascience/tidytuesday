@@ -1,0 +1,19 @@
+{
+  "id": "strawberry-dress",
+  "name": "Strawberry Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

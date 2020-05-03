@@ -1,0 +1,21 @@
+{
+  "id": "bunny-p-balloon",
+  "name": "Bunny P. Balloon",
+  "category": "Balloons",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Happy Home Showcase (5 StreetPass)"
+      ]
+    }
+  }
+}

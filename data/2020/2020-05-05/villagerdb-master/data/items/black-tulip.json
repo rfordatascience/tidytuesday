@@ -1,0 +1,17 @@
+{
+  "id": "black-tulip",
+  "name": "Black Tulip",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Hybrid - From two Red Tulips."
+      ]
+    }
+  }
+}

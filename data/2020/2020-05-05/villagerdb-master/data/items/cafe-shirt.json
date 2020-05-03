@@ -1,0 +1,39 @@
+{
+  "id": "cafe-shirt",
+  "name": "Cafe Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    }
+  }
+}

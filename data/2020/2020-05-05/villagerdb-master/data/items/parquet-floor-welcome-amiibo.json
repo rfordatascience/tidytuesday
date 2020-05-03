@@ -1,0 +1,22 @@
+{
+  "id": "parquet-floor-welcome-amiibo",
+  "name": "Parquet Floor [Welcome Amiibo]",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "billy",
+        "copper",
+        "vivian"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

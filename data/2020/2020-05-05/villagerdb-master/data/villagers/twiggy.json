@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "7-13",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "barber-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "barber-shirt",
+      "song": "K.K. Calypso"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "barber-tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers",
+      "quote": "Do you want my autograph, too?"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "barber-tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "barber-tee",
+      "song": "K.K. Calypso",
+      "phrase": "cheepers",
+      "skill": "Spoon bending",
+      "goal": "Dentist",
+      "fear": "Mummy Mask",
+      "quote": "It's the early bird that catches the worm!",
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "cheepers",
+      "song": "K.K. Calypso"
+    }
+  },
+  "name": "Twiggy",
+  "id": "twiggy"
+}

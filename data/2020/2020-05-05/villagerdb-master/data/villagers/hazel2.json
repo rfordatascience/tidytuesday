@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "8-30",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "red-warm-up-suit",
+      "song": "K.K. Disco",
+      "phrase": "uni-wow",
+      "skill": "Making budgets",
+      "goal": "Dentist",
+      "fear": "Monster Mask",
+      "quote": "Never say never!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "uni-wow",
+      "song": "K.K. Disco"
+    }
+  },
+  "name": "Hazel",
+  "id": "hazel2"
+}

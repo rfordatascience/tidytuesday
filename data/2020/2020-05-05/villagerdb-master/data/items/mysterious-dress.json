@@ -1,0 +1,19 @@
+{
+  "id": "mysterious-dress",
+  "name": "Mysterious Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 780
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3120
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

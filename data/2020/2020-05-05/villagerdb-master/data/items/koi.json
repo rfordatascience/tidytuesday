@@ -1,0 +1,27 @@
+{
+  "id": "koi",
+  "name": "Koi",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Pond (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      }
+    }
+  }
+}

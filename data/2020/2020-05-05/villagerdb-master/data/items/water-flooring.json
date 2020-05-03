@@ -1,0 +1,19 @@
+{
+  "id": "water-flooring",
+  "name": "Water Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 28800
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

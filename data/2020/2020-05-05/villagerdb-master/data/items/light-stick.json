@@ -1,0 +1,14 @@
+{
+  "id": "light-stick",
+  "name": "Light Stick",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
+    }
+  },
+  "category": "Tools"
+}

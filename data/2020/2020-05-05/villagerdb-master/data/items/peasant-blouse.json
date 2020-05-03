@@ -1,0 +1,23 @@
+{
+  "id": "peasant-blouse",
+  "name": "Peasant Blouse",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 420
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1680
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

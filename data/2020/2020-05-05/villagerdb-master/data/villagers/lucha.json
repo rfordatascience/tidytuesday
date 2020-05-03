@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "12-12",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "dragon-jacket",
+      "song": "K.K. Western",
+      "phrase": "cacaw",
+      "skill": "Making faces",
+      "goal": "Pro wrestler",
+      "fear": "Bug Mask",
+      "quote": "Birds of a feather, et cetera, et cetera...",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "cacaw",
+      "song": "K.K. Western"
+    }
+  },
+  "name": "Lucha",
+  "id": "lucha"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "stone-egg-shell",
+  "name": "Stone-egg Shell",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "stone-egg": 2
+      }
+    }
+  },
+  "category": "Hats"
+}

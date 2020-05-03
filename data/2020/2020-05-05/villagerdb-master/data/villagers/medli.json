@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "12-13",
+  "collab": "Zelda",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "medli-outfit",
+      "song": "K.K. Island",
+      "phrase": "Gimme",
+      "skill": "Helping others",
+      "goal": "Harpist",
+      "fear": "Ghost Mask",
+      "quote": "A bird on the wing is worth two on the ground.",
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    }
+  },
+  "name": "Medli",
+  "id": "medli"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "red-art-deco-wall",
+  "name": "Red Art-deco Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 695
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2780
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

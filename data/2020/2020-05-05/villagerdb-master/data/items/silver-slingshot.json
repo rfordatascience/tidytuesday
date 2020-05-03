@@ -1,0 +1,17 @@
+{
+  "id": "silver-slingshot",
+  "name": "Silver Slingshot",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Gift balloon (after popping lots of balloons)"
+      ]
+    }
+  }
+}

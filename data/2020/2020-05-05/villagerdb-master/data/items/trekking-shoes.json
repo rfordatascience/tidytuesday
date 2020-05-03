@@ -1,0 +1,19 @@
+{
+  "id": "trekking-shoes",
+  "name": "Trekking Shoes",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

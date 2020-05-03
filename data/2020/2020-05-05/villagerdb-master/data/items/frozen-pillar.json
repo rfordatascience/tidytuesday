@@ -1,0 +1,19 @@
+{
+  "id": "frozen-pillar",
+  "name": "Frozen Pillar",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 24800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "olive-desert-tile-wall",
+  "name": "Olive Desert-tile Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 610
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2440
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "construction-sign",
+  "name": "Construction Sign",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Furniture"
+}

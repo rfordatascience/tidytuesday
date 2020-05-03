@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "3-26",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "phrase": "toots"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "lil-bros-shirt"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "big-bros-tee",
+      "phrase": "toots",
+      "skill": "Handstands",
+      "goal": "Rugby player",
+      "fear": "Skeleton Hood",
+      "quote": "It's all about the muscle.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "toots"
+    }
+  },
+  "name": "Louie",
+  "id": "louie"
+}

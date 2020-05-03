@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "eagle",
+  "birthday": "3-25",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "loud-bloom-tee",
+      "song": "K.K. Aria",
+      "phrase": "feathers",
+      "skill": "Brainteasers",
+      "goal": "Florist",
+      "fear": "Mummy Mask",
+      "quote": "It's the thought that counts.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "feathers",
+      "song": "K.K. Aria"
+    }
+  },
+  "name": "Celia",
+  "id": "celia"
+}

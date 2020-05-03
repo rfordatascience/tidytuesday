@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-12",
+  "games": {
+    "ww": {
+      "personality": "jock",
+      "clothes": "comfy-sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom",
+      "quote": "Words to live by: Don't ever wimp out!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "comfy-sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "comfy-sweater",
+      "song": "K.K. Western",
+      "phrase": "baboom",
+      "skill": "Dancing",
+      "goal": "Rugby player",
+      "fear": "Skeleton Hood",
+      "quote": "Never settle for second best.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "baboom",
+      "song": "K.K. Western"
+    }
+  },
+  "name": "Boone",
+  "id": "boone"
+}

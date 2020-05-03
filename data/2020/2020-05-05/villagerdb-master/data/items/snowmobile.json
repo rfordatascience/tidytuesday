@@ -1,0 +1,17 @@
+{
+  "id": "snowmobile",
+  "name": "Snowmobile",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "sources": [
+        "Snowman"
+      ]
+    }
+  }
+}

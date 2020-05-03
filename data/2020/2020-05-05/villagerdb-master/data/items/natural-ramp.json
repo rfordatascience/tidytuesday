@@ -1,0 +1,15 @@
+{
+  "id": "natural-ramp",
+  "name": "Natural Ramp",
+  "games": {
+    "nh": {
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 98000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

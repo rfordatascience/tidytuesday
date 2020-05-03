@@ -1,0 +1,13 @@
+{
+  "id": "grand-prize-ticket",
+  "name": "Grand-prize Ticket",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Bunny Day (eating egg)"
+      ]
+    }
+  }
+}

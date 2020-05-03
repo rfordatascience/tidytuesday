@@ -1,0 +1,17 @@
+{
+  "id": "perfect-cherry",
+  "name": "Perfect Cherry",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Perfect cherry tree"
+      ]
+    }
+  }
+}

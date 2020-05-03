@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "8-10",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "citrus-tee",
+      "song": "Spring Blossoms",
+      "phrase": "duuude",
+      "skill": "Drawing circles",
+      "goal": "Painter",
+      "fear": "Ghost Mask",
+      "quote": "Little pitchers have big ears.",
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "duuude",
+      "song": "Spring Blossoms"
+    }
+  },
+  "name": "Cole",
+  "id": "cole"
+}

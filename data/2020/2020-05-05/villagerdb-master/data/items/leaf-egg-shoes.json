@@ -1,0 +1,17 @@
+{
+  "id": "leaf-egg-shoes",
+  "name": "Leaf-egg Shoes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "leaf-egg": 2
+      }
+    }
+  },
+  "category": "Shoes"
+}

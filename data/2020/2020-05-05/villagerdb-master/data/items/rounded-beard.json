@@ -1,0 +1,19 @@
+{
+  "id": "rounded-beard",
+  "name": "Rounded Beard",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

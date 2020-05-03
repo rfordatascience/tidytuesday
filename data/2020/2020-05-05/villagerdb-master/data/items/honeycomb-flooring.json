@@ -1,0 +1,19 @@
+{
+  "id": "honeycomb-flooring",
+  "name": "Honeycomb Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

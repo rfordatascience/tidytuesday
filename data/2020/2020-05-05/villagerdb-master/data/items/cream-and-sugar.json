@@ -1,0 +1,36 @@
+{
+  "id": "cream-and-sugar",
+  "name": "Cream And Sugar",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Brewster (work at The Roost)"
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 500
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cyan-pinwheel",
+  "name": "Cyan Pinwheel",
+  "category": "Balloons",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Happy Home Showcase (4 StreetPass)"
+      ]
+    }
+  }
+}

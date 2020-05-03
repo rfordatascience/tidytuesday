@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "8-11",
+  "games": {
+    "cf": {
+      "personality": "snooty",
+      "clothes": "beaded-tank",
+      "song": "Only Me",
+      "phrase": "ribette"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "beaded-tank",
+      "song": "Only Me",
+      "phrase": "ribette",
+      "skill": "Subsistence living",
+      "goal": "President",
+      "fear": "Werewolf Hood",
+      "quote": "Look at the world through rose-colored glasses.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "ribette",
+      "song": "Only Me"
+    }
+  },
+  "name": "Gigi",
+  "id": "gigi"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gray-diner-wall",
+  "name": "Gray Diner Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 605
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2420
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

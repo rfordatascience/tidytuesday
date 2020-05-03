@@ -1,0 +1,19 @@
+{
+  "id": "simple-mum-crown",
+  "name": "Simple Mum Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2880
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 11520
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

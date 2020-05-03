@@ -1,0 +1,17 @@
+{
+  "id": "wood-egg",
+  "name": "Wood Egg",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hitting trees with an axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Usables"
+}

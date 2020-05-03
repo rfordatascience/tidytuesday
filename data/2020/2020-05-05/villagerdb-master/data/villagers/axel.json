@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "3-23",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "fresh-shirt",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "fresh-shirt",
+      "song": "K.K. Dixie"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "fresh-tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "fresh-tee",
+      "song": "K.K. Dixie",
+      "phrase": "WHONK",
+      "skill": "Competitive eating",
+      "goal": "Basketball player",
+      "fear": "Monster Mask",
+      "quote": "Do not compare a fly with an elephant.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "WHONK",
+      "song": "K.K. Dixie"
+    }
+  },
+  "name": "Axel",
+  "id": "axel"
+}

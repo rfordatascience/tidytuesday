@@ -1,0 +1,22 @@
+{
+  "id": "arwing",
+  "name": "Arwing",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "set": "Nintendo",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #36"
+      ]
+    }
+  }
+}

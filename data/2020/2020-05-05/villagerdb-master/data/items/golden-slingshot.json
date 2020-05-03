@@ -1,0 +1,29 @@
+{
+  "id": "golden-slingshot",
+  "name": "Golden Slingshot",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Gift balloon (after popping lots of balloons)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10300
+      },
+      "recipe": {
+        "gold-nugget": 1,
+        "slingshot": 1
+      }
+    }
+  }
+}

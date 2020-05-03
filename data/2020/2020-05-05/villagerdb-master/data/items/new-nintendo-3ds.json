@@ -1,0 +1,36 @@
+{
+  "id": "new-nintendo-3ds",
+  "name": "New Nintendo 3DS",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4320
+      },
+      "sources": [
+        "Fortune cookie #57"
+      ],
+      "rvs": [
+        "blathers",
+        "celeste",
+        "cyrus",
+        "digby",
+        "kappn",
+        "kicks",
+        "reese",
+        "resetti",
+        "rover",
+        "tom-nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

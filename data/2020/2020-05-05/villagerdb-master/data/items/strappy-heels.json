@@ -1,0 +1,19 @@
+{
+  "id": "strappy-heels",
+  "name": "Strappy Heels",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1560
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

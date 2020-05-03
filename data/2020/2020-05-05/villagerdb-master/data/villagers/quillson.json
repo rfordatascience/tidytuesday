@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "12-22",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "tan-puffy-vest",
+      "song": "K.K. Groove",
+      "phrase": "ridukulous",
+      "skill": "Skimming books",
+      "goal": "Musician",
+      "fear": "Bug Mask",
+      "quote": "There is beauty in everything.",
+      "siblings": "Middle of 7 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "ridukulous",
+      "song": "K.K. Groove"
+    }
+  },
+  "name": "Quillson",
+  "id": "quillson"
+}

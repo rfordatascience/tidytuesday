@@ -1,0 +1,19 @@
+{
+  "id": "nurses-dress-uniform",
+  "name": "Nurse's Dress Uniform",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

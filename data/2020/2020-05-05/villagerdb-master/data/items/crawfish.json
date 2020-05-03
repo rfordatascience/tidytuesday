@@ -1,0 +1,28 @@
+{
+  "id": "crawfish",
+  "name": "Crawfish",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Medium Shadows in Pond, Apr-Sep (All day)",
+        "South: Medium Shadows in Pond, Oct-Mar (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  }
+}

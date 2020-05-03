@@ -1,0 +1,19 @@
+{
+  "id": "kabuki-umbrella",
+  "name": "Kabuki Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 417
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1670
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

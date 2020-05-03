@@ -1,0 +1,19 @@
+{
+  "id": "white-paint-flooring",
+  "name": "White-paint Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 260
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1040
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

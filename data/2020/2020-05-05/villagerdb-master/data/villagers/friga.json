@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "10-16",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "cozy-sweater",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Tango"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "picnic-tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph",
+      "quote": "This isn't a fortune cookie! It's an important life lesson!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "picnic-tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "picnic-tee",
+      "song": "K.K. Tango",
+      "phrase": "brrmph",
+      "skill": "Board games",
+      "goal": "Drummer",
+      "fear": "Mummy Mask",
+      "quote": "You can't learn a life lesson from a fortune cookie.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "brrmph",
+      "song": "K.K. Tango"
+    }
+  },
+  "name": "Friga",
+  "id": "friga"
+}

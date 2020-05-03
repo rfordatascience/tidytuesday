@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "11-26",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "bad-plaid-shirt",
+      "song": "K.K. Etude"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "bad-plaid-tee",
+      "song": "K.K. Etude",
+      "phrase": "bo peep"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "bad-plaid-tee",
+      "song": "K.K. Etude",
+      "phrase": "bo peep",
+      "skill": "Playing Old Maid",
+      "goal": "Designer",
+      "fear": "Werewolf Hood",
+      "quote": "You can't fight your genes.",
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "bo peep",
+      "song": "K.K. Etude"
+    }
+  },
+  "name": "Willow",
+  "id": "willow"
+}

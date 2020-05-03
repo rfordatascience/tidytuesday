@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "12-20",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "red-grid-tee",
+      "song": "The K. Funk",
+      "phrase": "tokana",
+      "skill": "Cramming for tests",
+      "goal": "Artist",
+      "fear": "Ghost Mask",
+      "quote": "Always land on your feet!",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "tokana",
+      "song": "The K. Funk"
+    }
+  },
+  "name": "Rudy",
+  "id": "rudy"
+}

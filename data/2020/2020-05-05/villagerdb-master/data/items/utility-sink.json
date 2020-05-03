@@ -1,0 +1,23 @@
+{
+  "id": "utility-sink",
+  "name": "Utility Sink",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3500
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

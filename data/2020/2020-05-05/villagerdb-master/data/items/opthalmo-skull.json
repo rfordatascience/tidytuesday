@@ -1,0 +1,17 @@
+{
+  "id": "opthalmo-skull",
+  "name": "Opthalmo Skull",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  },
+  "category": "Fossils"
+}

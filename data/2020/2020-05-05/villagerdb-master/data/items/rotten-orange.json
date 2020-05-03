@@ -1,0 +1,14 @@
+{
+  "id": "rotten-orange",
+  "name": "Rotten Orange",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Dying perfect orange tree",
+        "rotten orange tree"
+      ]
+    }
+  }
+}

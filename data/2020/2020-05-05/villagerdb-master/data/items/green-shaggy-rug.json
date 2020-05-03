@@ -1,0 +1,19 @@
+{
+  "id": "green-shaggy-rug",
+  "name": "Green Shaggy Rug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

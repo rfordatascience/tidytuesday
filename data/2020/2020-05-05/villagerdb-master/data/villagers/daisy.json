@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "11-16",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "kiddie-shirt",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "kiddie-shirt",
+      "song": "K.K. Soul"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW",
+      "quote": "Just a regular girl in a crazy world!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "K.K. Soul",
+      "phrase": "bow-WOW",
+      "skill": "Making budgets",
+      "goal": "Archaeologist",
+      "fear": "Werewolf Hood",
+      "quote": "It's not always a dog-eat-dog world.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "bow-WOW",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Daisy",
+  "id": "daisy"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "compression-tights",
+  "name": "Compression Tights",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 600
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

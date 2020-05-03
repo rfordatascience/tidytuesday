@@ -1,0 +1,19 @@
+{
+  "id": "torn-pants",
+  "name": "Torn Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

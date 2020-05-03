@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "1-7",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Calypso"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "jungle-camo-tee",
+      "song": "K.K. Calypso",
+      "phrase": "beach bum"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "jungle-camo-tee",
+      "song": "K.K. Calypso",
+      "phrase": "beach bum",
+      "skill": "Tongue twisters",
+      "goal": "Fisherman",
+      "fear": "Monster Mask",
+      "quote": "Patience is a virtue for folks with time.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "beach bum",
+      "song": "K.K. Calypso"
+    }
+  },
+  "name": "Harry",
+  "id": "harry"
+}

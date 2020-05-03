@@ -1,0 +1,19 @@
+{
+  "id": "labelle-tights",
+  "name": "Labelle Tights",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 310
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1240
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

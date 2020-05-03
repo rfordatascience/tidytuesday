@@ -1,0 +1,23 @@
+{
+  "id": "gold-fish-trophy",
+  "name": "Gold Fish Trophy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2450
+      },
+      "sources": [
+        "Fishing Tourney"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      }
+    }
+  }
+}

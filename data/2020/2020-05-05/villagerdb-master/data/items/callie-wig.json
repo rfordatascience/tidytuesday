@@ -1,0 +1,23 @@
+{
+  "id": "callie-wig",
+  "name": "Callie Wig",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-Roll"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cece"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

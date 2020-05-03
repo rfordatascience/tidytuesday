@@ -1,0 +1,18 @@
+{
+  "id": "vertical-board-fence",
+  "name": "Vertical-board Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 96
+      },
+      "recipe": {
+        "wood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

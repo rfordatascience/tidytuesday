@@ -1,0 +1,23 @@
+{
+  "id": "magazine",
+  "name": "Magazine",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook shopping"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 52
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 210
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

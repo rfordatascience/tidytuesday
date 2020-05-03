@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "7-25",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "gray-tank",
+      "song": "Forest Life",
+      "phrase": "crunch",
+      "skill": "Rock-paper-scissors",
+      "goal": "Firefighter",
+      "fear": "Skeleton Hood",
+      "quote": "The best defense is a good offense.",
+      "siblings": "Youngest of 3",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "crunch",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Peck",
+  "id": "peck"
+}

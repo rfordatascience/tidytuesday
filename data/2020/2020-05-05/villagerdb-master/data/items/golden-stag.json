@@ -1,0 +1,30 @@
+{
+  "id": "golden-stag",
+  "name": "Golden Stag",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12000
+      },
+      "sources": [
+        "On palm trees."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 48000
+        }
+      ]
+    }
+  }
+}

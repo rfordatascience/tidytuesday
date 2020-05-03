@@ -1,0 +1,19 @@
+{
+  "id": "v-neck-sweater",
+  "name": "V-neck Sweater",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 840
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

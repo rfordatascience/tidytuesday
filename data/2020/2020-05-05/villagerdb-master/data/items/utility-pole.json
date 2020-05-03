@@ -1,0 +1,13 @@
+{
+  "id": "utility-pole",
+  "name": "Utility Pole",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Furniture"
+}

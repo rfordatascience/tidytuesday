@@ -1,0 +1,23 @@
+{
+  "id": "jacquard-fleece",
+  "name": "Jacquard Fleece",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "lottie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

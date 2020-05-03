@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "3-28",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "purple-tie-dye",
+      "song": "K.K. Swing",
+      "phrase": "daahling"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "purple-tie-dye",
+      "song": "K.K. Swing"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "purple-tie-dye-tee",
+      "song": "K.K. Swing",
+      "phrase": "daahling",
+      "quote": "I'm so soft that I don't even need a pillow!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "purple-tie-dye-tee",
+      "song": "K.K. Swing",
+      "phrase": "daahling"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "purple-tie-dye-tee",
+      "song": "K.K. Swing",
+      "phrase": "daahling",
+      "skill": "Drawing circles",
+      "goal": "Aesthetician",
+      "fear": "Werewolf Hood",
+      "quote": "Don't just follow the flock.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "daahling",
+      "song": "K.K. Swing"
+    }
+  },
+  "name": "Baabara",
+  "id": "baabara"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "superb-coffee-beans",
+  "name": "Superb Coffee Beans",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Brewster (work at The Roost",
+        "9-12 correct options)"
+      ]
+    }
+  }
+}

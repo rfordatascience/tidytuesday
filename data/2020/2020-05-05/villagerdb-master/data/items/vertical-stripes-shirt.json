@@ -1,0 +1,19 @@
+{
+  "id": "vertical-stripes-shirt",
+  "name": "Vertical-stripes Shirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

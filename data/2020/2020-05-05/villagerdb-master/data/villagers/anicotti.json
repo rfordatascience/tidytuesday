@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "2-24",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "desert-shirt",
+      "song": "Neapolitan",
+      "phrase": "cannoli"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Neapolitan"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "peachy-tee",
+      "song": "Neapolitan",
+      "phrase": "cannoli",
+      "skill": "Oversleeping",
+      "goal": "Photographer",
+      "fear": "Monster Mask",
+      "quote": "The walls have ears.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "cannoli",
+      "song": "Neapolitan"
+    }
+  },
+  "name": "Anicotti",
+  "id": "anicotti"
+}

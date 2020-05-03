@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "6-15",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "citrus-gingham",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "I Love You"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "citrus-gingham",
+      "song": "I Love You",
+      "phrase": "honey",
+      "quote": "Maple + Moppina = BFF!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "citrus-gingham",
+      "song": "I Love You",
+      "phrase": "honey"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "dapper-tee",
+      "song": "I Love You",
+      "phrase": "honey",
+      "skill": "Writing letters",
+      "goal": "Architect",
+      "fear": "Bug Mask",
+      "quote": "Waste not, want not.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "honey",
+      "song": "I Love You"
+    }
+  },
+  "name": "Maple",
+  "id": "maple"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "7-24",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Island",
+      "phrase": "amigo"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Island"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "blue-aloha-tee",
+      "song": "K.K. Island",
+      "phrase": "amigo",
+      "skill": "Air guitar",
+      "goal": "Musician",
+      "fear": "Bug Mask",
+      "quote": "It's not old; it's vintage.",
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "amigo",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "O'Hare",
+  "id": "ohare"
+}

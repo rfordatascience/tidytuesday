@@ -1,0 +1,21 @@
+{
+  "id": "forest-floor",
+  "name": "Forest Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Mush",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 0
+      },
+      "sources": [
+        "Pick mushrooms during November"
+      ]
+    }
+  }
+}

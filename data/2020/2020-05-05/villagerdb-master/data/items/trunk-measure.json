@@ -1,0 +1,27 @@
+{
+  "id": "trunk-measure",
+  "name": "Trunk Measure",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "set": "Dr.'s Office",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 420
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1680
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "6-13",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "frog-shirt",
+      "song": "Marine Song 2001",
+      "phrase": "zip zoom"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "frog-shirt",
+      "song": "Marine Song 2001"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "frog-tee",
+      "song": "Marine Song 2001",
+      "phrase": "zip zoom"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "frog-tee",
+      "song": "Marine Song 2001",
+      "phrase": "zip zoom",
+      "skill": "Climbing trees",
+      "goal": "Rugby player",
+      "fear": "Werewolf Hood",
+      "quote": "Some birds avoid the water; ducks look for it.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "zip zoom",
+      "song": "Marine Song 2001"
+    }
+  },
+  "name": "Scoot",
+  "id": "scoot"
+}

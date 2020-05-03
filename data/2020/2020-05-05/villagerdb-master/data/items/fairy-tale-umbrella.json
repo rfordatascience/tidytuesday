@@ -1,0 +1,23 @@
+{
+  "id": "fairy-tale-umbrella",
+  "name": "Fairy-tale Umbrella",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 205
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 820
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

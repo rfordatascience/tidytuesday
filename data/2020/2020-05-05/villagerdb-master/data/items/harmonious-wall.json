@@ -1,0 +1,23 @@
+{
+  "id": "harmonious-wall",
+  "name": "Harmonious Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 445
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1780
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "crescent-moon-chair",
+  "name": "Crescent-moon Chair",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 34000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

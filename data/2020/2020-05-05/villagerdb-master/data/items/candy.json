@@ -1,0 +1,15 @@
+{
+  "id": "candy",
+  "name": "Candy",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (villagers)",
+        "Nookling stores (October)",
+        "Bunny Day (eating egg)"
+      ]
+    }
+  }
+}

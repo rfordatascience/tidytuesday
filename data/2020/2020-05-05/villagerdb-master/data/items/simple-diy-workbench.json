@@ -1,0 +1,19 @@
+{
+  "id": "simple-diy-workbench",
+  "name": "Simple DIY Workbench",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1350
+      },
+      "recipe": {
+        "hardwood": 5,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

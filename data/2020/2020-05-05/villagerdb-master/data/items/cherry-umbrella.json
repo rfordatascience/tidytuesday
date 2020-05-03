@@ -1,0 +1,19 @@
+{
+  "id": "cherry-umbrella",
+  "name": "Cherry Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5600
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

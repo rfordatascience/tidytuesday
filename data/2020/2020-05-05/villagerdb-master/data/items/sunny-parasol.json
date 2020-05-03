@@ -1,0 +1,39 @@
+{
+  "id": "sunny-parasol",
+  "name": "Sunny Parasol",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 750
+        }
+      ]
+    }
+  }
+}

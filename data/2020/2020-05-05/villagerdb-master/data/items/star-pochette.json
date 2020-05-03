@@ -1,0 +1,19 @@
+{
+  "id": "star-pochette",
+  "name": "Star Pochette",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

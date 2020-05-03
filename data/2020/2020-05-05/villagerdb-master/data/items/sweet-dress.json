@@ -1,0 +1,19 @@
+{
+  "id": "sweet-dress",
+  "name": "Sweet Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 675
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2700
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

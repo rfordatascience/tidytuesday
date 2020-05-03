@@ -1,0 +1,23 @@
+{
+  "id": "pink-diner-wall",
+  "name": "Pink Diner Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 605
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2420
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

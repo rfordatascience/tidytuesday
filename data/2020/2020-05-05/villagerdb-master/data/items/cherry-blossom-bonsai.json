@@ -1,0 +1,21 @@
+{
+  "id": "cherry-blossom-bonsai",
+  "name": "Cherry-blossom Bonsai",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3300
+      },
+      "recipe": {
+        "cherry-blossom-petal": 6,
+        "hardwood": 2,
+        "clump-of-weeds": 3,
+        "clay": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

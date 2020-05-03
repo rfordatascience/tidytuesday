@@ -1,0 +1,20 @@
+{
+  "id": "cherry-blossom-branches",
+  "name": "Cherry-blossom Branches",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4240
+      },
+      "recipe": {
+        "cherry-blossom-petal": 8,
+        "tree-branch": 4,
+        "clay": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

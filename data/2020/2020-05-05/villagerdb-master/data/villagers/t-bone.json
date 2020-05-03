@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "5-20",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "yellow-pinstripe",
+      "song": "K.K. Steppe",
+      "phrase": "moocher"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "song": "K.K. Steppe"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "hanten-shirt",
+      "song": "K.K. Steppe",
+      "phrase": "moocher",
+      "skill": "Pretending to sleep",
+      "goal": "Police officer",
+      "fear": "Mummy Mask",
+      "quote": "Don't have a cow.",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "moocher",
+      "song": "K.K. Steppe"
+    }
+  },
+  "name": "T-Bone",
+  "id": "t-bone"
+}

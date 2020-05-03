@@ -1,0 +1,23 @@
+{
+  "id": "soft-serve-hat",
+  "name": "Soft-serve Hat",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 157
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 630
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

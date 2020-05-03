@@ -1,0 +1,23 @@
+{
+  "id": "straw-pochette",
+  "name": "Straw Pochette",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

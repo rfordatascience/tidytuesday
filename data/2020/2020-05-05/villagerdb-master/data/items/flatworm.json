@@ -1,0 +1,17 @@
+{
+  "id": "flatworm",
+  "name": "Flatworm",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

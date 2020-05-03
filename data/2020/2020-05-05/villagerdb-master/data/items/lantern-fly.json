@@ -1,0 +1,17 @@
+{
+  "id": "lantern-fly",
+  "name": "Lantern Fly",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "On trees."
+      ]
+    }
+  }
+}

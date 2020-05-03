@@ -1,0 +1,20 @@
+{
+  "id": "cut-pleather-skirt",
+  "name": "Cut-pleather Skirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "clothesline",
+  "name": "Clothesline",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ],
+      "recipe": {
+        "tree-branch": 10
+      }
+    }
+  }
+}

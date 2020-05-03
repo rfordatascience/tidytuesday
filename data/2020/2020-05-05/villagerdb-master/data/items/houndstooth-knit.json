@@ -1,0 +1,39 @@
+{
+  "id": "houndstooth-knit",
+  "name": "Houndstooth Knit",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sparkling-cider",
+  "name": "Sparkling Cider",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Countdown (Isabelle)"
+      ]
+    }
+  }
+}

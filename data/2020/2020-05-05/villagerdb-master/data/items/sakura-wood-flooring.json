@@ -1,0 +1,19 @@
+{
+  "id": "sakura-wood-flooring",
+  "name": "Sakura-wood Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3200
+      },
+      "recipe": {
+        "cherry-blossom-petal": 5,
+        "wood": 10
+      }
+    }
+  },
+  "category": "Flooring"
+}

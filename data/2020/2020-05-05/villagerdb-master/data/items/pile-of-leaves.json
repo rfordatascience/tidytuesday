@@ -1,0 +1,45 @@
+{
+  "id": "pile-of-leaves",
+  "name": "Pile Of Leaves",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "DLC (NA)"
+      ],
+      "rvs": [
+        "nat"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  }
+}

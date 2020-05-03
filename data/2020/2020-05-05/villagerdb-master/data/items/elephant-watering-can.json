@@ -1,0 +1,14 @@
+{
+  "id": "elephant-watering-can",
+  "name": "Elephant Watering Can",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

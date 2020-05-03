@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-tank",
+  "name": "Rainbow Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 195
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 780
+        }
+      ]
+    }
+  }
+}

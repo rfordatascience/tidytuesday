@@ -1,0 +1,18 @@
+{
+  "id": "rope-fence",
+  "name": "Rope Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "recipe": {
+        "iron-nugget": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

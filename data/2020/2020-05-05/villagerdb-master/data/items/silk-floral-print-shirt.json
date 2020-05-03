@@ -1,0 +1,19 @@
+{
+  "id": "silk-floral-print-shirt",
+  "name": "Silk Floral-print Shirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

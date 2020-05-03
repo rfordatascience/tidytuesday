@@ -1,0 +1,34 @@
+{
+  "id": "spooky-wall",
+  "name": "Spooky Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Spooky",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1031
+      },
+      "sources": [
+        "Nookling stores (Oct.)"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4124
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

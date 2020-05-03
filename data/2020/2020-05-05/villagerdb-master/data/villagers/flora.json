@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "2-9",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Flamenco",
+      "phrase": "pinky",
+      "skill": "Staying awake",
+      "goal": "Gymnast",
+      "fear": "Werewolf Hood",
+      "quote": "Pink is the new black.",
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "pinky",
+      "song": "K.K. Flamenco"
+    }
+  },
+  "name": "Flora",
+  "id": "flora"
+}

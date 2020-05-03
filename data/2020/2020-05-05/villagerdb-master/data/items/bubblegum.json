@@ -1,0 +1,23 @@
+{
+  "id": "bubblegum",
+  "name": "Bubblegum",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

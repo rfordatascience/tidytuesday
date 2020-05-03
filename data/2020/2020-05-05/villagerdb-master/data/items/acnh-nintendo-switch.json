@@ -1,0 +1,25 @@
+{
+  "id": "acnh-nintendo-switch",
+  "name": "Acnh Nintendo Switch",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Receive in mail if playing on ACNH Switch",
+        "Nook Shopping"
+      ],
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8990
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 35960
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-16",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "fall-plaid-shirt",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "fall-plaid-shirt",
+      "song": "K.K. Steppe"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "fall-plaid-tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo",
+      "quote": "I'm so lucky to have this wool coat!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "fall-plaid-tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "fall-plaid-tee",
+      "song": "K.K. Steppe",
+      "phrase": "baaaffo",
+      "skill": "Computing",
+      "goal": "Archaeologist",
+      "fear": "Werewolf Hood",
+      "quote": "No sweater off my back.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "baaaffo",
+      "song": "K.K. Steppe"
+    }
+  },
+  "name": "Vesta",
+  "id": "vesta"
+}

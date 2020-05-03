@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "4-21",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "dazed-tee",
+      "song": "K.K. House",
+      "phrase": "snuffle",
+      "skill": "Cramming for tests",
+      "goal": "Pro golfer",
+      "fear": "Skeleton Hood",
+      "quote": "You reap what you sow.",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "snuffle",
+      "song": "K.K. House"
+    }
+  },
+  "name": "Agnes",
+  "id": "agnes"
+}

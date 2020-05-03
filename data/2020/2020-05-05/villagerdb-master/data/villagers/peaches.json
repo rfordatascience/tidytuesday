@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "11-28",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "lite-polka-shirt",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "lite-polka-shirt",
+      "song": "K.K. Song"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Song",
+      "phrase": "neighbor",
+      "skill": "Fishing",
+      "goal": "Florist",
+      "fear": "Monster Mask",
+      "quote": "Every day is a gift.",
+      "siblings": "Middle of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "neighbor",
+      "song": "K.K. Song"
+    }
+  },
+  "name": "Peaches",
+  "id": "peaches"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "classic-carpet",
+  "name": "Classic Carpet",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Classic",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 575
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2300
+        }
+      ]
+    }
+  }
+}

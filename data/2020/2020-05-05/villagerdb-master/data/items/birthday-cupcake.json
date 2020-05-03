@@ -1,0 +1,19 @@
+{
+  "id": "birthday-cupcake",
+  "name": "Birthday Cupcake",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "purple-tulip",
+  "name": "Purple Tulip",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Hybrid - From Black and Pink tulips."
+      ]
+    }
+  }
+}

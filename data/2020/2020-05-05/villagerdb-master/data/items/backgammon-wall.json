@@ -1,0 +1,20 @@
+{
+  "id": "backgammon-wall",
+  "name": "Backgammon Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

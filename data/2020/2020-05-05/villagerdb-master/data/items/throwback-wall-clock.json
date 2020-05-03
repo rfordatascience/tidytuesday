@@ -1,0 +1,20 @@
+{
+  "id": "throwback-wall-clock",
+  "name": "Throwback Wall Clock",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1050
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

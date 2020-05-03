@@ -1,0 +1,22 @@
+{
+  "id": "garden-wall",
+  "name": "Garden Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bamboo-shoot",
+  "name": "Bamboo Shoot",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "sources": [
+        "T&T Emporium"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "12-25",
+  "games": {
+    "ww": {
+      "personality": "peppy",
+      "clothes": "bunny-tee",
+      "song": "K.K. Ska",
+      "phrase": "li'l ears",
+      "quote": "I'm not sick, I'm just albino!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "bunny-tee",
+      "song": "K.K. Ska",
+      "phrase": "li'l ears"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "bunny-tee",
+      "song": "K.K. Ska",
+      "phrase": "li'l ears",
+      "skill": "Doing handstands",
+      "goal": "Photographer",
+      "fear": "Monster Mask",
+      "quote": "You can always take the red-eye.",
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "li'l ears",
+      "song": "K.K. Ska"
+    }
+  },
+  "name": "Ruby",
+  "id": "ruby"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "santa-beard",
+  "name": "Santa Beard",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1224
+      },
+      "sources": [
+        "Labelle (12/1 through 12/24)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4896
+        }
+      ]
+    }
+  }
+}

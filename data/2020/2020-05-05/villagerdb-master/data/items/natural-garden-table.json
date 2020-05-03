@@ -1,0 +1,19 @@
+{
+  "id": "natural-garden-table",
+  "name": "Natural Garden Table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3330
+      },
+      "recipe": {
+        "hardwood": 9,
+        "iron-nugget": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

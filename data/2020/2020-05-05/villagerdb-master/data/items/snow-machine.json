@@ -1,0 +1,17 @@
+{
+  "id": "snow-machine",
+  "name": "Snow Machine",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "sources": [
+        "Snowman"
+      ]
+    }
+  }
+}

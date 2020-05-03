@@ -1,0 +1,27 @@
+{
+  "id": "bagworm",
+  "name": "Bagworm",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "On trees (shake them)."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Shake trees (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "common-butterfly",
+  "name": "Common Butterfly",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Around flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Around flowers (Jan-Jun, Sept-Dec)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      }
+    }
+  }
+}

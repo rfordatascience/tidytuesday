@@ -1,0 +1,38 @@
+{
+  "id": "phonograph",
+  "name": "Phonograph",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 460
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1840
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 13250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 53000
+        }
+      ]
+    }
+  }
+}

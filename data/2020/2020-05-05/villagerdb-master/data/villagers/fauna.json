@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "3-26",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "shearling-coat",
+      "song": "K.K. Stroll",
+      "phrase": "dearie",
+      "skill": "Mental math",
+      "goal": "Teacher",
+      "fear": "Werewolf Hood",
+      "quote": "The first step is always the hardest.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "dearie",
+      "song": "K.K. Stroll"
+    }
+  },
+  "name": "Fauna",
+  "id": "fauna"
+}

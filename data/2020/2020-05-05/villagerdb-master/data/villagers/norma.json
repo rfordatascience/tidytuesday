@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "9-20",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "red-aloha-shirt",
+      "song": "Mountain Song"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "blue-tartan-tee",
+      "song": "Mountain Song",
+      "phrase": "hoof hoo",
+      "skill": "Karaoke",
+      "goal": "Teacher",
+      "fear": "Bug Mask",
+      "quote": "If you like what you have, then you'll have what you like!",
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "hoof hoo",
+      "song": "Mountain Song"
+    }
+  },
+  "name": "Norma",
+  "id": "norma"
+}

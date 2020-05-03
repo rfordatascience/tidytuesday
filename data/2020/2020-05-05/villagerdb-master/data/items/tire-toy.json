@@ -1,0 +1,18 @@
+{
+  "id": "tire-toy",
+  "name": "Tire Toy",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20
+      },
+      "recipe": {
+        "old-tire": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

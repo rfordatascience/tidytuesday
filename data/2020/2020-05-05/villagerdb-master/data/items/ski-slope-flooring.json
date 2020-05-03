@@ -1,0 +1,19 @@
+{
+  "id": "ski-slope-flooring",
+  "name": "Ski-slope Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12800
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

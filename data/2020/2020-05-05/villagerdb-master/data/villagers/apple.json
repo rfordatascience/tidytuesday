@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "hamster",
+  "birthday": "9-24",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "lite-polka-tee",
+      "song": "I Love You",
+      "phrase": "cheekers",
+      "skill": "Karaoke",
+      "goal": "Movie star",
+      "fear": "Bug Mask",
+      "quote": "One spoiled apple spoils the barrel.",
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "cheekers",
+      "song": "I Love You"
+    }
+  },
+  "name": "Apple",
+  "id": "apple"
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "9-13",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "Agent K.K.",
+      "phrase": "shorty"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "Agent K.K.",
+      "phrase": "shorty",
+      "skill": "Telling jokes",
+      "goal": "Mayor",
+      "fear": "Bug Mask",
+      "quote": "A cornered rat will summon the courage to bite a cat.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "shorty",
+      "song": "Agent K.K."
+    }
+  },
+  "name": "Moose",
+  "id": "moose"
+}

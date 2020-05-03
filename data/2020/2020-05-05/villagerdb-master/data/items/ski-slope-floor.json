@@ -1,0 +1,17 @@
+{
+  "id": "ski-slope-floor",
+  "name": "Ski-slope Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "sources": [
+        "Snowman"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dinosaur-egg",
+  "name": "Dinosaur Egg",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

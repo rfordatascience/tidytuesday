@@ -1,0 +1,19 @@
+{
+  "id": "squat-toilet",
+  "name": "Squat Toilet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

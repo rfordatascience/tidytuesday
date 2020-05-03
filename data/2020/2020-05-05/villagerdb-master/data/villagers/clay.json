@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "10-19",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "uncommon-shirt",
+      "song": "K.K. Safari",
+      "phrase": "thump",
+      "skill": "Writing backward",
+      "goal": "Archaeologist",
+      "fear": "Mummy Mask",
+      "quote": "Life is just a bowl of cherries.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "thump",
+      "song": "K.K. Safari"
+    }
+  },
+  "name": "Clay",
+  "id": "clay"
+}

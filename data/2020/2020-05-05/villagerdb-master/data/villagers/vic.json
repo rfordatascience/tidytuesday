@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "12-29",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "scale-armor-suit",
+      "song": "Lucky K.K.",
+      "phrase": "cud",
+      "skill": "Doing push-ups",
+      "goal": "Archaeologist",
+      "fear": "Mummy Mask",
+      "quote": "You mess with the bull, you get the horns.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "cud",
+      "song": "Lucky K.K."
+    }
+  },
+  "name": "Vic",
+  "id": "vic"
+}

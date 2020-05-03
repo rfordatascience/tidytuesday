@@ -1,0 +1,14 @@
+{
+  "id": "printed-design-shovel",
+  "name": "Printed-design Shovel",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

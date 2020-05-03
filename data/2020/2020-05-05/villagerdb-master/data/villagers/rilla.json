@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "11-1",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "phrase": "hello",
+      "clothes": "hello-kitty-outfit",
+      "skill": "Baking",
+      "goal": "Kitty White",
+      "song": "Bubblegum K.K.",
+      "fear": "Skeleton Hood",
+      "quote": "Where there's a will, there's a way.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    }
+  },
+  "name": "Rilla",
+  "id": "rilla"
+}

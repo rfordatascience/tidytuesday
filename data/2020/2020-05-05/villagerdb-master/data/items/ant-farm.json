@@ -1,0 +1,19 @@
+{
+  "id": "ant-farm",
+  "name": "Ant Farm",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

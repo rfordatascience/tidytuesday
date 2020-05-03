@@ -1,0 +1,19 @@
+{
+  "id": "pink-crown-wall",
+  "name": "Pink-crown Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 587
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2350
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

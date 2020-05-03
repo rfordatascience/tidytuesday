@@ -1,0 +1,26 @@
+{
+  "id": "argyle-knit-shirt",
+  "name": "Argyle Knit Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 115
+      },
+      "sources": [
+        "Able Sisters (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 460
+        }
+      ]
+    }
+  }
+}

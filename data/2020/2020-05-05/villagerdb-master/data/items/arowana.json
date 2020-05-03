@@ -1,0 +1,28 @@
+{
+  "id": "arowana",
+  "name": "Arowana",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Large Shadows on River, June-Sep (4pm-9am)",
+        "South: Large Shadows on River, Dec-Mar (4pm-9am)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  }
+}

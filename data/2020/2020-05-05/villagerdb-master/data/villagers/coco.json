@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "3-1",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "misty-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "doyoing"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Dirge"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "dawn-tee",
+      "song": "K.K. Dirge",
+      "phrase": "doyoing",
+      "quote": "I'm feeling kind of blank today."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "dawn-tee",
+      "song": "K.K. Dirge",
+      "phrase": "doyoing"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "dawn-tee",
+      "song": "K.K. Dirge",
+      "phrase": "doyoing",
+      "skill": "Writing backward",
+      "goal": "Astronaut",
+      "fear": "Mummy Mask",
+      "quote": "Don't put off till tomorrow what you can do today.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "doyoing",
+      "song": "K.K. Dirge"
+    }
+  },
+  "name": "Coco",
+  "id": "coco"
+}

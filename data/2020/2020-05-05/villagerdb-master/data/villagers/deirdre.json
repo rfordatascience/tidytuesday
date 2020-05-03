@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "5-4",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "fall-leaf-tee",
+      "song": "K.K. Cruisin'",
+      "phrase": "whatevs",
+      "skill": "Tiptoeing",
+      "goal": "Journalist",
+      "fear": "Ghost Mask",
+      "quote": "Legs of an antelope, heart of an eagle.",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "whatevs",
+      "song": "K.K. Cruisin'"
+    }
+  },
+  "name": "Deirdre",
+  "id": "deirdre"
+}

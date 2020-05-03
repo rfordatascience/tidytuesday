@@ -1,0 +1,33 @@
+{
+  "id": "wood-paneling",
+  "name": "Wood Paneling",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "ursala"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1320
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "3-5",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "daisy-tee",
+      "song": "Two Days Ago",
+      "phrase": "snortie"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "daisy-tee",
+      "song": "Two Days Ago",
+      "phrase": "snortie",
+      "skill": "Rock-paper-scissors",
+      "goal": "Violinist",
+      "fear": "Monster Mask",
+      "quote": "Still waters run deep.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "snortie",
+      "song": "Two Days Ago"
+    }
+  },
+  "name": "Gala",
+  "id": "gala"
+}

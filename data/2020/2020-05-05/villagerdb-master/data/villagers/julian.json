@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "3-15",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "twinkle-tee",
+      "song": "Stale Cupcakes",
+      "phrase": "glitter",
+      "skill": "Speed-reading",
+      "goal": "Designer",
+      "fear": "Bug Mask",
+      "quote": "Never trot when you can prance.",
+      "siblings": "Youngest twin",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "glitter",
+      "song": "Stale Cupcakes"
+    }
+  },
+  "name": "Julian",
+  "id": "julian"
+}

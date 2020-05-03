@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "9-28",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "far-out-shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "far-out-shirt",
+      "song": "K.K. Country"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "Orange Check Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey",
+      "quote": "Drop and give me twenty!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "Orange Check Shirt",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "racer-tee",
+      "song": "K.K. Country",
+      "phrase": "okey-dokey",
+      "skill": "Eating frequently",
+      "goal": "Baseball player",
+      "fear": "Monster Mask",
+      "quote": "The sky's the limit!",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "okey-dokey",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Kody",
+  "id": "kody"
+}

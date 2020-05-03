@@ -1,0 +1,19 @@
+{
+  "id": "moms-cushion",
+  "name": "Mom's Cushion",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

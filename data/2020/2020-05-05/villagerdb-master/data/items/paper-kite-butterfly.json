@@ -1,0 +1,17 @@
+{
+  "id": "paper-kite-butterfly",
+  "name": "Paper Kite Butterfly",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Around flowers (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      }
+    }
+  },
+  "category": "Bugs"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "opulent-rug",
+  "name": "Opulent Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 308
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1232
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "imperial-fence",
+  "name": "Imperial Fence",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      }
+    }
+  },
+  "category": "Furniture"
+}

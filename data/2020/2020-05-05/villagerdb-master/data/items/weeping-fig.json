@@ -1,0 +1,34 @@
+{
+  "id": "weeping-fig",
+  "name": "Weeping Fig",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "House Plant",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Gardening Store (TIY)"
+      ],
+      "rvs": [
+        "franklin"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

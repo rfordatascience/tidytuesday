@@ -1,0 +1,19 @@
+{
+  "id": "fancy-violin",
+  "name": "Fancy Violin",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

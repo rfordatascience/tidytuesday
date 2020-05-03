@@ -1,0 +1,39 @@
+{
+  "id": "loud-line-shirt",
+  "name": "Loud Line Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    }
+  }
+}

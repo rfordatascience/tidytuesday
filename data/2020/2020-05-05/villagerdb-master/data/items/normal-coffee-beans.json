@@ -1,0 +1,18 @@
+{
+  "id": "normal-coffee-beans",
+  "name": "Normal Coffee Beans",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Brewster (work at The Roost",
+        "1-4 correct options)"
+      ]
+    }
+  }
+}

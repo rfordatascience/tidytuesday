@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-22",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "star-shirt",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "star-shirt",
+      "song": "K.K. Steppe"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "star-tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya",
+      "quote": "Remember...I'm always watching you."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "star-tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "star-tee",
+      "song": "K.K. Steppe",
+      "phrase": "aiya",
+      "skill": "Trivia",
+      "goal": "Chef",
+      "fear": "Bug Mask",
+      "quote": "All good things must come to an end.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "aiya",
+      "song": "K.K. Steppe"
+    }
+  },
+  "name": "Chow",
+  "id": "chow"
+}

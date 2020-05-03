@@ -1,0 +1,19 @@
+{
+  "id": "golden-gears",
+  "name": "Golden Gears",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 11125
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 44500
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

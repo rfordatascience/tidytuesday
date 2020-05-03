@@ -1,0 +1,15 @@
+{
+  "id": "suspension-bridge",
+  "name": "Suspension Bridge",
+  "games": {
+    "nh": {
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 129800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

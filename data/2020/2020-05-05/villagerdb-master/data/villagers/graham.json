@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "6-20",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "vegetarian-tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "Indeed",
+      "skill": "Computing",
+      "goal": "Writer",
+      "fear": "Werewolf Hood",
+      "quote": "Knowledge is power.",
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "Indeed",
+      "song": "Bubblegum K.K."
+    }
+  },
+  "name": "Graham",
+  "id": "graham"
+}

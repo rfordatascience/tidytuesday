@@ -1,0 +1,20 @@
+{
+  "id": "madagascan-sunset-moth",
+  "name": "Madagascan Sunset Moth",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 10000
+        }
+      ]
+    }
+  },
+  "category": "Bugs"
+}

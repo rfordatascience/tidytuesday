@@ -1,0 +1,19 @@
+{
+  "id": "illuminated-snowflakes",
+  "name": "Illuminated Snowflakes",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3150
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12600
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

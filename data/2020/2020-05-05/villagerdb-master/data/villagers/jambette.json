@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "10-27",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "prism-shirt",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "prism-shirt",
+      "song": "K.K. Country"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "prism-tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "prism-tee",
+      "song": "K.K. Country",
+      "phrase": "croak-kay",
+      "skill": "Ventriloquism",
+      "goal": "Artist",
+      "fear": "Ghost Mask",
+      "quote": "It takes more muscles to frown than to smile.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "croak-kay",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Jambette",
+  "id": "jambette"
+}

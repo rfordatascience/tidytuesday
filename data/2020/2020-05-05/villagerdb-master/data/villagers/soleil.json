@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "hamster",
+  "birthday": "8-9",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "swell-tee",
+      "song": "K.K. Oasis",
+      "phrase": "tarnation",
+      "skill": "Skimming books",
+      "goal": "Translator",
+      "fear": "Ghost Mask",
+      "quote": "Sometimes dreams are merely dreams.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "tarnation",
+      "song": "K.K. Oasis"
+    }
+  },
+  "name": "Soleil",
+  "id": "soleil"
+}

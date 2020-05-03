@@ -1,0 +1,23 @@
+{
+  "id": "orange-hat",
+  "name": "Orange Hat",
+  "games": {
+    "nh": {
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4000
+        }
+      ],
+      "recipe": {
+        "orange": 5
+      }
+    }
+  },
+  "category": "Hats"
+}

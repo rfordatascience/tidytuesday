@@ -1,0 +1,20 @@
+{
+  "id": "bureom",
+  "name": "Bureom",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "Daeboreum (Isabelle -- KOR only)"
+      ]
+    }
+  }
+}

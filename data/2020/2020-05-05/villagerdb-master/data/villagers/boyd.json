@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "10-1",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "fortune-shirt",
+      "song": "K.K. Groove"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "good-fortune-clothes",
+      "song": "K.K. Groove",
+      "phrase": "uh-oh",
+      "skill": "Baton twirling",
+      "goal": "Pro wrestler",
+      "fear": "Monster Mask",
+      "quote": "There's always time to take a second look.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "uh-oh",
+      "song": "K.K. Groove"
+    }
+  },
+  "name": "Boyd",
+  "id": "boyd"
+}

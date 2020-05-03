@@ -1,0 +1,19 @@
+{
+  "id": "new-years-hat",
+  "name": "New Year's Hat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 500
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "balloon-tv",
+  "name": "Balloon Tv",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Balloon",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "sources": [
+        "Gift balloon"
+      ]
+    }
+  }
+}

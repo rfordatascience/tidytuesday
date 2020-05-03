@@ -1,0 +1,19 @@
+{
+  "id": "dog-nose",
+  "name": "Dog Nose",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

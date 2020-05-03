@@ -1,0 +1,30 @@
+{
+  "id": "pondskater",
+  "name": "Pondskater",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 130
+      },
+      "sources": [
+        "On the surface of lakes and ponds."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 130
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 520
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "1-6",
+  "games": {
+    "cf": {
+      "personality": "peppy",
+      "clothes": "Blue Retro Shirt",
+      "song": "K.K. Technopop",
+      "phrase": "nougat"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "mint-gingham-tee",
+      "song": "K.K. Technopop",
+      "phrase": "nougat",
+      "skill": "Ventriloquism",
+      "goal": "Movie director",
+      "fear": "Monster Mask",
+      "quote": "Absence makes the heart grow fonder.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "nougat",
+      "song": "K.K. Technopop"
+    }
+  },
+  "name": "Carmen",
+  "id": "carmen2"
+}

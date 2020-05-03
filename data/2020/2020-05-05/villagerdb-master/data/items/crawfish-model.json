@@ -1,0 +1,13 @@
+{
+  "id": "crawfish-model",
+  "name": "Crawfish Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Furniture"
+}

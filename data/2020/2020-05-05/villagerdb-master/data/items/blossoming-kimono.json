@@ -1,0 +1,19 @@
+{
+  "id": "blossoming-kimono",
+  "name": "Blossoming Kimono",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 805
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3220
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "1-13",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "lovely-shirt",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "lovely-shirt",
+      "song": "K.K. Ballad"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "lovely-tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish",
+      "quote": "HIP HOP HO! Hey, let's go!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "lovely-tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "lovely-tee",
+      "song": "K.K. Ballad",
+      "phrase": "splish",
+      "skill": "Limboing",
+      "goal": "Tennis player",
+      "fear": "Skeleton Hood",
+      "quote": "Look before you leap.",
+      "siblings": "Younger twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "splish",
+      "song": "K.K. Ballad"
+    }
+  },
+  "name": "Puddles",
+  "id": "puddles"
+}

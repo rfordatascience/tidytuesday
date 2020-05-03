@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "3-2",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "tiger-tee",
+      "song": "My Place",
+      "phrase": "cubby",
+      "skill": "Computing",
+      "goal": "Programmer",
+      "fear": "Ghost Mask",
+      "quote": "Please DO feed the bears!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "cubby",
+      "song": "My Place"
+    }
+  },
+  "name": "Barold",
+  "id": "barold"
+}

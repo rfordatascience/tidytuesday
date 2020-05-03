@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "3-22",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "denim-shirt",
+      "song": "K.K. Dixie"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "pep-squad-tee",
+      "song": "K.K. Dixie",
+      "phrase": "yodelay",
+      "skill": "Baton twirling",
+      "goal": "Volleyball player",
+      "fear": "Monster Mask",
+      "quote": "Trends always make a comeback.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "yodelay",
+      "song": "K.K. Dixie"
+    }
+  },
+  "name": "Paula",
+  "id": "paula"
+}

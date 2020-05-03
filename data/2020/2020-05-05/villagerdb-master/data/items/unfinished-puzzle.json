@@ -1,0 +1,20 @@
+{
+  "id": "unfinished-puzzle",
+  "name": "Unfinished Puzzle",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

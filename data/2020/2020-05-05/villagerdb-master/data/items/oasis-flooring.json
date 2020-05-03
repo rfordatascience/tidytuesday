@@ -1,0 +1,19 @@
+{
+  "id": "oasis-flooring",
+  "name": "Oasis Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

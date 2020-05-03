@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "11-29",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "lavender-robe",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. Folk"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "misty-tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH",
+      "quote": "Hoo-ha konichiwa!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "misty-tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "misty-tee",
+      "song": "K.K. Folk",
+      "phrase": "meooo-OH",
+      "skill": "Drawing circles",
+      "goal": "Actor",
+      "fear": "Skeleton Hood",
+      "quote": "If you make your opponent flinch, you have already won.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "meooo-OH",
+      "song": "K.K. Folk"
+    }
+  },
+  "name": "Kabuki",
+  "id": "kabuki"
+}

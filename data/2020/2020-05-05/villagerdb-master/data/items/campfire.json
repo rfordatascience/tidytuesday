@@ -1,0 +1,34 @@
+{
+  "id": "campfire",
+  "name": "Campfire",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30
+      },
+      "recipe": {
+        "tree-branch": 3
+      }
+    },
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "sources": [
+        "Camping NPC (igloo)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diner-counter-table",
+  "name": "Diner Counter Table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

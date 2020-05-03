@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "4-6",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "dragon-suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "dragon-suit",
+      "song": "Lucky K.K."
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "dragon-suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie",
+      "quote": "This is my good side."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "dragon-suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "dragon-suit",
+      "song": "Lucky K.K.",
+      "phrase": "slushie",
+      "skill": "Mental math",
+      "goal": "Firefighter",
+      "fear": "Monster Mask",
+      "quote": "Always have a comeback.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "slushie",
+      "song": "Lucky K.K."
+    }
+  },
+  "name": "Hopper",
+  "id": "hopper"
+}

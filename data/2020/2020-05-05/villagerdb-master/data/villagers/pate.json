@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-23",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "winter-sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "winter-sweater",
+      "song": "K.K. Steppe"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "winter-sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle",
+      "quote": "SHRIEKING SUGARCUBES!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "winter-sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "winter-sweater",
+      "song": "K.K. Steppe",
+      "phrase": "quackle",
+      "skill": "Pretending to sleep",
+      "goal": "Archaeologist",
+      "fear": "Werewolf Hood",
+      "quote": "A duck won't bite you.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "quackle",
+      "song": "K.K. Steppe"
+    }
+  },
+  "name": "Pate",
+  "id": "pate"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hot-dog-costume",
+  "name": "Hot-dog Costume",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 320
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1280
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

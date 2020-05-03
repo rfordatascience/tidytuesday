@@ -1,0 +1,17 @@
+{
+  "id": "octopus",
+  "name": "Octopus",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

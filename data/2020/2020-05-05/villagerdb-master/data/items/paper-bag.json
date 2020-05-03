@@ -1,0 +1,25 @@
+{
+  "id": "paper-bag",
+  "name": "Paper Bag",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Undelivered lost item"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140
+        }
+      ]
+    }
+  }
+}

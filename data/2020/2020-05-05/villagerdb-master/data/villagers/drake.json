@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "6-25",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "folk-shirt",
+      "song": "K.K. Blues",
+      "phrase": "quacko",
+      "quote": "Got any snacks on you?"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "folk-shirt",
+      "song": "K.K. Blues",
+      "phrase": "quacko"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "folk-shirt",
+      "song": "K.K. Blues",
+      "phrase": "quacko",
+      "skill": "Rock-paper-scissors",
+      "goal": "Cartoonist",
+      "fear": "Monster Mask",
+      "quote": "...Quack.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "quacko",
+      "song": "K.K. Blues"
+    }
+  },
+  "name": "Drake",
+  "id": "drake"
+}

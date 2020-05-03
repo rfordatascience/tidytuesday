@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "deer",
+  "birthday": "11-7",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "green-warm-up-jacket",
+      "song": "DJ K.K.",
+      "phrase": "boosh",
+      "skill": "Backflips",
+      "goal": "Soccer player",
+      "fear": "Mummy Mask",
+      "quote": "Get while the getting's good.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "boosh",
+      "song": "DJ K.K."
+    }
+  },
+  "name": "Bam",
+  "id": "bam"
+}

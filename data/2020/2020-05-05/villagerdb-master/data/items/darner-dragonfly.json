@@ -1,0 +1,30 @@
+{
+  "id": "darner-dragonfly",
+  "name": "Darner Dragonfly",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "Anywhere other than above salt water (the sea)."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 230
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 920
+        }
+      ]
+    }
+  }
+}

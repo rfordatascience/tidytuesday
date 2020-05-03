@@ -1,0 +1,39 @@
+{
+  "id": "petal-parasol",
+  "name": "Petal Parasol",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "GracieGrace (during sales)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 397
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1590
+        }
+      ]
+    }
+  }
+}

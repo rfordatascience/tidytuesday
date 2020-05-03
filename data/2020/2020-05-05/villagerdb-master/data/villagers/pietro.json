@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "sheep",
+  "birthday": "4-19",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "dawn-tee",
+      "song": "K.K. Parade",
+      "phrase": "honk honk",
+      "skill": "Making crafts",
+      "goal": "Artist",
+      "fear": "Werewolf Hood",
+      "quote": "Be the class clown!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "honk honk",
+      "song": "K.K. Parade"
+    }
+  },
+  "name": "Pietro",
+  "id": "pietro"
+}

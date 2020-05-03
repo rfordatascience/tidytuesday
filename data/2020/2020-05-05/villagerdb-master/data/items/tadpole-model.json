@@ -1,0 +1,13 @@
+{
+  "id": "tadpole-model",
+  "name": "Tadpole Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  },
+  "category": "Furniture"
+}

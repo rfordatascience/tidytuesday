@@ -1,0 +1,18 @@
+{
+  "id": "pear-umbrella",
+  "name": "Pear Umbrella",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "recipe": {
+        "pear": 7
+      }
+    }
+  },
+  "category": "Umbrellas"
+}

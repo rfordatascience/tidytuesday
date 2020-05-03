@@ -1,0 +1,33 @@
+{
+  "id": "changing-room",
+  "name": "Changing Room",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "bitty",
+        "louie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 925
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3700
+        }
+      ]
+    }
+  }
+}

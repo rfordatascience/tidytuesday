@@ -1,0 +1,19 @@
+{
+  "id": "golden-arowana-model",
+  "name": "Golden Arowana Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 120000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

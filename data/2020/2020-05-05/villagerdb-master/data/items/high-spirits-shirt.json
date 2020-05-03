@@ -1,0 +1,23 @@
+{
+  "id": "high-spirits-shirt",
+  "name": "High-spirits Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-Roll"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "holden"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

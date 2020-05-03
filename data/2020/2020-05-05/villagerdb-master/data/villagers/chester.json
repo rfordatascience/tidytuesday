@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "8-6",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-tee",
+      "song": "Imperial K.K.",
+      "phrase": "rookie"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-tee",
+      "song": "Imperial K.K.",
+      "phrase": "rookie",
+      "skill": "Trivia",
+      "goal": "Teacher",
+      "fear": "Ghost Mask",
+      "quote": "Sleep early. Wake late.",
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "rookie",
+      "song": "Imperial K.K."
+    }
+  },
+  "name": "Chester",
+  "id": "chester"
+}

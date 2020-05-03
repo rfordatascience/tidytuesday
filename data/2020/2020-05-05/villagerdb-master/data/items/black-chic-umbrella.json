@@ -1,0 +1,19 @@
+{
+  "id": "black-chic-umbrella",
+  "name": "Black Chic Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 405
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1620
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

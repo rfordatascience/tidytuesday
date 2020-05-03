@@ -1,0 +1,28 @@
+{
+  "id": "yellow-tulip",
+  "name": "Yellow Tulip",
+  "category": "Flowers",
+  "games": {
+    "nh": {
+      "sources": [
+        "Pick from flower which regrows (speculated)"
+      ]
+    },
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Gardening Store"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 160
+        }
+      ]
+    }
+  }
+}

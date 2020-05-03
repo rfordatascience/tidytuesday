@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "alligator",
+  "birthday": "11-8",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "leopard-shirt",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "leopard-shirt",
+      "song": "K.K. Chorale"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "leopard-tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh",
+      "quote": "The most important parts of any ensemble are the purse and shoes."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "leopard-tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "leopard-tee",
+      "song": "K.K. Chorale",
+      "phrase": "graaagh",
+      "skill": "Yo-yoing",
+      "goal": "Stylist",
+      "fear": "Ghost Mask",
+      "quote": "Think before you act.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "graaagh",
+      "song": "K.K. Chorale"
+    }
+  },
+  "name": "Alli",
+  "id": "alli"
+}

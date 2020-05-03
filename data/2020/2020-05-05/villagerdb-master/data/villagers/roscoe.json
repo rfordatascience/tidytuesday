@@ -1,0 +1,51 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "6-16",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "checkered-shirt",
+      "song": "K.K. Dirge"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay",
+      "quote": "I've got my eye on you, bucko!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Dirge",
+      "phrase": "nay",
+      "fear": "Ghost Mask",
+      "quote": "Trouble rides a fast horse.",
+      "skill": "Making crafts",
+      "goal": "Lawyer",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "nay",
+      "song": "K.K. Dirge"
+    }
+  },
+  "name": "Roscoe",
+  "id": "roscoe"
+}

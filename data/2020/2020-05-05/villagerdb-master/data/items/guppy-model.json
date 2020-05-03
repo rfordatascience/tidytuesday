@@ -1,0 +1,13 @@
+{
+  "id": "guppy-model",
+  "name": "Guppy Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3900
+      }
+    }
+  },
+  "category": "Furniture"
+}

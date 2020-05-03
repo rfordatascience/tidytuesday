@@ -1,0 +1,19 @@
+{
+  "id": "simple-visiting-kimono",
+  "name": "Simple Visiting Kimono",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 620
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2480
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fireworks-table",
+  "name": "Fireworks Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1080
+      },
+      "sources": [
+        "DLC"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4320
+        }
+      ]
+    }
+  }
+}
