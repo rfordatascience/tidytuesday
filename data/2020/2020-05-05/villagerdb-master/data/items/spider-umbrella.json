@@ -1,0 +1,38 @@
+{
+  "id": "spider-umbrella",
+  "name": "Spider Umbrella",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 840
+        }
+      ]
+    }
+  }
+}

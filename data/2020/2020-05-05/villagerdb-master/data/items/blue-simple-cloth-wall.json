@@ -1,0 +1,23 @@
+{
+  "id": "blue-simple-cloth-wall",
+  "name": "Blue Simple-cloth Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 750
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

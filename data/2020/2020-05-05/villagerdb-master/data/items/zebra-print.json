@@ -1,0 +1,19 @@
+{
+  "id": "zebra-print",
+  "name": "Zebra Print",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "12-11",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "scale-armor-suit",
+      "song": "Lucky K.K.",
+      "phrase": "skraaaaw"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "scale-armor-suit",
+      "song": "Lucky K.K.",
+      "phrase": "skraaaaw",
+      "skill": "Doing chin-ups",
+      "goal": "Police officer",
+      "fear": "Bug Mask",
+      "quote": "Discretion is the better part of valor.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "skraaaaw",
+      "song": "Lucky K.K."
+    }
+  },
+  "name": "Sterling",
+  "id": "sterling"
+}

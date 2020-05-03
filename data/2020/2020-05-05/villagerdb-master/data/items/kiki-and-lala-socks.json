@@ -1,0 +1,26 @@
+{
+  "id": "kiki-and-lala-socks",
+  "name": "Kiki And Lala Socks",
+  "category": "Socks",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "etoile"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

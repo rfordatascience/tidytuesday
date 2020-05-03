@@ -1,0 +1,23 @@
+{
+  "id": "upright-locker",
+  "name": "Upright Locker",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 925
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3700
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

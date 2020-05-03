@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "9-22",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "red-aloha-shirt",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "red-aloha-shirt",
+      "song": "Marine Song 2001"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "Egyptian Outfit",
+      "song": "Marine Song 2001",
+      "phrase": "me meow"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "mummy-shirt",
+      "song": "Marine Song 2001",
+      "phrase": "me meow",
+      "skill": "Writing about pickles",
+      "goal": "Astronaut",
+      "fear": "Monster Mask",
+      "quote": "All that glitters is not gold.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "me meow",
+      "song": "Marine Song 2001"
+    }
+  },
+  "name": "Ankha",
+  "id": "ankha"
+}

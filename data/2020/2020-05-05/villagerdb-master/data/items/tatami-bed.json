@@ -1,0 +1,42 @@
+{
+  "id": "tatami-bed",
+  "name": "Tatami Bed",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2800
+        }
+      ]
+    }
+  }
+}

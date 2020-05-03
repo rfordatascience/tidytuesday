@@ -1,0 +1,23 @@
+{
+  "id": "wolf-link-outfit",
+  "name": "Wolf Link Outfit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

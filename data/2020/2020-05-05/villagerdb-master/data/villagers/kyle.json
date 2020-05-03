@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-6",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "pleather-vest",
+      "song": "K.K. Adventure",
+      "phrase": "alpha",
+      "skill": "Typing",
+      "goal": "Singer",
+      "fear": "Skeleton Hood",
+      "quote": "Never trust a sheep in wolf's clothing.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "alpha",
+      "song": "K.K. Adventure"
+    }
+  },
+  "name": "Kyle",
+  "id": "kyle"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "office-chair",
+  "name": "Office Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Office",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  }
+}

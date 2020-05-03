@@ -1,0 +1,47 @@
+{
+  "id": "freezer",
+  "name": "Freezer",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "chip",
+        "copper"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3500
+        }
+      ]
+    }
+  }
+}

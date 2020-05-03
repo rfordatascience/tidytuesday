@@ -1,0 +1,19 @@
+{
+  "id": "trees-bounty-lamp",
+  "name": "Tree's Bounty Lamp",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

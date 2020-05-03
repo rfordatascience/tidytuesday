@@ -1,0 +1,32 @@
+{
+  "id": "skyscraper-wall",
+  "name": "Skyscraper Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Saharah"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  }
+}

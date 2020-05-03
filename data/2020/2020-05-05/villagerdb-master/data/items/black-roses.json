@@ -1,0 +1,18 @@
+{
+  "id": "black-roses",
+  "name": "Black Roses",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Find on ground at mystery island",
+        "crossbreeding flowers"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      }
+    }
+  },
+  "category": "Flowers"
+}

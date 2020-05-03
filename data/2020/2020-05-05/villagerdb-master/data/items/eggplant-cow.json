@@ -1,0 +1,21 @@
+{
+  "id": "eggplant-cow",
+  "name": "Eggplant Cow",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Obon (Isabelle -- JP only)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sweets-floor",
+  "name": "Sweets Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 31000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

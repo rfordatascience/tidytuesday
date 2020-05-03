@@ -1,0 +1,19 @@
+{
+  "id": "vinyl-round-toed-pumps",
+  "name": "Vinyl Round-toed Pumps",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "long-pleather-coat",
+  "name": "Long Pleather Coat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 460
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1840
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

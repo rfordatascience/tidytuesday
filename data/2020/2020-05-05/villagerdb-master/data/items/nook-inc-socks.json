@@ -1,0 +1,23 @@
+{
+  "id": "nook-inc-socks",
+  "name": "Nook Inc. Socks",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 400
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

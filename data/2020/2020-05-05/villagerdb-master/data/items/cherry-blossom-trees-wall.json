@@ -1,0 +1,20 @@
+{
+  "id": "cherry-blossom-trees-wall",
+  "name": "Cherry-blossom-trees Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 18400
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "antique-wardrobe",
+  "name": "Antique Wardrobe",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 9250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 37000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pink-argyle-tank",
+  "name": "Pink Argyle Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "GracieGrace (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ebony-piano",
+  "name": "Ebony Piano",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 950
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3800
+        }
+      ]
+    }
+  }
+}

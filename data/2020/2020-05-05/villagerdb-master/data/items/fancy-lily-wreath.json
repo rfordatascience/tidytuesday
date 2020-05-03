@@ -1,0 +1,20 @@
+{
+  "id": "fancy-lily-wreath",
+  "name": "Fancy Lily Wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "orange-lilies": 3,
+        "pink-lilies": 3,
+        "yellow-lilies": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

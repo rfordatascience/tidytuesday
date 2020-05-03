@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "8-15",
+  "games": {
+    "cf": {
+      "personality": "peppy",
+      "clothes": "watermelon-tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "watermelon-tee",
+      "song": "K.K. Bossa",
+      "phrase": "lambkins",
+      "skill": "Ventriloquism",
+      "goal": "Violinist",
+      "fear": "Werewolf Hood",
+      "quote": "Every cloud has a silver lining.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "House blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "lambkins",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Wendy",
+  "id": "wendy"
+}

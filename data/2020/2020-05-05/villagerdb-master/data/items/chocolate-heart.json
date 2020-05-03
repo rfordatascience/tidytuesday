@@ -1,0 +1,13 @@
+{
+  "id": "chocolate-heart",
+  "name": "Chocolate Heart",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Valentine's Day (Letter from villager with maximum friendship level)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mountain-standee",
+  "name": "Mountain Standee",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1080
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4320
+        }
+      ]
+    }
+  }
+}

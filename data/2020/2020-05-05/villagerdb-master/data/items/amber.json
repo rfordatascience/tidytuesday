@@ -1,0 +1,27 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      }
+    }
+  }
+}

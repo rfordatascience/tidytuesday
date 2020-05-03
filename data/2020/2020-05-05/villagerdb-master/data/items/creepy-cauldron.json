@@ -1,0 +1,22 @@
+{
+  "id": "creepy-cauldron",
+  "name": "Creepy Cauldron",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Creepy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

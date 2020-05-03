@@ -1,0 +1,19 @@
+{
+  "id": "hip-wrap-shirt",
+  "name": "Hip-wrap Shirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

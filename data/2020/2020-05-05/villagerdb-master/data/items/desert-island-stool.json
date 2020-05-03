@@ -1,0 +1,14 @@
+{
+  "id": "desert-island-stool",
+  "name": "Desert Island Stool",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Obtain high scores in the advanced levels in Desert Island Escape"
+      ]
+    }
+  }
+}

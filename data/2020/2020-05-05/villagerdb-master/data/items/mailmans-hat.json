@@ -1,0 +1,22 @@
+{
+  "id": "mailmans-hat",
+  "name": "Mailman's Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "50",
+        "000",
+        "000 Bells in savings account"
+      ]
+    }
+  }
+}

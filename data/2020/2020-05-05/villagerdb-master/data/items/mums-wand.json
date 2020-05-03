@@ -1,0 +1,14 @@
+{
+  "id": "mums-wand",
+  "name": "Mums Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1580
+      }
+    }
+  },
+  "category": "Tools"
+}

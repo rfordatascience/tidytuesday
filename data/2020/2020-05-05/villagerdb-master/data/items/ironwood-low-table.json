@@ -1,0 +1,19 @@
+{
+  "id": "ironwood-low-table",
+  "name": "Ironwood Low Table",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3720
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 14880
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

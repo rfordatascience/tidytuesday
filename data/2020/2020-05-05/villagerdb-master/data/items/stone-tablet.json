@@ -1,0 +1,18 @@
+{
+  "id": "stone-tablet",
+  "name": "Stone Tablet",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "recipe": {
+        "stone": 12
+      }
+    }
+  },
+  "category": "Furniture"
+}

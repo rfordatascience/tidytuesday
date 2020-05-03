@@ -1,0 +1,19 @@
+{
+  "id": "wooden-bookshelf",
+  "name": "Wooden Bookshelf",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1925
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7700
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "basic-trash-can",
+  "name": "Basic Trash Can",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "digby",
+        "hornsby",
+        "vivian"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ice-floor",
+  "name": "Ice Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Ice",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowmam"
+      ]
+    }
+  }
+}

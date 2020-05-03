@@ -1,0 +1,23 @@
+{
+  "id": "hha-womens-jacket",
+  "name": "HHA Women's Jacket",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "lottie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

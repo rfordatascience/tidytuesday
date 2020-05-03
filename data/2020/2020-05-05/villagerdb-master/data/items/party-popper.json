@@ -1,0 +1,26 @@
+{
+  "id": "party-popper",
+  "name": "Party Popper",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Redd (Fireworks Show)",
+        "Nookling stores (December)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 300
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "arched-window",
+  "name": "Arched Window",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 538
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2152
+        }
+      ]
+    }
+  }
+}

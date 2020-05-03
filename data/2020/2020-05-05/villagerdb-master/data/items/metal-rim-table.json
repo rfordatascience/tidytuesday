@@ -1,0 +1,26 @@
+{
+  "id": "metal-rim-table",
+  "name": "Metal-rim Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "rvs": [
+        "boris",
+        "kk",
+        "rover"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

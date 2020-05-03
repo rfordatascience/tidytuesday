@@ -1,0 +1,14 @@
+{
+  "id": "water-floor",
+  "name": "Water Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Unlock advanced levels in Desert Island Escape"
+      ]
+    }
+  }
+}

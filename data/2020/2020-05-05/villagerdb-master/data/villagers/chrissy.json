@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "8-28",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "lite-polka-shirt",
+      "song": "K.K. Waltz"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Waltz",
+      "phrase": "sparkles",
+      "skill": "Staying awake",
+      "goal": "Model",
+      "fear": "Monster Mask",
+      "quote": "A fool and her Bells are soon parted.",
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "sparkles",
+      "song": "K.K. Waltz"
+    }
+  },
+  "name": "Chrissy",
+  "id": "chrissy"
+}

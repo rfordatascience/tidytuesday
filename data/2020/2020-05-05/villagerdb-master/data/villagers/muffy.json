@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "2-14",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "natty-tee",
+      "song": "K.K. Sonata",
+      "phrase": "nightshade",
+      "skill": "Writing about pickles",
+      "goal": "Dermatologist",
+      "fear": "Werewolf Hood",
+      "quote": "There's a black sheep in every family.",
+      "siblings": "Only child",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "nightshade",
+      "song": "K.K. Sonata"
+    }
+  },
+  "name": "Muffy",
+  "id": "muffy"
+}

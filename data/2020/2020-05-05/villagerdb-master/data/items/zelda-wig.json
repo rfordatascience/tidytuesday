@@ -1,0 +1,23 @@
+{
+  "id": "zelda-wig",
+  "name": "Zelda Wig",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

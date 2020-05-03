@@ -1,0 +1,18 @@
+{
+  "id": "wooden-end-table",
+  "name": "Wooden End Table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 960
+      },
+      "recipe": {
+        "wood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "wisp-spirit-piece",
+  "name": "Wisp Spirit Piece",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Catch with your net while Wisp quest is active"
+      ]
+    }
+  },
+  "category": "Usables"
+}

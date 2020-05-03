@@ -1,0 +1,19 @@
+{
+  "id": "travelers-backpack",
+  "name": "Traveler's Backpack",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 735
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2940
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

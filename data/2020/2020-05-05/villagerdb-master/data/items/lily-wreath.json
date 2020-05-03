@@ -1,0 +1,19 @@
+{
+  "id": "lily-wreath",
+  "name": "Lily Wreath",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 720
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2880
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

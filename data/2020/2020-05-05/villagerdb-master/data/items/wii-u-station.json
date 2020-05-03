@@ -1,0 +1,14 @@
+{
+  "id": "wii-u-station",
+  "name": "Wii U Station",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Clear all beginner levels in Desert Island Escape"
+      ]
+    }
+  }
+}

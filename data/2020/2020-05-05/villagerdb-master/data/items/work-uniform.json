@@ -1,0 +1,19 @@
+{
+  "id": "work-uniform",
+  "name": "Work Uniform",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Tom Nook"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Tom Nook"
+      ]
+    }
+  }
+}

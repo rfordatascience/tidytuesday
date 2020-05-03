@@ -1,0 +1,19 @@
+{
+  "id": "bonsai-shelf",
+  "name": "Bonsai Shelf",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8460
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 33840
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

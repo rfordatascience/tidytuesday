@@ -1,0 +1,30 @@
+{
+  "id": "dung-beetle",
+  "name": "Dung Beetle",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "Next to snowballs."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ]
+    }
+  }
+}

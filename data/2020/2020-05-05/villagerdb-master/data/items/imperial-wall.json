@@ -1,0 +1,39 @@
+{
+  "id": "imperial-wall",
+  "name": "Imperial Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 665
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2660
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  }
+}

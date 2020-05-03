@@ -1,0 +1,19 @@
+{
+  "id": "stacked-wood-wall",
+  "name": "Stacked-wood Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7200
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

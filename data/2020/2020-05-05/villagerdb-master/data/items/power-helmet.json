@@ -1,0 +1,19 @@
+{
+  "id": "power-helmet",
+  "name": "Power Helmet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 805
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3220
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

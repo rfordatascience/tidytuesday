@@ -1,0 +1,61 @@
+{
+  "id": "moldy-shirt",
+  "name": "Moldy Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 50
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 50
+        }
+      ]
+    }
+  }
+}

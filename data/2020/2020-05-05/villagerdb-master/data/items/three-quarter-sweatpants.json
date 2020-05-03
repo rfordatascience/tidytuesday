@@ -1,0 +1,23 @@
+{
+  "id": "three-quarter-sweatpants",
+  "name": "Three-quarter Sweatpants",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "festivale-accessory",
+  "name": "Festivale Accessory",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 170
+      },
+      "sources": [
+        "Labelle (the week before Festivale through Festivale)"
+      ],
+      "rvs": [
+        "pave"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 680
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

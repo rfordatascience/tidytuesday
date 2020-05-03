@@ -1,0 +1,14 @@
+{
+  "id": "colorful-shovel",
+  "name": "Colorful Shovel",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "red-warm-up-suit",
+  "name": "Red Warm-up Suit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 65
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "rvs": [
+        "lottie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 260
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

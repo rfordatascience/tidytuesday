@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "4-27",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "pep-squad-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "purrty",
+      "skill": "Playing Old Maid",
+      "goal": "Swimmer",
+      "fear": "Mummy Mask",
+      "quote": "MeowMEOWmeow!",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "purrty",
+      "song": "Surfin' K.K."
+    }
+  },
+  "name": "Katt",
+  "id": "katt"
+}

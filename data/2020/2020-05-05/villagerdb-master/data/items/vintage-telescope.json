@@ -1,0 +1,21 @@
+{
+  "id": "vintage-telescope",
+  "name": "Vintage Telescope",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 470
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

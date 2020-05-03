@@ -1,0 +1,19 @@
+{
+  "id": "spider-web-tee",
+  "name": "Spider-web Tee",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

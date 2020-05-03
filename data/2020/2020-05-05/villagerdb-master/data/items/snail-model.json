@@ -1,0 +1,13 @@
+{
+  "id": "snail-model",
+  "name": "Snail Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      }
+    }
+  },
+  "category": "Furniture"
+}

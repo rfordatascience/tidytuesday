@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "9-3",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "yodel-shirt",
+      "song": "Forest Life"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "mint-shirt",
+      "song": "Forest Life",
+      "phrase": "schep",
+      "skill": "Memorizing stuff",
+      "goal": "Gymnast",
+      "fear": "Monster Mask",
+      "quote": "All a plant needs is love...and sun and water and soil.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "schep",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Maggie",
+  "id": "maggie"
+}

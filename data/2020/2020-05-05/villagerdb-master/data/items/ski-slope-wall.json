@@ -1,0 +1,29 @@
+{
+  "id": "ski-slope-wall",
+  "name": "Ski-slope Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "sources": [
+        "Snowman"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12800
+        }
+      ]
+    }
+  }
+}

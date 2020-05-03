@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-3",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "peachy-shirt",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "peachy-shirt",
+      "song": "K.K. Island"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "peachy-tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet",
+      "quote": "My tail looks extra fluffy in this picture."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "peachy-tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "peachy-tee",
+      "song": "K.K. Island",
+      "phrase": "nutlet",
+      "skill": "Calligraphy",
+      "goal": "Doctor",
+      "fear": "Werewolf Hood",
+      "quote": "Practice makes perfect.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar."
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "nutlet",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "Blaire",
+  "id": "blaire"
+}

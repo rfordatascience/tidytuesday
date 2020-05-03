@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-floor-lamp",
+  "name": "Bamboo Floor Lamp",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5120
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

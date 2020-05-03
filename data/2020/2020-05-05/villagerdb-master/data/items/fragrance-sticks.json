@@ -1,0 +1,23 @@
+{
+  "id": "fragrance-sticks",
+  "name": "Fragrance Sticks",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 207
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 830
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

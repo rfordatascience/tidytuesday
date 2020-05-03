@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "2-25",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "beige-knit-shirt",
+      "song": "K.K. Rally",
+      "phrase": "snort",
+      "skill": "Eating quickly",
+      "goal": "Fisherman",
+      "fear": "Skeleton Hood",
+      "quote": "Children should be seen and not heard.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a  little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "snort",
+      "song": "K.K. Rally"
+    }
+  },
+  "name": "Hamphrey",
+  "id": "hamphrey"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "5-14",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "green-stripe-tank",
+      "song": "K.K. House",
+      "phrase": "nuh uh",
+      "skill": "Making faces",
+      "goal": "Tennis player",
+      "fear": "Werewolf Hood",
+      "quote": "It's never too late to start over.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "nuh uh",
+      "song": "K.K. House"
+    }
+  },
+  "name": "Canberra",
+  "id": "canberra"
+}

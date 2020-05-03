@@ -1,0 +1,19 @@
+{
+  "id": "wooden-toolbox",
+  "name": "Wooden Toolbox",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": "Yes",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1980
+      },
+      "recipe": {
+        "softwood": 4,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

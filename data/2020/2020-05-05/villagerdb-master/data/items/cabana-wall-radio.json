@@ -1,0 +1,24 @@
+{
+  "id": "cabana-wall-radio",
+  "name": "Cabana Wall Radio",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic"
+      ],
+      "set": "Cabana",
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        }
+      ]
+    }
+  }
+}

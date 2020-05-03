@@ -1,0 +1,19 @@
+{
+  "id": "cute-wardrobe",
+  "name": "Cute Wardrobe",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1825
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7300
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

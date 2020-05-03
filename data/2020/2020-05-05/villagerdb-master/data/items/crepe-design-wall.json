@@ -1,0 +1,23 @@
+{
+  "id": "crepe-design-wall",
+  "name": "Crepe-design Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 387
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1550
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

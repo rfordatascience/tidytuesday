@@ -1,0 +1,25 @@
+{
+  "id": "shell-speaker",
+  "name": "Shell Speaker",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5700
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 22800
+        }
+      ],
+      "recipe": {
+        "conch": 3,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

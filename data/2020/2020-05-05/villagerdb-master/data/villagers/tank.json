@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "rhino",
+  "birthday": "5-6",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "K.K. Lament",
+      "phrase": "kerPOW"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "K.K. Lament"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "K.K. Lament",
+      "phrase": "kerPOW",
+      "quote": "Remember to keep your core muscles engaged!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "K.K. Lament",
+      "phrase": "kerPOW"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "K.K. Lament",
+      "phrase": "kerPOW",
+      "skill": "Doing push-ups",
+      "goal": "Cartoonist",
+      "fear": "Skeleton Hood",
+      "quote": "Remember to keep your core muscles engaged!",
+      "siblings": "Younger twin brother",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No Milk",
+        "sugar": "No Sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "kerPOW",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Tank",
+  "id": "tank"
+}

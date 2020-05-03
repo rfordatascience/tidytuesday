@@ -1,0 +1,19 @@
+{
+  "id": "cat-grass",
+  "name": "Cat Grass",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 142
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 570
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

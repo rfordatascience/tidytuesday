@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-stool",
+  "name": "Bamboo Stool",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

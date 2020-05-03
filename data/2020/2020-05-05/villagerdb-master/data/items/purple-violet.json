@@ -1,0 +1,17 @@
+{
+  "id": "purple-violet",
+  "name": "Purple Violet",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Gardening Store"
+      ]
+    }
+  }
+}

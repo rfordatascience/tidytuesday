@@ -1,0 +1,19 @@
+{
+  "id": "fancy-kimono",
+  "name": "Fancy Kimono",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

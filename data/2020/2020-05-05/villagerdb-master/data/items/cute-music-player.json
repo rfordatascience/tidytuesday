@@ -1,0 +1,23 @@
+{
+  "id": "cute-music-player",
+  "name": "Cute Music Player",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 650
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2600
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

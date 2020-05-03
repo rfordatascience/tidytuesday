@@ -1,0 +1,28 @@
+{
+  "id": "catfish",
+  "name": "Catfish",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Large Shadows in Pond, May-Oct (4pm-9am)",
+        "South: Large Shadows in Pond, Nov-Apr (4pm-9am)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      }
+    }
+  }
+}

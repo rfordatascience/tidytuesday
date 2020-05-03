@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "7-9",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "melon-shirt",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "melon-shirt",
+      "song": "Surfin' K.K."
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "melon-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt",
+      "quote": "Zap!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "melon-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "melon-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "krzzt",
+      "skill": "Backflipping",
+      "goal": "Guitarist",
+      "fear": "Skeleton Hood",
+      "quote": "Lightning never strikes twice.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "krzzt",
+      "song": "Surfin' K.K."
+    }
+  },
+  "name": "Static",
+  "id": "static"
+}

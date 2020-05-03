@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "5-12",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "red-grid-shirt",
+      "song": "Cafe K.K.",
+      "phrase": "wee one"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "red-grid-shirt",
+      "song": "Cafe K.K."
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "red-grid-tee",
+      "song": "Cafe K.K.",
+      "phrase": "wee one",
+      "skill": "Calculating tips",
+      "goal": "Dentist",
+      "fear": "Skeleton Hood",
+      "quote": "You need the sour to highlight the sweet.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "wee one",
+      "song": "Cafe K.K."
+    }
+  },
+  "name": "Ellie",
+  "id": "ellie"
+}

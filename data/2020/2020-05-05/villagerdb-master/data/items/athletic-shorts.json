@@ -1,0 +1,20 @@
+{
+  "id": "athletic-shorts",
+  "name": "Athletic Shorts",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "golden-axe",
+  "name": "Golden Axe",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Gardening Store (buy 50 or more saplings)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10655
+      }
+    }
+  }
+}

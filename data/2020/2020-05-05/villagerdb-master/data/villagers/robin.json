@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "12-4",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "kiwi-shirt",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "kiwi-shirt",
+      "song": "K.K. Bossa"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "kiwi-tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da",
+      "quote": "Always keep your wings manicured so you can fly away!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "kiwi-tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "kiwi-tee",
+      "song": "K.K. Bossa",
+      "phrase": "la-di-da",
+      "skill": "Skimming books",
+      "goal": "Dermatologist",
+      "fear": "Werewolf Hood",
+      "quote": "Always keep your wings manicured so you can fly away!",
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "la-di-da",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Robin",
+  "id": "robin"
+}

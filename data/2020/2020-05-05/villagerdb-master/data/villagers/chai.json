@@ -1,0 +1,28 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "3-6",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "phrase": "flap flap",
+      "clothes": "cinnamoroll-outfit",
+      "skill": "Napping",
+      "goal": "Café owner",
+      "song": "K.K. Bossa",
+      "fear": "Bug Mask",
+      "quote": "He who chases two rabbit catches none.",
+      "siblings": "Only child",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    }
+  },
+  "name": "Chai",
+  "id": "chai"
+}

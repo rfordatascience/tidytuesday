@@ -1,0 +1,51 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "10-10",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "two-ball-shirt",
+      "song": "I Love You"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "two-ball-tee",
+      "song": "I Love You",
+      "phrase": "uh-hoo",
+      "quote": "Bok bok bok?! Just kidding. A huh huh huh!"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "two-ball-tee",
+      "song": "I Love You",
+      "phrase": "uh-hoo"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "two-ball-tee",
+      "song": "I Love You",
+      "phrase": "uh-hoo",
+      "fear": "Skeleton Hood",
+      "quote": "Don't put all your eggs in one basket.",
+      "skill": "Remembering stuff",
+      "goal": "Poet",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "uh-hoo",
+      "song": "I Love You"
+    }
+  },
+  "name": "Benedict",
+  "id": "benedict"
+}

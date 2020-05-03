@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "4-7",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "fortune-shirt",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. Faire"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "rugby-tee",
+      "song": "K.K. Faire",
+      "phrase": "swine",
+      "quote": "Stop looking at me with those hungry eyes! I'm not a pork chop!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "rugby-tee",
+      "song": "K.K. Faire",
+      "phrase": "swine"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "rugby-tee",
+      "song": "K.K. Faire",
+      "phrase": "swine",
+      "skill": "Staying up late",
+      "goal": "CEO",
+      "fear": "Ghost Mask",
+      "quote": "Don't judge a book by its cover.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "swine",
+      "song": "K.K. Faire"
+    }
+  },
+  "name": "Rasher",
+  "id": "rasher"
+}

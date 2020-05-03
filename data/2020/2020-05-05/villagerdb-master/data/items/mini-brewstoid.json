@@ -1,0 +1,22 @@
+{
+  "id": "mini-brewstoid",
+  "name": "Mini Brewstoid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Rustic",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Brewster (work at The Roost)"
+      ]
+    }
+  }
+}

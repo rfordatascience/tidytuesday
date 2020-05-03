@@ -1,0 +1,19 @@
+{
+  "id": "town-backpack",
+  "name": "Town Backpack",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 260
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1040
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

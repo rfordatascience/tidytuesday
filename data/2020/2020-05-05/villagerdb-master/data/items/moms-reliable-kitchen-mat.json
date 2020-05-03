@@ -1,0 +1,19 @@
+{
+  "id": "moms-reliable-kitchen-mat",
+  "name": "Mom's Reliable Kitchen Mat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

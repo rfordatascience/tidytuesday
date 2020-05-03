@@ -1,0 +1,39 @@
+{
+  "id": "sunset-top",
+  "name": "Sunset Top",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    }
+  }
+}

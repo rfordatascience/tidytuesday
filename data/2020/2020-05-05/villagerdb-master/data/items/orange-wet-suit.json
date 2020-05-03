@@ -1,0 +1,19 @@
+{
+  "id": "orange-wet-suit",
+  "name": "Orange Wet Suit",
+  "category": "Wetsuits",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Island Gift Shop (rare)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        }
+      ]
+    }
+  }
+}

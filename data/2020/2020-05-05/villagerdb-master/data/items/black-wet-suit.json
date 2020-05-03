@@ -1,0 +1,19 @@
+{
+  "id": "black-wet-suit",
+  "name": "Black Wet Suit",
+  "category": "Wetsuits",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        }
+      ]
+    }
+  }
+}

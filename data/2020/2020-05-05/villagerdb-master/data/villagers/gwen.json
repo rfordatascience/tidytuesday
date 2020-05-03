@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "1-23",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "yellow-bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "Cafe K.K."
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "yellow-bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon",
+      "quote": "I'm just that cool."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "yellow-bolero",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "melon-gingham-tee",
+      "song": "Cafe K.K.",
+      "phrase": "h-h-hon",
+      "skill": "Skimming books",
+      "goal": "CEO",
+      "fear": "Mummy Mask",
+      "quote": "Mind your manners, or someone else will.",
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "h-h-hon",
+      "song": "Drivin'"
+    }
+  },
+  "name": "Gwen",
+  "id": "gwen"
+}

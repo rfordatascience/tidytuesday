@@ -1,0 +1,27 @@
+{
+  "id": "tuxedo",
+  "name": "Tuxedo",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Dancer Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1900
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7600
+        }
+      ]
+    }
+  }
+}

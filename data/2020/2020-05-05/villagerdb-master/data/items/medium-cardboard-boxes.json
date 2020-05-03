@@ -1,0 +1,18 @@
+{
+  "id": "medium-cardboard-boxes",
+  "name": "Medium Cardboard Boxes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "recipe": {
+        "cardboard-box": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

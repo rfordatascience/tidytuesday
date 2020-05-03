@@ -1,0 +1,25 @@
+{
+  "id": "sandy-beach-floor",
+  "name": "Sandy-beach Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "rvs": [
+        "gulliver",
+        "plucky"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

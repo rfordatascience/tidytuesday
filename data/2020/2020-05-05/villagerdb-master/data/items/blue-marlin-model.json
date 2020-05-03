@@ -1,0 +1,13 @@
+{
+  "id": "blue-marlin-model",
+  "name": "Blue Marlin Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30000
+      }
+    }
+  },
+  "category": "Furniture"
+}

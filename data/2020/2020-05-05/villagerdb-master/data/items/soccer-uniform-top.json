@@ -1,0 +1,19 @@
+{
+  "id": "soccer-uniform-top",
+  "name": "Soccer-uniform Top",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 332
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1330
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

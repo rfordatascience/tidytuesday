@@ -1,0 +1,18 @@
+{
+  "id": "lattice-fence",
+  "name": "Lattice Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 96
+      },
+      "recipe": {
+        "softwood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

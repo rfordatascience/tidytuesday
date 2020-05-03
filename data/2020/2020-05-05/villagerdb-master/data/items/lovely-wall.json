@@ -1,0 +1,27 @@
+{
+  "id": "lovely-wall",
+  "name": "Lovely Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Lovely",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 470
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1880
+        }
+      ]
+    }
+  }
+}

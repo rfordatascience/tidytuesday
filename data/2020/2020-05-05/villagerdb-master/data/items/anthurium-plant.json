@@ -1,0 +1,20 @@
+{
+  "id": "anthurium-plant",
+  "name": "Anthurium Plant",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 247
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 990
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

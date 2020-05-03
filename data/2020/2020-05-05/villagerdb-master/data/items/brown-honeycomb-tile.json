@@ -1,0 +1,19 @@
+{
+  "id": "brown-honeycomb-tile",
+  "name": "Brown Honeycomb Tile",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 355
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1420
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

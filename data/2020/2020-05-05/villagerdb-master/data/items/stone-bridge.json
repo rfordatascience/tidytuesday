@@ -1,0 +1,15 @@
+{
+  "id": "stone-bridge",
+  "name": "Stone Bridge",
+  "games": {
+    "nh": {
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 168000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

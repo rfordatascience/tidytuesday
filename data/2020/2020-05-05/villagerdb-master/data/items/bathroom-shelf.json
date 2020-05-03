@@ -1,0 +1,24 @@
+{
+  "id": "bathroom-shelf",
+  "name": "Bathroom Shelf",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

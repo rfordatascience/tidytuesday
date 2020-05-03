@@ -1,0 +1,34 @@
+{
+  "id": "patched-shirt",
+  "name": "Patched Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (Neighbor trick)"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Jack"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Jack"
+      ]
+    }
+  }
+}

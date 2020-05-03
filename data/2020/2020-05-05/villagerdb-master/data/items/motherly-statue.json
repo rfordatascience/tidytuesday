@@ -1,0 +1,26 @@
+{
+  "id": "motherly-statue",
+  "name": "Motherly Statue",
+  "category": "Art",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 980
+      },
+      "sources": [
+        "Redd (Redd's Gallery)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3920
+        }
+      ]
+    }
+  }
+}

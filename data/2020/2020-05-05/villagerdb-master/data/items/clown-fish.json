@@ -1,0 +1,18 @@
+{
+  "id": "clown-fish",
+  "name": "Clown Fish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Tiny Shadows at Sea, Apr-Sep (All day)",
+        "South: Tiny Shadows at Sea, Oct-Mar (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 650
+      }
+    }
+  },
+  "category": "Fish"
+}

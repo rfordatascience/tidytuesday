@@ -1,0 +1,23 @@
+{
+  "id": "flashy-suit",
+  "name": "Flashy Suit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 768
+        }
+      ]
+    }
+  }
+}

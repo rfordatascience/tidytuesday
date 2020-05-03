@@ -1,0 +1,23 @@
+{
+  "id": "bunny-day-wreath",
+  "name": "Bunny Day Wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "recipe": {
+        "earth-egg": 1,
+        "stone-egg": 1,
+        "leaf-egg": 1,
+        "wood-egg": 1,
+        "sky-egg": 1,
+        "water-egg": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

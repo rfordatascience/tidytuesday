@@ -1,0 +1,20 @@
+{
+  "id": "plesio-torso",
+  "name": "Plesio Torso",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

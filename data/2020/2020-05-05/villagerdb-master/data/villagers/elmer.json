@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "10-5",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "gaudy-sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "gaudy-sweater",
+      "song": "K.K. Waltz"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "gaudy-sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot",
+      "quote": "Got any snacks on you?"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "gaudy-sweater",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "periwinkle-tee",
+      "song": "K.K. Waltz",
+      "phrase": "tenderfoot",
+      "skill": "Playing Old Maid",
+      "goal": "Police officer",
+      "fear": "Skeleton Hood",
+      "quote": "The horse doesn't pull the cart, the oats do.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "tenderfoot",
+      "song": "K.K. Waltz"
+    }
+  },
+  "name": "Elmer",
+  "id": "elmer"
+}

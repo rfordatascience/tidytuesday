@@ -1,0 +1,16 @@
+{
+  "id": "simple-wooden-fence",
+  "name": "Simple Wooden Fence",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "recipe": {
+        "softwood": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "diy-workbench",
+  "name": "Diy Workbench",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6630
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 26520
+        }
+      ],
+      "recipe": {
+        "wood": 5,
+        "hardwood": 5,
+        "softwood": 5,
+        "iron-nugget": 3,
+        "mini-diy-workbench": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bunny-day-flooring",
+  "name": "Bunny Day Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4800
+      },
+      "recipe": {
+        "earth-egg": 2,
+        "stone-egg": 2,
+        "leaf-egg": 2,
+        "wood-egg": 2,
+        "sky-egg": 2,
+        "water-egg": 2
+      }
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "9-5",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "blossom-tee",
+      "song": "K.K. Jongara",
+      "phrase": "yelp",
+      "skill": "Playing horseshoes",
+      "goal": "Florist",
+      "fear": "Skeleton Hood",
+      "quote": "The world is a stage.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "yelp",
+      "song": "K.K. Jongara"
+    }
+  },
+  "name": "Greta",
+  "id": "greta"
+}

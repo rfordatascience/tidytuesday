@@ -1,0 +1,13 @@
+{
+  "id": "squid-model",
+  "name": "Squid Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      }
+    }
+  },
+  "category": "Furniture"
+}

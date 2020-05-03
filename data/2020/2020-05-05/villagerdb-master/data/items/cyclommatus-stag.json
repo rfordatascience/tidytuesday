@@ -1,0 +1,20 @@
+{
+  "id": "cyclommatus-stag",
+  "name": "Cyclommatus Stag",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 32000
+        }
+      ]
+    }
+  },
+  "category": "Bugs"
+}

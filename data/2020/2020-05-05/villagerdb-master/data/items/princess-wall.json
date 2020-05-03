@@ -1,0 +1,27 @@
+{
+  "id": "princess-wall",
+  "name": "Princess Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Princess",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 31000
+      },
+      "sources": [
+        "GracieGrace (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 124000
+        }
+      ]
+    }
+  }
+}

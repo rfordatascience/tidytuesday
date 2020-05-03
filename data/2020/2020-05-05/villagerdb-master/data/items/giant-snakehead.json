@@ -1,0 +1,24 @@
+{
+  "id": "giant-snakehead",
+  "name": "Giant Snakehead",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5500
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5500
+      }
+    }
+  }
+}

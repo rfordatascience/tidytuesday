@@ -1,0 +1,13 @@
+{
+  "id": "egg-message-bottle",
+  "name": "Egg Message Bottle",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 222
+      }
+    }
+  },
+  "category": "Usables"
+}

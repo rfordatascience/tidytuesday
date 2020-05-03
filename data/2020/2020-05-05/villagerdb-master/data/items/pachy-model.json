@@ -1,0 +1,13 @@
+{
+  "id": "pachy-model",
+  "name": "Pachy Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Re-Tail (refurbish)"
+      ]
+    }
+  }
+}

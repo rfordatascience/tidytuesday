@@ -1,0 +1,19 @@
+{
+  "id": "paisley-bandana",
+  "name": "Paisley Bandana",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

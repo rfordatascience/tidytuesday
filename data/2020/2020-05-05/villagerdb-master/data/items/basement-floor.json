@@ -1,0 +1,29 @@
+{
+  "id": "basement-floor",
+  "name": "Basement Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2125
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "norma"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

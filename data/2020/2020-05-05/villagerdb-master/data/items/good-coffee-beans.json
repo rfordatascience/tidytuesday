@@ -1,0 +1,18 @@
+{
+  "id": "good-coffee-beans",
+  "name": "Good Coffee Beans",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "Brewster (work at The Roost",
+        "5-8 correct options)"
+      ]
+    }
+  }
+}

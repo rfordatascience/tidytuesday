@@ -1,0 +1,19 @@
+{
+  "id": "western-style-stone",
+  "name": "Western-style Stone",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 18000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

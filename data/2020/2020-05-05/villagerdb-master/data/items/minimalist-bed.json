@@ -1,0 +1,34 @@
+{
+  "id": "minimalist-bed",
+  "name": "Minimalist Bed",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Minimalist",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "lottie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

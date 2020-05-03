@@ -1,0 +1,17 @@
+{
+  "id": "ruby",
+  "name": "Ruby",
+  "category": "Ore",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Inside rocks (smash with a shovel)"
+      ]
+    }
+  }
+}

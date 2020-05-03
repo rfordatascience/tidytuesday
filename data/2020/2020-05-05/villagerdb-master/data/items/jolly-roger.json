@@ -1,0 +1,22 @@
+{
+  "id": "jolly-roger",
+  "name": "Jolly Roger",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

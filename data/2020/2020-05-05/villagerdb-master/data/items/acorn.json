@@ -1,0 +1,13 @@
+{
+  "id": "acorn",
+  "name": "Acorn",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Usables"
+}

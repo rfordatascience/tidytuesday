@@ -1,0 +1,26 @@
+{
+  "id": "ball-return",
+  "name": "Ball Return",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1550
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6200
+        }
+      ]
+    }
+  }
+}

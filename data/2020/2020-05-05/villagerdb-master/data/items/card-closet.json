@@ -1,0 +1,21 @@
+{
+  "id": "card-closet",
+  "name": "Card Closet",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Card",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60000
+      },
+      "sources": [
+        "GracieGrace (not during sales)"
+      ]
+    }
+  }
+}

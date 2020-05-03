@@ -1,0 +1,35 @@
+{
+  "id": "lab-wall",
+  "name": "Lab Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Mad Scientist",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 365
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "murphy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1460
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

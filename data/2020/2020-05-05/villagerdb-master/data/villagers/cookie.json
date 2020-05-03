@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "6-18",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "blue-tartan",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "blue-tartan",
+      "song": "DJ K.K."
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "blue-tartan-tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "blue-tartan-tee",
+      "song": "DJ K.K.",
+      "phrase": "arfer",
+      "skill": "Dancing",
+      "goal": "Actor",
+      "fear": "Bug Mask",
+      "quote": "Don't lose sight of what you're really after.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "arfer",
+      "song": "DJ K.K."
+    }
+  },
+  "name": "Cookie",
+  "id": "cookie"
+}

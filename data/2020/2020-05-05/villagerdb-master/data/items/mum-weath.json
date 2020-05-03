@@ -1,0 +1,16 @@
+{
+  "id": "mum-weath",
+  "name": "Mum Weath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "recipe": {
+        "white-mums": 3,
+        "yellow-mums": 3,
+        "red-mums": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

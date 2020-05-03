@@ -1,0 +1,21 @@
+{
+  "id": "towel-basket",
+  "name": "Towel Basket",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "paolo",
+        "plucky"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

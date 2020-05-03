@@ -1,0 +1,19 @@
+{
+  "id": "retro-sleeveless-dress",
+  "name": "Retro Sleeveless Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

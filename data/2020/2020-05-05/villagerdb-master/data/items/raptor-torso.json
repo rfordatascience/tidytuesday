@@ -1,0 +1,20 @@
+{
+  "id": "raptor-torso",
+  "name": "Raptor Torso",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

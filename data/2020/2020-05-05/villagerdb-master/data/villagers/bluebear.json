@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "6-24",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "lemon-gingham",
+      "song": "K.K. Ska",
+      "phrase": "peach"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "lemon-gingham",
+      "song": "K.K. Ska"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "lemon-gingham-tee",
+      "song": "K.K. Ska",
+      "phrase": "peach",
+      "quote": "I enjoy tap dancing and raspberry jam!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "lemon-gingham-tee",
+      "song": "K.K. Ska",
+      "phrase": "peach"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "lemon-gingham-tee",
+      "song": "K.K. Ska",
+      "phrase": "peach",
+      "skill": "Spoon bending",
+      "goal": "Cartoonist",
+      "fear": "Mummy Mask",
+      "quote": "Candy makes the world go 'round.",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "peach",
+      "song": "K.K. Ska"
+    }
+  },
+  "name": "Bluebear",
+  "id": "bluebear"
+}

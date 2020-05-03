@@ -1,0 +1,27 @@
+{
+  "id": "alpine-wall",
+  "name": "Alpine Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Alpine",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1320
+        }
+      ]
+    }
+  }
+}

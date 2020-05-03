@@ -1,0 +1,58 @@
+{
+  "id": "deep-blue-tee",
+  "name": "Deep-blue Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    }
+  }
+}

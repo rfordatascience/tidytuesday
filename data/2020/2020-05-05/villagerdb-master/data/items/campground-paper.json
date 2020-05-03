@@ -1,0 +1,14 @@
+{
+  "id": "campground-paper",
+  "name": "Campground Paper",
+  "category": "Stationery",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Villager letters (rare)"
+      ]
+    }
+  }
+}

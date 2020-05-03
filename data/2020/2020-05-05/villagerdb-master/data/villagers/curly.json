@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "7-26",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "green-bar-shirt",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "green-bar-shirt",
+      "song": "K.K. Reggae"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "green-bar-tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink",
+      "quote": "Get fired up!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "green-bar-tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "green-bar-tee",
+      "song": "K.K. Reggae",
+      "phrase": "nyoink",
+      "skill": "Clearing my plate",
+      "goal": "Explorer",
+      "fear": "Mummy Mask",
+      "quote": "Get fired up!",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "nyoink",
+      "song": "K.K. Reggae"
+    }
+  },
+  "name": "Curly",
+  "id": "curly"
+}

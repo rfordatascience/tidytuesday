@@ -1,0 +1,14 @@
+{
+  "id": "ranchu-goldfish",
+  "name": "Ranchu Goldfish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      }
+    }
+  },
+  "category": "Fish"
+}

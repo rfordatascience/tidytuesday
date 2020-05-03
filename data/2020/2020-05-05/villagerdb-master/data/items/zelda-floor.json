@@ -1,0 +1,23 @@
+{
+  "id": "zelda-floor",
+  "name": "Zelda Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "epona",
+        "ganon",
+        "medli",
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

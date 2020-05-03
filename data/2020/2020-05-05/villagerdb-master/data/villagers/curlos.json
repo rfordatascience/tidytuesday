@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "sheep",
+  "birthday": "5-8",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Samba"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "reggae-tee",
+      "song": "K.K. Samba",
+      "phrase": "shearly",
+      "skill": "Calculating tips",
+      "goal": "Actor",
+      "fear": "Werewolf Hood",
+      "quote": "If you want to know yourself, ask your neighbors.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "shearly",
+      "song": "K.K. Samba"
+    }
+  },
+  "name": "Curlos",
+  "id": "curlos"
+}

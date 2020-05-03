@@ -1,0 +1,17 @@
+{
+  "id": "stink-bug",
+  "name": "Stink Bug",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "On trees."
+      ]
+    }
+  }
+}

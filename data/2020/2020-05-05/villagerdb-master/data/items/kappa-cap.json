@@ -1,0 +1,35 @@
+{
+  "id": "kappa-cap",
+  "name": "Kappa Cap",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "set": "Kappa Outfit",
+      "sources": [
+        "Island Gift Shop (rare)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 20
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  }
+}

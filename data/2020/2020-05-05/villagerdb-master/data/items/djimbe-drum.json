@@ -1,0 +1,24 @@
+{
+  "id": "djimbe-drum",
+  "name": "Djimbe Drum",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Drum",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  }
+}

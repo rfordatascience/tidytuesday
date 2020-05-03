@@ -1,0 +1,34 @@
+{
+  "id": "mermaid-chair",
+  "name": "Mermaid Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Mermaid",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "rvs": [
+        "reese"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

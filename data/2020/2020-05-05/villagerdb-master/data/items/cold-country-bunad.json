@@ -1,0 +1,19 @@
+{
+  "id": "cold-country-bunad",
+  "name": "Cold-country Bunad",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 630
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2520
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "tiger",
+  "birthday": "11-22",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "spring-shirt",
+      "song": "K.K. Synth",
+      "phrase": "ooh la la",
+      "skill": "Stomping around",
+      "goal": "CEO",
+      "fear": "Monster Mask",
+      "quote": "A tiger can't change its stripes.",
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "ooh la la",
+      "song": "K.K. Synth"
+    }
+  },
+  "name": "Claudia",
+  "id": "claudia"
+}

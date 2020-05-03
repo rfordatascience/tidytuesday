@@ -1,0 +1,23 @@
+{
+  "id": "underwater-floor",
+  "name": "Underwater Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Museum Shop (donate 50 fish/deep-sea catches or more)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  }
+}

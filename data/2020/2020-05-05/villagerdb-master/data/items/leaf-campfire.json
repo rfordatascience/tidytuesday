@@ -1,0 +1,19 @@
+{
+  "id": "leaf-campfire",
+  "name": "Leaf Campfire",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1330
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5320
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

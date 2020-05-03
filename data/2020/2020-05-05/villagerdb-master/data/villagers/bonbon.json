@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "3-3",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "chocomint-tee",
+      "song": "K.K. Disco",
+      "phrase": "deelish",
+      "skill": "Competitive eating",
+      "goal": "Swimmer",
+      "fear": "Monster Mask",
+      "quote": "Hindsight is always 20/20.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "deelish",
+      "song": "K.K. Disco"
+    }
+  },
+  "name": "Bonbon",
+  "id": "bonbon"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "5-23",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "blue-stripe-knit",
+      "song": "K.K. Bossa"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "blue-stripe-tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "blue-stripe-tee",
+      "song": "K.K. Bossa",
+      "phrase": "shweetie",
+      "skill": "Stomping around",
+      "goal": "Movie star",
+      "fear": "Monster Mask",
+      "quote": "We're all diamonds in the rough.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "shweetie",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Peggy",
+  "id": "peggy"
+}

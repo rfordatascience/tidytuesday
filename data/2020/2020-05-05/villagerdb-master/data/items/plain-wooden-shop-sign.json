@@ -1,0 +1,18 @@
+{
+  "id": "plain-wooden-shop-sign",
+  "name": "Plain Wooden Shop Sign",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 720
+      },
+      "recipe": {
+        "wood": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

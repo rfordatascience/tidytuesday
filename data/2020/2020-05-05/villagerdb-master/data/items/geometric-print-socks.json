@@ -1,0 +1,19 @@
+{
+  "id": "geometric-print-socks",
+  "name": "Geometric-print Socks",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 237
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 950
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

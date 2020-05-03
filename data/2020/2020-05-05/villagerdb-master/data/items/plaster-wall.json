@@ -1,0 +1,33 @@
+{
+  "id": "plaster-wall",
+  "name": "Plaster Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "timmy-tommy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

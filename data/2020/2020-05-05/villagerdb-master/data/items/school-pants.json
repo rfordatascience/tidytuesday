@@ -1,0 +1,19 @@
+{
+  "id": "school-pants",
+  "name": "School Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

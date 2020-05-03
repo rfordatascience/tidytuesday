@@ -1,0 +1,17 @@
+{
+  "id": "wasp",
+  "name": "Wasp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Catch from nest after shaking tree"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  },
+  "category": "Bugs"
+}

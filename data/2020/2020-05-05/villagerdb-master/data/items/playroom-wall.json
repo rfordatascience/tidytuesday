@@ -1,0 +1,34 @@
+{
+  "id": "playroom-wall",
+  "name": "Playroom Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Nursery",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "carrie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1320
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

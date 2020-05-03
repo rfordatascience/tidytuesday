@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "deer",
+  "birthday": "6-7",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "arctic-camo-tee",
+      "song": "K.K. D&B",
+      "phrase": "pronk",
+      "skill": "Calculating tips",
+      "goal": "Movie director",
+      "fear": "Skeleton Hood",
+      "quote": "Clothes totally make the man.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "pronk",
+      "song": "K.K. D&B"
+    }
+  },
+  "name": "Zell",
+  "id": "zell"
+}

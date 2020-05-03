@@ -1,0 +1,14 @@
+{
+  "id": "outdoorsy-fishing-rod",
+  "name": "Outdoorsy Fishing Rod",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

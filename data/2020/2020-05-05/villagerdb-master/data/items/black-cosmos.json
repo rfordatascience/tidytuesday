@@ -1,0 +1,28 @@
+{
+  "id": "black-cosmos",
+  "name": "Black Cosmos",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Hybrid - From two Orange Cosmos (rare)."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Find on ground at mystery island",
+        "crossbreeding flowers"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      }
+    }
+  }
+}

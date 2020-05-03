@@ -1,0 +1,39 @@
+{
+  "id": "trench-coat",
+  "name": "Trench Coat",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 420
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1680
+        }
+      ]
+    }
+  }
+}

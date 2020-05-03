@@ -1,0 +1,27 @@
+{
+  "id": "alpine-rug",
+  "name": "Alpine Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Alpine",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  }
+}

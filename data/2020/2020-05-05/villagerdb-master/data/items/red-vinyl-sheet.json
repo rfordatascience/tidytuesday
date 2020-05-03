@@ -1,0 +1,23 @@
+{
+  "id": "red-vinyl-sheet",
+  "name": "Red Vinyl Sheet",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Saharah"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "10-11",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "deep-blue-tee",
+      "song": "K.K. Chorale",
+      "phrase": "child"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Chorale"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "blue-diamond-tee",
+      "song": "K.K. Chorale",
+      "phrase": "child",
+      "quote": "They say that ugly parents have ugly kids."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "blue-diamond-tee",
+      "song": "K.K. Chorale",
+      "phrase": "child"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "blue-diamond-tee",
+      "song": "K.K. Chorale",
+      "phrase": "child",
+      "skill": "Whistling",
+      "goal": "Cartoonist",
+      "fear": "Werewolf Hood",
+      "quote": "Funny parents have funny kids.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "child",
+      "song": "K.K. Chorale"
+    }
+  },
+  "name": "Kitt",
+  "id": "kitt"
+}

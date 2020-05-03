@@ -1,0 +1,23 @@
+{
+  "id": "color-block-dress-shirt",
+  "name": "Color-block Dress Shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

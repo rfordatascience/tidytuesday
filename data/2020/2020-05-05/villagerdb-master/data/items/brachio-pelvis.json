@@ -1,0 +1,17 @@
+{
+  "id": "brachio-pelvis",
+  "name": "Brachio Pelvis",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Fossils"
+}

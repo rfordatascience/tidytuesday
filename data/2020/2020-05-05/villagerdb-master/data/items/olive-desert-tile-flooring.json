@@ -1,0 +1,23 @@
+{
+  "id": "olive-desert-tile-flooring",
+  "name": "Olive Desert-tile Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

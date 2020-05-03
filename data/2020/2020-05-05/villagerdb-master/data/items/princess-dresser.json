@@ -1,0 +1,28 @@
+{
+  "id": "princess-dresser",
+  "name": "Princess Dresser",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "set": "Princess",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      },
+      "sources": [
+        "GracieGrace (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 80000
+        }
+      ]
+    }
+  }
+}

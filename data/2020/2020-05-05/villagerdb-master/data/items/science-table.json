@@ -1,0 +1,27 @@
+{
+  "id": "science-table",
+  "name": "Science Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "set": "Classroom",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  }
+}

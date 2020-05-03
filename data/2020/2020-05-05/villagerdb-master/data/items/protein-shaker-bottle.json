@@ -1,0 +1,20 @@
+{
+  "id": "protein-shaker-bottle",
+  "name": "Protein Shaker Bottle",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

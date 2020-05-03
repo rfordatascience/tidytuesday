@@ -1,0 +1,34 @@
+{
+  "id": "mush-table",
+  "name": "Mush Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "set": "Mush",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "Pick mushrooms during November"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1520
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6080
+        }
+      ]
+    }
+  }
+}

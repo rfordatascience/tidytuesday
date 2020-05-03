@@ -1,0 +1,19 @@
+{
+  "id": "monochromatic-tile-wall",
+  "name": "Monochromatic-tile Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 355
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1420
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

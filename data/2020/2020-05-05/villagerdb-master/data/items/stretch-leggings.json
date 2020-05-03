@@ -1,0 +1,19 @@
+{
+  "id": "stretch-leggings",
+  "name": "Stretch Leggings",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 112
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 450
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

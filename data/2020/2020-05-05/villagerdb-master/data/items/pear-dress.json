@@ -1,0 +1,23 @@
+{
+  "id": "pear-dress",
+  "name": "Pear Dress",
+  "games": {
+    "nh": {
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6400
+        }
+      ],
+      "recipe": {
+        "pear": 8
+      }
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "patched-dress",
+  "name": "Patched Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (Neighbor trick)"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

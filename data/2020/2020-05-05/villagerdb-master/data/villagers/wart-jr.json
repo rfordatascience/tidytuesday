@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "8-21",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "static-shirt",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "To the Edge"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "sharp-outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit",
+      "quote": "I've got my eye on you."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "sharp-outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "sharp-outfit",
+      "song": "To the Edge",
+      "phrase": "grr-ribbit",
+      "skill": "Writing Backwards",
+      "goal": "Detective",
+      "fear": "Mummy Mask",
+      "quote": "Age before beauty.",
+      "siblings": "Second of quadruplets",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "grr-ribbit",
+      "song": "To the Edge"
+    }
+  },
+  "name": "Wart Jr.",
+  "id": "wart-jr"
+}

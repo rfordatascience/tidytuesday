@@ -1,0 +1,39 @@
+{
+  "id": "mint-umbrella",
+  "name": "Mint Umbrella",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 192
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 770
+        }
+      ]
+    }
+  }
+}

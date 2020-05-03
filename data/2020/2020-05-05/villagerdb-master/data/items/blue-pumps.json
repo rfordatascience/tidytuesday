@@ -1,0 +1,26 @@
+{
+  "id": "blue-pumps",
+  "name": "Blue Pumps",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 115
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 460
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nook-miles-ticket",
+  "name": "Nook Miles Ticket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Usables"
+}

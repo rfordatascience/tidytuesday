@@ -1,0 +1,14 @@
+{
+  "id": "springy-ride-on",
+  "name": "Springy Ride-on",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Furniture"
+}

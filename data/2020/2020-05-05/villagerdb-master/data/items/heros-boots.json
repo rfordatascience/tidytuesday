@@ -1,0 +1,25 @@
+{
+  "id": "heros-boots",
+  "name": "Hero's Boots",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Hero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #49"
+      ]
+    }
+  }
+}

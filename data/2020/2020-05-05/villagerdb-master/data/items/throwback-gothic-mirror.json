@@ -1,0 +1,23 @@
+{
+  "id": "throwback-gothic-mirror",
+  "name": "Throwback Gothic Mirror",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

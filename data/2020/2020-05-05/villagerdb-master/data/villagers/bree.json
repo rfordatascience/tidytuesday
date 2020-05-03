@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "7-7",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "floral-knit",
+      "song": "Two Days Ago"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball",
+      "quote": "Just in case you were wondering, I like presents."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "cheeseball",
+      "fear": "Skeleton Hood",
+      "quote": "The gift says more about the giver.",
+      "skill": "Doodling",
+      "goal": "Dermatologist",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "cheeseball",
+      "song": "Two Days Ago"
+    }
+  },
+  "name": "Bree",
+  "id": "bree"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "10-21",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "giraffe-tee",
+      "song": "K.K. Cruisin'",
+      "phrase": "pine nut",
+      "skill": "Spoon bending",
+      "goal": "Stylist",
+      "fear": "Werewolf Hood",
+      "quote": "Don't pine for the past.",
+      "siblings": "Older twin",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "pine nut",
+      "song": "K.K. Cruisin'"
+    }
+  },
+  "name": "Timbra",
+  "id": "timbra"
+}

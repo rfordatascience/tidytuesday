@@ -1,0 +1,24 @@
+{
+  "id": "lectern-with-mic",
+  "name": "Lectern With Mic",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

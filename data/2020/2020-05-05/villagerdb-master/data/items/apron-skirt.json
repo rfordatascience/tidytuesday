@@ -1,0 +1,19 @@
+{
+  "id": "apron-skirt",
+  "name": "Apron Skirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 175
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

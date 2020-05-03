@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "9-11",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "five-ball-shirt",
+      "song": "K.K. Rally",
+      "phrase": "li'l dude"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "five-ball-shirt",
+      "song": "K.K. Rally"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "five-ball-tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dude",
+      "quote": "I AM BEHIND YOU!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "five-ball-tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dude"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "five-ball-tee",
+      "song": "K.K. Rally",
+      "phrase": "li'l dude",
+      "skill": "Karaoke",
+      "goal": "Pro wrestler",
+      "fear": "Monster Mask",
+      "quote": "Look behind you.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "li'l dude",
+      "song": "K.K. Rally"
+    }
+  },
+  "name": "Peewee",
+  "id": "peewee"
+}

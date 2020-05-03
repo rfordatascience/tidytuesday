@@ -1,0 +1,19 @@
+{
+  "id": "traditional-monpe-pants",
+  "name": "Traditional Monpe Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 260
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1040
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

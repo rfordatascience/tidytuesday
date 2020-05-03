@@ -1,0 +1,74 @@
+{
+  "id": "no-2-shirt",
+  "name": "No. 2 Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 63
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 252
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 62
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 250
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 62
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 250
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook shopping"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  }
+}

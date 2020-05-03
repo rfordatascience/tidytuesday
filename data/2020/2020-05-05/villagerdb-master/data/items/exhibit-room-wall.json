@@ -1,0 +1,17 @@
+{
+  "id": "exhibit-room-wall",
+  "name": "Exhibit-room Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Museum Shop"
+      ]
+    }
+  }
+}

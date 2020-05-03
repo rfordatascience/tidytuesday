@@ -1,0 +1,21 @@
+{
+  "id": "creepy-statue",
+  "name": "Creepy Statue",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Creepy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

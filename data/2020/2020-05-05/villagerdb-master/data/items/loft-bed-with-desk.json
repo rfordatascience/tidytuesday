@@ -1,0 +1,19 @@
+{
+  "id": "loft-bed-with-desk",
+  "name": "Loft Bed With Desk",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1925
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7700
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

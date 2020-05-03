@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "1-1",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "blossom-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "blossom-shirt",
+      "song": "K.K. Ragtime"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "blossom-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth",
+      "quote": "I'm a cat. Chillin' is in my blood, man."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "blossom-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "blossom-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "pthhhpth",
+      "skill": "Shadow puppetry",
+      "goal": "Detective",
+      "fear": "Monster Mask",
+      "quote": "You only live once...or nine times.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "pthhhpth",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Bob",
+  "id": "bob"
+}

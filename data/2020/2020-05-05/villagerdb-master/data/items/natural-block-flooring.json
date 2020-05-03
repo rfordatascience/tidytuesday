@@ -1,0 +1,19 @@
+{
+  "id": "natural-block-flooring",
+  "name": "Natural-block Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 345
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1380
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

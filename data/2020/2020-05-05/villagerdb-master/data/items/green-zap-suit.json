@@ -1,0 +1,31 @@
+{
+  "id": "green-zap-suit",
+  "name": "Green-zap Suit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Green Superhero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 640
+        }
+      ]
+    }
+  }
+}

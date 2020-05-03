@@ -1,0 +1,19 @@
+{
+  "id": "kettle-bathtub",
+  "name": "Kettle Bathtub",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6270
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 25080
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

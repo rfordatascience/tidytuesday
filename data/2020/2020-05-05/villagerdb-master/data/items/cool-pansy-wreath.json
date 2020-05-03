@@ -1,0 +1,19 @@
+{
+  "id": "cool-pansy-wreath",
+  "name": "Cool Pansy Wreath",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 19200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

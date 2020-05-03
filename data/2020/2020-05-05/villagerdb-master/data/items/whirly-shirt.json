@@ -1,0 +1,39 @@
+{
+  "id": "whirly-shirt",
+  "name": "Whirly Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 87
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 350
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 87
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 350
+        }
+      ]
+    }
+  }
+}

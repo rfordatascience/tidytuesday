@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "10-12",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Island",
+      "phrase": "chicky poo"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "red-aloha-shirt",
+      "song": "K.K. Island"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "cool-tank",
+      "song": "K.K. Island",
+      "phrase": "chicky poo",
+      "skill": "Hula dancing",
+      "goal": "Dancer",
+      "fear": "Ghost Mask",
+      "quote": "Keep your crumbs out of the bed.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "chicky poo",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "Plucky",
+  "id": "plucky"
+}

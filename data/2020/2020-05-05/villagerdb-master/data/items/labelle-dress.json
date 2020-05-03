@@ -1,0 +1,19 @@
+{
+  "id": "labelle-dress",
+  "name": "Labelle Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 850
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3400
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

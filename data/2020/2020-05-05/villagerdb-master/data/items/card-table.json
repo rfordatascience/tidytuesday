@@ -1,0 +1,21 @@
+{
+  "id": "card-table",
+  "name": "Card Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Card",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50000
+      },
+      "sources": [
+        "GracieGrace (during sales)"
+      ]
+    }
+  }
+}

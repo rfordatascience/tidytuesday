@@ -1,0 +1,19 @@
+{
+  "id": "tuxedo-jacket",
+  "name": "Tuxedo Jacket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

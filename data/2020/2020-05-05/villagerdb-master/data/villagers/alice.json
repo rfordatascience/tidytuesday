@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "8-19",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "barber-shirt",
+      "song": "Surfin' K.K."
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "barber-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor",
+      "quote": "I like having you around."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "barber-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "barber-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "guvnor",
+      "fear": "Mummy Mask",
+      "quote": "Treat others as you would like to be treated.",
+      "skill": "Photography",
+      "goal": "Stylist",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "guvnor",
+      "song": "Surfin' K.K."
+    }
+  },
+  "name": "Alice",
+  "id": "alice"
+}

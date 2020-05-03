@@ -1,0 +1,26 @@
+{
+  "id": "tan-dogtooth-tee",
+  "name": "Tan Dogtooth Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "sources": [
+        "Able Sisters (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  }
+}

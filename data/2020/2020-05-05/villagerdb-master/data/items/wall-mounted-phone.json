@@ -1,0 +1,19 @@
+{
+  "id": "wall-mounted-phone",
+  "name": "Wall-mounted Phone",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

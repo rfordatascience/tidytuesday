@@ -1,0 +1,34 @@
+{
+  "id": "parlor-wall",
+  "name": "Parlor Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "reese"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

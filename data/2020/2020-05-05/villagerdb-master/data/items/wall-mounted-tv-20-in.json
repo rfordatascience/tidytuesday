@@ -1,0 +1,19 @@
+{
+  "id": "wall-mounted-tv-20-in",
+  "name": "Wall-mounted Tv (20 In.)",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2225
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 8900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

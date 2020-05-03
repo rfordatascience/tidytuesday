@@ -1,0 +1,19 @@
+{
+  "id": "muay-thai-shorts",
+  "name": "Muay-thai Shorts",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

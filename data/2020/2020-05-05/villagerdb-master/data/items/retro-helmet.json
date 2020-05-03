@@ -1,0 +1,29 @@
+{
+  "id": "retro-helmet",
+  "name": "Retro Helmet",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-10",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "Pirate's Coat",
+      "song": "Marine Song 2001",
+      "phrase": "cagey"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "blue-letter-jacket",
+      "song": "Marine Song 2001",
+      "phrase": "cagey",
+      "skill": "Mental math",
+      "goal": "Lawyer",
+      "fear": "Ghost Mask",
+      "quote": "The lion’s share goes to the lion.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "cagey",
+      "song": "Marine Song 2001"
+    }
+  },
+  "name": "Mott",
+  "id": "mott"
+}

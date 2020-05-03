@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "10-13",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "red-ringmaster-coat",
+      "song": "K.K. Moody",
+      "phrase": "Zoink",
+      "skill": "Making crafts",
+      "goal": "Politician",
+      "fear": "Werewolf Hood",
+      "quote": "You can't have your cake and eat it too.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "Zoink",
+      "song": "K.K. Moody"
+    }
+  },
+  "name": "Chops",
+  "id": "chops"
+}

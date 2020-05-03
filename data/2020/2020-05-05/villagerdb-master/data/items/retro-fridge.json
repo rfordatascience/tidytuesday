@@ -1,0 +1,33 @@
+{
+  "id": "retro-fridge",
+  "name": "Retro Fridge",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 575
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "wendell"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2300
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

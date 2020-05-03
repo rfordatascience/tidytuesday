@@ -1,0 +1,23 @@
+{
+  "id": "nook-inc-flooring",
+  "name": "Nook Inc. Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6000
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

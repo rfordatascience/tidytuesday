@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-29",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "military-uniform",
+      "song": "K.K. Moody",
+      "phrase": "precisely",
+      "skill": "Drawing circles",
+      "goal": "Professor",
+      "fear": "Monster Mask",
+      "quote": "Love is blind.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "precisely",
+      "song": "K.K. Moody"
+    }
+  },
+  "name": "Lionel",
+  "id": "lionel"
+}

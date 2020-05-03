@@ -1,0 +1,23 @@
+{
+  "id": "artsy-parquet-flooring",
+  "name": "Artsy Parquet Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

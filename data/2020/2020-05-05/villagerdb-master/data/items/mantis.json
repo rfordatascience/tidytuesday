@@ -1,0 +1,27 @@
+{
+  "id": "mantis",
+  "name": "Mantis",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 430
+      },
+      "sources": [
+        "On flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "On flowers (Mar-Nov)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 430
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "veiled-gardening-hat",
+  "name": "Veiled Gardening Hat",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

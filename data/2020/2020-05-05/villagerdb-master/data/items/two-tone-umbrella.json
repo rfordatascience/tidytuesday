@@ -1,0 +1,23 @@
+{
+  "id": "two-tone-umbrella",
+  "name": "Two-tone Umbrella",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 192
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 770
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

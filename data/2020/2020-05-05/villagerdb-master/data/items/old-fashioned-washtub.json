@@ -1,0 +1,18 @@
+{
+  "id": "old-fashioned-washtub",
+  "name": "Old-fashioned Washtub",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "recipe": {
+        "softwood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "studio-headphones",
+  "name": "Studio Headphones",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "inkwell"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tree-branch-wand",
+  "name": "Tree-branch Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1550
+      }
+    }
+  },
+  "category": "Tools"
+}

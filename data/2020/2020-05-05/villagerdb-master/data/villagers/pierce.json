@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "1-8",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "song": "K.K. Etude",
+      "phrase": "winger",
+      "clothes": "circus-shirt"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "K.K. Etude",
+      "clothes": "circus-shirt"
+    },
+    "ww": {
+      "personality": "jock",
+      "song": "K.K. Etude",
+      "phrase": "hawkeye",
+      "clothes": "circus-shirt",
+      "quote": "Nobody likes flabby wings."
+    },
+    "cf": {
+      "personality": "jock",
+      "song": "K.K. Etude",
+      "phrase": "hawkeye",
+      "clothes": "circus-shirt"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "camel-shirt",
+      "song": "K.K. Etude",
+      "phrase": "hawkeye",
+      "skill": "Playing catch",
+      "goal": "Rugby player",
+      "fear": "Bug Mask",
+      "quote": "When someone says fly, you ask how high!",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "hawkeye",
+      "song": "K.K. Etude"
+    }
+  },
+  "name": "Pierce",
+  "id": "pierce"
+}

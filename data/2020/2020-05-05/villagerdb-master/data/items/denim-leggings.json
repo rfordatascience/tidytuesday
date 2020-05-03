@@ -1,0 +1,19 @@
+{
+  "id": "denim-leggings",
+  "name": "Denim Leggings",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 135
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 540
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "zen-tea-set",
+  "name": "Zen Tea Set",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "rvs": [
+        "joan",
+        "snooty",
+        "tad"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

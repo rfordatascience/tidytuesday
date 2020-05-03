@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "5-24",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "blue-diamond-tee",
+      "song": "K.K. Marathon",
+      "phrase": "monch",
+      "skill": "Jumping rope",
+      "goal": "Musician",
+      "fear": "Monster Mask",
+      "quote": "Righty tighty, lefty loosey.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "monch",
+      "song": "K.K. Marathon"
+    }
+  },
+  "name": "Deli",
+  "id": "deli"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "stellar-jumpsuit",
+  "name": "Stellar Jumpsuit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

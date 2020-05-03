@@ -1,0 +1,34 @@
+{
+  "id": "bath-mat",
+  "name": "Bath Mat",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Spa",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "paolo"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 600
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

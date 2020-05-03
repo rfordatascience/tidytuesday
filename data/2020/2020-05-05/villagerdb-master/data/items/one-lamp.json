@@ -1,0 +1,26 @@
+{
+  "id": "one-lamp",
+  "name": "One Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Nookling stores (spotlight item)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        }
+      ]
+    }
+  }
+}

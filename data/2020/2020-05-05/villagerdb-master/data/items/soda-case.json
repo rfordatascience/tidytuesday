@@ -1,0 +1,30 @@
+{
+  "id": "soda-case",
+  "name": "Soda Case",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "bea"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "brown-iron-parquet-flooring",
+  "name": "Brown Iron-parquet Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 587
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2350
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

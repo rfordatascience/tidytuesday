@@ -1,0 +1,26 @@
+{
+  "id": "snorkel-mask",
+  "name": "Snorkel Mask",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 20
+        }
+      ]
+    }
+  }
+}

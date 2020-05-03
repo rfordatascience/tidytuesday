@@ -1,0 +1,17 @@
+{
+  "id": "purple-rose",
+  "name": "Purple Rose",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Hybrid - From two White Roses."
+      ]
+    }
+  }
+}

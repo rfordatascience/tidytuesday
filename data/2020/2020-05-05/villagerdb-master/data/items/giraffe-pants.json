@@ -1,0 +1,26 @@
+{
+  "id": "giraffe-pants",
+  "name": "Giraffe Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3600
+        }
+      ]
+    }
+  }
+}

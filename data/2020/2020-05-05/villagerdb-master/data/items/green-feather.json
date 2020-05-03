@@ -1,0 +1,17 @@
+{
+  "id": "green-feather",
+  "name": "Green Feather",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      },
+      "sources": [
+        "Festivale (Drifting through town)"
+      ]
+    }
+  }
+}

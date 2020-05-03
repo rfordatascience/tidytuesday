@@ -1,0 +1,28 @@
+{
+  "id": "astro-lamp",
+  "name": "Astro Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Trendy"
+      ],
+      "set": "Astro",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 670
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2680
+        }
+      ]
+    }
+  }
+}

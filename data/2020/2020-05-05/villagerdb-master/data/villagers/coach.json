@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "4-29",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "relay-tank",
+      "song": "Marine Song 2001",
+      "phrase": "stubble",
+      "skill": "Eating quickly",
+      "goal": "Fisherman",
+      "fear": "Monster Mask",
+      "quote": "Fool me once, shame on you. Fool me twice, shame on me.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "stubble",
+      "song": "Marine Song 2001"
+    }
+  },
+  "name": "Coach",
+  "id": "coach"
+}

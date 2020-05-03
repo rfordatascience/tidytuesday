@@ -1,0 +1,40 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "5-5",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "cherry-shirt",
+      "phrase": "pal"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "cherry-shirt"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "pastel-stripe-tee",
+      "phrase": "pal",
+      "skill": "Competitive eating",
+      "goal": "Hairstylist",
+      "fear": "Bug Mask",
+      "quote": "When it works, it works.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "pal"
+    }
+  },
+  "name": "Paolo",
+  "id": "paolo"
+}

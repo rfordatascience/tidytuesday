@@ -1,0 +1,19 @@
+{
+  "id": "layered-tank-dress",
+  "name": "Layered Tank Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

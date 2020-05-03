@@ -1,0 +1,32 @@
+{
+  "id": "wooden-counter",
+  "name": "Wooden Counter",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "bea",
+        "bitty"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

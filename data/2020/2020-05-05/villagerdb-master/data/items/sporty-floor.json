@@ -1,0 +1,17 @@
+{
+  "id": "sporty-floor",
+  "name": "Sporty Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

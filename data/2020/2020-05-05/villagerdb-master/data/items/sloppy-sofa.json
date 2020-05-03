@@ -1,0 +1,22 @@
+{
+  "id": "sloppy-sofa",
+  "name": "Sloppy Sofa",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Sloppy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Re-Tail (flea market) or Police Station (lost and found)"
+      ]
+    }
+  }
+}

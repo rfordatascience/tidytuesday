@@ -1,0 +1,13 @@
+{
+  "id": "patched-pants",
+  "name": "Patched Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (Neighbor trick)"
+      ]
+    }
+  }
+}

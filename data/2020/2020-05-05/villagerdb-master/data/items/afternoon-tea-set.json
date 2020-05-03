@@ -1,0 +1,33 @@
+{
+  "id": "afternoon-tea-set",
+  "name": "Afternoon-tea Set",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 420
+      },
+      "sources": [
+        "DLC (JP)"
+      ],
+      "rvs": [
+        "sandy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1680
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

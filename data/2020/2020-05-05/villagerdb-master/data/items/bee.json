@@ -1,0 +1,17 @@
+{
+  "id": "bee",
+  "name": "Bee",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "Hidden in trees with bee hives (grab and shake)."
+      ]
+    }
+  }
+}

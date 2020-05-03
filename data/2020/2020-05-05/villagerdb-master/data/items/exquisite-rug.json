@@ -1,0 +1,26 @@
+{
+  "id": "exquisite-rug",
+  "name": "Exquisite Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 490
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1960
+        }
+      ]
+    }
+  }
+}

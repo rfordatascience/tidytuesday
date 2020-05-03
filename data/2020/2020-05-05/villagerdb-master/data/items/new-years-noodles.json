@@ -1,0 +1,21 @@
+{
+  "id": "new-years-noodles",
+  "name": "New Year's Noodles",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 875
+      },
+      "sources": [
+        "Countdown (JP",
+        "Isabelle)"
+      ]
+    }
+  }
+}

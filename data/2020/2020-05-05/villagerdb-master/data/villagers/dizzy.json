@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "elephant",
+  "birthday": "7-14",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "no-5-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "no-5-shirt",
+      "song": "K.K. Gumbo"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "no-5-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo",
+      "quote": "Keep it mellow."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "no-5-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "no-5-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "woo-oo",
+      "skill": "Chugging milk",
+      "goal": "Journalist",
+      "fear": "Bug Mask",
+      "quote": "Keep it mellow.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "woo-oo",
+      "song": "K.K. Gumbo"
+    }
+  },
+  "name": "Dizzy",
+  "id": "dizzy"
+}

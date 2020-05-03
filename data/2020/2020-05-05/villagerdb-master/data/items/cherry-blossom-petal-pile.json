@@ -1,0 +1,18 @@
+{
+  "id": "cherry-blossom-petal-pile",
+  "name": "Cherry-blossom-petal Pile",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "recipe": {
+        "cherry-blossom-petal": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

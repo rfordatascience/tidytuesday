@@ -1,0 +1,19 @@
+{
+  "id": "flat-garden-rock",
+  "name": "Flat Garden Rock",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

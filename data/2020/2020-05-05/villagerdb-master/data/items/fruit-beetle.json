@@ -1,0 +1,17 @@
+{
+  "id": "fruit-beetle",
+  "name": "Fruit Beetle",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "On trees."
+      ]
+    }
+  }
+}

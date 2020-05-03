@@ -1,0 +1,30 @@
+{
+  "id": "orange-jacket",
+  "name": "Orange Jacket",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Worker Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200
+        }
+      ]
+    }
+  }
+}

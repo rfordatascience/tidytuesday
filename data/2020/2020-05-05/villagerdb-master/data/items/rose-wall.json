@@ -1,0 +1,50 @@
+{
+  "id": "rose-wall",
+  "name": "Rose Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "stella"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 430
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1720
+        }
+      ]
+    }
+  }
+}

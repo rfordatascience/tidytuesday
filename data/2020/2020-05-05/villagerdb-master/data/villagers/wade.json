@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "10-30",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "spade-shirt",
+      "song": "K.K. Jongara"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "spade-tee",
+      "song": "K.K. Jongara",
+      "phrase": "so it goes",
+      "skill": "Rock-paper-scissors",
+      "goal": "An explorer",
+      "fear": "Werewolf Hood",
+      "quote": "Which came first, the seeds or the sunflower?",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "so it goes",
+      "song": "K.K. Jongara"
+    }
+  },
+  "name": "Wade",
+  "id": "wade"
+}

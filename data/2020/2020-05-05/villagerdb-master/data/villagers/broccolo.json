@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "6-30",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "kiddie-shirt",
+      "song": "K.K. Ragtime"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "kiddie-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "kiddie-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "eat it",
+      "skill": "Climbing trees",
+      "goal": "Movie director",
+      "fear": "Werewolf Hood",
+      "quote": "One nap leads to another.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "eat it",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Broccolo",
+  "id": "broccolo"
+}

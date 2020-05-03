@@ -1,0 +1,23 @@
+{
+  "id": "scramble-crosswalk",
+  "name": "Scramble Crosswalk",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Saharah"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

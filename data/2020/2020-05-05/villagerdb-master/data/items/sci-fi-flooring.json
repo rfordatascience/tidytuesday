@@ -1,0 +1,19 @@
+{
+  "id": "sci-fi-flooring",
+  "name": "Sci-fi Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 30000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

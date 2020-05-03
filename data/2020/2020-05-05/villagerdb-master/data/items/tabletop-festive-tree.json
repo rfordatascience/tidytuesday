@@ -1,0 +1,19 @@
+{
+  "id": "tabletop-festive-tree",
+  "name": "Tabletop Festive Tree",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 930
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3720
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

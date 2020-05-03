@@ -1,0 +1,17 @@
+{
+  "id": "sturgeon",
+  "name": "Sturgeon",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "River (Mouth) (Sept-Mar)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  },
+  "category": "Fish"
+}

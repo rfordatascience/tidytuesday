@@ -1,0 +1,22 @@
+{
+  "id": "squat-nebuloid",
+  "name": "Squat Nebuloid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

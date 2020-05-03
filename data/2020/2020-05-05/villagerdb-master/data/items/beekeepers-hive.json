@@ -1,0 +1,19 @@
+{
+  "id": "beekeepers-hive",
+  "name": "Beekeeper's Hive",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "recipe": {
+        "wasp-nest": 3,
+        "wood": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "brachio-skull",
+  "name": "Brachio Skull",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6000
+      }
+    }
+  },
+  "category": "Fossils"
+}

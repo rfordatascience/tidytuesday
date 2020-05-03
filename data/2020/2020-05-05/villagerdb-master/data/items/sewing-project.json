@@ -1,0 +1,23 @@
+{
+  "id": "sewing-project",
+  "name": "Sewing Project",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 107
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 430
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

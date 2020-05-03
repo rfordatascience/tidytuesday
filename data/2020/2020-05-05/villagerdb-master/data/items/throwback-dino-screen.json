@@ -1,0 +1,23 @@
+{
+  "id": "throwback-dino-screen",
+  "name": "Throwback Dino Screen",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3600
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

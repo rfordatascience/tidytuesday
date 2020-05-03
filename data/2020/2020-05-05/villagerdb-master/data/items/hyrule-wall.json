@@ -1,0 +1,23 @@
+{
+  "id": "hyrule-wall",
+  "name": "Hyrule Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "epona",
+        "ganon",
+        "medli",
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

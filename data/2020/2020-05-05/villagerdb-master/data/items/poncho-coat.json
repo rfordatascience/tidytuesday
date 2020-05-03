@@ -1,0 +1,19 @@
+{
+  "id": "poncho-coat",
+  "name": "Poncho Coat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 580
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2320
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

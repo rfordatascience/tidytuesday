@@ -1,0 +1,19 @@
+{
+  "id": "klauss-poster",
+  "name": "Klaus's Poster",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        }
+      ]
+    }
+  },
+  "category": "Photos"
+}

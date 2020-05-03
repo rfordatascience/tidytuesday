@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "12-23",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "ninja-shirt",
+      "song": "Comrade K.K.",
+      "phrase": "no doubt",
+      "skill": "Clearing my plate",
+      "goal": "Architect",
+      "fear": "Monster Mask",
+      "quote": "C'est la vie!",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "no doubt",
+      "song": "Comrade K.K."
+    }
+  },
+  "name": "Ken",
+  "id": "ken"
+}

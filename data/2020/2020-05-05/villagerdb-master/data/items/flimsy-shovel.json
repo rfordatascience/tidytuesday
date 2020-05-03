@@ -1,0 +1,27 @@
+{
+  "id": "flimsy-shovel",
+  "name": "Flimsy Shovel",
+  "category": "Tools",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ],
+      "recipe": {
+        "hardwood": 5
+      }
+    }
+  }
+}

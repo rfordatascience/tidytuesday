@@ -1,0 +1,19 @@
+{
+  "id": "starry-wall",
+  "name": "Starry Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 30000
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

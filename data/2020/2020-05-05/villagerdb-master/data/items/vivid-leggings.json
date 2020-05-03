@@ -1,0 +1,20 @@
+{
+  "id": "vivid-leggings",
+  "name": "Vivid Leggings",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 112
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 450
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

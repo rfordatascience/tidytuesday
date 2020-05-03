@@ -1,0 +1,21 @@
+{
+  "id": "sweets-wall",
+  "name": "Sweets Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 31000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

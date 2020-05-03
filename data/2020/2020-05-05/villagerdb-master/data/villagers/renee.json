@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "5-28",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "sailors-tee",
+      "song": "Surfin' K.K.",
+      "phrase": "yo yo yo",
+      "skill": "Making puns",
+      "goal": "Marathon runner",
+      "fear": "Mummy Mask",
+      "quote": "Reckless youth makes rueful age.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "yo yo yo",
+      "song": "Surfin' K.K."
+    }
+  },
+  "name": "Renée",
+  "id": "renee"
+}

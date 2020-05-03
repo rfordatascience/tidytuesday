@@ -1,0 +1,14 @@
+{
+  "id": "ice-wand",
+  "name": "Ice Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6500
+      }
+    }
+  },
+  "category": "Tools"
+}

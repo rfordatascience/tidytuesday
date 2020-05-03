@@ -1,0 +1,24 @@
+{
+  "id": "checkout-counter",
+  "name": "Checkout Counter",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Café",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 870
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3480
+        }
+      ]
+    }
+  }
+}

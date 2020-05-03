@@ -1,0 +1,14 @@
+{
+  "id": "tambourine",
+  "name": "Tambourine",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
+    }
+  },
+  "category": "Tools"
+}

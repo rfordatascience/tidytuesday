@@ -1,0 +1,21 @@
+{
+  "id": "ice-chair",
+  "name": "Ice Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Ice",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowmam"
+      ]
+    }
+  }
+}

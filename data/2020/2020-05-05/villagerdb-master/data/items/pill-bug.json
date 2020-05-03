@@ -1,0 +1,27 @@
+{
+  "id": "pill-bug",
+  "name": "Pill Bug",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Hidden under rocks (smack with a shovel)."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hit rock with shovel or axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "star-bopper",
+  "name": "Star Bopper",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Fireworks Show (Isabelle)"
+      ]
+    }
+  }
+}

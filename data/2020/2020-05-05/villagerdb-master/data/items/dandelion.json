@@ -1,0 +1,17 @@
+{
+  "id": "dandelion",
+  "name": "Dandelion",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Town weeds"
+      ]
+    }
+  }
+}
