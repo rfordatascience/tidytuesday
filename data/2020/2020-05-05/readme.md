@@ -220,9 +220,38 @@ joined_img_df %>%
   write_csv("2020/2020-05-05/items.csv")
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![tornps - image of Tom Nook imitating the stonks meme](https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagepngbase64iVBORw0KGgoAAAANSUhEUgAABAAAAAMA-28c059a4188930f6801c9b8a335805dc.jpg)
+
 ### BONUS SUPER SECRET DATASET
 
-#WARNING
+# WARNING
 
 Please note that this may be bordering on making the game a type of "work" - so feel free to skip if you don't want to think about the game THIS hard.
 
