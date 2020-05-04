@@ -20,7 +20,7 @@ Potential Analyses:
 * Reviews: Sentiment analysis, text analysis, scores, date effect
 * Villagers/Items: Gender, species, sayings, personality, price, recipe, what about a [star sign](https://nookipedia.com/wiki/Star_sign) based off the birthday column?
 
-Some potential context on for `user_reviews.tsv` via [Animal Crossing World](https://animalcrossingworld.com/2019/06/you-can-only-have-one-animal-crossing-new-horizons-island-per-nintendo-switch-system/) and a [spoiler article](https://towardsdatascience.com/sentiment-analysis-of-animal-crossing-reviews-7ae98bc91dd3) analyzing the reviews in R by Boon Tan.
+Some potential context for `user_reviews.tsv` from [538](https://fivethirtyeight.com/features/ghostbusters-is-a-perfect-example-of-how-internet-ratings-are-broken/) and a point of potential strife via [Animal Crossing World](https://animalcrossingworld.com/2019/06/you-can-only-have-one-animal-crossing-new-horizons-island-per-nintendo-switch-system/), and lastly a [spoiler article](https://towardsdatascience.com/sentiment-analysis-of-animal-crossing-reviews-7ae98bc91dd3) analyzing the reviews in R by Boon Tan. 
 
 PS there is an easter egg somewhere in the readme - something to do with... turnips.
 
