@@ -19,7 +19,7 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Volcano):
 
 [Volcano Explosivity Index:](https://en.wikipedia.org/wiki/Volcanic_Explosivity_Index)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/VEIfigure_en.svg/1024px-VEIfigure_en.svg.png =206x171)
+![](https://upload.wikimedia.org/wikipedia/commons/0/01/VEIfigure_en.svg)
 
 ### Get the data here
 
