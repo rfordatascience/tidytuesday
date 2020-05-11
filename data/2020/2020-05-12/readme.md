@@ -19,8 +19,8 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Volcano):
 
 [Volcano Explosivity Index:](https://en.wikipedia.org/wiki/Volcanic_Explosivity_Index)
 
-<p align="center">
-  <img width="171" height="207" src="https://upload.wikimedia.org/wikipedia/commons/0/01/VEIfigure_en.svg">
+<p align="left">
+  <img width="342" height="414" src="https://upload.wikimedia.org/wikipedia/commons/0/01/VEIfigure_en.svg">
 </p>
 
 ### Get the data here
