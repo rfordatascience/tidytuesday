@@ -23,6 +23,16 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Volcano):
   <img width="342" height="414" src="https://upload.wikimedia.org/wikipedia/commons/0/01/VEIfigure_en.svg">
 </p>
 
+Volcano eruptions also can affect the global climate, a [Nature Article](https://www.nature.com/articles/nature14565#Sec26) has open-access data for a specific time-period of eruptions along with temperature anomolies and tree growth. More details can be found from [NASA](https://earthdata.nasa.gov/learn/sensing-our-planet/volcanoes-and-climate-change) and the [UCAR](https://scied.ucar.edu/shortcontent/how-volcanoes-influence-climate). A summary of the pay-walled Nature article can be found via the [Smithsonian](https://www.smithsonianmag.com/science-nature/sixth-century-misery-tied-not-one-two-volcanic-eruptions-180955858/)
+
+>The researchers detected 238 eruptions from the past 2,500 years, they report today in Nature. About half were in the mid- to high-latitudes in the northern hemisphere, while 81 were in the tropics. (Because of the rotation of the Earth, material from tropical volcanoes ends up in both Greenland and Antarctica, while material from northern volcanoes tends to stay in the north.) The exact sources of most of the eruptions are as yet unknown, but the team was able to match their effects on climate to the tree ring records.
+> 
+> The analysis not only reinforces evidence that volcanoes can have long-lasting global effects, but it also fleshes out historical accounts, including what happened in the sixth-century Roman Empire. The first eruption, in late 535 or early 536, injected large amounts of sulfate and ash into the atmosphere. According to historical accounts, the atmosphere had dimmed by March 536, and it stayed that way for another 18 months.
+> 
+> Tree rings, and people of the time, recorded cold temperatures in North America, Asia and Europe, where summer temperatures dropped by 2.9 to 4.5 degrees Fahrenheit below the average of the previous 30 years. Then, in 539 or 540, another volcano erupted. It spewed 10 percent more aerosols into the atmosphere than the huge eruption of Tambora in Indonesia in 1815, which caused the infamous “year without a summer”. More misery ensued, including the famines and pandemics. The same eruptions may have even contributed to a decline in the Maya empire, the authors say. 
+
+There are additional datasets from the [Nature article](https://www.nature.com/articles/nature14565#Sec26) available as Excel files, but they are a bit more complicated - feel free to explore at your own discretion!
+
 ### Get the data here
 
 ```{r}
@@ -31,6 +41,8 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Volcano):
 volcano <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/volcano.csv')
 eruptions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/eruptions.csv')
 events <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/events.csv')
+tree_rings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/tree_rings.csv')
+sulfur <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/sulfur.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO USE tidytuesdayR version ? from GitHub
@@ -112,6 +124,23 @@ volcano <- tuesdata$volcano
 |event_date_year     |double    | Event year |
 |event_date_month    |double    | Event month |
 |event_date_day      |double    | Event day |
+
+# `tree_rings.csv`
+
+|variable          |class   |description |
+|:-----------------|:-------|:-----------|
+|year              |integer | Year of observation CE |
+|n_tree            |double  | Tree ring z-scores relative to year = 1000-1099 (a [z-score](https://en.wikipedia.org/wiki/Standard_score) is a measure of variability from the mean - either positive or negative) |
+|europe_temp_index |double  | Pages 2K Temperature for Europe in Celsius relative to 1961 to 1990 |
+
+
+# `sulfur.csv`
+
+|variable |class  |description |
+|:--------|:------|:-----------|
+|year     |double | Year w/ decimal CE|
+|neem     |double | Sulfur detected in ng/g from NEEM - ice cores from Greenland, data collected from melting ice cores, data range was 500 to 705 CE |
+|wdc      |double | Sulfur detected in ng/g from WDC - ice cores from Antartica, data collected from melting ice cores, data range was 500 to 705 CE |
 
 ### Cleaning Script
 
