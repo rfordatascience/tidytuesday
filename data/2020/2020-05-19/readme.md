@@ -107,6 +107,7 @@ vb_matches <- tuesdata$vb_matches
 
 ### `skimr`
 
+```{r}
 ## ── Data Summary ────────────────────────
 ##                            Values
 ## Name                       vb_matches
@@ -197,7 +198,7 @@ vb_matches <- tuesdata$vb_matches
 ## 40 l_p2_tot_serve_errors     62417         0.187    2.05   1.66   ▇▂▁▁▁
 ## 41 l_p2_tot_blocks           60560         0.211    1.06   1.56   ▇▁▁▁▁
 ## 42 l_p2_tot_digs             62178         0.190    7.14   5.18   ▇▃▁▁▁
-
+```
 ### Cleaning Script
 
 Data is already pretty clean! You may want to pivot the data by team or optionally separate out the winning/losing scores by match.
