@@ -108,96 +108,96 @@ vb_matches <- tuesdata$vb_matches
 ### `skimr`
 
 ```{r}
-## ── Data Summary ────────────────────────
-##                            Values
-## Name                       vb_matches
-## Number of rows             76756
-## Number of columns          65
-## _______________________
-## Column type frequency:
-##   character                17
-##   Date                     5
-##   difftime                 1
-##   numeric                  42
-## ________________________
-## Group variables            None
-## 
-## ── Variable type: character ─────────────────────────────────────────────────────────
-##    skim_variable n_missing complete_rate   min   max empty n_unique whitespace
-##  1 circuit               0         1         3     4     0        2          0
-##  2 tournament            0         1         3    22     0      177          0
-##  3 country               0         1         4    22     0       51          0
-##  4 gender                0         1         1     1     0        2          0
-##  5 w_player1             0         1         6    29     0     3388          0
-##  6 w_p1_country         12         1.00      4    20     0       85          0
-##  7 w_player2             0         1         5    30     0     3431          0
-##  8 w_p2_country          5         1.00      4    20     0       87          0
-##  9 w_rank              148         0.998     1     7     0      812          0
-## 10 l_player1             0         1         5    29     0     5713          0
-## 11 l_p1_country         18         1.00      4    20     0      109          0
-## 12 l_player2             0         1         5    30     0     5689          0
-## 13 l_p2_country         10         1.00      4    20     0      111          0
-## 14 l_rank             1240         0.984     1     7     0      837          0
-## 15 score                22         1.00      4    25     0     6624          0
-## 16 bracket               0         1         6    21     0       36          0
-## 17 round              4939         0.936     7     8     0       10          0
-## 
-## ── Variable type: Date ──────────────────────────────────────────────────────────────
-##   skim_variable  n_missing complete_rate min        max        median     n_unique
-## 1 date                   0         1     2000-09-16 2019-08-29 2009-08-25      658
-## 2 w_p1_birthdate       383         0.995 1958-10-06 2068-12-31 1982-06-20     2808
-## 3 w_p2_birthdate       408         0.995 1968-09-10 2068-12-31 1982-04-14     2848
-## 4 l_p1_birthdate      1059         0.986 1958-10-06 2068-12-31 1982-10-12     4243
-## 5 l_p2_birthdate       959         0.988 1950-10-20 2068-12-31 1982-07-06     4290
-## 
-## ── Variable type: difftime ──────────────────────────────────────────────────────────
-##   skim_variable n_missing complete_rate min      max       median n_unique
-## 1 duration           2249         0.971 120 secs 8040 secs 42'00"      108
-## 
-## ── Variable type: numeric ───────────────────────────────────────────────────────────
-##    skim_variable         n_missing complete_rate     mean     sd  hist
-##  1 year                          0         1     2010.     5.48   ▃▇▆▅▇
-##  2 match_num                     0         1       31.8   23.5    ▇▅▂▁▁
-##  3 w_p1_age                    383         0.995   28.7    5.05   ▂▇▃▁▁
-##  4 w_p1_hgt                   3966         0.948   73.7    3.64   ▁▅▇▃▁
-##  5 w_p2_age                    408         0.995   28.8    4.85   ▁▇▆▁▁
-##  6 w_p2_hgt                   4016         0.948   73.7    3.69   ▁▃▇▆▁
-##  7 l_p1_age                   1059         0.986   28.3    5.26   ▂▇▂▁▁
-##  8 l_p1_hgt                   6988         0.909   73.4    3.62   ▁▃▇▅▁
-##  9 l_p2_age                    959         0.988   28.4    5.12   ▂▇▁▁▁
-## 10 l_p2_hgt                   6983         0.909   73.5    3.65   ▁▃▇▅▁
-## 11 w_p1_tot_attacks          62178         0.190   25.9   10.0    ▇▅▁▁▁
-## 12 w_p1_tot_kills            62178         0.190   14.7    5.34   ▂▇▅▁▁
-## 13 w_p1_tot_errors           62413         0.187    2.90   2.27   ▇▁▁▁▁
-## 14 w_p1_tot_hitpct           62185         0.190    0.480  0.230  ▇▁▁▁▁
-## 15 w_p1_tot_aces             60560         0.211    1.32   1.45   ▇▂▁▁▁
-## 16 w_p1_tot_serve_errors     62417         0.187    2.03   1.65   ▇▃▁▁▁
-## 17 w_p1_tot_blocks           60560         0.211    1.70   2.15   ▇▂▁▁▁
-## 18 w_p1_tot_digs             62178         0.190    8.35   5.48   ▇▅▁▁▁
-## 19 w_p2_tot_attacks          62174         0.190   26.1   10.1    ▇▇▁▁▁
-## 20 w_p2_tot_kills            62174         0.190   14.8    5.33   ▂▇▅▁▁
-## 21 w_p2_tot_errors           62413         0.187    2.92   2.29   ▇▁▁▁▁
-## 22 w_p2_tot_hitpct           62181         0.190    0.477  0.164  ▁▇▁▁▁
-## 23 w_p2_tot_aces             60556         0.211    1.19   1.36   ▇▁▁▁▁
-## 24 w_p2_tot_serve_errors     62413         0.187    1.93   1.62   ▇▃▁▁▁
-## 25 w_p2_tot_blocks           60556         0.211    1.69   2.19   ▇▂▁▁▁
-## 26 w_p2_tot_digs             62174         0.190    8.54   5.56   ▇▃▁▁▁
-## 27 l_p1_tot_attacks          62179         0.190   27.1   11.1    ▇▁▁▁▁
-## 28 l_p1_tot_kills            62179         0.190   12.8    5.76   ▃▇▃▁▁
-## 29 l_p1_tot_errors           62413         0.187    4.38   2.76   ▇▂▁▁▁
-## 30 l_p1_tot_hitpct           62189         0.190    0.313  0.176  ▃▇▁▁▁
-## 31 l_p1_tot_aces             60561         0.211    0.776  1.04   ▇▂▁▁▁
-## 32 l_p1_tot_serve_errors     62418         0.187    2.10   1.66   ▇▃▁▁▁
-## 33 l_p1_tot_blocks           60561         0.211    0.997  1.53   ▇▁▁▁▁
-## 34 l_p1_tot_digs             62179         0.190    7.19   5.17   ▇▂▁▁▁
-## 35 l_p2_tot_attacks          62178         0.190   26.7   10.8    ▃▇▁▁▁
-## 36 l_p2_tot_kills            62178         0.190   12.6    5.66   ▃▇▃▁▁
-## 37 l_p2_tot_errors           62413         0.187    4.32   2.71   ▇▃▁▁▁
-## 38 l_p2_tot_hitpct           62189         0.190    0.313  0.176  ▂▇▁▁▁
-## 39 l_p2_tot_aces             60560         0.211    0.775  1.06   ▇▁▁▁▁
-## 40 l_p2_tot_serve_errors     62417         0.187    2.05   1.66   ▇▂▁▁▁
-## 41 l_p2_tot_blocks           60560         0.211    1.06   1.56   ▇▁▁▁▁
-## 42 l_p2_tot_digs             62178         0.190    7.14   5.18   ▇▃▁▁▁
+── Data Summary ────────────────────────
+                           Values  
+Name                       vb_matches
+Number of rows             76756   
+Number of columns          65      
+_______________________            
+Column type frequency:             
+  character                17      
+  Date                     5       
+  difftime                 1       
+  numeric                  42      
+________________________           
+Group variables            None    
+
+── Variable type: character ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   skim_variable n_missing complete_rate   min   max empty n_unique whitespace
+ 1 circuit               0         1         3     4     0        2          0
+ 2 tournament            0         1         3    22     0      177          0
+ 3 country               0         1         4    22     0       51          0
+ 4 gender                0         1         1     1     0        2          0
+ 5 w_player1             0         1         6    29     0     3388          0
+ 6 w_p1_country         12         1.00      4    20     0       85          0
+ 7 w_player2             0         1         5    30     0     3431          0
+ 8 w_p2_country          5         1.00      4    20     0       87          0
+ 9 w_rank              148         0.998     1     7     0      812          0
+10 l_player1             0         1         5    29     0     5713          0
+11 l_p1_country         18         1.00      4    20     0      109          0
+12 l_player2             0         1         5    30     0     5689          0
+13 l_p2_country         10         1.00      4    20     0      111          0
+14 l_rank             1240         0.984     1     7     0      837          0
+15 score                22         1.00      4    25     0     6624          0
+16 bracket               0         1         6    21     0       36          0
+17 round              4939         0.936     7     8     0       10          0
+
+── Variable type: Date ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable  n_missing complete_rate min        max        median     n_unique
+1 date                   0         1     2000-09-16 2019-08-29 2009-08-25      658
+2 w_p1_birthdate       383         0.995 1953-06-13 2004-07-15 1981-10-30     2805
+3 w_p2_birthdate       408         0.995 1952-10-11 2004-06-08 1981-10-15     2847
+4 l_p1_birthdate      1059         0.986 1953-06-13 2004-12-01 1982-03-28     4236
+5 l_p2_birthdate       959         0.988 1949-12-04 2004-08-12 1982-03-20     4282
+
+── Variable type: difftime ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min      max       median n_unique
+1 duration           2249         0.971 120 secs 8040 secs 42'00"      108
+
+── Variable type: numeric ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   skim_variable         n_missing complete_rate     mean     sd  hist 
+ 1 year                          0         1     2010.     5.48   ▃▇▆▅▇
+ 2 match_num                     0         1       31.8   23.5    ▇▅▂▁▁
+ 3 w_p1_age                    383         0.995   28.7    5.05   ▂▇▃▁▁
+ 4 w_p1_hgt                   3966         0.948   73.7    3.64   ▁▅▇▃▁
+ 5 w_p2_age                    408         0.995   28.8    4.85   ▁▇▆▁▁
+ 6 w_p2_hgt                   4016         0.948   73.7    3.69   ▁▃▇▆▁
+ 7 l_p1_age                   1059         0.986   28.3    5.26   ▂▇▂▁▁
+ 8 l_p1_hgt                   6988         0.909   73.4    3.62   ▁▃▇▅▁
+ 9 l_p2_age                    959         0.988   28.4    5.12   ▂▇▁▁▁
+10 l_p2_hgt                   6983         0.909   73.5    3.65   ▁▃▇▅▁
+11 w_p1_tot_attacks          62178         0.190   25.9   10.0    ▇▅▁▁▁
+12 w_p1_tot_kills            62178         0.190   14.7    5.34   ▂▇▅▁▁
+13 w_p1_tot_errors           62413         0.187    2.90   2.27   ▇▁▁▁▁
+14 w_p1_tot_hitpct           62185         0.190    0.480  0.230  ▇▁▁▁▁
+15 w_p1_tot_aces             60560         0.211    1.32   1.45   ▇▂▁▁▁
+16 w_p1_tot_serve_errors     62417         0.187    2.03   1.65   ▇▃▁▁▁
+17 w_p1_tot_blocks           60560         0.211    1.70   2.15   ▇▂▁▁▁
+18 w_p1_tot_digs             62178         0.190    8.35   5.48   ▇▅▁▁▁
+19 w_p2_tot_attacks          62174         0.190   26.1   10.1    ▇▇▁▁▁
+20 w_p2_tot_kills            62174         0.190   14.8    5.33   ▂▇▅▁▁
+21 w_p2_tot_errors           62413         0.187    2.92   2.29   ▇▁▁▁▁
+22 w_p2_tot_hitpct           62181         0.190    0.477  0.164  ▁▇▁▁▁
+23 w_p2_tot_aces             60556         0.211    1.19   1.36   ▇▁▁▁▁
+24 w_p2_tot_serve_errors     62413         0.187    1.93   1.62   ▇▃▁▁▁
+25 w_p2_tot_blocks           60556         0.211    1.69   2.19   ▇▂▁▁▁
+26 w_p2_tot_digs             62174         0.190    8.54   5.56   ▇▃▁▁▁
+27 l_p1_tot_attacks          62179         0.190   27.1   11.1    ▇▁▁▁▁
+28 l_p1_tot_kills            62179         0.190   12.8    5.76   ▃▇▃▁▁
+29 l_p1_tot_errors           62413         0.187    4.38   2.76   ▇▂▁▁▁
+30 l_p1_tot_hitpct           62189         0.190    0.313  0.176  ▃▇▁▁▁
+31 l_p1_tot_aces             60561         0.211    0.776  1.04   ▇▂▁▁▁
+32 l_p1_tot_serve_errors     62418         0.187    2.10   1.66   ▇▃▁▁▁
+33 l_p1_tot_blocks           60561         0.211    0.997  1.53   ▇▁▁▁▁
+34 l_p1_tot_digs             62179         0.190    7.19   5.17   ▇▂▁▁▁
+35 l_p2_tot_attacks          62178         0.190   26.7   10.8    ▃▇▁▁▁
+36 l_p2_tot_kills            62178         0.190   12.6    5.66   ▃▇▃▁▁
+37 l_p2_tot_errors           62413         0.187    4.32   2.71   ▇▃▁▁▁
+38 l_p2_tot_hitpct           62189         0.190    0.313  0.176  ▂▇▁▁▁
+39 l_p2_tot_aces             60560         0.211    0.775  1.06   ▇▁▁▁▁
+40 l_p2_tot_serve_errors     62417         0.187    2.05   1.66   ▇▂▁▁▁
+41 l_p2_tot_blocks           60560         0.211    1.06   1.56   ▇▁▁▁▁
+42 l_p2_tot_digs             62178         0.190    7.14   5.18   ▇▃▁▁▁
 ```
 ### Cleaning Script
 
@@ -282,7 +282,21 @@ raw_df <- c("https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/mas
             "https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20190410_to_20190818.csv",
             "https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20190818_to_20190902.csv") %>% 
   map_dfr(read_csv, col_types = col_types_vb)
-
+  
 raw_df %>% 
   skimr::skim()
+  
+# Georgios Karamanis noticed that the birthdates are 
+# incorrect for anyone born before 1970 (off by 100 years)
+clean_df <- mutate_at(
+  raw_df,
+  vars(contains("birthdate")),
+  list(~ if_else(. >= as.Date("2020-01-01"),
+    . - lubridate::years(100),
+    .
+  ))
+)
+
+write_csv(clean_df, "2020/2020-05-19/vb_matches.csv")
+
 ```
