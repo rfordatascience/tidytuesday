@@ -77,7 +77,6 @@
 9,2019-02-26,2019,"full_trains.csv","csv",","
 9,2019-02-26,2019,"regularite-mensuelle-tgv-aqst.csv","csv",";"
 9,2019-02-26,2019,"small_trains.csv","csv",","
-10,2019-03-05,2019,"category_names.rds","rds"," "
 10,2019-03-05,2019,"earnings_female.csv","csv",","
 10,2019-03-05,2019,"employed_gender.csv","csv",","
 10,2019-03-05,2019,"jobs_gender.csv","csv",","
@@ -87,7 +86,7 @@
 15,2019-04-09,2019,"grand_slam_timeline.csv","csv",","
 15,2019-04-09,2019,"grand_slams.csv","csv",","
 15,2019-04-09,2019,"player_dob.csv","csv",","
-16,2019-04-16,2019,"brexit.csv","csv",","
+16,.,2019,"brexit.csv","csv",","
 16,2019-04-16,2019,"corbyn.csv","csv"," "
 16,2019-04-16,2019,"dogs.csv","csv",","
 16,2019-04-16,2019,"eu_balance.csv","csv",","
@@ -101,13 +100,8 @@
 18,2019-04-30,2019,"mp_light.csv","csv",","
 19,2019-05-07,2019,"EDULIT_DS_06052019101747206.csv","csv",","
 19,2019-05-07,2019,"student_teacher_ratio.csv","csv",","
-20,2019-05-14,2019,"archive.csv","csv",","
-20,2019-05-14,2019,"Chemistry publication record.csv","csv",","
-20,2019-05-14,2019,"Medicine publication record.csv","csv",","
 20,2019-05-14,2019,"nobel_winner_all_pubs.csv","csv",","
 20,2019-05-14,2019,"nobel_winners.csv","csv",","
-20,2019-05-14,2019,"Physics publication record.csv","csv",","
-20,2019-05-14,2019,"Prize-winning paper record.csv","csv",","
 21,2019-05-21,2019,"coastal-population-vs-mismanaged-plastic.csv","csv",","
 21,2019-05-21,2019,"per-capita-mismanaged-plastic-waste-vs-gdp-per-capita.csv","csv",","
 21,2019-05-21,2019,"per-capita-plastic-waste-vs-gdp-per-capita.csv","csv",","
@@ -132,7 +126,6 @@
 36,2019-09-03,2019,"ram.csv","csv",","
 37,2019-09-10,2019,"saferparks.csv","csv",","
 37,2019-09-10,2019,"tx_injuries.csv","csv",","
-38,2019-09-17,2019,"All National Parks Visitation 1904-2016.csv","csv",","
 38,2019-09-17,2019,"gas_price.csv","csv",","
 38,2019-09-17,2019,"national_parks.csv","csv",","
 38,2019-09-17,2019,"state_pop.csv","csv",","
@@ -145,13 +138,6 @@
 43,2019-10-22,2019,"horror_movies.csv","csv",","
 44,2019-10-29,2019,"nyc_squirrels.csv","csv",","
 45,2019-11-05,2019,"commute.csv","csv",","
-45,2019-11-05,2019,"supplemental-table1.xlsx","xlsx",NA
-45,2019-11-05,2019,"supplemental-table2.xlsx","xlsx",NA
-45,2019-11-05,2019,"supplemental-table3.xlsx","xlsx",NA
-45,2019-11-05,2019,"supplemental-table4.xlsx","xlsx",NA
-45,2019-11-05,2019,"supplemental-table5.xlsx","xlsx",NA
-45,2019-11-05,2019,"supplemental-table6.xlsx","xlsx",NA
-45,2019-11-05,2019,"table_3.csv","csv",","
 46,2019-11-12,2019,"loc_cran_packages.csv","csv",","
 47,2019-11-19,2019,"BOTY-votes-2019.csv","csv",","
 47,2019-11-19,2019,"nz_bird.csv","csv",","
@@ -178,20 +164,6 @@
 2,2020-01-07,2020,"MODIS_C6_Australia_and_New_Zealand_7d.csv","csv",","
 2,2020-01-07,2020,"rainfall.csv","csv",","
 2,2020-01-07,2020,"temperature.csv","csv",","
-2,2020-01-07,2020,"tmax.009021.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.018192.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.023090.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.040842.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.066062.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.070351.daily.csv","csv",","
-2,2020-01-07,2020,"tmax.086338.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.009021.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.018192.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.023090.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.040842.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.066062.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.070351.daily.csv","csv",","
-2,2020-01-07,2020,"tmin.086338.daily.csv","csv",","
 3,2020-01-14,2020,"passwords.csv","csv",","
 4,2020-01-21,2020,"spotify_songs.csv","csv",","
 5,2020-01-28,2020,"sf_trees.csv","csv",","
@@ -207,11 +179,9 @@
 10,2020-03-03,2020,"game_goals.csv","csv",","
 10,2020-03-03,2020,"season_goals.csv","csv",","
 10,2020-03-03,2020,"top_250.csv","csv",","
-11,2020-03-10,2020,"all-schools.csv","csv",","
 11,2020-03-10,2020,"diversity_school.csv","csv",","
 11,2020-03-10,2020,"historical_tuition.csv","csv",","
 11,2020-03-10,2020,"salary_potential.csv","csv",","
-11,2020-03-10,2020,"student_diversity.csv","csv",","
 11,2020-03-10,2020,"tuition_cost.csv","csv",","
 11,2020-03-10,2020,"tuition_income.csv","csv",","
 12,2020-03-17,2020,"office_ratings.csv","csv",","
@@ -219,49 +189,10 @@
 13,2020-03-24,2020,"tbi_age.csv","csv",","
 13,2020-03-24,2020,"tbi_military.csv","csv",","
 13,2020-03-24,2020,"tbi_year.csv","csv",","
-14,2020-03-31,2020,"~$ttb_brewery_state_2008-2019.xlsx","xlsx",NA
 14,2020-03-31,2020,"beer_states.csv","csv",","
 14,2020-03-31,2020,"beer_taxed.csv","csv",","
 14,2020-03-31,2020,"brewer_size.csv","csv",","
 14,2020-03-31,2020,"brewing_materials.csv","csv",","
-14,2020-03-31,2020,"brewing_products.csv","csv",","
-14,2020-03-31,2020,"ttb_brewery_size_2008.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2009.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2010.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2011.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2012.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2013.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2014.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2015.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2016.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2017.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2018.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_size_2019.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_brewery_state_2008-2019.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-01.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-02.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-03.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-04.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-05.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-06.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-07.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-08.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-09.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-10.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-11.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2018-12.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-01.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-02.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-03.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-04.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-05.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-06.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-07.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-08.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-09.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-10.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-11.xlsx","xlsx",NA
-14,2020-03-31,2020,"ttb_monthly_stats_2019-12.xlsx","xlsx",NA
 15,2020-04-07,2020,"stage_data.csv","csv",","
 15,2020-04-07,2020,"tdf_stages.csv","csv",","
 15,2020-04-07,2020,"tdf_winners.csv","csv",","
