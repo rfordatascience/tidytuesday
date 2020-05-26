@@ -68,7 +68,7 @@ cocktails <- tuesdata$cocktails
 |ingredient        |character | Ingredient |
 |measure           |character | Measurement/volume of ingredient |
 
-### Cleaning Script
+# `boston_cocktails.csv`
 
 |variable          |class     |description |
 |:-----------------|:---------|:-----------|
@@ -78,6 +78,8 @@ cocktails <- tuesdata$cocktails
 |ingredient_number |integer   | Ingredient number |
 |ingredient        |character | Ingredient |
 |measure           |character | Measurement/volume of ingredient |
+
+### Cleaning Script
 
 ```{r}
 library(tidyverse)
