@@ -88,7 +88,7 @@ Week,Date,year,data_files,data_type,delim
 15,2019-04-09,2019,grand_slam_timeline.csv,csv,","
 15,2019-04-09,2019,grand_slams.csv,csv,","
 15,2019-04-09,2019,player_dob.csv,csv,","
-16,2019-04-09,2019,brexit.csv,csv,","
+16,2019-04-16,2019,brexit.csv,csv,","
 16,2019-04-16,2019,corbyn.csv,csv,NA
 16,2019-04-16,2019,dogs.csv,csv,","
 16,2019-04-16,2019,eu_balance.csv,csv,","
@@ -219,3 +219,5 @@ Week,Date,year,data_files,data_type,delim
 22,2020-05-26,2020,cocktails.csv,csv,","
 22,2020-05-26,2020,boston_cocktails.csv,csv,","
 23,2020-06-02,2020,marbles.csv,csv,","
+24,2020-06-09,2020,firsts.csv,csv,","
+24,2020-06-09,2020,science.csv,csv,","
