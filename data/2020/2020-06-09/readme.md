@@ -148,7 +148,13 @@ sci_citations <- raw_html_sci %>%
 
 sci_citations
 
-clean_sci %>% write_csv(path = "2020/2020-06-09/science.csv")
+clean_sci %>%
+  add_row(tibble(
+    name = "Amos, Harold", birth = 1918, death = 2003, occupation_s = "Microbiologist",
+    inventions_accomplishments = "First African-American department chair at Harvard Medical School",
+    references = "6,", links = "https://en.wikipedia.org/wiki/Harold_Amos"), .before = 1
+  ) %>% 
+  write_csv(path = "2020/2020-06-09/science.csv")
 
 science <- read_csv("2020/2020-06-09/science.csv")
 
@@ -279,15 +285,22 @@ first_df %>% write_csv(path = "2020/2020-06-09/firsts.csv")
 
 firsts <- read_csv("2020/2020-06-09/firsts.csv")
 
-# test plot
-first_df %>% 
+plot_ex <- first_df %>% 
   mutate(n = 1) %>% 
-  group_by(category, gender) %>% 
+  group_by(category) %>% 
   mutate(roll_n = cumsum(n)) %>% 
   ggplot(aes(x = year, y = roll_n, color = category)) +
-  geom_step() +
-  geom_vline(xintercept = c(1955, 1968), size = 1, alpha = 0.2) +
-    facet_wrap(~gender, ncol = 1) +
-  theme(legend.position = "top")
+  geom_step(size = 1) +
+  theme(legend.position = "top") +
+  tomtom::theme_tomtom() +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 6)) +
+  scale_x_continuous(breaks = seq(1750, 2020, 25)) +
+  geom_hline(yintercept = 0, size = 1, color = "black") +
+  labs(x = "", y = "",
+       title = "Cumulative African-Americans firsts over time",
+       subtitle = "479 'Firsts' of African-Americans breaking the color barrier across a wide range of topics",
+       caption = "Data: wikipedia.org/wiki/List_of_African-American_firsts")
 
+ggsave("2020/2020-06-09/pic2.png", plot_ex, height = 8, width = 14, units = "in", dpi = "retina")
+  
 ```
