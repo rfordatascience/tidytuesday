@@ -4,12 +4,13 @@
 
 The data this week comes from [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_inventors_and_scientists) & [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_firsts). This will be a celebration of Black Lives, their achievements, and many of their battles against racism across their lives. This is in emphasis that `Black Lives Matter` and we're focusing on a celebration of these lives. Each of those Wikipedia articles above have additional details and sub-links that are highly worth reading through.
 
-For additional datasets related to describing racial problems in the US, please see a few of our previous `#TidyTuesday` datasets:
+For additional datasets related to describing racial problems that still exist in the US, please see a few of our previous `#TidyTuesday` datasets:  
+- Note, if you decide to use these datasets please read through the source material to better understand the nuance behind the data.  
 - [School Diversity](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-24)  
 - [Vera Institute Incarceration Trends](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-22)  
 - [The Stanford Open Policing Project](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-19)  
 
-The article for this week is the obituary for [David Blackwell - Fought racism; became world famous statistician](https://www.stltoday.com/news/local/obituaries/david-blackwell-fought-racism-became-world-famous-statistician/article_8ea41058-5f35-5afa-9c3a-007200c5c179.html#:~:text=David%20Blackwell.&text=David%20H.&text=%22Southern%20Illinois%20was%20probably%20fairly,%2C%22%20he%20told%20a%20biographer.).
+The article for this week is the obituary for [David Blackwell - Fought racism; became world famous statistician](https://www.stltoday.com/news/local/obituaries/david-blackwell-fought-racism-became-world-famous-statistician/article_8ea41058-5f35-5afa-9c3a-007200c5c179.html).
 
 There is currently a [Petition to rename the Fisher Lectureship](https://www.change.org/p/american-statistical-association-rename-the-fisher-lecture-after-david-blackwell?recruiter=1107887809) after David Blackwell.
 
