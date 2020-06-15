@@ -19,7 +19,7 @@ We are influenced by the ["Teaching Hard History" resources](https://www.toleran
 
 The full article around these education materials can be found [here](https://www.tolerance.org/sites/default/files/2018-02/TT-Teaching-Hard-History-American-Slavery-Report-WEB-February2018.pdf).
 
-![](data/2020/2020-06-16/key-concepts.png)
+![](key-concepts.png)
 
 # Goals of this Week
 
@@ -44,7 +44,7 @@ H/t to [Sean Clements](https://twitter.com/SeanfromSeabeck/status/12323635703120
 # Donations
 
 * [Donate to Blackpast.org](https://www.blackpast.org/donate/)  
-* 
+* [Donate to Teaching Tolerance](https://www.tolerance.org/)  
 
 # Dataset Summary
 
