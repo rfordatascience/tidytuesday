@@ -1,0 +1,22 @@
+{
+  "id": "block-flooring",
+  "name": "Block Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cashmere",
+        "huck",
+        "mabel"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

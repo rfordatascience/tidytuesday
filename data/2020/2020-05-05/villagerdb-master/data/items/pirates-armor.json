@@ -1,0 +1,23 @@
+{
+  "id": "pirates-armor",
+  "name": "Pirate's Armor",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Quirky",
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

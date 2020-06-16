@@ -1,0 +1,41 @@
+{
+  "id": "tin-shirt",
+  "name": "Tin Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    },
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    }
+  }
+}

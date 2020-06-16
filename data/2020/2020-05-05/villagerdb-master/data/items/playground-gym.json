@@ -1,0 +1,19 @@
+{
+  "id": "playground-gym",
+  "name": "Playground Gym",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 60000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

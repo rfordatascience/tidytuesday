@@ -1,0 +1,31 @@
+{
+  "id": "groovy-shirt",
+  "name": "Groovy Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1440
+        }
+      ]
+    }
+  }
+}

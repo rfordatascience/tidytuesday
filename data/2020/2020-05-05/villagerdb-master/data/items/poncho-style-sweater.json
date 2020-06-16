@@ -1,0 +1,19 @@
+{
+  "id": "poncho-style-sweater",
+  "name": "Poncho-style Sweater",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

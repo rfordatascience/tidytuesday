@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "6-5",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "mvp-shirt",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "mvp-shirt",
+      "song": "K.K. Rock"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut",
+      "quote": "You can't see me."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Rock",
+      "phrase": "ten-hut",
+      "skill": "Playing jacks",
+      "goal": "Pilot",
+      "fear": "Mummy Mask",
+      "quote": "What you can't see can't hurt you.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "ten-hut",
+      "song": "K.K. Rock"
+    }
+  },
+  "name": "Camofrog",
+  "id": "camofrog"
+}

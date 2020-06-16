@@ -1,0 +1,26 @@
+{
+  "id": "red-tie-dye-tee",
+  "name": "Red Tie-dye Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    }
+  }
+}

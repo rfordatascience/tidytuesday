@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "10-21",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "song": "K.K. Soul",
+      "phrase": "speedy"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "blue-scale-shirt",
+      "song": "K.K. Soul"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "chain-gang-tee",
+      "song": "K.K. Soul",
+      "phrase": "speedy",
+      "skill": "Making puns",
+      "goal": "Artist",
+      "fear": "Bug Mask",
+      "quote": "Soaring through the sky takes more than a pair of wings.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "speedy",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Sandy",
+  "id": "sandy"
+}

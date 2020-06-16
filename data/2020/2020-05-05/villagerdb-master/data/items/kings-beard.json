@@ -1,0 +1,27 @@
+{
+  "id": "kings-beard",
+  "name": "King's Beard",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "set": "King Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 8000
+        }
+      ]
+    }
+  }
+}

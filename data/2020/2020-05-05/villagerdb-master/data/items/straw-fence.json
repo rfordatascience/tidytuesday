@@ -1,0 +1,19 @@
+{
+  "id": "straw-fence",
+  "name": "Straw Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 56
+      },
+      "recipe": {
+        "clump-of-weeds": 10,
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

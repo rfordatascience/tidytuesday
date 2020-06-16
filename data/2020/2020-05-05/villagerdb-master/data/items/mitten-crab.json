@@ -1,0 +1,24 @@
+{
+  "id": "mitten-crab",
+  "name": "Mitten Crab",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      }
+    }
+  }
+}

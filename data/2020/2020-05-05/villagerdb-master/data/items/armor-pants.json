@@ -1,0 +1,31 @@
+{
+  "id": "armor-pants",
+  "name": "Armor Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Historical"
+      ],
+      "set": "Knight Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Able Sisters (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  }
+}

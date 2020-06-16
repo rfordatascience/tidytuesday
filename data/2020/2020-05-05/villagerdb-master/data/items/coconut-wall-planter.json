@@ -1,0 +1,19 @@
+{
+  "id": "coconut-wall-planter",
+  "name": "Coconut Wall Planter",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "recipe": {
+        "coconut": 1,
+        "clump-of-weeds": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

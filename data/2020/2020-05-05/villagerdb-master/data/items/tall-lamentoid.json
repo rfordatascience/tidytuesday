@@ -1,0 +1,22 @@
+{
+  "id": "tall-lamentoid",
+  "name": "Tall Lamentoid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

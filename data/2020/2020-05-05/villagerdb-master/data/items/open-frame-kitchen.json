@@ -1,0 +1,23 @@
+{
+  "id": "open-frame-kitchen",
+  "name": "Open-frame Kitchen",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "guayabera-shirt",
+  "name": "Guayabera Shirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

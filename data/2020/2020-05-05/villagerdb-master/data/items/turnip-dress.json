@@ -1,0 +1,26 @@
+{
+  "id": "turnip-dress",
+  "name": "Turnip Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 155
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 620
+        }
+      ]
+    }
+  }
+}

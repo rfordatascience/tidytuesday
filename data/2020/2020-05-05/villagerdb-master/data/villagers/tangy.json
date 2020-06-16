@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "6-17",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "chain-gang-shirt",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "chain-gang-shirt",
+      "song": "K.K. Island"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "chain-gang-tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR",
+      "quote": "They say cats hate citrus. THAT REALLY HURTS MY FEELINGS!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "chain-gang-tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "chain-gang-tee",
+      "song": "K.K. Island",
+      "phrase": "reeeeOWR",
+      "skill": "Doing handstands",
+      "goal": "Hair stylist",
+      "fear": "Werewolf Hood",
+      "quote": "When life gives you lemons, make lemonade.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "reeeeOWR",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "Tangy",
+  "id": "tangy"
+}

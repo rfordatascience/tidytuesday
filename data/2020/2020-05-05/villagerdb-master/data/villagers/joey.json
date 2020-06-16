@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "1-3",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "no-3-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "bleeeeeck"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "no-3-shirt",
+      "song": "K.K. Calypso"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "no-3-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "bleeeeeck",
+      "quote": "Don't get your feathers all ruffled. Just chill."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "no-3-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "bleeeeeck"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "no-3-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "bleeeeeck",
+      "skill": "Blowing bubbles",
+      "goal": "Sumo wrestler",
+      "fear": "Monster Mask",
+      "quote": "Don't get your feathers all ruffled. Just chill.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "bleeeeeck",
+      "song": "K.K. Calypso"
+    }
+  },
+  "name": "Joey",
+  "id": "joey"
+}

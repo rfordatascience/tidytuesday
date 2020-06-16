@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "7-17",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "six-ball-shirt",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "six-ball-shirt",
+      "song": "K.K. Waltz"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "six-ball-tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy",
+      "quote": "You gotta want it!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "six-ball-tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "six-ball-tee",
+      "song": "K.K. Waltz",
+      "phrase": "heeeeeyy",
+      "skill": "Tongue twisters",
+      "goal": "Race car driver",
+      "fear": "Skeleton Hood",
+      "quote": "He who hesitates has lost!",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Killimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "heeeeeyy",
+      "song": "K.K. Waltz"
+    }
+  },
+  "name": "Jay",
+  "id": "jay"
+}

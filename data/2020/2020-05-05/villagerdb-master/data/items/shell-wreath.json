@@ -1,0 +1,19 @@
+{
+  "id": "shell-wreath",
+  "name": "Shell Wreath",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4720
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 18880
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

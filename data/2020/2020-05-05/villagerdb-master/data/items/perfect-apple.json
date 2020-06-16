@@ -1,0 +1,17 @@
+{
+  "id": "perfect-apple",
+  "name": "Perfect Apple",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Perfect apple tree"
+      ]
+    }
+  }
+}

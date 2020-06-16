@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "11-5",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "checkered-shirt",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "checkered-shirt",
+      "song": "K.K. Safari"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo",
+      "quote": "I'm always watching you!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "checkered-tee",
+      "song": "K.K. Safari",
+      "phrase": "ah-rooooo",
+      "skill": "Fishing",
+      "goal": "Forest ranger",
+      "fear": "Werewolf Hood",
+      "quote": "If it's not one thing, it's another.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "ah-rooooo",
+      "song": "K.K. Safari"
+    }
+  },
+  "name": "Lobo",
+  "id": "lobo"
+}

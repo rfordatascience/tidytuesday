@@ -1,0 +1,35 @@
+{
+  "id": "modern-wall",
+  "name": "Modern Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Modern",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 363
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "digby",
+        "raddle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1452
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "glass-teapot",
+  "name": "Glass Teapot",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "claude",
+        "ketchup"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

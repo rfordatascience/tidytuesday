@@ -1,0 +1,23 @@
+{
+  "id": "new-years-cards",
+  "name": "New Year's Cards",
+  "category": "Stationery",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 160
+        }
+      ]
+    }
+  }
+}

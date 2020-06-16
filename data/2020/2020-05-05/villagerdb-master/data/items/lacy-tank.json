@@ -1,0 +1,19 @@
+{
+  "id": "lacy-tank",
+  "name": "Lacy Tank",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 212
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 850
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

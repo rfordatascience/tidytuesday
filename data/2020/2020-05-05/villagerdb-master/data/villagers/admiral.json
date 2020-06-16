@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "1-27",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "orange-pinstripe",
+      "song": "Steep Hill",
+      "phrase": "aye aye"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "orange-pinstripe",
+      "song": "Steep Hill"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "brown-bar-tee",
+      "song": "Steep Hill",
+      "phrase": "aye aye",
+      "skill": "Writing about pickles",
+      "goal": "Fisherman",
+      "fear": "Bug Mask",
+      "quote": "Only quitters give up.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "aye aye",
+      "song": "Steep Hill"
+    }
+  },
+  "name": "Admiral",
+  "id": "admiral"
+}

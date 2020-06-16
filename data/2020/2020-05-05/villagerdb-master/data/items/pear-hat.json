@@ -1,0 +1,18 @@
+{
+  "id": "pear-hat",
+  "name": "Pear Hat",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "recipe": {
+        "pear": 5
+      }
+    }
+  },
+  "category": "Hats"
+}

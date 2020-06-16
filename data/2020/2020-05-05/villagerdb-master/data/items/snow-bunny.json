@@ -1,0 +1,21 @@
+{
+  "id": "snow-bunny",
+  "name": "Snow Bunny",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Snowtyke"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hello-kitty-table",
+  "name": "Hello Kitty Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "rilla"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

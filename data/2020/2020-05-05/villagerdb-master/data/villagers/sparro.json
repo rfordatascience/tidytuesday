@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "11-20",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "bb-tee",
+      "song": "Steep Hill",
+      "phrase": "like whoa",
+      "skill": "Writing about pickles",
+      "goal": "Musician",
+      "fear": "Skeleton Hood",
+      "quote": "The proof of the pudding is in the eating.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "like whoa",
+      "song": "Steep Hill"
+    }
+  },
+  "name": "Sparro",
+  "id": "sparro"
+}

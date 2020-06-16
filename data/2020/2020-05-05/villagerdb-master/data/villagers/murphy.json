@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "12-29",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "static-shirt",
+      "song": "K.K. D & B",
+      "phrase": "laddie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "K.K. D & B"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "purple-tie-dye-tee",
+      "song": "Pondering",
+      "phrase": "laddie",
+      "skill": "Brainteasers",
+      "goal": "Teacher",
+      "fear": "Skeleton Hood",
+      "quote": "More money, more problems.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "laddie",
+      "song": "Pondering"
+    }
+  },
+  "name": "Murphy",
+  "id": "murphy"
+}

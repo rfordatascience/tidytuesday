@@ -1,0 +1,23 @@
+{
+  "id": "studio-spotlight",
+  "name": "Studio Spotlight",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook shopping"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

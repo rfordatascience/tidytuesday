@@ -1,0 +1,17 @@
+{
+  "id": "plesio-tail",
+  "name": "Plesio Tail",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      }
+    }
+  },
+  "category": "Fossils"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "jungle-floor",
+  "name": "Jungle Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Museum Shop (donate 50 insects or more)"
+      ],
+      "rvs": [
+        "nat"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

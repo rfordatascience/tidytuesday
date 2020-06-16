@@ -1,0 +1,23 @@
+{
+  "id": "tee-parka-combo",
+  "name": "Tee-parka Combo",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

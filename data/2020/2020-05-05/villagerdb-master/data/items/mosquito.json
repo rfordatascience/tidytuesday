@@ -1,0 +1,30 @@
+{
+  "id": "mosquito",
+  "name": "Mosquito",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 130
+      },
+      "sources": [
+        "In the air."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 130
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 520
+        }
+      ]
+    }
+  }
+}

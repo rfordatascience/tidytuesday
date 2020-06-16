@@ -1,0 +1,19 @@
+{
+  "id": "letter-jacket",
+  "name": "Letter Jacket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 270
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1080
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

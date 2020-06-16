@@ -1,0 +1,27 @@
+{
+  "id": "dab",
+  "name": "Dab",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Sea (Oct-Apr)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lace-up-dress",
+  "name": "Lace-up Dress",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

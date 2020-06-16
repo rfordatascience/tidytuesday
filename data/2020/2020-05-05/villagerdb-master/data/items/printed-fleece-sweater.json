@@ -1,0 +1,19 @@
+{
+  "id": "printed-fleece-sweater",
+  "name": "Printed Fleece Sweater",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 315
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1260
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

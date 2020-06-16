@@ -1,0 +1,20 @@
+{
+  "id": "food-mess",
+  "name": "Food Mess",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 122
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 490
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

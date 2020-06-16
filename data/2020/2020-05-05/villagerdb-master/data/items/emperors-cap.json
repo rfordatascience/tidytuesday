@@ -1,0 +1,31 @@
+{
+  "id": "emperors-cap",
+  "name": "Emperor's Cap",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "sources": [
+        "Labelle (JP",
+        "3/1 through 3/3)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1320
+        }
+      ]
+    }
+  }
+}

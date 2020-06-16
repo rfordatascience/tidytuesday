@@ -1,0 +1,19 @@
+{
+  "id": "wind-turbine",
+  "name": "Wind Turbine",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 80000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

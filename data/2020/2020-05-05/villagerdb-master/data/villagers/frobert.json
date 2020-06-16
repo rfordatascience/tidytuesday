@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "2-8",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "gracies-top",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "gracies-top",
+      "song": "My Place"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "gracie-tank",
+      "song": "My Place",
+      "phrase": "fribbit",
+      "quote": "I don't wanna see any lily-livered jumping! Always aim high!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "gracie-tank",
+      "song": "My Place",
+      "phrase": "fribbit"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "gracie-tank",
+      "song": "My Place",
+      "phrase": "fribbit",
+      "skill": "Eating quickly",
+      "goal": "Artist",
+      "fear": "Bug Mask",
+      "quote": "Always aim high!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "fribbit",
+      "song": "My Place"
+    }
+  },
+  "name": "Frobert",
+  "id": "frobert"
+}

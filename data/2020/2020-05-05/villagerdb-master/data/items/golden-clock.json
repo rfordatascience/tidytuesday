@@ -1,0 +1,21 @@
+{
+  "id": "golden-clock",
+  "name": "Golden Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "set": "Golden",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ]
+    }
+  }
+}

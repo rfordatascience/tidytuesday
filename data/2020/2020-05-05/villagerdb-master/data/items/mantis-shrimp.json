@@ -1,0 +1,17 @@
+{
+  "id": "mantis-shrimp",
+  "name": "Mantis Shrimp",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

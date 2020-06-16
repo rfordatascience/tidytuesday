@@ -1,0 +1,14 @@
+{
+  "id": "great-white-shark",
+  "name": "Great White Shark",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      }
+    }
+  },
+  "category": "Fish"
+}

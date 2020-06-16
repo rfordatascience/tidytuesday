@@ -1,0 +1,30 @@
+{
+  "id": "cool-globe",
+  "name": "Cool Globe",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "Nature Day (Isabelle -- NA only)"
+      ],
+      "rvs": [
+        "billy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

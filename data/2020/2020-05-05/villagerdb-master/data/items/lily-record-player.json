@@ -1,0 +1,33 @@
+{
+  "id": "lily-record-player",
+  "name": "Lily Record Player",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 620
+      },
+      "sources": [
+        "Leif (Weeding Day -- The Town Cleanup Prize)"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3010
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12040
+        }
+      ]
+    }
+  }
+}

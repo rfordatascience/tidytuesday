@@ -1,0 +1,22 @@
+{
+  "id": "old-flooring",
+  "name": "Old Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (Neighbor trick)"
+      ],
+      "rvs": [
+        "resetti"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

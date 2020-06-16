@@ -1,0 +1,24 @@
+{
+  "id": "gold-hha-plaque",
+  "name": "Gold Hha Plaque",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "HHA (70",
+        "000 points)"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      }
+    }
+  }
+}

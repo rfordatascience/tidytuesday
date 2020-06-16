@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "9-17",
+  "games": {
+    "ww": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy",
+      "quote": "If you even THINK about crossing me, just think about these pearly whites!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Lucky K.K.",
+      "phrase": "snappy",
+      "skill": "Typing",
+      "goal": "Makeup artist",
+      "fear": "Bug Mask",
+      "quote": "Don't cry wolf unless you mean it.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "snappy",
+      "song": "Lucky K.K."
+    }
+  },
+  "name": "Whitney",
+  "id": "whitney"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-19",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "red-bar-shirt",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "red-bar-shirt",
+      "song": "DJ K.K."
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "red-bar-tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph",
+      "quote": "Harrumph!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "red-bar-tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "red-bar-tee",
+      "song": "DJ K.K.",
+      "phrase": "harrumph",
+      "skill": "Speed-reading",
+      "goal": "Poet",
+      "fear": "Werewolf Hood",
+      "quote": "Don't wish it was easier; wish you were better.",
+      "siblings": "Older twin brother",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "harrumph",
+      "song": "DJ K.K."
+    }
+  },
+  "name": "Chief",
+  "id": "chief"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "blossoming-dress",
+  "name": "Blossoming Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 155
+      },
+      "sources": [
+        "Able Sisters (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 620
+        }
+      ]
+    }
+  }
+}

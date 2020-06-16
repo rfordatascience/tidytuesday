@@ -1,0 +1,19 @@
+{
+  "id": "aran-knit-socks",
+  "name": "Aran-knit Socks",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 180
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 720
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

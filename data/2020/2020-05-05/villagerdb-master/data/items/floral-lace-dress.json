@@ -1,0 +1,19 @@
+{
+  "id": "floral-lace-dress",
+  "name": "Floral Lace Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 455
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1820
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

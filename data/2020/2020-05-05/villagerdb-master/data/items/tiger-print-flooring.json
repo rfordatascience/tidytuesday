@@ -1,0 +1,19 @@
+{
+  "id": "tiger-print-flooring",
+  "name": "Tiger-print Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

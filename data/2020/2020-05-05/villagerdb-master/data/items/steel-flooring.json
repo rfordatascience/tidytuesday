@@ -1,0 +1,47 @@
+{
+  "id": "steel-flooring",
+  "name": "Steel Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "admiral"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 21000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "raccoon-wall-clock",
+  "name": "Raccoon Wall Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "DLC"
+      ],
+      "rvs": [
+        "tom-nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

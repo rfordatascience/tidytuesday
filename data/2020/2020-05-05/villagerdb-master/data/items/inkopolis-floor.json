@@ -1,0 +1,21 @@
+{
+  "id": "inkopolis-floor",
+  "name": "Inkopolis Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cece",
+        "viche"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

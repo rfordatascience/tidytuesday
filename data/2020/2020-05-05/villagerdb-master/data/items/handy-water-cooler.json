@@ -1,0 +1,19 @@
+{
+  "id": "handy-water-cooler",
+  "name": "Handy Water Cooler",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

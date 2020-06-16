@@ -1,0 +1,23 @@
+{
+  "id": "marimba",
+  "name": "Marimba",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1075
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4300
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

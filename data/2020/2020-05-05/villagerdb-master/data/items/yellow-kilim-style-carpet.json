@@ -1,0 +1,19 @@
+{
+  "id": "yellow-kilim-style-carpet",
+  "name": "Yellow Kilim-style Carpet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

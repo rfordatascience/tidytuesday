@@ -1,0 +1,17 @@
+{
+  "id": "bamboo-piece",
+  "name": "Bamboo Piece",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hitting bamboo with an axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      }
+    }
+  },
+  "category": "Usables"
+}

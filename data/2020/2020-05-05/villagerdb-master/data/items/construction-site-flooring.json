@@ -1,0 +1,23 @@
+{
+  "id": "construction-site-flooring",
+  "name": "Construction-site Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Saharah"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bamboo-flooring",
+  "name": "Bamboo Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9600
+        }
+      ],
+      "recipe": {
+        "bamboo-piece": 15
+      }
+    }
+  }
+}

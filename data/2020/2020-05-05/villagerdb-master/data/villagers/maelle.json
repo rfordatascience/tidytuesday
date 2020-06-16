@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "4-8",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "red-aloha-shirt",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "red-aloha-shirt",
+      "song": "Cafe K.K."
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "heart-tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling",
+      "quote": "I like long walks on the beach. Alone."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "heart-tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "heart-tee",
+      "song": "Cafe K.K.",
+      "phrase": "duckling",
+      "fear": "Mummy Mask",
+      "quote": "A wise duck takes care of her bill.",
+      "skill": "Stomping around",
+      "goal": "Makeup artist",
+      "siblings": "Second of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "duckling",
+      "song": "Cafe K.K."
+    }
+  },
+  "name": "Maelle",
+  "id": "maelle"
+}

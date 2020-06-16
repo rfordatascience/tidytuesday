@@ -1,0 +1,19 @@
+{
+  "id": "ladybug-umbrella",
+  "name": "Ladybug Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

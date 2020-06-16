@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "9-26",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "club-shirt",
+      "song": "Mr. K.K.",
+      "phrase": "grooof"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "club-shirt",
+      "song": "Mr. K.K."
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "club-tee",
+      "song": "Mr. K.K.",
+      "phrase": "grooof",
+      "quote": "You gotta play through the pain!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "club-tee",
+      "song": "Mr. K.K.",
+      "phrase": "grooof"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "club-tee",
+      "song": "Mr. K.K.",
+      "phrase": "grooof",
+      "skill": "Playing Old Maid",
+      "goal": "Police officer",
+      "fear": "Mummy Mask",
+      "quote": "No pain, no gain!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "grooof",
+      "song": "Mr. K.K."
+    }
+  },
+  "name": "Teddy",
+  "id": "teddy"
+}

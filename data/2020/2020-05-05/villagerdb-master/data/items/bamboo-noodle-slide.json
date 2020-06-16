@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-noodle-slide",
+  "name": "Bamboo Noodle Slide",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3160
+      },
+      "recipe": {
+        "young-spring-bamboo": 7,
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

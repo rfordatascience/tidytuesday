@@ -1,0 +1,27 @@
+{
+  "id": "modern-tile",
+  "name": "Modern Tile",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Modern",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 385
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1540
+        }
+      ]
+    }
+  }
+}

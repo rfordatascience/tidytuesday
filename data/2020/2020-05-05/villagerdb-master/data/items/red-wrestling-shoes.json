@@ -1,0 +1,27 @@
+{
+  "id": "red-wrestling-shoes",
+  "name": "Red Wrestling Shoes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Pro Wrestler Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 225
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 900
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "green-tights",
+  "name": "Green Tights",
+  "category": "Socks",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200
+        }
+      ]
+    }
+  }
+}

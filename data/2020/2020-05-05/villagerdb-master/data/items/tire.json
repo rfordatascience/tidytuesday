@@ -1,0 +1,17 @@
+{
+  "id": "tire",
+  "name": "Tire",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": -80
+      },
+      "sources": [
+        "Freshwater or sea (shadow)"
+      ]
+    }
+  }
+}

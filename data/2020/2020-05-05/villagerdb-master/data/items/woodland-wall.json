@@ -1,0 +1,27 @@
+{
+  "id": "woodland-wall",
+  "name": "Woodland Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Villagers (recipe)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1380
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5520
+        }
+      ],
+      "recipe": {
+        "clump-of-weeds": 15,
+        "softwood": 9
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

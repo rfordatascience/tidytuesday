@@ -1,0 +1,20 @@
+{
+  "id": "sleeveless-sweater-dress",
+  "name": "Sleeveless Sweater Dress",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

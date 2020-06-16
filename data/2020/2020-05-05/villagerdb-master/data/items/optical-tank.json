@@ -1,0 +1,29 @@
+{
+  "id": "optical-tank",
+  "name": "Optical Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 280
+        }
+      ]
+    }
+  }
+}

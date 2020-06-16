@@ -1,0 +1,20 @@
+{
+  "id": "drone-beetle",
+  "name": "Drone Beetle",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Bugs"
+}

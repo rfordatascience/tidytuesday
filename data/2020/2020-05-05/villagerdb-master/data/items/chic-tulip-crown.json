@@ -1,0 +1,19 @@
+{
+  "id": "chic-tulip-crown",
+  "name": "Chic Tulip Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1440
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5760
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

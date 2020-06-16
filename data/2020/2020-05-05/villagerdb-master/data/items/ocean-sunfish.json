@@ -1,0 +1,24 @@
+{
+  "id": "ocean-sunfish",
+  "name": "Ocean Sunfish",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      }
+    }
+  }
+}

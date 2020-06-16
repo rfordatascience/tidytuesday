@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "11-13",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "laced-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Gumbo"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "laced-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken",
+      "quote": "No retouching necessary!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "laced-shirt",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "amethyst-tank",
+      "song": "K.K. Gumbo",
+      "phrase": "chicken",
+      "skill": "Hitting snooze",
+      "goal": "Dancer",
+      "fear": "Mummy Mask",
+      "quote": "You never get a second chance to make a first impression.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "chicken",
+      "song": "K.K. Gumbo"
+    }
+  },
+  "name": "Queenie",
+  "id": "queenie"
+}

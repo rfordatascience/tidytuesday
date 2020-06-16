@@ -1,0 +1,26 @@
+{
+  "id": "aurora-screen",
+  "name": "Aurora Screen",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1020
+      },
+      "sources": [
+        "DLC"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4080
+        }
+      ]
+    }
+  }
+}

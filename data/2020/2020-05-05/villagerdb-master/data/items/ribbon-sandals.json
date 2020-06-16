@@ -1,0 +1,19 @@
+{
+  "id": "ribbon-sandals",
+  "name": "Ribbon Sandals",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "butterfly-shirt",
+  "name": "Butterfly Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    }
+  }
+}

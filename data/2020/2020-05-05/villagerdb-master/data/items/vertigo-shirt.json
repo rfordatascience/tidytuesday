@@ -1,0 +1,61 @@
+{
+  "id": "vertigo-shirt",
+  "name": "Vertigo Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Historical"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    }
+  }
+}

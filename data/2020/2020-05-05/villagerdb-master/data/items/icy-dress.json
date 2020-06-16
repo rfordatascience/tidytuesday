@@ -1,0 +1,19 @@
+{
+  "id": "icy-dress",
+  "name": "Icy Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

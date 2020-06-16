@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# R project
+.Rproj
+
 # Session Data files
 .RData
 
@@ -32,3 +35,4 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 .Rproj.user
+tidytuesday_github.Rproj

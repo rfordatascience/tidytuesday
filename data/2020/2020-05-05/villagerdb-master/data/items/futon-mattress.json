@@ -1,0 +1,22 @@
+{
+  "id": "futon-mattress",
+  "name": "Futon Mattress",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "hornsby",
+        "kappn",
+        "wade"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "8-13",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "fish-bone-shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "fish-bone-shirt",
+      "song": "To the Edge"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "bone-shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW",
+      "quote": "This is my new headshot!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "bone-shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "bone-shirt",
+      "song": "To the Edge",
+      "phrase": "me-WOW",
+      "skill": "Telling jokes",
+      "goal": "Tennis player",
+      "fear": "Werewolf Hood",
+      "quote": "You can never have too much of a good thing!",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "me-WOW",
+      "song": "To the Edge"
+    }
+  },
+  "name": "Tabby",
+  "id": "tabby"
+}

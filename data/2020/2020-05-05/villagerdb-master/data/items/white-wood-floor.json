@@ -1,0 +1,25 @@
+{
+  "id": "white-wood-floor",
+  "name": "White Wood Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "rvs": [
+        "jingle",
+        "june"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

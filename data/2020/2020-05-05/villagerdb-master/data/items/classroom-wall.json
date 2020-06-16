@@ -1,0 +1,30 @@
+{
+  "id": "classroom-wall",
+  "name": "Classroom Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "set": "Classroom",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "leopold"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

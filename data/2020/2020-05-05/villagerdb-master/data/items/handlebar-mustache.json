@@ -1,0 +1,19 @@
+{
+  "id": "handlebar-mustache",
+  "name": "Handlebar Mustache",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

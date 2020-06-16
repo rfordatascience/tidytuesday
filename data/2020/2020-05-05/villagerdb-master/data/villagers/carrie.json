@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "12-5",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "toad-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "little one"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "toad-shirt",
+      "song": "K.K. Lullaby"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "toad-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "little one",
+      "skill": "Making budgets",
+      "goal": "Illustrator",
+      "fear": "Werewolf Hood",
+      "quote": "A mother's work is never done.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "none at all",
+        "sugar": "none at all"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "little one",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Carrie",
+  "id": "carrie"
+}

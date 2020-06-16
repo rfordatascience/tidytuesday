@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "10-14",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "swell-shirt",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "swell-shirt",
+      "song": "K.K. Technopop"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "swell-tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh",
+      "quote": "Napping is when I do my best thinking."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "swell-tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "swell-tee",
+      "song": "K.K. Technopop",
+      "phrase": "doodle-duh",
+      "skill": "Cramming for tests",
+      "goal": "Astronaut",
+      "fear": "Skeleton Hood",
+      "quote": "You gotta break a few eggs to make an omelet.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "doodle-duh",
+      "song": "K.K. Technopop"
+    }
+  },
+  "name": "Egbert",
+  "id": "egbert"
+}

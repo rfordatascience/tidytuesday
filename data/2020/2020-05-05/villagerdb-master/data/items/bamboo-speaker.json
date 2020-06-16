@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-speaker",
+  "name": "Bamboo Speaker",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1230
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4920
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

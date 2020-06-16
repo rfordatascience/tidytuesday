@@ -1,0 +1,17 @@
+{
+  "id": "giant-clam-shell",
+  "name": "Giant-clam Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

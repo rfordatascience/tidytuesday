@@ -1,0 +1,37 @@
+{
+  "id": "pot-rack",
+  "name": "Pot Rack",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "sources": [
+        "Nookling stores (wall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  }
+}

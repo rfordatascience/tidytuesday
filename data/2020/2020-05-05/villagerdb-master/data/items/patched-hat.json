@@ -1,0 +1,13 @@
+{
+  "id": "patched-hat",
+  "name": "Patched Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Halloween (Neighbor trick)"
+      ]
+    }
+  }
+}

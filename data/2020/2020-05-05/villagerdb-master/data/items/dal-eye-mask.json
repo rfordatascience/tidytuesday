@@ -1,0 +1,17 @@
+{
+  "id": "dal-eye-mask",
+  "name": "Dal Eye Mask",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "In the mail"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1010
+      }
+    }
+  },
+  "category": "Accessories"
+}

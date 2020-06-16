@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "12-15",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "tuxedo",
+      "song": "K.K. Soul",
+      "phrase": "fromage",
+      "skill": "Cramming for tests",
+      "goal": "Actor",
+      "fear": "Bug Mask",
+      "quote": "Meeting is just the start of us saying good-bye.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "fromage",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Chadder",
+  "id": "chadder"
+}

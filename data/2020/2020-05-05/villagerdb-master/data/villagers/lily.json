@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "2-4",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Salsa",
+      "phrase": "toady"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Salsa"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Salsa",
+      "phrase": "toady",
+      "quote": "Don't jump to conclusions!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Salsa",
+      "phrase": "toady"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Salsa",
+      "phrase": "toady",
+      "skill": "Calligraphy",
+      "goal": "Professor",
+      "fear": "Ghost Mask",
+      "quote": "Don't jump to conclusions!",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "toady",
+      "song": "K.K. Salsa"
+    }
+  },
+  "name": "Lily",
+  "id": "lily"
+}

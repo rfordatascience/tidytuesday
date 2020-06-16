@@ -1,0 +1,19 @@
+{
+  "id": "mush-wall",
+  "name": "Mush Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 21400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 85600
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

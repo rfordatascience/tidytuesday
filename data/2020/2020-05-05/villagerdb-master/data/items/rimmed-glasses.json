@@ -1,0 +1,42 @@
+{
+  "id": "rimmed-glasses",
+  "name": "Rimmed Glasses",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Historical"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 240
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 157
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 630
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "red-argyle-shirt",
+  "name": "Red Argyle Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1450
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5800
+        }
+      ]
+    }
+  }
+}

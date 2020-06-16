@@ -1,0 +1,13 @@
+{
+  "id": "vinegar",
+  "name": "Vinegar",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Harvest Festival (villagers)"
+      ]
+    }
+  }
+}

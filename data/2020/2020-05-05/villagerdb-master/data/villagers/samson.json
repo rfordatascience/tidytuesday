@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "7-5",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "airy-shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "airy-shirt",
+      "song": "Go K.K. Rider!"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "airy-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak",
+      "quote": "This isn't a dress I'm wearing! It's a muscle tee!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "airy-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "airy-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "pipsqueak",
+      "skill": "Eating frequently",
+      "goal": "Photographer",
+      "fear": "Bug Mask",
+      "quote": "Squeak softly and carry a big stick.",
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "pipsqueak",
+      "song": "Go K.K. Rider!"
+    }
+  },
+  "name": "Samson",
+  "id": "samson"
+}

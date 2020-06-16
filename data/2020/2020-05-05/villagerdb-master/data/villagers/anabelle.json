@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-16",
+  "games": {
+    "ww": {
+      "personality": "peppy",
+      "clothes": "tropical-tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty",
+      "quote": "I'll remember you even when I'm famous!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "tropical-tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "tropical-tee",
+      "song": "Aloha K.K.",
+      "phrase": "snorty",
+      "skill": "Jumping rope",
+      "goal": "Judge",
+      "fear": "Ghost Mask",
+      "quote": "Dance like no one's watching!",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "snorty",
+      "song": "Aloha K.K."
+    }
+  },
+  "name": "Anabelle",
+  "id": "anabelle"
+}

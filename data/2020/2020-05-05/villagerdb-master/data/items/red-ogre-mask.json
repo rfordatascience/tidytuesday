@@ -1,0 +1,25 @@
+{
+  "id": "red-ogre-mask",
+  "name": "Red Ogre Mask",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      },
+      "sources": [
+        "Bean Day (JP",
+        "Isabelle)"
+      ]
+    }
+  }
+}

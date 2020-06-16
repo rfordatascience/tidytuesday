@@ -1,0 +1,19 @@
+{
+  "id": "cute-blue-tile-flooring",
+  "name": "Cute Blue-tile Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 195
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 780
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

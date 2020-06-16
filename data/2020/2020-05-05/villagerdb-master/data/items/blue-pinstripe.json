@@ -1,0 +1,39 @@
+{
+  "id": "blue-pinstripe",
+  "name": "Blue Pinstripe",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Fall)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Fall)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    }
+  }
+}

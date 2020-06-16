@@ -1,0 +1,19 @@
+{
+  "id": "nova-light",
+  "name": "Nova Light",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 10000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

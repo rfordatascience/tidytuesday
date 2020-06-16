@@ -1,0 +1,23 @@
+{
+  "id": "neon-leggings",
+  "name": "Neon Leggings",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 135
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 540
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "small-space-console",
+  "name": "Small Space Console",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 670
+      },
+      "sources": [
+        "Nookling stores (Spotlight)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2680
+        }
+      ]
+    }
+  }
+}

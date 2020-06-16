@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "12-7",
+  "games": {
+    "ww": {
+      "personality": "cranky",
+      "clothes": "blue-bar-tee",
+      "song": "Pondering",
+      "phrase": "g'tang",
+      "quote": "What are YOU looking at?!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "blue-bar-tee",
+      "song": "Pondering",
+      "phrase": "g'tang"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "blue-bar-tee",
+      "song": "Pondering",
+      "phrase": "g'tang",
+      "skill": "Yo-yoing",
+      "goal": "Detective",
+      "fear": "Skeleton Hood",
+      "quote": "No news is good news.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "g'tang",
+      "song": "Pondering"
+    }
+  },
+  "name": "Monty",
+  "id": "monty"
+}

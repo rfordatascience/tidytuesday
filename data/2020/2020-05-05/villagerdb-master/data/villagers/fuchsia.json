@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "9-19",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "dark-polka-tee",
+      "song": "K.K. Rock",
+      "phrase": "girlfriend",
+      "skill": "Home repair",
+      "goal": "Makeup artist",
+      "fear": "Ghost Mask",
+      "quote": "It takes one to know one.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "girlfriend",
+      "song": "K.K. Rock"
+    }
+  },
+  "name": "Fuchsia",
+  "id": "fuchsia"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "fruit-panel-wall",
+  "name": "Fruit-panel Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "Play more Story Mode in Puzzle League"
+      ]
+    }
+  }
+}

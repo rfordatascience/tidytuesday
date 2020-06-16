@@ -1,0 +1,17 @@
+{
+  "id": "pink-lily",
+  "name": "Pink Lily",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Hybrid - From White and Red Lily."
+      ]
+    }
+  }
+}

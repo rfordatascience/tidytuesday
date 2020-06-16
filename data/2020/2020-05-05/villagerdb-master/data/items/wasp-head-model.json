@@ -1,0 +1,19 @@
+{
+  "id": "wasp-head-model",
+  "name": "Wasp-head Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

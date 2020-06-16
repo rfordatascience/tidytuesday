@@ -1,0 +1,17 @@
+{
+  "id": "snowboard",
+  "name": "Snowboard",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "sources": [
+        "Snowman"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "12-10",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "bb-shirt",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "bb-shirt",
+      "song": "K.K. Rally"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "bb-tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "bb-tee",
+      "song": "K.K. Rally",
+      "phrase": "me-YOWZA",
+      "skill": "Doing chin-ups",
+      "goal": "Guitarist",
+      "fear": "Skeleton Hood",
+      "quote": "There's no use crying over spilled milk.",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "me-YOWZA",
+      "song": "K.K. Rally"
+    }
+  },
+  "name": "Tom",
+  "id": "tom"
+}

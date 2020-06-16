@@ -1,0 +1,17 @@
+{
+  "id": "office-flooring",
+  "name": "Office Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1700
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

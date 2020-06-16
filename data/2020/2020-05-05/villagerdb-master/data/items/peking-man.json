@@ -1,0 +1,17 @@
+{
+  "id": "peking-man",
+  "name": "Peking Man",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1100
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

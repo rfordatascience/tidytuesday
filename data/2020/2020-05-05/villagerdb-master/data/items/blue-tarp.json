@@ -1,0 +1,30 @@
+{
+  "id": "blue-tarp",
+  "name": "Blue Tarp",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Construction",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "boyd"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

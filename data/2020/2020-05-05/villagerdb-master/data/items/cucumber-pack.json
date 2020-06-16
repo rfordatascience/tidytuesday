@@ -1,0 +1,38 @@
+{
+  "id": "cucumber-pack",
+  "name": "Cucumber Pack",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 122
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 490
+        }
+      ]
+    }
+  }
+}

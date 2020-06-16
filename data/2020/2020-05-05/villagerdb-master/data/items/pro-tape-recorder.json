@@ -1,0 +1,23 @@
+{
+  "id": "pro-tape-recorder",
+  "name": "Pro Tape Recorder",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "octopus",
+  "birthday": "3-8",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "flan-tank",
+      "song": "Spring Blossoms",
+      "phrase": "bloop",
+      "skill": "Baton twirling",
+      "goal": "Chef",
+      "fear": "Bug Mask",
+      "quote": "There's no such thing as luck.",
+      "siblings": "Third quintuplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "bloop",
+      "song": "Spring Blossoms"
+    }
+  },
+  "name": "Zucker",
+  "id": "zucker"
+}

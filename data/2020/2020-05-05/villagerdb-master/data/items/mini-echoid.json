@@ -1,0 +1,21 @@
+{
+  "id": "mini-echoid",
+  "name": "Mini Echoid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious",
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

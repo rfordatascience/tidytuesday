@@ -1,0 +1,17 @@
+{
+  "id": "young-spring-bamboo",
+  "name": "Young Spring Bamboo",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Chopping down bamboo in the spring"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Usables"
+}

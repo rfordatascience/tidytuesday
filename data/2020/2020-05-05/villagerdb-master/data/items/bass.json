@@ -1,0 +1,24 @@
+{
+  "id": "bass",
+  "name": "Bass",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "String Section",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    }
+  }
+}

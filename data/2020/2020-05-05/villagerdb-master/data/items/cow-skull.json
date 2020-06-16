@@ -1,0 +1,24 @@
+{
+  "id": "cow-skull",
+  "name": "Cow Skull",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Western",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 255
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1020
+        }
+      ]
+    }
+  }
+}

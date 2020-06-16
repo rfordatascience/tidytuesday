@@ -1,0 +1,33 @@
+{
+  "id": "wildflower-floor",
+  "name": "Wildflower Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "maddie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

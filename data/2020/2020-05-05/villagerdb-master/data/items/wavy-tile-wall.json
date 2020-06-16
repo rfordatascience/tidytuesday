@@ -1,0 +1,23 @@
+{
+  "id": "wavy-tile-wall",
+  "name": "Wavy-tile Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 435
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1740
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

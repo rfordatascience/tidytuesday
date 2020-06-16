@@ -1,0 +1,15 @@
+{
+  "id": "brick-bridge",
+  "name": "Brick Bridge",
+  "games": {
+    "nh": {
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 198000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

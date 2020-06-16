@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "frog",
+  "birthday": "10-2",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "amethyst-tank",
+      "song": "K.K.  Bazaar",
+      "phrase": "ya know",
+      "skill": "Home repair",
+      "goal": "Hair stylist",
+      "fear": "Ghost Mask",
+      "quote": "Eyes are the windows to the soul.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "ya know",
+      "song": "K.K.  Bazaar"
+    }
+  },
+  "name": "Diva",
+  "id": "diva"
+}

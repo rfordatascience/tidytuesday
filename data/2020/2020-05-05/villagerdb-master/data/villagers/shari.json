@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "monkey",
+  "birthday": "4-10",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "silk-bloom-tee",
+      "song": "K.K. Oasis",
+      "phrase": "cheeky",
+      "skill": "Remembering stuff",
+      "goal": "Figure skater",
+      "fear": "Ghost Mask",
+      "quote": "A good start leads to a good end.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "cheeky",
+      "song": "K.K. Oasis"
+    }
+  },
+  "name": "Shari",
+  "id": "shari"
+}

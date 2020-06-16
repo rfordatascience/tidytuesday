@@ -1,0 +1,42 @@
+{
+  "id": "royal-shirt",
+  "name": "Royal Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "set": "King Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1680
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6720
+        }
+      ]
+    }
+  }
+}

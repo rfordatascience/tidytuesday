@@ -1,0 +1,19 @@
+{
+  "id": "golden-seat",
+  "name": "Golden Seat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

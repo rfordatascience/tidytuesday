@@ -1,0 +1,40 @@
+{
+  "id": "scholars-hat",
+  "name": "Scholar's Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Scholar Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 752
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3010
+        }
+      ]
+    }
+  }
+}

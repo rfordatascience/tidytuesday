@@ -1,0 +1,45 @@
+{
+  "id": "ballet-slippers",
+  "name": "Ballet Slippers",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  }
+}

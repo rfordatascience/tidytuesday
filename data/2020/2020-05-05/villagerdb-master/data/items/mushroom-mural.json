@@ -1,0 +1,21 @@
+{
+  "id": "mushroom-mural",
+  "name": "Mushroom Mural",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Mario",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #1"
+      ]
+    }
+  }
+}

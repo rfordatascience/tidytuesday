@@ -1,0 +1,41 @@
+{
+  "id": "skeleton-hood",
+  "name": "Skeleton Hood",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 258
+      },
+      "sources": [
+        "Labelle (October)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1032
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  }
+}

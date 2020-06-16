@@ -1,0 +1,26 @@
+{
+  "id": "hello-kitty-hat",
+  "name": "Hello Kitty Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "rilla"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "5-21",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "song": "K.K. Aria",
+      "phrase": "rainbow"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "red-aloha-shirt",
+      "song": "K.K. Aria"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "garden-tank",
+      "song": "K.K. Aria",
+      "phrase": "rainbow",
+      "skill": "Photography",
+      "goal": "Pharmacist",
+      "fear": "Bug Mask",
+      "quote": "Dream big, expect little.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "rainbow",
+      "song": "K.K. Aria"
+    }
+  },
+  "name": "June",
+  "id": "june"
+}

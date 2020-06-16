@@ -1,0 +1,15 @@
+{
+  "id": "log-bridge",
+  "name": "Log Bridge",
+  "games": {
+    "nh": {
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 98000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

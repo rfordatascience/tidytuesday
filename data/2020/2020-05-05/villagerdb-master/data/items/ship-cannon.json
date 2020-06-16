@@ -1,0 +1,21 @@
+{
+  "id": "ship-cannon",
+  "name": "Ship Cannon",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 455
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

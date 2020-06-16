@@ -1,0 +1,20 @@
+{
+  "id": "bomber-style-jacket",
+  "name": "Bomber-style Jacket",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1440
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

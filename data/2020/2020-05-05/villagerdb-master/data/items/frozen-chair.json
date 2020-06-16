@@ -1,0 +1,19 @@
+{
+  "id": "frozen-chair",
+  "name": "Frozen Chair",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 24800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

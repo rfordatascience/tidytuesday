@@ -1,0 +1,18 @@
+{
+  "id": "stone-arch",
+  "name": "Stone Arch",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 13500
+      },
+      "recipe": {
+        "stone": 90
+      }
+    }
+  },
+  "category": "Furniture"
+}

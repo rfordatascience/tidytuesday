@@ -1,0 +1,26 @@
+{
+  "id": "my-melody-shoes",
+  "name": "My Melody Shoes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "chelsea"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

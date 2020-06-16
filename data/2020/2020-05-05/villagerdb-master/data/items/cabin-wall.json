@@ -1,0 +1,46 @@
+{
+  "id": "cabin-wall",
+  "name": "Cabin Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Cabin",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "cyrus"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7200
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pompompurin-pudding",
+  "name": "Pompompurin Pudding",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "marty"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

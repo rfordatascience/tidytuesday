@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "6-19",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "neo-classic-knit",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Fusion"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg",
+      "quote": "Just something to remember me by."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "icy-shirt",
+      "song": "K.K. Fusion",
+      "phrase": "nutmeg",
+      "skill": "Blowing bubbles",
+      "goal": "Chef",
+      "fear": "Skeleton Hood",
+      "quote": "Even the smallest acorn may grow into the tallest tree.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "nutmeg",
+      "song": "K.K. Fusion"
+    }
+  },
+  "name": "Sally",
+  "id": "sally2"
+}

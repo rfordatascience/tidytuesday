@@ -1,0 +1,42 @@
+{
+  "id": "top-hat",
+  "name": "Top Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 480
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tourist-telescope",
+  "name": "Tourist Telescope",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

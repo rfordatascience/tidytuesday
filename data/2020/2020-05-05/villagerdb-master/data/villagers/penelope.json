@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "2-5",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "pink-wave-tank",
+      "song": "Bubblegum K.K.",
+      "phrase": "oh bow",
+      "skill": "Photography",
+      "goal": "Actor",
+      "fear": "Monster Mask",
+      "quote": "One mile or a thousand makes no difference to love.",
+      "siblings": "Younger twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A lot of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "oh bow",
+      "song": "Bubblegum K.K."
+    }
+  },
+  "name": "Penelope",
+  "id": "penelope"
+}

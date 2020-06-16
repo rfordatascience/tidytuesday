@@ -1,0 +1,23 @@
+{
+  "id": "tissue-box",
+  "name": "Tissue Box",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 45
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 180
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

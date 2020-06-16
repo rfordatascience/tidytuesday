@@ -1,0 +1,19 @@
+{
+  "id": "double-door-refrigerator",
+  "name": "Double-door Refrigerator",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 60000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

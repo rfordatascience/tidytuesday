@@ -1,0 +1,27 @@
+{
+  "id": "football-fish",
+  "name": "Football Fish",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Sea (Nov-Mar)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  }
+}

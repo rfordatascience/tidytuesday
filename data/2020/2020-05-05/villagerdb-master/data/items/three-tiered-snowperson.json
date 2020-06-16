@@ -1,0 +1,19 @@
+{
+  "id": "three-tiered-snowperson",
+  "name": "Three-tiered Snowperson",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7420
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 29680
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

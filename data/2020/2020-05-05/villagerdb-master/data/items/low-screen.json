@@ -1,0 +1,43 @@
+{
+  "id": "low-screen",
+  "name": "Low Screen",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Zen",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 217
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 870
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "blue-aloha-shirt",
+  "name": "Blue Aloha Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Island"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Island"
+      ]
+    }
+  }
+}

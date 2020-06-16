@@ -1,0 +1,29 @@
+{
+  "id": "black-veil",
+  "name": "Black Veil",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4000
+        }
+      ]
+    }
+  }
+}

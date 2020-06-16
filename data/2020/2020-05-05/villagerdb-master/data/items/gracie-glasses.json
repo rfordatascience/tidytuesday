@@ -1,0 +1,29 @@
+{
+  "id": "gracie-glasses",
+  "name": "Gracie Glasses",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Modern"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1550
+      },
+      "sources": [
+        "GracieGrace (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6200
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "4-16",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "phrase": "pompom",
+      "clothes": "pompompurin-outfit",
+      "skill": "Hiding shoes",
+      "goal": "Baker",
+      "song": "My Place",
+      "fear": "Ghost Mask",
+      "quote": "Just wait until I get started!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    }
+  },
+  "name": "Marty",
+  "id": "marty"
+}

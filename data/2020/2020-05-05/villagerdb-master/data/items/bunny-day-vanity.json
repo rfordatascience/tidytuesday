@@ -1,0 +1,18 @@
+{
+  "id": "bunny-day-vanity",
+  "name": "Bunny Day Vanity",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "recipe": {
+        "leaf-egg": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

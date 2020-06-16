@@ -1,0 +1,451 @@
+service,component,severity,diagnosed,year
+Army,Active,Penetrating,189,2006
+Army,Active,Severe,102,2006
+Army,Active,Moderate,709,2006
+Army,Active,Mild,5896,2006
+Army,Active,Not Classifiable,122,2006
+Army,Guard,Penetrating,33,2006
+Army,Guard,Severe,26,2006
+Army,Guard,Moderate,177,2006
+Army,Guard,Mild,1332,2006
+Army,Guard,Not Classifiable,29,2006
+Army,Reserve,Penetrating,12,2006
+Army,Reserve,Severe,11,2006
+Army,Reserve,Moderate,63,2006
+Army,Reserve,Mild,541,2006
+Army,Reserve,Not Classifiable,12,2006
+Navy,Active,Penetrating,29,2006
+Navy,Active,Severe,28,2006
+Navy,Active,Moderate,217,2006
+Navy,Active,Mild,2143,2006
+Navy,Active,Not Classifiable,56,2006
+Navy,Reserve,Penetrating,NA,2006
+Navy,Reserve,Severe,1,2006
+Navy,Reserve,Moderate,19,2006
+Navy,Reserve,Mild,165,2006
+Navy,Reserve,Not Classifiable,5,2006
+Air Force,Active,Penetrating,21,2006
+Air Force,Active,Severe,24,2006
+Air Force,Active,Moderate,194,2006
+Air Force,Active,Mild,1966,2006
+Air Force,Active,Not Classifiable,30,2006
+Air Force,Guard,Penetrating,5,2006
+Air Force,Guard,Severe,4,2006
+Air Force,Guard,Moderate,20,2006
+Air Force,Guard,Mild,167,2006
+Air Force,Guard,Not Classifiable,8,2006
+Air Force,Reserve,Penetrating,NA,2006
+Air Force,Reserve,Severe,2,2006
+Air Force,Reserve,Moderate,12,2006
+Air Force,Reserve,Mild,114,2006
+Air Force,Reserve,Not Classifiable,3,2006
+Marines,Active,Penetrating,53,2006
+Marines,Active,Severe,28,2006
+Marines,Active,Moderate,269,2006
+Marines,Active,Mild,1891,2006
+Marines,Active,Not Classifiable,23,2006
+Marines,Reserve,Penetrating,5,2006
+Marines,Reserve,Severe,5,2006
+Marines,Reserve,Moderate,33,2006
+Marines,Reserve,Mild,222,2006
+Marines,Reserve,Not Classifiable,7,2006
+Army,Active,Penetrating,237,2007
+Army,Active,Severe,134,2007
+Army,Active,Moderate,1126,2007
+Army,Active,Mild,8977,2007
+Army,Active,Not Classifiable,249,2007
+Army,Guard,Penetrating,30,2007
+Army,Guard,Severe,28,2007
+Army,Guard,Moderate,246,2007
+Army,Guard,Mild,2418,2007
+Army,Guard,Not Classifiable,50,2007
+Army,Reserve,Penetrating,13,2007
+Army,Reserve,Severe,8,2007
+Army,Reserve,Moderate,106,2007
+Army,Reserve,Mild,876,2007
+Army,Reserve,Not Classifiable,24,2007
+Navy,Active,Penetrating,38,2007
+Navy,Active,Severe,18,2007
+Navy,Active,Moderate,258,2007
+Navy,Active,Mild,2240,2007
+Navy,Active,Not Classifiable,55,2007
+Navy,Reserve,Penetrating,1,2007
+Navy,Reserve,Severe,1,2007
+Navy,Reserve,Moderate,16,2007
+Navy,Reserve,Mild,189,2007
+Navy,Reserve,Not Classifiable,9,2007
+Air Force,Active,Penetrating,29,2007
+Air Force,Active,Severe,25,2007
+Air Force,Active,Moderate,201,2007
+Air Force,Active,Mild,2049,2007
+Air Force,Active,Not Classifiable,39,2007
+Air Force,Guard,Penetrating,5,2007
+Air Force,Guard,Severe,1,2007
+Air Force,Guard,Moderate,17,2007
+Air Force,Guard,Mild,211,2007
+Air Force,Guard,Not Classifiable,3,2007
+Air Force,Reserve,Penetrating,NA,2007
+Air Force,Reserve,Severe,NA,2007
+Air Force,Reserve,Moderate,17,2007
+Air Force,Reserve,Mild,138,2007
+Air Force,Reserve,Not Classifiable,3,2007
+Marines,Active,Penetrating,54,2007
+Marines,Active,Severe,33,2007
+Marines,Active,Moderate,373,2007
+Marines,Active,Mild,2372,2007
+Marines,Active,Not Classifiable,23,2007
+Marines,Reserve,Penetrating,NA,2007
+Marines,Reserve,Severe,1,2007
+Marines,Reserve,Moderate,28,2007
+Marines,Reserve,Mild,251,2007
+Marines,Reserve,Not Classifiable,2,2007
+Army,Active,Penetrating,313,2008
+Army,Active,Severe,159,2008
+Army,Active,Moderate,1098,2008
+Army,Active,Mild,11869,2008
+Army,Active,Not Classifiable,2082,2008
+Army,Guard,Penetrating,38,2008
+Army,Guard,Severe,27,2008
+Army,Guard,Moderate,236,2008
+Army,Guard,Mild,2394,2008
+Army,Guard,Not Classifiable,290,2008
+Army,Reserve,Penetrating,13,2008
+Army,Reserve,Severe,13,2008
+Army,Reserve,Moderate,97,2008
+Army,Reserve,Mild,937,2008
+Army,Reserve,Not Classifiable,65,2008
+Navy,Active,Penetrating,27,2008
+Navy,Active,Severe,18,2008
+Navy,Active,Moderate,220,2008
+Navy,Active,Mild,2232,2008
+Navy,Active,Not Classifiable,61,2008
+Navy,Reserve,Penetrating,2,2008
+Navy,Reserve,Severe,2,2008
+Navy,Reserve,Moderate,16,2008
+Navy,Reserve,Mild,234,2008
+Navy,Reserve,Not Classifiable,8,2008
+Air Force,Active,Penetrating,25,2008
+Air Force,Active,Severe,25,2008
+Air Force,Active,Moderate,183,2008
+Air Force,Active,Mild,1944,2008
+Air Force,Active,Not Classifiable,60,2008
+Air Force,Guard,Penetrating,2,2008
+Air Force,Guard,Severe,NA,2008
+Air Force,Guard,Moderate,21,2008
+Air Force,Guard,Mild,217,2008
+Air Force,Guard,Not Classifiable,3,2008
+Air Force,Reserve,Penetrating,NA,2008
+Air Force,Reserve,Severe,1,2008
+Air Force,Reserve,Moderate,12,2008
+Air Force,Reserve,Mild,127,2008
+Air Force,Reserve,Not Classifiable,5,2008
+Marines,Active,Penetrating,46,2008
+Marines,Active,Severe,27,2008
+Marines,Active,Moderate,239,2008
+Marines,Active,Mild,2763,2008
+Marines,Active,Not Classifiable,45,2008
+Marines,Reserve,Penetrating,3,2008
+Marines,Reserve,Severe,1,2008
+Marines,Reserve,Moderate,24,2008
+Marines,Reserve,Mild,242,2008
+Marines,Reserve,Not Classifiable,14,2008
+Army,Active,Penetrating,333,2009
+Army,Active,Severe,197,2009
+Army,Active,Moderate,987,2009
+Army,Active,Mild,11061,2009
+Army,Active,Not Classifiable,1430,2009
+Army,Guard,Penetrating,67,2009
+Army,Guard,Severe,50,2009
+Army,Guard,Moderate,260,2009
+Army,Guard,Mild,2921,2009
+Army,Guard,Not Classifiable,210,2009
+Army,Reserve,Penetrating,17,2009
+Army,Reserve,Severe,15,2009
+Army,Reserve,Moderate,98,2009
+Army,Reserve,Mild,1092,2009
+Army,Reserve,Not Classifiable,108,2009
+Navy,Active,Penetrating,25,2009
+Navy,Active,Severe,19,2009
+Navy,Active,Moderate,175,2009
+Navy,Active,Mild,2445,2009
+Navy,Active,Not Classifiable,76,2009
+Navy,Reserve,Penetrating,3,2009
+Navy,Reserve,Severe,3,2009
+Navy,Reserve,Moderate,29,2009
+Navy,Reserve,Mild,227,2009
+Navy,Reserve,Not Classifiable,13,2009
+Air Force,Active,Penetrating,25,2009
+Air Force,Active,Severe,22,2009
+Air Force,Active,Moderate,204,2009
+Air Force,Active,Mild,2391,2009
+Air Force,Active,Not Classifiable,48,2009
+Air Force,Guard,Penetrating,2,2009
+Air Force,Guard,Severe,2,2009
+Air Force,Guard,Moderate,28,2009
+Air Force,Guard,Mild,303,2009
+Air Force,Guard,Not Classifiable,9,2009
+Air Force,Reserve,Penetrating,2,2009
+Air Force,Reserve,Severe,3,2009
+Air Force,Reserve,Moderate,17,2009
+Air Force,Reserve,Mild,176,2009
+Air Force,Reserve,Not Classifiable,5,2009
+Marines,Active,Penetrating,42,2009
+Marines,Active,Severe,48,2009
+Marines,Active,Moderate,278,2009
+Marines,Active,Mild,3016,2009
+Marines,Active,Not Classifiable,104,2009
+Marines,Reserve,Penetrating,2,2009
+Marines,Reserve,Severe,2,2009
+Marines,Reserve,Moderate,22,2009
+Marines,Reserve,Mild,271,2009
+Marines,Reserve,Not Classifiable,17,2009
+Army,Active,Penetrating,175,2010
+Army,Active,Severe,141,2010
+Army,Active,Moderate,971,2010
+Army,Active,Mild,11371,2010
+Army,Active,Not Classifiable,857,2010
+Army,Guard,Penetrating,39,2010
+Army,Guard,Severe,40,2010
+Army,Guard,Moderate,236,2010
+Army,Guard,Mild,3107,2010
+Army,Guard,Not Classifiable,254,2010
+Army,Reserve,Penetrating,12,2010
+Army,Reserve,Severe,22,2010
+Army,Reserve,Moderate,107,2010
+Army,Reserve,Mild,1204,2010
+Army,Reserve,Not Classifiable,111,2010
+Navy,Active,Penetrating,16,2010
+Navy,Active,Severe,22,2010
+Navy,Active,Moderate,164,2010
+Navy,Active,Mild,2312,2010
+Navy,Active,Not Classifiable,77,2010
+Navy,Reserve,Penetrating,3,2010
+Navy,Reserve,Severe,3,2010
+Navy,Reserve,Moderate,20,2010
+Navy,Reserve,Mild,233,2010
+Navy,Reserve,Not Classifiable,10,2010
+Air Force,Active,Penetrating,26,2010
+Air Force,Active,Severe,14,2010
+Air Force,Active,Moderate,187,2010
+Air Force,Active,Mild,2492,2010
+Air Force,Active,Not Classifiable,51,2010
+Air Force,Guard,Penetrating,4,2010
+Air Force,Guard,Severe,1,2010
+Air Force,Guard,Moderate,28,2010
+Air Force,Guard,Mild,344,2010
+Air Force,Guard,Not Classifiable,11,2010
+Air Force,Reserve,Penetrating,4,2010
+Air Force,Reserve,Severe,3,2010
+Air Force,Reserve,Moderate,23,2010
+Air Force,Reserve,Mild,207,2010
+Air Force,Reserve,Not Classifiable,7,2010
+Marines,Active,Penetrating,45,2010
+Marines,Active,Severe,37,2010
+Marines,Active,Moderate,314,2010
+Marines,Active,Mild,3530,2010
+Marines,Active,Not Classifiable,142,2010
+Marines,Reserve,Penetrating,7,2010
+Marines,Reserve,Severe,8,2010
+Marines,Reserve,Moderate,38,2010
+Marines,Reserve,Mild,322,2010
+Marines,Reserve,Not Classifiable,16,2010
+Army,Active,Penetrating,246,2011
+Army,Active,Severe,155,2011
+Army,Active,Moderate,1046,2011
+Army,Active,Mild,13074,2011
+Army,Active,Not Classifiable,1238,2011
+Army,Guard,Penetrating,41,2011
+Army,Guard,Severe,32,2011
+Army,Guard,Moderate,221,2011
+Army,Guard,Mild,2852,2011
+Army,Guard,Not Classifiable,549,2011
+Army,Reserve,Penetrating,19,2011
+Army,Reserve,Severe,24,2011
+Army,Reserve,Moderate,102,2011
+Army,Reserve,Mild,1353,2011
+Army,Reserve,Not Classifiable,201,2011
+Navy,Active,Penetrating,23,2011
+Navy,Active,Severe,24,2011
+Navy,Active,Moderate,179,2011
+Navy,Active,Mild,2387,2011
+Navy,Active,Not Classifiable,116,2011
+Navy,Reserve,Penetrating,3,2011
+Navy,Reserve,Severe,1,2011
+Navy,Reserve,Moderate,21,2011
+Navy,Reserve,Mild,259,2011
+Navy,Reserve,Not Classifiable,17,2011
+Air Force,Active,Penetrating,32,2011
+Air Force,Active,Severe,25,2011
+Air Force,Active,Moderate,167,2011
+Air Force,Active,Mild,2600,2011
+Air Force,Active,Not Classifiable,96,2011
+Air Force,Guard,Penetrating,7,2011
+Air Force,Guard,Severe,NA,2011
+Air Force,Guard,Moderate,31,2011
+Air Force,Guard,Mild,336,2011
+Air Force,Guard,Not Classifiable,13,2011
+Air Force,Reserve,Penetrating,4,2011
+Air Force,Reserve,Severe,2,2011
+Air Force,Reserve,Moderate,11,2011
+Air Force,Reserve,Mild,202,2011
+Air Force,Reserve,Not Classifiable,8,2011
+Marines,Active,Penetrating,48,2011
+Marines,Active,Severe,97,2011
+Marines,Active,Moderate,359,2011
+Marines,Active,Mild,3902,2011
+Marines,Active,Not Classifiable,260,2011
+Marines,Reserve,Penetrating,4,2011
+Marines,Reserve,Severe,14,2011
+Marines,Reserve,Moderate,31,2011
+Marines,Reserve,Mild,370,2011
+Marines,Reserve,Not Classifiable,32,2011
+Army,Active,Penetrating,127,2012
+Army,Active,Severe,161,2012
+Army,Active,Moderate,1042,2012
+Army,Active,Mild,12429,2012
+Army,Active,Not Classifiable,1276,2012
+Army,Guard,Penetrating,20,2012
+Army,Guard,Severe,24,2012
+Army,Guard,Moderate,194,2012
+Army,Guard,Mild,2427,2012
+Army,Guard,Not Classifiable,216,2012
+Army,Reserve,Penetrating,11,2012
+Army,Reserve,Severe,21,2012
+Army,Reserve,Moderate,87,2012
+Army,Reserve,Mild,1205,2012
+Army,Reserve,Not Classifiable,131,2012
+Navy,Active,Penetrating,18,2012
+Navy,Active,Severe,30,2012
+Navy,Active,Moderate,217,2012
+Navy,Active,Mild,2677,2012
+Navy,Active,Not Classifiable,93,2012
+Navy,Reserve,Penetrating,4,2012
+Navy,Reserve,Severe,NA,2012
+Navy,Reserve,Moderate,18,2012
+Navy,Reserve,Mild,253,2012
+Navy,Reserve,Not Classifiable,19,2012
+Air Force,Active,Penetrating,25,2012
+Air Force,Active,Severe,17,2012
+Air Force,Active,Moderate,199,2012
+Air Force,Active,Mild,2681,2012
+Air Force,Active,Not Classifiable,99,2012
+Air Force,Guard,Penetrating,2,2012
+Air Force,Guard,Severe,4,2012
+Air Force,Guard,Moderate,30,2012
+Air Force,Guard,Mild,375,2012
+Air Force,Guard,Not Classifiable,17,2012
+Air Force,Reserve,Penetrating,2,2012
+Air Force,Reserve,Severe,NA,2012
+Air Force,Reserve,Moderate,19,2012
+Air Force,Reserve,Mild,208,2012
+Air Force,Reserve,Not Classifiable,5,2012
+Marines,Active,Penetrating,35,2012
+Marines,Active,Severe,41,2012
+Marines,Active,Moderate,249,2012
+Marines,Active,Mild,3394,2012
+Marines,Active,Not Classifiable,209,2012
+Marines,Reserve,Penetrating,4,2012
+Marines,Reserve,Severe,1,2012
+Marines,Reserve,Moderate,24,2012
+Marines,Reserve,Mild,298,2012
+Marines,Reserve,Not Classifiable,15,2012
+Army,Active,Penetrating,99,2013
+Army,Active,Severe,103,2013
+Army,Active,Moderate,1130,2013
+Army,Active,Mild,10502,2013
+Army,Active,Not Classifiable,1247,2013
+Army,Guard,Penetrating,17,2013
+Army,Guard,Severe,16,2013
+Army,Guard,Moderate,182,2013
+Army,Guard,Mild,2090,2013
+Army,Guard,Not Classifiable,187,2013
+Army,Reserve,Penetrating,6,2013
+Army,Reserve,Severe,11,2013
+Army,Reserve,Moderate,82,2013
+Army,Reserve,Mild,1048,2013
+Army,Reserve,Not Classifiable,151,2013
+Navy,Active,Penetrating,24,2013
+Navy,Active,Severe,21,2013
+Navy,Active,Moderate,219,2013
+Navy,Active,Mild,2637,2013
+Navy,Active,Not Classifiable,101,2013
+Navy,Reserve,Penetrating,NA,2013
+Navy,Reserve,Severe,1,2013
+Navy,Reserve,Moderate,28,2013
+Navy,Reserve,Mild,270,2013
+Navy,Reserve,Not Classifiable,8,2013
+Air Force,Active,Penetrating,21,2013
+Air Force,Active,Severe,24,2013
+Air Force,Active,Moderate,230,2013
+Air Force,Active,Mild,2620,2013
+Air Force,Active,Not Classifiable,102,2013
+Air Force,Guard,Penetrating,3,2013
+Air Force,Guard,Severe,2,2013
+Air Force,Guard,Moderate,27,2013
+Air Force,Guard,Mild,343,2013
+Air Force,Guard,Not Classifiable,16,2013
+Air Force,Reserve,Penetrating,1,2013
+Air Force,Reserve,Severe,NA,2013
+Air Force,Reserve,Moderate,11,2013
+Air Force,Reserve,Mild,208,2013
+Air Force,Reserve,Not Classifiable,8,2013
+Marines,Active,Penetrating,26,2013
+Marines,Active,Severe,27,2013
+Marines,Active,Moderate,282,2013
+Marines,Active,Mild,2894,2013
+Marines,Active,Not Classifiable,186,2013
+Marines,Reserve,Penetrating,3,2013
+Marines,Reserve,Severe,1,2013
+Marines,Reserve,Moderate,20,2013
+Marines,Reserve,Mild,211,2013
+Marines,Reserve,Not Classifiable,6,2013
+Army,Active,Penetrating,76,2014
+Army,Active,Severe,80,2014
+Army,Active,Moderate,1165,2014
+Army,Active,Mild,9268,2014
+Army,Active,Not Classifiable,881,2014
+Army,Guard,Penetrating,16,2014
+Army,Guard,Severe,12,2014
+Army,Guard,Moderate,136,2014
+Army,Guard,Mild,1730,2014
+Army,Guard,Not Classifiable,142,2014
+Army,Reserve,Penetrating,3,2014
+Army,Reserve,Severe,5,2014
+Army,Reserve,Moderate,85,2014
+Army,Reserve,Mild,962,2014
+Army,Reserve,Not Classifiable,125,2014
+Navy,Active,Penetrating,21,2014
+Navy,Active,Severe,18,2014
+Navy,Active,Moderate,314,2014
+Navy,Active,Mild,2549,2014
+Navy,Active,Not Classifiable,117,2014
+Navy,Reserve,Penetrating,2,2014
+Navy,Reserve,Severe,2,2014
+Navy,Reserve,Moderate,14,2014
+Navy,Reserve,Mild,227,2014
+Navy,Reserve,Not Classifiable,10,2014
+Air Force,Active,Penetrating,24,2014
+Air Force,Active,Severe,19,2014
+Air Force,Active,Moderate,229,2014
+Air Force,Active,Mild,2637,2014
+Air Force,Active,Not Classifiable,93,2014
+Air Force,Guard,Penetrating,1,2014
+Air Force,Guard,Severe,4,2014
+Air Force,Guard,Moderate,30,2014
+Air Force,Guard,Mild,371,2014
+Air Force,Guard,Not Classifiable,14,2014
+Air Force,Reserve,Penetrating,2,2014
+Air Force,Reserve,Severe,2,2014
+Air Force,Reserve,Moderate,12,2014
+Air Force,Reserve,Mild,223,2014
+Air Force,Reserve,Not Classifiable,11,2014
+Marines,Active,Penetrating,27,2014
+Marines,Active,Severe,29,2014
+Marines,Active,Moderate,326,2014
+Marines,Active,Mild,2682,2014
+Marines,Active,Not Classifiable,147,2014
+Marines,Reserve,Penetrating,2,2014
+Marines,Reserve,Severe,2,2014
+Marines,Reserve,Moderate,24,2014
+Marines,Reserve,Mild,188,2014
+Marines,Reserve,Not Classifiable,9,2014

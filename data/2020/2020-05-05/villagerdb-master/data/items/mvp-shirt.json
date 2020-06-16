@@ -1,0 +1,58 @@
+{
+  "id": "mvp-shirt",
+  "name": "Mvp Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 93
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 372
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (All Seasons)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 92
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 370
+        }
+      ]
+    }
+  }
+}

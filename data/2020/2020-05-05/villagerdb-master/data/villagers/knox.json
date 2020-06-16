@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "11-23",
+  "games": {
+    "cf": {
+      "personality": "cranky",
+      "clothes": "cavalier-shirt",
+      "song": "K.K. Aria",
+      "phrase": "cluckling"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "cavalier-shirt",
+      "song": "K.K. Aria",
+      "phrase": "cluckling",
+      "skill": "Calculating tips",
+      "goal": "Firefighter",
+      "fear": "Mummy Mask",
+      "quote": "A man's coop is his castle.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "cluckling",
+      "song": "K.K. Aria"
+    }
+  },
+  "name": "Knox",
+  "id": "knox"
+}

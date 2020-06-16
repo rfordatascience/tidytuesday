@@ -1,0 +1,19 @@
+{
+  "id": "apple-chair",
+  "name": "Apple Chair",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2480
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9920
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

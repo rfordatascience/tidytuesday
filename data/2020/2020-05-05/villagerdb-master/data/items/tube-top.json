@@ -1,0 +1,19 @@
+{
+  "id": "tube-top",
+  "name": "Tube Top",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 640
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "space-helmet",
+  "name": "Space Helmet",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Astronaut Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1075
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4300
+        }
+      ]
+    }
+  }
+}

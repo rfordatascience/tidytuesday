@@ -1,0 +1,29 @@
+{
+  "id": "wheat-bundle",
+  "name": "Wheat Bundle",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Autumn Moon (Isabelle -- NA only)"
+      ],
+      "rvs": [
+        "boots"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

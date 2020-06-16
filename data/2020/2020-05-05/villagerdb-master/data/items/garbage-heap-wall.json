@@ -1,0 +1,20 @@
+{
+  "id": "garbage-heap-wall",
+  "name": "Garbage-heap Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "recipe": {
+        "empty-can": 2,
+        "boot": 2,
+        "old-tire": 2
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

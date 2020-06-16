@@ -1,0 +1,27 @@
+{
+  "id": "propane-tanks",
+  "name": "Propane Tanks",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "buzz"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

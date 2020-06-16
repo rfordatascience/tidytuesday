@@ -1,0 +1,42 @@
+{
+  "id": "mary-janes",
+  "name": "Mary Janes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  }
+}

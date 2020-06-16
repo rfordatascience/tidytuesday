@@ -1,0 +1,25 @@
+{
+  "id": "yellow-flooring",
+  "name": "Yellow Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "rvs": [
+        "blanca",
+        "hopkins"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

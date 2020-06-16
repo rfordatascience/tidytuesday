@@ -1,0 +1,41 @@
+{
+  "id": "tiger-jacket",
+  "name": "Tiger Jacket",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "sources": [
+        "GracieGrace (during sales)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5000
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 437
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1750
+        }
+      ]
+    }
+  }
+}

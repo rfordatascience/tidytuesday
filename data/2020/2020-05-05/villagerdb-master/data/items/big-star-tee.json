@@ -1,0 +1,42 @@
+{
+  "id": "big-star-tee",
+  "name": "Big-star Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  }
+}

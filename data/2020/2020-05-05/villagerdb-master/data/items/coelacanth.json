@@ -1,0 +1,28 @@
+{
+  "id": "coelacanth",
+  "name": "Coelacanth",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      },
+      "sources": [
+        "In the ocean when it is raining."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Huge Shadows at Sea while raining, All Year (All day)",
+        "South: Huge Shadows at Sea while raining, All Year (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      }
+    }
+  }
+}

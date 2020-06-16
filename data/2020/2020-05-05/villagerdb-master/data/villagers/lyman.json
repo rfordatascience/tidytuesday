@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "10-12",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "club-tee",
+      "song": "K.K. Island",
+      "phrase": "chips",
+      "skill": "Forgetting stuff",
+      "goal": "Astronaut",
+      "fear": "Ghost Mask",
+      "quote": "Eucalyptus is the spice of life.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "chips",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "Lyman",
+  "id": "lyman"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "spangle-shorts",
+  "name": "Spangle Shorts",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

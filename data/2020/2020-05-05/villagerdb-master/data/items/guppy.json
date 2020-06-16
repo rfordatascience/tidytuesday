@@ -1,0 +1,24 @@
+{
+  "id": "guppy",
+  "name": "Guppy",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      }
+    }
+  }
+}

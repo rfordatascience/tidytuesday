@@ -1,0 +1,44 @@
+age,total_workers,bike_percent,walk_percent,other_percent
+16 to 24 years,18419637,1,6.8,92.2
+25 to 29 years,15301696,0.8,3.1,96.1
+30 to 34 years,14824955,0.7,2.4,96.9
+35 to 44 years,31043598,0.5,1.9,97.6
+45 to 54 years,32874031,0.4,1.9,97.7
+55 years and over,27429722,0.3,2.3,97.4
+,,,,
+sex,total_workers,bike_percent,walk_percent,other_percent
+Male,73887429,0.8,2.9,96.4
+Female,66006210,0.3,2.8,96.9
+,,,,
+race,total_workers,bike_percent,walk_percent,other_percent
+Hispanic or Latino,20803714,0.7,3.3,96
+Not Hispanic or Latino,119089925,0.5,2.7,96.7
+White alone,94084919,0.6,2.6,96.8
+Black or African American alone,14762128,0.3,2.8,97
+Asian alone,7132081,0.5,4,95.8
+Some other race or Two or more races,3110797,0.8,4.2,95.2
+,,,,
+children,total_workers,bike_percent,walk_percent,other_percent
+Under 6 years and 6 to 17 years,9768648,0.4,1.8,97.8
+Under 6 years only,11102415,0.5,1.9,97.7
+6 to 17 years,32128022,0.4,1.9,97.8
+No own children present,85494497,0.7,2.8,96.5
+,,,,
+income,total_workers,bike_percent,walk_percent,other_percent
+"Less than $10,000",2270324,1.5,8.1,90.3
+"$10,000 to $14,999",2559351,1.1,6.1,92.2
+"$15,000 to $24,999",7567161,1,5,94
+"$25,000 to $34,999",10193150,0.7,3.8,95.5
+"$35,000 to $49,999",17007317,0.6,2.9,96.5
+"$50,000 to $74,999",28486645,0.5,2.2,97.3
+"$75,000 to $99,999",23042419,0.4,1.7,97.8
+"$100,000 to $149,999",26991873,0.4,1.5,98.1
+"$150,000 to $199,999",10723452,0.5,1.6,98
+"$200,000 or more",9651890,0.5,2.1,97.4
+,,,,
+education,total_workers,bike_percent,walk_percent,other_percent
+Less than high school graduate,10232045,0.7,3.7,95.6
+High school graduate,30427068,0.3,2.2,97.4
+Some college or associates degree,37966296,0.3,1.7,97.9
+Bachelors degree,26164533,0.6,2,97.5
+Graduate or professional degree,15841086,0.9,2.7,96.5

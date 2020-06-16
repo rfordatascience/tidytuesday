@@ -1,0 +1,13 @@
+{
+  "id": "red-ornament",
+  "name": "Red Ornament",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      }
+    }
+  },
+  "category": "Usables"
+}

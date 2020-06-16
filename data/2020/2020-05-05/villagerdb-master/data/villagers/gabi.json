@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "12-16",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "waffle-shirt",
+      "song": "K.K. Love Song",
+      "phrase": "honeybun"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "waffle-shirt",
+      "song": "K.K. Love Song"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "waffle-tee",
+      "song": "K.K. Love Song",
+      "phrase": "honeybun",
+      "quote": "I'm trying out a new earstyle here."
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "waffle-tee",
+      "song": "K.K. Love Song",
+      "phrase": "honeybun"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "waffle-tee",
+      "song": "K.K. Love Song",
+      "phrase": "honeybun",
+      "skill": "Eating quickly",
+      "goal": "Pianist",
+      "fear": "Monster Mask",
+      "quote": "The more the merrier.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Official",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "honeybun",
+      "song": "K.K. Love Song"
+    }
+  },
+  "name": "Gabi",
+  "id": "gabi"
+}

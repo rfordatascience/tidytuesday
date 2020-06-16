@@ -1,0 +1,17 @@
+{
+  "id": "oyster-shell",
+  "name": "Oyster Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

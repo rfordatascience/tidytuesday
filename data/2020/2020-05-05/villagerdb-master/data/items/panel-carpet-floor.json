@@ -1,0 +1,21 @@
+{
+  "id": "panel-carpet-floor",
+  "name": "Panel Carpet Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cleo",
+        "piper"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

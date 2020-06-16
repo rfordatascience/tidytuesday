@@ -1,0 +1,19 @@
+{
+  "id": "mages-hat",
+  "name": "Mage's Hat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 860
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3440
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

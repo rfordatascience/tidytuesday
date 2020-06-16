@@ -1,0 +1,19 @@
+{
+  "id": "satin-dress",
+  "name": "Satin Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

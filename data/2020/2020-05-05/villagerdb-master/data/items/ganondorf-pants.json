@@ -1,0 +1,23 @@
+{
+  "id": "ganondorf-pants",
+  "name": "Ganondorf Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "ganon"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "peach-surprise-box",
+  "name": "Peach Surprise Box",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2480
+      },
+      "recipe": {
+        "peach": 10,
+        "softwood": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

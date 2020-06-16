@@ -1,0 +1,48 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "8-2",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "tiger-shirt",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "song": "Agent K.K."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "lite-polka-tee",
+      "song": "Agent K.K.",
+      "phrase": "nyet"
+    },
+    "nl": {
+      "personality": "cranky",
+      "song": "Agent K.K.",
+      "phrase": "nyet",
+      "skill": "Belly dancing",
+      "goal": "Movie director",
+      "fear": "Skeleton Hood",
+      "quote": "Trouble never comes alone.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "nyet",
+      "song": "Agent K.K."
+    }
+  },
+  "name": "Vladimir",
+  "id": "vladimir"
+}

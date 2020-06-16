@@ -1,0 +1,19 @@
+{
+  "id": "mages-booties",
+  "name": "Mage's Booties",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 387
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1550
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

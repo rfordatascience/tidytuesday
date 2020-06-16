@@ -1,0 +1,29 @@
+{
+  "id": "stripe-shoes",
+  "name": "Stripe Shoes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Modern"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4000
+        }
+      ]
+    }
+  }
+}

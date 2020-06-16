@@ -1,0 +1,2401 @@
+region,state,year,milk_produced
+Northeast,Maine,1970,619e6
+Northeast,New Hampshire,1970,356e6
+Northeast,Vermont,1970,197e7
+Northeast,Massachusetts,1970,658e6
+Northeast,Rhode Island,1970,75e6
+Northeast,Connecticut,1970,661e6
+Northeast,New York,1970,10341e6
+Northeast,New Jersey,1970,73e7
+Northeast,Pennsylvania,1970,7124e6
+Northeast,Delaware,1970,13e7
+Northeast,Maryland,1970,156e7
+Lake States,Michigan,1970,4602e6
+Lake States,Wisconsin,1970,18435e6
+Lake States,Minnesota,1970,9636e6
+Corn Belt,Ohio,1970,442e7
+Corn Belt,Indiana,1970,2382e6
+Corn Belt,Illinois,1970,285e7
+Corn Belt,Iowa,1970,467e7
+Corn Belt,Missouri,1970,3012e6
+Northern Plains,North Dakota,1970,1065e6
+Northern Plains,South Dakota,1970,1578e6
+Northern Plains,Nebraska,1970,1566e6
+Northern Plains,Kansas,1970,174e7
+Appalachian,Virginia,1970,1749e6
+Appalachian,West Virginia,1970,374e6
+Appalachian,North Carolina,1970,1485e6
+Appalachian,Kentucky,1970,2471e6
+Appalachian,Tennessee,1970,2123e6
+Southeast,South Carolina,1970,512e6
+Southeast,Georgia,1970,1182e6
+Southeast,Florida,1970,1641e6
+Southeast,Alabama,1970,816e6
+Delta States,Mississippi,1970,1049e6
+Delta States,Arkansas,1970,685e6
+Delta States,Louisiana,1970,1089e6
+Southern Plains,Oklahoma,1970,125e7
+Southern Plains,Texas,1970,3065e6
+Mountain,Montana,1970,326e6
+Mountain,Idaho,1970,149e7
+Mountain,Wyoming,1970,14e7
+Mountain,Colorado,1970,856e6
+Mountain,New Mexico,1970,304e6
+Mountain,Arizona,1970,585e6
+Mountain,Utah,1970,819e6
+Mountain,Nevada,1970,142e6
+Pacific,Washington,1970,2091e6
+Pacific,Oregon,1970,97e7
+Pacific,California,1970,9457e6
+Pacific,Alaska,1970,19e6
+Pacific,Hawaii,1970,137e6
+Northeast,Maine,1971,629e6
+Northeast,New Hampshire,1971,359e6
+Northeast,Vermont,1971,2025e6
+Northeast,Massachusetts,1971,658e6
+Northeast,Rhode Island,1971,7e7
+Northeast,Connecticut,1971,66e7
+Northeast,New York,1971,10431e6
+Northeast,New Jersey,1971,684e6
+Northeast,Pennsylvania,1971,7155e6
+Northeast,Delaware,1971,133e6
+Northeast,Maryland,1971,1564e6
+Lake States,Michigan,1971,4796e6
+Lake States,Wisconsin,1971,18848e6
+Lake States,Minnesota,1971,9618e6
+Corn Belt,Ohio,1971,4488e6
+Corn Belt,Indiana,1971,243e7
+Corn Belt,Illinois,1971,2814e6
+Corn Belt,Iowa,1971,4577e6
+Corn Belt,Missouri,1971,2999e6
+Northern Plains,North Dakota,1971,1023e6
+Northern Plains,South Dakota,1971,1572e6
+Northern Plains,Nebraska,1971,1569e6
+Northern Plains,Kansas,1971,1688e6
+Appalachian,Virginia,1971,1751e6
+Appalachian,West Virginia,1971,363e6
+Appalachian,North Carolina,1971,15e8
+Appalachian,Kentucky,1971,248e7
+Appalachian,Tennessee,1971,2122e6
+Southeast,South Carolina,1971,516e6
+Southeast,Georgia,1971,1188e6
+Southeast,Florida,1971,1785e6
+Southeast,Alabama,1971,819e6
+Delta States,Mississippi,1971,1011e6
+Delta States,Arkansas,1971,698e6
+Delta States,Louisiana,1971,1129e6
+Southern Plains,Oklahoma,1971,126e7
+Southern Plains,Texas,1971,3239e6
+Mountain,Montana,1971,334e6
+Mountain,Idaho,1971,155e7
+Mountain,Wyoming,1971,135e6
+Mountain,Colorado,1971,885e6
+Mountain,New Mexico,1971,312e6
+Mountain,Arizona,1971,62e7
+Mountain,Utah,1971,84e7
+Mountain,Nevada,1971,141e6
+Pacific,Washington,1971,223e7
+Pacific,Oregon,1971,1008e6
+Pacific,California,1971,971e7
+Pacific,Alaska,1971,17e6
+Pacific,Hawaii,1971,133e6
+Northeast,Maine,1972,638e6
+Northeast,New Hampshire,1972,353e6
+Northeast,Vermont,1972,2039e6
+Northeast,Massachusetts,1972,629e6
+Northeast,Rhode Island,1972,69e6
+Northeast,Connecticut,1972,643e6
+Northeast,New York,1972,10306e6
+Northeast,New Jersey,1972,645e6
+Northeast,Pennsylvania,1972,7031e6
+Northeast,Delaware,1972,132e6
+Northeast,Maryland,1972,1536e6
+Lake States,Michigan,1972,4966e6
+Lake States,Wisconsin,1972,19226e6
+Lake States,Minnesota,1972,958e7
+Corn Belt,Ohio,1972,4573e6
+Corn Belt,Indiana,1972,2454e6
+Corn Belt,Illinois,1972,2838e6
+Corn Belt,Iowa,1972,44e8
+Corn Belt,Missouri,1972,3025e6
+Northern Plains,North Dakota,1972,994e6
+Northern Plains,South Dakota,1972,1591e6
+Northern Plains,Nebraska,1972,161e7
+Northern Plains,Kansas,1972,1629e6
+Appalachian,Virginia,1972,176e7
+Appalachian,West Virginia,1972,345e6
+Appalachian,North Carolina,1972,1537e6
+Appalachian,Kentucky,1972,253e7
+Appalachian,Tennessee,1972,2217e6
+Southeast,South Carolina,1972,518e6
+Southeast,Georgia,1972,1235e6
+Southeast,Florida,1972,1867e6
+Southeast,Alabama,1972,82e7
+Delta States,Mississippi,1972,993e6
+Delta States,Arkansas,1972,728e6
+Delta States,Louisiana,1972,1132e6
+Southern Plains,Oklahoma,1972,1235e6
+Southern Plains,Texas,1972,334e7
+Mountain,Montana,1972,334e6
+Mountain,Idaho,1972,1663e6
+Mountain,Wyoming,1972,135e6
+Mountain,Colorado,1972,88e7
+Mountain,New Mexico,1972,326e6
+Mountain,Arizona,1972,64e7
+Mountain,Utah,1972,874e6
+Mountain,Nevada,1972,143e6
+Pacific,Washington,1972,2307e6
+Pacific,Oregon,1972,1005e6
+Pacific,California,1972,104e8
+Pacific,Alaska,1972,18e6
+Pacific,Hawaii,1972,136e6
+Northeast,Maine,1973,614e6
+Northeast,New Hampshire,1973,337e6
+Northeast,Vermont,1973,1948e6
+Northeast,Massachusetts,1973,595e6
+Northeast,Rhode Island,1973,64e6
+Northeast,Connecticut,1973,614e6
+Northeast,New York,1973,9728e6
+Northeast,New Jersey,1973,575e6
+Northeast,Pennsylvania,1973,6718e6
+Northeast,Delaware,1973,128e6
+Northeast,Maryland,1973,1464e6
+Lake States,Michigan,1973,4636e6
+Lake States,Wisconsin,1973,18442e6
+Lake States,Minnesota,1973,9271e6
+Corn Belt,Ohio,1973,4267e6
+Corn Belt,Indiana,1973,2329e6
+Corn Belt,Illinois,1973,2673e6
+Corn Belt,Iowa,1973,418e7
+Corn Belt,Missouri,1973,2992e6
+Northern Plains,North Dakota,1973,1044e6
+Northern Plains,South Dakota,1973,1642e6
+Northern Plains,Nebraska,1973,1542e6
+Northern Plains,Kansas,1973,1505e6
+Appalachian,Virginia,1973,169e7
+Appalachian,West Virginia,1973,333e6
+Appalachian,North Carolina,1973,149e7
+Appalachian,Kentucky,1973,233e7
+Appalachian,Tennessee,1973,2057e6
+Southeast,South Carolina,1973,497e6
+Southeast,Georgia,1973,1168e6
+Southeast,Florida,1973,1843e6
+Southeast,Alabama,1973,785e6
+Delta States,Mississippi,1973,95e7
+Delta States,Arkansas,1973,706e6
+Delta States,Louisiana,1973,1062e6
+Southern Plains,Oklahoma,1973,114e7
+Southern Plains,Texas,1973,328e7
+Mountain,Montana,1973,312e6
+Mountain,Idaho,1973,1657e6
+Mountain,Wyoming,1973,13e7
+Mountain,Colorado,1973,854e6
+Mountain,New Mexico,1973,318e6
+Mountain,Arizona,1973,737e6
+Mountain,Utah,1973,866e6
+Mountain,Nevada,1973,144e6
+Pacific,Washington,1973,2338e6
+Pacific,Oregon,1973,1008e6
+Pacific,California,1973,10332e6
+Pacific,Alaska,1973,18e6
+Pacific,Hawaii,1973,138e6
+Northeast,Maine,1974,611e6
+Northeast,New Hampshire,1974,329e6
+Northeast,Vermont,1974,1945e6
+Northeast,Massachusetts,1974,593e6
+Northeast,Rhode Island,1974,63e6
+Northeast,Connecticut,1974,613e6
+Northeast,New York,1974,9822e6
+Northeast,New Jersey,1974,551e6
+Northeast,Pennsylvania,1974,698e7
+Northeast,Delaware,1974,128e6
+Northeast,Maryland,1974,1505e6
+Lake States,Michigan,1974,435e7
+Lake States,Wisconsin,1974,18713e6
+Lake States,Minnesota,1974,9382e6
+Corn Belt,Ohio,1974,4221e6
+Corn Belt,Indiana,1974,226e7
+Corn Belt,Illinois,1974,2522e6
+Corn Belt,Iowa,1974,4025e6
+Corn Belt,Missouri,1974,2989e6
+Northern Plains,North Dakota,1974,98e7
+Northern Plains,South Dakota,1974,1642e6
+Northern Plains,Nebraska,1974,1477e6
+Northern Plains,Kansas,1974,1403e6
+Appalachian,Virginia,1974,1705e6
+Appalachian,West Virginia,1974,35e7
+Appalachian,North Carolina,1974,1462e6
+Appalachian,Kentucky,1974,237e7
+Appalachian,Tennessee,1974,1971e6
+Southeast,South Carolina,1974,515e6
+Southeast,Georgia,1974,119e7
+Southeast,Florida,1974,1875e6
+Southeast,Alabama,1974,708e6
+Delta States,Mississippi,1974,907e6
+Delta States,Arkansas,1974,706e6
+Delta States,Louisiana,1974,1059e6
+Southern Plains,Oklahoma,1974,1137e6
+Southern Plains,Texas,1974,338e7
+Mountain,Montana,1974,294e6
+Mountain,Idaho,1974,1555e6
+Mountain,Wyoming,1974,123e6
+Mountain,Colorado,1974,866e6
+Mountain,New Mexico,1974,338e6
+Mountain,Arizona,1974,81e7
+Mountain,Utah,1974,925e6
+Mountain,Nevada,1974,167e6
+Pacific,Washington,1974,2312e6
+Pacific,Oregon,1974,1004e6
+Pacific,California,1974,10596e6
+Pacific,Alaska,1974,18e6
+Pacific,Hawaii,1974,139e6
+Northeast,Maine,1975,629e6
+Northeast,New Hampshire,1975,336e6
+Northeast,Vermont,1975,2009e6
+Northeast,Massachusetts,1975,601e6
+Northeast,Rhode Island,1975,63e6
+Northeast,Connecticut,1975,608e6
+Northeast,New York,1975,9964e6
+Northeast,New Jersey,1975,528e6
+Northeast,Pennsylvania,1975,714e7
+Northeast,Delaware,1975,127e6
+Northeast,Maryland,1975,155e7
+Lake States,Michigan,1975,4411e6
+Lake States,Wisconsin,1975,189e8
+Lake States,Minnesota,1975,8946e6
+Corn Belt,Ohio,1975,4259e6
+Corn Belt,Indiana,1975,221e7
+Corn Belt,Illinois,1975,2446e6
+Corn Belt,Iowa,1975,3893e6
+Corn Belt,Missouri,1975,284e7
+Northern Plains,North Dakota,1975,917e6
+Northern Plains,South Dakota,1975,1556e6
+Northern Plains,Nebraska,1975,1431e6
+Northern Plains,Kansas,1975,1392e6
+Appalachian,Virginia,1975,1755e6
+Appalachian,West Virginia,1975,35e7
+Appalachian,North Carolina,1975,1498e6
+Appalachian,Kentucky,1975,2319e6
+Appalachian,Tennessee,1975,2031e6
+Southeast,South Carolina,1975,512e6
+Southeast,Georgia,1975,1221e6
+Southeast,Florida,1975,1956e6
+Southeast,Alabama,1975,686e6
+Delta States,Mississippi,1975,876e6
+Delta States,Arkansas,1975,707e6
+Delta States,Louisiana,1975,1054e6
+Southern Plains,Oklahoma,1975,106e7
+Southern Plains,Texas,1975,3208e6
+Mountain,Montana,1975,278e6
+Mountain,Idaho,1975,1555e6
+Mountain,Wyoming,1975,11e7
+Mountain,Colorado,1975,845e6
+Mountain,New Mexico,1975,366e6
+Mountain,Arizona,1975,84e7
+Mountain,Utah,1975,919e6
+Mountain,Nevada,1975,168e6
+Pacific,Washington,1975,2322e6
+Pacific,Oregon,1975,99e7
+Pacific,California,1975,10853e6
+Pacific,Alaska,1975,17e6
+Pacific,Hawaii,1975,146e6
+Northeast,Maine,1976,628e6
+Northeast,New Hampshire,1976,335e6
+Northeast,Vermont,1976,2093e6
+Northeast,Massachusetts,1976,598e6
+Northeast,Rhode Island,1976,6e7
+Northeast,Connecticut,1976,616e6
+Northeast,New York,1976,10198e6
+Northeast,New Jersey,1976,545e6
+Northeast,Pennsylvania,1976,7507e6
+Northeast,Delaware,1976,135e6
+Northeast,Maryland,1976,1549e6
+Lake States,Michigan,1976,462e7
+Lake States,Wisconsin,1976,20296e6
+Lake States,Minnesota,1976,9239e6
+Corn Belt,Ohio,1976,4435e6
+Corn Belt,Indiana,1976,224e7
+Corn Belt,Illinois,1976,2485e6
+Corn Belt,Iowa,1976,3954e6
+Corn Belt,Missouri,1976,2919e6
+Northern Plains,North Dakota,1976,948e6
+Northern Plains,South Dakota,1976,165e7
+Northern Plains,Nebraska,1976,1409e6
+Northern Plains,Kansas,1976,1447e6
+Appalachian,Virginia,1976,1877e6
+Appalachian,West Virginia,1976,356e6
+Appalachian,North Carolina,1976,158e7
+Appalachian,Kentucky,1976,2383e6
+Appalachian,Tennessee,1976,2096e6
+Southeast,South Carolina,1976,525e6
+Southeast,Georgia,1976,1303e6
+Southeast,Florida,1976,2023e6
+Southeast,Alabama,1976,682e6
+Delta States,Mississippi,1976,862e6
+Delta States,Arkansas,1976,71e7
+Delta States,Louisiana,1976,1088e6
+Southern Plains,Oklahoma,1976,1102e6
+Southern Plains,Texas,1976,3309e6
+Mountain,Montana,1976,275e6
+Mountain,Idaho,1976,1554e6
+Mountain,Wyoming,1976,113e6
+Mountain,Colorado,1976,835e6
+Mountain,New Mexico,1976,405e6
+Mountain,Arizona,1976,882e6
+Mountain,Utah,1976,924e6
+Mountain,Nevada,1976,191e6
+Pacific,Washington,1976,2428e6
+Pacific,Oregon,1976,1024e6
+Pacific,California,1976,11583e6
+Pacific,Alaska,1976,16e6
+Pacific,Hawaii,1976,148e6
+Northeast,Maine,1977,638e6
+Northeast,New Hampshire,1977,339e6
+Northeast,Vermont,1977,21e8
+Northeast,Massachusetts,1977,597e6
+Northeast,Rhode Island,1977,57e6
+Northeast,Connecticut,1977,624e6
+Northeast,New York,1977,10224e6
+Northeast,New Jersey,1977,549e6
+Northeast,Pennsylvania,1977,7791e6
+Northeast,Delaware,1977,139e6
+Northeast,Maryland,1977,1575e6
+Lake States,Michigan,1977,4761e6
+Lake States,Wisconsin,1977,21041e6
+Lake States,Minnesota,1977,9483e6
+Corn Belt,Ohio,1977,4455e6
+Corn Belt,Indiana,1977,2248e6
+Corn Belt,Illinois,1977,2515e6
+Corn Belt,Iowa,1977,403e7
+Corn Belt,Missouri,1977,2918e6
+Northern Plains,North Dakota,1977,954e6
+Northern Plains,South Dakota,1977,1652e6
+Northern Plains,Nebraska,1977,1344e6
+Northern Plains,Kansas,1977,1442e6
+Appalachian,Virginia,1977,1894e6
+Appalachian,West Virginia,1977,35e7
+Appalachian,North Carolina,1977,1583e6
+Appalachian,Kentucky,1977,2426e6
+Appalachian,Tennessee,1977,2181e6
+Southeast,South Carolina,1977,525e6
+Southeast,Georgia,1977,1301e6
+Southeast,Florida,1977,1993e6
+Southeast,Alabama,1977,684e6
+Delta States,Mississippi,1977,858e6
+Delta States,Arkansas,1977,725e6
+Delta States,Louisiana,1977,1089e6
+Southern Plains,Oklahoma,1977,112e7
+Southern Plains,Texas,1977,3372e6
+Mountain,Montana,1977,296e6
+Mountain,Idaho,1977,16e8
+Mountain,Wyoming,1977,124e6
+Mountain,Colorado,1977,848e6
+Mountain,New Mexico,1977,426e6
+Mountain,Arizona,1977,914e6
+Mountain,Utah,1977,936e6
+Mountain,Nevada,1977,198e6
+Pacific,Washington,1977,2549e6
+Pacific,Oregon,1977,1052e6
+Pacific,California,1977,11968e6
+Pacific,Alaska,1977,16e6
+Pacific,Hawaii,1977,15e7
+Northeast,Maine,1978,641e6
+Northeast,New Hampshire,1978,341e6
+Northeast,Vermont,1978,2136e6
+Northeast,Massachusetts,1978,572e6
+Northeast,Rhode Island,1978,55e6
+Northeast,Connecticut,1978,614e6
+Northeast,New York,1978,10408e6
+Northeast,New Jersey,1978,525e6
+Northeast,Pennsylvania,1978,7881e6
+Northeast,Delaware,1978,129e6
+Northeast,Maryland,1978,154e7
+Lake States,Michigan,1978,4793e6
+Lake States,Wisconsin,1978,21252e6
+Lake States,Minnesota,1978,9089e6
+Corn Belt,Ohio,1978,4275e6
+Corn Belt,Indiana,1978,2178e6
+Corn Belt,Illinois,1978,2399e6
+Corn Belt,Iowa,1978,396e7
+Corn Belt,Missouri,1978,2719e6
+Northern Plains,North Dakota,1978,903e6
+Northern Plains,South Dakota,1978,154e7
+Northern Plains,Nebraska,1978,1269e6
+Northern Plains,Kansas,1978,1372e6
+Appalachian,Virginia,1978,1873e6
+Appalachian,West Virginia,1978,345e6
+Appalachian,North Carolina,1978,1544e6
+Appalachian,Kentucky,1978,2274e6
+Appalachian,Tennessee,1978,2073e6
+Southeast,South Carolina,1978,513e6
+Southeast,Georgia,1978,1308e6
+Southeast,Florida,1978,1972e6
+Southeast,Alabama,1978,631e6
+Delta States,Mississippi,1978,836e6
+Delta States,Arkansas,1978,729e6
+Delta States,Louisiana,1978,1063e6
+Southern Plains,Oklahoma,1978,109e7
+Southern Plains,Texas,1978,3433e6
+Mountain,Montana,1978,306e6
+Mountain,Idaho,1978,1633e6
+Mountain,Wyoming,1978,12e7
+Mountain,Colorado,1978,872e6
+Mountain,New Mexico,1978,458e6
+Mountain,Arizona,1978,906e6
+Mountain,Utah,1978,94e7
+Mountain,Nevada,1978,187e6
+Pacific,Washington,1978,2675e6
+Pacific,Oregon,1978,1065e6
+Pacific,California,1978,11859e6
+Pacific,Alaska,1978,15e6
+Pacific,Hawaii,1978,15e7
+Northeast,Maine,1979,641e6
+Northeast,New Hampshire,1979,341e6
+Northeast,Vermont,1979,2179e6
+Northeast,Massachusetts,1979,566e6
+Northeast,Rhode Island,1979,5e7
+Northeast,Connecticut,1979,606e6
+Northeast,New York,1979,1063e7
+Northeast,New Jersey,1979,494e6
+Northeast,Pennsylvania,1979,8084e6
+Northeast,Delaware,1979,127e6
+Northeast,Maryland,1979,152e7
+Lake States,Michigan,1979,483e7
+Lake States,Wisconsin,1979,2185e7
+Lake States,Minnesota,1979,9145e6
+Corn Belt,Ohio,1979,4265e6
+Corn Belt,Indiana,1979,2175e6
+Corn Belt,Illinois,1979,2391e6
+Corn Belt,Iowa,1979,3858e6
+Corn Belt,Missouri,1979,2714e6
+Northern Plains,North Dakota,1979,874e6
+Northern Plains,South Dakota,1979,1549e6
+Northern Plains,Nebraska,1979,126e7
+Northern Plains,Kansas,1979,133e7
+Appalachian,Virginia,1979,1937e6
+Appalachian,West Virginia,1979,35e7
+Appalachian,North Carolina,1979,1565e6
+Appalachian,Kentucky,1979,222e7
+Appalachian,Tennessee,1979,2091e6
+Southeast,South Carolina,1979,524e6
+Southeast,Georgia,1979,1338e6
+Southeast,Florida,1979,1996e6
+Southeast,Alabama,1979,606e6
+Delta States,Mississippi,1979,814e6
+Delta States,Arkansas,1979,727e6
+Delta States,Louisiana,1979,1022e6
+Southern Plains,Oklahoma,1979,107e7
+Southern Plains,Texas,1979,3377e6
+Mountain,Montana,1979,297e6
+Mountain,Idaho,1979,1721e6
+Mountain,Wyoming,1979,119e6
+Mountain,Colorado,1979,857e6
+Mountain,New Mexico,1979,507e6
+Mountain,Arizona,1979,941e6
+Mountain,Utah,1979,948e6
+Mountain,Nevada,1979,199e6
+Pacific,Washington,1979,2817e6
+Pacific,Oregon,1979,1103e6
+Pacific,California,1979,12563e6
+Pacific,Alaska,1979,13e6
+Pacific,Hawaii,1979,15e7
+Northeast,Maine,1980,665e6
+Northeast,New Hampshire,1980,347e6
+Northeast,Vermont,1980,2289e6
+Northeast,Massachusetts,1980,57e7
+Northeast,Rhode Island,1980,47e6
+Northeast,Connecticut,1980,612e6
+Northeast,New York,1980,10974e6
+Northeast,New Jersey,1980,494e6
+Northeast,Pennsylvania,1980,8496e6
+Northeast,Delaware,1980,125e6
+Northeast,Maryland,1980,152e7
+Lake States,Michigan,1980,497e7
+Lake States,Wisconsin,1980,2238e7
+Lake States,Minnesota,1980,9535e6
+Corn Belt,Ohio,1980,431e7
+Corn Belt,Indiana,1980,221e7
+Corn Belt,Illinois,1980,254e7
+Corn Belt,Iowa,1980,3994e6
+Corn Belt,Missouri,1980,2826e6
+Northern Plains,North Dakota,1980,939e6
+Northern Plains,South Dakota,1980,1669e6
+Northern Plains,Nebraska,1980,1315e6
+Northern Plains,Kansas,1980,133e7
+Appalachian,Virginia,1980,1974e6
+Appalachian,West Virginia,1980,35e7
+Appalachian,North Carolina,1980,1631e6
+Appalachian,Kentucky,1980,2219e6
+Appalachian,Tennessee,1980,2241e6
+Southeast,South Carolina,1980,541e6
+Southeast,Georgia,1980,1367e6
+Southeast,Florida,1980,2028e6
+Southeast,Alabama,1980,61e7
+Delta States,Mississippi,1980,817e6
+Delta States,Arkansas,1980,74e7
+Delta States,Louisiana,1980,1012e6
+Southern Plains,Oklahoma,1980,111e7
+Southern Plains,Texas,1980,3625e6
+Mountain,Montana,1980,314e6
+Mountain,Idaho,1980,1947e6
+Mountain,Wyoming,1980,132e6
+Mountain,Colorado,1980,858e6
+Mountain,New Mexico,1980,602e6
+Mountain,Arizona,1980,1031e6
+Mountain,Utah,1980,1028e6
+Mountain,Nevada,1980,219e6
+Pacific,Washington,1980,2942e6
+Pacific,Oregon,1980,1169e6
+Pacific,California,1980,13577e6
+Pacific,Alaska,1980,13e6
+Pacific,Hawaii,1980,152e6
+Northeast,Maine,1981,698e6
+Northeast,New Hampshire,1981,346e6
+Northeast,Vermont,1981,2298e6
+Northeast,Massachusetts,1981,578e6
+Northeast,Rhode Island,1981,46e6
+Northeast,Connecticut,1981,624e6
+Northeast,New York,1981,11069e6
+Northeast,New Jersey,1981,494e6
+Northeast,Pennsylvania,1981,8965e6
+Northeast,Delaware,1981,124e6
+Northeast,Maryland,1981,1556e6
+Lake States,Michigan,1981,5103e6
+Lake States,Wisconsin,1981,23e9
+Lake States,Minnesota,1981,10061e6
+Corn Belt,Ohio,1981,4385e6
+Corn Belt,Indiana,1981,2282e6
+Corn Belt,Illinois,1981,2604e6
+Corn Belt,Iowa,1981,4056e6
+Corn Belt,Missouri,1981,2877e6
+Northern Plains,North Dakota,1981,995e6
+Northern Plains,South Dakota,1981,1757e6
+Northern Plains,Nebraska,1981,14e8
+Northern Plains,Kansas,1981,1397e6
+Appalachian,Virginia,1981,2015e6
+Appalachian,West Virginia,1981,35e7
+Appalachian,North Carolina,1981,1654e6
+Appalachian,Kentucky,1981,2281e6
+Appalachian,Tennessee,1981,23e8
+Southeast,South Carolina,1981,552e6
+Southeast,Georgia,1981,1396e6
+Southeast,Florida,1981,2082e6
+Southeast,Alabama,1981,62e7
+Delta States,Mississippi,1981,86e7
+Delta States,Arkansas,1981,792e6
+Delta States,Louisiana,1981,996e6
+Southern Plains,Oklahoma,1981,115e7
+Southern Plains,Texas,1981,3665e6
+Mountain,Montana,1981,331e6
+Mountain,Idaho,1981,2162e6
+Mountain,Wyoming,1981,136e6
+Mountain,Colorado,1981,928e6
+Mountain,New Mexico,1981,671e6
+Mountain,Arizona,1981,1133e6
+Mountain,Utah,1981,111e7
+Mountain,Nevada,1981,223e6
+Pacific,Washington,1981,3017e6
+Pacific,Oregon,1981,122e7
+Pacific,California,1981,14248e6
+Pacific,Alaska,1981,13e6
+Pacific,Hawaii,1981,15e7
+Northeast,Maine,1982,727e6
+Northeast,New Hampshire,1982,365e6
+Northeast,Vermont,1982,2385e6
+Northeast,Massachusetts,1982,602e6
+Northeast,Rhode Island,1982,46e6
+Northeast,Connecticut,1982,644e6
+Northeast,New York,1982,11097e6
+Northeast,New Jersey,1982,492e6
+Northeast,Pennsylvania,1982,9264e6
+Northeast,Delaware,1982,137e6
+Northeast,Maryland,1982,1581e6
+Lake States,Michigan,1982,5253e6
+Lake States,Wisconsin,1982,2323e7
+Lake States,Minnesota,1982,10341e6
+Corn Belt,Ohio,1982,455e7
+Corn Belt,Indiana,1982,2334e6
+Corn Belt,Illinois,1982,2657e6
+Corn Belt,Iowa,1982,4004e6
+Corn Belt,Missouri,1982,2905e6
+Northern Plains,North Dakota,1982,102e7
+Northern Plains,South Dakota,1982,1762e6
+Northern Plains,Nebraska,1982,134e7
+Northern Plains,Kansas,1982,1356e6
+Appalachian,Virginia,1982,2059e6
+Appalachian,West Virginia,1982,349e6
+Appalachian,North Carolina,1982,1686e6
+Appalachian,Kentucky,1982,2364e6
+Appalachian,Tennessee,1982,2326e6
+Southeast,South Carolina,1982,567e6
+Southeast,Georgia,1982,1412e6
+Southeast,Florida,1982,2109e6
+Southeast,Alabama,1982,58e7
+Delta States,Mississippi,1982,9e8
+Delta States,Arkansas,1982,828e6
+Delta States,Louisiana,1982,975e6
+Southern Plains,Oklahoma,1982,1165e6
+Southern Plains,Texas,1982,378e7
+Mountain,Montana,1982,341e6
+Mountain,Idaho,1982,2253e6
+Mountain,Wyoming,1982,137e6
+Mountain,Colorado,1982,972e6
+Mountain,New Mexico,1982,812e6
+Mountain,Arizona,1982,1202e6
+Mountain,Utah,1982,1162e6
+Mountain,Nevada,1982,225e6
+Pacific,Washington,1982,3222e6
+Pacific,Oregon,1982,1301e6
+Pacific,California,1982,14528e6
+Pacific,Alaska,1982,14e6
+Pacific,Hawaii,1982,144e6
+Northeast,Maine,1983,736e6
+Northeast,New Hampshire,1983,379e6
+Northeast,Vermont,1983,249e7
+Northeast,Massachusetts,1983,613e6
+Northeast,Rhode Island,1983,45e6
+Northeast,Connecticut,1983,655e6
+Northeast,New York,1983,11648e6
+Northeast,New Jersey,1983,5e8
+Northeast,Pennsylvania,1983,951e7
+Northeast,Delaware,1983,137e6
+Northeast,Maryland,1983,1606e6
+Lake States,Michigan,1983,5528e6
+Lake States,Wisconsin,1983,238e8
+Lake States,Minnesota,1983,10913e6
+Corn Belt,Ohio,1983,4755e6
+Corn Belt,Indiana,1983,2364e6
+Corn Belt,Illinois,1983,2706e6
+Corn Belt,Iowa,1983,4036e6
+Corn Belt,Missouri,1983,31e8
+Northern Plains,North Dakota,1983,109e7
+Northern Plains,South Dakota,1983,1771e6
+Northern Plains,Nebraska,1983,1415e6
+Northern Plains,Kansas,1983,1382e6
+Appalachian,Virginia,1983,207e7
+Appalachian,West Virginia,1983,365e6
+Appalachian,North Carolina,1983,1711e6
+Appalachian,Kentucky,1983,2414e6
+Appalachian,Tennessee,1983,225e7
+Southeast,South Carolina,1983,573e6
+Southeast,Georgia,1983,1395e6
+Southeast,Florida,1983,2113e6
+Southeast,Alabama,1983,573e6
+Delta States,Mississippi,1983,883e6
+Delta States,Arkansas,1983,845e6
+Delta States,Louisiana,1983,954e6
+Southern Plains,Oklahoma,1983,1183e6
+Southern Plains,Texas,1983,3985e6
+Mountain,Montana,1983,355e6
+Mountain,Idaho,1983,2303e6
+Mountain,Wyoming,1983,136e6
+Mountain,Colorado,1983,987e6
+Mountain,New Mexico,1983,938e6
+Mountain,Arizona,1983,1237e6
+Mountain,Utah,1983,1171e6
+Mountain,Nevada,1983,227e6
+Pacific,Washington,1983,3482e6
+Pacific,Oregon,1983,1363e6
+Pacific,California,1983,14733e6
+Pacific,Alaska,1983,14e6
+Pacific,Hawaii,1983,149e6
+Northeast,Maine,1984,694e6
+Northeast,New Hampshire,1984,361e6
+Northeast,Vermont,1984,2311e6
+Northeast,Massachusetts,1984,573e6
+Northeast,Rhode Island,1984,44e6
+Northeast,Connecticut,1984,611e6
+Northeast,New York,1984,11443e6
+Northeast,New Jersey,1984,474e6
+Northeast,Pennsylvania,1984,9423e6
+Northeast,Delaware,1984,132e6
+Northeast,Maryland,1984,153e7
+Lake States,Michigan,1984,535e7
+Lake States,Wisconsin,1984,23501e6
+Lake States,Minnesota,1984,10331e6
+Corn Belt,Ohio,1984,465e7
+Corn Belt,Indiana,1984,2279e6
+Corn Belt,Illinois,1984,256e7
+Corn Belt,Iowa,1984,3805e6
+Corn Belt,Missouri,1984,2754e6
+Northern Plains,North Dakota,1984,1055e6
+Northern Plains,South Dakota,1984,1622e6
+Northern Plains,Nebraska,1984,1225e6
+Northern Plains,Kansas,1984,1225e6
+Appalachian,Virginia,1984,1967e6
+Appalachian,West Virginia,1984,369e6
+Appalachian,North Carolina,1984,1649e6
+Appalachian,Kentucky,1984,2106e6
+Appalachian,Tennessee,1984,2152e6
+Southeast,South Carolina,1984,541e6
+Southeast,Georgia,1984,1274e6
+Southeast,Florida,1984,1898e6
+Southeast,Alabama,1984,536e6
+Delta States,Mississippi,1984,847e6
+Delta States,Arkansas,1984,808e6
+Delta States,Louisiana,1984,893e6
+Southern Plains,Oklahoma,1984,113e7
+Southern Plains,Texas,1984,3848e6
+Mountain,Montana,1984,341e6
+Mountain,Idaho,1984,219e7
+Mountain,Wyoming,1984,132e6
+Mountain,Colorado,1984,956e6
+Mountain,New Mexico,1984,1006e6
+Mountain,Arizona,1984,1222e6
+Mountain,Utah,1984,1039e6
+Mountain,Nevada,1984,235e6
+Pacific,Washington,1984,3468e6
+Pacific,Oregon,1984,1338e6
+Pacific,California,1984,15292e6
+Pacific,Alaska,1984,14e6
+Pacific,Hawaii,1984,148e6
+Northeast,Maine,1985,673e6
+Northeast,New Hampshire,1985,364e6
+Northeast,Vermont,1985,241e7
+Northeast,Massachusetts,1985,596e6
+Northeast,Rhode Island,1985,44e6
+Northeast,Connecticut,1985,62e7
+Northeast,New York,1985,11732e6
+Northeast,New Jersey,1985,487e6
+Northeast,Pennsylvania,1985,9983e6
+Northeast,Delaware,1985,147e6
+Northeast,Maryland,1985,1625e6
+Lake States,Michigan,1985,5568e6
+Lake States,Wisconsin,1985,247e8
+Lake States,Minnesota,1985,10835e6
+Corn Belt,Ohio,1985,487e7
+Corn Belt,Indiana,1985,2358e6
+Corn Belt,Illinois,1985,2721e6
+Corn Belt,Iowa,1985,4058e6
+Corn Belt,Missouri,1985,287e7
+Northern Plains,North Dakota,1985,112e7
+Northern Plains,South Dakota,1985,1744e6
+Northern Plains,Nebraska,1985,134e7
+Northern Plains,Kansas,1985,1285e6
+Appalachian,Virginia,1985,2102e6
+Appalachian,West Virginia,1985,382e6
+Appalachian,North Carolina,1985,1748e6
+Appalachian,Kentucky,1985,2222e6
+Appalachian,Tennessee,1985,2235e6
+Southeast,South Carolina,1985,576e6
+Southeast,Georgia,1985,13e8
+Southeast,Florida,1985,2038e6
+Southeast,Alabama,1985,547e6
+Delta States,Mississippi,1985,876e6
+Delta States,Arkansas,1985,848e6
+Delta States,Louisiana,1985,911e6
+Southern Plains,Oklahoma,1985,1183e6
+Southern Plains,Texas,1985,3968e6
+Mountain,Montana,1985,349e6
+Mountain,Idaho,1985,2421e6
+Mountain,Wyoming,1985,134e6
+Mountain,Colorado,1985,1105e6
+Mountain,New Mexico,1985,1078e6
+Mountain,Arizona,1985,1348e6
+Mountain,Utah,1985,1135e6
+Mountain,Nevada,1985,242e6
+Pacific,Washington,1985,375e7
+Pacific,Oregon,1985,1438e6
+Pacific,California,1985,16762e6
+Pacific,Alaska,1985,22e6
+Pacific,Hawaii,1985,142e6
+Northeast,Maine,1986,694e6
+Northeast,New Hampshire,1986,373e6
+Northeast,Vermont,1986,2448e6
+Northeast,Massachusetts,1986,559e6
+Northeast,Rhode Island,1986,41e6
+Northeast,Connecticut,1986,6e8
+Northeast,New York,1986,11718e6
+Northeast,New Jersey,1986,479e6
+Northeast,Pennsylvania,1986,10152e6
+Northeast,Delaware,1986,146e6
+Northeast,Maryland,1986,162e7
+Lake States,Michigan,1986,5404e6
+Lake States,Wisconsin,1986,245e8
+Lake States,Minnesota,1986,10614e6
+Corn Belt,Ohio,1986,494e7
+Corn Belt,Indiana,1986,2348e6
+Corn Belt,Illinois,1986,2741e6
+Corn Belt,Iowa,1986,3879e6
+Corn Belt,Missouri,1986,293e7
+Northern Plains,North Dakota,1986,1074e6
+Northern Plains,South Dakota,1986,1685e6
+Northern Plains,Nebraska,1986,135e7
+Northern Plains,Kansas,1986,1301e6
+Appalachian,Virginia,1986,2151e6
+Appalachian,West Virginia,1986,375e6
+Appalachian,North Carolina,1986,1695e6
+Appalachian,Kentucky,1986,2327e6
+Appalachian,Tennessee,1986,2221e6
+Southeast,South Carolina,1986,535e6
+Southeast,Georgia,1986,1265e6
+Southeast,Florida,1986,2157e6
+Southeast,Alabama,1986,529e6
+Delta States,Mississippi,1986,841e6
+Delta States,Arkansas,1986,755e6
+Delta States,Louisiana,1986,887e6
+Southern Plains,Oklahoma,1986,119e7
+Southern Plains,Texas,1986,4045e6
+Mountain,Montana,1986,338e6
+Mountain,Idaho,1986,2389e6
+Mountain,Wyoming,1986,131e6
+Mountain,Colorado,1986,1188e6
+Mountain,New Mexico,1986,1092e6
+Mountain,Arizona,1986,1368e6
+Mountain,Utah,1986,1157e6
+Mountain,Nevada,1986,25e7
+Pacific,Washington,1986,3762e6
+Pacific,Oregon,1986,1471e6
+Pacific,California,1986,17222e6
+Pacific,Alaska,1986,32e6
+Pacific,Hawaii,1986,156e6
+Northeast,Maine,1987,67e7
+Northeast,New Hampshire,1987,323e6
+Northeast,Vermont,1987,241e7
+Northeast,Massachusetts,1987,506e6
+Northeast,Rhode Island,1987,4e7
+Northeast,Connecticut,1987,567e6
+Northeast,New York,1987,11439e6
+Northeast,New Jersey,1987,436e6
+Northeast,Pennsylvania,1987,10183e6
+Northeast,Delaware,1987,139e6
+Northeast,Maryland,1987,1508e6
+Lake States,Michigan,1987,5248e6
+Lake States,Wisconsin,1987,248e8
+Lake States,Minnesota,1987,1042e7
+Corn Belt,Ohio,1987,484e7
+Corn Belt,Indiana,1987,2287e6
+Corn Belt,Illinois,1987,2775e6
+Corn Belt,Iowa,1987,391e7
+Corn Belt,Missouri,1987,294e7
+Northern Plains,North Dakota,1987,1087e6
+Northern Plains,South Dakota,1987,1718e6
+Northern Plains,Nebraska,1987,134e7
+Northern Plains,Kansas,1987,1261e6
+Appalachian,Virginia,1987,2019e6
+Appalachian,West Virginia,1987,349e6
+Appalachian,North Carolina,1987,1555e6
+Appalachian,Kentucky,1987,2338e6
+Appalachian,Tennessee,1987,2207e6
+Southeast,South Carolina,1987,487e6
+Southeast,Georgia,1987,116e7
+Southeast,Florida,1987,2209e6
+Southeast,Alabama,1987,502e6
+Delta States,Mississippi,1987,786e6
+Delta States,Arkansas,1987,748e6
+Delta States,Louisiana,1987,881e6
+Southern Plains,Oklahoma,1987,117e7
+Southern Plains,Texas,1987,4277e6
+Mountain,Montana,1987,339e6
+Mountain,Idaho,1987,2375e6
+Mountain,Wyoming,1987,12e7
+Mountain,Colorado,1987,1192e6
+Mountain,New Mexico,1987,979e6
+Mountain,Arizona,1987,1432e6
+Mountain,Utah,1987,1121e6
+Mountain,Nevada,1987,263e6
+Pacific,Washington,1987,3763e6
+Pacific,Oregon,1987,1471e6
+Pacific,California,1987,17928e6
+Pacific,Alaska,1987,35e6
+Pacific,Hawaii,1987,156e6
+Northeast,Maine,1988,644e6
+Northeast,New Hampshire,1988,304e6
+Northeast,Vermont,1988,2389e6
+Northeast,Massachusetts,1988,461e6
+Northeast,Rhode Island,1988,39e6
+Northeast,Connecticut,1988,541e6
+Northeast,New York,1988,11444e6
+Northeast,New Jersey,1988,396e6
+Northeast,Pennsylvania,1988,10204e6
+Northeast,Delaware,1988,135e6
+Northeast,Maryland,1988,1443e6
+Lake States,Michigan,1988,5228e6
+Lake States,Wisconsin,1988,25e9
+Lake States,Minnesota,1988,10413e6
+Corn Belt,Ohio,1988,4785e6
+Corn Belt,Indiana,1988,2234e6
+Corn Belt,Illinois,1988,2763e6
+Corn Belt,Iowa,1988,404e7
+Corn Belt,Missouri,1988,3e9
+Northern Plains,North Dakota,1988,1062e6
+Northern Plains,South Dakota,1988,1747e6
+Northern Plains,Nebraska,1988,1364e6
+Northern Plains,Kansas,1988,1269e6
+Appalachian,Virginia,1988,2013e6
+Appalachian,West Virginia,1988,301e6
+Appalachian,North Carolina,1988,1555e6
+Appalachian,Kentucky,1988,2327e6
+Appalachian,Tennessee,1988,2137e6
+Southeast,South Carolina,1988,477e6
+Southeast,Georgia,1988,1235e6
+Southeast,Florida,1988,235e7
+Southeast,Alabama,1988,524e6
+Delta States,Mississippi,1988,794e6
+Delta States,Arkansas,1988,789e6
+Delta States,Louisiana,1988,93e7
+Southern Plains,Oklahoma,1988,118e7
+Southern Plains,Texas,1988,4874e6
+Mountain,Montana,1988,352e6
+Mountain,Idaho,1988,2628e6
+Mountain,Wyoming,1988,125e6
+Mountain,Colorado,1988,1227e6
+Mountain,New Mexico,1988,1099e6
+Mountain,Arizona,1988,15e8
+Mountain,Utah,1988,1167e6
+Mountain,Nevada,1988,278e6
+Pacific,Washington,1988,3966e6
+Pacific,Oregon,1988,1503e6
+Pacific,California,1988,18607e6
+Pacific,Alaska,1988,31e6
+Pacific,Hawaii,1988,16e7
+Northeast,Maine,1989,609e6
+Northeast,New Hampshire,1989,292e6
+Northeast,Vermont,1989,2337e6
+Northeast,Massachusetts,1989,448e6
+Northeast,Rhode Island,1989,34e6
+Northeast,Connecticut,1989,524e6
+Northeast,New York,1989,11071e6
+Northeast,New Jersey,1989,364e6
+Northeast,Pennsylvania,1989,9998e6
+Northeast,Delaware,1989,128e6
+Northeast,Maryland,1989,1377e6
+Lake States,Michigan,1989,5152e6
+Lake States,Wisconsin,1989,23898e6
+Lake States,Minnesota,1989,10109e6
+Corn Belt,Ohio,1989,4535e6
+Corn Belt,Indiana,1989,2229e6
+Corn Belt,Illinois,1989,265e7
+Corn Belt,Iowa,1989,4202e6
+Corn Belt,Missouri,1989,2975e6
+Northern Plains,North Dakota,1989,103e7
+Northern Plains,South Dakota,1989,1724e6
+Northern Plains,Nebraska,1989,136e7
+Northern Plains,Kansas,1989,1256e6
+Appalachian,Virginia,1989,1991e6
+Appalachian,West Virginia,1989,279e6
+Appalachian,North Carolina,1989,1531e6
+Appalachian,Kentucky,1989,2265e6
+Appalachian,Tennessee,1989,204e7
+Southeast,South Carolina,1989,462e6
+Southeast,Georgia,1989,1303e6
+Southeast,Florida,1989,2447e6
+Southeast,Alabama,1989,527e6
+Delta States,Mississippi,1989,767e6
+Delta States,Arkansas,1989,794e6
+Delta States,Louisiana,1989,95e7
+Southern Plains,Oklahoma,1989,1232e6
+Southern Plains,Texas,1989,517e7
+Mountain,Montana,1989,327e6
+Mountain,Idaho,1989,2669e6
+Mountain,Wyoming,1989,124e6
+Mountain,Colorado,1989,1277e6
+Mountain,New Mexico,1989,1243e6
+Mountain,Arizona,1989,1525e6
+Mountain,Utah,1989,117e7
+Mountain,Nevada,1989,295e6
+Pacific,Washington,1989,4097e6
+Pacific,Oregon,1989,1509e6
+Pacific,California,1989,1942e7
+Pacific,Alaska,1989,23e6
+Pacific,Hawaii,1989,154e6
+Northeast,Maine,1990,614e6
+Northeast,New Hampshire,1990,302e6
+Northeast,Vermont,1990,2368e6
+Northeast,Massachusetts,1990,461e6
+Northeast,Rhode Island,1990,34e6
+Northeast,Connecticut,1990,515e6
+Northeast,New York,1990,11067e6
+Northeast,New Jersey,1990,352e6
+Northeast,Pennsylvania,1990,10014e6
+Northeast,Delaware,1990,123e6
+Northeast,Maryland,1990,1373e6
+Lake States,Michigan,1990,5234e6
+Lake States,Wisconsin,1990,24187e6
+Lake States,Minnesota,1990,1003e7
+Corn Belt,Ohio,1990,4667e6
+Corn Belt,Indiana,1990,2276e6
+Corn Belt,Illinois,1990,2559e6
+Corn Belt,Iowa,1990,4233e6
+Corn Belt,Missouri,1990,304e7
+Northern Plains,North Dakota,1990,1073e6
+Northern Plains,South Dakota,1990,1716e6
+Northern Plains,Nebraska,1990,1345e6
+Northern Plains,Kansas,1990,1245e6
+Appalachian,Virginia,1990,2004e6
+Appalachian,West Virginia,1990,27e7
+Appalachian,North Carolina,1990,1522e6
+Appalachian,Kentucky,1990,2255e6
+Appalachian,Tennessee,1990,2022e6
+Southeast,South Carolina,1990,447e6
+Southeast,Georgia,1990,144e7
+Southeast,Florida,1990,2526e6
+Southeast,Alabama,1990,513e6
+Delta States,Mississippi,1990,749e6
+Delta States,Arkansas,1990,817e6
+Delta States,Louisiana,1990,94e7
+Southern Plains,Oklahoma,1990,1245e6
+Southern Plains,Texas,1990,5539e6
+Mountain,Montana,1990,325e6
+Mountain,Idaho,1990,2949e6
+Mountain,Wyoming,1990,125e6
+Mountain,Colorado,1990,1323e6
+Mountain,New Mexico,1990,1524e6
+Mountain,Arizona,1990,1645e6
+Mountain,Utah,1990,1267e6
+Mountain,Nevada,1990,328e6
+Pacific,Washington,1990,4392e6
+Pacific,Oregon,1990,1611e6
+Pacific,California,1990,20947e6
+Pacific,Alaska,1990,17e6
+Pacific,Hawaii,1990,151e6
+Northeast,Maine,1991,621e6
+Northeast,New Hampshire,1991,318e6
+Northeast,Vermont,1991,2408e6
+Northeast,Massachusetts,1991,465e6
+Northeast,Rhode Island,1991,34e6
+Northeast,Connecticut,1991,523e6
+Northeast,New York,1991,11179e6
+Northeast,New Jersey,1991,354e6
+Northeast,Pennsylvania,1991,10058e6
+Northeast,Delaware,1991,13e7
+Northeast,Maryland,1991,1419e6
+Lake States,Michigan,1991,5256e6
+Lake States,Wisconsin,1991,2377e7
+Lake States,Minnesota,1991,9775e6
+Corn Belt,Ohio,1991,4695e6
+Corn Belt,Indiana,1991,2285e6
+Corn Belt,Illinois,1991,2554e6
+Corn Belt,Iowa,1991,4151e6
+Corn Belt,Missouri,1991,2865e6
+Northern Plains,North Dakota,1991,1035e6
+Northern Plains,South Dakota,1991,1674e6
+Northern Plains,Nebraska,1991,128e7
+Northern Plains,Kansas,1991,123e7
+Appalachian,Virginia,1991,2046e6
+Appalachian,West Virginia,1991,27e7
+Appalachian,North Carolina,1991,1527e6
+Appalachian,Kentucky,1991,219e7
+Appalachian,Tennessee,1991,1993e6
+Southeast,South Carolina,1991,405e6
+Southeast,Georgia,1991,1447e6
+Southeast,Florida,1991,2508e6
+Southeast,Alabama,1991,521e6
+Delta States,Mississippi,1991,738e6
+Delta States,Arkansas,1991,783e6
+Delta States,Louisiana,1991,934e6
+Southern Plains,Oklahoma,1991,1223e6
+Southern Plains,Texas,1991,5418e6
+Mountain,Montana,1991,33e7
+Mountain,Idaho,1991,2919e6
+Mountain,Wyoming,1991,109e6
+Mountain,Colorado,1991,1335e6
+Mountain,New Mexico,1991,1917e6
+Mountain,Arizona,1991,1713e6
+Mountain,Utah,1991,1262e6
+Mountain,Nevada,1991,35e7
+Pacific,Washington,1991,4459e6
+Pacific,Oregon,1991,1659e6
+Pacific,California,1991,21407e6
+Pacific,Alaska,1991,13e6
+Pacific,Hawaii,1991,141e6
+Northeast,Maine,1992,642e6
+Northeast,New Hampshire,1992,332e6
+Northeast,Vermont,1992,251e7
+Northeast,Massachusetts,1992,479e6
+Northeast,Rhode Island,1992,33e6
+Northeast,Connecticut,1992,541e6
+Northeast,New York,1992,11557e6
+Northeast,New Jersey,1992,357e6
+Northeast,Pennsylvania,1992,10368e6
+Northeast,Delaware,1992,138e6
+Northeast,Maryland,1992,1444e6
+Lake States,Michigan,1992,5435e6
+Lake States,Wisconsin,1992,23844e6
+Lake States,Minnesota,1992,9858e6
+Corn Belt,Ohio,1992,4695e6
+Corn Belt,Indiana,1992,2289e6
+Corn Belt,Illinois,1992,2525e6
+Corn Belt,Iowa,1992,4006e6
+Corn Belt,Missouri,1992,2971e6
+Northern Plains,North Dakota,1992,989e6
+Northern Plains,South Dakota,1992,166e7
+Northern Plains,Nebraska,1992,123e7
+Northern Plains,Kansas,1992,122e7
+Appalachian,Virginia,1992,2049e6
+Appalachian,West Virginia,1992,278e6
+Appalachian,North Carolina,1992,1535e6
+Appalachian,Kentucky,1992,215e7
+Appalachian,Tennessee,1992,1968e6
+Southeast,South Carolina,1992,416e6
+Southeast,Georgia,1992,1518e6
+Southeast,Florida,1992,2579e6
+Southeast,Alabama,1992,503e6
+Delta States,Mississippi,1992,756e6
+Delta States,Arkansas,1992,787e6
+Delta States,Louisiana,1992,96e7
+Southern Plains,Oklahoma,1992,1231e6
+Southern Plains,Texas,1992,559e7
+Mountain,Montana,1992,327e6
+Mountain,Idaho,1992,3138e6
+Mountain,Wyoming,1992,104e6
+Mountain,Colorado,1992,1416e6
+Mountain,New Mexico,1992,2174e6
+Mountain,Arizona,1992,1787e6
+Mountain,Utah,1992,1345e6
+Mountain,Nevada,1992,353e6
+Pacific,Washington,1992,4836e6
+Pacific,Oregon,1992,1712e6
+Pacific,California,1992,22092e6
+Pacific,Alaska,1992,12e6
+Pacific,Hawaii,1992,145e6
+Northeast,Maine,1993,663e6
+Northeast,New Hampshire,1993,325e6
+Northeast,Vermont,1993,2504e6
+Northeast,Massachusetts,1993,478e6
+Northeast,Rhode Island,1993,32e6
+Northeast,Connecticut,1993,543e6
+Northeast,New York,1993,11415e6
+Northeast,New Jersey,1993,363e6
+Northeast,Pennsylvania,1993,10181e6
+Northeast,Delaware,1993,147e6
+Northeast,Maryland,1993,14e8
+Lake States,Michigan,1993,5435e6
+Lake States,Wisconsin,1993,22844e6
+Lake States,Minnesota,1993,9693e6
+Corn Belt,Ohio,1993,462e7
+Corn Belt,Indiana,1993,2255e6
+Corn Belt,Illinois,1993,2514e6
+Corn Belt,Iowa,1993,4054e6
+Corn Belt,Missouri,1993,284e7
+Northern Plains,North Dakota,1993,918e6
+Northern Plains,South Dakota,1993,1619e6
+Northern Plains,Nebraska,1993,1125e6
+Northern Plains,Kansas,1993,108e7
+Appalachian,Virginia,1993,1995e6
+Appalachian,West Virginia,1993,275e6
+Appalachian,North Carolina,1993,1498e6
+Appalachian,Kentucky,1993,212e7
+Appalachian,Tennessee,1993,1897e6
+Southeast,South Carolina,1993,418e6
+Southeast,Georgia,1993,1535e6
+Southeast,Florida,1993,2558e6
+Southeast,Alabama,1993,515e6
+Delta States,Mississippi,1993,745e6
+Delta States,Arkansas,1993,769e6
+Delta States,Louisiana,1993,935e6
+Southern Plains,Oklahoma,1993,1257e6
+Southern Plains,Texas,1993,591e7
+Mountain,Montana,1993,307e6
+Mountain,Idaho,1993,3229e6
+Mountain,Wyoming,1993,1e8
+Mountain,Colorado,1993,1454e6
+Mountain,New Mexico,1993,2766e6
+Mountain,Arizona,1993,1876e6
+Mountain,Utah,1993,1332e6
+Mountain,Nevada,1993,348e6
+Pacific,Washington,1993,498e7
+Pacific,Oregon,1993,1692e6
+Pacific,California,1993,22924e6
+Pacific,Alaska,1993,12e6
+Pacific,Hawaii,1993,142e6
+Northeast,Maine,1994,639e6
+Northeast,New Hampshire,1994,313e6
+Northeast,Vermont,1994,2457e6
+Northeast,Massachusetts,1994,455e6
+Northeast,Rhode Island,1994,32e6
+Northeast,Connecticut,1994,53e7
+Northeast,New York,1994,114e8
+Northeast,New Jersey,1994,33e7
+Northeast,Pennsylvania,1994,1023e7
+Northeast,Delaware,1994,143e6
+Northeast,Maryland,1994,1335e6
+Lake States,Michigan,1994,5545e6
+Lake States,Wisconsin,1994,22412e6
+Lake States,Minnesota,1994,9342e6
+Corn Belt,Ohio,1994,4513e6
+Corn Belt,Indiana,1994,2257e6
+Corn Belt,Illinois,1994,2452e6
+Corn Belt,Iowa,1994,396e7
+Corn Belt,Missouri,1994,2715e6
+Northern Plains,North Dakota,1994,869e6
+Northern Plains,South Dakota,1994,1589e6
+Northern Plains,Nebraska,1994,111e7
+Northern Plains,Kansas,1994,1125e6
+Appalachian,Virginia,1994,1924e6
+Appalachian,West Virginia,1994,272e6
+Appalachian,North Carolina,1994,1473e6
+Appalachian,Kentucky,1994,2007e6
+Appalachian,Tennessee,1994,1812e6
+Southeast,South Carolina,1994,411e6
+Southeast,Georgia,1994,1595e6
+Southeast,Florida,1994,2623e6
+Southeast,Alabama,1994,5e8
+Delta States,Mississippi,1994,731e6
+Delta States,Arkansas,1994,753e6
+Delta States,Louisiana,1994,925e6
+Southern Plains,Oklahoma,1994,1287e6
+Southern Plains,Texas,1994,6225e6
+Mountain,Montana,1994,307e6
+Mountain,Idaho,1994,3754e6
+Mountain,Wyoming,1994,91e6
+Mountain,Colorado,1994,1553e6
+Mountain,New Mexico,1994,3325e6
+Mountain,Arizona,1994,2134e6
+Mountain,Utah,1994,1431e6
+Mountain,Nevada,1994,413e6
+Pacific,Washington,1994,5203e6
+Pacific,Oregon,1994,1714e6
+Pacific,California,1994,25234e6
+Pacific,Alaska,1994,13e6
+Pacific,Hawaii,1994,139e6
+Northeast,Maine,1995,641e6
+Northeast,New Hampshire,1995,326e6
+Northeast,Vermont,1995,2545e6
+Northeast,Massachusetts,1995,448e6
+Northeast,Rhode Island,1995,33e6
+Northeast,Connecticut,1995,526e6
+Northeast,New York,1995,116e8
+Northeast,New Jersey,1995,32e7
+Northeast,Pennsylvania,1995,10489e6
+Northeast,Delaware,1995,145e6
+Northeast,Maryland,1995,134e7
+Lake States,Michigan,1995,5565e6
+Lake States,Wisconsin,1995,22942e6
+Lake States,Minnesota,1995,9409e6
+Corn Belt,Ohio,1995,46e8
+Corn Belt,Indiana,1995,2214e6
+Corn Belt,Illinois,1995,2399e6
+Corn Belt,Iowa,1995,4047e6
+Corn Belt,Missouri,1995,269e7
+Northern Plains,North Dakota,1995,838e6
+Northern Plains,South Dakota,1995,1581e6
+Northern Plains,Nebraska,1995,1095e6
+Northern Plains,Kansas,1995,118e7
+Appalachian,Virginia,1995,195e7
+Appalachian,West Virginia,1995,266e6
+Appalachian,North Carolina,1995,1403e6
+Appalachian,Kentucky,1995,202e7
+Appalachian,Tennessee,1995,1745e6
+Southeast,South Carolina,1995,391e6
+Southeast,Georgia,1995,1555e6
+Southeast,Florida,1995,2381e6
+Southeast,Alabama,1995,482e6
+Delta States,Mississippi,1995,71e7
+Delta States,Arkansas,1995,729e6
+Delta States,Louisiana,1995,905e6
+Southern Plains,Oklahoma,1995,1293e6
+Southern Plains,Texas,1995,6113e6
+Mountain,Montana,1995,315e6
+Mountain,Idaho,1995,421e7
+Mountain,Wyoming,1995,87e6
+Mountain,Colorado,1995,1551e6
+Mountain,New Mexico,1995,3623e6
+Mountain,Arizona,1995,223e7
+Mountain,Utah,1995,1473e6
+Mountain,Nevada,1995,426e6
+Pacific,Washington,1995,5304e6
+Pacific,Oregon,1995,1677e6
+Pacific,California,1995,25327e6
+Pacific,Alaska,1995,12e6
+Pacific,Hawaii,1995,142e6
+Northeast,Maine,1996,648e6
+Northeast,New Hampshire,1996,324e6
+Northeast,Vermont,1996,2569e6
+Northeast,Massachusetts,1996,44e7
+Northeast,Rhode Island,1996,31e6
+Northeast,Connecticut,1996,499e6
+Northeast,New York,1996,1151e7
+Northeast,New Jersey,1996,297e6
+Northeast,Pennsylvania,1996,10484e6
+Northeast,Delaware,1996,14e7
+Northeast,Maryland,1996,1312e6
+Lake States,Michigan,1996,543e7
+Lake States,Wisconsin,1996,22376e6
+Lake States,Minnesota,1996,944e7
+Corn Belt,Ohio,1996,436e7
+Corn Belt,Indiana,1996,2166e6
+Corn Belt,Illinois,1996,2247e6
+Corn Belt,Iowa,1996,3784e6
+Corn Belt,Missouri,1996,2443e6
+Northern Plains,North Dakota,1996,804e6
+Northern Plains,South Dakota,1996,1474e6
+Northern Plains,Nebraska,1996,105e7
+Northern Plains,Kansas,1996,12e8
+Appalachian,Virginia,1996,1805e6
+Appalachian,West Virginia,1996,252e6
+Appalachian,North Carolina,1996,1308e6
+Appalachian,Kentucky,1996,186e7
+Appalachian,Tennessee,1996,163e7
+Southeast,South Carolina,1996,381e6
+Southeast,Georgia,1996,1486e6
+Southeast,Florida,1996,2401e6
+Southeast,Alabama,1996,434e6
+Delta States,Mississippi,1996,658e6
+Delta States,Arkansas,1996,675e6
+Delta States,Louisiana,1996,838e6
+Southern Plains,Oklahoma,1996,1245e6
+Southern Plains,Texas,1996,612e7
+Mountain,Montana,1996,307e6
+Mountain,Idaho,1996,4735e6
+Mountain,Wyoming,1996,88e6
+Mountain,Colorado,1996,1633e6
+Mountain,New Mexico,1996,3753e6
+Mountain,Arizona,1996,2474e6
+Mountain,Utah,1996,1547e6
+Mountain,Nevada,1996,47e7
+Pacific,Washington,1996,5279e6
+Pacific,Oregon,1996,1608e6
+Pacific,California,1996,25848e6
+Pacific,Alaska,1996,14e6
+Pacific,Hawaii,1996,129e6
+Northeast,Maine,1997,662e6
+Northeast,New Hampshire,1997,328e6
+Northeast,Vermont,1997,26e8
+Northeast,Massachusetts,1997,434e6
+Northeast,Rhode Island,1997,32e6
+Northeast,Connecticut,1997,509e6
+Northeast,New York,1997,1153e7
+Northeast,New Jersey,1997,299e6
+Northeast,Pennsylvania,1997,10662e6
+Northeast,Delaware,1997,148e6
+Northeast,Maryland,1997,1326e6
+Lake States,Michigan,1997,541e7
+Lake States,Wisconsin,1997,22368e6
+Lake States,Minnesota,1997,921e7
+Corn Belt,Ohio,1997,4415e6
+Corn Belt,Indiana,1997,2189e6
+Corn Belt,Illinois,1997,2203e6
+Corn Belt,Iowa,1997,3693e6
+Corn Belt,Missouri,1997,2362e6
+Northern Plains,North Dakota,1997,713e6
+Northern Plains,South Dakota,1997,1384e6
+Northern Plains,Nebraska,1997,104e7
+Northern Plains,Kansas,1997,1285e6
+Appalachian,Virginia,1997,1858e6
+Appalachian,West Virginia,1997,266e6
+Appalachian,North Carolina,1997,1304e6
+Appalachian,Kentucky,1997,1815e6
+Appalachian,Tennessee,1997,1609e6
+Southeast,South Carolina,1997,397e6
+Southeast,Georgia,1997,1488e6
+Southeast,Florida,1997,2476e6
+Southeast,Alabama,1997,418e6
+Delta States,Mississippi,1997,634e6
+Delta States,Arkansas,1997,635e6
+Delta States,Louisiana,1997,794e6
+Southern Plains,Oklahoma,1997,1249e6
+Southern Plains,Texas,1997,5768e6
+Mountain,Montana,1997,295e6
+Mountain,Idaho,1997,5193e6
+Mountain,Wyoming,1997,84e6
+Mountain,Colorado,1997,1679e6
+Mountain,New Mexico,1997,4011e6
+Mountain,Arizona,1997,2664e6
+Mountain,Utah,1997,154e7
+Mountain,Nevada,1997,477e6
+Pacific,Washington,1997,5305e6
+Pacific,Oregon,1997,161e7
+Pacific,California,1997,27582e6
+Pacific,Alaska,1997,15e6
+Pacific,Hawaii,1997,123e6
+Northeast,Maine,1998,68e7
+Northeast,New Hampshire,1998,333e6
+Northeast,Vermont,1998,265e7
+Northeast,Massachusetts,1998,438e6
+Northeast,Rhode Island,1998,33e6
+Northeast,Connecticut,1998,529e6
+Northeast,New York,1998,1175e7
+Northeast,New Jersey,1998,292e6
+Northeast,Pennsylvania,1998,10847e6
+Northeast,Delaware,1998,159e6
+Northeast,Maryland,1998,134e7
+Lake States,Michigan,1998,5365e6
+Lake States,Wisconsin,1998,22842e6
+Lake States,Minnesota,1998,9275e6
+Corn Belt,Ohio,1998,441e7
+Corn Belt,Indiana,1998,219e7
+Corn Belt,Illinois,1998,2121e6
+Corn Belt,Iowa,1998,3811e6
+Corn Belt,Missouri,1998,2367e6
+Northern Plains,North Dakota,1998,706e6
+Northern Plains,South Dakota,1998,1386e6
+Northern Plains,Nebraska,1998,105e7
+Northern Plains,Kansas,1998,1315e6
+Appalachian,Virginia,1998,1841e6
+Appalachian,West Virginia,1998,278e6
+Appalachian,North Carolina,1998,1251e6
+Appalachian,Kentucky,1998,171e7
+Appalachian,Tennessee,1998,1501e6
+Southeast,South Carolina,1998,374e6
+Southeast,Georgia,1998,1437e6
+Southeast,Florida,1998,2337e6
+Southeast,Alabama,1998,386e6
+Delta States,Mississippi,1998,579e6
+Delta States,Arkansas,1998,54e7
+Delta States,Louisiana,1998,751e6
+Southern Plains,Oklahoma,1998,1236e6
+Southern Plains,Texas,1998,5605e6
+Mountain,Montana,1998,291e6
+Mountain,Idaho,1998,5765e6
+Mountain,Wyoming,1998,8e7
+Mountain,Colorado,1998,1689e6
+Mountain,New Mexico,1998,4354e6
+Mountain,Arizona,1998,268e7
+Mountain,Utah,1998,1513e6
+Mountain,Nevada,1998,502e6
+Pacific,Washington,1998,5326e6
+Pacific,Oregon,1998,1583e6
+Pacific,California,1998,2762e7
+Pacific,Alaska,1998,14e6
+Pacific,Hawaii,1998,129e6
+Northeast,Maine,1999,689e6
+Northeast,New Hampshire,1999,321e6
+Northeast,Vermont,1999,271e7
+Northeast,Massachusetts,1999,42e7
+Northeast,Rhode Island,1999,31e6
+Northeast,Connecticut,1999,52e7
+Northeast,New York,1999,12082e6
+Northeast,New Jersey,1999,28e7
+Northeast,Pennsylvania,1999,10931e6
+Northeast,Delaware,1999,145e6
+Northeast,Maryland,1999,1365e6
+Lake States,Michigan,1999,5455e6
+Lake States,Wisconsin,1999,23071e6
+Lake States,Minnesota,1999,9478e6
+Corn Belt,Ohio,1999,444e7
+Corn Belt,Indiana,1999,2185e6
+Corn Belt,Illinois,1999,2029e6
+Corn Belt,Iowa,1999,3802e6
+Corn Belt,Missouri,1999,2237e6
+Northern Plains,North Dakota,1999,689e6
+Northern Plains,South Dakota,1999,1419e6
+Northern Plains,Nebraska,1999,1139e6
+Northern Plains,Kansas,1999,1405e6
+Appalachian,Virginia,1999,1873e6
+Appalachian,West Virginia,1999,275e6
+Appalachian,North Carolina,1999,1216e6
+Appalachian,Kentucky,1999,1651e6
+Appalachian,Tennessee,1999,1417e6
+Southeast,South Carolina,1999,369e6
+Southeast,Georgia,1999,1449e6
+Southeast,Florida,1999,2398e6
+Southeast,Alabama,1999,376e6
+Delta States,Mississippi,1999,552e6
+Delta States,Arkansas,1999,52e7
+Delta States,Louisiana,1999,711e6
+Southern Plains,Oklahoma,1999,1249e6
+Southern Plains,Texas,1999,562e7
+Mountain,Montana,1999,303e6
+Mountain,Idaho,1999,6453e6
+Mountain,Wyoming,1999,8e7
+Mountain,Colorado,1999,1728e6
+Mountain,New Mexico,1999,4724e6
+Mountain,Arizona,1999,2931e6
+Mountain,Utah,1999,1618e6
+Mountain,Nevada,1999,456e6
+Pacific,Washington,1999,5535e6
+Pacific,Oregon,1999,1665e6
+Pacific,California,1999,30444e6
+Pacific,Alaska,1999,14e6
+Pacific,Hawaii,1999,12e7
+Northeast,Maine,2e3,668e6
+Northeast,New Hampshire,2e3,312e6
+Northeast,Vermont,2e3,2683e6
+Northeast,Massachusetts,2e3,376e6
+Northeast,Rhode Island,2e3,28e6
+Northeast,Connecticut,2e3,48e7
+Northeast,New York,2e3,11921e6
+Northeast,New Jersey,2e3,244e6
+Northeast,Pennsylvania,2e3,11156e6
+Northeast,Delaware,2e3,146e6
+Northeast,Maryland,2e3,1351e6
+Lake States,Michigan,2e3,5705e6
+Lake States,Wisconsin,2e3,23259e6
+Lake States,Minnesota,2e3,9493e6
+Corn Belt,Ohio,2e3,4461e6
+Corn Belt,Indiana,2e3,2419e6
+Corn Belt,Illinois,2e3,2094e6
+Corn Belt,Iowa,2e3,3934e6
+Corn Belt,Missouri,2e3,2258e6
+Northern Plains,North Dakota,2e3,686e6
+Northern Plains,South Dakota,2e3,1474e6
+Northern Plains,Nebraska,2e3,1255e6
+Northern Plains,Kansas,2e3,154e7
+Appalachian,Virginia,2e3,19e8
+Appalachian,West Virginia,2e3,265e6
+Appalachian,North Carolina,2e3,1189e6
+Appalachian,Kentucky,2e3,1695e6
+Appalachian,Tennessee,2e3,1405e6
+Southeast,South Carolina,2e3,37e7
+Southeast,Georgia,2e3,1433e6
+Southeast,Florida,2e3,2463e6
+Southeast,Alabama,2e3,348e6
+Delta States,Mississippi,2e3,541e6
+Delta States,Arkansas,2e3,485e6
+Delta States,Louisiana,2e3,698e6
+Southern Plains,Oklahoma,2e3,1314e6
+Southern Plains,Texas,2e3,5743e6
+Mountain,Montana,2e3,338e6
+Mountain,Idaho,2e3,7223e6
+Mountain,Wyoming,2e3,76e6
+Mountain,Colorado,2e3,1924e6
+Mountain,New Mexico,2e3,5236e6
+Mountain,Arizona,2e3,3033e6
+Mountain,Utah,2e3,1687e6
+Mountain,Nevada,2e3,476e6
+Pacific,Washington,2e3,5593e6
+Pacific,Oregon,2e3,164e7
+Pacific,California,2e3,32245e6
+Pacific,Alaska,2e3,13e6
+Pacific,Hawaii,2e3,116e6
+Northeast,Maine,2001,654e6
+Northeast,New Hampshire,2001,322e6
+Northeast,Vermont,2001,2669e6
+Northeast,Massachusetts,2001,357e6
+Northeast,Rhode Island,2001,23e6
+Northeast,Connecticut,2001,456e6
+Northeast,New York,2001,1178e7
+Northeast,New Jersey,2001,233e6
+Northeast,Pennsylvania,2001,10849e6
+Northeast,Delaware,2001,15e7
+Northeast,Maryland,2001,1294e6
+Lake States,Michigan,2001,587e7
+Lake States,Wisconsin,2001,22199e6
+Lake States,Minnesota,2001,8812e6
+Corn Belt,Ohio,2001,4295e6
+Corn Belt,Indiana,2001,2567e6
+Corn Belt,Illinois,2001,202e7
+Corn Belt,Iowa,2001,3785e6
+Corn Belt,Missouri,2001,1949e6
+Northern Plains,North Dakota,2001,644e6
+Northern Plains,South Dakota,2001,137e7
+Northern Plains,Nebraska,2001,1166e6
+Northern Plains,Kansas,2001,161e7
+Appalachian,Virginia,2001,1885e6
+Appalachian,West Virginia,2001,249e6
+Appalachian,North Carolina,2001,1154e6
+Appalachian,Kentucky,2001,166e7
+Appalachian,Tennessee,2001,1335e6
+Southeast,South Carolina,2001,367e6
+Southeast,Georgia,2001,1433e6
+Southeast,Florida,2001,2411e6
+Southeast,Alabama,2001,3e8
+Delta States,Mississippi,2001,497e6
+Delta States,Arkansas,2001,432e6
+Delta States,Louisiana,2001,632e6
+Southern Plains,Oklahoma,2001,1325e6
+Southern Plains,Texas,2001,5107e6
+Mountain,Montana,2001,346e6
+Mountain,Idaho,2001,7757e6
+Mountain,Wyoming,2001,63e6
+Mountain,Colorado,2001,197e7
+Mountain,New Mexico,2001,5561e6
+Mountain,Arizona,2001,3085e6
+Mountain,Utah,2001,1635e6
+Mountain,Nevada,2001,485e6
+Pacific,Washington,2001,5514e6
+Pacific,Oregon,2001,1717e6
+Pacific,California,2001,33217e6
+Pacific,Alaska,2001,14e6
+Pacific,Hawaii,2001,106e6
+Northeast,Maine,2002,656e6
+Northeast,New Hampshire,2002,328e6
+Northeast,Vermont,2002,2703e6
+Northeast,Massachusetts,2002,361e6
+Northeast,Rhode Island,2002,23e6
+Northeast,Connecticut,2002,447e6
+Northeast,New York,2002,12218e6
+Northeast,New Jersey,2002,236e6
+Northeast,Pennsylvania,2002,10775e6
+Northeast,Delaware,2002,15e7
+Northeast,Maryland,2002,1301e6
+Lake States,Michigan,2002,612e7
+Lake States,Wisconsin,2002,22074e6
+Lake States,Minnesota,2002,8458e6
+Corn Belt,Ohio,2002,4475e6
+Corn Belt,Indiana,2002,2658e6
+Corn Belt,Illinois,2002,2051e6
+Corn Belt,Iowa,2002,3804e6
+Corn Belt,Missouri,2002,1946e6
+Northern Plains,North Dakota,2002,593e6
+Northern Plains,South Dakota,2002,1289e6
+Northern Plains,Nebraska,2002,1167e6
+Northern Plains,Kansas,2002,203e7
+Appalachian,Virginia,2002,1891e6
+Appalachian,West Virginia,2002,243e6
+Appalachian,North Carolina,2002,1137e6
+Appalachian,Kentucky,2002,1614e6
+Appalachian,Tennessee,2002,1315e6
+Southeast,South Carolina,2002,364e6
+Southeast,Georgia,2002,147e7
+Southeast,Florida,2002,2308e6
+Southeast,Alabama,2002,277e6
+Delta States,Mississippi,2002,478e6
+Delta States,Arkansas,2002,393e6
+Delta States,Louisiana,2002,579e6
+Southern Plains,Oklahoma,2002,1307e6
+Southern Plains,Texas,2002,53e8
+Mountain,Montana,2002,341e6
+Mountain,Idaho,2002,8155e6
+Mountain,Wyoming,2002,63e6
+Mountain,Colorado,2002,2159e6
+Mountain,New Mexico,2002,6316e6
+Mountain,Arizona,2002,343e7
+Mountain,Utah,2002,1666e6
+Mountain,Nevada,2002,501e6
+Pacific,Washington,2002,562e7
+Pacific,Oregon,2002,2093e6
+Pacific,California,2002,35065e6
+Pacific,Alaska,2002,18e6
+Pacific,Hawaii,2002,97e6
+Northeast,Maine,2003,624e6
+Northeast,New Hampshire,2003,305e6
+Northeast,Vermont,2003,2637e6
+Northeast,Massachusetts,2003,332e6
+Northeast,Rhode Island,2003,22e6
+Northeast,Connecticut,2003,413e6
+Northeast,New York,2003,11952e6
+Northeast,New Jersey,2003,216e6
+Northeast,Pennsylvania,2003,10338e6
+Northeast,Delaware,2003,13e7
+Northeast,Maryland,2003,1177e6
+Lake States,Michigan,2003,6375e6
+Lake States,Wisconsin,2003,22266e6
+Lake States,Minnesota,2003,8258e6
+Corn Belt,Ohio,2003,449e7
+Corn Belt,Indiana,2003,2939e6
+Corn Belt,Illinois,2003,2047e6
+Corn Belt,Iowa,2003,381e7
+Corn Belt,Missouri,2003,1886e6
+Northern Plains,North Dakota,2003,5e8
+Northern Plains,South Dakota,2003,133e7
+Northern Plains,Nebraska,2003,1129e6
+Northern Plains,Kansas,2003,213e7
+Appalachian,Virginia,2003,1731e6
+Appalachian,West Virginia,2003,216e6
+Appalachian,North Carolina,2003,1044e6
+Appalachian,Kentucky,2003,1465e6
+Appalachian,Tennessee,2003,1205e6
+Southeast,South Carolina,2003,318e6
+Southeast,Georgia,2003,1444e6
+Southeast,Florida,2003,2161e6
+Southeast,Alabama,2003,252e6
+Delta States,Mississippi,2003,423e6
+Delta States,Arkansas,2003,354e6
+Delta States,Louisiana,2003,519e6
+Southern Plains,Oklahoma,2003,1312e6
+Southern Plains,Texas,2003,563e7
+Mountain,Montana,2003,345e6
+Mountain,Idaho,2003,8774e6
+Mountain,Wyoming,2003,54e6
+Mountain,Colorado,2003,2153e6
+Mountain,New Mexico,2003,6666e6
+Mountain,Arizona,2003,3552e6
+Mountain,Utah,2003,1622e6
+Mountain,Nevada,2003,485e6
+Pacific,Washington,2003,5581e6
+Pacific,Oregon,2003,2191e6
+Pacific,California,2003,35437e6
+Pacific,Alaska,2003,17e6
+Pacific,Hawaii,2003,92e6
+Northeast,Maine,2004,612e6
+Northeast,New Hampshire,2004,303e6
+Northeast,Vermont,2004,2594e6
+Northeast,Massachusetts,2004,296e6
+Northeast,Rhode Island,2004,2e7
+Northeast,Connecticut,2004,392e6
+Northeast,New York,2004,1165e7
+Northeast,New Jersey,2004,2e8
+Northeast,Pennsylvania,2004,10062e6
+Northeast,Delaware,2004,125e6
+Northeast,Maryland,2004,1116e6
+Lake States,Michigan,2004,633e7
+Lake States,Wisconsin,2004,22085e6
+Lake States,Minnesota,2004,8102e6
+Corn Belt,Ohio,2004,456e7
+Corn Belt,Indiana,2004,3027e6
+Corn Belt,Illinois,2004,1978e6
+Corn Belt,Iowa,2004,3851e6
+Corn Belt,Missouri,2004,1847e6
+Northern Plains,North Dakota,2004,465e6
+Northern Plains,South Dakota,2004,1347e6
+Northern Plains,Nebraska,2004,1049e6
+Northern Plains,Kansas,2004,2216e6
+Appalachian,Virginia,2004,1731e6
+Appalachian,West Virginia,2004,194e6
+Appalachian,North Carolina,2004,1006e6
+Appalachian,Kentucky,2004,1422e6
+Appalachian,Tennessee,2004,1155e6
+Southeast,South Carolina,2004,287e6
+Southeast,Georgia,2004,1416e6
+Southeast,Florida,2004,2253e6
+Southeast,Alabama,2004,245e6
+Delta States,Mississippi,2004,379e6
+Delta States,Arkansas,2004,323e6
+Delta States,Louisiana,2004,479e6
+Southern Plains,Oklahoma,2004,1263e6
+Southern Plains,Texas,2004,6009e6
+Mountain,Montana,2004,348e6
+Mountain,Idaho,2004,9093e6
+Mountain,Wyoming,2004,63e6
+Mountain,Colorado,2004,2184e6
+Mountain,New Mexico,2004,6737e6
+Mountain,Arizona,2004,3646e6
+Mountain,Utah,2004,1616e6
+Mountain,Nevada,2004,509e6
+Pacific,Washington,2004,5416e6
+Pacific,Oregon,2004,227e7
+Pacific,California,2004,36465e6
+Pacific,Alaska,2004,15e6
+Pacific,Hawaii,2004,81e6
+Northeast,Maine,2005,595e6
+Northeast,New Hampshire,2005,302e6
+Northeast,Vermont,2005,2641e6
+Northeast,Massachusetts,2005,29e7
+Northeast,Rhode Island,2005,19e6
+Northeast,Connecticut,2005,384e6
+Northeast,New York,2005,12078e6
+Northeast,New Jersey,2005,192e6
+Northeast,Pennsylvania,2005,10503e6
+Northeast,Delaware,2005,123e6
+Northeast,Maryland,2005,1143e6
+Lake States,Michigan,2005,675e7
+Lake States,Wisconsin,2005,22866e6
+Lake States,Minnesota,2005,8195e6
+Corn Belt,Ohio,2005,4743e6
+Corn Belt,Indiana,2005,3166e6
+Corn Belt,Illinois,2005,1958e6
+Corn Belt,Iowa,2005,4025e6
+Corn Belt,Missouri,2005,1875e6
+Northern Plains,North Dakota,2005,468e6
+Northern Plains,South Dakota,2005,1437e6
+Northern Plains,Nebraska,2005,1077e6
+Northern Plains,Kansas,2005,2276e6
+Appalachian,Virginia,2005,1784e6
+Appalachian,West Virginia,2005,194e6
+Appalachian,North Carolina,2005,1012e6
+Appalachian,Kentucky,2005,1367e6
+Appalachian,Tennessee,2005,1102e6
+Southeast,South Carolina,2005,288e6
+Southeast,Georgia,2005,1398e6
+Southeast,Florida,2005,2273e6
+Southeast,Alabama,2005,224e6
+Delta States,Mississippi,2005,382e6
+Delta States,Arkansas,2005,298e6
+Delta States,Louisiana,2005,434e6
+Southern Plains,Oklahoma,2005,1236e6
+Southern Plains,Texas,2005,6444e6
+Mountain,Montana,2005,372e6
+Mountain,Idaho,2005,10161e6
+Mountain,Wyoming,2005,73e6
+Mountain,Colorado,2005,2348e6
+Mountain,New Mexico,2005,6951e6
+Mountain,Arizona,2005,3742e6
+Mountain,Utah,2005,1661e6
+Mountain,Nevada,2005,542e6
+Pacific,Washington,2005,5608e6
+Pacific,Oregon,2005,2284e6
+Pacific,California,2005,37564e6
+Pacific,Alaska,2005,14e6
+Pacific,Hawaii,2005,7e7
+Northeast,Maine,2006,574e6
+Northeast,New Hampshire,2006,293e6
+Northeast,Vermont,2006,2592e6
+Northeast,Massachusetts,2006,278e6
+Northeast,Rhode Island,2006,19e6
+Northeast,Connecticut,2006,367e6
+Northeast,New York,2006,12045e6
+Northeast,New Jersey,2006,178e6
+Northeast,Pennsylvania,2006,10742e6
+Northeast,Delaware,2006,114e6
+Northeast,Maryland,2006,1106e6
+Lake States,Michigan,2006,7115e6
+Lake States,Wisconsin,2006,23398e6
+Lake States,Minnesota,2006,8369e6
+Corn Belt,Ohio,2006,486e7
+Corn Belt,Indiana,2006,3277e6
+Corn Belt,Illinois,2006,1983e6
+Corn Belt,Iowa,2006,4126e6
+Corn Belt,Missouri,2006,184e7
+Northern Plains,North Dakota,2006,47e7
+Northern Plains,South Dakota,2006,1505e6
+Northern Plains,Nebraska,2006,1118e6
+Northern Plains,Kansas,2006,2345e6
+Appalachian,Virginia,2006,1771e6
+Appalachian,West Virginia,2006,2e8
+Appalachian,North Carolina,2006,944e6
+Appalachian,Kentucky,2006,1303e6
+Appalachian,Tennessee,2006,1049e6
+Southeast,South Carolina,2006,277e6
+Southeast,Georgia,2006,1404e6
+Southeast,Florida,2006,2171e6
+Southeast,Alabama,2006,203e6
+Delta States,Mississippi,2006,344e6
+Delta States,Arkansas,2006,258e6
+Delta States,Louisiana,2006,396e6
+Southern Plains,Oklahoma,2006,1214e6
+Southern Plains,Texas,2006,7157e6
+Mountain,Montana,2006,354e6
+Mountain,Idaho,2006,10905e6
+Mountain,Wyoming,2006,118e6
+Mountain,Colorado,2006,2547e6
+Mountain,New Mexico,2006,7605e6
+Mountain,Arizona,2006,3954e6
+Mountain,Utah,2006,1747e6
+Mountain,Nevada,2006,544e6
+Pacific,Washington,2006,5464e6
+Pacific,Oregon,2006,2242e6
+Pacific,California,2006,3883e7
+Pacific,Alaska,2006,1e7
+Pacific,Hawaii,2006,57e6
+Northeast,Maine,2007,587e6
+Northeast,New Hampshire,2007,29e7
+Northeast,Vermont,2007,2531e6
+Northeast,Massachusetts,2007,255e6
+Northeast,Rhode Island,2007,18e6
+Northeast,Connecticut,2007,365e6
+Northeast,New York,2007,12103e6
+Northeast,New Jersey,2007,168e6
+Northeast,Pennsylvania,2007,10682e6
+Northeast,Delaware,2007,113e6
+Northeast,Maryland,2007,1051e6
+Lake States,Michigan,2007,7625e6
+Lake States,Wisconsin,2007,2408e7
+Lake States,Minnesota,2007,8656e6
+Corn Belt,Ohio,2007,498e7
+Corn Belt,Indiana,2007,3371e6
+Corn Belt,Illinois,2007,1917e6
+Corn Belt,Iowa,2007,4278e6
+Corn Belt,Missouri,2007,1678e6
+Northern Plains,North Dakota,2007,444e6
+Northern Plains,South Dakota,2007,1641e6
+Northern Plains,Nebraska,2007,1075e6
+Northern Plains,Kansas,2007,2187e6
+Appalachian,Virginia,2007,1753e6
+Appalachian,West Virginia,2007,195e6
+Appalachian,North Carolina,2007,921e6
+Appalachian,Kentucky,2007,125e7
+Appalachian,Tennessee,2007,999e6
+Southeast,South Carolina,2007,322e6
+Southeast,Georgia,2007,1399e6
+Southeast,Florida,2007,2104e6
+Southeast,Alabama,2007,197e6
+Delta States,Mississippi,2007,324e6
+Delta States,Arkansas,2007,22e7
+Delta States,Louisiana,2007,349e6
+Southern Plains,Oklahoma,2007,1144e6
+Southern Plains,Texas,2007,7384e6
+Mountain,Montana,2007,333e6
+Mountain,Idaho,2007,11549e6
+Mountain,Wyoming,2007,134e6
+Mountain,Colorado,2007,2706e6
+Mountain,New Mexico,2007,729e7
+Mountain,Arizona,2007,421e7
+Mountain,Utah,2007,1732e6
+Mountain,Nevada,2007,553e6
+Pacific,Washington,2007,5531e6
+Pacific,Oregon,2007,2233e6
+Pacific,California,2007,40683e6
+Pacific,Alaska,2007,9e6
+Pacific,Hawaii,2007,36e6
+Northeast,Maine,2008,603e6
+Northeast,New Hampshire,2008,299e6
+Northeast,Vermont,2008,2576e6
+Northeast,Massachusetts,2008,254e6
+Northeast,Rhode Island,2008,2e7
+Northeast,Connecticut,2008,364e6
+Northeast,New York,2008,12432e6
+Northeast,New Jersey,2008,169e6
+Northeast,Pennsylvania,2008,10575e6
+Northeast,Delaware,2008,11e7
+Northeast,Maryland,2008,1029e6
+Lake States,Michigan,2008,7763e6
+Lake States,Wisconsin,2008,24472e6
+Lake States,Minnesota,2008,8782e6
+Corn Belt,Ohio,2008,5135e6
+Corn Belt,Indiana,2008,3287e6
+Corn Belt,Illinois,2008,1862e6
+Corn Belt,Iowa,2008,4236e6
+Corn Belt,Missouri,2008,1615e6
+Northern Plains,North Dakota,2008,418e6
+Northern Plains,South Dakota,2008,1796e6
+Northern Plains,Nebraska,2008,1083e6
+Northern Plains,Kansas,2008,2415e6
+Appalachian,Virginia,2008,1726e6
+Appalachian,West Virginia,2008,181e6
+Appalachian,North Carolina,2008,892e6
+Appalachian,Kentucky,2008,121e7
+Appalachian,Tennessee,2008,948e6
+Southeast,South Carolina,2008,323e6
+Southeast,Georgia,2008,1355e6
+Southeast,Florida,2008,2061e6
+Southeast,Alabama,2008,184e6
+Delta States,Mississippi,2008,291e6
+Delta States,Arkansas,2008,186e6
+Delta States,Louisiana,2008,319e6
+Southern Plains,Oklahoma,2008,1061e6
+Southern Plains,Texas,2008,8416e6
+Mountain,Montana,2008,313e6
+Mountain,Idaho,2008,12315e6
+Mountain,Wyoming,2008,136e6
+Mountain,Colorado,2008,2935e6
+Mountain,New Mexico,2008,7865e6
+Mountain,Arizona,2008,4351e6
+Mountain,Utah,2008,1784e6
+Mountain,Nevada,2008,653e6
+Pacific,Washington,2008,5696e6
+Pacific,Oregon,2008,2254e6
+Pacific,California,2008,41203e6
+Pacific,Alaska,2008,7e6
+Pacific,Hawaii,2008,19e6
+Northeast,Maine,2009,596e6
+Northeast,New Hampshire,2009,293e6
+Northeast,Vermont,2009,2469e6
+Northeast,Massachusetts,2009,246e6
+Northeast,Rhode Island,2009,2e7
+Northeast,Connecticut,2009,353e6
+Northeast,New York,2009,12424e6
+Northeast,New Jersey,2009,158e6
+Northeast,Pennsylvania,2009,10551e6
+Northeast,Delaware,2009,102e6
+Northeast,Maryland,2009,1004e6
+Lake States,Michigan,2009,7968e6
+Lake States,Wisconsin,2009,25239e6
+Lake States,Minnesota,2009,9019e6
+Corn Belt,Ohio,2009,5192e6
+Corn Belt,Indiana,2009,3383e6
+Corn Belt,Illinois,2009,1862e6
+Corn Belt,Iowa,2009,4301e6
+Corn Belt,Missouri,2009,1568e6
+Northern Plains,North Dakota,2009,387e6
+Northern Plains,South Dakota,2009,1892e6
+Northern Plains,Nebraska,2009,1198e6
+Northern Plains,Kansas,2009,2488e6
+Appalachian,Virginia,2009,1736e6
+Appalachian,West Virginia,2009,162e6
+Appalachian,North Carolina,2009,884e6
+Appalachian,Kentucky,2009,1192e6
+Appalachian,Tennessee,2009,909e6
+Southeast,South Carolina,2009,325e6
+Southeast,Georgia,2009,14e8
+Southeast,Florida,2009,208e7
+Southeast,Alabama,2009,164e6
+Delta States,Mississippi,2009,25e7
+Delta States,Arkansas,2009,165e6
+Delta States,Louisiana,2009,271e6
+Southern Plains,Oklahoma,2009,1002e6
+Southern Plains,Texas,2009,884e7
+Mountain,Montana,2009,299e6
+Mountain,Idaho,2009,1215e7
+Mountain,Wyoming,2009,105e6
+Mountain,Colorado,2009,2837e6
+Mountain,New Mexico,2009,7904e6
+Mountain,Arizona,2009,4082e6
+Mountain,Utah,2009,1771e6
+Mountain,Nevada,2009,613e6
+Pacific,Washington,2009,5561e6
+Pacific,Oregon,2009,2248e6
+Pacific,California,2009,39512e6
+Pacific,Alaska,2009,6e6
+Pacific,Hawaii,2009,21e6
+Northeast,Maine,2010,587e6
+Northeast,New Hampshire,2010,294e6
+Northeast,Vermont,2010,2521e6
+Northeast,Massachusetts,2010,242e6
+Northeast,Rhode Island,2010,2e7
+Northeast,Connecticut,2010,364e6
+Northeast,New York,2010,12713e6
+Northeast,New Jersey,2010,14e7
+Northeast,Pennsylvania,2010,10737e6
+Northeast,Delaware,2010,9e7
+Northeast,Maryland,2010,1001e6
+Lake States,Michigan,2010,8333e6
+Lake States,Wisconsin,2010,26035e6
+Lake States,Minnesota,2010,9102e6
+Corn Belt,Ohio,2010,527e7
+Corn Belt,Indiana,2010,3416e6
+Corn Belt,Illinois,2010,184e7
+Corn Belt,Iowa,2010,4342e6
+Corn Belt,Missouri,2010,1445e6
+Northern Plains,North Dakota,2010,384e6
+Northern Plains,South Dakota,2010,1884e6
+Northern Plains,Nebraska,2010,1168e6
+Northern Plains,Kansas,2010,2497e6
+Appalachian,Virginia,2010,1719e6
+Appalachian,West Virginia,2010,157e6
+Appalachian,North Carolina,2010,866e6
+Appalachian,Kentucky,2010,1152e6
+Appalachian,Tennessee,2010,85e7
+Southeast,South Carolina,2010,286e6
+Southeast,Georgia,2010,1395e6
+Southeast,Florida,2010,2133e6
+Southeast,Alabama,2010,156e6
+Delta States,Mississippi,2010,223e6
+Delta States,Arkansas,2010,153e6
+Delta States,Louisiana,2010,235e6
+Southern Plains,Oklahoma,2010,959e6
+Southern Plains,Texas,2010,8828e6
+Mountain,Montana,2010,289e6
+Mountain,Idaho,2010,12773e6
+Mountain,Wyoming,2010,12e7
+Mountain,Colorado,2010,2816e6
+Mountain,New Mexico,2010,7881e6
+Mountain,Arizona,2010,4151e6
+Mountain,Utah,2010,1927e6
+Mountain,Nevada,2010,664e6
+Pacific,Washington,2010,5902e6
+Pacific,Oregon,2010,2399e6
+Pacific,California,2010,40385e6
+Pacific,Alaska,2010,7e6
+Pacific,Hawaii,2010,25e6
+Northeast,Maine,2011,598e6
+Northeast,New Hampshire,2011,286e6
+Northeast,Vermont,2011,2538e6
+Northeast,Massachusetts,2011,22e7
+Northeast,Rhode Island,2011,2e7
+Northeast,Connecticut,2011,361e6
+Northeast,New York,2011,12838e6
+Northeast,New Jersey,2011,135e6
+Northeast,Pennsylvania,2011,10547e6
+Northeast,Delaware,2011,92e6
+Northeast,Maryland,2011,97e7
+Lake States,Michigan,2011,8478e6
+Lake States,Wisconsin,2011,26058e6
+Lake States,Minnesota,2011,889e7
+Corn Belt,Ohio,2011,5144e6
+Corn Belt,Indiana,2011,3553e6
+Corn Belt,Illinois,2011,1814e6
+Corn Belt,Iowa,2011,4323e6
+Corn Belt,Missouri,2011,1388e6
+Northern Plains,North Dakota,2011,345e6
+Northern Plains,South Dakota,2011,1873e6
+Northern Plains,Nebraska,2011,1173e6
+Northern Plains,Kansas,2011,2585e6
+Appalachian,Virginia,2011,1719e6
+Appalachian,West Virginia,2011,157e6
+Appalachian,North Carolina,2011,904e6
+Appalachian,Kentucky,2011,109e7
+Appalachian,Tennessee,2011,81e7
+Southeast,South Carolina,2011,279e6
+Southeast,Georgia,2011,145e7
+Southeast,Florida,2011,2269e6
+Southeast,Alabama,2011,143e6
+Delta States,Mississippi,2011,204e6
+Delta States,Arkansas,2011,143e6
+Delta States,Louisiana,2011,232e6
+Southern Plains,Oklahoma,2011,923e6
+Southern Plains,Texas,2011,9582e6
+Mountain,Montana,2011,288e6
+Mountain,Idaho,2011,13251e6
+Mountain,Wyoming,2011,123e6
+Mountain,Colorado,2011,2999e6
+Mountain,New Mexico,2011,8177e6
+Mountain,Arizona,2011,4413e6
+Mountain,Utah,2011,2061e6
+Mountain,Nevada,2011,666e6
+Pacific,Washington,2011,6169e6
+Pacific,Oregon,2011,2479e6
+Pacific,California,2011,41462e6
+Pacific,Alaska,2011,7e6
+Pacific,Hawaii,2011,27e6
+Northeast,Maine,2012,613e6
+Northeast,New Hampshire,2012,275e6
+Northeast,Vermont,2012,2569e6
+Northeast,Massachusetts,2012,219e6
+Northeast,Rhode Island,2012,18e6
+Northeast,Connecticut,2012,358e6
+Northeast,New York,2012,1319e7
+Northeast,New Jersey,2012,13e7
+Northeast,Pennsylvania,2012,10478e6
+Northeast,Delaware,2012,94e6
+Northeast,Maryland,2012,979e6
+Lake States,Michigan,2012,8991e6
+Lake States,Wisconsin,2012,27224e6
+Lake States,Minnesota,2012,9073e6
+Corn Belt,Ohio,2012,5355e6
+Corn Belt,Indiana,2012,3752e6
+Corn Belt,Illinois,2012,1868e6
+Corn Belt,Iowa,2012,4513e6
+Corn Belt,Missouri,2012,1408e6
+Northern Plains,North Dakota,2012,347e6
+Northern Plains,South Dakota,2012,1968e6
+Northern Plains,Nebraska,2012,1186e6
+Northern Plains,Kansas,2012,2732e6
+Appalachian,Virginia,2012,1727e6
+Appalachian,West Virginia,2012,154e6
+Appalachian,North Carolina,2012,94e7
+Appalachian,Kentucky,2012,112e7
+Appalachian,Tennessee,2012,805e6
+Southeast,South Carolina,2012,276e6
+Southeast,Georgia,2012,1531e6
+Southeast,Florida,2012,234e7
+Southeast,Alabama,2012,13e7
+Delta States,Mississippi,2012,199e6
+Delta States,Arkansas,2012,133e6
+Delta States,Louisiana,2012,222e6
+Southern Plains,Oklahoma,2012,859e6
+Southern Plains,Texas,2012,9596e6
+Mountain,Montana,2012,299e6
+Mountain,Idaho,2012,13558e6
+Mountain,Wyoming,2012,124e6
+Mountain,Colorado,2012,3213e6
+Mountain,New Mexico,2012,8149e6
+Mountain,Arizona,2012,4508e6
+Mountain,Utah,2012,2172e6
+Mountain,Nevada,2012,665e6
+Pacific,Washington,2012,6234e6
+Pacific,Oregon,2012,2513e6
+Pacific,California,2012,41801e6
+Pacific,Alaska,2012,6e6
+Pacific,Hawaii,2012,28e6
+Northeast,Maine,2013,606e6
+Northeast,New Hampshire,2013,272e6
+Northeast,Vermont,2013,2606e6
+Northeast,Massachusetts,2013,23e7
+Northeast,Rhode Island,2013,17e6
+Northeast,Connecticut,2013,37e7
+Northeast,New York,2013,13463e6
+Northeast,New Jersey,2013,127e6
+Northeast,Pennsylvania,2013,10552e6
+Northeast,Delaware,2013,94e6
+Northeast,Maryland,2013,972e6
+Lake States,Michigan,2013,9164e6
+Lake States,Wisconsin,2013,27572e6
+Lake States,Minnesota,2013,9138e6
+Corn Belt,Ohio,2013,5448e6
+Corn Belt,Indiana,2013,383e7
+Corn Belt,Illinois,2013,183e7
+Corn Belt,Iowa,2013,4607e6
+Corn Belt,Missouri,2013,1349e6
+Northern Plains,North Dakota,2013,341e6
+Northern Plains,South Dakota,2013,2023e6
+Northern Plains,Nebraska,2013,1165e6
+Northern Plains,Kansas,2013,2932e6
+Appalachian,Virginia,2013,1742e6
+Appalachian,West Virginia,2013,152e6
+Appalachian,North Carolina,2013,935e6
+Appalachian,Kentucky,2013,107e7
+Appalachian,Tennessee,2013,765e6
+Southeast,South Carolina,2013,264e6
+Southeast,Georgia,2013,1568e6
+Southeast,Florida,2013,2383e6
+Southeast,Alabama,2013,117e6
+Delta States,Mississippi,2013,186e6
+Delta States,Arkansas,2013,105e6
+Delta States,Louisiana,2013,206e6
+Southern Plains,Oklahoma,2013,779e6
+Southern Plains,Texas,2013,961e7
+Mountain,Montana,2013,298e6
+Mountain,Idaho,2013,13431e6
+Mountain,Wyoming,2013,128e6
+Mountain,Colorado,2013,3328e6
+Mountain,New Mexico,2013,8057e6
+Mountain,Arizona,2013,4489e6
+Mountain,Utah,2013,2131e6
+Mountain,Nevada,2013,639e6
+Pacific,Washington,2013,6336e6
+Pacific,Oregon,2013,2514e6
+Pacific,California,2013,41256e6
+Pacific,Alaska,2013,3e6
+Pacific,Hawaii,2013,3e7
+Northeast,Maine,2014,599e6
+Northeast,New Hampshire,2014,282e6
+Northeast,Vermont,2014,2666e6
+Northeast,Massachusetts,2014,233e6
+Northeast,Rhode Island,2014,17e6
+Northeast,Connecticut,2014,383e6
+Northeast,New York,2014,1373e7
+Northeast,New Jersey,2014,127e6
+Northeast,Pennsylvania,2014,10664e6
+Northeast,Delaware,2014,97e6
+Northeast,Maryland,2014,987e6
+Lake States,Michigan,2014,9609e6
+Lake States,Wisconsin,2014,27795e6
+Lake States,Minnesota,2014,9127e6
+Corn Belt,Ohio,2014,5425e6
+Corn Belt,Indiana,2014,3892e6
+Corn Belt,Illinois,2014,185e7
+Corn Belt,Iowa,2014,4647e6
+Corn Belt,Missouri,2014,1383e6
+Northern Plains,North Dakota,2014,324e6
+Northern Plains,South Dakota,2014,211e7
+Northern Plains,Nebraska,2014,1195e6
+Northern Plains,Kansas,2014,3114e6
+Appalachian,Virginia,2014,1779e6
+Appalachian,West Virginia,2014,14e7
+Appalachian,North Carolina,2014,961e6
+Appalachian,Kentucky,2014,1002e6
+Appalachian,Tennessee,2014,745e6
+Southeast,South Carolina,2014,263e6
+Southeast,Georgia,2014,1691e6
+Southeast,Florida,2014,2508e6
+Southeast,Alabama,2014,109e6
+Delta States,Mississippi,2014,188e6
+Delta States,Arkansas,2014,96e6
+Delta States,Louisiana,2014,204e6
+Southern Plains,Oklahoma,2014,726e6
+Southern Plains,Texas,2014,1031e7
+Mountain,Montana,2014,301e6
+Mountain,Idaho,2014,13873e6
+Mountain,Wyoming,2014,13e7
+Mountain,Colorado,2014,3593e6
+Mountain,New Mexico,2014,8105e6
+Mountain,Arizona,2014,4703e6
+Mountain,Utah,2014,2184e6
+Mountain,Nevada,2014,69e7
+Pacific,Washington,2014,6576e6
+Pacific,Oregon,2014,255e7
+Pacific,California,2014,42339e6
+Pacific,Alaska,2014,4e6
+Pacific,Hawaii,2014,3e7
+Northeast,Maine,2015,594e6
+Northeast,New Hampshire,2015,282e6
+Northeast,Vermont,2015,2666e6
+Northeast,Massachusetts,2015,217e6
+Northeast,Rhode Island,2015,16e6
+Northeast,Connecticut,2015,396e6
+Northeast,New York,2015,14094e6
+Northeast,New Jersey,2015,127e6
+Northeast,Pennsylvania,2015,108e8
+Northeast,Delaware,2015,99e6
+Northeast,Maryland,2015,983e6
+Lake States,Michigan,2015,10261e6
+Lake States,Wisconsin,2015,2903e7
+Lake States,Minnesota,2015,9462e6
+Corn Belt,Ohio,2015,5493e6
+Corn Belt,Indiana,2015,4025e6
+Corn Belt,Illinois,2015,1894e6
+Corn Belt,Iowa,2015,4838e6
+Corn Belt,Missouri,2015,1365e6
+Northern Plains,North Dakota,2015,332e6
+Northern Plains,South Dakota,2015,2359e6
+Northern Plains,Nebraska,2015,1307e6
+Northern Plains,Kansas,2015,3176e6
+Appalachian,Virginia,2015,1771e6
+Appalachian,West Virginia,2015,141e6
+Appalachian,North Carolina,2015,985e6
+Appalachian,Kentucky,2015,1077e6
+Appalachian,Tennessee,2015,742e6
+Southeast,South Carolina,2015,261e6
+Southeast,Georgia,2015,1797e6
+Southeast,Florida,2015,2582e6
+Southeast,Alabama,2015,101e6
+Delta States,Mississippi,2015,165e6
+Delta States,Arkansas,2015,91e6
+Delta States,Louisiana,2015,188e6
+Southern Plains,Oklahoma,2015,727e6
+Southern Plains,Texas,2015,10301e6
+Mountain,Montana,2015,299e6
+Mountain,Idaho,2015,14114e6
+Mountain,Wyoming,2015,135e6
+Mountain,Colorado,2015,3757e6
+Mountain,New Mexico,2015,7831e6
+Mountain,Arizona,2015,4734e6
+Mountain,Utah,2015,222e7
+Mountain,Nevada,2015,669e6
+Pacific,Washington,2015,6606e6
+Pacific,Oregon,2015,2551e6
+Pacific,California,2015,40897e6
+Pacific,Alaska,2015,4e6
+Pacific,Hawaii,2015,35e6
+Northeast,Maine,2016,63e7
+Northeast,New Hampshire,2016,287e6
+Northeast,Vermont,2016,2727e6
+Northeast,Massachusetts,2016,221e6
+Northeast,Rhode Island,2016,14e6
+Northeast,Connecticut,2016,409e6
+Northeast,New York,2016,14777e6
+Northeast,New Jersey,2016,122e6
+Northeast,Pennsylvania,2016,1082e7
+Northeast,Delaware,2016,96e6
+Northeast,Maryland,2016,957e6
+Lake States,Michigan,2016,10876e6
+Lake States,Wisconsin,2016,3011e7
+Lake States,Minnesota,2016,9666e6
+Corn Belt,Ohio,2016,5548e6
+Corn Belt,Indiana,2016,4153e6
+Corn Belt,Illinois,2016,1912e6
+Corn Belt,Iowa,2016,5034e6
+Corn Belt,Missouri,2016,126e7
+Northern Plains,North Dakota,2016,344e6
+Northern Plains,South Dakota,2016,2546e6
+Northern Plains,Nebraska,2016,1399e6
+Northern Plains,Kansas,2016,3329e6
+Appalachian,Virginia,2016,1723e6
+Appalachian,West Virginia,2016,134e6
+Appalachian,North Carolina,2016,965e6
+Appalachian,Kentucky,2016,1047e6
+Appalachian,Tennessee,2016,696e6
+Southeast,South Carolina,2016,25e7
+Southeast,Georgia,2016,183e7
+Southeast,Florida,2016,2495e6
+Southeast,Alabama,2016,92e6
+Delta States,Mississippi,2016,144e6
+Delta States,Arkansas,2016,8e7
+Delta States,Louisiana,2016,169e6
+Southern Plains,Oklahoma,2016,692e6
+Southern Plains,Texas,2016,10773e6
+Mountain,Montana,2016,295e6
+Mountain,Idaho,2016,14665e6
+Mountain,Wyoming,2016,14e7
+Mountain,Colorado,2016,3925e6
+Mountain,New Mexico,2016,7711e6
+Mountain,Arizona,2016,4837e6
+Mountain,Utah,2016,2095e6
+Mountain,Nevada,2016,66e7
+Pacific,Washington,2016,665e7
+Pacific,Oregon,2016,2593e6
+Pacific,California,2016,40469e6
+Pacific,Alaska,2016,4e6
+Pacific,Hawaii,2016,35e6
+Northeast,Maine,2017,63e7
+Northeast,New Hampshire,2017,273e6
+Northeast,Vermont,2017,2728e6
+Northeast,Massachusetts,2017,211e6
+Northeast,Rhode Island,2017,13e6
+Northeast,Connecticut,2017,42e7
+Northeast,New York,2017,14912e6
+Northeast,New Jersey,2017,119e6
+Northeast,Pennsylvania,2017,10938e6
+Northeast,Delaware,2017,93e6
+Northeast,Maryland,2017,953e6
+Lake States,Michigan,2017,11231e6
+Lake States,Wisconsin,2017,3032e7
+Lake States,Minnesota,2017,9864e6
+Corn Belt,Ohio,2017,5591e6
+Corn Belt,Indiana,2017,4264e6
+Corn Belt,Illinois,2017,1929e6
+Corn Belt,Iowa,2017,5172e6
+Corn Belt,Missouri,2017,124e7
+Northern Plains,North Dakota,2017,345e6
+Northern Plains,South Dakota,2017,2618e6
+Northern Plains,Nebraska,2017,1444e6
+Northern Plains,Kansas,2017,3496e6
+Appalachian,Virginia,2017,1736e6
+Appalachian,West Virginia,2017,127e6
+Appalachian,North Carolina,2017,952e6
+Appalachian,Kentucky,2017,1041e6
+Appalachian,Tennessee,2017,693e6
+Southeast,South Carolina,2017,247e6
+Southeast,Georgia,2017,184e7
+Southeast,Florida,2017,2496e6
+Southeast,Alabama,2017,89e6
+Delta States,Mississippi,2017,137e6
+Delta States,Arkansas,2017,79e6
+Delta States,Louisiana,2017,16e7
+Southern Plains,Oklahoma,2017,728e6
+Southern Plains,Texas,2017,12054e6
+Mountain,Montana,2017,288e6
+Mountain,Idaho,2017,14627e6
+Mountain,Wyoming,2017,138e6
+Mountain,Colorado,2017,4189e6
+Mountain,New Mexico,2017,8212e6
+Mountain,Arizona,2017,501e7
+Mountain,Utah,2017,2215e6
+Mountain,Nevada,2017,709e6
+Pacific,Washington,2017,6526e6
+Pacific,Oregon,2017,2529e6
+Pacific,California,2017,39798e6
+Pacific,Alaska,2017,3e6
+Pacific,Hawaii,2017,39e6

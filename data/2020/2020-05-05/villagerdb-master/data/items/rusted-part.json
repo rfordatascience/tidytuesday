@@ -1,0 +1,14 @@
+{
+  "id": "rusted-part",
+  "name": "Rusted Part",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Recycling Bin",
+        "Letting communicator parts rust"
+      ]
+    }
+  },
+  "category": "Usables"
+}

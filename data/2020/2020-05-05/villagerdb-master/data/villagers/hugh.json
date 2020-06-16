@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "12-30",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "jade-check-print",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "jade-check-print",
+      "song": "K.K. Mambo"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle",
+      "quote": "Keep it real. Real chill."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "jade-plaid-tee",
+      "song": "K.K. Mambo",
+      "phrase": "snortle",
+      "skill": "Eating quickly",
+      "goal": "Carpenter",
+      "fear": "Bug Mask",
+      "quote": "Keep it real. Real chill.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A lot of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "snortle",
+      "song": "K.K. Mambo"
+    }
+  },
+  "name": "Hugh",
+  "id": "hugh"
+}

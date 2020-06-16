@@ -1,0 +1,20 @@
+{
+  "id": "antique-console-table",
+  "name": "Antique Console Table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 17000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

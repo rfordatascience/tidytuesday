@@ -1,0 +1,27 @@
+{
+  "id": "mole-cricket",
+  "name": "Mole Cricket",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "sources": [
+        "Hidden in dirt -- dig up with a shovel."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig near chirping) (Nov-May)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  }
+}

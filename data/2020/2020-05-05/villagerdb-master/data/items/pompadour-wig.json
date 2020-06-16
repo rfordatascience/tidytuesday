@@ -1,0 +1,19 @@
+{
+  "id": "pompadour-wig",
+  "name": "Pompadour Wig",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 320
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1280
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

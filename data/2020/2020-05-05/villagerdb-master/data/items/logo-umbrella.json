@@ -1,0 +1,19 @@
+{
+  "id": "logo-umbrella",
+  "name": "Logo Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 162
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 650
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

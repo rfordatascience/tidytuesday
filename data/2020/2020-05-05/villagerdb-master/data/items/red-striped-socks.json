@@ -1,0 +1,26 @@
+{
+  "id": "red-striped-socks",
+  "name": "Red Striped Socks",
+  "category": "Socks",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "toby"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

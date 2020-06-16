@@ -1,0 +1,21 @@
+{
+  "id": "mega-bovoid",
+  "name": "Mega Bovoid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Rustic",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

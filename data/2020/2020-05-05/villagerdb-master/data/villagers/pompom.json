@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-11",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Jazz"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah",
+      "quote": "This one goes out to all my fans!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Jazz",
+      "phrase": "rah rah",
+      "skill": "Trivia",
+      "goal": "CEO",
+      "fear": "Werewolf Hood",
+      "quote": "Happiness is a rainy day.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "rah rah",
+      "song": "K.K. Jazz"
+    }
+  },
+  "name": "Pompom",
+  "id": "pompom"
+}

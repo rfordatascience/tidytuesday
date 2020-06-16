@@ -1,0 +1,23 @@
+{
+  "id": "manor-wall",
+  "name": "Manor Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 263
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1052
+        }
+      ]
+    }
+  }
+}

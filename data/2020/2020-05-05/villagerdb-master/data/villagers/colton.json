@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "5-22",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "blue-ringmaster-coat",
+      "song": "Only Me",
+      "phrase": "check it",
+      "skill": "Playing poker",
+      "goal": "Model",
+      "fear": "Bug Mask",
+      "quote": "Make hay while the sun shines.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "check it",
+      "song": "Only Me"
+    }
+  },
+  "name": "Colton",
+  "id": "colton"
+}

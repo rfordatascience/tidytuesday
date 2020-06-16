@@ -1,0 +1,23 @@
+{
+  "id": "sheik-outfit",
+  "name": "Sheik Outfit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "epona"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

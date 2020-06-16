@@ -1,0 +1,19 @@
+{
+  "id": "hanging-terrarium",
+  "name": "Hanging Terrarium",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12960
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

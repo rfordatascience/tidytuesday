@@ -1,0 +1,30 @@
+{
+  "id": "egg-wall",
+  "name": "Egg Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Egg",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Zipper T. Bunny (Bunny Day)"
+      ],
+      "rvs": [
+        "zipper-t-bunny"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

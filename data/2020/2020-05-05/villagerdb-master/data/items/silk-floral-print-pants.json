@@ -1,0 +1,19 @@
+{
+  "id": "silk-floral-print-pants",
+  "name": "Silk Floral-print Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1440
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "8-14",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "noble-shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "noble-shirt",
+      "song": "Mr. K.K."
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "noble-shirt",
+      "song": "Mr. K.K.",
+      "phrase": "lion cub",
+      "skill": "Debating",
+      "goal": "Professor",
+      "fear": "Monster Mask",
+      "quote": "The bigger the first, the bigger your dinner.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "lion cub",
+      "song": "Mr. K.K."
+    }
+  },
+  "name": "Leopold",
+  "id": "leopold"
+}

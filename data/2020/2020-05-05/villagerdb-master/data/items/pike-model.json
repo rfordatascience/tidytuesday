@@ -1,0 +1,13 @@
+{
+  "id": "pike-model",
+  "name": "Pike Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5400
+      }
+    }
+  },
+  "category": "Furniture"
+}

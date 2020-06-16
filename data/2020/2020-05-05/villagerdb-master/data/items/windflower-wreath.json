@@ -1,0 +1,20 @@
+{
+  "id": "windflower-wreath",
+  "name": "Windflower Wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 720
+      },
+      "recipe": {
+        "red-windflowers": 3,
+        "white-windflowers": 3,
+        "orange-windflowers": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

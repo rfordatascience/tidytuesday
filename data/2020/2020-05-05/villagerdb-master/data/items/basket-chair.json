@@ -1,0 +1,22 @@
+{
+  "id": "basket-chair",
+  "name": "Basket Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "isabelle",
+        "stella",
+        "tasha"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

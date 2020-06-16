@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "kangaroo",
+  "birthday": "12-1",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "black-track-jacket",
+      "song": "K.K. Adventure",
+      "phrase": "punches",
+      "skill": "Doing push-ups",
+      "goal": "Boxer",
+      "fear": "Bug Mask",
+      "quote": "Bob and weave! Bob and weave!",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "punches",
+      "song": "K.K. Adventure"
+    }
+  },
+  "name": "Rooney",
+  "id": "rooney"
+}

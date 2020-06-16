@@ -1,0 +1,17 @@
+{
+  "id": "twelve-grape-plate",
+  "name": "Twelve-grape Plate",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "Countdown (Isabelle -- NA and EU Spanish)"
+      ]
+    }
+  }
+}

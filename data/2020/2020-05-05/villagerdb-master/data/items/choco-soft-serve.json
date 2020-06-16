@@ -1,0 +1,13 @@
+{
+  "id": "choco-soft-serve",
+  "name": "Choco Soft-serve",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Happy Home Showcase (9 StreetPass)"
+      ]
+    }
+  }
+}

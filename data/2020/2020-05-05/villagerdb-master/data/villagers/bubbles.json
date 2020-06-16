@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "9-18",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "crossing-shirt",
+      "song": "K.K. Stroll",
+      "phrase": "hipster"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "crossing-shirt",
+      "song": "K.K. Stroll"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "grape-tee",
+      "song": "K.K. Stroll",
+      "phrase": "hipster",
+      "skill": "Limboing",
+      "goal": "Volleyball player",
+      "fear": "Ghost Mask",
+      "quote": "It's best to keep your lips and purse sealed.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "hipster",
+      "song": "K.K. Stroll"
+    }
+  },
+  "name": "Bubbles",
+  "id": "bubbles"
+}

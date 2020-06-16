@@ -1,0 +1,33 @@
+{
+  "id": "editors-desk",
+  "name": "Editor's Desk",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "dobie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "golden-casket",
+  "name": "Golden Casket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

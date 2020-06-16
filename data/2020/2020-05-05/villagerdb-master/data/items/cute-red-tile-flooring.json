@@ -1,0 +1,23 @@
+{
+  "id": "cute-red-tile-flooring",
+  "name": "Cute Red-tile Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 195
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 780
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

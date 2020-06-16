@@ -1,0 +1,24 @@
+{
+  "id": "skinny-mushroom",
+  "name": "Skinny Mushroom",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Near trees (only in November)",
+        "near tree stumps."
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  }
+}

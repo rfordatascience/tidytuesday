@@ -1,0 +1,177 @@
+processor,transistor_count,date_of_introduction,designer,process,area
+"MP944 (20-bit, 6-chip)",NA,1970,Garrett AiResearch,NA,NA
+"Intel 4004 (4-bit, 16-pin)",2250,1971,Intel,10000,12
+"Intel 8008 (8-bit, 18-pin)",3500,1972,Intel,10000,14
+NEC μCOM-4 (4-bit),2500,1973,NEC,7500,NA
+Toshiba TLCS-12 (12-bit),2800,1973,Toshiba,6000,32
+"Intel 4040 (4-bit, 16-pin)",3000,1974,Intel,10000,12
+"Motorola 6800 (8-bit, 40-pin)",4100,1974,Motorola,6000,16
+"Intel 8080 (8-bit, 40-pin)",6000,1974,Intel,6000,20
+"TMS 1000 (4-bit, 28-pin)",8000,1974,Texas Instruments,8000,11
+"MOS Technology 6502 (8-bit, 40-pin)",4528,1975,MOS Technology,8000,21
+"Intersil IM6100 (12-bit, 40-pin; clone of PDP-8)",4000,1975,Intersil,NA,NA
+"CDP 1801 (8-bit, 2-chip; 40-pin)",5000,1975,RCA,NA,NA
+"RCA 1802 (8-bit, 40-pin)",5000,1976,RCA,5000,27
+"Zilog Z80 (8-bit, 40-pin)",8500,1976,Zilog,4000,18
+"Intel 8085 (8-bit, 40-pin)",6500,1976,Intel,3000,20
+TMS9900 (16-bit),8000,1976,Texas Instruments,NA,NA
+"MC14500B (1-bit, 16-pin)",NA,1977,Motorola,NA,NA
+Bellmac-8 (8-bit),7000,1977,Bell Labs,5000,NA
+"Motorola 6809 (8-bit with some 16-bit features, 40-pin)",9000,1978,Motorola,5000,21
+"Intel 8086 (16-bit, 40-pin)",29000,1978,Intel,3000,33
+Zilog Z8000 (16-bit),17500,1979,Zilog,NA,NA
+"Intel 8088 (16-bit, 8-bit data bus)",29000,1979,Intel,3000,33
+"Motorola 68000 (16/32-bit, 32-bit registers, 16-bit  ALU)",68000,1979,Motorola,3500,44
+WDC 65C02,11500,1981,WDC,3000,6
+Intel 80186,55000,1982,Intel,3000,60
+Intel 80286,134000,1982,Intel,1500,49
+WDC 65C816 (8/16-bit),22000,1983,WDC,3000,9
+NEC V20,63000,1984,NEC,NA,NA
+Motorola 68020 (32-bit; 114 pins used),190000,1984,Motorola,2000,85
+Intel 80386 (32-bit),275000,1985,Intel,1500,104
+ARM 1 (32-bit),25000,1985,Acorn,3000,50
+Novix NC4016,16000,1985,Harris Corporation,3000,NA
+SPARC MB86900 (32-bit),110000,1986,Fujitsu,1200,NA
+NEC V60[30],375000,1986,NEC,1500,NA
+ARM 2 (32-bit; 84-pin),27000,1986,Acorn,2000,30
+NEC V70[30],385000,1987,NEC,1500,NA
+Hitachi Gmicro/200[32],730000,1987,Hitachi,1000,NA
+Motorola 68030,273000,1987,Motorola,800,102
+TI Explorer's 32-bit Lisp machine chip,553000,1987,Texas Instruments,2000,NA
+DEC WRL MultiTitan,180000,1988,DEC WRL,1500,61
+"Intel i960 (32-bit, 33-bit memory subsystem)",250000,1988,Intel,1500,NA
+Intel i960CA,600000,1989,Intel,800,143
+"Intel i860 (32/64-bit, 128-bit SIMD)",1000000,1989,Intel,NA,NA
+Intel 80486,1180235,1989,Intel,1000,173
+ARM 3,310000,1989,Acorn,1500,87
+68040,1200000,1990,Motorola,650,152
+R4000 (64-bit),1350000,1991,MIPS,1000,213
+ARM 6,35000,1991,ARM,800,NA
+Hitachi SH-1 (32-bit),600000,1992,Hitachi,800,10
+Intel i960CF,900000,1992,Intel,NA,125
+Hitachi HARP-1,2800000,1993,Hitachi,500,267
+Pentium,3100000,1993,Intel,800,294
+ARM700,578977,1994,ARM,700,68
+68060,2500000,1994,Motorola,600,218
+SA-110,2500000,1995,Acorn/DEC/Apple,350,50
+ARM 9TDMI,111000,1999,Acorn,350,4
+Pentium Pro,5500000,1995,Intel,500,307
+AMD K5,4300000,1996,AMD,500,251
+Hitachi SH-4 (32-bit),10000000,1997,Hitachi,200,42
+"Pentium II Klamath (32-bit, 64-bit SIMD)",7500000,1997,Intel,350,195
+AMD K6,8800000,1997,AMD,350,162
+Pentium II Deschutes,7500000,1998,Intel,250,113
+"Pentium III Katmai (32-bit, 128-bit SIMD)",9500000,1999,Intel,250,128
+"Emotion Engine (64-bit, 128-bit SIMD)",13500000,1999,Sony/Toshiba,180,240
+Gekko,21000000,2000,IBM/Nintendo,180,43
+Pentium III Coppermine,21000000,2000,Intel,180,80
+Pentium II Mobile Dixon,27400000,1999,Intel,180,180
+AMD K6-III,21300000,1999,AMD,250,118
+AMD K7,22000000,1999,AMD,250,184
+Pentium 4 Willamette,42000000,2000,Intel,180,217
+SPARC64 V,191000000,2001,Fujitsu,130,290
+Pentium III Tualatin,45000000,2001,Intel,130,81
+Pentium 4 Northwood,55000000,2002,Intel,130,145
+Pentium 4 Prescott,112000000,2004,Intel,90,110
+SPARC64 V+,400000000,2004,Fujitsu,90,294
+Pentium 4 Prescott-2M,169000000,2005,Intel,90,143
+Pentium 4 Cedar Mill,184000000,2006,Intel,65,90
+Pentium D Smithfield,228000000,2005,Intel,90,206
+Pentium D Presler,362000000,2006,Intel,65,162
+SPARC64 VI,540000000,2007,Fujitsu,90,421
+Atom,47000000,2008,Intel,45,24
+Barton,54300000,2003,AMD,130,101
+AMD K8,105900000,2003,AMD,130,193
+Itanium 2 McKinley,220000000,2002,Intel,180,421
+Xenon,165000000,2005,IBM,90,NA
+Cell,250000000,2005,Sony/IBM/Toshiba,90,221
+Core 2 Duo Conroe,291000000,2006,Intel,65,143
+Core 2 Duo Allendale,169000000,2007,Intel,65,111
+Itanium 2 Madison 6M,410000000,2003,Intel,130,374
+Uniphier,250000000,2007,Matsushita,45,NA
+SPARC64 VII,600000000,2008,Fujitsu,65,445
+SPARC64 VIIIfx,760000000,2009,Fujitsu,45,513
+SPARC64 IXfx,1870000000,2011,Fujitsu,40,484
+"Atom ""Medfield""",432000000,2012,Intel,32,64
+AMD K10 quad-core 2M L3,463000000,2007,AMD,65,283
+ARM Cortex-A9,26000000,2007,ARM,45,31
+Core 2 Duo Wolfdale 3M,230000000,2008,Intel,45,83
+Itanium 2 with 9 MB cache,592000000,2004,Intel,130,432
+Core 2 Duo Wolfdale,411000000,2007,Intel,45,107
+Core i7 (Quad),731000000,2008,Intel,45,263
+AMD K10 quad-core 6M L3,758000000,2008,AMD,45,258
+POWER6,789000000,2007,IBM,65,341
+Six-core Opteron 2400,904000000,2009,AMD,45,346
+16-core SPARC T3,1000000000,2010,Sun/Oracle,40,377
+SPARC64 X,2990000000,2012,Fujitsu,28,600
+"Apple A7 (dual-core ARM64 ""mobile SoC"")",1000000000,2013,Apple,28,102
+Quad-core + GPU Core i7,1160000000,2011,Intel,32,216
+Six-core Core i7 (Gulftown),1170000000,2010,Intel,32,240
+8-core POWER7 32M L3,1200000000,2010,IBM,45,567
+8-core AMD Bulldozer,1200000000,2012,AMD,32,315
+Quad-core + GPU AMD Trinity,1303000000,2012,AMD,32,246
+Quad-core z196[66],1400000000,2010,IBM,45,512
+Quad-core + GPU Core i7 Ivy Bridge,1400000000,2012,Intel,22,160
+Quad-core + GPU Core i7 Haswell,1400000000,2014,Intel,22,177
+Dual-core Itanium 2,1700000000,2006,Intel,90,596
+Quad-core + GPU GT2 Core i7 Skylake K,1750000000,2015,Intel,14,122
+Six-core Core i7 Ivy Bridge E,1860000000,2013,Intel,22,256
+Dual-core + GPU Iris Core i7 Broadwell-U,1900000000,2015,Intel,14,133
+Six-core Xeon 7400,1900000000,2008,Intel,45,503
+Quad-core Itanium Tukwila,2000000000,2010,Intel,65,699
+"Apple A8 (dual-core ARM64 ""mobile SoC"")",2000000000,2014,Apple,20,89
+"Apple A9 (dual-core ARM64 ""mobile SoC"")",2000000000,2015,Apple,14,96
+"Apple A9 (dual-core ARM64 ""mobile SoC"")",2000000000,2015,Apple,16,104
+"Apple A9X (dual-core ARM64 ""mobile SoC"")",3000000000,2015,Apple,16,143
+8-core POWER7+ 80 MB L3 cache,2100000000,2012,IBM,32,567
+Six-core Core i7/8-core Xeon E5 (Sandy Bridge-E/EP),2270000000,2011,Intel,32,434
+8-core Xeon Nehalem-EX,2300000000,2010,Intel,45,684
+8-core Core i7 Haswell-E,2600000000,2014,Intel,22,355
+10-core Xeon Westmere-EX,2600000000,2011,Intel,32,512
+Six-core zEC12,2750000000,2012,IBM,32,597
+"Apple A8X (tri-core ARM64 ""mobile SoC"")",3000000000,2014,Apple,20,128
+"Qualcomm Snapdragon 835 (octa-core ARM64 ""mobile SoC"")",3000000000,2016,Qualcomm,10,72
+"Qualcomm Snapdragon 845 (octa-core ARM64 ""mobile SoC"")",5300000000,2017,Qualcomm,10,94
+"Qualcomm Snapdragon 710 (octa-core ARM64 ""mobile SoC"")",NA,2018,Qualcomm,10,NA
+"Qualcomm Snapdragon 675 (octa-core ARM64 ""mobile SoC"")",NA,2018,Qualcomm,11,NA
+"Qualcomm Snapdragon 850  (octa-core ARM64 ""mobile SoC"")",5300000000,2017,Qualcomm,10,94
+"Qualcomm Snapdragon 855  (octa-core ARM64 ""mobile SoC"")",NA,2018,Qualcomm,7,73
+"Samsung Exynos 9820 (octa-core ARM64 ""mobile SoC"")",NA,2019,Samsung,8,127
+"Qualcomm Snapdragon 8cx / SCX8180 (octa-core ARM64 ""mobile SoC"")",8500000000,2018,Qualcomm,7,112
+8-core Itanium Poulson,3100000000,2012,Intel,32,544
+10-core Core i7 Broadwell-E,3200000000,2016,Intel,14,246
+"Apple A10 Fusion (quad-core ARM64 ""mobile SoC"")",3300000000,2016,Apple,16,125
+IBM z13,3990000000,2015,IBM,22,678
+12-core POWER8,4200000000,2013,IBM,22,650
+"Apple A11 Bionic (hexa-core ARM64 ""mobile SoC"")",4300000000,2017,Apple,10,89
+15-core Xeon Ivy Bridge-EX,4310000000,2014,Intel,22,541
+Zeppelin SoC Ryzen,4800000000,2017,AMD,14,192
+Ryzen 5 1600 Ryzen,4800000000,2017,AMD,14,213
+Ryzen 5 1600 X Ryzen,4800000000,2017,AMD,14,213
+61-core Xeon Phi,5000000000,2012,Intel,22,720
+Xbox One main SoC,5000000000,2013,Microsoft/AMD,28,363
+18-core Xeon Haswell-E5,5560000000,2014,Intel,22,661
+IBM z14,6100000000,2017,IBM,14,696
+"Apple A12 Bionic (hexa-core ARM64 ""mobile SoC"")",6900000000,2018,Apple,7,83
+"HiSilicon Kirin 960 (octa-core ARM64 ""mobile SoC"")",4000000000,2016,Huawei,16,110
+"HiSilicon Kirin 980 (octa-core ARM64 ""mobile SoC"")",6900000000,2018,Huawei,7,74
+"HiSilicon Kirin 970 (octa-core ARM64 ""mobile SoC"")",5500000000,2017,Huawei,10,96
+"HiSilicon Kirin 710 (octa-core ARM64 ""mobile SoC"")",5500000000,2018,Huawei,12,NA
+Xbox One X (Project Scorpio) main SoC,7000000000,2017,Microsoft/AMD,16,360
+IBM z13 Storage Controller,7100000000,2015,IBM,22,678
+28-core Xeon Platinum 8180,8000000000,2017,Intel,14,NA
+22-core Xeon Broadwell-E5,7200000000,2016,Intel,14,456
+POWER9,8000000000,2017,IBM,14,695
+72-core Xeon Phi,8000000000,2016,Intel,14,683
+IBM z14 Storage Controller,9700000000,2017,IBM,14,696
+"Freedom U500 Base Platform Chip (E51, 4×U54) RISC-V",250000000,2017,SiFive,28,30
+32-core SPARC M7,10000000000,2015,Oracle,20,NA
+SPARC64 XII (12-core),5450000000,2017,Fujitsu,20,795
+"Apple A12X Bionic (octa-core ARM64 ""mobile SoC"")",10000000000,2018,Apple,7,122
+"Apple A10X Fusion (hexa-core ARM64 ""mobile SoC"")",4300000000,2017,Apple,10,96
+Centriq 2400,18000000000,2017,Qualcomm,10,398
+32-core AMD Epyc,19200000000,2017,AMD,14,768
+Fujitsu A64FX,8786000000,2018,Fujitsu,7,NA
+GC2 IPU,23600000000,2018,Graphcore,16,825
+Tegra Xavier SoC,9000000000,2018,Nvidia,12,350
+AMD EPYC Rome,32000000000,2019,AMD,7,NA

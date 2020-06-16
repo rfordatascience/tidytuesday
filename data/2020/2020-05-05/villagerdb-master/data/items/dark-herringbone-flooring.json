@@ -1,0 +1,23 @@
+{
+  "id": "dark-herringbone-flooring",
+  "name": "Dark Herringbone Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

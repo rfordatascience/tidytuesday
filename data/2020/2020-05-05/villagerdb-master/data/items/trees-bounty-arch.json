@@ -1,0 +1,19 @@
+{
+  "id": "trees-bounty-arch",
+  "name": "Tree's Bounty Arch",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 23000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

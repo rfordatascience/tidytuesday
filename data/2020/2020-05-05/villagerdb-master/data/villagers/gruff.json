@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "8-29",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "big-star-shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "big-star-shirt",
+      "song": "K.K. Rockabilly"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "big-star-tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "bleh eh eh",
+      "skill": "Staying up late",
+      "goal": "Musician",
+      "fear": "Skeleton Hood",
+      "quote": "Don't burn bridges.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "bleh eh eh",
+      "song": "K.K. Rockabilly"
+    }
+  },
+  "name": "Gruff",
+  "id": "gruff"
+}

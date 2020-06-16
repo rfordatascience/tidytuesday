@@ -1,0 +1,19 @@
+{
+  "id": "chic-windflower-wreath",
+  "name": "Chic Windflower Wreath",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 19200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

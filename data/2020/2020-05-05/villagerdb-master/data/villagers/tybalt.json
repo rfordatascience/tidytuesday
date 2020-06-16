@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "8-19",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "two-ball-shirt",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "two-ball-shirt",
+      "song": "K.K. Salsa"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "two-ball-tee",
+      "song": "K.K. Salsa",
+      "phrase": "grrRAH",
+      "skill": "Bunting",
+      "goal": "Soccer player",
+      "fear": "Werewolf Hood",
+      "quote": "There's no excuse for half-baked potatoes.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "grrRAH",
+      "song": "K.K. Salsa"
+    }
+  },
+  "name": "Tybalt",
+  "id": "tybalt"
+}

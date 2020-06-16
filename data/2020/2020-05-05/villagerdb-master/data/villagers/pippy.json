@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "6-14",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "ugly-shirt",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "ugly-shirt",
+      "song": "K.K. Mambo"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "mint-gingham-tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare",
+      "quote": "HOPPING HOTCAKES!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "mint-gingham-tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "mint-gingham-tee",
+      "song": "K.K. Mambo",
+      "phrase": "li'l hare",
+      "skill": "Debating",
+      "goal": "Superhero",
+      "fear": "Monster Mask",
+      "quote": "Fake it till you make it!",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "li'l hare",
+      "song": "K.K. Mambo"
+    }
+  },
+  "name": "Pippy",
+  "id": "pippy"
+}

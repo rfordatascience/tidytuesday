@@ -1,0 +1,26 @@
+{
+  "id": "sunflower",
+  "name": "Sunflower",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "sources": [
+        "Gardening Store (TIY)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  }
+}

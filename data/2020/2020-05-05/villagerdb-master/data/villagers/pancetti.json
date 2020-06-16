@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "11-14",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "canary-shirt",
+      "song": "K.K. Fusion",
+      "phrase": "sooey",
+      "skill": "Forgetting stuff",
+      "goal": "President",
+      "fear": "Mummy Mask",
+      "quote": "Always get it in writing.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "sooey",
+      "song": "K.K. Fusion"
+    }
+  },
+  "name": "Pancetti",
+  "id": "pancetti"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ghost-umbrella",
+  "name": "Ghost Umbrella",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 417
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1670
+        }
+      ]
+    }
+  }
+}

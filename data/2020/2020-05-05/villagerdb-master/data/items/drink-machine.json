@@ -1,0 +1,28 @@
+{
+  "id": "drink-machine",
+  "name": "Drink Machine",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "buzz",
+        "huck"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  }
+}

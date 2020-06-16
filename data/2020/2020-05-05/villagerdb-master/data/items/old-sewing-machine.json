@@ -1,0 +1,35 @@
+{
+  "id": "old-sewing-machine",
+  "name": "Old Sewing Machine",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 338
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1352
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  }
+}

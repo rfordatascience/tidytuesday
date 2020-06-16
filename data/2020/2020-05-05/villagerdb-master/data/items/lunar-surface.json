@@ -1,0 +1,33 @@
+{
+  "id": "lunar-surface",
+  "name": "Lunar Surface",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "set": "Space",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Saharah"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 30000
+        }
+      ]
+    }
+  }
+}

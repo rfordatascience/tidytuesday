@@ -1,0 +1,19 @@
+{
+  "id": "colored-leaves-flooring",
+  "name": "Colored-leaves Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 17200
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

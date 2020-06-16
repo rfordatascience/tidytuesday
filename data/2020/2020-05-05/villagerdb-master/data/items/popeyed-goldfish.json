@@ -1,0 +1,17 @@
+{
+  "id": "popeyed-goldfish",
+  "name": "Popeyed Goldfish",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "sources": [
+        "In rivers."
+      ]
+    }
+  }
+}

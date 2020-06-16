@@ -1,0 +1,19 @@
+{
+  "id": "snowperson-head",
+  "name": "Snowperson Head",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 28000
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

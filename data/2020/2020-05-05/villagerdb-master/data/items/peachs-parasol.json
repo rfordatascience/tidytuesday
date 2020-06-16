@@ -1,0 +1,21 @@
+{
+  "id": "peachs-parasol",
+  "name": "Peach's Parasol",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #7"
+      ]
+    }
+  }
+}

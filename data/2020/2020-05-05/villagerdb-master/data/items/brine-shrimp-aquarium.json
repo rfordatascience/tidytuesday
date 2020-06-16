@@ -1,0 +1,19 @@
+{
+  "id": "brine-shrimp-aquarium",
+  "name": "Brine-shrimp Aquarium",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

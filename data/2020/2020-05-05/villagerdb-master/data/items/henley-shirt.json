@@ -1,0 +1,17 @@
+{
+  "id": "henley-shirt",
+  "name": "Henley Shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      }
+    }
+  },
+  "category": "Tops"
+}

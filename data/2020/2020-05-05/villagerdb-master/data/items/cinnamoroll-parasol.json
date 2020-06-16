@@ -1,0 +1,23 @@
+{
+  "id": "cinnamoroll-parasol",
+  "name": "Cinnamoroll Parasol",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "chai"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

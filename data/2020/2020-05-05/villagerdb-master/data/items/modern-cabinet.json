@@ -1,0 +1,27 @@
+{
+  "id": "modern-cabinet",
+  "name": "Modern Cabinet",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Modern",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 645
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2580
+        }
+      ]
+    }
+  }
+}

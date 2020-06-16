@@ -1,0 +1,24 @@
+{
+  "id": "cute-sneakers",
+  "name": "Cute Sneakers",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Balloon",
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 315
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1260
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

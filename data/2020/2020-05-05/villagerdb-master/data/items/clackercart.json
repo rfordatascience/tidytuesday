@@ -1,0 +1,39 @@
+{
+  "id": "clackercart",
+  "name": "Clackercart",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Nursery",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 345
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1380
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 960
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3840
+        }
+      ]
+    }
+  }
+}

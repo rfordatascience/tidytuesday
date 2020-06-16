@@ -1,0 +1,20 @@
+{
+  "id": "wooden-block-stereo",
+  "name": "Wooden-block Stereo",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2460
+      },
+      "recipe": {
+        "wooden-block-toy": 1,
+        "softwood": 5,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

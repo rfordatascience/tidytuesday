@@ -1,0 +1,20 @@
+{
+  "id": "bunny-day-festive-balloons",
+  "name": "Bunny Day Festive Balloons",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "stone-egg": 1,
+        "wood-egg": 1,
+        "water-egg": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

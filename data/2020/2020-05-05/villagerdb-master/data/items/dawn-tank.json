@@ -1,0 +1,26 @@
+{
+  "id": "dawn-tank",
+  "name": "Dawn Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 280
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "grape-shirt",
+  "name": "Grape Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pansy-crown",
+  "name": "Pansy Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1920
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "striped-tank",
+  "name": "Striped Tank",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

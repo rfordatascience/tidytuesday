@@ -1,0 +1,18 @@
+{
+  "id": "log-stool",
+  "name": "Log Stool",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      },
+      "recipe": {
+        "hardwood": 4
+      }
+    }
+  }
+}

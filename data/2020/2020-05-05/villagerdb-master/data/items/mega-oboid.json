@@ -1,0 +1,20 @@
+{
+  "id": "mega-oboid",
+  "name": "Mega Oboid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

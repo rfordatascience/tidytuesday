@@ -1,0 +1,41 @@
+{
+  "id": "crossing-shirt",
+  "name": "Crossing Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    },
+    "ac": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    },
+    "afe+": {
+      "orderable": false,
+      "sources": [
+        "Gracie"
+      ]
+    }
+  }
+}

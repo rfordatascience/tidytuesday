@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "8-26",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Love Song",
+      "phrase": "speedy"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Love Song"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "aqua-polka-tank",
+      "song": "K.K. Love Song",
+      "phrase": "mango",
+      "quote": "Why be junior varsity when you can be VARSITY?!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "aqua-polka-tank",
+      "song": "K.K. Love Song",
+      "phrase": "mango"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "aqua-polka-tank",
+      "song": "K.K. Love Song",
+      "phrase": "mango",
+      "fear": "Werewolf Hood",
+      "quote": "Refuse to lose.",
+      "skill": "Waking up early",
+      "goal": "Basketball player",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "mango",
+      "song": "K.K. Love Song"
+    }
+  },
+  "name": "Rowan",
+  "id": "rowan"
+}

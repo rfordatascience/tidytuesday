@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "10-20",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "big-star-shirt",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "big-star-shirt",
+      "song": "K.K. Faire"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "K.K. Faire",
+      "phrase": "honk",
+      "quote": "Always go for the burn!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "K.K. Faire",
+      "phrase": "honk"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "K.K. Faire",
+      "phrase": "honk",
+      "skill": "Playing horseshoes",
+      "goal": "Baseball player",
+      "fear": "Mummy Mask",
+      "quote": "Always go for the burn!",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "honk",
+      "song": "K.K. Faire"
+    }
+  },
+  "name": "Antonio",
+  "id": "antonio"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "statue-of-liberty",
+  "name": "Statue Of Liberty",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Gulliver (correct -- America)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9200
+        }
+      ]
+    }
+  }
+}

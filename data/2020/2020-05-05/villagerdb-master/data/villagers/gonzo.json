@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "10-13",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "earthy-knit",
+      "song": "K.K. D & B",
+      "phrase": "mate"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "earthy-knit",
+      "song": "K.K. D & B"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "earthy-knit-shirt",
+      "song": "K.K. D & B",
+      "phrase": "mate",
+      "skill": "Mental math",
+      "goal": "Mayor",
+      "fear": "Monster Mask",
+      "quote": "Brothers are brothers; cheese is cheese.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "mate",
+      "song": "K.K. D & B"
+    }
+  },
+  "name": "Gonzo",
+  "id": "gonzo"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shark-tooth",
+  "name": "Shark Tooth",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

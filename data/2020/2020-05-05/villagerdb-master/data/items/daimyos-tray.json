@@ -1,0 +1,27 @@
+{
+  "id": "daimyos-tray",
+  "name": "Daimyo's Tray",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "rvs": [
+        "billy",
+        "joan",
+        "kappn",
+        "wade"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

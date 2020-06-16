@@ -1,0 +1,42 @@
+{
+  "id": "chino-pants",
+  "name": "Chino Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 480
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 175
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  }
+}

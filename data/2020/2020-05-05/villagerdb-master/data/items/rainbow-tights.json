@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-tights",
+  "name": "Rainbow Tights",
+  "category": "Socks",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 75
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 300
+        }
+      ]
+    }
+  }
+}

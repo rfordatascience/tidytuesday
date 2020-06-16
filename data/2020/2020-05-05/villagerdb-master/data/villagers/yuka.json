@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "7-20",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "lemon-gingham",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "lemon-gingham",
+      "song": "Soulful K.K."
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "lemon-gingham-tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk",
+      "quote": "It's nice that you have me as a friend."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "lemon-gingham-tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "lemon-gingham-tee",
+      "song": "Soulful K.K.",
+      "phrase": "tsk tsk",
+      "skill": "Staying up late",
+      "goal": "Journalist",
+      "fear": "Bug Mask",
+      "quote": "Beauty is in the eye of the beholder.",
+      "siblings": "Third of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "tsk tsk",
+      "song": "Soulful K.K."
+    }
+  },
+  "name": "Yuka",
+  "id": "yuka"
+}

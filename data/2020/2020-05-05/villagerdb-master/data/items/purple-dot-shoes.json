@@ -1,0 +1,29 @@
+{
+  "id": "purple-dot-shoes",
+  "name": "Purple Dot Shoes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 115
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 460
+        }
+      ]
+    }
+  }
+}

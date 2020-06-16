@@ -1,0 +1,23 @@
+{
+  "id": "iguanodon-model",
+  "name": "Iguanodon Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10500
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4200
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "sharp-outfit",
+  "name": "Sharp Outfit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Historical"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      },
+      "sources": [
+        "Able Sisters (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 280
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    }
+  }
+}

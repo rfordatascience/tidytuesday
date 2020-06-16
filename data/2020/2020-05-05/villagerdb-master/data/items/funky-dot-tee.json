@@ -1,0 +1,26 @@
+{
+  "id": "funky-dot-tee",
+  "name": "Funky-dot Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 108
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 432
+        }
+      ]
+    }
+  }
+}

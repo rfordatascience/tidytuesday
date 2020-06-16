@@ -1,0 +1,17 @@
+{
+  "id": "lift-chair",
+  "name": "Lift Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "Snowman"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "princess-carpet",
+  "name": "Princess Carpet",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Princess",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 31000
+      },
+      "sources": [
+        "GracieGrace (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 124000
+        }
+      ]
+    }
+  }
+}

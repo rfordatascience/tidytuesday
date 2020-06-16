@@ -1,0 +1,27 @@
+{
+  "id": "music-room-wall",
+  "name": "Music-room Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "copper",
+        "weber"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

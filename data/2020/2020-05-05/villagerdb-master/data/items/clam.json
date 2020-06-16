@@ -1,0 +1,17 @@
+{
+  "id": "clam",
+  "name": "Clam",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "frozen-treat-set",
+  "name": "Frozen-treat Set",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 21600
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "1-21",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "misty-shirt",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "misty-shirt",
+      "song": "King K.K."
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "misty-tee",
+      "song": "King K.K.",
+      "phrase": "otaku",
+      "quote": "Hai-ya!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "misty-tee",
+      "song": "King K.K.",
+      "phrase": "otaku"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "misty-tee",
+      "song": "King K.K.",
+      "phrase": "otaku",
+      "skill": "Subsistence living",
+      "goal": "Politician",
+      "fear": "Bug Mask",
+      "quote": "Fall down seven times, get up eight.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "otaku",
+      "song": "King K.K."
+    }
+  },
+  "name": "Genji",
+  "id": "genji"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "street-piano",
+  "name": "Street Piano",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 26755
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 107020
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

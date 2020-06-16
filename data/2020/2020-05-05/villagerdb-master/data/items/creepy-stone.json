@@ -1,0 +1,21 @@
+{
+  "id": "creepy-stone",
+  "name": "Creepy Stone",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Creepy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

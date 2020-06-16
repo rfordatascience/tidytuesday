@@ -1,0 +1,17 @@
+{
+  "id": "left-quetzal-wing",
+  "name": "Left Quetzal Wing",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Fossils"
+}

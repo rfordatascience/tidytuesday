@@ -1,0 +1,31 @@
+{
+  "id": "red-zap-pants",
+  "name": "Red-zap Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Red Superhero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  }
+}

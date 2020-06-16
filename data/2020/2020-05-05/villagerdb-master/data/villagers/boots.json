@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "8-7",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "jester-shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "jester-shirt",
+      "song": "K.K. Rally"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "jester-shirt",
+      "song": "K.K. Rally",
+      "phrase": "munchie",
+      "skill": "Writing backward",
+      "goal": "Sumo wrestler",
+      "fear": "Monster Mask",
+      "quote": "Strength lies in muscles.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "munchie",
+      "song": "K.K. Rally"
+    }
+  },
+  "name": "Boots",
+  "id": "boots"
+}

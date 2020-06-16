@@ -1,0 +1,19 @@
+{
+  "id": "ironwood-table",
+  "name": "Ironwood Table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5940
+      },
+      "recipe": {
+        "wood": 12,
+        "iron-nugget": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

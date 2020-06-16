@@ -1,0 +1,24 @@
+{
+  "id": "midnas-mask",
+  "name": "Midna's Mask",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #11"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "magazine-rack",
+  "name": "Magazine Rack",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 690
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2760
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

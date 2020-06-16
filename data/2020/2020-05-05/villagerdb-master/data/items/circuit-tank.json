@@ -1,0 +1,29 @@
+{
+  "id": "circuit-tank",
+  "name": "Circuit Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1280
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5120
+        }
+      ]
+    }
+  }
+}

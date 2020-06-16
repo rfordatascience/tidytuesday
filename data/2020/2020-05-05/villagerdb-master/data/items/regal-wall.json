@@ -1,0 +1,35 @@
+{
+  "id": "regal-wall",
+  "name": "Regal Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "set": "Regal",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "billy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

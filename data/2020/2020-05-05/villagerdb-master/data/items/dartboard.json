@@ -1,0 +1,39 @@
+{
+  "id": "dartboard",
+  "name": "Dartboard",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 380
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1520
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  }
+}

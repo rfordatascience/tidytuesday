@@ -1,0 +1,26 @@
+{
+  "id": "new-hero-wig",
+  "name": "New Hero Wig",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "ganon",
+        "epona",
+        "medli",
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

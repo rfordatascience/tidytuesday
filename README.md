@@ -1,14 +1,14 @@
-![](https://github.com/rfordatascience/tidytuesday/blob/master/DjW0RrMUcAA-ssV.jpg)
+![](static/tt_logo.png)
 
 ## A weekly social data project in R
 
-A weekly data project aimed at the R ecosystem. An emphasis will be placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem.
+A weekly data project aimed at the R ecosystem. As this project was borne out of the `R4DS Online Learning Community` and the `R for Data Science` textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results.
 
 ***
 
-Join the R4DS online learning community in the weekly #TidyTuesday event! Every week we post a raw dataset, an original chart associated with that dataset, and ask you to apply your take on the chart. While the data set will be “tamed”, it will not always be tidy! As such you might need to apply various R for Data Science techniques to wrangle the data into a true tidy format. The goal of Tidy Tuesday is to apply your R skills, get feedback, explore other’s work, and connect with the greater RStats community! As such we encourage everyone of all skills to participate! 
+Join the `R4DS Online Learning Community` in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other’s work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
 
-We will have many sources of data and want to emphasize that no causation is implied. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our guidelines are to use the data provided to practice your data tidying and plotting techniques. Participants are invited to consider for themselves what nuancing factors might underlie these relationships. 
+We will have many sources of data and want to emphasize that **no causation** is implied. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our guidelines are to use the data provided to practice your data tidying and plotting techniques. Participants are invited to consider for themselves what nuancing factors might underlie these relationships. 
 
 The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their **wrangling** and **data visualization** skills independent of drawing conclusions. While we understand that the two are related, the focus of this practice is purely on building skills with real-world data.
 
@@ -19,7 +19,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 1. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice **data visualization** and **basic data wrangling** in R.  
 2. Again, the data is what it is! You are welcome to explore beyond the provided dataset, but the data is provided as a "toy" dataset to practice techniques on.  
 3. This is NOT about criticizing the original article or graph. Real people made the graphs, collected or acquired the data! Focus on the provided dataset, learning, and improving your techniques in R.  
-4. This is NOT about criticizing or tearing down your fellow #RStats practitioners! Be supportive and kind to each other! Like other's posts and help promote the #RStats community!  
+4. This is NOT about criticizing or tearing down your fellow `#RStats` practitioners or their code! Be supportive and kind to each other! Like other's posts and help promote the `#RStats` community!  
 4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
 5. Include a picture of the visualisation when you post to Twitter.  
 6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
@@ -29,78 +29,116 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 ***
 
 ## Submitting Datasets
-Want to submit an interesting dataset? Please open an [Issue](https://github.com/rfordatascience/tidytuesday/issues) and post a link to the article (or blogpost, etc) using the data, then we can discuss adding it to a future TidyTuesday Event!
+
+`TidyTuesday` is built around open datasets that are found in the "wild" or submitted as [Issues](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub.
+
+If you find a dataset that you think would be interesting, you can approach it through two ways:
+
+## Two Ways to Contribute
+
+1. **Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesday/issues)**  
+a. Find an interesting dataset  
+b. Find a report, blog post, article etc relevant to the data   
+c. Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesday/issues) along with a link to the article  
+
+2. **Create an entire TidyTuesday challenge!**  
+a. Find an interesting dataset  
+b. Find a report, blog post, article etc relevant to the data (or create one yourself!)  
+c. Let us know you're found something interesting and are working on it by filing an [Issue](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub  
+d. Provide a link or the raw data and a cleaning script for the data  
+e. Write a basic `readme.md` file using the minimal template below and make sure to give yourself credit! 
+
+#### `readme.md` template
+
+```
+# INPUT THE SUBJECT TITLE OF THE DATASET
+
+The data this week comes from [SOURCE_OF_DATA](URL_TO_DATA). 
+
+This [ARTICLE_SOURCE](LINK_TO_ARTICLE) talks about SUBJECT TITLE in greater detail.
+
+Credit: [YOUR NAME](Twitter handle or other social media profile)
+```
+
+## Submitting Code Chunks
+Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
 
 ***
 
 # DataSets
-## 2018
+## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  
+
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2018-04-02` | [US Tuition Costs](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-04-02) | [onlinembapage.com](https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/) | [onlinembapage.com](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg) |
-| 2 | `2018-04-09` | [NFL Positional Salaries](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-04-09) | [Spotrac.com](http://www.spotrac.com/rankings/) | [fivethirtyeight.com](https://espnfivethirtyeight.files.wordpress.com/2017/05/morris-nflrb-1.png?w=575&h=488&quality=90&strip=info) |
-| 3|  `2018-04-16`| [Global Mortality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-04-16) | [ourworldindata.org](https://ourworldindata.org/) | [ourworldindata.org](https://ourworldindata.org/what-does-the-world-die-from) | 
-| 4 | `2018-04-23`| [Australian Salaries by Gender](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-04-23) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True) | [data.gov.au](https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True)  |
-| 5 | `2018-04-30` | [ACS Census Data (2015)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-04-30) | [census.gov](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml) , [Kaggle](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  | No article |
-| 6 | `2018-05-07`| [Global Coffee Chains](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-05-07) | [Starbucks: kaggle.com](https://www.kaggle.com/starbucks/store-locations) , [Tim Horton: timhortons.com](https://locations.timhortons.com/) , [Dunkin Donuts: odditysoftware.com](http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip) | [flowingdata.com](http://flowingdata.com/2014/03/18/coffee-place-geography/)
-| 7 | `2018-05-14` | [Star Wars Survey](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-05-14) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight)    | [fivethirtyeight.com](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/)  |
-| 8 | `2018-05-21` | [US Honey Production](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-05-21) | [USDA](http://usda.mannlib.cornell.edu/MannUsda/viewDocumentInfo.do?documentID=1520), [Kaggle.com](https://www.kaggle.com/jessicali9530/honey-production) | [Bee Culture](http://www.beeculture.com/u-s-honey-industry-report-2016/) |
-| 9 | `2018-05-29` | [Comic book characters](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-05-29) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/women-in-comic-books/)|
-| 10 | `2018-06-05` | [Biketown Bikeshare](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-06-05) | [BiketownPDX](https://www.biketownpdx.com/system-data) | [Biketown](https://www.biketownpdx.com/system-data) [cascadiaRconf/cRaggy](https://cascadiarconf.com/agenda/#craggy) |
-| 11 | `2018-06-12` | [FIFA World Cup Audience](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-06-12) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/how-to-break-fifa/)|
-| 12 | `2018-06-19` | [Hurricanes & Puerto Rico](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-06-19) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/the-media-really-has-neglected-puerto-rico/)|
-| 13 | `2018-06-26` | [Alcohol Consumption](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-06-26) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/)|
-| 14 | `2018-07-03` | [Global Life Expectancy](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-07-03) | [ourworldindata.org](https://ourworldindata.org/) | [ourworldindata.org](https://ourworldindata.org/life-expectancy)|
-| 15 | `2018-07-10` | [Craft Beer USA](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-07-10) | [data.world](https://data.world/) | [thrillist.com](https://www.thrillist.com/news/nation/most-craft-breweries-by-state-united-states)|
-| 16 | `2018-07-17` | [Exercise USA](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-07-17) | [CDC](https://www.cdc.gov/) | [CDC - National Health Statistics Reports](https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf)|
-| 17 | `2018-07-23` | [p-hack-athon collaboration](http://phackathon.netlify.com/#about) | [simplystatistics.org](https://simplystatistics.org/) | [p-hack-athon](http://phackathon.netlify.com/)|
-| 18 | `2018-07-31` | [Dallas Animal Shelter FY2017](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-07-31) | [Dallas OpenData](https://www.dallasopendata.com/City-Services/FY-2017-Dallas-Animal-Shelter-Data/sjyj-ydcj) | [Dallas OpenData FY2017 Summary](https://www.dallasopendata.com/stories/s/FY-2017-Dallas-Animal-Descriptive-Analysis/upeh-b6mt)|
-| 19 | `2018-08-07` | [Airline Safety](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-07) | [FiveThirtyEight Package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Airline Safety](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/)|
-| 20 | `2018-08-14` | [Russian Troll Tweets](https://github.com/fivethirtyeight/russian-troll-tweets) | [FiveThirtyEight.com](https://github.com/fivethirtyeight/russian-troll-tweets) | [538 - Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)|
-| 21 | `2018-08-21` | [California Fires](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-21) | [BuzzFeed.com](https://github.com/BuzzFeedNews/2018-07-wildfire-trends) | [BuzzFeed News - California Fires](https://www.buzzfeednews.com/article/peteraldhous/california-wildfires-people-climate), [RMarkdown](https://buzzfeednews.github.io/2018-07-wildfire-trends/)|
-| 22 | `2018-08-28` | [NFL Stats](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-08-28) | [pro-football-reference.com](https://www.pro-football-reference.com/) | [eldo.co](https://www.eldo.co/nfl-rushing-and-passing-in-four-charts.html)|
-| 23 | `2018-09-04` | [Fast Food Calories](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-04) | [fastfoodnutrition.org](https://fastfoodnutrition.org/) | [franchiseopportunities.com](https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts)|
-| 24 | `2018-09-11` | [Cats vs Dogs (USA)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-11) | [data.world](https://data.world/datanerd/cat-vs-dog-popularity-in-u-s) | [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2014/07/28/where-cats-are-more-popular-than-dogs-in-the-u-s-and-all-over-the-world/?utm_term=.b50cb49b78b5)|
-| 25 | `2018-09-18` | [US Flights or Hypoxia](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-18) | [faa.gov](https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/previous_years/)<br/>[Soaring Society of America](https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf) | [travelweekly.com](https://www.travelweekly.com/Travel-News/Airline-News/In-trend-reversal-midsized-airports-are-growing)<br/> [SSA - Hypoxia](https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf)|
-| 26 | `2018-09-25` | [Global Invasive Species](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-09-25) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/) | [Paini et al, 2016](http://www.pnas.org/content/113/27/7575)<br/>[griis.org](http://www.griis.org/)|
-| 27 | `2018-10-02` | [US Births](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-02) | [fivethirtyeight package](https://github.com/rudeboybert/fivethirtyeight) | [538 - Births](https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/)|
-| 28 | `2018-10-09` | [US Voter Turnout](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-09) | [data.world](https://data.world/carlvlewis/voter-registration-and-criminal-records-by-state-1980-2014) | [Star Tribune](http://www.startribune.com/minnesota-leads-nation-in-turnout/400763681/)|
-| 29 | `2018-10-16` | [College Major & Income](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-16) | [fivethirtyeight/ACS](https://github.com/fivethirtyeight/data/tree/master/college-majors) | [fivethirtyeight](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/)|
-| 30 | `2018-10-23` | [Horror Movie Profit](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-23) | [the-numbers.com](https://www.the-numbers.com/) | [fivethirtyeight](https://fivethirtyeight.com/features/scary-movies-are-the-best-investment-in-hollywood/)|
-| 31 | `2018-10-30` | [R and R package downloads](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-10-30) | [cran-logs.rstudio.com](http://cran-logs.rstudio.com/) | No Article |
-| 32 | `2018-11-06` | [US Wind Farm locations](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-06) | [usgs.gov](https://eerscmap.usgs.gov/uswtdb/data/) | [Wind Market Reports](https://www.energy.gov/eere/wind/2017-wind-market-reports) |
-| 33 | `2018-11-13` | [Malaria Data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-13) | [ourworldindata.org](https://ourworldindata.org/malaria)<br/>[Malaria Data Challenge](https://www.synapse.org/#!Synapse:syn16788291/wiki/583310) | [ourworldindata.org](https://ourworldindata.org/malaria) [`malariaAtlas`](https://github.com/malaria-atlas-project/malariaAtlas) |
-| 34 | `2018-11-20` | [Thanksgiving Dinner or Transgender Day of Remembrance](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-20) | [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/thanksgiving-2015)<br/>[TDoR](https://github.com/CaRdiffR/tdor) | [fivethirtyeight](https://fivethirtyeight.com/features/heres-what-your-part-of-america-eats-on-thanksgiving/)<br/>[TDoR](https://docs.google.com/presentation/d/1PNMa6LmjsofR8FUrnXHnwdMrvxTrBMZU2Lh8DQrsmr0/edit#slide=id.g47d8b045e7_0_127)|
-| 35 | `2018-11-27` | [Baltimore Bridges](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-11-27) | [Federal Highway Administration](https://www.fhwa.dot.gov/bridge/nbi.cfm) | [Baltimore Sun](https://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html)|
-| 36 | `2018-12-04` | [Medium Article Metadata](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-12-04) | [Kaggle.com](https://www.kaggle.com/harrisonjansma/medium-stories) | [TidyText package](https://github.com/juliasilge/tidytext)|
-| 37 | `2018-12-04` | [NYC Restaurant inspections](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018-12-11) | [NYC OpenData/NYC Health Department](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j) | [FiveThirtyEight](https://fivethirtyeight.com/features/how-data-made-me-a-believer-in-new-york-citys-restaurant-grades/)|
+| 1 | `2019-12-31` | Bring your own data from 2019! | | |
+| 2 | `2020-01-07` | [Australian Fires](data/2020/2020-01-07/readme.md) | [Bureau of Meteorology](http://www.bom.gov.au/climate/data/stations/)| [NY Times](https://www.nytimes.com/interactive/2020/01/02/climate/australia-fires-map.html) & [BBC](https://www.bbc.com/news/world-australia-50951043) |
+| 3 | `2020-01-14` | [Passwords](data/2020/2020-01-14/readme.md) | [Knowledge is Beautiful](https://docs.google.com/spreadsheets/d/1cz7TDhm0ebVpySqbTvrHrD3WpxeyE4hLZtifWSnoNTQ/edit#gid=21) | [Information is Beautiful](https://informationisbeautiful.net/visualizations/top-500-passwords-visualized/) |
+| 4 | `2020-01-21` | [Song Genres](data/2020/2020-01-21/readme.md) | [`spotifyr` ](https://www.rcharlie.com/spotifyr/) | [Kaylin Pavlik](https://www.kaylinpavlik.com/classifying-songs-genres/) |
+| 5 | `2020-01-28` | [San Francisco Trees](data/2020/2020-01-28/readme.md) | [data.sfgov.org](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq) | [SF Weekly](https://www.sfweekly.com/news/feature/trees-of-life/) |
+| 6 | `2020-02-04` | [NFL Attendance](data/2020/2020-02-04/readme.md) | [Pro Football Reference](https://www.pro-football-reference.com/years/2002/index.htm) | [Casino.org](https://www.casino.org/record-and-attendance/) |
+| 7 | `2020-02-11` | [Hotel Bookings](data/2020/2020-02-11/readme.md) | [Antonio, Almeida, and Nunes, 2019](https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5) | [`tidyverts`](https://tsibble.tidyverts.org/) |
+| 8 | `2020-02-18` | [Food's Carbon Footprint](data/2020/2020-02-18/readme.md) | [nu3](https://www.nu3.de/blogs/nutrition/food-carbon-footprint-index-2018) | [`r-tastic` by Kasia Kulma](https://r-tastic.co.uk/post/from-messy-to-tidy/) |
+| 9 | `2020-02-25` | [Measles Vaccination](data/2020/2020-02-25/readme.md) | [The Wallstreet Journal](https://github.com/WSJ/measles-data) | [The Wall Street Journal](https://www.wsj.com/graphics/school-measles-rate-map/) |
+| 10 | `2020-03-03` | [NHL Goals](data/2020/2020-03-03/readme.md) | [HockeyReference.com](https://www.hockey-reference.com/leaders/goals_career.html) | [Washington Post](https://www.washingtonpost.com/graphics/2020/sports/capitals/ovechkin-700-goals/?utm_campaign=wp_graphics&utm_medium=social&utm_source=twitter)|
+| 11 | `2020-03-10` | [College Tuition, Diversity, and Pay](data/2020/2020-03-10/readme.md) | [TuitionTracker.org](https://www.tuitiontracker.org/) | [TuitionTracker.org](https://www.tuitiontracker.org/school.html?unitid=228778) |
+| 12 | `2020-03-17` | [The Office](data/2020/2020-03-17/readme.md) | [`schrute`](https://bradlindblad.github.io/schrute/index.html) | [The Pudding](https://pudding.cool/2017/08/the-office/) |
+| 13 | `2020-03-24` | [Traumatic Brain Injury](data/2020/2020-03-24/readme.md) | [CDC](https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm) | [CDC Traumatic Brain Injury Report](https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm) |
+| 14 | `2020-03-31` | [Beer Production](data/2020/2020-03-31/readme.md) | [TTB](https://www.ttb.gov/beer/statistics) | [Brewers Association](https://www.brewersassociation.org/insights/cans-bottles-craft-beer-packaging-trends/) |
+| 15 | `2020-04-07` | [Tour de France](data/2020/2020-04-07/readme.md) | [`tdf` package](https://github.com/alastairrushworth/tdf) | [Alastair Rushworth's blog](https://alastairrushworth.github.io/Visualising-Tour-de-France-data-in-R/) |
+| 16 | `2020-04-14` | [Best Rap Artists](data/2020/2020-04-14/readme.md) | [BBC Music](http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted) | [Simon Jockers at Datawrapper](https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/) |
+| 17 | `2020-04-21` | [GDPR Violation](data/2020/2020-04-21/readme.md) | [Privacy Affairs](https://www.privacyaffairs.com/gdpr-fines/) | [Roel Hogervorst](https://blog.rmhogervorst.nl/blog/2020/04/08/scraping-gdpr-fines/) |
+| 18 | `2020-04-28` | [Broadway Musicals](data/2020/2020-04-28/readme.md) | [Playbill](https://www.playbill.com/grosses) | [Alex Cookson](https://www.alexcookson.com/post/most-successful-broadway-show-of-all-time/) |
+| 19 | `2020-05-05` | [Animal Crossing](data/2020/2020-05-05/readme.md) | [Villager DB](https://github.com/jefflomacy/villagerdb) | [Polygon](https://www.polygon.com/2020/4/2/21201065/animal-crossing-new-horizons-calm-mindfulness-coronavirus-quarantine) |
+| 20 | `2020-05-12` | [Volcano Eruptions](data/2020/2020-05-12/readme.md) | [Smithsonian](https://www.himalayandatabase.com/) | [Axios](https://www.axios.com/chart-every-volcano-that-erupted-since-krakatoa-467da621-41ba-4efc-99c6-34ff3cb27709.html) & [Wikipedia](https://en.wikipedia.org/wiki/Volcano)|
+| 21 | `2020-05-19` | [Beach Volleyball](data/2020/2020-05-19/readme.md) | [BigTimeStats](https://bigtimestats.blog/data/) | [FiveThirtyEight](https://fivethirtyeight.com/features/serving-is-a-disadvantage-in-some-olympic-sports/) & [Wikipedia](https://en.wikipedia.org/wiki/Beach_volleyball#Skills)|
+| 22 | `2020-05-26` | [Cocktails](data/2020/2020-05-26/readme.md) | [Kaggle](https://www.kaggle.com/ai-first/cocktail-ingredients) & [Kaggle](https://www.kaggle.com/jenlooper/mr-boston-cocktail-dataset) | [FiveThirtyEight](https://fivethirtyeight.com/videos/we-got-drunk-on-margaritas-for-science/) |
+| 23 | `2020-06-02` | [Marble Races](data/2020/2020-06-02/readme.md) | [Jelle's Marble Runs](https://www.youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g)| [Randy Olson](http://www.randalolson.com/2020/05/24/a-data-driven-look-at-marble-racing/) |
+| 24 | `2020-06-09` | [African-American Achievements](data/2020/2020-06-09/readme.md) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_inventors_and_scientists) & [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_firsts) | [David Blackwell](https://www.stltoday.com/news/local/obituaries/david-blackwell-fought-racism-became-world-famous-statistician/article_8ea41058-5f35-5afa-9c3a-007200c5c179.html) & [Petition for David Blackwell](https://www.change.org/p/american-statistical-association-rename-the-fisher-lecture-after-david-blackwell?recruiter=1107887809) |
+| 25 | `2020-06-16` | [African-American History](data/2020/2020-06-16/readme.md) | [Black Past](https://www.blackpast.org/donate/) & [Census](https://www.census.gov/content/dam/Census/library/working-papers/2002/demo/POP-twps0056.pdf) & [Slave Voyages](https://slavevoyages.org/) | [The Guardian](https://www.theguardian.com/news/2019/aug/15/400-years-since-slavery-timeline) |
+
 
 ***  
 
 # Useful links
 
-[The R4DS Online Learning Community](https://www.rfordatasci.com)
+| Link | Description |
+| --- | --- |
+| [:link:](https://www.rfordatasci.com) | The R4DS Online Learning Community Website|
+| [:link:](http://r4ds.had.co.nz/) | The R for Data Science textbook |
+| [:link:](https://carbon.now.sh/) | Carbon for sharing beautiful code pics |
+| [:link:](https://github.com/MilesMcBain/gistfo) | Post gist to Carbon from RStudio |
+| [:link:](https://github.com/yonicd/carbonate) | Post to Carbon from RStudio |
+| [:link:](https://github.com/join) | Join GitHub! |
+| [:link:](https://guides.github.com/activities/hello-world/) | Basics of GitHub |
+| [:link:](https://happygitwithr.com/) | Learn how to use GitHub with R |
+| [:link:](http://ggplot2.tidyverse.org/reference/ggsave.html) | Save high-rez `ggplot2` images |
 
-[The R for Data Science textbook](http://r4ds.had.co.nz/)
+# Useful data sources
 
-[Carbon lets you post beautiful code directly to Twitter!](https://carbon.now.sh/)
-
-[Post to Carbon.now.sh from RStudio](https://github.com/MilesMcBain/gistfo)
-
-[Another carbon.now.sh from within RStudio](https://github.com/yonicd/carbonate)
-
-[We will use the fivethirtyeight package frequently for “tame" data](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf)
-
-[GitHub lets you host raw code for free!](https://github.com/)
-
-[A guide to getting started with GitHub](https://guides.github.com/activities/hello-world/)
-
-[How to save high quality `ggplot2` images](http://ggplot2.tidyverse.org/reference/ggsave.html)
-
-[Makeover Monday](http://www.makeovermonday.co.uk/data/)
-
-[Data Is Plural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-
-[BuzzFeed Data](https://github.com/BuzzFeedNews/everything/blob/master/README.md)
+| Link | Description |
+| --- | --- |
+| [:link:](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) | Data is Plural collection |
+| [:link:](https://github.com/BuzzFeedNews/everything/blob/master/README.md) | BuzzFeedNews GitHub |
+| [:link:](https://github.com/theeconomist/) | The Economist GitHub |
+| [:link:](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package 
+| [:link:](https://github.com/TheUpshot) | The Upshot by NY Times |
+| [:link:](https://github.com/baltimore-sun-data) | The Baltimore Sun Data Desk |
+| [:link:](https://github.com/datadesk) | The LA Times Data Desk |
+| [:link:](https://github.com/OpenNewsLabs/news-graphics-team) | Open News Labs |
+| [:link:](https://t.co/BMvJO2dT1o) | BBC Data Journalism team |
 
 ***
+
+# Data Viz/Science Books
+
+Only books available freely online are sourced here. Feel free to add to the list
+
+| Link | Description |
+| --- | --- |
+| [:link:](https://serialmentor.com/dataviz/) | Fundamentals of Data Viz by Claus Wilke |
+| [:link:](https://bookdown.org/rdpeng/artofdatascience/) | The Art of Data Science by Roger D. Peng & Elizabeth Matsui |
+| [:link:](https://www.tidytextmining.com/) | Tidy Text Mining by Julia Silge & David Robinson |
+| [:link:](https://geocompr.robinlovelace.net/) | Geocomputation with R by Robin Lovelace, Jakub Nowosad, Jannes Muenchow |
+| [:link:](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
+| [:link:](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
+ [:link:](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |

@@ -1,0 +1,38 @@
+{
+  "id": "prim-outfit",
+  "name": "Prim Outfit",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 155
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 620
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1920
+        }
+      ]
+    }
+  }
+}

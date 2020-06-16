@@ -1,0 +1,23 @@
+{
+  "id": "fountain",
+  "name": "Fountain",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Redeem Nook Miles"
+      ],
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 11700
+      },
+      "recipe": {
+        "drinking-fountain": 1,
+        "stone": 20,
+        "iron-nugget": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "high-spirits-pants",
+  "name": "High-spirits Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-Roll"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "holden"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

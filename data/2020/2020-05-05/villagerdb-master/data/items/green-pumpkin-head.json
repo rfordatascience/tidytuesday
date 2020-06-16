@@ -1,0 +1,33 @@
+{
+  "id": "green-pumpkin-head",
+  "name": "Green-pumpkin Head",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "Halloween (neighbor trick)"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

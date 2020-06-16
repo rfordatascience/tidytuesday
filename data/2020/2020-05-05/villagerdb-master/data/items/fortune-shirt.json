@@ -1,0 +1,31 @@
+{
+  "id": "fortune-shirt",
+  "name": "Fortune Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 480
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 480
+        }
+      ]
+    }
+  }
+}

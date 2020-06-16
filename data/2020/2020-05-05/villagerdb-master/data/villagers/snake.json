@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "11-3",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Lullaby"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip",
+      "quote": "Snake's number one!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "bunyip",
+      "skill": "Playing jacks",
+      "goal": "Soccer player",
+      "fear": "Bug Mask",
+      "quote": "A good ninja is neither seen, nor heard.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "bunyip",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Snake",
+  "id": "snake"
+}

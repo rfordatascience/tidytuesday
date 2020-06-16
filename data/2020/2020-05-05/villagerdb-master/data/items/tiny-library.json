@@ -1,0 +1,24 @@
+{
+  "id": "tiny-library",
+  "name": "Tiny Library",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1035
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4140
+        }
+      ],
+      "recipe": {
+        "book": 3,
+        "wood": 5
+      }
+    }
+  }
+}

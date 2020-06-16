@@ -1,0 +1,19 @@
+{
+  "id": "checkered-muffler",
+  "name": "Checkered Muffler",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1440
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

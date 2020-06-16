@@ -1,0 +1,27 @@
+{
+  "id": "wagon-wheel",
+  "name": "Wagon Wheel",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Western",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 308
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1232
+        }
+      ]
+    }
+  }
+}

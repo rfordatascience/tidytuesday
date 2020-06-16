@@ -1,0 +1,23 @@
+{
+  "id": "modern-tearoom-wall",
+  "name": "Modern Tearoom Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 437
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1750
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

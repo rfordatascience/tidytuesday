@@ -1,0 +1,38 @@
+{
+  "id": "beret",
+  "name": "Beret",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        }
+      ]
+    }
+  }
+}

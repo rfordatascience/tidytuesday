@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "2-6",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "dazed-tee",
+      "song": "King K.K.",
+      "phrase": "gumdrop",
+      "skill": "Waking up early",
+      "goal": "Astronaut",
+      "fear": "Skeleton Hood",
+      "quote": "Home is where the heart is.",
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "gumdrop",
+      "song": "King K.K."
+    }
+  },
+  "name": "Annalisa",
+  "id": "annalisa"
+}

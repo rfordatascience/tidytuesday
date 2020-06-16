@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "11-17",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "blue-stripe-knit",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "blue-stripe-knit",
+      "song": "K.K. Bossa"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "blue-stripe-tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth",
+      "quote": "Purple is the color of royalty, you know!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "blue-stripe-tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "blue-stripe-tee",
+      "song": "K.K. Bossa",
+      "phrase": "quackpth",
+      "skill": "Debating",
+      "goal": "Aesthetician",
+      "fear": "Mummy Mask",
+      "quote": "Purple is the color of royalty.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "quackpth",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Mallary",
+  "id": "mallary"
+}

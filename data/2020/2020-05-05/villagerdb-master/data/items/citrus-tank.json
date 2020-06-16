@@ -1,0 +1,30 @@
+{
+  "id": "citrus-tank",
+  "name": "Citrus Tank",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "set": "Tangerine Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 280
+        }
+      ]
+    }
+  }
+}

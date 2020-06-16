@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "2-2",
+  "games": {
+    "ww": {
+      "personality": "jock",
+      "clothes": "soccer-tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert",
+      "quote": "When you're a team of one, you're always captain!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "soccer-tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "soccer-tee",
+      "song": "K.K. Samba",
+      "phrase": "bzzert",
+      "skill": "Playing catch",
+      "goal": "Soccer player",
+      "fear": "Skeleton Hood",
+      "quote": "When you're a team of one, you're always captain!",
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "bzzert",
+      "song": "K.K. Samba"
+    }
+  },
+  "name": "Jitters",
+  "id": "jitters"
+}

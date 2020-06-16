@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "10-15",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "beige-emblem-blazer",
+      "song": "K.K. Moody",
+      "phrase": "Natch",
+      "skill": "Juggling",
+      "goal": "Actor",
+      "fear": "Skeleton Hood",
+      "quote": "Mottoes are for the unoriginal.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "Natch",
+      "song": "K.K. Moody"
+    }
+  },
+  "name": "Hippeux",
+  "id": "hippeux"
+}

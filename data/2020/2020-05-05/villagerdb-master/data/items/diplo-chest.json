@@ -1,0 +1,30 @@
+{
+  "id": "diplo-chest",
+  "name": "Diplo Chest",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      }
+    }
+  }
+}

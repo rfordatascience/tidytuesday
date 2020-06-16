@@ -1,0 +1,20 @@
+{
+  "id": "beach-towel",
+  "name": "Beach Towel",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 95
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 380
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

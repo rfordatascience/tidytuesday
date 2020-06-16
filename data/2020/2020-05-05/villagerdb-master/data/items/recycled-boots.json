@@ -1,0 +1,18 @@
+{
+  "id": "recycled-boots",
+  "name": "Recycled Boots",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "recipe": {
+        "boot": 2
+      }
+    }
+  },
+  "category": "Shoes"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ruffled-dress",
+  "name": "Ruffled Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1060
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4240
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

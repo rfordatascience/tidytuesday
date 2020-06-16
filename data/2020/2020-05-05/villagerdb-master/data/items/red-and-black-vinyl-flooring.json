@@ -1,0 +1,19 @@
+{
+  "id": "red-and-black-vinyl-flooring",
+  "name": "Red-and-black Vinyl Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 287
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1150
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

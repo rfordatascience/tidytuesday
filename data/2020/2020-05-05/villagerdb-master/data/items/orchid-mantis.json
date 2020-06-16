@@ -1,0 +1,27 @@
+{
+  "id": "orchid-mantis",
+  "name": "Orchid Mantis",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "sources": [
+        "On white flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "On flowers (Mar-Nov)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      }
+    }
+  }
+}

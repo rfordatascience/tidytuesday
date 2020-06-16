@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "alligator",
+  "birthday": "5-17",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "heart-tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "snacky",
+      "skill": "Hula dancing",
+      "goal": "Gymnast",
+      "fear": "Werewolf Hood",
+      "quote": "An ounce of prevention is worth a pound of cure.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "snacky",
+      "song": "Bubblegum K.K."
+    }
+  },
+  "name": "Gayle",
+  "id": "gayle"
+}

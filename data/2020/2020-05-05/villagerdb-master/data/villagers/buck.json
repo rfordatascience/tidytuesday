@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "4-4",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "eight-ball-shirt",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "eight-ball-shirt",
+      "song": "My Place"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "eight-ball-tee",
+      "song": "My Place",
+      "phrase": "pardner",
+      "quote": "What are you staring at?!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "eight-ball-tee",
+      "song": "My Place",
+      "phrase": "pardner"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "eight-ball-tee",
+      "song": "My Place",
+      "phrase": "pardner",
+      "skill": "Vaulting",
+      "goal": "Basketball player",
+      "fear": "Werewolf Hood",
+      "quote": "Keep your eyes on the prize.",
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "pardner",
+      "song": "My Place"
+    }
+  },
+  "name": "Buck",
+  "id": "buck"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pop-eyed-goldfish",
+  "name": "Pop-eyed Goldfish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Pond (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      }
+    }
+  },
+  "category": "Fish"
+}

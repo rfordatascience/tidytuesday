@@ -1,0 +1,19 @@
+{
+  "id": "monochromatic-dotted-wall",
+  "name": "Monochromatic Dotted Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

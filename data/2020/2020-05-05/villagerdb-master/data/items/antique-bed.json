@@ -1,0 +1,20 @@
+{
+  "id": "antique-bed",
+  "name": "Antique Bed",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 28000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

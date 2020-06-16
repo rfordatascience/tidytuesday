@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-2",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "no-2-shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "no-2-shirt",
+      "song": "DJ K.K."
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "no-2-shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick",
+      "quote": "I'm gonna, like, save the world!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "no-2-shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "no-2-shirt",
+      "song": "DJ K.K.",
+      "phrase": "sidekick",
+      "skill": "Limboing",
+      "goal": "Dancer",
+      "fear": "Bug Mask",
+      "quote": "You gotta put the pedal to the metal!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "sidekick",
+      "song": "DJ K.K."
+    }
+  },
+  "name": "Agent S",
+  "id": "agent-s"
+}

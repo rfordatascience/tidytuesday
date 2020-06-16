@@ -1,0 +1,17 @@
+{
+  "id": "wooden-mosaic-wall",
+  "name": "Wooden-mosaic Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "recipe": {
+        "wood": 15
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

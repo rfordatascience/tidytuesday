@@ -1,0 +1,19 @@
+{
+  "id": "patterned-vinyl-umbrella",
+  "name": "Patterned Vinyl Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 750
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

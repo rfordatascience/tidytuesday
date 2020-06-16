@@ -1,0 +1,29 @@
+{
+  "id": "buffet-server",
+  "name": "Buffet Server",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 711
+      },
+      "sources": [
+        "DLC (JP)"
+      ],
+      "rvs": [
+        "filly"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

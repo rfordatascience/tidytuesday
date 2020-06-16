@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "12-27",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "hippie-shirt",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Bossa"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "red-check-tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof",
+      "quote": "I'm really into that Lab on the cover of Nintendogs. He's pretty dreamy."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "dapper-tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "dapper-tee",
+      "song": "K.K. Bossa",
+      "phrase": "woof",
+      "skill": "Dusting",
+      "goal": "Dentist",
+      "fear": "Werewolf Hood",
+      "quote": "A little bit of happiness is better than a lot of anguish.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "woof",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Goldie",
+  "id": "goldie"
+}

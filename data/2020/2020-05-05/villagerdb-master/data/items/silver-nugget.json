@@ -1,0 +1,17 @@
+{
+  "id": "silver-nugget",
+  "name": "Silver Nugget",
+  "category": "Ore",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "sources": [
+        "Inside rocks (smash with a shovel)"
+      ]
+    }
+  }
+}

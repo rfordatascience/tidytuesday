@@ -1,0 +1,22 @@
+{
+  "id": "milk-carton",
+  "name": "Milk Carton",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "hopkins",
+        "jacob",
+        "norma"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

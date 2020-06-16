@@ -1,0 +1,19 @@
+{
+  "id": "trees-bounty-big-tree",
+  "name": "Tree's Bounty Big Tree",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6080
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 24320
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

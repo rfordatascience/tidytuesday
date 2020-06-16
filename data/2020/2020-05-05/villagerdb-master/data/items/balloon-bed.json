@@ -1,0 +1,21 @@
+{
+  "id": "balloon-bed",
+  "name": "Balloon Bed",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Balloon",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "Gift balloon"
+      ]
+    }
+  }
+}

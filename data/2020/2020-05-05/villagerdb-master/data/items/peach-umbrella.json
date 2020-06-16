@@ -1,0 +1,18 @@
+{
+  "id": "peach-umbrella",
+  "name": "Peach Umbrella",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "recipe": {
+        "peach": 7
+      }
+    }
+  },
+  "category": "Umbrellas"
+}
