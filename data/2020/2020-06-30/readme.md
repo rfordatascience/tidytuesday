@@ -12,7 +12,7 @@ The data this week comes from the [Claremont Run Project](http://www.claremontru
 
 The Claremont Project has a Twitter handle - please reference them when using this data: [@ClaremontRun](https://twitter.com/ClaremontRun)
 
-Malcom Barret(https://twitter.com/malco_barrett) put these datasets into a R data package: [`claremontrun`](https://github.com/malcolmbarrett/claremontrun), which is where we got the data for this week.
+[Malcom Barret](https://twitter.com/malco_barrett) put these datasets into a R data package: [`claremontrun`](https://github.com/malcolmbarrett/claremontrun), which is where we got the data for this week.
 
 To Install the `claremontrun` package:  
 - `remotes::install_github("malcolmbarrett/claremontrun")`  
@@ -40,7 +40,7 @@ claremontrun includes 7 data sets relevant to the Claremont run:
   - `location`, locations that appear in each issue  
   - `xmen_bechdel`, whether or not an issue of Uncanny X-Men met the Bechdel test  
 
-The Bechdel Test according to [wikipedia](https://en.wikipedia.org/wiki/Bechdel_test):  
+The Bechdel Test according to [Wikipedia](https://en.wikipedia.org/wiki/Bechdel_test):  
 
 > The Bechdel Test is a measure of the representation of women in fiction. It asks whether a work features at least two women who talk to each other about something other than a man. The requirement that the two women must be named is sometimes added.
 > 
@@ -115,7 +115,7 @@ locations <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 |speech    |double    | Speech bubble in that issue |
 |thought   |double    | Thought bubble in that issue |
 |narrative |double    | Narrative statements in that issue |
-|depicted  |double    | NUmber of depictions in that issue |
+|depicted  |double    | Number of depictions in that issue |
 
 # `characters.csv`
 
