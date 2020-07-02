@@ -26,7 +26,7 @@ Note that while the `claremontrun` has information about the Bechdel test, it do
 
 [2018 - Week 9](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-05-29/week9_comic_characters.csv)
 
-Load that data with: `tidytuesdayR::tt_load(2020, week = 9)`
+Load that data with: `tidytuesdayR::tt_load(2018, week = 9)`
 
 These datasets could be joined by character names.
 
