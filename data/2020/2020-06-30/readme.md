@@ -2,7 +2,7 @@
 
 # Uncanny X-men
 
-The data this week comes from the [Claremont Run Project](http://www.claremontrun.com/) and Malcom Barret(https://twitter.com/malco_barrett) who put these datasets into a R data package. The Claremont Run project has a nice [Foreward](http://www.claremontrun.com/Foreword.html) capturing some of the reasoning behind this dataset. "The Claremont Run is a SSHRC-funded academic initiative micro-publishing data-based analysis of Chris Claremont's 16 year run on Uncanny X-Men #97-278."
+The data this week comes from the [Claremont Run Project](http://www.claremontrun.com/) and [Malcom Barret](https://twitter.com/malco_barrett) who put these datasets into a R data package. The Claremont Run project has a nice [Foreward](http://www.claremontrun.com/Foreword.html) capturing some of the reasoning behind this dataset. "The Claremont Run is a SSHRC-funded academic initiative micro-publishing data-based analysis of Chris Claremont's 16 year run on Uncanny X-Men #97-278."
 
 > From 1975-1991, Chris Claremont wrote X-men, forming the longest stint of any mainstream superhero writer on a single title. During his tenure, X-men went from a B-list title on the verge of cancellation, to the best-selling comic book in the world, and Claremont holds the Guinness World Record to this day for the bestselling single issue comic of all-time.
 
