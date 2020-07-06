@@ -8,11 +8,17 @@ The data this week comes from [Coffee Quality Database](https://github.com/jldbc
 
 [Thrillist](https://www.thrillist.com/drink/nation/the-world-s-best-coffee-growing-countries-ethiopia-kenya-colombia-and-more) has an article on the top coffee-producing countries.
 
+[Yorgos Askalidis](https://towardsdatascience.com/the-data-speak-ethiopia-has-the-best-coffee-91f88ed37e84) analyzed this data as well.
+
 There is data for both Arabica and Robusta beans, across many countries and professionally rated on a 0-100 scale. All sorts of scoring/ratings for things like acidity, sweetness, fragrance, balance, etc - may be useful for either separating into visualizations/categories or for modeling/recommenders.
 
 [Wikipedia on Coffee Beans](https://en.wikipedia.org/wiki/Coffee_bean):  
 
 > The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta. Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4% caffeine.
+
+[Wiki on Cupping](https://en.wikipedia.org/wiki/Coffee_cupping)
+
+> Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue. The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
 
 Importantly - there is the concept of ethical or [Fair Trade coffee](https://www.fairtradecertified.org/why-fair-trade) - we'll be covering more of the production numbers of Coffee in a future dataset.
 
