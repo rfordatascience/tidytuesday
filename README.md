@@ -98,6 +98,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 26 | `2020-06-23` | [Caribou Locations](data/2020/2020-06-23/readme.md) | [Movebank](https://www.movebank.org/cms/movebank-content/about-movebank) | [B.C. Ministry of Environment](https://www2.gov.bc.ca/assets/gov/environment/plants-animals-and-ecosystems/wildlife-wildlife-habitat/caribou/science_update_final_from_web_jan_2014.pdf)  |
 | 27 | `2020-06-30` | [Claremont Run of X-Men](data/2020/2020-06-30/readme.md) | [Claremont Run](http://www.claremontrun.com/) | [Wikipedia - Uncanny X-Men](https://en.wikipedia.org/wiki/Uncanny_X-Men)  |
 | 28 | `2020-07-07` | [Coffee Ratings](data/2020/2020-07-07/readme.md) | [James LeDoux](https://github.com/jldbc/coffee-quality-database) & [Coffee Quality Database](https://github.com/jldbc/coffee-quality-database)  | [Yorgos Askalidis - TWD](https://towardsdatascience.com/the-data-speak-ethiopia-has-the-best-coffee-91f88ed37e84)  |
+| 29 | `2020-07-14` | [Astronaut Database](data/2020/2020-07-14/readme.md) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) |
 
 ***  
 
