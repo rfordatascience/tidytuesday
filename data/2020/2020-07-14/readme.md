@@ -64,7 +64,7 @@ astronauts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 | descend_shuttle          | character | Name of descent shuttle                                   |
 | hours_mission            | double    | Duration of mission in hours                              |
 | total_hrs_sum            | double    | Total duration of all missions in hours                   |
-| field21                  | double    | ?                                                         |
+| field21                  | double    | Instances of EVA by mission                                                         |
 | eva_hrs_mission          | double    | Duration of extravehicular activities  during the mission |
 | total_eva_hrs            | double    | Total duration of all extravehicular activities in hours  |
 
