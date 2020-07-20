@@ -99,7 +99,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 27 | `2020-06-30` | [Claremont Run of X-Men](data/2020/2020-06-30/readme.md) | [Claremont Run](http://www.claremontrun.com/) | [Wikipedia - Uncanny X-Men](https://en.wikipedia.org/wiki/Uncanny_X-Men)  |
 | 28 | `2020-07-07` | [Coffee Ratings](data/2020/2020-07-07/readme.md) | [James LeDoux](https://github.com/jldbc/coffee-quality-database) & [Coffee Quality Database](https://github.com/jldbc/coffee-quality-database)  | [Yorgos Askalidis - TWD](https://towardsdatascience.com/the-data-speak-ethiopia-has-the-best-coffee-91f88ed37e84)  |
 | 29 | `2020-07-14` | [Astronaut Database](data/2020/2020-07-14/readme.md) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) |
-| 30 | `2020-07-21` | [Australian Animal Outcomes](data/2020-07-21/readme.md) | [RSPCA](https://www.rspca.org.au/what-we-do/our-role-caring-animals/annual-statistics) | [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf) |
+| 30 | `2020-07-21` | [Australian Animal Outcomes](data/2020/2020-07-21/readme.md) | [RSPCA](https://www.rspca.org.au/what-we-do/our-role-caring-animals/annual-statistics) | [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf) |
 
 ***  
 
