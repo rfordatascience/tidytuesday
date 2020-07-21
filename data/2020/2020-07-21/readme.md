@@ -24,8 +24,6 @@ The `brisbane_complaints` dataset has an interesting structure. No dates were re
 
 Note that there is state-level data from the RSPCA, but only two cities for the animal complaints. Up to you if you want to extrapolate between the data, but I'm not confident it will be meaningful. 
 
-Lastly!! Note there is missing data for 2016 - you could technically get the raw totals from the PDF for 2017 (reports part of previous year), but this was not broken down by outcome, so I didn't think it was worth adding. I think an imputation step may be interesting though.
-
 The RSPCA Report (lots of graphs to recreate) - [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf).
 
 Journal article - [A Retrospective Analysis of Complaints to RSPCA Queensland, Australia, about Dog Welfare](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6562769/).
