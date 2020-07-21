@@ -233,6 +233,9 @@ data_2015 <- get_animals(2015, "https://www.rspca.org.au/sites/default/files/RSP
   ) %>%
   filter(!is.na(Total))
 
+data_2016 <- get_animals(2016, "https://www.rspca.org.au/sites/default/files/RSPCA%20Australia%20Annual%20Statistics%20final%202016-2017.pdf") %>% 
+  filter(!is.na(Total))
+
 data_2017 <- get_animals(2017, "https://www.rspca.org.au/sites/default/files/RSPCA%20Australia%20Annual%20Statistics%202017-2018.pdf") %>%
   filter(!is.na(Total))
 
@@ -247,7 +250,7 @@ comb_data <- bind_rows(
   list(
     data_1999, data_2000, data_2001, data_2002, data_2003, data_2004, data_2005,
     data_2006_upd, data_2007, data_2008, data_2009, data_2010, data_2011, 
-    data_2012, data_2013, data_2014, data_2015, data_2017, data_2018
+    data_2012, data_2013, data_2014, data_2015, data_2016, data_2017, data_2018
   )
 )
 
