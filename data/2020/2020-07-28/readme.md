@@ -48,7 +48,7 @@ penguins_raw.csv <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 |species           |integer | Penguin species (Adelie, Gentoo, Chinstrap) |
 |island            |integer | Island where recorded (Biscoe, Dream, Torgersen) |
 |bill_length_mm    |double  | Bill length in millimeters (also known as culmen length) |
-|bill_depth_mm     |double  | Bill length in millimeters (also known as culmen length) |
+|bill_depth_mm     |double  | Bill depth in millimeters (also known as culmen depth) |
 |flipper_length_mm |integer | Flipper length in mm |
 |body_mass_g       |integer | Body mass in grams |
 |sex               |integer | sex of the animal |
