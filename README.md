@@ -101,6 +101,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 29 | `2020-07-14` | [Astronaut Database](data/2020/2020-07-14/readme.md) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) |
 | 30 | `2020-07-21` | [Australian Animal Outcomes](data/2020/2020-07-21/readme.md) | [RSPCA](https://www.rspca.org.au/what-we-do/our-role-caring-animals/annual-statistics) | [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf) |
 | 31 | `2020-07-28` | [Palmer Penguins](data/2020/2020-07-28/readme.md) | [Gorman, Williams and Fraser, 2014](https://doi.org/10.1371/journal.pone.0090081) | [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) |
+| 32 | `2020-08-04` | [European Energy](data/2020/2020-08-04/readme.md) | [Eurostat Energy](https://ec.europa.eu/eurostat/statistics-explained/index.php/Electricity_generation_statistics_%E2%80%93_first_results) | [Washington Post Energy](https://www.washingtonpost.com/climate-environment/2020/07/30/biden-calls-100-percent-clean-electricity-by-2035-heres-how-far-we-have-go/?arc404=true&utm_medium=social&utm_source=twitter&utm_campaign=wp_graphics) |
 
 ***  
 
