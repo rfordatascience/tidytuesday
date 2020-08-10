@@ -6,7 +6,9 @@ The data this week comes from the [`appa` R package](https://github.com/averyrob
 
 The original data came from the [Avatar Wiki](https://avatar.fandom.com/wiki/Avatar_Wiki), and the example code used to scrape this dataset is also covered on [Avery's blog](https://www.avery-robbins.com/2020/07/15/avatar-web-scraping/) along with a quick exploration of the available data in a separate [blog post](https://www.avery-robbins.com/2020/07/11/avatar-eda/).
 
-For people who have not seen the show or read this series of books, [Wikiepdia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) covers the high level details.
+There is also a "Avatar" themed palette from the [`tvthemes` R package](https://github.com/Ryo-N7/tvthemes) courtesy of [Ryo Nakagawara](https://twitter.com/R_by_Ryo/status/1292826454640611338?s=20)
+
+For people who have not seen the show or read this series of books, [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) covers the high level details.
 
 > Avatar: The Last Airbender is set in a world where human civilization consists of four nations, named after the four classical elements: the Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads. In each nation, certain people, known as "benders" (waterbenders, earthbenders, firebenders and airbenders), have the ability to telekinetically manipulate and control the element corresponding to their nation, using gestures based on Chinese martial arts. The Avatar is the only person with the ability to bend all four elements.
 > 
