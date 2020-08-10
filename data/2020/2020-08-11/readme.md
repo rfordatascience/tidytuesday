@@ -2,7 +2,7 @@
 
 # Avatar: The last airbender
 
-The data this week comes from the [`appa` R package](https://github.com/averyrobbins1/appa) created by [Avery Robbins](https://www.avery-robbins.com/). H/t to [Kelsey Gonzalez](https://twitter.com/KelseyEGonzalez) for recommending this data package.
+The data this week comes from the [`appa` R package](https://github.com/averyrobbins1/appa) created by [Avery Robbins](https://twitter.com/robbins_ave). H/t to [Kelsey Gonzalez](https://twitter.com/KelseyEGonzalez) for recommending this data package.
 
 The original data came from the [Avatar Wiki](https://avatar.fandom.com/wiki/Avatar_Wiki), and the example code used to scrape this dataset is also covered on [Avery's blog](https://www.avery-robbins.com/2020/07/15/avatar-web-scraping/) along with a quick exploration of the available data in a separate [blog post](https://www.avery-robbins.com/2020/07/11/avatar-eda/).
 
