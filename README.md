@@ -103,6 +103,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 31 | `2020-07-28` | [Palmer Penguins](data/2020/2020-07-28/readme.md) | [Gorman, Williams and Fraser, 2014](https://doi.org/10.1371/journal.pone.0090081) | [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) |
 | 32 | `2020-08-04` | [European Energy](data/2020/2020-08-04/readme.md) | [Eurostat Energy](https://ec.europa.eu/eurostat/statistics-explained/index.php/Electricity_generation_statistics_%E2%80%93_first_results) | [Washington Post Energy](https://www.washingtonpost.com/climate-environment/2020/07/30/biden-calls-100-percent-clean-electricity-by-2035-heres-how-far-we-have-go/?arc404=true&utm_medium=social&utm_source=twitter&utm_campaign=wp_graphics) |
 | 33 | `2020-08-11` | [Avatar: The Last Airbender](data/2020/2020-08-11/readme.md) | [`appa`](https://github.com/averyrobbins1/appa) | [Exploring Avatar: The Last Airbender transcript data](https://www.avery-robbins.com/2020/07/11/avatar-eda/) |
+| 34 | `2020-08-18` | [Extinct Plants](data/2020/2020-08-18/readme.md) | [IUCN Red List](https://www.iucnredlist.org/) | [Florent Lavergne infographic](https://www.behance.net/gallery/98304453/Infographic-Plants-in-Danger) |
 
 
 ***  
