@@ -1,3 +1,5 @@
+![Image credit to Florent Lavergne](pic1.png)
+
 # Plants in Danger
 
 The data this week comes from the [International Union for Conservation of Nature (IUCN) Red list of Threatened Species (Version 2020-1)](https://www.iucnredlist.org) and was scrapped and prepared by [Florent Lavergne](https://www.behance.net/florentlavergne) for his [fantastic and unique infographic](https://www.behance.net/gallery/98304453/Infographic-Plants-in-Danger).
