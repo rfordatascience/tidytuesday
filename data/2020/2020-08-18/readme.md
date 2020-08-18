@@ -142,7 +142,7 @@ threat_filtered <- threats %>%
 threat_filtered %>% 
   janitor::tabyl(threat_type, threatened)
 
-actions <- plants %>% 
+actions <- plants_wide %>% 
       select(-contains("threat")) %>% 
       pivot_longer(cols = contains("action"), names_to = "action_type", 
                    values_to = "action_taken", names_prefix = "action_") %>% 
