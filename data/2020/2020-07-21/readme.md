@@ -24,8 +24,6 @@ The `brisbane_complaints` dataset has an interesting structure. No dates were re
 
 Note that there is state-level data from the RSPCA, but only two cities for the animal complaints. Up to you if you want to extrapolate between the data, but I'm not confident it will be meaningful. 
 
-Lastly!! Note there is missing data for 2016 - you could technically get the raw totals from the PDF for 2017 (reports part of previous year), but this was not broken down by outcome, so I didn't think it was worth adding. I think an imputation step may be interesting though.
-
 The RSPCA Report (lots of graphs to recreate) - [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf).
 
 Journal article - [A Retrospective Analysis of Complaints to RSPCA Queensland, Australia, about Dog Welfare](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6562769/).
@@ -119,6 +117,11 @@ brisbane_complaints <- all_complaints %>%
   mutate(city = "Brisbane")
 
 brisbane_complaints %>% write_csv("2020/2020-07-21/brisbane_complaints.csv")
+
+library(tidyverse)
+library(pdftools)
+library(rvest)
+library(glue)
 
 # Get all urls for PDFs ---------------------------------------------------
 
@@ -350,6 +353,9 @@ data_2015 <- get_animals(2015, "https://www.rspca.org.au/sites/default/files/RSP
   ) %>%
   filter(!is.na(Total))
 
+data_2016 <- get_animals(2016, "https://www.rspca.org.au/sites/default/files/RSPCA%20Australia%20Annual%20Statistics%20final%202016-2017.pdf") %>% 
+  filter(!is.na(Total))
+
 data_2017 <- get_animals(2017, "https://www.rspca.org.au/sites/default/files/RSPCA%20Australia%20Annual%20Statistics%202017-2018.pdf") %>%
   filter(!is.na(Total))
 
@@ -364,7 +370,7 @@ comb_data <- bind_rows(
   list(
     data_1999, data_2000, data_2001, data_2002, data_2003, data_2004, data_2005,
     data_2006_upd, data_2007, data_2008, data_2009, data_2010, data_2011, 
-    data_2012, data_2013, data_2014, data_2015, data_2017, data_2018
+    data_2012, data_2013, data_2014, data_2015, data_2016, data_2017, data_2018
   )
 )
 
@@ -409,5 +415,6 @@ clean_data %>%
 
 clean_data %>% 
   write_csv("2020/2020-07-21/animal_outcomes.csv")
+
 
 ```
