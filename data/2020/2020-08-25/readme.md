@@ -12,6 +12,8 @@ Chopped season ratings from [IMDB](https://www.imdb.com/title/tt1353281/episodes
 >
 > Each round has a time limit, typically 20 minutes for Appetizer, and 30 minutes each for Entrée and Dessert. These limits have been extended on occasion for special-format episodes and for rounds in which one or more mystery ingredients require additional preparation/cooking time. The chefs must cook their dishes and complete four platings (three for the judges and one "beauty plate") before time runs out. Once time has expired, the judges critique the dishes based on presentation, taste and creativity and select one chef to be "chopped" - eliminated from the competition with no winnings. Allen reveals the judges' decision by lifting a cloche on their table to show the losing chef's dish, and one of the judges comments on the reason for their choice to the eliminated chef. In the Dessert round, the judges consider not only the dishes created by the two chefs during that round, but also their overall performance throughout the competition. The winner receives $10,000, although in special competitions, winners can earn anywhere between $20,000 to $50,000.
 
+Note the data was joined from two different sources, and there are episodes where the ratings are missing from IMBD.
+
 
 ### Get the data here
 
@@ -37,6 +39,30 @@ chopped <- readr::read_tsv('https://raw.githubusercontent.com/rfordatascience/ti
 ### Data Dictionary
 
 # `chopped.tsv`
+
+|variable         |class     |description |
+|:----------------|:---------|:-----------|
+|season           |double    | Season Number |
+|season_episode   |double    | Episode number within a season |
+|series_episode   |double    | Episode number as part of the entire series |
+|episode_rating   |double    | IMDB sourced episode rating 0-10 scale |
+|episode_name     |character | Episode Name|
+|episode_notes    |character | Episode notes |
+|air_date         |character | Episode air date|
+|judge1           |character | Judge 1 Name|
+|judge2           |character | Judge 2 Name |
+|judge3           |character | Judge 3 Name |
+|appetizer        |character | Appetizer ingredients|
+|entree           |character | Entree ingredients|
+|dessert          |character | Dessert ingredients |
+|contestant1      |character | Contestant 1 name |
+|contestant1_info |character | Contestant 1 Info|
+|contestant2      |character | Contestant 2 name |
+|contestant2_info |character | Contestant 2 Info|
+|contestant3      |character | Contestant 3 name |
+|contestant3_info |character | Contestant 3 Info|
+|contestant4      |character | Contestant 4 name |
+|contestant4_info |character | Contestant 4 Info|
 
 ### Cleaning Script
 
