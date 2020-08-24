@@ -38,16 +38,16 @@ Week,Date,year,data_files,data_type,delim
 20,2020-05-12,2020,sulfur.csv,csv,","
 20,2020-05-12,2020,tree_rings.csv,csv,","
 20,2020-05-12,2020,volcano.csv,csv,","
-19,2020-05-05,2020,critic.tsv,tsv,NA
+19,2020-05-05,2020,critic.tsv,tsv,	
 19,2020-05-05,2020,items.csv,csv,","
-19,2020-05-05,2020,user_reviews.tsv,tsv,NA
+19,2020-05-05,2020,user_reviews.tsv,tsv,	
 19,2020-05-05,2020,villagers.csv,csv,","
 18,2020-04-28,2020,cpi.csv,csv,","
 18,2020-04-28,2020,grosses.csv,csv,","
 18,2020-04-28,2020,pre-1985-starts.csv,csv,","
 18,2020-04-28,2020,synopses.csv,csv,","
-17,2020-04-21,2020,gdpr_text.tsv,tsv,NA
-17,2020-04-21,2020,gdpr_violations.tsv,tsv,NA
+17,2020-04-21,2020,gdpr_text.tsv,tsv,	
+17,2020-04-21,2020,gdpr_violations.tsv,tsv,	
 16,2020-04-14,2020,polls.csv,csv,","
 16,2020-04-14,2020,rankings.csv,csv,","
 15,2020-04-07,2020,stage_data.csv,csv,","
@@ -94,7 +94,7 @@ Week,Date,year,data_files,data_type,delim
 2,2020-01-07,2020,rainfall.csv,csv,","
 2,2020-01-07,2020,temperature.csv,csv,","
 1,2019-12-31,2020,NA,NA,NA
-52,2019-12-24,2019,christmas_lyrics.tsv,tsv,NA
+52,2019-12-24,2019,christmas_lyrics.tsv,tsv,	
 52,2019-12-24,2019,christmas_songs.csv,csv,","
 51,2019-12-17,2019,dog_descriptions.csv,csv,","
 51,2019-12-17,2019,dog_moves.csv,csv,","
@@ -125,7 +125,7 @@ Week,Date,year,data_files,data_type,delim
 36,2019-09-03,2019,cpu.csv,csv,","
 36,2019-09-03,2019,gpu.csv,csv,","
 36,2019-09-03,2019,ram.csv,csv,","
-35,2019-08-27,2019,simpsons-guests.csv,csv,	
+35,2019-08-27,2019,simpsons-guests.csv,csv,NA
 34,2019-08-20,2019,nuclear_explosions.csv,csv,","
 33,2019-08-13,2019,emperors.csv,csv,","
 32,2019-08-06,2019,bob-ross.csv,csv,","
@@ -198,7 +198,7 @@ Week,Date,year,data_files,data_type,delim
 38,2018-12-18,2018,allCetaceanData.csv,csv,","
 37,2018-12-11,2018,nyc_restaurants.csv,csv,","
 36,2018-12-04,2018,medium_datasci.csv,csv,","
-35,2018-11-27,2018,baltimore_bridges.csv,csv,	
+35,2018-11-27,2018,baltimore_bridges.csv,csv,NA
 34,2018-11-20,2018,thanksgiving_meals.csv,csv,","
 33,2018-11-13,2018,malaria_deaths_age.csv,csv,","
 33,2018-11-13,2018,malaria_deaths.csv,csv,","
