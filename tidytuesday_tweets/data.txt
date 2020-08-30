@@ -1,7 +1,7 @@
 path:
 - data.csv
 - data.rds
-rows: 9604
+rows: 9722
 cols: 91
 columns:
   week: numeric
