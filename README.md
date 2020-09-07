@@ -106,6 +106,9 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 34 | `2020-08-18` | [Extinct Plants](data/2020/2020-08-18/readme.md) | [IUCN Red List](https://www.iucnredlist.org/) | [Florent Lavergne infographic](https://www.behance.net/gallery/98304453/Infographic-Plants-in-Danger) |
 | 35 | `2020-08-25` | [Chopped](data/2020/2020-08-25/readme.md) | [Kaggle](https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data) & [IMDB](https://www.imdb.com/title/tt1353281/episodes?ref_=tt_eps_sn_mr) | [Vice](https://www.vice.com/en_us/article/wj8q39/how-chopped-became-tvs-greatest-cooking-show) |
 | 36 | `2020-09-01` | [Global Crop Yields](data/2020/2020-09-01/readme.md) | [Our World in Data](https://ourworldindata.org/crop-yields) | [Our World in Data](https://ourworldindata.org/crop-yields) |
+| 37 | `2020-09-08` | [Friends](data/2020/2020-09-08/readme.md) | [`friends` R package](https://github.com/EmilHvitfeldt/friends) | [ceros interactive article](https://www.ceros.com/originals/friends-scripts-25th-anniversary-catchphrase-scenes-quotes/) |
+
+
 
 ***  
 

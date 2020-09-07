@@ -1,4 +1,7 @@
 Week,Date,year,data_files,data_type,delim
+37,2020-09-08,2020,friends.csv,csv,","
+37,2020-09-08,2020,friends_info.csv,csv,","
+37,2020-09-08,2020,friends_emotions.csv,csv,","
 36,2020-09-01,2020,arable_land_pin.csv,csv,","
 36,2020-09-01,2020,cereal_crop_yield_vs_fertilizer_application.csv,csv,","
 36,2020-09-01,2020,cereal_yields_vs_tractor_inputs_in_agriculture.csv,csv,","
