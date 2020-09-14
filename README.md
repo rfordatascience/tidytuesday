@@ -107,7 +107,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 35 | `2020-08-25` | [Chopped](data/2020/2020-08-25/readme.md) | [Kaggle](https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data) & [IMDB](https://www.imdb.com/title/tt1353281/episodes?ref_=tt_eps_sn_mr) | [Vice](https://www.vice.com/en_us/article/wj8q39/how-chopped-became-tvs-greatest-cooking-show) |
 | 36 | `2020-09-01` | [Global Crop Yields](data/2020/2020-09-01/readme.md) | [Our World in Data](https://ourworldindata.org/crop-yields) | [Our World in Data](https://ourworldindata.org/crop-yields) |
 | 37 | `2020-09-08` | [Friends](data/2020/2020-09-08/readme.md) | [`friends` R package](https://github.com/EmilHvitfeldt/friends) | [ceros interactive article](https://www.ceros.com/originals/friends-scripts-25th-anniversary-catchphrase-scenes-quotes/) |
-
+| 38 | `2020-09-15` | [Gov Spending on Kids](data/2020/2020-09-15/readme.md) | [Urban Institute](https://datacatalog.urban.org/dataset/state-state-spending-kids-dataset) | [Joshua Rosenberg](https://twitter.com/jrosenberg6432)'s [`tidykids`](https://jrosen48.github.io/tidykids/index.html) package |
 
 
 ***  
