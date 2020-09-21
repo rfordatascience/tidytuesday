@@ -12,6 +12,10 @@ h/t to [Alex Cookson](https://twitter.com/alexcookson) for sharing and cleaning 
 
 This [blog post](https://www.alexcookson.com/post/analyzing-himalayan-peaks-first-ascents/) by [Alex Cookson](https://twitter.com/alexcookson) explores the data in greater detail.
 
+I don't want to underplay that there are some positives and some awful negatives for native Sherpa climbers. [One-third of Everest deaths are Sherpa Climbers](https://www.npr.org/sections/parallels/2018/04/14/599417489/one-third-of-everest-deaths-are-sherpa-climbers).  
+
+Also National Geographic has [5 Ways to help the Sherpas of Everest](https://www.nationalgeographic.com/news/2014/4/140424-sherpas-avalanche-help-donations/).
+
 ### Get the data here
 
 ```{r}
