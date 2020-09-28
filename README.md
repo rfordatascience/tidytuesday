@@ -109,6 +109,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 37 | `2020-09-08` | [Friends](data/2020/2020-09-08/readme.md) | [`friends` R package](https://github.com/EmilHvitfeldt/friends) | [ceros interactive article](https://www.ceros.com/originals/friends-scripts-25th-anniversary-catchphrase-scenes-quotes/) |
 | 38 | `2020-09-15` | [Gov Spending on Kids](data/2020/2020-09-15/readme.md) | [Urban Institute](https://datacatalog.urban.org/dataset/state-state-spending-kids-dataset) | [Joshua Rosenberg](https://twitter.com/jrosenberg6432)'s [`tidykids`](https://jrosen48.github.io/tidykids/index.html) package |
 | 39 | `2020-09-22` | [Himalayan Climbers](data/2020/2020-09-22/readme.md) | [The Himalayan Database](https://www.himalayandatabase.com/) | [Alex Cookson blog post](https://www.alexcookson.com/post/analyzing-himalayan-peaks-first-ascents/) |
+| 40 | `2020-09-29` | [Beyonce & Taylor Swift Lyrics](data/2020/2020-09-29/readme.md) | [Rosie Baillie](https://twitter.com/Rosie_Baillie_) and [Dr. Sara Stoudt](https://twitter.com/sastoudt) | [Taylor Swift lyrics](https://rpubs.com/RosieB/taylorswiftlyricanalysis) |
 
 
 ***  
