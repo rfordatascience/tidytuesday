@@ -11,6 +11,8 @@ Rosie put together a wonderful analysis of [Taylor Swift lyrics](https://rpubs.c
 
 Text analysis guides in [`tidytext`](https://www.tidytextmining.com/tidytext.html) or [`Supervised Machine Learning for Text Analysis in R`](https://smltar.com/).
 
+The [beyonce palettes R pkg](https://github.com/dill/beyonce).
+
 ### Get the data here
 
 ```{r}
