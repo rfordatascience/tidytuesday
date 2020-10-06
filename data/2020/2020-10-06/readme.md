@@ -65,6 +65,8 @@ tibble(
 
 ![](tourney-fit.png)
 
+Thus, to get the points for each team/tournament season you can multiply the teams initial seed (1 - 16) by the assigned points as defined in the above table of 100 - 0.
+
 ### Get the data here
 
 ```{r}
@@ -88,7 +90,30 @@ tournament <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 ```
 ### Data Dictionary
 
+# Seed Point Value as defined in a separate [FiveThirtyEight Article](https://fivethirtyeight.com/features/tom-izzo-is-the-best-coach-in-modern-ncaa-tournament-history-by-far/)
+
+|Seed  |Points|
+|:-----|:-----|
+| 1st | 100 |
+| 2nd | 72.7 |
+| 3rd | 54.5 |
+| 4th | 48.5 |
+| 5th | 33.3 |
+| 6th | 33.3 |
+| 7th | 27.3 |
+| 8th | 21.2 |
+| 9th | 18.2 |
+| 10th | 18.2 |
+| 11th | 18.2 |
+| 12th | 15.2 |
+| 13th | 9.09 |
+| 14th | 6.06 |
+| 15th | 3.03 |
+| 16th | 0 |
+
 # `tournament.csv`
+
+To get the points for each team/tournament season you can multiply the teams initial seed (1 - 16) by the assigned points as defined in the above table of 100 - 0.
 
 |variable          |class     |description |
 |:-----------------|:---------|:-----------|
