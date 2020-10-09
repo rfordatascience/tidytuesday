@@ -66,7 +66,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 ***
 
 # DataSets
-## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  
+## [2018](data/2018#2018-data) | [2019](data/2019#2019-data) | [2020](data/2020#2020-data)
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
@@ -147,7 +147,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 
 # Data Viz/Science Books
 
-Only books available freely online are sourced here. Feel free to add to the list
+Only books available freely online are sourced here. Feel free to add to the list.
 
 | Link | Description |
 | --- | --- |
@@ -158,3 +158,4 @@ Only books available freely online are sourced here. Feel free to add to the lis
 | [Link](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
 | [Link](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
  [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
+

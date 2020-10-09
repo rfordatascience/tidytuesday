@@ -1,45 +1,7 @@
-![](static/tt_logo.png)
+# 2019 Data
 
-## A weekly social data project in R
+Archive of datasets and articles from the 2019 series of `#TidyTuesday` events.
 
-A weekly data project aimed at the R ecosystem. As this project was borne out of the `R4DS Online Learning Community` and the `R for Data Science` textbook, an emphasis was placed on understanding how to summarize and arrange data to make meaningful charts with `ggplot2`, `tidyr`, `dplyr`, and other tools in the `tidyverse` ecosystem. However, any code-based methodology is welcome - just please remember to share the code used to generate the results.
-
-***
-
-Join the `R4DS Online Learning Community` in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other’s work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
-
-We will have many sources of data and want to emphasize that **no causation** is implied. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our guidelines are to use the data provided to practice your data tidying and plotting techniques. Participants are invited to consider for themselves what nuancing factors might underlie these relationships. 
-
-The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their **wrangling** and **data visualization** skills independent of drawing conclusions. While we understand that the two are related, the focus of this practice is purely on building skills with real-world data.
-
-All data will be posted on the data sets page on Monday. It will include the link to the original article (for context) and to the data set. 
-
-We welcome all newcomers, enthusiasts, and experts to participate, but be mindful of a few things:
-
-1. The data set comes from the source article or the source that the article credits. Be mindful that the data is what it is and Tidy Tuesday is designed to help you practice **data visualization** and **basic data wrangling** in R.  
-2. Again, the data is what it is! You are welcome to explore beyond the provided dataset, but the data is provided as a "toy" dataset to practice techniques on.  
-3. This is NOT about criticizing the original article or graph. Real people made the graphs, collected or acquired the data! Focus on the provided dataset, learning, and improving your techniques in R.  
-4. This is NOT about criticizing or tearing down your fellow `#RStats` practitioners or their code! Be supportive and kind to each other! Like other's posts and help promote the `#RStats` community!  
-4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
-5. Include a picture of the visualisation when you post to Twitter.  
-6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
-7. Focus on improving your craft, even if you end up with something simple!  
-8. Give credit to the original data source whenever possible.  
-
-***
-
-## Submitting Datasets
-Want to submit an interesting dataset? Please open an [Issue](https://github.com/rfordatascience/tidytuesday/issues) and post a link to the article (or blogpost, etc) using the data, then we can discuss adding it to a future TidyTuesday Event!
-
-## Submitting Code Chunks
-Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
-
-***
-
-# DataSets
-## [2018](data/2018)
-
-## [2019](data/2019)
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
 | 1 | `2019-01-01` | [#Rstats & #TidyTuesday Tweets](2019-01-01) | [`rtweet`](https://rtweet.info/) | [stackoverflow.blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) |
@@ -94,49 +56,3 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 50 | `2019-12-10` | [Replicating plots in R](2019-12-10) | [Simply Statistics](https://simplystatistics.org/2019/08/28/you-can-replicate-almost-any-plot-with-ggplot2/) | [Rafael Irizarry](https://simplystatistics.org/2019/08/28/you-can-replicate-almost-any-plot-with-ggplot2/) |
 | 51 | `2019-12-17` | [Adoptable dogs](2019-12-17) | [Petfinder](https://github.com/the-pudding/data/blob/master/dog-shelters/README.md) | [The Pudding](https://pudding.cool/2019/10/shelters/) |
 | 52 | `2019-12-24` | [Christmas Songs](2019-12-24) | [Billboard Top 100](https://www.kaggle.com/sharkbait1223/billboard-top-100-christmas-carol-dataset) | [A Dash of Data](https://adashofdata.com/2014/12/21/how-christmas-songs-have-evolved-over-time/) |
-
-***  
-
-# Useful links
-
-| Link | Description |
-| --- | --- |
-| [Link](https://www.rfordatasci.com) | The R4DS Online Learning Community Website|
-| [Link](http://r4ds.had.co.nz/) | The R for Data Science textbook |
-| [Link](https://carbon.now.sh/) | Carbon for sharing beautiful code pics |
-| [Link](https://github.com/MilesMcBain/gistfo) | Post gist to Carbon from RStudio |
-| [Link](https://github.com/yonicd/carbonate) | Post to Carbon from RStudio |
-| [Link](https://github.com/join) | Join GitHub! |
-| [Link](https://guides.github.com/activities/hello-world/) | Basics of GitHub |
-| [Link](https://happygitwithr.com/) | Learn how to use GitHub with R |
-| [Link](http://ggplot2.tidyverse.org/reference/ggsave.html) | Save high-rez `ggplot2` images |
-
-# Useful data sources
-
-| Link | Description |
-| --- | --- |
-| [Link](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) | Data is Plural collection |
-| [Link](https://github.com/BuzzFeedNews/everything/blob/master/README.md) | BuzzFeedNews GitHub |
-| [Link](https://github.com/theeconomist/) | The Economist GitHub |
-| [Link](https://cran.r-project.org/web/packages/fivethirtyeight/fivethirtyeight.pdf) | The `fivethirtyeight` data package 
-| [Link](https://github.com/TheUpshot) | The Upshot by NY Times |
-| [Link](https://github.com/baltimore-sun-data) | The Baltimore Sun Data Desk |
-| [Link](https://github.com/datadesk) | The LA Times Data Desk |
-| [Link](https://github.com/OpenNewsLabs/news-graphics-team) | Open News Labs |
-| [Link](https://t.co/BMvJO2dT1o) | BBC Data Journalism team |
-
-***
-
-# Data Viz/Science Books
-
-Only books available freely online are sourced here. Feel free to add to the list
-
-| Link | Description |
-| --- | --- |
-| [Link](https://serialmentor.com/dataviz/) | Fundamentals of Data Viz by Claus Wilke |
-| [Link](https://bookdown.org/rdpeng/artofdatascience/) | The Art of Data Science by Roger D. Peng & Elizabeth Matsui |
-| [Link](https://www.tidytextmining.com/) | Tidy Text Mining by Julia Silge & David Robinson |
-| [Link](https://geocompr.robinlovelace.net/) | Geocomputation with R by Robin Lovelace, Jakub Nowosad, Jannes Muenchow |
-| [Link](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
-| [Link](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
-| [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
