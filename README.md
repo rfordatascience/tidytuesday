@@ -111,6 +111,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 39 | `2020-09-22` | [Himalayan Climbers](data/2020/2020-09-22/readme.md) | [The Himalayan Database](https://www.himalayandatabase.com/) | [Alex Cookson blog post](https://www.alexcookson.com/post/analyzing-himalayan-peaks-first-ascents/) |
 | 40 | `2020-09-29` | [Beyonce & Taylor Swift Lyrics](data/2020/2020-09-29/readme.md) | [Rosie Baillie](https://twitter.com/Rosie_Baillie_) and [Dr. Sara Stoudt](https://twitter.com/sastoudt) | [Taylor Swift lyrics](https://rpubs.com/RosieB/taylorswiftlyricanalysis) |
 | 41 | `2020-10-06` | [NCAA Women's Basketball](data/2020/2020-10-06/readme.md) | [FiveThirtyEight](https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/) | [FiveThirtyEight](https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/) |
+| 42 | `2020-10-13` | [`datasauRus` dozen](data/2020/2020-10-13/readme.md) | [Alberto Cairo](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html) | [`datasauRus` R package](https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html) |
 
 
 ***  
