@@ -121,6 +121,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | --- | --- |
 | [Link](https://www.rfordatasci.com) | The R4DS Online Learning Community Website|
 | [Link](http://r4ds.had.co.nz/) | The R for Data Science textbook |
+| [Link](https://github.com/iamericfletcher/awesome-r-learning-resources) | R Learning Resources |
 | [Link](https://carbon.now.sh/) | Carbon for sharing beautiful code pics |
 | [Link](https://github.com/MilesMcBain/gistfo) | Post gist to Carbon from RStudio |
 | [Link](https://github.com/yonicd/carbonate) | Post to Carbon from RStudio |
