@@ -10,6 +10,12 @@ The data this week comes from [Great American Beer Festival](https://www.greatam
 
 [Best States for Beer](https://beerconnoisseur.com/articles/all-50-states-ranked-beer)
 
+[2018 GABF Medal Winner Analysis](https://www.brewersassociation.org/insights/2018-gabf-medal-winners-analyzed/)
+[2019 GABF Medal Winner Analysis](https://www.brewersassociation.org/insights/gabf-medal-winners-analyzed-2019-edition/)
+
+
+NOTE - There are a few missing data points unfortunately
+
 ### Get the data here
 
 ```{r}
