@@ -22,11 +22,11 @@ Canada's National Observer [Article](https://www.nationalobserver.com/2020/10/23
 tuesdata <- tidytuesdayR::tt_load('2020-10-27')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 44)
 
-wind-turbine <- tuesdata$wind-turbine
+wind_turbine <- tuesdata$wind-turbine
 
 # Or read in the data manually
 
-wind-turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-27/wind-turbine.csv')
+wind_turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-27/wind-turbine.csv')
 
 ```
 ### Data Dictionary
