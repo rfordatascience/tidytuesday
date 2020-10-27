@@ -56,6 +56,14 @@ gas_price <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/
 |gas_current  |double | Gas price in that year (dollars/gallon) |
 |gas_constant |double | Gas price (constant 2015 dollars/gallon) |
 
+## `locations.csv`
+
+|variable     |class  |description |
+|:------------|:------|:-----------|
+|lon          |double | longitude |
+|lat          |double | latitude |
+|gnis_id           |character | ID for shapefile and long-lat lookup |
+
 
 # Cleaning Script
 
