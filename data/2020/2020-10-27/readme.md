@@ -1,3 +1,5 @@
+![](https://www.nationalobserver.com/sites/nationalobserver.com/files/styles/nat_header_full_size/public/img/2020/10/22/mooselake.jpg?itok=m3LaBMvd)
+
 # Canadian Wind Turbines
 
 The data this week comes from the [Government of Canada](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070). 
