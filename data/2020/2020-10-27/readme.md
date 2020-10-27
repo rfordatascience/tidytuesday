@@ -26,7 +26,7 @@ wind-turbine <- tuesdata$wind-turbine
 
 # Or read in the data manually
 
-wind-turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-27/wind-turbine.csv')
+wind_turbine <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-27/wind-turbine.csv')
 
 ```
 ### Data Dictionary
