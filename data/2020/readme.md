@@ -48,4 +48,5 @@ Archive of datasets and articles from the 2020 series of `#TidyTuesday` events.
 | 42 | `2020-10-13` | [`datasauRus` dozen](2020-10-13/readme.md) | [Alberto Cairo](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html) | [`datasauRus` R package](https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html) |
 | 43 | `2020-10-20` | [Great American Beer Festival Data](2020-10-20/readme.md) | [Great American Beer Festival](https://www.greatamericanbeerfestival.com/the-competition/winners/) | [2019 GABF Medal Winner Analysis](https://www.brewersassociation.org/insights/gabf-medal-winners-analyzed-2019-edition/) |
 | 44 | `2020-10-27` | [Canadian Wind Turbines](2020-10-27/readme.md) | [open.canada.ca](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070) | [Canada's National Observer](https://www.nationalobserver.com/2020/10/23/news/wind-turbine-database-canada) |
+| 45 | `2020-11-03` | [Ikea Furniture](2020-11-03/readme.md) | [Kaggle](https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-weird-economics-of-ikea/) |
 

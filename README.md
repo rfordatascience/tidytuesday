@@ -114,6 +114,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 42 | `2020-10-13` | [`datasauRus` dozen](data/2020/2020-10-13/readme.md) | [Alberto Cairo blogpost](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html) | [`datasauRus` R package - Steph Locke +  Lucy D'Agostino McGowan](https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html) |
 | 43 | `2020-10-20` | [Great American Beer Festival Data](data/2020/2020-10-20/readme.md) | [Great American Beer Festival](https://www.greatamericanbeerfestival.com/the-competition/winners/) | [2019 GABF Medal Winner Analysis](https://www.brewersassociation.org/insights/gabf-medal-winners-analyzed-2019-edition/) |
 | 44 | `2020-10-27` | [Canadian Wind Turbines](data/2020/2020-10-27/readme.md) | [open.canada.ca](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070) | [Canada's National Observer](https://www.nationalobserver.com/2020/10/23/news/wind-turbine-database-canada) |
+| 45 | `2020-11-03` | [Canadian Wind Turbines](data/2020/2020-11-03/readme.md) | [Kaggle](https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-weird-economics-of-ikea/) |
 
 
 
