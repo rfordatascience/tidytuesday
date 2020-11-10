@@ -41,7 +41,7 @@ landline <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 |year                               |double    | Year |
 |total_pop |double    | Gapminder total population |
 |gdp_per_cap                        |double    | GDP per capita, PPP (constant 2011 international $) |
-|landline_subs                      |double    | Fixed mobile subscriptions (per 100 people)|
+|mobile_subs                      |double    | Fixed mobile subscriptions (per 100 people)|
 |continent                          |character | Continent |
 
 # `landline.csv`
