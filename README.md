@@ -115,7 +115,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 43 | `2020-10-20` | [Great American Beer Festival Data](data/2020/2020-10-20/readme.md) | [Great American Beer Festival](https://www.greatamericanbeerfestival.com/the-competition/winners/) | [2019 GABF Medal Winner Analysis](https://www.brewersassociation.org/insights/gabf-medal-winners-analyzed-2019-edition/) |
 | 44 | `2020-10-27` | [Canadian Wind Turbines](data/2020/2020-10-27/readme.md) | [open.canada.ca](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070) | [Canada's National Observer](https://www.nationalobserver.com/2020/10/23/news/wind-turbine-database-canada) |
 | 45 | `2020-11-03` | [IKEA Furniture](data/2020/2020-11-03/readme.md) | [Kaggle](https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-weird-economics-of-ikea/) |
-
+| 46 | `2020-11-10` | [Historical Phones](data/2020/2020-11-10/readme.md) | [Mobile vs Landline subscriptions](https://ourworldindata.org/technology-adoption#technology-leapfrogging) | [Pew Research Smartphone Adoption](https://www.pewresearch.org/global/2019/02/05/smartphone-ownership-is-growing-rapidly-around-the-world-but-not-always-equally/) |
 
 
 
