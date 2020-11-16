@@ -116,7 +116,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 44 | `2020-10-27` | [Canadian Wind Turbines](data/2020/2020-10-27/readme.md) | [open.canada.ca](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070) | [Canada's National Observer](https://www.nationalobserver.com/2020/10/23/news/wind-turbine-database-canada) |
 | 45 | `2020-11-03` | [IKEA Furniture](data/2020/2020-11-03/readme.md) | [Kaggle](https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-weird-economics-of-ikea/) |
 | 46 | `2020-11-10` | [Historical Phones](data/2020/2020-11-10/readme.md) | [Mobile vs Landline subscriptions](https://ourworldindata.org/technology-adoption#technology-leapfrogging) | [Pew Research Smartphone Adoption](https://www.pewresearch.org/global/2019/02/05/smartphone-ownership-is-growing-rapidly-around-the-world-but-not-always-equally/) |
-| 47 | `2020-11-16` | [Black in Data](data/2020/2020-11-16/readme.md) | [Black in Data Week](https://blkindata.github.io/bidweek2020/) | [BlackInData `#DataViz`](https://blkindata.github.io/project/blackindataviz/) |
+| 47 | `2020-11-16=7` | [Black in Data](data/2020/2020-11-17/readme.md) | [Black in Data Week](https://blkindata.github.io/bidweek2020/) | [BlackInData `#DataViz`](https://blkindata.github.io/project/blackindataviz/) |
 
 
 ***  
