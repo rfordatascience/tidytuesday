@@ -26,7 +26,7 @@ hike_data <- tuesdata$hike_data
 
 # Or read in the data manually
 
-hike_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-24/hike_data.csv')
+hike_data <- readr::read_rds('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-24/hike_data.rds')
 
 ```
 ### Data Dictionary
