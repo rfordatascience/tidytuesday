@@ -4,7 +4,7 @@
 
 The data this week comes from Sharla Gelfand's [`opendatatoronto`](https://github.com/sharlagelfand/opendatatoronto) R package. The site website has additional details and all sorts of great datasets.
 
-[`opendatatoronto` package website](https://sharlagelfand.github.io/opendatatoronto/). Q quick intro/vignette can also be found [here](https://sharlagelfand.github.io/opendatatoronto/articles/opendatatoronto.html).
+[`opendatatoronto` package website](https://sharlagelfand.github.io/opendatatoronto/). Quick intro/vignette can also be found [here](https://sharlagelfand.github.io/opendatatoronto/articles/opendatatoronto.html).
 
 Data originally sourced from [open.toronto.ca](https://open.toronto.ca/).
 
@@ -17,11 +17,9 @@ Data originally sourced from [open.toronto.ca](https://open.toronto.ca/).
 A list of places to donate to in Toronto:  
 - [Foodbanks](https://www.blogto.com/eat_drink/2020/04/food-banks-toronto/)  
 
-to.ca/homeless-youth/Donate)  
-
 Shelters from [Reddit post](https://www.reddit.com/r/toronto/comments/7ocm1t/list_of_homeless_shelters_that_accept_donations/)
 
-- Covenant House - They're an incredible foundation that works with homeless youth. [http://www.covenanthousetoronto.ca/homeless-youth/Donate](http://www.covenanthousetoron
+- Covenant House - They're an incredible foundation that works with homeless youth. [http://www.covenanthousetoronto.ca/homeless-youth/Donate](http://www.covenanthousetoronto.ca/homeless-youth/Donate)  
 
 - Eva's Initiatives for Homeless Youth - Same as above. Eva's is fantastic and runs shelters across the city. [http://www.evas.ca](http://www.evas.ca)  
 
