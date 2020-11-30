@@ -1,5 +1,6 @@
 Week,Date,year,data_files,data_type,delim
-48,2020-11-24,2020,hike_data.rds,rds,
+49,2020-12-01,2020,shelters.csv,csv,","
+48,2020-11-24,2020,hike_data.rds,rds,NA
 47,2020-11-17,2020,black_in_data.csv,csv,","
 46,2020-11-10,2020,mobile.csv,csv,","
 46,2020-11-10,2020,landline.csv,csv,","
