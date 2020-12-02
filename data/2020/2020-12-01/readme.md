@@ -15,7 +15,11 @@ Data originally sourced from [open.toronto.ca](https://open.toronto.ca/).
 > "Other respites will also work to accommodate. As respites, typically, see their highest usage in the winter months, we anticipate an easing of demand for respites with the warmer weather. Will be keeping a close watch, of course."
 
 A list of places to donate to in Toronto:  
-- [Foodbanks](https://www.blogto.com/eat_drink/2020/04/food-banks-toronto/)  
+- [Foodbanks](https://www.blogto.com/eat_drink/2020/04/food-banks-toronto/)
+
+- [Encampment Support Network Toronto](https://www.patreon.com/esntoronto) - ESN is an ad-hoc, volunteer-run network of neighbours building community and supporting people living in encampments in 6 locations throughout Toronto. Every day since the beginning of June 2020, outreach volunteers from the network visit encampments to deliver basic supplies, such as water and tents, ice, sleeping bags, fire safety equipment, and snacks, which the City of Toronto has consistently refused to provide (despite recommendations from Ontario's Chief Coroner to do so).
+
+- [Toronto Tiny Shelters](https://ca.gofundme.com/f/toronto-tiny-shelters) - Khaleel Seivwright is a carpenter and raising money to build durable insulated tiny shelters for homeless people across Toronto who might be living outside this winter. 
 
 Shelters from [Reddit post](https://www.reddit.com/r/toronto/comments/7ocm1t/list_of_homeless_shelters_that_accept_donations/)
 
