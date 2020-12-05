@@ -150,5 +150,6 @@ df3_clean <- df3 %>%
          time_since_previous_recession_months = substring(time_since_previous_recession_months, 4),
          period_range = case_when(name == "Great Depression" ~ "Aug 1929-Mar 1933",
                                   name == "Great Recession" ~ "Dec 2007-June 2009",
-                                  TRUE ~ period_range))
+                                  TRUE ~ period_range),
+         peak_unemploy_ment = str_replace_all(peak_unemploy_ment, "\\<U[^\\>]*\\>","-"))
 ```
