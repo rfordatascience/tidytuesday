@@ -119,7 +119,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 47 | `2020-11-17` | [Black in Data](data/2020/2020-11-17/readme.md) | [Black in Data Week](https://blkindata.github.io/bidweek2020/) | [BlackInData `#DataViz`](https://blkindata.github.io/project/blackindataviz/) |
 | 48 | `2020-11-24` | [Washington Trails](data/2020/2020-11-24/readme.md) | [WTA](https://www.wta.org/go-outside/hikes?b_start:int=1) | [TidyX](https://github.com/thebioengineer/TidyX) |
 | 49 | `2020-12-01` | [Toronto Shelters](data/2020/2020-12-01/readme.md) | [`opendatatoronto`](https://github.com/sharlagelfand/opendatatoronto) | [rabble.ca](https://rabble.ca/blogs/bloggers/cathy-crowes-blog/2019/03/twitter-truth-torontos-homeless-emergency) |
-
+| 50 | `2020-12-08` | [Women of 2020](data/2020/2020-12-08/readme.md) | [BBC](https://www.bbc.com/news/world-55042935) | [BBC](https://www.bbc.com/news/world-55042935) |
 
 ***  
 
