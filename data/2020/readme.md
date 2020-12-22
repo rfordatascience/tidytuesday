@@ -55,4 +55,5 @@ Archive of datasets and articles from the 2020 series of `#TidyTuesday` events.
 | 49 | `2020-12-01` | [Toronto Shelters](2020-12-01/readme.md) | [`opendatatoronto`](https://github.com/sharlagelfand/opendatatoronto) | [rabble.ca](https://rabble.ca/blogs/bloggers/cathy-crowes-blog/2019/03/twitter-truth-torontos-homeless-emergency) |
 | 50 | `2020-12-08` | [Women of 2020](2020-12-08/readme.md) | [BBC](https://www.bbc.com/news/world-55042935) | [BBC](https://www.bbc.com/news/world-55042935) |
 | 51 | `2020-12-15` | [Ninja Warrior](2020-12-15/readme.md) | [Data.World](https://data.world/ninja/anw-obstacle-history) | [sasukepedia](https://sasukepedia.fandom.com/wiki/List_of_American_Ninja_Warrior_obstacles)|
+| 52 | `2020-12-22` | [Big Mac Index](2020-12-22/readme.md) | [TheEconomist](https://github.com/TheEconomist/big-mac-data) | [TheEconomist](https://www.economist.com/news/2020/07/15/the-big-mac-index) |
 
