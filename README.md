@@ -121,6 +121,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 49 | `2020-12-01` | [Toronto Shelters](data/2020/2020-12-01/readme.md) | [`opendatatoronto`](https://github.com/sharlagelfand/opendatatoronto) | [rabble.ca](https://rabble.ca/blogs/bloggers/cathy-crowes-blog/2019/03/twitter-truth-torontos-homeless-emergency) |
 | 50 | `2020-12-08` | [Women of 2020](data/2020/2020-12-08/readme.md) | [BBC](https://www.bbc.com/news/world-55042935) | [BBC](https://www.bbc.com/news/world-55042935) |
 | 51 | `2020-12-15` | [Ninja Warrior](data/2020/2020-12-15/readme.md) | [Data.World](https://data.world/ninja/anw-obstacle-history) | [sasukepedia](https://sasukepedia.fandom.com/wiki/List_of_American_Ninja_Warrior_obstacles)|
+| 52 | `2020-12-22` | [Big Mac Index](data/2020-12-22/readme.md) | [TheEconomist](https://github.com/TheEconomist/big-mac-data) | [TheEconomist](https://www.economist.com/news/2020/07/15/the-big-mac-index) |
 
 
 ***  
