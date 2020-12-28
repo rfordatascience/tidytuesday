@@ -37,9 +37,9 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 ***
 
 # DataSets
-## [2018](data/2018)
+## [2018](/data/2018)
 
-## [2019](data/2019)
+## [2019](/data/2019)
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
 | 1 | `2019-01-01` | [#Rstats & #TidyTuesday Tweets](2019-01-01) | [`rtweet`](https://rtweet.info/) | [stackoverflow.blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) |
