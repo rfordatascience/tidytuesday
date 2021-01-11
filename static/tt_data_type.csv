@@ -1,6 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+3,2021-01-12,2021,artists.csv,csv,","
+3,2021-01-12,2021,artwork.csv,csv,","
 2,2021-01-05,2021,transit_cost.csv,csv,","
-1,2020-12-29,2021,,csv,","
+1,2020-12-29,2021,NA,csv,","
 52,2020-12-22,2020,big-mac.csv,csv,","
 51,2020-12-15,2020,ninja_warrior.csv,csv,","
 50,2020-12-08,2020,women.csv,csv,","
