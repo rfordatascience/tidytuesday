@@ -1,4 +1,4 @@
-![](https://www.tate.org.uk/sites/default/files/styles/width-1440/public/visitor_gallery_tate_st_ives_0.jpg)
+![Art Gallery](https://www.tate.org.uk/sites/default/files/styles/width-1440/public/visitor_gallery_tate_st_ives_0.jpg)
 
 # Art Collections
 
