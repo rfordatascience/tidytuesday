@@ -120,3 +120,4 @@ Only books available freely online are sourced here. Feel free to add to the lis
 | [Link](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
 | [Link](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
  [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
+| [Link](https://rc2e.com/) | R Cookbook, 2nd Edition by James Long & Paul Teetor |
