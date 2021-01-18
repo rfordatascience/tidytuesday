@@ -73,7 +73,8 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 | 1 | `2020-12-29` | Bring your own data from 2020! | | |
 | 2 | `2021-01-05` | [Transit Cost Project](data/2021/2021-01-05/readme.md) | [TransitCosts.com](https://transitcosts.com/) | [Transit Costs Case Study](https://transitcosts.com/city/boston-case-the-story-of-the-green-line-extension/) |
 | 3 | `2021-01-12` | [Art Collections](data/2021/2021-01-12/readme.md) | [Tate Collection](http://bit.ly/3sev5lM) | [Aspect Ratio of Artworks through Time](https://josephlewis.github.io/aspect.html) |
-
+| 4 | `2021-01-19` | [Kenya Census](data/2021/2021-01-19/readme.md) | [`rKenyaCensus`](https://github.com/Shelmith-Kariuki/rKenyaCensus) | [Introducing `rKenyaCensus`
+](https://shelkariuki.netlify.app/post/rkenyacensus/) |
 
 ***  
 
