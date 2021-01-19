@@ -16,7 +16,7 @@ To access ALL the data, install the package from Github:
 
 (if needed, `install.packages("remotes")`)
 
-`remotes::install_github(“Shelmith-Kariuki/rKenyaCensus”)`
+`remotes::install_github("Shelmith-Kariuki/rKenyaCensus")`
 
 She's also put together a [Shiny app to download](https://shel-kariuki.shinyapps.io/KenyaCensus2019/) various datasets!
 
