@@ -101,6 +101,8 @@ hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 This is an optional cleaning script, but shows examples of how to take the raw data this week and prep it for analysis.
 
+See more expansive walkthroughs of cleaning this data by [Jack Davison](https://twitter.com/JDavison_/status/1356603601020473346?s=20) and [Alex Cookson](https://twitter.com/alexcookson/status/1356628106790985728?s=20).
+
 ```
 library(tidyverse)
 library(readxl)
@@ -158,4 +160,51 @@ hbcu_all %>%
   ggplot(aes(x = Year, y = value, color = name)) +
   geom_line() +
   scale_x_continuous(breaks = seq(1980, 2020, by = 4))
+  
+# Alex Cookson Examples
+
+### Load packages -------------------------------------------------------------
+library(tidyverse) # General-purpose cleaning
+library(janitor) # For the clean_names() function
+
+### Import data ---------------------------------------------------------------
+hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-02/hbcu_all.csv') %>%
+  # clean_names() converts field names to snake_case
+  clean_names()
+
+
+### Clean data ----------------------------------------------------------------
+# We can separate by gender OR by program length and public/private, not both
+
+### Gender breakdown
+hbcu_by_gender <- hbcu_all %>%
+  # We only need year and gender columns
+  select(year, males, females) %>%
+  # Convert to tidy format, collapsing male/female into one descriptor field
+  pivot_longer(males:females,
+               names_to = "gender",
+               values_to = "students") %>%
+  # Convert from plural to singular for cleaner data
+  # "s%" specifies an s character at the end of a string
+  # ("$" is end of string in regular expressions)
+  mutate(gender = str_remove(gender, "s$"))
+
+
+### Program breakdown
+hbcu_by_program <- hbcu_all %>%
+  # We need fields with "public" or "private" in the name
+  # (They also have 2- vs 4-year)
+  # We DON'T need fields with "total" in the name, since this is redundant
+  select(year,
+         contains(c("public", "private")),
+         -contains("total")) %>%
+  # names_pattern argument does the heavy lifting
+  # It separates names into groups, as specified by parentheses "(group)"
+  # Field names are structured so that program length is followed by public/private
+  # We also specift "x_" as an optional argument using regular expressions
+  pivot_longer(cols = x4_year_public:x2_year_private,
+               names_pattern = "[x_]?(.*)_(.*)",
+               names_to = c("program_length", "public_private"),
+               values_to = "students") %>%
+  mutate(program_length = paste(parse_number(program_length), "years"))
 ```
