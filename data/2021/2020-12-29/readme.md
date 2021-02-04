@@ -1,6 +1,6 @@
-# 2021 Data
+# Week 1
 
-Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
+This was really just a bring your own dataset week.
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
