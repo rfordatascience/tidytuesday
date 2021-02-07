@@ -63,6 +63,24 @@ Credit: [YOUR NAME](Twitter handle or other social media profile)
 ## Submitting Code Chunks
 Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
 
+## Citing TidyTuesday
+
+To cite the TidyTuesday repo/project in publications use:
+
+  Thomas Mock (2021). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
+  https://github.com/rfordatascience/tidytuesday.
+
+A BibTeX entry for LaTeX users is
+
+  @misc{tidytuesday,
+    title  = {Tidy Tuesday: A weekly data project aimed at the R ecosystem},
+    author = {Mock, Thomas},
+    url    = {https://github.com/rfordatascience/tidytuesday},
+    year   = {2021}
+  }
+
+Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
+
 ***
 
 # DataSets
