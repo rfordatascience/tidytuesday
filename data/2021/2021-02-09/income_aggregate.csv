@@ -1,0 +1,1855 @@
+year,race,number,income_quintile,income_share
+2019,All Races,128451000,Lowest,3.1
+2019,All Races,128451000,Second,8.3
+2019,All Races,128451000,Third,14.1
+2019,All Races,128451000,Fourth,22.7
+2019,All Races,128451000,Highest,51.9
+2019,All Races,128451000,Top 5%,23
+2018,All Races,128579000,Lowest,3.1
+2018,All Races,128579000,Second,8.3
+2018,All Races,128579000,Third,14.1
+2018,All Races,128579000,Fourth,22.6
+2018,All Races,128579000,Highest,52
+2018,All Races,128579000,Top 5%,23.1
+2017,All Races,127586000,Lowest,3.1
+2017,All Races,127586000,Second,8.2
+2017,All Races,127586000,Third,14.3
+2017,All Races,127586000,Fourth,23
+2017,All Races,127586000,Highest,51.5
+2017,All Races,127586000,Top 5%,22.3
+2016,All Races,126224000,Lowest,3.1
+2016,All Races,126224000,Second,8.3
+2016,All Races,126224000,Third,14.2
+2016,All Races,126224000,Fourth,22.9
+2016,All Races,126224000,Highest,51.5
+2016,All Races,126224000,Top 5%,22.6
+2015,All Races,125819000,Lowest,3.1
+2015,All Races,125819000,Second,8.2
+2015,All Races,125819000,Third,14.3
+2015,All Races,125819000,Fourth,23.2
+2015,All Races,125819000,Highest,51.1
+2015,All Races,125819000,Top 5%,22.1
+2014,All Races,124587000,Lowest,3.1
+2014,All Races,124587000,Second,8.2
+2014,All Races,124587000,Third,14.3
+2014,All Races,124587000,Fourth,23.2
+2014,All Races,124587000,Highest,51.2
+2014,All Races,124587000,Top 5%,21.9
+2013,All Races,123931000,Lowest,3.1
+2013,All Races,123931000,Second,8.2
+2013,All Races,123931000,Third,14.3
+2013,All Races,123931000,Fourth,23
+2013,All Races,123931000,Highest,51.4
+2013,All Races,123931000,Top 5%,22.2
+2012,All Races,122459000,Lowest,3.2
+2012,All Races,122459000,Second,8.3
+2012,All Races,122459000,Third,14.4
+2012,All Races,122459000,Fourth,23
+2012,All Races,122459000,Highest,51
+2012,All Races,122459000,Top 5%,22.3
+2011,All Races,121084000,Lowest,3.2
+2011,All Races,121084000,Second,8.4
+2011,All Races,121084000,Third,14.3
+2011,All Races,121084000,Fourth,23
+2011,All Races,121084000,Highest,51.1
+2011,All Races,121084000,Top 5%,22.3
+2010,All Races,119927000,Lowest,3.3
+2010,All Races,119927000,Second,8.5
+2010,All Races,119927000,Third,14.6
+2010,All Races,119927000,Fourth,23.4
+2010,All Races,119927000,Highest,50.3
+2010,All Races,119927000,Top 5%,21.3
+2009,All Races,117538000,Lowest,3.4
+2009,All Races,117538000,Second,8.6
+2009,All Races,117538000,Third,14.6
+2009,All Races,117538000,Fourth,23.2
+2009,All Races,117538000,Highest,50.3
+2009,All Races,117538000,Top 5%,21.7
+2008,All Races,117181000,Lowest,3.4
+2008,All Races,117181000,Second,8.6
+2008,All Races,117181000,Third,14.7
+2008,All Races,117181000,Fourth,23.3
+2008,All Races,117181000,Highest,50
+2008,All Races,117181000,Top 5%,21.5
+2007,All Races,116783000,Lowest,3.4
+2007,All Races,116783000,Second,8.7
+2007,All Races,116783000,Third,14.8
+2007,All Races,116783000,Fourth,23.4
+2007,All Races,116783000,Highest,49.7
+2007,All Races,116783000,Top 5%,21.2
+2006,All Races,116011000,Lowest,3.4
+2006,All Races,116011000,Second,8.6
+2006,All Races,116011000,Third,14.5
+2006,All Races,116011000,Fourth,22.9
+2006,All Races,116011000,Highest,50.5
+2006,All Races,116011000,Top 5%,22.3
+2005,All Races,114384000,Lowest,3.4
+2005,All Races,114384000,Second,8.6
+2005,All Races,114384000,Third,14.6
+2005,All Races,114384000,Fourth,23
+2005,All Races,114384000,Highest,50.4
+2005,All Races,114384000,Top 5%,22.2
+2004,All Races,113343000,Lowest,3.4
+2004,All Races,113343000,Second,8.7
+2004,All Races,113343000,Third,14.7
+2004,All Races,113343000,Fourth,23.2
+2004,All Races,113343000,Highest,50.1
+2004,All Races,113343000,Top 5%,21.8
+2003,All Races,112000000,Lowest,3.4
+2003,All Races,112000000,Second,8.7
+2003,All Races,112000000,Third,14.8
+2003,All Races,112000000,Fourth,23.4
+2003,All Races,112000000,Highest,49.8
+2003,All Races,112000000,Top 5%,21.4
+2002,All Races,111278000,Lowest,3.5
+2002,All Races,111278000,Second,8.8
+2002,All Races,111278000,Third,14.8
+2002,All Races,111278000,Fourth,23.3
+2002,All Races,111278000,Highest,49.7
+2002,All Races,111278000,Top 5%,21.7
+2001,All Races,109297000,Lowest,3.5
+2001,All Races,109297000,Second,8.7
+2001,All Races,109297000,Third,14.6
+2001,All Races,109297000,Fourth,23
+2001,All Races,109297000,Highest,50.1
+2001,All Races,109297000,Top 5%,22.4
+2000,All Races,108209000,Lowest,3.6
+2000,All Races,108209000,Second,8.9
+2000,All Races,108209000,Third,14.8
+2000,All Races,108209000,Fourth,23
+2000,All Races,108209000,Highest,49.8
+2000,All Races,108209000,Top 5%,22.1
+1999,All Races,106434000,Lowest,3.6
+1999,All Races,106434000,Second,8.9
+1999,All Races,106434000,Third,14.9
+1999,All Races,106434000,Fourth,23.2
+1999,All Races,106434000,Highest,49.4
+1999,All Races,106434000,Top 5%,21.5
+1998,All Races,103874000,Lowest,3.6
+1998,All Races,103874000,Second,9
+1998,All Races,103874000,Third,15
+1998,All Races,103874000,Fourth,23.2
+1998,All Races,103874000,Highest,49.2
+1998,All Races,103874000,Top 5%,21.4
+1997,All Races,102528000,Lowest,3.6
+1997,All Races,102528000,Second,8.9
+1997,All Races,102528000,Third,15
+1997,All Races,102528000,Fourth,23.2
+1997,All Races,102528000,Highest,49.4
+1997,All Races,102528000,Top 5%,21.7
+1996,All Races,101018000,Lowest,3.6
+1996,All Races,101018000,Second,9
+1996,All Races,101018000,Third,15.1
+1996,All Races,101018000,Fourth,23.3
+1996,All Races,101018000,Highest,49
+1996,All Races,101018000,Top 5%,21.4
+1995,All Races,99627000,Lowest,3.7
+1995,All Races,99627000,Second,9.1
+1995,All Races,99627000,Third,15.2
+1995,All Races,99627000,Fourth,23.3
+1995,All Races,99627000,Highest,48.7
+1995,All Races,99627000,Top 5%,21
+1994,All Races,98990000,Lowest,3.6
+1994,All Races,98990000,Second,8.9
+1994,All Races,98990000,Third,15
+1994,All Races,98990000,Fourth,23.4
+1994,All Races,98990000,Highest,49.1
+1994,All Races,98990000,Top 5%,21.2
+1993,All Races,97107000,Lowest,3.6
+1993,All Races,97107000,Second,9
+1993,All Races,97107000,Third,15.1
+1993,All Races,97107000,Fourth,23.5
+1993,All Races,97107000,Highest,48.9
+1993,All Races,97107000,Top 5%,21
+1992,All Races,96426000,Lowest,3.8
+1992,All Races,96426000,Second,9.4
+1992,All Races,96426000,Third,15.8
+1992,All Races,96426000,Fourth,24.2
+1992,All Races,96426000,Highest,46.9
+1992,All Races,96426000,Top 5%,18.6
+1991,All Races,95669000,Lowest,3.8
+1991,All Races,95669000,Second,9.6
+1991,All Races,95669000,Third,15.9
+1991,All Races,95669000,Fourth,24.2
+1991,All Races,95669000,Highest,46.5
+1991,All Races,95669000,Top 5%,18.1
+1990,All Races,94312000,Lowest,3.8
+1990,All Races,94312000,Second,9.6
+1990,All Races,94312000,Third,15.9
+1990,All Races,94312000,Fourth,24
+1990,All Races,94312000,Highest,46.6
+1990,All Races,94312000,Top 5%,18.5
+1989,All Races,93347000,Lowest,3.8
+1989,All Races,93347000,Second,9.5
+1989,All Races,93347000,Third,15.8
+1989,All Races,93347000,Fourth,24
+1989,All Races,93347000,Highest,46.8
+1989,All Races,93347000,Top 5%,18.9
+1988,All Races,92830000,Lowest,3.8
+1988,All Races,92830000,Second,9.6
+1988,All Races,92830000,Third,16
+1988,All Races,92830000,Fourth,24.2
+1988,All Races,92830000,Highest,46.3
+1988,All Races,92830000,Top 5%,18.3
+1987,All Races,91124000,Lowest,3.8
+1987,All Races,91124000,Second,9.6
+1987,All Races,91124000,Third,16.1
+1987,All Races,91124000,Fourth,24.3
+1987,All Races,91124000,Highest,46.2
+1987,All Races,91124000,Top 5%,18.2
+1986,All Races,89479000,Lowest,3.8
+1986,All Races,89479000,Second,9.7
+1986,All Races,89479000,Third,16.2
+1986,All Races,89479000,Fourth,24.3
+1986,All Races,89479000,Highest,46.1
+1986,All Races,89479000,Top 5%,18
+1985,All Races,88458000,Lowest,3.9
+1985,All Races,88458000,Second,9.8
+1985,All Races,88458000,Third,16.2
+1985,All Races,88458000,Fourth,24.4
+1985,All Races,88458000,Highest,45.6
+1985,All Races,88458000,Top 5%,17.6
+1984,All Races,86789000,Lowest,4
+1984,All Races,86789000,Second,9.9
+1984,All Races,86789000,Third,16.3
+1984,All Races,86789000,Fourth,24.6
+1984,All Races,86789000,Highest,45.2
+1984,All Races,86789000,Top 5%,17.1
+1983,All Races,85407000,Lowest,4
+1983,All Races,85407000,Second,9.9
+1983,All Races,85407000,Third,16.4
+1983,All Races,85407000,Fourth,24.6
+1983,All Races,85407000,Highest,45.1
+1983,All Races,85407000,Top 5%,17
+1982,All Races,83918000,Lowest,4
+1982,All Races,83918000,Second,10
+1982,All Races,83918000,Third,16.5
+1982,All Races,83918000,Fourth,24.5
+1982,All Races,83918000,Highest,45
+1982,All Races,83918000,Top 5%,17
+1981,All Races,83527000,Lowest,4.1
+1981,All Races,83527000,Second,10.1
+1981,All Races,83527000,Third,16.7
+1981,All Races,83527000,Fourth,24.8
+1981,All Races,83527000,Highest,44.3
+1981,All Races,83527000,Top 5%,16.5
+1980,All Races,82368000,Lowest,4.2
+1980,All Races,82368000,Second,10.2
+1980,All Races,82368000,Third,16.8
+1980,All Races,82368000,Fourth,24.7
+1980,All Races,82368000,Highest,44.1
+1980,All Races,82368000,Top 5%,16.5
+1979,All Races,80776000,Lowest,4.1
+1979,All Races,80776000,Second,10.2
+1979,All Races,80776000,Third,16.8
+1979,All Races,80776000,Fourth,24.6
+1979,All Races,80776000,Highest,44.2
+1979,All Races,80776000,Top 5%,16.9
+1978,All Races,77330000,Lowest,4.2
+1978,All Races,77330000,Second,10.2
+1978,All Races,77330000,Third,16.8
+1978,All Races,77330000,Fourth,24.7
+1978,All Races,77330000,Highest,44.1
+1978,All Races,77330000,Top 5%,16.8
+1977,All Races,76030000,Lowest,4.2
+1977,All Races,76030000,Second,10.2
+1977,All Races,76030000,Third,16.9
+1977,All Races,76030000,Fourth,24.7
+1977,All Races,76030000,Highest,44
+1977,All Races,76030000,Top 5%,16.8
+1976,All Races,74142000,Lowest,4.3
+1976,All Races,74142000,Second,10.3
+1976,All Races,74142000,Third,17
+1976,All Races,74142000,Fourth,24.7
+1976,All Races,74142000,Highest,43.7
+1976,All Races,74142000,Top 5%,16.6
+1975,All Races,72867000,Lowest,4.3
+1975,All Races,72867000,Second,10.4
+1975,All Races,72867000,Third,17
+1975,All Races,72867000,Fourth,24.7
+1975,All Races,72867000,Highest,43.6
+1975,All Races,72867000,Top 5%,16.5
+1974,All Races,71163000,Lowest,4.3
+1974,All Races,71163000,Second,10.6
+1974,All Races,71163000,Third,17
+1974,All Races,71163000,Fourth,24.6
+1974,All Races,71163000,Highest,43.5
+1974,All Races,71163000,Top 5%,16.5
+1973,All Races,69859000,Lowest,4.2
+1973,All Races,69859000,Second,10.4
+1973,All Races,69859000,Third,17
+1973,All Races,69859000,Fourth,24.5
+1973,All Races,69859000,Highest,43.9
+1973,All Races,69859000,Top 5%,16.9
+1972,All Races,68251000,Lowest,4.1
+1972,All Races,68251000,Second,10.4
+1972,All Races,68251000,Third,17
+1972,All Races,68251000,Fourth,24.5
+1972,All Races,68251000,Highest,43.9
+1972,All Races,68251000,Top 5%,17
+1971,All Races,66676000,Lowest,4.1
+1971,All Races,66676000,Second,10.6
+1971,All Races,66676000,Third,17.3
+1971,All Races,66676000,Fourth,24.5
+1971,All Races,66676000,Highest,43.5
+1971,All Races,66676000,Top 5%,16.7
+1970,All Races,64778000,Lowest,4.1
+1970,All Races,64778000,Second,10.8
+1970,All Races,64778000,Third,17.4
+1970,All Races,64778000,Fourth,24.5
+1970,All Races,64778000,Highest,43.3
+1970,All Races,64778000,Top 5%,16.6
+1969,All Races,63401000,Lowest,4.1
+1969,All Races,63401000,Second,10.9
+1969,All Races,63401000,Third,17.5
+1969,All Races,63401000,Fourth,24.5
+1969,All Races,63401000,Highest,43
+1969,All Races,63401000,Top 5%,16.6
+1968,All Races,62214000,Lowest,4.2
+1968,All Races,62214000,Second,11.1
+1968,All Races,62214000,Third,17.6
+1968,All Races,62214000,Fourth,24.5
+1968,All Races,62214000,Highest,42.6
+1968,All Races,62214000,Top 5%,16.3
+1967,All Races,60813000,Lowest,4
+1967,All Races,60813000,Second,10.8
+1967,All Races,60813000,Third,17.3
+1967,All Races,60813000,Fourth,24.2
+1967,All Races,60813000,Highest,43.6
+1967,All Races,60813000,Top 5%,17.2
+2019,Asian Alone or in Combination,7334000,Lowest,3.2
+2019,Asian Alone or in Combination,7334000,Second,8.8
+2019,Asian Alone or in Combination,7334000,Third,14.8
+2019,Asian Alone or in Combination,7334000,Fourth,23.1
+2019,Asian Alone or in Combination,7334000,Highest,50
+2019,Asian Alone or in Combination,7334000,Top 5%,21.6
+2018,Asian Alone or in Combination,7416000,Lowest,2.8
+2018,Asian Alone or in Combination,7416000,Second,8.5
+2018,Asian Alone or in Combination,7416000,Third,14.6
+2018,Asian Alone or in Combination,7416000,Fourth,23.1
+2018,Asian Alone or in Combination,7416000,Highest,51
+2018,Asian Alone or in Combination,7416000,Top 5%,21.8
+2017,Asian Alone or in Combination,7114000,Lowest,2.7
+2017,Asian Alone or in Combination,7114000,Second,8.4
+2017,Asian Alone or in Combination,7114000,Third,14.4
+2017,Asian Alone or in Combination,7114000,Fourth,23.3
+2017,Asian Alone or in Combination,7114000,Highest,51.2
+2017,Asian Alone or in Combination,7114000,Top 5%,22.1
+2016,Asian Alone or in Combination,6750000,Lowest,3
+2016,Asian Alone or in Combination,6750000,Second,8.9
+2016,Asian Alone or in Combination,6750000,Third,15.2
+2016,Asian Alone or in Combination,6750000,Fourth,24
+2016,Asian Alone or in Combination,6750000,Highest,48.9
+2016,Asian Alone or in Combination,6750000,Top 5%,20.3
+2015,Asian Alone or in Combination,6640000,Lowest,2.7
+2015,Asian Alone or in Combination,6640000,Second,8.5
+2015,Asian Alone or in Combination,6640000,Third,14.7
+2015,Asian Alone or in Combination,6640000,Fourth,23.6
+2015,Asian Alone or in Combination,6640000,Highest,50.6
+2015,Asian Alone or in Combination,6640000,Top 5%,21.8
+2014,Asian Alone or in Combination,6333000,Lowest,2.9
+2014,Asian Alone or in Combination,6333000,Second,8.7
+2014,Asian Alone or in Combination,6333000,Third,15.2
+2014,Asian Alone or in Combination,6333000,Fourth,24.1
+2014,Asian Alone or in Combination,6333000,Highest,49
+2014,Asian Alone or in Combination,6333000,Top 5%,20.5
+2013,Asian Alone or in Combination,6160000,Lowest,2.7
+2013,Asian Alone or in Combination,6160000,Second,8.5
+2013,Asian Alone or in Combination,6160000,Third,14.5
+2013,Asian Alone or in Combination,6160000,Fourth,22.6
+2013,Asian Alone or in Combination,6160000,Highest,51.7
+2013,Asian Alone or in Combination,6160000,Top 5%,23.4
+2012,Asian Alone or in Combination,5872000,Lowest,3
+2012,Asian Alone or in Combination,5872000,Second,8.9
+2012,Asian Alone or in Combination,5872000,Third,14.9
+2012,Asian Alone or in Combination,5872000,Fourth,23.6
+2012,Asian Alone or in Combination,5872000,Highest,49.6
+2012,Asian Alone or in Combination,5872000,Top 5%,20.8
+2011,Asian Alone or in Combination,5705000,Lowest,3
+2011,Asian Alone or in Combination,5705000,Second,8.7
+2011,Asian Alone or in Combination,5705000,Third,15.1
+2011,Asian Alone or in Combination,5705000,Fourth,23.5
+2011,Asian Alone or in Combination,5705000,Highest,49.7
+2011,Asian Alone or in Combination,5705000,Top 5%,21.4
+2010,Asian Alone or in Combination,5550000,Lowest,3
+2010,Asian Alone or in Combination,5550000,Second,8.9
+2010,Asian Alone or in Combination,5550000,Third,15.3
+2010,Asian Alone or in Combination,5550000,Fourth,24.5
+2010,Asian Alone or in Combination,5550000,Highest,48.3
+2010,Asian Alone or in Combination,5550000,Top 5%,19
+2009,Asian Alone or in Combination,4940000,Lowest,2.7
+2009,Asian Alone or in Combination,4940000,Second,8.2
+2009,Asian Alone or in Combination,4940000,Third,14.4
+2009,Asian Alone or in Combination,4940000,Fourth,23
+2009,Asian Alone or in Combination,4940000,Highest,51.6
+2009,Asian Alone or in Combination,4940000,Top 5%,23.5
+2008,Asian Alone or in Combination,4805000,Lowest,2.9
+2008,Asian Alone or in Combination,4805000,Second,8.6
+2008,Asian Alone or in Combination,4805000,Third,15.1
+2008,Asian Alone or in Combination,4805000,Fourth,24.1
+2008,Asian Alone or in Combination,4805000,Highest,49.3
+2008,Asian Alone or in Combination,4805000,Top 5%,21
+2007,Asian Alone or in Combination,4715000,Lowest,3.1
+2007,Asian Alone or in Combination,4715000,Second,9.2
+2007,Asian Alone or in Combination,4715000,Third,15.6
+2007,Asian Alone or in Combination,4715000,Fourth,24
+2007,Asian Alone or in Combination,4715000,Highest,48
+2007,Asian Alone or in Combination,4715000,Top 5%,20
+2006,Asian Alone or in Combination,4664000,Lowest,3.2
+2006,Asian Alone or in Combination,4664000,Second,8.8
+2006,Asian Alone or in Combination,4664000,Third,14.7
+2006,Asian Alone or in Combination,4664000,Fourth,23
+2006,Asian Alone or in Combination,4664000,Highest,50.3
+2006,Asian Alone or in Combination,4664000,Top 5%,23.5
+2005,Asian Alone or in Combination,4500000,Lowest,2.9
+2005,Asian Alone or in Combination,4500000,Second,9.2
+2005,Asian Alone or in Combination,4500000,Third,15.3
+2005,Asian Alone or in Combination,4500000,Fourth,23.7
+2005,Asian Alone or in Combination,4500000,Highest,48.9
+2005,Asian Alone or in Combination,4500000,Top 5%,20.3
+2004,Asian Alone or in Combination,4346000,Lowest,3.2
+2004,Asian Alone or in Combination,4346000,Second,9.2
+2004,Asian Alone or in Combination,4346000,Third,15.1
+2004,Asian Alone or in Combination,4346000,Fourth,23.3
+2004,Asian Alone or in Combination,4346000,Highest,49.2
+2004,Asian Alone or in Combination,4346000,Top 5%,21.5
+2003,Asian Alone or in Combination,4235000,Lowest,2.7
+2003,Asian Alone or in Combination,4235000,Second,9.1
+2003,Asian Alone or in Combination,4235000,Third,15.9
+2003,Asian Alone or in Combination,4235000,Fourth,24.6
+2003,Asian Alone or in Combination,4235000,Highest,47.8
+2003,Asian Alone or in Combination,4235000,Top 5%,18.9
+2002,Asian Alone or in Combination,4079000,Lowest,3.3
+2002,Asian Alone or in Combination,4079000,Second,9.1
+2002,Asian Alone or in Combination,4079000,Third,15.2
+2002,Asian Alone or in Combination,4079000,Fourth,23.8
+2002,Asian Alone or in Combination,4079000,Highest,48.6
+2002,Asian Alone or in Combination,4079000,Top 5%,20.6
+2019,Asian Alone,6853000,Lowest,3.1
+2019,Asian Alone,6853000,Second,8.8
+2019,Asian Alone,6853000,Third,14.8
+2019,Asian Alone,6853000,Fourth,23.1
+2019,Asian Alone,6853000,Highest,50.2
+2019,Asian Alone,6853000,Top 5%,21.7
+2018,Asian Alone,6981000,Lowest,2.7
+2018,Asian Alone,6981000,Second,8.4
+2018,Asian Alone,6981000,Third,14.6
+2018,Asian Alone,6981000,Fourth,23.1
+2018,Asian Alone,6981000,Highest,51.1
+2018,Asian Alone,6981000,Top 5%,22
+2017,Asian Alone,6735000,Lowest,2.7
+2017,Asian Alone,6735000,Second,8.5
+2017,Asian Alone,6735000,Third,14.4
+2017,Asian Alone,6735000,Fourth,23.4
+2017,Asian Alone,6735000,Highest,51
+2017,Asian Alone,6735000,Top 5%,22
+2016,Asian Alone,6392000,Lowest,3
+2016,Asian Alone,6392000,Second,9
+2016,Asian Alone,6392000,Third,15.2
+2016,Asian Alone,6392000,Fourth,24
+2016,Asian Alone,6392000,Highest,48.9
+2016,Asian Alone,6392000,Top 5%,20.4
+2015,Asian Alone,6328000,Lowest,2.7
+2015,Asian Alone,6328000,Second,8.6
+2015,Asian Alone,6328000,Third,14.8
+2015,Asian Alone,6328000,Fourth,23.6
+2015,Asian Alone,6328000,Highest,50.3
+2015,Asian Alone,6328000,Top 5%,21.5
+2014,Asian Alone,6040000,Lowest,2.9
+2014,Asian Alone,6040000,Second,8.6
+2014,Asian Alone,6040000,Third,15.3
+2014,Asian Alone,6040000,Fourth,24.3
+2014,Asian Alone,6040000,Highest,48.9
+2014,Asian Alone,6040000,Top 5%,20.2
+2013,Asian Alone,5818000,Lowest,2.7
+2013,Asian Alone,5818000,Second,8.6
+2013,Asian Alone,5818000,Third,14.5
+2013,Asian Alone,5818000,Fourth,22.7
+2013,Asian Alone,5818000,Highest,51.6
+2013,Asian Alone,5818000,Top 5%,23.2
+2012,Asian Alone,5560000,Lowest,3
+2012,Asian Alone,5560000,Second,8.9
+2012,Asian Alone,5560000,Third,15
+2012,Asian Alone,5560000,Fourth,23.7
+2012,Asian Alone,5560000,Highest,49.4
+2012,Asian Alone,5560000,Top 5%,20.5
+2011,Asian Alone,5374000,Lowest,3
+2011,Asian Alone,5374000,Second,8.8
+2011,Asian Alone,5374000,Third,15.2
+2011,Asian Alone,5374000,Fourth,23.5
+2011,Asian Alone,5374000,Highest,49.5
+2011,Asian Alone,5374000,Top 5%,21.4
+2010,Asian Alone,5212000,Lowest,2.9
+2010,Asian Alone,5212000,Second,8.9
+2010,Asian Alone,5212000,Third,15.3
+2010,Asian Alone,5212000,Fourth,24.6
+2010,Asian Alone,5212000,Highest,48.3
+2010,Asian Alone,5212000,Top 5%,19
+2009,Asian Alone,4687000,Lowest,2.7
+2009,Asian Alone,4687000,Second,8.2
+2009,Asian Alone,4687000,Third,14.4
+2009,Asian Alone,4687000,Fourth,23
+2009,Asian Alone,4687000,Highest,51.6
+2009,Asian Alone,4687000,Top 5%,23.7
+2008,Asian Alone,4573000,Lowest,2.9
+2008,Asian Alone,4573000,Second,8.6
+2008,Asian Alone,4573000,Third,15.2
+2008,Asian Alone,4573000,Fourth,24.2
+2008,Asian Alone,4573000,Highest,49.2
+2008,Asian Alone,4573000,Top 5%,20.8
+2007,Asian Alone,4494000,Lowest,3.1
+2007,Asian Alone,4494000,Second,9.2
+2007,Asian Alone,4494000,Third,15.6
+2007,Asian Alone,4494000,Fourth,23.9
+2007,Asian Alone,4494000,Highest,48.1
+2007,Asian Alone,4494000,Top 5%,20.2
+2006,Asian Alone,4454000,Lowest,3.1
+2006,Asian Alone,4454000,Second,8.7
+2006,Asian Alone,4454000,Third,14.6
+2006,Asian Alone,4454000,Fourth,22.9
+2006,Asian Alone,4454000,Highest,50.7
+2006,Asian Alone,4454000,Top 5%,23.7
+2005,Asian Alone,4273000,Lowest,2.9
+2005,Asian Alone,4273000,Second,9.2
+2005,Asian Alone,4273000,Third,15.3
+2005,Asian Alone,4273000,Fourth,23.7
+2005,Asian Alone,4273000,Highest,48.9
+2005,Asian Alone,4273000,Top 5%,20.2
+2004,Asian Alone,4123000,Lowest,3.2
+2004,Asian Alone,4123000,Second,9.1
+2004,Asian Alone,4123000,Third,15.1
+2004,Asian Alone,4123000,Fourth,23.4
+2004,Asian Alone,4123000,Highest,49.2
+2004,Asian Alone,4123000,Top 5%,21.5
+2003,Asian Alone,4040000,Lowest,2.7
+2003,Asian Alone,4040000,Second,9
+2003,Asian Alone,4040000,Third,15.9
+2003,Asian Alone,4040000,Fourth,24.5
+2003,Asian Alone,4040000,Highest,47.9
+2003,Asian Alone,4040000,Top 5%,19
+2002,Asian Alone,3917000,Lowest,3.3
+2002,Asian Alone,3917000,Second,9.1
+2002,Asian Alone,3917000,Third,15.2
+2002,Asian Alone,3917000,Fourth,23.7
+2002,Asian Alone,3917000,Highest,48.8
+2002,Asian Alone,3917000,Top 5%,20.8
+2019,Black Alone or in Combination,18055000,Lowest,2.6
+2019,Black Alone or in Combination,18055000,Second,7.7
+2019,Black Alone or in Combination,18055000,Third,13.5
+2019,Black Alone or in Combination,18055000,Fourth,22.5
+2019,Black Alone or in Combination,18055000,Highest,53.7
+2019,Black Alone or in Combination,18055000,Top 5%,24
+2018,Black Alone or in Combination,18095000,Lowest,2.6
+2018,Black Alone or in Combination,18095000,Second,7.9
+2018,Black Alone or in Combination,18095000,Third,14.1
+2018,Black Alone or in Combination,18095000,Fourth,23.2
+2018,Black Alone or in Combination,18095000,Highest,52.2
+2018,Black Alone or in Combination,18095000,Top 5%,21.5
+2017,Black Alone or in Combination,17801000,Lowest,2.6
+2017,Black Alone or in Combination,17801000,Second,7.8
+2017,Black Alone or in Combination,17801000,Third,13.8
+2017,Black Alone or in Combination,17801000,Fourth,23.2
+2017,Black Alone or in Combination,17801000,Highest,52.6
+2017,Black Alone or in Combination,17801000,Top 5%,22.8
+2016,Black Alone or in Combination,17505000,Lowest,2.6
+2016,Black Alone or in Combination,17505000,Second,7.7
+2016,Black Alone or in Combination,17505000,Third,13.7
+2016,Black Alone or in Combination,17505000,Fourth,22.7
+2016,Black Alone or in Combination,17505000,Highest,53.4
+2016,Black Alone or in Combination,17505000,Top 5%,24.2
+2015,Black Alone or in Combination,17322000,Lowest,2.6
+2015,Black Alone or in Combination,17322000,Second,7.6
+2015,Black Alone or in Combination,17322000,Third,13.7
+2015,Black Alone or in Combination,17322000,Fourth,23
+2015,Black Alone or in Combination,17322000,Highest,53.2
+2015,Black Alone or in Combination,17322000,Top 5%,23.4
+2014,Black Alone or in Combination,17198000,Lowest,2.6
+2014,Black Alone or in Combination,17198000,Second,7.8
+2014,Black Alone or in Combination,17198000,Third,13.8
+2014,Black Alone or in Combination,17198000,Fourth,22.9
+2014,Black Alone or in Combination,17198000,Highest,52.9
+2014,Black Alone or in Combination,17198000,Top 5%,22.6
+2013,Black Alone or in Combination,16723000,Lowest,2.6
+2013,Black Alone or in Combination,16723000,Second,7.8
+2013,Black Alone or in Combination,16723000,Third,13.8
+2013,Black Alone or in Combination,16723000,Fourth,22.5
+2013,Black Alone or in Combination,16723000,Highest,53.3
+2013,Black Alone or in Combination,16723000,Top 5%,23.1
+2012,Black Alone or in Combination,16559000,Lowest,2.8
+2012,Black Alone or in Combination,16559000,Second,7.8
+2012,Black Alone or in Combination,16559000,Third,14.1
+2012,Black Alone or in Combination,16559000,Fourth,23.5
+2012,Black Alone or in Combination,16559000,Highest,51.9
+2012,Black Alone or in Combination,16559000,Top 5%,21.5
+2011,Black Alone or in Combination,16165000,Lowest,2.6
+2011,Black Alone or in Combination,16165000,Second,7.5
+2011,Black Alone or in Combination,16165000,Third,13.7
+2011,Black Alone or in Combination,16165000,Fourth,23.3
+2011,Black Alone or in Combination,16165000,Highest,52.9
+2011,Black Alone or in Combination,16165000,Top 5%,22.8
+2010,Black Alone or in Combination,15909000,Lowest,2.6
+2010,Black Alone or in Combination,15909000,Second,7.8
+2010,Black Alone or in Combination,15909000,Third,14.2
+2010,Black Alone or in Combination,15909000,Fourth,23.6
+2010,Black Alone or in Combination,15909000,Highest,51.7
+2010,Black Alone or in Combination,15909000,Top 5%,21.5
+2009,Black Alone or in Combination,15212000,Lowest,2.9
+2009,Black Alone or in Combination,15212000,Second,8.2
+2009,Black Alone or in Combination,15212000,Third,14.3
+2009,Black Alone or in Combination,15212000,Fourth,23.5
+2009,Black Alone or in Combination,15212000,Highest,51.1
+2009,Black Alone or in Combination,15212000,Top 5%,21.5
+2008,Black Alone or in Combination,15056000,Lowest,3
+2008,Black Alone or in Combination,15056000,Second,8.4
+2008,Black Alone or in Combination,15056000,Third,14.6
+2008,Black Alone or in Combination,15056000,Fourth,23.5
+2008,Black Alone or in Combination,15056000,Highest,50.5
+2008,Black Alone or in Combination,15056000,Top 5%,20.6
+2007,Black Alone or in Combination,14976000,Lowest,2.8
+2007,Black Alone or in Combination,14976000,Second,8.1
+2007,Black Alone or in Combination,14976000,Third,14.5
+2007,Black Alone or in Combination,14976000,Fourth,23.7
+2007,Black Alone or in Combination,14976000,Highest,50.8
+2007,Black Alone or in Combination,14976000,Top 5%,21.2
+2006,Black Alone or in Combination,14709000,Lowest,2.8
+2006,Black Alone or in Combination,14709000,Second,8.1
+2006,Black Alone or in Combination,14709000,Third,14.3
+2006,Black Alone or in Combination,14709000,Fourth,23.2
+2006,Black Alone or in Combination,14709000,Highest,51.6
+2006,Black Alone or in Combination,14709000,Top 5%,22.1
+2005,Black Alone or in Combination,14399000,Lowest,2.8
+2005,Black Alone or in Combination,14399000,Second,8
+2005,Black Alone or in Combination,14399000,Third,14.5
+2005,Black Alone or in Combination,14399000,Fourth,23.7
+2005,Black Alone or in Combination,14399000,Highest,51
+2005,Black Alone or in Combination,14399000,Top 5%,21.3
+2004,Black Alone or in Combination,14151000,Lowest,2.8
+2004,Black Alone or in Combination,14151000,Second,8.3
+2004,Black Alone or in Combination,14151000,Third,14.7
+2004,Black Alone or in Combination,14151000,Fourth,23.9
+2004,Black Alone or in Combination,14151000,Highest,50.4
+2004,Black Alone or in Combination,14151000,Top 5%,20.7
+2003,Black Alone or in Combination,13969000,Lowest,2.9
+2003,Black Alone or in Combination,13969000,Second,8.2
+2003,Black Alone or in Combination,13969000,Third,14.7
+2003,Black Alone or in Combination,13969000,Fourth,24
+2003,Black Alone or in Combination,13969000,Highest,50.2
+2003,Black Alone or in Combination,13969000,Top 5%,20.3
+2002,Black Alone or in Combination,13778000,Lowest,2.9
+2002,Black Alone or in Combination,13778000,Second,8.1
+2002,Black Alone or in Combination,13778000,Third,14.4
+2002,Black Alone or in Combination,13778000,Fourth,23.2
+2002,Black Alone or in Combination,13778000,Highest,51.3
+2002,Black Alone or in Combination,13778000,Top 5%,21.9
+2019,Black Alone,17054000,Lowest,2.6
+2019,Black Alone,17054000,Second,7.7
+2019,Black Alone,17054000,Third,13.6
+2019,Black Alone,17054000,Fourth,22.7
+2019,Black Alone,17054000,Highest,53.4
+2019,Black Alone,17054000,Top 5%,23.7
+2018,Black Alone,17167000,Lowest,2.6
+2018,Black Alone,17167000,Second,7.9
+2018,Black Alone,17167000,Third,14.1
+2018,Black Alone,17167000,Fourth,23.3
+2018,Black Alone,17167000,Highest,52.1
+2018,Black Alone,17167000,Top 5%,21.3
+2017,Black Alone,16997000,Lowest,2.5
+2017,Black Alone,16997000,Second,7.7
+2017,Black Alone,16997000,Third,13.7
+2017,Black Alone,16997000,Fourth,23.1
+2017,Black Alone,16997000,Highest,52.9
+2017,Black Alone,16997000,Top 5%,22.9
+2016,Black Alone,16733000,Lowest,2.6
+2016,Black Alone,16733000,Second,7.7
+2016,Black Alone,16733000,Third,13.7
+2016,Black Alone,16733000,Fourth,22.8
+2016,Black Alone,16733000,Highest,53.4
+2016,Black Alone,16733000,Top 5%,24
+2015,Black Alone,16539000,Lowest,2.6
+2015,Black Alone,16539000,Second,7.6
+2015,Black Alone,16539000,Third,13.7
+2015,Black Alone,16539000,Fourth,23
+2015,Black Alone,16539000,Highest,53.2
+2015,Black Alone,16539000,Top 5%,23.3
+2014,Black Alone,16437000,Lowest,2.6
+2014,Black Alone,16437000,Second,7.8
+2014,Black Alone,16437000,Third,13.8
+2014,Black Alone,16437000,Fourth,22.9
+2014,Black Alone,16437000,Highest,52.9
+2014,Black Alone,16437000,Top 5%,22.5
+2013,Black Alone,16009000,Lowest,2.6
+2013,Black Alone,16009000,Second,7.8
+2013,Black Alone,16009000,Third,13.9
+2013,Black Alone,16009000,Fourth,22.9
+2013,Black Alone,16009000,Highest,52.8
+2013,Black Alone,16009000,Top 5%,22.3
+2012,Black Alone,15872000,Lowest,2.8
+2012,Black Alone,15872000,Second,7.8
+2012,Black Alone,15872000,Third,14.1
+2012,Black Alone,15872000,Fourth,23.5
+2012,Black Alone,15872000,Highest,51.9
+2012,Black Alone,15872000,Top 5%,21.7
+2011,Black Alone,15583000,Lowest,2.7
+2011,Black Alone,15583000,Second,7.5
+2011,Black Alone,15583000,Third,13.7
+2011,Black Alone,15583000,Fourth,23.2
+2011,Black Alone,15583000,Highest,52.9
+2011,Black Alone,15583000,Top 5%,22.8
+2010,Black Alone,15265000,Lowest,2.7
+2010,Black Alone,15265000,Second,7.9
+2010,Black Alone,15265000,Third,14.3
+2010,Black Alone,15265000,Fourth,23.8
+2010,Black Alone,15265000,Highest,51.3
+2010,Black Alone,15265000,Top 5%,21.1
+2009,Black Alone,14730000,Lowest,2.9
+2009,Black Alone,14730000,Second,8.2
+2009,Black Alone,14730000,Third,14.3
+2009,Black Alone,14730000,Fourth,23.5
+2009,Black Alone,14730000,Highest,51
+2009,Black Alone,14730000,Top 5%,21.5
+2008,Black Alone,14595000,Lowest,3
+2008,Black Alone,14595000,Second,8.4
+2008,Black Alone,14595000,Third,14.6
+2008,Black Alone,14595000,Fourth,23.5
+2008,Black Alone,14595000,Highest,50.6
+2008,Black Alone,14595000,Top 5%,20.7
+2007,Black Alone,14551000,Lowest,2.8
+2007,Black Alone,14551000,Second,8.1
+2007,Black Alone,14551000,Third,14.6
+2007,Black Alone,14551000,Fourth,23.7
+2007,Black Alone,14551000,Highest,50.8
+2007,Black Alone,14551000,Top 5%,21.2
+2006,Black Alone,14354000,Lowest,2.8
+2006,Black Alone,14354000,Second,8.1
+2006,Black Alone,14354000,Third,14.3
+2006,Black Alone,14354000,Fourth,23.3
+2006,Black Alone,14354000,Highest,51.5
+2006,Black Alone,14354000,Top 5%,22
+2005,Black Alone,14002000,Lowest,2.8
+2005,Black Alone,14002000,Second,8
+2005,Black Alone,14002000,Third,14.5
+2005,Black Alone,14002000,Fourth,23.7
+2005,Black Alone,14002000,Highest,50.9
+2005,Black Alone,14002000,Top 5%,21.2
+2004,Black Alone,13809000,Lowest,2.8
+2004,Black Alone,13809000,Second,8.3
+2004,Black Alone,13809000,Third,14.6
+2004,Black Alone,13809000,Fourth,23.8
+2004,Black Alone,13809000,Highest,50.5
+2004,Black Alone,13809000,Top 5%,20.9
+2003,Black Alone,13629000,Lowest,2.9
+2003,Black Alone,13629000,Second,8.2
+2003,Black Alone,13629000,Third,14.7
+2003,Black Alone,13629000,Fourth,24
+2003,Black Alone,13629000,Highest,50.2
+2003,Black Alone,13629000,Top 5%,20.2
+2002,Black Alone,13465000,Lowest,2.9
+2002,Black Alone,13465000,Second,8.2
+2002,Black Alone,13465000,Third,14.5
+2002,Black Alone,13465000,Fourth,23.3
+2002,Black Alone,13465000,Highest,51.1
+2002,Black Alone,13465000,Top 5%,21.6
+2001,Black Alone,13315000,Lowest,3
+2001,Black Alone,13315000,Second,8.6
+2001,Black Alone,13315000,Third,15
+2001,Black Alone,13315000,Fourth,24.2
+2001,Black Alone,13315000,Highest,49.2
+2001,Black Alone,13315000,Top 5%,19.8
+2000,Black Alone,13174000,Lowest,3.2
+2000,Black Alone,13174000,Second,8.7
+2000,Black Alone,13174000,Third,15.1
+2000,Black Alone,13174000,Fourth,24
+2000,Black Alone,13174000,Highest,49
+2000,Black Alone,13174000,Top 5%,19.6
+1999,Black Alone,12838000,Lowest,3.1
+1999,Black Alone,12838000,Second,8.2
+1999,Black Alone,12838000,Third,14.6
+1999,Black Alone,12838000,Fourth,24
+1999,Black Alone,12838000,Highest,50
+1999,Black Alone,12838000,Top 5%,20
+1998,Black Alone,12579000,Lowest,3.1
+1998,Black Alone,12579000,Second,8.2
+1998,Black Alone,12579000,Third,14.8
+1998,Black Alone,12579000,Fourth,24.4
+1998,Black Alone,12579000,Highest,49.5
+1998,Black Alone,12579000,Top 5%,19.1
+1997,Black Alone,12474000,Lowest,3.2
+1997,Black Alone,12474000,Second,8.5
+1997,Black Alone,12474000,Third,15.1
+1997,Black Alone,12474000,Fourth,24.5
+1997,Black Alone,12474000,Highest,48.7
+1997,Black Alone,12474000,Top 5%,19.1
+1996,Black Alone,12109000,Lowest,3.1
+1996,Black Alone,12109000,Second,8
+1996,Black Alone,12109000,Third,14.5
+1996,Black Alone,12109000,Fourth,23.7
+1996,Black Alone,12109000,Highest,50.7
+1996,Black Alone,12109000,Top 5%,21.7
+1995,Black Alone,11577000,Lowest,3.2
+1995,Black Alone,11577000,Second,8.2
+1995,Black Alone,11577000,Third,14.8
+1995,Black Alone,11577000,Fourth,24.2
+1995,Black Alone,11577000,Highest,49.6
+1995,Black Alone,11577000,Top 5%,20.2
+1994,Black Alone,11655000,Lowest,3
+1994,Black Alone,11655000,Second,7.8
+1994,Black Alone,11655000,Third,14.3
+1994,Black Alone,11655000,Fourth,24.3
+1994,Black Alone,11655000,Highest,50.5
+1994,Black Alone,11655000,Top 5%,20.1
+1993,Black Alone,11281000,Lowest,3
+1993,Black Alone,11281000,Second,7.6
+1993,Black Alone,11281000,Third,14.3
+1993,Black Alone,11281000,Fourth,23.7
+1993,Black Alone,11281000,Highest,51.3
+1993,Black Alone,11281000,Top 5%,21
+1992,Black Alone,11269000,Lowest,3.1
+1992,Black Alone,11269000,Second,7.8
+1992,Black Alone,11269000,Third,14.7
+1992,Black Alone,11269000,Fourth,24.8
+1992,Black Alone,11269000,Highest,49.7
+1992,Black Alone,11269000,Top 5%,19.1
+1991,Black Alone,11083000,Lowest,3.1
+1991,Black Alone,11083000,Second,7.8
+1991,Black Alone,11083000,Third,15
+1991,Black Alone,11083000,Fourth,25.2
+1991,Black Alone,11083000,Highest,48.9
+1991,Black Alone,11083000,Top 5%,18.3
+1990,Black Alone,10671000,Lowest,3.1
+1990,Black Alone,10671000,Second,7.9
+1990,Black Alone,10671000,Third,15
+1990,Black Alone,10671000,Fourth,25.1
+1990,Black Alone,10671000,Highest,49
+1990,Black Alone,10671000,Top 5%,18.5
+1989,Black Alone,10486000,Lowest,3.2
+1989,Black Alone,10486000,Second,8
+1989,Black Alone,10486000,Third,15
+1989,Black Alone,10486000,Fourth,24.9
+1989,Black Alone,10486000,Highest,48.9
+1989,Black Alone,10486000,Top 5%,18.2
+1988,Black Alone,10561000,Lowest,3.3
+1988,Black Alone,10561000,Second,7.7
+1988,Black Alone,10561000,Third,14.6
+1988,Black Alone,10561000,Fourth,24.7
+1988,Black Alone,10561000,Highest,49.7
+1988,Black Alone,10561000,Top 5%,18.7
+1987,Black Alone,10192000,Lowest,3.2
+1987,Black Alone,10192000,Second,7.9
+1987,Black Alone,10192000,Third,14.8
+1987,Black Alone,10192000,Fourth,24.4
+1987,Black Alone,10192000,Highest,49.7
+1987,Black Alone,10192000,Top 5%,19.2
+1986,Black Alone,9922000,Lowest,3.1
+1986,Black Alone,9922000,Second,8
+1986,Black Alone,9922000,Third,14.9
+1986,Black Alone,9922000,Fourth,25
+1986,Black Alone,9922000,Highest,49
+1986,Black Alone,9922000,Top 5%,18.6
+1985,Black Alone,9797000,Lowest,3.5
+1985,Black Alone,9797000,Second,8.3
+1985,Black Alone,9797000,Third,15.2
+1985,Black Alone,9797000,Fourth,24.9
+1985,Black Alone,9797000,Highest,48
+1985,Black Alone,9797000,Top 5%,17.6
+1984,Black Alone,9480000,Lowest,3.6
+1984,Black Alone,9480000,Second,8.4
+1984,Black Alone,9480000,Third,15
+1984,Black Alone,9480000,Fourth,24.7
+1984,Black Alone,9480000,Highest,48.4
+1984,Black Alone,9480000,Top 5%,17.6
+1983,Black Alone,9236000,Lowest,3.5
+1983,Black Alone,9236000,Second,8.3
+1983,Black Alone,9236000,Third,15.1
+1983,Black Alone,9236000,Fourth,25.1
+1983,Black Alone,9236000,Highest,47.9
+1983,Black Alone,9236000,Top 5%,17.1
+1982,Black Alone,8916000,Lowest,3.6
+1982,Black Alone,8916000,Second,8.6
+1982,Black Alone,8916000,Third,15.3
+1982,Black Alone,8916000,Fourth,25.5
+1982,Black Alone,8916000,Highest,47.1
+1982,Black Alone,8916000,Top 5%,17.1
+1981,Black Alone,8961000,Lowest,3.7
+1981,Black Alone,8961000,Second,8.5
+1981,Black Alone,8961000,Third,15.2
+1981,Black Alone,8961000,Fourth,25.3
+1981,Black Alone,8961000,Highest,47.3
+1981,Black Alone,8961000,Top 5%,16.6
+1980,Black Alone,8847000,Lowest,3.7
+1980,Black Alone,8847000,Second,8.7
+1980,Black Alone,8847000,Third,15.3
+1980,Black Alone,8847000,Fourth,25.2
+1980,Black Alone,8847000,Highest,47.1
+1980,Black Alone,8847000,Top 5%,16.9
+1979,Black Alone,8586000,Lowest,3.8
+1979,Black Alone,8586000,Second,8.8
+1979,Black Alone,8586000,Third,15.5
+1979,Black Alone,8586000,Fourth,25.3
+1979,Black Alone,8586000,Highest,46.6
+1979,Black Alone,8586000,Top 5%,16.5
+1978,Black Alone,8066000,Lowest,3.9
+1978,Black Alone,8066000,Second,8.7
+1978,Black Alone,8066000,Third,15.6
+1978,Black Alone,8066000,Fourth,25.3
+1978,Black Alone,8066000,Highest,46.5
+1978,Black Alone,8066000,Top 5%,16.5
+1977,Black Alone,7977000,Lowest,4.2
+1977,Black Alone,7977000,Second,9.2
+1977,Black Alone,7977000,Third,15.5
+1977,Black Alone,7977000,Fourth,24.9
+1977,Black Alone,7977000,Highest,46.3
+1977,Black Alone,7977000,Top 5%,16.8
+1976,Black Alone,7776000,Lowest,4.2
+1976,Black Alone,7776000,Second,9.1
+1976,Black Alone,7776000,Third,15.7
+1976,Black Alone,7776000,Fourth,25.4
+1976,Black Alone,7776000,Highest,45.6
+1976,Black Alone,7776000,Top 5%,16.3
+1975,Black Alone,7489000,Lowest,4.1
+1975,Black Alone,7489000,Second,9
+1975,Black Alone,7489000,Third,16
+1975,Black Alone,7489000,Fourth,25.5
+1975,Black Alone,7489000,Highest,45.4
+1975,Black Alone,7489000,Top 5%,16
+1974,Black Alone,7263000,Lowest,4.2
+1974,Black Alone,7263000,Second,9.4
+1974,Black Alone,7263000,Third,16.1
+1974,Black Alone,7263000,Fourth,25.2
+1974,Black Alone,7263000,Highest,45.1
+1974,Black Alone,7263000,Top 5%,15.8
+1973,Black Alone,7040000,Lowest,4
+1973,Black Alone,7040000,Second,9.3
+1973,Black Alone,7040000,Third,16
+1973,Black Alone,7040000,Fourth,25.1
+1973,Black Alone,7040000,Highest,45.6
+1973,Black Alone,7040000,Top 5%,16.9
+1972,Black Alone,6809000,Lowest,3.9
+1972,Black Alone,6809000,Second,9.2
+1972,Black Alone,6809000,Third,15.8
+1972,Black Alone,6809000,Fourth,24.9
+1972,Black Alone,6809000,Highest,46.2
+1972,Black Alone,6809000,Top 5%,16.8
+1971,Black Alone,6578000,Lowest,4
+1971,Black Alone,6578000,Second,9.3
+1971,Black Alone,6578000,Third,16.1
+1971,Black Alone,6578000,Fourth,25.1
+1971,Black Alone,6578000,Highest,45.4
+1971,Black Alone,6578000,Top 5%,16.4
+1970,Black Alone,6180000,Lowest,3.7
+1970,Black Alone,6180000,Second,9.4
+1970,Black Alone,6180000,Third,16.3
+1970,Black Alone,6180000,Fourth,25.2
+1970,Black Alone,6180000,Highest,45.5
+1970,Black Alone,6180000,Top 5%,16.4
+1969,Black Alone,6053000,Lowest,3.9
+1969,Black Alone,6053000,Second,9.7
+1969,Black Alone,6053000,Third,16.5
+1969,Black Alone,6053000,Fourth,25.1
+1969,Black Alone,6053000,Highest,44.7
+1969,Black Alone,6053000,Top 5%,15.9
+1968,Black Alone,5870000,Lowest,4
+1968,Black Alone,5870000,Second,9.8
+1968,Black Alone,5870000,Third,16.3
+1968,Black Alone,5870000,Fourth,25.1
+1968,Black Alone,5870000,Highest,44.8
+1968,Black Alone,5870000,Top 5%,15.9
+1967,Black Alone,5728000,Lowest,3.8
+1967,Black Alone,5728000,Second,9.3
+1967,Black Alone,5728000,Third,15.9
+1967,Black Alone,5728000,Fourth,24.3
+1967,Black Alone,5728000,Highest,46.7
+1967,Black Alone,5728000,Top 5%,18.2
+2019,Hispanic,17667000,Lowest,3.6
+2019,Hispanic,17667000,Second,9.3
+2019,Hispanic,17667000,Third,15
+2019,Hispanic,17667000,Fourth,23.3
+2019,Hispanic,17667000,Highest,48.9
+2019,Hispanic,17667000,Top 5%,19.8
+2018,Hispanic,17758000,Lowest,3.5
+2018,Hispanic,17758000,Second,8.9
+2018,Hispanic,17758000,Third,14.5
+2018,Hispanic,17758000,Fourth,22.5
+2018,Hispanic,17758000,Highest,50.6
+2018,Hispanic,17758000,Top 5%,22.7
+2017,Hispanic,17318000,Lowest,3.5
+2017,Hispanic,17318000,Second,8.9
+2017,Hispanic,17318000,Third,14.8
+2017,Hispanic,17318000,Fourth,23.2
+2017,Hispanic,17318000,Highest,49.6
+2017,Hispanic,17318000,Top 5%,21.2
+2016,Hispanic,16915000,Lowest,3.5
+2016,Hispanic,16915000,Second,8.8
+2016,Hispanic,16915000,Third,14.4
+2016,Hispanic,16915000,Fourth,22.6
+2016,Hispanic,16915000,Highest,50.7
+2016,Hispanic,16915000,Top 5%,22.9
+2015,Hispanic,16667000,Lowest,3.4
+2015,Hispanic,16667000,Second,8.6
+2015,Hispanic,16667000,Third,14.1
+2015,Hispanic,16667000,Fourth,22.4
+2015,Hispanic,16667000,Highest,51.6
+2015,Hispanic,16667000,Top 5%,23.4
+2014,Hispanic,16239000,Lowest,3.6
+2014,Hispanic,16239000,Second,9
+2014,Hispanic,16239000,Third,14.9
+2014,Hispanic,16239000,Fourth,23.4
+2014,Hispanic,16239000,Highest,49.2
+2014,Hispanic,16239000,Top 5%,20.6
+2013,Hispanic,16088000,Lowest,3.4
+2013,Hispanic,16088000,Second,8.5
+2013,Hispanic,16088000,Third,13.8
+2013,Hispanic,16088000,Fourth,22.5
+2013,Hispanic,16088000,Highest,51.9
+2013,Hispanic,16088000,Top 5%,22.9
+2012,Hispanic,15589000,Lowest,3.4
+2012,Hispanic,15589000,Second,8.9
+2012,Hispanic,15589000,Third,14.6
+2012,Hispanic,15589000,Fourth,23.1
+2012,Hispanic,15589000,Highest,50
+2012,Hispanic,15589000,Top 5%,21.3
+2011,Hispanic,14939000,Lowest,3.5
+2011,Hispanic,14939000,Second,9.1
+2011,Hispanic,14939000,Third,14.7
+2011,Hispanic,14939000,Fourth,22.9
+2011,Hispanic,14939000,Highest,49.7
+2011,Hispanic,14939000,Top 5%,20.8
+2010,Hispanic,14435000,Lowest,3.5
+2010,Hispanic,14435000,Second,9
+2010,Hispanic,14435000,Third,14.7
+2010,Hispanic,14435000,Fourth,23.4
+2010,Hispanic,14435000,Highest,49.4
+2010,Hispanic,14435000,Top 5%,20.6
+2009,Hispanic,13298000,Lowest,3.7
+2009,Hispanic,13298000,Second,9
+2009,Hispanic,13298000,Third,14.7
+2009,Hispanic,13298000,Fourth,23.1
+2009,Hispanic,13298000,Highest,49.5
+2009,Hispanic,13298000,Top 5%,20.9
+2008,Hispanic,13425000,Lowest,3.7
+2008,Hispanic,13425000,Second,9.2
+2008,Hispanic,13425000,Third,14.7
+2008,Hispanic,13425000,Fourth,23.2
+2008,Hispanic,13425000,Highest,49.2
+2008,Hispanic,13425000,Top 5%,20.3
+2007,Hispanic,13339000,Lowest,3.9
+2007,Hispanic,13339000,Second,9.5
+2007,Hispanic,13339000,Third,15.2
+2007,Hispanic,13339000,Fourth,23.5
+2007,Hispanic,13339000,Highest,47.9
+2007,Hispanic,13339000,Top 5%,19.9
+2006,Hispanic,12973000,Lowest,3.8
+2006,Hispanic,12973000,Second,9.3
+2006,Hispanic,12973000,Third,15
+2006,Hispanic,12973000,Fourth,22.9
+2006,Hispanic,12973000,Highest,48.9
+2006,Hispanic,12973000,Top 5%,20.7
+2005,Hispanic,12519000,Lowest,3.9
+2005,Hispanic,12519000,Second,9.5
+2005,Hispanic,12519000,Third,15.2
+2005,Hispanic,12519000,Fourth,23.3
+2005,Hispanic,12519000,Highest,48.1
+2005,Hispanic,12519000,Top 5%,19.8
+2004,Hispanic,12178000,Lowest,3.8
+2004,Hispanic,12178000,Second,9.3
+2004,Hispanic,12178000,Third,14.9
+2004,Hispanic,12178000,Fourth,22.9
+2004,Hispanic,12178000,Highest,49.1
+2004,Hispanic,12178000,Top 5%,21
+2003,Hispanic,11693000,Lowest,3.9
+2003,Hispanic,11693000,Second,9.4
+2003,Hispanic,11693000,Third,15
+2003,Hispanic,11693000,Fourth,23.1
+2003,Hispanic,11693000,Highest,48.6
+2003,Hispanic,11693000,Top 5%,20.4
+2002,Hispanic,11339000,Lowest,3.9
+2002,Hispanic,11339000,Second,9.4
+2002,Hispanic,11339000,Third,14.8
+2002,Hispanic,11339000,Fourth,22.9
+2002,Hispanic,11339000,Highest,49
+2002,Hispanic,11339000,Top 5%,21.4
+2001,Hispanic,10499000,Lowest,4
+2001,Hispanic,10499000,Second,9.4
+2001,Hispanic,10499000,Third,15.2
+2001,Hispanic,10499000,Fourth,23.2
+2001,Hispanic,10499000,Highest,48.3
+2001,Hispanic,10499000,Top 5%,20.5
+2000,Hispanic,10034000,Lowest,4
+2000,Hispanic,10034000,Second,9.4
+2000,Hispanic,10034000,Third,15.1
+2000,Hispanic,10034000,Fourth,22.9
+2000,Hispanic,10034000,Highest,48.5
+2000,Hispanic,10034000,Top 5%,21.6
+1999,Hispanic,9579000,Lowest,4.1
+1999,Hispanic,9579000,Second,9.5
+1999,Hispanic,9579000,Third,15.2
+1999,Hispanic,9579000,Fourth,23.4
+1999,Hispanic,9579000,Highest,47.8
+1999,Hispanic,9579000,Top 5%,19.9
+1998,Hispanic,9060000,Lowest,3.6
+1998,Hispanic,9060000,Second,8.9
+1998,Hispanic,9060000,Third,14.8
+1998,Hispanic,9060000,Fourth,22.9
+1998,Hispanic,9060000,Highest,49.7
+1998,Hispanic,9060000,Top 5%,21.9
+1997,Hispanic,8590000,Lowest,3.6
+1997,Hispanic,8590000,Second,8.9
+1997,Hispanic,8590000,Third,14.9
+1997,Hispanic,8590000,Fourth,23.1
+1997,Hispanic,8590000,Highest,49.5
+1997,Hispanic,8590000,Top 5%,21.5
+1996,Hispanic,8225000,Lowest,3.8
+1996,Hispanic,8225000,Second,8.9
+1996,Hispanic,8225000,Third,14.7
+1996,Hispanic,8225000,Fourth,23.1
+1996,Hispanic,8225000,Highest,49.5
+1996,Hispanic,8225000,Top 5%,21.5
+1995,Hispanic,7939000,Lowest,3.8
+1995,Hispanic,7939000,Second,8.9
+1995,Hispanic,7939000,Third,14.8
+1995,Hispanic,7939000,Fourth,23.3
+1995,Hispanic,7939000,Highest,49.3
+1995,Hispanic,7939000,Top 5%,20.8
+1994,Hispanic,7735000,Lowest,3.7
+1994,Hispanic,7735000,Second,8.7
+1994,Hispanic,7735000,Third,14.8
+1994,Hispanic,7735000,Fourth,23.2
+1994,Hispanic,7735000,Highest,49.6
+1994,Hispanic,7735000,Top 5%,21
+1993,Hispanic,7362000,Lowest,3.9
+1993,Hispanic,7362000,Second,9.1
+1993,Hispanic,7362000,Third,15.1
+1993,Hispanic,7362000,Fourth,23.1
+1993,Hispanic,7362000,Highest,48.7
+1993,Hispanic,7362000,Top 5%,20.4
+1992,Hispanic,7153000,Lowest,3.9
+1992,Hispanic,7153000,Second,9.4
+1992,Hispanic,7153000,Third,15.7
+1992,Hispanic,7153000,Fourth,24.1
+1992,Hispanic,7153000,Highest,46.9
+1992,Hispanic,7153000,Top 5%,18.1
+1991,Hispanic,6379000,Lowest,4
+1991,Hispanic,6379000,Second,9.4
+1991,Hispanic,6379000,Third,15.8
+1991,Hispanic,6379000,Fourth,24.3
+1991,Hispanic,6379000,Highest,46.5
+1991,Hispanic,6379000,Top 5%,17.7
+1990,Hispanic,6220000,Lowest,4
+1990,Hispanic,6220000,Second,9.5
+1990,Hispanic,6220000,Third,15.9
+1990,Hispanic,6220000,Fourth,24.3
+1990,Hispanic,6220000,Highest,46.3
+1990,Hispanic,6220000,Top 5%,17.9
+1989,Hispanic,5933000,Lowest,3.8
+1989,Hispanic,5933000,Second,9.5
+1989,Hispanic,5933000,Third,15.7
+1989,Hispanic,5933000,Fourth,24.4
+1989,Hispanic,5933000,Highest,46.6
+1989,Hispanic,5933000,Top 5%,18.1
+1988,Hispanic,5910000,Lowest,3.7
+1988,Hispanic,5910000,Second,9.3
+1988,Hispanic,5910000,Third,15.6
+1988,Hispanic,5910000,Fourth,24.2
+1988,Hispanic,5910000,Highest,47.2
+1988,Hispanic,5910000,Top 5%,19
+1987,Hispanic,5642000,Lowest,3.7
+1987,Hispanic,5642000,Second,9.1
+1987,Hispanic,5642000,Third,15.4
+1987,Hispanic,5642000,Fourth,24.1
+1987,Hispanic,5642000,Highest,47.6
+1987,Hispanic,5642000,Top 5%,19.2
+1986,Hispanic,5418000,Lowest,3.9
+1986,Hispanic,5418000,Second,9.5
+1986,Hispanic,5418000,Third,15.8
+1986,Hispanic,5418000,Fourth,24.8
+1986,Hispanic,5418000,Highest,46.1
+1986,Hispanic,5418000,Top 5%,16.9
+1985,Hispanic,5213000,Lowest,4.1
+1985,Hispanic,5213000,Second,9.4
+1985,Hispanic,5213000,Third,16.1
+1985,Hispanic,5213000,Fourth,24.7
+1985,Hispanic,5213000,Highest,45.6
+1985,Hispanic,5213000,Top 5%,16.6
+1984,Hispanic,4883000,Lowest,3.9
+1984,Hispanic,4883000,Second,9.5
+1984,Hispanic,4883000,Third,16.2
+1984,Hispanic,4883000,Fourth,24.9
+1984,Hispanic,4883000,Highest,45.5
+1984,Hispanic,4883000,Top 5%,16.9
+1983,Hispanic,4666000,Lowest,4.1
+1983,Hispanic,4666000,Second,9.6
+1983,Hispanic,4666000,Third,16.3
+1983,Hispanic,4666000,Fourth,24.8
+1983,Hispanic,4666000,Highest,45.2
+1983,Hispanic,4666000,Top 5%,16.3
+1982,Hispanic,4085000,Lowest,4.2
+1982,Hispanic,4085000,Second,9.6
+1982,Hispanic,4085000,Third,16.1
+1982,Hispanic,4085000,Fourth,24.6
+1982,Hispanic,4085000,Highest,45.5
+1982,Hispanic,4085000,Top 5%,17
+1981,Hispanic,3980000,Lowest,4.4
+1981,Hispanic,3980000,Second,10.2
+1981,Hispanic,3980000,Third,16.6
+1981,Hispanic,3980000,Fourth,24.7
+1981,Hispanic,3980000,Highest,44
+1981,Hispanic,3980000,Top 5%,15.9
+1980,Hispanic,3906000,Lowest,4.3
+1980,Hispanic,3906000,Second,10.1
+1980,Hispanic,3906000,Third,16.3
+1980,Hispanic,3906000,Fourth,24.7
+1980,Hispanic,3906000,Highest,44.5
+1980,Hispanic,3906000,Top 5%,16.5
+1979,Hispanic,3684000,Lowest,4.5
+1979,Hispanic,3684000,Second,10.5
+1979,Hispanic,3684000,Third,16.6
+1979,Hispanic,3684000,Fourth,24.5
+1979,Hispanic,3684000,Highest,43.9
+1979,Hispanic,3684000,Top 5%,16.3
+1978,Hispanic,3291000,Lowest,4.7
+1978,Hispanic,3291000,Second,10.7
+1978,Hispanic,3291000,Third,16.9
+1978,Hispanic,3291000,Fourth,24.9
+1978,Hispanic,3291000,Highest,42.8
+1978,Hispanic,3291000,Top 5%,15.5
+1977,Hispanic,3304000,Lowest,4.9
+1977,Hispanic,3304000,Second,10.7
+1977,Hispanic,3304000,Third,16.9
+1977,Hispanic,3304000,Fourth,24.6
+1977,Hispanic,3304000,Highest,42.9
+1977,Hispanic,3304000,Top 5%,15.6
+1976,Hispanic,3081000,Lowest,4.7
+1976,Hispanic,3081000,Second,10.4
+1976,Hispanic,3081000,Third,16.8
+1976,Hispanic,3081000,Fourth,25.1
+1976,Hispanic,3081000,Highest,42.9
+1976,Hispanic,3081000,Top 5%,15.4
+1975,Hispanic,2948000,Lowest,4.7
+1975,Hispanic,2948000,Second,10.6
+1975,Hispanic,2948000,Third,16.8
+1975,Hispanic,2948000,Fourth,24.8
+1975,Hispanic,2948000,Highest,43.1
+1975,Hispanic,2948000,Top 5%,16.1
+1974,Hispanic,2897000,Lowest,5.1
+1974,Hispanic,2897000,Second,10.9
+1974,Hispanic,2897000,Third,17.1
+1974,Hispanic,2897000,Fourth,24.7
+1974,Hispanic,2897000,Highest,42.3
+1974,Hispanic,2897000,Top 5%,15.4
+1973,Hispanic,2722000,Lowest,5.1
+1973,Hispanic,2722000,Second,11.3
+1973,Hispanic,2722000,Third,17.3
+1973,Hispanic,2722000,Fourth,24.9
+1973,Hispanic,2722000,Highest,41.4
+1973,Hispanic,2722000,Top 5%,14.7
+1972,Hispanic,2655000,Lowest,5.3
+1972,Hispanic,2655000,Second,11.2
+1972,Hispanic,2655000,Third,17.2
+1972,Hispanic,2655000,Fourth,24
+1972,Hispanic,2655000,Highest,42.3
+1972,Hispanic,2655000,Top 5%,16.2
+2019,White Alone,100568000,Lowest,3.3
+2019,White Alone,100568000,Second,8.6
+2019,White Alone,100568000,Third,14.2
+2019,White Alone,100568000,Fourth,22.6
+2019,White Alone,100568000,Highest,51.2
+2019,White Alone,100568000,Top 5%,22.7
+2018,White Alone,100528000,Lowest,3.3
+2018,White Alone,100528000,Second,8.6
+2018,White Alone,100528000,Third,14.3
+2018,White Alone,100528000,Fourth,22.4
+2018,White Alone,100528000,Highest,51.4
+2018,White Alone,100528000,Top 5%,23
+2017,White Alone,100065000,Lowest,3.3
+2017,White Alone,100065000,Second,8.5
+2017,White Alone,100065000,Third,14.5
+2017,White Alone,100065000,Fourth,23
+2017,White Alone,100065000,Highest,50.6
+2017,White Alone,100065000,Top 5%,21.9
+2016,White Alone,99400000,Lowest,3.4
+2016,White Alone,99400000,Second,8.6
+2016,White Alone,99400000,Third,14.4
+2016,White Alone,99400000,Fourth,22.9
+2016,White Alone,99400000,Highest,50.8
+2016,White Alone,99400000,Top 5%,22.2
+2015,White Alone,99313000,Lowest,3.4
+2015,White Alone,99313000,Second,8.5
+2015,White Alone,99313000,Third,14.6
+2015,White Alone,99313000,Fourth,23.3
+2015,White Alone,99313000,Highest,50.2
+2015,White Alone,99313000,Top 5%,21.6
+2014,White Alone,98679000,Lowest,3.3
+2014,White Alone,98679000,Second,8.5
+2014,White Alone,98679000,Third,14.5
+2014,White Alone,98679000,Fourth,23.1
+2014,White Alone,98679000,Highest,50.6
+2014,White Alone,98679000,Top 5%,21.7
+2013,White Alone,98807000,Lowest,3.3
+2013,White Alone,98807000,Second,8.5
+2013,White Alone,98807000,Third,14.6
+2013,White Alone,98807000,Fourth,23
+2013,White Alone,98807000,Highest,50.6
+2013,White Alone,98807000,Top 5%,21.6
+2012,White Alone,97705000,Lowest,3.5
+2012,White Alone,97705000,Second,8.6
+2012,White Alone,97705000,Third,14.5
+2012,White Alone,97705000,Fourth,23
+2012,White Alone,97705000,Highest,50.5
+2012,White Alone,97705000,Top 5%,22.1
+2011,White Alone,96964000,Lowest,3.5
+2011,White Alone,96964000,Second,8.6
+2011,White Alone,96964000,Third,14.5
+2011,White Alone,96964000,Fourth,22.9
+2011,White Alone,96964000,Highest,50.5
+2011,White Alone,96964000,Top 5%,22.1
+2010,White Alone,96306000,Lowest,3.5
+2010,White Alone,96306000,Second,8.7
+2010,White Alone,96306000,Third,14.7
+2010,White Alone,96306000,Fourth,23.3
+2010,White Alone,96306000,Highest,49.7
+2010,White Alone,96306000,Top 5%,21.1
+2009,White Alone,95489000,Lowest,3.7
+2009,White Alone,95489000,Second,8.9
+2009,White Alone,95489000,Third,14.8
+2009,White Alone,95489000,Fourth,23.2
+2009,White Alone,95489000,Highest,49.5
+2009,White Alone,95489000,Top 5%,21.3
+2008,White Alone,95297000,Lowest,3.6
+2008,White Alone,95297000,Second,8.8
+2008,White Alone,95297000,Third,14.8
+2008,White Alone,95297000,Fourth,23.3
+2008,White Alone,95297000,Highest,49.4
+2008,White Alone,95297000,Top 5%,21.3
+2007,White Alone,95112000,Lowest,3.7
+2007,White Alone,95112000,Second,8.9
+2007,White Alone,95112000,Third,14.9
+2007,White Alone,95112000,Fourth,23.3
+2007,White Alone,95112000,Highest,49.2
+2007,White Alone,95112000,Top 5%,21
+2006,White Alone,94705000,Lowest,3.7
+2006,White Alone,94705000,Second,8.9
+2006,White Alone,94705000,Third,14.6
+2006,White Alone,94705000,Fourth,22.9
+2006,White Alone,94705000,Highest,49.9
+2006,White Alone,94705000,Top 5%,22
+2005,White Alone,93588000,Lowest,3.6
+2005,White Alone,93588000,Second,8.9
+2005,White Alone,93588000,Third,14.7
+2005,White Alone,93588000,Fourth,22.9
+2005,White Alone,93588000,Highest,49.9
+2005,White Alone,93588000,Top 5%,22.1
+2004,White Alone,92880000,Lowest,3.6
+2004,White Alone,92880000,Second,8.8
+2004,White Alone,92880000,Third,14.8
+2004,White Alone,92880000,Fourth,23.1
+2004,White Alone,92880000,Highest,49.6
+2004,White Alone,92880000,Top 5%,21.6
+2003,White Alone,91962000,Lowest,3.6
+2003,White Alone,91962000,Second,8.9
+2003,White Alone,91962000,Third,14.8
+2003,White Alone,91962000,Fourth,23.2
+2003,White Alone,91962000,Highest,49.4
+2003,White Alone,91962000,Top 5%,21.4
+2002,White Alone,91645000,Lowest,3.7
+2002,White Alone,91645000,Second,9
+2002,White Alone,91645000,Third,15
+2002,White Alone,91645000,Fourth,23.2
+2002,White Alone,91645000,Highest,49.2
+2002,White Alone,91645000,Top 5%,21.5
+2001,White Alone,90682000,Lowest,3.7
+2001,White Alone,90682000,Second,8.9
+2001,White Alone,90682000,Third,14.7
+2001,White Alone,90682000,Fourth,22.9
+2001,White Alone,90682000,Highest,49.8
+2001,White Alone,90682000,Top 5%,22.2
+2000,White Alone,90030000,Lowest,3.7
+2000,White Alone,90030000,Second,9
+2000,White Alone,90030000,Third,14.9
+2000,White Alone,90030000,Fourth,22.9
+2000,White Alone,90030000,Highest,49.5
+2000,White Alone,90030000,Top 5%,22.1
+1999,White Alone,88893000,Lowest,3.9
+1999,White Alone,88893000,Second,9.1
+1999,White Alone,88893000,Third,15
+1999,White Alone,88893000,Fourth,23.1
+1999,White Alone,88893000,Highest,49
+1999,White Alone,88893000,Top 5%,21.5
+1998,White Alone,87212000,Lowest,3.8
+1998,White Alone,87212000,Second,9.2
+1998,White Alone,87212000,Third,15.1
+1998,White Alone,87212000,Fourth,23
+1998,White Alone,87212000,Highest,48.8
+1998,White Alone,87212000,Top 5%,21.5
+1997,White Alone,86106000,Lowest,3.8
+1997,White Alone,86106000,Second,9.1
+1997,White Alone,86106000,Third,15
+1997,White Alone,86106000,Fourth,23
+1997,White Alone,86106000,Highest,49.1
+1997,White Alone,86106000,Top 5%,21.7
+1996,White Alone,85059000,Lowest,3.9
+1996,White Alone,85059000,Second,9.2
+1996,White Alone,85059000,Third,15.2
+1996,White Alone,85059000,Fourth,23.2
+1996,White Alone,85059000,Highest,48.4
+1996,White Alone,85059000,Top 5%,21
+1995,White Alone,84511000,Lowest,4
+1995,White Alone,84511000,Second,9.3
+1995,White Alone,84511000,Third,15.3
+1995,White Alone,84511000,Fourth,23.3
+1995,White Alone,84511000,Highest,48.1
+1995,White Alone,84511000,Top 5%,20.7
+1994,White Alone,83737000,Lowest,3.8
+1994,White Alone,83737000,Second,9.2
+1994,White Alone,83737000,Third,15.1
+1994,White Alone,83737000,Fourth,23.2
+1994,White Alone,83737000,Highest,48.6
+1994,White Alone,83737000,Top 5%,21.1
+1993,White Alone,82387000,Lowest,3.9
+1993,White Alone,82387000,Second,9.3
+1993,White Alone,82387000,Third,15.3
+1993,White Alone,82387000,Fourth,23.3
+1993,White Alone,82387000,Highest,48.2
+1993,White Alone,82387000,Top 5%,20.7
+1992,White Alone,81795000,Lowest,4.1
+1992,White Alone,81795000,Second,9.7
+1992,White Alone,81795000,Third,15.9
+1992,White Alone,81795000,Fourth,24.1
+1992,White Alone,81795000,Highest,46.2
+1992,White Alone,81795000,Top 5%,18.3
+1991,White Alone,81675000,Lowest,4.1
+1991,White Alone,81675000,Second,9.9
+1991,White Alone,81675000,Third,16
+1991,White Alone,81675000,Fourth,24.1
+1991,White Alone,81675000,Highest,45.8
+1991,White Alone,81675000,Top 5%,17.9
+1990,White Alone,80968000,Lowest,4.2
+1990,White Alone,80968000,Second,10
+1990,White Alone,80968000,Third,16
+1990,White Alone,80968000,Fourth,23.9
+1990,White Alone,80968000,Highest,46
+1990,White Alone,80968000,Top 5%,18.3
+1989,White Alone,80163000,Lowest,4.1
+1989,White Alone,80163000,Second,9.8
+1989,White Alone,80163000,Third,16
+1989,White Alone,80163000,Fourth,23.8
+1989,White Alone,80163000,Highest,46.3
+1989,White Alone,80163000,Top 5%,18.7
+1988,White Alone,79734000,Lowest,4.1
+1988,White Alone,79734000,Second,10
+1988,White Alone,79734000,Third,16.2
+1988,White Alone,79734000,Fourth,24.1
+1988,White Alone,79734000,Highest,45.6
+1988,White Alone,79734000,Top 5%,18
+1987,White Alone,78519000,Lowest,4.1
+1987,White Alone,78519000,Second,10
+1987,White Alone,78519000,Third,16.3
+1987,White Alone,78519000,Fourth,24.2
+1987,White Alone,78519000,Highest,45.5
+1987,White Alone,78519000,Top 5%,17.9
+1986,White Alone,77284000,Lowest,4.1
+1986,White Alone,77284000,Second,10
+1986,White Alone,77284000,Third,16.3
+1986,White Alone,77284000,Fourth,24.2
+1986,White Alone,77284000,Highest,45.4
+1986,White Alone,77284000,Top 5%,17.8
+1985,White Alone,76576000,Lowest,4.1
+1985,White Alone,76576000,Second,10.1
+1985,White Alone,76576000,Third,16.4
+1985,White Alone,76576000,Fourth,24.3
+1985,White Alone,76576000,Highest,45.1
+1985,White Alone,76576000,Top 5%,17.4
+1984,White Alone,75328000,Lowest,4.3
+1984,White Alone,75328000,Second,10.2
+1984,White Alone,75328000,Third,16.5
+1984,White Alone,75328000,Fourth,24.4
+1984,White Alone,75328000,Highest,44.6
+1984,White Alone,75328000,Top 5%,16.8
+1983,White Alone,74376000,Lowest,4.3
+1983,White Alone,74376000,Second,10.3
+1983,White Alone,74376000,Third,16.5
+1983,White Alone,74376000,Fourth,24.4
+1983,White Alone,74376000,Highest,44.5
+1983,White Alone,74376000,Top 5%,16.8
+1982,White Alone,73182000,Lowest,4.2
+1982,White Alone,73182000,Second,10.3
+1982,White Alone,73182000,Third,16.6
+1982,White Alone,73182000,Fourth,24.4
+1982,White Alone,73182000,Highest,44.4
+1982,White Alone,73182000,Top 5%,16.7
+1981,White Alone,72845000,Lowest,4.4
+1981,White Alone,72845000,Second,10.4
+1981,White Alone,72845000,Third,16.8
+1981,White Alone,72845000,Fourth,24.7
+1981,White Alone,72845000,Highest,43.7
+1981,White Alone,72845000,Top 5%,16.3
+1980,White Alone,71872000,Lowest,4.4
+1980,White Alone,71872000,Second,10.5
+1980,White Alone,71872000,Third,17
+1980,White Alone,71872000,Fourth,24.6
+1980,White Alone,71872000,Highest,43.5
+1980,White Alone,71872000,Top 5%,16.2
+1979,White Alone,70766000,Lowest,4.4
+1979,White Alone,70766000,Second,10.5
+1979,White Alone,70766000,Third,17
+1979,White Alone,70766000,Fourth,24.5
+1979,White Alone,70766000,Highest,43.7
+1979,White Alone,70766000,Top 5%,16.7
+1978,White Alone,68028000,Lowest,4.4
+1978,White Alone,68028000,Second,10.5
+1978,White Alone,68028000,Third,17
+1978,White Alone,68028000,Fourth,24.5
+1978,White Alone,68028000,Highest,43.6
+1978,White Alone,68028000,Top 5%,16.6
+1977,White Alone,66934000,Lowest,4.4
+1977,White Alone,66934000,Second,10.5
+1977,White Alone,66934000,Third,17
+1977,White Alone,66934000,Fourth,24.6
+1977,White Alone,66934000,Highest,43.5
+1977,White Alone,66934000,Top 5%,16.7
+1976,White Alone,65353000,Lowest,4.5
+1976,White Alone,65353000,Second,10.6
+1976,White Alone,65353000,Third,17.2
+1976,White Alone,65353000,Fourth,24.5
+1976,White Alone,65353000,Highest,43.2
+1976,White Alone,65353000,Top 5%,16.5
+1975,White Alone,64392000,Lowest,4.5
+1975,White Alone,64392000,Second,10.7
+1975,White Alone,64392000,Third,17.1
+1975,White Alone,64392000,Fourth,24.6
+1975,White Alone,64392000,Highest,43.2
+1975,White Alone,64392000,Top 5%,16.4
+1974,White Alone,62984000,Lowest,4.5
+1974,White Alone,62984000,Second,10.9
+1974,White Alone,62984000,Third,17.1
+1974,White Alone,62984000,Fourth,24.4
+1974,White Alone,62984000,Highest,43
+1974,White Alone,62984000,Top 5%,16.4
+1973,White Alone,61965000,Lowest,4.3
+1973,White Alone,61965000,Second,10.7
+1973,White Alone,61965000,Third,17.2
+1973,White Alone,61965000,Fourth,24.4
+1973,White Alone,61965000,Highest,43.4
+1973,White Alone,61965000,Top 5%,16.7
+1972,White Alone,60618000,Lowest,4.3
+1972,White Alone,60618000,Second,10.8
+1972,White Alone,60618000,Third,17.2
+1972,White Alone,60618000,Fourth,24.3
+1972,White Alone,60618000,Highest,43.4
+1972,White Alone,60618000,Top 5%,16.8
+1971,White Alone,59463000,Lowest,4.3
+1971,White Alone,59463000,Second,11
+1971,White Alone,59463000,Third,17.4
+1971,White Alone,59463000,Fourth,24.4
+1971,White Alone,59463000,Highest,43
+1971,White Alone,59463000,Top 5%,16.5
+1970,White Alone,57575000,Lowest,4.2
+1970,White Alone,57575000,Second,11.1
+1970,White Alone,57575000,Third,17.5
+1970,White Alone,57575000,Fourth,24.3
+1970,White Alone,57575000,Highest,42.9
+1970,White Alone,57575000,Top 5%,16.5
+1969,White Alone,56248000,Lowest,4.3
+1969,White Alone,56248000,Second,11.3
+1969,White Alone,56248000,Third,17.6
+1969,White Alone,56248000,Fourth,24.3
+1969,White Alone,56248000,Highest,42.5
+1969,White Alone,56248000,Top 5%,16.4
+1968,White Alone,55394000,Lowest,4.4
+1968,White Alone,55394000,Second,11.5
+1968,White Alone,55394000,Third,17.7
+1968,White Alone,55394000,Fourth,24.3
+1968,White Alone,55394000,Highest,42.1
+1968,White Alone,55394000,Top 5%,16.2
+1967,White Alone,54188000,Lowest,4.1
+1967,White Alone,54188000,Second,11.3
+1967,White Alone,54188000,Third,17.4
+1967,White Alone,54188000,Fourth,24.1
+1967,White Alone,54188000,Highest,43.1
+1967,White Alone,54188000,Top 5%,17
+2019,"White, Not Hispanic",84868000,Lowest,3.3
+2019,"White, Not Hispanic",84868000,Second,8.6
+2019,"White, Not Hispanic",84868000,Third,14.3
+2019,"White, Not Hispanic",84868000,Fourth,22.6
+2019,"White, Not Hispanic",84868000,Highest,51.2
+2019,"White, Not Hispanic",84868000,Top 5%,22.8
+2018,"White, Not Hispanic",84727000,Lowest,3.3
+2018,"White, Not Hispanic",84727000,Second,8.6
+2018,"White, Not Hispanic",84727000,Third,14.4
+2018,"White, Not Hispanic",84727000,Fourth,22.5
+2018,"White, Not Hispanic",84727000,Highest,51.1
+2018,"White, Not Hispanic",84727000,Top 5%,22.7
+2017,"White, Not Hispanic",84681000,Lowest,3.3
+2017,"White, Not Hispanic",84681000,Second,8.5
+2017,"White, Not Hispanic",84681000,Third,14.6
+2017,"White, Not Hispanic",84681000,Fourth,23.1
+2017,"White, Not Hispanic",84681000,Highest,50.4
+2017,"White, Not Hispanic",84681000,Top 5%,21.8
+2016,"White, Not Hispanic",84387000,Lowest,3.4
+2016,"White, Not Hispanic",84387000,Second,8.6
+2016,"White, Not Hispanic",84387000,Third,14.5
+2016,"White, Not Hispanic",84387000,Fourth,23
+2016,"White, Not Hispanic",84387000,Highest,50.4
+2016,"White, Not Hispanic",84387000,Top 5%,21.8
+2015,"White, Not Hispanic",84445000,Lowest,3.5
+2015,"White, Not Hispanic",84445000,Second,8.6
+2015,"White, Not Hispanic",84445000,Third,14.8
+2015,"White, Not Hispanic",84445000,Fourth,23.4
+2015,"White, Not Hispanic",84445000,Highest,49.7
+2015,"White, Not Hispanic",84445000,Top 5%,21.3
+2014,"White, Not Hispanic",84228000,Lowest,3.3
+2014,"White, Not Hispanic",84228000,Second,8.5
+2014,"White, Not Hispanic",84228000,Third,14.6
+2014,"White, Not Hispanic",84228000,Fourth,23.2
+2014,"White, Not Hispanic",84228000,Highest,50.3
+2014,"White, Not Hispanic",84228000,Top 5%,21.5
+2013,"White, Not Hispanic",84432000,Lowest,3.4
+2013,"White, Not Hispanic",84432000,Second,8.7
+2013,"White, Not Hispanic",84432000,Third,14.8
+2013,"White, Not Hispanic",84432000,Fourth,23.1
+2013,"White, Not Hispanic",84432000,Highest,50.1
+2013,"White, Not Hispanic",84432000,Top 5%,21.3
+2012,"White, Not Hispanic",83792000,Lowest,3.5
+2012,"White, Not Hispanic",83792000,Second,8.7
+2012,"White, Not Hispanic",83792000,Third,14.7
+2012,"White, Not Hispanic",83792000,Fourth,23
+2012,"White, Not Hispanic",83792000,Highest,50.2
+2012,"White, Not Hispanic",83792000,Top 5%,22
+2011,"White, Not Hispanic",83573000,Lowest,3.5
+2011,"White, Not Hispanic",83573000,Second,8.7
+2011,"White, Not Hispanic",83573000,Third,14.6
+2011,"White, Not Hispanic",83573000,Fourth,22.9
+2011,"White, Not Hispanic",83573000,Highest,50.2
+2011,"White, Not Hispanic",83573000,Top 5%,22
+2010,"White, Not Hispanic",83314000,Lowest,3.6
+2010,"White, Not Hispanic",83314000,Second,8.8
+2010,"White, Not Hispanic",83314000,Third,14.9
+2010,"White, Not Hispanic",83314000,Fourth,23.4
+2010,"White, Not Hispanic",83314000,Highest,49.4
+2010,"White, Not Hispanic",83314000,Top 5%,21
+2009,"White, Not Hispanic",83158000,Lowest,3.7
+2009,"White, Not Hispanic",83158000,Second,9
+2009,"White, Not Hispanic",83158000,Third,14.9
+2009,"White, Not Hispanic",83158000,Fourth,23.2
+2009,"White, Not Hispanic",83158000,Highest,49.2
+2009,"White, Not Hispanic",83158000,Top 5%,21.2
+2008,"White, Not Hispanic",82884000,Lowest,3.7
+2008,"White, Not Hispanic",82884000,Second,8.9
+2008,"White, Not Hispanic",82884000,Third,15
+2008,"White, Not Hispanic",82884000,Fourth,23.2
+2008,"White, Not Hispanic",82884000,Highest,49.2
+2008,"White, Not Hispanic",82884000,Top 5%,21.2
+2007,"White, Not Hispanic",82765000,Lowest,3.7
+2007,"White, Not Hispanic",82765000,Second,9
+2007,"White, Not Hispanic",82765000,Third,15
+2007,"White, Not Hispanic",82765000,Fourth,23.4
+2007,"White, Not Hispanic",82765000,Highest,48.9
+2007,"White, Not Hispanic",82765000,Top 5%,20.9
+2006,"White, Not Hispanic",82675000,Lowest,3.7
+2006,"White, Not Hispanic",82675000,Second,8.9
+2006,"White, Not Hispanic",82675000,Third,14.8
+2006,"White, Not Hispanic",82675000,Fourth,23
+2006,"White, Not Hispanic",82675000,Highest,49.7
+2006,"White, Not Hispanic",82675000,Top 5%,22
+2005,"White, Not Hispanic",82003000,Lowest,3.6
+2005,"White, Not Hispanic",82003000,Second,8.9
+2005,"White, Not Hispanic",82003000,Third,14.8
+2005,"White, Not Hispanic",82003000,Fourth,22.9
+2005,"White, Not Hispanic",82003000,Highest,49.8
+2005,"White, Not Hispanic",82003000,Top 5%,22.1
+2004,"White, Not Hispanic",81628000,Lowest,3.6
+2004,"White, Not Hispanic",81628000,Second,8.9
+2004,"White, Not Hispanic",81628000,Third,15
+2004,"White, Not Hispanic",81628000,Fourth,23.1
+2004,"White, Not Hispanic",81628000,Highest,49.4
+2004,"White, Not Hispanic",81628000,Top 5%,21.6
+2003,"White, Not Hispanic",81148000,Lowest,3.6
+2003,"White, Not Hispanic",81148000,Second,9
+2003,"White, Not Hispanic",81148000,Third,15
+2003,"White, Not Hispanic",81148000,Fourth,23.3
+2003,"White, Not Hispanic",81148000,Highest,49.2
+2003,"White, Not Hispanic",81148000,Top 5%,21.3
+2002,"White, Not Hispanic",81166000,Lowest,3.7
+2002,"White, Not Hispanic",81166000,Second,9.1
+2002,"White, Not Hispanic",81166000,Third,15.1
+2002,"White, Not Hispanic",81166000,Fourth,23.3
+2002,"White, Not Hispanic",81166000,Highest,48.9
+2002,"White, Not Hispanic",81166000,Top 5%,21.3
+2001,"White, Not Hispanic",80818000,Lowest,3.7
+2001,"White, Not Hispanic",80818000,Second,8.9
+2001,"White, Not Hispanic",80818000,Third,14.8
+2001,"White, Not Hispanic",80818000,Fourth,22.9
+2001,"White, Not Hispanic",80818000,Highest,49.6
+2001,"White, Not Hispanic",80818000,Top 5%,22.2
+2000,"White, Not Hispanic",80527000,Lowest,3.7
+2000,"White, Not Hispanic",80527000,Second,9.1
+2000,"White, Not Hispanic",80527000,Third,15
+2000,"White, Not Hispanic",80527000,Fourth,22.9
+2000,"White, Not Hispanic",80527000,Highest,49.3
+2000,"White, Not Hispanic",80527000,Top 5%,21.9
+1999,"White, Not Hispanic",79819000,Lowest,3.9
+1999,"White, Not Hispanic",79819000,Second,9.2
+1999,"White, Not Hispanic",79819000,Third,15.1
+1999,"White, Not Hispanic",79819000,Fourth,23
+1999,"White, Not Hispanic",79819000,Highest,48.8
+1999,"White, Not Hispanic",79819000,Top 5%,21.4
+1998,"White, Not Hispanic",78577000,Lowest,3.9
+1998,"White, Not Hispanic",78577000,Second,9.3
+1998,"White, Not Hispanic",78577000,Third,15.3
+1998,"White, Not Hispanic",78577000,Fourth,23.1
+1998,"White, Not Hispanic",78577000,Highest,48.5
+1998,"White, Not Hispanic",78577000,Top 5%,21.3
+1997,"White, Not Hispanic",77936000,Lowest,3.8
+1997,"White, Not Hispanic",77936000,Second,9.2
+1997,"White, Not Hispanic",77936000,Third,15.2
+1997,"White, Not Hispanic",77936000,Fourth,23
+1997,"White, Not Hispanic",77936000,Highest,48.8
+1997,"White, Not Hispanic",77936000,Top 5%,21.5
+1996,"White, Not Hispanic",77240000,Lowest,3.9
+1996,"White, Not Hispanic",77240000,Second,9.4
+1996,"White, Not Hispanic",77240000,Third,15.4
+1996,"White, Not Hispanic",77240000,Fourth,23.2
+1996,"White, Not Hispanic",77240000,Highest,48.1
+1996,"White, Not Hispanic",77240000,Top 5%,20.9
+1995,"White, Not Hispanic",76932000,Lowest,4.1
+1995,"White, Not Hispanic",76932000,Second,9.5
+1995,"White, Not Hispanic",76932000,Third,15.4
+1995,"White, Not Hispanic",76932000,Fourth,23.2
+1995,"White, Not Hispanic",76932000,Highest,47.8
+1995,"White, Not Hispanic",76932000,Top 5%,20.5
+1994,"White, Not Hispanic",77004000,Lowest,3.9
+1994,"White, Not Hispanic",77004000,Second,9.3
+1994,"White, Not Hispanic",77004000,Third,15.2
+1994,"White, Not Hispanic",77004000,Fourth,23.2
+1994,"White, Not Hispanic",77004000,Highest,48.4
+1994,"White, Not Hispanic",77004000,Top 5%,21
+1993,"White, Not Hispanic",75697000,Lowest,3.9
+1993,"White, Not Hispanic",75697000,Second,9.4
+1993,"White, Not Hispanic",75697000,Third,15.4
+1993,"White, Not Hispanic",75697000,Fourth,23.3
+1993,"White, Not Hispanic",75697000,Highest,48
+1993,"White, Not Hispanic",75697000,Top 5%,20.6
+1992,"White, Not Hispanic",75107000,Lowest,4.1
+1992,"White, Not Hispanic",75107000,Second,9.8
+1992,"White, Not Hispanic",75107000,Third,16
+1992,"White, Not Hispanic",75107000,Fourth,24.1
+1992,"White, Not Hispanic",75107000,Highest,46
+1992,"White, Not Hispanic",75107000,Top 5%,18.2
+1991,"White, Not Hispanic",75625000,Lowest,4.2
+1991,"White, Not Hispanic",75625000,Second,10
+1991,"White, Not Hispanic",75625000,Third,16.1
+1991,"White, Not Hispanic",75625000,Fourth,24.1
+1991,"White, Not Hispanic",75625000,Highest,45.6
+1991,"White, Not Hispanic",75625000,Top 5%,17.8
+1990,"White, Not Hispanic",75035000,Lowest,4.2
+1990,"White, Not Hispanic",75035000,Second,10
+1990,"White, Not Hispanic",75035000,Third,16.1
+1990,"White, Not Hispanic",75035000,Fourth,23.9
+1990,"White, Not Hispanic",75035000,Highest,45.8
+1990,"White, Not Hispanic",75035000,Top 5%,18.3
+1989,"White, Not Hispanic",74495000,Lowest,4.2
+1989,"White, Not Hispanic",74495000,Second,9.9
+1989,"White, Not Hispanic",74495000,Third,16
+1989,"White, Not Hispanic",74495000,Fourth,23.8
+1989,"White, Not Hispanic",74495000,Highest,46.1
+1989,"White, Not Hispanic",74495000,Top 5%,18.7
+1988,"White, Not Hispanic",74067000,Lowest,4.2
+1988,"White, Not Hispanic",74067000,Second,10.1
+1988,"White, Not Hispanic",74067000,Third,16.3
+1988,"White, Not Hispanic",74067000,Fourth,24.1
+1988,"White, Not Hispanic",74067000,Highest,45.4
+1988,"White, Not Hispanic",74067000,Top 5%,17.9
+1987,"White, Not Hispanic",73120000,Lowest,4.2
+1987,"White, Not Hispanic",73120000,Second,10.1
+1987,"White, Not Hispanic",73120000,Third,16.4
+1987,"White, Not Hispanic",73120000,Fourth,24.1
+1987,"White, Not Hispanic",73120000,Highest,45.2
+1987,"White, Not Hispanic",73120000,Top 5%,17.8
+1986,"White, Not Hispanic",72067000,Lowest,4.1
+1986,"White, Not Hispanic",72067000,Second,10.1
+1986,"White, Not Hispanic",72067000,Third,16.4
+1986,"White, Not Hispanic",72067000,Fourth,24.2
+1986,"White, Not Hispanic",72067000,Highest,45.2
+1986,"White, Not Hispanic",72067000,Top 5%,17.8
+1985,"White, Not Hispanic",71540000,Lowest,4.2
+1985,"White, Not Hispanic",71540000,Second,10.2
+1985,"White, Not Hispanic",71540000,Third,16.4
+1985,"White, Not Hispanic",71540000,Fourth,24.3
+1985,"White, Not Hispanic",71540000,Highest,44.9
+1985,"White, Not Hispanic",71540000,Top 5%,17.3
+1984,"White, Not Hispanic",70586000,Lowest,4.3
+1984,"White, Not Hispanic",70586000,Second,10.3
+1984,"White, Not Hispanic",70586000,Third,16.6
+1984,"White, Not Hispanic",70586000,Fourth,24.4
+1984,"White, Not Hispanic",70586000,Highest,44.4
+1984,"White, Not Hispanic",70586000,Top 5%,16.7
+1983,"White, Not Hispanic",69648000,Lowest,4.3
+1983,"White, Not Hispanic",69648000,Second,10.3
+1983,"White, Not Hispanic",69648000,Third,16.6
+1983,"White, Not Hispanic",69648000,Fourth,24.4
+1983,"White, Not Hispanic",69648000,Highest,44.3
+1983,"White, Not Hispanic",69648000,Top 5%,16.8
+1982,"White, Not Hispanic",69214000,Lowest,4.3
+1982,"White, Not Hispanic",69214000,Second,10.4
+1982,"White, Not Hispanic",69214000,Third,16.7
+1982,"White, Not Hispanic",69214000,Fourth,24.4
+1982,"White, Not Hispanic",69214000,Highest,44.3
+1982,"White, Not Hispanic",69214000,Top 5%,16.7
+1981,"White, Not Hispanic",68996000,Lowest,4.4
+1981,"White, Not Hispanic",68996000,Second,10.4
+1981,"White, Not Hispanic",68996000,Third,16.9
+1981,"White, Not Hispanic",68996000,Fourth,24.6
+1981,"White, Not Hispanic",68996000,Highest,43.7
+1981,"White, Not Hispanic",68996000,Top 5%,16.2
+1980,"White, Not Hispanic",68106000,Lowest,4.4
+1980,"White, Not Hispanic",68106000,Second,10.6
+1980,"White, Not Hispanic",68106000,Third,17
+1980,"White, Not Hispanic",68106000,Fourth,24.6
+1980,"White, Not Hispanic",68106000,Highest,43.4
+1980,"White, Not Hispanic",68106000,Top 5%,16.2
+1979,"White, Not Hispanic",67203000,Lowest,4.4
+1979,"White, Not Hispanic",67203000,Second,10.6
+1979,"White, Not Hispanic",67203000,Third,17
+1979,"White, Not Hispanic",67203000,Fourth,24.5
+1979,"White, Not Hispanic",67203000,Highest,43.6
+1979,"White, Not Hispanic",67203000,Top 5%,16.6
+1978,"White, Not Hispanic",64836000,Lowest,4.4
+1978,"White, Not Hispanic",64836000,Second,10.5
+1978,"White, Not Hispanic",64836000,Third,17
+1978,"White, Not Hispanic",64836000,Fourth,24.5
+1978,"White, Not Hispanic",64836000,Highest,43.5
+1978,"White, Not Hispanic",64836000,Top 5%,16.6
+1977,"White, Not Hispanic",63721000,Lowest,4.4
+1977,"White, Not Hispanic",63721000,Second,10.6
+1977,"White, Not Hispanic",63721000,Third,17.1
+1977,"White, Not Hispanic",63721000,Fourth,24.6
+1977,"White, Not Hispanic",63721000,Highest,43.4
+1977,"White, Not Hispanic",63721000,Top 5%,16.7
+1976,"White, Not Hispanic",62365000,Lowest,4.5
+1976,"White, Not Hispanic",62365000,Second,10.7
+1976,"White, Not Hispanic",62365000,Third,17.2
+1976,"White, Not Hispanic",62365000,Fourth,24.5
+1976,"White, Not Hispanic",62365000,Highest,43.1
+1976,"White, Not Hispanic",62365000,Top 5%,16.5
+1975,"White, Not Hispanic",61533000,Lowest,4.5
+1975,"White, Not Hispanic",61533000,Second,10.7
+1975,"White, Not Hispanic",61533000,Third,17.2
+1975,"White, Not Hispanic",61533000,Fourth,24.5
+1975,"White, Not Hispanic",61533000,Highest,43
+1975,"White, Not Hispanic",61533000,Top 5%,16.4
+1974,"White, Not Hispanic",60164000,Lowest,4.5
+1974,"White, Not Hispanic",60164000,Second,10.9
+1974,"White, Not Hispanic",60164000,Third,17.2
+1974,"White, Not Hispanic",60164000,Fourth,24.4
+1974,"White, Not Hispanic",60164000,Highest,43
+1974,"White, Not Hispanic",60164000,Top 5%,16.3
+1973,"White, Not Hispanic",59276000,Lowest,4.3
+1973,"White, Not Hispanic",59276000,Second,10.8
+1973,"White, Not Hispanic",59276000,Third,17.2
+1973,"White, Not Hispanic",59276000,Fourth,24.4
+1973,"White, Not Hispanic",59276000,Highest,43.3
+1973,"White, Not Hispanic",59276000,Top 5%,16.7
+1972,"White, Not Hispanic",58004000,Lowest,4.2
+1972,"White, Not Hispanic",58004000,Second,10.8
+1972,"White, Not Hispanic",58004000,Third,17.3
+1972,"White, Not Hispanic",58004000,Fourth,24.3
+1972,"White, Not Hispanic",58004000,Highest,43.4
+1972,"White, Not Hispanic",58004000,Top 5%,16.8
