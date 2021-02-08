@@ -182,6 +182,8 @@ Mean income received by each fifth and top 5% of each racial group.
 
 ### Cleaning Script
 
+Note this is just how I cleaned the data, you can try to make some of this into functions, or you can work with the raw Excel files as I've uploaded them as well.
+
 ```{r}
 library(tidyverse)
 library(readxl)
