@@ -72,11 +72,11 @@ To cite the TidyTuesday repo/project in publications use:
 
 A BibTeX entry for LaTeX users is
 
-  @misc{tidytuesday,
-    title  = {Tidy Tuesday: A weekly data project aimed at the R ecosystem},
-    author = {Mock, Thomas},
-    url    = {https://github.com/rfordatascience/tidytuesday},
-    year   = {2021}
+  @misc{tidytuesday, 
+    title = {Tidy Tuesday: A weekly data project aimed at the R ecosystem}, 
+    author = {Mock, Thomas}, 
+    url = {https://github.com/rfordatascience/tidytuesday}, 
+    year = {2021} 
   }
 
 Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
