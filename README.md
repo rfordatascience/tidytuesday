@@ -77,6 +77,7 @@ A BibTeX entry for LaTeX users is
     title = {Tidy Tuesday: A weekly data project aimed at the R ecosystem}, 
     author = {Mock, Thomas}, 
     url = {https://github.com/rfordatascience/tidytuesday}, 
+    
     year = {2021} 
   }
 ```
@@ -97,6 +98,8 @@ Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github
 | 5 | `2021-01-26` | [Plastic Pollution](data/2021/2021-01-26/readme.md) | [Break Free from Plastic](https://www.breakfreefromplastic.org) | [Sarah Sauve](https://github.com/sarahsauve/TidyTuesdays/blob/master/BFFPDashboard/BlogPost.md) |
 | 6 | `2021-02-02` | [HBCU Enrollment](data/2021/2021-02-02/readme.md) | [Data.World](https://data.world/nces/hbcu-fall-enrollment-1976-2015) & [Data.World](https://data.world/nces/high-school-completion-and-bachelors-degree-attainment) | [HBCU Donations Article](https://theundefeated.com/features/how-hbcus-are-using-more-than-250-million-in-donations/) |
 | 7 | `2021-02-09` | [Wealth and Income](data/2021/2021-02-09/readme.md) | [Urban Institute](https://apps.urban.org/features/wealth-inequality-charts/) & [US Census](https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html) | [Urban Institute](https://apps.urban.org/features/wealth-inequality-charts/) |
+| 8 | `2021-02-16` | [W.E.B. Du Bois Challenge](data/2021/2021-02-16/readme.md) | [Du Bois Data Challenge](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge) | [Anthony Starks - Recreating Du Bois's data portraits](https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34) |
+
 
 ***  
 

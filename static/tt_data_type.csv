@@ -1,4 +1,12 @@
 Week,Date,year,data_files,data_type,delim
+8,2021-02-16,2021,freed_slaves.csv,csv,","
+8,2021-02-16,2021,census.csv,csv,","
+8,2021-02-16,2021,furniture.csv,csv,","
+8,2021-02-16,2021,city_rural.csv,csv,","
+8,2021-02-16,2021,income.csv,csv,","
+8,2021-02-16,2021,occupation.csv,csv,","
+8,2021-02-16,2021,conjugal.csv,csv,","
+8,2021-02-16,2021,georgia_pop.csv,csv,","
 7,2021-02-09,2021,home_owner.csv,csv,","
 7,2021-02-09,2021,income_aggregate.csv,csv,","
 7,2021-02-09,2021,income_distribution.csv,csv,","
