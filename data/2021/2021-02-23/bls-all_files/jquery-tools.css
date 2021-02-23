@@ -1,0 +1,195 @@
+/* root element for tabs  */
+.bootstrap .nav-tabs {border-bottom: 6px #900 solid;}
+ul.tabs {  
+	margin: 0 !important; 
+	padding: 0;
+	height: 26px;
+	border-bottom: 6px #900 solid;
+	
+}
+
+/* single tab */
+ul.tabs li {  
+	float:left;	 
+	padding:0; 
+	margin:0;  
+	list-style-type: none;	
+	list-style: none;	
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	float:left;
+	font-size:13px;
+	display:block;
+	padding: 3px 10px 5px 10px;	
+	text-decoration:none;
+	border: 1px solid #900;	
+	border-bottom: 6px solid #900;
+	height:16px;
+	background-image: url(/images/jquerytools/tab_background_off.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	background-color: #eee;
+	color: #333;
+	margin-right: 2px;
+	position:relative;
+	top:1px;	
+	-moz-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;	
+	-wedkit-border-radius:4px 4px 0 0;	
+}
+
+
+
+ul.tabs a:hover {
+	background-color: #900 !important;
+	background-image: none !important;
+	color: #fff !important;
+}
+ul.tabs a:visited {
+	color: #333;
+}
+	
+/* selected tab */
+ul.tabs a.current,.bootstrap ul.tabs .active.show {
+	background-image: url(/images/jquerytools/tab_background_on.png);
+	background-position: center;
+	background-repeat: repeat-x;	
+	background-color: #900 !important;
+	border: 1px solid #900;		
+	border-bottom: 6px solid #900;	
+	color: #fff;	
+	cursor: default;
+	font-weight: bold;
+}
+
+ul.tabs a.current:hover,.bootstrap ul.tabs .active.show:hover {
+	color: #fff !important;
+}
+
+/* bootstrap tab-content */
+.bootstrap.content-tab-panels .tab-content{ padding: 8px;border: 1px solid #ccc;border-top: 0;z-index: 1;}
+.bootstrap.content-tab-panels  ul.tabs {height: auto;}
+.bootstrap.content-tab-panels .nav-tabs a.tab_link {height: auto !important;top:5px;}
+
+/* tab pane */
+.panes < div {
+	display:none;
+	border-left: 1px solid #D2D5DA;
+	border-right: 1px solid #D2D5DA;
+	border-bottom: 1px solid #D2D5DA;
+	min-height:150px;
+	padding: 15px 20px;
+
+}
+
+/*OOH Panes have a border */
+#panes, ul.tabs + div.panes {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-top: 0;
+	z-index: 1;
+}
+
+
+/* blue tabs */
+ul.tabs.blue {  
+	border-bottom: 6px #2d4758 solid !important;
+}
+ul.tabs.blue a{
+	background-image:url(/images/jquerytools/ooh_tab_background_off.png);
+	border: 1px solid #2d4758;	
+	border-bottom: 6px solid #2d4758;
+}
+ul.tabs.blue a:hover, ul.tabs.blue a:focus {
+	background-color: #2d4758 !important;
+	color: #fff;
+	text-decoration: underline;
+}
+
+ul.tabs.blue a.current,.bootstrap ul.tabs.blue .active.show {
+	background: url(/images/content_box/content_box_heading_background.gif) repeat-x scroll center bottom #2d4758 !important;
+	border: 1px solid #2d4758;		
+	border-bottom: 6px solid #2d4758;	
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*------------------------------- Tooltips--------------------------------- */
+
+.tooltip-label {
+	text-decoration: none;
+	border-bottom: 1px dashed #ccc;
+	cursor: help;
+	}
+.tooltip {width:16em; border: 1px solid #ccc; background-color: #fff; color:#333; -moz-border-radius:10px; 	-webkit-border-radius: 10px; border-radius: 10px; padding: 0; font-family: Arial, Helvetica, sans-serif; z-index:10003; }
+.tooltip h4{ background-color: #900; color:#fff; padding: 0.5em 0.5em 0.5em 1em; font-size: 100%; -moz-border-radius-topleft:8px; -moz-border-radius-topright:8px; -webkit-border-radius: 8px 8px 0px 0px; border-radius: 8px 8px 0px 0px; text-transform:uppercase;}
+.tooltip p{ color: #333; padding: 0.5em 1em 1em; font-size: 100%; font-weight: normal; line-height: 1.4em;}
+
+
+
+/*--------------------------------------------------------------------------*/
+/* ----------------BLS Feature Archives page TABS-------------------------- */
+
+/* root element for tabs  */
+ul.archives-tabs {  
+	margin: 0 !important; 
+	padding: 0;
+	height: 26px;
+	border-bottom: 1px #d2d5da solid;
+	list-style: none !important;	
+	}
+   	
+	/* single tab */
+ul.archives-tabs li {  
+	float:left;	 
+	padding:0; 
+	margin:0;  
+	}
+
+	/* link inside the tab. uses a background image */
+ul.archives-tabs a { 
+	float:left;
+	font-size:13px;
+	display:block;
+	padding: 3px 20px 5px 20px;	
+	text-decoration:none;
+	border: 1px solid #d2d5da;	
+	border-bottom: none;
+	height:16px;
+	background-image: url(/images/jquerytools/tab_background_off.png);
+	color: #333;
+	background-position: center;
+	background-repeat: repeat-x;
+	margin-right: 3px;
+	position:relative;
+	top:1px;	
+	outline:0;
+	-moz-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;	
+	-wedkit-border-radius:4px 4px 0 0;	
+	}
+
+ul.archives-tabs a:visited {
+	color: #333 ;
+	text-decoration: none;
+	}
+
+ul.archives-tabs a:hover {
+	background-color: #2D4758;
+	background-image: none;
+	color: #fff;
+	text-decoration: none;
+	}
+
+	/* selected tab */
+ul.archives-tabs a.current {
+	background: #fff;
+	border: 1px solid #d3d5da;	
+	border-bottom: 1px solid #fff;	
+	color: #2D4758;
+	font-weight: bold;	
+	cursor: default;
+	}
+
