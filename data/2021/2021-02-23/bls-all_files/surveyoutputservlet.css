@@ -1,0 +1,237 @@
+/* Styles for Format.jsp: */
+div#bodytext * {
+    font-size: 14px !important;
+    font-family: Source Sans Pro Web, sans-serif !important;
+}
+
+.surrounding-table {
+  display:table;
+}
+.surrounding-row {
+  display:table-row;
+}
+.surrounding-cell {
+  display:table-cell;
+}
+.select-view-table {
+  display:table;
+  border:0;
+  padding:5px;
+  border-spacing:0;
+}
+.select-view-row {
+  display:table-row;
+}
+.select-view-cell {
+  display:table-cell;
+}
+.select-time-frame-table {
+  display:table;
+  border:0;
+  padding:5px;
+  border-spacing:0;
+}
+.select-time-frame-row {
+  display:table-row;
+}
+.select-time-frame-cell {
+  display:table-cell;
+}
+.bordered-options-table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  padding: 5px;
+}
+.bordered-options-row {
+  display: table-row;
+}
+.bordered-options-cell {
+  display: table-cell;
+  vertical-align: top;
+  border:  0;
+  padding: 3px;
+}
+.output-type-table {
+  display: table;
+  margin-bottom: 1em;
+  border-spacing: 2px;
+}
+.output-type-row {
+  display: table-row;
+}
+.output-type-cell {
+  display: table-cell;
+  padding: 3px;
+}
+fieldset.formatting-fields {
+  border: 1px solid #000000 !important;
+  border-radius: 8px;
+}
+
+/* Styles for SurveyOutputServlet.java */
+table.catalog {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+tr.catalog {
+}
+caption.catalog {
+  padding:        0px 15px 0px 0px;
+  font-size:      14px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+}
+th.catalog {
+  padding:        0px 15px 0px 0px;
+  font-size:      14px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+}
+td.catalog {
+  padding:        0px 15px 0px 0px;
+  font-size:      14px;
+  text-align: left;
+  vertical-align: top;
+}
+.output-options-table {
+  border: 0;
+  padding: 5px;
+}
+.output-options-row {
+  display: table-row;
+}
+.output-options-cell {
+  display:     table-cell;
+  font-family: helvetica,arial;
+  padding:     0px 30px 5px 0px;
+}
+.sos-go {
+  height: 18px;
+  width:  20px;
+  border: none;
+}
+.sos-more-formatting {
+  height: 18px;
+  width:  216px;
+  border: none;
+}
+.sos-red-note {
+  color:      #FF0000;
+  font-style: italic;
+  font-size:  11px;
+}
+.mid-left {
+  vertical-align: middle;
+  text-align:     left;
+}
+.mid-center {
+  vertical-align: middle;
+  text-align:     center;
+}
+.mid-right {
+  vertical-align: middle;
+  text-align:     right;
+}
+
+/* Styles for querytool.jsp */
+table.querytool {
+  width:           760px;
+  border:          0;
+  border-collapse: collapse;
+  border-spacing:  0;
+  text-align:      left;
+}
+td.querytool-a {
+  width:      552px;
+  height:     22px;
+  text-align: right;
+  padding:    0;
+}
+img.querytool-a {
+  border: 0;
+  width:  552px;
+  height: 22px;
+}
+td.querytool-b {
+  width:      104px;
+  height:     22px;
+  text-align: right;
+  padding:    0;
+}
+img.querytool-b {
+  width:  104px;
+  height: 22px;
+  border: 0;
+}
+td.querytool-c {
+  width:      656px;
+  height:     22px;
+  text-align: right;
+  padding:    0;
+}
+img.querytool-c {
+  border: 0;
+  width:  656px;
+  height: 22px;
+}
+
+/* Styles for wh.jsp */
+div.wh-internal-table {
+  border:     0;
+  text-align: center;
+  display:    table;
+}
+div.wh-internal-row {
+  display: table-row;
+}
+span.wh-internal-cell {
+  display: table-cell;
+  text-align: center;
+}
+img.wh-internal {
+  width:  480px;
+  height: 26px;
+  border: 0;
+  vertical-align: top;
+}
+div.wh-graph-table {
+  display: table;
+  border:  1px solid black;
+  width:   610px;
+  height:  410px;
+  border-collapse: collapse;
+  border-spacing:  0;
+}
+div.wh-graph-row {
+  display: table-row;
+}
+span.wh-graph-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Styles for NCS page */
+table.ncs {
+  border: 1px solid black;
+}
+th.ncs {
+  background-color: #C0C0C0;
+  border: 1px solid grey;
+  text-align: center;
+}
+tr.ncs-published {
+  background-color: #00FF00;
+}
+tr.ncs-estimated {
+  background-color: #FFFF00;
+}
+td.ncs-a {
+  border: 1px solid grey;
+}
+td.ncs-b {
+  text-align: center;
+  border: 1px solid grey;
+}
