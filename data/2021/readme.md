@@ -14,4 +14,5 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 8 | `2021-02-16` | [W.E.B. Du Bois Challenge](2021-02-16/readme.md) | [Du Bois Data Challenge](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge) | [Anthony Starks - Recreating Du Bois's data portraits](https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34) |
 | 9 | `2021-02-23` | [Employment and Earnings](2021-02-23/readme.md) | [BLS](https://www.bls.gov/cps/tables.htm#charemp_m) | [BLS Article](https://www.bls.gov/careeroutlook/2018/article/blacks-in-the-labor-force.htm) |
 | 10 | `2021-03-02` | [SuperBowl Ads](2021-03-02/readme.md) | [FiveThirtyEight](https://github.com/fivethirtyeight/superbowl-ads) | [FiveThirtyEight](https://projects.fivethirtyeight.com/super-bowl-ads/) |
+| 11 | `2021-03-09` | [Bechdel Test](2021-03-09/readme.md) | [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/bechdel) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/) |
 
