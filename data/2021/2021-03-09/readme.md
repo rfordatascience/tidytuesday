@@ -27,7 +27,7 @@ The data this week comes from [FiveThirtyEight](https://github.com/fivethirtyeig
 tuesdata <- tidytuesdayR::tt_load('2021-03-09')
 tuesdata <- tidytuesdayR::tt_load(2021, week = 11)
 
-bechdel <- tuesdata$bechdel
+bechdel <- tuesdata$raw_bechdel
 
 # Or read in the data manually
 
