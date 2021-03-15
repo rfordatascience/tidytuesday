@@ -102,6 +102,7 @@ Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github
 | 9 | `2021-02-23` | [Employment and Earnings](data/2021/2021-02-23/readme.md) | [BLS](https://www.bls.gov/cps/tables.htm#charemp_m) | [BLS Article](https://www.bls.gov/careeroutlook/2018/article/blacks-in-the-labor-force.htm) |
 | 10 | `2021-03-02` | [SuperBowl Ads](data/2021/2021-03-02/readme.md) | [FiveThirtyEight](https://github.com/fivethirtyeight/superbowl-ads) | [FiveThirtyEight](https://projects.fivethirtyeight.com/super-bowl-ads/) |
 | 11 | `2021-03-09` | [Bechdel Test](data/2021/2021-03-09/readme.md) | [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/bechdel) | [FiveThirtyEight](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/) |
+| 12 | `2021-03-16` | [Video Games + Sliced](data/2021/2021-03-16/readme.md) | [Steam](https://www.kaggle.com/michau96/popularity-of-games-on-steam) | [SteamCharts](https://steamcharts.com/) |
 
 
 ***  
