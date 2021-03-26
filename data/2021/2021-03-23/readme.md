@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1205px-UN_emblem_blue.png)
+![Logo for the United Nations](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1205px-UN_emblem_blue.png)
 
 # UN Votes
 
