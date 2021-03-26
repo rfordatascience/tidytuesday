@@ -1,4 +1,4 @@
-![](static/tt_logo.png)
+![Logo for the TidyTuesday project, represented by the word TidyTuesday over a messy splash of black paint](static/tt_logo.png)
 
 ## A weekly social data project in R
 
