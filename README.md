@@ -113,6 +113,8 @@ Penn State has an [article](https://accessibility.psu.edu/images/charts/) on wri
 
 The `{rtweet}` package includes the [ability to post tweets](https://docs.ropensci.org/rtweet/reference/post_tweet.html) with alt text programatically.
 
+Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related) that force you to remember to add Alt Text to Tweets with media.
+
 ***
 
 # DataSets
