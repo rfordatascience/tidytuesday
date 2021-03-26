@@ -86,6 +86,22 @@ Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github
 
 ***
 
+### Please add alt text to your posts
+
+Please add alt text (alternative text) to all of your posted graphics for `#TidyTuesday`. 
+
+Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-descriptions) for how to add alt text to your images.
+
+The DataViz Society/Nightingale has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
+
+Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
+
+> Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. See the [examples on this page](https://accessibility.psu.edu/images/charts/) for details on how to make charts more accessible.
+
+The `{rtweet}` package includes the [ability to post tweets](https://docs.ropensci.org/rtweet/reference/post_tweet.html) with alt text programatically.
+
+***
+
 # DataSets
 ## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021)
 
