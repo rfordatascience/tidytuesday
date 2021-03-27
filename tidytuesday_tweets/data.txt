@@ -1,8 +1,8 @@
 path:
 - data.csv
 - data.rds
-rows: 13024
-cols: 91
+rows: 13183
+cols: 92
 columns:
   week: numeric
   user_id: character
@@ -95,4 +95,5 @@ columns:
   profile_banner_url: character
   profile_background_url: character
   profile_image_url: character
+  ext_alt_text: list
 type: table
