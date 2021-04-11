@@ -23,7 +23,7 @@ The data this week comes from the [Tate Art Museum](https://github.com/tategalle
 * [Data visualisations](http://research.kraeutli.com/index.php/2013/11/the-tate-collection-on-github/) by [Florian Kräutli](http://www.kraeutli.com/)
 * [machine imagined art](http://www.shardcore.org/cgi-bin/getArtwork.pl?id=a_96_19_f_26_b_1a_b_26_47_90_1d3_6_10_2d_) by [Shardcore](http://www.shardcore.org)
 * [The Dimensions of Art](https://ifweassume.blogspot.com/2013/11/the-dimensions-of-art.html) by [Jim Davenport](http://www.ifweassume.com)
-* [Art as Data as Art](https://ironholds.org/art-as-data-as-art/) and [Part II](https://ironholds.org/art-as-data-as-art-part-2/) by [Oliver Keyes](https://ironholds.org/)
+* [Art as Data as Art](https://ironholds.org/art-as-data-as-art/) and [Part II](https://ironholds.org/art-as-data-as-art-part-2/) by [Os Keyes](https://ironholds.org/)
 * [Tate Acquisition Data](http://zenlan.com/tate/rickshaw.html) by [Zenlan](http://twitter.com/zenlan)
 * [Tate Collection Geolocalized](https://williamdclt.github.io/tate-museum-artworks-geolocalized/) by Corentin Cournac, Mathieu Dauré, William Duclot and Pierre Présent
 * [Aspect Ratio of Tate Artworks through Time](https://josephlewis.github.io/aspect.html) by [Joseph Lewis](https://josephlewis.github.io/)
