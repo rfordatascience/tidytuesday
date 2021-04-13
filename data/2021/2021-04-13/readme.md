@@ -1,4 +1,4 @@
-![Gif of a map of post offices by year in the US, where post offices spread from east to West over the years](https://cblevins.github.io/us-post-offices/images/usa-just-pos-4fps-800width.gif)
+![Map of post offices by year in the US, where post offices spread from east to West over the years](pic2.png)
 
 # US Post Offices
 
@@ -10,7 +10,9 @@ Please Cite them when using this data:
 
 "Blevins, Cameron; Helbock, Richard W., 2021, "US Post Offices", https://doi.org/10.7910/DVN/NUKCNA, Harvard Dataverse, V1, UNF:6:8ROmiI5/4qA8jHrt62PpyA== [fileUNF]"
 
-> US Post Offices is a spatial-historical dataset containing records for 166,140 post offices that operated in the United States between 1639 and 2000. The dataset provides a year-by-year snapshot of the national postal system over multiple centuries, making it one of the most fine-grained and expansive datasets currently available for studying the historical geography of the United States:
+> US Post Offices is a spatial-historical dataset containing records for 166,140 post offices that operated in the United States between 1639 and 2000. The dataset provides a year-by-year snapshot of the national postal system over multiple centuries, making it one of the most fine-grained and expansive datasets currently available for studying the historical geography of the United States
+
+H/t to [Bob Rudis](https://twitter.com/hrbrmstr/status/1377345728574496769) for sharing.
 
 ### Get the data here
 
