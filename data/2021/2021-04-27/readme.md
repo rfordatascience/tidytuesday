@@ -43,7 +43,7 @@ departures <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 |fyear                |double    | The fiscal year in which the event occured  |
 |co_per_rol           |double    | The executive/company identifier from Execucomp |
 |exec_fullname        |character | The executive full name as listed in Execucomp  |
-|departure_code       |double    | The departure reason coded from criteria abov |
+|departure_code       |double    | The departure reason coded from criteria above |
 |ceo_dismissal        |double    | A dummy code for involuntary, non-health related turnover (Codes 3 & 4). |
 |interim_coceo        |character | A descriptor of whether the CEO was listed as co-CEO or as an interim CEO (sometimes interim positions last a couple years) |
 |tenure_no_ceodb      |double    | For CEOs who return, this value should capture whether this is the first or second time in office |
