@@ -140,7 +140,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 16 | `2021-04-13` | [US Post Offices](data/2021/2021-04-13/readme.md) | [Cameron Blevins and Richard W. Helbock](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NUKCNA) | [US Post Offices](https://cblevins.github.io/us-post-offices/) |
 | 17 | `2021-04-20` | [Netflix Titles](data/2021/2021-04-20/readme.md) | [Kaggle](https://www.kaggle.com/shivamb/netflix-shows) | [Flixable](https://flixable.com/netflix-museum/) |
 | 18 | `2021-04-27` | [CEO Departures](data/2021/2021-04-27/readme.md) | [Gentry et al.](https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278) | [investors.com](https://www.investors.com/news/ceo-turnover-bailing-out-droves/) |
-
+| 19 | `2021-05-04` | [Water Access Points](data/2021/2021-05-04/readme.md) | [WPDX](https://www.waterpointdata.org/) | [WPDX](https://www.waterpointdata.org/) |
 
 ***  
 
