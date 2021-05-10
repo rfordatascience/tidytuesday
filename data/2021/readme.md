@@ -23,3 +23,4 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 17 | `2021-04-20` | [Netflix Titles](2021-04-20/readme.md) | [Kaggle](https://www.kaggle.com/shivamb/netflix-shows) | [Flixable](https://flixable.com/netflix-museum/) |
 | 18 | `2021-04-27` | [CEO Departures](2021-04-27/readme.md) | [Gentry et al.](https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278) | [investors.com](https://www.investors.com/news/ceo-turnover-bailing-out-droves/) |
 | 19 | `2021-05-04` | [Water Access Points](2021-05-04/readme.md) | [WPDX](https://www.waterpointdata.org/) | [WPDX](https://www.waterpointdata.org/) |
+| 20 | `2021-05-11` | [US Broadband](2021-05-11/readme.md) | [Microsoft GitHub](https://github.com/microsoft/USBroadbandUsagePercentages) | [The Verge](https://www.theverge.com/22418074/broadband-gap-america-map-county-microsoft-data) |
