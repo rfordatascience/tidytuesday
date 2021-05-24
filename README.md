@@ -143,6 +143,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 19 | `2021-05-04` | [Water Access Points](data/2021/2021-05-04/readme.md) | [WPDX](https://www.waterpointdata.org/) | [WPDX](https://www.waterpointdata.org/) |
 | 20 | `2021-05-11` | [US Broadband](data/2021/2021-05-11/readme.md) | [Microsoft GitHub](https://github.com/microsoft/USBroadbandUsagePercentages) | [The Verge](https://www.theverge.com/22418074/broadband-gap-america-map-county-microsoft-data) |
 | 21 | `2021-05-18` | [Ask a Manager Salary Survey](data/2021/2021-05-18/readme.md) | [Ask a Manager](https://docs.google.com/spreadsheets/d/1IPS5dBSGtwYVbjsfbaMCYIWnOuRmJcbequohNxCyGVw/edit?resourcekey#gid=1625408792) | [Ask a Manager](https://www.askamanager.org/2021/05/some-findings-from-24000-peoples-salaries.html) |
+| 22 | `2021-05-25` | [Mario Kart World Records](2021-05-25/readme.md) | [Mario Kart World Records](https://mkwrs.com/) | [Mario Kart Record-breaking](https://www.thegamer.com/mario-kart-64-speedrunner-is-the-first-to-hit-a-190000-trick-breaks-two-world-records-at-once/) |
 
 ***  
 
