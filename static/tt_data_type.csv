@@ -1,5 +1,11 @@
 Week,Date,year,data_files,data_type,delim
+24,2021-06-08,2021,stocked.csv,csv,","
 24,2021-06-08,2021,fishing.csv,csv,","
+23,2021-06-01,2021,challenges.csv,csv,","
+23,2021-06-01,2021,viewers.csv,csv,","
+23,2021-06-01,2021,jury_votes.csv,csv,","
+23,2021-06-01,2021,castaways.csv,csv,","
+23,2021-06-01,2021,summary.csv,csv,","
 22,2021-05-25,2021,drivers.csv,csv,","
 22,2021-05-25,2021,records.csv,csv,","
 21,2021-05-18,2021,survey.csv,csv,","
