@@ -91,7 +91,7 @@ Note that "points" are essentially their yearly normalized values (higher points
 |basketball_data           |double    | Basketball hoops per 10,000 residents |
 |basketball_points         |double    | Basketball hoops per 10,000 residents points |
 |dogpark_data              |double    | Dog parks per 100,000 residents|
-|dogpark_points            |double     | Dog parks per 100,000 residents|
+|dogpark_points            |double    | Dog parks per 100,000 residents points |
 |playground_data           |double    | Playgrounds per 10,000 residents |
 |playground_points         |double    | Playgrounds per 10,000 residents points |
 |rec_sr_data               |double    | Recreation and senior centers per 20,000 residents |
