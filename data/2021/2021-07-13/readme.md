@@ -32,7 +32,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Scooby Doo Episodes
 
-The data this week comes from [Kaggle](https://www.kaggle.com/williamschooleman/scoobydoo-complete) thanks to manual data aggregation by [plummye](https://www.kaggle.com/williamschooleman).
+The data this week comes from [Kaggle](https://www.kaggle.com/williamschooleman/scoobydoo-complete) thanks to manual data aggregation by [plummye](https://www.kaggle.com/williamschooleman). Hat tip to [Sara Stoudt](https://github.com/rfordatascience/tidytuesday/issues/345) for recommending this dataset!
 
 > Every Scooby-Doo episode and movie's various variables.
 > 
