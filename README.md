@@ -150,7 +150,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 26 | `2021-06-22` | [Public Park Access](data/2021/2021-06-22/readme.md) | [TPL](https://www.tpl.org/parks-and-an-equitable-recovery-parkscore-report) | [CityLab](https://www.bloomberg.com/news/articles/2021-05-27/the-cities-where-people-of-color-can-walk-to-a-park) |
 | 27 | `2021-06-29` | [Animal Rescues](data/2021/2021-06-29/readme.md) | [London.gov](https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb) | [The Guardian](https://www.theguardian.com/world/2021/jan/08/animal-rescues-london-fire-brigade-rise-2020-pandemic-year) |
 | 28 | `2021-07-06` | [International Independence Days](data/2021/2021-07-06/readme.md) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_national_independence_days) | [WorldAtlas.com](https://www.worldatlas.com/articles/list-of-independence-days-by-country.html) |
-
+| 29 | `2021-07-13` | [Scooby Doo](data/2021/2021-07-13/readme.md) | [Kaggle](https://www.kaggle.com/williamschooleman/scoobydoo-complete) | [ScoobyPedia](https://scoobydoo.fandom.com/wiki/Scoobypedia) |
 
 
 ***  
