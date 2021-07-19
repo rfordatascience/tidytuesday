@@ -151,7 +151,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 27 | `2021-06-29` | [Animal Rescues](data/2021/2021-06-29/readme.md) | [London.gov](https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb) | [The Guardian](https://www.theguardian.com/world/2021/jan/08/animal-rescues-london-fire-brigade-rise-2020-pandemic-year) |
 | 28 | `2021-07-06` | [International Independence Days](data/2021/2021-07-06/readme.md) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_national_independence_days) | [WorldAtlas.com](https://www.worldatlas.com/articles/list-of-independence-days-by-country.html) |
 | 29 | `2021-07-13` | [Scooby Doo](data/2021/2021-07-13/readme.md) | [Kaggle](https://www.kaggle.com/williamschooleman/scoobydoo-complete) | [ScoobyPedia](https://scoobydoo.fandom.com/wiki/Scoobypedia) |
-
+| 30 | `2021-07-20` | [US Droughts](data/2021/2021-07-20/readme.md) | [Drought Monitor](https://droughtmonitor.unl.edu/DmData/DataDownload.aspx) | [NYTimes](https://www.nytimes.com/interactive/2021/06/11/climate/california-western-drought-map.html) & [CNN](https://www.cnn.com/2021/06/17/weather/west-california-drought-maps/index.html) |
 
 ***  
 
