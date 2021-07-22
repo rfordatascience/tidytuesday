@@ -79,12 +79,14 @@ drought <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 |state_abb   |character | State Abbreviation |
 |valid_start |double    | Start of weekly data |
 |valid_end   |double    | End of weekly data |
-|stat_fmt    |double    | Statistic format (all 1 for categorical) |
+|stat_fmt    |double    | Statistic format (2 for "categorical", 1 for cumulative) |
 |drought_lvl |character | Drought level (None, DO, D1, D2, D3, D4) which corresponds to no drought, abnormally dry, moderate drought, severe drought, extreme drought or exceptional drought. |
 |area_pct    |double    | Percent of state currently in that drought category |
 |area_total  |double    | Total land area (sq miles) of state currently in that drought category |
 |pop_pct     |double    | Population percent of total state population in that drought category |
 |pop_total   |double    | Population total of that state in that drought category |
+
+A note on "cumulative" data. For `pop_pct`, `pop_total`, `area_pct`, and `area_total` fields, this means that when `drought_lvl == "D0"`, the value on the field is the sum of the drought levels `D0` through `D4` (_but not including_ `None`). If you're looking to use actual per-level values, you will want to subtract each drought level from the next higher: `D0` from `D1`, `D1` from `D2`, and so on.
 
 ### Cleaning Script
 
