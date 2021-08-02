@@ -153,7 +153,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 29 | `2021-07-13` | [Scooby Doo](data/2021/2021-07-13/readme.md) | [Kaggle](https://www.kaggle.com/williamschooleman/scoobydoo-complete) | [ScoobyPedia](https://scoobydoo.fandom.com/wiki/Scoobypedia) |
 | 30 | `2021-07-20` | [US Droughts](data/2021/2021-07-20/readme.md) | [Drought Monitor](https://droughtmonitor.unl.edu/DmData/DataDownload.aspx) | [NYTimes](https://www.nytimes.com/interactive/2021/06/11/climate/california-western-drought-map.html) & [CNN](https://www.cnn.com/2021/06/17/weather/west-california-drought-maps/index.html) |
 | 31 | `2021-07-27` | [Olympic Medals](data/2021/2021-07-27/readme.md) | [Kaggle](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) | [Financial Times](https://ig.ft.com/tokyo-olympics-alternative-medal-table/) & [FiveThirtyEight](https://projects.fivethirtyeight.com/olympics-medal-count/)  |
-
+| 32 | `2021-08-03` | [Paralympic Medals](data/2021/2021-08-03/readme.md) | [IPC](https://db.ipc-services.org/sdms/hira) | [IPC](https://www.paralympic.org/feature/1964-1988-it-was-all-about-zipora-rubin-rosenbaum-s-dominance) |
 
 ***  
 
