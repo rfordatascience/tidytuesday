@@ -42,6 +42,8 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Paralympic_Games)
 
 Article - [1964 to 1988 — It was all about Zipora Rubin-Rosenbaum's dominance](https://www.paralympic.org/feature/1964-1988-it-was-all-about-zipora-rubin-rosenbaum-s-dominance)
 
+Paralympic categories [article](https://www.paralympic.org/athletics/classification).
+
 ### Get the data here
 
 ```{r}
@@ -238,9 +240,11 @@ clean_cycle <- function(year){
     separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge")
   
   raw_ind_c <- raw_cycle %>% 
-    filter(str_detect(event, "Team", negate = TRUE)) %>% 
+    filter(str_detect(event, "Team|Tandem", negate = TRUE)) %>% 
     separate(athlete, into = c("athlete", "abb"), sep = " \\(", fill = "left", extra = "merge") %>% 
-    separate(abb, into = c("abb", "pilot"), sep = "Pilot: |(PT):") %>% 
+    separate(abb, into = c("abb", "pilot"), sep = "Pilot: |\\(PT\\):") %>% 
+    separate(athlete, sep = "(?<=[PT\\)])(?=[A-Z])", into = c("athlete", "pilot")) %>%
+    separate(athlete, sep = "(?<=[a-z]+)(?=[A-Z])", into = c("athlete", "pilot")) %>%
     mutate(pilot = if_else(pilot == "", NA_character_, pilot)) %>% 
     filter(!is.na(athlete)) 
   
@@ -273,7 +277,8 @@ clean_cycle <- function(year){
     ungroup()
   
   bind_rows(clean_ind_c, clean_grp_c) %>% 
-    mutate(year = year, type = "Cycling")
+    mutate(year = year, type = "Cycling") %>% 
+    rename(guide = pilot)
   
 }
 
@@ -288,6 +293,7 @@ cycle_years <- year_vec %>%
 
 
 clean_power <- function(year){
+  
   raw_power <- glue::glue("https://db.ipc-services.org/sdms/hira/web/competition/code/PG{year}/sport/PO") %>% 
     read_html()
   
@@ -301,15 +307,29 @@ clean_power <- function(year){
     ) %>% 
     separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>% 
     separate(athlete, into = c("athlete", "abb"), sep = " \\(", fill = "left", extra = "merge") %>% 
+    separate_rows(abb, sep = " \\)") 
+  
+  clean_abb_power <- clean_pwr %>%
+    mutate(abb = str_remove(abb, "\\)")) %>%
+    bind_rows(clean_pwr %>%
+                filter(str_detect(abb, "\\(")) %>%
+                separate_rows(abb, sep = "\\(") %>%
+                mutate(athlete = ifelse(str_length(abb) <= 4, lag(abb), athlete)) %>%
+                mutate(
+                  abb = str_remove(abb, "\\).*"),
+                  athlete = str_remove(athlete, ">*\\)") %>% str_trim()
+                )) %>%
+    filter(str_detect(abb, "\\(", negate = TRUE), !is.na(athlete)) %>% 
     mutate(abb = str_remove(abb, "\\)"))
   
-  clean_pwr %>% 
+  
+  clean_abb_power %>% 
     mutate(year = year, type = "Powerlifting")
 }
 
-clean_power(2016)
+clean_power(1984)
 
-safe_power <- safely(clean_cycle)
+safe_power <- safely(clean_power)
 
 power_years <- year_vec %>% 
   map(safe_power) %>% 
@@ -332,7 +352,8 @@ raw_ind_sw <- raw_swim %>%
     medal = str_remove(medal, " Medallist\\(s\\)")
   ) %>%
   filter(str_detect(event, "4x", negate = TRUE)) %>%
-  separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>%
+  separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>% 
+  separate_rows(athlete, sep = "(?<=[A-Z]\\))(?=[A-Z])") %>%
   separate(athlete, into = c("athlete", "abb"), sep = " \\(", fill = "left", extra = "merge")
 
 
@@ -341,7 +362,7 @@ clean_ind_sw <- raw_ind_sw %>%
   bind_rows(raw_ind_sw %>%
     filter(str_detect(abb, "\\(")) %>%
     separate_rows(abb, sep = "\\(") %>%
-    mutate(athlete = if_else(str_length(abb) <= 4, lag(abb), athlete)) %>%
+    mutate(athlete = ifelse(str_length(abb) <= 4, lag(abb), athlete)) %>%
     mutate(
       abb = str_remove(abb, "\\).*"),
       athlete = str_remove(athlete, ">*\\)") %>% str_trim()
@@ -366,7 +387,7 @@ clean_grp_sw <- raw_swim %>%
   ungroup()
 
 bind_rows(clean_ind_sw, clean_grp_sw) %>% 
-  mutate(year = year, type = "Swimming")
+  mutate(year = year, type = "Swimming") 
 
   }
 
@@ -394,8 +415,21 @@ clean_tab_tennis <- function(year){
       medal = str_remove(medal, " Medallist\\(s\\)")
     ) %>%
     filter(str_detect(event, "Team", negate = TRUE)) %>%
-    separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>%
-    separate(athlete, into = c("athlete", "abb"), sep = " \\(", fill = "left", extra = "merge") %>% 
+    separate(
+      event,
+      into = c("gender", "event"),
+      sep = " |'s ",
+      fill = "left",
+      extra = "merge"
+    ) %>%
+    separate_rows(athlete, sep = "(?<=[\\)])(?=[A-Z])") %>%
+    separate(
+      athlete,
+      into = c("athlete", "abb"),
+      sep = " \\(",
+      fill = "left",
+      extra = "merge"
+    ) %>%
     mutate(abb = str_remove(abb, "\\)"))
   
   
@@ -417,7 +451,7 @@ clean_tab_tennis <- function(year){
     ungroup()
   
   bind_rows(clean_ind_tab, clean_grp_tab) %>% 
-    mutate(year = year, type = "Table Tennis")
+    mutate(year = year, type = "Table Tennis") 
   
 }
 
@@ -606,8 +640,9 @@ clean_tennis <- function(year){
     mutate(
       medal = str_remove(medal, " Medallist\\(s\\)")
     ) %>%
-    filter(str_detect(event, "Double", negate = TRUE)) %>%
+    filter(str_detect(event, "Double|Team", negate = TRUE)) %>%
     separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>%
+    separate_rows(athlete, sep = "(?<=[\\)])(?=[A-Z])") %>%
     separate(athlete, into = c("athlete", "abb"), sep = " \\(", fill = "left", extra = "merge") %>% 
     mutate(abb = str_remove(abb, "\\)"))
   
@@ -620,7 +655,7 @@ clean_tennis <- function(year){
     mutate(
       medal = str_remove(medal, " Medallist\\(s\\)")
     ) %>%
-    filter(str_detect(event, "Double")) %>%
+    filter(str_detect(event, "Double|Team")) %>%
     separate(event, into = c("gender", "event"), sep = " |'s ", fill = "left", extra = "merge") %>%
     separate(athlete, into = c("country", "abb", "athlete"), sep = " \\(|\\)") %>%
     separate_rows(athlete, sep = "(?<=[a-z])(?=[A-Z])") %>%
@@ -699,5 +734,16 @@ all_sports %>%
 
 all_sports %>% 
   write_csv("2021/2021-08-03/athletes.csv")
+
+check_fun(all_sports)
+
+check_abb <- function(df_in) {
+df_in %>% 
+    filter(str_length(abb) > 3) %>% 
+    select(athlete, abb, type, year)
+  
+}
+
+all_sports %>% check_abb() %>% distinct(type, year)
 
 ```
