@@ -34,6 +34,8 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from [Bureau of Economic Analysis](https://www.bea.gov/system/files/papers/BEA-WP2020-12.pdf). The raw `.xlsx` file is included, or can be downloaded directly from the [BEA Working paper series](https://www.bea.gov/system/files/2021-01/infrastructure-data-may-2020.xlsx).
 
+Note that there are additional datasets in the Excel file, but the 3 primary datasets are already cleaned and saved as individual `.csv` files.
+
 h/t to [Donald Schneider](https://twitter.com/DonFSchneider/status/1367181077316575236?s=20) and [DataIsPlural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
 
 The Working Paper by [Jennifer Bennett et al](https://www.bea.gov/system/files/papers/BEA-WP2020-12.pdf)
