@@ -94,7 +94,7 @@ ipd <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytu
 |meta_cat      |character | Group category of investment |
 |group_num     |double    | Group number of investment |
 |year          |integer   | Year of investment |
-|gross_inv_ipd |double    | Implicit Price Deflators (IPDs) |
+|gross_inv_ipd |double    | Implicit Price Deflators (IPDs) An implicit price deflator is the ratio of the current-dollar value of a series, such as gross domestic product (GDP), to its corresponding chained-dollar value, multiplied by 100. |
 
 
 
