@@ -38,3 +38,4 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 32 | `2021-08-03` | [Paralympic Medals](2021-08-03/readme.md) | [IPC](https://db.ipc-services.org/sdms/hira) | [IPC](https://www.paralympic.org/feature/1964-1988-it-was-all-about-zipora-rubin-rosenbaum-s-dominance) |
 | 33 | `2021-08-10` | [BEA Infrastructure Investment](2021-08-10/readme.md) | [BEA](https://www.bea.gov/system/files/2021-01/infrastructure-data-may-2020.xlsx) | [BEA](https://www.bea.gov/system/files/papers/BEA-WP2020-12.pdf) |
 | 34 | `2021-08-17` | [Star Trek Voice Commands](2021-08-17/readme.md) | [SpeechInteraction.org](http://www.speechinteraction.org/TNG/) | [SpeechInteraction.org](http://www.speechinteraction.org/TNG/) |
+| 35 | `2021-08-24` | [Lemurs](2021-08-24/readme.md) | [Kaggle](https://www.kaggle.com/jessemostipak/duke-lemur-center-data) | [Zehr et al, 2014 - Nature](https://www.nature.com/articles/sdata201419) |
