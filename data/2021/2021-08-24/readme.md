@@ -151,7 +151,7 @@ lemurs <- tuesdata$lemurs
 
 # Or read in the data manually
 
-lemurs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-08-24/lemurs.csv')
+lemurs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-08-24/lemur_data.csv')
 ```
 
 ### Data Dictionary
