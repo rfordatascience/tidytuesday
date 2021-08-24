@@ -70,7 +70,7 @@ See full details at [SpeechInteraction.org](http://www.speechinteraction.org/TNG
 |variable    |class     |description |
 |:-----------|:---------|:-----------|
 |name        |character | ID name |
-|char        |character | The name of the speaking characte |
+|char        |character | The name of the speaking character |
 |line        |character | The complete line of dialog (may contain more speech than the speech interaction). Parentheticals are directions and not spoken. |
 |direction   |character | Stage directions as written in the episode script |
 |type        |character | The type of interaction, see detailed definitions below |
