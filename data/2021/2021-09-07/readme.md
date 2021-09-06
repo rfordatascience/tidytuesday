@@ -36,7 +36,19 @@ The data this week comes from the [Ergast API](https://ergast.com/mrd/db/#csv), 
 
 [FiveThirtyEight](https://fivethirtyeight.com/features/formula-one-racing/) published a nice article on "Who’s The Best Formula One Driver Of All Time?". While the ELO data is not present in this dataset, you could calculate your own rating or using the [`{elo}`](https://github.com/eheinzen/elo) package to create ELO scores.
 
+Per [Wikipedia, Formula 1](https://en.wikipedia.org/wiki/Formula_One): 
+
+> Formula One (also known as Formula 1 or F1) is the highest class of international auto racing for single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The World Drivers' Championship, which became the FIA Formula One World Championship in 1981, has been one of the premier forms of racing around the world since its inaugural season in 1950. The word formula in the name refers to the set of rules to which all participants' cars must conform. A Formula One season consists of a series of races, known as Grands Prix, which take place worldwide on both purpose-built circuits and closed public roads.
+>
+> The results of each race are evaluated using a points system to determine two annual World Championships: one for drivers, the other for constructors. Each driver must hold a valid Super Licence, the highest class of racing licence issued by the FIA. The races must run on tracks graded "1" (formerly "A"), the highest grade-rating issued by the FIA. Most events occur in rural locations on purpose-built tracks, but several events take place on city streets.
+
+Each team can be called a "constructor" and they have two drivers. For example, Lewis Hamilton is the primary (driver) for the Mercedes team (constructor).
+
+
+### License
 > Complete images of the Ergast database are published shortly after each race under the [Attribution-NonCommercial-ShareAlike 3.0 Unported Licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+### Data
 
 There is an option for raw CSVs (which is what is included in this repo), a SQL database, or querying the raw API. This is a _great_ dataset to practice with using the `httr` package to query an API, SQL against the database or `dbplyr` against the database! You can also work with the raw CSVs and practice your `dplyr::left_join()` and friends. Read more about `dplyr` joins in the [`dplyr` "joins" documentation](https://dplyr.tidyverse.org/reference/join.html).
 
@@ -84,12 +96,6 @@ glimpse(driver_results_df)
 #> $ nationality       <chr> "British", "German", "German", "Spanish", #> "Finni…
 #> $ url               <chr> #> "http://en.wikipedia.org/wiki/Lewis_Hamilton", "…
 ```
-
-Per [Wikipedia, Formula 1](https://en.wikipedia.org/wiki/Formula_One): 
-
-> Formula One (also known as Formula 1 or F1) is the highest class of international auto racing for single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The World Drivers' Championship, which became the FIA Formula One World Championship in 1981, has been one of the premier forms of racing around the world since its inaugural season in 1950. The word formula in the name refers to the set of rules to which all participants' cars must conform. A Formula One season consists of a series of races, known as Grands Prix, which take place worldwide on both purpose-built circuits and closed public roads.
->
-> The results of each race are evaluated using a points system to determine two annual World Championships: one for drivers, the other for constructors. Each driver must hold a valid Super Licence, the highest class of racing licence issued by the FIA. The races must run on tracks graded "1" (formerly "A"), the highest grade-rating issued by the FIA. Most events occur in rural locations on purpose-built tracks, but several events take place on city streets.
 
 To query the raw API, you can use `httr`, just make sure to end the call/url in `.json` to return JSON data.
 
