@@ -32,9 +32,9 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Formula 1 Races
 
-The data this week comes from the [Ergast API](https://ergast.com/mrd/db/#csv), which has a CC-BY license. 
+The data this week comes from the [Ergast API](https://ergast.com/mrd/db/#csv), which has a CC-BY license.  H/t to [Sara Stoudt](https://github.com/rfordatascience/tidytuesday/issues/372) for sharing the link to the data by way of [Data is Plural](https://www.data-is-plural.com/archive/2021-08-25-edition/)!
 
-[FiveThirtyEight](https://fivethirtyeight.com/features/formula-one-racing/) published a nice article on "Who’s The Best Formula One Driver Of All Time?"
+[FiveThirtyEight](https://fivethirtyeight.com/features/formula-one-racing/) published a nice article on "Who’s The Best Formula One Driver Of All Time?". While the ELO data is not present in this dataset, you could calculate your own rating or using the [`{elo}`](https://github.com/eheinzen/elo) package to create ELO scores.
 
 > Complete images of the Ergast database are published shortly after each race under the [Attribution-NonCommercial-ShareAlike 3.0 Unported Licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
