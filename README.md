@@ -158,6 +158,8 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 34 | `2021-08-17` | [Star Trek Voice Commands](data/2021/2021-08-17/readme.md) | [SpeechInteraction.org](http://www.speechinteraction.org/TNG/) | [SpeechInteraction.org](http://www.speechinteraction.org/TNG/) |
 | 35 | `2021-08-24` | [Lemurs](data/2021/2021-08-24/readme.md) | [Kaggle](https://www.kaggle.com/jessemostipak/duke-lemur-center-data) | [Zehr et al, 2014 - Nature](https://www.nature.com/articles/sdata201419) |
 | 36 | `2021-08-31` | [Bird Baths](data/2021/2021-08-31/readme.md) | [Cleary et al, 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150899#abstract0) | [The Conversation](https://theconversation.com/bath-bullies-bacteria-and-battlegrounds-the-secret-world-of-bird-baths-65629) & [Cleary et al, 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150899#abstract0) |
+| 37 | `2021-09-07` | [Formula 1 Races](data/2021/2021-09-07/readme.md) | [ergast.com/mrd/db](https://ergast.com/mrd/db/) | [FiveThirtyEight](https://fivethirtyeight.com/features/formula-one-racing/) |
+
 
 ***  
 
