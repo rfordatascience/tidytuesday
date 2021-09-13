@@ -165,9 +165,8 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 ```
 ### Data Dictionary
 
-+----------------------+       
 | List of Tables       |       
-+----------------------+       
+|----------------------|       
 | circuits             |       
 | constructorResults   |       
 | constructorStandings |       
@@ -181,11 +180,9 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | results              |       
 | seasons              |       
 | status               |       
-+----------------------+       
 
-+------------------------------------------------------------------+
 | General Notes                                                    |
-+------------------------------------------------------------------|
+|------------------------------------------------------------------|
 | Dates, times and durations are in ISO 8601 format                |
 | Dates and times are UTC                                          |
 | Strings use UTF-8 encoding                                       |
@@ -199,13 +196,12 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |   "N" - not classified                                           |
 |   "R" - retired                                                  |
 |   "W" - withdrew                                                 |
-+------------------------------------------------------------------+
+
 
 ### `circuits.csv`
 
-+------------+--------------+------+-----+---------+----------------+---------------------------+
 | Field      | Type         | Null | Key | Default | Extra          | Description               |
-+------------+--------------+------+-----+---------+----------------+---------------------------+
+|------------|--------------|------|-----|---------|----------------|---------------------------|
 | circuitId  | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key               |
 | circuitRef | varchar(255) | NO   |     |         |                | Unique circuit identifier |
 | name       | varchar(255) | NO   |     |         |                | Circuit name              |
@@ -215,23 +211,19 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | lng        | float        | YES  |     | NULL    |                | Longitude                 |
 | alt        | int(11)      | YES  |     | NULL    |                | Altitude (metres)         |
 | url        | varchar(255) | NO   | UNI |         |                | Circuit Wikipedia page    |
-+------------+--------------+------+-----+---------+----------------+---------------------------+
 
 ### constructor_results table
-+----------------------+--------------+------+-----+---------+----------------+----------------------------------------+
 | Field                | Type         | Null | Key | Default | Extra          | Description                            |
-+----------------------+--------------+------+-----+---------+----------------+----------------------------------------+
+|----------------------|--------------|------|-----|---------|----------------|----------------------------------------|
 | constructorResultsId | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                            |
 | raceId               | int(11)      | NO   |     | 0       |                | Foreign key link to races table        |
 | constructorId        | int(11)      | NO   |     | 0       |                | Foreign key link to constructors table |
 | points               | float        | YES  |     | NULL    |                | Constructor points for race            |
 | status               | varchar(255) | YES  |     | NULL    |                | "D" for disqualified (or null)         |
-+----------------------+--------------+------+-----+---------+----------------+----------------------------------------+
 
 ### constructor_standings table
-+------------------------+--------------+------+-----+---------+----------------+------------------------------------------+
 | Field                  | Type         | Null | Key | Default | Extra          | Description                              |
-+------------------------+--------------+------+-----+---------+----------------+------------------------------------------+
+|------------------------|--------------|------|-----|---------|----------------|------------------------------------------|
 | constructorStandingsId | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                              |
 | raceId                 | int(11)      | NO   |     | 0       |                | Foreign key link to races table          |
 | constructorId          | int(11)      | NO   |     | 0       |                | Foreign key link to constructors table   |
@@ -239,23 +231,19 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | position               | int(11)      | YES  |     | NULL    |                | Constructor standings position (integer) |
 | positionText           | varchar(255) | YES  |     | NULL    |                | Constructor standings position (string)  |
 | wins                   | int(11)      | NO   |     | 0       |                | Season win count                         |
-+------------------------+--------------+------+-----+---------+----------------+------------------------------------------+
 
 ### constructors table
-+----------------+--------------+------+-----+---------+----------------+-------------------------------+
 | Field          | Type         | Null | Key | Default | Extra          | Description                   |
-+----------------+--------------+------+-----+---------+----------------+-------------------------------+
+|----------------|--------------|------|-----|---------|----------------|-------------------------------|
 | constructorId  | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                   |
 | constructorRef | varchar(255) | NO   |     |         |                | Unique constructor identifier |
 | name           | varchar(255) | NO   | UNI |         |                | Constructor name              |
 | nationality    | varchar(255) | YES  |     | NULL    |                | Constructor nationality       |
 | url            | varchar(255) | NO   |     |         |                | Constructor Wikipedia page    |
-+----------------+--------------+------+-----+---------+----------------+-------------------------------+
 
 ### driver_standings table
-+-------------------+--------------+------+-----+---------+----------------+-------------------------------------+
 | Field             | Type         | Null | Key | Default | Extra          | Description                         |
-+-------------------+--------------+------+-----+---------+----------------+-------------------------------------+
+|-------------------|--------------|------|-----|---------|----------------|-------------------------------------|
 | driverStandingsId | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                         |
 | raceId            | int(11)      | NO   |     | 0       |                | Foreign key link to races table     |
 | driverId          | int(11)      | NO   |     | 0       |                | Foreign key link to drivers table   |
@@ -263,12 +251,11 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | position          | int(11)      | YES  |     | NULL    |                | Driver standings position (integer) |
 | positionText      | varchar(255) | YES  |     | NULL    |                | Driver standings position (string)  |
 | wins              | int(11)      | NO   |     | 0       |                | Season win count                    |
-+-------------------+--------------+------+-----+---------+----------------+-------------------------------------+
+
 
 ### drivers table
-+-------------+--------------+------+-----+---------+----------------+--------------------------+
 | Field       | Type         | Null | Key | Default | Extra          | Description              |
-+-------------+--------------+------+-----+---------+----------------+--------------------------+
+|-------------|--------------|------|-----|---------|----------------|--------------------------|
 | driverId    | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key              |
 | driverRef   | varchar(255) | NO   |     |         |                | Unique driver identifier |
 | number      | int(11)      | YES  |     | NULL    |                | Permanent driver number  |
@@ -278,24 +265,20 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | dob         | date         | YES  |     | NULL    |                | Driver date of birth     |
 | nationality | varchar(255) | YES  |     | NULL    |                | Driver nationality       |
 | url         | varchar(255) | NO   | UNI |         |                | Driver Wikipedia page    |
-+-------------+--------------+------+-----+---------+----------------+--------------------------+
 
 ### lap_times table
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
 | Field        | Type         | Null | Key | Default | Extra | Description                       |
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
+|--------------|--------------|------|-----|---------|-------|-----------------------------------|
 | raceId       | int(11)      | NO   | PRI | NULL    |       | Foreign key link to races table   |
 | driverId     | int(11)      | NO   | PRI | NULL    |       | Foreign key link to drivers table |
 | lap          | int(11)      | NO   | PRI | NULL    |       | Lap number                        |
 | position     | int(11)      | YES  |     | NULL    |       | Driver race position              |
 | time         | varchar(255) | YES  |     | NULL    |       | Lap time e.g. "1:43.762"          |
 | milliseconds | int(11)      | YES  |     | NULL    |       | Lap time in milliseconds          |
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
 
 ### pit_stops table
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
 | Field        | Type         | Null | Key | Default | Extra | Description                       |
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
+|--------------|--------------|------|-----|---------|-------|-----------------------------------|
 | raceId       | int(11)      | NO   | PRI | NULL    |       | Foreign key link to races table   |
 | driverId     | int(11)      | NO   | PRI | NULL    |       | Foreign key link to drivers table |
 | stop         | int(11)      | NO   | PRI | NULL    |       | Stop number                       |
@@ -303,12 +286,10 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | time         | time         | NO   |     | NULL    |       | Time of stop e.g. "13:52:25"      |
 | duration     | varchar(255) | YES  |     | NULL    |       | Duration of stop e.g. "21.783"    |
 | milliseconds | int(11)      | YES  |     | NULL    |       | Duration of stop in milliseconds  |
-+--------------+--------------+------+-----+---------+-------+-----------------------------------+
 
 ### qualifying table
-+---------------+--------------+------+-----+---------+----------------+----------------------------------------+
 | Field         | Type         | Null | Key | Default | Extra          | Description                            |
-+---------------+--------------+------+-----+---------+----------------+----------------------------------------+
+|---------------|--------------|------|-----|---------|----------------|----------------------------------------|
 | qualifyId     | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                            |
 | raceId        | int(11)      | NO   |     | 0       |                | Foreign key link to races table        |
 | driverId      | int(11)      | NO   |     | 0       |                | Foreign key link to drivers table      |
@@ -318,12 +299,11 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | q1            | varchar(255) | YES  |     | NULL    |                | Q1 lap time e.g. "1:21.374"            |
 | q2            | varchar(255) | YES  |     | NULL    |                | Q2 lap time                            |
 | q3            | varchar(255) | YES  |     | NULL    |                | Q3 lap time                            |
-+---------------+--------------+------+-----+---------+----------------+----------------------------------------+
+
 
 ### races table
-+-----------+--------------+------+-----+------------+----------------+------------------------------------+
 | Field     | Type         | Null | Key | Default    | Extra          | Description                        |
-+-----------+--------------+------+-----+------------+----------------+------------------------------------+
+|-----------|--------------|------|-----|------------|----------------|------------------------------------|
 | raceId    | int(11)      | NO   | PRI | NULL       | auto_increment | Primary key                        |
 | year      | int(11)      | NO   |     | 0          |                | Foreign key link to seasons table  |
 | round     | int(11)      | NO   |     | 0          |                | Round number                       |
@@ -332,12 +312,11 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | date      | date         | NO   |     | 0000-00-00 |                | Race date e.g. "1950-05-13"        |
 | time      | time         | YES  |     | NULL       |                | Race start time e.g."13:00:00"     |
 | url       | varchar(255) | YES  | UNI | NULL       |                | Race Wikipedia page                |
-+-----------+--------------+------+-----+------------+----------------+------------------------------------+
+
 
 ### results table
-+-----------------+--------------+------+-----+---------+----------------+---------------------------------------------+
 | Field           | Type         | Null | Key | Default | Extra          | Description                                 |
-+-----------------+--------------+------+-----+---------+----------------+---------------------------------------------+
+|-----------------|--------------|------|-----|---------|----------------|---------------------------------------------|
 | resultId        | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                                 |
 | raceId          | int(11)      | NO   |     | 0       |                | Foreign key link to races table             |
 | driverId        | int(11)      | NO   |     | 0       |                | Foreign key link to drivers table           |
@@ -356,23 +335,21 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 | fastestLapTime  | varchar(255) | YES  |     | NULL    |                | Fastest lap time e.g. "1:27.453"            |
 | fastestLapSpeed | varchar(255) | YES  |     | NULL    |                | Fastest lap speed (km/h) e.g. "213.874"     |
 | statusId        | int(11)      | NO   |     | 0       |                | Foreign key link to status table            |
-+-----------------+--------------+------+-----+---------+----------------+---------------------------------------------+
+
 
 ### seasons table
-+-------+--------------+------+-----+---------+-------+-----------------------+
 | Field | Type         | Null | Key | Default | Extra | Description           |
-+-------+--------------+------+-----+---------+-------+-----------------------+
+|-------|--------------|------|-----|---------|-------|-----------------------|
 | year  | int(11)      | NO   | PRI | 0       |       | Primary key e.g. 1950 |
 | url   | varchar(255) | NO   | UNI |         |       | Season Wikipedia page |
-+-------+--------------+------+-----+---------+-------+-----------------------+
+
 
 ### status table
-+----------+--------------+------+-----+---------+----------------+---------------------------------+
 | Field    | Type         | Null | Key | Default | Extra          | Description                     |
-+----------+--------------+------+-----+---------+----------------+---------------------------------+
+|----------|--------------|------|-----|---------|----------------|---------------------------------|
 | statusId | int(11)      | NO   | PRI | NULL    | auto_increment | Primary key                     |
 | status   | varchar(255) | NO   |     |         |                | Finishing status e.g. "Retired" |
-+----------+--------------+------+-----+---------+----------------+---------------------------------+
+
 
 ### Cleaning Script
 
