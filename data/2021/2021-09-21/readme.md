@@ -120,17 +120,16 @@ clean_production <- function(raw_html){
 
 scrape_pages <- function(page_num){
   
-  Sys.sleep(1)
-  
-  cat("Scraping page num", page_num, "\n")
+  cat(scales::percent_format()(page_num/1000), "\n")
   
   url <- glue::glue("https://www.emmys.com/awards/nominations/award-search?page={page_num}")
   
   raw_html <- url %>% 
-    read_html()
+    read_html() %>% 
+    html_nodes("#block-system-main > div > div > section:nth-child(3) > div > div")
   
   category <- raw_html %>% 
-    html_node("#block-system-main > div > div > section:nth-child(3) > div > div") %>% 
+    # html_node("#block-system-main > div > div > section:nth-child(3) > div > div") %>% 
     html_nodes("h5") %>% 
     html_text()
   
@@ -139,7 +138,7 @@ scrape_pages <- function(page_num){
     html_attr("src")
   
   outcome <- raw_html %>% 
-    html_nodes("ul.nominee") %>% 
+    html_nodes("ul.nominee, ul.winner") %>% 
     html_text() %>% 
     map(clean_nominee)
   
@@ -159,4 +158,23 @@ scrape_pages <- function(page_num){
   
 }
 
+safe_scrape <- safely(scrape_pages)
+
+map_all <- 0:2362 %>% map(safe_scrape)
+
+all_results <- map_all %>% 
+  map_dfr("result") 
+
+clean_df <- all_results %>%
+  rowwise() %>% 
+  mutate(
+    fix = ifelse(str_detect(title, ", as"), 1, 0),
+    title = ifelse(fix == 1, distributor, title),
+    distributor = ifelse(fix == 1 && !is.na(producer), producer, distributor),
+    producer = ifelse(fix == 1 && !is.na(blank), blank, producer),
+    producer = ifelse(!is.na(blank), blank, producer)
+  ) 
+
+final_df <- clean_df %>% 
+  select(-contains("blank"), -fix)
 ```
