@@ -43,3 +43,4 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 37 | `2021-09-07` | [Formula 1 Races](2021-09-07/readme.md) | [ergast.com/mrd/db](https://ergast.com/mrd/db/) | [FiveThirtyEight](https://fivethirtyeight.com/features/formula-one-racing/) |
 | 38 | `2021-09-14` | [Billboard Top 100](2021-09-14/readme.md) | [Data.World](https://data.world/kcmillersean/billboard-hot-100-1958-2017#) | [ThePudding](https://pudding.cool/projects/music-history/) |
 | 39 | `2021-09-21` | [Emmy Awards](2021-09-21/readme.md) | [Emmys](https://www.emmys.com/awards/nominations/award-search) | [Susie Lu](https://bit.ly/3hQNZM8) |
+| 40 | `2021-09-28` | [NBER Papers](2021-09-28/readme.md) | [NBER](https://www.emmys.com/awards/nominations/award-search) | [`nberwp` R package](https://github.com/bldavies/nberwp) |
