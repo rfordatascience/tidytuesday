@@ -1,4 +1,9 @@
 Week,Date,year,data_files,data_type,delim
+40,2021-09-28,2021,papers.csv,csv,","
+40,2021-09-28,2021,authors.csv,csv,","
+40,2021-09-28,2021,programs.csv,csv,","
+40,2021-09-28,2021,paper_authors.csv,csv,","
+40,2021-09-28,2021,paper_programs.csv,csv,","
 39,2021-09-21,2021,nominees.csv,csv,","
 38,2021-09-14,2021,billboard.csv,csv,","
 38,2021-09-14,2021,audio_features.csv,csv,","
