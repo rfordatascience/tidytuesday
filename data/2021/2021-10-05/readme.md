@@ -30,7 +30,9 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Registered Nurses
 
-The data this week comes from []().
+The data this week comes from [Data.World](https://data.world/zendoll27/registered-nursing-labor-stats-1998-2020).
+
+The BLS also [wrote about Registered Nurses by state](https://bit.ly/2YkVioc).
 
 ### Get the data here
 
