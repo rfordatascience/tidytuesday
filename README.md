@@ -162,7 +162,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 38 | `2021-09-14` | [Billboard Top 100](data/2021/2021-09-14/readme.md) | [Data.World](https://data.world/kcmillersean/billboard-hot-100-1958-2017#) | [ThePudding](https://pudding.cool/projects/music-history/) |
 | 39 | `2021-09-21` | [Emmy Awards](data/2021/2021-09-21/readme.md) | [Emmys](https://www.emmys.com/awards/nominations/award-search) | [Susie Lu](https://bit.ly/3hQNZM8) |
 | 40 | `2021-09-28` | [NBER Papers](data/2021/2021-09-28/readme.md) | [NBER](https://www.nber.org/) | [`nberwp` R package](https://github.com/bldavies/nberwp) |
-| 41 | `2021-10-05` | [Registered Nurses](2021-10-05/readme.md) | [Data.World](https://data.world/zendoll27/registered-nursing-labor-stats-1998-2020) | [BLS](https://www.bls.gov/oes/2017/may/oes291141.htm) |
+| 41 | `2021-10-05` | [Registered Nurses](data/2021-10-05/readme.md) | [Data.World](https://data.world/zendoll27/registered-nursing-labor-stats-1998-2020) | [BLS](https://www.bls.gov/oes/2017/may/oes291141.htm) |
 
 ***  
 
