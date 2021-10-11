@@ -45,3 +45,4 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 39 | `2021-09-21` | [Emmy Awards](2021-09-21/readme.md) | [Emmys](https://www.emmys.com/awards/nominations/award-search) | [Susie Lu](https://bit.ly/3hQNZM8) |
 | 40 | `2021-09-28` | [NBER Papers](2021-09-28/readme.md) | [NBER](https://www.emmys.com/awards/nominations/award-search) | [`nberwp` R package](https://github.com/bldavies/nberwp) |
 | 41 | `2021-10-05` | [Registered Nurses](2021-10-05/readme.md) | [Data.World](https://data.world/zendoll27/registered-nursing-labor-stats-1998-2020) | [BLS](https://www.bls.gov/oes/2017/may/oes291141.htm) |
+| 42 | `2021-10-12` | [Global Seafood](2021-10-12/readme.md) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) |
