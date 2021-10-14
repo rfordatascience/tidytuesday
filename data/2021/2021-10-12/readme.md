@@ -40,7 +40,7 @@ The data this week comes from [OurWorldinData.org](https://ourworldindata.org/se
 * The world now produces more seafood from aquaculture (fish farming) than from wild catch. This has played a key role in alleviating pressure on wild fish populations.  
 
 ### Get the data here
-
+	
 ```{r}
 # Get the Data
 
@@ -53,7 +53,7 @@ The data this week comes from [OurWorldinData.org](https://ourworldindata.org/se
 tuesdata <- tidytuesdayR::tt_load('2021-10-12')
 tuesdata <- tidytuesdayR::tt_load(2021, week = 42)
 
-seafood_consumption <- tuesdata$seafood_consumption
+consumption <- tuesdata$`fish-and-seafood-consumption-per-capita`
 
 # Or read in the data manually
 
