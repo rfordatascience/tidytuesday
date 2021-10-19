@@ -62,19 +62,23 @@ pumpkins <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 |variable          |class     |description |
 |:-----------------|:---------|:-----------|
 |id                |character |Year-type|
-|place             |character | Place/ranking |
-|weight_lbs        |character | Weight in pounds |
-|grower_name       |character | Name of grower |
-|city              |character | City|
+|place             |character |Place/ranking |
+|weight_lbs        |character |Weight in pounds |
+|grower_name       |character |Name of grower |
+|city              |character |City|
 |state_prov        |character |State/Province|
 |country           |character |Country|
-|gpc_site          |character | GPC site (great pumpkin commonwealth) |
-|seed_mother       |character | Seed mother|
-|pollinator_father |character | Father |
+|gpc_site          |character |GPC site (great pumpkin commonwealth) |
+|seed_mother       |character |Seed mother|
+|pollinator_father |character |Father |
 |ott               |character |Over the top inches, can be used to estimate weight |
 |est_weight        |character |Estimated weight in lbs |
-|pct_chart         |character | Percent on chart |
-|variety           |character | Variety of pumpkin |
+|pct_chart         |character |Percent on chart |
+|variety           |character |Variety of pumpkin |
+
+Types: F = "Field Pumpkin", P = "Giant Pumpkin", S = "Giant Squash", W = "Giant Watermelon", L = "Long Gourd" (length in inches, not weight in pounds), T = Tomato
+
+[Great Pumpkin Commonwealth rule book](https://gpc1.org/wp-content/uploads/2021/03/GPC-Rules-and-Handbook-2021.pdf)
 
 ### Cleaning Script
 
