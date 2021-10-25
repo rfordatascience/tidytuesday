@@ -165,6 +165,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 41 | `2021-10-05` | [Registered Nurses](data/2021/2021-10-05/readme.md) | [Data.World](https://data.world/zendoll27/registered-nursing-labor-stats-1998-2020) | [BLS](https://www.bls.gov/oes/2017/may/oes291141.htm) |
 | 42 | `2021-10-12` | [Global Seafood](data/2021/2021-10-12/readme.md) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) |
 | 43 | `2021-10-19` | [Big Pumpkins](data/2021/2021-10-19/readme.md) | [BigPumpkins.com](http://www.bigpumpkins.com/ViewArticle.asp?id=132) | [Great Pumpkin Commonwealth](https://gpc1.org/history-of-pumpkin-growing/) |
+| 44 | `2021-10-26` | [Ultra Trail Running](data/2021/2021-10-26/readme.md) | [BjnNowak-Github Repo](https://github.com/BjnNowak/UltraTrailRunning) | [RunRepeat.com](https://runrepeat.com/state-of-ultra-running) |
 
 ***  
 
