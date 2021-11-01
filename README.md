@@ -166,6 +166,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 42 | `2021-10-12` | [Global Seafood](data/2021/2021-10-12/readme.md) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) | [OurWorldinData.org](https://ourworldindata.org/seafood-production) |
 | 43 | `2021-10-19` | [Big Pumpkins](data/2021/2021-10-19/readme.md) | [BigPumpkins.com](http://www.bigpumpkins.com/ViewArticle.asp?id=132) | [Great Pumpkin Commonwealth](https://gpc1.org/history-of-pumpkin-growing/) |
 | 44 | `2021-10-26` | [Ultra Trail Running](data/2021/2021-10-26/readme.md) | [BjnNowak-Github Repo](https://github.com/BjnNowak/UltraTrailRunning) | [RunRepeat.com](https://runrepeat.com/state-of-ultra-running) |
+| 45 | `2021-11-02` | [Making maps with R](data/2021/2021-11-02/readme.md) | [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) | [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) |
 
 ***  
 
