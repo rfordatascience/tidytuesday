@@ -168,6 +168,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 44 | `2021-10-26` | [Ultra Trail Running](data/2021/2021-10-26/readme.md) | [BjnNowak-Github Repo](https://github.com/BjnNowak/UltraTrailRunning) | [RunRepeat.com](https://runrepeat.com/state-of-ultra-running) |
 | 45 | `2021-11-02` | [Making maps with R](data/2021/2021-11-02/readme.md) | [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) | [Geocomputation with R](https://geocompr.robinlovelace.net/adv-map.html) |
 | 46 | `2021-11-09` | [Learning with `afrilearndata`](data/2021/2021-11-09/readme.md) | [`afrilearndata`](https://afrimapr.github.io/afrilearndata/) | [`afrilearndata`](https://afrimapr.github.io/afrilearndata/) |
+| 47 | `2021-11-09` | [`#BlackInDataWeek` 2021](2021-11-16/readme.md) | [`#BlackInDataWeek`](https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027) | [`#BlackInDataWeek`](https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027) |
 
 ***  
 
