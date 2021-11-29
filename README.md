@@ -170,6 +170,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 46 | `2021-11-09` | [Learning with `afrilearndata`](data/2021/2021-11-09/readme.md) | [`afrilearndata`](https://afrimapr.github.io/afrilearndata/) | [`afrilearndata`](https://afrimapr.github.io/afrilearndata/) |
 | 47 | `2021-11-09` | [`#BlackInDataWeek` 2021](data/2021/2021-11-16/readme.md) | [`#BlackInDataWeek`](https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027) | [`#BlackInDataWeek`](https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027) |
 | 48 | `2021-11-23` | [Dr. Who](data/2021/2021-11-23/readme.md) | [`datardis` Pkg](https://github.com/KittJonathan/datardis) | [R and Omics, `datardis` package](https://randomics.netlify.app/posts/2021-11-16-datardis/) |
+| 49 | `2021-11-30` | [World Cup Cricket](data/2021/2021-11-30/readme.md) | [ESPN Cricinfo](https://www.espncricinfo.com/) | [Wikipedia](https://en.wikipedia.org/wiki/Cricket) |
 
 ***  
 
