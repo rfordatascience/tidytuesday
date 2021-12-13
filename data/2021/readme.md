@@ -54,3 +54,4 @@ Archive of datasets and articles from the 2021 series of `#TidyTuesday` events.
 | 48 | `2021-11-23` | [Dr. Who](2021-11-23/readme.md) | [`datardis` Pkg](https://github.com/KittJonathan/datardis) | [R and Omics, `datardis` package](https://randomics.netlify.app/posts/2021-11-16-datardis/) |
 | 49 | `2021-11-30` | [World Cup Cricket](2021-11-30/readme.md) | [ESPN Cricinfo](https://www.espncricinfo.com/) | [Wikipedia](https://en.wikipedia.org/wiki/Cricket) |
 | 50 | `2021-12-07` | [Spiders](2021-12-07/readme.md) | [World Spiders Database](https://wsc.nmbe.ch/dataresources) | [Majer et al, 2015](https://www.researchgate.net/publication/281838161_Habitat_productivity_predicts_the_global_distribution_of_social_spiders) |
+| 51 | `2021-12-14` | [Spice Girls](2021-12-14/readme.md) | [Spice Girls by Jacquie Tran](https://github.com/jacquietran/spice_girls_data) | [Spice Girls by Jacquie Tran](https://github.com/jacquietran/spice_girls_data) |
