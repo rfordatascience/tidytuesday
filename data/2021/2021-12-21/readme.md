@@ -67,7 +67,13 @@ starbucks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 |:---------------|:---------|:-----------|
 |Product_Name    |character | Product Name |
 |Size            |character | Size of drink (short, tall, grande, venti) |
-|Milk            |double    | Milk Type |
+|Milk            |double    | Milk Type type of milk used
+|                |          |  - `0` none
+|                |          |  - `1` nonfat
+|                |          |  - `2` 2%
+|                |          |  - `3` soy
+|                |          |  - `4` coconut
+|                |          |  - `5` whole |
 |Whip            |double    | Whip added or not (binary 0/1) |
 |Serv_Size_mL    |double    | Serving size in ml |
 |Calories        |double    | KCal|
