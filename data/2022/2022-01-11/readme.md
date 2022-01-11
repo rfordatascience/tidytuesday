@@ -131,6 +131,7 @@ clean_bee_colonies <- function(file){
   date_rng <- read_csv(file, skip = 0, col_names = FALSE) %>% 
     slice(2) %>% 
     pull(X3) %>% 
+    str_replace(" [5-6]/$", "") %>% 
     word(-2, -1)
   
   clean_df <- suppressWarnings(raw_df %>% 
@@ -154,14 +155,14 @@ clean_bee_stress <- function(file){
   
   col_labs <- c("state", "colony_n", "colony_max", "colony_lost", 
     "colony_lost_pct", "colony_added", "colony_reno", "colony_reno_pct")
-  
-  raw_df <- read_csv("2022/2022-01-11/bee-16/hcny_p06_t002.csv",  skip = 4, col_names = FALSE)
+
   
   raw_df <- read_csv(file,  skip = 4, col_names = FALSE)
   
   date_rng <- read_csv(file, skip = 0, col_names = FALSE) %>% 
     slice(2) %>% 
     pull(X3) %>% 
+    str_replace(" [5-6]/$", "") %>% 
     word(-2, -1)
   
   stress_nm <- c("state", "Varroa mites", "Other pests/parasites", "Disesases",
@@ -185,7 +186,7 @@ clean_bee_stress <- function(file){
 # Get the file index ------------------------------------------------------
 
 
-all_html_index <- dir_ls("2022/2022-01-11", recurse = TRUE, glob = "*htm") %>% 
+all_html_index <- dir_ls("data/2022/2022-01-11", recurse = TRUE, glob = "*htm") %>% 
   str_subset("bee-") %>% 
   str_subset("index")
 
@@ -218,7 +219,7 @@ all_index_files <- map_dfr(all_html_index, get_index)
 
 # Split data by type
 split_files <- all_index_files %>% 
-  mutate(dir_file = glue::glue("2022/2022-01-11/bee-{year}/{file}")) %>% 
+  mutate(dir_file = glue::glue("data/2022/2022-01-11/bee-{year}/{file}")) %>% 
   select(type, dir_file, year, file, desc) %>% 
   group_split(type)
 
@@ -242,4 +243,10 @@ all_colonies %>%
 all_stress %>% 
   count(year, months) %>% 
   filter(n > 282)
+
+all_colonies %>% 
+  write_csv("data/2022/2022-01-11/colony.csv")
+
+all_stress %>% 
+  write_csv("data/2022/2022-01-11/stressor.csv")
 ```
