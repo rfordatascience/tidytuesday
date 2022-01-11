@@ -76,7 +76,7 @@ stressor <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 |colony_lost_pct |integer   | Percent of total colonies lost |
 |colony_added    |integer   | Colonies added |
 |colony_reno     |integer   | Colonies renovated |
-|colony_reno_pct |integer   | Number of colonies renovated  |
+|colony_reno_pct |integer   | Percent of colonies renovated  |
 
 # `stressor.csv`
 
