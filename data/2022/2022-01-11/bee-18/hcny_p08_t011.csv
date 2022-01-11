@@ -1,0 +1,71 @@
+11,"t","Honey Bee Colonies: Released August 1, 2018, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+11,"t","Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: January 1, 2018 and January-March 2018"
+11,"h","","","","","","","",""
+11,"h","","January 1","January-March","January-March","January-March","January-March","January-March","January-March"
+11,"h","State","","","","","","",""
+11,"h","","number of","Maximum","Lost","Percent","Added","Renovated","Percent"
+11,"h","","colonies","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+11,"h","","","","","","","",""
+11,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+11,"d","Alabama",7500,7500,820,11,1200,1500,20
+11,"d","Arizona",25000,26000,6000,23,810,230,1
+11,"d","Arkansas",22000,22000,7500,34,540,810,4
+11,"d","California",1150000,1540000,220000,14,200000,132500,9
+11,"d","Colorado",13000,21000,4900,23,1400,190,1
+11,"d","Connecticut",2900,2900,140,5,220,330,11
+11,"d","Florida",245000,255000,35000,14,57000,38000,15
+11,"d","Georgia",134000,139000,25000,18,29000,39000,28
+11,"d","Hawaii",15000,15000,1600,11,1200,5100,34
+11,"d","Idaho",164000,168000,22000,13,2500,2600,2
+11,"d","",,,,,,,
+11,"d","Illinois",10500,10500,2400,23,1000,630,6
+11,"d","Indiana",7000,8000,1000,13,300,30,"(Z)"
+11,"d","Iowa",41000,45000,1300,3,420,110,"(Z)"
+11,"d","Kansas",3700,3700,950,26,500,410,11
+11,"d","Kentucky",5500,5500,1600,29,520,20,"(Z)"
+11,"d","Louisiana",50000,52000,3600,7,4100,320,1
+11,"d","Maine",1900,1900,240,13,40,30,2
+11,"d","Maryland",8000,8000,1500,19,-,190,2
+11,"d","Massachusetts",3800,3800,1000,26,240,290,8
+11,"d","Michigan",16500,34000,8000,24,10500,3900,11
+11,"d","",,,,,,,
+11,"d","Minnesota",39000,62000,3900,6,13500,2900,5
+11,"d","Mississippi",19000,32000,2000,6,28000,5500,17
+11,"d","Missouri",8000,8000,1400,18,1400,50,1
+11,"d","Montana",35000,60000,140,"(Z)",840,-,-
+11,"d","Nebraska",6500,14000,430,3,-,-,-
+11,"d","New Jersey",6500,6500,730,11,180,190,3
+11,"d","New Mexico",7500,7500,3900,52,180,-,-
+11,"d","New York",26000,26000,3700,14,400,170,1
+11,"d","North Carolina",18500,18500,4200,23,2400,260,1
+11,"d","North Dakota",64000,99000,3200,3,2600,10,"(Z)"
+11,"d","",,,,,,,
+11,"d","Ohio",12000,14000,4000,29,300,580,4
+11,"d","Oklahoma",17000,18000,3700,21,890,240,1
+11,"d","Oregon",81000,89000,4100,5,17000,3900,4
+11,"d","Pennsylvania",14500,14500,1500,10,1600,670,5
+11,"d","South Carolina",13500,14500,1800,12,1900,2800,19
+11,"d","South Dakota",23000,29000,390,1,250,90,"(Z)"
+11,"d","Tennessee",10000,10000,3000,30,600,470,5
+11,"d","Texas",205000,290000,22000,8,118000,42000,14
+11,"d","Utah",7500,17000,620,4,490,50,"(Z)"
+11,"d","Vermont",5500,5500,570,10,20,-,-
+11,"d","",,,,,,,
+11,"d","Virginia",7000,7000,2100,30,540,160,2
+11,"d","Washington",44000,89000,4600,5,7000,860,1
+11,"d","West Virginia",4700,8500,2000,24,330,60,1
+11,"d","Wisconsin",21000,29000,4600,16,2800,1560,5
+11,"d","Wyoming",5500,8000,220,3,70,-,-
+11,"d","",,,,,,,
+11,"d","Other States 5/",3720,6520,1870,29,160,40,1
+11,"d","",,,,,,,
+11,"d","United States",2631220,"(X)",425220,16,512940,288750,11
+11,"c",""
+11,"f","-  Represents zero."
+11,"f","(X)  Not applicable."
+11,"f","(Z)  Less than half of the unit shown."
+11,"f","1/ January 1 number of colonies plus all colonies moved into that state during the quarter."
+11,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the January 1 number of colonies."
+11,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+11,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the January 1 number of colonies."
+11,"f","5/ Alaska, Delaware, Nevada, New Hampshire, and Rhode Island not published separately to avoid disclosing data for individual operations."

@@ -1,0 +1,71 @@
+5,"t","Honey Bee Colonies: Released August 1, 2017, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+5,"t","Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: January 1, 2016 and January-March 2016"
+5,"h","","","","","","","",""
+5,"h","","January 1","January-March","January-March","January-March","January-March","January-March","January-March"
+5,"h","State","","","","","","",""
+5,"h","","number of","Maximum","Lost","Percent","Added","Renovated","Percent"
+5,"h","","colonies","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+5,"h","","","","","","","",""
+5,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+5,"d","Alabama",7500,7500,1700,23,2100,90,1
+5,"d","Arizona",30000,30000,4700,16,3500,150,1
+5,"d","Arkansas",27000,27000,5000,19,5000,1100,4
+5,"d","California",1130000,1410000,200000,14,210000,139000,10
+5,"d","Colorado",5000,8500,750,9,1700,10,"(Z)"
+5,"d","Connecticut",2700,2700,270,10,70,10,"(Z)"
+5,"d","Florida",275000,295000,40000,14,49000,15500,5
+5,"d","Georgia",100000,100000,15500,16,36000,3200,3
+5,"d","Hawaii",15000,15000,280,2,570,530,4
+5,"d","Idaho",91000,98000,8500,9,5500,3300,3
+5,"d","",,,,,,,
+5,"d","Illinois",8500,9500,1400,15,860,40,"(Z)"
+5,"d","Indiana",6500,6500,770,12,30,-,-
+5,"d","Iowa",13000,13000,2900,22,90,-,-
+5,"d","Kansas",5000,5000,1100,22,1400,100,2
+5,"d","Kentucky",6500,6500,1300,20,390,40,1
+5,"d","Louisiana",54000,55000,11000,20,9500,2600,5
+5,"d","Maine",2200,3700,170,5,-,-,-
+5,"d","Maryland",7500,7500,820,11,1200,10,"(Z)"
+5,"d","Massachusetts",3000,3000,370,12,1200,140,5
+5,"d","Michigan",25000,42000,5000,12,2300,80,"(Z)"
+5,"d","",,,,,,,
+5,"d","Minnesota",36000,38000,5500,14,6000,-,-
+5,"d","Mississippi",21000,50000,7500,15,48000,25000,50
+5,"d","Missouri",10000,10000,1300,13,5500,420,4
+5,"d","Montana",16500,65000,900,1,24000,-,-
+5,"d","Nebraska",11000,20000,720,4,510,-,-
+5,"d","New Jersey",6000,6000,1000,17,80,20,-
+5,"d","New Mexico",6000,6500,1700,26,1400,30,1
+5,"d","New York",31000,33000,4200,13,970,600,2
+5,"d","North Carolina",18500,24000,2600,11,1100,230,1
+5,"d","North Dakota",89000,137000,8500,6,4600,-,-
+5,"d","",,,,,,,
+5,"d","Ohio",16500,16500,2900,18,760,50,"(Z)"
+5,"d","Oklahoma",13500,13500,3300,24,4800,570,4
+5,"d","Oregon",68000,92000,2900,3,3800,1300,1
+5,"d","Pennsylvania",12500,12500,2900,23,480,170,1
+5,"d","South Carolina",16500,16500,3500,21,3200,380,2
+5,"d","South Dakota",47000,79000,10500,13,1600,-,-
+5,"d","Tennessee",9000,9000,1700,19,180,70,1
+5,"d","Texas",240000,320000,30000,9,126000,49000,15
+5,"d","Utah",12000,14500,1900,13,1400,50,"(Z)"
+5,"d","Vermont",5500,5500,410,7,-,-,-
+5,"d","",,,,,,,
+5,"d","Virginia",6500,6500,1100,17,560,70,1
+5,"d","Washington",77000,146000,13500,9,5500,1200,1
+5,"d","West Virginia",6500,8000,1700,21,-,-,-
+5,"d","Wisconsin",20000,21000,3100,15,530,-,-
+5,"d","Wyoming",2700,6500,340,5,440,-,-
+5,"d","",,,,,,,
+5,"d","Other States 5/",7340,7940,900,11,60,-,-
+5,"d","",,,,,,,
+5,"d","United States",2619940,"(X)",416100,16,571880,245060,9
+5,"c",""
+5,"f","-  Represents zero."
+5,"f","(X)  Not applicable."
+5,"f","(Z)  Less than half of the unit shown."
+5,"f","1/ January 1 number of colonies plus all colonies moved into that state during the quarter."
+5,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the January 1 number of colonies."
+5,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+5,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the January 1 number of colonies."
+5,"f","5/ Alaska, Delaware, Nevada, New Hampshire, and Rhode Island not published separately to avoid disclosing data for individual operations."

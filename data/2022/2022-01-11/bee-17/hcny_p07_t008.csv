@@ -1,0 +1,71 @@
+8,"t","Honey Bee Colonies: Released August 1, 2017, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+8,"t","Number of Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: October 1, 2016 and October-December 2016"
+8,"h","","","","","","","",""
+8,"h","","October 1","October-December","October-December","October-December","October-December","October-December","October-December"
+8,"h","State","","","","","","",""
+8,"h","","number of","Maximum","Lost","Percent","Added","Renovated","Percent"
+8,"h","","colonies","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+8,"h","","","","","","","",""
+8,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+8,"d","Alabama",7000,7000,610,9,50,10,"(Z)"
+8,"d","Arizona",29000,31000,6500,21,4600,3100,10
+8,"d","Arkansas",28000,28000,2500,9,20,10,"(Z)"
+8,"d","California",770000,1330000,205000,15,40000,35000,3
+8,"d","Colorado",30000,30000,4500,15,2500,-,-
+8,"d","Connecticut",3100,3100,240,8,-,-,-
+8,"d","Florida",255000,300000,41000,14,31000,11500,4
+8,"d","Georgia",96000,112000,11000,10,12000,450,"(Z)"
+8,"d","Hawaii",13500,13500,970,7,60,840,6
+8,"d","Idaho",121000,143000,15500,11,5000,420,"(Z)"
+8,"d","",,,,,,,
+8,"d","Illinois",9000,9000,720,8,-,-,-
+8,"d","Indiana",7500,7500,1200,16,20,-,-
+8,"d","Iowa",54000,54000,4700,9,-,20,"(Z)"
+8,"d","Kansas",5000,5000,1300,26,200,-,-
+8,"d","Kentucky",7500,7500,950,13,60,80,1
+8,"d","Louisiana",48000,57000,2000,4,250,340,1
+8,"d","Maine",3500,3500,280,8,-,-,-
+8,"d","Maryland",7500,9500,500,5,20,30,"(Z)"
+8,"d","Massachusetts",8000,8000,740,9,-,-,-
+8,"d","Michigan",101000,101000,12500,12,10,130,"(Z)"
+8,"d","",,,,,,,
+8,"d","Minnesota",113000,114000,13500,12,-,-,-
+8,"d","Mississippi",17500,30000,2400,8,330,60,"(Z)"
+8,"d","Missouri",9000,9000,590,7,1400,640,7
+8,"d","Montana",124000,124000,16000,13,2700,-,-
+8,"d","Nebraska",37000,37000,4300,12,190,-,-
+8,"d","New Jersey",12000,12000,340,3,400,-,-
+8,"d","New Mexico",7000,7000,1600,23,1100,20,"(Z)"
+8,"d","New York",48000,49000,9000,18,240,130,"(Z)"
+8,"d","North Carolina",25000,25000,5500,22,220,50,"(Z)"
+8,"d","North Dakota",385000,390000,44000,11,13500,2500,1
+8,"d","",,,,,,,
+8,"d","Ohio",19500,19500,2100,11,20,140,1
+8,"d","Oklahoma",3100,44000,2700,6,120,30,"(Z)"
+8,"d","Oregon",98000,124000,9500,8,1500,1000,1
+8,"d","Pennsylvania",21000,21000,3100,15,120,180,1
+8,"d","South Carolina",12000,17000,1300,8,760,370,2
+8,"d","South Dakota",146000,146000,11000,8,-,2400,2
+8,"d","Tennessee",9000,9000,840,9,120,10,"(Z)"
+8,"d","Texas",136000,310000,39000,13,2200,650,"(Z)"
+8,"d","Utah",30000,30000,1600,5,440,50,"(Z)"
+8,"d","Vermont",6500,6500,260,4,20,10,"(Z)"
+8,"d","",,,,,,,
+8,"d","Virginia",7000,7000,730,10,230,10,"(Z)"
+8,"d","Washington",65000,97000,9000,9,3100,130,"(Z)"
+8,"d","West Virginia",7500,7500,1000,13,80,60,1
+8,"d","Wisconsin",59000,59000,7500,13,10,20,"(Z)"
+8,"d","Wyoming",25000,27000,2200,8,50,-,-
+8,"d","",,,,,,,
+8,"d","Other States 5/",6360,6460,580,9,20,-,-
+8,"d","",,,,,,,
+8,"d","United States",3032060,"(X)",502350,17,124660,60390,2
+8,"c",""
+8,"f","-  Represents zero."
+8,"f","(X)  Not applicable."
+8,"f","(Z)  Less than half of the unit shown."
+8,"f","1/ October 1 number of colonies plus all colonies moved into that state during the quarter."
+8,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the October 1 number of colonies."
+8,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+8,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the October 1 number of colonies."
+8,"f","5/ Alaska, Delaware, Nevada, New Hampshire, and Rhode Island not published separately to avoid disclosing data for individual operations."

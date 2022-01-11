@@ -1,0 +1,703 @@
+5,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+5,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: January 1, 2018 and January-March 2018"
+5,"h","","","","","","","",""
+5,"h","","","January-March","January-March","January-March","January-March","January-March","January-March"
+5,"h","State","January 1","","","","","",""
+5,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+5,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+5,"h","","","","","","","",""
+5,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+5,"d","Alabama",7500,7500,820,11,1200,1500,20
+5,"d","Arizona",25000,26000,6000,23,810,230,1
+5,"d","Arkansas",22000,22000,7500,34,540,810,4
+5,"d","California",1150000,1540000,215000,14,205000,133000,9
+5,"d","Colorado",13000,21000,4900,23,1400,190,1
+5,"d","Connecticut",2900,2900,140,5,220,330,11
+5,"d","Florida",245000,255000,39000,15,57000,38000,15
+5,"d","Georgia",134000,139000,25000,18,29000,39000,28
+5,"d","Hawaii",17000,17000,1600,9,1200,5000,29
+5,"d","Idaho",164000,168000,22000,13,2500,2600,2
+5,"d","",,,,,,,
+5,"d","Illinois",10500,10500,2400,23,1000,630,6
+5,"d","Indiana",7000,8000,1000,13,300,30,"(Z)"
+5,"d","Iowa",41000,44000,2100,5,270,110,"(Z)"
+5,"d","Kansas",3700,3700,950,26,370,410,11
+5,"d","Kentucky",5500,5500,1200,22,760,20,"(Z)"
+5,"d","Louisiana",50000,52000,3600,7,4100,320,1
+5,"d","Maine",1900,1900,410,22,20,30,2
+5,"d","Maryland",8000,8000,1600,20,400,190,2
+5,"d","Massachusetts",3700,3700,1000,27,240,290,8
+5,"d","Michigan",16500,37000,7000,19,4000,3900,11
+5,"d","",,,,,,,
+5,"d","Minnesota",39000,62000,3900,6,8000,2900,5
+5,"d","Mississippi",19000,32000,2000,6,28000,5500,17
+5,"d","Missouri",8000,8000,1400,18,1400,50,"(Z)"
+5,"d","Montana",35000,60000,140,"(Z)",840,-,-
+5,"d","Nebraska",6500,14000,430,3,-,-,-
+5,"d","New Jersey",6500,6500,730,11,180,190,3
+5,"d","New Mexico",7500,7500,3900,52,180,-,-
+5,"d","New York",26000,26000,3700,14,400,170,1
+5,"d","North Carolina",18500,18500,4200,23,2400,260,1
+5,"d","North Dakota",66000,101000,3200,3,2600,10,"(Z)"
+5,"d","",,,,,,,
+5,"d","Ohio",12000,14000,4500,32,300,580,4
+5,"d","Oklahoma",17000,18000,3700,21,890,240,1
+5,"d","Oregon",81000,89000,4800,5,16500,3900,4
+5,"d","Pennsylvania",14500,15000,3300,22,1200,670,4
+5,"d","South Carolina",13500,14500,1800,12,1900,2800,19
+5,"d","South Dakota",23000,29000,390,1,250,90,"(Z)"
+5,"d","Tennessee",10000,10000,3400,34,540,470,5
+5,"d","Texas",205000,290000,32000,11,124000,42000,14
+5,"d","Utah",7500,17000,620,4,490,50,"(Z)"
+5,"d","Vermont",5500,5500,810,15,20,-,-
+5,"d","",,,,,,,
+5,"d","Virginia",7000,7000,2100,30,540,160,2
+5,"d","Washington",44000,90000,4600,5,7000,870,1
+5,"d","West Virginia",4700,8500,2500,29,330,60,1
+5,"d","Wisconsin",21000,29000,4600,16,2800,1600,6
+5,"d","Wyoming",5500,9000,220,2,70,-,-
+5,"d","",,,,,,,
+5,"d","Other States 5/",3820,7020,1870,27,160,40,1
+5,"d","",,,,,,,
+5,"d","United States",2635220,"(X)",438030,17,511320,289200,11
+5,"c",""
+5,"f","-  Represents zero."
+5,"f","(X)  Not applicable."
+5,"f","(Z)  Less than half of the unit shown."
+5,"f","1/ January 1 colonies plus all colonies moved into that state during the quarter."
+5,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the January 1 colonies."
+5,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+5,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the January 1 colonies."
+5,"f","5/ Includes data for States not published in this table."
+1,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+1,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: April 1, 2018 and April-June 2018"
+1,"h","","","","","","","",""
+1,"h","","","April-June","April-June","April-June","April-June","April-June","April-June"
+1,"h","State","April 1","","","","","",""
+1,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+1,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+1,"h","","","","","","","",""
+1,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+1,"d","Alabama",7000,8500,650,8,1700,710,8
+1,"d","Arizona",19000,19500,2600,13,14000,2100,11
+1,"d","Arkansas",14500,16000,2000,13,13000,1900,12
+1,"d","California",1130000,1200000,110000,9,172000,255000,21
+1,"d","Colorado",16500,27000,3000,11,12500,4700,17
+1,"d","Connecticut",3600,3600,120,3,340,170,5
+1,"d","Florida",250000,275000,56000,20,49000,68000,25
+1,"d","Georgia",131000,137000,18000,13,35000,16000,12
+1,"d","Hawaii",16500,16500,380,2,330,3100,19
+1,"d","Idaho",59000,94000,6500,7,14500,29000,31
+1,"d","",,,,,,,
+1,"d","Illinois",10000,10500,2300,22,5000,2900,28
+1,"d","Indiana",8000,9500,1800,19,4000,730,8
+1,"d","Iowa",45000,47000,4300,9,15500,4800,10
+1,"d","Kansas",3900,3900,300,8,3500,2100,54
+1,"d","Kentucky",5500,6000,910,15,1500,560,9
+1,"d","Louisiana",48000,48000,1400,3,4900,4000,8
+1,"d","Maine",2200,23000,3100,13,430,790,3
+1,"d","Maryland",7000,8000,370,5,2400,1200,15
+1,"d","Massachusetts",3500,8000,260,3,910,350,4
+1,"d","Michigan",37000,70000,7500,11,23000,8500,12
+1,"d","",,,,,,,
+1,"d","Minnesota",69000,116000,8500,7,42000,25000,22
+1,"d","Mississippi",50000,50000,3400,7,4000,7000,14
+1,"d","Missouri",7000,7000,390,6,2100,800,11
+1,"d","Montana",50000,176000,5500,3,17000,22000,13
+1,"d","Nebraska",10500,46000,2100,5,4000,900,2
+1,"d","New Jersey",4400,15000,270,2,1300,170,1
+1,"d","New Mexico",1900,4300,50,1,1700,450,10
+1,"d","New York",20000,42000,2700,6,11000,2400,6
+1,"d","North Carolina",16000,17500,2500,14,4100,800,5
+1,"d","North Dakota",74000,460000,23000,5,23000,64000,14
+1,"d","",,,,,,,
+1,"d","Ohio",11000,13000,1500,12,9000,2100,16
+1,"d","Oklahoma",15500,15500,1700,11,10500,6500,42
+1,"d","Oregon",41000,107000,3400,3,17500,24000,22
+1,"d","Pennsylvania",15500,19500,1100,6,6000,1600,8
+1,"d","South Carolina",14000,14000,1300,9,2600,4000,29
+1,"d","South Dakota",10000,169000,17000,10,12500,65000,38
+1,"d","Tennessee",8000,8000,1200,15,3800,1300,16
+1,"d","Texas",305000,315000,38000,12,79000,71000,23
+1,"d","Utah",14500,26000,1900,7,9500,4100,16
+1,"d","Vermont",5500,6500,520,8,2600,140,2
+1,"d","",,,,,,,
+1,"d","Virginia",5000,6000,500,8,2600,700,12
+1,"d","Washington",55000,122000,7500,6,15500,19000,16
+1,"d","West Virginia",7000,7000,570,8,2300,550,8
+1,"d","Wisconsin",26000,56000,6500,12,12000,7000,13
+1,"d","Wyoming",8500,28000,2300,8,5500,2200,8
+1,"d","",,,,,,,
+1,"d","Other States 5/",4380,8670,380,4,1750,1030,12
+1,"d","",,,,,,,
+1,"d","United States",2665880,"(X)",355270,13,676360,740350,28
+1,"c",""
+1,"f","(X)  Not applicable."
+1,"f","1/ April 1 colonies plus all colonies moved into that state during the quarter."
+1,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the April 1 colonies."
+1,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+1,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the April 1 colonies."
+1,"f","5/ Includes data for States not published in this table."
+7,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+7,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: July 1, 2018 and July-September 2018"
+7,"h","","","","","","","",""
+7,"h","","","July-September","July-September","July-September","July-September","July-September","July-September"
+7,"h","State","July 1","","","","","",""
+7,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+7,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","Renovated 4/"
+7,"h","","","","","","","",""
+7,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+7,"d","Alabama",8500,8500,1700,20,1600,1300,15
+7,"d","Arizona",31000,31000,8000,26,3200,3100,10
+7,"d","Arkansas",29000,29000,2300,8,2600,840,3
+7,"d","California",590000,700000,73000,10,63000,141000,20
+7,"d","Colorado",34000,35000,5000,14,1500,5000,14
+7,"d","Connecticut",3200,3200,130,4,80,310,10
+7,"d","Florida",197000,220000,30000,14,53000,40000,18
+7,"d","Georgia",134000,138000,17000,12,27000,33000,24
+7,"d","Hawaii",16500,16500,1800,11,1700,3000,18
+7,"d","Idaho",82000,101000,14000,14,15000,21000,21
+7,"d","",,,,,,,
+7,"d","Illinois",11000,11000,660,6,700,420,4
+7,"d","Indiana",11500,11500,990,9,520,1200,10
+7,"d","Iowa",56000,57000,3600,6,1200,990,2
+7,"d","Kansas",6000,6000,950,16,300,180,3
+7,"d","Kentucky",6500,7000,840,12,300,660,9
+7,"d","Louisiana",53000,53000,1900,4,1600,2300,4
+7,"d","Maine",12500,12500,890,7,60,170,1
+7,"d","Maryland",7500,7500,360,5,580,680,9
+7,"d","Massachusetts",8000,10000,2200,22,850,730,7
+7,"d","Michigan",88000,88000,8000,9,3000,22000,25
+7,"d","",,,,,,,
+7,"d","Minnesota",121000,127000,29000,23,1600,6500,5
+7,"d","Mississippi",16500,16500,2900,18,110,650,4
+7,"d","Missouri",10000,10000,540,5,260,410,4
+7,"d","Montana",145000,153000,18500,12,3100,22000,14
+7,"d","Nebraska",52000,54000,6500,12,8500,5000,9
+7,"d","New Jersey",14000,14000,320,2,250,220,2
+7,"d","New Mexico",6000,7000,1200,17,3800,1000,14
+7,"d","New York",55000,56000,3900,7,3600,3700,7
+7,"d","North Carolina",18000,18000,2200,12,2600,2000,11
+7,"d","North Dakota",455000,490000,59000,12,23000,14500,3
+7,"d","",,,,,,,
+7,"d","Ohio",16000,16000,1300,8,1300,2100,13
+7,"d","Oklahoma",2100,2100,370,18,20,10,"(Z)"
+7,"d","Oregon",116000,117000,13000,11,3000,49000,42
+7,"d","Pennsylvania",20000,21000,860,4,2900,2300,11
+7,"d","South Carolina",9500,11500,1400,12,670,1100,10
+7,"d","South Dakota",168000,197000,22000,11,8000,6500,3
+7,"d","Tennessee",9000,9000,900,10,540,1000,11
+7,"d","Texas",112000,124000,7500,6,7500,9500,8
+7,"d","Utah",30000,30000,4400,15,970,1400,5
+7,"d","Vermont",7000,7000,90,1,1200,80,1
+7,"d","",,,,,,,
+7,"d","Virginia",7500,7500,610,8,1000,990,13
+7,"d","Washington",76000,84000,12000,14,7000,3600,4
+7,"d","West Virginia",7500,8000,520,7,170,1200,15
+7,"d","Wisconsin",61000,69000,10000,14,2400,3800,6
+7,"d","Wyoming",33000,34000,3900,11,1800,3900,11
+7,"d","",,,,,,,
+7,"d","Other States 5/",6490,9990,890,9,480,440,4
+7,"d","",,,,,,,
+7,"d","United States",2958790,"(X)",377120,13,263560,420780,14
+7,"c",""
+7,"f","(X)  Not applicable."
+7,"f","(Z)  Less than half of the unit shown."
+7,"f","1/ July 1 colonies plus all colonies moved into that state during the quarter."
+7,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the July 1 colonies."
+7,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+7,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the July 1 colonies."
+7,"f","5/ Includes data for States not published in this table."
+8,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+8,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: October 1, 2018 and October-December 2018"
+8,"h","","","","","","","",""
+8,"h","","","October-December","October-December","October-December","October-December","October-December","October-December"
+8,"h","State","October 1","","","","","",""
+8,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+8,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+8,"h","","","","","","","",""
+8,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+8,"d","Alabama",6500,6500,830,13,210,1300,20
+8,"d","Arizona",26000,27000,5000,19,2200,330,1
+8,"d","Arkansas",30000,31000,6000,19,110,230,1
+8,"d","California",680000,1200000,170000,14,86000,46000,4
+8,"d","Colorado",30000,30000,3500,12,370,10,"(Z)"
+8,"d","Connecticut",3500,3500,220,6,-,60,2
+8,"d","Florida",240000,290000,43000,15,53000,20000,7
+8,"d","Georgia",148000,164000,19500,12,6500,49000,30
+8,"d","Hawaii",16000,16000,940,6,1700,6000,38
+8,"d","Idaho",99000,159000,15000,9,9000,910,1
+8,"d","",,,,,,,
+8,"d","Illinois",12000,12000,1400,12,600,350,3
+8,"d","Indiana",9000,9000,3300,37,40,1200,13
+8,"d","Iowa",21000,21000,4200,20,630,80,"(Z)"
+8,"d","Kansas",5500,5500,1000,18,420,10,"(Z)"
+8,"d","Kentucky",7000,7000,2000,29,60,430,6
+8,"d","Louisiana",50000,52000,2600,5,130,200,"(Z)"
+8,"d","Maine",12000,12000,1400,12,210,880,7
+8,"d","Maryland",7000,9000,690,8,60,90,1
+8,"d","Massachusetts",4900,4900,650,13,110,320,7
+8,"d","Michigan",77000,77000,6000,8,3900,1800,2
+8,"d","",,,,,,,
+8,"d","Minnesota",84000,86000,11500,13,2500,590,1
+8,"d","Mississippi",14500,25000,2000,8,330,50,"(Z)"
+8,"d","Missouri",10000,10000,880,9,170,150,2
+8,"d","Montana",98000,102000,5500,5,3100,500,"(Z)"
+8,"d","Nebraska",45000,45000,5000,11,7000,840,2
+8,"d","New Jersey",15500,15500,1300,8,30,80,1
+8,"d","New Mexico",8000,8000,3000,38,50,-,-
+8,"d","New York",53000,53000,4400,8,1000,1500,3
+8,"d","North Carolina",16000,16000,2700,17,250,300,2
+8,"d","North Dakota",430000,435000,29000,7,7500,1500,"(Z)"
+8,"d","",,,,,,,
+8,"d","Ohio",15500,15500,2100,14,170,450,3
+8,"d","Oklahoma",2200,57000,2500,4,60,20,"(Z)"
+8,"d","Oregon",89000,101000,13000,13,10500,12000,12
+8,"d","Pennsylvania",21000,21000,4000,19,270,1500,7
+8,"d","South Carolina",10000,12500,1500,12,770,790,6
+8,"d","South Dakota",140000,140000,21000,15,2000,430,"(Z)"
+8,"d","Tennessee",8000,8500,1900,22,30,370,4
+8,"d","Texas",116000,260000,17000,7,11000,70,"(Z)"
+8,"d","Utah",27000,27000,3400,13,180,400,1
+8,"d","Vermont",6500,6500,170,3,10,20,"(Z)"
+8,"d","",,,,,,,
+8,"d","Virginia",7000,7000,1100,16,80,1300,19
+8,"d","Washington",75000,81000,11000,14,5500,1400,2
+8,"d","West Virginia",7000,7000,1200,17,50,70,1
+8,"d","Wisconsin",48000,48000,8500,18,1600,530,1
+8,"d","Wyoming",30000,32000,2700,8,220,-,-
+8,"d","",,,,,,,
+8,"d","Other States 5/",8370,8670,1150,13,20,500,6
+8,"d","",,,,,,,
+8,"d","United States",2868970,"(X)",444730,16,219640,154560,5
+8,"c",""
+8,"f","-  Represents zero."
+8,"f","(X)  Not applicable."
+8,"f","(Z)  Less than half of the unit shown."
+8,"f","1/ October 1 colonies plus all colonies moved into that state during the quarter."
+8,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the October 1 colonies."
+8,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+8,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the October 1 colonies."
+8,"f","5/ Includes data for States not published in this table."
+11,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+11,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: January 1, 2019 and January-March 2019"
+11,"h","","","","","","","",""
+11,"h","","","January-March","January-March","January-March","January-March","January-March","January-March"
+11,"h","State","January 1","","","","","",""
+11,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+11,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+11,"h","","","","","","","",""
+11,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+11,"d","Alabama",5500,5500,650,12,800,200,4
+11,"d","Arizona",22000,22000,2500,11,430,90,"(Z)"
+11,"d","Arkansas",28000,28000,6500,23,20,20,"(Z)"
+11,"d","California",1140000,1580000,235000,15,83000,86000,5
+11,"d","Colorado",5000,7500,320,4,-,-,-
+11,"d","Connecticut",3100,3100,270,9,170,10,"(Z)"
+11,"d","Florida",300000,315000,46000,15,41000,16500,5
+11,"d","Georgia",120000,129000,14500,11,19500,8000,6
+11,"d","Hawaii",16500,16500,390,2,660,3700,22
+11,"d","Idaho",132000,145000,12500,9,4600,1100,1
+11,"d","",,,,,,,
+11,"d","Illinois",9000,9000,2300,26,210,80,1
+11,"d","Indiana",6000,6000,710,12,440,280,5
+11,"d","Iowa",7500,11500,1600,14,170,140,1
+11,"d","Kansas",4500,4500,1500,33,370,110,2
+11,"d","Kentucky",3700,4400,890,20,60,30,1
+11,"d","Louisiana",49000,51000,3500,7,9000,16000,31
+11,"d","Maine",7000,7000,470,7,10,30,"(Z)"
+11,"d","Maryland",8000,8000,2300,29,30,10,"(Z)"
+11,"d","Massachusetts",3800,3800,680,18,60,20,1
+11,"d","Michigan",24000,33000,6500,20,-,-,-
+11,"d","",,,,,,,
+11,"d","Minnesota",17000,43000,2200,5,80,470,1
+11,"d","Mississippi",26000,29000,2400,8,3800,1700,6
+11,"d","Missouri",8500,8500,1100,13,80,60,1
+11,"d","Montana",37000,68000,3500,5,1700,1900,3
+11,"d","Nebraska",13500,16500,2500,15,-,-,-
+11,"d","New Jersey",6000,6000,310,5,130,60,1
+11,"d","New Mexico",4800,4800,170,4,-,-,-
+11,"d","New York",24000,24000,3400,14,110,80,"(Z)"
+11,"d","North Carolina",10500,14500,1700,12,750,890,6
+11,"d","North Dakota",92000,102000,1100,1,-,1300,1
+11,"d","",,,,,,,
+11,"d","Ohio",10500,12500,3500,28,1700,440,4
+11,"d","Oklahoma",21000,55000,50,"(Z)",20,-,-
+11,"d","Oregon",89000,95000,7500,8,8000,1800,2
+11,"d","Pennsylvania",15000,15000,2900,19,370,320,2
+11,"d","South Carolina",12000,13000,690,5,2000,340,3
+11,"d","South Dakota",18500,18500,1100,6,-,-,-
+11,"d","Tennessee",6000,7000,1500,21,240,320,5
+11,"d","Texas",260000,330000,17000,5,61000,35000,11
+11,"d","Utah",8500,11000,1800,16,900,-,-
+11,"d","Vermont",6500,6500,260,4,50,-,-
+11,"d","",,,,,,,
+11,"d","Virginia",5500,5500,1100,20,80,110,2
+11,"d","Washington",51000,75000,7000,9,5500,2200,3
+11,"d","West Virginia",5000,7000,1300,19,20,60,1
+11,"d","Wisconsin",16500,17000,3700,22,580,100,1
+11,"d","Wyoming",6500,9500,250,3,-,-,-
+11,"d","",,,,,,,
+11,"d","Other States 5/",6070,6070,590,10,70,30,"(Z)"
+11,"d","",,,,,,,
+11,"d","United States",2671470,"(X)",407700,15,247710,179500,7
+11,"c",""
+11,"f","-  Represents zero."
+11,"f","(X)  Not applicable."
+11,"f","(Z)  Less than half of the unit shown."
+11,"f","1/ January 1 colonies plus all colonies moved into that state during the quarter."
+11,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the January 1 colonies."
+11,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+11,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the January 1 colonies."
+11,"f","5/ Includes data for States not published in this table."
+2,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+2,"t","Colony Health Stressors with Five or More Colonies – States and United States: January-March 2018"
+2,"t","[Percent of colonies affected by stressors anytime during the quarter. A colony may be affected by multiple stressors during the quarter]"
+2,"h","","","","","","",""
+2,"h","","Varroa","Other pests","","","",""
+2,"h","State","mites","and parasites 1/","Diseases 2/","Pesticides","Other 3/","Unknown"
+2,"h","","","","","","",""
+2,"u","","(percent)","(percent)","(percent)","(percent)","(percent)","(percent)"
+2,"d","Alabama",29.2,30.2,1.9,14.9,8.6,4.5
+2,"d","Arizona",36.3,4.3,4.6,15.3,7.9,4.2
+2,"d","Arkansas",21.1,9.6,1.0,23.0,4.6,13.9
+2,"d","California",41.3,11.3,4.8,11.5,8.0,4.9
+2,"d","Colorado",31.7,0.8,3.8,0.5,13.7,2.4
+2,"d","Connecticut",14.5,0.7,-,0.8,7.7,3.5
+2,"d","Florida",31.7,15.3,4.5,9.2,5.5,16.0
+2,"d","Georgia",39.6,18.7,0.9,14.8,27.1,2.1
+2,"d","Hawaii",83.0,84.5,0.1,-,0.1,"(Z)"
+2,"d","Idaho",28.3,5.7,0.8,3.4,3.4,0.4
+2,"d","",,,,,,
+2,"d","Illinois",25.7,11.2,3.6,3.5,10.4,10.9
+2,"d","Indiana",33.4,8.3,3.0,0.5,9.9,3.7
+2,"d","Iowa",5.3,1.1,0.3,0.6,0.6,1.4
+2,"d","Kansas",63.0,20.3,1.0,4.3,27.9,9.1
+2,"d","Kentucky",43.0,29.6,0.9,11.0,8.0,5.9
+2,"d","Louisiana",4.9,0.7,0.2,0.7,4.5,1.6
+2,"d","Maine",23.6,0.6,0.2,-,5.2,7.4
+2,"d","Maryland",18.2,5.6,4.4,1.5,14.3,3.1
+2,"d","Massachusetts",19.6,1.1,0.8,0.8,9.6,7.4
+2,"d","Michigan",21.4,3.5,0.7,7.4,12.0,5.9
+2,"d","",,,,,,
+2,"d","Minnesota",2.0,0.7,1.9,0.6,1.1,1.6
+2,"d","Mississippi",7.0,4.8,"(Z)",0.6,2.4,34.4
+2,"d","Missouri",86.0,77.8,0.3,3.5,26.5,23.9
+2,"d","Montana",28.9,"(Z)","(Z)",26.1,0.1,0.1
+2,"d","Nebraska",4.5,1.6,-,2.8,1.7,0.9
+2,"d","New Jersey",14.9,1.9,-,0.4,3.8,0.8
+2,"d","New Mexico",42.8,0.5,-,1.3,9.4,0.5
+2,"d","New York",25.3,11.9,1.4,1.9,8.0,6.0
+2,"d","North Carolina",29.7,10.2,0.3,0.3,13.4,8.0
+2,"d","North Dakota",1.4,0.1,1.1,-,0.8,-
+2,"d","",,,,,,
+2,"d","Ohio",39.6,10.0,6.5,3.2,15.8,11.6
+2,"d","Oklahoma",24.1,8.5,3.2,0.1,3.1,2.0
+2,"d","Oregon",36.0,0.7,1.2,6.7,3.7,1.0
+2,"d","Pennsylvania",34.4,5.6,3.3,9.3,5.9,9.9
+2,"d","South Carolina",29.3,15.5,0.7,2.6,13.5,3.0
+2,"d","South Dakota",4.4,0.1,"(Z)","(Z)",0.5,0.1
+2,"d","Tennessee",29.2,20.4,2.3,3.0,13.2,19.7
+2,"d","Texas",21.5,10.1,4.8,0.2,1.7,10.3
+2,"d","Utah",18.7,-,0.1,-,0.1,0.5
+2,"d","Vermont",17.0,1.2,0.3,0.6,2.0,0.8
+2,"d","",,,,,,
+2,"d","Virginia",26.0,11.3,0.3,3.9,7.7,16.3
+2,"d","Washington",8.5,0.9,1.0,1.9,0.4,0.4
+2,"d","West Virginia",15.0,8.0,2.0,3.4,20.8,4.9
+2,"d","Wisconsin",14.1,3.7,1.2,1.5,3.6,3.7
+2,"d","Wyoming",0.8,0.3,0.1,-,1.9,0.9
+2,"d","",,,,,,
+2,"d","Other States 4/",20.7,0.4,0.1,-,1.9,1.1
+2,"d","",,,,,,
+2,"d","United States",40.7,12.7,4.3,10.3,8.7,7.1
+2,"c",""
+2,"f","-  Represents zero."
+2,"f","(Z)  Less than half of the unit shown."
+2,"f","1/ Tracheal mites, nosema, hive beetle, wax moths, etc."
+2,"f","2/ Includes American and European foulbrood, chalkbrood, stonebrood, paralysis (acute and chronic), kashmir, deformed wing, sacbrood, IAPV, Lake Sinai II, etc."
+2,"f","3/ Includes weather, starvation, insufficient forage, queen failure, hive damage/destroyed, etc."
+2,"f","4/ Includes data for States not published in this table."
+13,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+13,"t","Colony Health Stressors with Five or More Colonies – States and United States: April-June 2018"
+13,"t","[Percent of colonies affected by stressors anytime during the quarter. A colony may be affected by multiple stressors during the quarter]"
+13,"h","","","","","","",""
+13,"h","","Varroa","Other pests","","","",""
+13,"h","State","mites","and parasites 1/","Diseases 2/","Pesticides","Other 3/","Unknown"
+13,"h","","","","","","",""
+13,"u","","(percent)","(percent)","(percent)","(percent)","(percent)","(percent)"
+13,"d","Alabama",25.2,27.3,1.3,14.4,9.4,2.1
+13,"d","Arizona",73.8,7.2,32.8,0.8,14.3,4.1
+13,"d","Arkansas",30.9,12.8,0.7,2.2,17.0,13.2
+13,"d","California",41.5,10.2,11.1,13.7,9.0,5.0
+13,"d","Colorado",41.7,"(Z)",12.7,3.6,4.2,0.5
+13,"d","Connecticut",11.1,0.9,0.4,0.8,0.8,0.4
+13,"d","Florida",45.3,27.5,9.6,15.5,10.1,21.1
+13,"d","Georgia",53.0,25.9,13.8,14.8,31.4,10.1
+13,"d","Hawaii",88.3,91.9,0.4,-,0.8,0.2
+13,"d","Idaho",51.6,3.7,3.0,18.5,4.1,4.4
+13,"d","",,,,,,
+13,"d","Illinois",13.7,7.8,6.7,6.6,9.9,2.4
+13,"d","Indiana",78.0,3.5,0.4,4.5,1.3,1.1
+13,"d","Iowa",12.7,9.3,0.9,7.9,8.4,0.3
+13,"d","Kansas",42.8,31.6,1.3,24.9,2.1,1.6
+13,"d","Kentucky",40.9,20.2,0.6,1.0,4.1,5.9
+13,"d","Louisiana",8.1,5.9,0.2,0.8,1.2,1.3
+13,"d","Maine",1.4,0.8,0.2,1.3,0.5,"(Z)"
+13,"d","Maryland",11.8,3.4,0.8,0.3,4.4,0.4
+13,"d","Massachusetts",6.3,1.1,1.0,1.4,2.0,2.1
+13,"d","Michigan",75.4,18.6,10.8,11.7,12.7,9.8
+13,"d","",,,,,,
+13,"d","Minnesota",12.9,9.3,7.2,6.0,8.0,20.7
+13,"d","Mississippi",44.6,26.2,-,0.2,3.5,2.2
+13,"d","Missouri",11.8,13.2,0.8,1.5,8.3,2.6
+13,"d","Montana",42.9,4.7,3.3,1.7,0.9,1.2
+13,"d","Nebraska",5.0,1.4,1.4,4.2,9.0,5.5
+13,"d","New Jersey",16.5,3.3,"(Z)",0.1,3.4,0.1
+13,"d","New Mexico",0.3,0.1,0.3,-,0.2,1.0
+13,"d","New York",39.6,20.0,15.0,6.6,16.7,3.7
+13,"d","North Carolina",9.7,2.6,0.5,2.4,14.6,0.8
+13,"d","North Dakota",34.8,7.9,4.9,4.7,4.9,4.3
+13,"d","",,,,,,
+13,"d","Ohio",38.8,30.7,1.7,2.7,21.6,1.5
+13,"d","Oklahoma",60.2,10.9,9.6,26.7,12.4,0.1
+13,"d","Oregon",46.1,3.5,8.1,6.6,15.6,0.2
+13,"d","Pennsylvania",31.3,16.0,2.2,2.0,1.6,1.9
+13,"d","South Carolina",14.2,3.5,0.7,1.6,10.0,3.0
+13,"d","South Dakota",55.1,40.4,7.3,3.8,37.5,"(Z)"
+13,"d","Tennessee",30.0,22.9,3.0,3.4,6.2,2.5
+13,"d","Texas",26.5,17.7,8.1,4.5,8.5,14.6
+13,"d","Utah",43.5,3.7,2.0,1.7,1.4,1.9
+13,"d","Vermont",21.8,1.5,0.7,16.7,1.8,0.1
+13,"d","",,,,,,
+13,"d","Virginia",22.7,18.8,3.2,1.3,23.1,1.5
+13,"d","Washington",55.9,9.4,7.6,7.6,7.1,0.6
+13,"d","West Virginia",13.8,7.5,0.9,2.9,13.6,7.9
+13,"d","Wisconsin",32.1,16.9,18.3,27.1,29.5,0.8
+13,"d","Wyoming",9.6,0.1,2.1,2.1,2.7,3.7
+13,"d","",,,,,,
+13,"d","Other States 4/",19.8,0.9,0.9,"(Z)",3.5,0.2
+13,"d","",,,,,,
+13,"d","United States",56.4,19.4,11.6,13.3,14.7,9.3
+13,"c",""
+13,"f","-  Represents zero."
+13,"f","(Z)  Less than half of the unit shown."
+13,"f","1/ Tracheal mites, nosema, hive beetle, wax moths, etc."
+13,"f","2/ Includes American and European foulbrood, chalkbrood, stonebrood, paralysis (acute and chronic), kashmir, deformed wing, sacbrood, IAPV, Lake Sinai II, etc."
+13,"f","3/ Includes weather, starvation, insufficient forage, queen failure, hive damage/destroyed, etc."
+13,"f","4/ Includes data for States not published in this table."
+9,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+9,"t","Colony Health Stressors with Five or More Colonies – States and United States: July-September 2018"
+9,"t","[Percent of colonies affected by stressors anytime during the quarter. A colony may be affected by multiple stressors during the quarter]"
+9,"h","","","","","","",""
+9,"h","","Varroa","Other pests","","","",""
+9,"h","State","mites","and parasites 1/","Diseases 2/","Pesticides","Other 3/","Unknown"
+9,"h","","","","","","",""
+9,"u","","(percent)","(percent)","(percent)","(percent)","(percent)","(percent)"
+9,"d","Alabama",77.5,69.4,0.7,14.6,7.8,6.8
+9,"d","Arizona",52.5,2.3,4.5,3.8,15.0,27.6
+9,"d","Arkansas",29.9,7.8,0.1,17.6,0.5,0.6
+9,"d","California",57.3,6.6,4.5,17.8,12.0,3.6
+9,"d","Colorado",72.6,16.6,5.6,2.9,8.5,4.5
+9,"d","Connecticut",13.0,-,-,1.4,2.5,1.2
+9,"d","Florida",35.0,20.5,4.2,7.6,14.3,9.8
+9,"d","Georgia",49.8,20.4,2.4,27.7,6.0,7.2
+9,"d","Hawaii",88.3,89.4,0.1,0.1,0.1,-
+9,"d","Idaho",83.6,5.4,14.6,26.5,13.8,5.7
+9,"d","",,,,,,
+9,"d","Illinois",21.2,10.6,2.1,5.1,1.5,7.0
+9,"d","Indiana",29.5,12.2,1.4,20.6,5.0,0.5
+9,"d","Iowa",29.9,9.8,8.5,0.4,1.9,0.4
+9,"d","Kansas",76.8,51.1,6.6,8.0,23.7,7.9
+9,"d","Kentucky",47.1,26.5,1.6,1.5,4.5,7.6
+9,"d","Louisiana",31.3,29.9,0.2,1.7,1.0,1.6
+9,"d","Maine",37.0,1.0,1.1,-,3.5,0.5
+9,"d","Maryland",11.7,6.0,0.3,0.6,1.1,3.8
+9,"d","Massachusetts",75.9,11.2,10.7,10.1,1.1,10.3
+9,"d","Michigan",92.4,13.8,1.1,23.8,19.5,18.6
+9,"d","",,,,,,
+9,"d","Minnesota",44.5,12.4,6.0,28.4,9.3,8.1
+9,"d","Mississippi",25.2,8.6,"(Z)",0.5,7.5,7.2
+9,"d","Missouri",18.2,16.9,1.2,1.2,7.5,1.1
+9,"d","Montana",43.8,18.5,18.0,6.8,21.8,2.7
+9,"d","Nebraska",24.1,3.2,5.9,6.5,4.3,4.0
+9,"d","New Jersey",12.3,5.1,0.2,0.1,1.0,0.4
+9,"d","New Mexico",-,-,-,12.3,0.4,0.2
+9,"d","New York",40.7,20.6,18.6,24.4,22.9,10.2
+9,"d","North Carolina",66.0,17.9,11.4,8.4,11.4,3.1
+9,"d","North Dakota",52.6,11.5,9.6,10.4,10.9,1.2
+9,"d","",,,,,,
+9,"d","Ohio",58.9,40.9,2.6,1.3,11.9,1.2
+9,"d","Oklahoma",59.6,51.1,0.1,23.5,17.2,23.4
+9,"d","Oregon",57.2,2.8,7.0,45.1,10.7,0.8
+9,"d","Pennsylvania",23.5,8.1,1.9,1.6,1.7,2.6
+9,"d","South Carolina",76.8,53.4,0.7,32.4,7.6,0.9
+9,"d","South Dakota",54.7,32.9,3.3,8.5,45.0,1.6
+9,"d","Tennessee",70.6,53.2,0.7,13.2,5.6,2.1
+9,"d","Texas",18.8,4.4,0.4,6.2,2.8,0.9
+9,"d","Utah",34.0,15.5,0.1,0.2,1.0,0.7
+9,"d","Vermont",29.3,4.9,4.3,24.1,0.3,-
+9,"d","",,,,,,
+9,"d","Virginia",39.0,28.5,2.6,7.7,11.6,1.7
+9,"d","Washington",7.1,0.6,0.6,2.7,9.9,2.8
+9,"d","West Virginia",57.0,52.6,0.3,0.3,6.8,2.1
+9,"d","Wisconsin",54.4,32.7,2.6,19.5,6.1,4.3
+9,"d","Wyoming",35.4,2.8,2.2,9.0,3.3,4.0
+9,"d","",,,,,,
+9,"d","Other States 4/",22.8,2.4,1.3,2.9,4.9,0.7
+9,"d","",,,,,,
+9,"d","United States",53.8,15.2,6.4,15.7,13.9,4.7
+9,"c",""
+9,"f","-  Represents zero."
+9,"f","(Z)  Less than half of the unit shown."
+9,"f","1/ Tracheal mites, nosema, hive beetle, wax moths, etc."
+9,"f","2/ Includes American and European foulbrood, chalkbrood, stonebrood, paralysis (acute and chronic), kashmir, deformed wing, sacbrood, IAPV, Lake Sinai II, etc."
+9,"f","3/ Includes weather, starvation, insufficient forage, queen failure, hive damage/destroyed, etc."
+9,"f","4/ Includes data for States not published in this table."
+10,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+10,"t","Colony Health Stressors with Five or More Colonies – States and United States: October-December 2018"
+10,"t","[Percent of colonies affected by stressors anytime during the quarter. A colony may be affected by multiple stressors during the quarter]"
+10,"h","","","","","","",""
+10,"h","","Varroa","Other pests","","","",""
+10,"h","State","mites","and parasites 1/","Diseases 2/","Pesticides","Other 3/","Unknown"
+10,"h","","","","","","",""
+10,"u","","(percent)","(percent)","(percent)","(percent)","(percent)","(percent)"
+10,"d","Alabama",20.6,20.5,1.3,1.5,3.4,7.5
+10,"d","Arizona",20.6,8.3,3.1,"(Z)",7.1,3.0
+10,"d","Arkansas",82.8,7.1,-,73.5,5.3,2.2
+10,"d","California",44.1,16.6,9.8,11.6,9.3,7.1
+10,"d","Colorado",73.2,5.9,1.0,"(Z)",6.1,1.2
+10,"d","Connecticut",12.5,3.6,2.3,0.9,4.2,2.3
+10,"d","Florida",46.7,22.4,9.0,14.1,8.0,6.7
+10,"d","Georgia",41.4,17.4,9.2,6.9,5.6,7.8
+10,"d","Hawaii",70.5,83.3,"(Z)",-,0.1,-
+10,"d","Idaho",64.9,47.4,9.6,15.9,7.0,4.5
+10,"d","",,,,,,
+10,"d","Illinois",27.2,13.1,2.4,2.8,6.9,5.7
+10,"d","Indiana",51.3,21.3,23.8,64.6,35.4,2.3
+10,"d","Iowa",55.1,27.2,8.9,31.6,29.4,5.6
+10,"d","Kansas",62.0,31.3,26.0,43.7,1.6,26.4
+10,"d","Kentucky",57.1,41.9,1.2,6.8,5.5,4.3
+10,"d","Louisiana",16.6,6.7,0.3,5.9,1.0,1.7
+10,"d","Maine",9.3,5.1,"(Z)",-,1.2,0.1
+10,"d","Maryland",16.6,5.3,0.3,1.2,4.9,1.7
+10,"d","Massachusetts",33.2,9.2,8.1,9.4,3.4,5.3
+10,"d","Michigan",52.0,31.2,15.6,15.1,2.4,6.6
+10,"d","",,,,,,
+10,"d","Minnesota",28.4,5.2,4.2,7.9,3.8,2.4
+10,"d","Mississippi",26.5,6.7,0.2,0.5,3.0,4.5
+10,"d","Missouri",37.0,10.0,1.1,2.3,1.9,4.1
+10,"d","Montana",40.7,13.0,5.6,17.5,2.9,"(Z)"
+10,"d","Nebraska",3.0,0.7,0.7,0.3,2.9,1.0
+10,"d","New Jersey",14.0,3.2,0.1,-,5.4,0.3
+10,"d","New Mexico",81.3,0.8,3.7,0.1,8.0,1.2
+10,"d","New York",26.0,4.5,7.8,2.4,7.8,0.7
+10,"d","North Carolina",53.0,10.4,3.8,2.0,11.1,5.2
+10,"d","North Dakota",29.5,9.4,8.1,10.6,4.3,4.6
+10,"d","",,,,,,
+10,"d","Ohio",29.3,5.8,0.1,8.1,2.4,9.9
+10,"d","Oklahoma",13.1,0.4,"(Z)",-,"(Z)",0.3
+10,"d","Oregon",44.1,4.6,16.0,14.8,0.9,0.2
+10,"d","Pennsylvania",26.9,10.7,6.7,13.0,7.8,5.4
+10,"d","South Carolina",32.2,16.1,0.3,1.4,1.3,5.5
+10,"d","South Dakota",12.8,1.3,7.0,1.6,2.1,2.5
+10,"d","Tennessee",49.8,20.8,1.9,11.4,9.1,5.1
+10,"d","Texas",18.6,18.5,5.5,3.0,6.2,3.7
+10,"d","Utah",48.0,9.8,5.5,8.0,6.5,4.9
+10,"d","Vermont",6.2,1.3,-,-,0.8,0.7
+10,"d","",,,,,,
+10,"d","Virginia",57.1,38.4,12.1,13.1,5.8,2.8
+10,"d","Washington",34.5,0.5,11.7,4.9,3.3,1.3
+10,"d","West Virginia",29.5,15.2,0.6,7.2,4.2,6.8
+10,"d","Wisconsin",29.9,28.3,1.5,24.5,7.6,5.2
+10,"d","Wyoming",43.9,7.9,2.6,6.8,1.0,1.4
+10,"d","",,,,,,
+10,"d","Other States 4/",12.7,0.2,0.2,5.4,1.5,5.4
+10,"d","",,,,,,
+10,"d","United States",50.5,20.3,10.4,13.8,8.4,6.5
+10,"c",""
+10,"f","-  Represents zero."
+10,"f","(Z)  Less than half of the unit shown."
+10,"f","1/ Tracheal mites, nosema, hive beetle, wax moths, etc."
+10,"f","2/ Includes American and European foulbrood, chalkbrood, stonebrood, paralysis (acute and chronic), kashmir, deformed wing, sacbrood, IAPV, Lake Sinai II, etc."
+10,"f","3/ Includes weather, starvation, insufficient forage, queen failure, hive damage/destroyed, etc."
+10,"f","4/ Includes data for States not published in this table."
+12,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+12,"t","Colony Health Stressors with Five or More Colonies – States and United States: January-March 2019"
+12,"t","[Percent of colonies affected by stressors anytime during the quarter. A colony may be affected by multiple stressors during the quarter]"
+12,"h","","","","","","",""
+12,"h","","Varroa","Other pests","","","",""
+12,"h","State","mites","and parasites 1/","Diseases 2/","Pesticides","Other 3/","Unknown"
+12,"h","","","","","","",""
+12,"u","","(percent)","(percent)","(percent)","(percent)","(percent)","(percent)"
+12,"d","Alabama",27.2,22.7,1.8,0.3,3.1,9.0
+12,"d","Arizona",25.8,7.9,6.5,16.2,8.4,0.2
+12,"d","Arkansas",19.5,1.5,3.3,55.3,0.7,2.9
+12,"d","California",43.5,13.4,6.4,12.3,8.7,5.6
+12,"d","Colorado",11.2,0.3,-,-,2.5,0.6
+12,"d","Connecticut",10.1,1.3,-,-,3.6,1.7
+12,"d","Florida",46.9,24.8,5.5,22.9,7.4,5.5
+12,"d","Georgia",69.6,17.8,7.4,9.6,10.6,4.9
+12,"d","Hawaii",72.1,64.9,0.1,0.7,2.9,-
+12,"d","Idaho",24.5,8.0,8.0,9.2,8.6,"(Z)"
+12,"d","",,,,,,
+12,"d","Illinois",33.3,14.7,3.1,0.7,15.5,10.1
+12,"d","Indiana",15.6,8.8,2.6,5.5,7.1,1.7
+12,"d","Iowa",34.8,1.7,0.6,0.3,7.7,3.5
+12,"d","Kansas",102.0,7.8,2.5,12.2,21.6,4.0
+12,"d","Kentucky",21.6,12.9,0.1,5.3,10.7,4.6
+12,"d","Louisiana",57.8,1.3,0.1,0.3,1.0,0.7
+12,"d","Maine",2.3,0.1,-,-,1.4,0.8
+12,"d","Maryland",12.6,5.1,0.2,"(Z)",10.1,2.4
+12,"d","Massachusetts",10.3,-,-,4.3,6.3,0.9
+12,"d","Michigan",18.2,5.8,1.5,0.2,12.2,0.7
+12,"d","",,,,,,
+12,"d","Minnesota",1.3,0.2,1.9,-,2.0,0.8
+12,"d","Mississippi",14.6,71.0,64.8,48.4,1.9,5.5
+12,"d","Missouri",5.4,2.3,1.9,0.5,5.4,3.2
+12,"d","Montana",15.1,"(Z)",-,0.8,0.8,1.1
+12,"d","Nebraska",32.3,1.3,32.0,0.8,2.2,0.1
+12,"d","New Jersey",15.3,4.4,-,-,3.5,0.6
+12,"d","New Mexico",3.5,1.1,0.6,-,1.4,0.3
+12,"d","New York",10.6,2.5,1.7,1.7,7.7,9.0
+12,"d","North Carolina",16.4,2.0,0.2,0.7,2.2,3.4
+12,"d","North Dakota",6.9,-,-,6.5,0.4,1.3
+12,"d","",,,,,,
+12,"d","Ohio",49.3,9.9,11.1,1.1,6.7,3.1
+12,"d","Oklahoma",7.7,0.3,-,-,"(Z)","(Z)"
+12,"d","Oregon",18.0,0.1,0.2,0.2,2.7,0.5
+12,"d","Pennsylvania",15.3,4.6,3.7,4.0,7.5,9.5
+12,"d","South Carolina",18.5,14.5,"(Z)",1.7,12.4,1.0
+12,"d","South Dakota",0.8,"(Z)",-,2.5,0.8,2.2
+12,"d","Tennessee",62.8,23.6,5.1,0.9,7.7,7.1
+12,"d","Texas",26.1,6.5,5.3,8.3,6.9,3.0
+12,"d","Utah",22.9,-,0.1,-,0.3,8.8
+12,"d","Vermont",6.2,0.1,2.4,-,0.2,1.2
+12,"d","",,,,,,
+12,"d","Virginia",16.6,12.8,0.8,0.3,3.9,9.3
+12,"d","Washington",22.3,0.8,0.6,0.3,0.8,0.2
+12,"d","West Virginia",10.3,3.2,1.1,0.2,5.0,1.3
+12,"d","Wisconsin",15.9,3.2,0.7,1.1,13.8,5.0
+12,"d","Wyoming",0.7,-,0.1,-,0.5,2.3
+12,"d","",,,,,,
+12,"d","Other States 4/",6.9,1.8,0.3,-,2.1,1.6
+12,"d","",,,,,,
+12,"d","United States",45.6,14.8,7.1,13.6,9.0,5.2
+12,"c",""
+12,"f","-  Represents zero."
+12,"f","(Z)  Less than half of the unit shown."
+12,"f","1/ Tracheal mites, nosema, hive beetle, wax moths, etc."
+12,"f","2/ Includes American and European foulbrood, chalkbrood, stonebrood, paralysis (acute and chronic), kashmir, deformed wing, sacbrood, IAPV, Lake Sinai II, etc."
+12,"f","3/ Includes weather, starvation, insufficient forage, queen failure, hive damage/destroyed, etc."
+12,"f","4/ Includes data for States not published in this table."
+3,"t","Honey Bee Colonies: Released August 1, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+3,"t","Colonies Lost with Colony Collapse Disorder Symptoms with Five or More Colonies – United States: Quarterly January-December 2018 and 2019"
+3,"t","[Loss reported that met all of the following criteria: 1) Little to no build-up of dead bees in the hive or at the hive entrance 2) Rapid loss of adult honey bee population despite the presence of queen, capped brood, and food reserves 3) Absence or delayed robbing of the food reserves 4) Loss not attributable to varroa or nosema loads. Blank cells indicate estimation period has not yet begun]"
+3,"h","","","","",""
+3,"h","Year","January-","April-","July-","October-"
+3,"h","","March","June","September","December"
+3,"h","","","","",""
+3,"u","","(number)","(number)","(number)","(number)"
+3,"d","2018",81140,49030,78270,122240
+3,"d","2019",59940
+3,"c",""
