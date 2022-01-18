@@ -67,7 +67,7 @@ Want to submit a useful code-chunk? Please submit as a [Pull Request](https://gi
 
 To cite the TidyTuesday repo/project in publications use:
 
-  Thomas Mock (2021). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
+  Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
   https://github.com/rfordatascience/tidytuesday.
 
 A BibTeX entry for LaTeX users is
@@ -78,7 +78,7 @@ A BibTeX entry for LaTeX users is
     author = {Mock, Thomas}, 
     url = {https://github.com/rfordatascience/tidytuesday}, 
     
-    year = {2021} 
+    year = {2022} 
   }
 ```
 
@@ -122,7 +122,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2021-01-04` | Bring your own data to start 2022! | | |
+| 1 | `2022-01-04` | Bring your own data to start 2022! | | |
 | 2 | `2022-01-11` | [Bee Colony losses](data/2022/2022-01-11/readme.md) | [USDA](https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en) | [Bee Informed](https://beeinformed.org/2021/06/21/united-states-honey-bee-colony-losses-2020-2021-preliminary-results/) |
 
 ***  
