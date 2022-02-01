@@ -126,7 +126,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 2 | `2022-01-11` | [Bee Colony losses](data/2022/2022-01-11/readme.md) | [USDA](https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en) | [Bee Informed](https://beeinformed.org/2021/06/21/united-states-honey-bee-colony-losses-2020-2021-preliminary-results/) |
 | 3 | `2022-01-18` | [Chocolate Bar ratings](data/2022/2022-01-18/readme.md) | [Flavors of Cacao](http://flavorsofcacao.com/chocolate_database.html) | [Will Canniford on Kaggle](https://www.kaggle.com/willcanniford/chocolate-bar-ratings-extensive-eda) |
 | 4 | `2022-01-25` | [Board games](data/2022/2022-01-25/readme.md) | [Kaggle](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews/version/3?select=2022-01-08.csv) | [Alyssa Goldberg](https://rpubs.com/thewiremonkey/476630) |
-
+| 5 | `2022-02-01` | [Dog breeds](data/2022/2022-02-01/readme.md) | [American Kennel Club](https://github.com/kkakey/dog_traits_AKC) | [Vox](https://www.vox.com/2016/8/31/12715176/most-popular-dog-breeds) |
 ***  
 
 # Useful links
