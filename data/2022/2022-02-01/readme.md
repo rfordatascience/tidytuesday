@@ -108,8 +108,8 @@ breed_rank_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 |2016 Rank            |character | Popularity of breed based on AKC registration statistics in 2016 |
 |2017 Rank            |character | Popularity of breed based on AKC registration statistics in 2017 |
 |2018 Rank            |character | Popularity of breed based on AKC registration statistics in 2018 |
-|2019 Rank            |character | Popularity of breed based on AKC registration statistics in 2020 |
-|2020 Rank            |character | Popularity of breed based on AKC registration statistics in 2019 |
+|2019 Rank            |character | Popularity of breed based on AKC registration statistics in 2019 |
+|2020 Rank            |character | Popularity of breed based on AKC registration statistics in 2020 |
 |links            |character    | Link to the dog breed's AKC webpage |
 |Image            |character    | Link to image of dog breed |
 
