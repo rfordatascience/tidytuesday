@@ -34,13 +34,13 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # DuBois Challenge
 
-The data this week comes from [Anthony Starks](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022) as part of the `#DuBoisChallenge2022`.
+The data this week comes from [Anthony Starks](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022) as part of the `#DuBoisChallenge2022`. Credit to [Anthony Starks](https://twitter.com/ajstarks), [Allen Hillery](https://twitter.com/AlDatavizguy) and [Sekou Tyler](https://twitter.com/sqlsekou) for creating and executing this challenge!
 
 The WEB DuBois challenge is live for 10 weeks, and you can use the `#DuBoisChallenge2022` hashtag to participate in this challenge. Full details available in the [DuBois data portraits repo](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022). Anthony Starks has written an excellent article covering the details of last year's challenge and this year's new challenge in the [Nightingale by DVS](https://nightingaledvs.com/the-dubois-challenge/).
 
-While there are several datasets in that repo, there is also the option to BYOD (Bring your own data)! Details below from the repo. The primary request is to try and recreate the ["Duboisian" style](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf).
+While there are several datasets in that repo, there is also the option to BYOD (Bring your own data)! Details below from the repo. The primary request is to try and recreate the ["Duboisian" style](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf). 
 
-# Du Bois Visualization Challenge: 2022
+> # Du Bois Visualization Challenge: 2022
 
 ![A screenshot of the 10 visualizations from the DuBois Challenge. Each has a color scheme of bright yellow, blue, black, or green. A unique aspect is the use of curves/circles to indicate the number.](cat2022.png)
 
