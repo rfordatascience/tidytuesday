@@ -32,7 +32,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from [Freedom House](https://freedomhouse.org/reports/publication-archives) and the [United Nations](https://unstats.un.org/unsd/methodology/m49/overview/) by way of [Arthur Cheib](https://github.com/ArthurCheib/analytical-politics-project/blob/main/data/tidy-data-fh-un.csv).
 
-I want to note that a "Freedom Index" from any source have potential bias or miscalculations. While the index appears to cover many social issues including freedom of religion, expression, etc this data (like any data) can be approached with skepticism.
+I want to note that a "Freedom Index" from any source have potential bias or miscalculations. While the index appears to cover many social issues including freedom of religion, expression, etc this data (like any data) can be approached with skepticism. Data such as this are far from perfect and may misrepresent nuanced political situations or oversimplify difficult to record/measure political nuance.
 
 Thank you to a few users who suggested alternative resources or critiques.
 
