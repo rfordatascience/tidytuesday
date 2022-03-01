@@ -32,6 +32,15 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from [Freedom House](https://freedomhouse.org/reports/publication-archives) and the [United Nations](https://unstats.un.org/unsd/methodology/m49/overview/) by way of [Arthur Cheib](https://github.com/ArthurCheib/analytical-politics-project/blob/main/data/tidy-data-fh-un.csv).
 
+I want to note that a "Freedom Index" from any source have potential bias or miscalculations. While the index appears to cover many social issues including freedom of religion, expression, etc this data (like any data) can be approached with skepticism.
+
+Thank you to a few users who suggested alternative resources or critiques.
+
+[Jeppe Viero](https://twitter.com/jvieroe/status/1498280194280411144?s=20&t=CuhrTPZ0-YFbea3XGCMYtA)
+
+[David Ranzolin](https://twitter.com/daranzolin/status/1496528240411914242?s=20&t=CuhrTPZ0-YFbea3XGCMYtA)
+
+
 > Freedom in the World, Freedom House's flagship publication, is the standard-setting comparative assessment of global political rights and civil liberties. Published annually since 1972, the survey ratings and narrative reports on 195 countries and 15 related and disputed territories are used by policymakers, the media, international corporations, civic activists, and human rights defenders. 
 
 Freedom House has written about their index - notably an article in 2018 on ["Democracy in Crisis"](https://freedomhouse.org/report/freedom-world/2018/democracy-crisis) and ["10 years of Decline in Global Freedom""](https://freedomhouse.org/article/q-10-years-decline-global-freedom).

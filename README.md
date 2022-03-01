@@ -130,6 +130,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 6 | `2022-02-08` | [Tuskegee Airmen](data/2022/2022-02-08/readme.md) | [Commemorative Airforce (CAF) by way of the VA-TUG](https://github.com/lang1023/Tuskegee-Airman-Challenge) | [Wikipedia](https://en.wikipedia.org/wiki/Tuskegee_Airmen) & [Air Force Historical Research Agency](https://github.com/lang1023/Tuskegee-Airman-Challenge/blob/main/112%20Victories_%20Aerial%20Victories%20of%20hte%20Tuskegee%20Airmen%20(1).pdf) |
 | 7 | `2022-02-15` | [`#DuBoisChallenge2022`](data/2022/2022-02-15/readme.md) | [Anthony Starks](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022) | [Nightingale by DVS](https://nightingaledvs.com/the-dubois-challenge/) |
 | 8 | `2022-02-22` | [World Freedom index](data/2022/2022-02-22/readme.md) | [UN and Freedom House](https://github.com/ArthurCheib/analytical-politics-project/blob/main/data/tidy-data-fh-un.csv) | [Freedom House](https://freedomhouse.org/report/freedom-world/2018/democracy-crisis) |
+| 9 | `2022-03-01` | [Alternative Fuel Stations](data/2022/2022-03-01/readme.md) | [US DOT](https://data-usdot.opendata.arcgis.com/datasets/usdot::alternative-fueling-stations/about) | [EIA](https://www.eia.gov/todayinenergy/detail.php?id=6050) |
 
 ***  
 
