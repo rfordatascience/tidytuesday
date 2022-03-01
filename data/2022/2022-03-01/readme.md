@@ -34,6 +34,8 @@ The data this week comes from [US DOT](https://data-usdot.opendata.arcgis.com/da
 
 Hattip to [Data is Plural](https://www.data-is-plural.com/archive/2021-09-08-edition/) for sharing this resource.
 
+Note there is also a [shapefile](Alternative_Fueling_Stations.zip)
+
 ### Get the data here
 
 ```{r}
