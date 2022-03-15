@@ -132,6 +132,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 8 | `2022-02-22` | [World Freedom index](data/2022/2022-02-22/readme.md) | [UN and Freedom House](https://github.com/ArthurCheib/analytical-politics-project/blob/main/data/tidy-data-fh-un.csv) | [Freedom House](https://freedomhouse.org/report/freedom-world/2018/democracy-crisis) |
 | 9 | `2022-03-01` | [Alternative Fuel Stations](data/2022/2022-03-01/readme.md) | [US DOT](https://data-usdot.opendata.arcgis.com/datasets/usdot::alternative-fueling-stations/about) | [EIA](https://www.eia.gov/todayinenergy/detail.php?id=6050) |
 | 10 | `2022-03-08` | [Erasmus student mobility](data/2022/2022-03-08/readme.md) | [Data.Europa.eu](https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en) | [Wimdu.co](https://www.wimdu.co.uk/blog/discover-popular-erasmus-destinations) |
+| 11 | `2022-03-15` | [CRAN/BIOC Vignettes](data/2022/2022-03-15/readme.md) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis)|
 
 ***  
 
