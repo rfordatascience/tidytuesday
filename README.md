@@ -133,6 +133,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 9 | `2022-03-01` | [Alternative Fuel Stations](data/2022/2022-03-01/readme.md) | [US DOT](https://data-usdot.opendata.arcgis.com/datasets/usdot::alternative-fueling-stations/about) | [EIA](https://www.eia.gov/todayinenergy/detail.php?id=6050) |
 | 10 | `2022-03-08` | [Erasmus student mobility](data/2022/2022-03-08/readme.md) | [Data.Europa.eu](https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en) | [Wimdu.co](https://www.wimdu.co.uk/blog/discover-popular-erasmus-destinations) |
 | 11 | `2022-03-15` | [CRAN/BIOC Vignettes](data/2022/2022-03-15/readme.md) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis)|
+| 12 | `2022-03-22` | [Baby names](data/2022/2022-03-22/readme.md) | [US `babynames`](http://hadley.github.io/babynames/) &  [`nzbabynames`](https://ekothe.github.io/nzbabynames/)  | [Emily Kothe's `nzbabynames` vignette](https://ekothe.github.io/nzbabynames/articles/guess_the_age.html) |
 
 ***  
 
