@@ -1,4 +1,10 @@
 Week,Date,year,data_files,data_type,delim
+15,2022-04-12,2022,fuel_gdp.csv,csv,","
+15,2022-04-12,2022,fuel_access.csv,csv,","
+15,2022-04-12,2022,death_timeseries.csv,csv,","
+15,2022-04-12,2022,death_source.csv,csv,","
+15,2022-04-12,2022,death_fuel.csv,csv,","
+15,2022-04-12,2022,indoor_pollution.csv,csv,","
 14,2022-04-05,2022,news_orgs.csv,csv,","
 13,2022-03-29,2022,sports.csv,csv,","
 12,2022-03-22,2022,applicants.csv,csv,","
