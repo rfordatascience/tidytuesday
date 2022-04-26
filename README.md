@@ -20,7 +20,7 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 2. Again, the data is what it is! You are welcome to explore beyond the provided dataset, but the data is provided as a "toy" dataset to practice techniques on.  
 3. This is NOT about criticizing the original article or graph. Real people made the graphs, collected or acquired the data! Focus on the provided dataset, learning, and improving your techniques in R.  
 4. This is NOT about criticizing or tearing down your fellow `#RStats` practitioners or their code! Be supportive and kind to each other! Like other's posts and help promote the `#RStats` community!  
-4. Use the hashtag #TidyTuesday on Twitter if you create your own version and would like to share it.
+4. Use the hashtags #TidyTuesday and #RStats on Twitter if you create your own version and would like to share it.
 5. Include a picture of the visualisation when you post to Twitter.  
 6. Include a copy of the code used to create your visualization when you post to Twitter. Comment your code wherever possible to help yourself and others understand your process!  
 7. Focus on improving your craft, even if you end up with something simple!  
