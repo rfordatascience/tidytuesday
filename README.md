@@ -139,6 +139,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 15 | `2022-04-12` | [Indoor Air Pollution](data/2022/2022-04-12/readme.md) | [OurWorldInData.org](https://ourworldindata.org/indoor-air-pollution) | [OurWorldInData.org](https://ourworldindata.org/indoor-air-pollution) |
 | 16 | `2022-04-19` | [Crossword Puzzles and Clues](data/2022/2022-04-19/readme.md) | [Cryptics.georgeho.org](https://cryptics.georgeho.org/) | [Towards Data Science](https://towardsdatascience.com/the-wild-world-of-crossword-data-71d560e222f5 |
 | 17 | `2022-04-26` | [Kaggle Hidden Gems](data/2022/2022-04-26/readme.md) | [Kaggle](https://www.kaggle.com/code/headsortails/hidden-gems-a-collection-of-underrated-notebooks/report) | [Kaggle - Notebooks of the Week](https://www.kaggle.com/datasets/headsortails/notebooks-of-the-week-hidden-gems/discussion/317098) |
+| 18 | `2022-05-03` | [Solar/Wind utilities](data/2022/2022-05-03/readme.md) | [Berkeley Lab](https://emp.lbl.gov/utility-scale-solar) | [Berkeley Lab report](https://emp.lbl.gov/sites/default/files/utility-scale_solar_2021_technical_brief.pdf) |
 
 ***  
 
