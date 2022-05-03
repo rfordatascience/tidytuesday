@@ -1,4 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+18,2022-05-03,2022,capacity.csv,csv,","
+18,2022-05-03,2022,wind.csv,csv,","
+18,2022-05-03,2022,solar.csv,csv,","
+18,2022-05-03,2022,average_cost.csv,csv,","
 17,2022-04-26,2022,hidden_gems.csv,csv,","
 16,2022-04-19,2022,big_dave.csv,csv,","
 16,2022-04-19,2022,times.csv,csv,","
