@@ -56,7 +56,7 @@ See their [Data Description](https://data.post45.org/wp-content/uploads/2022/01/
 > 
 > *Example replication data citation from The Program Era Project, Kelly, White, and Glass, 2021:*
 > 
->  *Kelly, Nicholas; White, Nicole, Glass, Loren, 03/01/2021, “The Program Era > Project,” DOI: <https://doi.org/10.18737/CNJV1733p4520210415,> Post45 Data > Collective, V1.*
+>  *Kelly, Nicholas; White, Nicole, Glass, Loren, 03/01/2021, “The Program Era > Project,” DOI: <https://doi.org/10.18737/CNJV1733p4520210415>, Post45 Data > Collective, V1.*
 
 ### Get the data here
 
