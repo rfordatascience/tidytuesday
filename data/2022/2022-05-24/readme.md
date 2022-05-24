@@ -73,8 +73,8 @@ fifteens <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 |date       |double    | ISO date|
 |team_1     |character | Team 1 |
 |score_1    |character | Score for Team 1|
-|score_2    |character | Team 2 |
-|team_2     |character | Score for team 2    |
+|score_2    |character | Score for team 2 |
+|team_2     |character | Team 2 |
 |venue      |character | Location of game |
 |tournament |character | Tournament name |
 |stage      |character | Stage of tournament   |
