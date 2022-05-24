@@ -24,3 +24,4 @@ Archive of datasets and articles from the 2022 series of `#TidyTuesday` events.
 | 18 | `2022-05-03` | [Solar/Wind utilities](2022-05-03/readme.md) | [Berkeley Lab](https://emp.lbl.gov/utility-scale-solar) | [Berkeley Lab report](https://emp.lbl.gov/sites/default/files/utility-scale_solar_2021_technical_brief.pdf) |
 | 19 | `2022-05-10` | [NYTimes best sellers](2022-05-10/readme.md) | [Post45 Data](https://data.post45.org/our-data/) | [Finding Trends in NY Times Best Sellers - Kailey Smith ](https://towardsdatascience.com/finding-trends-in-ny-times-best-sellers-55cdd891c8aa) |
 | 20 | `2022-05-17` | [Eurovision](2022-05-17/readme.md) | [Eurovision](https://eurovision.tv/) | [Tanya Shapiro](https://github.com/tashapiro/eurovision-contest) |
+| 21 | `2022-05-24` | [Women's Rugby](2022-05-24/readme.md) | [Women's Rugby - ScrumQueens](https://www.scrumqueens.com/page/results-dashboard) | [ScrumQueens](https://www.scrumqueens.com/blogs/jbirch/story-behind-our-data-hub) |
