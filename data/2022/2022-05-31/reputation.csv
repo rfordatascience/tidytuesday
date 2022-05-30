@@ -1,0 +1,701 @@
+company,industry,name,score,rank
+Trader Joe's,Retail,TRUST,82.7,3
+Trader Joe's,Retail,ETHICS,82.5,2
+Trader Joe's,Retail,GROWTH,84.1,2
+Trader Joe's,Retail,P&S,83.5,9
+Trader Joe's,Retail,CITIZENSHIP,80,3
+Trader Joe's,Retail,VISION,81.9,13
+Trader Joe's,Retail,CULTURE,83.1,1
+HEB Grocery,Retail,TRUST,83.7,1
+HEB Grocery,Retail,ETHICS,81.8,4
+HEB Grocery,Retail,GROWTH,83.6,4
+HEB Grocery,Retail,P&S,83.1,11
+HEB Grocery,Retail,CITIZENSHIP,81,1
+HEB Grocery,Retail,VISION,81.3,19
+HEB Grocery,Retail,CULTURE,81,8
+Patagonia,Retail,TRUST,81.3,4
+Patagonia,Retail,ETHICS,81.7,5
+Patagonia,Retail,GROWTH,81.9,15
+Patagonia,Retail,P&S,83.7,5
+Patagonia,Retail,CITIZENSHIP,80.8,2
+Patagonia,Retail,VISION,82.2,11
+Patagonia,Retail,CULTURE,82.9,3
+The Hershey Company,Food & Beverage,TRUST,79.9,13
+The Hershey Company,Food & Beverage,ETHICS,79.8,11
+The Hershey Company,Food & Beverage,GROWTH,82.3,12
+The Hershey Company,Food & Beverage,P&S,81.4,18
+The Hershey Company,Food & Beverage,CITIZENSHIP,75.2,21
+The Hershey Company,Food & Beverage,VISION,81.8,14
+The Hershey Company,Food & Beverage,CULTURE,79.1,23
+Wegmans,Groceries,TRUST,80.7,7
+Wegmans,Groceries,ETHICS,81.4,6
+Wegmans,Groceries,GROWTH,83.1,7
+Wegmans,Groceries,P&S,81.1,21
+Wegmans,Groceries,CITIZENSHIP,78.6,4
+Wegmans,Groceries,VISION,80.9,23
+Wegmans,Groceries,CULTURE,81.7,4
+Samsung,Tech,TRUST,79.8,14
+Samsung,Tech,ETHICS,80.2,9
+Samsung,Tech,GROWTH,83.8,3
+Samsung,Tech,P&S,84.3,2
+Samsung,Tech,CITIZENSHIP,75,23
+Samsung,Tech,VISION,84.1,4
+Samsung,Tech,CULTURE,81.6,5
+Amazon.com,Ecommerce,TRUST,79.9,10
+Amazon.com,Ecommerce,ETHICS,78.9,18
+Amazon.com,Ecommerce,GROWTH,82.9,9
+Amazon.com,Ecommerce,P&S,81.8,14
+Amazon.com,Ecommerce,CITIZENSHIP,77,9
+Amazon.com,Ecommerce,VISION,84.1,2
+Amazon.com,Ecommerce,CULTURE,79.1,21
+Toyota Motor Corporation,Automotive,TRUST,78.7,22
+Toyota Motor Corporation,Automotive,ETHICS,79.7,14
+Toyota Motor Corporation,Automotive,GROWTH,83.5,5
+Toyota Motor Corporation,Automotive,P&S,83.6,7
+Toyota Motor Corporation,Automotive,CITIZENSHIP,76.6,16
+Toyota Motor Corporation,Automotive,VISION,82.4,8
+Toyota Motor Corporation,Automotive,CULTURE,80.2,16
+Honda Motor Company,Automotive,TRUST,78.9,20
+Honda Motor Company,Automotive,ETHICS,79.7,13
+Honda Motor Company,Automotive,GROWTH,83,8
+Honda Motor Company,Automotive,P&S,83.6,8
+Honda Motor Company,Automotive,CITIZENSHIP,74.2,28
+Honda Motor Company,Automotive,VISION,82.4,9
+Honda Motor Company,Automotive,CULTURE,81.5,7
+Sony,Tech,TRUST,78.2,27
+Sony,Tech,ETHICS,77.2,40
+Sony,Tech,GROWTH,81,28
+Sony,Tech,P&S,83.5,10
+Sony,Tech,CITIZENSHIP,73.5,34
+Sony,Tech,VISION,80.1,32
+Sony,Tech,CULTURE,79.5,18
+IBM,Tech,TRUST,79.1,18
+IBM,Tech,ETHICS,79.7,12
+IBM,Tech,GROWTH,81.1,26
+IBM,Tech,P&S,82.7,12
+IBM,Tech,CITIZENSHIP,74.6,24
+IBM,Tech,VISION,80.5,26
+IBM,Tech,CULTURE,83,2
+Tesla Motors,Automotive,TRUST,75.7,51
+Tesla Motors,Automotive,ETHICS,75.2,54
+Tesla Motors,Automotive,GROWTH,79.4,39
+Tesla Motors,Automotive,P&S,77.7,54
+Tesla Motors,Automotive,CITIZENSHIP,71.4,56
+Tesla Motors,Automotive,VISION,75.6,63
+Tesla Motors,Automotive,CULTURE,79,25
+Blue Cross Blue Shield Association,Healthcare,TRUST,79.9,11
+Blue Cross Blue Shield Association,Healthcare,ETHICS,79,15
+Blue Cross Blue Shield Association,Healthcare,GROWTH,81.9,16
+Blue Cross Blue Shield Association,Healthcare,P&S,80.1,32
+Blue Cross Blue Shield Association,Healthcare,CITIZENSHIP,76.8,13
+Blue Cross Blue Shield Association,Healthcare,VISION,80.5,25
+Blue Cross Blue Shield Association,Healthcare,CULTURE,81,9
+Berkshire Hathaway,Other,TRUST,78,29
+Berkshire Hathaway,Other,ETHICS,80.5,7
+Berkshire Hathaway,Other,GROWTH,82.3,11
+Berkshire Hathaway,Other,P&S,78.6,41
+Berkshire Hathaway,Other,CITIZENSHIP,76.4,17
+Berkshire Hathaway,Other,VISION,83.5,6
+Berkshire Hathaway,Other,CULTURE,80.9,10
+Microsoft,Tech,TRUST,79.9,12
+Microsoft,Tech,ETHICS,78.9,19
+Microsoft,Tech,GROWTH,82.9,10
+Microsoft,Tech,P&S,81.8,15
+Microsoft,Tech,CITIZENSHIP,77,10
+Microsoft,Tech,VISION,84.1,3
+Microsoft,Tech,CULTURE,79.1,22
+The Home Depot,Retail,TRUST,77,34
+The Home Depot,Retail,ETHICS,76.7,45
+The Home Depot,Retail,GROWTH,79.2,43
+The Home Depot,Retail,P&S,80.1,33
+The Home Depot,Retail,CITIZENSHIP,73.5,35
+The Home Depot,Retail,VISION,78.5,47
+The Home Depot,Retail,CULTURE,74.5,58
+UPS,Logistics,TRUST,79.4,16
+UPS,Logistics,ETHICS,79,16
+UPS,Logistics,GROWTH,82.2,14
+UPS,Logistics,P&S,80.4,28
+UPS,Logistics,CITIZENSHIP,77.7,6
+UPS,Logistics,VISION,81.5,17
+UPS,Logistics,CULTURE,80.5,15
+USAA,Financial Services,TRUST,80.1,9
+USAA,Financial Services,ETHICS,82.7,1
+USAA,Financial Services,GROWTH,81.8,18
+USAA,Financial Services,P&S,80.5,27
+USAA,Financial Services,CITIZENSHIP,78.3,5
+USAA,Financial Services,VISION,80.4,28
+USAA,Financial Services,CULTURE,80.9,12
+Publix Supermarkets,Groceries,TRUST,80.8,6
+Publix Supermarkets,Groceries,ETHICS,80,10
+Publix Supermarkets,Groceries,GROWTH,81.3,23
+Publix Supermarkets,Groceries,P&S,79.1,37
+Publix Supermarkets,Groceries,CITIZENSHIP,76.7,14
+Publix Supermarkets,Groceries,VISION,79.5,36
+Publix Supermarkets,Groceries,CULTURE,78.5,28
+Subaru,Automotive,TRUST,77.7,31
+Subaru,Automotive,ETHICS,78.9,20
+Subaru,Automotive,GROWTH,81.4,21
+Subaru,Automotive,P&S,80.7,25
+Subaru,Automotive,CITIZENSHIP,76.8,12
+Subaru,Automotive,VISION,80.1,30
+Subaru,Automotive,CULTURE,79.4,19
+Apple,Tech,TRUST,75.4,54
+Apple,Tech,ETHICS,77.6,34
+Apple,Tech,GROWTH,81.9,17
+Apple,Tech,P&S,83.7,6
+Apple,Tech,CITIZENSHIP,72.3,49
+Apple,Tech,VISION,82.2,12
+Apple,Tech,CULTURE,77.9,30
+Netflix,Tech,TRUST,78.5,23
+Netflix,Tech,ETHICS,76.8,43
+Netflix,Tech,GROWTH,81.4,22
+Netflix,Tech,P&S,81.4,19
+Netflix,Tech,CITIZENSHIP,73.6,33
+Netflix,Tech,VISION,81.8,15
+Netflix,Tech,CULTURE,77.8,35
+3M Company,Industrial,TRUST,75.8,49
+3M Company,Industrial,ETHICS,76,49
+3M Company,Industrial,GROWTH,79.2,44
+3M Company,Industrial,P&S,84.3,4
+3M Company,Industrial,CITIZENSHIP,73.2,38
+3M Company,Industrial,VISION,78.4,49
+3M Company,Industrial,CULTURE,77.9,34
+General Electric,Industrial,TRUST,78.4,25
+General Electric,Industrial,ETHICS,78,29
+General Electric,Industrial,GROWTH,79.5,37
+General Electric,Industrial,P&S,82,13
+General Electric,Industrial,CITIZENSHIP,73.2,39
+General Electric,Industrial,VISION,80.5,27
+General Electric,Industrial,CULTURE,80.9,11
+The Kroger Company,Groceries,TRUST,52.9,100
+The Kroger Company,Groceries,ETHICS,51.2,100
+The Kroger Company,Groceries,GROWTH,55.1,100
+The Kroger Company,Groceries,P&S,55.7,100
+The Kroger Company,Groceries,CITIZENSHIP,53.6,100
+The Kroger Company,Groceries,VISION,59.4,100
+The Kroger Company,Groceries,CULTURE,53,100
+Costco,Retail,TRUST,79,19
+Costco,Retail,ETHICS,78.5,24
+Costco,Retail,GROWTH,80.6,34
+Costco,Retail,P&S,79.2,36
+Costco,Retail,CITIZENSHIP,74.4,26
+Costco,Retail,VISION,79.1,42
+Costco,Retail,CULTURE,79.3,20
+LG Corporation,Tech,TRUST,78.2,26
+LG Corporation,Tech,ETHICS,78.1,26
+LG Corporation,Tech,GROWTH,81.3,24
+LG Corporation,Tech,P&S,80.4,29
+LG Corporation,Tech,CITIZENSHIP,74,30
+LG Corporation,Tech,VISION,79,46
+LG Corporation,Tech,CULTURE,76.8,44
+Chick-fil-A,Food & Beverage,TRUST,79.1,17
+Chick-fil-A,Food & Beverage,ETHICS,78.8,21
+Chick-fil-A,Food & Beverage,GROWTH,80.6,33
+Chick-fil-A,Food & Beverage,P&S,80.6,26
+Chick-fil-A,Food & Beverage,CITIZENSHIP,73.7,31
+Chick-fil-A,Food & Beverage,VISION,83.5,7
+Chick-fil-A,Food & Beverage,CULTURE,77,41
+Adidas,Retail,TRUST,77.4,32
+Adidas,Retail,ETHICS,76.5,47
+Adidas,Retail,GROWTH,79.3,40
+Adidas,Retail,P&S,81.1,23
+Adidas,Retail,CITIZENSHIP,75.3,20
+Adidas,Retail,VISION,80.1,31
+Adidas,Retail,CULTURE,78.3,29
+Walgreens,Retail,TRUST,81.3,5
+Walgreens,Retail,ETHICS,80.3,8
+Walgreens,Retail,GROWTH,81.2,25
+Walgreens,Retail,P&S,80.2,31
+Walgreens,Retail,CITIZENSHIP,77.7,7
+Walgreens,Retail,VISION,81.5,18
+Walgreens,Retail,CULTURE,78.7,27
+Google,Tech,TRUST,75.5,53
+Google,Tech,ETHICS,75.6,50
+Google,Tech,GROWTH,83.2,6
+Google,Tech,P&S,81.5,17
+Google,Tech,CITIZENSHIP,72.2,51
+Google,Tech,VISION,81.6,16
+Google,Tech,CULTURE,80.6,13
+Target,Retail,TRUST,75,55
+Target,Retail,ETHICS,77.4,36
+Target,Retail,GROWTH,84.9,1
+Target,Retail,P&S,84.5,1
+Target,Retail,CITIZENSHIP,72.2,50
+Target,Retail,VISION,84.1,5
+Target,Retail,CULTURE,80.5,14
+UnitedHealth Group,Healthcare,TRUST,76.1,46
+UnitedHealth Group,Healthcare,ETHICS,78.1,28
+UnitedHealth Group,Healthcare,GROWTH,81.7,19
+UnitedHealth Group,Healthcare,P&S,78.7,39
+UnitedHealth Group,Healthcare,CITIZENSHIP,75.1,22
+UnitedHealth Group,Healthcare,VISION,81.2,22
+UnitedHealth Group,Healthcare,CULTURE,77.4,38
+Lowe's,Retail,TRUST,79.5,15
+Lowe's,Retail,ETHICS,78.2,25
+Lowe's,Retail,GROWTH,80.2,35
+Lowe's,Retail,P&S,78.2,46
+Lowe's,Retail,CITIZENSHIP,74.6,25
+Lowe's,Retail,VISION,79.8,34
+Lowe's,Retail,CULTURE,77.9,32
+Unilever,Consumer Goods,TRUST,76.6,38
+Unilever,Consumer Goods,ETHICS,75.2,52
+Unilever,Consumer Goods,GROWTH,81,29
+Unilever,Consumer Goods,P&S,79.9,34
+Unilever,Consumer Goods,CITIZENSHIP,74.1,29
+Unilever,Consumer Goods,VISION,79.8,35
+Unilever,Consumer Goods,CULTURE,77.6,37
+CVS (CVS Health),Retail,TRUST,78.4,24
+CVS (CVS Health),Retail,ETHICS,78.6,23
+CVS (CVS Health),Retail,GROWTH,77.4,54
+CVS (CVS Health),Retail,P&S,78.4,43
+CVS (CVS Health),Retail,CITIZENSHIP,76,18
+CVS (CVS Health),Retail,VISION,79.8,33
+CVS (CVS Health),Retail,CULTURE,76.4,47
+Procter & Gamble Co.,Consumer Goods,TRUST,76.1,45
+Procter & Gamble Co.,Consumer Goods,ETHICS,74.6,58
+Procter & Gamble Co.,Consumer Goods,GROWTH,80.7,32
+Procter & Gamble Co.,Consumer Goods,P&S,81.4,20
+Procter & Gamble Co.,Consumer Goods,CITIZENSHIP,73.2,40
+Procter & Gamble Co.,Consumer Goods,VISION,78.4,50
+Procter & Gamble Co.,Consumer Goods,CULTURE,77.7,36
+Dell,Tech,TRUST,75.8,50
+Dell,Tech,ETHICS,77.7,31
+Dell,Tech,GROWTH,77.9,50
+Dell,Tech,P&S,80.4,30
+Dell,Tech,CITIZENSHIP,73.7,32
+Dell,Tech,VISION,79.5,37
+Dell,Tech,CULTURE,77.9,33
+FedEx Corporation,Logistics,TRUST,76.5,39
+FedEx Corporation,Logistics,ETHICS,76.9,41
+FedEx Corporation,Logistics,GROWTH,80.9,30
+FedEx Corporation,Logistics,P&S,77.2,56
+FedEx Corporation,Logistics,CITIZENSHIP,74.3,27
+FedEx Corporation,Logistics,VISION,81.3,21
+FedEx Corporation,Logistics,CULTURE,79.5,17
+The Kraft Heinz Company,Food & Beverage,TRUST,80.3,8
+The Kraft Heinz Company,Food & Beverage,ETHICS,77.2,39
+The Kraft Heinz Company,Food & Beverage,GROWTH,81.5,20
+The Kraft Heinz Company,Food & Beverage,P&S,80.7,24
+The Kraft Heinz Company,Food & Beverage,CITIZENSHIP,76.8,11
+The Kraft Heinz Company,Food & Beverage,VISION,80.1,29
+The Kraft Heinz Company,Food & Beverage,CULTURE,77.9,31
+Ford Motor Company,Automotive,TRUST,75.5,52
+Ford Motor Company,Automotive,ETHICS,77.6,33
+Ford Motor Company,Automotive,GROWTH,79.2,42
+Ford Motor Company,Automotive,P&S,78.3,44
+Ford Motor Company,Automotive,CITIZENSHIP,72.8,42
+Ford Motor Company,Automotive,VISION,79.5,38
+Ford Motor Company,Automotive,CULTURE,78.9,26
+Nestle,Consumer Goods,TRUST,76.3,41
+Nestle,Consumer Goods,ETHICS,75.2,53
+Nestle,Consumer Goods,GROWTH,79.3,41
+Nestle,Consumer Goods,P&S,79.3,35
+Nestle,Consumer Goods,CITIZENSHIP,72.5,45
+Nestle,Consumer Goods,VISION,78.1,52
+Nestle,Consumer Goods,CULTURE,77.1,40
+Starbucks Corporation,Food & Beverage,TRUST,73.4,63
+Starbucks Corporation,Food & Beverage,ETHICS,77.5,35
+Starbucks Corporation,Food & Beverage,GROWTH,81.1,27
+Starbucks Corporation,Food & Beverage,P&S,81.1,22
+Starbucks Corporation,Food & Beverage,CITIZENSHIP,70.6,63
+Starbucks Corporation,Food & Beverage,VISION,82.3,10
+Starbucks Corporation,Food & Beverage,CULTURE,75.7,52
+Pfizer,Pharma,TRUST,73.9,61
+Pfizer,Pharma,ETHICS,74.6,59
+Pfizer,Pharma,GROWTH,80.8,31
+Pfizer,Pharma,P&S,78.6,42
+Pfizer,Pharma,CITIZENSHIP,73.4,37
+Pfizer,Pharma,VISION,79.1,43
+Pfizer,Pharma,CULTURE,76.5,46
+Stellantis,Automotive,TRUST,76.4,40
+Stellantis,Automotive,ETHICS,77.3,38
+Stellantis,Automotive,GROWTH,77.2,55
+Stellantis,Automotive,P&S,76.3,58
+Stellantis,Automotive,CITIZENSHIP,76.7,15
+Stellantis,Automotive,VISION,75.3,67
+Stellantis,Automotive,CULTURE,76.9,43
+American Express,Financial Services,TRUST,76.2,44
+American Express,Financial Services,ETHICS,78.1,27
+American Express,Financial Services,GROWTH,78.4,49
+American Express,Financial Services,P&S,78.2,48
+American Express,Financial Services,CITIZENSHIP,72.4,47
+American Express,Financial Services,VISION,79.4,40
+American Express,Financial Services,CULTURE,76.7,45
+PepsiCo,Consumer Goods,TRUST,76.3,42
+PepsiCo,Consumer Goods,ETHICS,78,30
+PepsiCo,Consumer Goods,GROWTH,79.1,45
+PepsiCo,Consumer Goods,P&S,77.8,53
+PepsiCo,Consumer Goods,CITIZENSHIP,72.1,53
+PepsiCo,Consumer Goods,VISION,79.1,44
+PepsiCo,Consumer Goods,CULTURE,79.1,24
+JPMorgan Chase & Co.,Financial Services,TRUST,77,33
+JPMorgan Chase & Co.,Financial Services,ETHICS,77.3,37
+JPMorgan Chase & Co.,Financial Services,GROWTH,79,46
+JPMorgan Chase & Co.,Financial Services,P&S,78,50
+JPMorgan Chase & Co.,Financial Services,CITIZENSHIP,72.4,48
+JPMorgan Chase & Co.,Financial Services,VISION,79.5,39
+JPMorgan Chase & Co.,Financial Services,CULTURE,74.5,57
+Hobby Lobby,Retail,TRUST,78,30
+Hobby Lobby,Retail,ETHICS,76.5,46
+Hobby Lobby,Retail,GROWTH,75.3,67
+Hobby Lobby,Retail,P&S,77.6,55
+Hobby Lobby,Retail,CITIZENSHIP,72.6,44
+Hobby Lobby,Retail,VISION,78.3,51
+Hobby Lobby,Retail,CULTURE,74.1,60
+Best Buy,Retail,TRUST,78.1,28
+Best Buy,Retail,ETHICS,75,55
+Best Buy,Retail,GROWTH,75.3,68
+Best Buy,Retail,P&S,78.1,49
+Best Buy,Retail,CITIZENSHIP,72.2,52
+Best Buy,Retail,VISION,74.4,75
+Best Buy,Retail,CULTURE,75.1,54
+General Motors,Automotive,TRUST,75.9,48
+General Motors,Automotive,ETHICS,74.8,56
+General Motors,Automotive,GROWTH,78.5,47
+General Motors,Automotive,P&S,78,51
+General Motors,Automotive,CITIZENSHIP,70.6,64
+General Motors,Automotive,VISION,79.4,41
+General Motors,Automotive,CULTURE,77,42
+T-Mobile,Telecom,TRUST,78.8,21
+T-Mobile,Telecom,ETHICS,78.6,22
+T-Mobile,Telecom,GROWTH,79.4,38
+T-Mobile,Telecom,P&S,78.7,40
+T-Mobile,Telecom,CITIZENSHIP,75.5,19
+T-Mobile,Telecom,VISION,81.3,20
+T-Mobile,Telecom,CULTURE,77.2,39
+Yum! Brands,Food & Beverage,TRUST,76.3,43
+Yum! Brands,Food & Beverage,ETHICS,76.3,48
+Yum! Brands,Food & Beverage,GROWTH,77.8,51
+Yum! Brands,Food & Beverage,P&S,76.2,59
+Yum! Brands,Food & Beverage,CITIZENSHIP,73.2,41
+Yum! Brands,Food & Beverage,VISION,76.9,56
+Yum! Brands,Food & Beverage,CULTURE,72.9,66
+Nordstrom,Retail,TRUST,76.8,35
+Nordstrom,Retail,ETHICS,77.6,32
+Nordstrom,Retail,GROWTH,73.2,77
+Nordstrom,Retail,P&S,78.8,38
+Nordstrom,Retail,CITIZENSHIP,70.1,66
+Nordstrom,Retail,VISION,77.4,54
+Nordstrom,Retail,CULTURE,76.3,49
+State Farm Insurance,Financial Services,TRUST,74.6,59
+State Farm Insurance,Financial Services,ETHICS,75.3,51
+State Farm Insurance,Financial Services,GROWTH,75.8,64
+State Farm Insurance,Financial Services,P&S,76.1,61
+State Farm Insurance,Financial Services,CITIZENSHIP,72.8,43
+State Farm Insurance,Financial Services,VISION,77.3,55
+State Farm Insurance,Financial Services,CULTURE,74.3,59
+Nike,Retail,TRUST,72.5,66
+Nike,Retail,ETHICS,70.8,75
+Nike,Retail,GROWTH,77.1,57
+Nike,Retail,P&S,81.6,16
+Nike,Retail,CITIZENSHIP,67.6,79
+Nike,Retail,VISION,78.5,48
+Nike,Retail,CULTURE,73.4,61
+Progressive Corporation,Insurance,TRUST,73,65
+Progressive Corporation,Insurance,ETHICS,74.8,57
+Progressive Corporation,Insurance,GROWTH,77,58
+Progressive Corporation,Insurance,P&S,75.9,64
+Progressive Corporation,Insurance,CITIZENSHIP,71.2,60
+Progressive Corporation,Insurance,VISION,79.1,45
+Progressive Corporation,Insurance,CULTURE,75.8,51
+The Coca-Cola Company,Food & Beverage,TRUST,82.8,2
+The Coca-Cola Company,Food & Beverage,ETHICS,82.4,3
+The Coca-Cola Company,Food & Beverage,GROWTH,82.2,13
+The Coca-Cola Company,Food & Beverage,P&S,84.3,3
+The Coca-Cola Company,Food & Beverage,CITIZENSHIP,77.1,8
+The Coca-Cola Company,Food & Beverage,VISION,84.8,1
+The Coca-Cola Company,Food & Beverage,CULTURE,81.5,6
+Spotify,Media,TRUST,74.7,58
+Spotify,Media,ETHICS,71.9,68
+Spotify,Media,GROWTH,78.5,48
+Spotify,Media,P&S,78.2,47
+Spotify,Media,CITIZENSHIP,71.2,59
+Spotify,Media,VISION,75.6,64
+Spotify,Media,CULTURE,75.2,53
+Citigroup,Financial Services,TRUST,71.9,72
+Citigroup,Financial Services,ETHICS,72.1,66
+Citigroup,Financial Services,GROWTH,77.6,53
+Citigroup,Financial Services,P&S,76.1,60
+Citigroup,Financial Services,CITIZENSHIP,70.3,65
+Citigroup,Financial Services,VISION,76.9,58
+Citigroup,Financial Services,CULTURE,74.9,56
+Kohl's,Retail,TRUST,76.6,37
+Kohl's,Retail,ETHICS,79,17
+Kohl's,Retail,GROWTH,73.7,75
+Kohl's,Retail,P&S,73.8,71
+Kohl's,Retail,CITIZENSHIP,71.6,55
+Kohl's,Retail,VISION,75.3,68
+Kohl's,Retail,CULTURE,72.9,67
+Royal Dutch Shell,Energy,TRUST,72.3,67
+Royal Dutch Shell,Energy,ETHICS,71.2,74
+Royal Dutch Shell,Energy,GROWTH,77.1,56
+Royal Dutch Shell,Energy,P&S,76.9,57
+Royal Dutch Shell,Energy,CITIZENSHIP,69.7,70
+Royal Dutch Shell,Energy,VISION,74.8,71
+Royal Dutch Shell,Energy,CULTURE,76.2,50
+Macy's,Retail,TRUST,74.1,60
+Macy's,Retail,ETHICS,73.8,62
+Macy's,Retail,GROWTH,73.1,79
+Macy's,Retail,P&S,76.1,63
+Macy's,Retail,CITIZENSHIP,71.6,54
+Macy's,Retail,VISION,74.4,76
+Macy's,Retail,CULTURE,72.6,68
+Wendy's,Food & Beverage,TRUST,74.8,56
+Wendy's,Food & Beverage,ETHICS,76.8,44
+Wendy's,Food & Beverage,GROWTH,75.3,66
+Wendy's,Food & Beverage,P&S,73.5,74
+Wendy's,Food & Beverage,CITIZENSHIP,73.5,36
+Wendy's,Food & Beverage,VISION,77.8,53
+Wendy's,Food & Beverage,CULTURE,73.4,62
+The Walt Disney Company,Media,TRUST,59.6,96
+The Walt Disney Company,Media,ETHICS,60.8,95
+The Walt Disney Company,Media,GROWTH,69.5,91
+The Walt Disney Company,Media,P&S,67.2,92
+The Walt Disney Company,Media,CITIZENSHIP,61.2,95
+The Walt Disney Company,Media,VISION,68.6,94
+The Walt Disney Company,Media,CULTURE,64.9,93
+Delta Air Lines,Airline,TRUST,74.7,57
+Delta Air Lines,Airline,ETHICS,72.2,65
+Delta Air Lines,Airline,GROWTH,76,61
+Delta Air Lines,Airline,P&S,73.9,70
+Delta Air Lines,Airline,CITIZENSHIP,71,61
+Delta Air Lines,Airline,VISION,73.5,81
+Delta Air Lines,Airline,CULTURE,75.1,55
+Verizon Communications,Telecom,TRUST,72,70
+Verizon Communications,Telecom,ETHICS,71.5,70
+Verizon Communications,Telecom,GROWTH,75.3,69
+Verizon Communications,Telecom,P&S,76.1,62
+Verizon Communications,Telecom,CITIZENSHIP,66.9,82
+Verizon Communications,Telecom,VISION,76.3,59
+Verizon Communications,Telecom,CULTURE,72.4,69
+DoorDash,Food Delivery,TRUST,71.9,73
+DoorDash,Food Delivery,ETHICS,74.6,60
+DoorDash,Food Delivery,GROWTH,75.9,62
+DoorDash,Food Delivery,P&S,74.1,69
+DoorDash,Food Delivery,CITIZENSHIP,71.3,57
+DoorDash,Food Delivery,VISION,75.2,69
+DoorDash,Food Delivery,CULTURE,73.2,64
+"Electronic Arts, Inc.",Tech,TRUST,71.4,76
+"Electronic Arts, Inc.",Tech,ETHICS,71.3,73
+"Electronic Arts, Inc.",Tech,GROWTH,73.8,73
+"Electronic Arts, Inc.",Tech,P&S,75.4,66
+"Electronic Arts, Inc.",Tech,CITIZENSHIP,69.8,69
+"Electronic Arts, Inc.",Tech,VISION,73.6,80
+"Electronic Arts, Inc.",Tech,CULTURE,70.8,75
+Chipotle,Food & Beverage,TRUST,71.3,77
+Chipotle,Food & Beverage,ETHICS,72.1,67
+Chipotle,Food & Beverage,GROWTH,75.4,65
+Chipotle,Food & Beverage,P&S,73.3,75
+Chipotle,Food & Beverage,CITIZENSHIP,69.5,73
+Chipotle,Food & Beverage,VISION,73,84
+Chipotle,Food & Beverage,CULTURE,70,77
+AT&T,Telecom,TRUST,72.1,68
+AT&T,Telecom,ETHICS,70.6,76
+AT&T,Telecom,GROWTH,73.2,78
+AT&T,Telecom,P&S,74.7,68
+AT&T,Telecom,CITIZENSHIP,69.5,72
+AT&T,Telecom,VISION,74.8,72
+AT&T,Telecom,CULTURE,71.6,73
+Johnson & Johnson,Pharma,TRUST,70.1,81
+Johnson & Johnson,Pharma,ETHICS,71.4,72
+Johnson & Johnson,Pharma,GROWTH,74.5,70
+Johnson & Johnson,Pharma,P&S,75.9,65
+Johnson & Johnson,Pharma,CITIZENSHIP,68,77
+Johnson & Johnson,Pharma,VISION,74.8,73
+Johnson & Johnson,Pharma,CULTURE,73.3,63
+Robinhood,Tech,TRUST,71.3,78
+Robinhood,Tech,ETHICS,69.7,81
+Robinhood,Tech,GROWTH,73.8,74
+Robinhood,Tech,P&S,73.6,73
+Robinhood,Tech,CITIZENSHIP,69.7,71
+Robinhood,Tech,VISION,74,78
+Robinhood,Tech,CULTURE,71.4,74
+Dollar Tree,Retail,TRUST,75.9,47
+Dollar Tree,Retail,ETHICS,72.7,63
+Dollar Tree,Retail,GROWTH,73.6,76
+Dollar Tree,Retail,P&S,67,93
+Dollar Tree,Retail,CITIZENSHIP,71.3,58
+Dollar Tree,Retail,VISION,76,62
+Dollar Tree,Retail,CULTURE,69.3,82
+Grubhub Inc.,Food Delivery,TRUST,70.9,79
+Grubhub Inc.,Food Delivery,ETHICS,70.5,78
+Grubhub Inc.,Food Delivery,GROWTH,74.4,71
+Grubhub Inc.,Food Delivery,P&S,72.8,76
+Grubhub Inc.,Food Delivery,CITIZENSHIP,67.8,78
+Grubhub Inc.,Food Delivery,VISION,75.5,65
+Grubhub Inc.,Food Delivery,CULTURE,69.6,80
+Big Lots,Retail,TRUST,76.6,36
+Big Lots,Retail,ETHICS,74.4,61
+Big Lots,Retail,GROWTH,70.9,88
+Big Lots,Retail,P&S,68.1,91
+Big Lots,Retail,CITIZENSHIP,70,68
+Big Lots,Retail,VISION,74.1,77
+Big Lots,Retail,CULTURE,70.6,76
+Walmart,Retail,TRUST,72,71
+Walmart,Retail,ETHICS,68.8,85
+Walmart,Retail,GROWTH,76.9,59
+Walmart,Retail,P&S,71.5,83
+Walmart,Retail,CITIZENSHIP,67.6,80
+Walmart,Retail,VISION,76.1,60
+Walmart,Retail,CULTURE,67.4,87
+Shein,Retail,TRUST,71.8,74
+Shein,Retail,ETHICS,69.3,83
+Shein,Retail,GROWTH,75.9,63
+Shein,Retail,P&S,70,87
+Shein,Retail,CITIZENSHIP,68.1,76
+Shein,Retail,VISION,75.1,70
+Shein,Retail,CULTURE,69.3,83
+Bank of America,Financial Services,TRUST,68.6,86
+Bank of America,Financial Services,ETHICS,70.5,79
+Bank of America,Financial Services,GROWTH,72.6,82
+Bank of America,Financial Services,P&S,72.1,78
+Bank of America,Financial Services,CITIZENSHIP,66.4,84
+Bank of America,Financial Services,VISION,74.7,74
+Bank of America,Financial Services,CULTURE,72.4,70
+Goldman Sachs,Financial Services,TRUST,67.4,88
+Goldman Sachs,Financial Services,ETHICS,69,84
+Goldman Sachs,Financial Services,GROWTH,76.2,60
+Goldman Sachs,Financial Services,P&S,74.7,67
+Goldman Sachs,Financial Services,CITIZENSHIP,66.2,85
+Goldman Sachs,Financial Services,VISION,75.4,66
+Goldman Sachs,Financial Services,CULTURE,73,65
+Burger King,Food & Beverage,TRUST,72.1,69
+Burger King,Food & Beverage,ETHICS,70.6,77
+Burger King,Food & Beverage,GROWTH,72,84
+Burger King,Food & Beverage,P&S,71.7,81
+Burger King,Food & Beverage,CITIZENSHIP,69.5,74
+Burger King,Food & Beverage,VISION,73.8,79
+Burger King,Food & Beverage,CULTURE,67.3,88
+Spectrum,Telecom,TRUST,68.8,85
+Spectrum,Telecom,ETHICS,69.7,82
+Spectrum,Telecom,GROWTH,73,80
+Spectrum,Telecom,P&S,72.1,77
+Spectrum,Telecom,CITIZENSHIP,66.4,83
+Spectrum,Telecom,VISION,76.1,61
+Spectrum,Telecom,CULTURE,71.8,72
+eBay,Ecommerce,TRUST,71.7,75
+eBay,Ecommerce,ETHICS,67.5,87
+eBay,Ecommerce,GROWTH,71.6,85
+eBay,Ecommerce,P&S,70.1,86
+eBay,Ecommerce,CITIZENSHIP,67.3,81
+eBay,Ecommerce,VISION,72,87
+eBay,Ecommerce,CULTURE,69.7,79
+Subway,Food & Beverage,TRUST,69.7,83
+Subway,Food & Beverage,ETHICS,71.7,69
+Subway,Food & Beverage,GROWTH,72.2,83
+Subway,Food & Beverage,P&S,71.9,80
+Subway,Food & Beverage,CITIZENSHIP,65.7,86
+Subway,Food & Beverage,VISION,73.4,83
+Subway,Food & Beverage,CULTURE,68.7,85
+Comcast,Media,TRUST,66.6,90
+Comcast,Media,ETHICS,67.8,86
+Comcast,Media,GROWTH,72.9,81
+Comcast,Media,P&S,72,79
+Comcast,Media,CITIZENSHIP,65.2,88
+Comcast,Media,VISION,72.6,85
+Comcast,Media,CULTURE,69.6,81
+McDonald's,Food & Beverage,TRUST,69.9,82
+McDonald's,Food & Beverage,ETHICS,70.3,80
+McDonald's,Food & Beverage,GROWTH,74.1,72
+McDonald's,Food & Beverage,P&S,68.7,90
+McDonald's,Food & Beverage,CITIZENSHIP,70,67
+McDonald's,Food & Beverage,VISION,73.5,82
+McDonald's,Food & Beverage,CULTURE,66.3,91
+JCPenney,Retail,TRUST,73,64
+JCPenney,Retail,ETHICS,72.3,64
+JCPenney,Retail,GROWTH,62.3,98
+JCPenney,Retail,P&S,69.8,88
+JCPenney,Retail,CITIZENSHIP,68.7,75
+JCPenney,Retail,VISION,66.8,95
+JCPenney,Retail,CULTURE,69.2,84
+ExxonMobil,Energy,TRUST,66.2,92
+ExxonMobil,Energy,ETHICS,65.9,91
+ExxonMobil,Energy,GROWTH,71.3,86
+ExxonMobil,Energy,P&S,73.7,72
+ExxonMobil,Energy,CITIZENSHIP,61.8,94
+ExxonMobil,Energy,VISION,71.1,89
+ExxonMobil,Energy,CULTURE,70,78
+BP,Energy,TRUST,66.3,91
+BP,Energy,ETHICS,66.6,89
+BP,Energy,GROWTH,71.2,87
+BP,Energy,P&S,71.1,84
+BP,Energy,CITIZENSHIP,62.8,91
+BP,Energy,VISION,71.1,88
+BP,Energy,CULTURE,68.5,86
+My Pillow,Ecommerce,TRUST,69,84
+My Pillow,Ecommerce,ETHICS,66.4,90
+My Pillow,Ecommerce,GROWTH,66.5,94
+My Pillow,Ecommerce,P&S,71.6,82
+My Pillow,Ecommerce,CITIZENSHIP,64.6,89
+My Pillow,Ecommerce,VISION,70.4,91
+My Pillow,Ecommerce,CULTURE,66.6,90
+Uber,Tech,TRUST,67.8,87
+Uber,Tech,ETHICS,67.1,88
+Uber,Tech,GROWTH,70.7,89
+Uber,Tech,P&S,70.4,85
+Uber,Tech,CITIZENSHIP,63.5,90
+Uber,Tech,VISION,70.6,90
+Uber,Tech,CULTURE,65,92
+Wells Fargo & Company,Financial Services,TRUST,65.3,93
+Wells Fargo & Company,Financial Services,ETHICS,64.6,94
+Wells Fargo & Company,Financial Services,GROWTH,70.6,90
+Wells Fargo & Company,Financial Services,P&S,69.4,89
+Wells Fargo & Company,Financial Services,CITIZENSHIP,62.1,93
+Wells Fargo & Company,Financial Services,VISION,72.6,86
+Wells Fargo & Company,Financial Services,CULTURE,67,89
+Sears Holdings Corporation,Retail,TRUST,66.9,89
+Sears Holdings Corporation,Retail,ETHICS,65.7,92
+Sears Holdings Corporation,Retail,GROWTH,57.9,99
+Sears Holdings Corporation,Retail,P&S,66.8,94
+Sears Holdings Corporation,Retail,CITIZENSHIP,65.5,87
+Sears Holdings Corporation,Retail,VISION,61.9,99
+Sears Holdings Corporation,Retail,CULTURE,60.7,97
+TikTok,Tech,TRUST,73.5,62
+TikTok,Tech,ETHICS,76.9,42
+TikTok,Tech,GROWTH,80,36
+TikTok,Tech,P&S,77.9,52
+TikTok,Tech,CITIZENSHIP,72.5,46
+TikTok,Tech,VISION,80.7,24
+TikTok,Tech,CULTURE,76.3,48
+Spirit Airlines,Airline,TRUST,63.2,94
+Spirit Airlines,Airline,ETHICS,65,93
+Spirit Airlines,Airline,GROWTH,67.8,93
+Spirit Airlines,Airline,P&S,62,97
+Spirit Airlines,Airline,CITIZENSHIP,62.7,92
+Spirit Airlines,Airline,VISION,69.2,93
+Spirit Airlines,Airline,CULTURE,64.2,94
+Fox Corporation,Media,TRUST,59.2,97
+Fox Corporation,Media,ETHICS,60.2,97
+Fox Corporation,Media,GROWTH,65.9,95
+Fox Corporation,Media,P&S,63.4,96
+Fox Corporation,Media,CITIZENSHIP,60.2,97
+Fox Corporation,Media,VISION,66.3,96
+Fox Corporation,Media,CULTURE,59.9,98
+Facebook,Tech,TRUST,55.8,99
+Facebook,Tech,ETHICS,57.4,98
+Facebook,Tech,GROWTH,68.1,92
+Facebook,Tech,P&S,64.8,95
+Facebook,Tech,CITIZENSHIP,57.4,98
+Facebook,Tech,VISION,69.5,92
+Facebook,Tech,CULTURE,62.1,95
+Twitter,Tech,TRUST,57.3,98
+Twitter,Tech,ETHICS,56.9,99
+Twitter,Tech,GROWTH,64.9,97
+Twitter,Tech,P&S,61.6,98
+Twitter,Tech,CITIZENSHIP,57.4,99
+Twitter,Tech,VISION,66.1,97
+Twitter,Tech,CULTURE,59.6,99
+Wish.com,Ecommerce,TRUST,62.4,95
+Wish.com,Ecommerce,ETHICS,60.7,96
+Wish.com,Ecommerce,GROWTH,65.6,96
+Wish.com,Ecommerce,P&S,58.1,99
+Wish.com,Ecommerce,CITIZENSHIP,61.1,96
+Wish.com,Ecommerce,VISION,64.2,98
+Wish.com,Ecommerce,CULTURE,62,96
+The Trump Organization,Other,TRUST,70.5,80
+The Trump Organization,Other,ETHICS,71.4,71
+The Trump Organization,Other,GROWTH,77.7,52
+The Trump Organization,Other,P&S,78.3,45
+The Trump Organization,Other,CITIZENSHIP,70.8,62
+The Trump Organization,Other,VISION,76.9,57
+The Trump Organization,Other,CULTURE,71.9,71
