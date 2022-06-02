@@ -109,7 +109,7 @@ library(gt)
 library(gtExtras)
 
 tab_url <- "https://graphics.axios.com/2022-05-16-harris-poll/index.html?initialWidth=469&childId=av-2022-05-16-harris-poll-69AC2&parentTitle=The%202022%20Axios%20Harris%20Poll%20100%20reputation%20rankings&parentUrl=https%3A%2F%2Fwww.axios.com%2F2022%2F05%2F24%2F2022-axios-harris-poll-100-rankings"
-tab_js <- "https://graphics.axios.com/2022-05-16-harris-poll/js/app.57adf1a5a55662f9bc9f.min.js?57adf1a5a55662f9bc9f"
+tab_js <- "https://graphics.axios.com/2022-05-16-harris-poll/js/app.a8dd96951f9ea55e4346.min.js?a8dd96951f9ea55e4346"
 
 raw_txt <- readLines(tab_js)
 

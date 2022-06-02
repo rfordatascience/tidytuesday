@@ -29,16 +29,16 @@ Samsung,Tech,6,80.5,25,2018,35,70.1
 Samsung,Tech,6,80.5,25,2019,7,73.2
 Samsung,Tech,6,80.5,25,2020,22,69.8
 Samsung,Tech,6,80.5,25,2021,31,77.5
-Amazon.com,Ecommerce,7,80.3,3,2017,1,86.27
-Amazon.com,Ecommerce,7,80.3,3,2018,1,83.22
-Amazon.com,Ecommerce,7,80.3,3,2019,2,82.3
-Amazon.com,Ecommerce,7,80.3,3,2020,3,81.4
-Amazon.com,Ecommerce,7,80.3,3,2021,10,80
-Toyota Motor Corporation,Automotive,8,80.3,10,2017,16,80.21
-Toyota Motor Corporation,Automotive,8,80.3,10,2018,42,76.1
-Toyota Motor Corporation,Automotive,8,80.3,10,2019,37,75.9
-Toyota Motor Corporation,Automotive,8,80.3,10,2020,15,78.5
-Toyota Motor Corporation,Automotive,8,80.3,10,2021,18,78.7
+Toyota Motor Corporation,Automotive,7,80.3,11,2017,16,80.21
+Toyota Motor Corporation,Automotive,7,80.3,11,2018,42,76.1
+Toyota Motor Corporation,Automotive,7,80.3,11,2019,37,75.9
+Toyota Motor Corporation,Automotive,7,80.3,11,2020,15,78.5
+Toyota Motor Corporation,Automotive,7,80.3,11,2021,18,78.7
+Amazon.com,Ecommerce,8,80.3,2,2017,1,86.27
+Amazon.com,Ecommerce,8,80.3,2,2018,1,83.22
+Amazon.com,Ecommerce,8,80.3,2,2019,2,82.3
+Amazon.com,Ecommerce,8,80.3,2,2020,3,81.4
+Amazon.com,Ecommerce,8,80.3,2,2021,10,80
 Honda Motor Company,Automotive,9,80.1,-7,2017,30,77.8
 Honda Motor Company,Automotive,9,80.1,-7,2018,19,79.6
 Honda Motor Company,Automotive,9,80.1,-7,2019,36,76
@@ -74,21 +74,21 @@ Microsoft,Tech,15,79,21,2018,11,80.42
 Microsoft,Tech,15,79,21,2019,9,79.7
 Microsoft,Tech,15,79,21,2020,19,77.8
 Microsoft,Tech,15,79,21,2021,36,76.8
-The Home Depot,Retail,16,78.9,29,2017,44,75.5
-The Home Depot,Retail,16,78.9,29,2018,26,78.78
-The Home Depot,Retail,16,78.9,29,2019,12,79.1
-The Home Depot,Retail,16,78.9,29,2020,46,74.6
-The Home Depot,Retail,16,78.9,29,2021,45,75.4
-UPS,Logistics,17,78.9,2,2017,6,82.05
-UPS,Logistics,17,78.9,2,2018,7,81.12
-UPS,Logistics,17,78.9,2,2019,11,79.3
-UPS,Logistics,17,78.9,2,2020,10,79.4
-UPS,Logistics,17,78.9,2,2021,19,78.6
-USAA,Financial Services,18,78.9,-6,2017,11,81.37
-USAA,Financial Services,18,78.9,-6,2018,34,77.78
-USAA,Financial Services,18,78.9,-6,2019,17,78.8
-USAA,Financial Services,18,78.9,-6,2020,21,77.7
-USAA,Financial Services,18,78.9,-6,2021,12,79.2
+UPS,Logistics,16,78.9,3,2017,6,82.05
+UPS,Logistics,16,78.9,3,2018,7,81.12
+UPS,Logistics,16,78.9,3,2019,11,79.3
+UPS,Logistics,16,78.9,3,2020,10,79.4
+UPS,Logistics,16,78.9,3,2021,19,78.6
+USAA,Financial Services,17,78.9,-5,2017,11,81.37
+USAA,Financial Services,17,78.9,-5,2018,34,77.78
+USAA,Financial Services,17,78.9,-5,2019,17,78.8
+USAA,Financial Services,17,78.9,-5,2020,21,77.7
+USAA,Financial Services,17,78.9,-5,2021,12,79.2
+The Home Depot,Retail,18,78.9,27,2017,44,75.5
+The Home Depot,Retail,18,78.9,27,2018,26,78.78
+The Home Depot,Retail,18,78.9,27,2019,12,79.1
+The Home Depot,Retail,18,78.9,27,2020,46,74.6
+The Home Depot,Retail,18,78.9,27,2021,45,75.4
 Publix Supermarkets,Groceries,19,78.8,4,2017,3,82.78
 Publix Supermarkets,Groceries,19,78.8,4,2018,8,80.81
 Publix Supermarkets,Groceries,19,78.8,4,2019,6,80.3
@@ -109,16 +109,16 @@ Netflix,Tech,22,78.5,16,2018,21,79.3
 Netflix,Tech,22,78.5,16,2019,24,77.3
 Netflix,Tech,22,78.5,16,2020,17,78.4
 Netflix,Tech,22,78.5,16,2021,38,76.4
-3M Company,Industrial,23,78.4,2,2017,10,81.5
-3M Company,Industrial,23,78.4,2,2018,NA,81.34
-3M Company,Industrial,23,78.4,2,2019,NA,79.9
-3M Company,Industrial,23,78.4,2,2020,12,78.9
-3M Company,Industrial,23,78.4,2,2021,25,78.1
-General Electric,Industrial,24,78.4,16,2017,28,77.9
-General Electric,Industrial,24,78.4,16,2018,52,74.04
-General Electric,Industrial,24,78.4,16,2019,43,75.3
-General Electric,Industrial,24,78.4,16,2020,26,77
-General Electric,Industrial,24,78.4,16,2021,40,76.1
+General Electric,Industrial,23,78.4,17,2017,28,77.9
+General Electric,Industrial,23,78.4,17,2018,52,74.04
+General Electric,Industrial,23,78.4,17,2019,43,75.3
+General Electric,Industrial,23,78.4,17,2020,26,77
+General Electric,Industrial,23,78.4,17,2021,40,76.1
+3M Company,Industrial,24,78.4,1,2017,10,81.5
+3M Company,Industrial,24,78.4,1,2018,NA,81.34
+3M Company,Industrial,24,78.4,1,2019,NA,79.9
+3M Company,Industrial,24,78.4,1,2020,12,78.9
+3M Company,Industrial,24,78.4,1,2021,25,78.1
 The Kroger Company,Groceries,25,78.4,5,2017,21,79.2
 The Kroger Company,Groceries,25,78.4,5,2018,18,79.67
 The Kroger Company,Groceries,25,78.4,5,2019,21,77.9
@@ -219,11 +219,11 @@ Pfizer,Pharma,44,76.4,-37,2018,NA,71.09
 Pfizer,Pharma,44,76.4,-37,2019,NA,64.2
 Pfizer,Pharma,44,76.4,-37,2020,61,73
 Pfizer,Pharma,44,76.4,-37,2021,7,80.2
-Stellantis,Automotive,45,76.3,NA,2017,NA,NA
-Stellantis,Automotive,45,76.3,NA,2018,NA,NA
-Stellantis,Automotive,45,76.3,NA,2019,NA,NA
-Stellantis,Automotive,45,76.3,NA,2020,NA,NA
-Stellantis,Automotive,45,76.3,NA,2021,NA,NA
+Stellantis,Automotive,45,76.3,30,2017,73,70.02
+Stellantis,Automotive,45,76.3,30,2018,79,66.73
+Stellantis,Automotive,45,76.3,30,2019,85,65.8
+Stellantis,Automotive,45,76.3,30,2020,NA,70.1
+Stellantis,Automotive,45,76.3,30,2021,75,70.8
 American Express,Financial Services,46,76,-2,2017,63,72.9
 American Express,Financial Services,46,76,-2,2018,50,74.27
 American Express,Financial Services,46,76,-2,2019,47,74.6
@@ -244,21 +244,21 @@ Hobby Lobby,Retail,49,75.5,4,2018,44,75.45
 Hobby Lobby,Retail,49,75.5,4,2019,16,78.9
 Hobby Lobby,Retail,49,75.5,4,2020,NA,70.2
 Hobby Lobby,Retail,49,75.5,4,2021,53,74.5
-Best Buy,Retail,50,75.4,-2,2017,46,75.41
-Best Buy,Retail,50,75.4,-2,2018,46,75.19
-Best Buy,Retail,50,75.4,-2,2019,34,76.1
-Best Buy,Retail,50,75.4,-2,2020,47,74.6
-Best Buy,Retail,50,75.4,-2,2021,48,75.2
-General Motors,Automotive,51,75.4,17,2017,77,67.84
-General Motors,Automotive,51,75.4,17,2018,64,70.73
-General Motors,Automotive,51,75.4,17,2019,70,70.2
-General Motors,Automotive,51,75.4,17,2020,54,73.8
-General Motors,Automotive,51,75.4,17,2021,68,72
-T-Mobile,Telecom,52,75.4,NA,2017,NA,NA
-T-Mobile,Telecom,52,75.4,NA,2018,NA,NA
-T-Mobile,Telecom,52,75.4,NA,2019,NA,NA
-T-Mobile,Telecom,52,75.4,NA,2020,NA,70.1
-T-Mobile,Telecom,52,75.4,NA,2021,NA,74.3
+T-Mobile,Telecom,50,75.4,NA,2017,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2018,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2019,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2020,NA,70.1
+T-Mobile,Telecom,50,75.4,NA,2021,NA,74.3
+Best Buy,Retail,51,75.4,-3,2017,46,75.41
+Best Buy,Retail,51,75.4,-3,2018,46,75.19
+Best Buy,Retail,51,75.4,-3,2019,34,76.1
+Best Buy,Retail,51,75.4,-3,2020,47,74.6
+Best Buy,Retail,51,75.4,-3,2021,48,75.2
+General Motors,Automotive,52,75.4,16,2017,77,67.84
+General Motors,Automotive,52,75.4,16,2018,64,70.73
+General Motors,Automotive,52,75.4,16,2019,70,70.2
+General Motors,Automotive,52,75.4,16,2020,54,73.8
+General Motors,Automotive,52,75.4,16,2021,68,72
 Yum! Brands,Food & Beverage,53,75.3,17,2017,61,73.2
 Yum! Brands,Food & Beverage,53,75.3,17,2018,53,74.02
 Yum! Brands,Food & Beverage,53,75.3,17,2019,68,71.4
