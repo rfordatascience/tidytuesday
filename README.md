@@ -144,6 +144,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 20 | `2022-05-17` | [Eurovision](data/2022/2022-05-17/readme.md) | [Eurovision](https://eurovision.tv/) | [Tanya Shapiro](https://github.com/tashapiro/eurovision-contest) |
 | 21 | `2022-05-24` | [Women's Rugby](data/2022/2022-05-24/readme.md) | [Women's Rugby - ScrumQueens](https://www.scrumqueens.com/page/results-dashboard) | [ScrumQueens](https://www.scrumqueens.com/blogs/jbirch/story-behind-our-data-hub) |
 | 22 | `2022-05-31` | [Company reputation poll](data/2022/2022-05-31) | [Axios and Harris Poll](https://www.axios.com/2022/05/24/2022-axios-harris-poll-100-rankings) | [The Harris Poll](https://theharrispoll.com/partners/media/axios-harrispoll-100/) |
+| 23 | `2022-06-07` | [Pride Corporate Accountability Project](data/2022/2022-06-07) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) |
 
 
 ***  
