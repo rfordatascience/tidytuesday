@@ -1,4 +1,12 @@
 Week,Date,year,data_files,data_type,delim
+23,2022-06-07,2022,contribution_data_all_states.csv,csv,","
+23,2022-06-07,2022,corp_by_politician.csv,csv,","
+23,2022-06-07,2022,donors.csv,csv,","
+23,2022-06-07,2022,fortune_agg.csv,csv,","
+23,2022-06-07,2022,fortune_aggregates.csv,csv,","
+23,2022-06-07,2022,pride_aggregates.csv,csv,","
+23,2022-06-07,2022,pride_sponsors.csv,csv,","
+23,2022-06-07,2022,static_list.csv,csv,","
 22,2022-05-31,2022,reputation.csv,csv,","
 22,2022-05-31,2022,poll.csv,csv,","
 21,2022-05-24,2022,fifteens.csv,csv,","
