@@ -72,9 +72,9 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |variable                             |class     |description |
 |:------------------------------------|:---------|:-----------|
 |Company                              |character |Company    |
-|Total Contributed                    |double    |Total Contributed    |
-|# of Politicians Contributed to      |double    |# of politicians contributed to    |
-|# of States Where Contributions Made |double    |# of states where contributions were made    |
+|Total Contributed                    |double    |Total Contributed to anti-LBGTQ politicians   |
+|# of Politicians Contributed to      |double    |# of politicians contributed, anti-LBGTQ   |
+|# of States Where Contributions Made |double    |# of states where contributions were made to anti-LBGTQ    |
 
 # `fortune_aggregates.csv`
 - Fortune 500, Pride sponsors who have donated to Anti-LQBTQ Campaigns
@@ -82,9 +82,9 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |variable                             |class     |description |
 |:------------------------------------|:---------|:-----------|
 |Company                              |character |Company name    |
-|Total Contributed                    |double    | Total contributed    |
+|Total Contributed                    |double    | Total contributed to anti-LBGTQ politicians   |
 |# of Politicians Contributed to      |double    | # of politicians contributed to    |
-|# of States Where Contributions Made |double    | # of states where contributions made    |
+|# of States Where Contributions Made |double    | # of states where contributions made  to anti-LBGTQ  |
 
 # `static_list.csv`
 - Overview of company, pride sponsors, HRC Business pledge
@@ -94,7 +94,7 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |Company                              |character |Company    |
 |Pride?                               |logical   | Donated to pride    |
 |HRC Business Pledge                  |character | HRC Business pledge    |
-|Amount Contributed Across States     |double    | Amount contributed across states    |
+|Amount Contributed Across States     |double    | Amount contributed across states to anti-LBGTQ politicians   |
 |# of Politicians Contributed to      |double    | # of politicians contributed    |
 |# of States Where Contributions Made |double    | # of states     |
 
@@ -115,7 +115,7 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |variable      |class     |description |
 |:-------------|:---------|:-----------|
 |Politician    |character | Politician    |
-|SUM of Amount |double    | Sum of amount in USD    |
+|SUM of Amount |double    | Sum of amount in USD to anti-LBGTQ   |
 |Title         |character | Title of politician    |
 |State         |character | State    |
  
@@ -179,19 +179,19 @@ get_content <- function(url){
 
 
 # get individual datasets
-fort_agg_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Fortune%20Aggregates?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4"
+fort_agg_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Fortune%20Aggregates"
 
 fort_agg_df <- get_content(pride_agg_url)
 
-pride_agg_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Pride%20Aggregates?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4"
+pride_agg_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Pride%20Aggregates"
 
 pride_agg_df <- get_content(pride_agg_url)
 
-static_list_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Static%20List?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4"
+static_list_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Static%20List"
 
 static_list_df <- get_content(static_list_url)
 
-pride_sponsor_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Pride%20Sponsors?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4"
+pride_sponsor_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Pride%20Sponsors"
 
 pride_sponsor_df <- get_content(pride_sponsor_url)
 
@@ -213,7 +213,7 @@ url_builder <- function(text){
   
   text <- stringr::str_replace_all(text, " ", "%20")
   text <- stringr::str_replace_all(text, "/", "%2F")
-  glue::glue("https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/{text}?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4")
+  glue::glue("https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/{text}")
 }
 
 corp_pol_df <- url_builder("Corp by Politician") |>
@@ -221,7 +221,7 @@ corp_pol_df <- url_builder("Corp by Politician") |>
 
 library(httr)
 library(tidyverse)
-raw_sheet <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4&fields=sheets.properties&includeGridData=false" |>
+raw_sheet <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw" |>
   GET() |>
   content()
 
@@ -240,7 +240,7 @@ url_builder <- function(text){
   
   text <- stringr::str_replace_all(text, " ", "%20")
   text <- stringr::str_replace_all(text, "/", "%2F")
-  glue::glue("https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/{text}?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4")
+  glue::glue("https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/{text}")
 }
 
 all_sheets |>
@@ -251,7 +251,7 @@ all_sheets |>
   mutate(sheet_url = url_builder(title)) |>
   pull(sheet_url)
 
-https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Fortune%201000%20List/Search%20Keys?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4
+https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw/values/Fortune%201000%20List/Search%20Keys
 
 all_sheets |>
   slice(11) |>
