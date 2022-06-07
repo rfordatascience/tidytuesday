@@ -160,7 +160,7 @@ orig_url <- "https://www.dataforprogress.org/accountable-allies"
 iframe_url <- "https://dfp-accountable-allies.netlify.app/fortune"
 
 # Found the link to the GoogleSheets
-par_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw?key=AIzaSyCNNbhj436NlbtGp_Cjfgl23MFTBRLKYb4&fields=sheets.properties&includeGridData=false"
+par_url <- "https://sheets.googleapis.com/v4/spreadsheets/1Bj8YMaqxYrh2PxVhI1M1kLSbIMSN7vTpR2OZxg1DoXw"
 
 # Extract data from JSON
 get_content <- function(url){
