@@ -14,7 +14,7 @@ Week,Date,year,data_files,data_type,delim
 20,2022-05-17,2022,eurovision.csv,csv,","
 20,2022-05-17,2022,eurovision-votes.csv,csv,","
 19,2022-05-10,2022,nyt_titles.tsv,tsv,NA
-19,2022-05-10,2022,nyt_full.csv,csv,NA
+19,2022-05-10,2022,nyt_full.tsv,csv,NA
 18,2022-05-03,2022,capacity.csv,csv,","
 18,2022-05-03,2022,wind.csv,csv,","
 18,2022-05-03,2022,solar.csv,csv,","
@@ -46,7 +46,7 @@ Week,Date,year,data_files,data_type,delim
 6,2022-02-08,2022,airmen.csv,csv,","
 5,2022-02-01,2022,breed_traits.csv,csv,","
 5,2022-02-01,2022,trait_description.csv,csv,","
-5,2022-02-01,2022,breed_rank_all.csv,csv,","
+5,2022-02-01,2022,breed_rank.csv,csv,","
 4,2022-01-25,2022,details.csv,csv,","
 4,2022-01-25,2022,ratings.csv,csv,","
 3,2022-01-18,2022,chocolate.csv,csv,","
