@@ -145,7 +145,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 21 | `2022-05-24` | [Women's Rugby](data/2022/2022-05-24/readme.md) | [Women's Rugby - ScrumQueens](https://www.scrumqueens.com/page/results-dashboard) | [ScrumQueens](https://www.scrumqueens.com/blogs/jbirch/story-behind-our-data-hub) |
 | 22 | `2022-05-31` | [Company reputation poll](data/2022/2022-05-31) | [Axios and Harris Poll](https://www.axios.com/2022/05/24/2022-axios-harris-poll-100-rankings) | [The Harris Poll](https://theharrispoll.com/partners/media/axios-harrispoll-100/) |
 | 23 | `2022-06-07` | [Pride Corporate Accountability Project](data/2022/2022-06-07) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) |
-
+| 24 | `2022-06-14` | [US Drought](data/2022/2022-06-14) | [Drought.gov](https://www.drought.gov/) | [Drought.gov report](https://www.drought.gov/historical-information?dataset=1&selectedDateUSDM=20110301&selectedDateSpi=19580901) |
 
 ***  
 
