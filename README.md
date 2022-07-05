@@ -148,7 +148,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 24 | `2022-06-14` | [US Drought](data/2022/2022-06-14) | [Drought.gov](https://www.drought.gov/) | [Drought.gov report](https://www.drought.gov/historical-information?dataset=1&selectedDateUSDM=20110301&selectedDateSpi=19580901) |
 | 25 | `2022-06-21` | [Juneteenth](data/2022/2022-06-21) | [WEB DuBois style by Anthony Starks](https://dataliteracy.com/anthony-starks-on-recreating-du-boiss-iconic-style/) | [Isabella Benabaye's blog on Juneteenth](https://isabella-b.com/blog/juneteenth-2020/) |
 | 26 | `2022-06-28` | [UK Gender pay gap](data/2022/2022-06-28) | [gender-pay-gap.service.gov.uk](https://gender-pay-gap.service.gov.uk/) | [ons.gov.uk](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/findoutthegenderpaygapforyourjob/2016-12-09) |
-
+| 27 | `2022-07-05` | [San Francisco Rentals](data/2022/2022-07-05) | [Kate Pennington](https://www.katepennington.org/data) | [Matrix-Berkeley](https://matrix.berkeley.edu/research-article/kate-pennington-on-gentrification-and-displacement-in-san-francisco/) |
 ***  
 
 # Useful links
