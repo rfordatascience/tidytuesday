@@ -33,3 +33,5 @@ Archive of datasets and articles from the 2022 series of `#TidyTuesday` events.
 | 27 | `2022-07-05` | [San Francisco Rentals](2022-07-05) | [Kate Pennington](https://www.katepennington.org/data) | [Matrix-Berkeley](https://matrix.berkeley.edu/research-article/kate-pennington-on-gentrification-and-displacement-in-san-francisco/) |
 | 28 | `2022-07-12` | [European flights](2022-07-12) | [Eurocontrol](https://ansperformance.eu/data/) | [ec.europa.eu](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210914-1) |
 | 29 | `2022-07-19` | [Technology Adoption](2022-07-19) | [data.nber.org](https://data.nber.org/data-appendix/w15319/) | [www.cgdev.org](https://www.cgdev.org/sites/default/files/technology-and-development-exploration-data.pdf) |
+| 30 | `2022-07-26` | Bring your own data | None | None |
+| 31 | `2022-08-02` | [Oregon Spotted Frog](2022-08-02) |  [usgs.gov spotted frog data](https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc) | [usgs.gov spotted-frog-article](https://www.usgs.gov/centers/forest-and-rangeland-ecosystem-science-center/science/oregon-spotted-frog) |
