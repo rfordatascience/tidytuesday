@@ -65,11 +65,11 @@ Raw data available at: <https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b
 tuesdata <- tidytuesdayR::tt_load('2022-08-02')
 tuesdata <- tidytuesdayR::tt_load(2022, week = 31)
 
-frog <- tuesdata$frog
+frogs <- tuesdata$frogs
 
 # Or read in the data manually
 
-frog <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-02/frog.csv')
+frogs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-02/frogs.csv')
 
 ```
 
