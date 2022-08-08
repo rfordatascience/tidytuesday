@@ -153,6 +153,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 29 | `2022-07-19` | [Technology Adoption](data/2022/2022-07-19) | [data.nber.org](https://data.nber.org/data-appendix/w15319/) | [www.cgdev.org](https://www.cgdev.org/sites/default/files/technology-and-development-exploration-data.pdf) |
 | 30 | `2022-07-26` | Bring your own data | None | None |
 | 31 | `2022-08-02` | [Oregon Spotted Frog](data/2022/2022-08-02) |  [usgs.gov spotted frog data](https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc) | [usgs.gov spotted-frog-article](https://www.usgs.gov/centers/forest-and-rangeland-ecosystem-science-center/science/oregon-spotted-frog) |
+| 31 | `2022-08-09` | [Ferris Wheels](data/2022/2022-08-09) |  [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) | [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) |
 
 ***  
 
