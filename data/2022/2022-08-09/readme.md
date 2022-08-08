@@ -32,6 +32,8 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) package by [Emil Hvitfeldt](https://twitter.com/Emil_Hvitfeldt/status/1555647916257300480?s=20&t=LTeSzyCQkTznDBqMeXGPOg).
 
+Make sure to tag `@Emil_Hvitfeldt` so he can see all the cute dataviz y'all make!
+
 > The goal of ferriswheels is to provide a fun harmless little data set to play with
 
 ### Get the data here
