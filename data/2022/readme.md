@@ -36,3 +36,4 @@ Archive of datasets and articles from the 2022 series of `#TidyTuesday` events.
 | 30 | `2022-07-26` | Bring your own data | None | None |
 | 31 | `2022-08-02` | [Oregon Spotted Frog](2022-08-02) |  [usgs.gov spotted frog data](https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc) | [usgs.gov spotted-frog-article](https://www.usgs.gov/centers/forest-and-rangeland-ecosystem-science-center/science/oregon-spotted-frog) |
 | 31 | `2022-08-09` | [Ferris Wheels](2022-08-09) |  [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) | [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) |
+| 32 | `2022-08-16` | [Open Source Psychometrics](2022-08-16) |  [Open-Source Psychometrics Project](https://openpsychometrics.org/) | [Character Personality](https://openpsychometrics.org/tests/characters/documentation/) |
