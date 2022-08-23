@@ -155,6 +155,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 31 | `2022-08-02` | [Oregon Spotted Frog](data/2022/2022-08-02) |  [usgs.gov spotted frog data](https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc) | [usgs.gov spotted-frog-article](https://www.usgs.gov/centers/forest-and-rangeland-ecosystem-science-center/science/oregon-spotted-frog) |
 | 32 | `2022-08-09` | [Ferris Wheels](data/2022/2022-08-09) |  [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) | [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) |
 | 33 | `2022-08-16` | [Open Source Psychometrics](data/2022/2022-08-16) |  [Open-Source Psychometrics Project](https://openpsychometrics.org/) | [Character Personality](https://openpsychometrics.org/tests/characters/documentation/) |
+| 34 | `2022-08-23` | [CHIP dataset](data/2022/2022-08-23) |  [CHIP Dataset](https://chip-dataset.vercel.app/) | [arxiv paper](https://arxiv.org/abs/1911.11313) |
 
 ***  
 
