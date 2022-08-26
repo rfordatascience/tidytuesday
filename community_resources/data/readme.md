@@ -1,6 +1,6 @@
 # Additional Data
 
-If you find any additional data or useful data for a specific week, please add here via as a file via pull-request.
+If you find any additional data or useful data for a specific week, please add it here as a file via pull-request.
 
 ## Format
 
