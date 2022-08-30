@@ -44,7 +44,7 @@ c. Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesd
 2. **Create an entire TidyTuesday challenge!**  
 a. Find an interesting dataset  
 b. Find a report, blog post, article etc relevant to the data (or create one yourself!)  
-c. Let us know you're found something interesting and are working on it by filing an [Issue](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub  
+c. Let us know you've found something interesting and are working on it by filing an [Issue](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub  
 d. Provide a link or the raw data and a cleaning script for the data  
 e. Write a basic `readme.md` file using the minimal template below and make sure to give yourself credit! 
 
@@ -111,7 +111,7 @@ Penn State has an [article](https://accessibility.psu.edu/images/charts/) on wri
 
 > Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. See the [examples on this page](https://accessibility.psu.edu/images/charts/) for details on how to make charts more accessible.
 
-The `{rtweet}` package includes the [ability to post tweets](https://docs.ropensci.org/rtweet/reference/post_tweet.html) with alt text programatically.
+The `{rtweet}` package includes the [ability to post tweets](https://docs.ropensci.org/rtweet/reference/post_tweet.html) with alt text programmatically.
 
 Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related) that force you to remember to add Alt Text to Tweets with media.
 
