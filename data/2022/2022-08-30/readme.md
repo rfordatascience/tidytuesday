@@ -65,7 +65,7 @@ pell <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidyt
 
 |variable  |class   |description |
 |:---------|:-------|:-----------|
-|STATE     |integer | State shotcode     |
+|STATE     |integer | State shortcode     |
 |AWARD     |double  | Award amount in USD    |
 |RECIPIENT |double  | Total number of recipients by year, name    |
 |NAME      |integer | Name of college/university |
