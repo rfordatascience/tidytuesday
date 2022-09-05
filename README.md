@@ -157,6 +157,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 33 | `2022-08-16` | [Open Source Psychometrics](data/2022/2022-08-16) |  [Open-Source Psychometrics Project](https://openpsychometrics.org/) | [Character Personality](https://openpsychometrics.org/tests/characters/documentation/) |
 | 34 | `2022-08-23` | [CHIP dataset](data/2022/2022-08-23) |  [CHIP Dataset](https://chip-dataset.vercel.app/) | [arxiv paper](https://arxiv.org/abs/1911.11313) |
 | 35 | `2022-08-30` | [Pell Grants](data/2022/2022-08-30) |  [US Dept of Education](https://www2.ed.gov/finaid/prof/resources/data/pell-institution.html) | [`pell` R package](https://curious-joe.github.io/pell/articles/intro.html) |
+| 36 | `2022-09-06` | [LEGO database](data/2022/2022-09-06) |  [`rebrickable`](https://rebrickable.com/downloads/) | [`rebrickable`](https://rebrickable.com/downloads/) |
 
 ***  
 
