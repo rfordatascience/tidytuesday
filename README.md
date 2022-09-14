@@ -158,8 +158,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 34 | `2022-08-23` | [CHIP dataset](data/2022/2022-08-23) |  [CHIP Dataset](https://chip-dataset.vercel.app/) | [arxiv paper](https://arxiv.org/abs/1911.11313) |
 | 35 | `2022-08-30` | [Pell Grants](data/2022/2022-08-30) |  [US Dept of Education](https://www2.ed.gov/finaid/prof/resources/data/pell-institution.html) | [`pell` R package](https://curious-joe.github.io/pell/articles/intro.html) |
 | 36 | `2022-09-06` | [LEGO database](data/2022/2022-09-06) |  [`rebrickable`](https://rebrickable.com/downloads/) | [`rebrickable`](https://rebrickable.com/downloads/) |
-| 37 | `2022-09-13` | [Bigfoot](data/2022/2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot
-](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
+| 37 | `2022-09-13` | [Bigfoot](data/2022/2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
 ***  
 
 # Useful links
