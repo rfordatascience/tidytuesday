@@ -30,7 +30,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Bigfoot
 
-The data this week comes from [Bigfoot Field Researchers Organization (BFRO)](https://data.world/timothyrenner/www.bfro.net) by way of [Data.World](https://data.world/timothyrenner/bfro-sightings-data).
+The data this week comes from [Bigfoot Field Researchers Organization (BFRO)](https://www.bfro.net) by way of [Data.World](https://data.world/timothyrenner/bfro-sightings-data).
 
 A [bigfoot article](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) by Timothy Renner.
 
