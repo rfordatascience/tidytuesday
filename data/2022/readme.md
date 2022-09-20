@@ -40,5 +40,5 @@ Archive of datasets and articles from the 2022 series of `#TidyTuesday` events.
 | 34 | `2022-08-23` | [CHIP dataset](2022-08-23) |  [CHIP Dataset](https://chip-dataset.vercel.app/) | [arxiv paper](https://arxiv.org/abs/1911.11313) |
 | 35 | `2022-08-30` | [Pell Grants](2022-08-30) |  [US Dept of Education](https://www2.ed.gov/finaid/prof/resources/data/pell-institution.html) | [`pell` R package](https://curious-joe.github.io/pell/articles/intro.html) |
 | 36 | `2022-09-06` | [LEGO database](2022-09-06) |  [`rebrickable`](https://rebrickable.com/downloads/) | [`rebrickable`](https://rebrickable.com/downloads/) |
-| 37 | `2022-09-13` | [Bigfoot](2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot
-](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
+| 37 | `2022-09-13` | [Bigfoot](2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
+| 38 | `2022-09-20` | [Hydro Wastewater plants](2022-09-20) |  [Macedo et al, 2022](https://essd.copernicus.org/articles/14/559/2022/#section4) | [HydroWASTE v1.0](https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1) |
