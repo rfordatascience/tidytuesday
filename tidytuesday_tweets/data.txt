@@ -1,7 +1,7 @@
 path:
-- https://github.com/rfordatascience/tidytuesday/releases/download/tidytuesday_tweets-fd48c50/data.csv
+- https://github.com/rfordatascience/tidytuesday/releases/download/tidytuesday_tweets-774fb8c/data.csv
 - data.rds
-rows: 20661
+rows: 20766
 cols: 92
 columns:
   week: numeric
