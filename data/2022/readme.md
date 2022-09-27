@@ -42,3 +42,4 @@ Archive of datasets and articles from the 2022 series of `#TidyTuesday` events.
 | 36 | `2022-09-06` | [LEGO database](2022-09-06) |  [`rebrickable`](https://rebrickable.com/downloads/) | [`rebrickable`](https://rebrickable.com/downloads/) |
 | 37 | `2022-09-13` | [Bigfoot](2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
 | 38 | `2022-09-20` | [Hydro Wastewater plants](2022-09-20) |  [Macedo et al, 2022](https://essd.copernicus.org/articles/14/559/2022/#section4) | [HydroWASTE v1.0](https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1) |
+| 39 | `2022-09-27` | [Artists in the USA](2022-09-27) |  [arts.gov](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables) | [Artists in the Workforce](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31) |
