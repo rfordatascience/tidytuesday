@@ -162,6 +162,8 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 38 | `2022-09-20` | [Hydro Wastewater plants](data/2022/2022-09-20) |  [Macedo et al, 2022](https://essd.copernicus.org/articles/14/559/2022/#section4) | [HydroWASTE v1.0](https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1) |
 | 39 | `2022-09-27` | [Artists in the USA](data/2022/2022-09-27) |  [arts.gov](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables) | [Artists in the Workforce](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31) |
 | 40 | `2022-10-04` | [Product Hunt products](data/2022/2022-10-04) |  [components.one](https://components.one/datasets/product-hunt-products) | [The Gamer and the Nihilist by Andrew Thompson](https://components.one/posts/gamer-and-nihilist-product-hunt) |
+| 41 | `2022-10-11` | [Ravelry data](data/2022/2022-10-11) |  [ravelry.com](https://www.ravelry.com/account/login) | [{ravelRy} R package](https://www.kaylinpavlik.com/introducing-new-r-package-ravelry/) |
+
 
 ***  
 
