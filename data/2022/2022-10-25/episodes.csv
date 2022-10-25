@@ -1,0 +1,95 @@
+series,episode,bakers_appeared,bakers_out,bakers_remaining,star_bakers,technical_winners,sb_name,winner_name,eliminated
+1,1,10,2,8,0,1,NA,NA,"Lea, Mark"
+1,2,8,2,6,0,1,NA,NA,"Annetha, Louise"
+1,3,6,1,5,0,1,NA,NA,Jonathan
+1,4,5,1,4,0,1,NA,NA,David
+1,5,4,1,3,0,1,NA,NA,Jasminder
+1,6,3,0,3,0,0,NA,Edd,NA
+2,1,12,1,11,1,1,Holly,NA,Keith
+2,2,11,1,10,1,1,Jason,NA,Simon
+2,3,10,2,8,1,1,Yasmin,NA,"Ian, Urvashi"
+2,4,8,1,7,2,1,"Holly, Jason",NA,Ben
+2,5,7,2,5,1,1,Janet,NA,"Jason, Robert"
+2,6,5,1,4,1,1,Joanne,NA,Yasmin
+2,7,4,1,3,0,1,NA,NA,Janet
+2,8,3,0,3,0,1,NA,Joanne,NA
+3,1,12,1,11,1,1,Victoria,NA,Natasha
+3,2,11,1,10,1,1,John,NA,Peter
+3,3,10,1,9,1,1,James,NA,Victoria
+3,4,9,1,8,1,1,Brendan,NA,Stuart
+3,5,8,1,7,1,1,Ryan,NA,Manisha
+3,6,7,0,7,1,1,Brendan,NA,NA
+3,7,7,2,5,1,1,Danny,NA,"Ryan, Sarah-Jane"
+3,8,5,1,4,1,1,James,NA,Cathryn
+3,9,4,1,3,1,1,James,NA,Danny
+3,10,3,0,3,0,1,NA,John,NA
+4,1,13,1,12,1,1,Robert,NA,Toby
+4,2,12,1,11,1,1,Ruby,NA,Lucy
+4,3,11,2,9,1,1,Christine,NA,"Deborah, Mark"
+4,4,9,1,8,1,1,Kimberley,NA,Ali
+4,5,8,1,7,1,1,Christine,NA,Robert
+4,6,7,1,6,1,1,Ruby,NA,Howard
+4,7,6,1,5,1,1,Frances,NA,Glenn
+4,8,5,1,4,1,1,Ruby,NA,Christine
+4,9,4,1,3,1,1,Kimberley,NA,Beca
+4,10,3,0,3,0,1,NA,Frances,NA
+5,1,12,1,11,1,1,Nancy,NA,Claire
+5,2,11,1,10,1,1,Richard,NA,Enwezor
+5,3,10,1,9,1,1,Luis,NA,Jordan
+5,4,9,1,8,1,1,Richard,NA,Iain
+5,5,8,1,7,1,1,Kate,NA,Norman
+5,6,7,0,7,1,1,Chetna,NA,NA
+5,7,7,1,6,1,1,Richard,NA,Kate
+5,8,6,1,5,1,1,Richard,NA,Martha
+5,9,5,1,4,1,1,Richard,NA,Chetna
+5,10,4,0,4,0,1,NA,Nancy,NA
+6,1,12,1,11,1,1,Marie,NA,Stu
+6,2,11,1,10,1,1,Ian,NA,Marie
+6,3,10,1,9,1,1,Ian,NA,Dorret
+6,4,9,1,8,1,1,Ian,NA,Sandy
+6,5,8,1,7,1,1,Nadiya,NA,Ugnė
+6,6,7,1,6,1,1,Mat,NA,Alvin
+6,7,6,1,5,1,1,Tamal,NA,Mat
+6,8,5,1,4,1,1,Nadiya,NA,Paul
+6,9,4,1,3,1,1,Nadiya,NA,Flora
+6,10,3,0,3,0,1,NA,Nadiya,NA
+7,1,12,1,11,1,1,Jane,NA,Lee
+7,2,11,1,10,1,1,Candice,NA,Louise
+7,3,10,1,9,1,1,Tom,NA,Michael
+7,4,9,1,8,1,1,Benjamina,NA,Kate
+7,5,8,1,7,1,1,Candice,NA,Val
+7,6,7,1,6,1,1,Tom,NA,Rav
+7,7,6,1,5,1,1,Andrew,NA,Tom
+7,8,5,1,4,1,1,Candice,NA,Benjamina
+7,9,4,1,3,1,1,Andrew,NA,Selasi
+7,10,3,0,3,0,1,NA,Candice,NA
+8,1,12,1,11,1,1,Steven,NA,Peter
+8,2,11,1,10,1,1,Steven,NA,Chris
+8,3,10,1,9,1,1,Julia,NA,Flo
+8,4,9,1,8,1,1,Kate,NA,Tom
+8,5,8,1,7,1,1,Sophie,NA,James
+8,6,7,1,6,1,1,Liam,NA,Julia
+8,7,6,1,5,1,1,Steven,NA,Yan
+8,8,5,1,4,1,1,Stacey,NA,Liam
+8,9,4,1,3,1,1,Sophie,NA,Stacey
+8,10,3,0,3,0,1,NA,Sophie,NA
+9,1,12,1,11,1,1,Manon,NA,Imelda
+9,2,11,1,10,1,1,Rahul,NA,Luke
+9,3,10,1,9,1,1,Rahul,NA,Antony
+9,4,9,0,9,1,1,Dan,NA,NA
+9,5,9,2,7,1,1,Kim-Joy,NA,"Karen, Terry"
+9,6,7,1,6,1,1,Briony,NA,Dan
+9,7,6,1,5,1,1,Kim-Joy,NA,Jon
+9,8,5,1,4,1,1,Ruby,NA,Manon
+9,9,4,1,3,1,1,Ruby,NA,Briony
+9,10,3,0,3,0,1,NA,Rahul,NA
+10,1,13,1,12,1,1,Michelle,NA,Dan
+10,2,12,1,11,1,1,Alice,NA,Jamie
+10,3,11,1,10,1,1,Michael,NA,Amelia
+10,4,10,1,9,1,1,Steph,NA,Phil
+10,5,9,2,7,1,1,Steph,NA,"Helena, Michelle"
+10,6,7,1,6,1,1,Steph,NA,Priya
+10,7,6,1,5,1,1,Henry,NA,Michael
+10,8,5,1,4,1,1,Steph,NA,Henry
+10,9,4,1,3,1,1,Alice,NA,Rosie
+10,10,3,0,3,0,1,NA,David,NA
