@@ -165,6 +165,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 41 | `2022-10-11` | [Ravelry data](data/2022/2022-10-11) |  [ravelry.com](https://www.ravelry.com/account/login) | [{ravelRy} R package](https://www.kaylinpavlik.com/introducing-new-r-package-ravelry/) |
 | 42 | `2022-10-18` | [Stranger things dialogue](data/2022/2022-10-18) |  [8flix.com](https://8flix.com/stranger-things/) | [freeCodeCamp](https://www.freecodecamp.org/news/a-statistical-curiosity-voyage-through-the-emotion-of-stranger-things-e7bc8b2a6395) & ['stringr things'](https://github.com/filmicaesthetic/stringr-things) |
 | 43 | `2022-10-25` | [Great British Bakeoff](data/2022/2022-10-25) |  [bakeoff pkg](https://bakeoff.netlify.app/) | [Data Visualization in the Tidyverse - The Great Tidy Plot Off](https://alison.netlify.app/uo-tidy-bakeoff/#1) |
+| 44 | `2022-11-01` | [Horror Movies](data/2022/2022-11-01) |  [The Movie Database](https://www.themoviedb.org/) | [Tanya Shapiro's Horror Movies](https://github.com/tashapiro/horror-movies) |
 
 ***  
 
