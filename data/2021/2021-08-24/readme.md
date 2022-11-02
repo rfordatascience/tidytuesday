@@ -87,7 +87,7 @@ Mostipak](https://github.com/rfordatascience/tidytuesday/issues/204).
 
 | **Taxon** | **Latin name**               | **Common name**              |
 |:----------|:-----------------------------|:-----------------------------|
-| CMEAD     | Cheirogaleus medius          | Fat-tailed dwarf lemur       |
+| CMED     | Cheirogaleus medius          | Fat-tailed dwarf lemur       |
 | DMAD      | Daubentonia madagascariensis | Aye-aye                      |
 | EALB      | Eulemur albifrons            | White-fronted brown lemur    |
 | ECOL      | Eulemur collaris             | Collared brown lemur         |
