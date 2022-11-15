@@ -147,7 +147,7 @@ library(jsonlite)
 get_df <- function(url){
   raw_list <- fromJSON(url, simplifyVector = FALSE)
   
-  tibble(data = ally_scores) |> 
+  tibble(data = raw_list) |> 
     unnest_wider(data) |> 
     mutate(
       measure = fs::path_file(url) |> tools::file_path_sans_ext(),
