@@ -168,6 +168,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 44 | `2022-11-01` | [Horror Movies](data/2022/2022-11-01) |  [The Movie Database](https://www.themoviedb.org/) | [Tanya Shapiro's Horror Movies](https://github.com/tashapiro/horror-movies) |
 | 45 | `2022-11-08` | [Radio Stations](data/2022/2022-11-08) |  [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_radio_stations_in_the_United_States) | [Visualizing the Geography of FM Radio](https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/) |
 | 46 | `2022-11-15` | [Web page metrics](data/2022/2022-11-15) |  [httpArchive.org](https://httparchive.org/reports/loading-speed?start=earliest&end=latest&view=list) | [DataWrapper](https://blog.datawrapper.de/why-web-pages-can-have-a-size-problem/) & [Data is Plural](https://www.data-is-plural.com/archive/2022-11-02-edition/) |
+| 47 | `2022-11-22` | [UK Museums](data/2022/2022-11-22) |  [MuseWeb by way of Data Is Plural](https://www.data-is-plural.com/archive/2022-10-19-edition/) | [MuseWeb Key Findings](https://museweb.dcs.bbk.ac.uk/findings) |
 
 ***  
 
