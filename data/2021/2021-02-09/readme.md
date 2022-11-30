@@ -2,6 +2,8 @@
 
 # Wealth and income over time
 
+Note: The `income_mean` dataset appears to have some level of duplicate data for "Asian Alone" and "Asian Alone or in Combination". We are not changing the dataset to avoid breaking old code, but you may want to start from the raw data if you are using this for anything important.
+
 The data this week comes from the [Urban Institute](https://apps.urban.org/features/wealth-inequality-charts/) and the [US Census](https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html).
 
 The Urban Institute lays out nine charts about racial wealth inequality in America in this [article](https://apps.urban.org/features/wealth-inequality-charts/). They include several summary-level datasets that I've included.
