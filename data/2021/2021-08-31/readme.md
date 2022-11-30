@@ -84,6 +84,8 @@ bird_baths <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 |bird_type   |character | Bird species |
 |bird_count  |double    | |
 
+Note: Rows in the data that are missing `survey_year`, `urban_rural`, and `bioregions` are totals from the source data.
+
 ### Cleaning Script
 
 ```
