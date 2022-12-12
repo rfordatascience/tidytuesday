@@ -30,7 +30,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Monthly State Retail Sales
 
-The data this week comes from [United States Census Bureau's Monthly State Retail Sales](https://www.census.gov/retail/state_retail_sales.html).
+The data this week comes from the [United States Census Bureau's Monthly State Retail Sales](https://www.census.gov/retail/state_retail_sales.html).
 
 > The Monthly State Retail Sales (MSRS) is the Census Bureau's new experimental data product featuring modeled state-level retail sales.
 
