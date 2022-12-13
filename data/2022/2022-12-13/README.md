@@ -65,9 +65,9 @@ coverage_codes <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 
 |variable      |class     |description   |
 |:-------------|:---------|:-------------|
-|fips          |character |2-digit State Federal Information Processing Standards (FIPS) code. For more information on FIPS Codes, please reference [this document](https://www.census.gov/library/reference/codelists/ansi/ansi-codes-for-states.html). Note: The US is assigned a "00"" State FIPS code|
+|fips          |character |2-digit State Federal Information Processing Standards (FIPS) code. For more information on FIPS Codes, please reference [this document](https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html). Note: The US is assigned a "00"" State FIPS code|
 |state_abbr    |character |States are assigned 2-character official U.S. Postal
-Service Code. The United States is assigned "USA" as its state_abbr value. For more information, please reference [this document](https://www.census.gov/library/reference/codelists/ansi/ansi-codes-for-states.html).|
+Service Code. The United States is assigned "USA" as its state_abbr value. For more information, please reference [this document](https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html).|
 |naics         |integer   |Three-digit numeric NAICS value for retail subsector
 code|
 |subsector     |character |Retail subsector.|
