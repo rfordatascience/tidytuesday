@@ -3,6 +3,7 @@ name: social-post
 on:
   workflow_dispatch:
 
+
 jobs:
   doit:
     runs-on: ubuntu-latest
@@ -11,7 +12,7 @@ jobs:
       TTBOT_API_SECRET: ${{ secrets.TTBOT_API_SECRET }}
       TTBOT_ACCESS_TOKEN: ${{ secrets.TTBOT_ACCESS_TOKEN }}
       TTBOT_ACCESS_TOKEN_SECRET: ${{ secrets.TTBOT_ACCESS_TOKEN_SECRET }}
-   steps:
+    steps:
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.2.2'
