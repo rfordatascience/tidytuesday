@@ -36,7 +36,7 @@ The dataset included was mined from all 50 states, tidying column names, binding
 
 [Erin's](https://twitter.com/erindataviz) blogpost on [Visualizing the Geography of FM Radio](https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/). Data sourced from [FCC](https://www.fcc.gov/media/radio/fm-service-contour-data-points).
 
-Credit: [Frank Hull](twitter.com/frankiethull)
+Credit: [Frank Hull](https://twitter.com/frankiethull)
 
 ### Get the data here
 
