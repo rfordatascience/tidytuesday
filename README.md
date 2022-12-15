@@ -172,6 +172,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 48 | `2022-11-29` | [FIFA World Cup](data/2022/2022-11-29) |  [Kaggle FIFA World Cup](https://www.kaggle.com/datasets/evangower/fifa-world-cup/) | [Dataset Notebooks](https://www.kaggle.com/datasets/evangower/fifa-world-cup/code) |
 | 49 | `2022-12-06` | [Elevators](data/2022/2022-12-06) |  [Elevators data](https://github.com/EmilHvitfeldt/elevators/tree/main/data-raw) | [Elevators data package and examples](https://emilhvitfeldt.github.io/elevators/) |
 | 50 | `2022-12-13` | [Monthly State Retail Sales](data/2022/2022-12-13) | [US Census Bureau Monthly State Retails Sales](https://www.census.gov/retail/state_retail_sales.html) | [Interactive Visualization from US Census Bureau](https://www.census.gov/retail/state_retail_sales.html) |
+| 51 | `2022-12-20` | [Weather Forecast Accuracy](data/2022/2022-12-20) | [Weather Forecast  Capstone Project](https://github.com/speegled/weather_forecasts) | [Weather Forecast  Capstone Project](https://github.com/speegled/weather_forecasts) |
 
 ***  
 
