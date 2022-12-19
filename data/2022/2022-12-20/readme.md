@@ -50,9 +50,9 @@ The data includes 16 months of forecasts and observations from 167 cities, as we
 tuesdata <- tidytuesdayR::tt_load('2022-12-20')
 tuesdata <- tidytuesdayR::tt_load(2022, week = 51)
 
-weather_forecasts <- weather_forecasts
-cities <- cities
-outlook_meanings <- outlook_meanings
+weather_forecasts <- tuesdata$weather_forecasts
+cities <- tuesdata$cities
+outlook_meanings <- tuesdata$outlook_meanings
 
 # Or read in the data manually
 
