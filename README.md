@@ -122,7 +122,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2022-01-04` | Bring your own data to start 2023! | | |
+| 1 | `2023-01-03` | Bring your own data to start 2023! | | |
 
 
 ***  
