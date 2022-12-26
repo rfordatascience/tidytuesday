@@ -28,7 +28,7 @@ The `{rtweet}` package includes the [ability to post tweets](https://docs.ropens
 
 Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related) that force you to remember to add Alt Text to Tweets with media.
 
-# Star Trek Timeline
+# Star Trek Timelines
 
 The data this week comes from the [{rtrek} package](https://leonawicz.github.io/rtrek/). Thank you [Georgios Karamanis](https://github.com/gkaramanis) for suggesting the dataset!
 
