@@ -118,62 +118,12 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 ***
 
 # DataSets
-## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021) | [2022](data/2022)
+## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021) | [2022](data/2022) | [2023](data/2023)
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2022-01-04` | Bring your own data to start 2022! | | |
-| 2 | `2022-01-11` | [Bee Colony losses](data/2022/2022-01-11/readme.md) | [USDA](https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en) | [Bee Informed](https://beeinformed.org/2021/06/21/united-states-honey-bee-colony-losses-2020-2021-preliminary-results/) |
-| 3 | `2022-01-18` | [Chocolate Bar ratings](data/2022/2022-01-18/readme.md) | [Flavors of Cacao](http://flavorsofcacao.com/chocolate_database.html) | [Will Canniford on Kaggle](https://www.kaggle.com/willcanniford/chocolate-bar-ratings-extensive-eda) |
-| 4 | `2022-01-25` | [Board games](data/2022/2022-01-25/readme.md) | [Kaggle](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews/version/3?select=2022-01-08.csv) | [Alyssa Goldberg](https://rpubs.com/thewiremonkey/476630) |
-| 5 | `2022-02-01` | [Dog breeds](data/2022/2022-02-01/readme.md) | [American Kennel Club](https://github.com/kkakey/dog_traits_AKC) | [Vox](https://www.vox.com/2016/8/31/12715176/most-popular-dog-breeds) |
-| 6 | `2022-02-08` | [Tuskegee Airmen](data/2022/2022-02-08/readme.md) | [Commemorative Airforce (CAF) by way of the VA-TUG](https://github.com/lang1023/Tuskegee-Airman-Challenge) | [Wikipedia](https://en.wikipedia.org/wiki/Tuskegee_Airmen) & [Air Force Historical Research Agency](https://github.com/lang1023/Tuskegee-Airman-Challenge/blob/main/112%20Victories_%20Aerial%20Victories%20of%20hte%20Tuskegee%20Airmen%20(1).pdf) |
-| 7 | `2022-02-15` | [`#DuBoisChallenge2022`](data/2022/2022-02-15/readme.md) | [Anthony Starks](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022) | [Nightingale by DVS](https://nightingaledvs.com/the-dubois-challenge/) |
-| 8 | `2022-02-22` | [World Freedom index](data/2022/2022-02-22/readme.md) | [UN and Freedom House](https://github.com/ArthurCheib/analytical-politics-project/blob/main/data/tidy-data-fh-un.csv) | [Freedom House](https://freedomhouse.org/report/freedom-world/2018/democracy-crisis) |
-| 9 | `2022-03-01` | [Alternative Fuel Stations](data/2022/2022-03-01/readme.md) | [US DOT](https://data-usdot.opendata.arcgis.com/datasets/usdot::alternative-fueling-stations/about) | [EIA](https://www.eia.gov/todayinenergy/detail.php?id=6050) |
-| 10 | `2022-03-08` | [Erasmus student mobility](data/2022/2022-03-08/readme.md) | [Data.Europa.eu](https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en) | [Wimdu.co](https://www.wimdu.co.uk/blog/discover-popular-erasmus-destinations) |
-| 11 | `2022-03-15` | [CRAN/BIOC Vignettes](data/2022/2022-03-15/readme.md) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis) | [Robert Flight GitHub](https://github.com/rmflight/vignette_analysis)|
-| 12 | `2022-03-22` | [Baby names](data/2022/2022-03-22/readme.md) | [US `babynames`](http://hadley.github.io/babynames/) &  [`nzbabynames`](https://ekothe.github.io/nzbabynames/)  | [Emily Kothe's `nzbabynames` vignette](https://ekothe.github.io/nzbabynames/articles/guess_the_age.html) |
-| 13 | `2022-03-29` | [Collegiate Sports Budgets](data/2022/2022-03-29/readme.md) | [Equity in Athletics Data Analysis](https://ope.ed.gov/athletics/#/datafile/list) | [NPR](https://www.npr.org/2021/10/27/1049530975/ncaa-spends-more-on-mens-sports-report-reveals) |
-| 14 | `2022-04-05` | [Digital Publications](data/2022/2022-04-05/readme.md) | [Project Oasis](https://www.projectnewsoasis.com/publications) | [Project Oasis Report](https://www.projectnewsoasis.com/sites/default/files/2022-02/project-oasis-report-2021-1.pdf) |
-| 15 | `2022-04-12` | [Indoor Air Pollution](data/2022/2022-04-12/readme.md) | [OurWorldInData.org](https://ourworldindata.org/indoor-air-pollution) | [OurWorldInData.org](https://ourworldindata.org/indoor-air-pollution) |
-| 16 | `2022-04-19` | [Crossword Puzzles and Clues](data/2022/2022-04-19/readme.md) | [Cryptics.georgeho.org](https://cryptics.georgeho.org/) | [Towards Data Science](https://towardsdatascience.com/the-wild-world-of-crossword-data-71d560e222f5) |
-| 17 | `2022-04-26` | [Kaggle Hidden Gems](data/2022/2022-04-26/readme.md) | [Kaggle](https://www.kaggle.com/code/headsortails/hidden-gems-a-collection-of-underrated-notebooks/report) | [Kaggle - Notebooks of the Week](https://www.kaggle.com/datasets/headsortails/notebooks-of-the-week-hidden-gems/discussion/317098) |
-| 18 | `2022-05-03` | [Solar/Wind utilities](data/2022/2022-05-03/readme.md) | [Berkeley Lab](https://emp.lbl.gov/utility-scale-solar) | [Berkeley Lab report](https://emp.lbl.gov/sites/default/files/utility-scale_solar_2021_technical_brief.pdf) |
-| 19 | `2022-05-10` | [NYTimes best sellers](data/2022/2022-05-10/readme.md) | [Post45 Data](https://data.post45.org/our-data/) | [Finding Trends in NY Times Best Sellers - Kailey Smith ](https://towardsdatascience.com/finding-trends-in-ny-times-best-sellers-55cdd891c8aa) |
-| 20 | `2022-05-17` | [Eurovision](data/2022/2022-05-17/readme.md) | [Eurovision](https://eurovision.tv/) | [Tanya Shapiro](https://github.com/tashapiro/eurovision-contest) |
-| 21 | `2022-05-24` | [Women's Rugby](data/2022/2022-05-24/readme.md) | [Women's Rugby - ScrumQueens](https://www.scrumqueens.com/page/results-dashboard) | [ScrumQueens](https://www.scrumqueens.com/blogs/jbirch/story-behind-our-data-hub) |
-| 22 | `2022-05-31` | [Company reputation poll](data/2022/2022-05-31) | [Axios and Harris Poll](https://www.axios.com/2022/05/24/2022-axios-harris-poll-100-rankings) | [The Harris Poll](https://theharrispoll.com/partners/media/axios-harrispoll-100/) |
-| 23 | `2022-06-07` | [Pride Corporate Accountability Project](data/2022/2022-06-07) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) | [Data For Progress](https://www.dataforprogress.org/accountable-allies) |
-| 24 | `2022-06-14` | [US Drought](data/2022/2022-06-14) | [Drought.gov](https://www.drought.gov/) | [Drought.gov report](https://www.drought.gov/historical-information?dataset=1&selectedDateUSDM=20110301&selectedDateSpi=19580901) |
-| 25 | `2022-06-21` | [Juneteenth](data/2022/2022-06-21) | [WEB DuBois style by Anthony Starks](https://dataliteracy.com/anthony-starks-on-recreating-du-boiss-iconic-style/) | [Isabella Benabaye's blog on Juneteenth](https://isabella-b.com/blog/juneteenth-2020/) |
-| 26 | `2022-06-28` | [UK Gender pay gap](data/2022/2022-06-28) | [gender-pay-gap.service.gov.uk](https://gender-pay-gap.service.gov.uk/) | [ons.gov.uk](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/findoutthegenderpaygapforyourjob/2016-12-09) |
-| 27 | `2022-07-05` | [San Francisco Rentals](data/2022/2022-07-05) | [Kate Pennington](https://www.katepennington.org/data) | [Matrix-Berkeley](https://matrix.berkeley.edu/research-article/kate-pennington-on-gentrification-and-displacement-in-san-francisco/) |
-| 28 | `2022-07-12` | [European flights](data/2022/2022-07-12) | [Eurocontrol](https://ansperformance.eu/data/) | [ec.europa.eu](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210914-1) |
-| 29 | `2022-07-19` | [Technology Adoption](data/2022/2022-07-19) | [data.nber.org](https://data.nber.org/data-appendix/w15319/) | [www.cgdev.org](https://www.cgdev.org/sites/default/files/technology-and-development-exploration-data.pdf) |
-| 30 | `2022-07-26` | Bring your own data | None | None |
-| 31 | `2022-08-02` | [Oregon Spotted Frog](data/2022/2022-08-02) |  [usgs.gov spotted frog data](https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc) | [usgs.gov spotted-frog-article](https://www.usgs.gov/centers/forest-and-rangeland-ecosystem-science-center/science/oregon-spotted-frog) |
-| 32 | `2022-08-09` | [Ferris Wheels](data/2022/2022-08-09) |  [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) | [`ferriswheels`](https://github.com/EmilHvitfeldt/ferriswheels) |
-| 33 | `2022-08-16` | [Open Source Psychometrics](data/2022/2022-08-16) |  [Open-Source Psychometrics Project](https://openpsychometrics.org/) | [Character Personality](https://openpsychometrics.org/tests/characters/documentation/) |
-| 34 | `2022-08-23` | [CHIP dataset](data/2022/2022-08-23) |  [CHIP Dataset](https://chip-dataset.vercel.app/) | [arxiv paper](https://arxiv.org/abs/1911.11313) |
-| 35 | `2022-08-30` | [Pell Grants](data/2022/2022-08-30) |  [US Dept of Education](https://www2.ed.gov/finaid/prof/resources/data/pell-institution.html) | [`pell` R package](https://curious-joe.github.io/pell/articles/intro.html) |
-| 36 | `2022-09-06` | [LEGO database](data/2022/2022-09-06) |  [`rebrickable`](https://rebrickable.com/downloads/) | [`rebrickable`](https://rebrickable.com/downloads/) |
-| 37 | `2022-09-13` | [Bigfoot](data/2022/2022-09-13) |  [Data.World](https://data.world/timothyrenner/bfro-sightings-data) | [Finding Bigfoot](https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html) |
-| 38 | `2022-09-20` | [Hydro Wastewater plants](data/2022/2022-09-20) |  [Macedo et al, 2022](https://essd.copernicus.org/articles/14/559/2022/#section4) | [HydroWASTE v1.0](https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1) |
-| 39 | `2022-09-27` | [Artists in the USA](data/2022/2022-09-27) |  [arts.gov](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables) | [Artists in the Workforce](https://www.arts.gov/impact/research/arts-data-profile-series/adp-31) |
-| 40 | `2022-10-04` | [Product Hunt products](data/2022/2022-10-04) |  [components.one](https://components.one/datasets/product-hunt-products) | [The Gamer and the Nihilist by Andrew Thompson](https://components.one/posts/gamer-and-nihilist-product-hunt) |
-| 41 | `2022-10-11` | [Ravelry data](data/2022/2022-10-11) |  [ravelry.com](https://www.ravelry.com/account/login) | [{ravelRy} R package](https://www.kaylinpavlik.com/introducing-new-r-package-ravelry/) |
-| 42 | `2022-10-18` | [Stranger things dialogue](data/2022/2022-10-18) |  [8flix.com](https://8flix.com/stranger-things/) | [freeCodeCamp](https://www.freecodecamp.org/news/a-statistical-curiosity-voyage-through-the-emotion-of-stranger-things-e7bc8b2a6395) & ['stringr things'](https://github.com/filmicaesthetic/stringr-things) |
-| 43 | `2022-10-25` | [Great British Bakeoff](data/2022/2022-10-25) |  [bakeoff pkg](https://bakeoff.netlify.app/) | [Data Visualization in the Tidyverse - The Great Tidy Plot Off](https://alison.netlify.app/uo-tidy-bakeoff/#1) |
-| 44 | `2022-11-01` | [Horror Movies](data/2022/2022-11-01) |  [The Movie Database](https://www.themoviedb.org/) | [Tanya Shapiro's Horror Movies](https://github.com/tashapiro/horror-movies) |
-| 45 | `2022-11-08` | [Radio Stations](data/2022/2022-11-08) |  [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_radio_stations_in_the_United_States) | [Visualizing the Geography of FM Radio](https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/) |
-| 46 | `2022-11-15` | [Web page metrics](data/2022/2022-11-15) |  [httpArchive.org](https://httparchive.org/reports/loading-speed?start=earliest&end=latest&view=list) | [DataWrapper](https://blog.datawrapper.de/why-web-pages-can-have-a-size-problem/) & [Data is Plural](https://www.data-is-plural.com/archive/2022-11-02-edition/) |
-| 47 | `2022-11-22` | [UK Museums](data/2022/2022-11-22) |  [MuseWeb by way of Data Is Plural](https://www.data-is-plural.com/archive/2022-10-19-edition/) | [MuseWeb Key Findings](https://museweb.dcs.bbk.ac.uk/findings) |
-| 48 | `2022-11-29` | [FIFA World Cup](data/2022/2022-11-29) |  [Kaggle FIFA World Cup](https://www.kaggle.com/datasets/evangower/fifa-world-cup/) | [Dataset Notebooks](https://www.kaggle.com/datasets/evangower/fifa-world-cup/code) |
-| 49 | `2022-12-06` | [Elevators](data/2022/2022-12-06) |  [Elevators data](https://github.com/EmilHvitfeldt/elevators/tree/main/data-raw) | [Elevators data package and examples](https://emilhvitfeldt.github.io/elevators/) |
-| 50 | `2022-12-13` | [Monthly State Retail Sales](data/2022/2022-12-13) | [US Census Bureau Monthly State Retails Sales](https://www.census.gov/retail/state_retail_sales.html) | [Interactive Visualization from US Census Bureau](https://www.census.gov/retail/state_retail_sales.html) |
-| 51 | `2022-12-20` | [Weather Forecast Accuracy](data/2022/2022-12-20) | [Weather Forecast  Capstone Project](https://github.com/speegled/weather_forecasts) | [Weather Forecast  Capstone Project](https://github.com/speegled/weather_forecasts) |
-| 52 | `2022-12-27` | [Star Trek Timelines](data/2022/2022-12-27) | [rtrek package](https://leonawicz.github.io/rtrek/) | [rtrek package](https://leonawicz.github.io/rtrek/) |
+| 1 | `2023-01-03` | Bring your own data to start 2023! | | |
+
 
 ***  
 
