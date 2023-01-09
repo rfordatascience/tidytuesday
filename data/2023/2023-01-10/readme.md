@@ -186,5 +186,5 @@ dplyr::glimpse(PFW_2021_public)
 set.seed(424242)
 PFW_2021_public_subset <- dplyr::slice_sample(PFW_2021_public, n = 1e5)
 
-readr::write_csv(PFW_2021_public_subset, here::here("data", "2023", "2023-01-10", "PFW_202_public.csv"))
+readr::write_csv(PFW_2021_public_subset, here::here("data", "2023", "2023-01-10", "PFW_2021_public.csv"))
 ```
