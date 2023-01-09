@@ -33,15 +33,18 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 The data this week comes from the [Project FeederWatch](https://feederwatch.org/explore/raw-dataset-requests/).
 
 > FeederWatch is a November-April survey of birds that visit backyards, nature centers, community areas, and other locales in North America. Citizen scientists could birds in areas with plantings, habitat, water, or food that attracts birds. The schedule is completely flexible. People count birds as long as they like on days of their choosing, then enter their counts online. This allows anyone to track what is happening to birds around your home and to contribute to a continental data-set of bird distribution and abundance.
+
 > FeederWatch data show which bird species visit feeders at thousands of locations across the continent every winter. The data also indicate how many individuals of each species are seen. This information can be used to measure changes in the winter ranges and abundances of bird species over time.
->
-> 2021 data is included for this TidyTuesday, but data available through 1988 is available for download on [FeederWatch Raw Dataset Downloads page](https://feederwatch.org/explore/raw-dataset-requests/)
->
+
+A subset of the 2021 data is included for this TidyTuesday, but data available through 1988 is available for download on [FeederWatch Raw Dataset Downloads page](https://feederwatch.org/explore/raw-dataset-requests/)
+
 > Project FeederWatch is operated by the Cornell Lab of Ornithology and Birds Canada. Since 2016, Project FeederWatch has been sponsored by Wild Bird Unlimited. 
->
-> Acknowledging FeederWatch. 
-The Cornell Lab of Ornithology and Birds Canada are committed to making data gathered through our citizen science programs freely accessible to students, journalists, and the general public."  
-"This unique dataset is completely dependent on the efforts of our network of volunteer participants. We ask that all data analysts give credit to the thousands of participants who have made FeederWatch possible, as well as to Birds Canada and the Cornell Lab of Ornithology for developing and managing the program."
+
+> Acknowledging FeederWatch.
+
+> The Cornell Lab of Ornithology and Birds Canada are committed to making data gathered through our citizen science programs freely accessible to students, journalists, and the general public."  
+
+> "This unique dataset is completely dependent on the efforts of our network of volunteer participants. We ask that all data analysts give credit to the thousands of participants who have made FeederWatch possible, as well as to Birds Canada and the Cornell Lab of Ornithology for developing and managing the program."
 
 [Examples of analyses](https://feederwatch.org/explore/raw-dataset-requests/) are included with the raw data and there is a section to [Explore](https://feederwatch.org/explore/) the data.
 
@@ -75,6 +78,7 @@ site_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 > The [Project FeederWatch Data Dictionary](https://drive.google.com/file/d/1kHmx2XhA2MJtEyTNMpwqTQEnoa9M7Il2/view?usp=sharing) explains all fields and codes used in the database and is essential for understanding the dataset.
 
 # `PFW_2021_public.csv`
+
 
 |variable           |class     |description        |
 |:------------------|:---------|:------------------|
@@ -170,4 +174,17 @@ site_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 ### Cleaning Script
 
-Clean data - no script
+```r
+# Download the raw data.
+
+PFW_2021_public <- readr::read_csv("https://clo-pfw-prod.s3.us-west-2.amazonaws.com/data/PFW_2021_public.csv")
+dplyr::glimpse(PFW_2021_public)
+
+# There are almost three million rows! The file is too big for github, let's
+# subsample.
+
+set.seed(424242)
+PFW_2021_public_subset <- dplyr::slice_sample(PFW_2021_public, n = 1e5)
+
+readr::write_csv(PFW_2021_public_subset, here::here("data", "2023", "2023-01-10", "PFW_202_public.csv"))
+```
