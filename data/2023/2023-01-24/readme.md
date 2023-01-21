@@ -65,7 +65,7 @@ Examples of analyses are included in [Dan Oehm's blog post](https://gradientdesc
 # Either ISO-8601 date or year/week works!
 
 tuesdata <- tidytuesdayR::tt_load('2023-01-24')
-tuesdata <- tidytuesdayR::tt_load(2023, week = 04)
+tuesdata <- tidytuesdayR::tt_load(2023, week = 4)
 
 alone <- tuesdata$alone
 
