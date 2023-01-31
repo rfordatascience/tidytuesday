@@ -81,7 +81,7 @@ Full dictionaries are available on [Movebank](https://www.datarepository.moveban
 |timestamp                       |double    |The date and time corresponding to a sensor measurement or an estimate derived from sensor measurements.|
 |location_long                   |double    |The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.|
 |location_lat                    |double    |The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.|
-|ground_speed                    |double    |The estimated ground speed provided by the sensor or calculated between consecutive locations. Units: m/s|
+|ground_speed                    |double    |The estimated ground speed provided by the sensor or calculated between consecutive locations. Units: mm/s|
 |height_above_ellipsoid          |double    |The estimated height above the ellipsoid, typically estimated by the tag. Units: meters|
 |algorithm_marked_outlier        |logical   |Identifies events marked as outliers using a user-selected filter algorithm in Movebank. Outliers have the value TRUE.|
 |manually_marked_outlier         |logical   |Identifies events flagged manually as outliers, typically using the Event Editor in Movebank, and may also include outliers identified using other methods. Outliers have the value TRUE.|
