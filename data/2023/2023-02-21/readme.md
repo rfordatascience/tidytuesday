@@ -36,6 +36,8 @@ The data this week comes from Jared Wilber's data on [Bob Ross Paintings](https:
 
 > @frankiethull created an R data package [{BobRossColors}](https://github.com/frankiethull/BobRossColors) with information on the palettes that leveraged imgpalr to mine divergent and qualitative colors from each painting image. In addition, unique Bob Ross named colors are in the package as well.
 
+> In the github repository of the dataset, there are also [pngs of the paintings](https://github.com/jwilber/Bob_Ross_Paintings/tree/master/data/paintings) themselves!
+
 
 
 ### Get the data here
