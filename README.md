@@ -129,6 +129,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 5 | `2023-01-31` | [Pet Cats UK](data/2023/2023-01-31/readme.md) | [Movebank for Animal Tracking Data](https://www.datarepository.movebank.org/handle/10255/move.882) | [Cats on the Move](https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013) |
 | 6 | `2023-02-07` | [Big Tech Stock Prices](data/2023/2023-02-07/readme.md) | [Big Tech Stock Prices on Kaggle](https://www.kaggle.com/datasets/evangower/big-tech-stock-prices) | [5 Charts on Big Tech Stocks’ Collapse](https://www.morningstar.com/articles/1129535/5-charts-on-big-tech-stocks-collapse) |
 | 7 | `2023-02-14` | [Hollywood Age Gaps](data/2023/2023-02-14/readme.md) | [Hollywood Age Gap](https://hollywoodagegap.com/movies.csv) | [Hollywood Age Gap](https://hollywoodagegap.com/) |
+| 8 | `2023-02-21` | [Bob Ross Paintings](data/2023/2023-02-21/readme.md) | [Bob Ross Paintings data](https://github.com/jwilber/Bob_Ross_Paintings/blob/master/data/bob_ross_paintings.csv) | [Bob Ross Colors data package](https://github.com/frankiethull/BobRossColors) |
 
 ***  
 
