@@ -130,6 +130,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 6 | `2023-02-07` | [Big Tech Stock Prices](data/2023/2023-02-07/readme.md) | [Big Tech Stock Prices on Kaggle](https://www.kaggle.com/datasets/evangower/big-tech-stock-prices) | [5 Charts on Big Tech Stocks’ Collapse](https://www.morningstar.com/articles/1129535/5-charts-on-big-tech-stocks-collapse) |
 | 7 | `2023-02-14` | [Hollywood Age Gaps](data/2023/2023-02-14/readme.md) | [Hollywood Age Gap](https://hollywoodagegap.com/movies.csv) | [Hollywood Age Gap](https://hollywoodagegap.com/) |
 | 8 | `2023-02-21` | [Bob Ross Paintings](data/2023/2023-02-21/readme.md) | [Bob Ross Paintings data](https://github.com/jwilber/Bob_Ross_Paintings/blob/master/data/bob_ross_paintings.csv) | [Bob Ross Colors data package](https://github.com/frankiethull/BobRossColors) |
+| 9 | `2023-02-28` | [African Language Sentiment](data/2023/2023-02-28/readme.md) | [AfriSenti: Sentiment Analysis dataset for 14 African languages](https://github.com/afrisenti-semeval/afrisent-semeval-2023) | [AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages](https://arxiv.org/pdf/2302.08956.pdf) |
 
 ***  
 
