@@ -30,7 +30,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Numbats in Australia
 
-The data this week comes from the [Atlas of Living Australia](https://www.ala.org.au). Thanks to Di cook for [preparing this week's dataset](https://github.com/numbats/numbats-tidytuesday)! 
+The data this week comes from the [Atlas of Living Australia](https://www.ala.org.au). Thanks to Di Cook for [preparing this week's dataset](https://github.com/numbats/numbats-tidytuesday)! 
 
 This [Numbat page at the Atlas of Living Australia](https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c72d199-f0f1-44d3-8197-224a2f7cff5f) talks about these endangered species in greater detail.
 
