@@ -132,6 +132,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 8 | `2023-02-21` | [Bob Ross Paintings](data/2023/2023-02-21/readme.md) | [Bob Ross Paintings data](https://github.com/jwilber/Bob_Ross_Paintings/blob/master/data/bob_ross_paintings.csv) | [Bob Ross Colors data package](https://github.com/frankiethull/BobRossColors) |
 | 9 | `2023-02-28` | [African Language Sentiment](data/2023/2023-02-28/readme.md) | [AfriSenti: Sentiment Analysis dataset for 14 African languages](https://github.com/afrisenti-semeval/afrisent-semeval-2023) | [AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages](https://arxiv.org/pdf/2302.08956.pdf) |
 | 10 | `2023-03-07` | [Numbats in Australia](data/2023/2023-03-07/readme.md) | [Atlas of Living Australia](https://www.ala.org.au) | [Numbat page at the Atlas of Living Australia](https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c72d199-f0f1-44d3-8197-224a2f7cff5f) |
+| 11 | `2023-03-14` | [European Drug Development](data/2023/2023-03-14/readme.md) | [European Medicines Agency](https://www.ema.europa.eu/en/medicines/download-medicine-data) | [Dissecting 28 years of European pharmaceutical development](https://towardsdatascience.com/dissecting-28-years-of-european-pharmaceutical-development-3affd8f87dc0) |
 
 ***  
 
