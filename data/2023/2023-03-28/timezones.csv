@@ -1,0 +1,338 @@
+zone,latitude,longitude,comments
+Africa/Abidjan,5.316666666666666,-4.033333333333333,NA
+Africa/Algiers,36.78333333333333,3.05,NA
+Africa/Bissau,11.85,-15.583333333333334,NA
+Africa/Cairo,30.05,31.25,NA
+Africa/Casablanca,33.65,-7.583333333333333,NA
+Africa/Ceuta,35.88333333333333,-5.316666666666666,"Ceuta, Melilla"
+Africa/El_Aaiun,27.15,-13.2,NA
+Africa/Johannesburg,-26.25,28,NA
+Africa/Juba,4.85,31.616666666666667,NA
+Africa/Khartoum,15.6,32.53333333333333,NA
+Africa/Lagos,6.45,3.4,West Africa Time
+Africa/Maputo,-25.966666666666665,32.583333333333336,Central Africa Time
+Africa/Monrovia,6.3,-10.783333333333333,NA
+Africa/Nairobi,-1.2833333333333332,36.81666666666667,NA
+Africa/Ndjamena,12.116666666666667,15.05,NA
+Africa/Sao_Tome,0.3333333333333333,6.733333333333333,NA
+Africa/Tripoli,32.9,13.183333333333334,NA
+Africa/Tunis,36.8,10.183333333333334,NA
+America/Adak,52.666666666666664,-177.13333333333333,Aleutian Islands
+America/Anchorage,61.300000000000004,-149.91666666666669,Alaska (most areas)
+America/Araguaina,-7.2,-48.2,Tocantins
+America/Argentina/Buenos_Aires,-34.6,-58.45,"Buenos Aires (BA, CF)"
+America/Argentina/Catamarca,-28.466666666666665,-65.78333333333333,Catamarca (CT); Chubut (CH)
+America/Argentina/Cordoba,-31.4,-64.18333333333334,"Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
+America/Argentina/Jujuy,-24.183333333333334,-65.3,Jujuy (JY)
+America/Argentina/La_Rioja,-29.433333333333334,-66.85,La Rioja (LR)
+America/Argentina/Mendoza,-32.88333333333333,-68.81666666666666,Mendoza (MZ)
+America/Argentina/Rio_Gallegos,-51.63333333333333,-69.21666666666667,Santa Cruz (SC)
+America/Argentina/Salta,-24.783333333333335,-65.41666666666667,"Salta (SA, LP, NQ, RN)"
+America/Argentina/San_Juan,-31.533333333333335,-68.51666666666667,San Juan (SJ)
+America/Argentina/San_Luis,-33.31666666666667,-66.35,San Luis (SL)
+America/Argentina/Tucuman,-26.816666666666666,-65.21666666666667,Tucumán (TM)
+America/Argentina/Ushuaia,-54.8,-68.3,Tierra del Fuego (TF)
+America/Asuncion,-25.266666666666666,-57.666666666666664,NA
+America/Bahia,-12.983333333333333,-38.516666666666666,Bahia
+America/Bahia_Banderas,20.8,-105.25,Central Time - Bahía de Banderas
+America/Barbados,13.1,-59.61666666666667,NA
+America/Belem,-1.45,-48.483333333333334,Pará (east); Amapá
+America/Belize,17.5,-88.2,NA
+America/Boa_Vista,2.8166666666666664,-60.666666666666664,Roraima
+America/Bogota,4.6,-74.08333333333333,NA
+America/Boise,44.41666666666667,-116.35000000000001,Mountain - ID (south); OR (east)
+America/Cambridge_Bay,69.93333333333332,-105.21666666666667,Mountain - NU (west)
+America/Campo_Grande,-20.45,-54.61666666666667,Mato Grosso do Sul
+America/Cancun,21.083333333333332,-86.76666666666667,Eastern Standard Time - Quintana Roo
+America/Caracas,10.5,-66.93333333333334,NA
+America/Cayenne,4.933333333333334,-52.333333333333336,NA
+America/Chicago,41.85,-87.65,Central (most areas)
+America/Chihuahua,28.633333333333333,-106.08333333333333,Mountain Time - Chihuahua (most areas)
+America/Costa_Rica,9.933333333333334,-84.08333333333333,NA
+America/Cuiaba,-15.583333333333334,-56.083333333333336,Mato Grosso
+America/Danmarkshavn,76.76666666666667,-18.666666666666668,National Park (east coast)
+America/Dawson,64.06666666666666,-139.41666666666666,MST - Yukon (west)
+America/Dawson_Creek,59.766666666666666,-120.23333333333333,"MST - BC (Dawson Cr, Ft St John)"
+America/Denver,40.083333333333336,-105.03333333333333,Mountain (most areas)
+America/Detroit,43.2,-83.78333333333333,Eastern - MI (most areas)
+America/Edmonton,53.55,-113.46666666666667,Mountain - AB; BC (E); SK (W)
+America/Eirunepe,-6.666666666666667,-69.86666666666666,Amazonas (west)
+America/El_Salvador,13.7,-89.2,NA
+America/Fort_Nelson,58.8,-122.7,MST - BC (Ft Nelson)
+America/Fortaleza,-3.716666666666667,-38.5,"Brazil (northeast: MA, PI, CE, RN, PB)"
+America/Glace_Bay,46.2,-59.95,Atlantic - NS (Cape Breton)
+America/Goose_Bay,53.333333333333336,-60.416666666666664,Atlantic - Labrador (most areas)
+America/Grand_Turk,21.466666666666665,-71.13333333333334,NA
+America/Guatemala,14.633333333333333,-90.51666666666667,NA
+America/Guayaquil,-2.1666666666666665,-79.83333333333333,Ecuador (mainland)
+America/Guyana,6.8,-58.166666666666664,NA
+America/Halifax,44.65,-63.6,Atlantic - NS (most areas); PE
+America/Havana,23.133333333333333,-82.36666666666666,NA
+America/Hermosillo,29.066666666666666,-110.96666666666667,Mountain Standard Time - Sonora
+America/Indiana/Indianapolis,39.86666666666667,-86.63333333333334,Eastern - IN (most areas)
+America/Indiana/Knox,42.03333333333333,-87.11666666666666,Central - IN (Starke)
+America/Indiana/Marengo,38.9,-87.01666666666667,Eastern - IN (Crawford)
+America/Indiana/Petersburg,39,-87.98333333333333,Eastern - IN (Pike)
+America/Indiana/Tell_City,38.13333333333333,-87.43333333333334,Central - IN (Perry)
+America/Indiana/Vevay,39.6,-85.1,Eastern - IN (Switzerland)
+America/Indiana/Vincennes,39.3,-88.23333333333333,"Eastern - IN (Da, Du, K, Mn)"
+America/Indiana/Winamac,41.13333333333333,-86.78333333333333,Eastern - IN (Pulaski)
+America/Inuvik,69.31666666666666,-133.71666666666667,Mountain - NT (west)
+America/Iqaluit,63.733333333333334,-68.46666666666667,Eastern - NU (most east areas)
+America/Jamaica,18.049999999999997,-77.38333333333333,NA
+America/Juneau,58.416666666666664,-134.6,Alaska - Juneau area
+America/Kentucky/Louisville,38.5,-86.31666666666666,Eastern - KY (Louisville area)
+America/Kentucky/Monticello,37.6,-85.78333333333333,Eastern - KY (Wayne)
+America/La_Paz,-16.5,-68.15,NA
+America/Lima,-12.05,-77.05,NA
+America/Los_Angeles,34.18333333333333,-118.8,Pacific
+America/Maceio,-9.666666666666666,-35.71666666666667,"Alagoas, Sergipe"
+America/Managua,12.15,-86.28333333333333,NA
+America/Manaus,-3.1333333333333333,-60.016666666666666,Amazonas (east)
+America/Martinique,14.6,-61.083333333333336,NA
+America/Matamoros,25.833333333333332,-97.5,"Central Time US - Coahuila, Nuevo León, Tamaulipas (US border)"
+America/Mazatlan,23.216666666666665,-106.41666666666667,"Mountain Time - Baja California Sur, Nayarit, Sinaloa"
+America/Menominee,45.56666666666667,-88.44999999999999,Central - MI (Wisconsin border)
+America/Merida,20.966666666666665,-89.61666666666666,"Central Time - Campeche, Yucatán"
+America/Metlakatla,55.733333333333334,-132.15,Alaska - Annette Island
+America/Mexico_City,19.4,-99.15,Central Time
+America/Miquelon,47.05,-56.333333333333336,NA
+America/Moncton,46.1,-64.78333333333333,Atlantic - New Brunswick
+America/Monterrey,25.666666666666668,-100.31666666666666,"Central Time - Durango; Coahuila, Nuevo León, Tamaulipas (most areas)"
+America/Montevideo,-35.449999999999996,-56.95,NA
+America/New_York,41.550000000000004,-74.38333333333334,Eastern (most areas)
+America/Nipigon,49.016666666666666,-88.26666666666667,"Eastern - ON, QC (no DST 1967-73)"
+America/Nome,64.56666666666666,-165.78333333333333,Alaska (west)
+America/Noronha,-3.85,-32.416666666666664,Atlantic islands
+America/North_Dakota/Beulah,48.1,-102.43333333333334,Central - ND (Mercer)
+America/North_Dakota/Center,48.083333333333336,-102.23333333333333,Central - ND (Oliver)
+America/North_Dakota/New_Salem,47.53333333333334,-102.05000000000001,Central - ND (Morton rural)
+America/Nuuk,64.18333333333334,-51.733333333333334,Greenland (most areas)
+America/Ojinaga,29.566666666666666,-104.41666666666667,Mountain Time US - Chihuahua (US border)
+America/Panama,8.966666666666667,-79.53333333333333,"EST - Panama, Cayman, ON (Atikokan), NU (Coral H)"
+America/Pangnirtung,66.13333333333334,-65.73333333333333,Eastern - NU (Pangnirtung)
+America/Paramaribo,5.833333333333333,-55.166666666666664,NA
+America/Phoenix,34.33333333333333,-112.46666666666667,"MST - Arizona (except Navajo), Creston BC"
+America/Port-au-Prince,18.533333333333335,-72.33333333333333,NA
+America/Porto_Velho,-8.766666666666667,-63.9,Rondônia
+America/Puerto_Rico,18.566666666666666,-66.46666666666665,AST
+America/Punta_Arenas,-53.15,-70.91666666666667,Region of Magallanes
+America/Rainy_River,48.71666666666667,-94.56666666666666,"Central - ON (Rainy R, Ft Frances)"
+America/Rankin_Inlet,62.81666666666667,-93.05,Central - NU (central)
+America/Recife,-8.05,-34.9,Pernambuco
+America/Regina,50.4,-104.65,CST - SK (most areas)
+America/Resolute,75.41666666666667,-95.56666666666666,Central - NU (Resolute)
+America/Rio_Branco,-9.966666666666667,-67.8,Acre
+America/Santarem,-2.4333333333333336,-54.86666666666667,Pará (west)
+America/Santiago,-33.45,-70.66666666666667,Chile (most areas)
+America/Santo_Domingo,18.466666666666665,-69.9,NA
+America/Sao_Paulo,-23.533333333333335,-46.61666666666667,"Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+America/Scoresbysund,70.48333333333333,-21.966666666666665,Scoresbysund/Ittoqqortoormiit
+America/Sitka,57.75,-135.41666666666669,Alaska - Sitka area
+America/St_Johns,47.56666666666667,-52.71666666666667,Newfoundland; Labrador (southeast)
+America/Swift_Current,50.28333333333333,-107.83333333333333,CST - SK (midwest)
+America/Tegucigalpa,14.1,-87.21666666666667,NA
+America/Thule,76.56666666666666,-68.78333333333333,Thule/Pituffik
+America/Thunder_Bay,48.38333333333333,-89.25,Eastern - ON (Thunder Bay)
+America/Tijuana,32.53333333333333,-117.01666666666667,Pacific Time US - Baja California
+America/Toronto,43.65,-79.38333333333334,"Eastern - ON, QC (most areas), Bahamas"
+America/Vancouver,49.266666666666666,-123.11666666666666,Pacific - BC (most areas)
+America/Whitehorse,60.71666666666667,-135.05,MST - Yukon (east)
+America/Winnipeg,49.88333333333333,-97.15,Central - ON (west); Manitoba
+America/Yakutat,60.35,-140.35,Alaska - Yakutat
+America/Yellowknife,62.45,-114.35,Mountain - NT (central)
+Antarctica/Casey,-66.28333333333333,110.51666666666667,Casey
+Antarctica/Davis,-68.58333333333333,77.96666666666667,Davis
+Antarctica/Macquarie,-54.5,158.95,Macquarie Island
+Antarctica/Mawson,-67.6,62.88333333333333,Mawson
+Antarctica/Palmer,-64.8,-64.1,Palmer
+Antarctica/Rothera,-67.56666666666666,-68.13333333333334,Rothera
+Antarctica/Troll,-72.68333333333334,2.6333333333333333,Troll
+Antarctica/Vostok,-78.4,106.9,Vostok
+Asia/Almaty,43.25,76.95,Kazakhstan (most areas)
+Asia/Amman,31.95,35.93333333333333,NA
+Asia/Anadyr,64.75,177.48333333333332,MSK+09 - Bering Sea
+Asia/Aqtau,44.516666666666666,50.266666666666666,Mangghystaū/Mankistau
+Asia/Aqtobe,50.28333333333333,57.166666666666664,Aqtöbe/Aktobe
+Asia/Ashgabat,37.95,58.38333333333333,NA
+Asia/Atyrau,47.11666666666667,51.93333333333333,Atyraū/Atirau/Gur'yev
+Asia/Baghdad,33.35,44.416666666666664,NA
+Asia/Baku,40.38333333333333,49.85,NA
+Asia/Bangkok,13.75,100.51666666666667,Indochina (most areas)
+Asia/Barnaul,53.36666666666667,83.75,MSK+04 - Altai
+Asia/Beirut,33.88333333333333,35.5,NA
+Asia/Bishkek,42.9,74.6,NA
+Asia/Brunei,4.933333333333334,114.91666666666667,NA
+Asia/Chita,52.05,113.46666666666667,MSK+06 - Zabaykalsky
+Asia/Choibalsan,48.06666666666667,114.5,"Dornod, Sükhbaatar"
+Asia/Colombo,6.933333333333334,79.85,NA
+Asia/Damascus,33.5,36.3,NA
+Asia/Dhaka,23.716666666666665,90.41666666666667,NA
+Asia/Dili,-8.55,125.58333333333333,NA
+Asia/Dubai,25.3,55.3,NA
+Asia/Dushanbe,38.583333333333336,68.8,NA
+Asia/Famagusta,35.11666666666667,33.95,Northern Cyprus
+Asia/Gaza,31.5,34.46666666666667,Gaza Strip
+Asia/Hebron,31.533333333333335,35.78333333333334,West Bank
+Asia/Ho_Chi_Minh,10.75,106.66666666666667,Vietnam (south)
+Asia/Hong_Kong,22.283333333333335,114.15,NA
+Asia/Hovd,48.016666666666666,91.65,"Bayan-Ölgii, Govi-Altai, Hovd, Uvs, Zavkhan"
+Asia/Irkutsk,52.266666666666666,104.33333333333333,"MSK+05 - Irkutsk, Buryatia"
+Asia/Jakarta,-6.166666666666667,106.8,"Java, Sumatra"
+Asia/Jayapura,-2.533333333333333,140.7,New Guinea (West Papua / Irian Jaya); Malukus/Moluccas
+Asia/Jerusalem,32.6,35.65,NA
+Asia/Kabul,34.516666666666666,69.2,NA
+Asia/Kamchatka,53.016666666666666,158.65,MSK+09 - Kamchatka
+Asia/Karachi,24.866666666666667,67.05,NA
+Asia/Kathmandu,27.716666666666665,85.31666666666666,NA
+Asia/Khandyga,63.03333333333333,135.78333333333333,"MSK+06 - Tomponsky, Ust-Maysky"
+Asia/Kolkata,22.533333333333335,88.36666666666666,NA
+Asia/Krasnoyarsk,56.016666666666666,92.83333333333333,MSK+04 - Krasnoyarsk area
+Asia/Kuala_Lumpur,3.1666666666666665,101.7,Malaysia (peninsula)
+Asia/Kuching,1.55,110.33333333333333,"Sabah, Sarawak"
+Asia/Macau,23.016666666666666,114.03333333333333,NA
+Asia/Magadan,59.56666666666667,150.8,MSK+08 - Magadan
+Asia/Makassar,-5.116666666666666,119.4,"Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
+Asia/Manila,14.583333333333334,121,NA
+Asia/Nicosia,35.166666666666664,33.36666666666667,Cyprus (most areas)
+Asia/Novokuznetsk,53.75,87.11666666666666,MSK+04 - Kemerovo
+Asia/Novosibirsk,55.03333333333333,82.91666666666667,MSK+04 - Novosibirsk
+Asia/Omsk,55,73.4,MSK+03 - Omsk
+Asia/Oral,51.21666666666667,51.35,West Kazakhstan
+Asia/Pontianak,-0.03333333333333333,109.33333333333333,"Borneo (west, central)"
+Asia/Pyongyang,39.016666666666666,125.75,NA
+Asia/Qatar,25.283333333333335,51.53333333333333,NA
+Asia/Qostanay,53.2,63.61666666666667,Qostanay/Kostanay/Kustanay
+Asia/Qyzylorda,44.8,65.46666666666667,Qyzylorda/Kyzylorda/Kzyl-Orda
+Asia/Riyadh,24.633333333333333,46.71666666666667,"Arabia, Syowa"
+Asia/Sakhalin,46.96666666666667,142.7,MSK+08 - Sakhalin Island
+Asia/Samarkand,39.666666666666664,66.8,Uzbekistan (west)
+Asia/Seoul,37.55,126.96666666666667,NA
+Asia/Shanghai,31.233333333333334,121.46666666666667,Beijing Time
+Asia/Singapore,1.2833333333333332,103.85,"Singapore, peninsular Malaysia"
+Asia/Srednekolymsk,67.46666666666667,153.71666666666667,MSK+08 - Sakha (E); North Kuril Is
+Asia/Taipei,25.05,121.5,NA
+Asia/Tashkent,41.333333333333336,69.3,Uzbekistan (east)
+Asia/Tbilisi,41.71666666666667,44.81666666666667,NA
+Asia/Tehran,35.666666666666664,51.43333333333333,NA
+Asia/Thimphu,27.466666666666665,89.65,NA
+Asia/Tokyo,35.916666666666664,140.41666666666666,NA
+Asia/Tomsk,56.5,84.96666666666667,MSK+04 - Tomsk
+Asia/Ulaanbaatar,47.916666666666664,106.88333333333334,Mongolia (most areas)
+Asia/Urumqi,43.8,87.58333333333333,Xinjiang Time
+Asia/Ust-Nera,65.16666666666666,143.81666666666666,MSK+07 - Oymyakonsky
+Asia/Vladivostok,43.166666666666664,131.93333333333334,MSK+07 - Amur River
+Asia/Yakutsk,62,129.66666666666666,MSK+06 - Lena River
+Asia/Yangon,16.783333333333335,96.16666666666667,NA
+Asia/Yekaterinburg,56.85,60.6,MSK+02 - Urals
+Asia/Yerevan,40.18333333333333,44.5,NA
+Atlantic/Azores,37.733333333333334,-25.666666666666668,Azores
+Atlantic/Bermuda,32.28333333333333,-64.76666666666667,NA
+Atlantic/Canary,28.1,-15.4,Canary Islands
+Atlantic/Cape_Verde,14.916666666666666,-23.516666666666666,NA
+Atlantic/Faroe,62.016666666666666,-6.766666666666667,NA
+Atlantic/Madeira,32.63333333333333,-16.9,Madeira Islands
+Atlantic/Reykjavik,64.15,-21.85,NA
+Atlantic/South_Georgia,-54.266666666666666,-36.53333333333333,NA
+Atlantic/Stanley,-51.7,-57.85,NA
+Australia/Adelaide,-34.916666666666664,138.58333333333334,South Australia
+Australia/Brisbane,-27.466666666666665,153.03333333333333,Queensland (most areas)
+Australia/Broken_Hill,-31.95,141.45,New South Wales (Yancowinna)
+Australia/Darwin,-12.466666666666667,130.83333333333334,Northern Territory
+Australia/Eucla,-31.716666666666665,128.86666666666667,Western Australia (Eucla)
+Australia/Hobart,-42.88333333333333,147.31666666666666,Tasmania
+Australia/Lindeman,-20.266666666666666,149,Queensland (Whitsunday Islands)
+Australia/Lord_Howe,-31.55,159.08333333333334,Lord Howe Island
+Australia/Melbourne,-37.81666666666667,144.96666666666667,Victoria
+Australia/Perth,-31.95,115.85,Western Australia (most areas)
+Australia/Sydney,-33.86666666666667,151.21666666666667,New South Wales (most areas)
+Europe/Amsterdam,52.36666666666667,4.9,NA
+Europe/Andorra,42.5,1.5166666666666666,NA
+Europe/Astrakhan,46.35,48.05,MSK+01 - Astrakhan
+Europe/Athens,37.96666666666667,23.716666666666665,NA
+Europe/Belgrade,44.833333333333336,20.5,NA
+Europe/Berlin,52.5,13.366666666666667,Germany (most areas)
+Europe/Brussels,50.833333333333336,4.333333333333333,NA
+Europe/Bucharest,44.43333333333333,26.1,NA
+Europe/Budapest,47.5,19.083333333333332,NA
+Europe/Chisinau,47,28.833333333333332,NA
+Europe/Copenhagen,55.666666666666664,12.583333333333334,NA
+Europe/Dublin,53.333333333333336,-6.25,NA
+Europe/Gibraltar,36.13333333333333,-5.35,NA
+Europe/Helsinki,60.166666666666664,24.966666666666665,NA
+Europe/Istanbul,41.016666666666666,28.966666666666665,NA
+Europe/Kaliningrad,54.71666666666667,20.5,MSK-01 - Kaliningrad
+Europe/Kiev,50.43333333333333,30.516666666666666,Ukraine (most areas)
+Europe/Kirov,58.6,49.65,MSK+00 - Kirov
+Europe/Lisbon,38.71666666666667,-9.133333333333333,Portugal (mainland)
+Europe/London,52,-0.6333333333333334,NA
+Europe/Luxembourg,49.6,6.15,NA
+Europe/Madrid,40.4,-3.6833333333333336,Spain (mainland)
+Europe/Malta,35.9,14.516666666666667,NA
+Europe/Minsk,53.9,27.566666666666666,NA
+Europe/Monaco,43.7,7.383333333333334,NA
+Europe/Moscow,56.1,37.68333333333334,MSK+00 - Moscow area
+Europe/Oslo,59.916666666666664,10.75,NA
+Europe/Paris,48.86666666666667,2.3333333333333335,NA
+Europe/Prague,50.083333333333336,14.433333333333334,NA
+Europe/Riga,56.95,24.1,NA
+Europe/Rome,41.9,12.483333333333333,NA
+Europe/Samara,53.2,50.15,"MSK+01 - Samara, Udmurtia"
+Europe/Saratov,51.56666666666667,46.03333333333333,MSK+01 - Saratov
+Europe/Simferopol,44.95,34.1,Crimea
+Europe/Sofia,42.68333333333333,23.316666666666666,NA
+Europe/Stockholm,59.333333333333336,18.05,NA
+Europe/Tallinn,59.416666666666664,24.75,NA
+Europe/Tirane,41.333333333333336,19.833333333333332,NA
+Europe/Ulyanovsk,54.333333333333336,48.4,MSK+01 - Ulyanovsk
+Europe/Uzhgorod,48.61666666666667,22.3,Transcarpathia
+Europe/Vienna,48.21666666666667,16.333333333333332,NA
+Europe/Vilnius,54.68333333333333,25.316666666666666,NA
+Europe/Volgograd,48.733333333333334,44.416666666666664,MSK+00 - Volgograd
+Europe/Warsaw,52.25,21,NA
+Europe/Zaporozhye,47.833333333333336,35.166666666666664,Zaporozhye and east Lugansk
+Europe/Zurich,47.38333333333333,8.533333333333333,Swiss time
+Indian/Chagos,-7.333333333333333,72.41666666666667,NA
+Indian/Christmas,-10.416666666666666,105.71666666666667,NA
+Indian/Cocos,-12.166666666666666,96.91666666666667,NA
+Indian/Kerguelen,-49.516666666666666,70.26666666666667,"Kerguelen, St Paul Island, Amsterdam Island"
+Indian/Mahe,-4.666666666666667,55.46666666666667,NA
+Indian/Maldives,4.166666666666667,73.5,NA
+Indian/Mauritius,-20.166666666666668,57.5,NA
+Indian/Reunion,-20.866666666666667,55.46666666666667,"Réunion, Crozet, Scattered Islands"
+Pacific/Apia,-13.833333333333334,-171.73333333333332,NA
+Pacific/Auckland,-36.86666666666667,174.76666666666668,New Zealand time
+Pacific/Bougainville,-6.216666666666667,155.56666666666666,Bougainville
+Pacific/Chatham,-43.95,-176.55,Chatham Islands
+Pacific/Chuuk,7.416666666666667,151.78333333333333,"Chuuk/Truk, Yap"
+Pacific/Easter,-27.15,-109.43333333333334,Easter Island
+Pacific/Efate,-17.666666666666668,168.41666666666666,NA
+Pacific/Fakaofo,-9.366666666666667,-171.23333333333332,NA
+Pacific/Fiji,-18.133333333333333,178.41666666666666,NA
+Pacific/Funafuti,-8.516666666666667,179.21666666666667,NA
+Pacific/Galapagos,-0.9,-89.6,Galápagos Islands
+Pacific/Gambier,-23.133333333333333,-134.95,Gambier Islands
+Pacific/Guadalcanal,-9.533333333333333,160.2,NA
+Pacific/Guam,13.466666666666667,144.75,NA
+Pacific/Honolulu,21.71666666666667,-158.35,Hawaii
+Pacific/Kanton,-2.783333333333333,-171.71666666666667,Phoenix Islands
+Pacific/Kiritimati,1.8666666666666667,-157.33333333333334,Line Islands
+Pacific/Kosrae,5.316666666666666,162.98333333333332,Kosrae
+Pacific/Kwajalein,9.083333333333334,167.33333333333334,Kwajalein
+Pacific/Majuro,7.15,171.2,Marshall Islands (most areas)
+Pacific/Marquesas,-9,-139.5,Marquesas Islands
+Pacific/Nauru,-0.5166666666666667,166.91666666666666,NA
+Pacific/Niue,-19.016666666666666,-169.91666666666666,NA
+Pacific/Norfolk,-29.05,167.96666666666667,NA
+Pacific/Noumea,-22.266666666666666,166.45,NA
+Pacific/Pago_Pago,-14.266666666666667,-170.7,"Samoa, Midway"
+Pacific/Palau,7.333333333333333,134.48333333333332,NA
+Pacific/Pitcairn,-25.066666666666666,-130.08333333333334,NA
+Pacific/Pohnpei,6.966666666666667,158.21666666666667,Pohnpei/Ponape
+Pacific/Port_Moresby,-9.5,147.16666666666666,"Papua New Guinea (most areas), Dumont d'Urville"
+Pacific/Rarotonga,-21.233333333333334,-159.76666666666668,NA
+Pacific/Tahiti,-17.533333333333335,-149.56666666666666,Society Islands
+Pacific/Tarawa,1.4166666666666667,173,Gilbert Islands
+Pacific/Tongatapu,-21.133333333333333,-175.2,NA
+Pacific/Wake,19.283333333333335,166.61666666666667,Wake Island
+Pacific/Wallis,-13.3,-176.16666666666666,NA
