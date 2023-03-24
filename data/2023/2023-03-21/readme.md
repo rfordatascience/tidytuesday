@@ -50,7 +50,7 @@ The data is user-submitted, so you might want to confirm the accuracy of anythin
 tuesdata <- tidytuesdayR::tt_load('2023-03-21')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 12)
 
-languages <- languages
+languages <- tuesdata$languages
 
 # Or read in the data manually
 
