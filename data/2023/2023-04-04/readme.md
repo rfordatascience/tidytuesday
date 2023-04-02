@@ -51,19 +51,19 @@ Evan did an analysis of [Who wins the EPL if games end at half time?](https://ww
 
 # Either ISO-8601 date or year/week works!
 
-tuesdata <- tidytuesdayR::tt_load('2023-03-14')
-tuesdata <- tidytuesdayR::tt_load(2023, week = 11)
+tuesdata <- tidytuesdayR::tt_load('2023-04-04')
+tuesdata <- tidytuesdayR::tt_load(2023, week = 14)
 
 soccer <- tuesdata$soccer
 
 # Or read in the data manually
 
-drugs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-04/soccer21-22.csv')
+soccer <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-04/soccer21-22.csv')
 ```
 
 ### Data Dictionary
 
-# `drugs.csv`
+# `soccer21-22.csv`
 
 |variable |class     |description |
 |:--------|:---------|:-----------|
