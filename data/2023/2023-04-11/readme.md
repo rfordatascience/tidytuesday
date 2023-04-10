@@ -57,7 +57,8 @@ The data this week comes from [The Humane League's US Egg Production
 dataset](https://thehumaneleague.org/article/E008R01-us-egg-production-data)
 by [Samara Mendez](https://samaramendez.github.io/). Dataset and code is available for this project on OSF at [US Egg Production Data Set](https://osf.io/z2gxn/).
 
-This dataset tracks the supply of cage-free eggs in the United States from December 2007 to February 2021.
+This dataset tracks the supply of cage-free eggs in the United States from December 2007 to February 2021. For TidyTuesday we've used data through February 2021, but the full dataset, with data through the present, is available in the [OSF project](https://osf.io/z2gxn/). 
+
 
 > In this project, they synthesize an analysis-ready data set that
 > tracks cage-free hens and the supply of cage-free eggs relative to the
@@ -70,7 +71,6 @@ This dataset tracks the supply of cage-free eggs in the United States from Decem
 > well as all table-egg-laying hens in the US, collected to understand
 > the impact of the industry's cage-free transition on hens. Data
 > coverage ranges from December 2007 to February 2021.
-
 
 
 ### Get the data here
