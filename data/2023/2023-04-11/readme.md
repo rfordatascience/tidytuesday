@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ### Please add alt text to your posts
 
 Please add alt text (alternative text) to all of your posted graphics
@@ -107,8 +101,8 @@ cagefreepercentages <- readr::read_csv('https://raw.githubusercontent.com/rforda
 |observed_month |double    |Month in which report observations are collected,Dates are recorded in ISO 8601 format YYYY-MM-DD |
 |prod_type      |character |type of egg product: hatching, table eggs      |
 |prod_process   |character |type of production process and housing: cage-free (organic), cage-free (non-organic), all. The value 'all' includes cage-free and conventional housing.   |
-|n_hens         |double    |number of eggs produced by hens for a given month-type-process combo   |
-|n_eggs         |double    |number of hens producing eggs for a given month-type-process combo     |
+|n_hens         |double    |number of hens produced by hens for a given month-type-process combo   |
+|n_eggs         |double    |number of eggs producing eggs for a given month-type-process combo     |
 |source         |character |Original USDA report from which data are sourced. Values correspond to titles of PDF reports. Date of report is included in title.   |
 
 
