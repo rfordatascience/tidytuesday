@@ -81,8 +81,8 @@ This dataset tracks the supply of cage-free eggs in the United States from Decem
 tuesdata <- tidytuesdayR::tt_load('2023-04-11')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 15)
 
-eggproduction <- tuesdata$eggproduction
-cagefreepercentages <- tuesdata$cagefreepercentages
+eggproduction <- tuesdata$`egg-production`
+cagefreepercentages <- tuesdata$`cage-free-percentages`
 
 
 # Or read in the data manually
