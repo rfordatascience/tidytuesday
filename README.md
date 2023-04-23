@@ -138,6 +138,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 14 | `2023-04-04` | [Premier League Match Data](data/2023/2023-04-04/readme.md) | [Premier League Match Data 2021-2022](https://www.kaggle.com/datasets/evangower/premier-league-match-data) | [Who wins the EPL if games end at half time?](https://www.kaggle.com/code/evangower/who-wins-the-epl-if-games-end-at-half-time/) |
 | 15 | `2023-04-11` | [US Egg Production Data](data/2023/2023-04-11/readme.md) | [US Egg Production Data 2007-2021](https://osf.io/z2gxn/) | [The Humane League Labs US Egg Production Dataset](https://thehumaneleague.org/article/E008R01-us-egg-production-data) |
 | 16 | `2023-04-18` | [Neolithic Founder Crops](data/2023/2023-04-18/readme.md) | [The "Neolithic Founder Crops"" in Southwest Asia: Research Compendium](https://github.com/joeroe/SWAsiaNeolithicFounderCrops/) | [Revisiting the concept of the 'Neolithic Founder Crops' in southwest Asia](https://link.springer.com/article/10.1007/s00334-023-00917-1) |
+| 17 | `2023-04-25` | [London Marathon](data/2023/2023-04-25/readme.md) | [London Marathon R package](https://github.com/nrennie/LondonMarathon) | [Scraping London Marathon data with {rvest}](https://nrennie.rbind.io/blog/web-scraping-rvest-london-marathon/) |
 
 ***  
 
