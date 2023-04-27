@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
- from pyspark.sql.functions import * 
+ from pyspark.sql.functions import to_date
 
  # Local for standalone
  spark = SparkSession.builder\
