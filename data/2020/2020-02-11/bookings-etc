@@ -1,1 +1,83 @@
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import * 
+
+# Local for standalone
+spark = SparkSession.builder\
+        .appName('demo')\
+        .master('local')\
+        .getOrCreate()
+
+# Extracting booking data 
+df = spark.read.csv("hotels.csv", inferSchema=True, header=True)
+
+# Tour operator as Market Segment
+df_TO = df.where(df.market_segment=='Offline TA/TO')
+df_TO.show(1)
+
+# Creating month to Numbers 
+month_dict = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6, 
+              'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
+              
+df = df.withColumn('month_number', when(df.arrival_date_month == 'January', 1)
+                                   .when(df.arrival_date_month == 'February', 2)
+                                   .when(df.arrival_date_month == 'March',3 )
+                                   .when(df.arrival_date_month == 'April', 4)
+                                   .when(df.arrival_date_month == 'May', 5)
+                                   .when(df.arrival_date_month == 'June',6 )
+                                   .when(df.arrival_date_month == 'July', 7)
+                                   .when(df.arrival_date_month == 'August', 8)
+                                   .when(df.arrival_date_month == 'September',9 )
+                                   .when(df.arrival_date_month == 'October', 10)
+                                   .when(df.arrival_date_month == 'Novemeber',11)
+                                   .when(df.arrival_date_month == 'December',12 )
+                                   .otherwise(None))
+
+# Show the result
+df.show(2)
+
+# Creating "arrival_date" col
+
+df2 = df_TO.withColumn('date',concat_ws('-',df.arrival_date_day_of_month,df.month_number,df.arrival_date_year \
+                                               ))
+
+df2 = df2.withColumn("arrival_date", to_date("date", "d-M-yyyy"))
+df2 = df2.drop(col('date'))
+df2.show(2)
+
+# Creating "Departure_Date" cols
+df2 = df2.withColumn('No of days', col('stays_in_weekend_nights') + col('stays_in_week_nights'))
+
+df2 = df2.withColumn('departure_date', date_add(col('arrival_date'),col('No of days') ))
+df2 = df2.drop(col('No of days'))
+df2 = df2.drop(col('month_number'))
+
+# Showing the result
+df2.show(4)
+
+# Creating a filed with familly breakfast
+
+df2 = df2.withColumn('Total', col('children')+col('babies'))
+df2 = df2.withColumn("with_family_breakfast", when(df2.Total > 0,"Yes")
+                                  .otherwise("No")
+                    )
+
+df2 = df2.drop(col('Total'))
+
+# Result
+df2.show()
+
+# Saving the data frame in parquet format 
+df2.write.format('parquet').save('hotel') 
+
+
+
+
+
+
+
+
+
+
+
+
 
