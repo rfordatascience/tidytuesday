@@ -110,7 +110,7 @@ been downloaded almost 50,000 times.
 tuesdata <- tidytuesdayR::tt_load('2023-05-02')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 18)
 
-winners <- tuesdata$winners
+plots <- tuesdata$plots
 london_marathon <- tuesdata$london_marathon
 
 
