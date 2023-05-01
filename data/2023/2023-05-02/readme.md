@@ -108,7 +108,7 @@ been downloaded almost 50,000 times.
 # Either ISO-8601 date or year/week works!
 
 tuesdata <- tidytuesdayR::tt_load('2023-05-02')
-tuesdata <- tidytuesdayR::tt_load(2023, week = 17)
+tuesdata <- tidytuesdayR::tt_load(2023, week = 18)
 
 winners <- tuesdata$winners
 london_marathon <- tuesdata$london_marathon
