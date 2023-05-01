@@ -127,64 +127,65 @@ surveys <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 # `plots.csv`
 
-| variable  | class     | description |
-|:----------|:----------|:------------|
-| plot      | double    | Plot number      |
-| treatment | character | Treatment type  |
+| variable  | class     | description    |
+|:----------|:----------|:---------------|
+| plot      | double    | Plot number    |
+| treatment | character | Treatment type |
 
 # `species.csv`
 
-| variable       | class     | description    |
-|:---------------|:----------|:---------------|
-| species        | character | Species        |
-| scientificname | character | Scientific Name |
-| taxa           | character | Taxa           |
-| commonname     | character | Common Name     |
-| censustarget   | double    | Target species (0 or 1)  |
-| unidentified   | double    | Unidentified (0 or 1)  |
+| variable       | class     | description             |
+|:---------------|:----------|:------------------------|
+| species        | character | Species                 |
+| scientificname | character | Scientific Name         |
+| taxa           | character | Taxa                    |
+| commonname     | character | Common Name             |
+| censustarget   | double    | Target species (0 or 1) |
+| unidentified   | double    | Unidentified (0 or 1)   |
 | rodent         | double    | Rodent (0 or 1)         |
 | granivore      | double    | Granivore (0 or 1)      |
-| minhfl         | double    | Minimum hindfoot length         |
-| meanhfl        | double    | Mean hindfoot length        |
-| maxhfl         | double    | Maximum hindfoot length        |
-| minwgt         | double    | Minimum weight         |
-| meanwgt        | double    | Mean weight        |
-| maxwgt         | double    | Maximum weight         |
-| juvwgt         | double    | Juvenile weight        |
+| minhfl         | double    | Minimum hindfoot length |
+| meanhfl        | double    | Mean hindfoot length    |
+| maxhfl         | double    | Maximum hindfoot length |
+| minwgt         | double    | Minimum weight          |
+| meanwgt        | double    | Mean weight             |
+| maxwgt         | double    | Maximum weight          |
+| juvwgt         | double    | Juvenile weight         |
 
 # `surveys.csv`
 
-| variable   | class     | description |
-|:-----------|:----------|:------------|
-| censusdate | double    | Census date  |
-| month      | double    | Month       |
-| day        | double    | Day         |
-| year       | double    | Year        |
-| treatment  | character | Treatment type   |
-| plot       | double    | Plot number        |
-| stake      | double    | Stake number       |
-| species    | character | Species code     |
-| sex        | character | Sex         |
-| reprod     | character | Reproductive condition     |
-| age        | character | Age         |
-| testes     | character | Testes (Scrotal, Recent, or Minor)      |
-| vagina     | character | Vagina (Swollen, Plugged, or Both)       |
-| pregnant   | character | Pregnant    |
-| nipples    | character | Nipples (Enlarged, Swollen, or Both)     |
-| lactation  | character | Lactating   |
-| hfl        | double    | Hindfoot length        |
-| wgt        | double    | Weight         |
-| tag        | character | Primary individual identifier       |
-| note2      | character | Newly tagged individual for 'tag'    |
-| ltag       | character | Secondary tag information when ear tags were used in both ears      |
-| note3      | character | Newly tagged individual for 'ltag'       |
+| variable   | class     | description                                                    |
+|:-----------------------|:---------------------|:-------------------------|
+| censusdate | double    | Census date                                                    |
+| month      | double    | Month                                                          |
+| day        | double    | Day                                                            |
+| year       | double    | Year                                                           |
+| treatment  | character | Treatment type                                                 |
+| plot       | double    | Plot number                                                    |
+| stake      | double    | Stake number                                                   |
+| species    | character | Species code                                                   |
+| sex        | character | Sex                                                            |
+| reprod     | character | Reproductive condition                                         |
+| age        | character | Age                                                            |
+| testes     | character | Testes (Scrotal, Recent, or Minor)                             |
+| vagina     | character | Vagina (Swollen, Plugged, or Both)                             |
+| pregnant   | character | Pregnant                                                       |
+| nipples    | character | Nipples (Enlarged, Swollen, or Both)                           |
+| lactation  | character | Lactating                                                      |
+| hfl        | double    | Hindfoot length                                                |
+| wgt        | double    | Weight                                                         |
+| tag        | character | Primary individual identifier                                  |
+| note2      | character | Newly tagged individual for 'tag'                              |
+| ltag       | character | Secondary tag information when ear tags were used in both ears |
+| note3      | character | Newly tagged individual for 'ltag'                             |
 
 ### Cleaning Script
 
-This script downloads the data using the {portalr} package. It filters for the species and plot data, and years 
-greater than 1977. 
+Thanks to @ethanwhite for the data cleaning script. This script
+downloads the data using the [{portalr}](https://weecology.github.io/portalr/) package. It filters for the
+species and plot data, and years greater than 1977.
 
-```r
+``` r
 # All packages used in this script:
 library(portalr)
 library(dplyr)
