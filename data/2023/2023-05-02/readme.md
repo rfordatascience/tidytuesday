@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ### Please add alt text to your posts
 
 Please add alt text (alternative text) to all of your posted graphics
