@@ -122,8 +122,7 @@ counties <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 |h_6to17_fwork             |double |Number of households with children between 6 and 17 years old with two parents with only the father working. |
 |h_6to17_mwork             |double |Number of households with children between 6 and 17 years old with two parents with only the mother working. |
 |h_6to17_single_m          |double |Number of households with children between 6 and 17 years old with a single mother. |
-|emp_m                     |double |Percent of civilians employed in
-management, business, science, and arts occupations aged 16 years old or older in the county. |
+|emp_m                     |double |Percent of civilians employed in management, business, science, and arts occupations aged 16 years old or older in the county. |
 |memp_m                    |double |Percent of male civilians employed in management, business, science, and arts occupations aged 16 years old or older in the county. |
 |femp_m                    |double |Percent of female civilians employed in management, business, science, and arts occupations aged 16 years old or older in the county. |
 |emp_service               |double |Percent of civilians employed in service occupations aged 16 years old and older in the county. |
