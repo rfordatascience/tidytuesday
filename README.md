@@ -141,6 +141,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 17 | `2023-04-25` | [London Marathon](data/2023/2023-04-25/readme.md) | [London Marathon R package](https://github.com/nrennie/LondonMarathon) | [Scraping London Marathon data with {rvest}](https://nrennie.rbind.io/blog/web-scraping-rvest-london-marathon/) |
 | 18 | `2023-05-02` | [The Portal Project](data/2023/2023-05-02/readme.md) | [Portal Project Data](https://github.com/weecology/portaldata) | [Portal Project](https://portal.weecology.org/) |
 | 19 | `2023-05-09` | [Childcare Costs](data/2023/2023-05-09/readme.md) | [National Database of Childcare Prices](https://www.dol.gov/agencies/wb/topics/featured-childcare) | [National Database of Childcare Prices](https://www.dol.gov/agencies/wb/topics/featured-childcare) |
+| 20 | `2023-05-16` | [Tornados](data/2023/2023-05-16/readme.md) | [NOAA's National Weather Service Storm Prediction Center Severe Weather Maps, Graphics, and Data Page](https://www.spc.noaa.gov/wcm/#data) | [Diving into US Tornado Data](https://www.kaggle.com/code/evangower/diving-into-us-tornado-data) |
 
 ***  
 
