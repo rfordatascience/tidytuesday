@@ -10,7 +10,7 @@ Principal data came from the Jonathan McDowell's JSR Launch Vehicle Database, av
 
 ## Data files
 
-| File     | Description            | Source                             |
+| File     | Contents               | Source                             |
 | -------- | ---------------------- | ---------------------------------- |
 | [agencies](agencies.csv) | Space launch providers | Jonathan McDowell; _The Economist_ |
 | [launches](launches.csv) | Individual space launches | Jonathan McDowell; _The Economist_ |
