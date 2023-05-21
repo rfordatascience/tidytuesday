@@ -98,14 +98,12 @@ state_stations |> dplyr::right_join(station_info, by = c("call_sign"))
 
 |variable |class     |description |
 |:--------|:---------|:-----------|
-|Call     |character |Call        |
-|Sign     |double    |Sign        |
-|Facility |character |Facility    |
-|Id       |character |Id          |
-|Service  |character |Service     |
-|Licensee |character |Licensee    |
-|Status   |character |Status      |
-|Details  |character |Details     |
+|call_sign|character |Call sign        |
+|facility_id |double |Facility id    |
+|service  |character |Service     |
+|licensee |character |Licensee    |
+|status   |character |Status      |
+|details  |character |Details     |
 
 ### Cleaning Script
 
