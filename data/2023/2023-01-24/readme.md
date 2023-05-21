@@ -100,7 +100,7 @@ seasons <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 |profession          |character |Profession          |
 |url                 |character |URL of cast page on the history channel website. Prefix URL with https://www.history.com/shows/alone/cast                 |
 
-# `loadout.csv`
+# `loadouts.csv`
 
 |variable      |class     |description   |
 |:-------------|:---------|:-------------|
