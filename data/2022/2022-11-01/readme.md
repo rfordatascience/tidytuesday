@@ -80,7 +80,7 @@ horror_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 | **runtime**           |   int    | movie runtime (min)        | 95                              |
 | **status**            |   char   | movie status               | Released                        |
 | **genre_names**       |   char   | list of genre tags         | Horror, Thriller                |
-| **collection_id**     |   num    | collection id (nullable)   | 9735                            |
+| **collection**        |   num    | collection id (nullable)   | 9735                            |
 | **collection_name**   |   char   | collection name (nullable) | Friday the 13th Collection      |
 
 ### Cleaning Script
