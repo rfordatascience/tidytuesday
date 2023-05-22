@@ -64,14 +64,14 @@ Squirrel data! The data this week comes from the [2018 Central Park Squirrel Cen
 
 # Either ISO-8601 date or year/week works!
 
-tuesdata <- tidytuesdayR::tt_load('2023-05-22')
+tuesdata <- tidytuesdayR::tt_load('2023-05-23')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 21)
 
 squirrel_data <- tuesdata$squirrel_data
 
 # Or read in the data manually
 
-squirrel_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-22/squirrel_data.csv')
+squirrel_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-23/squirrel_data.csv')
 
 ```
 
