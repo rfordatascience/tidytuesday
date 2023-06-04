@@ -26,4 +26,4 @@ Archive of datasets and articles from the 2023 series of `#TidyTuesday` events.
 | 20 | `2023-05-16` | [Tornados](2023-05-16/readme.md) | [NOAA's National Weather Service Storm Prediction Center Severe Weather Maps, Graphics, and Data Page](https://www.spc.noaa.gov/wcm/#data) | [Diving into US Tornado Data](https://www.kaggle.com/code/evangower/diving-into-us-tornado-data) |
 | 21 | `2023-05-23` | [Central Park Squirrels](2023-05-23/readme.md) | [2018 Central Park Squirrel Census](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) | [The Squirrel Census](https://www.thesquirrelcensus.com/) |
 | 22 | `2023-05-30` | [Verified Oldest People](2023-05-30/readme.md) | [frankiethull: Centenarians](https://github.com/frankiethull/centenarians) | [Wikipedia: List of the verified oldest people](https://en.wikipedia.org/wiki/List_of_the_verified_oldest_people) |
-
+| 23 | `2023-06-06` | [Energy](2023-06-06/readme.md) | [Energy Data Explorer](https://ourworldindata.org/explorers/energy) | [Our World in Data Energy Complete Dataset](https://github.com/owid/energy-data) |
