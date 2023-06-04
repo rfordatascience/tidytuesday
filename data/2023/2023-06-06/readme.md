@@ -69,7 +69,7 @@ The data this week comes from Our World in Data's [Energy Data Explorer](https:/
 tuesdata <- tidytuesdayR::tt_load('2023-06-06')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 23)
 
-owid-energy <- owid-energy.csv
+owid_energy <- tuesdata$`owid-energy`
 
 # Or read in the data manually
 
