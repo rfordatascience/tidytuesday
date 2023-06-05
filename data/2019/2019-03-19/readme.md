@@ -10,7 +10,7 @@ Quotes below from the Stanford Open Policing Project [website](https://openpolic
 
 "On a typical day in the United States, police officers make more than 50,000 traffic stops. Our team is gathering, analyzing, and releasing records from millions of traffic stops by law enforcement agencies across the country. Our goal is to help researchers, journalists, and policymakers investigate and improve interactions between police and the public.
 
-Currently, a comprehensive, national repository detailing interactions between police and the public doesn’t exist. That’s why the Stanford Open Policing Project is collecting and standardizing data on vehicle and pedestrian stops from law enforcement departments across the country — and we’re making that information freely available. We’ve already gathered over 200 million records from dozens of state and local police departments across the country.
+Currently, a comprehensive, national repository detailing interactions between police and the public doesn't exist. That's why the Stanford Open Policing Project is collecting and standardizing data on vehicle and pedestrian stops from law enforcement departments across the country — and we're making that information freely available. We've already gathered over 200 million records from dozens of state and local police departments across the country.
 
 We, the Stanford Open Policing Project, are an interdisciplinary team of researchers and journalists at Stanford University. We are committed to combining the academic rigor of statistical analysis with the explanatory power of data journalism."
 

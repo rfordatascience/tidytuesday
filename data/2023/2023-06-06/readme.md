@@ -53,7 +53,7 @@ The data this week comes from Our World in Data's [Energy Data Explorer](https:/
 
 >This data has been collected, aggregated, and documented by Hannah Ritchie, Pablo Rosado, Edouard Mathieu, Max Roser.
 
->[Our World in Data](https://ourworldindata.org/about) makes data and research on the world’s largest problems understandable and accessible. 
+>[Our World in Data](https://ourworldindata.org/about) makes data and research on the world's largest problems understandable and accessible. 
 
 ### Get the data here
 

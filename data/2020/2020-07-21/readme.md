@@ -6,7 +6,7 @@ The data this week comes from the [RSPCA](https://www.rspca.org.au/what-we-do/ou
 
 h/t to [Georgios Karamanis](https://github.com/rfordatascience/tidytuesday/issues/56) for suggesting part of this data.
 
-> The RSPCA is Australia’s oldest, largest and most trusted animal welfare organisation. With this
+> The RSPCA is Australia's oldest, largest and most trusted animal welfare organisation. With this
 privileged position comes great responsibility. This year we received1 124,146 animals into our
 animal shelters and adoption centres across the country.  
 >

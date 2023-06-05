@@ -12,16 +12,16 @@ The DataViz Society/Nightingale by way of Amy Cesal has an
 [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
 on writing *good* alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
-> ### Chart type It’s helpful for people with partial sight to know what
+> Here's a simple formula for writing alt text for data visualization:
+> ### Chart type It's helpful for people with partial sight to know what
 > chart type it is and gives context for understanding the rest of the
 > visual. Example: Line graph ### Type of data What data is included in
 > the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year ### Reason
-> for including the chart Think about why you’re including this visual.
-> What does it show that’s meaningful. There should be a point to every
+> for including the chart Think about why you're including this visual.
+> What does it show that's meaningful. There should be a point to every
 > visual and you should tell people what to look for. Example: the
-> winter months have more banana sales ### Link to data or source Don’t
+> winter months have more banana sales ### Link to data or source Don't
 > include this in your alt text, but it should be included somewhere in
 > the surrounding text. People should be able to click on a link to view
 > the source data or dig further into the visual. This provides
@@ -67,7 +67,7 @@ Mostipak](https://github.com/rfordatascience/tidytuesday/issues/204).
 > of lemur species are at risk of extinction. Our mission is to learn
 > everything we can about lemurs – because the more we learn, the better
 > we can work to save them from extinction. They are endemic only to
-> Madagascar, so it’s essentially a one-shot deal: once lemurs are gone
+> Madagascar, so it's essentially a one-shot deal: once lemurs are gone
 > from Madagascar, they are gone from the wild.
 >
 > By studying the variables that most affect their health, reproduction,
@@ -98,7 +98,7 @@ Mostipak](https://github.com/rfordatascience/tidytuesday/issues/204).
 | EMON      | Eulemur mongoz               | Mongoose lemur               |
 | ERUB      | Eulemur rubriventer          | Red-bellied lemur            |
 | ERUF      | Eulemur rufus                | Red-fronted brown lemur      |
-| ESAN      | Eulemur sanfordi             | Sanford’s brown lemur        |
+| ESAN      | Eulemur sanfordi             | Sanford's brown lemur        |
 | EUL       | Eulemur Eulemur              | hybrid                       |
 | GMOH      | Galago moholi                | Mohol bushbaby               |
 | HGG       | Hapalemur griseus griseus    | Eastern lesser bamboo lemur  |
@@ -109,7 +109,7 @@ Mostipak](https://github.com/rfordatascience/tidytuesday/issues/204).
 | NCOU      | Nycticebus coucang           | Slow loris                   |
 | NPYG      | Nycticebus pygmaeus          | Pygmy slow loris             |
 | OGG       | Otolemur garnettii garnettii | Northern greater galago      |
-| PCOQ      | Propithecus coquereli        | Coquerel’s sifaka            |
+| PCOQ      | Propithecus coquereli        | Coquerel's sifaka            |
 | PPOT      | Perodicticus potto           | Potto                        |
 | VAR       | Varecia Varecia              | hybrid                       |
 | VRUB      | Varecia rubra                | Red ruffed lemur             |

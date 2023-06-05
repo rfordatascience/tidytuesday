@@ -16,9 +16,9 @@ There's other additional HBCU datasets at [Data.World](https://data.world/datase
 
 [HBCU Donations Article](https://theundefeated.com/features/how-hbcus-are-using-more-than-250-million-in-donations/)
 
-> ... Donation will be placed in an endowment for students to fund need-based scholarships. President Reynold Verret believes the donation will provide an opportunity for students who don’t have the same financial support as others.
+> ... Donation will be placed in an endowment for students to fund need-based scholarships. President Reynold Verret believes the donation will provide an opportunity for students who don't have the same financial support as others.
 
-> “Xavier has roughly more than half of our students who are Pell-eligible. Which means they are in the lowest fifth of the socioeconomic ladder in the country. The lowest quintile. So these students really have significant family needs,” said Verret. “They’re often the first generation in their families to attend college, and meeting the gap between what Pell and the small loans provide and making it affordable is where that need-based is, which is not just based on merit, on your highest ACT or GPA, but basically to qualify students who are able who have the talent and the ability to succeed at Xavier.”
+> "Xavier has roughly more than half of our students who are Pell-eligible. Which means they are in the lowest fifth of the socioeconomic ladder in the country. The lowest quintile. So these students really have significant family needs," said Verret. "They're often the first generation in their families to attend college, and meeting the gap between what Pell and the small loans provide and making it affordable is where that need-based is, which is not just based on merit, on your highest ACT or GPA, but basically to qualify students who are able who have the talent and the ability to succeed at Xavier."
 
 I've left the datasets relatively "untidy" this week so you can practice some of the `pivot_longer()` functions from `tidyr`. Note that all of the individual CSVs that are duplicates of the raw Excel files.
 

@@ -6,9 +6,9 @@ If you want to submit a dataset please open an [Issue](https://github.com/rforda
 
 ## Article
 
-"The [Baltimore Sun](https://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html) looked at which bridges in the region are listed in “poor” condition by the Federal Highway Administration — and in particular, which have been “poor” for several years.
+"The [Baltimore Sun](https://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html) looked at which bridges in the region are listed in "poor" condition by the Federal Highway Administration — and in particular, which have been "poor" for several years.
 
-To be clear, “poor” condition doesn’t mean a bridge is unsafe — officials and experts emphasize that a bridge found to be structurally unsound would be closed. Still, such bridges can be a nuisance, damaging to cars, particularly tires. And the costs for repairing long-deteriorating bridges increase with every year."  
+To be clear, "poor" condition doesn't mean a bridge is unsafe — officials and experts emphasize that a bridge found to be structurally unsound would be closed. Still, such bridges can be a nuisance, damaging to cars, particularly tires. And the costs for repairing long-deteriorating bridges increase with every year."  
 
 The raw data for this article and others can be found on GitHub at the [Baltimore Sun Data Desk.](https://github.com/baltimore-sun-data)
 

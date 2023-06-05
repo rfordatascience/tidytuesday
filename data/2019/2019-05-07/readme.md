@@ -1,6 +1,6 @@
 # Global Student to Teacher Ratios
 
-"The UNESCO Institute of Statistics collects country-level data on the number of teachers, teacher-to-student ratios, and related figures. You can download the data or explore it in UNESCO’s eAtlas of Teachers or their interactive visualization of teacher supply in Asia"
+"The UNESCO Institute of Statistics collects country-level data on the number of teachers, teacher-to-student ratios, and related figures. You can download the data or explore it in UNESCO's eAtlas of Teachers or their interactive visualization of teacher supply in Asia"
 
 h/t to [Data is Plural 2019/04/03](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
 

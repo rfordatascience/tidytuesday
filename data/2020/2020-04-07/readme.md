@@ -1,7 +1,7 @@
 ![Tour de France logo](https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Tour_de_France_logo.svg/1200px-Tour_de_France_logo.svg.png)
 # Tour de France
 
-> The Tour de France is an annual men's multiple stage bicycle race primarily held in France, while also occasionally passing through nearby countries. Like the other Grand Tours (the Giro d'Italia and the Vuelta a España), it consists of 21 day-long stages over the course of 23 days. It has been described as "the world’s most prestigious and most difficult bicycle race".
+> The Tour de France is an annual men's multiple stage bicycle race primarily held in France, while also occasionally passing through nearby countries. Like the other Grand Tours (the Giro d'Italia and the Vuelta a España), it consists of 21 day-long stages over the course of 23 days. It has been described as "the world's most prestigious and most difficult bicycle race".
 
 The data this week comes from [Alastair Rushworth's Data Package `tdf`](https://github.com/alastairrushworth/tdf) and [Kaggle](https://www.kaggle.com/jaminliu/a-brief-tour-of-tour-de-france-in-numbers/data).
 

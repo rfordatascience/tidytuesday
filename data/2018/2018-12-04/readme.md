@@ -6,7 +6,7 @@ This week's [dataset](https://github.com/rfordatascience/tidytuesday/blob/master
 
 Data was originally scraped by [Harrison Jansma](https://github.com/harrisonjansma/Analyzing_Medium) and submitted as a [Kaggle dataset](https://www.kaggle.com/harrisonjansma/medium-stories).
 
-The data-set originally consisted of 1.4 million stories from 95 of Medium’s most popular story-tags. Every story was published between August 1st, 2017 and August 1st, 2018.
+The data-set originally consisted of 1.4 million stories from 95 of Medium's most popular story-tags. Every story was published between August 1st, 2017 and August 1st, 2018.
 
 For each story, Harrison collected all of the information present on a Medium story-card.
 

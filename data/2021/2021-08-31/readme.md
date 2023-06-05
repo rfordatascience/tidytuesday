@@ -6,18 +6,18 @@ Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-
 
 The DataViz Society/Nightingale by way of Amy Cesal has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -44,12 +44,12 @@ Big thanks to [Alison Hill](https://twitter.com/apreshill) for suggesting this d
 > 
 > And so the Bathing Birds Study was born. Started by researchers at Deakin University and Griffith University in 2014, this study involved collecting data online from 2,500 citizen scientists on bathing birds all over Australia.
 
-> Data on bird occurrence at bird baths were collected during “The Bathing Birds Study” that ran for a four week period in each of two seasons: austral winter (June 24th to July 26th 2014) and summer (January 27th to February 29th 2015). The study was promoted throughout Australia to recruit citizen scientists via: (1) media coverage (television, radio and newspapers), (2) social media (particularly via Facebook), (3) communication networks of a range of project partners, and (4) by targeting specific ornithological associations across Australia. Participants used an on-line data portal hosted on the Atlas of Living Australia (ALA) website (ala.org.au) to report the presence of birds visiting their bird bath during the survey. Other data collected included location of the bird bath, number of bird visits and photographs for validation of sightings. To aid participants with identification, an online field guide was available and participants could email photo and descriptions of birds to aid identification.
+> Data on bird occurrence at bird baths were collected during "The Bathing Birds Study" that ran for a four week period in each of two seasons: austral winter (June 24th to July 26th 2014) and summer (January 27th to February 29th 2015). The study was promoted throughout Australia to recruit citizen scientists via: (1) media coverage (television, radio and newspapers), (2) social media (particularly via Facebook), (3) communication networks of a range of project partners, and (4) by targeting specific ornithological associations across Australia. Participants used an on-line data portal hosted on the Atlas of Living Australia (ALA) website (ala.org.au) to report the presence of birds visiting their bird bath during the survey. Other data collected included location of the bird bath, number of bird visits and photographs for validation of sightings. To aid participants with identification, an online field guide was available and participants could email photo and descriptions of birds to aid identification.
 > 
 > During the two survey periods, citizen scientists monitored their bird baths for 20 minutes, once per day and three times per week for four weeks (surveys which did not meet these criteria were not considered further) to detect all or most species visiting bird baths [38]. Due to the difficulty in accurately surveying birds in rain or high winds, we asked our citizen scientists to conduct surveys in relatively calm and rain-free weather. Data were pooled (sightings of each species across all surveys with each survey period) within each bird bath and expressed as a binary indicator of whether a given species was present or absent at a bird bath. Due to limitations of the technology platform used to collect data, we were only able to record occurrence/presence of birds at baths. It was not possible to capture surveys where there were no sightings present although such surveys are regarded as highly unlikely. Bird baths were assigned to:
 > 
-> Bioregion (Interim Biogeographic Regionalisation for Australia) regions, henceforth ‘bioregion’, a classification based on climate, vegetation and soil (National Land and Water Resources Audit, 2001). Bird data were collected from 42 bioregions but due to low participation (< 3 participants in an urban or rural area), assessment of differences were conducted on 8 (winter) and 13 (summer) bioregions.
-“Rural” or “urban” areas according to the Australian Bureau of Statistics (ABS) classification which uses an Australian Statistical Geography Standard that defines “urban” areas as having human populations of 1,000–100,000+ people while “rural” areas have < 999 people. Thus, rural areas may contain large natural areas as well as low-density human settlement.
+> Bioregion (Interim Biogeographic Regionalisation for Australia) regions, henceforth ‘bioregion', a classification based on climate, vegetation and soil (National Land and Water Resources Audit, 2001). Bird data were collected from 42 bioregions but due to low participation (< 3 participants in an urban or rural area), assessment of differences were conducted on 8 (winter) and 13 (summer) bioregions.
+"Rural" or "urban" areas according to the Australian Bureau of Statistics (ABS) classification which uses an Australian Statistical Geography Standard that defines "urban" areas as having human populations of 1,000–100,000+ people while "rural" areas have < 999 people. Thus, rural areas may contain large natural areas as well as low-density human settlement.
 
 ### Get the data here
 
