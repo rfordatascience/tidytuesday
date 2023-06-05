@@ -5,14 +5,14 @@
 The data this week comes from [TheEconomist](https://github.com/TheEconomist/big-mac-data). Their article about this dataset can be found [here](https://www.economist.com/news/2020/07/15/the-big-mac-index).
 
 
-> This repository contains the data behind _The Economist’s_ Big Mac index, and code that shows how we calculate it. To download the data, go to the [latest release][latest release], where you can download the index data in a CSV or Excel, or the [code behind it][notebook link].
+> This repository contains the data behind _The Economist's_ Big Mac index, and code that shows how we calculate it. To download the data, go to the [latest release][latest release], where you can download the index data in a CSV or Excel, or the [code behind it][notebook link].
 
 [latest release]: https://github.com/theeconomist/big-mac-data/releases/latest
 [notebook link]: https://github.com/theeconomist/big-mac-data/blob/master/Big%20Mac%20data%20generator.ipynb
 
 ## Source data
 
-> Our source data are from several places. Big Mac prices are from McDonald’s directly and from reporting around the world; exchange rates are from Thomson Reuters; GDP and population data used to calculate the euro area averages are from Eurostat and GDP per person data are from the IMF World Economic Outlook reports.
+> Our source data are from several places. Big Mac prices are from McDonald's directly and from reporting around the world; exchange rates are from Thomson Reuters; GDP and population data used to calculate the euro area averages are from Eurostat and GDP per person data are from the IMF World Economic Outlook reports.
 
 
 ### Get the data here

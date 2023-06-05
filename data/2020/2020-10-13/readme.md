@@ -16,11 +16,11 @@ From Steph and Lucy's [`datasauRus` Vignette](https://cran.r-project.org/web/pac
 > 
 > Datasaurus shows us why visualisation is important, not just summary statistics.
 > 
-> He’s been subsequently made even more famous in the paper [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics](https://www.autodeskresearch.com/publications/samestats) through Simulated Annealing by Justin Matejka and George Fitzmaurice.
+> He's been subsequently made even more famous in the paper [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics](https://www.autodeskresearch.com/publications/samestats) through Simulated Annealing by Justin Matejka and George Fitzmaurice.
 > 
 > In the paper, Justin and George simulate a variety of datasets that the same summary statistics to the Datasaurus but have very different distributions.
 > 
-> This package looks to make these datasets available for use as an advanced [Anscombe’s Quartet](Anscombe’s Quartet), available in R as `anscombe`.
+> This package looks to make these datasets available for use as an advanced [Anscombe's Quartet](Anscombe's Quartet), available in R as `anscombe`.
 
 ### Get the data here
 

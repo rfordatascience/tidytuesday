@@ -1,6 +1,6 @@
 # Adoptable dogs
 
-This week’s data is from [The Pudding](https://github.com/the-pudding/data/blob/master/dog-shelters/README.md). The data was cleaned, collected and story written by [Amber Thomas](https://twitter.com/proquesasker), with design by [Sacha Maxim](https://twitter.com/sacha_maxim).
+This week's data is from [The Pudding](https://github.com/the-pudding/data/blob/master/dog-shelters/README.md). The data was cleaned, collected and story written by [Amber Thomas](https://twitter.com/proquesasker), with design by [Sacha Maxim](https://twitter.com/sacha_maxim).
 
 Their article [Finding Forever Homes](https://pudding.cool/2019/10/shelters/) examines data on all adoptable dogs from [Petfinder.com](https://www.petfinder.com/) in the USA on `2019-09-20`.
 
@@ -8,7 +8,7 @@ There are a number of datasets, where the `dog_travel` and `dog_descriptions` da
 
 The premise of the story in Amber's own words:
 
-> "If you’re looking to add a new furry friend to your family, you may be encouraged to “adopt not shop”. That is, to find a new dog at a local shelter or rescue organization rather than a pet store or breeder.
+> "If you're looking to add a new furry friend to your family, you may be encouraged to "adopt not shop". That is, to find a new dog at a local shelter or rescue organization rather than a pet store or breeder.
 > 
 > But where do adoptable dogs come from?"
 
@@ -87,15 +87,15 @@ dog_moves <- tuesdata$dog_moves
 |env_children    |logical   |Whether or not the animal is recommended for a home with children. |
 |env_dogs        |logical   |Whether or not the animal is recommended for a home with other dogs. |
 |env_cats        |logical   |Whether or not the animal is recommended for a home with cats. |
-|name  |character |The animal’s name (as given by the shelter/rescue). |
+|name  |character |The animal's name (as given by the shelter/rescue). |
 |tags  |character |Any tags given to the dog by the shelter rescue (pipe `\|` separated). |
-|photo |character |The URL to the animal’s primary photo. |
+|photo |character |The URL to the animal's primary photo. |
 |status          |character |Whether the animal is `adoptable` or not. |
 |posted          |character |The date that this animal was first listed on PetFinder . |
-|contact_city    |character |The rescue/shelter’s listed city. |
-|contact_state   |character |The rescue/shelter’s listed state. |
-|contact_zip     |character |The rescue/shelter’s listed zip code. |
-|contact_country |character |The rescue/shelter’s listed country. |
+|contact_city    |character |The rescue/shelter's listed city. |
+|contact_state   |character |The rescue/shelter's listed state. |
+|contact_zip     |character |The rescue/shelter's listed zip code. |
+|contact_country |character |The rescue/shelter's listed country. |
 |stateQ          |character |The state abbreviation queried in the API to return this result . |
 |accessed        |double    |The date that this data was acquired from the PetFinder API. |
 |type  |character |The type of animal. |

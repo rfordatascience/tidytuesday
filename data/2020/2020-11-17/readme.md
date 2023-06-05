@@ -24,7 +24,7 @@ You're welcome to revisit older datasets from `#TidyTuesday` this week, but espe
 
 From the [`#BlackInDataViz` website](https://blkindata.github.io/project/blackindataviz/):  
 
-> Creating space for Black people in data to share their work in the form of favourite data visualisation images. Also hosting a competition for data visualisation using a shared dataset, further reinforcing community. We will also host a ‘Data Viz in a Day’ skills workshop, focusing on instructing beginners on creating data visualizations.
+> Creating space for Black people in data to share their work in the form of favourite data visualisation images. Also hosting a competition for data visualisation using a shared dataset, further reinforcing community. We will also host a ‘Data Viz in a Day' skills workshop, focusing on instructing beginners on creating data visualizations.
 
 We don't have our own dataset this week, but the data below returns the purpose, date, hashtag, and link to each day's events to follow along with.
 

@@ -6,19 +6,19 @@ Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-
 
 The DataViz Society/Nightingale by way of Amy Cesal has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 >
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -36,9 +36,9 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 Credit: [Benedikt Claus](https://github.com/benediktclaus)
 
 The data this week comes from [Mario Kart World Records](https://mkwrs.com/) and contains world records for the classic
-(if you’re a 90’s kid) racing game on the Nintendo 64.
+(if you're a 90's kid) racing game on the Nintendo 64.
 
-This [Video](https://www.youtube.com/watch?v=D6cpa-TvKn8&ab_channel=SummoningSalt) talks about the history of Mario Kart 64 World Records in greater detail. Despite it’s release back in 1996 (1997 in Europe and North America), it is still actiely played by many and new world records are achieved every month.
+This [Video](https://www.youtube.com/watch?v=D6cpa-TvKn8&ab_channel=SummoningSalt) talks about the history of Mario Kart 64 World Records in greater detail. Despite it's release back in 1996 (1997 in Europe and North America), it is still actiely played by many and new world records are achieved every month.
 
 The game consists of 16 individual tracks and world records can be
 achieved for the fastest *single lap* or the fastest completed race
@@ -77,7 +77,7 @@ drivers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 ### `world-records.csv`
 
-> Current world records in Mario Kart 64 with date achieved and player’s
+> Current world records in Mario Kart 64 with date achieved and player's
 > name
 
 | variable         | class     | description                     |
@@ -85,7 +85,7 @@ drivers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 | track            | character | Track name                      |
 | type             | factor    | Single or three lap record      |
 | shortcut         | factor    | Shortcut or non-shortcut record |
-| player           | character | Player’s name                   |
+| player           | character | Player's name                   |
 | system_played   | character | Used system (NTSC or PAL)       |
 | date             | date      | World record date               |
 | time_period     | period    | Time as `hms` period            |
@@ -94,17 +94,17 @@ drivers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 ### `drivers.csv`
 
-> Player’s data. Except nationality, this could be constructed with the
+> Player's data. Except nationality, this could be constructed with the
 > above dataset.
 
 | variable | class     | description                            |
 |:---------|:----------|:---------------------------------------|
-| position | integer   | Player’s current leader board position |
-| player   | character | Player’s name                          |
+| position | integer   | Player's current leader board position |
+| player   | character | Player's name                          |
 | total    | integer   | Total world records                    |
 | year     | double    | Year                                   |
 | records  | integer   | Number of world records                |
-| nation   | character | Player’s nationality                   |
+| nation   | character | Player's nationality                   |
 
 ## Some fun questions to explore
 

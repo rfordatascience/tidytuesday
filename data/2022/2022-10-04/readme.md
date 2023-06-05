@@ -6,18 +6,18 @@ Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-
 
 The DataViz Society/Nightingale by way of Amy Cesal has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -32,7 +32,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from [components.one](https://components.one/posts/gamer-and-nihilist-product-hunt) by way of [Data is Plural](https://www.data-is-plural.com/archive/2022-09-28-edition/#:~:text=t%20Factle%5D-,Tech%20products%20promoted.,-For%20%E2%80%9CThe).
 
-> For “The Gamer and the Nihilist,” an essay in Components, Andrew Thompson and collaborators created a dataset of 76,000+ tech products on Product Hunt, a popular social network for launching and promoting such things. The dataset includes the name, description, launch date, upvote count, and other details for every product from 2014 to 2021 in the platform’s sitemap. (“Based on experience, not every product that appears on Product Hunt seems to appear on the sitemap,” the authors caution.)
+> For "The Gamer and the Nihilist," an essay in Components, Andrew Thompson and collaborators created a dataset of 76,000+ tech products on Product Hunt, a popular social network for launching and promoting such things. The dataset includes the name, description, launch date, upvote count, and other details for every product from 2014 to 2021 in the platform's sitemap. ("Based on experience, not every product that appears on Product Hunt seems to appear on the sitemap," the authors caution.)
 
 A [report](https://components.one/posts/gamer-and-nihilist-product-hunt) on the result of anaylsis from 2014 to 2021.
 

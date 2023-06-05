@@ -6,7 +6,7 @@ Please note that the image above belongs to the Ask a Manager blog/Alison Green.
 
 The data this week comes from the [Ask a Manager Survey](https://docs.google.com/spreadsheets/d/1IPS5dBSGtwYVbjsfbaMCYIWnOuRmJcbequohNxCyGVw/edit?resourcekey#gid=1625408792). H/t to [Kaija Gahm](https://github.com/rfordatascience/tidytuesday/issues/340) for sharing it as an issue!
 
-> The salary survey a few weeks ago got a huge response — 24,000+ people shared their salaries and other info, which is a lot of raw data to sift through. Reader Elisabeth Engl kindly took the raw data and analyzed some of the trends in it and here’s what she found. (She asked me to note that she did this as a fun project to share some insights from the survey, rather than as a paid engagement.)
+> The salary survey a few weeks ago got a huge response — 24,000+ people shared their salaries and other info, which is a lot of raw data to sift through. Reader Elisabeth Engl kindly took the raw data and analyzed some of the trends in it and here's what she found. (She asked me to note that she did this as a fun project to share some insights from the survey, rather than as a paid engagement.)
 
 > This data does not reflect the general population; it reflects Ask a Manager readers who self-selected to respond, which is a very different group (as you can see just from the demographic breakdown below, which is very white and very female).
 

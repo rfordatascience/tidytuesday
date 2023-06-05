@@ -1,4 +1,4 @@
-![Louisiana Tech was a women’s basketball powerhouse in the 1980s and ’90s. The Techsters lost the 1998 title game to Tennessee. GARY CASKEY / REUTERS](https://fivethirtyeight.com/wp-content/uploads/2019/03/RTRCCTZ-4x3.jpg?w=1150)
+![Louisiana Tech was a women's basketball powerhouse in the 1980s and '90s. The Techsters lost the 1998 title game to Tennessee. GARY CASKEY / REUTERS](https://fivethirtyeight.com/wp-content/uploads/2019/03/RTRCCTZ-4x3.jpg?w=1150)
 
 # NCAA Women's Basketball Tournament
 
@@ -10,7 +10,7 @@ A quick table of this as seen below:
 
 ![](https://fivethirtyeight.com/wp-content/uploads/2015/03/paine-datalab-izzo-table1.png?w=575)
 
-> To measure this, we awarded “seed points” in proportion to a given seed number’s expected wins in the tournament, calibrated to a 100-point scale where the No. 1 seed gets 100 points, No. 2 gets 70 points, and so forth.
+> To measure this, we awarded "seed points" in proportion to a given seed number's expected wins in the tournament, calibrated to a 100-point scale where the No. 1 seed gets 100 points, No. 2 gets 70 points, and so forth.
 
 This aligns to (based off the averages):  
 

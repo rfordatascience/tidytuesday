@@ -36,7 +36,7 @@ the visualizations using modern tools of your choice (Tableau, PowerBi, decksh, 
 
 Anthony's article on [Recreating W.E.B. Du Bois's Data Portraits](https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34).
 
-> In May 2017, I attended a talk: “Historical development of W.E.B. Du Bois’s graphical narrative” at the Data Visualization New York meetup. As an African-American, I was intrigued by the subject matter and fascinated by the visualization choices — especially, the now-iconic spiral charts. I made a mental note to attempt to recreate these.
+> In May 2017, I attended a talk: "Historical development of W.E.B. Du Bois's graphical narrative" at the Data Visualization New York meetup. As an African-American, I was intrigued by the subject matter and fascinated by the visualization choices — especially, the now-iconic spiral charts. I made a mental note to attempt to recreate these.
 
 ### Who is W.E.B. Du Bois?
 
@@ -46,25 +46,25 @@ For folks who are not familiar with the works of Du Bois, please read through th
 
 [Data Journalism in the study of W.E.B. Du Bois](https://medium.com/nightingale/data-journalism-in-the-study-of-w-e-b-du-bois-the-negro-problem-part-2-of-4-e5ea9b976adc)
 
-> One of the most powerful examples of data visualization was made 118 years ago by an all-black team led by W.E.B. Du Bois only 37 years after the end of slavery in the United States. “The Exhibit of American Negroes” was a sociological display at the 1900 Exposition Universelle in Paris and was a collaboration by noted African-American sociologist W. E. B. Du Bois, educator and social leader Booker T Washington, prominent black lawyer Thomas J. Calloway and students from historically black college Atlanta University.
+> One of the most powerful examples of data visualization was made 118 years ago by an all-black team led by W.E.B. Du Bois only 37 years after the end of slavery in the United States. "The Exhibit of American Negroes" was a sociological display at the 1900 Exposition Universelle in Paris and was a collaboration by noted African-American sociologist W. E. B. Du Bois, educator and social leader Booker T Washington, prominent black lawyer Thomas J. Calloway and students from historically black college Atlanta University.
 
 [WEB Du Bois: retracing his attempt to challenge racism with data](https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs)
 
-> Any African American to be admitted to Harvard University in 1888 had to be exceptionally gifted. But that description doesn’t come close to capturing the talent of WEB Du Bois, a man who managed to write 21 books, as well as over 100 essays while being a professor and a relentless civil rights activist.
+> Any African American to be admitted to Harvard University in 1888 had to be exceptionally gifted. But that description doesn't come close to capturing the talent of WEB Du Bois, a man who managed to write 21 books, as well as over 100 essays while being a professor and a relentless civil rights activist.
 >  
 > Du Bois saw no trade-off between those pursuits – his scholarship was protest and his protest was scholarship. He deeply understood something that every activist scrawling a banner in Washington knows today – messaging matters.
 > 
-> At the 1900 World Exposition in Paris, Du Bois went armed with beautiful photographs that showed African Americans posing with dignity. But he also knew that the photographs, however elegant, would fail to persuade many. So, he also took data “to show: (a) The history of the American Negro. (b) His present condition. (c) His education. (d) His literature.”
+> At the 1900 World Exposition in Paris, Du Bois went armed with beautiful photographs that showed African Americans posing with dignity. But he also knew that the photographs, however elegant, would fail to persuade many. So, he also took data "to show: (a) The history of the American Negro. (b) His present condition. (c) His education. (d) His literature."
 > 
-> With the help of students at the Atlanta University where he was a professor of economics and history, Du Bois created dozens of illustrations that put many of today’s data visualization experts to shame. The work was the inspiration for Theaster Gates’ latest exhibition in Los Angeles which started this month, and for Black History Month, I wanted to update four of Du Bois’ visualizations with the most recent data available.
+> With the help of students at the Atlanta University where he was a professor of economics and history, Du Bois created dozens of illustrations that put many of today's data visualization experts to shame. The work was the inspiration for Theaster Gates' latest exhibition in Los Angeles which started this month, and for Black History Month, I wanted to update four of Du Bois' visualizations with the most recent data available.
 
-[W.E.B. Du Bois’ Visionary Infographics Come Together for the First Time in Full Color](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/)
+[W.E.B. Du Bois' Visionary Infographics Come Together for the First Time in Full Color](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/)
 
 > After three decades of emancipation, the gains made by African-Americans, those that existed at all, presented a decidedly mixed picture about the state of racial progress in the country. The political obstacles were voluminous, with the failure of Reconstruction still lingering, and Jim Crow institutional racism ascendant. In 1897, the United States Supreme Court would rule in Plessy v. Ferguson that separate was indeed equal. All the while, new generations of African-Americans found ways to uplift themselves, despite discrimination, through grassroots efforts in education, work and community building.
 >
-> After graduating with a Ph.D. in history from Harvard University, W.E.B. Du Bois, the prominent African-American intellectual, sought a way to process all this information showing why the African disapora in America was being held back in a tangible, contextualized form. ”It is not one problem,” as Du Bois wrote in 1898, “but rather a plexus of social problems, some new, some old, some simple, some complex; and these problems have their one bond of unity in the act that they group themselves above those Africans whom two centuries of slave-trading brought into the land.”
+> After graduating with a Ph.D. in history from Harvard University, W.E.B. Du Bois, the prominent African-American intellectual, sought a way to process all this information showing why the African disapora in America was being held back in a tangible, contextualized form. "It is not one problem," as Du Bois wrote in 1898, "but rather a plexus of social problems, some new, some old, some simple, some complex; and these problems have their one bond of unity in the act that they group themselves above those Africans whom two centuries of slave-trading brought into the land."
 > 
-> To accomplish this goal, Du Bois turned to the burgeoning field of sociology. Sociology’s scope in history, statistics, and demographics held the potential to quantifiably reveal "life within the Veil," as Du Bois called the structural forces of oppressions that separated black and white populations, whether that came to educational attainment, voting rights or land ownership.
+> To accomplish this goal, Du Bois turned to the burgeoning field of sociology. Sociology's scope in history, statistics, and demographics held the potential to quantifiably reveal "life within the Veil," as Du Bois called the structural forces of oppressions that separated black and white populations, whether that came to educational attainment, voting rights or land ownership.
 
 ### Get the data here
 

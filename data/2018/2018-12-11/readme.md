@@ -49,7 +49,7 @@ The original dataset can be found [here](https://data.cityofnewyork.us/Health/DO
 
 ## [FiveThirtyEight Article](https://fivethirtyeight.com/features/how-data-made-me-a-believer-in-new-york-citys-restaurant-grades/)
 
-*"How Data Made Me A Believer In New York City’s Restaurant Grades"*
+*"How Data Made Me A Believer In New York City's Restaurant Grades"*
 
 ![](https://fivethirtyeight.com/wp-content/uploads/2014/08/fung-feature-health-grades-1.png?w=575)
 ![](https://fivethirtyeight.com/wp-content/uploads/2014/08/fung-feature-health-grades-2.png?w=575)

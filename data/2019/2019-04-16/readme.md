@@ -1,4 +1,4 @@
-# Economist's ["Mistakes, we’ve drawn a few"](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
+# Economist's ["Mistakes, we've drawn a few"](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
 
 Sarah Leo from The Economist went through the Economist's archives and found 7 examples of charts that were in need of improvement.
 

@@ -35,7 +35,7 @@ Shelters from [Reddit post](https://www.reddit.com/r/toronto/comments/7ocm1t/lis
 
 - Bethlehem United Shelter - The only shelter in Toronto that allows for pets to accompany their owners into the shelter. The parent organization, Fred Victor, also runs a women's hostel. [http://www.fredvictor.org/bethlehem_united_shelter](http://www.fredvictor.org/bethlehem_united_shelter)  
 
-- Christie-Ossington Neighbourhood Shelter - Provides overnight shelter and supports the well-being of 68 men each night in Toronto’s West End who are homeless, street-oriented and facing mental health challenges, substance use issues, unemployment and other barriers to maintaining adequate housing. [https://www.conccommunity.org/shelter-housing-lansdowne/](https://www.conccommunity.org/shelter-housing-lansdowne/)  
+- Christie-Ossington Neighbourhood Shelter - Provides overnight shelter and supports the well-being of 68 men each night in Toronto's West End who are homeless, street-oriented and facing mental health challenges, substance use issues, unemployment and other barriers to maintaining adequate housing. [https://www.conccommunity.org/shelter-housing-lansdowne/](https://www.conccommunity.org/shelter-housing-lansdowne/)  
 
 - Horizons for Youth - Provides emergency accommodation for up to 45 youth each night. They also have a lot of additional programs for homeless youth. [https://horizonsforyouth.org](https://horizonsforyouth.org)  
 
