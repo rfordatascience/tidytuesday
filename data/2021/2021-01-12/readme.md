@@ -14,7 +14,7 @@ The data this week comes from the [Tate Art Museum](https://github.com/tategalle
 > Images are not included and are not part of the dataset. Use of Tate images is covered on the
 [Copyright and permissions](http://www.tate.org.uk/about/who-we-are/policies-and-procedures/website-terms-use/copyright-and-permissions) page. You may also [license images](http://tate-images.com) for commercial use.
 
-> Tate requests that you actively acknowledge and give attribution to Tate wherever possible. Attribution supports future efforts to release other data.  It also reduces the amount of ‘orphaned data’, helping retain links to authoritative sources.
+> Tate requests that you actively acknowledge and give attribution to Tate wherever possible. Attribution supports future efforts to release other data.  It also reduces the amount of ‘orphaned data', helping retain links to authoritative sources.
 
 
 > Here are some examples of Tate data usage in the wild. Please submit a pull request with your creation added to this list.

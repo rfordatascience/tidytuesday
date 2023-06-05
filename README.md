@@ -6,7 +6,7 @@ A weekly data project aimed at the R ecosystem. As this project was borne out of
 
 ***
 
-Join the `R4DS Online Learning Community` in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be “tamed”, it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other’s work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
+Join the `R4DS Online Learning Community` in the weekly `#TidyTuesday` event! Every week we post a raw dataset, a chart or article related to that dataset, and ask you to explore the data. While the dataset will be "tamed", it will not always be tidy! As such you might need to apply various `R for Data Science` techniques to wrangle the data into a true tidy format. The goal of `TidyTuesday` is to apply your R skills, get feedback, explore other's work, and connect with the greater `#RStats` community! As such we encourage everyone of all skills to participate! 
 
 We will have many sources of data and want to emphasize that **no causation** is implied. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our guidelines are to use the data provided to practice your data tidying and plotting techniques. Participants are invited to consider for themselves what nuancing factors might underlie these relationships. 
 
@@ -93,18 +93,18 @@ Please add alt text (alternative text) to all of your posted graphics for `#Tidy
 Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-descriptions) for how to add alt text to your images.
 
 The DataViz Society/Nightingale has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -127,7 +127,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 3 | `2023-01-17` | [Art history data](data/2023/2023-01-17/readme.md) | [arthistory data package](https://saralemus7.github.io/arthistory/) | [Quantifying Art Historical Narratives](https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf) |
 | 4 | `2023-01-24` | [Alone data](data/2023/2023-01-24/readme.md) | [Alone data package](https://github.com/doehm/alone) | [Alone R package: Datasets from the survival TV series](https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/) |
 | 5 | `2023-01-31` | [Pet Cats UK](data/2023/2023-01-31/readme.md) | [Movebank for Animal Tracking Data](https://www.datarepository.movebank.org/handle/10255/move.882) | [Cats on the Move](https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013) |
-| 6 | `2023-02-07` | [Big Tech Stock Prices](data/2023/2023-02-07/readme.md) | [Big Tech Stock Prices on Kaggle](https://www.kaggle.com/datasets/evangower/big-tech-stock-prices) | [5 Charts on Big Tech Stocks’ Collapse](https://www.morningstar.com/articles/1129535/5-charts-on-big-tech-stocks-collapse) |
+| 6 | `2023-02-07` | [Big Tech Stock Prices](data/2023/2023-02-07/readme.md) | [Big Tech Stock Prices on Kaggle](https://www.kaggle.com/datasets/evangower/big-tech-stock-prices) | [5 Charts on Big Tech Stocks' Collapse](https://www.morningstar.com/articles/1129535/5-charts-on-big-tech-stocks-collapse) |
 | 7 | `2023-02-14` | [Hollywood Age Gaps](data/2023/2023-02-14/readme.md) | [Hollywood Age Gap](https://hollywoodagegap.com/movies.csv) | [Hollywood Age Gap](https://hollywoodagegap.com/) |
 | 8 | `2023-02-21` | [Bob Ross Paintings](data/2023/2023-02-21/readme.md) | [Bob Ross Paintings data](https://github.com/jwilber/Bob_Ross_Paintings/blob/master/data/bob_ross_paintings.csv) | [Bob Ross Colors data package](https://github.com/frankiethull/BobRossColors) |
 | 9 | `2023-02-28` | [African Language Sentiment](data/2023/2023-02-28/readme.md) | [AfriSenti: Sentiment Analysis dataset for 14 African languages](https://github.com/afrisenti-semeval/afrisent-semeval-2023) | [AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages](https://arxiv.org/pdf/2302.08956.pdf) |

@@ -6,11 +6,11 @@ The data this week comes from [Jelle's Marble Runs](https://www.youtube.com/chan
 
 Randy's [blogpost](http://www.randalolson.com/2020/05/24/a-data-driven-look-at-marble-racing/) covers some additional analysis.
 
-> Jelle’s Marble Runs started as a quirky YouTube channel back in 2006 and has refined the art of marble racing to the point that many — including [sponsor John Oliver from Last Week Tonight](https://youtu.be/z4gBMw64aqk?t=1067) — consider marble racing a legitimate contender for the national sports spotlight. Given that Jelle’s Marble Runs just completed their popular Marbula One competition last month, I was curious to look at the race results to see if these races were anything more than chaos.
+> Jelle's Marble Runs started as a quirky YouTube channel back in 2006 and has refined the art of marble racing to the point that many — including [sponsor John Oliver from Last Week Tonight](https://youtu.be/z4gBMw64aqk?t=1067) — consider marble racing a legitimate contender for the national sports spotlight. Given that Jelle's Marble Runs just completed their popular Marbula One competition last month, I was curious to look at the race results to see if these races were anything more than chaos.
 > 
-> Do some marbles race better than others? Who would I put my money on in season 2 of Marbula One? ... If any of these questions interest you, read on and I’ll answer some of them.
+> Do some marbles race better than others? Who would I put my money on in season 2 of Marbula One? ... If any of these questions interest you, read on and I'll answer some of them.
 > 
-> The first step to answering these questions was to get some data. Thankfully, all of the Marbula One videos are organized in a YouTube playlist available here. From every race, my marble racing analytics team recorded each marble racer’s qualifier performance, total race time, average lap time, final rank, and some other statistics. That dataset is available for download on my website here.
+> The first step to answering these questions was to get some data. Thankfully, all of the Marbula One videos are organized in a YouTube playlist available here. From every race, my marble racing analytics team recorded each marble racer's qualifier performance, total race time, average lap time, final rank, and some other statistics. That dataset is available for download on my website here.
 
 Some additional context from the fandom Wiki [for Jelle's Marble Runs](https://jellesmarbleruns.fandom.com/wiki/Marble_League_Wiki) and a link to [Season 1](https://jellesmarbleruns.fandom.com/wiki/Marbula_One_Season_1) courtesy of [Georgios Karamanis](https://twitter.com/geokaramanis/status/1267539394665332736).
 

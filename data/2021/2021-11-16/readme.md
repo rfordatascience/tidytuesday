@@ -42,7 +42,7 @@ Data Careers in Public Health 9:00 PM - 9:30 PM, Andrea Hobby & Barbara Tisi
 
 Introduction to DeepNote 1:00 PM - 2:00 PM, Sia Seko
 
-Now You’re Speaking My Language: Becoming Literate in Data 5:00 PM - 5:45 PM, Aliyah Wakil
+Now You're Speaking My Language: Becoming Literate in Data 5:00 PM - 5:45 PM, Aliyah Wakil
 
 Intro to Chem Informatics 6:00 PM -6:30 PM, Kimberly Deas
 

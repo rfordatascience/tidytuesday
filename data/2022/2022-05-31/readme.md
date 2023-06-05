@@ -6,18 +6,18 @@ Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-
 
 The DataViz Society/Nightingale by way of Amy Cesal has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -36,17 +36,17 @@ No poll is perfect, but methodology is included below, and see the links for [Ax
 
 > This survey is the result of a partnership between Axios and Harris Poll to gauge the reputation of the most visible brands in America, based on 20 years of Harris Poll research. From Trader Joe's to Disney, here's how this year's class stacks up.
 > 
-> Methodology: The Axios Harris Poll 100 is based on a survey of 33,096 Americans in a nationally representative sample conducted March 11-April 3, 2022. The two-step process starts fresh each year by surveying the public’s top-of-mind awareness of companies that either excel or falter in society.
+> Methodology: The Axios Harris Poll 100 is based on a survey of 33,096 Americans in a nationally representative sample conducted March 11-April 3, 2022. The two-step process starts fresh each year by surveying the public's top-of-mind awareness of companies that either excel or falter in society.
 > 
-> These 100 “most visible companies” are then ranked by a second group of Americans across the seven key dimensions of reputation to arrive at the ranking. If a company is not on the list, it did not reach a critical level of visibility to be measured.
+> These 100 "most visible companies" are then ranked by a second group of Americans across the seven key dimensions of reputation to arrive at the ranking. If a company is not on the list, it did not reach a critical level of visibility to be measured.
 
 > Phase 1
 > 
-> In February 2022, The Harris Poll fielded three rounds of “nominations” among a nationally representative sample of Americans to determine which companies were top-of-mind for the public. Respondents were asked which two companies they think have the best reputation and which two have the worst reputation. Both sets of nominations were then combined into a single list, with subsidiaries and brands tallied added to their parent organizations. The 100 companies with the most nominations were then selected to be on the ‘Most Visible’ list.
+> In February 2022, The Harris Poll fielded three rounds of "nominations" among a nationally representative sample of Americans to determine which companies were top-of-mind for the public. Respondents were asked which two companies they think have the best reputation and which two have the worst reputation. Both sets of nominations were then combined into a single list, with subsidiaries and brands tallied added to their parent organizations. The 100 companies with the most nominations were then selected to be on the ‘Most Visible' list.
 
 > Phase 2
 >
-> The ”ratings” phase of the survey was conducted among 33,096 online interviews from March 11th to April 2nd, 2022 among a nationally representative sample of U.S. adults.
+> The "ratings" phase of the survey was conducted among 33,096 online interviews from March 11th to April 2nd, 2022 among a nationally representative sample of U.S. adults.
 Respondents were randomly assigned two companies to rate for which they answered they were very or somewhat familiar with.
 Each company received approximately 325 ratings.
 An RQ score is calculated by:  [ (Sum of ratings of each of the 9 attributes)/(the total number of attributes answered x 7) ]  x 100. Score ranges: 80 & above: Excellent | 75-79: Very Good | 70-74: Good | 65-69: Fair | 55-64: Poor | 50-54: Very Poor | Below 50: Critical

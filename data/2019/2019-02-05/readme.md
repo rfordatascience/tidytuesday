@@ -73,7 +73,7 @@ recession_dates <- readr::read_csv("https://raw.githubusercontent.com/rfordatasc
 
 [source](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/state.html)
 
-R currently contains the following “state” data sets. Note that all data are arranged according to alphabetical order of the state names.
+R currently contains the following "state" data sets. Note that all data are arranged according to alphabetical order of the state names.
 
 state.abb:
 

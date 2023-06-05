@@ -32,7 +32,7 @@ nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascie
 |combination_of_primary_and_highlight_color |character | A combination of the previous two columns; this column gives the total permutations of primary and highlight colors observed.|
 |color_notes                                |character | Sighters occasionally added commentary on the squirrel fur conditions. These notes are provided here.|
 |location                                   |character | Value is either "Ground Plane" or "Above Ground." Sighters were instructed to indicate the location of where the squirrel was when first sighted.|
-|above_ground_sighter_measurement           |character | For squirrel sightings on the ground plane, fields were populated with a value of “FALSE.”|
+|above_ground_sighter_measurement           |character | For squirrel sightings on the ground plane, fields were populated with a value of "FALSE."|
 |specific_location                          |character | Sighters occasionally added commentary on the squirrel location. These notes are provided here.|
 |running                                    |logical   | Squirrel was seen running.|
 |chasing                                    |logical   | Squirrel was seen chasing.|

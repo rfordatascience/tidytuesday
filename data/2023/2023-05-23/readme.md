@@ -94,7 +94,7 @@ squirrel_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 |Combination of Primary and Highlight Color |character |A combination of the previous two columns; this column gives the total permutations of primary and highlight colors observed. |
 |Color notes                                |character |Sighters occasionally added commentary on the squirrel fur conditions. These notes are provided here.                                |
 |Location                                   |character |Value is either "Ground Plane" or "Above Ground." Sighters were instructed to indicate the location of where the squirrel was when first sighted.                                 |
-|Above Ground Sighter Measurement           |character |For squirrel sightings on the ground plane, fields were populated with a value of “FALSE.”          |
+|Above Ground Sighter Measurement           |character |For squirrel sightings on the ground plane, fields were populated with a value of "FALSE."          |
 |Specific Location                          |character |Sighters occasionally added commentary on the squirrel location. These notes are provided here.                         |
 |Running                                    |logical   |Squirrel was seen running.                                   |
 |Chasing                                    |logical   |Squirrel was seen chasing another squirrel.                                 |

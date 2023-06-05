@@ -6,9 +6,9 @@ The data this week comes from the [Claremont Run Project](http://www.claremontru
 
 > From 1975-1991, Chris Claremont wrote X-men, forming the longest stint of any mainstream superhero writer on a single title. During his tenure, X-men went from a B-list title on the verge of cancellation, to the best-selling comic book in the world, and Claremont holds the Guinness World Record to this day for the bestselling single issue comic of all-time.
 
-> Claremont’s work is too culturally important to lose touch with. A generation of writers, filmmakers, and artists were all but weaned on the stories he told, and Claremont’s fingerprints are all over the media landscape that we have today – structures and strategies and dynamics. But exposing a new generation of readers and scholars to the Claremont run (in all its scope) is challenging to say the least.
+> Claremont's work is too culturally important to lose touch with. A generation of writers, filmmakers, and artists were all but weaned on the stories he told, and Claremont's fingerprints are all over the media landscape that we have today – structures and strategies and dynamics. But exposing a new generation of readers and scholars to the Claremont run (in all its scope) is challenging to say the least.
 
-> And that’s where our humble website comes in. By building an expansive data set on the Claremont run, this project hopes to open new doors of exploration and consideration for the next generation of comics scholars. In this sense, this project is looking both to the past (in order to deconstruct and chronicle the landmark contribution of a comics artist to the field of popular culture as a whole) and to the future (in order to facilitate yet-to-come discussions of the author’s work, enabling and empowering future breakthroughs).
+> And that's where our humble website comes in. By building an expansive data set on the Claremont run, this project hopes to open new doors of exploration and consideration for the next generation of comics scholars. In this sense, this project is looking both to the past (in order to deconstruct and chronicle the landmark contribution of a comics artist to the field of popular culture as a whole) and to the future (in order to facilitate yet-to-come discussions of the author's work, enabling and empowering future breakthroughs).
 
 The Claremont Project has a Twitter handle - please reference them when using this data: [@ClaremontRun](https://twitter.com/ClaremontRun)
 
@@ -20,7 +20,7 @@ To Install the `claremontrun` package:
 Or use the raw CSVs from this repo with `tidytuesdayR`.
 
 > `claremontrun` is an R data package that provides data from the [Claremont
-Run](http://www.claremontrun.com/) project. This project collects data on [Chris Claremont’s](https://www.wikiwand.com/en/Chris_Claremont) iconic run on [Uncanny X-Men](https://www.wikiwand.com/en/Uncanny_X-Men).
+Run](http://www.claremontrun.com/) project. This project collects data on [Chris Claremont's](https://www.wikiwand.com/en/Chris_Claremont) iconic run on [Uncanny X-Men](https://www.wikiwand.com/en/Uncanny_X-Men).
 
 Note that while the `claremontrun` has information about the Bechdel test, it doesn't include gender as a measure. You may therefore want to also explore the 2018 TidyTuesday dataset that had more metadata about specific comic book characters:  
 

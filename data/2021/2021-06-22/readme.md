@@ -6,18 +6,18 @@ Twitter provides [guidelines](https://help.twitter.com/en/using-twitter/picture-
 
 The DataViz Society/Nightingale by way of Amy Cesal has an [article](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing _good_ alt text for plots/graphs.
 
-> Here’s a simple formula for writing alt text for data visualization:
+> Here's a simple formula for writing alt text for data visualization:
 > ### Chart type
-> It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
+> It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual.
 > Example: Line graph
 > ### Type of data
 > What data is included in the chart? The x and y axis labels may help you figure this out.
 > Example: number of bananas sold per day in the last year
 > ### Reason for including the chart
-> Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for.
+> Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.
 > Example: the winter months have more banana sales
 > ### Link to data or source
-> Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
+> Don't include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data.
 > Example: Data from the USDA
 
 Penn State has an [article](https://accessibility.psu.edu/images/charts/) on writing alt text descriptions for charts and tables.
@@ -36,11 +36,11 @@ The data this week comes from [The Trust for Public Land](https://www.tpl.org/pa
 
 > When the pandemic forced millions of Americans to shelter indoors, parks saw a surge in popularity. Parks in North Carolina received an all-time high of 20 million visitors in 2020, an uptick of one million from the year before. In New York, the number of park-goers topped 78 million. Cities also mobilized their green spaces in the pandemic-fighting effort, using them to distribute PPE, meals and even vaccines. In Memphis, Tennessee, a 360-foot long tent was erected on Liberty Park fairgrounds in April, aiming to administer 21,000 vaccines weekly.  
 > 
-> But even as green spaces proved to be a crucial element to people’s physical and mental well-being — especially for urban dwellers — the pandemic further exposed the disparity in who has access to parks. New data from the Trust for Public Land shows that in the 100 most populated U.S. cities, neighborhoods that are majority nonwhite have, on average, access to 44% less park acreage than majority white neighborhoods. Low-income communities have access to 42% less than high-income neighborhoods. 
+> But even as green spaces proved to be a crucial element to people's physical and mental well-being — especially for urban dwellers — the pandemic further exposed the disparity in who has access to parks. New data from the Trust for Public Land shows that in the 100 most populated U.S. cities, neighborhoods that are majority nonwhite have, on average, access to 44% less park acreage than majority white neighborhoods. Low-income communities have access to 42% less than high-income neighborhoods. 
 > 
-> Since 2011, The Trust for Public Land (TPL) has kept track of green space availability across U.S. metros, using the ParkScore index, which measures how well cities are meeting their residents’ need for parks based on four metrics: park access, acreage, investment and amenities. This year for the first time, the group added equity as a fifth metric. 
+> Since 2011, The Trust for Public Land (TPL) has kept track of green space availability across U.S. metros, using the ParkScore index, which measures how well cities are meeting their residents' need for parks based on four metrics: park access, acreage, investment and amenities. This year for the first time, the group added equity as a fifth metric. 
 > 
-> Its assessment is grounded in the idea that Americans should have park access within a 10-minute walk from their home. Some 100 million Americans do not live within that distance, according to this year’s analysis. The equity score builds on that, and compares park acreage and access between neighborhoods of color and those that are mostly white, and between low- and high-income communities.  
+> Its assessment is grounded in the idea that Americans should have park access within a 10-minute walk from their home. Some 100 million Americans do not live within that distance, according to this year's analysis. The equity score builds on that, and compares park acreage and access between neighborhoods of color and those that are mostly white, and between low- and high-income communities.  
 
 Example PDFs can be found in the following format:
 

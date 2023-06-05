@@ -14,7 +14,7 @@ Animal Crossing as explained by a [Polygon](https://www.polygon.com/2020/4/2/212
 
 > With just a few design twists, the work behind collecting hundreds or even thousands of items over weeks anpd months becomes an exercise of mindfulness, predictability, and agency that many players find soothing instead of annoying.
 
-> Games that feature gentle progression give us a sense of progress and achievability, teaching us that putting in a little work consistently while taking things one step at a time can give us some fantastic results. It’s a good life lesson, as well as a way to calm yourself and others, and it’s all achieved through game design.
+> Games that feature gentle progression give us a sense of progress and achievability, teaching us that putting in a little work consistently while taking things one step at a time can give us some fantastic results. It's a good life lesson, as well as a way to calm yourself and others, and it's all achieved through game design.
 
 Potential Analyses:
 * Reviews: Sentiment analysis, text analysis, scores, date effect
