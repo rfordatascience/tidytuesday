@@ -39,3 +39,6 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 tidytuesday_github.Rproj
+
+# Other leftovers
+.DS_Store
