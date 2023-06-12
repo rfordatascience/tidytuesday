@@ -93,15 +93,13 @@ safi_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 |years_liv            |integer   | Number of years living in this village or a neighboring village    |
 |respondent_wall_type |character | Type of walls the house has |
 |rooms                |integer   | Number of rooms in the main house used for sleeping          |
-|memb_assoc           |character | Are you a member of an irrigation association?
- |
-|affect_conflicts     |character | Have you been affected by conflicts with other irrigators in the area?
-    |
+|memb_assoc           |character | Are you a member of an irrigation association? |
+|affect_conflicts     |character | Have you been affected by conflicts with other irrigators in the area? |
 |liv_count            |integer   | Livestock count          |
 |items_owned          |character | Items owned by the household        |
 |no_meals             |integer   | How many meals do people in your household normally eat in a day?            |
 |months_lack_food     |character | 	Indicate which months, In the last 12 months have you faced a situation when you did not have enough food to feed the household?   |
-|instanceID           |character | 	Unique identifier for the form data submission      |
+|instanceID           |character | 	Unique identifier for the form data submission |
 
 
 ### Cleaning Script
