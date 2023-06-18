@@ -95,6 +95,38 @@ day_parts_map <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 |has_images             |logical   |Whether the sighting has images available on NUFORC. |
 |day_part               |character |The approximate part of the day in which the sighting took place, based on the reported date and time, the place, and data from sunrise-sunset.org. Latitude and longitude were rounded to the 10s digit, and the date was rounded to the week, to match against time points such as "nautical twilight", "sunrise", and "sunset." |
 
+# `places.csv`
+
+|variable             |class     |description          |
+|:--------------------|:---------|:--------------------|
+|city                 |character |Unique cities in which sightings took place. |
+|alternate_city_names |character |Comma-separated other names for the city. |
+|state                |character |The state, province, or similar division of the sighting. |
+|country              |character |The name of the country. |
+|country_code         |character |The 2-letter country code of the sighting. |
+|latitude             |double    |The latitude for this city, from geonames.org. |
+|longitude            |double    |The longitude for this city, from geonames.org. |
+|timezone             |character |The timezone for this city, from geonames.org. |
+|population           |double    |The population for this city, from geonames.org. |
+|elevation_m          |double    |The elevation in meters for this city, from geonames.org. |
+
+# `day_parts_map.csv`
+
+|variable                    |class  |description                 |
+|:---------------------------|:------|:---------------------------|
+|rounded_lat                 |double |Latitudes rounded to the tens digit. |
+|rounded_long                |double |Longitudes rounded to the tens digit. |
+|rounded_date                |double |Dates rounded to the nearest week. |
+|astronomical_twilight_begin |double |The UTC time of day when astronomical twilight began on this date in this location. Astronomical twilight begins when the sun is 18 degrees below the horizon before sunrise. |
+|nautical_twilight_begin     |double |The UTC time of day when nautical twilight began on this date (or the next date) in this location. Nautical twilight begins when the sun is 12 degrees below the horizon before sunrise. |
+|civil_twilight_begin        |double |The UTC time of day when civil twilight began on this date (or the next date) in this location. Civil twilight begins when the sun is 6 degrees below the horizon before sunrise. |
+|sunrise                     |double |The UTC time of day when the sun rose on this date (or the next date) in this location. |
+|solar_noon                  |double |The UTC time of day when the sun was at its zenith on this date (or the next date) in this location. |
+|sunset                      |double |The UTC time of day when the sun set on this date (or the next date) in this location. |
+|civil_twilight_end          |double |The UTC time of day when civil twilight ended on this date (or the next date) in this location. Civil twilight ends when the sun is 6 degrees below the horizon after sunset. |
+|nautical_twilight_end       |double |The UTC time of day when nautical twilight ended on this date (or the next date) in this location. Nautical twilight ends when the sun is 12 degrees below the horizon after sunset. |
+|astronomical_twilight_end   |double |The UTC time of day when astronomical twilight ended on this date (or the next date) in this location. Astronomical twilight ends when the sun is 18 degrees below the horizon after sunset. |
+
 ### Cleaning Script
 
 See Jon Harmon's [cleaning](https://github.com/jonthegeek/apis/blob/main/01_ufo-data.qmd) and [enriching](https://github.com/jonthegeek/apis/blob/main/01_ufo-enrich.qmd) scripts for most of the (extensive) cleaning.
