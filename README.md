@@ -145,6 +145,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 21 | `2023-05-23` | [Central Park Squirrels](data/2023/2023-05-23/readme.md) | [2018 Central Park Squirrel Census]([https://www.spc.noaa.gov/wcm/#data](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw)) | [The Squirrel Census](https://www.thesquirrelcensus.com/) |
 | 22 | `2023-05-30` | [Verified Oldest People](data/2023/2023-05-30/readme.md) | [frankiethull: Centenarians](https://github.com/frankiethull/centenarians) | [Wikipedia: List of the verified oldest people](https://en.wikipedia.org/wiki/List_of_the_verified_oldest_people) |
 | 24 | `2023-06-13` | [Studying African Farmer-Led Irrigation Survey](data/2023/2023-06-13/readme.md) | [SAFI Teaching Dataset for Data Carpentry Social Sciences](https://datacarpentry.org/socialsci-workshop/data/) | [SAFI Teaching Dataset](https://figshare.com/articles/SAFI_Survey_Results/6262019) |
+| 24 | `2023-06-20` | [UFO Sightings Redux](data/2023/2023-06-20/readme.md) | [National UFO Reporting Center](https://nuforc.org/webreports/ndxshape.html), [sunrise-sunset.org](https://sunrise-sunset.org) | [TidyTuesday 2019-06-25](https://tidytues.day/2019/2019-06-25) |
 
 ***  
 
