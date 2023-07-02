@@ -64,7 +64,7 @@ You might try to combine that with information from [geonames.org](http://www.ge
 # Either ISO-8601 date or year/week works!
 
 tuesdata <- tidytuesdayR::tt_load('2023-07-04')
-tuesdata <- tidytuesdayR::tt_load(2023, week = 26)
+tuesdata <- tidytuesdayR::tt_load(2023, week = 27)
 
 historical_markers <- tuesdata$`historical_markers`
 no_markers <- tuesdata$`no_markers`
