@@ -73,7 +73,7 @@ Citation: GISTEMP Team, 2023: GISS Surface Temperature Analysis (GISTEMP), versi
 tuesdata <- tidytuesdayR::tt_load('2023-07-11')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 28)
 
-global_temps <- tuesdata$`global_temps`
+global_temps <- tuesdata$global_temps
 nh_temps <- tuesdata$`nh_temps`
 sh_temps <- tuesdata$`sh_temps`
 zonann_temps <- tuesdata$`zonann_temps`
