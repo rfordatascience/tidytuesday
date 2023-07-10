@@ -1,4 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+28,2023-07-11,2023,global_temps.csv,csv,","
+28,2023-07-11,2023,nh_temps.csv,csv,","
+28,2023-07-11,2023,sh_temps.csv,csv,","
+28,2023-07-11,2023,zonann_temps.csv,csv,","
 27,2023-07-04,2023,historical_markers.csv,csv,","
 27,2023-07-04,2023,no_markers.csv,csv,","
 26,2023-06-27,2023,us_place_names.csv,csv,","
