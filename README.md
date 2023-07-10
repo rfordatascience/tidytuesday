@@ -148,6 +148,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 25 | `2023-06-20` | [UFO Sightings Redux](data/2023/2023-06-20/readme.md) | [National UFO Reporting Center](https://nuforc.org/webreports/ndxshape.html), [sunrise-sunset.org](https://sunrise-sunset.org) | [TidyTuesday 2019-06-25](https://tidytues.day/2019/2019-06-25) |
 | 26 | `2023-06-27` | [US Populated Places](data/2023/2023-06-27/readme.md) | [National Map Staged Products Directory](https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GeographicNames/) | [US Board of Geographic Names](https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data) |
 | 27 | `2023-07-04` | [Historical Markers](data/2023/2023-07-04/readme.md) | [Historical Marker Database USA Index](https://www.hmdb.org/geolists.asp?c=United%20States%20of%20America) | [Database Counts and Statistics](https://www.hmdb.org/stats.asp) |
+| 28 | `2023-07-11` | [Global Surface Temperatures](data/2023/2023-07-11/readme.md) | [NASA GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) | [Improvements in the GISTEMP Uncertainty Model](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522) |
 
 ***  
 
