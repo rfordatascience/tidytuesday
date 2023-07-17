@@ -71,7 +71,7 @@ GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert 
 tuesdata <- tidytuesdayR::tt_load('2023-07-18')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 29)
 
-global_detectors <- tuesdata$detectors
+detectors <- tuesdata$detectors
 
 # Or read in the data manually
 
