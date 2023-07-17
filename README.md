@@ -149,6 +149,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 | 26 | `2023-06-27` | [US Populated Places](data/2023/2023-06-27/readme.md) | [National Map Staged Products Directory](https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GeographicNames/) | [US Board of Geographic Names](https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data) |
 | 27 | `2023-07-04` | [Historical Markers](data/2023/2023-07-04/readme.md) | [Historical Marker Database USA Index](https://www.hmdb.org/geolists.asp?c=United%20States%20of%20America) | [Database Counts and Statistics](https://www.hmdb.org/stats.asp) |
 | 28 | `2023-07-11` | [Global Surface Temperatures](data/2023/2023-07-11/readme.md) | [NASA GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) | [Improvements in the GISTEMP Uncertainty Model](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522) |
+| 29 | `2023-07-18` | [GPT detectors](data/2023/2023-07-18/readme.md) | [GPT detectors R package](https://github.com/simonpcouch/detectors/) | [GPT Detectors Are Biased Against Non-Native English Writers](https://arxiv.org/abs/2304.02819) |
 
 ***  
 
