@@ -75,7 +75,7 @@ global_detectors <- tuesdata$detectors
 
 # Or read in the data manually
 
-global_temps <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-18/detectors.csv')
+detectors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-18/detectors.csv')
 
 ```
 
