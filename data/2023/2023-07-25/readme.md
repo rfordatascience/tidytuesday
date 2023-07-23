@@ -83,7 +83,7 @@ scurvy <- tuesdata$scurvy
 
 # Or read in the data manually
 
-detectors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-25/scurvy.csv')
+scurvy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-25/scurvy.csv')
 
 ```
 
