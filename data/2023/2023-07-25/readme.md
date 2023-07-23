@@ -45,7 +45,7 @@ Need a **reminder**? There are
 [extensions](https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related)
 that force you to remember to add Alt Text to Tweets with media.
 
-# GPT detectors 
+# Scurvy 
 
 The data this week comes from the [medicaldata R package](https://higgi13425.github.io/medicaldata/). This is a data package from Peter Higgins, with 19 medical datasets for teaching Reproducible Medical Research with R.
 
