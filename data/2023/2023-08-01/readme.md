@@ -1,6 +1,6 @@
 # US State Names 
 
-Happy [Colorado Day](https://www.timeanddate.com/holidays/us/colorado-day)! The data this week comes from three Wikipedia articles: [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States), [List of demonyms for US states and territories](https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories), and [List_of_state_and_territory_name_etymologies_of_the_United_States](https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States).
+Happy [Colorado Day](https://www.timeanddate.com/holidays/us/colorado-day)! The data this week comes from three Wikipedia articles: [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States), [List of demonyms for US states and territories](https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories), and [List of state and territory name etymologies of the United States](https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States).
 
 A number of past TidyTuesdays (such as 
 [2018/2018-04-03](https://tidytues.day/2018/2018-04-03), [2019/2019-01-29](https://tidytues.day/2019/2019-01-29), [2020/2020-03-10](https://tidytues.day/2020/2020-03-10), and [2022/2022-11-08](https://tidytues.day/2022/2022-11-08) have state columns. Might joining in this state date offer any insights to those datasets?
