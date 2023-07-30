@@ -52,8 +52,8 @@ state_name_etymology <- readr::read_csv('https://raw.githubusercontent.com/rford
 |state             |character |The name of the state. |
 |date_named        |date      |The date on which the name (or a version of the name that led to the modern version) was first attested. Note: Colorado is shown as occurring on January 1, but only the year is known. |
 |language          |character |The language from which the state name is believed to have been derived. Note that some states have more than one entry, in more than one row! |
-|words_in_original |character |The word or words in the original language that became the state name. |
-|meaning           |character |The meaning of the original words. |
+|words_in_original |character |The word or words in the original language that became the state name. This field has footnotes in the original Wikipedia article. |
+|meaning           |character |The meaning of the original words. This field has footnotes in the original Wikipedia article. |
 
 
 ### Cleaning Script
