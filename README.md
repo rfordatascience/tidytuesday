@@ -51,6 +51,7 @@
 | 28 | `2023-07-11` | [Global Surface Temperatures](data/2023/2023-07-11/readme.md) | [NASA GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) | [Improvements in the GISTEMP Uncertainty Model](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522) |
 | 29 | `2023-07-18` | [GPT detectors](data/2023/2023-07-18/readme.md) | [GPT detectors R package](https://github.com/simonpcouch/detectors/) | [GPT Detectors Are Biased Against Non-Native English Writers](https://arxiv.org/abs/2304.02819) |
 | 30 | `2023-07-25` | [Scurvy](data/2023/2023-07-25/readme.md) | [medicaldata R package](https://higgi13425.github.io/medicaldata/) | [Scurvy Dataset Description](https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/scurvy_desc.html) |
+| 31 | `2023-08-01` | [US States](data/2023/2023-08-01/readme.md) | [https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States](List of states and territories of the United States), [https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories](List of demonyms for US states and territories), and [https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States](https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States) | [https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States](List of states and territories of the United States) |
 
 ***  
 
