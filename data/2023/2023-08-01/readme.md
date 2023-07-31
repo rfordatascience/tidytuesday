@@ -30,7 +30,7 @@ state_name_etymology <- readr::read_csv('https://raw.githubusercontent.com/rford
 
 |variable            |class     |description         |
 |:-------------------|:---------|:-------------------|
-|state               |character |The name of the state. |
+|state               |character |The name of the state. The Wikipedia article has footnotes pointing out that Kentucky, Massachusetts, Pennsylvania, and Virginia are officially "commonwealths" in their full official names, not states. |
 |postal_abbreviation |character |The 2-letter postal abbreviation. |
 |capital_city        |character |The capital of the state. |
 |largest_city        |character |The largest city in the state as of 2020. |
@@ -58,7 +58,7 @@ state_name_etymology <- readr::read_csv('https://raw.githubusercontent.com/rford
 
 ### Cleaning Script
 
-```
+``` r
 library(rvest)
 library(tidyverse)
 library(here)
@@ -92,9 +92,9 @@ states <- states |>
       c(population_2020, contains("area"), n_representatives),
       ~ parse_number(.x) |> as.integer()
     ),
-    admission = parse_date(admission, format = "%b %d, %Y")
-  ) |> 
-  glimpse()
+    admission = parse_date(admission, format = "%b %d, %Y"),
+    state = str_remove(state, fixed("[B]"))
+  )
 
 state_demonyms <- read_html("https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories") |> 
   html_table() |> 
@@ -102,6 +102,11 @@ state_demonyms <- read_html("https://en.wikipedia.org/wiki/List_of_demonyms_for_
 colnames(state_demonyms) <- c("state", "demonym")
 states <- states |> 
   left_join(state_demonyms, by = "state")
+
+# Confirm that the join worked!
+
+states |> 
+  filter(is.na(demonym))
 
 state_name_etymology <- read_html("https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States") |> 
   html_table() |> 
@@ -128,6 +133,14 @@ state_name_etymology <- state_name_etymology |>
     )
   )
 
+# Confirm that the tables match up.
+states |> 
+  full_join(state_name_etymology, by = "state") |> 
+  filter(is.na(date_named))
+states |> 
+  full_join(state_name_etymology, by = "state") |> 
+  filter(is.na(admission))
+
 write_csv(
   states,
   here(
@@ -136,6 +149,7 @@ write_csv(
     "2023-08-01",
     "states.csv"
   )
+)
 write_csv(
   state_name_etymology,
   here(
