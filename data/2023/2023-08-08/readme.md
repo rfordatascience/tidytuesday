@@ -1,6 +1,6 @@
 # Hot Ones Episodes 
 
-The data this week comes from XXXX Wikipedia articles: [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones) and [List of Hot Ones episodes](https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes). Thank you to [Carl Börstell](https://github.com/borstell) for the [suggestion and cleaning script](https://github.com/rfordatascience/tidytuesday/issues/591)!
+The data this week comes from Wikipedia articles: [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones) and [List of Hot Ones episodes](https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes). Thank you to [Carl Börstell](https://github.com/borstell) for the [suggestion and cleaning script](https://github.com/rfordatascience/tidytuesday/issues/591)!
 
 > Hot Ones is an American YouTube talk show, created by Chris Schonberger, hosted by Sean Evans and produced by First We Feast and Complex Media. Its basic premise involves celebrities being interviewed by Evans over a platter of increasingly spicy chicken wings.
 
