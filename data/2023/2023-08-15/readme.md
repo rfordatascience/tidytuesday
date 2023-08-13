@@ -1,6 +1,6 @@
 # Spam E-mail
 
-The data this week comes from Vincent Arel-Bundock's Rdataset package(https://vincentarelbundock.github.io/Rdatasets/index.html). 
+The data this week comes from Vincent Arel-Bundock's Rdatasets package(https://vincentarelbundock.github.io/Rdatasets/index.html). 
 
 > Rdatasets is a collection of 2246 datasets which were originally distributed alongside the statistical software environment R and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development.
 
