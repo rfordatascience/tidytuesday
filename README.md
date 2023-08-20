@@ -55,6 +55,7 @@
 | 31 | `2023-08-01` | [US States](data/2023/2023-08-01/readme.md) | [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States), [List of demonyms for US states and territories](https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories), and [List of state and territory name etymologies of the United States](https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States) | [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)|
 | 32 | `2023-08-08` | [Hot Ones Episodes](data/2023/2023-08-08/readme.md) | [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones) and [List of Hot Ones episodes](https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes) | [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones)|
 | 33 | `2023-08-15` | [Spam E-mail](data/2023/2023-08-15/readme.md) | [Spam e-mail](https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/spam7.html) | [Spam email database](https://archive.ics.uci.edu/dataset/94/spambase)|
+| 34 | `2023-08-22` | [Refugees](data/2023/2023-08-22/readme.md) | [Refugees R package](https://github.com/PopulationStatistics/refugees) | [United Nations High Commissioner for Refugees (UNHCR) Refugee Data Finder](https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html)|
 
 ***  
 
