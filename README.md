@@ -56,7 +56,7 @@
 | 32 | `2023-08-08` | [Hot Ones Episodes](data/2023/2023-08-08/readme.md) | [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones) and [List of Hot Ones episodes](https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes) | [*Hot Ones*](https://en.wikipedia.org/wiki/Hot_Ones)|
 | 33 | `2023-08-15` | [Spam E-mail](data/2023/2023-08-15/readme.md) | [Spam e-mail](https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/spam7.html) | [Spam email database](https://archive.ics.uci.edu/dataset/94/spambase)|
 | 34 | `2023-08-22` | [Refugees](data/2023/2023-08-22/readme.md) | [Refugees R package](https://github.com/PopulationStatistics/refugees) | [United Nations High Commissioner for Refugees (UNHCR) Refugee Data Finder](https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html)|
-| 35 | `2023-08-29` | [Refugees](data/2023/2023-08-29/readme.md) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/fair-index.html) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/)|
+| 35 | `2023-08-29` | [Fair Use](data/2023/2023-08-29/readme.md) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/fair-index.html) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/)|
 
 ***  
 
