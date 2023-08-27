@@ -1,6 +1,6 @@
 # Fair Use
 
-The data this week comes from the [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/fair-index.html. 
+The data this week comes from the [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/fair-index.html). 
 
 > Fair use is a longstanding and vital aspect of American copyright law. The goal of the Index is to make the principles and application of fair use more accessible and understandable to the public by presenting a searchable database of court opinions, including by category and type of use (e.g., music, internet/digitization, parody).
 
