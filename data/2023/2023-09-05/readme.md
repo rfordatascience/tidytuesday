@@ -26,9 +26,9 @@ states <- tuesdata$states
 
 # Option 2: Read directly from GitHub
 
-demographics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023- 09-05/demographics.csv')
-wages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023- 09-05/wages.csv')
-states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023- 09-05/states.csv')
+demographics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-05/demographics.csv')
+wages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-05/wages.csv')
+states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-05/states.csv')
 ```
 
 ## How to Participate
@@ -58,7 +58,7 @@ The definition of union membership was expanded in 1977 to include "employee ass
 |members     |double    |Employed workers who are union members in thousands. |
 |covered     |double    |Workers covered by a collective bargaining agreement in thousands. |
 |p_members   |double    |Percent of employed workers who are union members. |
-|p_covered   |double    |Percent of employed workers who are covered y a collective bargaining agreement. |
+|p_covered   |double    |Percent of employed workers who are covered by a collective bargaining agreement. |
 |facet       |character |The sector or demographic group contained in this row of data. |
 
 # `wages.csv`
@@ -89,7 +89,7 @@ Data source: Current Population Survey (CPS) Outgoing Rotation Group (ORG) Earni
 
 |variable           |class     |description        |
 |:------------------|:---------|:------------------|
-|state_census_code  |double    |Census state code  used in CPS |
+|state_census_code  |double    |Census state code used in CPS |
 |state              |character |State name. |
 |sector             |character |Employment sector. |
 |observations       |double    |CPS sample size. |
@@ -97,7 +97,7 @@ Data source: Current Population Survey (CPS) Outgoing Rotation Group (ORG) Earni
 |members     |double    |Employed workers who are union members in thousands. |
 |covered     |double    |Workers covered by a collective bargaining agreement in thousands. |
 |p_members   |double    |Percent of employed workers who are union members. |
-|p_covered   |double    |Percent of employed workers who are covered y a collective bargaining agreement. |
+|p_covered   |double    |Percent of employed workers who are covered by a collective bargaining agreement. |
 |state_abbreviation |character |State abbreviation. |
 |year               |double    |Year of the survey. |
 
