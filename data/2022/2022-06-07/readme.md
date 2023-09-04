@@ -67,7 +67,7 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 ### Data Dictionary
 
 # `pride_aggregates.csv`
-- Pride sponsors who have donated to Anti-LQBTQ Campaigns
+- Pride sponsors who have donated to Anti-LGBTQ Campaigns
 
 |variable                             |class     |description |
 |:------------------------------------|:---------|:-----------|
@@ -77,7 +77,7 @@ donors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 |# of States Where Contributions Made |double    |# of states where contributions were made to anti-LBGTQ    |
 
 # `fortune_aggregates.csv`
-- Fortune 500, Pride sponsors who have donated to Anti-LQBTQ Campaigns
+- Fortune 500, Pride sponsors who have donated to Anti-LGBTQ Campaigns
 
 |variable                             |class     |description |
 |:------------------------------------|:---------|:-----------|
