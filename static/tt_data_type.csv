@@ -1,4 +1,9 @@
 Week,Date,year,data_files,data_type,delim
+37,2023-09-12,2023,all_countries.csv,csv,","
+37,2023-09-12,2023,country_regions.csv,csv,","
+36,2023-09-05,2023,demographics.csv,csv,","
+36,2023-09-05,2023,states.csv,csv,","
+36,2023-09-05,2023,wages.csv,csv,","
 35,2023-08-29,2023,fair_use_cases.csv,csv,","
 35,2023-08-29,2023,fair_use_findings.csv,csv,","
 34,2023-08-22,2023,population.csv,csv,","
