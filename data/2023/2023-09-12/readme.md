@@ -8,6 +8,8 @@ See their [supplementary materials](https://www.pnas.org/doi/10.1073/pnas.221956
 
 The datasets are from the outputData file "all_countries.csv" and inputData "country_regions.csv".
 
+h/t [Data is Plural 2023-07-13 newsletter](https://www.data-is-plural.com/archive/2023-07-12-edition/)
+
 ## The Data
 
 ```{r}
