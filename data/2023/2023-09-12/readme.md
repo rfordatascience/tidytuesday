@@ -4,9 +4,9 @@ The data this week comes from the [The Human Chronome Project](https://www.human
 
 > The daily activities of ≈8 billion people occupy exactly 24 h per day, placing a strict physical limit on what changes can be achieved in the world. These activities form the basis of human behavior, and because of the global integration of societies and economies, many of these activities interact across national borders. This project estimates how all humans spend their time using a generalized, physical outcome–based categorization that facilitates the integration of data from hundreds of diverse datasets. 
 
-See their [supplementary materials](https://www.pnas.org/doi/10.1073/pnas.2219564120#supplementary-materials) for details about their methods and additional visualizations. The [Zenodo dataset](https://zenodo.org/record/8040631) includes the input data and scripts used to create the datasets used in the paper. 
+See their [supplementary materials](https://www.pnas.org/doi/10.1073/pnas.2219564120#supplementary-materials) for details about their methods and additional visualizations. 
 
-The datasets are from the outputData file "all_countries.csv" and inputData "country_regions.csv".
+The [Zenodo dataset](https://zenodo.org/record/8040631) includes the input data and scripts used to create the datasets used in the paper. The datasets are from the outputData file "all_countries.csv", "global_human_day.csv", "global_economic_activity.csv" and inputData "country_regions.csv". The outputData files are aggregated output data from data collected, created from the scripts in the 'scripts' directory.
 
 h/t [Data is Plural 2023-07-13 newsletter](https://www.data-is-plural.com/archive/2023-07-12-edition/) for the dataset.
 
@@ -22,11 +22,15 @@ tuesdata <- tidytuesdayR::tt_load(2023, week = 37)
 
 all_countries <- tuesdata$all_countries
 country_regions <- tuesdata$country_regions
+global_human_day <- tuesdata$global_human_day
+global_economic_activity <- tuesdata$global_economic_activity
 
 # Option 2: Read directly from GitHub
 
 all_countries <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-12/all_countries.csv')
 country_regions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-12/country_regions.csv')
+global_human_day <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-12/global_human_day.csv')
+global_economic_day <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-12/global_economic_day.csv')
 ```
 
 ## How to Participate
@@ -70,6 +74,21 @@ country_regions <- readr::read_csv('https://raw.githubusercontent.com/rfordatasc
 |other_code1       |character |Other country code 1       |
 |other_code2       |character |Other country code 2       |
 
+# `global_human_day.csv`
+
+|variable    |class     |description |
+|:-----------|:---------|:-----------|
+|Subcategory |character |M24 subcategory |
+|hoursPerDay |double    |Hours per day for all countries |
+|uncertainty |double    |Uncertainty in units variance. |
+
+# `global_economic_activity.csv`
+
+|variable    |class     |description |
+|:-----------|:---------|:-----------|
+|Subcategory |character |M24 subcategory |
+|hoursPerDay |double    |Hours per day for all countries. |
+|uncertainty |double    |Uncertainty in units variance. |
 
 ### Cleaning Script
 
