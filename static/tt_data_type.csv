@@ -1,4 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+38,2023-09-19,2023,cran_20230905.csv,csv,","
+38,2023-09-19,2023,package_authors.csv,csv,","
+38,2023-09-19,2023,cran_graph_nodes.csv,csv,","
+38,2023-09-19,2023,cran_graph_edges.csv,csv,","
 37,2023-09-12,2023,all_countries.csv,csv,","
 37,2023-09-12,2023,country_regions.csv,csv,","
 37,2023-09-12,2023,global_human_day.csv,csv,","
