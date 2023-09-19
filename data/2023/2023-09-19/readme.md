@@ -20,7 +20,7 @@ See the [README of the GitHub project](https://github.com/schochastics/CRAN_coll
 
 tuesdata <- tidytuesdayR::tt_load('2023-09-19')
 ## OR
-tuesdata <- tidytuesdayR::tt_load(2023, week = 37)
+tuesdata <- tidytuesdayR::tt_load(2023, week = 38)
 
 cran_20230905 <- tuesdata$cran_20230905
 package_authors <- tuesdata$package_authors
