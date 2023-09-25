@@ -1,6 +1,6 @@
 # Roy Kent F**k count
 
-For Deepsha Menghani's talk on [Data Viz animation and interactivity in Quarto](https://deepshamenghani.github.io/posit_plotly_crosstalk/#/title-slide), she watched each episode of Ted Lasso at 2X speed and diligently noted down every F*bomb and gesture reference, and then made it into an the [richmondway R package](https://github.com/deepshamenghani/richmondway)!
+For Deepsha Menghani's talk on [Data Viz animation and interactivity in Quarto](https://deepshamenghani.github.io/posit_plotly_crosstalk/#/title-slide), she watched each episode of Ted Lasso at 2X speed and diligently noted down every F*bomb and gesture reference, and then made it into the [richmondway R package](https://github.com/deepshamenghani/richmondway)!
 
 What is Ted Lasso and who is Roy Kent? 
 
