@@ -47,7 +47,7 @@ Source Created by Deepsha Menghani by watching the show and counting the number 
 |:-----------------|:---------|:-----------------|
 |Character         |character |Character single value - Roy Kent         |
 |Episode_order     |double    |The order of the episodes from the first to the last    |
-|Season            |double    |The season 1,2 or 3 associated with the count        |
+|Season            |double    |The season 1, 2 or 3 associated with the count        |
 |Episode           |double    |The episode within the season associated with the count          |
 |Season_Episode    |character |Season and episode as a combined variable   |
 |F_count_RK        |double    |Roy Kent's F-ck count in that season and episode     |
