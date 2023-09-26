@@ -40,17 +40,20 @@ If you are a regular contributor, we may be working in a different mode, where t
 
 - The title of the pull request should be informative.
 - Ideally all pull requests should be linked to an issue. If you're considering a pull request not related to an existing issue, please submit an issue for discussion first. See this [guide to writing feature requests](https://github.com/rstudio/rstudio/wiki/Writing-Good-Feature-Requests) for more on how to write a great feature request.
+- If you are fixing a typo or something along those lines, you do not need to create an issue first.
 - With a PR describe what is solved through the PR, and document your code in the style of the project. 
 
 
 ## Expectations for response/review
 
-This project is in Active mode. This means we're reviewing this repository on an XYZ basis. So, you may not hear from us for awhile, but we appreciate your contribution!
+This project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. 
+So, you might not hear from us right away, but we appreciate your contribution! 
 
 We may:
-* ask questions for more clarity
-* add some changes to your pull request and merge
-* explain why this issue or PR isn't right for this project right now
+
+- ask questions for more clarity
+- add some changes to your pull request and merge
+- explain why this issue or PR isn't right for this project right now
 
 ## Governance
 
