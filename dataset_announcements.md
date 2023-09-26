@@ -11,4 +11,4 @@ Data is currently posted at these locations:
 - [GitHub](https://tidytues.day)
 
 Watch the #TidyTuesday, #DataViz, #RStats, and #PyData hashtags on your favorite social media platform!
-As additional APIs become avaiable, we will likely add additional networks, provided those networks support a safe, diverse, welcoming community.
+As additional APIs become available, we will likely add additional networks, provided those networks support a safe, diverse, welcoming community.

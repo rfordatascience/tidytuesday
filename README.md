@@ -84,6 +84,10 @@ Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github
 
 ***
 
+## Goals
+
+ADD GOALS
+
 ## Submitting Datasets
 
 `TidyTuesday` is built around open datasets that are found in the "wild" or submitted as [Issues](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub.
