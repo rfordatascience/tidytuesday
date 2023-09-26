@@ -1,7 +1,10 @@
 ---
 name: Dataset suggestion
 about: Suggest a new dataset for Tidy Tuesday
+labels: dataset
 ---
+
+Please fill out as much of this information as you can! 
 
 - **Dataset name:** 
 - **Dataset download URL:** 

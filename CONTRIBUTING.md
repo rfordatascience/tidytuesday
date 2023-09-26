@@ -20,8 +20,8 @@ If you are a regular contributor, we may be working in a different mode, where t
 
 - Look through [existing dataset suggestions](https://github.com/rfordatascience/tidytuesday/issues?q=is%3Aopen+is%3Aissue+label%3Adataset) to see if the dataset has already been suggested. You may be able to provide more information to an existing suggestion.
 - Provide as much information as you can. We don't need all of this information in the initial issue, but we will need all of it before we can post the dataset (so more is better):
-  - A short name for the dataset ("This week we're exploring DATASET NAME").
-  - A source where the dataset can be downloaded.
+  - A short name for the dataset (to be used in the social media post, "This week we're exploring DATASET NAME").
+  - A source where the dataset can be downloaded (as a URL).
   - Verification that the dataset is publicly available and legal for us to use.
   - A cleaning script to prepare one or more CSVs for the dataset, small enough to be hosted on GitHub. We might need to subset the data, remove redundant columns, or otherwise clean the data to make it small enough and clean enough to use.
   - An example of the dataset being used, such as a blog post or a README about the dataset.
