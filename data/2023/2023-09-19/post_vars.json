@@ -1,0 +1,5 @@
+{
+  "article_link": "https://github.com/schochastics/CRAN_collaboration",
+  "pic1_alt": "A sparse stress graph of CRAN package authors. The graph radiates out from a central set of 200 package authors, with very high density at the center of the graph, out to sparse trees at the edges.",
+  "pic2_alt": "A bar chart of the 'Hadley Number' of CRAN package authors. The x-axis is labeled 'Hadley Number', and ranges from 0 to 10. The y-axis is labeled 'count' and is labeled from 0 to 5000, although the range goes to 5500. About 5400 authors have a Hadley Number of 3, and another 5200 or so have a Hadley number of 2. About 2400 have Hadley Number 4, 1000 have Hadley Number 5, about 700 have Hadley Number 1, and the numbers decrease from about 400 for 6 through 0 for 10."
+}

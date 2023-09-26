@@ -5,6 +5,14 @@
 - `TidyTuesday` is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!
 - `TidyTuesday` is organized by the R4DS Online Learning Community. [Join our Slack](https://r4ds.io/join) for free online help with R and other data-related topics, or to participate in a data-related book club!
 
+## Goals
+
+Our over-arching goal for TidyTuesday is to make learning to work with data easier, by providing real-world datasets.
+
+Our goal for 2023-2024 is to increase usage of #TidyTuesday within classrooms.
+We would like to be used in at least 10 courses by September 2024.
+If you are using TidyTuesday to teach data-related skills, [please let us know](https://forms.gle/G1Y7doYqRU89m9SE8)! 
+
 ***
 
 ## How to Participate
@@ -59,6 +67,8 @@
 | 35 | `2023-08-29` | [Fair Use](data/2023/2023-08-29/readme.md) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/fair-index.html) | [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/)|
 | 36 | `2023-09-05` | [Union Membership in the United States](data/2023/2023-09-05/readme.md) | [Union Membership, Coverage, and Earnings from the CPS](https://www.unionstats.com/) | [Five decades of CPS wages, methods, and union-nonunion wage gaps at Unionstats.com](https://onlinelibrary.wiley.com/doi/10.1111/irel.12330)|
 | 37 | `2023-09-12` | [The Global Human Day](data/2023/2023-09-12/readme.md) | [The Global Human Day dataset](https://zenodo.org/record/8040631) | [The global human day PNAS article](https://www.pnas.org/doi/10.1073/pnas.2219564120#sec-2)|
+| 38 | `2023-09-19` | [CRAN Package Authors](data/2023/2023-09-19/readme.md) | [The CRAN collaboration graph](https://github.com/schochastics/CRAN_collaboration) | [The CRAN collaboration graph README](https://github.com/schochastics/CRAN_collaboration#readme)|
+| 39 | `2023-09-26` | [Roy Kent F**k count](data/2023/2023-09-26/readme.md) | [Deepsha Menghani posit::conf(2023) talk on data visualization and Quarto](https://deepshamenghani.github.io/posit_plotly_crosstalk/#/but-first..-what-is-ted-lasso-and-who-is-roy-kent) | [richmondway dataset](https://github.com/deepshamenghani/richmondway)|
 
 ***  
 
@@ -83,10 +93,6 @@ A BibTeX entry for LaTeX users is
 Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
 
 ***
-
-## Goals
-
-ADD GOALS
 
 ## Submitting Datasets
 

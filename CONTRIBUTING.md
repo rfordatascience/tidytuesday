@@ -1,16 +1,20 @@
 # CONTRIBUTING
 
-Thank you for contributing to this project, whether you have an issue to share or pull request to contribute! We're excited for people to engage with the project, and aim to address issues aligned with the [goals of the project]() and respond to people as we can. 
+Thank you for contributing to this project, whether you have a dataset to share or a pull request to contribute! 
+We're excited for people to engage with the project, and aim to address issues aligned with the [goals of the project](README.md#goals) and respond to people as we can. 
 
-This project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. So, you might not hear from us right away, but we appreciate your contribution! 
+This project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. 
+So, you might not hear from us right away, but we appreciate your contribution! 
 
 Please see our guidelines that let us help you the best for 
+
 - Submitting datasets
 - Submitting issues
 - Submitting pull requests
 - Expectations for response/review
 
-These guidelines are for first time contributors to get you started. If you are a regular contributor, we may be working in a different mode, where the workflow is different. 
+These guidelines are for first-time contributors to get you started. 
+If you are a regular contributor, we may be working in a different mode, where the workflow is different. 
 
 # Submitting datasets
 
