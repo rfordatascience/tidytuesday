@@ -1,6 +1,6 @@
 # Useful links
 
-Here we have gathered links relavent to `TidyTuesday`.
+Here we have gathered links relevant to `TidyTuesday`.
 
 ## Getting Started
 
