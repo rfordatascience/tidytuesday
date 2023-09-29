@@ -39,8 +39,6 @@ grant_opportunity_details <- readr::read_csv('https://raw.githubusercontent.com/
 
 ### Data Dictionary
 
-Source Created by Deepsha Menghani by watching the show and counting the number of F-cks used in sentences and as gestures.
-
 # `grants.csv`
 
 |variable                       |class     |description                    |
@@ -78,7 +76,7 @@ Source Created by Deepsha Menghani by watching the show and counting the number 
 |posted_date                            |date      |When the opportunity was posted |
 |last_updated_date                      |date      |When the opportunity was updated |
 |original_closing_date_for_applications |date      |When the opportunity was originally scheduled to close |
-|current_closing_date_for_applications  |date      |When the opportunity is current scheduled to close |
+|current_closing_date_for_applications  |date      |When the opportunity is currently scheduled to close |
 |archive_date                           |date      |When the opportunity will be archived |
 |estimated_total_program_funding        |double    |Estimated funding amount in dollars |
 |award_ceiling                          |double    |Maximum individual award amount in dollars |
