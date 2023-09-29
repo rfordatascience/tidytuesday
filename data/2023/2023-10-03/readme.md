@@ -89,18 +89,18 @@ grant_opportunity_details <- readr::read_csv('https://raw.githubusercontent.com/
 |eligibility_state_governments          |logical   |Are state governments eligible? |
 |eligibility_county_governments         |logical   |Are county governments eligible? |
 |eligibility_independent_school_districts    |logical   |Are independent school districts eligible? |
-|eligibility_city_or_township_governments    |logical   |Are individuals eligible? |
-|eligibility_special_district_governments    |logical   |Are individuals eligible? |
-|eligibility_native_american_tribal_governments_federally_recognized |logical   |Are individuals eligible? |
-|eligibility_native_american_tribal_organizations_other  |logical   |Are individuals eligible? |
-|eligibility_nonprofits_501c3  |logical   |Are individuals eligible? |
-|eligibility_nonprofits_non_501c3    |logical   |Are individuals eligible? |
-|eligibility_for_profit  |logical   |Are individuals eligible? |
-|eligibility_small_businesses  |logical   |Are individuals eligible? |
-|eligibility_private_institutions_of_higher_education  |logical   |Are individuals eligible? |
-|eligibility_public_institutions_of_higher_education   |logical   |Are individuals eligible? |
-|eligibility_public_indian_housing_authorities   |logical   |Are individuals eligible? |
-|eligibility_others  |logical   |Are individuals eligible? |
+|eligibility_city_or_township_governments    |logical   |Are city or township governments eligible? |
+|eligibility_special_district_governments    |logical   |Are special district governments eligible? |
+|eligibility_native_american_tribal_governments_federally_recognized |logical   |Are Native American tribal governments (Federally recognized) eligible? |
+|eligibility_native_american_tribal_organizations_other  |logical   |Are Native American tribal organizations (other than Federally recognized tribal governments) eligible? |
+|eligibility_nonprofits_501c3  |logical   |Are nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education eligible? |
+|eligibility_nonprofits_non_501c3    |logical   |Are nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education eligible? |
+|eligibility_for_profit  |logical   |Are for profit organizations other than small businesses eligible? |
+|eligibility_small_businesses  |logical   |Are small businesses eligible? |
+|eligibility_private_institutions_of_higher_education  |logical   |Are private institutions of higher education eligible? |
+|eligibility_public_institutions_of_higher_education   |logical   |Are public and State controlled institutions of higher education eligible? |
+|eligibility_public_indian_housing_authorities   |logical   |Are public housing authorities and Indian housing authorities eligible? |
+|eligibility_others  |logical   |Are other groups eligible? |
 |eligibility_unrestricted    |logical   |Is eligibility unrestricted? |
 |additional_information_on_eligibility   |character |Additional details about eligibility |
 |funding_cooperative_agreement   |logical   |Is the opportunity funded via a cooperative agreement? |
@@ -108,30 +108,30 @@ grant_opportunity_details <- readr::read_csv('https://raw.githubusercontent.com/
 |funding_procurement_contract  |logical   |Is the opportunity funded via a procurement contract? |
 |funding_other   |logical   |Is the opportunity funded via some other instrument? |
 |cfda_numbers  |character |Catalog of Federal Domestic Assistance number(s) (see https://sam.gov/content/assistance-listings) |
-|category_agriculture  |logical   |Agriculture |
-|category_arts   |logical   |Arts (see "Cultural Affairs" in CFDA) |
-|category_business   |logical   |Business and Commerce |
-|category_community_development  |logical   |Community Development |
-|category_consumer_protection  |logical   |Consumer Protection |
-|category_disaster   |logical   |Disaster Prevention and Relief |
-|category_education  |logical   |Education |
-|category_employment   |logical   |Employment, Labor and Training |
-|category_energy     |logical   |Energy |
-|category_environment  |logical   |Environment|
-|category_food   |logical   |Food and Nutrition |
-|category_health     |logical   |Health |
-|category_housing    |logical   |Housing |
-|category_humanities   |logical   |Humanities (see "Cultural Affairs" in CFDA) |
-|category_iija   |logical   |Infrastructure Investment and Jobs Act (IIJA) |
-|category_income_security    |logical   |Income Security and Social Services |
-|category_info   |logical   |Information and Statistics |
-|category_law  |logical   |Law, Justice and Legal Services |
-|category_natural_resources  |logical   |Natural Resources |
-|category_opportunity_zone   |logical   |Opportunity Zone Benefits |
-|category_regional_development   |logical   |Regional Development |
-|category_science    |logical   |Science and Technology and other Research and Development |
-|category_transportation     |logical   |Transportation |
-|category_other  |logical   |Other (see category_explanation for clarification) |
+|category_agriculture  |logical   |Category: Agriculture |
+|category_arts   |logical   |Category: Arts (see "Cultural Affairs" in CFDA) |
+|category_business   |logical   |Category: Business and Commerce |
+|category_community_development  |logical   |Category: Community Development |
+|category_consumer_protection  |logical   |Category: Consumer Protection |
+|category_disaster   |logical   |Category: Disaster Prevention and Relief |
+|category_education  |logical   |Category: Education |
+|category_employment   |logical   |Category: Employment, Labor and Training |
+|category_energy     |logical   |Category: Energy |
+|category_environment  |logical   |Category: Environment|
+|category_food   |logical   |Category: Food and Nutrition |
+|category_health     |logical   |Category: Health |
+|category_housing    |logical   |Category: Housing |
+|category_humanities   |logical   |Category: Humanities (see "Cultural Affairs" in CFDA) |
+|category_iija   |logical   |Category: Infrastructure Investment and Jobs Act (IIJA) |
+|category_income_security    |logical   Category: |Income Security and Social Services |
+|category_info   |logical   |Category: Information and Statistics |
+|category_law  |logical   |Category: Law, Justice and Legal Services |
+|category_natural_resources  |logical   |Category: Natural Resources |
+|category_opportunity_zone   |logical   |Category: Opportunity Zone Benefits |
+|category_regional_development   |logical   |Category: Regional Development |
+|category_science    |logical   |Category: Science and Technology and other Research and Development |
+|category_transportation     |logical   |Category: Transportation |
+|category_other  |logical   |Category: Other (see category_explanation for clarification) |
 |category_explanation  |character |More details about the funding category or categories |
 
 ### Cleaning Script
