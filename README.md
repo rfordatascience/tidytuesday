@@ -69,6 +69,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 37 | `2023-09-12` | [The Global Human Day](data/2023/2023-09-12/readme.md) | [The Global Human Day dataset](https://zenodo.org/record/8040631) | [The global human day PNAS article](https://www.pnas.org/doi/10.1073/pnas.2219564120#sec-2)|
 | 38 | `2023-09-19` | [CRAN Package Authors](data/2023/2023-09-19/readme.md) | [The CRAN collaboration graph](https://github.com/schochastics/CRAN_collaboration) | [The CRAN collaboration graph README](https://github.com/schochastics/CRAN_collaboration#readme)|
 | 39 | `2023-09-26` | [Roy Kent F**k count](data/2023/2023-09-26/readme.md) | [Deepsha Menghani posit::conf(2023) talk on data visualization and Quarto](https://deepshamenghani.github.io/posit_plotly_crosstalk/#/but-first..-what-is-ted-lasso-and-who-is-roy-kent) | [richmondway dataset](https://github.com/deepshamenghani/richmondway)|
+| 40 | `2023-10-03` | [US Government Grant Opportunities](data/2023/2023-10-03/readme.md) | [Grants 101 from Grants.gov](https://www.grants.gov/web/grants/learn-grants/grants-101.html) | [Grants.gov Search Export](https://www.grants.gov/web/grants/search-grants.html)|
 
 ***  
 
