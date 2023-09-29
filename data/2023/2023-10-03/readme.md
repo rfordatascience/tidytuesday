@@ -123,7 +123,7 @@ grant_opportunity_details <- readr::read_csv('https://raw.githubusercontent.com/
 |category_housing    |logical   |Category: Housing |
 |category_humanities   |logical   |Category: Humanities (see "Cultural Affairs" in CFDA) |
 |category_iija   |logical   |Category: Infrastructure Investment and Jobs Act (IIJA) |
-|category_income_security    |logical   Category: |Income Security and Social Services |
+|category_income_security    |logical   |Category: Income Security and Social Services |
 |category_info   |logical   |Category: Information and Statistics |
 |category_law  |logical   |Category: Law, Justice and Legal Services |
 |category_natural_resources  |logical   |Category: Natural Resources |
