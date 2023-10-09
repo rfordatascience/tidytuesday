@@ -21,7 +21,7 @@ haunted_places <- tuesdata$haunted_places
 # Option 2: Read directly from GitHub
 
 haunted_places <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-10-03/haunted_places.csv')
-grant_opportunity_details <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-10-03/grant_opportunity_details.csv')
+
 ```
 
 ## How to Participate
