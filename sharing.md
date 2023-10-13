@@ -12,4 +12,4 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 8. Focus on improving your craft, even if you end up with something simple!  
 9. Give credit to the original data source whenever possible.
 
-The [rtoot package](https://schochastics.github.io/rtoot/) is helpful for posting to the [Mastodon social network](https://fosstodon.org/tags/rstats.
+The [rtoot package](https://schochastics.github.io/rtoot/) is helpful for posting to the [Mastodon social network](https://fosstodon.org/tags/rstats).
