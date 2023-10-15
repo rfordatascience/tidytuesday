@@ -71,6 +71,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 39 | `2023-09-26` | [Roy Kent F**k count](data/2023/2023-09-26/readme.md) | [Deepsha Menghani posit::conf(2023) talk on data visualization and Quarto](https://deepshamenghani.github.io/posit_plotly_crosstalk/#/but-first..-what-is-ted-lasso-and-who-is-roy-kent) | [richmondway dataset](https://github.com/deepshamenghani/richmondway)|
 | 40 | `2023-10-03` | [US Government Grant Opportunities](data/2023/2023-10-03/readme.md) | [Grants 101 from Grants.gov](https://www.grants.gov/web/grants/learn-grants/grants-101.html) | [Grants.gov Search Export](https://www.grants.gov/web/grants/search-grants.html)|
 | 41 | `2023-10-10` | [Haunted Places in the United States](data/2023/2023-10-10/readme.md) | [Tim Renner on data.world](https://github.com/timothyrenner/shadowlands-haunted-places) | [Upcoming changes to popular R packages for spatial data: what you need to do](https://geocompx.org/post/2023/rgdal-retirement/index.html)|
+| 42 | `2023-10-17` | [Taylor Swift data](data/2023/2023-10-17/readme.md) | [taylor R package](https://taylor.wjakethompson.com/) | [Taylor Swift data analysis](https://rpubs.com/salvatoremancino/1065547)|
 
 ***  
 
