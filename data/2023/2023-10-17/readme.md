@@ -17,7 +17,7 @@ There are three main datasets.
 
 Information on the audio features in the dataset from Spotify are included in their [API documentation](https://developer.spotify.com/documentation/web-api/reference/get-audio-features).
 
-For your visualizations, the {taylor} package comes with it’s own class of color palettes, inspired by the work of Josiah Parry in the {cpcinema} package.
+For your visualizations, the {taylor} package comes with it’s own class of color palettes, inspired by the work of Josiah Parry in the [{cpcinema}](https://github.com/JosiahParry/cpcinema) package.
 
 You might also be interested in the [tayoRswift package](https://asteves.github.io/tayloRswift/) by Alex Stephenson, a ggplot2 color palette based on Taylor Swift album covers. "For when your colors absolutely should not be excluded from the narrative."
 
