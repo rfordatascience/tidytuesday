@@ -4,7 +4,8 @@ Since [The Eras Tour Film](https://www.tstheerastourfilm.com/) was just released
 
 Are you Ready for It? 
 
-The [taylor](https://taylor.wjakethompson.com/) R package from W. Jake Thompson is a curated data set of Taylor Swift songs, including lyrics and audio characteristics. Data comes Genius and the Spotify API.
+The [taylor](https://taylor.wjakethompson.com/) R package from W. Jake Thompson is a curated data set of Taylor Swift songs, including lyrics and audio characteristics. 
+The data comes from Genius and the Spotify API.
 
 There are three main datasets.
 
