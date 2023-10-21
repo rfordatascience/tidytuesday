@@ -1,4 +1,4 @@
-# Snopes Horrors Section
+# Horror Legends
 
 Happy Halloween! 
 To celebrate, this week we're exploring horror legends from [Snopes.com](https://www.snopes.com/)!
