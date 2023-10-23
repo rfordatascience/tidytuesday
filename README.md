@@ -73,6 +73,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 41 | `2023-10-10` | [Haunted Places in the United States](data/2023/2023-10-10/readme.md) | [Tim Renner on data.world](https://github.com/timothyrenner/shadowlands-haunted-places) | [Upcoming changes to popular R packages for spatial data: what you need to do](https://geocompx.org/post/2023/rgdal-retirement/index.html)|
 | 42 | `2023-10-17` | [Taylor Swift data](data/2023/2023-10-17/readme.md) | [taylor R package](https://taylor.wjakethompson.com/) | [Taylor Swift data analysis](https://rpubs.com/salvatoremancino/1065547)|
 | 43 | `2023-10-24` | [Patient Risk Profiles](data/2023/2023-10-24/readme.md) | [R/Pharma](https://rinpharma.com/) | [R/Pharma](https://rinpharma.com/)|
+| 44 | `2023-10-31` | [Horror Legends](data/2023/2023-10-31/readme.md) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors)|
 
 ***  
 
