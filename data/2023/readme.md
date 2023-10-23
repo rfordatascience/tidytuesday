@@ -48,3 +48,4 @@ Archive of datasets and articles from the 2023 series of `#TidyTuesday` events.
 | 42 | `2023-10-17` | [Taylor Swift data](2023-10-17/readme.md) | [taylor R package](https://taylor.wjakethompson.com/) | [Taylor Swift data analysis](https://rpubs.com/salvatoremancino/1065547)|
 | 43 | `2023-10-24` | [Patient Risk Profiles](2023-10-24/readme.md) | [R/Pharma](https://rinpharma.com/) | [R/Pharma](https://rinpharma.com/)|
 | 44 | `2023-10-31` | [Horror Legends](2023-10-31/readme.md) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors)|
+| 45 | `2023-11-07` | [US House Election Results](2023-11-07/readme.md) | [MIT Election Data and Science Lab](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2) | [New Report: How We Voted in 2022](https://electionlab.mit.edu/articles/new-report-how-we-voted-2022)|
