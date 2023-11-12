@@ -15,11 +15,11 @@ tuesdata <- tidytuesdayR::tt_load('2023-11-14')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2023, week = 46)
 
-house <- tuesdata$diwali-sales-data
+house <- tuesdata$diwali_sales_data
 
 # Option 2: Read directly from GitHub
 
-house <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-11-14/diwali-sales-data.csv')
+house <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-11-14/diwali_sales_data.csv')
 ```
 
 ## How to Participate
@@ -31,7 +31,7 @@ house <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 
 ### Data Dictionary
 
-# `diwali-sales-data.csv`
+# `diwali_sales_data.csv`
 
 |variable         |class     |description      |
 |:----------------|:---------|:----------------|
@@ -60,6 +60,6 @@ diwali_sales_data <- read_csv("DiwaliSalesData.csv")
 
 diwali_sales_data <- diwali_sales_data %>% select(!(c(Status, unnamed1)))
 
-write_csv(diwali_sales_data, "diwali-sales-data.csv")
+write_csv(diwali_sales_data, "diwali_sales_data.csv")
 ```
 
