@@ -86,7 +86,7 @@ taylor_albums <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 |key_name            |character |The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.         |
 |mode_name           |character |Modality of the track.           |
 |key_mode            |character |The key of the track.       |
-|lyrics              |list      |Track lyrics.       |
+|lyrics              |list      |Track lyrics. These values are all NA. To get the lyrics in nested tibbles, `install.packages("taylor")` and use the source data.|
 
 # `taylor_all_songs.csv`
 
@@ -120,7 +120,7 @@ taylor_albums <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 |key_name            |character |The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.         |
 |mode_name           |character |Modality of the track.           |
 |key_mode            |character |The key of the track.       |
-|lyrics              |list      |Track lyrics.       |
+|lyrics              |list      |Track lyrics. These values are all NA. To get the lyrics in nested tibbles, `install.packages("taylor")` and use the source data.|
 
 # `taylor_albums.csv`
 
