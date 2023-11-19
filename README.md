@@ -76,6 +76,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 44 | `2023-10-31` | [Horror Legends](data/2023/2023-10-31/readme.md) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors) | [Snopes Horrors Section](https://www.snopes.com/fact-check/category/horrors)|
 | 45 | `2023-11-07` | [US House Election Results](data/2023/2023-11-07/readme.md) | [MIT Election Data and Science Lab](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2) | [New Report: How We Voted in 2022](https://electionlab.mit.edu/articles/new-report-how-we-voted-2022)|
 | 46 | `2023-11-14` | [Diwali Sales Data](data/2023/2023-11-14/readme.md) | [Diwali sales data](https://www.kaggle.com/datasets/saadharoon27/diwali-sales-dataset) | [Diwali sales data exploration (in Python)](https://www.kaggle.com/code/bhushanshelke69/diwali-data-exploration)|
+| 47 | `2023-11-21` | [R-Ladies Chapter Events](data/2023/2023-11-21/readme.md) | [R-Ladies Chapter Events data](https://github.com/rladies/meetup_archive) | [R-Ladies Chapters: Making talks work for diverse audiences](https://github.com/Fgazzelloni/RLadies-Chapters-Making-Talks-Work-for-Diverse-Audiences/tree/main)|
 
 ***  
 
