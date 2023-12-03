@@ -1,4 +1,4 @@
-Entity,Code,Year,Period life expectancy at birth - Sex: all - Age: 0
+Entity,Code,Year,LifeExpectancy
 Afghanistan,AFG,1950,27.7275
 Afghanistan,AFG,1951,27.9634
 Afghanistan,AFG,1952,28.4456
@@ -53,7 +53,7 @@ Afghanistan,AFG,2000,55.2978
 Afghanistan,AFG,2001,55.7981
 Afghanistan,AFG,2002,56.4538
 Afghanistan,AFG,2003,57.3445
-Afghanistan,AFG,2004,57.9436
+Afghanistan,AFG,2004,57.943600000000004
 Afghanistan,AFG,2005,58.3608
 Afghanistan,AFG,2006,58.6844
 Afghanistan,AFG,2007,59.1113
@@ -71,80 +71,80 @@ Afghanistan,AFG,2018,63.081
 Afghanistan,AFG,2019,63.5645
 Afghanistan,AFG,2020,62.5751
 Afghanistan,AFG,2021,61.9824
-Africa,,1950,37.6235
-Africa,,1951,37.9309
-Africa,,1952,38.443
-Africa,,1953,38.9152
-Africa,,1954,39.2991
-Africa,,1955,39.8008
-Africa,,1956,40.1704
-Africa,,1957,40.0129
-Africa,,1958,40.303
-Africa,,1959,41.2823
-Africa,,1960,41.4816
-Africa,,1961,41.8692
-Africa,,1962,42.3208
-Africa,,1963,42.7767
-Africa,,1964,43.2464
-Africa,,1965,43.4401
-Africa,,1966,43.433
-Africa,,1967,43.6456
-Africa,,1968,44.1023
-Africa,,1969,44.3156
-Africa,,1970,44.7834
-Africa,,1971,45.322
-Africa,,1972,45.4068
-Africa,,1973,46.1543
-Africa,,1974,46.4601
-Africa,,1975,46.903
-Africa,,1976,47.6398
-Africa,,1977,48.1637
-Africa,,1978,48.5646
-Africa,,1979,49.0955
-Africa,,1980,49.5116
-Africa,,1981,49.9137
-Africa,,1982,50.2819
-Africa,,1983,49.5505
-Africa,,1984,49.7051
-Africa,,1985,50.0863
-Africa,,1986,50.5501
-Africa,,1987,50.8954
-Africa,,1988,50.4287
-Africa,,1989,51.6789
-Africa,,1990,51.6467
-Africa,,1991,51.485
-Africa,,1992,51.2365
-Africa,,1993,51.549
-Africa,,1994,50.5156
-Africa,,1995,52.1161
-Africa,,1996,52.128
-Africa,,1997,52.3075
-Africa,,1998,51.8964
-Africa,,1999,52.7745
-Africa,,2000,53.3498
-Africa,,2001,53.6201
-Africa,,2002,53.9987
-Africa,,2003,54.4224
-Africa,,2004,54.8957
-Africa,,2005,55.4669
-Africa,,2006,56.1389
-Africa,,2007,56.73
-Africa,,2008,57.3081
-Africa,,2009,58.0158
-Africa,,2010,58.608
-Africa,,2011,59.2511
-Africa,,2012,59.8106
-Africa,,2013,60.2924
-Africa,,2014,60.7463
-Africa,,2015,61.1288
-Africa,,2016,61.588
-Africa,,2017,61.9858
-Africa,,2018,62.3435
-Africa,,2019,62.688
-Africa,,2020,62.2342
-Africa,,2021,61.6609
-Africa,,1770,26.4
-Africa,,1925,26.4
+Africa,NA,1950,37.6235
+Africa,NA,1951,37.9309
+Africa,NA,1952,38.443
+Africa,NA,1953,38.9152
+Africa,NA,1954,39.2991
+Africa,NA,1955,39.8008
+Africa,NA,1956,40.1704
+Africa,NA,1957,40.0129
+Africa,NA,1958,40.303
+Africa,NA,1959,41.2823
+Africa,NA,1960,41.4816
+Africa,NA,1961,41.8692
+Africa,NA,1962,42.3208
+Africa,NA,1963,42.7767
+Africa,NA,1964,43.2464
+Africa,NA,1965,43.4401
+Africa,NA,1966,43.433
+Africa,NA,1967,43.6456
+Africa,NA,1968,44.1023
+Africa,NA,1969,44.3156
+Africa,NA,1970,44.7834
+Africa,NA,1971,45.322
+Africa,NA,1972,45.4068
+Africa,NA,1973,46.1543
+Africa,NA,1974,46.4601
+Africa,NA,1975,46.903
+Africa,NA,1976,47.6398
+Africa,NA,1977,48.1637
+Africa,NA,1978,48.5646
+Africa,NA,1979,49.0955
+Africa,NA,1980,49.5116
+Africa,NA,1981,49.9137
+Africa,NA,1982,50.2819
+Africa,NA,1983,49.5505
+Africa,NA,1984,49.7051
+Africa,NA,1985,50.0863
+Africa,NA,1986,50.5501
+Africa,NA,1987,50.8954
+Africa,NA,1988,50.4287
+Africa,NA,1989,51.6789
+Africa,NA,1990,51.6467
+Africa,NA,1991,51.485
+Africa,NA,1992,51.2365
+Africa,NA,1993,51.549
+Africa,NA,1994,50.5156
+Africa,NA,1995,52.1161
+Africa,NA,1996,52.128
+Africa,NA,1997,52.3075
+Africa,NA,1998,51.8964
+Africa,NA,1999,52.7745
+Africa,NA,2000,53.3498
+Africa,NA,2001,53.6201
+Africa,NA,2002,53.9987
+Africa,NA,2003,54.4224
+Africa,NA,2004,54.8957
+Africa,NA,2005,55.4669
+Africa,NA,2006,56.1389
+Africa,NA,2007,56.73
+Africa,NA,2008,57.3081
+Africa,NA,2009,58.0158
+Africa,NA,2010,58.608
+Africa,NA,2011,59.2511
+Africa,NA,2012,59.8106
+Africa,NA,2013,60.2924
+Africa,NA,2014,60.7463
+Africa,NA,2015,61.1288
+Africa,NA,2016,61.588
+Africa,NA,2017,61.9858
+Africa,NA,2018,62.3435
+Africa,NA,2019,62.688
+Africa,NA,2020,62.2342
+Africa,NA,2021,61.6609
+Africa,NA,1770,26.4
+Africa,NA,1925,26.4
 Albania,ALB,1950,44.7355
 Albania,ALB,1951,45.1396
 Albania,ALB,1952,45.9788
@@ -364,84 +364,84 @@ American Samoa,ASM,2018,72.4915
 American Samoa,ASM,2019,72.3023
 American Samoa,ASM,2020,72.4432
 American Samoa,ASM,2021,72.5398
-Americas,,1770,34.8
-Americas,,1830,34.8
-Americas,,1850,35.1
-Americas,,1870,35.1
-Americas,,1900,41
-Americas,,1913,45.1
-Americas,,1950,58.116535
-Americas,,1951,58.380806
-Americas,,1952,58.803745
-Americas,,1953,59.247337
-Americas,,1954,59.963135
-Americas,,1955,60.246532
-Americas,,1956,60.603485
-Americas,,1957,60.745056
-Americas,,1958,61.212376
-Americas,,1959,61.558346
-Americas,,1960,61.80732
-Americas,,1961,62.25979
-Americas,,1962,62.41015
-Americas,,1963,62.526306
-Americas,,1964,62.89323
-Americas,,1965,63.09759
-Americas,,1966,63.272923
-Americas,,1967,63.578182
-Americas,,1968,63.6167
-Americas,,1969,63.889507
-Americas,,1970,63.97181
-Americas,,1971,64.60218
-Americas,,1972,64.801865
-Americas,,1973,65.18238
-Americas,,1974,65.608505
-Americas,,1975,66.12243
-Americas,,1976,66.33444
-Americas,,1977,66.80778
-Americas,,1978,67.07002
-Americas,,1979,67.413704
-Americas,,1980,67.60014
-Americas,,1981,68.02618
-Americas,,1982,68.32327
-Americas,,1983,68.70117
-Americas,,1984,68.98525
-Americas,,1985,69.16918
-Americas,,1986,69.55379
-Americas,,1987,69.86552
-Americas,,1988,70.1082
-Americas,,1989,70.418915
-Americas,,1990,70.69617
-Americas,,1991,70.97822
-Americas,,1992,71.280075
-Americas,,1993,71.40328
-Americas,,1994,71.70575
-Americas,,1995,71.9336
-Americas,,1996,72.28241
-Americas,,1997,72.612305
-Americas,,1998,72.821526
-Americas,,1999,73.09786
-Americas,,2000,73.349495
-Americas,,2001,73.56241
-Americas,,2002,73.80509
-Americas,,2003,73.97127
-Americas,,2004,74.324066
-Americas,,2005,74.57749
-Americas,,2006,74.82221
-Americas,,2007,74.99746
-Americas,,2008,75.186874
-Americas,,2009,75.45351
-Americas,,2010,75.345955
-Americas,,2011,75.78988
-Americas,,2012,75.98362
-Americas,,2013,76.15026
-Americas,,2014,76.30933
-Americas,,2015,76.299194
-Americas,,2016,76.26651
-Americas,,2017,76.35949
-Americas,,2018,76.48758
-Americas,,2019,76.66325
-Americas,,2020,74.835236
-Americas,,2021,74.189156
+Americas,NA,1770,34.8
+Americas,NA,1830,34.8
+Americas,NA,1850,35.1
+Americas,NA,1870,35.1
+Americas,NA,1900,41
+Americas,NA,1913,45.1
+Americas,NA,1950,58.116535
+Americas,NA,1951,58.380806
+Americas,NA,1952,58.803745
+Americas,NA,1953,59.247337
+Americas,NA,1954,59.963135
+Americas,NA,1955,60.246532
+Americas,NA,1956,60.603485
+Americas,NA,1957,60.745056
+Americas,NA,1958,61.212376
+Americas,NA,1959,61.558346
+Americas,NA,1960,61.80732
+Americas,NA,1961,62.25979
+Americas,NA,1962,62.41015
+Americas,NA,1963,62.526306
+Americas,NA,1964,62.89323
+Americas,NA,1965,63.09759
+Americas,NA,1966,63.272923
+Americas,NA,1967,63.578182
+Americas,NA,1968,63.6167
+Americas,NA,1969,63.889507
+Americas,NA,1970,63.97181
+Americas,NA,1971,64.60218
+Americas,NA,1972,64.801865
+Americas,NA,1973,65.18238
+Americas,NA,1974,65.608505
+Americas,NA,1975,66.12243
+Americas,NA,1976,66.33444
+Americas,NA,1977,66.80778
+Americas,NA,1978,67.07002
+Americas,NA,1979,67.413704
+Americas,NA,1980,67.60014
+Americas,NA,1981,68.02618
+Americas,NA,1982,68.32327
+Americas,NA,1983,68.70117
+Americas,NA,1984,68.98525
+Americas,NA,1985,69.16918
+Americas,NA,1986,69.55379
+Americas,NA,1987,69.86552
+Americas,NA,1988,70.1082
+Americas,NA,1989,70.418915
+Americas,NA,1990,70.69617
+Americas,NA,1991,70.97822
+Americas,NA,1992,71.280075
+Americas,NA,1993,71.40328
+Americas,NA,1994,71.70575
+Americas,NA,1995,71.9336
+Americas,NA,1996,72.28241
+Americas,NA,1997,72.612305
+Americas,NA,1998,72.821526
+Americas,NA,1999,73.09786
+Americas,NA,2000,73.349495
+Americas,NA,2001,73.56241
+Americas,NA,2002,73.80509
+Americas,NA,2003,73.97127
+Americas,NA,2004,74.324066
+Americas,NA,2005,74.57749
+Americas,NA,2006,74.82221
+Americas,NA,2007,74.99746
+Americas,NA,2008,75.186874
+Americas,NA,2009,75.45351
+Americas,NA,2010,75.345955
+Americas,NA,2011,75.78988
+Americas,NA,2012,75.98362
+Americas,NA,2013,76.15026
+Americas,NA,2014,76.30933
+Americas,NA,2015,76.299194
+Americas,NA,2016,76.26651
+Americas,NA,2017,76.35949
+Americas,NA,2018,76.48758
+Americas,NA,2019,76.66325
+Americas,NA,2020,74.835236
+Americas,NA,2021,74.189156
 Andorra,AND,1950,64.5863
 Andorra,AND,1951,64.2338
 Andorra,AND,1952,67.4204
@@ -962,82 +962,82 @@ Aruba,ABW,2018,76.0715
 Aruba,ABW,2019,76.248
 Aruba,ABW,2020,75.7229
 Aruba,ABW,2021,74.6265
-Asia,,1950,42.024
-Asia,,1951,42.9956
-Asia,,1952,44.2682
-Asia,,1953,44.8774
-Asia,,1954,45.7662
-Asia,,1955,46.3308
-Asia,,1956,46.8386
-Asia,,1957,47.3332
-Asia,,1958,47.8445
-Asia,,1959,44.3113
-Asia,,1960,41.7051
-Asia,,1961,45.3368
-Asia,,1962,49.631
-Asia,,1963,50.2813
-Asia,,1964,50.9491
-Asia,,1965,50.5795
-Asia,,1966,51.4792
-Asia,,1967,52.1418
-Asia,,1968,53.0428
-Asia,,1969,53.6282
-Asia,,1970,53.9314
-Asia,,1971,53.3624
-Asia,,1972,55.2811
-Asia,,1973,55.9197
-Asia,,1974,56.4214
-Asia,,1975,56.6852
-Asia,,1976,57.2105
-Asia,,1977,58.0184
-Asia,,1978,58.5302
-Asia,,1979,59.1162
-Asia,,1980,59.6039
-Asia,,1981,60.1084
-Asia,,1982,60.6145
-Asia,,1983,61.0726
-Asia,,1984,61.5409
-Asia,,1985,61.9822
-Asia,,1986,62.4858
-Asia,,1987,62.938
-Asia,,1988,63.2672
-Asia,,1989,63.7009
-Asia,,1990,64.0389
-Asia,,1991,64.2294
-Asia,,1992,64.7535
-Asia,,1993,65.1086
-Asia,,1994,65.4131
-Asia,,1995,65.6966
-Asia,,1996,65.9998
-Asia,,1997,66.4141
-Asia,,1998,66.8629
-Asia,,1999,67.2127
-Asia,,2000,67.6292
-Asia,,2001,68.1255
-Asia,,2002,68.5285
-Asia,,2003,68.9269
-Asia,,2004,69.1634
-Asia,,2005,69.615
-Asia,,2006,70.0502
-Asia,,2007,70.3458
-Asia,,2008,70.5111
-Asia,,2009,70.9919
-Asia,,2010,71.3472
-Asia,,2011,71.6749
-Asia,,2012,72.0416
-Asia,,2013,72.3901
-Asia,,2014,72.7841
-Asia,,2015,73.1205
-Asia,,2016,73.4446
-Asia,,2017,73.681
-Asia,,2018,73.9909
-Asia,,2019,74.1876
-Asia,,2020,73.7415
-Asia,,2021,72.5321
-Asia,,1770,27.5
-Asia,,1885,27.5
-Asia,,1900,28
-Asia,,1913,28.1
+Asia,NA,1950,42.024
+Asia,NA,1951,42.9956
+Asia,NA,1952,44.2682
+Asia,NA,1953,44.8774
+Asia,NA,1954,45.7662
+Asia,NA,1955,46.3308
+Asia,NA,1956,46.8386
+Asia,NA,1957,47.3332
+Asia,NA,1958,47.8445
+Asia,NA,1959,44.3113
+Asia,NA,1960,41.7051
+Asia,NA,1961,45.3368
+Asia,NA,1962,49.631
+Asia,NA,1963,50.2813
+Asia,NA,1964,50.9491
+Asia,NA,1965,50.5795
+Asia,NA,1966,51.4792
+Asia,NA,1967,52.1418
+Asia,NA,1968,53.0428
+Asia,NA,1969,53.6282
+Asia,NA,1970,53.9314
+Asia,NA,1971,53.3624
+Asia,NA,1972,55.2811
+Asia,NA,1973,55.9197
+Asia,NA,1974,56.4214
+Asia,NA,1975,56.6852
+Asia,NA,1976,57.2105
+Asia,NA,1977,58.0184
+Asia,NA,1978,58.5302
+Asia,NA,1979,59.1162
+Asia,NA,1980,59.6039
+Asia,NA,1981,60.1084
+Asia,NA,1982,60.6145
+Asia,NA,1983,61.0726
+Asia,NA,1984,61.5409
+Asia,NA,1985,61.9822
+Asia,NA,1986,62.4858
+Asia,NA,1987,62.938
+Asia,NA,1988,63.2672
+Asia,NA,1989,63.7009
+Asia,NA,1990,64.0389
+Asia,NA,1991,64.2294
+Asia,NA,1992,64.7535
+Asia,NA,1993,65.1086
+Asia,NA,1994,65.4131
+Asia,NA,1995,65.6966
+Asia,NA,1996,65.9998
+Asia,NA,1997,66.4141
+Asia,NA,1998,66.8629
+Asia,NA,1999,67.2127
+Asia,NA,2000,67.6292
+Asia,NA,2001,68.1255
+Asia,NA,2002,68.5285
+Asia,NA,2003,68.9269
+Asia,NA,2004,69.1634
+Asia,NA,2005,69.615
+Asia,NA,2006,70.0502
+Asia,NA,2007,70.3458
+Asia,NA,2008,70.5111
+Asia,NA,2009,70.9919
+Asia,NA,2010,71.3472
+Asia,NA,2011,71.6749
+Asia,NA,2012,72.0416
+Asia,NA,2013,72.3901
+Asia,NA,2014,72.7841
+Asia,NA,2015,73.1205
+Asia,NA,2016,73.4446
+Asia,NA,2017,73.681
+Asia,NA,2018,73.9909
+Asia,NA,2019,74.1876
+Asia,NA,2020,73.7415
+Asia,NA,2021,72.5321
+Asia,NA,1770,27.5
+Asia,NA,1885,27.5
+Asia,NA,1900,28
+Asia,NA,1913,28.1
 Australia,AUS,1921,60.97
 Australia,AUS,1922,62.83
 Australia,AUS,1923,61.68
@@ -1646,7 +1646,7 @@ Belarus,BLR,2003,68.939
 Belarus,BLR,2004,69.4064
 Belarus,BLR,2005,69.4163
 Belarus,BLR,2006,69.9876
-Belarus,BLR,2007,70.7622
+Belarus,BLR,2007,70.762200000000007
 Belarus,BLR,2008,70.9218
 Belarus,BLR,2009,71.0939
 Belarus,BLR,2010,71.1219
@@ -3280,7 +3280,7 @@ Central African Republic,CAF,1958,38.3536
 Central African Republic,CAF,1959,38.7407
 Central African Republic,CAF,1960,39.236
 Central African Republic,CAF,1961,39.7375
-Central African Republic,CAF,1962,40.2561
+Central African Republic,CAF,1962,40.256100000000004
 Central African Republic,CAF,1963,40.7807
 Central African Republic,CAF,1964,41.3446
 Central African Republic,CAF,1965,41.9288
@@ -3351,7 +3351,7 @@ Chad,TCD,1957,37.6586
 Chad,TCD,1958,37.9348
 Chad,TCD,1959,38.1901
 Chad,TCD,1960,38.3736
-Chad,TCD,1961,38.6311
+Chad,TCD,1961,38.631100000000004
 Chad,TCD,1962,38.8348
 Chad,TCD,1963,39.0723
 Chad,TCD,1964,39.3331
@@ -3420,7 +3420,7 @@ Chile,CHL,1954,54.8288
 Chile,CHL,1955,54.7317
 Chile,CHL,1956,55.6476
 Chile,CHL,1957,55.3177
-Chile,CHL,1958,56.6936
+Chile,CHL,1958,56.693600000000004
 Chile,CHL,1959,56.0064
 Chile,CHL,1960,57.0147
 Chile,CHL,1961,57.5367
@@ -3598,7 +3598,7 @@ Colombia,COL,1968,60.8708
 Colombia,COL,1969,61.2163
 Colombia,COL,1970,61.5694
 Colombia,COL,1971,62.0514
-Colombia,COL,1972,62.5686
+Colombia,COL,1972,62.568600000000004
 Colombia,COL,1973,63.0604
 Colombia,COL,1974,63.6401
 Colombia,COL,1975,64.2702
@@ -4627,7 +4627,7 @@ Denmark,DNK,1982,74.5941
 Denmark,DNK,1983,74.4528
 Denmark,DNK,1984,74.6137
 Denmark,DNK,1985,74.4774
-Denmark,DNK,1986,74.6372
+Denmark,DNK,1986,74.637200000000007
 Denmark,DNK,1987,74.7431
 Denmark,DNK,1988,74.838
 Denmark,DNK,1989,74.8579
@@ -5197,115 +5197,115 @@ El Salvador,SLV,2021,70.7479
 El Salvador,SLV,1920,28
 El Salvador,SLV,1930,29
 El Salvador,SLV,1940,36
-England and Wales,,1841,41.62
-England and Wales,,1842,41.3
-England and Wales,,1843,41.81
-England and Wales,,1844,41.49
-England and Wales,,1845,42.49
-England and Wales,,1846,39.91
-England and Wales,,1847,38.29
-England and Wales,,1848,39.46
-England and Wales,,1849,37.34
-England and Wales,,1850,42.75
-England and Wales,,1851,41.36
-England and Wales,,1852,40.87
-England and Wales,,1853,40.51
-England and Wales,,1854,39.3
-England and Wales,,1855,40.99
-England and Wales,,1856,43.21
-England and Wales,,1857,41.84
-England and Wales,,1858,39.99
-England and Wales,,1859,40.77
-England and Wales,,1860,42.94
-England and Wales,,1861,42.31
-England and Wales,,1862,42.47
-England and Wales,,1863,40.36
-England and Wales,,1864,39.93
-England and Wales,,1865,40.62
-England and Wales,,1866,40.38
-England and Wales,,1867,42.58
-England and Wales,,1868,41.97
-England and Wales,,1869,41.62
-England and Wales,,1870,40.91
-England and Wales,,1871,41.28
-England and Wales,,1872,42.87
-England and Wales,,1873,43.74
-England and Wales,,1874,42.07
-England and Wales,,1875,41.81
-England and Wales,,1876,43.65
-England and Wales,,1877,44.67
-England and Wales,,1878,42.98
-England and Wales,,1879,44.22
-England and Wales,,1880,43.73
-England and Wales,,1881,46.08
-England and Wales,,1882,44.83
-England and Wales,,1883,45.05
-England and Wales,,1884,44.74
-England and Wales,,1885,45.72
-England and Wales,,1886,45.29
-England and Wales,,1887,45.62
-England and Wales,,1888,46.78
-England and Wales,,1889,46.31
-England and Wales,,1890,44.72
-England and Wales,,1891,44.24
-England and Wales,,1892,45.46
-England and Wales,,1893,44.83
-England and Wales,,1894,48.3
-England and Wales,,1895,45.69
-England and Wales,,1896,47.37
-England and Wales,,1897,47.19
-England and Wales,,1898,46.96
-England and Wales,,1899,46.12
-England and Wales,,1900,46.3
-England and Wales,,1901,47.89
-England and Wales,,1902,49.05
-England and Wales,,1903,50.39
-England and Wales,,1904,49.09
-England and Wales,,1905,50.83
-England and Wales,,1906,50.56
-England and Wales,,1907,51.41
-England and Wales,,1908,51.81
-England and Wales,,1909,52.48
-England and Wales,,1910,53.95
-England and Wales,,1911,51.51
-England and Wales,,1912,54.51
-England and Wales,,1913,53.79
-England and Wales,,1914,52
-England and Wales,,1915,48.3
-England and Wales,,1916,48
-England and Wales,,1917,46
-England and Wales,,1918,40.9
-England and Wales,,1919,54.08
-England and Wales,,1920,56.52
-England and Wales,,1921,58.24
-England and Wales,,1922,57.59
-England and Wales,,1923,59.69
-England and Wales,,1924,58.7
-England and Wales,,1925,58.85
-England and Wales,,1926,60.03
-England and Wales,,1927,59.32
-England and Wales,,1928,60.44
-England and Wales,,1929,57.94
-England and Wales,,1930,61.29
-England and Wales,,1931,60.34
-England and Wales,,1932,61.02
-England and Wales,,1933,60.97
-England and Wales,,1934,61.74
-England and Wales,,1935,62.51
-England and Wales,,1936,62.28
-England and Wales,,1937,62.33
-England and Wales,,1938,63.72
-England and Wales,,1939,64.06
-England and Wales,,1940,60.59
-England and Wales,,1941,61.66
-England and Wales,,1942,63.21
-England and Wales,,1943,62.53
-England and Wales,,1944,62.74
-England and Wales,,1945,61.86
-England and Wales,,1946,66.93
-England and Wales,,1947,66.97
-England and Wales,,1948,68.83
-England and Wales,,1949,68.47
+England and Wales,NA,1841,41.62
+England and Wales,NA,1842,41.3
+England and Wales,NA,1843,41.81
+England and Wales,NA,1844,41.49
+England and Wales,NA,1845,42.49
+England and Wales,NA,1846,39.91
+England and Wales,NA,1847,38.29
+England and Wales,NA,1848,39.46
+England and Wales,NA,1849,37.34
+England and Wales,NA,1850,42.75
+England and Wales,NA,1851,41.36
+England and Wales,NA,1852,40.87
+England and Wales,NA,1853,40.51
+England and Wales,NA,1854,39.3
+England and Wales,NA,1855,40.99
+England and Wales,NA,1856,43.21
+England and Wales,NA,1857,41.84
+England and Wales,NA,1858,39.99
+England and Wales,NA,1859,40.77
+England and Wales,NA,1860,42.94
+England and Wales,NA,1861,42.31
+England and Wales,NA,1862,42.47
+England and Wales,NA,1863,40.36
+England and Wales,NA,1864,39.93
+England and Wales,NA,1865,40.62
+England and Wales,NA,1866,40.38
+England and Wales,NA,1867,42.58
+England and Wales,NA,1868,41.97
+England and Wales,NA,1869,41.62
+England and Wales,NA,1870,40.91
+England and Wales,NA,1871,41.28
+England and Wales,NA,1872,42.87
+England and Wales,NA,1873,43.74
+England and Wales,NA,1874,42.07
+England and Wales,NA,1875,41.81
+England and Wales,NA,1876,43.65
+England and Wales,NA,1877,44.67
+England and Wales,NA,1878,42.98
+England and Wales,NA,1879,44.22
+England and Wales,NA,1880,43.73
+England and Wales,NA,1881,46.08
+England and Wales,NA,1882,44.83
+England and Wales,NA,1883,45.05
+England and Wales,NA,1884,44.74
+England and Wales,NA,1885,45.72
+England and Wales,NA,1886,45.29
+England and Wales,NA,1887,45.62
+England and Wales,NA,1888,46.78
+England and Wales,NA,1889,46.31
+England and Wales,NA,1890,44.72
+England and Wales,NA,1891,44.24
+England and Wales,NA,1892,45.46
+England and Wales,NA,1893,44.83
+England and Wales,NA,1894,48.3
+England and Wales,NA,1895,45.69
+England and Wales,NA,1896,47.37
+England and Wales,NA,1897,47.19
+England and Wales,NA,1898,46.96
+England and Wales,NA,1899,46.12
+England and Wales,NA,1900,46.3
+England and Wales,NA,1901,47.89
+England and Wales,NA,1902,49.05
+England and Wales,NA,1903,50.39
+England and Wales,NA,1904,49.09
+England and Wales,NA,1905,50.83
+England and Wales,NA,1906,50.56
+England and Wales,NA,1907,51.41
+England and Wales,NA,1908,51.81
+England and Wales,NA,1909,52.48
+England and Wales,NA,1910,53.95
+England and Wales,NA,1911,51.51
+England and Wales,NA,1912,54.51
+England and Wales,NA,1913,53.79
+England and Wales,NA,1914,52
+England and Wales,NA,1915,48.3
+England and Wales,NA,1916,48
+England and Wales,NA,1917,46
+England and Wales,NA,1918,40.9
+England and Wales,NA,1919,54.08
+England and Wales,NA,1920,56.52
+England and Wales,NA,1921,58.24
+England and Wales,NA,1922,57.59
+England and Wales,NA,1923,59.69
+England and Wales,NA,1924,58.7
+England and Wales,NA,1925,58.85
+England and Wales,NA,1926,60.03
+England and Wales,NA,1927,59.32
+England and Wales,NA,1928,60.44
+England and Wales,NA,1929,57.94
+England and Wales,NA,1930,61.29
+England and Wales,NA,1931,60.34
+England and Wales,NA,1932,61.02
+England and Wales,NA,1933,60.97
+England and Wales,NA,1934,61.74
+England and Wales,NA,1935,62.51
+England and Wales,NA,1936,62.28
+England and Wales,NA,1937,62.33
+England and Wales,NA,1938,63.72
+England and Wales,NA,1939,64.06
+England and Wales,NA,1940,60.59
+England and Wales,NA,1941,61.66
+England and Wales,NA,1942,63.21
+England and Wales,NA,1943,62.53
+England and Wales,NA,1944,62.74
+England and Wales,NA,1945,61.86
+England and Wales,NA,1946,66.93
+England and Wales,NA,1947,66.97
+England and Wales,NA,1948,68.83
+England and Wales,NA,1949,68.47
 Equatorial Guinea,GNQ,1950,39.3245
 Equatorial Guinea,GNQ,1951,39.43
 Equatorial Guinea,GNQ,1952,39.7154
@@ -5576,7 +5576,7 @@ Eswatini,SWZ,1996,53.8727
 Eswatini,SWZ,1997,52.0436
 Eswatini,SWZ,1998,50.3326
 Eswatini,SWZ,1999,48.7331
-Eswatini,SWZ,2000,47.2561
+Eswatini,SWZ,2000,47.256100000000004
 Eswatini,SWZ,2001,45.9751
 Eswatini,SWZ,2002,44.4856
 Eswatini,SWZ,2003,43.3485
@@ -5670,85 +5670,85 @@ Ethiopia,ETH,2018,65.4117
 Ethiopia,ETH,2019,65.8377
 Ethiopia,ETH,2020,65.3705
 Ethiopia,ETH,2021,64.9748
-Europe,,1950,62.8339
-Europe,,1951,62.8139
-Europe,,1952,64.0474
-Europe,,1953,64.6766
-Europe,,1954,65.4561
-Europe,,1955,66.0483
-Europe,,1956,66.9404
-Europe,,1957,66.9463
-Europe,,1958,68.1967
-Europe,,1959,68.1442
-Europe,,1960,68.7532
-Europe,,1961,69.0898
-Europe,,1962,68.8944
-Europe,,1963,69.2004
-Europe,,1964,69.8664
-Europe,,1965,69.7955
-Europe,,1966,70.0242
-Europe,,1967,70.0139
-Europe,,1968,69.9132
-Europe,,1969,69.6398
-Europe,,1970,69.9716
-Europe,,1971,70.1067
-Europe,,1972,70.3388
-Europe,,1973,70.4014
-Europe,,1974,70.6441
-Europe,,1975,70.5324
-Europe,,1976,70.6257
-Europe,,1977,70.8735
-Europe,,1978,70.8856
-Europe,,1979,70.9521
-Europe,,1980,70.9463
-Europe,,1981,71.2414
-Europe,,1982,71.5347
-Europe,,1983,71.4905
-Europe,,1984,71.6044
-Europe,,1985,71.7494
-Europe,,1986,72.524
-Europe,,1987,72.702
-Europe,,1988,72.8128
-Europe,,1989,72.9362
-Europe,,1990,72.8843
-Europe,,1991,72.869
-Europe,,1992,72.6774
-Europe,,1993,72.0794
-Europe,,1994,72.0876
-Europe,,1995,72.1867
-Europe,,1996,72.7376
-Europe,,1997,73.248
-Europe,,1998,73.5686
-Europe,,1999,73.3644
-Europe,,2000,73.5229
-Europe,,2001,73.7801
-Europe,,2002,73.7608
-Europe,,2003,73.8379
-Europe,,2004,74.3786
-Europe,,2005,74.5083
-Europe,,2006,75.1649
-Europe,,2007,75.5532
-Europe,,2008,75.8491
-Europe,,2009,76.2941
-Europe,,2010,76.5463
-Europe,,2011,77.0825
-Europe,,2012,77.253
-Europe,,2013,77.5811
-Europe,,2014,77.9223
-Europe,,2015,77.9916
-Europe,,2016,78.4272
-Europe,,2017,78.6625
-Europe,,2018,78.7879
-Europe,,2019,79.1221
-Europe,,2020,77.7401
-Europe,,2021,77.0336
-Europe,,1770,34.3
-Europe,,1800,33.3
-Europe,,1820,35.6
-Europe,,1850,36.3
-Europe,,1870,36.2
-Europe,,1900,42.7
-Europe,,1913,46.8
+Europe,NA,1950,62.8339
+Europe,NA,1951,62.8139
+Europe,NA,1952,64.0474
+Europe,NA,1953,64.6766
+Europe,NA,1954,65.4561
+Europe,NA,1955,66.0483
+Europe,NA,1956,66.9404
+Europe,NA,1957,66.9463
+Europe,NA,1958,68.1967
+Europe,NA,1959,68.1442
+Europe,NA,1960,68.7532
+Europe,NA,1961,69.0898
+Europe,NA,1962,68.8944
+Europe,NA,1963,69.2004
+Europe,NA,1964,69.8664
+Europe,NA,1965,69.7955
+Europe,NA,1966,70.0242
+Europe,NA,1967,70.0139
+Europe,NA,1968,69.9132
+Europe,NA,1969,69.6398
+Europe,NA,1970,69.9716
+Europe,NA,1971,70.1067
+Europe,NA,1972,70.3388
+Europe,NA,1973,70.4014
+Europe,NA,1974,70.6441
+Europe,NA,1975,70.5324
+Europe,NA,1976,70.6257
+Europe,NA,1977,70.8735
+Europe,NA,1978,70.8856
+Europe,NA,1979,70.9521
+Europe,NA,1980,70.9463
+Europe,NA,1981,71.2414
+Europe,NA,1982,71.5347
+Europe,NA,1983,71.4905
+Europe,NA,1984,71.6044
+Europe,NA,1985,71.7494
+Europe,NA,1986,72.524
+Europe,NA,1987,72.702
+Europe,NA,1988,72.8128
+Europe,NA,1989,72.9362
+Europe,NA,1990,72.8843
+Europe,NA,1991,72.869
+Europe,NA,1992,72.6774
+Europe,NA,1993,72.0794
+Europe,NA,1994,72.0876
+Europe,NA,1995,72.1867
+Europe,NA,1996,72.7376
+Europe,NA,1997,73.248
+Europe,NA,1998,73.5686
+Europe,NA,1999,73.3644
+Europe,NA,2000,73.5229
+Europe,NA,2001,73.7801
+Europe,NA,2002,73.7608
+Europe,NA,2003,73.8379
+Europe,NA,2004,74.3786
+Europe,NA,2005,74.5083
+Europe,NA,2006,75.1649
+Europe,NA,2007,75.5532
+Europe,NA,2008,75.8491
+Europe,NA,2009,76.2941
+Europe,NA,2010,76.5463
+Europe,NA,2011,77.0825
+Europe,NA,2012,77.253
+Europe,NA,2013,77.5811
+Europe,NA,2014,77.9223
+Europe,NA,2015,77.9916
+Europe,NA,2016,78.4272
+Europe,NA,2017,78.6625
+Europe,NA,2018,78.7879
+Europe,NA,2019,79.1221
+Europe,NA,2020,77.7401
+Europe,NA,2021,77.0336
+Europe,NA,1770,34.3
+Europe,NA,1800,33.3
+Europe,NA,1820,35.6
+Europe,NA,1850,36.3
+Europe,NA,1870,36.2
+Europe,NA,1900,42.7
+Europe,NA,1913,46.8
 Falkland Islands,FLK,1950,49.054
 Falkland Islands,FLK,1951,49.2589
 Falkland Islands,FLK,1952,50.0029
@@ -7034,7 +7034,7 @@ Greenland,GRL,1979,63.3623
 Greenland,GRL,1980,63.4223
 Greenland,GRL,1981,63.5555
 Greenland,GRL,1982,63.4703
-Greenland,GRL,1983,63.2561
+Greenland,GRL,1983,63.256100000000004
 Greenland,GRL,1984,63.3268
 Greenland,GRL,1985,63.5982
 Greenland,GRL,1986,63.9398
@@ -7139,7 +7139,7 @@ Grenada,GRD,2012,75.0416
 Grenada,GRD,2013,75.1161
 Grenada,GRD,2014,74.985
 Grenada,GRD,2015,75.0125
-Grenada,GRD,2016,74.7622
+Grenada,GRD,2016,74.762200000000007
 Grenada,GRD,2017,74.7652
 Grenada,GRD,2018,74.8076
 Grenada,GRD,2019,74.8632
@@ -7560,7 +7560,7 @@ Guinea-Bissau,GNB,1995,48.9516
 Guinea-Bissau,GNB,1996,49.0648
 Guinea-Bissau,GNB,1997,47.9974
 Guinea-Bissau,GNB,1998,47.7161
-Guinea-Bissau,GNB,1999,48.0061
+Guinea-Bissau,GNB,1999,48.006100000000004
 Guinea-Bissau,GNB,2000,50.1209
 Guinea-Bissau,GNB,2001,50.445
 Guinea-Bissau,GNB,2002,50.9855
@@ -7730,78 +7730,78 @@ Haiti,HTI,2018,64.0188
 Haiti,HTI,2019,64.2546
 Haiti,HTI,2020,64.0518
 Haiti,HTI,2021,63.1924
-High-income countries,,1950,61.5421
-High-income countries,,1951,62.5624
-High-income countries,,1952,64.3204
-High-income countries,,1953,64.9871
-High-income countries,,1954,65.9261
-High-income countries,,1955,66.3525
-High-income countries,,1956,66.5681
-High-income countries,,1957,66.6088
-High-income countries,,1958,67.5345
-High-income countries,,1959,67.6806
-High-income countries,,1960,68.0259
-High-income countries,,1961,68.4508
-High-income countries,,1962,68.4047
-High-income countries,,1963,68.6483
-High-income countries,,1964,69.2273
-High-income countries,,1965,69.3364
-High-income countries,,1966,69.6036
-High-income countries,,1967,69.8865
-High-income countries,,1968,69.813
-High-income countries,,1969,69.865
-High-income countries,,1970,70.231
-High-income countries,,1971,70.5412
-High-income countries,,1972,70.8229
-High-income countries,,1973,70.9945
-High-income countries,,1974,71.3969
-High-income countries,,1975,71.6482
-High-income countries,,1976,71.9129
-High-income countries,,1977,72.3223
-High-income countries,,1978,72.5076
-High-income countries,,1979,72.8797
-High-income countries,,1980,72.8925
-High-income countries,,1981,73.3301
-High-income countries,,1982,73.6572
-High-income countries,,1983,73.7137
-High-income countries,,1984,74.0913
-High-income countries,,1985,74.1483
-High-income countries,,1986,74.4238
-High-income countries,,1987,74.7184
-High-income countries,,1988,74.8671
-High-income countries,,1989,75.0863
-High-income countries,,1990,75.2892
-High-income countries,,1991,75.4748
-High-income countries,,1992,75.7703
-High-income countries,,1993,75.8256
-High-income countries,,1994,76.1382
-High-income countries,,1995,76.2362
-High-income countries,,1996,76.5579
-High-income countries,,1997,76.9059
-High-income countries,,1998,77.1132
-High-income countries,,1999,77.2578
-High-income countries,,2000,77.6258
-High-income countries,,2001,77.9016
-High-income countries,,2002,78.0455
-High-income countries,,2003,78.1265
-High-income countries,,2004,78.5874
-High-income countries,,2005,78.6936
-High-income countries,,2006,79.0584
-High-income countries,,2007,79.2614
-High-income countries,,2008,79.4636
-High-income countries,,2009,79.764
-High-income countries,,2010,79.9826
-High-income countries,,2011,80.1548
-High-income countries,,2012,80.284
-High-income countries,,2013,80.4795
-High-income countries,,2014,80.7093
-High-income countries,,2015,80.6011
-High-income countries,,2016,80.8003
-High-income countries,,2017,80.842
-High-income countries,,2018,80.9854
-High-income countries,,2019,81.2152
-High-income countries,,2020,80.3735
-High-income countries,,2021,80.2685
+High-income countries,NA,1950,61.5421
+High-income countries,NA,1951,62.5624
+High-income countries,NA,1952,64.3204
+High-income countries,NA,1953,64.9871
+High-income countries,NA,1954,65.9261
+High-income countries,NA,1955,66.3525
+High-income countries,NA,1956,66.5681
+High-income countries,NA,1957,66.6088
+High-income countries,NA,1958,67.5345
+High-income countries,NA,1959,67.6806
+High-income countries,NA,1960,68.0259
+High-income countries,NA,1961,68.4508
+High-income countries,NA,1962,68.4047
+High-income countries,NA,1963,68.6483
+High-income countries,NA,1964,69.2273
+High-income countries,NA,1965,69.3364
+High-income countries,NA,1966,69.6036
+High-income countries,NA,1967,69.8865
+High-income countries,NA,1968,69.813
+High-income countries,NA,1969,69.865
+High-income countries,NA,1970,70.231
+High-income countries,NA,1971,70.5412
+High-income countries,NA,1972,70.8229
+High-income countries,NA,1973,70.9945
+High-income countries,NA,1974,71.3969
+High-income countries,NA,1975,71.6482
+High-income countries,NA,1976,71.9129
+High-income countries,NA,1977,72.3223
+High-income countries,NA,1978,72.5076
+High-income countries,NA,1979,72.8797
+High-income countries,NA,1980,72.8925
+High-income countries,NA,1981,73.3301
+High-income countries,NA,1982,73.6572
+High-income countries,NA,1983,73.7137
+High-income countries,NA,1984,74.0913
+High-income countries,NA,1985,74.1483
+High-income countries,NA,1986,74.4238
+High-income countries,NA,1987,74.7184
+High-income countries,NA,1988,74.8671
+High-income countries,NA,1989,75.0863
+High-income countries,NA,1990,75.2892
+High-income countries,NA,1991,75.4748
+High-income countries,NA,1992,75.7703
+High-income countries,NA,1993,75.8256
+High-income countries,NA,1994,76.1382
+High-income countries,NA,1995,76.2362
+High-income countries,NA,1996,76.5579
+High-income countries,NA,1997,76.9059
+High-income countries,NA,1998,77.1132
+High-income countries,NA,1999,77.2578
+High-income countries,NA,2000,77.6258
+High-income countries,NA,2001,77.9016
+High-income countries,NA,2002,78.0455
+High-income countries,NA,2003,78.1265
+High-income countries,NA,2004,78.5874
+High-income countries,NA,2005,78.6936
+High-income countries,NA,2006,79.0584
+High-income countries,NA,2007,79.2614
+High-income countries,NA,2008,79.4636
+High-income countries,NA,2009,79.764
+High-income countries,NA,2010,79.9826
+High-income countries,NA,2011,80.1548
+High-income countries,NA,2012,80.284
+High-income countries,NA,2013,80.4795
+High-income countries,NA,2014,80.7093
+High-income countries,NA,2015,80.6011
+High-income countries,NA,2016,80.8003
+High-income countries,NA,2017,80.842
+High-income countries,NA,2018,80.9854
+High-income countries,NA,2019,81.2152
+High-income countries,NA,2020,80.3735
+High-income countries,NA,2021,80.2685
 Honduras,HND,1950,42.735
 Honduras,HND,1951,42.8709
 Honduras,HND,1952,43.3148
@@ -8273,7 +8273,7 @@ India,IND,2008,66.149
 India,IND,2009,66.5132
 India,IND,2010,66.9086
 India,IND,2011,67.359
-India,IND,2012,67.8872
+India,IND,2012,67.887200000000007
 India,IND,2013,68.4598
 India,IND,2014,69.0736
 India,IND,2015,69.6363
@@ -9428,7 +9428,7 @@ Kiribati,KIR,1957,46.6837
 Kiribati,KIR,1958,47.0155
 Kiribati,KIR,1959,47.4085
 Kiribati,KIR,1960,47.8728
-Kiribati,KIR,1961,48.3811
+Kiribati,KIR,1961,48.381100000000004
 Kiribati,KIR,1962,48.9602
 Kiribati,KIR,1963,49.6238
 Kiribati,KIR,1964,50.3233
@@ -9589,7 +9589,7 @@ Kuwait,KWT,1974,67.9298
 Kuwait,KWT,1975,67.8922
 Kuwait,KWT,1976,68.2063
 Kuwait,KWT,1977,68.5845
-Kuwait,KWT,1978,69.0122
+Kuwait,KWT,1978,69.012200000000007
 Kuwait,KWT,1979,69.677
 Kuwait,KWT,1980,70.3411
 Kuwait,KWT,1981,71.0811
@@ -9637,7 +9637,7 @@ Kuwait,KWT,1908,26
 Kyrgyzstan,KGZ,1950,52.4668
 Kyrgyzstan,KGZ,1951,52.5878
 Kyrgyzstan,KGZ,1952,52.918
-Kyrgyzstan,KGZ,1953,53.0686
+Kyrgyzstan,KGZ,1953,53.068600000000004
 Kyrgyzstan,KGZ,1954,53.3739
 Kyrgyzstan,KGZ,1955,53.6641
 Kyrgyzstan,KGZ,1956,53.9704
@@ -9706,78 +9706,78 @@ Kyrgyzstan,KGZ,2018,70.728
 Kyrgyzstan,KGZ,2019,71.2301
 Kyrgyzstan,KGZ,2020,69.6291
 Kyrgyzstan,KGZ,2021,69.9774
-Land-locked Developing Countries (LLDC),,1950,39.4836
-Land-locked Developing Countries (LLDC),,1951,39.7985
-Land-locked Developing Countries (LLDC),,1952,40.2089
-Land-locked Developing Countries (LLDC),,1953,40.6129
-Land-locked Developing Countries (LLDC),,1954,40.9987
-Land-locked Developing Countries (LLDC),,1955,41.4098
-Land-locked Developing Countries (LLDC),,1956,41.8012
-Land-locked Developing Countries (LLDC),,1957,40.886
-Land-locked Developing Countries (LLDC),,1958,41.2702
-Land-locked Developing Countries (LLDC),,1959,42.9791
-Land-locked Developing Countries (LLDC),,1960,43.3855
-Land-locked Developing Countries (LLDC),,1961,43.8382
-Land-locked Developing Countries (LLDC),,1962,44.2265
-Land-locked Developing Countries (LLDC),,1963,44.4622
-Land-locked Developing Countries (LLDC),,1964,45.032
-Land-locked Developing Countries (LLDC),,1965,45.1144
-Land-locked Developing Countries (LLDC),,1966,44.7641
-Land-locked Developing Countries (LLDC),,1967,45.4924
-Land-locked Developing Countries (LLDC),,1968,45.7305
-Land-locked Developing Countries (LLDC),,1969,45.9128
-Land-locked Developing Countries (LLDC),,1970,46.1592
-Land-locked Developing Countries (LLDC),,1971,46.4167
-Land-locked Developing Countries (LLDC),,1972,45.8912
-Land-locked Developing Countries (LLDC),,1973,46.7321
-Land-locked Developing Countries (LLDC),,1974,46.6755
-Land-locked Developing Countries (LLDC),,1975,46.9242
-Land-locked Developing Countries (LLDC),,1976,47.7069
-Land-locked Developing Countries (LLDC),,1977,47.9663
-Land-locked Developing Countries (LLDC),,1978,48.1405
-Land-locked Developing Countries (LLDC),,1979,48.5353
-Land-locked Developing Countries (LLDC),,1980,48.9473
-Land-locked Developing Countries (LLDC),,1981,49.4773
-Land-locked Developing Countries (LLDC),,1982,49.7332
-Land-locked Developing Countries (LLDC),,1983,48.1001
-Land-locked Developing Countries (LLDC),,1984,47.981
-Land-locked Developing Countries (LLDC),,1985,48.4865
-Land-locked Developing Countries (LLDC),,1986,49.2029
-Land-locked Developing Countries (LLDC),,1987,50.5464
-Land-locked Developing Countries (LLDC),,1988,49.9685
-Land-locked Developing Countries (LLDC),,1989,51.38
-Land-locked Developing Countries (LLDC),,1990,51.246
-Land-locked Developing Countries (LLDC),,1991,51.5154
-Land-locked Developing Countries (LLDC),,1992,51.1122
-Land-locked Developing Countries (LLDC),,1993,51.0153
-Land-locked Developing Countries (LLDC),,1994,48.1917
-Land-locked Developing Countries (LLDC),,1995,51.9796
-Land-locked Developing Countries (LLDC),,1996,52.1104
-Land-locked Developing Countries (LLDC),,1997,52.315
-Land-locked Developing Countries (LLDC),,1998,51.7472
-Land-locked Developing Countries (LLDC),,1999,52.9955
-Land-locked Developing Countries (LLDC),,2000,53.5791
-Land-locked Developing Countries (LLDC),,2001,53.9245
-Land-locked Developing Countries (LLDC),,2002,54.5475
-Land-locked Developing Countries (LLDC),,2003,55.2809
-Land-locked Developing Countries (LLDC),,2004,56.0211
-Land-locked Developing Countries (LLDC),,2005,56.6869
-Land-locked Developing Countries (LLDC),,2006,57.4662
-Land-locked Developing Countries (LLDC),,2007,58.192
-Land-locked Developing Countries (LLDC),,2008,58.9636
-Land-locked Developing Countries (LLDC),,2009,59.6964
-Land-locked Developing Countries (LLDC),,2010,60.4286
-Land-locked Developing Countries (LLDC),,2011,61.1749
-Land-locked Developing Countries (LLDC),,2012,61.8342
-Land-locked Developing Countries (LLDC),,2013,62.4491
-Land-locked Developing Countries (LLDC),,2014,62.9001
-Land-locked Developing Countries (LLDC),,2015,63.3501
-Land-locked Developing Countries (LLDC),,2016,63.9259
-Land-locked Developing Countries (LLDC),,2017,64.2752
-Land-locked Developing Countries (LLDC),,2018,64.631
-Land-locked Developing Countries (LLDC),,2019,64.9831
-Land-locked Developing Countries (LLDC),,2020,64.0608
-Land-locked Developing Countries (LLDC),,2021,63.7099
+Land-locked Developing Countries (LLDC),NA,1950,39.4836
+Land-locked Developing Countries (LLDC),NA,1951,39.7985
+Land-locked Developing Countries (LLDC),NA,1952,40.2089
+Land-locked Developing Countries (LLDC),NA,1953,40.6129
+Land-locked Developing Countries (LLDC),NA,1954,40.9987
+Land-locked Developing Countries (LLDC),NA,1955,41.4098
+Land-locked Developing Countries (LLDC),NA,1956,41.8012
+Land-locked Developing Countries (LLDC),NA,1957,40.886
+Land-locked Developing Countries (LLDC),NA,1958,41.2702
+Land-locked Developing Countries (LLDC),NA,1959,42.9791
+Land-locked Developing Countries (LLDC),NA,1960,43.3855
+Land-locked Developing Countries (LLDC),NA,1961,43.8382
+Land-locked Developing Countries (LLDC),NA,1962,44.2265
+Land-locked Developing Countries (LLDC),NA,1963,44.4622
+Land-locked Developing Countries (LLDC),NA,1964,45.032
+Land-locked Developing Countries (LLDC),NA,1965,45.1144
+Land-locked Developing Countries (LLDC),NA,1966,44.7641
+Land-locked Developing Countries (LLDC),NA,1967,45.4924
+Land-locked Developing Countries (LLDC),NA,1968,45.7305
+Land-locked Developing Countries (LLDC),NA,1969,45.9128
+Land-locked Developing Countries (LLDC),NA,1970,46.1592
+Land-locked Developing Countries (LLDC),NA,1971,46.4167
+Land-locked Developing Countries (LLDC),NA,1972,45.8912
+Land-locked Developing Countries (LLDC),NA,1973,46.7321
+Land-locked Developing Countries (LLDC),NA,1974,46.6755
+Land-locked Developing Countries (LLDC),NA,1975,46.9242
+Land-locked Developing Countries (LLDC),NA,1976,47.7069
+Land-locked Developing Countries (LLDC),NA,1977,47.9663
+Land-locked Developing Countries (LLDC),NA,1978,48.1405
+Land-locked Developing Countries (LLDC),NA,1979,48.5353
+Land-locked Developing Countries (LLDC),NA,1980,48.9473
+Land-locked Developing Countries (LLDC),NA,1981,49.4773
+Land-locked Developing Countries (LLDC),NA,1982,49.7332
+Land-locked Developing Countries (LLDC),NA,1983,48.1001
+Land-locked Developing Countries (LLDC),NA,1984,47.981
+Land-locked Developing Countries (LLDC),NA,1985,48.4865
+Land-locked Developing Countries (LLDC),NA,1986,49.2029
+Land-locked Developing Countries (LLDC),NA,1987,50.5464
+Land-locked Developing Countries (LLDC),NA,1988,49.9685
+Land-locked Developing Countries (LLDC),NA,1989,51.38
+Land-locked Developing Countries (LLDC),NA,1990,51.246
+Land-locked Developing Countries (LLDC),NA,1991,51.5154
+Land-locked Developing Countries (LLDC),NA,1992,51.1122
+Land-locked Developing Countries (LLDC),NA,1993,51.0153
+Land-locked Developing Countries (LLDC),NA,1994,48.1917
+Land-locked Developing Countries (LLDC),NA,1995,51.9796
+Land-locked Developing Countries (LLDC),NA,1996,52.1104
+Land-locked Developing Countries (LLDC),NA,1997,52.315
+Land-locked Developing Countries (LLDC),NA,1998,51.7472
+Land-locked Developing Countries (LLDC),NA,1999,52.9955
+Land-locked Developing Countries (LLDC),NA,2000,53.5791
+Land-locked Developing Countries (LLDC),NA,2001,53.9245
+Land-locked Developing Countries (LLDC),NA,2002,54.5475
+Land-locked Developing Countries (LLDC),NA,2003,55.2809
+Land-locked Developing Countries (LLDC),NA,2004,56.0211
+Land-locked Developing Countries (LLDC),NA,2005,56.6869
+Land-locked Developing Countries (LLDC),NA,2006,57.4662
+Land-locked Developing Countries (LLDC),NA,2007,58.192
+Land-locked Developing Countries (LLDC),NA,2008,58.9636
+Land-locked Developing Countries (LLDC),NA,2009,59.6964
+Land-locked Developing Countries (LLDC),NA,2010,60.4286
+Land-locked Developing Countries (LLDC),NA,2011,61.1749
+Land-locked Developing Countries (LLDC),NA,2012,61.8342
+Land-locked Developing Countries (LLDC),NA,2013,62.4491
+Land-locked Developing Countries (LLDC),NA,2014,62.9001
+Land-locked Developing Countries (LLDC),NA,2015,63.3501
+Land-locked Developing Countries (LLDC),NA,2016,63.9259
+Land-locked Developing Countries (LLDC),NA,2017,64.2752
+Land-locked Developing Countries (LLDC),NA,2018,64.631
+Land-locked Developing Countries (LLDC),NA,2019,64.9831
+Land-locked Developing Countries (LLDC),NA,2020,64.0608
+Land-locked Developing Countries (LLDC),NA,2021,63.7099
 Laos,LAO,1950,38.6957
 Laos,LAO,1951,38.7391
 Laos,LAO,1952,39.0487
@@ -9850,78 +9850,78 @@ Laos,LAO,2018,67.6341
 Laos,LAO,2019,68.1382
 Laos,LAO,2020,68.4968
 Laos,LAO,2021,68.0608
-Latin America and the Caribbean,,1950,48.5587
-Latin America and the Caribbean,,1951,49.0456
-Latin America and the Caribbean,,1952,49.7732
-Latin America and the Caribbean,,1953,50.3947
-Latin America and the Caribbean,,1954,51.1016
-Latin America and the Caribbean,,1955,51.6586
-Latin America and the Caribbean,,1956,52.3391
-Latin America and the Caribbean,,1957,52.867
-Latin America and the Caribbean,,1958,53.5489
-Latin America and the Caribbean,,1959,54.073
-Latin America and the Caribbean,,1960,54.6554
-Latin America and the Caribbean,,1961,55.2229
-Latin America and the Caribbean,,1962,55.692
-Latin America and the Caribbean,,1963,56.1194
-Latin America and the Caribbean,,1964,56.6476
-Latin America and the Caribbean,,1965,57.057
-Latin America and the Caribbean,,1966,57.4856
-Latin America and the Caribbean,,1967,57.8762
-Latin America and the Caribbean,,1968,58.2486
-Latin America and the Caribbean,,1969,58.5994
-Latin America and the Caribbean,,1970,58.6098
-Latin America and the Caribbean,,1971,59.5052
-Latin America and the Caribbean,,1972,59.8733
-Latin America and the Caribbean,,1973,60.4398
-Latin America and the Caribbean,,1974,60.8618
-Latin America and the Caribbean,,1975,61.4061
-Latin America and the Caribbean,,1976,61.6083
-Latin America and the Caribbean,,1977,62.2139
-Latin America and the Caribbean,,1978,62.578
-Latin America and the Caribbean,,1979,62.9213
-Latin America and the Caribbean,,1980,63.332
-Latin America and the Caribbean,,1981,63.8252
-Latin America and the Caribbean,,1982,64.1392
-Latin America and the Caribbean,,1983,64.7356
-Latin America and the Caribbean,,1984,65.1563
-Latin America and the Caribbean,,1985,65.5124
-Latin America and the Caribbean,,1986,66.1232
-Latin America and the Caribbean,,1987,66.5712
-Latin America and the Caribbean,,1988,67.0052
-Latin America and the Caribbean,,1989,67.3603
-Latin America and the Caribbean,,1990,67.6589
-Latin America and the Caribbean,,1991,68.0346
-Latin America and the Caribbean,,1992,68.3768
-Latin America and the Caribbean,,1993,68.7119
-Latin America and the Caribbean,,1994,69.1057
-Latin America and the Caribbean,,1995,69.4126
-Latin America and the Caribbean,,1996,69.7927
-Latin America and the Caribbean,,1997,70.1438
-Latin America and the Caribbean,,1998,70.3878
-Latin America and the Caribbean,,1999,70.8212
-Latin America and the Caribbean,,2000,71.1372
-Latin America and the Caribbean,,2001,71.408
-Latin America and the Caribbean,,2002,71.7569
-Latin America and the Caribbean,,2003,71.9366
-Latin America and the Caribbean,,2004,72.2702
-Latin America and the Caribbean,,2005,72.6734
-Latin America and the Caribbean,,2006,72.8935
-Latin America and the Caribbean,,2007,73.0341
-Latin America and the Caribbean,,2008,73.2759
-Latin America and the Caribbean,,2009,73.4868
-Latin America and the Caribbean,,2010,73.1946
-Latin America and the Caribbean,,2011,73.8669
-Latin America and the Caribbean,,2012,74.1009
-Latin America and the Caribbean,,2013,74.3593
-Latin America and the Caribbean,,2014,74.5759
-Latin America and the Caribbean,,2015,74.6372
-Latin America and the Caribbean,,2016,74.5929
-Latin America and the Caribbean,,2017,74.7561
-Latin America and the Caribbean,,2018,74.8705
-Latin America and the Caribbean,,2019,75.0547
-Latin America and the Caribbean,,2020,73.0946
-Latin America and the Caribbean,,2021,72.1639
+Latin America and the Caribbean,NA,1950,48.5587
+Latin America and the Caribbean,NA,1951,49.0456
+Latin America and the Caribbean,NA,1952,49.7732
+Latin America and the Caribbean,NA,1953,50.3947
+Latin America and the Caribbean,NA,1954,51.1016
+Latin America and the Caribbean,NA,1955,51.6586
+Latin America and the Caribbean,NA,1956,52.3391
+Latin America and the Caribbean,NA,1957,52.867
+Latin America and the Caribbean,NA,1958,53.5489
+Latin America and the Caribbean,NA,1959,54.073
+Latin America and the Caribbean,NA,1960,54.6554
+Latin America and the Caribbean,NA,1961,55.2229
+Latin America and the Caribbean,NA,1962,55.692
+Latin America and the Caribbean,NA,1963,56.1194
+Latin America and the Caribbean,NA,1964,56.6476
+Latin America and the Caribbean,NA,1965,57.057
+Latin America and the Caribbean,NA,1966,57.4856
+Latin America and the Caribbean,NA,1967,57.8762
+Latin America and the Caribbean,NA,1968,58.2486
+Latin America and the Caribbean,NA,1969,58.5994
+Latin America and the Caribbean,NA,1970,58.6098
+Latin America and the Caribbean,NA,1971,59.5052
+Latin America and the Caribbean,NA,1972,59.8733
+Latin America and the Caribbean,NA,1973,60.4398
+Latin America and the Caribbean,NA,1974,60.8618
+Latin America and the Caribbean,NA,1975,61.4061
+Latin America and the Caribbean,NA,1976,61.6083
+Latin America and the Caribbean,NA,1977,62.2139
+Latin America and the Caribbean,NA,1978,62.578
+Latin America and the Caribbean,NA,1979,62.9213
+Latin America and the Caribbean,NA,1980,63.332
+Latin America and the Caribbean,NA,1981,63.8252
+Latin America and the Caribbean,NA,1982,64.1392
+Latin America and the Caribbean,NA,1983,64.7356
+Latin America and the Caribbean,NA,1984,65.1563
+Latin America and the Caribbean,NA,1985,65.5124
+Latin America and the Caribbean,NA,1986,66.1232
+Latin America and the Caribbean,NA,1987,66.5712
+Latin America and the Caribbean,NA,1988,67.0052
+Latin America and the Caribbean,NA,1989,67.3603
+Latin America and the Caribbean,NA,1990,67.6589
+Latin America and the Caribbean,NA,1991,68.0346
+Latin America and the Caribbean,NA,1992,68.3768
+Latin America and the Caribbean,NA,1993,68.7119
+Latin America and the Caribbean,NA,1994,69.1057
+Latin America and the Caribbean,NA,1995,69.4126
+Latin America and the Caribbean,NA,1996,69.7927
+Latin America and the Caribbean,NA,1997,70.1438
+Latin America and the Caribbean,NA,1998,70.3878
+Latin America and the Caribbean,NA,1999,70.8212
+Latin America and the Caribbean,NA,2000,71.137200000000007
+Latin America and the Caribbean,NA,2001,71.408
+Latin America and the Caribbean,NA,2002,71.7569
+Latin America and the Caribbean,NA,2003,71.9366
+Latin America and the Caribbean,NA,2004,72.2702
+Latin America and the Caribbean,NA,2005,72.6734
+Latin America and the Caribbean,NA,2006,72.8935
+Latin America and the Caribbean,NA,2007,73.0341
+Latin America and the Caribbean,NA,2008,73.2759
+Latin America and the Caribbean,NA,2009,73.4868
+Latin America and the Caribbean,NA,2010,73.1946
+Latin America and the Caribbean,NA,2011,73.8669
+Latin America and the Caribbean,NA,2012,74.1009
+Latin America and the Caribbean,NA,2013,74.3593
+Latin America and the Caribbean,NA,2014,74.5759
+Latin America and the Caribbean,NA,2015,74.637200000000007
+Latin America and the Caribbean,NA,2016,74.5929
+Latin America and the Caribbean,NA,2017,74.7561
+Latin America and the Caribbean,NA,2018,74.8705
+Latin America and the Caribbean,NA,2019,75.0547
+Latin America and the Caribbean,NA,2020,73.0946
+Latin America and the Caribbean,NA,2021,72.1639
 Latvia,LVA,1950,68.6354
 Latvia,LVA,1951,68.8449
 Latvia,LVA,1952,68.8545
@@ -9997,78 +9997,78 @@ Latvia,LVA,2021,73.5786
 Latvia,LVA,1896,44.954
 Latvia,LVA,1924,53.7
 Latvia,LVA,1935,58.084
-Least developed countries,,1950,36.7606
-Least developed countries,,1951,37.1166
-Least developed countries,,1952,37.6441
-Least developed countries,,1953,38.0314
-Least developed countries,,1954,38.584
-Least developed countries,,1955,39.0524
-Least developed countries,,1956,39.4372
-Least developed countries,,1957,39.2478
-Least developed countries,,1958,39.5448
-Least developed countries,,1959,40.5973
-Least developed countries,,1960,40.9301
-Least developed countries,,1961,41.3303
-Least developed countries,,1962,41.7962
-Least developed countries,,1963,41.9248
-Least developed countries,,1964,42.6287
-Least developed countries,,1965,42.6081
-Least developed countries,,1966,42.9056
-Least developed countries,,1967,43.5074
-Least developed countries,,1968,43.8672
-Least developed countries,,1969,44.1094
-Least developed countries,,1970,42.8667
-Least developed countries,,1971,38.3186
-Least developed countries,,1972,44.5179
-Least developed countries,,1973,45.2031
-Least developed countries,,1974,45.1392
-Least developed countries,,1975,43.7658
-Least developed countries,,1976,44.3664
-Least developed countries,,1977,46.2304
-Least developed countries,,1978,46.6554
-Least developed countries,,1979,47.1651
-Least developed countries,,1980,47.6444
-Least developed countries,,1981,47.9803
-Least developed countries,,1982,48.263
-Least developed countries,,1983,47.3425
-Least developed countries,,1984,47.3111
-Least developed countries,,1985,47.6962
-Least developed countries,,1986,48.4363
-Least developed countries,,1987,48.9276
-Least developed countries,,1988,48.4161
-Least developed countries,,1989,49.9467
-Least developed countries,,1990,50.1401
-Least developed countries,,1991,49.7829
-Least developed countries,,1992,50.2226
-Least developed countries,,1993,50.8393
-Least developed countries,,1994,49.9143
-Least developed countries,,1995,52.1806
-Least developed countries,,1996,52.3293
-Least developed countries,,1997,52.9811
-Least developed countries,,1998,52.9004
-Least developed countries,,1999,54.3557
-Least developed countries,,2000,55.0574
-Least developed countries,,2001,55.5683
-Least developed countries,,2002,56.0698
-Least developed countries,,2003,56.7153
-Least developed countries,,2004,57.2381
-Least developed countries,,2005,57.8142
-Least developed countries,,2006,58.4518
-Least developed countries,,2007,58.9287
-Least developed countries,,2008,59.1136
-Least developed countries,,2009,60.1
-Least developed countries,,2010,60.5229
-Least developed countries,,2011,61.3113
-Least developed countries,,2012,61.9123
-Least developed countries,,2013,62.3808
-Least developed countries,,2014,62.8141
-Least developed countries,,2015,63.2189
-Least developed countries,,2016,63.7597
-Least developed countries,,2017,64.1711
-Least developed countries,,2018,64.6089
-Least developed countries,,2019,64.9648
-Least developed countries,,2020,64.4953
-Least developed countries,,2021,64.0715
+Least developed countries,NA,1950,36.7606
+Least developed countries,NA,1951,37.1166
+Least developed countries,NA,1952,37.6441
+Least developed countries,NA,1953,38.0314
+Least developed countries,NA,1954,38.584
+Least developed countries,NA,1955,39.0524
+Least developed countries,NA,1956,39.4372
+Least developed countries,NA,1957,39.2478
+Least developed countries,NA,1958,39.5448
+Least developed countries,NA,1959,40.5973
+Least developed countries,NA,1960,40.9301
+Least developed countries,NA,1961,41.3303
+Least developed countries,NA,1962,41.7962
+Least developed countries,NA,1963,41.9248
+Least developed countries,NA,1964,42.6287
+Least developed countries,NA,1965,42.6081
+Least developed countries,NA,1966,42.9056
+Least developed countries,NA,1967,43.5074
+Least developed countries,NA,1968,43.8672
+Least developed countries,NA,1969,44.1094
+Least developed countries,NA,1970,42.8667
+Least developed countries,NA,1971,38.318600000000004
+Least developed countries,NA,1972,44.5179
+Least developed countries,NA,1973,45.2031
+Least developed countries,NA,1974,45.1392
+Least developed countries,NA,1975,43.7658
+Least developed countries,NA,1976,44.3664
+Least developed countries,NA,1977,46.2304
+Least developed countries,NA,1978,46.6554
+Least developed countries,NA,1979,47.1651
+Least developed countries,NA,1980,47.6444
+Least developed countries,NA,1981,47.9803
+Least developed countries,NA,1982,48.263
+Least developed countries,NA,1983,47.3425
+Least developed countries,NA,1984,47.3111
+Least developed countries,NA,1985,47.6962
+Least developed countries,NA,1986,48.4363
+Least developed countries,NA,1987,48.9276
+Least developed countries,NA,1988,48.4161
+Least developed countries,NA,1989,49.9467
+Least developed countries,NA,1990,50.1401
+Least developed countries,NA,1991,49.7829
+Least developed countries,NA,1992,50.2226
+Least developed countries,NA,1993,50.8393
+Least developed countries,NA,1994,49.9143
+Least developed countries,NA,1995,52.1806
+Least developed countries,NA,1996,52.3293
+Least developed countries,NA,1997,52.9811
+Least developed countries,NA,1998,52.9004
+Least developed countries,NA,1999,54.3557
+Least developed countries,NA,2000,55.0574
+Least developed countries,NA,2001,55.5683
+Least developed countries,NA,2002,56.0698
+Least developed countries,NA,2003,56.7153
+Least developed countries,NA,2004,57.2381
+Least developed countries,NA,2005,57.8142
+Least developed countries,NA,2006,58.4518
+Least developed countries,NA,2007,58.9287
+Least developed countries,NA,2008,59.1136
+Least developed countries,NA,2009,60.1
+Least developed countries,NA,2010,60.5229
+Least developed countries,NA,2011,61.3113
+Least developed countries,NA,2012,61.9123
+Least developed countries,NA,2013,62.3808
+Least developed countries,NA,2014,62.8141
+Least developed countries,NA,2015,63.2189
+Least developed countries,NA,2016,63.7597
+Least developed countries,NA,2017,64.1711
+Least developed countries,NA,2018,64.6089
+Least developed countries,NA,2019,64.9648
+Least developed countries,NA,2020,64.4953
+Least developed countries,NA,2021,64.0715
 Lebanon,LBN,1950,61.0348
 Lebanon,LBN,1951,61.3667
 Lebanon,LBN,1952,61.7301
@@ -10213,222 +10213,222 @@ Lesotho,LSO,2018,53.733
 Lesotho,LSO,2019,54.1726
 Lesotho,LSO,2020,54.6933
 Lesotho,LSO,2021,53.062
-Less developed regions,,1950,41.2643
-Less developed regions,,1951,42.1096
-Less developed regions,,1952,43.2437
-Less developed regions,,1953,43.8704
-Less developed regions,,1954,44.6902
-Less developed regions,,1955,45.2476
-Less developed regions,,1956,45.7751
-Less developed regions,,1957,46.207
-Less developed regions,,1958,46.6697
-Less developed regions,,1959,44.0977
-Less developed regions,,1960,42.1155
-Less developed regions,,1961,45.0834
-Less developed regions,,1962,48.5162
-Less developed regions,,1963,49.1238
-Less developed regions,,1964,49.763
-Less developed regions,,1965,49.5482
-Less developed regions,,1966,50.2856
-Less developed regions,,1967,50.835
-Less developed regions,,1968,51.6293
-Less developed regions,,1969,52.1374
-Less developed regions,,1970,52.4443
-Less developed regions,,1971,52.1331
-Less developed regions,,1972,53.636
-Less developed regions,,1973,54.2855
-Less developed regions,,1974,54.7315
-Less developed regions,,1975,55.0278
-Less developed regions,,1976,55.5499
-Less developed regions,,1977,56.2761
-Less developed regions,,1978,56.7439
-Less developed regions,,1979,57.283
-Less developed regions,,1980,57.7537
-Less developed regions,,1981,58.2335
-Less developed regions,,1982,58.6889
-Less developed regions,,1983,58.9221
-Less developed regions,,1984,59.3247
-Less developed regions,,1985,59.7419
-Less developed regions,,1986,60.244
-Less developed regions,,1987,60.6798
-Less developed regions,,1988,60.8465
-Less developed regions,,1989,61.4357
-Less developed regions,,1990,61.6961
-Less developed regions,,1991,61.7999
-Less developed regions,,1992,62.1409
-Less developed regions,,1993,62.4766
-Less developed regions,,1994,62.5023
-Less developed regions,,1995,63.025
-Less developed regions,,1996,63.2295
-Less developed regions,,1997,63.5679
-Less developed regions,,1998,63.7939
-Less developed regions,,1999,64.2641
-Less developed regions,,2000,64.6705
-Less developed regions,,2001,65.0843
-Less developed regions,,2002,65.455
-Less developed regions,,2003,65.8258
-Less developed regions,,2004,66.1018
-Less developed regions,,2005,66.5652
-Less developed regions,,2006,67.0074
-Less developed regions,,2007,67.333
-Less developed regions,,2008,67.5783
-Less developed regions,,2009,68.0619
-Less developed regions,,2010,68.3973
-Less developed regions,,2011,68.8198
-Less developed regions,,2012,69.2011
-Less developed regions,,2013,69.5546
-Less developed regions,,2014,69.9243
-Less developed regions,,2015,70.2258
-Less developed regions,,2016,70.5275
-Less developed regions,,2017,70.772
-Less developed regions,,2018,71.0587
-Less developed regions,,2019,71.2636
-Less developed regions,,2020,70.642
-Less developed regions,,2021,69.5611
-"Less developed regions, excluding China",,1950,40.297
-"Less developed regions, excluding China",,1951,41.1126
-"Less developed regions, excluding China",,1952,42.3175
-"Less developed regions, excluding China",,1953,42.9239
-"Less developed regions, excluding China",,1954,43.7917
-"Less developed regions, excluding China",,1955,44.4349
-"Less developed regions, excluding China",,1956,44.983
-"Less developed regions, excluding China",,1957,45.3547
-"Less developed regions, excluding China",,1958,45.8433
-"Less developed regions, excluding China",,1959,46.5319
-"Less developed regions, excluding China",,1960,46.9654
-"Less developed regions, excluding China",,1961,47.4022
-"Less developed regions, excluding China",,1962,47.8435
-"Less developed regions, excluding China",,1963,48.2357
-"Less developed regions, excluding China",,1964,48.7273
-"Less developed regions, excluding China",,1965,48.0571
-"Less developed regions, excluding China",,1966,48.8081
-"Less developed regions, excluding China",,1967,49.3294
-"Less developed regions, excluding China",,1968,50.1222
-"Less developed regions, excluding China",,1969,50.5421
-"Less developed regions, excluding China",,1970,50.606
-"Less developed regions, excluding China",,1971,49.8281
-"Less developed regions, excluding China",,1972,51.6489
-"Less developed regions, excluding China",,1973,52.2434
-"Less developed regions, excluding China",,1974,52.656
-"Less developed regions, excluding China",,1975,52.9095
-"Less developed regions, excluding China",,1976,53.4155
-"Less developed regions, excluding China",,1977,54.2625
-"Less developed regions, excluding China",,1978,54.7306
-"Less developed regions, excluding China",,1979,55.2581
-"Less developed regions, excluding China",,1980,55.7042
-"Less developed regions, excluding China",,1981,56.1442
-"Less developed regions, excluding China",,1982,56.5427
-"Less developed regions, excluding China",,1983,56.7694
-"Less developed regions, excluding China",,1984,57.1622
-"Less developed regions, excluding China",,1985,57.5732
-"Less developed regions, excluding China",,1986,58.0727
-"Less developed regions, excluding China",,1987,58.4791
-"Less developed regions, excluding China",,1988,58.6052
-"Less developed regions, excluding China",,1989,59.2737
-"Less developed regions, excluding China",,1990,59.5398
-"Less developed regions, excluding China",,1991,59.7154
-"Less developed regions, excluding China",,1992,60.0337
-"Less developed regions, excluding China",,1993,60.3623
-"Less developed regions, excluding China",,1994,60.3318
-"Less developed regions, excluding China",,1995,60.9079
-"Less developed regions, excluding China",,1996,61.1326
-"Less developed regions, excluding China",,1997,61.481
-"Less developed regions, excluding China",,1998,61.6547
-"Less developed regions, excluding China",,1999,62.2149
-"Less developed regions, excluding China",,2000,62.6002
-"Less developed regions, excluding China",,2001,62.9321
-"Less developed regions, excluding China",,2002,63.315
-"Less developed regions, excluding China",,2003,63.6923
-"Less developed regions, excluding China",,2004,63.9489
-"Less developed regions, excluding China",,2005,64.4419
-"Less developed regions, excluding China",,2006,64.8884
-"Less developed regions, excluding China",,2007,65.2284
-"Less developed regions, excluding China",,2008,65.5018
-"Less developed regions, excluding China",,2009,65.9783
-"Less developed regions, excluding China",,2010,66.3382
-"Less developed regions, excluding China",,2011,66.7941
-"Less developed regions, excluding China",,2012,67.1808
-"Less developed regions, excluding China",,2013,67.5765
-"Less developed regions, excluding China",,2014,67.9774
-"Less developed regions, excluding China",,2015,68.315
-"Less developed regions, excluding China",,2016,68.6312
-"Less developed regions, excluding China",,2017,68.9489
-"Less developed regions, excluding China",,2018,69.2067
-"Less developed regions, excluding China",,2019,69.432
-"Less developed regions, excluding China",,2020,68.5773
-"Less developed regions, excluding China",,2021,67.1767
-"Less developed regions, excluding least developed countries",,1950,41.9655
-"Less developed regions, excluding least developed countries",,1951,42.8733
-"Less developed regions, excluding least developed countries",,1952,44.0838
-"Less developed regions, excluding least developed countries",,1953,44.7391
-"Less developed regions, excluding least developed countries",,1954,45.5911
-"Less developed regions, excluding least developed countries",,1955,46.1583
-"Less developed regions, excluding least developed countries",,1956,46.7097
-"Less developed regions, excluding least developed countries",,1957,47.2363
-"Less developed regions, excluding least developed countries",,1958,47.73
-"Less developed regions, excluding least developed countries",,1959,44.6174
-"Less developed regions, excluding least developed countries",,1960,42.3165
-"Less developed regions, excluding least developed countries",,1961,45.6754
-"Less developed regions, excluding least developed countries",,1962,49.5745
-"Less developed regions, excluding least developed countries",,1963,50.2328
-"Less developed regions, excluding least developed countries",,1964,50.8476
-"Less developed regions, excluding least developed countries",,1965,50.5967
-"Less developed regions, excluding least developed countries",,1966,51.4094
-"Less developed regions, excluding least developed countries",,1967,51.9605
-"Less developed regions, excluding least developed countries",,1968,52.83
-"Less developed regions, excluding least developed countries",,1969,53.3884
-"Less developed regions, excluding least developed countries",,1970,53.9681
-"Less developed regions, excluding least developed countries",,1971,54.5085
-"Less developed regions, excluding least developed countries",,1972,55.0925
-"Less developed regions, excluding least developed countries",,1973,55.7514
-"Less developed regions, excluding least developed countries",,1974,56.3123
-"Less developed regions, excluding least developed countries",,1975,56.9397
-"Less developed regions, excluding least developed countries",,1976,57.4611
-"Less developed regions, excluding least developed countries",,1977,58.0116
-"Less developed regions, excluding least developed countries",,1978,58.511
-"Less developed regions, excluding least developed countries",,1979,59.0747
-"Less developed regions, excluding least developed countries",,1980,59.5564
-"Less developed regions, excluding least developed countries",,1981,60.0603
-"Less developed regions, excluding least developed countries",,1982,60.5378
-"Less developed regions, excluding least developed countries",,1983,61.0239
-"Less developed regions, excluding least developed countries",,1984,61.5123
-"Less developed regions, excluding least developed countries",,1985,61.9414
-"Less developed regions, excluding least developed countries",,1986,62.3851
-"Less developed regions, excluding least developed countries",,1987,62.7887
-"Less developed regions, excluding least developed countries",,1988,63.1137
-"Less developed regions, excluding least developed countries",,1989,63.4971
-"Less developed regions, excluding least developed countries",,1990,63.7731
-"Less developed regions, excluding least developed countries",,1991,64.0083
-"Less developed regions, excluding least developed countries",,1992,64.344
-"Less developed regions, excluding least developed countries",,1993,64.6419
-"Less developed regions, excluding least developed countries",,1994,64.8649
-"Less developed regions, excluding least developed countries",,1995,65.0858
-"Less developed regions, excluding least developed countries",,1996,65.3238
-"Less developed regions, excluding least developed countries",,1997,65.6215
-"Less developed regions, excluding least developed countries",,1998,65.9361
-"Less developed regions, excluding least developed countries",,1999,66.2149
-"Less developed regions, excluding least developed countries",,2000,66.5702
-"Less developed regions, excluding least developed countries",,2001,66.9624
-"Less developed regions, excluding least developed countries",,2002,67.31
-"Less developed regions, excluding least developed countries",,2003,67.6354
-"Less developed regions, excluding least developed countries",,2004,67.8627
-"Less developed regions, excluding least developed countries",,2005,68.3035
-"Less developed regions, excluding least developed countries",,2006,68.706
-"Less developed regions, excluding least developed countries",,2007,68.9963
-"Less developed regions, excluding least developed countries",,2008,69.2537
-"Less developed regions, excluding least developed countries",,2009,69.6261
-"Less developed regions, excluding least developed countries",,2010,69.9534
-"Less developed regions, excluding least developed countries",,2011,70.3006
-"Less developed regions, excluding least developed countries",,2012,70.6364
-"Less developed regions, excluding least developed countries",,2013,70.967
-"Less developed regions, excluding least developed countries",,2014,71.3298
-"Less developed regions, excluding least developed countries",,2015,71.6204
-"Less developed regions, excluding least developed countries",,2016,71.8805
-"Less developed regions, excluding least developed countries",,2017,72.1041
-"Less developed regions, excluding least developed countries",,2018,72.3722
-"Less developed regions, excluding least developed countries",,2019,72.5593
-"Less developed regions, excluding least developed countries",,2020,71.912
-"Less developed regions, excluding least developed countries",,2021,70.738
+Less developed regions,NA,1950,41.2643
+Less developed regions,NA,1951,42.1096
+Less developed regions,NA,1952,43.2437
+Less developed regions,NA,1953,43.8704
+Less developed regions,NA,1954,44.6902
+Less developed regions,NA,1955,45.2476
+Less developed regions,NA,1956,45.7751
+Less developed regions,NA,1957,46.207
+Less developed regions,NA,1958,46.6697
+Less developed regions,NA,1959,44.0977
+Less developed regions,NA,1960,42.1155
+Less developed regions,NA,1961,45.0834
+Less developed regions,NA,1962,48.5162
+Less developed regions,NA,1963,49.1238
+Less developed regions,NA,1964,49.763
+Less developed regions,NA,1965,49.5482
+Less developed regions,NA,1966,50.2856
+Less developed regions,NA,1967,50.835
+Less developed regions,NA,1968,51.6293
+Less developed regions,NA,1969,52.1374
+Less developed regions,NA,1970,52.4443
+Less developed regions,NA,1971,52.1331
+Less developed regions,NA,1972,53.636
+Less developed regions,NA,1973,54.2855
+Less developed regions,NA,1974,54.7315
+Less developed regions,NA,1975,55.0278
+Less developed regions,NA,1976,55.5499
+Less developed regions,NA,1977,56.2761
+Less developed regions,NA,1978,56.7439
+Less developed regions,NA,1979,57.283
+Less developed regions,NA,1980,57.7537
+Less developed regions,NA,1981,58.2335
+Less developed regions,NA,1982,58.6889
+Less developed regions,NA,1983,58.9221
+Less developed regions,NA,1984,59.3247
+Less developed regions,NA,1985,59.7419
+Less developed regions,NA,1986,60.244
+Less developed regions,NA,1987,60.6798
+Less developed regions,NA,1988,60.8465
+Less developed regions,NA,1989,61.4357
+Less developed regions,NA,1990,61.6961
+Less developed regions,NA,1991,61.7999
+Less developed regions,NA,1992,62.1409
+Less developed regions,NA,1993,62.4766
+Less developed regions,NA,1994,62.5023
+Less developed regions,NA,1995,63.025
+Less developed regions,NA,1996,63.2295
+Less developed regions,NA,1997,63.5679
+Less developed regions,NA,1998,63.7939
+Less developed regions,NA,1999,64.2641
+Less developed regions,NA,2000,64.6705
+Less developed regions,NA,2001,65.0843
+Less developed regions,NA,2002,65.455
+Less developed regions,NA,2003,65.8258
+Less developed regions,NA,2004,66.1018
+Less developed regions,NA,2005,66.5652
+Less developed regions,NA,2006,67.0074
+Less developed regions,NA,2007,67.333
+Less developed regions,NA,2008,67.5783
+Less developed regions,NA,2009,68.0619
+Less developed regions,NA,2010,68.3973
+Less developed regions,NA,2011,68.8198
+Less developed regions,NA,2012,69.2011
+Less developed regions,NA,2013,69.5546
+Less developed regions,NA,2014,69.9243
+Less developed regions,NA,2015,70.2258
+Less developed regions,NA,2016,70.5275
+Less developed regions,NA,2017,70.772
+Less developed regions,NA,2018,71.0587
+Less developed regions,NA,2019,71.2636
+Less developed regions,NA,2020,70.642
+Less developed regions,NA,2021,69.5611
+"Less developed regions, excluding China",NA,1950,40.297
+"Less developed regions, excluding China",NA,1951,41.1126
+"Less developed regions, excluding China",NA,1952,42.3175
+"Less developed regions, excluding China",NA,1953,42.9239
+"Less developed regions, excluding China",NA,1954,43.7917
+"Less developed regions, excluding China",NA,1955,44.4349
+"Less developed regions, excluding China",NA,1956,44.983
+"Less developed regions, excluding China",NA,1957,45.3547
+"Less developed regions, excluding China",NA,1958,45.8433
+"Less developed regions, excluding China",NA,1959,46.5319
+"Less developed regions, excluding China",NA,1960,46.9654
+"Less developed regions, excluding China",NA,1961,47.4022
+"Less developed regions, excluding China",NA,1962,47.8435
+"Less developed regions, excluding China",NA,1963,48.2357
+"Less developed regions, excluding China",NA,1964,48.7273
+"Less developed regions, excluding China",NA,1965,48.0571
+"Less developed regions, excluding China",NA,1966,48.8081
+"Less developed regions, excluding China",NA,1967,49.3294
+"Less developed regions, excluding China",NA,1968,50.1222
+"Less developed regions, excluding China",NA,1969,50.5421
+"Less developed regions, excluding China",NA,1970,50.606
+"Less developed regions, excluding China",NA,1971,49.8281
+"Less developed regions, excluding China",NA,1972,51.6489
+"Less developed regions, excluding China",NA,1973,52.2434
+"Less developed regions, excluding China",NA,1974,52.656
+"Less developed regions, excluding China",NA,1975,52.9095
+"Less developed regions, excluding China",NA,1976,53.4155
+"Less developed regions, excluding China",NA,1977,54.2625
+"Less developed regions, excluding China",NA,1978,54.7306
+"Less developed regions, excluding China",NA,1979,55.2581
+"Less developed regions, excluding China",NA,1980,55.7042
+"Less developed regions, excluding China",NA,1981,56.1442
+"Less developed regions, excluding China",NA,1982,56.5427
+"Less developed regions, excluding China",NA,1983,56.7694
+"Less developed regions, excluding China",NA,1984,57.1622
+"Less developed regions, excluding China",NA,1985,57.5732
+"Less developed regions, excluding China",NA,1986,58.0727
+"Less developed regions, excluding China",NA,1987,58.4791
+"Less developed regions, excluding China",NA,1988,58.6052
+"Less developed regions, excluding China",NA,1989,59.2737
+"Less developed regions, excluding China",NA,1990,59.5398
+"Less developed regions, excluding China",NA,1991,59.7154
+"Less developed regions, excluding China",NA,1992,60.0337
+"Less developed regions, excluding China",NA,1993,60.3623
+"Less developed regions, excluding China",NA,1994,60.3318
+"Less developed regions, excluding China",NA,1995,60.9079
+"Less developed regions, excluding China",NA,1996,61.1326
+"Less developed regions, excluding China",NA,1997,61.481
+"Less developed regions, excluding China",NA,1998,61.6547
+"Less developed regions, excluding China",NA,1999,62.2149
+"Less developed regions, excluding China",NA,2000,62.6002
+"Less developed regions, excluding China",NA,2001,62.9321
+"Less developed regions, excluding China",NA,2002,63.315
+"Less developed regions, excluding China",NA,2003,63.6923
+"Less developed regions, excluding China",NA,2004,63.9489
+"Less developed regions, excluding China",NA,2005,64.4419
+"Less developed regions, excluding China",NA,2006,64.8884
+"Less developed regions, excluding China",NA,2007,65.2284
+"Less developed regions, excluding China",NA,2008,65.5018
+"Less developed regions, excluding China",NA,2009,65.9783
+"Less developed regions, excluding China",NA,2010,66.3382
+"Less developed regions, excluding China",NA,2011,66.7941
+"Less developed regions, excluding China",NA,2012,67.1808
+"Less developed regions, excluding China",NA,2013,67.5765
+"Less developed regions, excluding China",NA,2014,67.9774
+"Less developed regions, excluding China",NA,2015,68.315
+"Less developed regions, excluding China",NA,2016,68.6312
+"Less developed regions, excluding China",NA,2017,68.9489
+"Less developed regions, excluding China",NA,2018,69.2067
+"Less developed regions, excluding China",NA,2019,69.432
+"Less developed regions, excluding China",NA,2020,68.5773
+"Less developed regions, excluding China",NA,2021,67.1767
+"Less developed regions, excluding least developed countries",NA,1950,41.9655
+"Less developed regions, excluding least developed countries",NA,1951,42.8733
+"Less developed regions, excluding least developed countries",NA,1952,44.0838
+"Less developed regions, excluding least developed countries",NA,1953,44.7391
+"Less developed regions, excluding least developed countries",NA,1954,45.5911
+"Less developed regions, excluding least developed countries",NA,1955,46.1583
+"Less developed regions, excluding least developed countries",NA,1956,46.7097
+"Less developed regions, excluding least developed countries",NA,1957,47.2363
+"Less developed regions, excluding least developed countries",NA,1958,47.73
+"Less developed regions, excluding least developed countries",NA,1959,44.6174
+"Less developed regions, excluding least developed countries",NA,1960,42.3165
+"Less developed regions, excluding least developed countries",NA,1961,45.6754
+"Less developed regions, excluding least developed countries",NA,1962,49.5745
+"Less developed regions, excluding least developed countries",NA,1963,50.2328
+"Less developed regions, excluding least developed countries",NA,1964,50.8476
+"Less developed regions, excluding least developed countries",NA,1965,50.5967
+"Less developed regions, excluding least developed countries",NA,1966,51.4094
+"Less developed regions, excluding least developed countries",NA,1967,51.9605
+"Less developed regions, excluding least developed countries",NA,1968,52.83
+"Less developed regions, excluding least developed countries",NA,1969,53.3884
+"Less developed regions, excluding least developed countries",NA,1970,53.9681
+"Less developed regions, excluding least developed countries",NA,1971,54.5085
+"Less developed regions, excluding least developed countries",NA,1972,55.0925
+"Less developed regions, excluding least developed countries",NA,1973,55.7514
+"Less developed regions, excluding least developed countries",NA,1974,56.3123
+"Less developed regions, excluding least developed countries",NA,1975,56.9397
+"Less developed regions, excluding least developed countries",NA,1976,57.4611
+"Less developed regions, excluding least developed countries",NA,1977,58.0116
+"Less developed regions, excluding least developed countries",NA,1978,58.511
+"Less developed regions, excluding least developed countries",NA,1979,59.0747
+"Less developed regions, excluding least developed countries",NA,1980,59.5564
+"Less developed regions, excluding least developed countries",NA,1981,60.0603
+"Less developed regions, excluding least developed countries",NA,1982,60.5378
+"Less developed regions, excluding least developed countries",NA,1983,61.0239
+"Less developed regions, excluding least developed countries",NA,1984,61.5123
+"Less developed regions, excluding least developed countries",NA,1985,61.9414
+"Less developed regions, excluding least developed countries",NA,1986,62.3851
+"Less developed regions, excluding least developed countries",NA,1987,62.7887
+"Less developed regions, excluding least developed countries",NA,1988,63.1137
+"Less developed regions, excluding least developed countries",NA,1989,63.4971
+"Less developed regions, excluding least developed countries",NA,1990,63.7731
+"Less developed regions, excluding least developed countries",NA,1991,64.0083
+"Less developed regions, excluding least developed countries",NA,1992,64.344
+"Less developed regions, excluding least developed countries",NA,1993,64.6419
+"Less developed regions, excluding least developed countries",NA,1994,64.8649
+"Less developed regions, excluding least developed countries",NA,1995,65.0858
+"Less developed regions, excluding least developed countries",NA,1996,65.3238
+"Less developed regions, excluding least developed countries",NA,1997,65.6215
+"Less developed regions, excluding least developed countries",NA,1998,65.9361
+"Less developed regions, excluding least developed countries",NA,1999,66.2149
+"Less developed regions, excluding least developed countries",NA,2000,66.5702
+"Less developed regions, excluding least developed countries",NA,2001,66.9624
+"Less developed regions, excluding least developed countries",NA,2002,67.31
+"Less developed regions, excluding least developed countries",NA,2003,67.6354
+"Less developed regions, excluding least developed countries",NA,2004,67.8627
+"Less developed regions, excluding least developed countries",NA,2005,68.3035
+"Less developed regions, excluding least developed countries",NA,2006,68.706
+"Less developed regions, excluding least developed countries",NA,2007,68.9963
+"Less developed regions, excluding least developed countries",NA,2008,69.2537
+"Less developed regions, excluding least developed countries",NA,2009,69.6261
+"Less developed regions, excluding least developed countries",NA,2010,69.9534
+"Less developed regions, excluding least developed countries",NA,2011,70.3006
+"Less developed regions, excluding least developed countries",NA,2012,70.6364
+"Less developed regions, excluding least developed countries",NA,2013,70.967
+"Less developed regions, excluding least developed countries",NA,2014,71.3298
+"Less developed regions, excluding least developed countries",NA,2015,71.6204
+"Less developed regions, excluding least developed countries",NA,2016,71.8805
+"Less developed regions, excluding least developed countries",NA,2017,72.1041
+"Less developed regions, excluding least developed countries",NA,2018,72.3722
+"Less developed regions, excluding least developed countries",NA,2019,72.5593
+"Less developed regions, excluding least developed countries",NA,2020,71.912
+"Less developed regions, excluding least developed countries",NA,2021,70.738
 Liberia,LBR,1950,38.4917
 Liberia,LBR,1951,38.5768
 Liberia,LBR,1952,38.7262
@@ -10719,150 +10719,150 @@ Lithuania,LTU,2020,75.0676
 Lithuania,LTU,2021,73.7201
 Lithuania,LTU,1900,41.7
 Lithuania,LTU,1925,50.5
-Low-income countries,,1950,31.5921
-Low-income countries,,1951,33.4415
-Low-income countries,,1952,36.3362
-Low-income countries,,1953,37.2616
-Low-income countries,,1954,38.2097
-Low-income countries,,1955,38.6725
-Low-income countries,,1956,39.0472
-Low-income countries,,1957,38.3675
-Low-income countries,,1958,38.6299
-Low-income countries,,1959,40.0969
-Low-income countries,,1960,40.4908
-Low-income countries,,1961,40.7984
-Low-income countries,,1962,41.1083
-Low-income countries,,1963,41.2714
-Low-income countries,,1964,41.8955
-Low-income countries,,1965,41.9532
-Low-income countries,,1966,41.7574
-Low-income countries,,1967,42.5116
-Low-income countries,,1968,42.8813
-Low-income countries,,1969,43.1525
-Low-income countries,,1970,43.4813
-Low-income countries,,1971,44.0102
-Low-income countries,,1972,43.645
-Low-income countries,,1973,44.5215
-Low-income countries,,1974,44.5296
-Low-income countries,,1975,44.7818
-Low-income countries,,1976,45.5061
-Low-income countries,,1977,45.8213
-Low-income countries,,1978,46.0041
-Low-income countries,,1979,46.4197
-Low-income countries,,1980,46.7442
-Low-income countries,,1981,47.0009
-Low-income countries,,1982,47.1281
-Low-income countries,,1983,45.5786
-Low-income countries,,1984,45.2647
-Low-income countries,,1985,45.6881
-Low-income countries,,1986,46.6379
-Low-income countries,,1987,47.2288
-Low-income countries,,1988,46.3073
-Low-income countries,,1989,48.6196
-Low-income countries,,1990,48.6336
-Low-income countries,,1991,48.4441
-Low-income countries,,1992,48.2257
-Low-income countries,,1993,49.1192
-Low-income countries,,1994,47.2652
-Low-income countries,,1995,50.1269
-Low-income countries,,1996,50.2787
-Low-income countries,,1997,50.7284
-Low-income countries,,1998,49.9534
-Low-income countries,,1999,51.553
-Low-income countries,,2000,52.5474
-Low-income countries,,2001,53.0727
-Low-income countries,,2002,53.5847
-Low-income countries,,2003,54.5762
-Low-income countries,,2004,55.1323
-Low-income countries,,2005,55.7727
-Low-income countries,,2006,56.6271
-Low-income countries,,2007,57.3342
-Low-income countries,,2008,57.977
-Low-income countries,,2009,58.7361
-Low-income countries,,2010,59.3013
-Low-income countries,,2011,59.9252
-Low-income countries,,2012,60.2932
-Low-income countries,,2013,60.7187
-Low-income countries,,2014,61.1275
-Low-income countries,,2015,61.5771
-Low-income countries,,2016,62.1108
-Low-income countries,,2017,62.5232
-Low-income countries,,2018,62.9042
-Low-income countries,,2019,63.3433
-Low-income countries,,2020,62.9125
-Low-income countries,,2021,62.4518
-Lower-middle-income countries,,1950,41.1291
-Lower-middle-income countries,,1951,41.4312
-Lower-middle-income countries,,1952,42.0359
-Lower-middle-income countries,,1953,42.4533
-Lower-middle-income countries,,1954,43.2223
-Lower-middle-income countries,,1955,43.8531
-Lower-middle-income countries,,1956,44.3525
-Lower-middle-income countries,,1957,44.8301
-Lower-middle-income countries,,1958,45.3205
-Lower-middle-income countries,,1959,45.8773
-Lower-middle-income countries,,1960,46.2509
-Lower-middle-income countries,,1961,46.6246
-Lower-middle-income countries,,1962,47.036
-Lower-middle-income countries,,1963,47.4267
-Lower-middle-income countries,,1964,47.8645
-Lower-middle-income countries,,1965,46.7393
-Lower-middle-income countries,,1966,47.6997
-Lower-middle-income countries,,1967,48.172
-Lower-middle-income countries,,1968,49.1493
-Lower-middle-income countries,,1969,49.5841
-Lower-middle-income countries,,1970,49.5594
-Lower-middle-income countries,,1971,48.1704
-Lower-middle-income countries,,1972,50.688
-Lower-middle-income countries,,1973,51.2425
-Lower-middle-income countries,,1974,51.7223
-Lower-middle-income countries,,1975,51.9095
-Lower-middle-income countries,,1976,52.4152
-Lower-middle-income countries,,1977,53.4342
-Lower-middle-income countries,,1978,53.9609
-Lower-middle-income countries,,1979,54.515
-Lower-middle-income countries,,1980,55.0244
-Lower-middle-income countries,,1981,55.456
-Lower-middle-income countries,,1982,55.9337
-Lower-middle-income countries,,1983,56.4392
-Lower-middle-income countries,,1984,56.9242
-Lower-middle-income countries,,1985,57.3469
-Lower-middle-income countries,,1986,57.7919
-Lower-middle-income countries,,1987,58.1304
-Lower-middle-income countries,,1988,58.4781
-Lower-middle-income countries,,1989,58.8682
-Lower-middle-income countries,,1990,59.1626
-Lower-middle-income countries,,1991,59.345
-Lower-middle-income countries,,1992,59.7419
-Lower-middle-income countries,,1993,59.9483
-Lower-middle-income countries,,1994,60.171
-Lower-middle-income countries,,1995,60.4107
-Lower-middle-income countries,,1996,60.6632
-Lower-middle-income countries,,1997,61.039
-Lower-middle-income countries,,1998,61.4338
-Lower-middle-income countries,,1999,61.8708
-Lower-middle-income countries,,2000,62.1728
-Lower-middle-income countries,,2001,62.5146
-Lower-middle-income countries,,2002,62.9393
-Lower-middle-income countries,,2003,63.2993
-Lower-middle-income countries,,2004,63.5065
-Lower-middle-income countries,,2005,64.0004
-Lower-middle-income countries,,2006,64.432
-Lower-middle-income countries,,2007,64.7274
-Lower-middle-income countries,,2008,64.9001
-Lower-middle-income countries,,2009,65.3699
-Lower-middle-income countries,,2010,65.6988
-Lower-middle-income countries,,2011,66.1636
-Lower-middle-income countries,,2012,66.5505
-Lower-middle-income countries,,2013,66.9433
-Lower-middle-income countries,,2014,67.375
-Lower-middle-income countries,,2015,67.7554
-Lower-middle-income countries,,2016,68.1173
-Lower-middle-income countries,,2017,68.4207
-Lower-middle-income countries,,2018,68.6668
-Lower-middle-income countries,,2019,68.8595
-Lower-middle-income countries,,2020,68.1427
-Lower-middle-income countries,,2021,66.4477
+Low-income countries,NA,1950,31.5921
+Low-income countries,NA,1951,33.4415
+Low-income countries,NA,1952,36.3362
+Low-income countries,NA,1953,37.2616
+Low-income countries,NA,1954,38.2097
+Low-income countries,NA,1955,38.6725
+Low-income countries,NA,1956,39.0472
+Low-income countries,NA,1957,38.3675
+Low-income countries,NA,1958,38.6299
+Low-income countries,NA,1959,40.0969
+Low-income countries,NA,1960,40.4908
+Low-income countries,NA,1961,40.7984
+Low-income countries,NA,1962,41.1083
+Low-income countries,NA,1963,41.2714
+Low-income countries,NA,1964,41.8955
+Low-income countries,NA,1965,41.9532
+Low-income countries,NA,1966,41.7574
+Low-income countries,NA,1967,42.5116
+Low-income countries,NA,1968,42.8813
+Low-income countries,NA,1969,43.1525
+Low-income countries,NA,1970,43.4813
+Low-income countries,NA,1971,44.0102
+Low-income countries,NA,1972,43.645
+Low-income countries,NA,1973,44.5215
+Low-income countries,NA,1974,44.5296
+Low-income countries,NA,1975,44.7818
+Low-income countries,NA,1976,45.506100000000004
+Low-income countries,NA,1977,45.8213
+Low-income countries,NA,1978,46.0041
+Low-income countries,NA,1979,46.4197
+Low-income countries,NA,1980,46.7442
+Low-income countries,NA,1981,47.0009
+Low-income countries,NA,1982,47.1281
+Low-income countries,NA,1983,45.5786
+Low-income countries,NA,1984,45.2647
+Low-income countries,NA,1985,45.6881
+Low-income countries,NA,1986,46.6379
+Low-income countries,NA,1987,47.2288
+Low-income countries,NA,1988,46.3073
+Low-income countries,NA,1989,48.6196
+Low-income countries,NA,1990,48.6336
+Low-income countries,NA,1991,48.4441
+Low-income countries,NA,1992,48.2257
+Low-income countries,NA,1993,49.1192
+Low-income countries,NA,1994,47.2652
+Low-income countries,NA,1995,50.1269
+Low-income countries,NA,1996,50.2787
+Low-income countries,NA,1997,50.7284
+Low-income countries,NA,1998,49.9534
+Low-income countries,NA,1999,51.553
+Low-income countries,NA,2000,52.5474
+Low-income countries,NA,2001,53.0727
+Low-income countries,NA,2002,53.5847
+Low-income countries,NA,2003,54.5762
+Low-income countries,NA,2004,55.1323
+Low-income countries,NA,2005,55.7727
+Low-income countries,NA,2006,56.6271
+Low-income countries,NA,2007,57.3342
+Low-income countries,NA,2008,57.977
+Low-income countries,NA,2009,58.7361
+Low-income countries,NA,2010,59.3013
+Low-income countries,NA,2011,59.9252
+Low-income countries,NA,2012,60.2932
+Low-income countries,NA,2013,60.7187
+Low-income countries,NA,2014,61.1275
+Low-income countries,NA,2015,61.5771
+Low-income countries,NA,2016,62.1108
+Low-income countries,NA,2017,62.5232
+Low-income countries,NA,2018,62.9042
+Low-income countries,NA,2019,63.3433
+Low-income countries,NA,2020,62.9125
+Low-income countries,NA,2021,62.4518
+Lower-middle-income countries,NA,1950,41.1291
+Lower-middle-income countries,NA,1951,41.4312
+Lower-middle-income countries,NA,1952,42.0359
+Lower-middle-income countries,NA,1953,42.4533
+Lower-middle-income countries,NA,1954,43.2223
+Lower-middle-income countries,NA,1955,43.8531
+Lower-middle-income countries,NA,1956,44.3525
+Lower-middle-income countries,NA,1957,44.8301
+Lower-middle-income countries,NA,1958,45.3205
+Lower-middle-income countries,NA,1959,45.8773
+Lower-middle-income countries,NA,1960,46.2509
+Lower-middle-income countries,NA,1961,46.6246
+Lower-middle-income countries,NA,1962,47.036
+Lower-middle-income countries,NA,1963,47.4267
+Lower-middle-income countries,NA,1964,47.8645
+Lower-middle-income countries,NA,1965,46.7393
+Lower-middle-income countries,NA,1966,47.6997
+Lower-middle-income countries,NA,1967,48.172
+Lower-middle-income countries,NA,1968,49.1493
+Lower-middle-income countries,NA,1969,49.5841
+Lower-middle-income countries,NA,1970,49.5594
+Lower-middle-income countries,NA,1971,48.1704
+Lower-middle-income countries,NA,1972,50.688
+Lower-middle-income countries,NA,1973,51.2425
+Lower-middle-income countries,NA,1974,51.7223
+Lower-middle-income countries,NA,1975,51.9095
+Lower-middle-income countries,NA,1976,52.4152
+Lower-middle-income countries,NA,1977,53.4342
+Lower-middle-income countries,NA,1978,53.9609
+Lower-middle-income countries,NA,1979,54.515
+Lower-middle-income countries,NA,1980,55.0244
+Lower-middle-income countries,NA,1981,55.456
+Lower-middle-income countries,NA,1982,55.9337
+Lower-middle-income countries,NA,1983,56.4392
+Lower-middle-income countries,NA,1984,56.9242
+Lower-middle-income countries,NA,1985,57.3469
+Lower-middle-income countries,NA,1986,57.7919
+Lower-middle-income countries,NA,1987,58.1304
+Lower-middle-income countries,NA,1988,58.4781
+Lower-middle-income countries,NA,1989,58.8682
+Lower-middle-income countries,NA,1990,59.1626
+Lower-middle-income countries,NA,1991,59.345
+Lower-middle-income countries,NA,1992,59.7419
+Lower-middle-income countries,NA,1993,59.9483
+Lower-middle-income countries,NA,1994,60.171
+Lower-middle-income countries,NA,1995,60.4107
+Lower-middle-income countries,NA,1996,60.6632
+Lower-middle-income countries,NA,1997,61.039
+Lower-middle-income countries,NA,1998,61.4338
+Lower-middle-income countries,NA,1999,61.8708
+Lower-middle-income countries,NA,2000,62.1728
+Lower-middle-income countries,NA,2001,62.5146
+Lower-middle-income countries,NA,2002,62.9393
+Lower-middle-income countries,NA,2003,63.2993
+Lower-middle-income countries,NA,2004,63.5065
+Lower-middle-income countries,NA,2005,64.0004
+Lower-middle-income countries,NA,2006,64.432
+Lower-middle-income countries,NA,2007,64.7274
+Lower-middle-income countries,NA,2008,64.9001
+Lower-middle-income countries,NA,2009,65.3699
+Lower-middle-income countries,NA,2010,65.6988
+Lower-middle-income countries,NA,2011,66.1636
+Lower-middle-income countries,NA,2012,66.5505
+Lower-middle-income countries,NA,2013,66.9433
+Lower-middle-income countries,NA,2014,67.375
+Lower-middle-income countries,NA,2015,67.7554
+Lower-middle-income countries,NA,2016,68.1173
+Lower-middle-income countries,NA,2017,68.4207
+Lower-middle-income countries,NA,2018,68.6668
+Lower-middle-income countries,NA,2019,68.8595
+Lower-middle-income countries,NA,2020,68.1427
+Lower-middle-income countries,NA,2021,66.4477
 Luxembourg,LUX,1950,66.3693
 Luxembourg,LUX,1951,66.6291
 Luxembourg,LUX,1952,67.1662
@@ -11597,7 +11597,7 @@ Martinique,MTQ,1983,72.0878
 Martinique,MTQ,1984,72.636
 Martinique,MTQ,1985,73.1785
 Martinique,MTQ,1986,73.4531
-Martinique,MTQ,1987,73.9497
+Martinique,MTQ,1987,73.949700000000007
 Martinique,MTQ,1988,74.2151
 Martinique,MTQ,1989,74.5054
 Martinique,MTQ,1990,75.0853
@@ -11723,7 +11723,7 @@ Mauritius,MUS,1965,59.3879
 Mauritius,MUS,1966,58.9502
 Mauritius,MUS,1967,58.1105
 Mauritius,MUS,1968,58.497
-Mauritius,MUS,1969,59.6936
+Mauritius,MUS,1969,59.693600000000004
 Mauritius,MUS,1970,60.8104
 Mauritius,MUS,1971,60.7877
 Mauritius,MUS,1972,60.5062
@@ -12044,78 +12044,78 @@ Micronesia (country),FSM,2018,71.3183
 Micronesia (country),FSM,2019,71.0771
 Micronesia (country),FSM,2020,70.674
 Micronesia (country),FSM,2021,70.71
-Middle-income countries,,1950,43.5208
-Middle-income countries,,1951,44.0358
-Middle-income countries,,1952,44.8335
-Middle-income countries,,1953,45.3875
-Middle-income countries,,1954,46.1567
-Middle-income countries,,1955,46.739
-Middle-income countries,,1956,47.3652
-Middle-income countries,,1957,47.8456
-Middle-income countries,,1958,48.3754
-Middle-income countries,,1959,45.4627
-Middle-income countries,,1960,43.3359
-Middle-income countries,,1961,46.4914
-Middle-income countries,,1962,50.0927
-Middle-income countries,,1963,50.7009
-Middle-income countries,,1964,51.3028
-Middle-income countries,,1965,50.9999
-Middle-income countries,,1966,51.7728
-Middle-income countries,,1967,52.2408
-Middle-income countries,,1968,53.039
-Middle-income countries,,1969,53.5019
-Middle-income countries,,1970,53.7837
-Middle-income countries,,1971,53.4062
-Middle-income countries,,1972,55.0333
-Middle-income countries,,1973,55.6324
-Middle-income countries,,1974,56.1063
-Middle-income countries,,1975,56.3701
-Middle-income countries,,1976,56.8463
-Middle-income countries,,1977,57.5921
-Middle-income countries,,1978,58.0624
-Middle-income countries,,1979,58.5612
-Middle-income countries,,1980,59.0258
-Middle-income countries,,1981,59.4879
-Middle-income countries,,1982,59.9702
-Middle-income countries,,1983,60.395
-Middle-income countries,,1984,60.8067
-Middle-income countries,,1985,61.2288
-Middle-income countries,,1986,61.7835
-Middle-income countries,,1987,62.1559
-Middle-income countries,,1988,62.4365
-Middle-income countries,,1989,62.7899
-Middle-income countries,,1990,63.0178
-Middle-income countries,,1991,63.1318
-Middle-income countries,,1992,63.4334
-Middle-income countries,,1993,63.5319
-Middle-income countries,,1994,63.6982
-Middle-income countries,,1995,63.977
-Middle-income countries,,1996,64.2709
-Middle-income countries,,1997,64.6386
-Middle-income countries,,1998,65.0165
-Middle-income countries,,1999,65.2623
-Middle-income countries,,2000,65.5669
-Middle-income countries,,2001,65.9617
-Middle-income countries,,2002,66.2777
-Middle-income countries,,2003,66.5872
-Middle-income countries,,2004,66.8668
-Middle-income countries,,2005,67.2982
-Middle-income countries,,2006,67.7607
-Middle-income countries,,2007,68.0887
-Middle-income countries,,2008,68.3053
-Middle-income countries,,2009,68.7989
-Middle-income countries,,2010,69.1105
-Middle-income countries,,2011,69.5613
-Middle-income countries,,2012,69.9571
-Middle-income countries,,2013,70.3152
-Middle-income countries,,2014,70.6927
-Middle-income countries,,2015,71.0022
-Middle-income countries,,2016,71.3094
-Middle-income countries,,2017,71.5609
-Middle-income countries,,2018,71.8329
-Middle-income countries,,2019,72.028
-Middle-income countries,,2020,71.3025
-Middle-income countries,,2021,70.1139
+Middle-income countries,NA,1950,43.5208
+Middle-income countries,NA,1951,44.0358
+Middle-income countries,NA,1952,44.8335
+Middle-income countries,NA,1953,45.3875
+Middle-income countries,NA,1954,46.1567
+Middle-income countries,NA,1955,46.739
+Middle-income countries,NA,1956,47.3652
+Middle-income countries,NA,1957,47.8456
+Middle-income countries,NA,1958,48.3754
+Middle-income countries,NA,1959,45.4627
+Middle-income countries,NA,1960,43.3359
+Middle-income countries,NA,1961,46.4914
+Middle-income countries,NA,1962,50.0927
+Middle-income countries,NA,1963,50.7009
+Middle-income countries,NA,1964,51.3028
+Middle-income countries,NA,1965,50.9999
+Middle-income countries,NA,1966,51.7728
+Middle-income countries,NA,1967,52.2408
+Middle-income countries,NA,1968,53.039
+Middle-income countries,NA,1969,53.5019
+Middle-income countries,NA,1970,53.7837
+Middle-income countries,NA,1971,53.4062
+Middle-income countries,NA,1972,55.0333
+Middle-income countries,NA,1973,55.6324
+Middle-income countries,NA,1974,56.1063
+Middle-income countries,NA,1975,56.3701
+Middle-income countries,NA,1976,56.8463
+Middle-income countries,NA,1977,57.5921
+Middle-income countries,NA,1978,58.0624
+Middle-income countries,NA,1979,58.5612
+Middle-income countries,NA,1980,59.0258
+Middle-income countries,NA,1981,59.4879
+Middle-income countries,NA,1982,59.9702
+Middle-income countries,NA,1983,60.395
+Middle-income countries,NA,1984,60.8067
+Middle-income countries,NA,1985,61.2288
+Middle-income countries,NA,1986,61.7835
+Middle-income countries,NA,1987,62.1559
+Middle-income countries,NA,1988,62.4365
+Middle-income countries,NA,1989,62.7899
+Middle-income countries,NA,1990,63.0178
+Middle-income countries,NA,1991,63.1318
+Middle-income countries,NA,1992,63.4334
+Middle-income countries,NA,1993,63.5319
+Middle-income countries,NA,1994,63.6982
+Middle-income countries,NA,1995,63.977
+Middle-income countries,NA,1996,64.2709
+Middle-income countries,NA,1997,64.6386
+Middle-income countries,NA,1998,65.0165
+Middle-income countries,NA,1999,65.2623
+Middle-income countries,NA,2000,65.5669
+Middle-income countries,NA,2001,65.9617
+Middle-income countries,NA,2002,66.2777
+Middle-income countries,NA,2003,66.5872
+Middle-income countries,NA,2004,66.8668
+Middle-income countries,NA,2005,67.2982
+Middle-income countries,NA,2006,67.7607
+Middle-income countries,NA,2007,68.0887
+Middle-income countries,NA,2008,68.3053
+Middle-income countries,NA,2009,68.7989
+Middle-income countries,NA,2010,69.1105
+Middle-income countries,NA,2011,69.5613
+Middle-income countries,NA,2012,69.9571
+Middle-income countries,NA,2013,70.3152
+Middle-income countries,NA,2014,70.6927
+Middle-income countries,NA,2015,71.0022
+Middle-income countries,NA,2016,71.3094
+Middle-income countries,NA,2017,71.5609
+Middle-income countries,NA,2018,71.8329
+Middle-income countries,NA,2019,72.028
+Middle-income countries,NA,2020,71.3025
+Middle-income countries,NA,2021,70.1139
 Moldova,MDA,1950,56.1392
 Moldova,MDA,1951,56.3903
 Moldova,MDA,1952,57.0351
@@ -12476,78 +12476,78 @@ Montserrat,MSR,2018,75.219
 Montserrat,MSR,2019,75.3816
 Montserrat,MSR,2020,75.3312
 Montserrat,MSR,2021,75.593
-More developed regions,,1950,63.5226
-More developed regions,,1951,63.7474
-More developed regions,,1952,64.8906
-More developed regions,,1953,65.451
-More developed regions,,1954,66.2719
-More developed regions,,1955,66.8312
-More developed regions,,1956,67.4525
-More developed regions,,1957,67.4201
-More developed regions,,1958,68.4923
-More developed regions,,1959,68.5434
-More developed regions,,1960,68.9788
-More developed regions,,1961,69.3642
-More developed regions,,1962,69.2322
-More developed regions,,1963,69.5071
-More developed regions,,1964,70.0578
-More developed regions,,1965,70.0328
-More developed regions,,1966,70.2362
-More developed regions,,1967,70.3486
-More developed regions,,1968,70.2421
-More developed regions,,1969,70.142
-More developed regions,,1970,70.4366
-More developed regions,,1971,70.6864
-More developed regions,,1972,70.9003
-More developed regions,,1973,71.0107
-More developed regions,,1974,71.322
-More developed regions,,1975,71.4104
-More developed regions,,1976,71.5788
-More developed regions,,1977,71.8867
-More developed regions,,1978,71.9699
-More developed regions,,1979,72.1535
-More developed regions,,1980,72.1446
-More developed regions,,1981,72.4718
-More developed regions,,1982,72.7917
-More developed regions,,1983,72.8019
-More developed regions,,1984,72.9535
-More developed regions,,1985,73.0721
-More developed regions,,1986,73.6632
-More developed regions,,1987,73.8639
-More developed regions,,1988,73.942
-More developed regions,,1989,74.1252
-More developed regions,,1990,74.1723
-More developed regions,,1991,74.2353
-More developed regions,,1992,74.1841
-More developed regions,,1993,73.7605
-More developed regions,,1994,73.8473
-More developed regions,,1995,73.942
-More developed regions,,1996,74.4507
-More developed regions,,1997,74.8981
-More developed regions,,1998,75.1678
-More developed regions,,1999,75.0479
-More developed regions,,2000,75.2499
-More developed regions,,2001,75.4903
-More developed regions,,2002,75.5222
-More developed regions,,2003,75.6161
-More developed regions,,2004,76.1057
-More developed regions,,2005,76.1876
-More developed regions,,2006,76.7299
-More developed regions,,2007,77.0591
-More developed regions,,2008,77.2959
-More developed regions,,2009,77.7106
-More developed regions,,2010,77.9313
-More developed regions,,2011,78.2741
-More developed regions,,2012,78.4618
-More developed regions,,2013,78.7052
-More developed regions,,2014,78.9622
-More developed regions,,2015,78.989
-More developed regions,,2016,79.2764
-More developed regions,,2017,79.4257
-More developed regions,,2018,79.56
-More developed regions,,2019,79.8152
-More developed regions,,2020,78.5756
-More developed regions,,2021,78.065
+More developed regions,NA,1950,63.5226
+More developed regions,NA,1951,63.7474
+More developed regions,NA,1952,64.8906
+More developed regions,NA,1953,65.451
+More developed regions,NA,1954,66.2719
+More developed regions,NA,1955,66.8312
+More developed regions,NA,1956,67.4525
+More developed regions,NA,1957,67.4201
+More developed regions,NA,1958,68.4923
+More developed regions,NA,1959,68.5434
+More developed regions,NA,1960,68.9788
+More developed regions,NA,1961,69.3642
+More developed regions,NA,1962,69.2322
+More developed regions,NA,1963,69.5071
+More developed regions,NA,1964,70.0578
+More developed regions,NA,1965,70.0328
+More developed regions,NA,1966,70.2362
+More developed regions,NA,1967,70.3486
+More developed regions,NA,1968,70.2421
+More developed regions,NA,1969,70.142
+More developed regions,NA,1970,70.4366
+More developed regions,NA,1971,70.6864
+More developed regions,NA,1972,70.9003
+More developed regions,NA,1973,71.0107
+More developed regions,NA,1974,71.322
+More developed regions,NA,1975,71.4104
+More developed regions,NA,1976,71.5788
+More developed regions,NA,1977,71.8867
+More developed regions,NA,1978,71.9699
+More developed regions,NA,1979,72.1535
+More developed regions,NA,1980,72.1446
+More developed regions,NA,1981,72.4718
+More developed regions,NA,1982,72.7917
+More developed regions,NA,1983,72.8019
+More developed regions,NA,1984,72.9535
+More developed regions,NA,1985,73.0721
+More developed regions,NA,1986,73.6632
+More developed regions,NA,1987,73.8639
+More developed regions,NA,1988,73.942
+More developed regions,NA,1989,74.1252
+More developed regions,NA,1990,74.1723
+More developed regions,NA,1991,74.2353
+More developed regions,NA,1992,74.1841
+More developed regions,NA,1993,73.7605
+More developed regions,NA,1994,73.8473
+More developed regions,NA,1995,73.942
+More developed regions,NA,1996,74.4507
+More developed regions,NA,1997,74.8981
+More developed regions,NA,1998,75.1678
+More developed regions,NA,1999,75.0479
+More developed regions,NA,2000,75.2499
+More developed regions,NA,2001,75.4903
+More developed regions,NA,2002,75.5222
+More developed regions,NA,2003,75.6161
+More developed regions,NA,2004,76.1057
+More developed regions,NA,2005,76.1876
+More developed regions,NA,2006,76.7299
+More developed regions,NA,2007,77.0591
+More developed regions,NA,2008,77.2959
+More developed regions,NA,2009,77.7106
+More developed regions,NA,2010,77.9313
+More developed regions,NA,2011,78.2741
+More developed regions,NA,2012,78.4618
+More developed regions,NA,2013,78.7052
+More developed regions,NA,2014,78.9622
+More developed regions,NA,2015,78.989
+More developed regions,NA,2016,79.2764
+More developed regions,NA,2017,79.4257
+More developed regions,NA,2018,79.56
+More developed regions,NA,2019,79.8152
+More developed regions,NA,2020,78.5756
+More developed regions,NA,2021,78.065
 Morocco,MAR,1950,39.1012
 Morocco,MAR,1951,39.2693
 Morocco,MAR,1952,39.6621
@@ -13592,78 +13592,78 @@ Niue,NIU,2018,70.6162
 Niue,NIU,2019,70.7401
 Niue,NIU,2020,70.8119
 Niue,NIU,2021,70.819
-No income group available,,1950,51.0482
-No income group available,,1951,51.6399
-No income group available,,1952,52.3567
-No income group available,,1953,53.0005
-No income group available,,1954,53.5927
-No income group available,,1955,54.6759
-No income group available,,1956,55.307
-No income group available,,1957,55.6674
-No income group available,,1958,56.6031
-No income group available,,1959,57.5345
-No income group available,,1960,58.5123
-No income group available,,1961,59.2628
-No income group available,,1962,59.3918
-No income group available,,1963,60.0088
-No income group available,,1964,60.4595
-No income group available,,1965,61.0839
-No income group available,,1966,61.6286
-No income group available,,1967,62.166
-No income group available,,1968,62.7358
-No income group available,,1969,63.0313
-No income group available,,1970,64.0893
-No income group available,,1971,64.7169
-No income group available,,1972,65.2098
-No income group available,,1973,65.7346
-No income group available,,1974,66.3333
-No income group available,,1975,66.7787
-No income group available,,1976,67.3449
-No income group available,,1977,67.7325
-No income group available,,1978,68.0762
-No income group available,,1979,68.2738
-No income group available,,1980,68.4326
-No income group available,,1981,69.1424
-No income group available,,1982,69.4247
-No income group available,,1983,69.8995
-No income group available,,1984,70.1536
-No income group available,,1985,70.322
-No income group available,,1986,70.7699
-No income group available,,1987,70.7905
-No income group available,,1988,71.0375
-No income group available,,1989,71.127
-No income group available,,1990,71.3736
-No income group available,,1991,71.677
-No income group available,,1992,71.6608
-No income group available,,1993,71.787
-No income group available,,1994,71.7239
-No income group available,,1995,72.0176
-No income group available,,1996,71.9902
-No income group available,,1997,72.5701
-No income group available,,1998,72.5471
-No income group available,,1999,72.1452
-No income group available,,2000,72.3684
-No income group available,,2001,71.1174
-No income group available,,2002,72.5587
-No income group available,,2003,71.8544
-No income group available,,2004,72.4239
-No income group available,,2005,72.6918
-No income group available,,2006,72.6568
-No income group available,,2007,72.9732
-No income group available,,2008,72.3674
-No income group available,,2009,72.5136
-No income group available,,2010,72.8242
-No income group available,,2011,72.8537
-No income group available,,2012,72.9778
-No income group available,,2013,73.1407
-No income group available,,2014,72.8098
-No income group available,,2015,72.965
-No income group available,,2016,72.0374
-No income group available,,2017,71.93
-No income group available,,2018,71.968
-No income group available,,2019,72.1525
-No income group available,,2020,71.1104
-No income group available,,2021,70.5838
+No income group available,NA,1950,51.0482
+No income group available,NA,1951,51.6399
+No income group available,NA,1952,52.3567
+No income group available,NA,1953,53.0005
+No income group available,NA,1954,53.5927
+No income group available,NA,1955,54.6759
+No income group available,NA,1956,55.307
+No income group available,NA,1957,55.6674
+No income group available,NA,1958,56.6031
+No income group available,NA,1959,57.5345
+No income group available,NA,1960,58.5123
+No income group available,NA,1961,59.2628
+No income group available,NA,1962,59.3918
+No income group available,NA,1963,60.0088
+No income group available,NA,1964,60.4595
+No income group available,NA,1965,61.0839
+No income group available,NA,1966,61.6286
+No income group available,NA,1967,62.166
+No income group available,NA,1968,62.7358
+No income group available,NA,1969,63.0313
+No income group available,NA,1970,64.0893
+No income group available,NA,1971,64.7169
+No income group available,NA,1972,65.2098
+No income group available,NA,1973,65.7346
+No income group available,NA,1974,66.3333
+No income group available,NA,1975,66.7787
+No income group available,NA,1976,67.3449
+No income group available,NA,1977,67.7325
+No income group available,NA,1978,68.0762
+No income group available,NA,1979,68.2738
+No income group available,NA,1980,68.4326
+No income group available,NA,1981,69.1424
+No income group available,NA,1982,69.4247
+No income group available,NA,1983,69.8995
+No income group available,NA,1984,70.1536
+No income group available,NA,1985,70.322
+No income group available,NA,1986,70.7699
+No income group available,NA,1987,70.7905
+No income group available,NA,1988,71.0375
+No income group available,NA,1989,71.127
+No income group available,NA,1990,71.3736
+No income group available,NA,1991,71.677
+No income group available,NA,1992,71.6608
+No income group available,NA,1993,71.787
+No income group available,NA,1994,71.7239
+No income group available,NA,1995,72.0176
+No income group available,NA,1996,71.9902
+No income group available,NA,1997,72.5701
+No income group available,NA,1998,72.5471
+No income group available,NA,1999,72.1452
+No income group available,NA,2000,72.3684
+No income group available,NA,2001,71.1174
+No income group available,NA,2002,72.5587
+No income group available,NA,2003,71.8544
+No income group available,NA,2004,72.4239
+No income group available,NA,2005,72.6918
+No income group available,NA,2006,72.6568
+No income group available,NA,2007,72.9732
+No income group available,NA,2008,72.3674
+No income group available,NA,2009,72.5136
+No income group available,NA,2010,72.8242
+No income group available,NA,2011,72.8537
+No income group available,NA,2012,72.9778
+No income group available,NA,2013,73.1407
+No income group available,NA,2014,72.8098
+No income group available,NA,2015,72.965
+No income group available,NA,2016,72.0374
+No income group available,NA,2017,71.93
+No income group available,NA,2018,71.968
+No income group available,NA,2019,72.1525
+No income group available,NA,2020,71.1104
+No income group available,NA,2021,70.5838
 North Korea,PRK,1950,13.8211
 North Korea,PRK,1951,17.6717
 North Korea,PRK,1952,32.6565
@@ -13816,106 +13816,106 @@ North Macedonia,MKD,2018,77.3142
 North Macedonia,MKD,2019,77.2928
 North Macedonia,MKD,2020,75.1677
 North Macedonia,MKD,2021,73.8415
-Northern America,,1950,68.0427
-Northern America,,1951,68.1712
-Northern America,,1952,68.3659
-Northern America,,1953,68.7044
-Northern America,,1954,69.5042
-Northern America,,1955,69.5623
-Northern America,,1956,69.6395
-Northern America,,1957,69.4315
-Northern America,,1958,69.7232
-Northern America,,1959,69.9396
-Northern America,,1960,69.9013
-Northern America,,1961,70.3119
-Northern America,,1962,70.1879
-Northern America,,1963,70.0354
-Northern America,,1964,70.3075
-Northern America,,1965,70.3669
-Northern America,,1966,70.3407
-Northern America,,1967,70.6486
-Northern America,,1968,70.3734
-Northern America,,1969,70.6419
-Northern America,,1970,70.8965
-Northern America,,1971,71.2563
-Northern America,,1972,71.3165
-Northern America,,1973,71.5377
-Northern America,,1974,72.0587
-Northern America,,1975,72.6188
-Northern America,,1976,72.9321
-Northern America,,1977,73.304
-Northern America,,1978,73.4991
-Northern America,,1979,73.9161
-Northern America,,1980,73.842
-Northern America,,1981,74.2328
-Northern America,,1982,74.5705
-Northern America,,1983,74.6848
-Northern America,,1984,74.8235
-Northern America,,1985,74.8015
-Northern America,,1986,74.8891
-Northern America,,1987,75.0368
-Northern America,,1988,75.0212
-Northern America,,1989,75.2974
-Northern America,,1990,75.5689
-Northern America,,1991,75.723
-Northern America,,1992,75.9785
-Northern America,,1993,75.7757
-Northern America,,1994,75.9473
-Northern America,,1995,76.0639
-Northern America,,1996,76.3785
-Northern America,,1997,76.6885
-Northern America,,1998,76.8541
-Northern America,,1999,76.8832
-Northern America,,2000,77.0402
-Northern America,,2001,77.1684
-Northern America,,2002,77.2454
-Northern America,,2003,77.4009
-Northern America,,2004,77.7964
-Northern America,,2005,77.8049
-Northern America,,2006,78.0985
-Northern America,,2007,78.3381
-Northern America,,2008,78.443
-Northern America,,2009,78.81
-Northern America,,2010,79.0256
-Northern America,,2011,79.0867
-Northern America,,2012,79.2181
-Northern America,,2013,79.2331
-Northern America,,2014,79.2992
-Northern America,,2015,79.172
-Northern America,,2016,79.1645
-Northern America,,2017,79.1397
-Northern America,,2018,79.2957
-Northern America,,2019,79.4605
-Northern America,,2020,77.8693
-Northern America,,2021,77.7299
-Northern Ireland,,1922,54.43
-Northern Ireland,,1923,55.55
-Northern Ireland,,1924,54.19
-Northern Ireland,,1925,54.4
-Northern Ireland,,1926,55.24
-Northern Ireland,,1927,56.72
-Northern Ireland,,1928,56.89
-Northern Ireland,,1929,55.14
-Northern Ireland,,1930,58.6
-Northern Ireland,,1931,57.63
-Northern Ireland,,1932,57.76
-Northern Ireland,,1933,57.12
-Northern Ireland,,1934,58.55
-Northern Ireland,,1935,56.73
-Northern Ireland,,1936,58.15
-Northern Ireland,,1937,58.06
-Northern Ireland,,1938,59.11
-Northern Ireland,,1939,60.63
-Northern Ireland,,1940,58.07
-Northern Ireland,,1941,57.76
-Northern Ireland,,1942,60.47
-Northern Ireland,,1943,60.93
-Northern Ireland,,1944,62.51
-Northern Ireland,,1945,63.39
-Northern Ireland,,1946,63.93
-Northern Ireland,,1947,64.08
-Northern Ireland,,1948,66.3
-Northern Ireland,,1949,66.54
+Northern America,NA,1950,68.0427
+Northern America,NA,1951,68.1712
+Northern America,NA,1952,68.3659
+Northern America,NA,1953,68.7044
+Northern America,NA,1954,69.5042
+Northern America,NA,1955,69.5623
+Northern America,NA,1956,69.6395
+Northern America,NA,1957,69.4315
+Northern America,NA,1958,69.7232
+Northern America,NA,1959,69.9396
+Northern America,NA,1960,69.9013
+Northern America,NA,1961,70.3119
+Northern America,NA,1962,70.1879
+Northern America,NA,1963,70.0354
+Northern America,NA,1964,70.3075
+Northern America,NA,1965,70.3669
+Northern America,NA,1966,70.3407
+Northern America,NA,1967,70.6486
+Northern America,NA,1968,70.3734
+Northern America,NA,1969,70.6419
+Northern America,NA,1970,70.8965
+Northern America,NA,1971,71.2563
+Northern America,NA,1972,71.3165
+Northern America,NA,1973,71.5377
+Northern America,NA,1974,72.0587
+Northern America,NA,1975,72.6188
+Northern America,NA,1976,72.9321
+Northern America,NA,1977,73.304
+Northern America,NA,1978,73.4991
+Northern America,NA,1979,73.9161
+Northern America,NA,1980,73.842
+Northern America,NA,1981,74.2328
+Northern America,NA,1982,74.5705
+Northern America,NA,1983,74.6848
+Northern America,NA,1984,74.8235
+Northern America,NA,1985,74.8015
+Northern America,NA,1986,74.8891
+Northern America,NA,1987,75.0368
+Northern America,NA,1988,75.0212
+Northern America,NA,1989,75.2974
+Northern America,NA,1990,75.5689
+Northern America,NA,1991,75.723
+Northern America,NA,1992,75.9785
+Northern America,NA,1993,75.7757
+Northern America,NA,1994,75.9473
+Northern America,NA,1995,76.0639
+Northern America,NA,1996,76.3785
+Northern America,NA,1997,76.6885
+Northern America,NA,1998,76.8541
+Northern America,NA,1999,76.8832
+Northern America,NA,2000,77.0402
+Northern America,NA,2001,77.1684
+Northern America,NA,2002,77.2454
+Northern America,NA,2003,77.4009
+Northern America,NA,2004,77.7964
+Northern America,NA,2005,77.8049
+Northern America,NA,2006,78.0985
+Northern America,NA,2007,78.3381
+Northern America,NA,2008,78.443
+Northern America,NA,2009,78.81
+Northern America,NA,2010,79.0256
+Northern America,NA,2011,79.0867
+Northern America,NA,2012,79.2181
+Northern America,NA,2013,79.2331
+Northern America,NA,2014,79.2992
+Northern America,NA,2015,79.172
+Northern America,NA,2016,79.1645
+Northern America,NA,2017,79.1397
+Northern America,NA,2018,79.2957
+Northern America,NA,2019,79.4605
+Northern America,NA,2020,77.8693
+Northern America,NA,2021,77.7299
+Northern Ireland,NA,1922,54.43
+Northern Ireland,NA,1923,55.55
+Northern Ireland,NA,1924,54.19
+Northern Ireland,NA,1925,54.4
+Northern Ireland,NA,1926,55.24
+Northern Ireland,NA,1927,56.72
+Northern Ireland,NA,1928,56.89
+Northern Ireland,NA,1929,55.14
+Northern Ireland,NA,1930,58.6
+Northern Ireland,NA,1931,57.63
+Northern Ireland,NA,1932,57.76
+Northern Ireland,NA,1933,57.12
+Northern Ireland,NA,1934,58.55
+Northern Ireland,NA,1935,56.73
+Northern Ireland,NA,1936,58.15
+Northern Ireland,NA,1937,58.06
+Northern Ireland,NA,1938,59.11
+Northern Ireland,NA,1939,60.63
+Northern Ireland,NA,1940,58.07
+Northern Ireland,NA,1941,57.76
+Northern Ireland,NA,1942,60.47
+Northern Ireland,NA,1943,60.93
+Northern Ireland,NA,1944,62.51
+Northern Ireland,NA,1945,63.39
+Northern Ireland,NA,1946,63.93
+Northern Ireland,NA,1947,64.08
+Northern Ireland,NA,1948,66.3
+Northern Ireland,NA,1949,66.54
 Northern Mariana Islands,MNP,1950,58.8505
 Northern Mariana Islands,MNP,1951,59.0261
 Northern Mariana Islands,MNP,1952,59.3217
@@ -14164,81 +14164,81 @@ Norway,NOR,2018,82.7605
 Norway,NOR,2019,82.9552
 Norway,NOR,2020,83.1951
 Norway,NOR,2021,83.2339
-Oceania,,1950,61.3765
-Oceania,,1951,60.6257
-Oceania,,1952,62.0007
-Oceania,,1953,62.6812
-Oceania,,1954,63.0101
-Oceania,,1955,63.439
-Oceania,,1956,63.568
-Oceania,,1957,63.9857
-Oceania,,1958,64.6175
-Oceania,,1959,64.5362
-Oceania,,1960,65.0507
-Oceania,,1961,65.3987
-Oceania,,1962,65.3939
-Oceania,,1963,65.6586
-Oceania,,1964,65.4896
-Oceania,,1965,65.8003
-Oceania,,1966,65.8367
-Oceania,,1967,66.3286
-Oceania,,1968,66.2451
-Oceania,,1969,66.7376
-Oceania,,1970,66.6238
-Oceania,,1971,67.4401
-Oceania,,1972,67.7967
-Oceania,,1973,68.0447
-Oceania,,1974,68.0624
-Oceania,,1975,68.7719
-Oceania,,1976,68.898
-Oceania,,1977,69.4049
-Oceania,,1978,69.8176
-Oceania,,1979,70.2951
-Oceania,,1980,70.4926
-Oceania,,1981,70.8712
-Oceania,,1982,70.9191
-Oceania,,1983,71.4904
-Oceania,,1984,71.6726
-Oceania,,1985,71.6469
-Oceania,,1986,72.116
-Oceania,,1987,72.2009
-Oceania,,1988,72.466
-Oceania,,1989,72.4899
-Oceania,,1990,73.1943
-Oceania,,1991,73.5738
-Oceania,,1992,73.6344
-Oceania,,1993,74.0341
-Oceania,,1994,73.9893
-Oceania,,1995,74.2723
-Oceania,,1996,74.3074
-Oceania,,1997,74.5775
-Oceania,,1998,74.7128
-Oceania,,1999,75.076
-Oceania,,2000,75.3603
-Oceania,,2001,75.5628
-Oceania,,2002,75.5341
-Oceania,,2003,75.8341
-Oceania,,2004,76.0241
-Oceania,,2005,76.3515
-Oceania,,2006,76.4643
-Oceania,,2007,76.4922
-Oceania,,2008,76.7775
-Oceania,,2009,77.042
-Oceania,,2010,77.361
-Oceania,,2011,77.4843
-Oceania,,2012,77.6902
-Oceania,,2013,77.9574
-Oceania,,2014,77.9842
-Oceania,,2015,78.1624
-Oceania,,2016,78.3537
-Oceania,,2017,78.5432
-Oceania,,2018,78.8271
-Oceania,,2019,78.7485
-Oceania,,2020,79.4958
-Oceania,,2021,79.4444
-Oceania,,1870,34.7
-Oceania,,1900,47.6
-Oceania,,1913,51
+Oceania,NA,1950,61.3765
+Oceania,NA,1951,60.6257
+Oceania,NA,1952,62.0007
+Oceania,NA,1953,62.6812
+Oceania,NA,1954,63.0101
+Oceania,NA,1955,63.439
+Oceania,NA,1956,63.568
+Oceania,NA,1957,63.9857
+Oceania,NA,1958,64.6175
+Oceania,NA,1959,64.5362
+Oceania,NA,1960,65.0507
+Oceania,NA,1961,65.3987
+Oceania,NA,1962,65.3939
+Oceania,NA,1963,65.6586
+Oceania,NA,1964,65.4896
+Oceania,NA,1965,65.8003
+Oceania,NA,1966,65.8367
+Oceania,NA,1967,66.3286
+Oceania,NA,1968,66.2451
+Oceania,NA,1969,66.7376
+Oceania,NA,1970,66.6238
+Oceania,NA,1971,67.4401
+Oceania,NA,1972,67.7967
+Oceania,NA,1973,68.0447
+Oceania,NA,1974,68.0624
+Oceania,NA,1975,68.7719
+Oceania,NA,1976,68.898
+Oceania,NA,1977,69.4049
+Oceania,NA,1978,69.8176
+Oceania,NA,1979,70.2951
+Oceania,NA,1980,70.4926
+Oceania,NA,1981,70.8712
+Oceania,NA,1982,70.9191
+Oceania,NA,1983,71.4904
+Oceania,NA,1984,71.6726
+Oceania,NA,1985,71.6469
+Oceania,NA,1986,72.116
+Oceania,NA,1987,72.2009
+Oceania,NA,1988,72.466
+Oceania,NA,1989,72.4899
+Oceania,NA,1990,73.1943
+Oceania,NA,1991,73.5738
+Oceania,NA,1992,73.6344
+Oceania,NA,1993,74.0341
+Oceania,NA,1994,73.9893
+Oceania,NA,1995,74.2723
+Oceania,NA,1996,74.3074
+Oceania,NA,1997,74.5775
+Oceania,NA,1998,74.7128
+Oceania,NA,1999,75.076
+Oceania,NA,2000,75.3603
+Oceania,NA,2001,75.5628
+Oceania,NA,2002,75.5341
+Oceania,NA,2003,75.8341
+Oceania,NA,2004,76.0241
+Oceania,NA,2005,76.3515
+Oceania,NA,2006,76.4643
+Oceania,NA,2007,76.4922
+Oceania,NA,2008,76.7775
+Oceania,NA,2009,77.042
+Oceania,NA,2010,77.361
+Oceania,NA,2011,77.4843
+Oceania,NA,2012,77.6902
+Oceania,NA,2013,77.9574
+Oceania,NA,2014,77.9842
+Oceania,NA,2015,78.1624
+Oceania,NA,2016,78.3537
+Oceania,NA,2017,78.5432
+Oceania,NA,2018,78.8271
+Oceania,NA,2019,78.7485
+Oceania,NA,2020,79.4958
+Oceania,NA,2021,79.4444
+Oceania,NA,1870,34.7
+Oceania,NA,1900,47.6
+Oceania,NA,1913,51
 Oman,OMN,1950,29.6701
 Oman,OMN,1951,30.0135
 Oman,OMN,1952,30.4722
@@ -14737,7 +14737,7 @@ Paraguay,PRY,2006,70.7809
 Paraguay,PRY,2007,71.1061
 Paraguay,PRY,2008,71.3838
 Paraguay,PRY,2009,71.6345
-Paraguay,PRY,2010,71.8872
+Paraguay,PRY,2010,71.887200000000007
 Paraguay,PRY,2011,72.1314
 Paraguay,PRY,2012,72.4536
 Paraguay,PRY,2013,72.7568
@@ -15016,7 +15016,7 @@ Portugal,PRT,1978,70.7971
 Portugal,PRT,1979,71.6075
 Portugal,PRT,1980,71.6648
 Portugal,PRT,1981,71.8908
-Portugal,PRT,1982,72.6997
+Portugal,PRT,1982,72.699700000000007
 Portugal,PRT,1983,72.6551
 Portugal,PRT,1984,72.935
 Portugal,PRT,1985,73.2162
@@ -15476,7 +15476,7 @@ Rwanda,RWA,1979,46.6592
 Rwanda,RWA,1980,47.9633
 Rwanda,RWA,1981,49.4225
 Rwanda,RWA,1982,50.6924
-Rwanda,RWA,1983,51.3186
+Rwanda,RWA,1983,51.318600000000004
 Rwanda,RWA,1984,51.6398
 Rwanda,RWA,1985,51.7344
 Rwanda,RWA,1986,51.6376
@@ -15761,7 +15761,7 @@ Saint Lucia,LCA,1976,66.2562
 Saint Lucia,LCA,1977,66.8869
 Saint Lucia,LCA,1978,67.3325
 Saint Lucia,LCA,1979,67.3586
-Saint Lucia,LCA,1980,67.6997
+Saint Lucia,LCA,1980,67.699700000000007
 Saint Lucia,LCA,1981,68.4672
 Saint Lucia,LCA,1982,69.0524
 Saint Lucia,LCA,1983,69.9102
@@ -15928,7 +15928,7 @@ Saint Pierre and Miquelon,SPM,1999,74.8083
 Saint Pierre and Miquelon,SPM,2000,74.8996
 Saint Pierre and Miquelon,SPM,2001,74.9592
 Saint Pierre and Miquelon,SPM,2002,74.9965
-Saint Pierre and Miquelon,SPM,2003,75.0747
+Saint Pierre and Miquelon,SPM,2003,75.074700000000007
 Saint Pierre and Miquelon,SPM,2004,75.1592
 Saint Pierre and Miquelon,SPM,2005,76.7323
 Saint Pierre and Miquelon,SPM,2006,75.689
@@ -15953,7 +15953,7 @@ Saint Vincent and the Grenadines,VCT,1952,51.8603
 Saint Vincent and the Grenadines,VCT,1953,52.1044
 Saint Vincent and the Grenadines,VCT,1954,52.7781
 Saint Vincent and the Grenadines,VCT,1955,50.4686
-Saint Vincent and the Grenadines,VCT,1956,53.5061
+Saint Vincent and the Grenadines,VCT,1956,53.506100000000004
 Saint Vincent and the Grenadines,VCT,1957,53.8819
 Saint Vincent and the Grenadines,VCT,1958,54.4057
 Saint Vincent and the Grenadines,VCT,1959,55.0537
@@ -16125,7 +16125,7 @@ San Marino,SMR,1980,76.0124
 San Marino,SMR,1981,76.6399
 San Marino,SMR,1982,77.0627
 San Marino,SMR,1983,77.5373
-San Marino,SMR,1984,77.8872
+San Marino,SMR,1984,77.887200000000007
 San Marino,SMR,1985,77.9771
 San Marino,SMR,1986,77.9083
 San Marino,SMR,1987,78.1261
@@ -16307,101 +16307,101 @@ Saudi Arabia,SAU,2018,77.2115
 Saudi Arabia,SAU,2019,77.3036
 Saudi Arabia,SAU,2020,76.2392
 Saudi Arabia,SAU,2021,76.936
-Scotland,,1855,42.98
-Scotland,,1856,44.32
-Scotland,,1857,43.51
-Scotland,,1858,43.05
-Scotland,,1859,43.87
-Scotland,,1860,41.49
-Scotland,,1861,44.03
-Scotland,,1862,42.58
-Scotland,,1863,40.67
-Scotland,,1864,40.18
-Scotland,,1865,41.96
-Scotland,,1866,42.29
-Scotland,,1867,43.57
-Scotland,,1868,43.41
-Scotland,,1869,41.18
-Scotland,,1870,41.84
-Scotland,,1871,41.47
-Scotland,,1872,41.75
-Scotland,,1873,42.11
-Scotland,,1874,40.59
-Scotland,,1875,40.93
-Scotland,,1876,43.74
-Scotland,,1877,44.52
-Scotland,,1878,43.57
-Scotland,,1879,45.28
-Scotland,,1880,43.89
-Scotland,,1881,45.46
-Scotland,,1882,45.23
-Scotland,,1883,44.42
-Scotland,,1884,45.06
-Scotland,,1885,45.66
-Scotland,,1886,46.33
-Scotland,,1887,45.89
-Scotland,,1888,47.43
-Scotland,,1889,46.52
-Scotland,,1890,44.48
-Scotland,,1891,43.95
-Scotland,,1892,46.31
-Scotland,,1893,44.83
-Scotland,,1894,48.08
-Scotland,,1895,45.1
-Scotland,,1896,48.7
-Scotland,,1897,46.33
-Scotland,,1898,46.66
-Scotland,,1899,46.86
-Scotland,,1900,46.43
-Scotland,,1901,46.73
-Scotland,,1902,48.23
-Scotland,,1903,48.99
-Scotland,,1904,48.48
-Scotland,,1905,49.71
-Scotland,,1906,49.75
-Scotland,,1907,49.46
-Scotland,,1908,49.18
-Scotland,,1909,50.69
-Scotland,,1910,51.29
-Scotland,,1911,51.5
-Scotland,,1912,51.65
-Scotland,,1913,51.5
-Scotland,,1914,51.35
-Scotland,,1915,48.92
-Scotland,,1916,52.73
-Scotland,,1917,52.62
-Scotland,,1918,48.87
-Scotland,,1919,50.8
-Scotland,,1920,53.96
-Scotland,,1921,55.92
-Scotland,,1922,53.66
-Scotland,,1923,57.33
-Scotland,,1924,54.66
-Scotland,,1925,56.32
-Scotland,,1926,57.19
-Scotland,,1927,56.78
-Scotland,,1928,56.86
-Scotland,,1929,55.84
-Scotland,,1930,57.54
-Scotland,,1931,58.04
-Scotland,,1932,57.56
-Scotland,,1933,58.61
-Scotland,,1934,58.78
-Scotland,,1935,59.34
-Scotland,,1936,58.84
-Scotland,,1937,58.82
-Scotland,,1938,60.69
-Scotland,,1939,61.17
-Scotland,,1940,58.52
-Scotland,,1941,57.64
-Scotland,,1942,60.37
-Scotland,,1943,60.25
-Scotland,,1944,61.2
-Scotland,,1945,63.03
-Scotland,,1946,63.11
-Scotland,,1947,63.39
-Scotland,,1948,65.55
-Scotland,,1949,65.66
+Scotland,NA,1855,42.98
+Scotland,NA,1856,44.32
+Scotland,NA,1857,43.51
+Scotland,NA,1858,43.05
+Scotland,NA,1859,43.87
+Scotland,NA,1860,41.49
+Scotland,NA,1861,44.03
+Scotland,NA,1862,42.58
+Scotland,NA,1863,40.67
+Scotland,NA,1864,40.18
+Scotland,NA,1865,41.96
+Scotland,NA,1866,42.29
+Scotland,NA,1867,43.57
+Scotland,NA,1868,43.41
+Scotland,NA,1869,41.18
+Scotland,NA,1870,41.84
+Scotland,NA,1871,41.47
+Scotland,NA,1872,41.75
+Scotland,NA,1873,42.11
+Scotland,NA,1874,40.59
+Scotland,NA,1875,40.93
+Scotland,NA,1876,43.74
+Scotland,NA,1877,44.52
+Scotland,NA,1878,43.57
+Scotland,NA,1879,45.28
+Scotland,NA,1880,43.89
+Scotland,NA,1881,45.46
+Scotland,NA,1882,45.23
+Scotland,NA,1883,44.42
+Scotland,NA,1884,45.06
+Scotland,NA,1885,45.66
+Scotland,NA,1886,46.33
+Scotland,NA,1887,45.89
+Scotland,NA,1888,47.43
+Scotland,NA,1889,46.52
+Scotland,NA,1890,44.48
+Scotland,NA,1891,43.95
+Scotland,NA,1892,46.31
+Scotland,NA,1893,44.83
+Scotland,NA,1894,48.08
+Scotland,NA,1895,45.1
+Scotland,NA,1896,48.7
+Scotland,NA,1897,46.33
+Scotland,NA,1898,46.66
+Scotland,NA,1899,46.86
+Scotland,NA,1900,46.43
+Scotland,NA,1901,46.73
+Scotland,NA,1902,48.23
+Scotland,NA,1903,48.99
+Scotland,NA,1904,48.48
+Scotland,NA,1905,49.71
+Scotland,NA,1906,49.75
+Scotland,NA,1907,49.46
+Scotland,NA,1908,49.18
+Scotland,NA,1909,50.69
+Scotland,NA,1910,51.29
+Scotland,NA,1911,51.5
+Scotland,NA,1912,51.65
+Scotland,NA,1913,51.5
+Scotland,NA,1914,51.35
+Scotland,NA,1915,48.92
+Scotland,NA,1916,52.73
+Scotland,NA,1917,52.62
+Scotland,NA,1918,48.87
+Scotland,NA,1919,50.8
+Scotland,NA,1920,53.96
+Scotland,NA,1921,55.92
+Scotland,NA,1922,53.66
+Scotland,NA,1923,57.33
+Scotland,NA,1924,54.66
+Scotland,NA,1925,56.32
+Scotland,NA,1926,57.19
+Scotland,NA,1927,56.78
+Scotland,NA,1928,56.86
+Scotland,NA,1929,55.84
+Scotland,NA,1930,57.54
+Scotland,NA,1931,58.04
+Scotland,NA,1932,57.56
+Scotland,NA,1933,58.61
+Scotland,NA,1934,58.78
+Scotland,NA,1935,59.34
+Scotland,NA,1936,58.84
+Scotland,NA,1937,58.82
+Scotland,NA,1938,60.69
+Scotland,NA,1939,61.17
+Scotland,NA,1940,58.52
+Scotland,NA,1941,57.64
+Scotland,NA,1942,60.37
+Scotland,NA,1943,60.25
+Scotland,NA,1944,61.2
+Scotland,NA,1945,63.03
+Scotland,NA,1946,63.11
+Scotland,NA,1947,63.39
+Scotland,NA,1948,65.55
+Scotland,NA,1949,65.66
 Senegal,SEN,1950,36.4332
 Senegal,SEN,1951,36.9224
 Senegal,SEN,1952,37.3567
@@ -16985,78 +16985,78 @@ Slovenia,SVN,2018,81.3581
 Slovenia,SVN,2019,81.6042
 Slovenia,SVN,2020,80.4409
 Slovenia,SVN,2021,80.6904
-Small Island Developing States (SIDS),,1950,48.8265
-Small Island Developing States (SIDS),,1951,48.9768
-Small Island Developing States (SIDS),,1952,49.9972
-Small Island Developing States (SIDS),,1953,50.7508
-Small Island Developing States (SIDS),,1954,51.5593
-Small Island Developing States (SIDS),,1955,52.3511
-Small Island Developing States (SIDS),,1956,52.9864
-Small Island Developing States (SIDS),,1957,53.5744
-Small Island Developing States (SIDS),,1958,54.1417
-Small Island Developing States (SIDS),,1959,54.6788
-Small Island Developing States (SIDS),,1960,55.2597
-Small Island Developing States (SIDS),,1961,55.7218
-Small Island Developing States (SIDS),,1962,56.2235
-Small Island Developing States (SIDS),,1963,56.1992
-Small Island Developing States (SIDS),,1964,57.0916
-Small Island Developing States (SIDS),,1965,57.3051
-Small Island Developing States (SIDS),,1966,57.9652
-Small Island Developing States (SIDS),,1967,58.3952
-Small Island Developing States (SIDS),,1968,58.7534
-Small Island Developing States (SIDS),,1969,59.165
-Small Island Developing States (SIDS),,1970,59.6021
-Small Island Developing States (SIDS),,1971,59.9933
-Small Island Developing States (SIDS),,1972,60.3638
-Small Island Developing States (SIDS),,1973,60.7716
-Small Island Developing States (SIDS),,1974,61.1315
-Small Island Developing States (SIDS),,1975,60.8586
-Small Island Developing States (SIDS),,1976,61.1914
-Small Island Developing States (SIDS),,1977,61.3368
-Small Island Developing States (SIDS),,1978,61.4078
-Small Island Developing States (SIDS),,1979,61.626
-Small Island Developing States (SIDS),,1980,62.2545
-Small Island Developing States (SIDS),,1981,62.5757
-Small Island Developing States (SIDS),,1982,62.9408
-Small Island Developing States (SIDS),,1983,63.2342
-Small Island Developing States (SIDS),,1984,63.5745
-Small Island Developing States (SIDS),,1985,63.8578
-Small Island Developing States (SIDS),,1986,64.175
-Small Island Developing States (SIDS),,1987,64.5565
-Small Island Developing States (SIDS),,1988,64.8516
-Small Island Developing States (SIDS),,1989,65.3362
-Small Island Developing States (SIDS),,1990,65.5723
-Small Island Developing States (SIDS),,1991,65.7896
-Small Island Developing States (SIDS),,1992,66.0467
-Small Island Developing States (SIDS),,1993,66.2993
-Small Island Developing States (SIDS),,1994,66.4531
-Small Island Developing States (SIDS),,1995,66.7833
-Small Island Developing States (SIDS),,1996,67.053
-Small Island Developing States (SIDS),,1997,67.2988
-Small Island Developing States (SIDS),,1998,67.4484
-Small Island Developing States (SIDS),,1999,67.7879
-Small Island Developing States (SIDS),,2000,68.4526
-Small Island Developing States (SIDS),,2001,68.6337
-Small Island Developing States (SIDS),,2002,68.8566
-Small Island Developing States (SIDS),,2003,69.0807
-Small Island Developing States (SIDS),,2004,69.0064
-Small Island Developing States (SIDS),,2005,69.5725
-Small Island Developing States (SIDS),,2006,69.816
-Small Island Developing States (SIDS),,2007,70.0658
-Small Island Developing States (SIDS),,2008,70.3484
-Small Island Developing States (SIDS),,2009,70.6697
-Small Island Developing States (SIDS),,2010,67.1929
-Small Island Developing States (SIDS),,2011,71.0957
-Small Island Developing States (SIDS),,2012,71.3962
-Small Island Developing States (SIDS),,2013,71.595
-Small Island Developing States (SIDS),,2014,71.7563
-Small Island Developing States (SIDS),,2015,71.9234
-Small Island Developing States (SIDS),,2016,72.0044
-Small Island Developing States (SIDS),,2017,72.1283
-Small Island Developing States (SIDS),,2018,72.2182
-Small Island Developing States (SIDS),,2019,72.3776
-Small Island Developing States (SIDS),,2020,72.1998
-Small Island Developing States (SIDS),,2021,70.8139
+Small Island Developing States (SIDS),NA,1950,48.8265
+Small Island Developing States (SIDS),NA,1951,48.9768
+Small Island Developing States (SIDS),NA,1952,49.9972
+Small Island Developing States (SIDS),NA,1953,50.7508
+Small Island Developing States (SIDS),NA,1954,51.5593
+Small Island Developing States (SIDS),NA,1955,52.3511
+Small Island Developing States (SIDS),NA,1956,52.9864
+Small Island Developing States (SIDS),NA,1957,53.5744
+Small Island Developing States (SIDS),NA,1958,54.1417
+Small Island Developing States (SIDS),NA,1959,54.6788
+Small Island Developing States (SIDS),NA,1960,55.2597
+Small Island Developing States (SIDS),NA,1961,55.7218
+Small Island Developing States (SIDS),NA,1962,56.2235
+Small Island Developing States (SIDS),NA,1963,56.1992
+Small Island Developing States (SIDS),NA,1964,57.0916
+Small Island Developing States (SIDS),NA,1965,57.3051
+Small Island Developing States (SIDS),NA,1966,57.9652
+Small Island Developing States (SIDS),NA,1967,58.3952
+Small Island Developing States (SIDS),NA,1968,58.7534
+Small Island Developing States (SIDS),NA,1969,59.165
+Small Island Developing States (SIDS),NA,1970,59.6021
+Small Island Developing States (SIDS),NA,1971,59.9933
+Small Island Developing States (SIDS),NA,1972,60.3638
+Small Island Developing States (SIDS),NA,1973,60.7716
+Small Island Developing States (SIDS),NA,1974,61.1315
+Small Island Developing States (SIDS),NA,1975,60.8586
+Small Island Developing States (SIDS),NA,1976,61.1914
+Small Island Developing States (SIDS),NA,1977,61.3368
+Small Island Developing States (SIDS),NA,1978,61.4078
+Small Island Developing States (SIDS),NA,1979,61.626
+Small Island Developing States (SIDS),NA,1980,62.2545
+Small Island Developing States (SIDS),NA,1981,62.5757
+Small Island Developing States (SIDS),NA,1982,62.9408
+Small Island Developing States (SIDS),NA,1983,63.2342
+Small Island Developing States (SIDS),NA,1984,63.5745
+Small Island Developing States (SIDS),NA,1985,63.8578
+Small Island Developing States (SIDS),NA,1986,64.175
+Small Island Developing States (SIDS),NA,1987,64.5565
+Small Island Developing States (SIDS),NA,1988,64.8516
+Small Island Developing States (SIDS),NA,1989,65.3362
+Small Island Developing States (SIDS),NA,1990,65.5723
+Small Island Developing States (SIDS),NA,1991,65.7896
+Small Island Developing States (SIDS),NA,1992,66.0467
+Small Island Developing States (SIDS),NA,1993,66.2993
+Small Island Developing States (SIDS),NA,1994,66.4531
+Small Island Developing States (SIDS),NA,1995,66.7833
+Small Island Developing States (SIDS),NA,1996,67.053
+Small Island Developing States (SIDS),NA,1997,67.2988
+Small Island Developing States (SIDS),NA,1998,67.4484
+Small Island Developing States (SIDS),NA,1999,67.7879
+Small Island Developing States (SIDS),NA,2000,68.4526
+Small Island Developing States (SIDS),NA,2001,68.6337
+Small Island Developing States (SIDS),NA,2002,68.8566
+Small Island Developing States (SIDS),NA,2003,69.0807
+Small Island Developing States (SIDS),NA,2004,69.0064
+Small Island Developing States (SIDS),NA,2005,69.5725
+Small Island Developing States (SIDS),NA,2006,69.816
+Small Island Developing States (SIDS),NA,2007,70.0658
+Small Island Developing States (SIDS),NA,2008,70.3484
+Small Island Developing States (SIDS),NA,2009,70.6697
+Small Island Developing States (SIDS),NA,2010,67.1929
+Small Island Developing States (SIDS),NA,2011,71.0957
+Small Island Developing States (SIDS),NA,2012,71.3962
+Small Island Developing States (SIDS),NA,2013,71.595
+Small Island Developing States (SIDS),NA,2014,71.7563
+Small Island Developing States (SIDS),NA,2015,71.9234
+Small Island Developing States (SIDS),NA,2016,72.0044
+Small Island Developing States (SIDS),NA,2017,72.1283
+Small Island Developing States (SIDS),NA,2018,72.2182
+Small Island Developing States (SIDS),NA,2019,72.3776
+Small Island Developing States (SIDS),NA,2020,72.1998
+Small Island Developing States (SIDS),NA,2021,70.8139
 Solomon Islands,SLB,1950,40.0295
 Solomon Islands,SLB,1951,40.5275
 Solomon Islands,SLB,1952,41.2846
@@ -17227,7 +17227,7 @@ South Africa,ZAF,1972,56.2722
 South Africa,ZAF,1973,56.7224
 South Africa,ZAF,1974,57.1171
 South Africa,ZAF,1975,57.5118
-South Africa,ZAF,1976,58.0061
+South Africa,ZAF,1976,58.006100000000004
 South Africa,ZAF,1977,58.4924
 South Africa,ZAF,1978,58.979
 South Africa,ZAF,1979,59.3945
@@ -18127,7 +18127,7 @@ Switzerland,CHE,1962,71.3029
 Switzerland,CHE,1963,71.2926
 Switzerland,CHE,1964,72.1794
 Switzerland,CHE,1965,72.318
-Switzerland,CHE,1966,72.4497
+Switzerland,CHE,1966,72.449700000000007
 Switzerland,CHE,1967,72.7412
 Switzerland,CHE,1968,72.7054
 Switzerland,CHE,1969,72.7174
@@ -18627,7 +18627,7 @@ Tokelau,TKL,1954,56.5299
 Tokelau,TKL,1955,56.9858
 Tokelau,TKL,1956,57.3121
 Tokelau,TKL,1957,57.6622
-Tokelau,TKL,1958,58.0061
+Tokelau,TKL,1958,58.006100000000004
 Tokelau,TKL,1959,58.3471
 Tokelau,TKL,1960,58.6615
 Tokelau,TKL,1961,59.0187
@@ -18935,7 +18935,7 @@ Turkey,TUR,1968,55.8353
 Turkey,TUR,1969,56.3784
 Turkey,TUR,1970,56.8948
 Turkey,TUR,1971,57.4092
-Turkey,TUR,1972,58.0686
+Turkey,TUR,1972,58.068600000000004
 Turkey,TUR,1973,58.5212
 Turkey,TUR,1974,59.0507
 Turkey,TUR,1975,59.4966
@@ -19022,7 +19022,7 @@ Turkmenistan,TKM,1980,61.0217
 Turkmenistan,TKM,1981,61.4517
 Turkmenistan,TKM,1982,61.6035
 Turkmenistan,TKM,1983,61.8456
-Turkmenistan,TKM,1984,62.2561
+Turkmenistan,TKM,1984,62.256100000000004
 Turkmenistan,TKM,1985,62.4755
 Turkmenistan,TKM,1986,62.9764
 Turkmenistan,TKM,1987,63.3525
@@ -19042,7 +19042,7 @@ Turkmenistan,TKM,2000,65.0258
 Turkmenistan,TKM,2001,65.1555
 Turkmenistan,TKM,2002,65.3846
 Turkmenistan,TKM,2003,65.7459
-Turkmenistan,TKM,2004,66.0747
+Turkmenistan,TKM,2004,66.074700000000007
 Turkmenistan,TKM,2005,66.0683
 Turkmenistan,TKM,2006,66.4989
 Turkmenistan,TKM,2007,66.8948
@@ -19185,7 +19185,7 @@ Tuvalu,TUV,1999,63.427
 Tuvalu,TUV,2000,63.4988
 Tuvalu,TUV,2001,63.5427
 Tuvalu,TUV,2002,63.5803
-Tuvalu,TUV,2003,63.6311
+Tuvalu,TUV,2003,63.631100000000004
 Tuvalu,TUV,2004,63.6933
 Tuvalu,TUV,2005,63.8359
 Tuvalu,TUV,2006,63.9278
@@ -19257,7 +19257,7 @@ Uganda,UGA,1997,46.9767
 Uganda,UGA,1998,47.1747
 Uganda,UGA,1999,47.7857
 Uganda,UGA,2000,48.3415
-Uganda,UGA,2001,49.0061
+Uganda,UGA,2001,49.006100000000004
 Uganda,UGA,2002,49.6476
 Uganda,UGA,2003,50.3682
 Uganda,UGA,2004,51.5469
@@ -19342,7 +19342,7 @@ Ukraine,UKR,2007,68.7657
 Ukraine,UKR,2008,69.1168
 Ukraine,UKR,2009,70.2472
 Ukraine,UKR,2010,70.6207
-Ukraine,UKR,2011,71.3872
+Ukraine,UKR,2011,71.387200000000007
 Ukraine,UKR,2012,71.6273
 Ukraine,UKR,2013,71.8617
 Ukraine,UKR,2014,72.5905
@@ -19532,7 +19532,7 @@ United Kingdom,GBR,2012,80.8659
 United Kingdom,GBR,2013,80.9291
 United Kingdom,GBR,2014,81.1602
 United Kingdom,GBR,2015,80.9238
-United Kingdom,GBR,2016,81.0747
+United Kingdom,GBR,2016,81.074700000000007
 United Kingdom,GBR,2017,81.1684
 United Kingdom,GBR,2018,81.1254
 United Kingdom,GBR,2019,81.725
@@ -19873,78 +19873,78 @@ United States Virgin Islands,VIR,2018,75.0288
 United States Virgin Islands,VIR,2019,75.0569
 United States Virgin Islands,VIR,2020,74.9416
 United States Virgin Islands,VIR,2021,74.7241
-Upper-middle-income countries,,1950,45.9866
-Upper-middle-income countries,,1951,46.6703
-Upper-middle-income countries,,1952,47.5812
-Upper-middle-income countries,,1953,48.2579
-Upper-middle-income countries,,1954,49.0206
-Upper-middle-income countries,,1955,49.574
-Upper-middle-income countries,,1956,50.372
-Upper-middle-income countries,,1957,50.8491
-Upper-middle-income countries,,1958,51.4784
-Upper-middle-income countries,,1959,45.3681
-Upper-middle-income countries,,1960,41.0838
-Upper-middle-income countries,,1961,46.758
-Upper-middle-income countries,,1962,53.6107
-Upper-middle-income countries,,1963,54.1679
-Upper-middle-income countries,,1964,54.8319
-Upper-middle-income countries,,1965,55.4001
-Upper-middle-income countries,,1966,55.9843
-Upper-middle-income countries,,1967,56.5183
-Upper-middle-income countries,,1968,57.0733
-Upper-middle-income countries,,1969,57.5596
-Upper-middle-income countries,,1970,58.1817
-Upper-middle-income countries,,1971,59.0327
-Upper-middle-income countries,,1972,59.7078
-Upper-middle-income countries,,1973,60.4583
-Upper-middle-income countries,,1974,61.0615
-Upper-middle-income countries,,1975,61.5907
-Upper-middle-income countries,,1976,62.1925
-Upper-middle-income countries,,1977,62.7869
-Upper-middle-income countries,,1978,63.2952
-Upper-middle-income countries,,1979,63.769
-Upper-middle-income countries,,1980,64.2089
-Upper-middle-income countries,,1981,64.7087
-Upper-middle-income countries,,1982,65.157
-Upper-middle-income countries,,1983,65.5703
-Upper-middle-income countries,,1984,65.892
-Upper-middle-income countries,,1985,66.2766
-Upper-middle-income countries,,1986,66.8813
-Upper-middle-income countries,,1987,67.2097
-Upper-middle-income countries,,1988,67.4055
-Upper-middle-income countries,,1989,67.6853
-Upper-middle-income countries,,1990,67.8048
-Upper-middle-income countries,,1991,68.0001
-Upper-middle-income countries,,1992,68.2888
-Upper-middle-income countries,,1993,68.3463
-Upper-middle-income countries,,1994,68.5151
-Upper-middle-income countries,,1995,68.8939
-Upper-middle-income countries,,1996,69.2914
-Upper-middle-income countries,,1997,69.7025
-Upper-middle-income countries,,1998,70.1116
-Upper-middle-income countries,,1999,70.1696
-Upper-middle-income countries,,2000,70.4815
-Upper-middle-income countries,,2001,70.974
-Upper-middle-income countries,,2002,71.1787
-Upper-middle-income countries,,2003,71.43
-Upper-middle-income countries,,2004,71.7943
-Upper-middle-income countries,,2005,72.1125
-Upper-middle-income countries,,2006,72.5709
-Upper-middle-income countries,,2007,72.9095
-Upper-middle-income countries,,2008,73.1524
-Upper-middle-income countries,,2009,73.6355
-Upper-middle-income countries,,2010,73.9125
-Upper-middle-income countries,,2011,74.316
-Upper-middle-income countries,,2012,74.6621
-Upper-middle-income countries,,2013,74.9722
-Upper-middle-income countries,,2014,75.2509
-Upper-middle-income countries,,2015,75.4946
-Upper-middle-income countries,,2016,75.7177
-Upper-middle-income countries,,2017,75.9064
-Upper-middle-income countries,,2018,76.2589
-Upper-middle-income countries,,2019,76.4784
-Upper-middle-income countries,,2020,75.7449
-Upper-middle-income countries,,2021,75.2817
+Upper-middle-income countries,NA,1950,45.9866
+Upper-middle-income countries,NA,1951,46.6703
+Upper-middle-income countries,NA,1952,47.5812
+Upper-middle-income countries,NA,1953,48.2579
+Upper-middle-income countries,NA,1954,49.0206
+Upper-middle-income countries,NA,1955,49.574
+Upper-middle-income countries,NA,1956,50.372
+Upper-middle-income countries,NA,1957,50.8491
+Upper-middle-income countries,NA,1958,51.4784
+Upper-middle-income countries,NA,1959,45.3681
+Upper-middle-income countries,NA,1960,41.0838
+Upper-middle-income countries,NA,1961,46.758
+Upper-middle-income countries,NA,1962,53.6107
+Upper-middle-income countries,NA,1963,54.1679
+Upper-middle-income countries,NA,1964,54.8319
+Upper-middle-income countries,NA,1965,55.4001
+Upper-middle-income countries,NA,1966,55.9843
+Upper-middle-income countries,NA,1967,56.5183
+Upper-middle-income countries,NA,1968,57.0733
+Upper-middle-income countries,NA,1969,57.5596
+Upper-middle-income countries,NA,1970,58.1817
+Upper-middle-income countries,NA,1971,59.0327
+Upper-middle-income countries,NA,1972,59.7078
+Upper-middle-income countries,NA,1973,60.4583
+Upper-middle-income countries,NA,1974,61.0615
+Upper-middle-income countries,NA,1975,61.5907
+Upper-middle-income countries,NA,1976,62.1925
+Upper-middle-income countries,NA,1977,62.7869
+Upper-middle-income countries,NA,1978,63.2952
+Upper-middle-income countries,NA,1979,63.769
+Upper-middle-income countries,NA,1980,64.2089
+Upper-middle-income countries,NA,1981,64.7087
+Upper-middle-income countries,NA,1982,65.157
+Upper-middle-income countries,NA,1983,65.5703
+Upper-middle-income countries,NA,1984,65.892
+Upper-middle-income countries,NA,1985,66.2766
+Upper-middle-income countries,NA,1986,66.8813
+Upper-middle-income countries,NA,1987,67.2097
+Upper-middle-income countries,NA,1988,67.4055
+Upper-middle-income countries,NA,1989,67.6853
+Upper-middle-income countries,NA,1990,67.8048
+Upper-middle-income countries,NA,1991,68.0001
+Upper-middle-income countries,NA,1992,68.2888
+Upper-middle-income countries,NA,1993,68.3463
+Upper-middle-income countries,NA,1994,68.5151
+Upper-middle-income countries,NA,1995,68.8939
+Upper-middle-income countries,NA,1996,69.2914
+Upper-middle-income countries,NA,1997,69.7025
+Upper-middle-income countries,NA,1998,70.1116
+Upper-middle-income countries,NA,1999,70.1696
+Upper-middle-income countries,NA,2000,70.4815
+Upper-middle-income countries,NA,2001,70.974
+Upper-middle-income countries,NA,2002,71.1787
+Upper-middle-income countries,NA,2003,71.43
+Upper-middle-income countries,NA,2004,71.7943
+Upper-middle-income countries,NA,2005,72.1125
+Upper-middle-income countries,NA,2006,72.5709
+Upper-middle-income countries,NA,2007,72.9095
+Upper-middle-income countries,NA,2008,73.1524
+Upper-middle-income countries,NA,2009,73.6355
+Upper-middle-income countries,NA,2010,73.9125
+Upper-middle-income countries,NA,2011,74.316
+Upper-middle-income countries,NA,2012,74.6621
+Upper-middle-income countries,NA,2013,74.9722
+Upper-middle-income countries,NA,2014,75.2509
+Upper-middle-income countries,NA,2015,75.4946
+Upper-middle-income countries,NA,2016,75.7177
+Upper-middle-income countries,NA,2017,75.9064
+Upper-middle-income countries,NA,2018,76.2589
+Upper-middle-income countries,NA,2019,76.4784
+Upper-middle-income countries,NA,2020,75.7449
+Upper-middle-income countries,NA,2021,75.2817
 Uruguay,URY,1950,65.6173
 Uruguay,URY,1951,65.8756
 Uruguay,URY,1952,66.0879
@@ -20387,7 +20387,7 @@ Wallis and Futuna,WLF,2018,77.8613
 Wallis and Futuna,WLF,2019,79.6167
 Wallis and Futuna,WLF,2020,78.7639
 Wallis and Futuna,WLF,2021,78.4396
-Western Sahara,ESH,1950,34.8811
+Western Sahara,ESH,1950,34.881100000000004
 Western Sahara,ESH,1951,35.0759
 Western Sahara,ESH,1952,35.4698
 Western Sahara,ESH,1953,35.8594
