@@ -21,7 +21,7 @@ On the Our World in Data Life Expectancy page, you will find global data and res
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2023-11-28')
+tuesdata <- tidytuesdayR::tt_load('2023-12-05')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2023, week = 48)
 
