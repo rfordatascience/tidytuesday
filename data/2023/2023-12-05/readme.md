@@ -25,9 +25,9 @@ tuesdata <- tidytuesdayR::tt_load('2023-12-05')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2023, week = 49)
 
-drwho_episodes <- tuesdata$drwho_episodes
-drwho_directors <- tuesdata$drwho_directors
-drwho_writers <- tuesdata$drwho_writers
+life_expectancy <- tuesdata$life_expectancy
+life_expectancy_different_ages <- tuesdata$life_expectancy_different_ages
+life_expectancy_female_male <- tuesdata$life_expectancy_female_male
 
 # Option 2: Read directly from GitHub
 
