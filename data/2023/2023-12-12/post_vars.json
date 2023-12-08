@@ -1,0 +1,5 @@
+{
+  "article_link": "https://developer.imdb.com/non-commercial-datasets/",
+  "pic1_alt": "Keyword co-occurrence network for Christmas movie keywords. User-supplied keywords are plotted as nodes in a network graph. Two keywords are connected by an edge if they co-occur in the top 5 keywords for the same movie. The largest node is the word 'Christmas', with other clusters for keywords like 'Christmas Eve' and 'Santa Clause', or 'tv special' with 'the muppets'.",
+  "pic2_alt": "A bar chart of 'Holiday' movies through the decades. Colors indicate the presence of 'christmas', 'holiday', 'christmas and holiday', 'hanukkah', or 'kwanzaa' in the title of each movie. The x axis is labeled with decades from 1930s through 2020s. The y axis is labeled with number of movies on a log10 scale. In the 1930s, the word 'holiday' appeared in titles, but none of the other keywords appeared. 'Christmas' gained popularity in the 40s, and began to dominate in the 60s, although 'holiday' continued to be a close second. 'Hanukkah' appeared in the 90s onward. 'Both christmas and holiday' appeared in the 2000s and 2010s, and 'kwanzaa' appeared in the 2000s."
+}
