@@ -79,6 +79,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 47 | `2023-11-21` | [R-Ladies Chapter Events](data/2023/2023-11-21/readme.md) | [R-Ladies Chapter Events data](https://github.com/rladies/meetup_archive) | [R-Ladies Chapters: Making talks work for diverse audiences](https://github.com/Fgazzelloni/RLadies-Chapters-Making-Talks-Work-for-Diverse-Audiences/tree/main)|
 | 48 | `2023-11-28` | [Doctor Who Episodes](data/2023/2023-11-28/readme.md) | [datardis package](https://cran.r-project.org/package=datardis) | [List of Doctor Who episodes](https://en.wikipedia.org/wiki/List_of_Doctor_Who_episodes_(2005%E2%80%93present))|
 | 49 | `2023-12-05` | [Life Expectancy](data/2023/2023-12-05/readme.md) | [Our World in Data life expectancy](https://ourworldindata.org/life-expectancy) | [Our World in Data key insights on life expectancy](https://ourworldindata.org/life-expectancy?insight=life-expectancy-has-increased-across-the-world#key-insights))|
+| 50 | `2023-12-12` | [Holiday Movies](data/2023/2023-12-12/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Christmas Movies blog](https://networkdatascience.ceu.edu/article/2019-12-16/christmas-movies))|
 
 ***  
 
