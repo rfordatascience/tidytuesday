@@ -1,4 +1,7 @@
 Week,Date,year,data_files,data_type,delim
+52,2023-12-26,2023,cran_20221122.csv,csv,","
+52,2023-12-26,2023,external_calls.csv,csv,","
+52,2023-12-26,2023,internal_calls.csv,csv,","
 51,2023-12-19,2023,holiday_episodes.csv,csv,","
 51,2023-12-19,2023,holiday_episode_genres.csv,csv,","
 50,2023-12-12,2023,holiday_movies.csv,csv,","
