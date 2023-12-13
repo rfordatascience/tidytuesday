@@ -24,8 +24,8 @@ tuesdata <- tidytuesdayR::tt_load('2023-12-26')
 tuesdata <- tidytuesdayR::tt_load(2023, week = 52)
 
 cran_20221122 <- tuesdata$cran_20221122
-external_calls_20221122 <- tuesdata$external_calls_20221122
-internal_calls_20221122 <- tuesdata$internal_calls_20221122
+external_calls <- tuesdata$external_calls
+internal_calls <- tuesdata$internal_calls
 
 # Option 2: Read directly from GitHub
 
