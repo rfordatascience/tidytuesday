@@ -81,6 +81,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 49 | `2023-12-05` | [Life Expectancy](data/2023/2023-12-05/readme.md) | [Our World in Data life expectancy](https://ourworldindata.org/life-expectancy) | [Our World in Data key insights on life expectancy](https://ourworldindata.org/life-expectancy?insight=life-expectancy-has-increased-across-the-world#key-insights))|
 | 50 | `2023-12-12` | [Holiday Movies](data/2023/2023-12-12/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Christmas Movies blog](https://networkdatascience.ceu.edu/article/2019-12-16/christmas-movies))|
 | 51 | `2023-12-19` | [Holiday Episodes](data/2023/2023-12-19/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Holiday Episode TV Trope](https://tvtropes.org/pmwiki/pmwiki.php/Main/HolidayEpisode))|
+| 52 | `2023-12-26` | [R Package Structure](data/2023/2023-12-26/readme.md) | [ropensci-review-tools/pkgstats](https://zenodo.org/records/7414296) | [Historical Trends in R Package Structure and Interdependency on CRAN](https://mpadge.github.io/pkgstats-analyses/articles/pkgstats.html))|
 
 ***  
 
