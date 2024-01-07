@@ -1,4 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+2,2024-01-09,2024,canada_births_1991_2022.csv,csv,","
+2,2024-01-09,2024,nhl_player_births.csv,csv,","
+2,2024-01-09,2024,nhl_rosters.csv,csv,","
+2,2024-01-09,2024,nhl_teams.csv,csv,","
 52,2023-12-26,2023,cran_20221122.csv,csv,","
 52,2023-12-26,2023,external_calls.csv,csv,","
 52,2023-12-26,2023,internal_calls.csv,csv,","
