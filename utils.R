@@ -12,7 +12,7 @@ closest_tuesday <- ifelse(lubridate::wday(today_date) >= 3,
                           today_date + (3 - lubridate::wday(today_date)),
                           today_date - (lubridate::wday(today_date) - 3))
 
-# Extract year and date components
+# Extract date from `closest_tuesday`
 year_str <- format(as.Date(closest_tuesday), "%Y")  # Ensure closest_tuesday is a Date object
 tuesday_date_str <- format(as.Date(closest_tuesday), "%m-%d")
 data_str <- paste0(year_str,"-",tuesday_date_str)
