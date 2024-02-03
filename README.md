@@ -35,6 +35,8 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 3 | `2024-01-16` | [US Polling Places 2012-2020](data/2024/2024-01-16/readme.md) | [Center for Public Integrity](https://github.com/PublicI/us-polling-places) | [National data release sheds light on past polling place changes](https://publicintegrity.org/politics/elections/ballotboxbarriers/data-release-sheds-light-on-past-polling-place-changes/) |
 | 4 | `2024-01-23` | [Educational attainment of young people in English towns](data/2024/2024-01-23/readme.md) | [The UK Office for National Statistics](https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/educationandchildcare/datasets/educationalattainmentofyoungpeopleinenglishtownsdata/200708201819/youngpeoplesattainmentintownsreferencetable1.xlsx) | [Why do children and young people in smaller towns do better academically than those in larger towns?](https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/articles/whydochildrenandyoungpeopleinsmallertownsdobetteracademicallythanthoseinlargertowns/2023-07-25) |
 | 5 | `2024-01-30` | [Groundhog predictions](data/2024/2024-01-30/readme.md) | [Groundhog-day.com API](https://groundhog-day.com/api) | [Groundhog-day.com Predictions by Year](https://groundhog-day.com/predictions) |
+| 6 | `2024-02-06` | [World heritage sites](data/2024/2024-02-06/readme.md) | [UNESCO World Heritage Sites](https://whc.unesco.org/en/list) | [1 dataset 100 visualizations](https://100.datavizproject.com/) |
+
 
 ***  
 
