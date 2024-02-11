@@ -6,7 +6,7 @@ Happy Valentine's Day! This week we're exploring [Valentine's Day survey data](h
 
 The NRF has continued to collect data. The data for this week is from 2010 to 2022, as organized by Suraj Das for a Kaggle dataset. In the historical surveys gender was collected as only 'Men' and 'Women', which does not accurately include all genders. 
 
-For some extra Valentine's Day inspiration, or to add to your Valentine's Day plots, you can try out Romain François' [Valentine's R package](https://tada.science/posts/2024-02-14-roses-are-red/) to generate Roses are Red, ... poems about packages using ChatGPT. Install it with `pak::pak("tadascience/valentine")`.  
+If you're looking for other Valentine's Day type datasets, check out previous datasets on [chocolate](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-18) or [board games](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-25) (a good Valentine's Day activity!).
 
 ## The Data
 
