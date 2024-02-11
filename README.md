@@ -36,6 +36,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 4 | `2024-01-23` | [Educational attainment of young people in English towns](data/2024/2024-01-23/readme.md) | [The UK Office for National Statistics](https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/educationandchildcare/datasets/educationalattainmentofyoungpeopleinenglishtownsdata/200708201819/youngpeoplesattainmentintownsreferencetable1.xlsx) | [Why do children and young people in smaller towns do better academically than those in larger towns?](https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/articles/whydochildrenandyoungpeopleinsmallertownsdobetteracademicallythanthoseinlargertowns/2023-07-25) |
 | 5 | `2024-01-30` | [Groundhog predictions](data/2024/2024-01-30/readme.md) | [Groundhog-day.com API](https://groundhog-day.com/api) | [Groundhog-day.com Predictions by Year](https://groundhog-day.com/predictions) |
 | 6 | `2024-02-06` | [World heritage sites](data/2024/2024-02-06/readme.md) | [UNESCO World Heritage Sites](https://whc.unesco.org/en/list) | [1 dataset 100 visualizations](https://100.datavizproject.com/) |
+| 7 | `2024-02-13` | [Valentine's Day consumer data](data/2024/2024-02-13/readme.md) | [Valentine's Days consumer survey data](https://www.kaggle.com/datasets/infinator/happy-valentines-day-2022) | [National Retail Federation Valentine's Day Data Center](https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center) |
 
 
 ***  
