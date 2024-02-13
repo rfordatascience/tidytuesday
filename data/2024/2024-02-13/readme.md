@@ -18,11 +18,9 @@ tuesdata <- tidytuesdayR::tt_load('2024-02-13')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2024, week = 7)
 
-historical_spending <- tuesdata$historical_spending.csv
-gifts_age <- tuesdata$gifts_age.csv
-gifts_gender <- tuesdata$gifts_gender.csv
-
-
+historical_spending <- tuesdata$historical_spending
+gifts_age <- tuesdata$gifts_age
+gifts_gender <- tuesdata$gifts_gender
 
 
 # Option 2: Read directly from GitHub
