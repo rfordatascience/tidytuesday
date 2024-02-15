@@ -37,6 +37,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 5 | `2024-01-30` | [Groundhog predictions](data/2024/2024-01-30/readme.md) | [Groundhog-day.com API](https://groundhog-day.com/api) | [Groundhog-day.com Predictions by Year](https://groundhog-day.com/predictions) |
 | 6 | `2024-02-06` | [World heritage sites](data/2024/2024-02-06/readme.md) | [UNESCO World Heritage Sites](https://whc.unesco.org/en/list) | [1 dataset 100 visualizations](https://100.datavizproject.com/) |
 | 7 | `2024-02-13` | [Valentine's Day consumer data](data/2024/2024-02-13/readme.md) | [Valentine's Days consumer survey data](https://www.kaggle.com/datasets/infinator/happy-valentines-day-2022) | [National Retail Federation Valentine's Day Data Center](https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center) |
+| 8 | `2024-02-20` | [R Consortium ISC Grants](data/2024/2024-02-20/readme.md) | [R Consortium ISC Funded Projects](https://www.r-consortium.org/all-projects/awarded-projects) | [R Consortium ISC Call for Proposals 2024](https://www.r-consortium.org/blog/2024/02/08/r-consortium-infrastructure-steering-committee-isc-grant-program-accepting-proposals-starting-march-1st) |
 
 
 ***  
