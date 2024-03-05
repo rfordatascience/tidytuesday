@@ -100,7 +100,9 @@ glimpse(gwynndatrash)
 
 mrtrash <- head(mrtrash, -1)
 mrtrash <- mrtrash[-c(15:16)]
-
+professortrash <- head(professortrash, -1)
+captaintrash <- head(captaintrash, -1)
+gwynndatrash <- head(gwynnda, -1)
 
 # Rename columns so they don't have spaces
 
