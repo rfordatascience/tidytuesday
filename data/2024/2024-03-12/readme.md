@@ -69,7 +69,7 @@ fiscal_sponsor_directory |>
     dplyr::across(
       c(eligibility_criteria, project_types, services, fiscal_sponsorship_model),
       \(col) {
-        stringr::str_split(col, "\\n")
+        stringr::str_split(col, "\\|")
       }
     )
   )
