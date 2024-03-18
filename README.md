@@ -41,6 +41,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 9 | `2024-02-27` | [Leap Day](data/2024/2024-02-27/readme.md) | [Wikipedia: February 29](https://en.wikipedia.org/wiki/February_29) | [Wikipedia: February 29](https://en.wikipedia.org/wiki/February_29) |
 | 10 | `2024-03-05` | [Trash Wheel Collection Data](data/2024/2024-03-05/readme.md) | [Healthy Harbor Trash Wheel Collection Data](https://docs.google.com/spreadsheets/d/1b8Lbe-z3PNb3H8nSsSjrwK2B0ReAblL2/edit#gid=1143432795) | [Mr. Trash Wheel](https://www.mrtrashwheel.com/) | 
 | 11 | `2024-03-12` | [Fiscal Sponsors](data/2024/2024-03-12/readme.md) | [Fiscal Sponsor Directory](https://fiscalsponsordirectory.org/?page_id=1330) | [Fiscal Sponsor Directory facts](https://fiscalsponsordirectory.org/?page_id=95) | 
+| 12 | `2024-03-19` | [X-Men Mutant Moneyball](data/2024/2024-03-19/readme.md) | [Mutant Moneyball Data](https://github.com/EliCash82/mutantmoneyball) | [Mutant moneyball: a data-driven ultimate X-Men](https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/) | 
 
 ***  
 
