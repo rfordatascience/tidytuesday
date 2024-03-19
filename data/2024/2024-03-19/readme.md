@@ -43,14 +43,10 @@ mutant_moneyball <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 |:----------------------|:---------|:----------------------|
 |Member                 |character |The name of the X-Men team member the data is connected to. In many cases these names are their civilian names and not their "Superhero" names (i.e. warrenWorthington is Angel, hankMcCoy is Beast, etc.              |
 |TotalIssues            |double    |This shows the total number of issues each X-Men member appeared in between 1963 and 1992.      |
-|TotalIssues60s         |double    |Total number of issues each X-Men member appeared between 1963 and 1969.
- |
-|TotalIssues70s         |double    |Total number of issues each X-Men member appeared between 1970 and 1979.
-  |
-|TotalIssues80s         |double    |Total number of issues each X-Men member appeared between 1980 and 1989.
-     |
-|TotalIssues90s         |double    |Total number of issues each X-Men member appeared between 1990 and 1992.
-    |
+|TotalIssues60s         |double    |Total number of issues each X-Men member appeared between 1963 and 1969.|
+|TotalIssues70s         |double    |Total number of issues each X-Men member appeared between 1970 and 1979.|
+|TotalIssues80s         |double    |Total number of issues each X-Men member appeared between 1980 and 1989.|
+|TotalIssues90s         |double    |Total number of issues each X-Men member appeared between 1990 and 1992.|
 |totalIssueCheck        |double    |Check on the total number of issues. Should be the same as TotalIssues.    |
 |TotalValue_heritage    |double    |Total value of each X-Men team member's total number of issues as reflected by Heritage highest sale.  |
 |TotalValue60s_heritage |double    |Total value of each X-Men team member's total number of issues as reflected by Heritage highest sale of comics released between 1963 and 1969. |
