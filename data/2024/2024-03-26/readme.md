@@ -2,7 +2,7 @@
 
 March is NCAA basketball March Madness! This week's data is [NCAA Men's March Madness data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) from Nishaan Amin's Kaggle dataset and analysis [Bracketology: predicting March Madness](https://www.kaggle.com/code/nishaanamin/bracketology-predicting-march-madness). 
 
-[March Madness](https://en.wikipedia.org/wiki/NCAA_Division_I_men%27s_basketball_tournament) is the NCAA Division I basketball tournament for women and men. It's a single-elimination tournament of 68 teams that compete in seven rounds for the national championship. (The "March Madness" branding and logo was only [extended to women in 2022](https://www.ncaa.com/news/basketball-women/article/2021-09-29/march-madness-brand-will-be-used-di-womens-basketball-championship).) 
+[March Madness](https://en.wikipedia.org/wiki/NCAA_Division_I_men%27s_basketball_tournament) is the NCAA Division I basketball tournament for women and men. It's a single-elimination tournament of 68 teams that compete in six rounds for the national championship. (The "March Madness" branding and logo was only [extended to women in 2022](https://www.ncaa.com/news/basketball-women/article/2021-09-29/march-madness-brand-will-be-used-di-womens-basketball-championship).) 
 
 Each round of the tournament has a name:
 
@@ -35,7 +35,7 @@ public-picks <- tuesdata$public-picks
 # Option 2: Read directly from GitHub
 
 team-results <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/team-results.csv')
-public-pick <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/public-pick.csv')
+public-picks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/public-picks.csv')
 
 ```
 
@@ -51,16 +51,16 @@ public-pick <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 |variable  |class     |description |
 |:---------|:---------|:-----------|
-|TEAM.ID   |integer   |Unique identifier for the team.     |
+|TEAMID   |integer   |Unique identifier for the team.     |
 |TEAM      |character |Division I college basketball team name.        |
 |PAKE      |double    |Performance against Komputer Expectations.        |
-|PAKE.RANK |integer   |Rank of PAKE from all teams.   |
+|PAKERANK |integer   |Rank of PAKE from all teams.   |
 |PASE      |double    |Performance Against Seed Expectations.        |
-|PASE.RANK |integer   |Rank of PASE from all teams.   |
+|PASERANK |integer   |Rank of PASE from all teams.   |
 |GAMES     |integer   |The total amount of tournament games the team has played.       |
 |W         |integer   |The total amount of tournament game wins.           |
 |L         |integer   |The total amount of tournament game losses.           |
-|WIN.      |double    |The winning percent of the team.        |
+|WINPERCENT      |double    |The winning percent of the team.        |
 |R64       |integer   |Amount of times the team made it to the Round of 64.         |
 |R32       |integer   |Amount of times the team made it to the Round of 32.       |
 |S16       |integer   |Amount of times the team made it to the Sweet 16.         |
@@ -69,8 +69,8 @@ public-pick <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 |F2        |integer   |Amount of times the team made it to the Finals.        |
 |CHAMP     |integer   |Amount of times the team was a Champion.       |
 |TOP2      |integer   |Amount of times the team was awarded a 1 or 2 seed.        |
-|F4.       |character |Likelihood of a team getting to at least 1 Final Four.         |
-|CHAMP.    |character |Likelihood of a team winning at least 1 Championship (per efficiency rating).      |
+|F4PERCENT       |character |Likelihood of a team getting to at least 1 Final Four.         |
+|CHAMPPERCENT    |character |Likelihood of a team winning at least 1 Championship (per efficiency rating).      |
 
 
 # `public-picks.csv`
@@ -78,7 +78,7 @@ public-pick <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 |variable |class     |description |
 |:--------|:---------|:-----------|
 |YEAR     |integer   |Ending year of the team's season        |
-|TEAM.NO  |integer   |Unique identifier for the team and the year they played in     |
+|TEAMNO  |integer   |Unique identifier for the team and the year they played in     |
 |TEAM     |character |Division I college basketball team name.        |
 |R64      |character |The percent of people who picked the team (the column left of this column) to win the game in the Round of 64.         |
 |R32      |character |The percent of people who picked the team (the column left of this column) to win the game in the Round of 32.         |
