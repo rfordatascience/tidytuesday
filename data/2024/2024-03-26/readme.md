@@ -80,12 +80,12 @@ public-picks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
 |YEAR     |integer   |Ending year of the team's season        |
 |TEAMNO  |integer   |Unique identifier for the team and the year they played in     |
 |TEAM     |character |Division I college basketball team name.        |
-|R64      |character |The percent of people who picked the team (the column left of this column) to win the game in the Round of 64.         |
-|R32      |character |The percent of people who picked the team (the column left of this column) to win the game in the Round of 32.         |
-|S16      |character |The percent of people who picked the team (the column left of this column) to win the game in the Sweet 16.       |
-|E8       |character |The percent of people who picked the team (the column left of this column) to win the game in the Elite 8.     |
-|F4       |character |The percent of people who picked the team (the column left of this column) to win the game in the Final 4.          |
-|FINALS   |character |The percent of people who picked the team (the column left of this column) to win the game in the Finals.      |
+|R64      |character |The percent of people who picked the team to win the game in the Round of 64.         |
+|R32      |character |The percent of people who picked the team to win the game in the Round of 32.         |
+|S16      |character |The percent of people who picked the team to win the game in the Sweet 16.       |
+|E8       |character |The percent of people who picked the team to win the game in the Elite 8.     |
+|F4       |character |The percent of people who picked the team to win the game in the Final 4.          |
+|FINALS   |character |The percent of people who picked the team to win the game in the Finals.      |
 
 
 ### Cleaning Script
