@@ -28,14 +28,14 @@ tuesdata <- tidytuesdayR::tt_load('2024-03-26')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2024, week = 13)
 
-team-results <- tuesdata$team-results
-public-picks <- tuesdata$public-picks
+team_results <- tuesdata$`team-results`
+public_picks <- tuesdata$`public-picks`
 
 
 # Option 2: Read directly from GitHub
 
-team-results <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/team-results.csv')
-public-picks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/public-picks.csv')
+team_results <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/team-results.csv')
+public_picks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-26/public-picks.csv')
 
 ```
 
