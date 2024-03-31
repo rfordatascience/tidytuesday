@@ -43,6 +43,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 11 | `2024-03-12` | [Fiscal Sponsors](data/2024/2024-03-12/readme.md) | [Fiscal Sponsor Directory](https://fiscalsponsordirectory.org/?page_id=1330) | [Fiscal Sponsor Directory facts](https://fiscalsponsordirectory.org/?page_id=95) | 
 | 12 | `2024-03-19` | [X-Men Mutant Moneyball](data/2024/2024-03-19/readme.md) | [Mutant Moneyball Data](https://github.com/EliCash82/mutantmoneyball) | [Mutant moneyball: a data-driven ultimate X-Men](https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/) | 
 | 13 | `2024-03-26` | [NCAA Men's March Madness](data/2024/2024-03-26/readme.md) | [Men's March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) | [Bracketology: predicting March Madness](https://www.kaggle.com/code/nishaanamin/bracketology-predicting-march-madness) | 
+| 14 | `2024-04-02` | [Du Bois Visualization Challenge 2024](data/2024/2024-04-02/readme.md) | [Week 10 Data ](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv) | [Du Bois Visualization Challenge: 2024](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md) | 
 
 ***  
 
