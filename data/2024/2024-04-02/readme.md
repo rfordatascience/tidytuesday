@@ -19,7 +19,7 @@ tuesdata <- tidytuesdayR::tt_load('2024-04-02')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2024, week = 14)
 
-dubois_week10 <- tuesdata$`dubois_week10`
+dubois_week10 <- tuesdata$dubois_week10
 
 # Option 2: Read directly from GitHub
 
