@@ -3,7 +3,7 @@
 We have a double data-set for this week!
 
 * US airport data from 2013-2017 
-* Hypoxia dataset in pilots from R4DS member Nathan Cook
+* Hypoxia dataset in pilots from community member Nathan Cook
 
 ## US Airport data dictionary
 * Full details [here](https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/categories/)
