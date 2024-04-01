@@ -6,7 +6,7 @@ Here we have gathered links relevant to `TidyTuesday`.
 
 | Link | Description |
 | --- | --- |
-| [Link](https://www.rfordatasci.com) | The R4DS Online Learning Community Website|
+| [Link](https://dslc.io) | The Data Science Learning Community Website|
 | [Link](https://r4ds.hadley.nz/) | The R for Data Science textbook |
 | [Link](https://carbon.now.sh/) | Carbon for sharing beautiful code pics |
 | [Link](https://github.com/MilesMcBain/gistfo) | Post gist to Carbon from RStudio |

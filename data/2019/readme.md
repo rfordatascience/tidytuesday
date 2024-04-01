@@ -31,9 +31,6 @@ We welcome all newcomers, enthusiasts, and experts to participate, but be mindfu
 ## Submitting Datasets
 Want to submit an interesting dataset? Please open an [Issue](https://github.com/rfordatascience/tidytuesday/issues) and post a link to the article (or blogpost, etc) using the data, then we can discuss adding it to a future TidyTuesday Event!
 
-## Submitting Code Chunks
-Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
-
 ***
 
 # DataSets
