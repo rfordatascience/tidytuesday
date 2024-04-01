@@ -6,7 +6,7 @@ Their November 24th article on [TV ratings](https://www.economist.com/graphic-de
 
 # Data Dictionary
 
-Data dictionary courtesy of `skimr` and `kable`, with credit to [Phillip Knor](https://twitter.com/philip_khor) for the [pull-request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks).
+Data dictionary courtesy of `skimr` and `kable`, with credit to [Phillip Knor](https://twitter.com/philip_khor).
 
 |type      |variable     |missing |complete |n    |min        |max        |
 |:---------|:------------|:-------|:--------|:----|:----------|:----------|

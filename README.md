@@ -3,7 +3,7 @@
 ## About TidyTuesday
 
 - `TidyTuesday` is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!
-- `TidyTuesday` is organized by the R4DS Online Learning Community. [Join our Slack](https://r4ds.io/join) for free online help with R and other data-related topics, or to participate in a data-related book club!
+- `TidyTuesday` is organized by the [Data Science Learning Community](https://dslc.io). [Join our Slack](https://r4ds.io/join) for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!
 
 ## Goals
 
@@ -51,17 +51,17 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 
 To cite the `TidyTuesday` repo/project in publications use:
 
-  R4DS Online Learning Community (2023). Tidy Tuesday: A weekly social data project.
-  https://github.com/rfordatascience/tidytuesday.
+  Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project.
+  https://tidytues.day
 
 A BibTeX entry for LaTeX users is
 
 ```
   @misc{tidytuesday, 
     title = {Tidy Tuesday: A weekly social data project}, 
-    author = {R4DS Online Learning Community}, 
-    url = {https://github.com/rfordatascience/tidytuesday}, 
-    year = {2023} 
+    author = {Data Science Learning Community}, 
+    url = {https://tidytues.day}, 
+    year = {2024} 
   }
 ```
 
