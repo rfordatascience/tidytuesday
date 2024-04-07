@@ -3,7 +3,7 @@
 ## About TidyTuesday
 
 - `TidyTuesday` is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!
-- `TidyTuesday` is organized by the [Data Science Learning Community](https://dslc.io). [Join our Slack](https://r4ds.io/join) for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!
+- `TidyTuesday` is organized by the [Data Science Learning Community](https://dslc.io). [Join our Slack](https://dslc.io/join) for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!
 
 ## Goals
 
@@ -44,6 +44,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 12 | `2024-03-19` | [X-Men Mutant Moneyball](data/2024/2024-03-19/readme.md) | [Mutant Moneyball Data](https://github.com/EliCash82/mutantmoneyball) | [Mutant moneyball: a data-driven ultimate X-Men](https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/) | 
 | 13 | `2024-03-26` | [NCAA Men's March Madness](data/2024/2024-03-26/readme.md) | [Men's March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) | [Bracketology: predicting March Madness](https://www.kaggle.com/code/nishaanamin/bracketology-predicting-march-madness) | 
 | 14 | `2024-04-02` | [Du Bois Visualization Challenge 2024](data/2024/2024-04-02/readme.md) | [Week 10 Data ](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv) | [Du Bois Visualization Challenge: 2024](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md) | 
+| 15 | `2024-04-09` | [2023 & 2024 US Solar Eclipses](data/2024/2024-04-09/readme.md) | [NASA's Scientific Visualization Studio cities-eclipse-2024.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2024.json), [NASA's Scientific Visualization Studio cities-eclipse-2023.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2023.json) | [The 2023 and 2024 Solar Eclipses: Map and Data](https://svs.gsfc.nasa.gov/5073) | 
 
 ***  
 
