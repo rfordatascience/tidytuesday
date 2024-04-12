@@ -52,7 +52,7 @@ cran_all_20221122 <- readr::read_rds("https://zenodo.org/records/7414296/files/p
 
 |variable                   |class     |description                |
 |:--------------------------|:---------|:--------------------------|
-|package                    |character |The name of the pacakge |
+|package                    |character |The name of the package |
 |version                    |character |The package version |
 |date                       |double    |The release date of that version of the package |
 |license                    |character |License information |
