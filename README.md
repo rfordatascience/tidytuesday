@@ -46,6 +46,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 14 | `2024-04-02` | [Du Bois Visualization Challenge 2024](data/2024/2024-04-02/readme.md) | [Week 10 Data ](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv) | [Du Bois Visualization Challenge: 2024](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md) | 
 | 15 | `2024-04-09` | [2023 & 2024 US Solar Eclipses](data/2024/2024-04-09/readme.md) | [NASA's Scientific Visualization Studio cities-eclipse-2024.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2024.json), [NASA's Scientific Visualization Studio cities-eclipse-2023.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2023.json) | [The 2023 and 2024 Solar Eclipses: Map and Data](https://svs.gsfc.nasa.gov/5073) | 
 | 16 | `2024-04-16` | [Shiny Packages](data/2024/2024-04-16/readme.md) | [shiny on CRAN](https://cran.r-project.org/package=shiny) | [ShinyConf2024: The Future is Shiny](https://www.shinyconf.com/) | 
+| 17 | `2024-04-23` | [Objects Launched into Space](data/2024/2024-04-23/readme.md) | [Our World in Data: Annual number of objects launched into space](https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space) | [UN Office for Outer Space Affairs: Online index of objects launched into outer space](https://www.unoosa.org/oosa/osoindex/search-ng.jspx) | 
 
 ***  
 
