@@ -47,6 +47,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 15 | `2024-04-09` | [2023 & 2024 US Solar Eclipses](data/2024/2024-04-09/readme.md) | [NASA's Scientific Visualization Studio cities-eclipse-2024.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2024.json), [NASA's Scientific Visualization Studio cities-eclipse-2023.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2023.json) | [The 2023 and 2024 Solar Eclipses: Map and Data](https://svs.gsfc.nasa.gov/5073) | 
 | 16 | `2024-04-16` | [Shiny Packages](data/2024/2024-04-16/readme.md) | [shiny on CRAN](https://cran.r-project.org/package=shiny) | [ShinyConf2024: The Future is Shiny](https://www.shinyconf.com/) | 
 | 17 | `2024-04-23` | [Objects Launched into Space](data/2024/2024-04-23/readme.md) | [Our World in Data: Annual number of objects launched into space](https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space) | [UN Office for Outer Space Affairs: Online index of objects launched into outer space](https://www.unoosa.org/oosa/osoindex/search-ng.jspx) | 
+| 18 | `2024-04-30` | [Worldwide Bureaucracy Indicators](data/2024/2024-04-30/readme.md) | [World Bank Data Catalog: Worldwide Bureaucracy Indicators](https://datacatalog.worldbank.org/search/dataset/0038132) | [Introducing the Worldwide Bureaucracy Indicators](https://blogs.worldbank.org/en/developmenttalk/introducing-worldwide-bureaucracy-indicators) | 
 
 ***  
 
