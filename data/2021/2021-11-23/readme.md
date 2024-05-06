@@ -32,7 +32,7 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 The data this week comes from the [`datardis` package](https://github.com/KittJonathan/datardis/tree/main/data) by way of Jonathan Kitt.
 
-They have a short blogpost on the package at: [https://randomics.netlify.app/posts/2021-11-16-datardis/](https://randomics.netlify.app/posts/2021-11-16-datardis/).
+They have a short blogpost on the package at: https://randomics.netlify.app/posts/2021-11-16-datardis/ (post no longer available as of 2024-05-06).
 
 Additional brief articlet from the [Independent.ie](https://www.independent.ie/entertainment/doctor-who-suffers-lowest-ratings-since-2005-revival-39028919.html)
 
