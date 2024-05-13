@@ -30,7 +30,7 @@ coffee_survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 
 ### Data Dictionary
 
-# `rolling_stone.csv`
+# `coffee_survey.csv`
 
 |variable                     |class     |description                  |
 |:----------------------------|:---------|:----------------------------|
@@ -70,7 +70,7 @@ coffee_survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 |coffee_d_personal_preference |numeric   |Coffee D - Personal Preference |
 |coffee_d_notes               |character |Coffee D - Notes |
 |prefer_abc                   |character |Between Coffee A, Coffee B, and Coffee C which did you prefer? |
-|prefer_ad                    |character |een Coffee A and Coffee D, which did you prefer? |
+|prefer_ad                    |character |Between Coffee A and Coffee D, which did you prefer? |
 |prefer_overall               |character |Lastly, what was your favorite overall coffee? |
 |wfh                          |character |Do you work from home or in person? |
 |total_spend                  |character |In total, much money do you typically spend on coffee in a month? |
