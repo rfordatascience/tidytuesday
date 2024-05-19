@@ -50,6 +50,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 18 | `2024-04-30` | [Worldwide Bureaucracy Indicators](data/2024/2024-04-30/readme.md) | [World Bank Data Catalog: Worldwide Bureaucracy Indicators](https://datacatalog.worldbank.org/search/dataset/0038132) | [Introducing the Worldwide Bureaucracy Indicators](https://blogs.worldbank.org/en/developmenttalk/introducing-worldwide-bureaucracy-indicators) | 
 | 19 | `2024-05-07` | [Rolling Stone Album Rankings](data/2024/2024-05-07/readme.md) | [Rolling Stone 500](https://docs.google.com/spreadsheets/d/1c_Tdnm7S1oo8R9UNtdCVIY7bYASmf_cvMynOJTpKuHA/edit#gid=0) | [What Makes an Album the Greatest of All Time](https://pudding.cool/2024/03/greatest-music/) | 
 | 20 | `2024-05-14` | [The Great American Coffee Taste Test](data/2024/2024-05-14/readme.md) | [James Hoffmann and Cometeer Great American Coffee Taste Test Survey](https://bit.ly/gacttCSV) | [Great American Coffee Taste Test Breakdown](https://rmckeon.medium.com/great-american-coffee-taste-test-breakdown-7f3fdcc3c41d) | 
+| 21 | `2024-05-21` | [Carbon Majors emissions data](data/2024/2024-05-21/readme.md) | [CarbonMajors](https://carbonmajors.org/) | [CarbonMajors dataset](https://carbonmajors.org/Downloads) | 
 
 ***  
 
