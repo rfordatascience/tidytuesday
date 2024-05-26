@@ -1,0 +1,727 @@
+vegetable,variety,date,weight,units
+asparagus,perennial,2021-05-10,32,grams
+lettuce,volunteer,2021-05-10,19,grams
+lettuce,volunteer,2021-05-19,91,grams
+lettuce,volunteer,2021-05-19,125,grams
+lettuce,volunteer,2021-05-20,79,grams
+lettuce,volunteer,2021-05-20,74,grams
+lettuce,volunteer,2021-05-21,18,grams
+lettuce,volunteer,2021-05-21,65,grams
+lettuce,volunteer,2021-05-22,61,grams
+lettuce,volunteer,2021-05-23,82,grams
+lettuce,volunteer,2021-05-24,77,grams
+asparagus,perennial,2021-05-24,15,grams
+basil,Emily,2021-05-24,11,grams
+lettuce,volunteer,2021-05-25,48,grams
+basil,Emily,2021-05-26,4,grams
+lettuce,volunteer,2021-05-26,78,grams
+lettuce,volunteer,2021-05-28,60,grams
+lettuce,volunteer,2021-05-29,64,grams
+asparagus,perennial,2021-05-30,5,grams
+lettuce,volunteer,2021-05-30,15,grams
+lettuce,volunteer,2021-05-31,131,grams
+lettuce,volunteer,2021-06-02,40,grams
+strawberries,perennial,2021-06-02,26,grams
+lettuce,volunteer,2021-06-02,86,grams
+strawberries,perennial,2021-06-03,26,grams
+lettuce,volunteer,2021-06-03,41,grams
+strawberries,perennial,2021-06-03,17,grams
+lettuce,volunteer,2021-06-04,80,grams
+lettuce,volunteer,2021-06-04,40,grams
+strawberries,perennial,2021-06-05,18,grams
+lettuce,volunteer,2021-06-05,54,grams
+peas,Magnolia Blossom,2021-06-05,32,grams
+strawberries,perennial,2021-06-06,48,grams
+peas,Magnolia Blossom,2021-06-06,12,grams
+lettuce,volunteer,2021-06-06,87,grams
+lettuce,volunteer,2021-06-06,7,grams
+basil,Emily,2021-06-06,6,grams
+lettuce,volunteer,2021-06-07,68,grams
+lettuce,volunteer,2021-06-07,11,grams
+strawberries,perennial,2021-06-08,28,grams
+peas,Magnolia Blossom,2021-06-08,40,grams
+lettuce,volunteer,2021-06-08,103,grams
+lettuce,volunteer,2021-06-08,15,grams
+basil,Emily,2021-06-08,15,grams
+garlic,scapes,2021-06-09,109,grams
+lettuce,volunteer,2021-06-09,64,grams
+lettuce,volunteer,2021-06-09,16,grams
+strawberries,perennial,2021-06-10,61,grams
+strawberries,perennial,2021-06-11,26,grams
+peas,Magnolia Blossom,2021-06-11,115,grams
+basil,Emily,2021-06-11,40,grams
+strawberries,perennial,2021-06-12,99,grams
+peas,Magnolia Blossom,2021-06-12,17,grams
+lettuce,volunteer,2021-06-12,136,grams
+lettuce,volunteer,2021-06-13,186,grams
+strawberries,perennial,2021-06-14,88,grams
+strawberries,perennial,2021-06-16,62,grams
+peas,Magnolia Blossom,2021-06-16,87,grams
+lettuce,volunteer,2021-06-16,150,grams
+basil,Emily,2021-06-17,28,grams
+asparagus,perennial,2021-06-17,28,grams
+peas,Magnolia Blossom,2021-06-17,16,grams
+lettuce,volunteer,2021-06-17,75,grams
+strawberries,perennial,2021-06-22,29,grams
+lettuce,volunteer,2021-06-23,42,grams
+lettuce,volunteer,2021-06-24,59,grams
+strawberries,perennial,2021-06-25,20,grams
+raspberries,perennial,2021-06-25,72,grams
+basil,Emily,2021-06-25,21,grams
+spinach,Catalina,2021-06-25,31,grams
+peas,Magnolia Blossom,2021-06-25,91,grams
+peas,Super Sugar Snap,2021-06-25,226,grams
+basil,Emily,2021-06-25,104,grams
+peppers,Banana,2021-06-26,29,grams
+lettuce,volunteer,2021-06-26,60,grams
+peas,Magnolia Blossom,2021-06-27,27,grams
+peas,Super Sugar Snap,2021-06-27,14,grams
+raspberries,perennial,2021-06-29,163,grams
+raspberries,perennial,2021-06-30,160,grams
+raspberries,perennial,2021-07-01,254,grams
+lettuce,mizuna,2021-07-01,7,grams
+lettuce,volunteer,2021-07-01,31,grams
+peppers,Banana,2021-07-01,17,grams
+radish,Garden Party,2021-07-01,92,grams
+lettuce,Jericho Romaine,2021-07-02,11,grams
+lettuce,volunteer,2021-07-02,27,grams
+peas,Magnolia Blossom,2021-07-02,301,grams
+peas,Super Sugar Snap,2021-07-02,340,grams
+basil,Emily,2021-07-02,41,grams
+kale,Heirloom Lacinto,2021-07-02,46,grams
+peppers,Banana,2021-07-02,31,grams
+raspberries,perennial,2021-07-02,113,grams
+mint,perennial,2021-07-02,38,grams
+raspberries,perennial,2021-07-04,260,grams
+raspberries,perennial,2021-07-05,139,grams
+beans,Rolande,2021-07-05,25,grams
+basil,Emily,2021-07-05,178,grams
+lettuce,Jericho Romaine,2021-07-06,9,grams
+raspberries,perennial,2021-07-07,226,grams
+peppers,Banana,2021-07-08,65,grams
+radish,Garden Party,2021-07-08,29,grams
+swiss chard,Neon Glow,2021-07-08,31,grams
+lettuce,Jericho Romaine,2021-07-08,28,grams
+basil,Emily,2021-07-09,23,grams
+peppers,Banana,2021-07-09,63,grams
+beans,Rolande,2021-07-09,9,grams
+peas,Super Sugar Snap,2021-07-10,71,grams
+peas,Magnolia Blossom,2021-07-10,333,grams
+beans,Rolande,2021-07-10,141,grams
+radish,Garden Party,2021-07-10,56,grams
+tomatoes,Sweet 100 Cherry,2021-07-10,9,grams
+lettuce,Jericho Romaine,2021-07-10,41,grams
+lettuce,mizuna,2021-07-10,29,grams
+raspberries,perennial,2021-07-10,525,grams
+basil,Emily,2021-07-10,18,grams
+basil,Emily,2021-07-12,28,grams
+raspberries,perennial,2021-07-13,318,grams
+cucumbers,pickling,2021-07-13,131,grams
+kale,Heirloom Lacinto,2021-07-13,47,grams
+cilantro,Cilantro,2021-07-13,8,grams
+radish,Garden Party,2021-07-13,102,grams
+tomatoes,Sweet 100 Cherry,2021-07-13,21,grams
+lettuce,Jericho Romaine,2021-07-13,81,grams
+beans,Bush,2021-07-13,47,grams
+beans,Rolande,2021-07-13,235,grams
+zucchini,Romanesco,2021-07-14,217,grams
+cucumbers,pickling,2021-07-14,244,grams
+cucumbers,pickling,2021-07-16,364,grams
+tomatoes,Early Girl,2021-07-16,103,grams
+beans,Rolande,2021-07-16,101,grams
+beans,Bush,2021-07-16,101,grams
+lettuce,Jericho Romaine,2021-07-16,99,grams
+swiss chard,Neon Glow,2021-07-16,61,grams
+peppers,Bell Boy,2021-07-16,127,grams
+tomatoes,Sweet 100 Cherry,2021-07-16,16,grams
+cucumbers,pickling,2021-07-17,457,grams
+zucchini,Romanesco,2021-07-17,169,grams
+peppers,Banana,2021-07-17,128,grams
+swiss chard,Neon Glow,2021-07-17,51,grams
+lettuce,Jericho Romaine,2021-07-17,119,grams
+peas,Magnolia Blossom,2021-07-17,26,grams
+basil,Emily,2021-07-17,29,grams
+cucumbers,pickling,2021-07-18,687,grams
+radish,Garden Party,2021-07-18,221,grams
+beans,Bush,2021-07-18,220,grams
+cilantro,Cilantro,2021-07-18,15,grams
+beans,Rolande,2021-07-18,515,grams
+lettuce,Jericho Romaine,2021-07-18,49,grams
+peppers,Jalapeño,2021-07-18,45,grams
+raspberries,perennial,2021-07-18,132,grams
+swiss chard,Neon Glow,2021-07-19,30,grams
+peppers,Banana,2021-07-19,41,grams
+lettuce,Jericho Romaine,2021-07-19,68,grams
+zucchini,Romanesco,2021-07-20,431,grams
+beans,Bush,2021-07-20,576,grams
+basil,Emily,2021-07-20,128,grams
+beans,Rolande,2021-07-20,463,grams
+cucumbers,pickling,2021-07-20,607,grams
+kale,Heirloom Lacinto,2021-07-21,23,grams
+cucumbers,pickling,2021-07-21,204,grams
+tomatoes,Early Girl,2021-07-22,67,grams
+zucchini,Romanesco,2021-07-22,339,grams
+squash,Red Kuri,2021-07-23,1836,grams
+spinach,Red Malabar,2021-07-23,46,grams
+lettuce,Jericho Romaine,2021-07-23,64,grams
+cucumbers,pickling,2021-07-23,1686,grams
+tomatoes,Sweet 100 Cherry,2021-07-23,27,grams
+beans,Rolande,2021-07-23,517,grams
+beans,Bush,2021-07-23,971,grams
+zucchini,Romanesco,2021-07-24,416,grams
+peppers,Thai,2021-07-24,46,grams
+peppers,Banana,2021-07-24,846,grams
+peppers,Jalapeño,2021-07-24,835,grams
+garlic,garlic,2021-07-24,87,grams
+cucumbers,pickling,2021-07-24,306,grams
+zucchini,Romanesco,2021-07-26,1542,grams
+tomatoes,Big Beef,2021-07-26,69,grams
+tomatoes,Sweet 100 Cherry,2021-07-26,22,grams
+swiss chard,Neon Glow,2021-07-26,42,grams
+lettuce,Jericho Romaine,2021-07-26,22,grams
+strawberries,perennial,2021-07-27,17,grams
+lettuce,Jericho Romaine,2021-07-27,7,grams
+peppers,Bell Boy,2021-07-27,125,grams
+beans,Bush,2021-07-28,1581,grams
+cucumbers,pickling,2021-07-28,2411,grams
+beans,Rolande,2021-07-28,481,grams
+zucchini,Romanesco,2021-07-30,1288,grams
+cucumbers,pickling,2021-07-30,132,grams
+tomatoes,Early Girl,2021-07-30,43,grams
+oregano,oregano,2021-07-30,2,grams
+tomatoes,Sweet 100 Cherry,2021-07-30,143,grams
+basil,Emily,2021-07-30,86,grams
+kale,Heirloom Lacinto,2021-07-30,60,grams
+swiss chard,Neon Glow,2021-07-30,24,grams
+peppers,Bell Boy,2021-07-30,253,grams
+garlic,garlic,2021-07-30,28,grams
+peppers,Bell Boy,2021-07-31,142,grams
+tomatoes,Early Girl,2021-07-31,102,grams
+tomatoes,Sweet 100 Cherry,2021-07-31,84,grams
+lettuce,Jericho Romaine,2021-07-31,25,grams
+cucumbers,pickling,2021-07-31,104,grams
+cilantro,Cilantro,2021-07-31,5,grams
+carrots,Starica,2021-07-31,32,grams
+cucumbers,pickling,2021-08-01,777,grams
+carrots,Starica,2021-08-01,17,grams
+spinach,Red Malabar,2021-08-01,84,grams
+beets,Sweet Merlin,2021-08-01,103,grams
+beets,Gourmet Golden,2021-08-01,129,grams
+kale,Heirloom Lacinto,2021-08-01,264,grams
+tomatoes,Big Beef,2021-08-02,201,grams
+tomatoes,Sweet 100 Cherry,2021-08-02,116,grams
+peppers,Banana,2021-08-02,31,grams
+zucchini,Romanesco,2021-08-04,1575,grams
+peppers,Thai,2021-08-04,58,grams
+dill,Boquet,2021-08-04,14,grams
+peppers,Banana,2021-08-04,416,grams
+peppers,Jalapeño,2021-08-04,313,grams
+cucumbers,pickling,2021-08-04,3398,grams
+garlic,garlic,2021-08-04,106,grams
+tomatoes,Early Girl,2021-08-04,216,grams
+tomatoes,Mortgage Lifter,2021-08-04,310,grams
+tomatoes,Sweet 100 Cherry,2021-08-04,322,grams
+tomatoes,Early Girl,2021-08-05,177,grams
+peppers,Banana,2021-08-05,24,grams
+watermelon,Sugar Baby,2021-08-05,2899,grams
+zucchini,Romanesco,2021-08-05,318,grams
+lettuce,Jericho Romaine,2021-08-05,30,grams
+cucumbers,pickling,2021-08-05,81,grams
+swiss chard,Neon Glow,2021-08-06,52,grams
+zucchini,Romanesco,2021-08-06,313,grams
+tomatoes,Sweet 100 Cherry,2021-08-06,169,grams
+zucchini,Romanesco,2021-08-08,1592,grams
+tomatoes,Big Beef,2021-08-08,95,grams
+tomatoes,Mortgage Lifter,2021-08-08,190,grams
+tomatoes,Early Girl,2021-08-08,825,grams
+tomatoes,Sweet 100 Cherry,2021-08-08,270,grams
+spinach,Red Malabar,2021-08-08,132,grams
+peppers,Bell Boy,2021-08-08,286,grams
+spinach,Red Malabar,2021-08-08,14,grams
+swiss chard,Neon Glow,2021-08-08,43,grams
+lettuce,Jericho Romaine,2021-08-08,51,grams
+cucumbers,pickling,2021-08-08,303,grams
+kale,Heirloom Lacinto,2021-08-09,67,grams
+cucumbers,pickling,2021-08-09,2536,grams
+beets,Gourmet Golden,2021-08-09,176,grams
+beets,Sweet Merlin,2021-08-09,132,grams
+peppers,Bell Boy,2021-08-10,88,grams
+tomatoes,Early Girl,2021-08-10,515,grams
+tomatoes,Cherokee Purple,2021-08-10,395,grams
+tomatoes,Sweet 100 Cherry,2021-08-10,572,grams
+garlic,garlic,2021-08-10,117,grams
+tomatillos,verde,2021-08-10,45,grams
+cilantro,Cilantro,2021-08-10,3,grams
+lettuce,Jericho Romaine,2021-08-10,18,grams
+corn,Dorinny Sweet,2021-08-10,841,grams
+zucchini,Romanesco,2021-08-11,1297,grams
+tomatoes,Early Girl,2021-08-12,198,grams
+tomatoes,Bonny Best,2021-08-12,303,grams
+tomatoes,Sweet 100 Cherry,2021-08-12,589,grams
+tomatoes,Big Beef,2021-08-12,1873,grams
+tomatoes,Mortgage Lifter,2021-08-12,853,grams
+cucumbers,pickling,2021-08-12,1220,grams
+carrots,Starica,2021-08-12,172,grams
+basil,Emily,2021-08-12,10,grams
+swiss chard,Neon Glow,2021-08-12,45,grams
+beans,Rolande,2021-08-12,160,grams
+tomatoes,Mortgage Lifter,2021-08-13,588,grams
+tomatoes,Early Girl,2021-08-13,397,grams
+tomatoes,Big Beef,2021-08-13,179,grams
+tomatoes,Cherokee Purple,2021-08-13,445,grams
+tomatoes,Black Krim,2021-08-13,283,grams
+peppers,Banana,2021-08-13,363,grams
+peppers,Thai,2021-08-13,62,grams
+cucumbers,pickling,2021-08-13,812,grams
+garlic,garlic,2021-08-13,95,grams
+dill,Boquet,2021-08-13,12,grams
+beets,Sweet Merlin,2021-08-13,161,grams
+beets,Gourmet Golden,2021-08-13,442,grams
+peppers,Bell Boy,2021-08-13,79,grams
+spinach,Red Malabar,2021-08-14,44,grams
+cucumbers,pickling,2021-08-14,93,grams
+tomatoes,Big Beef,2021-08-14,1090,grams
+tomatoes,Amish Paste,2021-08-14,355,grams
+tomatoes,San Marzano,2021-08-14,167,grams
+tomatoes,Black Krim,2021-08-14,251,grams
+tomatoes,Cherokee Purple,2021-08-14,660,grams
+zucchini,Romanesco,2021-08-14,500,grams
+tomatoes,Sweet 100 Cherry,2021-08-14,421,grams
+tomatoes,Early Girl,2021-08-14,388,grams
+tomatoes,yellow,2021-08-14,54,grams
+carrots,Starica,2021-08-14,165,grams
+corn,Dorinny Sweet,2021-08-14,184,grams
+peppers,Bell Boy,2021-08-14,540,grams
+tomatillos,verde,2021-08-15,1205,grams
+peppers,Jalapeño,2021-08-15,263,grams
+peppers,Banana,2021-08-15,216,grams
+peppers,Bell Boy,2021-08-15,341,grams
+basil,Emily,2021-08-15,141,grams
+peppers,Bell Boy,2021-08-15,75,grams
+oregano,oregano,2021-08-16,19,grams
+peppers,Bell Boy,2021-08-16,666,grams
+peppers,Banana,2021-08-16,88,grams
+peppers,Jalapeño,2021-08-16,408,grams
+garlic,garlic,2021-08-16,80,grams
+tomatoes,Sweet 100 Cherry,2021-08-16,514,grams
+tomatoes,Bonny Best,2021-08-16,139,grams
+tomatoes,Big Beef,2021-08-16,222,grams
+tomatoes,Mortgage Lifter,2021-08-16,270,grams
+tomatoes,Early Girl,2021-08-16,636,grams
+zucchini,Romanesco,2021-08-16,271,grams
+tomatoes,Mortgage Lifter,2021-08-17,282,grams
+tomatoes,Big Beef,2021-08-17,350,grams
+edamame,edamame,2021-08-17,319,grams
+potatoes,yellow,2021-08-17,1016,grams
+cucumbers,pickling,2021-08-18,2415,grams
+kale,Heirloom Lacinto,2021-08-18,89,grams
+tomatoes,Sweet 100 Cherry,2021-08-18,1062,grams
+tomatoes,yellow,2021-08-18,104,grams
+tomatoes,San Marzano,2021-08-18,304,grams
+tomatoes,Big Beef,2021-08-18,258,grams
+tomatoes,Mortgage Lifter,2021-08-18,756,grams
+tomatoes,Amish Paste,2021-08-18,290,grams
+tomatoes,Early Girl,2021-08-18,522,grams
+tomatoes,Bush Goliath,2021-08-19,177,grams
+tomatoes,volunteer,2021-08-19,273,grams
+tomatoes,San Marzano,2021-08-19,45,grams
+tomatoes,Early Girl,2021-08-19,325,grams
+tomatoes,Big Beef,2021-08-19,300,grams
+tomatillos,verde,2021-08-19,1135,grams
+kale,Heirloom Lacinto,2021-08-19,80,grams
+cucumbers,pickling,2021-08-19,223,grams
+zucchini,Romanesco,2021-08-19,244,grams
+carrots,Starica,2021-08-19,174,grams
+cucumbers,pickling,2021-08-20,946,grams
+peppers,Jalapeño,2021-08-20,376,grams
+peppers,Thai,2021-08-20,55,grams
+dill,Boquet,2021-08-20,9,grams
+tomatoes,Bonny Best,2021-08-20,194,grams
+tomatoes,Amish Paste,2021-08-20,396,grams
+tomatoes,Striped German,2021-08-20,818,grams
+tomatoes,Mortgage Lifter,2021-08-20,232,grams
+tomatoes,volunteer,2021-08-20,39,grams
+tomatoes,San Marzano,2021-08-20,146,grams
+tomatoes,Early Girl,2021-08-20,2006,grams
+tomatoes,Sweet 100 Cherry,2021-08-20,940,grams
+lettuce,Lettuce Mixture,2021-08-20,3,grams
+edamame,edamame,2021-08-20,294,grams
+watermelon,Sugar Baby,2021-08-20,2168,grams
+peppers,Bell Boy,2021-08-21,88,grams
+garlic,garlic,2021-08-21,530,grams
+tomatoes,Early Girl,2021-08-21,133,grams
+tomatoes,Big Beef,2021-08-21,550,grams
+tomatoes,San Marzano,2021-08-21,139,grams
+basil,Emily,2021-08-21,112,grams
+zucchini,Romanesco,2021-08-21,359,grams
+kale,Heirloom Lacinto,2021-08-21,159,grams
+peppers,Bell Boy,2021-08-21,91,grams
+tomatoes,Old German,2021-08-22,711,grams
+tomatoes,Amish Paste,2021-08-22,199,grams
+tomatoes,Bonny Best,2021-08-22,51,grams
+tomatoes,volunteer,2021-08-22,111,grams
+tomatoes,Sweet 100 Cherry,2021-08-22,615,grams
+tomatoes,Early Girl,2021-08-22,860,grams
+tomatoes,Big Beef,2021-08-22,681,grams
+tomatoes,Black Krim,2021-08-22,342,grams
+zucchini,Romanesco,2021-08-22,285,grams
+potatoes,yellow,2021-08-22,196,grams
+edamame,edamame,2021-08-22,404,grams
+cucumbers,Armenian,2021-08-23,140,grams
+cucumbers,pickling,2021-08-23,304,grams
+tomatoes,Cherokee Purple,2021-08-23,192,grams
+tomatoes,Big Beef,2021-08-23,508,grams
+tomatoes,Bonny Best,2021-08-23,481,grams
+tomatoes,Black Krim,2021-08-23,308,grams
+tomatoes,Amish Paste,2021-08-23,136,grams
+tomatoes,San Marzano,2021-08-23,383,grams
+tomatoes,Early Girl,2021-08-23,601,grams
+tomatoes,Mortgage Lifter,2021-08-23,910,grams
+tomatoes,Striped German,2021-08-23,426,grams
+tomatoes,volunteer,2021-08-23,151,grams
+tomatoes,Early Girl,2021-08-24,827,grams
+tomatoes,Big Beef,2021-08-24,1360,grams
+oregano,oregano,2021-08-24,11,grams
+peppers,Bell Boy,2021-08-24,216,grams
+peppers,Jalapeño,2021-08-24,595,grams
+peppers,Banana,2021-08-24,786,grams
+beans,Bush,2021-08-24,164,grams
+tomatoes,Mortgage Lifter,2021-08-25,812,grams
+watermelon,Sugar Baby,2021-08-25,2540,grams
+lettuce,Lettuce Mixture,2021-08-25,10,grams
+tomatoes,Mortgage Lifter,2021-08-26,1550,grams
+tomatoes,Black Krim,2021-08-26,964,grams
+tomatoes,Amish Paste,2021-08-26,363,grams
+tomatoes,yellow,2021-08-26,186,grams
+tomatoes,Sweet 100 Cherry,2021-08-26,940,grams
+tomatoes,Cherokee Purple,2021-08-26,350,grams
+tomatoes,Bonny Best,2021-08-26,2082,grams
+tomatoes,San Marzano,2021-08-26,1323,grams
+tomatoes,volunteer,2021-08-26,363,grams
+tomatoes,Striped German,2021-08-26,877,grams
+tomatoes,Early Girl,2021-08-26,1969,grams
+tomatoes,Big Beef,2021-08-26,2902,grams
+cucumbers,pickling,2021-08-26,858,grams
+zucchini,Romanesco,2021-08-26,2034,grams
+carrots,Starica,2021-08-26,138,grams
+basil,Emily,2021-08-27,10,grams
+oregano,oregano,2021-08-27,2,grams
+corn,Dorinny Sweet,2021-08-27,780,grams
+basil,Emily,2021-08-28,19,grams
+peppers,Bell Boy,2021-08-28,91,grams
+oregano,oregano,2021-08-28,3,grams
+tomatoes,Mortgage Lifter,2021-08-29,1492,grams
+tomatoes,Bonny Best,2021-08-29,940,grams
+tomatoes,Cherokee Purple,2021-08-29,1058,grams
+tomatoes,volunteer,2021-08-29,861,grams
+tomatoes,Amish Paste,2021-08-29,520,grams
+tomatoes,Early Girl,2021-08-29,1311,grams
+tomatoes,Black Krim,2021-08-29,217,grams
+tomatoes,Big Beef,2021-08-29,2046,grams
+tomatoes,Striped German,2021-08-29,574,grams
+tomatoes,San Marzano,2021-08-29,1613,grams
+cucumbers,pickling,2021-08-29,425,grams
+peppers,Valencia,2021-08-29,136,grams
+peppers,Bell Boy,2021-08-29,286,grams
+peppers,Banana,2021-08-29,53,grams
+peppers,Jalapeño,2021-08-29,33,grams
+tomatoes,Bush Goliath,2021-08-29,141,grams
+beans,Bush,2021-08-29,420,grams
+potatoes,yellow,2021-08-30,1483,grams
+basil,Emily,2021-08-30,4,grams
+edamame,edamame,2021-08-31,505,grams
+tomatoes,Mortgage Lifter,2021-08-31,941,grams
+tomatoes,Amish Paste,2021-08-31,921,grams
+tomatoes,Black Krim,2021-08-31,106,grams
+tomatoes,Cherokee Purple,2021-08-31,996,grams
+tomatoes,Big Beef,2021-08-31,642,grams
+tomatoes,San Marzano,2021-08-31,607,grams
+tomatoes,Early Girl,2021-08-31,883,grams
+lettuce,Lettuce Mixture,2021-08-31,13,grams
+basil,Emily,2021-08-31,5,grams
+tomatoes,Bonny Best,2021-09-01,1109,grams
+tomatoes,volunteer,2021-09-01,814,grams
+tomatoes,Sweet 100 Cherry,2021-09-01,477,grams
+cucumbers,pickling,2021-09-01,312,grams
+zucchini,Romanesco,2021-09-01,1784,grams
+zucchini,Romanesco,2021-09-02,371,grams
+basil,Emily,2021-09-02,14,grams
+carrots,Starica,2021-09-03,446,grams
+peppers,Valencia,2021-09-03,313,grams
+tomatoes,Big Beef,2021-09-04,3337,grams
+tomatoes,Mortgage Lifter,2021-09-04,2336,grams
+tomatoes,Amish Paste,2021-09-04,942,grams
+tomatoes,Early Girl,2021-09-04,1201,grams
+tomatoes,San Marzano,2021-09-04,1671,grams
+corn,Dorinny Sweet,2021-09-04,713,grams
+lettuce,Lettuce Mixture,2021-09-04,22,grams
+tomatoes,volunteer,2021-09-05,1023,grams
+tomatoes,Bush Goliath,2021-09-05,213,grams
+tomatoes,Bonny Best,2021-09-05,308,grams
+lettuce,Lettuce Mixture,2021-09-05,40,grams
+basil,Emily,2021-09-05,76,grams
+beans,Bush,2021-09-05,623,grams
+edamame,edamame,2021-09-05,435,grams
+zucchini,Romanesco,2021-09-06,499,grams
+watermelon,Sugar Baby,2021-09-06,2736,grams
+lettuce,Lettuce Mixture,2021-09-06,63,grams
+pumpkin,Last Year's,2021-09-06,3806,grams
+pumpkin,Last Year's,2021-09-06,3381,grams
+pumpkin,Last Year's,2021-09-06,3553,grams
+pumpkin,Last Year's,2021-09-06,4284,grams
+pumpkin,Last Year's,2021-09-06,4003,grams
+pumpkin,Last Year's,2021-09-06,1490,grams
+pumpkin,Last Year's,2021-09-06,5500,grams
+pumpkin,Last Year's,2021-09-06,5500,grams
+pumpkin,Last Year's,2021-09-06,6950,grams
+pumpkin,Cinderella,2021-09-06,2289,grams
+tomatoes,Amish Paste,2021-09-07,386,grams
+carrots,Starica,2021-09-07,717,grams
+tomatoes,Sweet 100 Cherry,2021-09-07,387,grams
+lettuce,Lettuce Mixture,2021-09-08,46,grams
+zucchini,Romanesco,2021-09-09,1463,grams
+tomatoes,Cherokee Purple,2021-09-09,182,grams
+tomatoes,Amish Paste,2021-09-09,576,grams
+tomatoes,Mortgage Lifter,2021-09-09,567,grams
+tomatoes,Black Krim,2021-09-09,303,grams
+tomatoes,volunteer,2021-09-09,1457,grams
+tomatoes,Big Beef,2021-09-09,1078,grams
+tomatoes,San Marzano,2021-09-09,1359,grams
+tomatoes,Early Girl,2021-09-09,495,grams
+lettuce,Lettuce Mixture,2021-09-10,41,grams
+spinach,Red Malabar,2021-09-10,51,grams
+peppers,orange,2021-09-10,514,grams
+peppers,Valencia,2021-09-10,355,grams
+tomatoes,volunteer,2021-09-10,697,grams
+beans,Bush,2021-09-10,150,grams
+zucchini,Romanesco,2021-09-11,1131,grams
+beets,Sweet Merlin,2021-09-11,265,grams
+beets,Gourmet Golden,2021-09-11,422,grams
+peppers,Bell Boy,2021-09-11,164,grams
+zucchini,Romanesco,2021-09-11,1073,grams
+peppers,Banana,2021-09-11,131,grams
+carrots,Starica,2021-09-11,999,grams
+basil,Emily,2021-09-12,22,grams
+oregano,oregano,2021-09-12,2,grams
+cucumbers,pickling,2021-09-13,134,grams
+raspberries,perennial,2021-09-13,50,grams
+tomatoes,Striped German,2021-09-14,1169,grams
+tomatoes,Old German,2021-09-14,1496,grams
+tomatoes,Mortgage Lifter,2021-09-14,2063,grams
+tomatoes,Bush Goliath,2021-09-14,189,grams
+tomatoes,Bonny Best,2021-09-14,56,grams
+tomatoes,Amish Paste,2021-09-14,198,grams
+tomatoes,Early Girl,2021-09-14,260,grams
+tomatoes,volunteer,2021-09-14,88,grams
+tomatoes,San Marzano,2021-09-14,1060,grams
+zucchini,Romanesco,2021-09-15,332,grams
+tomatoes,Sweet 100 Cherry,2021-09-15,453,grams
+tomatoes,Sweet 100 Cherry,2021-09-16,555,grams
+tomatoes,Bush Goliath,2021-09-16,169,grams
+tomatoes,Bonny Best,2021-09-16,69,grams
+swiss chard,Neon Glow,2021-09-17,57,grams
+tomatoes,volunteer,2021-09-18,1487,grams
+basil,Emily,2021-09-18,42,grams
+oregano,oregano,2021-09-18,8,grams
+tomatoes,Striped German,2021-09-18,363,grams
+tomatoes,Amish Paste,2021-09-18,770,grams
+tomatoes,Mortgage Lifter,2021-09-18,387,grams
+tomatoes,San Marzano,2021-09-18,597,grams
+carrots,Starica,2021-09-19,513,grams
+beets,Sweet Merlin,2021-09-19,135,grams
+beets,Gourmet Golden,2021-09-19,62,grams
+watermelon,Sugar Baby,2021-09-19,3851,grams
+peppers,Bell Boy,2021-09-19,110,grams
+beans,Bush,2021-09-21,107,grams
+tomatoes,Old German,2021-09-21,2125,grams
+tomatoes,Amish Paste,2021-09-21,1672,grams
+tomatoes,Striped German,2021-09-21,1421,grams
+tomatoes,volunteer,2021-09-21,2049,grams
+tomatoes,Mortgage Lifter,2021-09-21,703,grams
+tomatoes,Bush Goliath,2021-09-21,136,grams
+tomatoes,Black Krim,2021-09-21,259,grams
+tomatoes,Cherokee Purple,2021-09-21,447,grams
+tomatoes,San Marzano,2021-09-21,661,grams
+peppers,Banana,2021-09-21,118,grams
+zucchini,Romanesco,2021-09-21,613,grams
+zucchini,Romanesco,2021-09-24,208,grams
+swiss chard,Neon Glow,2021-09-24,51,grams
+basil,Emily,2021-09-24,16,grams
+tomatoes,Sweet 100 Cherry,2021-09-24,585,grams
+basil,Emily,2021-09-25,33,grams
+oregano,oregano,2021-09-25,6,grams
+lettuce,Lettuce Mixture,2021-09-25,70,grams
+apples,perennial,2021-09-25,505,grams
+sweet potato,sweet potato,2021-09-25,1858,grams
+potatoes,Russet,2021-09-25,3992,grams
+potatoes,red,2021-09-25,1112,grams
+potatoes,yellow,2021-09-25,189,grams
+potatoes,purple,2021-09-25,75,grams
+kale,Heirloom Lacinto,2021-09-25,98,grams
+squash,Red Kuri,2021-09-25,1632,grams
+squash,Red Kuri,2021-09-25,1462,grams
+squash,Red Kuri,2021-09-25,1403,grams
+squash,Red Kuri,2021-09-25,1297,grams
+squash,Red Kuri,2021-09-25,1700,grams
+squash,Red Kuri,2021-09-25,1005,grams
+squash,Red Kuri,2021-09-25,1322,grams
+squash,Red Kuri,2021-09-25,2703,grams
+squash,Red Kuri,2021-09-25,2452,grams
+squash,Red Kuri,2021-09-25,750,grams
+squash,Red Kuri,2021-09-25,2196,grams
+squash,mystery orange,2021-09-25,1799,grams
+squash,mystery blue,2021-09-25,3300,grams
+squash,mystery green,2021-09-25,931,grams
+squash,mystery green,2021-09-25,973,grams
+squash,mystery green,2021-09-25,621,grams
+squash,mystery green,2021-09-25,92,grams
+squash,Waltham Butternut,2021-09-25,1653,grams
+squash,Waltham Butternut,2021-09-25,1721,grams
+squash,Waltham Butternut,2021-09-25,715,grams
+squash,Waltham Butternut,2021-09-25,761,grams
+squash,Waltham Butternut,2021-09-25,1374,grams
+pumpkin,White,2021-09-25,4388,grams
+pumpkin,White,2021-09-25,1593,grams
+pumpkin,Last Year's,2021-09-25,3064,grams
+pumpkin,Last Year's,2021-09-25,4259,grams
+pumpkin,Last Year's,2021-09-25,1969,grams
+pumpkin,Last Year's,2021-09-25,1503,grams
+pumpkin,Last Year's,2021-09-25,1586,grams
+pumpkin,Cinderella,2021-09-25,6950,grams
+squash,Waltham Butternut,2021-09-26,679,grams
+squash,Waltham Butternut,2021-09-26,1963,grams
+zucchini,Romanesco,2021-09-26,32,grams
+rutabaga,Helenor,2021-09-26,1355,grams
+watermelon,Sugar Baby,2021-09-26,2558,grams
+watermelon,Sugar Baby,2021-09-26,2331,grams
+lettuce,Lettuce Mixture,2021-09-26,13,grams
+watermelon,Sugar Baby,2021-09-26,301,grams
+tomatoes,volunteer,2021-09-27,552,grams
+tomatoes,Amish Paste,2021-09-27,254,grams
+tomatoes,Mortgage Lifter,2021-09-27,300,grams
+kale,Heirloom Lacinto,2021-09-27,37,grams
+lettuce,Lettuce Mixture,2021-09-27,49,grams
+peppers,Valencia,2021-09-27,179,grams
+swiss chard,Neon Glow,2021-09-27,288,grams
+swiss chard,Neon Glow,2021-09-30,20,grams
+basil,Emily,2021-09-30,6,grams
+peppers,Banana,2021-09-30,45,grams
+tomatoes,Early Girl,2021-10-01,757,grams
+tomatoes,Striped German,2021-10-01,419,grams
+tomatoes,Old German,2021-10-01,447,grams
+tomatoes,San Marzano,2021-10-01,880,grams
+tomatoes,Amish Paste,2021-10-01,812,grams
+tomatoes,Mortgage Lifter,2021-10-01,1345,grams
+tomatoes,volunteer,2021-10-01,1960,grams
+tomatoes,Black Krim,2021-10-01,1098,grams
+raspberries,perennial,2021-10-01,100,grams
+lettuce,Lettuce Mixture,2021-10-01,15,grams
+basil,Emily,2021-10-02,30,grams
+oregano,oregano,2021-10-02,3,grams
+swiss chard,Neon Glow,2021-10-02,20,grams
+lettuce,Lettuce Mixture,2021-10-02,46,grams
+tomatoes,yellow,2021-10-02,77,grams
+tomatoes,Bonny Best,2021-10-02,233,grams
+tomatoes,Sweet 100 Cherry,2021-10-02,927,grams
+tomatoes,Big Beef,2021-10-02,352,grams
+peppers,Bell Boy,2021-10-02,1122,grams
+peppers,Jalapeño,2021-10-02,15,grams
+peppers,Valencia,2021-10-02,232,grams
+peppers,Banana,2021-10-03,914,grams
+peppers,Jalapeño,2021-10-03,2653,grams
+peppers,Bell Boy,2021-10-03,127,grams
+watermelon,Sugar Baby,2021-10-03,1916,grams
+dill,Boquet,2021-10-03,23,grams
+squash,Red Kuri,2021-10-03,1787,grams
+squash,Red Kuri,2021-10-03,850,grams
+squash,Giant Delicata Mutant,2021-10-03,1166,grams
+potatoes,yellow,2021-10-04,406,grams
+cabbage,Early Jersey Wakefield,2021-10-04,73,grams
+lettuce,Lettuce Mixture,2021-10-05,27,grams
+tomatoes,Early Girl,2021-10-10,1036,grams
+tomatoes,Amish Paste,2021-10-10,493,grams
+tomatoes,San Marzano,2021-10-10,756,grams
+tomatoes,Big Beef,2021-10-10,2832,grams
+tomatoes,Mortgage Lifter,2021-10-10,2097,grams
+tomatoes,volunteer,2021-10-10,275,grams
+raspberries,perennial,2021-10-10,111,grams
+watermelon,Sugar Baby,2021-10-10,1856,grams
+tomatoes,Sweet 100 Cherry,2021-10-10,1240,grams
+tomatoes,Bonny Best,2021-10-10,81,grams
+carrots,Starica,2021-10-10,2209,grams
+potatoes,yellow,2021-10-10,5991,grams
+kale,Heirloom Lacinto,2021-10-10,110,grams
+peppers,Bell Boy,2021-10-11,228,grams
+beans,Bush,2021-10-11,167,grams
+swiss chard,Neon Glow,2021-10-11,244,grams
+raspberries,perennial,2021-10-12,71,grams
+peppers,Bell Boy,2021-10-12,85,grams
+basil,Emily,2021-10-12,10,grams
+swiss chard,Neon Glow,2021-10-12,18,grams
+basil,Emily,2021-10-14,12,grams
+swiss chard,Neon Glow,2021-10-14,60,grams
+raspberries,perennial,2021-10-17,120,grams
+tomatoes,Bonny Best,2021-10-17,143,grams
+tomatoes,Black Krim,2021-10-17,88,grams
+tomatoes,Big Beef,2021-10-17,902,grams
+tomatoes,Sweet 100 Cherry,2021-10-17,1335,grams
+tomatoes,San Marzano,2021-10-17,93,grams
+tomatoes,Early Girl,2021-10-17,57,grams
+basil,Emily,2021-10-17,16,grams
+beets,Sweet Merlin,2021-10-17,1321,grams
+beets,Gourmet Golden,2021-10-17,1744,grams
+carrots,Starica,2021-10-17,8859,grams
+sweet potato,sweet potato,2021-10-17,9884,grams
+pumpkin,Last Year's,2021-10-17,2518,grams
+pumpkin,Last Year's,2021-10-17,1889,grams
+pumpkin,Last Year's,2021-10-17,2883,grams
+pumpkin,Last Year's,2021-10-17,2334,grams
+pumpkin,Last Year's,2021-10-17,1878,grams
+pumpkin,Last Year's,2021-10-17,2059,grams
+pumpkin,Last Year's,2021-10-17,1494,grams
+pumpkin,Last Year's,2021-10-17,1289,grams
+pumpkin,Last Year's,2021-10-17,1212,grams
+pumpkin,Last Year's,2021-10-17,1251,grams
+pumpkin,Last Year's,2021-10-17,814,grams
+pumpkin,Last Year's,2021-10-17,430,grams
+squash,Red Kuri,2021-10-17,789,grams
+squash,Red Kuri,2021-10-17,610,grams
+squash,Red Kuri,2021-10-17,632,grams
+squash,Red Kuri,2021-10-17,452,grams
+squash,Red Kuri,2021-10-17,799,grams
+squash,Red Kuri,2021-10-17,483,grams
+watermelon,Sugar Baby,2021-10-17,1598,grams
+watermelon,Sugar Baby,2021-10-17,1377,grams
+zucchini,Romanesco,2021-10-17,3550,grams
+zucchini,Romanesco,2021-10-17,3950,grams
+zucchini,Romanesco,2021-10-17,5200,grams
+basil,Emily,2021-10-18,388,NA
+kale,Heirloom Lacinto,2021-10-18,101,NA
+swiss chard,Neon Glow,2021-10-19,82,NA
+kale,Heirloom Lacinto,2021-10-19,156,NA
+peppers,Bell Boy,2021-10-20,499,NA
+peppers,Jalapeño,2021-10-20,76,NA
+tomatoes,Early Girl,2021-10-21,1642,NA
+tomatoes,Big Beef,2021-10-21,387,NA
+tomatoes,Amish Paste,2021-10-21,268,NA
+tomatoes,San Marzano,2021-10-21,280,NA
+tomatoes,Sweet 100 Cherry,2021-10-21,649,NA
+tomatoes,Bonny Best,2021-10-21,209,NA
+tomatoes,San Marzano,2021-10-21,1218,NA
+tomatoes,Amish Paste,2021-10-21,1151,NA
+tomatoes,Big Beef,2021-10-21,1459,NA
+tomatoes,Mortgage Lifter,2021-10-21,1710,NA
+tomatoes,Cherokee Purple,2021-10-21,1153,NA
+tomatoes,Black Krim,2021-10-21,139,NA
+raspberries,perennial,2021-10-21,126,NA
+peppers,Jalapeño,2021-10-21,57,NA
+peppers,Bell Boy,2021-10-21,217,NA
+peppers,Banana,2021-10-21,48,NA
+swiss chard,Neon Glow,2021-10-21,26,NA
+rutabaga,Helenor,2021-10-22,1287,NA
+lettuce,Lettuce Mixture,2021-10-22,55,NA
+oregano,oregano,2021-10-29,30,NA
+raspberries,perennial,2021-10-29,81,NA
+kale,Heirloom Lacinto,2021-10-31,89,NA
+kale,Heirloom Lacinto,2021-11-04,50,NA
+kale,Heirloom Lacinto,2021-11-10,362,NA
