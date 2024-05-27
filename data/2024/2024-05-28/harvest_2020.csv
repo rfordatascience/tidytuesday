@@ -1,0 +1,782 @@
+vegetable,variety,date,weight,units
+lettuce,reseed,2020-06-06,20,grams
+radish,Garden Party Mix,2020-06-06,36,grams
+lettuce,reseed,2020-06-08,15,grams
+lettuce,reseed,2020-06-09,10,grams
+radish,Garden Party Mix,2020-06-11,67,grams
+lettuce,Farmer's Market Blend,2020-06-11,12,grams
+spinach,Catalina,2020-06-11,9,grams
+beets,leaves,2020-06-11,8,grams
+radish,Garden Party Mix,2020-06-13,53,grams
+lettuce,Farmer's Market Blend,2020-06-13,19,grams
+spinach,Catalina,2020-06-13,14,grams
+kale,Heirloom Lacinto,2020-06-13,10,grams
+lettuce,Farmer's Market Blend,2020-06-17,48,grams
+spinach,Catalina,2020-06-17,58,grams
+peas,Magnolia Blossom,2020-06-17,8,grams
+peas,Super Sugar Snap,2020-06-17,121,grams
+chives,perrenial,2020-06-17,8,grams
+strawberries,perrenial,2020-06-18,40,grams
+lettuce,Farmer's Market Blend,2020-06-18,47,grams
+spinach,Catalina,2020-06-18,59,grams
+beets,leaves,2020-06-18,25,grams
+spinach,Catalina,2020-06-19,58,grams
+lettuce,Farmer's Market Blend,2020-06-19,39,grams
+beets,leaves,2020-06-19,11,grams
+lettuce,Farmer's Market Blend,2020-06-19,38,grams
+lettuce,Farmer's Market Blend,2020-06-20,22,grams
+spinach,Catalina,2020-06-20,25,grams
+lettuce,Tatsoi,2020-06-20,18,grams
+radish,Garden Party Mix,2020-06-20,16,grams
+peas,Magnolia Blossom,2020-06-20,71,grams
+peas,Super Sugar Snap,2020-06-20,148,grams
+asparagus,asparagus,2020-06-20,20,grams
+radish,Garden Party Mix,2020-06-21,37,grams
+Swiss chard,Neon Glow,2020-06-21,19,grams
+spinach,Catalina,2020-06-21,71,grams
+lettuce,Farmer's Market Blend,2020-06-21,95,grams
+spinach,Catalina,2020-06-21,51,grams
+Swiss chard,Neon Glow,2020-06-21,13,grams
+beets,leaves,2020-06-21,57,grams
+kale,Heirloom Lacinto,2020-06-21,60,grams
+spinach,Catalina,2020-06-22,37,grams
+lettuce,Farmer's Market Blend,2020-06-22,52,grams
+peas,Super Sugar Snap,2020-06-22,40,grams
+peas,Magnolia Blossom,2020-06-22,19,grams
+strawberries,perrenial,2020-06-22,19,grams
+lettuce,Farmer's Market Blend,2020-06-22,18,grams
+peas,Magnolia Blossom,2020-06-23,40,grams
+peas,Super Sugar Snap,2020-06-23,165,grams
+spinach,Catalina,2020-06-23,41,grams
+cilantro,cilantro,2020-06-23,2,grams
+basil,Isle of Naxos,2020-06-23,5,grams
+peas,Super Sugar Snap,2020-06-24,34,grams
+lettuce,Farmer's Market Blend,2020-06-24,122,grams
+spinach,Catalina,2020-06-25,22,grams
+lettuce,Farmer's Market Blend,2020-06-25,30,grams
+strawberries,perrenial,2020-06-26,17,grams
+peas,Super Sugar Snap,2020-06-26,425,grams
+lettuce,Farmer's Market Blend,2020-06-27,52,grams
+lettuce,Tatsoi,2020-06-27,89,grams
+spinach,Catalina,2020-06-27,60,grams
+peas,Magnolia Blossom,2020-06-27,333,grams
+peas,Super Sugar Snap,2020-06-28,793,grams
+spinach,Catalina,2020-06-28,99,grams
+lettuce,Farmer's Market Blend,2020-06-28,111,grams
+lettuce,Farmer's Market Blend,2020-06-29,58,grams
+lettuce,mustard greens,2020-06-29,23,grams
+peas,Magnolia Blossom,2020-06-29,625,grams
+peas,Super Sugar Snap,2020-06-29,561,grams
+raspberries,perrenial,2020-06-29,30,grams
+lettuce,Farmer's Market Blend,2020-06-29,82,grams
+Swiss chard,Neon Glow,2020-06-30,32,grams
+spinach,Catalina,2020-06-30,80,grams
+lettuce,Farmer's Market Blend,2020-07-01,60,grams
+lettuce,Tatsoi,2020-07-02,144,grams
+spinach,Catalina,2020-07-02,16,grams
+peas,Magnolia Blossom,2020-07-02,798,grams
+peas,Super Sugar Snap,2020-07-02,743,grams
+lettuce,Farmer's Market Blend,2020-07-03,217,grams
+lettuce,Tatsoi,2020-07-03,216,grams
+radish,Garden Party Mix,2020-07-03,88,grams
+basil,Isle of Naxos,2020-07-03,9,grams
+peas,Super Sugar Snap,2020-07-04,285,grams
+peas,Magnolia Blossom,2020-07-04,457,grams
+lettuce,Farmer's Market Blend,2020-07-04,147,grams
+basil,Isle of Naxos,2020-07-06,17,grams
+zucchini,Romanesco,2020-07-06,175,grams
+beans,Bush Bush Slender,2020-07-06,235,grams
+lettuce,Tatsoi,2020-07-06,189,grams
+peas,Magnolia Blossom,2020-07-06,433,grams
+peas,Super Sugar Snap,2020-07-06,48,grams
+lettuce,Farmer's Market Blend,2020-07-07,67,grams
+beets,Gourmet Golden,2020-07-07,62,grams
+beets,Sweet Merlin,2020-07-07,10,grams
+radish,Garden Party Mix,2020-07-07,43,grams
+basil,Isle of Naxos,2020-07-07,11,grams
+lettuce,Farmer's Market Blend,2020-07-07,13,grams
+peas,Super Sugar Snap,2020-07-08,75,grams
+peas,Magnolia Blossom,2020-07-08,252,grams
+beans,Bush Bush Slender,2020-07-08,178,grams
+lettuce,Farmer's Market Blend,2020-07-08,39,grams
+cucumbers,pickling,2020-07-08,181,grams
+beets,Gourmet Golden,2020-07-08,83,grams
+Swiss chard,Neon Glow,2020-07-08,96,grams
+lettuce,Tatsoi,2020-07-08,75,grams
+lettuce,Farmer's Market Blend,2020-07-09,61,grams
+raspberries,perrenial,2020-07-09,131,grams
+beans,Bush Bush Slender,2020-07-09,140,grams
+beets,Sweet Merlin,2020-07-09,69,grams
+cucumbers,pickling,2020-07-09,78,grams
+raspberries,perrenial,2020-07-10,61,grams
+basil,Isle of Naxos,2020-07-10,150,grams
+raspberries,perrenial,2020-07-11,60,grams
+strawberries,perrenial,2020-07-11,77,grams
+spinach,Catalina,2020-07-11,19,grams
+lettuce,Farmer's Market Blend,2020-07-11,79,grams
+raspberries,perrenial,2020-07-11,105,grams
+beans,Bush Bush Slender,2020-07-11,701,grams
+tomatoes,grape,2020-07-11,24,grams
+cucumbers,pickling,2020-07-12,130,grams
+beets,Sweet Merlin,2020-07-12,89,grams
+zucchini,Romanesco,2020-07-12,492,grams
+lettuce,Farmer's Market Blend,2020-07-12,83,grams
+cucumbers,pickling,2020-07-13,47,grams
+zucchini,Romanesco,2020-07-13,145,grams
+radish,Garden Party Mix,2020-07-13,50,grams
+strawberries,perrenial,2020-07-13,85,grams
+lettuce,Farmer's Market Blend,2020-07-13,53,grams
+lettuce,Tatsoi,2020-07-13,137,grams
+peas,Super Sugar Snap,2020-07-13,40,grams
+beans,Bush Bush Slender,2020-07-13,443,grams
+kale,Heirloom Lacinto,2020-07-14,128,grams
+cucumbers,pickling,2020-07-14,152,grams
+peas,Magnolia Blossom,2020-07-14,207,grams
+peas,Super Sugar Snap,2020-07-14,526,grams
+raspberries,perrenial,2020-07-14,152,grams
+zucchini,Romanesco,2020-07-15,393,grams
+beans,Bush Bush Slender,2020-07-15,743,grams
+cucumbers,pickling,2020-07-15,1057,grams
+spinach,Catalina,2020-07-15,39,grams
+Swiss chard,Neon Glow,2020-07-16,29,grams
+lettuce,Farmer's Market Blend,2020-07-16,61,grams
+onions,Delicious Duo,2020-07-16,50,grams
+strawberries,perrenial,2020-07-17,88,grams
+cilantro,cilantro,2020-07-17,33,grams
+basil,Isle of Naxos,2020-07-17,16,grams
+jalapeño,giant,2020-07-17,20,grams
+cucumbers,pickling,2020-07-17,347,grams
+raspberries,perrenial,2020-07-18,77,grams
+beets,Sweet Merlin,2020-07-18,172,grams
+kale,Heirloom Lacinto,2020-07-18,61,grams
+zucchini,Romanesco,2020-07-18,81,grams
+cucumbers,pickling,2020-07-18,294,grams
+beans,Bush Bush Slender,2020-07-18,660,grams
+kale,Heirloom Lacinto,2020-07-19,113,grams
+cucumbers,pickling,2020-07-19,531,grams
+zucchini,Romanesco,2020-07-19,344,grams
+strawberries,perrenial,2020-07-19,37,grams
+peas,Magnolia Blossom,2020-07-19,140,grams
+zucchini,Romanesco,2020-07-20,134,grams
+cucumbers,pickling,2020-07-20,179,grams
+peas,Super Sugar Snap,2020-07-20,336,grams
+beets,Gourmet Golden,2020-07-20,107,grams
+kale,Heirloom Lacinto,2020-07-20,128,grams
+hot peppers,thai,2020-07-20,12,grams
+beans,Bush Bush Slender,2020-07-20,519,grams
+hot peppers,variety,2020-07-20,559,grams
+jalapeño,giant,2020-07-20,197,grams
+lettuce,Tatsoi,2020-07-20,123,grams
+Swiss chard,Neon Glow,2020-07-20,178,grams
+onions,Long Keeping Rainbow,2020-07-20,102,grams
+zucchini,Romanesco,2020-07-21,110,grams
+tomatoes,grape,2020-07-21,86,grams
+tomatoes,Big Beef,2020-07-21,137,grams
+tomatoes,Bonny Best,2020-07-21,339,grams
+beans,Bush Bush Slender,2020-07-21,21,grams
+spinach,Catalina,2020-07-21,21,grams
+basil,Isle of Naxos,2020-07-21,7,grams
+zucchini,Romanesco,2020-07-22,76,grams
+beans,Bush Bush Slender,2020-07-22,351,grams
+cucumbers,pickling,2020-07-22,655,grams
+lettuce,Lettuce Mixture,2020-07-22,23,grams
+beans,Bush Bush Slender,2020-07-23,129,grams
+carrots,King Midas,2020-07-23,56,grams
+Swiss chard,Neon Glow,2020-07-23,466,grams
+onions,Long Keeping Rainbow,2020-07-23,91,grams
+lettuce,Lettuce Mixture,2020-07-23,130,grams
+cucumbers,pickling,2020-07-24,525,grams
+tomatoes,grape,2020-07-24,31,grams
+tomatoes,Bonny Best,2020-07-24,140,grams
+tomatoes,Cherokee Purple,2020-07-24,247,grams
+tomatoes,Better Boy,2020-07-24,220,grams
+zucchini,Romanesco,2020-07-24,1321,grams
+beans,Bush Bush Slender,2020-07-24,100,grams
+raspberries,perrenial,2020-07-24,32,grams
+strawberries,perrenial,2020-07-24,93,grams
+lettuce,Lettuce Mixture,2020-07-24,16,grams
+basil,Isle of Naxos,2020-07-24,3,grams
+peppers,variety,2020-07-24,68,grams
+carrots,King Midas,2020-07-24,178,grams
+carrots,Dragon,2020-07-24,80,grams
+tomatoes,Amish Paste,2020-07-25,463,grams
+tomatoes,grape,2020-07-25,106,grams
+kale,Heirloom Lacinto,2020-07-25,121,grams
+cucumbers,pickling,2020-07-25,901,grams
+lettuce,Lettuce Mixture,2020-07-26,81,grams
+tomatoes,Bonny Best,2020-07-26,148,grams
+zucchini,Romanesco,2020-07-27,1542,grams
+beans,Bush Bush Slender,2020-07-27,728,grams
+cucumbers,pickling,2020-07-27,785,grams
+strawberries,perrenial,2020-07-27,113,grams
+raspberries,perrenial,2020-07-27,29,grams
+tomatoes,Mortgage Lifter,2020-07-27,801,grams
+lettuce,Lettuce Mixture,2020-07-27,99,grams
+beets,Sweet Merlin,2020-07-27,49,grams
+beets,Gourmet Golden,2020-07-27,149,grams
+radish,Garden Party Mix,2020-07-27,39,grams
+carrots,King Midas,2020-07-27,174,grams
+onions,Long Keeping Rainbow,2020-07-27,129,grams
+broccoli,Yod Fah,2020-07-27,372,grams
+carrots,King Midas,2020-07-28,160,grams
+tomatoes,Old German,2020-07-28,611,grams
+tomatoes,Big Beef,2020-07-28,203,grams
+tomatoes,Better Boy,2020-07-28,312,grams
+tomatoes,Jet Star,2020-07-28,315,grams
+tomatoes,grape,2020-07-28,131,grams
+lettuce,Lettuce Mixture,2020-07-28,91,grams
+cucumbers,pickling,2020-07-28,76,grams
+tomatoes,Bonny Best,2020-07-29,153,grams
+tomatoes,Better Boy,2020-07-29,442,grams
+tomatoes,Cherokee Purple,2020-07-29,240,grams
+tomatoes,Amish Paste,2020-07-29,209,grams
+lettuce,Lettuce Mixture,2020-07-29,73,grams
+tomatoes,grape,2020-07-29,40,grams
+zucchini,Romanesco,2020-07-29,457,grams
+cucumbers,pickling,2020-07-29,514,grams
+beans,Bush Bush Slender,2020-07-29,305,grams
+kale,Heirloom Lacinto,2020-07-29,280,grams
+tomatoes,grape,2020-07-30,91,grams
+beets,Sweet Merlin,2020-07-30,101,grams
+onions,Long Keeping Rainbow,2020-07-30,19,grams
+lettuce,Lettuce Mixture,2020-07-30,94,grams
+carrots,Bolero,2020-07-30,116,grams
+carrots,King Midas,2020-07-30,107,grams
+cucumbers,pickling,2020-07-30,626,grams
+tomatoes,Cherokee Purple,2020-07-31,307,grams
+tomatoes,Amish Paste,2020-07-31,197,grams
+tomatoes,Old German,2020-07-31,633,grams
+tomatoes,Better Boy,2020-07-31,290,grams
+tomatoes,grape,2020-07-31,100,grams
+zucchini,Romanesco,2020-07-31,1215,grams
+beans,Bush Bush Slender,2020-07-31,592,grams
+strawberries,perrenial,2020-07-31,23,grams
+spinach,Catalina,2020-07-31,31,grams
+lettuce,Lettuce Mixture,2020-07-31,107,grams
+cucumbers,pickling,2020-07-31,174,grams
+tomatoes,Bonny Best,2020-08-01,435,grams
+tomatoes,Brandywine,2020-08-01,320,grams
+tomatoes,Cherokee Purple,2020-08-01,619,grams
+tomatoes,Amish Paste,2020-08-01,97,grams
+tomatoes,Black Krim,2020-08-01,436,grams
+tomatoes,grape,2020-08-01,168,grams
+zucchini,Romanesco,2020-08-01,164,grams
+cucumbers,pickling,2020-08-01,1130,grams
+basil,Isle of Naxos,2020-08-01,137,grams
+jalapeño,giant,2020-08-01,74,grams
+cilantro,cilantro,2020-08-01,17,grams
+onions,Delicious Duo,2020-08-01,182,grams
+zucchini,Romanesco,2020-08-02,1175,grams
+tomatoes,Amish Paste,2020-08-02,509,grams
+tomatoes,Black Krim,2020-08-02,857,grams
+tomatoes,Old German,2020-08-02,336,grams
+tomatoes,Bonny Best,2020-08-02,156,grams
+tomatoes,Better Boy,2020-08-02,211,grams
+tomatoes,grape,2020-08-02,102,grams
+tomatoes,Better Boy,2020-08-03,308,grams
+zucchini,Romanesco,2020-08-03,252,grams
+cucumbers,pickling,2020-08-03,1155,grams
+beans,Bush Bush Slender,2020-08-03,572,grams
+lettuce,Lettuce Mixture,2020-08-03,65,grams
+kale,Heirloom Lacinto,2020-08-03,383,grams
+tomatoes,Bonny Best,2020-08-04,387,grams
+tomatoes,Brandywine,2020-08-04,231,grams
+tomatoes,volunteers,2020-08-04,73,grams
+tomatoes,Mortgage Lifter,2020-08-04,339,grams
+tomatoes,grape,2020-08-04,118,grams
+peppers,variety,2020-08-04,270,grams
+jalapeño,giant,2020-08-04,162,grams
+lettuce,Lettuce Mixture,2020-08-04,56,grams
+peppers,variety,2020-08-04,192,grams
+onions,Long Keeping Rainbow,2020-08-04,195,grams
+peppers,green,2020-08-04,81,grams
+jalapeño,giant,2020-08-04,87,grams
+hot peppers,thai,2020-08-04,24,grams
+hot peppers,variety,2020-08-04,40,grams
+spinach,Catalina,2020-08-04,44,grams
+zucchini,Romanesco,2020-08-04,427,grams
+tomatoes,Bonny Best,2020-08-05,563,grams
+tomatoes,Brandywine,2020-08-05,290,grams
+tomatoes,Mortgage Lifter,2020-08-05,781,grams
+tomatoes,Big Beef,2020-08-05,223,grams
+tomatoes,Amish Paste,2020-08-05,382,grams
+tomatoes,grape,2020-08-05,217,grams
+tomatoes,volunteers,2020-08-05,67,grams
+beans,Classic Slenderette,2020-08-05,41,grams
+beans,Bush Bush Slender,2020-08-05,234,grams
+tomatoes,Black Krim,2020-08-06,393,grams
+tomatoes,Big Beef,2020-08-06,307,grams
+tomatoes,Amish Paste,2020-08-06,175,grams
+tomatoes,Cherokee Purple,2020-08-06,303,grams
+cucumbers,pickling,2020-08-06,127,grams
+lettuce,Lettuce Mixture,2020-08-06,98,grams
+carrots,Bolero,2020-08-06,164,grams
+carrots,Dragon,2020-08-06,442,grams
+potatoes,purple,2020-08-06,317,grams
+potatoes,yellow,2020-08-06,439,grams
+tomatoes,Bonny Best,2020-08-07,359,grams
+tomatoes,Brandywine,2020-08-07,356,grams
+tomatoes,Old German,2020-08-07,233,grams
+tomatoes,Mortgage Lifter,2020-08-07,364,grams
+tomatoes,Better Boy,2020-08-07,1045,grams
+tomatoes,Jet Star,2020-08-07,562,grams
+tomatoes,grape,2020-08-07,292,grams
+zucchini,Romanesco,2020-08-07,1219,grams
+cucumbers,pickling,2020-08-07,1327,grams
+carrots,Bolero,2020-08-07,255,grams
+lettuce,Lettuce Mixture,2020-08-07,19,grams
+tomatoes,Big Beef,2020-08-08,162,grams
+tomatoes,grape,2020-08-08,81,grams
+tomatoes,Bonny Best,2020-08-08,564,grams
+tomatoes,Jet Star,2020-08-08,184,grams
+beans,Chinese Red Noodle,2020-08-08,108,grams
+beans,Classic Slenderette,2020-08-08,122,grams
+cucumbers,pickling,2020-08-08,1697,grams
+beans,Bush Bush Slender,2020-08-08,545,grams
+zucchini,Romanesco,2020-08-08,445,grams
+kale,Heirloom Lacinto,2020-08-08,305,grams
+tomatoes,Bonny Best,2020-08-09,179,grams
+tomatoes,Jet Star,2020-08-09,591,grams
+tomatoes,Better Boy,2020-08-09,1102,grams
+tomatoes,Cherokee Purple,2020-08-09,308,grams
+tomatoes,volunteers,2020-08-09,54,grams
+tomatoes,grape,2020-08-09,64,grams
+zucchini,Romanesco,2020-08-09,443,grams
+onions,Long Keeping Rainbow,2020-08-09,118,grams
+Swiss chard,Neon Glow,2020-08-09,302,grams
+basil,Isle of Naxos,2020-08-10,13,grams
+potatoes,yellow,2020-08-10,272,grams
+potatoes,purple,2020-08-10,168,grams
+tomatoes,Cherokee Purple,2020-08-10,216,grams
+tomatoes,Jet Star,2020-08-10,241,grams
+Swiss chard,Neon Glow,2020-08-10,309,grams
+carrots,Bolero,2020-08-10,221,grams
+zucchini,Romanesco,2020-08-11,731,grams
+tomatoes,grape,2020-08-11,302,grams
+tomatoes,Bonny Best,2020-08-11,307,grams
+tomatoes,volunteers,2020-08-11,160,grams
+beans,Bush Bush Slender,2020-08-11,755,grams
+cucumbers,pickling,2020-08-11,1029,grams
+beans,Chinese Red Noodle,2020-08-11,78,grams
+beans,Classic Slenderette,2020-08-11,245,grams
+tomatoes,Brandywine,2020-08-11,218,grams
+tomatoes,Cherokee Purple,2020-08-11,802,grams
+tomatoes,Better Boy,2020-08-11,354,grams
+tomatoes,Black Krim,2020-08-11,359,grams
+tomatoes,Amish Paste,2020-08-11,506,grams
+lettuce,Lettuce Mixture,2020-08-11,92,grams
+edamame,edamame,2020-08-11,109,grams
+corn,Dorinny Sweet,2020-08-11,330,grams
+lettuce,Lettuce Mixture,2020-08-12,73,grams
+zucchini,Romanesco,2020-08-13,1774,grams
+beans,Bush Bush Slender,2020-08-13,468,grams
+beans,Classic Slenderette,2020-08-13,122,grams
+tomatoes,grape,2020-08-13,421,grams
+tomatoes,Bonny Best,2020-08-13,332,grams
+tomatoes,Better Boy,2020-08-13,727,grams
+tomatoes,Amish Paste,2020-08-13,642,grams
+tomatoes,Big Beef,2020-08-13,413,grams
+beans,Chinese Red Noodle,2020-08-13,65,grams
+cucumbers,pickling,2020-08-13,599,grams
+basil,Isle of Naxos,2020-08-13,12,grams
+beets,Sweet Merlin,2020-08-13,198,grams
+beets,Gourmet Golden,2020-08-13,308,grams
+Swiss chard,Neon Glow,2020-08-13,517,grams
+beets,Sweet Merlin,2020-08-13,2209,grams
+beets,Gourmet Golden,2020-08-13,2476,grams
+corn,Dorinny Sweet,2020-08-14,1564,grams
+lettuce,Lettuce Mixture,2020-08-14,80,grams
+tomatoes,Bonny Best,2020-08-14,711,grams
+tomatoes,Old German,2020-08-14,238,grams
+tomatoes,Amish Paste,2020-08-14,525,grams
+tomatoes,Jet Star,2020-08-14,181,grams
+tomatoes,Big Beef,2020-08-14,266,grams
+tomatoes,volunteers,2020-08-14,490,grams
+tomatoes,grape,2020-08-14,126,grams
+zucchini,Romanesco,2020-08-14,371,grams
+corn,Golden Bantam,2020-08-15,383,grams
+cucumbers,pickling,2020-08-15,351,grams
+zucchini,Romanesco,2020-08-15,859,grams
+basil,Isle of Naxos,2020-08-15,25,grams
+onions,Long Keeping Rainbow,2020-08-15,137,grams
+kale,Heirloom Lacinto,2020-08-15,71,grams
+lettuce,Lettuce Mixture,2020-08-15,56,grams
+tomatoes,grape,2020-08-16,477,grams
+tomatoes,volunteers,2020-08-16,328,grams
+lettuce,Lettuce Mixture,2020-08-16,45,grams
+tomatoes,Bonny Best,2020-08-16,543,grams
+tomatoes,Old German,2020-08-16,599,grams
+tomatoes,Amish Paste,2020-08-16,560,grams
+tomatoes,Black Krim,2020-08-16,291,grams
+tomatoes,Better Boy,2020-08-16,238,grams
+tomatoes,Big Beef,2020-08-16,397,grams
+zucchini,Romanesco,2020-08-16,660,grams
+beans,Bush Bush Slender,2020-08-16,693,grams
+tomatoes,Bonny Best,2020-08-17,364,grams
+tomatoes,Brandywine,2020-08-17,305,grams
+tomatoes,Amish Paste,2020-08-17,588,grams
+tomatoes,Better Boy,2020-08-17,764,grams
+tomatoes,grape,2020-08-17,436,grams
+tomatoes,volunteers,2020-08-17,306,grams
+beans,Classic Slenderette,2020-08-17,350,grams
+beans,Chinese Red Noodle,2020-08-17,105,grams
+spinach,Catalina,2020-08-17,30,grams
+lettuce,Lettuce Mixture,2020-08-17,67,grams
+corn,Golden Bantam,2020-08-17,344,grams
+kale,Heirloom Lacinto,2020-08-17,173,grams
+basil,Isle of Naxos,2020-08-18,27,grams
+onions,Long Keeping Rainbow,2020-08-18,126,grams
+peppers,variety,2020-08-18,112,grams
+zucchini,Romanesco,2020-08-18,1151,grams
+beans,Bush Bush Slender,2020-08-18,225,grams
+cucumbers,pickling,2020-08-18,2888,grams
+tomatoes,Mortgage Lifter,2020-08-18,608,grams
+tomatoes,grape,2020-08-18,136,grams
+tomatoes,volunteers,2020-08-18,148,grams
+tomatoes,Black Krim,2020-08-18,317,grams
+tomatoes,Old German,2020-08-18,105,grams
+tomatoes,Bonny Best,2020-08-18,271,grams
+spinach,Catalina,2020-08-18,39,grams
+lettuce,Lettuce Mixture,2020-08-18,87,grams
+cucumbers,pickling,2020-08-18,233,grams
+edamame,edamame,2020-08-18,527,grams
+potatoes,purple,2020-08-19,323,grams
+potatoes,yellow,2020-08-19,278,grams
+hot peppers,thai,2020-08-19,31,grams
+tomatoes,Cherokee Purple,2020-08-19,872,grams
+tomatoes,Black Krim,2020-08-19,579,grams
+tomatoes,Better Boy,2020-08-19,615,grams
+tomatoes,Amish Paste,2020-08-19,997,grams
+tomatoes,Brandywine,2020-08-19,335,grams
+tomatoes,Big Beef,2020-08-19,264,grams
+tomatoes,grape,2020-08-19,451,grams
+tomatoes,volunteers,2020-08-19,306,grams
+lettuce,Lettuce Mixture,2020-08-20,99,grams
+cucumbers,pickling,2020-08-20,70,grams
+tomatoes,volunteers,2020-08-20,333,grams
+tomatoes,Brandywine,2020-08-20,483,grams
+tomatoes,Bonny Best,2020-08-20,632,grams
+tomatoes,Jet Star,2020-08-20,360,grams
+tomatoes,Better Boy,2020-08-20,230,grams
+tomatoes,Big Beef,2020-08-20,344,grams
+tomatoes,Amish Paste,2020-08-20,1010,grams
+beans,Classic Slenderette,2020-08-20,328,grams
+beans,Bush Bush Slender,2020-08-20,287,grams
+lettuce,Tatsoi,2020-08-20,322,grams
+tomatoes,grape,2020-08-20,493,grams
+peppers,green,2020-08-20,252,grams
+peppers,variety,2020-08-20,70,grams
+zucchini,Romanesco,2020-08-20,834,grams
+onions,Long Keeping Rainbow,2020-08-20,113,grams
+zucchini,Romanesco,2020-08-21,1122,grams
+basil,Isle of Naxos,2020-08-21,34,grams
+jalapeño,giant,2020-08-21,509,grams
+tomatoes,Cherokee Purple,2020-08-21,1601,grams
+tomatoes,Big Beef,2020-08-21,842,grams
+tomatoes,Black Krim,2020-08-21,1538,grams
+tomatoes,Amish Paste,2020-08-21,428,grams
+tomatoes,Old German,2020-08-21,243,grams
+tomatoes,Bonny Best,2020-08-21,330,grams
+cucumbers,pickling,2020-08-21,997,grams
+tomatoes,grape,2020-08-21,265,grams
+tomatoes,volunteers,2020-08-21,562,grams
+carrots,Dragon,2020-08-21,457,grams
+tomatoes,Amish Paste,2020-08-23,1542,grams
+tomatoes,Old German,2020-08-23,801,grams
+tomatoes,grape,2020-08-23,436,grams
+cucumbers,pickling,2020-08-23,747,grams
+tomatoes,Black Krim,2020-08-23,1573,grams
+tomatoes,Mortgage Lifter,2020-08-23,704,grams
+tomatoes,Brandywine,2020-08-23,446,grams
+tomatoes,Bonny Best,2020-08-23,269,grams
+corn,Dorinny Sweet,2020-08-23,661,grams
+zucchini,Romanesco,2020-08-23,2436,grams
+lettuce,Lettuce Mixture,2020-08-23,111,grams
+lettuce,Lettuce Mixture,2020-08-24,134,grams
+peppers,green,2020-08-24,115,grams
+tomatoes,grape,2020-08-24,75,grams
+kale,Heirloom Lacinto,2020-08-24,117,grams
+tomatoes,Jet Star,2020-08-25,578,grams
+tomatoes,Brandywine,2020-08-25,871,grams
+tomatoes,Old German,2020-08-25,115,grams
+tomatoes,Bonny Best,2020-08-25,629,grams
+beans,Classic Slenderette,2020-08-25,186,grams
+beans,Bush Bush Slender,2020-08-25,320,grams
+tomatoes,volunteers,2020-08-25,488,grams
+tomatoes,grape,2020-08-25,506,grams
+zucchini,Romanesco,2020-08-25,920,grams
+cucumbers,pickling,2020-08-25,179,grams
+tomatoes,Amish Paste,2020-08-25,1400,grams
+tomatoes,Big Beef,2020-08-25,993,grams
+tomatoes,Mortgage Lifter,2020-08-25,1026,grams
+tomatoes,Amish Paste,2020-08-26,1886,grams
+tomatoes,Old German,2020-08-26,666,grams
+tomatoes,Brandywine,2020-08-26,1042,grams
+tomatoes,Cherokee Purple,2020-08-26,593,grams
+tomatoes,Black Krim,2020-08-26,216,grams
+tomatoes,Better Boy,2020-08-26,309,grams
+tomatoes,Big Beef,2020-08-26,497,grams
+tomatoes,volunteers,2020-08-26,261,grams
+tomatoes,grape,2020-08-26,819,grams
+corn,Dorinny Sweet,2020-08-26,1607,grams
+lettuce,Lettuce Mixture,2020-08-27,14,grams
+raspberries,perrenial,2020-08-28,29,grams
+zucchini,Romanesco,2020-08-28,3244,grams
+lettuce,Lettuce Mixture,2020-08-28,85,grams
+basil,Isle of Naxos,2020-08-29,24,grams
+onions,Long Keeping Rainbow,2020-08-29,289,grams
+tomatoes,grape,2020-08-29,380,grams
+tomatoes,volunteers,2020-08-29,737,grams
+tomatoes,Big Beef,2020-08-29,1033,grams
+tomatoes,Mortgage Lifter,2020-08-29,1097,grams
+edamame,edamame,2020-08-29,483,grams
+peppers,variety,2020-08-29,627,grams
+jalapeño,giant,2020-08-29,352,grams
+potatoes,purple,2020-08-29,262,grams
+potatoes,yellow,2020-08-29,716,grams
+carrots,Bolero,2020-08-29,888,grams
+tomatoes,volunteers,2020-08-29,566,grams
+carrots,greens,2020-08-29,169,grams
+tomatoes,Old German,2020-08-30,861,grams
+tomatoes,Brandywine,2020-08-30,460,grams
+tomatoes,Amish Paste,2020-08-30,2934,grams
+tomatoes,Cherokee Purple,2020-08-30,599,grams
+tomatoes,Bonny Best,2020-08-30,155,grams
+tomatoes,volunteers,2020-08-30,822,grams
+tomatoes,Mortgage Lifter,2020-08-30,589,grams
+tomatoes,Better Boy,2020-08-30,393,grams
+tomatoes,Jet Star,2020-08-30,752,grams
+tomatoes,grape,2020-08-30,833,grams
+zucchini,Romanesco,2020-09-01,2831,grams
+tomatoes,volunteers,2020-09-01,1953,grams
+beans,Classic Slenderette,2020-09-01,160,grams
+pumpkins,saved,2020-09-01,4758,grams
+pumpkins,saved,2020-09-01,2342,grams
+squash,Blue (saved),2020-09-01,3227,grams
+squash,Blue (saved),2020-09-01,5150,grams
+pumpkins,Cinderella's Carraige,2020-09-01,7350,grams
+tomatoes,Old German,2020-09-01,805,grams
+tomatoes,Brandywine,2020-09-01,178,grams
+tomatoes,Cherokee Purple,2020-09-01,201,grams
+tomatoes,Amish Paste,2020-09-01,1537,grams
+tomatoes,Jet Star,2020-09-01,773,grams
+tomatoes,Mortgage Lifter,2020-09-01,1202,grams
+corn,Dorinny Sweet,2020-09-02,798,grams
+peppers,green,2020-09-02,370,grams
+jalapeño,giant,2020-09-02,43,grams
+peppers,variety,2020-09-02,60,grams
+tomatoes,grape,2020-09-03,1131,grams
+tomatoes,volunteers,2020-09-03,610,grams
+tomatoes,Big Beef,2020-09-03,1265,grams
+jalapeño,giant,2020-09-03,102,grams
+tomatoes,Amish Paste,2020-09-04,2160,grams
+tomatoes,Better Boy,2020-09-04,2899,grams
+tomatoes,grape,2020-09-04,442,grams
+tomatoes,volunteers,2020-09-04,1234,grams
+tomatoes,Jet Star,2020-09-04,1178,grams
+tomatoes,Mortgage Lifter,2020-09-04,255,grams
+tomatoes,Brandywine,2020-09-04,430,grams
+onions,Delicious Duo,2020-09-04,33,grams
+Swiss chard,Neon Glow,2020-09-04,256,grams
+jalapeño,giant,2020-09-04,58,grams
+corn,Dorinny Sweet,2020-09-05,214,grams
+edamame,edamame,2020-09-05,1644,grams
+tomatoes,volunteers,2020-09-06,2377,grams
+tomatoes,Bonny Best,2020-09-06,710,grams
+tomatoes,Amish Paste,2020-09-06,1317,grams
+tomatoes,Big Beef,2020-09-06,1649,grams
+tomatoes,grape,2020-09-06,615,grams
+zucchini,Romanesco,2020-09-07,3284,grams
+zucchini,Romanesco,2020-09-08,1300,grams
+potatoes,yellow,2020-09-09,843,grams
+broccoli,Main Crop Bravado,2020-09-09,102,grams
+Swiss chard,Neon Glow,2020-09-09,228,grams
+tomatoes,Amish Paste,2020-09-10,692,grams
+tomatoes,Old German,2020-09-10,674,grams
+tomatoes,Better Boy,2020-09-10,1392,grams
+tomatoes,Mortgage Lifter,2020-09-10,316,grams
+tomatoes,Jet Star,2020-09-10,754,grams
+tomatoes,volunteers,2020-09-10,413,grams
+tomatoes,grape,2020-09-10,509,grams
+kale,Heirloom Lacinto,2020-09-12,108,grams
+tomatoes,grape,2020-09-15,258,grams
+tomatoes,volunteers,2020-09-15,725,grams
+potatoes,Russet,2020-09-16,629,grams
+broccoli,Main Crop Bravado,2020-09-16,219,grams
+lettuce,Lettuce Mixture,2020-09-16,8,grams
+carrots,King Midas,2020-09-17,160,grams
+carrots,Bolero,2020-09-17,168,grams
+kohlrabi,Crispy Colors Duo,2020-09-17,191,grams
+tomatoes,volunteers,2020-09-17,212,grams
+tomatoes,Brandywine,2020-09-18,714,grams
+tomatoes,Amish Paste,2020-09-18,228,grams
+tomatoes,Better Boy,2020-09-18,670,grams
+tomatoes,Bonny Best,2020-09-18,1052,grams
+tomatoes,Old German,2020-09-18,1631,grams
+raspberries,perrenial,2020-09-18,137,grams
+tomatoes,volunteers,2020-09-19,2934,grams
+tomatoes,Big Beef,2020-09-19,304,grams
+tomatoes,grape,2020-09-19,1058,grams
+squash,delicata,2020-09-19,307,grams
+squash,delicata,2020-09-19,397,grams
+squash,delicata,2020-09-19,537,grams
+squash,delicata,2020-09-19,314,grams
+squash,delicata,2020-09-19,494,grams
+squash,delicata,2020-09-19,484,grams
+squash,delicata,2020-09-19,454,grams
+squash,delicata,2020-09-19,480,grams
+squash,delicata,2020-09-19,252,grams
+squash,delicata,2020-09-19,294,grams
+squash,delicata,2020-09-19,437,grams
+squash,Waltham Butternut,2020-09-19,1834,grams
+squash,Waltham Butternut,2020-09-19,1655,grams
+squash,Waltham Butternut,2020-09-19,1927,grams
+squash,Waltham Butternut,2020-09-19,1558,grams
+squash,Waltham Butternut,2020-09-19,1183,grams
+squash,Red Kuri,2020-09-19,1178,grams
+squash,Red Kuri,2020-09-19,706,grams
+squash,Red Kuri,2020-09-19,1686,grams
+squash,Red Kuri,2020-09-19,1785,grams
+squash,Blue (saved),2020-09-19,1923,grams
+squash,Blue (saved),2020-09-19,2120,grams
+squash,Blue (saved),2020-09-19,2325,grams
+squash,Blue (saved),2020-09-19,1172,grams
+pumpkins,Cinderella's Carraige,2020-09-19,1311,grams
+pumpkins,Cinderella's Carraige,2020-09-19,6250,grams
+pumpkins,saved,2020-09-19,1154,grams
+pumpkins,saved,2020-09-19,1208,grams
+pumpkins,saved,2020-09-19,2882,grams
+pumpkins,saved,2020-09-19,2689,grams
+pumpkins,saved,2020-09-19,3441,grams
+pumpkins,saved,2020-09-19,7050,grams
+pumpkins,New England Sugar,2020-09-19,1109,grams
+pumpkins,New England Sugar,2020-09-19,1028,grams
+pumpkins,New England Sugar,2020-09-19,1131,grams
+pumpkins,New England Sugar,2020-09-19,1302,grams
+pumpkins,New England Sugar,2020-09-19,1570,grams
+pumpkins,New England Sugar,2020-09-19,1359,grams
+pumpkins,New England Sugar,2020-09-19,1608,grams
+pumpkins,New England Sugar,2020-09-19,2277,grams
+pumpkins,New England Sugar,2020-09-19,1743,grams
+pumpkins,New England Sugar,2020-09-19,2931,grams
+kale,Heirloom Lacinto,2020-09-20,163,grams
+tomatoes,Bonny Best,2020-09-21,714,grams
+tomatoes,volunteers,2020-09-21,95,grams
+tomatoes,Bonny Best,2020-09-25,477,grams
+tomatoes,Amish Paste,2020-09-25,2738,grams
+tomatoes,Black Krim,2020-09-25,236,grams
+tomatoes,Old German,2020-09-25,1823,grams
+tomatoes,grape,2020-09-25,819,grams
+tomatoes,Mortgage Lifter,2020-09-25,2006,grams
+tomatoes,Big Beef,2020-09-25,659,grams
+tomatoes,Better Boy,2020-09-25,1239,grams
+tomatoes,volunteers,2020-09-25,1978,grams
+kale,Heirloom Lacinto,2020-09-25,28,grams
+Swiss chard,Neon Glow,2020-09-25,24,grams
+broccoli,Main Crop Bravado,2020-09-25,75,grams
+peppers,variety,2020-09-25,84,grams
+apple,unknown,2020-09-26,156,grams
+lettuce,Lettuce Mixture,2020-09-26,95,grams
+beans,Bush Bush Slender,2020-09-27,94,grams
+beans,Classic Slenderette,2020-09-27,81,grams
+lettuce,Lettuce Mixture,2020-09-27,139,grams
+broccoli,Main Crop Bravado,2020-09-27,134,grams
+carrots,Dragon,2020-09-27,883,grams
+carrots,Bolero,2020-09-27,449,grams
+Swiss chard,Neon Glow,2020-09-27,232,grams
+Swiss chard,Neon Glow,2020-09-30,88,grams
+peppers,green,2020-09-30,92,grams
+tomatoes,Amish Paste,2020-09-30,1447,grams
+tomatoes,Better Boy,2020-09-30,494,grams
+tomatoes,grape,2020-09-30,678,grams
+tomatoes,volunteers,2020-09-30,70,grams
+tomatoes,Mortgage Lifter,2020-09-30,327,grams
+kale,Heirloom Lacinto,2020-10-01,127,grams
+potatoes,Russet,2020-10-02,1596,grams
+potatoes,yellow,2020-10-02,101,grams
+kale,Heirloom Lacinto,2020-10-02,145,grams
+tomatoes,Amish Paste,2020-10-03,252,grams
+tomatoes,Mortgage Lifter,2020-10-03,213,grams
+tomatoes,Jet Star,2020-10-03,346,grams
+kale,Heirloom Lacinto,2020-10-04,39,grams
+tomatoes,Mortgage Lifter,2020-10-07,254,grams
+tomatoes,Old German,2020-10-07,363,grams
+tomatoes,Amish Paste,2020-10-07,715,grams
+tomatoes,Big Beef,2020-10-07,272,grams
+tomatoes,volunteers,2020-10-07,64,grams
+lettuce,Lettuce Mixture,2020-10-07,17,grams
+peppers,green,2020-10-07,169,grams
+potatoes,Russet,2020-10-08,372,grams
+potatoes,yellow,2020-10-08,436,grams
+tomatoes,grape,2020-10-10,1377,grams
+tomatoes,volunteers,2020-10-10,1977,grams
+jalapeño,giant,2020-10-10,258,grams
+Swiss chard,Neon Glow,2020-10-10,23,grams
+tomatoes,Amish Paste,2020-10-11,2478,grams
+tomatoes,Mortgage Lifter,2020-10-11,200,grams
+tomatoes,Black Krim,2020-10-11,375,grams
+tomatoes,Big Beef,2020-10-11,316,grams
+tomatoes,Old German,2020-10-11,898,grams
+tomatoes,Better Boy,2020-10-11,526,grams
+tomatoes,Bonny Best,2020-10-11,386,grams
+tomatoes,volunteers,2020-10-11,230,grams
+peppers,variety,2020-10-11,84,grams
+jalapeño,giant,2020-10-11,119,grams
+peppers,green,2020-10-11,144,grams
+broccoli,Main Crop Bravado,2020-10-11,437,grams
+peppers,green,2020-10-12,1031,grams
+jalapeño,giant,2020-10-12,2322,grams
+squash,Red Kuri,2020-10-12,296,grams
+squash,delicata,2020-10-12,312,grams
+squash,Waltham Butternut,2020-10-12,709,grams
+squash,Waltham Butternut,2020-10-12,2143,grams
+squash,Red Kuri,2020-10-12,1950,grams
+squash,Blue (saved),2020-10-12,1291,grams
+squash,Blue (saved),2020-10-12,1627,grams
+pumpkins,saved,2020-10-12,4372,grams
+pumpkins,saved,2020-10-12,5000,grams
+pumpkins,New England Sugar,2020-10-12,2990,grams
+pumpkins,New England Sugar,2020-10-12,1300,grams
+squash,Red Kuri,2020-10-12,2710,grams
+kale,Heirloom Lacinto,2020-10-12,137,grams
+tomatoes,Mortgage Lifter,2020-10-14,859,grams
+tomatoes,Big Beef,2020-10-14,791,grams
+tomatoes,Amish Paste,2020-10-14,1175,grams
+tomatoes,Brandywine,2020-10-14,418,grams
+tomatoes,Old German,2020-10-14,484,grams
+tomatoes,Cherokee Purple,2020-10-14,219,grams
+tomatoes,Better Boy,2020-10-14,646,grams
+tomatoes,volunteers,2020-10-14,2838,grams
+carrots,Bolero,2020-10-14,1500,grams
+carrots,King Midas,2020-10-14,1023,grams
+peppers,green,2020-10-14,328,grams
+jalapeño,giant,2020-10-14,175,grams
+peppers,variety,2020-10-14,89,grams
+zucchini,Romanesco,2020-10-15,3800,grams
+zucchini,Romanesco,2020-10-15,5700,grams
+zucchini,Romanesco,2020-10-15,3600,grams
+potatoes,Russet,2020-10-15,1527,grams
+potatoes,yellow,2020-10-15,272,grams
+potatoes,red,2020-10-15,1718,grams
+potatoes,purple,2020-10-15,295,grams
+rutabaga,Improved Helenor,2020-10-16,883,grams
+rutabaga,Improved Helenor,2020-10-16,740,grams
+Swiss chard,Neon Glow,2020-10-17,310,grams
+rutabaga,Improved Helenor,2020-10-17,932,grams
+rutabaga,Improved Helenor,2020-10-17,1096,grams
+rutabaga,Improved Helenor,2020-10-17,1101,grams
+potatoes,red,2020-10-17,293,grams
+onions,Long Keeping Rainbow,2020-10-17,183,grams
+onions,Delicious Duo,2020-10-17,77,grams
+rutabaga,Improved Helenor,2020-10-18,2001,grams
+rutabaga,Improved Helenor,2020-10-18,673,grams
+rutabaga,Improved Helenor,2020-10-18,144,grams
+rutabaga,Improved Helenor,2020-10-18,366,grams
+rutabaga,Improved Helenor,2020-10-18,1393,grams
+rutabaga,Improved Helenor,2020-10-18,903,grams
+rutabaga,Improved Helenor,2020-10-18,419,grams
+rutabaga,Improved Helenor,2020-10-18,1026,grams
+rutabaga,Improved Helenor,2020-10-18,1350,grams
+rutabaga,Improved Helenor,2020-10-18,297,grams
+rutabaga,Improved Helenor,2020-10-18,52,grams
+rutabaga,Improved Helenor,2020-10-18,114,grams
