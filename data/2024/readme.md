@@ -26,3 +26,4 @@ Archive of datasets and articles from the 2024 series of `#TidyTuesday` events.
 | 20 | `2024-05-14` | [The Great American Coffee Taste Test](2024-05-14/readme.md) | [James Hoffmann and Cometeer Great American Coffee Taste Test Survey](https://bit.ly/gacttCSV) | [Great American Coffee Taste Test Breakdown](https://rmckeon.medium.com/great-american-coffee-taste-test-breakdown-7f3fdcc3c41d) | 
 | 21 | `2024-05-21` | [Carbon Majors emissions data](2024-05-21/readme.md) | [CarbonMajors dataset](https://carbonmajors.org/Downloads) | [CarbonMajors](https://carbonmajors.org/) | 
 | 22 | `2024-05-28` | [Lisa's Vegetable Garden Data](2024-05-28/readme.md) | [{gardenR} package](https://github.com/llendway/gardenR) | [Macalester College COMP/STAT 112 Tutorials](https://ds112-lendway.netlify.app/) | 
+| 23 | `2024-06-04` | [Cheese](2024-06-04/readme.md) | [cheese.com](https://www.cheese.com/alphabetical/) | [cheese.com site and blog](https://www.cheese.com/) | 
