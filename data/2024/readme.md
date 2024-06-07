@@ -27,3 +27,4 @@ Archive of datasets and articles from the 2024 series of `#TidyTuesday` events.
 | 21 | `2024-05-21` | [Carbon Majors emissions data](2024-05-21/readme.md) | [CarbonMajors dataset](https://carbonmajors.org/Downloads) | [CarbonMajors](https://carbonmajors.org/) | 
 | 22 | `2024-05-28` | [Lisa's Vegetable Garden Data](2024-05-28/readme.md) | [{gardenR} package](https://github.com/llendway/gardenR) | [Macalester College COMP/STAT 112 Tutorials](https://ds112-lendway.netlify.app/) | 
 | 23 | `2024-06-04` | [Cheese](2024-06-04/readme.md) | [cheese.com](https://www.cheese.com/alphabetical/) | [cheese.com site and blog](https://www.cheese.com/) | 
+| 24 | `2024-06-11` | [Campus Pride Index](2024-06-11/readme.md) | [Campus Pride Index search results](https://campusprideindex.org/searchresults/display/0) | [Campus Pride Index](https://campusprideindex.org) | 

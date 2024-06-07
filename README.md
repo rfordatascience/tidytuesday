@@ -53,6 +53,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 21 | `2024-05-21` | [Carbon Majors emissions data](data/2024/2024-05-21/readme.md) | [CarbonMajors dataset](https://carbonmajors.org/Downloads) | [CarbonMajors](https://carbonmajors.org/) |
 | 22 | `2024-05-28` | [Lisa's Vegetable Garden Data](data/2024/2024-05-28/readme.md) | [{gardenR} package](https://github.com/llendway/gardenR) | [Macalester College COMP/STAT 112 Tutorials](https://ds112-lendway.netlify.app/) | 
 | 23 | `2024-06-04` | [Cheese](data/2024/2024-06-04/readme.md) | [cheese.com](https://www.cheese.com/alphabetical/) | [cheese.com site and blog](https://www.cheese.com/) | 
+| 24 | `2024-06-11` | [Campus Pride Index](data/2024/2024-06-11/readme.md) | [Campus Pride Index search results](https://campusprideindex.org/searchresults/display/0) | [Campus Pride Index](https://campusprideindex.org) |  
 
 ***  
 
