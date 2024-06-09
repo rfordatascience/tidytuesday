@@ -55,6 +55,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 23 | `2024-06-04` | [Cheese](data/2024/2024-06-04/readme.md) | [cheese.com](https://www.cheese.com/alphabetical/) | [cheese.com site and blog](https://www.cheese.com/) | 
 | 24 | `2024-06-11` | [Campus Pride Index](data/2024/2024-06-11/readme.md) | [Campus Pride Index search results](https://campusprideindex.org/searchresults/display/0) | [Campus Pride Index](https://campusprideindex.org) |  
 | 25 | `2024-06-18` | [US Federal Holidays](data/2024/2024-06-18/readme.md) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) |  
+| 26 | `2024-06-25` | [TidyRainbow Datasets](data/2024/2024-06-25/readme.md) | [TidyRainbow LGBTQ Movie Database](https://raw.githubusercontent.com/r-lgbtq/tidyrainbow/main/data/LGBTQ-movie-database/movieData.csv) | [TidyRainbow Datasets](https://github.com/r-lgbtq/tidyrainbow/tree/main) |   
 
 ***  
 
