@@ -4,7 +4,7 @@
 
 |variable      |class     |description   |
 |:-------------|:---------|:-------------|
-|year          |integer   |The year in which the dataset was realeased. |
+|year          |integer   |The year in which the dataset was released. |
 |week          |integer   |The week number for this dataset within this year. |
 |date          |Date      |The date of the Tuesday of this week. |
 |title         |character |The overall title of this week's TidyTuesday. This is different from the individual dataset titles (although often similar). |
@@ -15,7 +15,7 @@
 
 |variable  |class     |description |
 |:---------|:---------|:-----------|
-|year      |integer   |The year in which the dataset was realeased. |
+|year      |integer   |The year in which the dataset was released. |
 |week      |integer   |The week number for this dataset within this year. |
 |type      |factor    |Whether this url appeared as an "article" or as a data "source". |
 |url       |character |The full url. |
@@ -31,7 +31,7 @@
 
 |variable     |class     |description  |
 |:------------|:---------|:------------|
-|year         |integer   |The year in which the dataset was realeased. |
+|year         |integer   |The year in which the dataset was released. |
 |week         |integer   |The week number for this dataset within this year. |
 |dataset_name |character |The name of this dataset. Some weeks have multiple datasets. |
 |variables    |integer   |The number of columns in this dataset. |
@@ -41,7 +41,7 @@
 
 |variable     |class     |description  |
 |:------------|:---------|:------------|
-|year         |integer   |The year in which the dataset was realeased. |
+|year         |integer   |The year in which the dataset was released. |
 |week         |integer   |The week number for this dataset within this year. |
 |dataset_name |character |The name of this dataset. Some weeks have multiple datasets. |
 |variable     |character |The name of this variable. |
