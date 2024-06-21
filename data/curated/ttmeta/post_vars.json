@@ -1,0 +1,5 @@
+{
+  "article_link": "https://r4ds.github.io/ttmeta/",
+  "pic1_alt": "Logo for the #TidyTuesday Project. The words TidyTuesday overlaying a black paint splash. The words are inside a hexagon, with github.com/rfordatascience/tidytuesday in small text on the border.",
+  "pic2_alt": "Frequently used TidyTuesday variable names. Som varaible names ('year', 'country') have a clear, distinct meaning. Others ('name', 'title') are vague or unique to a given dataset. The most frequently used variable name is year, which is a numeric variable that has been used over 200 times. name, country, and state are character variables that have been used about 60 to 75 times each. date is a datetime variable that has been used about 50 times. title, code, type, and entity are character variables that have each been used a little under 50 times, and id is a numeric variable that has been used about 30 times. Data from the ttmeta package as of 2024-06-20."
+}
