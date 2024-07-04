@@ -25,16 +25,16 @@ dataset_filenames <- basename(dataset_files)
 dictionary_filenames <- fs::path_ext_set(dataset_filenames, "md")
 dictionary_files <- fs::path(src_dir, dictionary_filenames)
 
-dictionaries <- dictionary_files |> 
-  purrr::map(
-    \(dictionary_file) {
-      markdown::mark_html(dictionary_file) |> 
-        rvest::read_html() |> 
-        rvest::html_element("table") |> 
-        rvest::html_table()
-    }
-  ) |> 
-  purrr::set_names(dataset_filenames)
+# dictionaries <- dictionary_files |> 
+#   purrr::map(
+#     \(dictionary_file) {
+#       markdown::mark_html(dictionary_file) |> 
+#         rvest::read_html() |> 
+#         rvest::html_element("table") |> 
+#         rvest::html_table()
+#     }
+#   ) |> 
+#   purrr::set_names(dataset_filenames)
 
 intro <- readLines(fs::path(src_dir, "intro.md"))
 
