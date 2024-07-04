@@ -19,7 +19,6 @@ fs::dir_create(target_dir)
 ## metadata --------------------------------------------------------------------
 
 metadata <- yaml::read_yaml(fs::path(src_dir, "meta.yaml"))
-# yaml::write_yaml(metadata, fs::path(src_dir, "meta.yaml"))
 
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
