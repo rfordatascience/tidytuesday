@@ -57,6 +57,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 25 | `2024-06-18` | [US Federal Holidays](data/2024/2024-06-18/readme.md) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) |  
 | 26 | `2024-06-25` | [TidyRainbow Datasets](data/2024/2024-06-25/readme.md) | [TidyRainbow LGBTQ Movie Database](https://raw.githubusercontent.com/r-lgbtq/tidyrainbow/main/data/LGBTQ-movie-database/movieData.csv) | [TidyRainbow Datasets](https://github.com/r-lgbtq/tidyrainbow/tree/main) |   
 | 27 | `2024-07-02` | [TidyTuesday Datasets](data/2024/2024-07-02/readme.md) | [ttmeta package](https://github.com/r4ds/ttmeta) | [ttmeta package](https://r4ds.github.io/ttmeta/) | 
+| 28 | `2024-07-09` | [David Robinson's TidyTuesday Functions](data/2024/2024-07-09/readme.md) | [funspotr examples](https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv) | [Network Visualizations of Code Collections](https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/) | 
 
 ***  
 
