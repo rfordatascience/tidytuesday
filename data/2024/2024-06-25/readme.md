@@ -1,9 +1,9 @@
-# TidyRainbow Datasets
+# tidyRainbow Datasets
 
 Happy Pride Month! 
 Check out the [{gglgbtq}](https://github.com/turtletopia/gglgbtq) package for LGBTQ-related themes and color palettes!
 
-The data this week comes from the [TidyRainbow](https://github.com/r-lgbtq/tidyrainbow/tree/main), "a data project for the LGBTQ+ community who use the R language ecosystem."
+The data this week comes from the [tidyRainbow](https://github.com/r-lgbtq/tidyrainbow/tree/main), "a data project for the LGBTQ+ community who use the R language ecosystem."
 
 > The data sets in this repository focus on data pertaining to the LGBTQ+ community. We also look for data sets where LGBTQ+ folk are explicitly represented and where it is not assumed that gender is binary. Additionally, we include data sets that are relevant to LGBTQ+ folk because of the impact it has on the community.
 
