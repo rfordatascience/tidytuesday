@@ -3,8 +3,8 @@
 
 # Set these variables ----------------------------------------------------------
 
-src_folder_name <- "ttmeta"
-target_date <- "2024-07-02"
+src_folder_name <- "funspotr"
+target_date <- "2024-07-09"
 
 # Run these scripts ------------------------------------------------------------
 
@@ -16,23 +16,45 @@ target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
 fs::dir_create(target_dir)
 
-## Ideally these should be read from post_vars.json or yaml --------------------
+## metadata --------------------------------------------------------------------
 
-post_vars <- jsonlite::read_json(fs::path(src_dir, "post_vars.json"))
-
-title <- post_vars$title %||% "TidyTuesday Datasets"
-data_title <- post_vars$data_title %||% "ttmeta package"
-data_link <- post_vars$data_link %||% "https://github.com/r4ds/ttmeta"
-article_title <- post_vars$article_title %||% "ttmeta package"
-article_link <- post_vars$article_link %||% "https://r4ds.github.io/ttmeta"
-
-## Copy files ------------------------------------------------------------------
+metadata <- yaml::read_yaml(fs::path(src_dir, "meta.yaml"))
 
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
-images <- fs::dir_ls(src_dir, glob = "*.png")
-fs::file_copy(fs::path(src_dir, "post_vars.json"), target_dir)
-fs::file_copy(images, target_dir)
+dictionary_filenames <- fs::path_ext_set(dataset_filenames, "md")
+dictionary_files <- fs::path(src_dir, dictionary_filenames)
+
+# dictionaries <- dictionary_files |> 
+#   purrr::map(
+#     \(dictionary_file) {
+#       markdown::mark_html(dictionary_file) |> 
+#         rvest::read_html() |> 
+#         rvest::html_element("table") |> 
+#         rvest::html_table()
+#     }
+#   ) |> 
+#   purrr::set_names(dataset_filenames)
+
+intro <- readLines(fs::path(src_dir, "intro.md"))
+
+title <- metadata$title %||% stop("missing data")
+data_title <- metadata$data_source$title %||% stop("missing data")
+data_link <- metadata$data_source$url %||% stop("missing data")
+article_title <- metadata$article$title %||% stop("missing data")
+article_link <- metadata$article$url %||% stop("missing data")
+
+## Copy files ------------------------------------------------------------------
+
+fs::file_copy(fs::path(src_dir, "meta.yaml"), target_dir)
+
+metadata$images |> 
+  purrr::walk(
+    \(image) {
+      fs::file_copy(fs::path(src_dir, image$file), target_dir)
+    }
+  )
+
 fs::file_copy(dataset_files, target_dir)
 
 ## Create readme ---------------------------------------------------------------
@@ -41,11 +63,38 @@ read_piece <- function(filename) {
   paste(readLines(filename, warn = FALSE), collapse = "\n")
 }
 
-readme <- read_piece(fs::path(src_dir, "readme.md"))
+title_line <- glue::glue("# {title}")
+intro <- read_piece(fs::path(src_dir, "intro.md"))
 the_data_template <- read_piece(here::here("static", "templates", "the_data.md"))
 how_to_participate <- read_piece(here::here("static", "templates", "how_to_participate.md"))
-data_dictionary <- read_piece(fs::path(src_dir, "data_dictionary.md"))
-cleaning_script <- read_piece(fs::path(src_dir, "cleaning.md"))
+
+data_dictionaries <- purrr::map(
+  dataset_filenames,
+  \(dataset_filename) {
+    dictionary_filename <- fs::path_ext_set(dataset_filenames, "md")
+    dictionary <- fs::path(src_dir, dictionary_filename) |> 
+      read_piece()
+    dictionary_md <- glue::glue(
+      "# `{dataset_filename}`",
+      dictionary,
+      .sep = "\n\n"
+    )
+  }
+) |> 
+  glue::glue_collapse(sep = "\n\n") |> unclass()
+
+data_dictionary <- glue::glue(
+  "### Data Dictionary",
+  data_dictionaries,
+  .sep = "\n\n"
+)
+cleaning_script <- paste(
+  "### Cleaning Script\n",
+  "```r",
+  read_piece(fs::path(src_dir, "cleaning.R")),
+  "```",
+  sep = "\n"
+)
 
 the_data <- whisker::whisker.render(
   the_data_template,
@@ -70,7 +119,8 @@ if (!stringr::str_ends(cleaning_script, "\n")) {
 }
 
 paste(
-  readme,
+  title_line,
+  intro,
   the_data,
   how_to_participate,
   data_dictionary,
