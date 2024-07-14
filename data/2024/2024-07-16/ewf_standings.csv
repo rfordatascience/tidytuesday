@@ -1,0 +1,259 @@
+season_id,season,tier,division,position,team_id,team_name,played,wins,draws,losses,goals_for,goals_against,goal_difference,points,point_adjustment,season_outcome
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),1,T-001-T,Arsenal Ladies,14,10,2,2,29,9,20,32,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),2,T-003-T,Birmingham City Ladies,14,8,5,1,29,13,16,29,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),3,T-013-T,Everton Ladies,14,7,4,3,19,13,6,25,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),4,T-016-T,Lincoln Ladies,14,6,3,5,18,16,2,21,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),5,T-006-T,Bristol Academy,14,4,4,6,14,20,-6,16,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),6,T-008-T,Chelsea Ladies,14,4,3,7,14,19,-5,15,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),7,T-011-T,Doncaster Rovers Belles,14,2,3,9,9,26,-17,9,0,No change
+S-2011-2011-1-S,2011-2011,1,FA Women's Super League (WSL),8,T-017-T,Liverpool Ladies,14,1,4,9,10,26,-16,7,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),1,T-001-T,Arsenal Ladies,14,10,4,0,39,18,21,34,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),2,T-003-T,Birmingham City Ladies,14,7,5,2,31,18,13,26,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),3,T-013-T,Everton Ladies,14,7,4,3,20,16,4,25,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),4,T-006-T,Bristol Academy,14,4,6,4,17,16,1,18,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),5,T-016-T,Lincoln Ladies,14,5,3,6,24,26,-2,18,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),6,T-008-T,Chelsea Ladies,14,5,2,7,20,23,-3,17,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),7,T-011-T,Doncaster Rovers Belles,14,3,2,9,14,28,-14,11,0,No change
+S-2012-2012-1-S,2012-2012,1,FA Women's Super League (WSL),8,T-017-T,Liverpool Ladies,14,1,2,11,15,35,-20,5,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),1,T-017-T,Liverpool Ladies,14,12,0,2,46,19,27,36,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),2,T-006-T,Bristol Academy,14,10,1,3,30,20,10,31,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),3,T-001-T,Arsenal Ladies,14,10,3,1,31,11,20,30,-3,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),4,T-003-T,Birmingham City Ladies,14,5,3,6,16,21,-5,18,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),5,T-013-T,Everton Ladies,14,4,3,7,23,30,-7,15,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),6,T-016-T,Lincoln Ladies,14,2,4,8,10,15,-5,10,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),7,T-008-T,Chelsea Ladies,14,3,1,10,20,27,-7,10,0,No change
+S-2013-2013-1-S,2013-2013,1,FA Women's Super League (WSL),8,T-011-T,Doncaster Rovers Belles,14,1,3,10,9,42,-33,6,0,Relegated to tier 2
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),1,T-017-T,Liverpool Ladies,14,7,5,2,19,10,9,26,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),2,T-008-T,Chelsea Ladies,14,8,2,4,23,16,7,26,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),3,T-003-T,Birmingham City Ladies,14,7,4,3,20,14,6,25,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),4,T-001-T,Arsenal Ladies,14,6,3,5,24,21,3,21,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),5,T-020-T,Manchester City Women,14,6,1,7,13,16,-3,19,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),6,T-016-T,Notts County Ladies,14,4,6,4,12,8,4,18,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),7,T-006-T,Bristol Academy,14,5,1,8,18,24,-6,16,0,No change
+S-2014-2014-1-S,2014-2014,1,FA Women's Super League 1 (WSL 1),8,T-013-T,Everton Ladies,14,0,4,10,10,30,-20,4,0,Relegated to tier 2
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),1,T-027-T,Sunderland Ladies,18,15,2,1,47,15,32,47,0,Promoted to tier 1
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),2,T-011-T,Doncaster Rovers Belles,18,14,3,1,56,14,42,45,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),3,T-023-T,Reading Women,18,13,2,3,60,21,39,41,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),4,T-002-T,Aston Villa Ladies,18,9,3,6,25,26,-1,30,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),5,T-031-T,Yeovil Town Ladies,18,6,4,8,27,26,1,22,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),6,T-012-T,Durham Women,18,5,3,10,19,32,-13,18,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),7,T-029-T,Watford Ladies,18,5,3,10,22,37,-15,18,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),8,T-019-T,Millwall Lionesses,18,4,3,11,20,36,-16,15,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),9,T-022-T,Oxford United Women,18,3,3,12,16,44,-28,12,0,No change
+S-2014-2014-2-S,2014-2014,2,FA Women's Super League 2 (WSL 2),10,T-018-T,London Bees,18,2,2,14,16,57,-41,8,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),1,T-008-T,Chelsea Ladies,14,10,2,2,30,10,20,32,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),2,T-020-T,Manchester City Women,14,9,3,2,25,11,14,30,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),3,T-001-T,Arsenal Ladies,14,8,3,3,21,13,8,27,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),4,T-027-T,Sunderland Ladies,14,6,2,6,24,24,0,20,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),5,T-016-T,Notts County Ladies,14,4,3,7,20,20,0,15,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),6,T-003-T,Birmingham City Ladies,14,3,4,7,7,14,-7,13,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),7,T-017-T,Liverpool Ladies,14,4,1,9,15,24,-9,13,0,No change
+S-2015-2015-1-S,2015-2015,1,FA Women's Super League 1 (WSL 1),8,T-006-T,Bristol Academy,14,2,2,10,12,38,-26,8,0,Relegated to tier 2
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),1,T-023-T,Reading Women,18,14,3,1,61,15,46,45,0,Promoted to tier 1
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),2,T-011-T,Doncaster Rovers Belles,18,14,3,1,57,15,42,45,0,Promoted to tier 1
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),3,T-013-T,Everton Ladies,18,8,7,3,43,24,19,31,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),4,T-031-T,Yeovil Town Ladies,18,9,4,5,36,23,13,31,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),5,T-002-T,Aston Villa Ladies,18,7,4,7,29,28,1,25,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),6,T-022-T,Oxford United Women,18,7,3,8,26,40,-14,24,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),7,T-012-T,Durham Women,18,6,2,10,24,32,-8,20,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),8,T-018-T,London Bees,18,3,4,11,19,53,-34,13,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),9,T-019-T,Millwall Lionesses,18,2,6,10,17,39,-22,12,0,No change
+S-2015-2015-2-S,2015-2015,2,FA Women's Super League 2 (WSL 2),10,T-029-T,Watford Ladies,18,1,2,15,12,55,-43,5,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),1,T-020-T,Manchester City Women,16,13,3,0,36,4,32,42,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),2,T-008-T,Chelsea Ladies,16,12,1,3,42,17,25,37,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),3,T-001-T,Arsenal Ladies,16,10,2,4,33,14,19,32,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),4,T-003-T,Birmingham City Ladies,16,7,6,3,18,13,5,27,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),5,T-017-T,Liverpool Ladies,16,7,4,5,27,23,4,25,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),6,T-016-T,Notts County Ladies,16,4,4,8,16,26,-10,16,0,Club folded
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),7,T-027-T,Sunderland Ladies,16,2,4,10,17,41,-24,10,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),8,T-023-T,Reading Women,16,1,6,9,15,26,-11,9,0,No change
+S-2016-2016-1-S,2016-2016,1,FA Women's Super League 1 (WSL 1),9,T-011-T,Doncaster Rovers Belles,16,1,0,15,8,48,-40,3,0,Relegated to tier 2
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),1,T-031-T,Yeovil Town Ladies,18,12,3,3,41,16,25,39,0,Promoted to tier 1
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),2,T-006-T,Bristol City Women,18,12,3,3,37,16,21,39,0,Promoted to tier 1
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),3,T-013-T,Everton Ladies,18,10,4,4,35,18,17,34,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),4,T-012-T,Durham Women,18,10,3,5,30,19,11,33,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),5,T-025-T,Sheffield Ladies,18,7,5,6,25,18,7,26,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),6,T-002-T,Aston Villa Ladies,18,7,3,8,26,27,-1,24,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),7,T-018-T,London Bees,18,6,4,8,28,39,-11,22,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),8,T-019-T,Millwall Lionesses,18,3,7,8,24,31,-7,16,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),9,T-022-T,Oxford United Women,18,4,1,13,20,42,-22,13,0,No change
+S-2016-2016-2-S,2016-2016,2,FA Women's Super League 2 (WSL 2),10,T-029-T,Watford Ladies,18,2,1,15,13,53,-40,7,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,1,T-008-T,Chelsea Ladies,8,6,1,1,32,3,29,19,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,2,T-020-T,Manchester City Women,8,6,1,1,17,6,11,19,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,3,T-001-T,Arsenal Ladies,8,5,3,0,22,9,13,18,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,4,T-017-T,Liverpool Ladies,8,4,2,2,20,18,2,14,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,5,T-027-T,Sunderland Ladies,8,2,3,3,4,14,-10,9,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,6,T-023-T,Reading Women,8,2,2,4,10,15,-5,8,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,7,T-003-T,Birmingham City Ladies,8,1,4,3,6,10,-4,7,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,8,T-006-T,Bristol City Women,8,1,1,6,5,21,-16,4,0,No change
+S-2017-2017-1-S,2017-2017,1,FA Women's Super League 1 (WSL 1) Spring Series,9,T-031-T,Yeovil Town Ladies,8,0,1,7,6,26,-20,1,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,1,T-013-T,Everton Ladies,9,7,1,1,25,7,18,22,0,Promoted to tier 1
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,2,T-011-T,Doncaster Rovers Belles,9,5,3,1,19,9,10,18,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,3,T-019-T,Millwall Lionesses,9,5,2,2,12,8,4,17,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,4,T-002-T,Aston Villa Ladies,9,5,2,2,19,16,3,17,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,5,T-012-T,Durham Women,9,5,1,3,14,10,4,16,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,6,T-005-T,Brighton and Hove Albion Women,9,2,4,3,8,13,-5,10,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,7,T-018-T,London Bees,9,3,1,5,13,21,-8,10,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,8,T-029-T,Watford Ladies,9,2,2,5,12,17,-5,8,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,9,T-025-T,Sheffield Ladies,9,2,0,7,9,18,-9,6,0,No change
+S-2017-2017-2-S,2017-2017,2,FA Women's Super League 2 (WSL 2) Spring Series,10,T-022-T,Oxford United Women,9,0,2,7,7,19,-12,2,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),1,T-008-T,Chelsea Ladies,18,13,5,0,44,13,31,44,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),2,T-020-T,Manchester City Women,18,12,2,4,51,17,34,38,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),3,T-001-T,Arsenal Women,18,11,4,3,38,18,20,37,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),4,T-023-T,Reading Women,18,9,5,4,40,18,22,32,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),5,T-003-T,Birmingham City Ladies,18,9,3,6,30,18,12,30,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),6,T-017-T,Liverpool Ladies,18,9,1,8,30,27,3,28,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),7,T-027-T,Sunderland Ladies,18,5,1,12,15,40,-25,16,0,Relegated to tier 3
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),8,T-006-T,Bristol City Women,18,5,1,12,13,47,-34,16,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),9,T-013-T,Everton Ladies,18,4,2,12,19,30,-11,14,0,No change
+S-2017-2018-1-S,2017-2018,1,FA Women's Super League 1 (WSL 1),10,T-031-T,Yeovil Town Ladies,18,0,2,16,2,54,-52,2,0,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),1,T-011-T,Doncaster Rovers Belles,18,15,2,1,52,15,37,47,0,Relegated to tier 3
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),2,T-005-T,Brighton and Hove Albion Women,18,12,1,5,35,26,9,37,0,Promoted to tier 1
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),3,T-019-T,Millwall Lionesses,18,12,3,3,40,23,17,36,-3,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),4,T-012-T,Durham Women,18,11,2,5,44,26,18,35,0,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),5,T-025-T,Sheffield Ladies,18,9,1,8,40,31,9,28,0,Relegated to tier 3
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),6,T-018-T,London Bees,18,6,5,7,29,32,-3,23,0,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),7,T-028-T,Spurs Ladies,18,6,4,8,32,34,-2,22,0,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),8,T-022-T,Oxford United Women,18,3,3,12,24,41,-17,12,0,Relegated to tier 3
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),9,T-002-T,Aston Villa Ladies,18,3,2,13,21,40,-19,11,0,No change
+S-2017-2018-2-S,2017-2018,2,FA Women's Super League 2 (WSL 2),10,T-029-T,Watford Ladies,18,1,1,16,8,57,-49,4,0,Relegated to tier 3
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),1,T-001-T,Arsenal Women,20,18,0,2,70,13,57,54,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),2,T-020-T,Manchester City Women,20,14,5,1,53,17,36,47,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),3,T-008-T,Chelsea Women,20,12,6,2,46,14,32,42,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),4,T-003-T,Birmingham City Women,20,13,1,6,29,17,12,40,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),5,T-023-T,Reading Women,20,8,3,9,33,30,3,27,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),6,T-006-T,Bristol City Women,20,7,4,9,17,34,-17,25,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),7,T-030-T,West Ham United Women,20,7,2,11,25,37,-12,23,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),8,T-017-T,Liverpool Women,20,7,1,12,21,38,-17,22,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),9,T-005-T,Brighton and Hove Albion Women,20,4,4,12,16,38,-22,16,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),10,T-013-T,Everton Ladies,20,3,3,14,15,38,-23,12,0,No change
+S-2018-2019-1-S,2018-2019,1,FA Women's Super League (WSL),11,T-031-T,Yeovil Town Ladies,20,2,1,17,11,60,-49,-3,-10,Relegated to tier 3
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,1,T-021-T,Manchester United Women,20,18,1,1,98,7,91,55,0,Promoted to tier 1
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,2,T-028-T,Spurs Ladies,20,15,1,4,44,27,17,46,0,Promoted to tier 1
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,3,T-007-T,Charlton Athletic Women,20,13,2,5,49,21,28,41,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,4,T-012-T,Durham Women,20,11,6,3,37,16,21,39,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,5,T-024-T,Sheffield United Women,20,11,1,8,35,31,4,34,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,6,T-002-T,Aston Villa Ladies,20,6,8,6,30,39,-9,26,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,7,T-014-T,Leicester City Women,20,6,3,11,27,44,-17,21,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,8,T-018-T,London Bees,20,7,0,13,23,48,-25,21,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,9,T-015-T,Lewes Women,20,5,2,13,23,47,-24,17,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,10,T-010-T,Crystal Palace Ladies,20,3,2,15,14,44,-30,11,0,No change
+S-2018-2019-2-S,2018-2019,2,FA Women's Championship,11,T-019-T,Millwall Lionesses,20,1,2,17,14,70,-56,5,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),1,T-008-T,Chelsea Women,15,12,3,0,47,11,36,39,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),2,T-020-T,Manchester City Women,16,13,1,2,39,9,30,40,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),3,T-001-T,Arsenal Women,15,12,0,3,40,13,27,36,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),4,T-021-T,Manchester United Women,14,7,2,5,24,12,12,23,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),5,T-023-T,Reading Women,14,6,3,5,21,24,-3,21,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),6,T-013-T,Everton Women,14,6,1,7,21,21,0,19,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),7,T-028-T,Tottenham Hotspur Women,15,6,2,7,15,24,-9,20,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),8,T-030-T,West Ham United Women,14,5,1,8,19,34,-15,16,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),9,T-005-T,Brighton and Hove Albion Women,16,3,4,9,11,30,-19,13,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),10,T-006-T,Bristol City Women,14,2,3,9,9,38,-29,9,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),11,T-003-T,Birmingham City Women,13,2,1,10,5,23,-18,7,0,No change
+S-2019-2020-1-S,2019-2020,1,FA Women's Super League (WSL),12,T-017-T,Liverpool Women,14,1,3,10,8,20,-12,6,0,Relegated to tier 2
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,1,T-002-T,Aston Villa Women,14,13,1,0,39,11,28,40,0,Promoted to tier 1
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,2,T-024-T,Sheffield United Women,14,11,1,2,46,16,30,34,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,3,T-012-T,Durham Women,14,10,2,2,33,10,23,32,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,4,T-019-T,London City Lionesses,15,8,2,5,25,24,1,26,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,5,T-018-T,London Bees,12,4,3,5,16,19,-3,15,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,6,T-014-T,Leicester City Women,15,4,3,8,22,35,-13,15,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,7,T-004-T,Blackburn Rovers Ladies,12,3,1,8,13,25,-12,10,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,8,T-015-T,Lewes Women,12,2,3,7,10,18,-8,9,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,9,T-010-T,Crystal Palace Women,14,2,4,8,15,33,-18,10,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,10,T-009-T,Coventry United Ladies,14,2,3,9,19,35,-16,9,0,No change
+S-2019-2020-2-S,2019-2020,2,FA Women's Championship,11,T-007-T,Charlton Athletic Women,12,0,7,5,9,21,-12,7,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),1,T-008-T,Chelsea Women,22,18,3,1,69,10,59,57,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),2,T-020-T,Manchester City Women,22,17,4,1,65,13,52,55,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),3,T-001-T,Arsenal Women,22,15,3,4,63,15,48,48,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),4,T-021-T,Manchester United Women,22,15,2,5,44,20,24,47,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),5,T-013-T,Everton Women,22,9,5,8,39,30,9,32,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),6,T-005-T,Brighton and Hove Albion Women,22,8,3,11,21,41,-20,27,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),7,T-023-T,Reading Women,22,5,9,8,25,41,-16,24,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),8,T-028-T,Tottenham Hotspur Women,22,5,5,12,18,41,-23,20,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),9,T-030-T,West Ham United Women,22,3,6,13,21,39,-18,15,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),10,T-002-T,Aston Villa Women,22,3,6,13,15,47,-32,15,0,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),11,T-003-T,Birmingham City Women,22,3,6,13,15,44,-29,14,-1,No change
+S-2020-2021-1-S,2020-2021,1,FA Women's Super League (WSL),12,T-006-T,Bristol City Women,22,2,6,14,18,72,-54,12,0,Relegated to tier 2
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,1,T-014-T,Leicester City Women,20,16,2,2,54,16,38,50,0,Promoted to tier 1
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,2,T-012-T,Durham Women,20,12,6,2,34,15,19,42,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,3,T-017-T,Liverpool Women,20,11,6,3,37,15,22,39,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,4,T-024-T,Sheffield United Women,20,11,5,4,37,15,22,38,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,5,T-015-T,Lewes Women,20,8,4,8,19,22,-3,28,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,6,T-019-T,London City Lionesses,20,6,6,8,19,19,0,24,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,7,T-010-T,Crystal Palace Women,20,5,5,10,27,36,-9,20,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,8,T-007-T,Charlton Athletic Women,20,4,7,9,19,29,-10,19,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,9,T-004-T,Blackburn Rovers Ladies,20,4,6,10,20,31,-11,18,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,10,T-009-T,Coventry United Ladies,20,5,1,14,21,51,-30,16,0,No change
+S-2020-2021-2-S,2020-2021,2,FA Women's Championship,11,T-018-T,London Bees,20,3,2,15,14,52,-38,11,0,Relegated to tier 3
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),1,T-008-T,Chelsea Women,22,18,2,2,62,11,51,56,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),2,T-001-T,Arsenal Women,22,17,4,1,65,10,55,55,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),3,T-020-T,Manchester City Women,22,15,2,5,60,22,38,47,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),4,T-021-T,Manchester United Women,22,12,6,4,45,22,23,42,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),5,T-028-T,Tottenham Hotspur Women,22,9,5,8,24,23,1,32,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),6,T-030-T,West Ham United Women,22,7,6,9,23,33,-10,27,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),7,T-005-T,Brighton and Hove Albion Women,22,8,2,12,24,38,-14,26,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),8,T-023-T,Reading Women,22,7,4,11,21,40,-19,25,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),9,T-002-T,Aston Villa Women,22,6,3,13,13,40,-27,21,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),10,T-013-T,Everton Women,22,5,5,12,18,41,-23,20,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),11,T-014-T,Leicester City Women,22,4,1,17,14,53,-39,13,0,No change
+S-2021-2022-1-S,2021-2022,1,FA Women's Super League (WSL),12,T-003-T,Birmingham City Women,22,3,2,17,15,51,-36,11,0,Relegated to tier 2
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,1,T-017-T,Liverpool Women,22,16,4,2,49,11,38,52,0,Promoted to tier 1
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,2,T-019-T,London City Lionesses,22,13,2,7,35,22,13,41,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,3,T-006-T,Bristol City Women,22,11,4,7,43,28,15,37,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,4,T-010-T,Crystal Palace Women,22,11,4,7,35,39,-4,37,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,5,T-007-T,Charlton Athletic Women,22,10,4,8,27,18,9,34,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,6,T-012-T,Durham Women,22,10,4,8,30,28,2,34,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,7,T-024-T,Sheffield United Women,22,9,6,7,34,31,3,33,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,8,T-015-T,Lewes Women,22,9,2,11,23,24,-1,29,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,9,T-027-T,Sunderland Ladies,22,6,6,10,23,32,-9,24,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,10,T-004-T,Blackburn Rovers Ladies,22,5,2,15,17,41,-24,17,0,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,11,T-009-T,Coventry United Ladies,22,5,7,10,18,32,-14,12,-10,No change
+S-2021-2022-2-S,2021-2022,2,FA Women's Championship,12,T-029-T,Watford Women,22,2,5,15,18,46,-28,11,0,Relegated to tier 3
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),1,T-008-T,Chelsea Women,22,19,1,2,66,15,51,58,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),2,T-021-T,Manchester United Women,22,18,2,2,56,12,44,56,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),3,T-001-T,Arsenal Women,22,15,2,5,49,16,33,47,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),4,T-020-T,Manchester City Women,22,15,2,5,50,25,25,47,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),5,T-002-T,Aston Villa Women,22,11,4,7,47,37,10,37,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),6,T-013-T,Everton Women,22,9,3,10,29,36,-7,30,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),7,T-017-T,Liverpool Women,22,6,5,11,24,39,-15,23,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),8,T-030-T,West Ham United Women,22,6,3,13,23,44,-21,21,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),9,T-028-T,Tottenham Hotspur Women,22,5,3,14,31,47,-16,18,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),10,T-014-T,Leicester City Women,22,5,1,16,15,48,-33,16,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),11,T-005-T,Brighton and Hove Albion Women,22,4,4,14,26,63,-37,16,0,No change
+S-2022-2023-1-S,2022-2023,1,Women's Super League (WSL),12,T-023-T,Reading Women,22,3,2,17,23,57,-34,11,0,Relegated to tier 2
+S-2022-2023-2-S,2022-2023,2,Women's Championship,1,T-006-T,Bristol City Women,22,15,3,4,39,12,27,48,0,Promoted to tier 1
+S-2022-2023-2-S,2022-2023,2,Women's Championship,2,T-003-T,Birmingham City Women,22,15,2,5,39,22,17,47,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,3,T-019-T,London City Lionesses,22,14,3,5,49,20,29,45,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,4,T-007-T,Charlton Athletic Women,22,11,5,6,34,27,7,38,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,5,T-010-T,Crystal Palace Women,22,11,1,10,28,34,-6,34,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,6,T-026-T,Southampton Women,22,9,6,7,22,15,7,33,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,7,T-012-T,Durham Women,22,8,4,10,30,29,1,28,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,8,T-024-T,Sheffield United Women,22,8,3,11,32,25,7,27,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,9,T-015-T,Lewes Women,22,7,5,10,20,29,-9,26,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,10,T-004-T,Blackburn Rovers Ladies,22,5,8,9,20,29,-9,23,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,11,T-027-T,Sunderland Women,22,5,3,14,26,38,-12,18,0,No change
+S-2022-2023-2-S,2022-2023,2,Women's Championship,12,T-009-T,Coventry United Women,22,2,1,19,16,75,-59,7,0,Relegated to tier 3
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),1,T-008-T,Chelsea Women,22,18,1,3,71,18,53,55,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),2,T-020-T,Manchester City Women,22,18,1,3,61,15,46,55,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),3,T-001-T,Arsenal Women,22,16,2,4,53,20,33,50,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),4,T-017-T,Liverpool Women,22,12,5,5,36,28,8,41,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),5,T-021-T,Manchester United Women,22,10,5,7,42,32,10,35,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),6,T-028-T,Tottenham Hotspur Women,22,8,7,7,31,36,-5,31,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),7,T-002-T,Aston Villa Women,22,7,3,12,27,43,-16,24,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),8,T-013-T,Everton Women,22,6,5,11,24,37,-13,23,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),9,T-005-T,Brighton and Hove Albion Women,22,5,4,13,26,48,-22,19,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),10,T-014-T,Leicester City Women,22,4,6,12,26,45,-19,18,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),11,T-030-T,West Ham United Women,22,3,6,13,20,45,-25,15,0,No change
+S-2023-2024-1-S,2023-2024,1,Women's Super League (WSL),12,T-006-T,Bristol City Women,22,1,3,18,20,70,-50,6,0,Relegated to tier 2
+S-2023-2024-2-S,2023-2024,2,Women's Championship,1,T-010-T,Crystal Palace Women,22,14,4,4,55,20,35,46,0,Promoted to tier 1
+S-2023-2024-2-S,2023-2024,2,Women's Championship,2,T-007-T,Charlton Athletic Women,22,13,6,3,32,17,15,45,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,3,T-027-T,Sunderland Women,22,12,5,5,31,18,13,41,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,4,T-026-T,Southampton Women,22,13,0,9,39,25,14,39,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,5,T-003-T,Birmingham City Women,22,11,3,8,33,19,14,36,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,6,T-004-T,Blackburn Rovers Women,22,11,3,8,25,28,-3,36,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,7,T-024-T,Sheffield United Women,22,9,2,11,32,31,1,29,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,8,T-019-T,London City Lionesses,22,7,4,11,26,36,-10,25,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,9,T-012-T,Durham Women,22,6,5,11,24,44,-20,23,0,No change
+S-2023-2024-2-S,2023-2024,2,Women's Championship,10,T-023-T,Reading Women,22,5,7,10,20,40,-20,22,0,Relegated to tier 5
+S-2023-2024-2-S,2023-2024,2,Women's Championship,11,T-015-T,Lewes Women,22,4,4,14,22,39,-17,16,0,Relegated to tier 3
+S-2023-2024-2-S,2023-2024,2,Women's Championship,12,T-029-T,Watford Women,22,4,3,15,22,44,-22,15,0,Relegated to tier 3

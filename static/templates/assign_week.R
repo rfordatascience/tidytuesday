@@ -3,8 +3,8 @@
 
 # Set these variables ----------------------------------------------------------
 
-src_folder_name <- "funspotr"
-target_date <- "2024-07-09"
+src_folder_name <- "football"
+target_date <- "2024-07-16"
 
 # Run these scripts ------------------------------------------------------------
 
@@ -22,19 +22,6 @@ metadata <- yaml::read_yaml(fs::path(src_dir, "meta.yaml"))
 
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
-dictionary_filenames <- fs::path_ext_set(dataset_filenames, "md")
-dictionary_files <- fs::path(src_dir, dictionary_filenames)
-
-# dictionaries <- dictionary_files |> 
-#   purrr::map(
-#     \(dictionary_file) {
-#       markdown::mark_html(dictionary_file) |> 
-#         rvest::read_html() |> 
-#         rvest::html_element("table") |> 
-#         rvest::html_table()
-#     }
-#   ) |> 
-#   purrr::set_names(dataset_filenames)
 
 intro <- readLines(fs::path(src_dir, "intro.md"))
 
@@ -71,7 +58,7 @@ how_to_participate <- read_piece(here::here("static", "templates", "how_to_parti
 data_dictionaries <- purrr::map(
   dataset_filenames,
   \(dataset_filename) {
-    dictionary_filename <- fs::path_ext_set(dataset_filenames, "md")
+    dictionary_filename <- fs::path_ext_set(dataset_filename, "md")
     dictionary <- fs::path(src_dir, dictionary_filename) |> 
       read_piece()
     dictionary_md <- glue::glue(
