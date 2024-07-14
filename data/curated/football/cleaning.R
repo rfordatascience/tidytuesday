@@ -1,0 +1,1 @@
+Clean data provided by the [English Womens Football (EWF) Database](https://github.com/probjects/ewf-database). No cleaning was necessary.
