@@ -3,8 +3,8 @@
 
 # Set these variables ----------------------------------------------------------
 
-src_folder_name <- "football"
-target_date <- "2024-07-16"
+src_folder_name <- "american_idol"
+target_date <- "2024-07-23"
 
 # Run these scripts ------------------------------------------------------------
 
