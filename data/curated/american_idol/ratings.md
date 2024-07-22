@@ -13,7 +13,7 @@
 |total_viewers_millions  |character |Total number of viewers (in millions). |
 |weekrank                |character |Ranking of episode performance by season            |
 |ref                     |logical   |Reference                    |
-|share                   |character |share                   |
+|share                   |character |share  (unused)   |
 |nightlyrank             |double    |Nightly ranking        |
 |rating_share_households |character |Ranking per share of households. |
 |rating_share            |character |Ratings share.         |
