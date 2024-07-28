@@ -1,0 +1,29 @@
+Type: Book
+Package: tidytuesday
+Title: TidyTuesday
+Version: 0.0.1
+Authors@R: c(
+    person("Jon", "Harmon", , "jonthegeek@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4781-4346")),
+    person("Data Science Learning Community", , , "jon@dslc.io", role = c("ctb", "cph"))
+  )
+Description: This is only here for GHA dependencies.
+URL: https://github.com/rfordatascience/tidytuesday
+BugReports: https://github.com/rfordatascience/tidytuesday/issues
+Depends:
+    R (>= 4.1.0)
+Imports: 
+    dplyr,
+    fs,
+    glue,
+    here,
+    knitr,
+    lubridate,
+    purrr,
+    readr,
+    rlang,
+    stringr,
+    tibble,
+    whisker,
+    yaml
+Encoding: UTF-8
