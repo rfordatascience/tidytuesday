@@ -7,6 +7,7 @@ name: Commands
 
 jobs:
   describe:
+    runs-on: ubuntu-latest
     steps:
       - name: print author association
         env:
