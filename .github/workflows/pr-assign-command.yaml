@@ -6,17 +6,6 @@ on:
 name: Commands
 
 jobs:
-  describe:
-    runs-on: ubuntu-latest
-    steps:
-      - name: print author association
-        env:
-          AUTHOR_ASS: ${{ github.event.comment.author_association }}
-        run: echo "$AUTHOR_ASS"
-      - name: print body
-        env:
-          BODY: ${{ github.event.comment.body }}
-        run: echo "$BODY"
   assign:
     if: ${{ github.event.issue.pull_request && (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER' || github.event.comment.author_association == 'COLLABORATOR') && startsWith(github.event.comment.body, '/assign') }}
     name: assign
