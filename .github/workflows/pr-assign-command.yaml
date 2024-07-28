@@ -8,8 +8,6 @@ name: Commands
 jobs:
   describe:
     steps:
-      - run: echo "$AUTHOR_ASS"
-    steps:
       - name: print author association
         env:
           AUTHOR_ASS: ${{ github.event.comment.author_association }}
