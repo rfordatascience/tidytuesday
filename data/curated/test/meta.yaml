@@ -1,0 +1,11 @@
+title: mtcars
+article:
+  title: Many R demos
+  url: https://example.com
+data_source:
+  title: datasets R package
+  url: https://cran.r-project.org/
+images:
+# Please include at least one image, and up to three images
+- file: mtcars.png
+  alt: The first 6 rows of the mtcars dataset.
