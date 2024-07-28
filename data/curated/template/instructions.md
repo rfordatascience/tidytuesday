@@ -20,14 +20,12 @@ You will also need:
 * An article about the dataset or that uses the dataset
 * At least one image related to or using the dataset
 
-More complete instructions for choosing a dataset will be available elsewhere soon.
-
 ## Prepare your repository
 
 To submit datasets, we use a fork/branch approach. 
 You're going to fork this repository, and then create a branch in your forked repository to submit the pull request. 
 
-1. Fork the tidytuesday repository (this one). We will have instructions soon that don't involve copying the entire TidyTuesday repository (which is huge), but for now we're starting from the full thing.
+1. Fork the tidytuesday repository (this one).
 2. Create a new branch in that fork, with something similar to the name of the dataset you're submitting. For instance if it's a dataset on American baseball, something like "american-baseball"" or "baseball" works. 
 3. Do the next steps in this fork/branch.
 
