@@ -9,7 +9,8 @@ jobs:
   describe:
     env:
       AUTHOR_ASS: ${{ github.event.comment.author_association }}
-    run: echo "$AUTHOR_ASS"
+    steps:
+      - run: echo "$AUTHOR_ASS"
   assign:
     if: ${{ github.event.issue.pull_request && (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') && startsWith(github.event.comment.body, '/assign') }}
     name: assign
