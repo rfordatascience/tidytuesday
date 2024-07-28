@@ -6,8 +6,12 @@ on:
 name: Commands
 
 jobs:
+  describe:
+    env:
+      AUTHOR_ASS: ${{ github.event.comment.author_association }}
+    run: echo "$AUTHOR_ASS"
   assign:
-    if: ${{ github.event.issue.pull_request && (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER' || github.event.actor.login == 'jonthegeek') && startsWith(github.event.comment.body, '/assign') }}
+    if: ${{ github.event.issue.pull_request && (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER') && startsWith(github.event.comment.body, '/assign') }}
     name: assign
     runs-on: ubuntu-latest
     env:
