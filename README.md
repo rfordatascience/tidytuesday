@@ -60,6 +60,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 28 | `2024-07-09` | [David Robinson's TidyTuesday Functions](data/2024/2024-07-09/readme.md) | [funspotr examples](https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv) | [Network Visualizations of Code Collections](https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/) | 
 | 29 | `2024-07-16` | [English Women's Football](data/2024/2024-07-16/readme.md) | [The English Women's Football (EWF) Database, May 2024](https://github.com/probjects/ewf-database) | [The English Women's Football (EWF) Database, May 2024](https://github.com/probjects/ewf-database) | 
 | 30 | `2024-07-23` | [American Idol data](data/2024/2024-07-23/readme.md) | [American Idol data](https://github.com/kkakey/American_Idol) | [American Idol data](https://github.com/kkakey/American_Idol) | 
+| 31 | `2024-7-30` | [mtcars](data/2024/2024-7-30/readme.md) | [datasets R package](https://cran.r-project.org/) | [Many R demos](https://example.com) | 
 
 ***  
 
