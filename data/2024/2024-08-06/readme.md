@@ -24,7 +24,7 @@ If you were doing TidyTuesdays in 2021, what can you do differently now? Explori
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2024-08-05')
+tuesdata <- tidytuesdayR::tt_load('2024-08-06')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2024, week = 32)
 
