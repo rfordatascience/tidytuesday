@@ -68,4 +68,4 @@ olympics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 ### Cleaning Script
 
-No cleaning, the same data as from [2021-07-27](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-07-27).
+No cleaning, the same data as from [2021-07-27](https://tidytues.day/2021/2021-07-27).
