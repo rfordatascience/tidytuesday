@@ -4,7 +4,7 @@ This week we're exploring Olympics data!
 
 The data this week comes from the [RGriffin Kaggle dataset: 120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/), basic bio data on athletes and medal results from Athens 1896 to Rio 2016. 
 
-This is an intentional repeat of [TidyTuesday 2021-07-27](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-07-27), since it's the Olympics!
+This is an intentional repeat of [TidyTuesday 2021-07-27](https://tidytues.day/2021/2021-07-27), since it's the Olympics!
 
 > This is a historical dataset on the modern Olympic Games, including all the Games from Athens 1896 to Rio 2016. I scraped this data from www.sports-reference.com in May 2018. 
 > 
