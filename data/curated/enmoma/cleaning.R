@@ -12,3 +12,5 @@ df <- df[-c(1,2), ] # remove double-header effect
 
 cols <- c("king_name", "king_age", "consort_name", "consort_age", "year_of_marriage")
 colnames(df) <- cols
+
+english_monarchs_marriages_df <- df
