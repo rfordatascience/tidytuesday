@@ -64,6 +64,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 31 | `2024-07-30` | [Summer Movies](data/2024/2024-07-30/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [IMDb's 2023 Summer Movie Guide](https://www.imdb.com/list/ls569932833) | 
 | 32 | `2024-08-06` | [Olympic Medals](data/2024/2024-08-06/readme.md) | [Kaggle Olypmic history data](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) | [Financial Times Tokyo Olypmics analysis](https://ig.ft.com/tokyo-olympics-alternative-medal-table/) |
 | 33 | `2024-08-13` | [World's Fairs](data/2024/2024-08-13/readme.md) | [List of world expositions (Wikipedia)](https://en.wikipedia.org/wiki/List_of_world_expositions) | [World's fair (Wikipedia)](https://en.wikipedia.org/wiki/World%27s_fair) | 
+| 34 | `2024-08-20` | [English Monarchs and Marriages](data/2024/2024-08-20/readme.md) | [A list of Monarchs by marriage](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) | [monarchs and marriages](github.com/frankiethull/english_monarch_marriages) | 
 
 ***  
 
