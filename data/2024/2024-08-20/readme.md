@@ -1,5 +1,3 @@
-# English Monarchs and Marriages
-
 # English Monarchs and Marriages 
 
 This week we are exploring [English Monarchs and Marriages](https://github.com/frankiethull/english_monarch_marriages)! 
