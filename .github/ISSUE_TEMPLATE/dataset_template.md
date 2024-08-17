@@ -30,7 +30,7 @@ Please fill out as much of this information as you can!
 # ADD SCRIPT HERE
 ```
 
-**data_dictionary:** A description of each column in the dataset, including the column name, the data type of the column, and a description of the column.
+- [ ] **data_dictionary:** A description of each column in the dataset, including the column name, the data type of the column, and a description of the column.
 
 |variable            |class     |description         |
 |:-------------------|:---------|:-------------------|
