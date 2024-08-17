@@ -8,4 +8,4 @@ See our guide to [reviewing submitted datasets](dataset_review.md) for the check
 
 If you find yourself filling out *all* of the information, we strongly suggest submitting a pull request instead! We'll help you through the process if you've never submitted a pull request before!
 
-You can [submit a dataset here](issues/new?assignees=&labels=dataset&projects=&template=dataset_template.md).
+You can [submit a dataset here](https://github.com/rfordatascience/tidytuesday/issues/new?assignees=&labels=dataset&projects=&template=dataset_template.md).
