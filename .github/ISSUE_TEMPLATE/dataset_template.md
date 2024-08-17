@@ -9,7 +9,7 @@ Please consider [submitting this dataset as a pull request](pr_instructions.md)!
 Please fill out as much of this information as you can!
 
 - [ ] This dataset has not already been used in TidyTuesday.
-- [ ] The dataset will (probably) be less than 50MB when saved as a tidy CSV.
+- [ ] The dataset will (probably) be less than 20MB when saved as a tidy CSV.
 - [ ] I can imagine a data visualization related to this dataset.
 
 - [ ] **title:** A short name for the dataset (to be used in the social media post, "This week we're exploring DATASET NAME"). Examples: "Canadian NHL Player Birth Dates", "R Consortium ISC Grants", or "Leap Day".
