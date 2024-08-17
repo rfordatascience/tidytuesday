@@ -91,22 +91,6 @@ Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github
 
 ***
 
-## Submitting Datasets
+## Contributing
 
-`TidyTuesday` is built around open datasets that are found in the "wild" or submitted as [Issues](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub.
-
-If you find a dataset that you think would be interesting, you can approach it through two ways:
-
-### Submit the dataset as an Issue
-
-1. Find an interesting dataset  
-2. Find a report, blog post, article, etc relevant to the data   
-3. Submit the dataset as an [Issue](https://github.com/rfordatascience/tidytuesday/issues) along with a link to the article (and, ideally, 2 images from the article, with alt text)
-
-### Create an entire TidyTuesday challenge!  
-
-1. Find an interesting dataset  
-2. Find a report, blog post, article, etc relevant to the data (or create one yourself!)  
-3. Let us know you've found something interesting and are working on it by filing an [Issue](https://github.com/rfordatascience/tidytuesday/issues) on our GitHub  
-4. Provide a link or the raw data and a cleaning script for the data  
-5. Write a basic `readme.md` file using a recent `readme.md` as a template. Make sure to give yourself credit! 
+PLease see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
