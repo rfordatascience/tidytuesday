@@ -4,7 +4,9 @@ about: Suggest a new dataset for Tidy Tuesday
 labels: dataset
 ---
 
-Please fill out as much of this information as you can! 
+Please consider [submitting this dataset as a pull request](pr_instructions.md)!
+
+Please fill out as much of this information as you can!
 
 - **title:** A short name for the dataset (to be used in the social media post, "This week we're exploring DATASET NAME"). Examples: "Canadian NHL Player Birth Dates", "R Consortium ISC Grants", or "Leap Day".
 - **article:** An example of the dataset being used, such as a blog post or a README about the dataset.
