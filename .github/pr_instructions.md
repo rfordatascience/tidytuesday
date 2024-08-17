@@ -4,10 +4,10 @@ Thank you for helping us help learners!
 
 There are 4 main steps to submit a dataset:
 
-1. [Find a dataset.](find-a-dataset)
-2. [Prepare your repositry.](prepare-your-repository)
-3. [Create a branch.](create-a-branch)
-4. [Prepare the dataset.](prepare-the-dataset)
+1. [Find a dataset.](#find-a-dataset)
+2. [Prepare your repositry.](#prepare-your-repository)
+3. [Create a branch.](#create-a-branch)
+4. [Prepare the dataset.](#prepare-the-dataset)
 
 ## Find a dataset
 
