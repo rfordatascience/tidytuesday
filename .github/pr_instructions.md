@@ -39,7 +39,7 @@ We use a fork/branch approach to pull requests, meaning you'll create a version 
 2. Pull the latest version of the repository to your computer. In R, use `usethis::pr_merge_main()`
 3. Create a new branch, with something similar to the name of the dataset you're submitting. For instance if it's a dataset on American baseball, something like "american-baseball"" or "baseball" works. In R, you can create this branch using `usethis::pr_init(BRANCHNAME)`, eg `usethis::pr_init("american-baseball")`.
 4. Navigate to the `data/curated` folder in your branch of the repository. 
-5. Make a copy of the `template` folder for your dataset, inside the `curated` folder. Name it something descriptive, like "funspotr" or "ttmeta", not "my_dataset". We might accept your dataset without assigning it to a specific week yet, in which case this folder will need to be unique.
+5. Make a copy of the `template` folder for your dataset, inside the `curated` folder. Name it something descriptive -- the same name as your branch would work, so "baseball" not "my_dataset". We might accept your dataset without assigning it to a specific week yet, in which case this folder will need to be unique.
 6. Navigate to the folder you just created. That's where you're going to do your work.
   - A copy of the next set of instructions is also available in that folder, as `instructions.md`.
 
@@ -56,7 +56,7 @@ We hope to provide instructions for other programming languages eventually.
   - Run the first line of `saving.R` to create the functions we'll use to save your dataset.
   - Provide the name of your directory as `dir_name`.
   - Use `ttsave()` for each dataset you created in `cleaning.R`, substituting the name fo the dataset for `YOUR_DATASET_DF`.
-3. `{dataset}.md`: Edit the `{dataset}.md` files to describe your datasets. There should be one file for each dataset saved in step 5. Most likely you only need to fill in the "description" column with a description of each variable.
+3. `{dataset}.md`: Edit the `{dataset}.md` files to describe your datasets. There should be one file for each of your datasets. Most likely you only need to fill in the "description" column with a description of each variable.
 4. `intro.md`: Edit the `intro.md` file to describe your dataset. You don't need to add a `# Title` at the top; this is just a paragraph or two to introduce the week.
 5. Find at least one image for your dataset, and ideally two. These often come from the article about your dataset. If you can't find an image, create an example data visualization, and save that. Save the images in your folder as `png` files.
 6. `meta.yaml`: Edit `meta.yaml` to provide information about your dataset.
