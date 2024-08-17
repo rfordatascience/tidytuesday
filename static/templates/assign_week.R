@@ -30,6 +30,21 @@ data_title <- metadata$data_source$title %||% stop("missing data")
 data_link <- metadata$data_source$url %||% stop("missing data")
 article_title <- metadata$article$title %||% stop("missing data")
 article_link <- metadata$article$url %||% stop("missing data")
+credit <- metadata$credit$post
+credit_github <- metadata$credit$github
+if (length(credit_github)) {
+  # Normalize in case they gave full path vs just handle or included @.
+  credit_handle <- sub("github.com", "", credit_github) |> 
+    sub("https://", "", x = _) |> 
+    gsub("/", "", x = _) |> 
+    sub("@", "", x = _)
+  credit_github <- glue::glue("https://github.com/{credit_handle}")
+  if (length(credit)) {
+    credit <- glue::glue("[credit]({credit_github})")
+  } else {
+    credit <- glue::glue("@credit_handle")
+  }
+} 
 
 ## Copy files ------------------------------------------------------------------
 
@@ -52,6 +67,12 @@ read_piece <- function(filename) {
 
 title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
+credit_line <- glue::glue("Thank you to {credit} for curating this week's dataset.")
+if (length(credit_line)) {
+  
+  intro <- paste(intro, credit_line, sep = "\n\n")
+}
+
 the_data_template <- read_piece(here::here("static", "templates", "the_data.md"))
 how_to_participate <- read_piece(here::here("static", "templates", "how_to_participate.md"))
 

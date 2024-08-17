@@ -11,3 +11,9 @@ images:
   alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
 - file: FILENAME.png
   alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
+credit:
+# If you do not want a particular type of credit, please delete the related line
+  post: YOUR NAME AND AFFILIATION FOR CREDIT IN POST
+  linkedin: https://www.linkedin.com/in/YOURNAME
+  mastodon: @YOURNAME@YOURSERVER
+  github: https://github.com/YOURNAME
