@@ -59,7 +59,7 @@ We hope to provide instructions for other programming languages eventually.
 3. `{dataset}.md`: Edit the `{dataset}.md` files to describe your datasets. There should be one file for each of your datasets. You most likely only need to edit the "description" column to provide a description of each variable.
 4. `intro.md`: Edit the `intro.md` file to describe your dataset. You don't need to add a `# Title` at the top; this is just a paragraph or two to introduce the week.
 5. Find at least one image for your dataset, and ideally two. These often come from the article about your dataset. If you can't find an image, create an example data visualization, and save that. Save the images in your folder as `png` files.
-6. `meta.yaml`: Edit `meta.yaml` to provide information about your dataset.
+6. `meta.yaml`: Edit `meta.yaml` to provide information about your dataset. Also provide information about how we can credit you in the `credit` block, and delete lines from this block that do not apply to you.
 
 ### Submit your pull request with the data
 
