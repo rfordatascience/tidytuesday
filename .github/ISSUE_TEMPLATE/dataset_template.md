@@ -24,7 +24,7 @@ Please fill out as much of this information as you can!
   - [ ] **alt:** Text that can serve as a replacement for the image for those who cannot see the image (whether through visual impairment or because the image does not load).
 
 
-**cleaning_script:** A script to fetch and clean the data, resulting in one or more data.frames (or equivalent structures) that can be saved as CSVs.
+- [ ] **cleaning_script:** A script to fetch and clean the data, resulting in one or more data.frames (or equivalent structures) that can be saved as CSVs.
 
 ```r
 # ADD SCRIPT HERE
