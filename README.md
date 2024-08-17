@@ -7,7 +7,7 @@
 
 ## Goals
 
-Our over-arching goal for TidyTuesday is to make learning to work with data easier, by providing real-world datasets.
+Our over-arching goal for TidyTuesday is to make it easier to learn to work with data, by providing real-world datasets.
 
 Our goal for 2023-2024 is to increase usage of #TidyTuesday within classrooms.
 We would like to be used in at least 10 courses by September 2024.
@@ -21,7 +21,8 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 - [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
 - Create a visualization, a model, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R or another programming language.
 - [Share your output and the code used to generate it](sharing.md) on social media with the #TidyTuesday hashtag.
-- **BONUS**: Contribute a data set for a future Tidy Tuesday. Here's [how](https://github.com/rfordatascience/tidytuesday/blob/master/data/curated/template/instructions.md).
+
+**You can also [curate a dataset for a future TidyTuesday](../.github/pr_instructions.md)!**
 
 ***
 
