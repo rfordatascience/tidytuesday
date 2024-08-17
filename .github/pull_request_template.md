@@ -14,3 +14,4 @@ Preparation:
 - [ ] I edited the `intro.md` file to introduce my dataset.
 - [ ] I included at least one image for my dataset as a `png` file.
 - [ ] I completed the information in `meta.yaml`, including descriptive alt text for each image.
+- [ ] I provided information in `meta.yaml` about how to credit me, and deleted any parts of that block that I do not want you to use.
