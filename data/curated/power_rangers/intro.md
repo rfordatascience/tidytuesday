@@ -5,8 +5,6 @@ The series, created by Haim Saban, has one of the most popular taglines in histo
 
 Source: [NationalDayCalendar.com](https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28)
 
-QUESTION?
-
 What can you and your data analysis skills tell us about the Power Rangers' Franchise?
 
 What were the most popular seasons? Which season of rangers lasted the longest on screen? Which was your favourite ranger and why?
