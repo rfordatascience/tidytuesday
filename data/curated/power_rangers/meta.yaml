@@ -1,0 +1,18 @@
+title: "This week we're exploring The Power Rangers Franchise!"
+article:
+  title: NATIONAL POWER RANGERS DAY | August 28
+  url: https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28
+data_source:
+  title: "Power Rangers: Seasons and episodes data"
+  url: https://www.kaggle.com/datasets/karetnikovn/power-rangers-dataset/data
+images:
+# Please include at least one image, and up to three images
+- file: National-Power-Rangers-Day.png
+  alt: National Power Rangers Day Mighty Morphin' Power Rangers
+- file: national-power-rangers-day--august-28.png
+  alt: National Power Rangers Day Image by NationalDayCalendar.com
+credit:
+# If you do not want a particular type of credit, please delete the related line
+  post: Nikita Karetnikov
+  linkedin: https://www.linkedin.com/in/nikita-karetnikov-683095138/
+  kaggle: https://www.kaggle.com/karetnikovn
