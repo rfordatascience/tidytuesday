@@ -6,4 +6,4 @@
 |air_date      |double    |air_date      |
 |IMDB_rating   |double    |IMDB_rating   |
 |total_votes   |double    |total_votes   |
-|desc          |character |episode_decsription          |
+|desc          |character |free_text_description_of_episode|
