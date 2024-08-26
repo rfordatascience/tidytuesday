@@ -5,7 +5,7 @@ tt_dict <- function(x) {
   tibble::tibble(variable = names(x)) |>
     dplyr::mutate(
       class = purrr::map(x, \(var) typeof(var)),
-      description = variable
+      description = "Describe this field in sentence case."
     ) |>
     knitr::kable()
 }
