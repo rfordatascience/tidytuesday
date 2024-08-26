@@ -1,9 +1,9 @@
 |variable      |class     |description   |
 |:-------------|:---------|:-------------|
-|season_title  |character |season_title  |
-|episode_num   |double    |episode_number   |
-|episode_title |character |episode_title |
-|air_date      |double    |air_date      |
-|IMDB_rating   |double    |IMDB_rating   |
-|total_votes   |double    |total_votes   |
-|desc          |character |free_text_description_of_episode|
+|season_title  |character |title of the overall season  |
+|episode_num   |double    |number of this episode within this season |
+|episode_title |character |title of this episode |
+|air_date      |double    |date on which this episode first aired in the U.S. |
+|IMDB_rating   |double    |average rating among IMDB users |
+|total_votes   |double    |total votes on IMDB |
+|desc          |character |free-text description of this episode |
