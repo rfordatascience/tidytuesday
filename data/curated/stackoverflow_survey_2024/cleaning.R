@@ -53,14 +53,34 @@ single_response <- setdiff(colnames(stackoverflow_survey),
 
 ## Step 3: Create a data.frame for single-response questions
 
+## Create a flag if someone used R in the past year or wnat to use it in the next year
+
+r_used <- stackoverflow_survey %>%
+  select(ResponseId, LanguageHaveWorkedWith) %>%
+  separate_rows(LanguageHaveWorkedWith, sep = ";") %>%
+  filter(LanguageHaveWorkedWith == "R") %>%
+  pull(ResponseId)
+
+r_want_to_use <- stackoverflow_survey %>%
+  select(ResponseId, LanguageWantToWorkWith) %>%
+  separate_rows(LanguageWantToWorkWith, sep = ";") %>%
+  filter(LanguageWantToWorkWith == "R") %>%
+  pull(ResponseId)
+
 stackoverflow_survey_single_response <- stackoverflow_survey %>%
     
-    # Adding a flag if the respondent used R in past year or wants to use R in next year
+    # add flags
     mutate(
-        RUsed = as.integer(ifelse(is.na(LanguageHaveWorkedWith), NA,
-                                  grepl("R", LanguageHaveWorkedWith))),
-        RWantToUse = as.integer(ifelse(is.na(LanguageHaveWorkedWith), NA,
-                                       grepl("R", LanguageWantToWorkWith)))
+      RUsed = case_when(
+        is.na(LanguageHaveWorkedWith) ~ NA_integer_,
+        ResponseId %in% r_used ~ 1L,
+        TRUE ~ 0L
+      ),
+      RWantToUse = case_when(
+        is.na(LanguageWantToWorkWith) ~ NA_integer_,
+        ResponseId %in% r_want_to_use ~ 1L,
+        TRUE ~ 0L
+      )
     ) %>%
     select(ResponseId, all_of(single_response), RUsed, RWantToUse) %>%
     clean_names() %>%
