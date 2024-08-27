@@ -1,19 +1,18 @@
-title: DESCRIPTIVE TITLE THAT FITS THE SENTENCE "This week we're exploring {title}!"
+title: Stack Overflow Annual Developer Survey 2024
 article:
-  title: TITLE OF ARTICLE THAT USES OR DESCRIBES THE DATASET
-  url: URL OF THAT ARTICLE
+  title: Stack Overflow Annual Developer Survey Results
+  url: https://survey.stackoverflow.co/2024/
 data_source:
-  title: TITLE OF THE SOURCE OF THE DATA
-  url: URL TO THAT SOURCE
+  title: Stack Overflow Annual Developer Survey 2024
+  url: https://survey.stackoverflow.co/
 images:
 # Please include at least one image, and up to three images
-- file: FILENAME.png
-  alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
-- file: FILENAME.png
-  alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
+- file: so_developer_country.png
+  alt: Bar chart showing the top 10 countries with the highest number of developer respondents. The USA leads with 19% of respondents, followed by Germany and India. Other countries in the top 10 include the United Kingdom, Ukraine, Canada, France, Poland, Netherlands, and Brazil.
+- file: so_ai_benefits.png
+  alt: The bar chart shows the perceived benefits of AI in the development workflow. More than 50% of the respondents agree that AI tools lead to greater efficiency, speed up learning, and increase productivity.
 credit:
 # If you do not want a particular type of credit, please delete the related line
-  post: YOUR NAME AND AFFILIATION FOR CREDIT IN POST
-  linkedin: https://www.linkedin.com/in/YOURNAME
-  mastodon: @YOURNAME@YOURSERVER
-  github: https://github.com/YOURNAME
+  post: Havisha Khurana
+  linkedin: https://www.linkedin.com/in/havisha-khurana
+  github: https://github.com/havishak

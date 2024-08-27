@@ -1,0 +1,123 @@
+qname,level,label
+main_branch,1,I am a developer by profession
+main_branch,2,I am learning to code
+main_branch,3,"I am not primarily a developer, but I write code sometimes as part of my work/studies"
+main_branch,4,I code primarily as a hobby
+main_branch,5,"I used to be a developer by profession, but no longer am"
+age,1,18-24 years old
+age,2,25-34 years old
+age,3,35-44 years old
+age,4,45-54 years old
+age,5,55-64 years old
+age,6,65 years or older
+age,7,Prefer not to say
+age,8,Under 18 years old
+remote_work,1,"Hybrid (some remote, some in-person)"
+remote_work,2,In-person
+remote_work,3,Remote
+ed_level,1,"Associate degree (A.A., A.S., etc.)"
+ed_level,2,"Bachelor’s degree (B.A., B.S., B.Eng., etc.)"
+ed_level,3,"Master’s degree (M.A., M.S., M.Eng., MBA, etc.)"
+ed_level,4,Primary/elementary school
+ed_level,5,"Professional degree (JD, MD, Ph.D, Ed.D, etc.)"
+ed_level,6,"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)"
+ed_level,7,Some college/university study without earning a degree
+ed_level,8,Something else
+dev_type,1,Academic researcher
+dev_type,2,Blockchain
+dev_type,3,Cloud infrastructure engineer
+dev_type,4,Data engineer
+dev_type,5,Data or business analyst
+dev_type,6,Data scientist or machine learning specialist
+dev_type,7,Database administrator
+dev_type,8,Designer
+dev_type,9,Developer Advocate
+dev_type,10,Developer Experience
+dev_type,11,"Developer, AI"
+dev_type,12,"Developer, back-end"
+dev_type,13,"Developer, desktop or enterprise applications"
+dev_type,14,"Developer, embedded applications or devices"
+dev_type,15,"Developer, front-end"
+dev_type,16,"Developer, full-stack"
+dev_type,17,"Developer, game or graphics"
+dev_type,18,"Developer, mobile"
+dev_type,19,"Developer, QA or test"
+dev_type,20,DevOps specialist
+dev_type,21,Educator
+dev_type,22,"Engineer, site reliability"
+dev_type,23,Engineering manager
+dev_type,24,Hardware Engineer
+dev_type,25,Marketing or sales professional
+dev_type,26,Other
+dev_type,27,Product manager
+dev_type,28,Project manager
+dev_type,29,Research & Development role
+dev_type,30,Scientist
+dev_type,31,Security professional
+dev_type,32,"Senior Executive (C-Suite, VP, etc.)"
+dev_type,33,Student
+dev_type,34,System administrator
+org_size,1,"1,000 to 4,999 employees"
+org_size,2,10 to 19 employees
+org_size,3,"10,000 or more employees"
+org_size,4,100 to 499 employees
+org_size,5,2 to 9 employees
+org_size,6,20 to 99 employees
+org_size,7,"5,000 to 9,999 employees"
+org_size,8,500 to 999 employees
+org_size,9,I don’t know
+org_size,10,"Just me - I am a freelancer, sole proprietor, etc."
+purchase_influence,1,I have a great deal of influence
+purchase_influence,2,I have little or no influence
+purchase_influence,3,I have some influence
+buildvs_buy,1,Is ready-to-go but also customizable for growth and targeted use cases
+buildvs_buy,2,Is set up to be customized and needs to be engineered into a usable product
+buildvs_buy,3,Out-of-the-box is ready to go with little need for customization
+so_visit_freq,1,A few times per month or weekly
+so_visit_freq,2,A few times per week
+so_visit_freq,3,Daily or almost daily
+so_visit_freq,4,Less than once per month or monthly
+so_visit_freq,5,Multiple times per day
+so_account,1,No
+so_account,2,Not sure/can't remember
+so_account,3,Yes
+so_part_freq,1,A few times per month or weekly
+so_part_freq,2,A few times per week
+so_part_freq,3,Daily or almost daily
+so_part_freq,4,I have never participated in Q&A on Stack Overflow
+so_part_freq,5,Less than once per month or monthly
+so_part_freq,6,Multiple times per day
+so_comm,1,Neutral
+so_comm,2,"No, not at all"
+so_comm,3,"No, not really"
+so_comm,4,Not sure
+so_comm,5,"Yes, definitely"
+so_comm,6,"Yes, somewhat"
+ai_select,1,"No, and I don't plan to"
+ai_select,2,"No, but I plan to soon"
+ai_select,3,Yes
+ai_sent,1,Favorable
+ai_sent,2,Indifferent
+ai_sent,3,Unfavorable
+ai_sent,4,Unsure
+ai_sent,5,Very favorable
+ai_sent,6,Very unfavorable
+ai_acc,1,Highly distrust
+ai_acc,2,Highly trust
+ai_acc,3,Neither trust nor distrust
+ai_acc,4,Somewhat distrust
+ai_acc,5,Somewhat trust
+ai_complex,1,Bad at handling complex tasks
+ai_complex,2,"Good, but not great at handling complex tasks"
+ai_complex,3,Neither good or bad at handling complex tasks
+ai_complex,4,Very poor at handling complex tasks
+ai_complex,5,Very well at handling complex tasks
+ai_threat,1,I'm not sure
+ai_threat,2,No
+ai_threat,3,Yes
+survey_length,1,Appropriate in length
+survey_length,2,Too long
+survey_length,3,Too short
+survey_ease,1,Difficult
+survey_ease,2,Easy
+survey_ease,3,Neither easy nor difficult

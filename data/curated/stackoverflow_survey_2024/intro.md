@@ -1,15 +1,17 @@
-<!-- 
-1. Describe the dataset. See previous weeks for the general format of the
-DESCRIPTION. The description is the part of the readme.md file above "The Data";
-everything else will be filled in from the other md files in this directory +
-automatic scripts. We usually include brief introduction along the lines of
-"This week we're exploring DATASET" or "The dataset this week comes from 
-SOURCE", then a quote starting with ">", then a few questions participants might
-seek to answer using the data. 
-2. Delete this comment block.
--->
 DESCRIPTION
 
-> QUOTE FROM THE SOURCE
+This week's dataset is derived from the 2024 Stack Overflow Annual Developer Survey. Conducted in May 2024, the survey gathered responses from over 65,000 developers across seven key sections:
+
+1.  Basic information
+2.  Education, work, and career
+3.  Tech and tech culture
+4.  Stack Overflow community
+5.  Artificial Intelligence  (AI)
+6.  Professional Developer Series - Not part of the main survey
+7.  Thoughts on Survey
+
+The dataset provided for this analysis focuses exclusively on the single-response questions from the main survey sections. Each categorical response in the survey has been integer-coded, with corresponding labels available in the crosswalk file.
 
 QUESTION?
+
+What is the developer demographics? How do developers engage with Stack Overflow? What do they think about AI?
