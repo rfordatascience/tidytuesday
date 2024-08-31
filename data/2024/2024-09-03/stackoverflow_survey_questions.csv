@@ -1,0 +1,25 @@
+qname,question
+main_branch,"Which of the following options best describes you today? For the purpose of this survey, a developer is ""someone who writes code"".*"
+age,What is your age?*
+remote_work,Which best describes your current work situation?
+ed_level,Which of the following best describes the highest level of formal education that you’ve completed? *
+years_code,"Including any education, how many years have you been coding in total?"
+years_code_pro,"NOT including education, how many years have you coded professionally (as a part of your work)?"
+dev_type,"Which of the following describes your current job, the one you do most of the time? Please select only one."
+org_size,"Approximately how many people are employed by the company or organization you currently work for?  This should only include your primary company, and not the entire holding or parent company if that applies."
+purchase_influence,"What level of influence do you, personally, have over new technology purchases at your organization?"
+buildvs_buy,"When asked to provide a recommendation for solving a problem at work with a new tool or software, what has been your most recent choice of the following?"
+country,"Where do you live? <span style=""font-weight: bolder;"">*</span>"
+currency,"Which currency do you use day-to-day? If your answer is complicated, please pick the one you're most comfortable estimating in. *"
+comp_total,"What is your current total <b>annual</b> compensation (salary, bonuses, and perks, before taxes and deductions)? Please enter a whole number in the box below, without any punctuation.  If you are paid hourly, please estimate an equivalent yearly salary. If you prefer not to answer, please leave the box empty."
+so_visit_freq,How frequently would you say you visit Stack Overflow?
+so_account,Do you have a Stack Overflow account?
+so_part_freq,"How frequently would you say you participate in Q&amp;A on Stack Overflow? By participate we mean ask, answer, vote for, or comment on questions."
+so_comm,Do you consider yourself a member of the Stack Overflow community?
+ai_select,Do you currently use AI tools in your development process? *
+ai_sent,How favorable is your stance on using AI tools as part of your development workflow?
+ai_acc,How much do you trust the accuracy of the output from AI tools as part of your development workflow?
+ai_complex,How well do the AI tools you use in your development workflow handle complex tasks?
+ai_threat,Do you believe AI is a threat to your current job?
+survey_length,How do you feel about the length of the survey this year?
+survey_ease,How easy or difficult was this survey to complete?
