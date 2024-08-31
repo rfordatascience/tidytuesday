@@ -66,6 +66,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 32 | `2024-08-06` | [Olympic Medals](data/2024/2024-08-06/readme.md) | [Kaggle Olypmic history data](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) | [Financial Times Tokyo Olypmics analysis](https://ig.ft.com/tokyo-olympics-alternative-medal-table/) |
 | 33 | `2024-08-13` | [World's Fairs](data/2024/2024-08-13/readme.md) | [List of world expositions (Wikipedia)](https://en.wikipedia.org/wiki/List_of_world_expositions) | [World's fair (Wikipedia)](https://en.wikipedia.org/wiki/World%27s_fair) | 
 | 34 | `2024-08-20` | [English Monarchs and Marriages](data/2024/2024-08-20/readme.md) | [A list of Monarchs by marriage](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) | [monarchs and marriages](github.com/frankiethull/english_monarch_marriages) | 
+| 35 | `2024-08-27` | [The Power Rangers Franchise](data/2024/2024-08-27/readme.md) | [Power Rangers: Seasons and episodes data](https://www.kaggle.com/datasets/karetnikovn/power-rangers-dataset/data) | [National Power Rangers Day (August 28)](https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28) | 
 | 36 | `2024-09-03` | [Stack Overflow Annual Developer Survey 2024](data/2024/2024-09-03/readme.md) | [Stack Overflow Annual Developer Survey 2024](https://survey.stackoverflow.co/) | [Stack Overflow Annual Developer Survey Results](https://survey.stackoverflow.co/2024/) | 
 
 ***  

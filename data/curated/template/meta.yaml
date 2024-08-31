@@ -8,11 +8,16 @@ data_source:
 images:
 # Please include at least one image, and up to three images
 - file: FILENAME.png
-  alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
+  alt: >
+    ALT TEXT FOR THIS IMAGE. THIS TEXT SHOULD BE IN "Sentence case." AND SHOULD 
+    SERVE AS A *REPLACEMENT* FOR THE IMAGE, NOT JUST *DESCRIBE* THE IMAGE
 - file: FILENAME.png
-  alt: ALT TEXT FOR FIRST IMAGE; SHOULD SERVE AS A REPLACEMENT FOR THE IMAGE, NOT DESCRIBE THE IMAGE
+  alt: >
+    ALT TEXT FOR THIS IMAGE. THIS TEXT SHOULD BE IN "Sentence case." AND SHOULD 
+    SERVE AS A *REPLACEMENT* FOR THE IMAGE, NOT JUST *DESCRIBE* THE IMAGE
 credit:
-# If you do not want a particular type of credit, please delete the related line
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
   post: YOUR NAME AND AFFILIATION FOR CREDIT IN POST
   linkedin: https://www.linkedin.com/in/YOURNAME
   mastodon: @YOURNAME@YOURSERVER
