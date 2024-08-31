@@ -10,4 +10,4 @@ This week's dataset is derived from the 2024 Stack Overflow Annual Developer Sur
 
 The dataset provided for this analysis focuses exclusively on the single-response questions from the main survey sections. Each categorical response in the survey has been integer-coded, with corresponding labels available in the crosswalk file.
 
-What is the developer demographics? How do developers engage with Stack Overflow? What do they think about AI?
+What can you see about developer demographics? How do developers engage with Stack Overflow? What do they think about AI?
