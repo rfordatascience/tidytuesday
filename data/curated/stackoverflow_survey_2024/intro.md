@@ -1,5 +1,3 @@
-DESCRIPTION
-
 This week's dataset is derived from the 2024 Stack Overflow Annual Developer Survey. Conducted in May 2024, the survey gathered responses from over 65,000 developers across seven key sections:
 
 1.  Basic information
