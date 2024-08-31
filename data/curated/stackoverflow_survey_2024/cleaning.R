@@ -11,9 +11,13 @@ library(tidyr)
 
 temp <- tempfile()
 download.file("https://cdn.sanity.io/files/jo7n4k8s/production/262f04c41d99fea692e0125c342e446782233fe4.zip/stack-overflow-developer-survey-2024.zip",temp, mode = "wb")
-unzip_file <- unzip(temp, "survey_results_public.csv")
+unzip_file <- unzip(temp, "survey_results_public.csv", exdir = tempdir())
 stackoverflow_survey <- readr::read_csv(unzip_file)
+unzip_file <- unzip(temp, "survey_results_schema.csv", exdir = tempdir())
+stackoverflow_survey_questions <- readr::read_csv(unzip_file)
 unlink(temp)
+unlink(file.path(tempdir(), "survey_results_public.csv"))
+unlink(file.path(tempdir(), "survey_results_schema.csv"))
 rm(temp, unzip_file)
 
 ## Survey Description
@@ -149,3 +153,7 @@ stackoverflow_survey_single_response <- stackoverflow_survey_single_response %>%
 #     pull(labels)
 # }
 
+stackoverflow_survey_questions <- stackoverflow_survey_questions %>%
+    filter(qname %in% single_response) %>%
+    select(qname, question) %>%
+    mutate(qname = make_clean_names(qname))
