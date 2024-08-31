@@ -5,7 +5,7 @@
 | age                   | integer   | Age                                                                                 |
 | remote_work           | integer   | Current work situation                                                              |
 | ed_level              | integer   | Highest education level completed                                                   |
-| years_code            | integer   | Years have you been coding in total; More than 50 years coded as 51                 |
+| years_code            | integer   | Years the respondent has coded in total; More than 50 years coded as 51                 |
 | years_code_pro        | integer   | Years have you coded professionally; More than 50 years coded as 51                 |
 | dev_type              | integer   | Best current-job description                                                        |
 | org_size              | integer   | People in the organization                                                          |
