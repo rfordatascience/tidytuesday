@@ -10,7 +10,7 @@
 | dev_type              | integer   | Best current-job description                                                        |
 | org_size              | integer   | People in the organization                                                          |
 | purchase_influence    | integer   | Level of influence in purchasing new technology at your organization                |
-| buildvs_buy           | integer   | When asked to provide a recommendation, what has been your most recent choice?      |
+| buildvs_buy           | integer   | How much customization was needed in most recent tool recommendation |
 | country               | character | Country Living In                                                                   |
 | currency              | character | Currency of the country                                                             |
 | comp_total            | double    | Total compensation                                                                  |
