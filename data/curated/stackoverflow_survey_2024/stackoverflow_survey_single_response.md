@@ -21,7 +21,7 @@
 | ai_select             | integer   | Use AI in development process                                                       |
 | ai_sent               | integer   | Stance on using AI tools as part of development workflow                            |
 | ai_acc                | integer   | Trust in accuracy of AI as part of development workflow                             |
-| ai_complex            | integer   | How well do the AI tools you use in your development workflow handle complex tasks? |
+| ai_complex            | integer   | How well the respondent believes the AI tools they use in development workflows handle complex tasks |
 | ai_threat             | integer   | Do you believe AI is a threat to your current job?                                  |
 | survey_length         | integer   | How do you feel about the length of the survey this year?                           |
 | survey_ease           | integer   | How easy or difficult was this survey to complete?                                  |
