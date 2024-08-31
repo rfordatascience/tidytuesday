@@ -17,7 +17,7 @@
 | so_visit_freq         | integer   | Stack Overflow visiting frequency                                                   |
 | so_account            | integer   | Stack Overflow account status                                                       |
 | so_part_freq          | integer   | Stack Overflow participation frequency                                              |
-| so_comm               | integer   | Do you consider yourself a member of the Stack Overflow community?                  |
+| so_comm               | integer   | Whether the respondent considers themself a member of the Stack Overflow community?                  |
 | ai_select             | integer   | Use AI in development process                                                       |
 | ai_sent               | integer   | Stance on using AI tools as part of development workflow                            |
 | ai_acc                | integer   | Trust in accuracy of AI as part of development workflow                             |
