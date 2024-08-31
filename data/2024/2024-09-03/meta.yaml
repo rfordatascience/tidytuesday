@@ -1,0 +1,18 @@
+title: Stack Overflow Annual Developer Survey 2024
+article:
+  title: Stack Overflow Annual Developer Survey Results
+  url: https://survey.stackoverflow.co/2024/
+data_source:
+  title: Stack Overflow Annual Developer Survey 2024
+  url: https://survey.stackoverflow.co/
+images:
+# Please include at least one image, and up to three images
+- file: so_developer_country.png
+  alt: Bar chart showing the top 10 countries with the highest number of developer respondents. The USA leads with 19% of respondents, followed by Germany and India. Other countries in the top 10 include the United Kingdom, Ukraine, Canada, France, Poland, Netherlands, and Brazil.
+- file: so_ai_benefits.png
+  alt: The bar chart shows the perceived benefits of AI in the development workflow. More than 50% of the respondents agree that AI tools lead to greater efficiency, speed up learning, and increase productivity.
+credit:
+# If you do not want a particular type of credit, please delete the related line
+  post: Havisha Khurana
+  linkedin: https://www.linkedin.com/in/havisha-khurana
+  github: https://github.com/havishak
