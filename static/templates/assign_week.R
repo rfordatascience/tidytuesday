@@ -40,7 +40,7 @@ if (length(credit_github)) {
     sub("@", "", x = _)
   credit_github <- glue::glue("https://github.com/{credit_handle}")
   if (length(credit)) {
-    credit <- glue::glue("[credit]({credit_github})")
+    credit <- glue::glue("[{credit}]({credit_github})")
   } else {
     credit <- glue::glue("@credit_handle")
   }
