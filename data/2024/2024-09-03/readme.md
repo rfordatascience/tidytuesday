@@ -14,7 +14,7 @@ The dataset provided for this analysis focuses exclusively on the single-respons
 
 What can you see about developer demographics? How do developers engage with Stack Overflow? What do they think about AI?
 
-Thank you to [credit](https://github.com/havishak) for curating this week's dataset.
+Thank you to [Havisha Khurana](https://github.com/havishak) for curating this week's dataset!
 
 ## The Data
 
