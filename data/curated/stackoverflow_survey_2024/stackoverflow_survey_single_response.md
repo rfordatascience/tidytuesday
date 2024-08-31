@@ -1,7 +1,7 @@
 | variable              | class     | description                                                                         |
 |:--------------------------|:-----------------|:--------------------------|
 | response_id           | double    | Respondent ID                                                                       |
-| main_branch           | integer   | Which of the following options best describes you today?                            |
+| main_branch           | integer   | Professional coding level of the respondent |
 | age                   | integer   | Age                                                                                 |
 | remote_work           | integer   | Current work situation                                                              |
 | ed_level              | integer   | Highest education level completed                                                   |
