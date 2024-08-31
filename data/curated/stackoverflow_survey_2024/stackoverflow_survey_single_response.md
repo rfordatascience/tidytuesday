@@ -22,9 +22,9 @@
 | ai_sent               | integer   | Stance on using AI tools as part of development workflow                            |
 | ai_acc                | integer   | Trust in accuracy of AI as part of development workflow                             |
 | ai_complex            | integer   | How well the respondent believes the AI tools they use in development workflows handle complex tasks |
-| ai_threat             | integer   | Do you believe AI is a threat to your current job?                                  |
-| survey_length         | integer   | How do you feel about the length of the survey this year?                           |
-| survey_ease           | integer   | How easy or difficult was this survey to complete?                                  |
+| ai_threat             | integer   | Belief that AI is a threat to current job |
+| survey_length         | integer   | Feeling about the length of the Stack Overflow Developer Survey this year |
+| survey_ease           | integer   | Ease of completion of this survey |
 | converted_comp_yearly | double    | Converted compensation                                                              |
 | r_used                | integer   | Flag if respondent used R in the previous year                                      |
 | r_want_to_use         | integer   | Flag if respondent want to use R in the next year                                   |
