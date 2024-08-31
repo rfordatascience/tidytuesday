@@ -9,7 +9,7 @@
 | years_code_pro        | integer   | Years the respondent has coded professionally; More than 50 years coded as 51                 |
 | dev_type              | integer   | Best current-job description                                                        |
 | org_size              | integer   | People in the organization                                                          |
-| purchase_influence    | integer   | Level of influence in purchasing new technology at your organization                |
+| purchase_influence    | integer   | Level of influence in purchasing new technology at their organization                |
 | buildvs_buy           | integer   | How much customization was needed in most recent tool recommendation |
 | country               | character | Country Living In                                                                   |
 | currency              | character | Currency of the country                                                             |
