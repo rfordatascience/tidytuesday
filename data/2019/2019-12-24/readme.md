@@ -11,9 +11,9 @@ christmas_songs <- readr::read_csv("https://raw.githubusercontent.com/rfordatasc
 
 christmas_lyrics <- readr::read_tsv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-12-24/christmas_lyrics.tsv")
 
-# Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
+# Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # Either ISO-8601 date or year/week works!
-# Install via devtools::install_github("thebioengineer/tidytuesdayR")
+# Install via pak::pak("dslc-io/tidytuesdayR")
 
 tuesdata <- tidytuesdayR::tt_load("2019-12-24")
 tuesdata <- tidytuesdayR::tt_load(2019, week = 52)

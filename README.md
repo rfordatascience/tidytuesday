@@ -89,7 +89,7 @@ A BibTeX entry for LaTeX users is
   }
 ```
 
-Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
+Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
 
 ***
 

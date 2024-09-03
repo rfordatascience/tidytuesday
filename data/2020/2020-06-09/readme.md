@@ -59,11 +59,11 @@ The `science.csv` dataset also celebrates the achievements of African-Americans,
 firsts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-06-09/firsts.csv')
 science <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-06-09/science.csv')
 
-# Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
+# Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 
 # Either ISO-8601 date or year/week works!
 
-# Install via devtools::install_github("thebioengineer/tidytuesdayR")
+# Install via pak::pak("dslc-io/tidytuesdayR")
 
 tuesdata <- tidytuesdayR::tt_load('2020-06-09')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 24)
