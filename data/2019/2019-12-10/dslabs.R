@@ -1,4 +1,4 @@
-devtools::install_github("rafalab/dslabs")
+pak::pak("rafalab/dslabs")
 
 library(dslabs)
 library(tidyverse)

@@ -70,7 +70,7 @@ The data was collected and created as an R package by Deepsha Menghani.
 ``` r
 library(tidyverse)
 
-devtools::install_github("deepshamenghani/richmondway")
+pak::pak("deepshamenghani/richmondway")
 library(richmondway)
 
 write_csv(richmondway, "richmondway.csv")
