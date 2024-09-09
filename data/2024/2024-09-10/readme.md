@@ -1,3 +1,45 @@
+# Economic Diversity and Student Outcomes
+
+College students are back on campus in the US, so we're exploring economic diversity and student outcomes! The dataset this week comes from [Opportunity Insights](https://opportunityinsights.org/data/) via an [article](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html) and associated [interactive visualization](https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-dallas) from the Upshot at the New York Times. Thank you to [Havisha Khurana](https://github.com/havishak) for suggesting this dataset!
+
+> A new study, based on millions of anonymous tax records, shows that some colleges are even more economically segregated than previously understood, while others are associated with income mobility.
+
+This dataset offers an opportunity to explore the [three rules that make a dataset "tidy"](https://r4ds.hadley.nz/data-tidy#sec-tidy-data):
+
+1. Each variable is a column; each column is a variable.
+2. Each observation is a row; each row is an observation.
+3. Each value is a cell; each cell is a single value.
+
+How might you pivot this data to make it longer? When might you want to do that? When might you pivot this data to make it wider?
+
+## The Data
+
+```r
+# Option 1: tidytuesdayR package 
+## install.packages("tidytuesdayR")
+
+tuesdata <- tidytuesdayR::tt_load('2024-09-10')
+## OR
+tuesdata <- tidytuesdayR::tt_load(2024, week = 37)
+
+college_admissions <- tuesdata$college_admissions
+
+# Option 2: Read directly from GitHub
+
+college_admissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-09-10/college_admissions.csv')
+```
+
+## How to Participate
+
+- [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
+- Create a visualization, a model, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R or another programming language.
+- [Share your output and the code used to generate it](../../../sharing.md) on social media with the #TidyTuesday hashtag.
+- [Submit your own dataset!](../../../.github/pr_instructions.md)
+
+### Data Dictionary
+
+# `college_admissions.csv`
+
 |variable                        |class     |description                           |
 |:-------------------------------|:---------|:-------------------------------------|
 |super_opeid                     |double    |Institution OPEID / Cluster ID when combining multiple OPEIDs. |
@@ -80,3 +122,22 @@
 |flagship                        |logical   |Indicator for public flagship universities (defined using the College Board Annual Survey of Colleges, 2016). |
 |tier                            |character |Selectivity and type combination: Ivy-Plus (Ivy League colleges plus Stanford, Chicago, Duke, and MIT); Other elite college (Barron’s top selectivity category, other than the Ivy-plus, both public and private combined); Highly selective public college (Barron’s 2nd selectivity group); Highly selective private college (Barron’s 2nd selectivity group); Selective public college (Barron’s 3rd, 4th, and 5th selectivity groups); Selective private college (Barron’s 3rd, 4th, and 5th selectivity groups) See Chetty, Friedman, Saez, Turner, and Yagan (2020) for more information on how the tier is defined. |
 |test_band_tier                  |character |School group for the test-score band statistics. |
+
+### Cleaning Script
+
+```r
+# Mostly clean data provided by https://opportunityinsights.org.
+library(tidyverse)
+
+data_url <- "https://opportunityinsights.org/wp-content/uploads/2023/07/CollegeAdmissions_Data.csv"
+college_admissions <- readr::read_csv(data_url) |> 
+  # Drop redundant variables.
+  dplyr::select(
+    -"tier_name"
+  ) |> 
+  # Recode variables.
+  dplyr::mutate(
+    public = public == "Public",
+    flagship = as.logical(flagship)
+  )
+```
