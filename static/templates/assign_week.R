@@ -4,7 +4,7 @@
 # Set these variables ----------------------------------------------------------
 
 # src_folder_name <- "american_idol"
-# target_date <- "2024-07-23"
+# target_date <- "2024-09-10"
 
 # Run these scripts ------------------------------------------------------------
 
@@ -18,7 +18,9 @@ fs::dir_create(target_dir)
 
 ## metadata --------------------------------------------------------------------
 
-metadata <- yaml::read_yaml(fs::path(src_dir, "meta.yaml"))
+source(here::here("static", "templates", "metadata.R"), local = TRUE)
+
+metadata <- read_metadata(fs::path(src_dir, "meta.yaml"))
 
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
