@@ -24,6 +24,7 @@ Imports:
     rlang,
     stringr,
     tibble,
+    usethis,
     whisker,
     yaml
 Encoding: UTF-8
