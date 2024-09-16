@@ -1,0 +1,22 @@
+title: "Shakespeare Dialogue"
+article:
+  title: "shakespeare"
+  url: "https://github.com/nrennie/shakespeare"
+data_source:
+  title: "The Complete Works of William Shakespeare"
+  url: "https://shakespeare.mit.edu/"
+images:
+# Please include at least one image, and up to three images
+- file: "macbeth.png"
+  alt: >
+    Bar chart of number of lines per scene in Macbeth. Act IV Scene III has the most with around 275 lines, while Act I Scene I and Act V Scene VI have the least with fewer than 25 lines each.
+- file: "romeo_juliet.png"
+  alt: >
+    Bar chart of number of lines per scene in Romeo and Juliet. Act V Scene III has the most with over 300 lines, while the Act I and Act II Prologues have the least with fewer than 25 lines each.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Nicola Rennie"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"
+  github: "https://github.com/nrennie"
