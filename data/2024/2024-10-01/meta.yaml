@@ -1,0 +1,19 @@
+title: "Chess Game Dataset (Lichess)"
+article:
+  title: "Beginner's Guide: Data Visualization with Python"
+  url: "https://www.kaggle.com/code/batibayburak/beginner-s-guide-data-visualization-with-python"
+data_source:
+  title: "Chess Game Dataset (Lichess)"
+  url: "https://www.kaggle.com/datasets/datasnaek/chess/data"
+images:
+# Please include at least one image, and up to three images
+- file: "variable_grid.png"
+  alt: >
+    The grid plot shows the correlation between each pair of columns, with the diagonal being the histogram
+    of the variable.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Havisha Khurana"
+  linkedin: "https://www.linkedin.com/in/havisha-khurana"
+  github: "https://github.com/havishak"
