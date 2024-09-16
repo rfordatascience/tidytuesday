@@ -8,7 +8,7 @@ SOURCE", then a quote starting with ">", then a few questions participants might
 seek to answer using the data. 
 2. Delete this comment block.
 -->
-The chess dataset this week comes from Lichess.org via Kaggle/Mitchell J.
+The chess dataset this week comes from Lichess.org via [Kaggle/Mitchell J](https://www.kaggle.com/datasets/datasnaek/chess/data).
 
 > This is a set of just over 20,000 games collected from a selection of users on the site Lichess.org.
 
