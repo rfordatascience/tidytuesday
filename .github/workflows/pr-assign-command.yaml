@@ -26,12 +26,6 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
 
-      - name: Merge main
-        shell: Rscript {0}
-        run: |
-          pak::pak("usethis")
-          usethis::pr_merge_main()
-      
       - name: Assign
         shell: Rscript {0}
         run: |
