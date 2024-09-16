@@ -5,7 +5,7 @@ library(rvest)
 library(polite)
 library(janitor)
 
-# on the timeline page, clicking th year gets to country and individual results
+# on the timeline page, clicking the year gets to country and individual results
 # so I'll create a timeline dataframe. Then, extract links for each year's results
 # then, scrape those pages.
 
