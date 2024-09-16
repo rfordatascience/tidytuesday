@@ -1,6 +1,6 @@
 read_metadata <- function(path) {
   yaml_preprocess(path)
-  yaml::read_yaml
+  yaml::read_yaml(path)
 }
 
 yaml_preprocess <- function(path) {
