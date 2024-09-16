@@ -42,7 +42,7 @@ timeline_df <- scrape(timeline_page) %>%
   # only keeping records till current year
   filter(parse_number(year) < 2025)
 
-# next, circulate through year year's page and country and individual results
+# next, circulate through year's page and country and individual results
 
 country_results_links <- map_chr(timeline_df$link_to_page,
                                 ~nod(timeline_page, .x) %>%
