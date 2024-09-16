@@ -69,6 +69,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 35 | `2024-08-27` | [The Power Rangers Franchise](data/2024/2024-08-27/readme.md) | [Power Rangers: Seasons and episodes data](https://www.kaggle.com/datasets/karetnikovn/power-rangers-dataset/data) | [National Power Rangers Day (August 28)](https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28) | 
 | 36 | `2024-09-03` | [Stack Overflow Annual Developer Survey 2024](data/2024/2024-09-03/readme.md) | [Stack Overflow Annual Developer Survey 2024](https://survey.stackoverflow.co/) | [Stack Overflow Annual Developer Survey Results](https://survey.stackoverflow.co/2024/) | 
 | 37 | `2024-09-10` | [Economic Diversity and Student Outcomes](data/2024/2024-09-10/readme.md) | [Opportunity Insights: College-Level Data for 139 Selective American Colleges](https://opportunityinsights.org/data/) | [Economic diversity and student outcomes at the University of Texas at Dallas](https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-dallas) | 
+| 38 | `2024-09-17` | [Shakespeare Dialogue](data/2024/2024-09-17/readme.md) | [The Complete Works of William Shakespeare](https://shakespeare.mit.edu/) | [shakespeare](https://github.com/nrennie/shakespeare) | 
 
 ***  
 
