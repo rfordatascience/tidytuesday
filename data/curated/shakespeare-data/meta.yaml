@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: macbeth.png
   alt: >
-    Bar chart of number of lines per scene in Macbeth
+    Bar chart of number of lines per scene in Macbeth. Act IV Scene III has the most with around 275 lines, while Act I Scene I and Act V Scene VI have the least with fewer than 25 lines each.
 - file: romeo_juliet.png
   alt: >
     Bar chart of number of lines per scene in Romeo and Juliet. Act V Scene III has the most with over 300 lines, while the Act I and Act II Prologues have the least with fewer than 25 lines each.
