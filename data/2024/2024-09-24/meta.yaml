@@ -1,0 +1,18 @@
+title: "International Mathematical Olympiad (IMO) Data"
+article:
+  title: "Global Map of 2024 International Mathematical Olympiad Scores"
+  url: "https://www.voronoiapp.com/maps/-Global-Map-of-2024-International-Mathematical-Olympiad-Scores-1875"
+data_source:
+  title: "IMO Team and Individual Results"
+  url: "https://www.imo-official.org/organizers.aspx"
+images:
+# Please include at least one image, and up to three images
+- file: "imo_2024_map.png"
+  alt: >
+    A map of the world colored according to 2024 IMO rank and total team scores. A total of 107 countries participated and non-participating are shown in grey. US was ranked 1 with a score of 192, followed by China with a score of 190
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Havisha Khurana"
+  linkedin: "https://www.linkedin.com/in/havisha-khurana/"
+  github: "https://github.com/havishak"
