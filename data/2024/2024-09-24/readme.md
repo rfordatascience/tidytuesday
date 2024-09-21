@@ -1,6 +1,5 @@
 # International Mathematical Olympiad (IMO) Data
 
-
 The data for this week comes from International Mathematical Olympiad (IMO).
 
 > The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country. The first IMO was held in 1959 in Romania, with 7 countries participating. It has gradually expanded to over 100 countries from 5 continents. The competition consists of 6 problems and is held over two consecutive days with 3 problems each.
@@ -9,7 +8,7 @@ The data for this week comes from International Mathematical Olympiad (IMO).
 2. What is the distribution of participation by gender? What's the distribution of top scores?
 3. How does team size or team composition (e.g., number of first-time participants vs. veterans) relate to overall country performance?
 
-Thank you to [Havisha Khurana](https://github.com/havishak) for curating this week's dataset.
+Thank you to [Havisha Khurana](https://github.com/havishak) for curating this week's dataset, and to [Emi Tanaka](https://github.com/emitanaka) for [catching the bug in the original script](https://github.com/rfordatascience/tidytuesday/issues/754)!
 
 ## The Data
 
@@ -45,23 +44,24 @@ timeline_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 |variable                  |class     |description                           |
 |:-------------------------|:---------|:-------------------------------------|
-|year                      |double    |Year of IMO |
+|year                      |integer   |Year of IMO |
 |country                   |character |Participating country |
-|team_size_all             |double    |Participating contestants |
-|team_size_male            |double    |Male contestants |
-|team_size_female          |double    |Female contestants|
-|p1                        |double    |Score on problem 1 |
-|p2                        |double    |Score on problem 2 |
-|p3                        |double    |Score on problem 3 |
-|p4                        |double    |Score on problem 4 |
-|p5                        |double    |Score on problem 5 |
-|p6                        |double    |Score on problem 6 |
-|total                     |double    |Total score on all problems |
-|rank                      |double    |Country rank |
-|awards_gold               |double    |Number of gold medals |
-|awards_silver             |double    |Number of silver medals |
-|awards_bronze             |double    |Number of bronze medals |
-|awards_honorable_mentions |double    |Number of honorable mentions |
+|team_size_all             |integer   |Participating contestants |
+|team_size_male            |integer   |Male contestants |
+|team_size_female          |integer   |Female contestants|
+|p1                        |integer   |Score on problem 1 |
+|p2                        |integer   |Score on problem 2 |
+|p3                        |integer   |Score on problem 3 |
+|p4                        |integer   |Score on problem 4 |
+|p5                        |integer   |Score on problem 5 |
+|p6                        |integer   |Score on problem 6 |
+|p7                        |integer   |Score on problem 7 |
+|total                     |integer   |Total score on all problems |
+|rank                      |integer   |Country rank |
+|awards_gold               |integer   |Number of gold medals |
+|awards_silver             |integer   |Number of silver medals |
+|awards_bronze             |integer   |Number of bronze medals |
+|awards_honorable_mentions |integer   |Number of honorable mentions |
 |leader                    |character |Leader of country team |
 |deputy_leader             |character |Deputy leader of country team |
 
@@ -69,7 +69,7 @@ timeline_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 |variable        |class     |description                           |
 |:---------------|:---------|:-------------------------------------|
-|year            |double    |Year of IMO  |
+|year            |integer   |Year of IMO  |
 |contestant      |character |Participant's name |
 |country         |character |Participant's country |
 |p1              |integer   |Score on problem 1 |
@@ -86,16 +86,16 @@ timeline_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 |variable          |class     |description                           |
 |:-----------------|:---------|:-------------------------------------|
-|edition           |double    |Edition of International Mathematical Olympiad (IMO) |
-|year              |double    |Year of IMO |
+|edition           |integer   |Edition of International Mathematical Olympiad (IMO) |
+|year              |integer   |Year of IMO |
 |country           |character |Host country |
 |city              |character |Host city |
-|countries         |double    |Number of participating countries|
-|all_contestant    |double    |Number of participating contestants|
-|male_contestant   |double    |Number of participating male contestants |
-|female_contestant |double    |Number of participating female contestants |
-|start_date        |double    |Start date of IMO |
-|end_date          |double    |End date of IMO |
+|countries         |integer   |Number of participating countries|
+|all_contestant    |integer   |Number of participating contestants|
+|male_contestant   |integer   |Number of participating male contestants |
+|female_contestant |integer   |Number of participating female contestants |
+|start_date        |Date      |Start date of IMO |
+|end_date          |Date      |End date of IMO |
 
 ### Cleaning Script
 
@@ -104,26 +104,10 @@ timeline_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 library(tidyverse)
 library(rvest)
-library(polite)
 library(janitor)
+library(httr2)
 
-# on the timeline page, clicking the year gets to country and individual results
-# so I'll create a timeline dataframe. Then, extract links for each year's results
-# then, scrape those pages.
-
-timeline_url <- "https://www.imo-official.org/organizers.aspx"
-timeline_page <- bow(
-  timeline_url,
-  user_agent = "HK scraping")
-
-year_result_links <- scrape(timeline_page) %>%
-  html_element("table") %>%
-  html_elements("a") %>%
-  html_attr("href")
-
-year_result_links <- unique(year_result_links[grepl("year_info", year_result_links)])
-  
-timeline_df <- scrape(timeline_page) %>%
+timeline_df <- read_html("https://www.imo-official.org/organizers.aspx") %>%
   html_table() %>%
   .[[1]] %>%
   clean_names() %>%
@@ -135,75 +119,79 @@ timeline_df <- scrape(timeline_page) %>%
   ) %>%
   filter(edition != "#") %>%
   mutate(
-    link_to_page = paste0("https://www.imo-official.org/", year_result_links),
     start_date = paste0(gsub("(.*)(-)(.*)", "\\1", date),year),
     end_date = paste0(gsub("(.*)(-)(.*)", "\\3", date),year),
-    across(c(start_date, end_date), ~as.Date(.x, format = "%d.%m.%Y"))
+    across(
+      c(start_date, end_date),
+      ~as.Date(.x, format = "%d.%m.%Y")
+    ),
+    across(
+      c(edition, year, countries, all_contestant, male_contestant, female_contestant),
+      as.integer
+    )
   ) %>%
   select(-date) %>%
   # only keeping records till current year
-  filter(parse_number(year) < 2025)
-
-# next, circulate through year's page and country and individual results
-
-country_results_links <- map_chr(timeline_df$link_to_page,
-                                ~nod(timeline_page, .x) %>%
-                                  scrape(.) %>%
-                                  html_elements("h3") %>%
-                                  html_elements("a") %>%
-                                  html_attr("href") %>%
-                                  .[1])
-country_results_links <- paste0("https://www.imo-official.org/", 
-                                country_results_links)
-
-individual_results_links <- map_chr(timeline_df$link_to_page,
-                                ~nod(timeline_page, .x) %>%
-                                  scrape(.) %>%
-                                  html_elements("h3") %>%
-                                  html_elements("a") %>%
-                                  html_attr("href") %>%
-                                  .[2])
-
-individual_results_links <- paste0("https://www.imo-official.org/", 
-                                   individual_results_links)
+  filter(year < 2025)
 
 # circulate through country results link and rbind tables
-country_results_df <- map2_df(country_results_links, timeline_df$year,
-                                ~nod(timeline_page, .x) %>%
-                                  scrape(.) %>%
-                                  html_table() %>%
-                                  .[[1]] %>%
-                               clean_names() %>%
-                               rename("team_size_all" = team_size,
-                                      "team_size_male" = team_size_2,
-                                      "team_size_female" = team_size_3,
-                                      "awards_gold" = awards,
-                                      "awards_silver" = awards_2,
-                                      "awards_bronze" = awards_3,
-                                      "awards_honorable_mentions" = awards_4
-                                      ) %>%
-                               filter(country != "Country") %>%
-                               mutate(year = .y) %>%
-                               select(year, everything())) %>%
-  mutate(across(c(year, team_size_all:awards_honorable_mentions), 
-                ~parse_number(.x)))
+scrape_country <- function(year) {
+  paste0("https://www.imo-official.org/year_country_r.aspx?year=", year) %>%
+    read_html() %>%
+    html_table() %>%
+    .[[1]] %>%
+    clean_names() %>%
+    filter(country != "Country") %>%
+    mutate(year = year, .before = "country") 
+}
+
+country_results_df <- map_df(timeline_df$year, scrape_country) %>%
+  select(
+    year,
+    country,
+    team_size_all = team_size,
+    team_size_male = team_size_2,
+    team_size_female = team_size_3,
+    starts_with("p"),
+    awards_gold = awards,
+    awards_silver = awards_2,
+    awards_bronze = awards_3,
+    awards_honorable_mentions = awards_4,
+    leader,
+    deputy_leader
+  ) %>% 
+  mutate(
+    across(
+      c(team_size_all:awards_honorable_mentions),
+      as.integer
+    )
+  )
 
 
 # circulate through individual results link and rbind tables
-individual_results_df <- map2_df(individual_results_links, timeline_df$year,
-                                ~nod(timeline_page, .x) %>%
-                                  scrape(.) %>%
-                                  html_table() %>%
-                                  .[[1]] %>%
-                                  clean_names() %>%
-                                  mutate(year = .y) %>%
-                                  select(year, everything())) %>%
-  rename("individual_rank" = number_rank) %>%
-  mutate(year = parse_number(year))
+scrape_individual <- function(year) {
+  # These can time out, so we'll use httr2 to retry.
+  paste0("https://www.imo-official.org/year_individual_r.aspx?year=", year) %>%
+    httr2::request() %>%
+    httr2::req_retry(max_tries = 3) %>%
+    httr2::req_perform() %>%
+    httr2::resp_body_html() %>%
+    html_table() %>%
+    .[[1]] %>%
+    clean_names() %>%
+    mutate(year = year, .before = "contestant") 
+}
 
-# removing links from timeline
-timeline_df <- timeline_df %>%
-  select(-link_to_page) %>%
-  mutate(across(c(edition, year, countries:female_contestant), 
-                ~parse_number(.x)))
+individual_results_df <- map_df(timeline_df$year, scrape_individual) %>%
+  select(
+    year:p6, p7, total,
+    individual_rank = number_rank,
+    award
+  ) %>%
+  mutate(
+    across(
+      c(year, p1:individual_rank),
+      as.integer
+    )
+  )
 ```
