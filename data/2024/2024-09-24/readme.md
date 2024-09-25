@@ -56,7 +56,6 @@ timeline_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 |p5                        |integer   |Score on problem 5 |
 |p6                        |integer   |Score on problem 6 |
 |p7                        |integer   |Score on problem 7 |
-|total                     |integer   |Total score on all problems |
 |awards_gold               |integer   |Number of gold medals |
 |awards_silver             |integer   |Number of silver medals |
 |awards_bronze             |integer   |Number of bronze medals |
