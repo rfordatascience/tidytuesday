@@ -14,10 +14,4 @@ To properly cite NPSpecies use the following:
 
 *This data was accessed on September 2nd, 2024.*
 
-P.S. if interested in additional data, below is the curated dataset for all national parks:
-https://github.com/frankiethull/NPSpecies
-
-
-> Information on Species in National Parks
-
-QUESTION?
+If you are interested in additional data, the curated dataset for all national parks is available at [https://github.com/frankiethull/NPSpecies](https://github.com/frankiethull/NPSpecies).
