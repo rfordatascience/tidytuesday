@@ -1,0 +1,17 @@
+title: "National Park Species"
+article:
+  title: "NPSpecies with Julia & Tidier"
+  url: "https://github.com/frankiethull/NPSpecies/inst/examples/julia/NPSpecies_TidierOrg.md"
+data_source:
+  title: "NPSpecies - The National Park Service biodiversity database"
+  url: "https://irma.nps.gov/npspecies/"
+images:
+- file: "species_smokies.png"
+  alt: >
+    Most Seen Species by Species Category in Great Smoky Mtns Natl Park, [Red Maple, Vascular Plant; Oven Bird, Bird; Red-Cheeked Salamander, Amphibian; Monarch, Insect; Mottled Sculpin, Fish]
+- file: "gt_foxes.png"
+  alt: >
+    National Parks with Evidence of Foxes [Most Amount of Evidence (Top 15)]
+credit:
+  post: "f. hull"
+  github: "https://github.com/frankiethull"
