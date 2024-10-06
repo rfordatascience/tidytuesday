@@ -1,5 +1,3 @@
-DESCRIPTION
-
 This week we're exploring species at the most visited National Parks in the USA! NPSpecies contains species listed by National Parks maintained by National Parks Service (NPS). Given the size of the dataset, we're focusing on the 15 most visited parks. The data comes from https://irma.nps.gov/NPSpecies/Search/SpeciesList. 
 
 "The information in NPSpecies is available to the public. The exceptions to this are records for some sensitive, threatened, or endangered species, where widespread distribution of information could potentially put a species at risk.   
