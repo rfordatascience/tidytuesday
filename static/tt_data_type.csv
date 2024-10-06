@@ -1,4 +1,12 @@
 Week,Date,year,data_files,data_type,delim
+40,2024-10-01,2024,chess.csv,csv,","
+39,2024-09-24,2024,country_results_df.csv,csv,","
+39,2024-09-24,2024,individual_results_df.csv,csv,","
+39,2024-09-24,2024,timeline_df.csv,csv,","
+38,2024-09-17,2024,hamlet.csv,csv,","
+38,2024-09-17,2024,macbeth.csv,csv,","
+38,2024-09-17,2024,romeo_juliet.csv,csv,","
+37,2024-09-10,2024,college_admissions.csv,csv,","
 36,2024-09-03,2024,qname_levels_single_response_crosswalk.csv,csv,","
 36,2024-09-03,2024,stackoverflow_survey_questions.csv,csv,","
 36,2024-09-03,2024,stackoverflow_survey_single_response.csv,csv,","
