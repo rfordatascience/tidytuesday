@@ -73,6 +73,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 39 | `2024-09-24` | [International Mathematical Olympiad (IMO) Data](data/2024/2024-09-24/readme.md) | [IMO Team and Individual Results](https://www.imo-official.org/organizers.aspx) | [Global Map of 2024 International Mathematical Olympiad Scores](https://www.voronoiapp.com/maps/-Global-Map-of-2024-International-Mathematical-Olympiad-Scores-1875) | 
 | 40 | `2024-10-01` | [Chess Game Dataset (Lichess)](data/2024/2024-10-01/readme.md) | [Chess Game Dataset (Lichess)](https://www.kaggle.com/datasets/datasnaek/chess/data) | [Beginner's Guide: Data Visualization with Python](https://www.kaggle.com/code/batibayburak/beginner-s-guide-data-visualization-with-python) | 
 | 41 | `2024-10-08` | [National Park Species](data/2024/2024-10-08/readme.md) | [NPSpecies - The National Park Service biodiversity database](https://irma.nps.gov/npspecies/) | [NPSpecies with Julia & Tidier](https://github.com/frankiethull/NPSpecies/inst/examples/julia/NPSpecies_TidierOrg.md) | 
+| 42 | `2024-10-15` | [Southern Resident Killer Whale Encounters](data/2024/2024-10-15/readme.md) | [Center for Whale Research](https://www.whaleresearch.com/) | [Web Scraping & Mapping {orcas} Encounters](https://jadeynryan.github.io/orcas/) | 
 
 ***  
 
