@@ -1,0 +1,21 @@
+| variable           | class     | description                                                                                                                                                                   |
+|:-------------------|:---------|:--------------------------------------|
+| year               | double    | The year in which the encounter occurred.                                                                                                                                     |
+| date               | double    | The date in which the encounter occurred.                                                                                                                                     |
+| encounter_sequence | character | The number of the encounter sequence. Usually 1, but will sequentially increase if there are more encounters within the same outting.                                         |
+| encounter_number   | double    | The number of the encounter, which resets to 1 each year.                                                                                                                     |
+| begin_time         | double    | The time in which the encounter began.                                                                                                                                        |
+| end_time           | double    | The time in which the encounter ended.                                                                                                                                        |
+| duration           | character | The duration of the encounter as calculated in [data_cwr.R](https://github.com/jadeynryan/orcas/blob/cbf4c8f4a192a3c4b8fc1540de6e55ce5e8b4323/data-raw/data_cwr.R#L153-L166). |
+| vessel             | character | The name of the vessel(s) used for the encounter observation.                                                                                                                 |
+| observers          | character | The names of the CWR staff who observed the encounter.                                                                                                                        |
+| pods_or_ecotype    | character | The pod(s) and/or ecotype observed. J, K, L, or Bigg's Transients.                                                                                                            |
+| ids_encountered    | character | The IDs of the whales observed during the encounter.                                                                                                                          |
+| location           | character | The location at which the encounter occurred.                                                                                                                                 |
+| begin_latitude     | double    | The latitude at which the encounter began.                                                                                                                                    |
+| begin_longitude    | double    | The longitude at which the encounter began.                                                                                                                                   |
+| end_latitude       | double    | The latitude at which the encounter ended.                                                                                                                                    |
+| end_longitude      | double    | The longitude at which the encounter ended.                                                                                                                                   |
+| encounter_summary  | character | The summary of the encounter as written by the CWR staff observers.                                                                                                           |
+| nmfs_permit        | character | The permit under which the photos were taken.                                                                                                                                 |
+| link               | character | The link to the CWR webpage with the encounter details and photos.                                                                                                            |
