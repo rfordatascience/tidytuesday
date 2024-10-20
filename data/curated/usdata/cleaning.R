@@ -2,6 +2,7 @@
 # (https://cran.r-project.org/package=usdatasets). No cleaning was necessary.
 
 # pak::pak("usdatasets")
+library(dplyr)
 library(usdatasets)
 cia_factbook <- usdatasets::cia_factbook_tbl_df |> 
   dplyr::mutate(
