@@ -7,7 +7,7 @@ data_source:
   url: "https://cran.r-project.org/package=usdatasets"
 images:
 # Please include at least one image, and up to three images
-- file: world_factbook.png
+- file: "world_factbook.png"
   alt: >
     The logo of the World Factbook, a blue globe with an eagle's head in white. 
     The eagle is wearing a monocle.
