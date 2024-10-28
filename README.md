@@ -75,6 +75,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 41 | `2024-10-08` | [National Park Species](data/2024/2024-10-08/readme.md) | [NPSpecies - The National Park Service biodiversity database](https://irma.nps.gov/npspecies/) | [NPSpecies with Julia & Tidier](https://github.com/frankiethull/NPSpecies/inst/examples/julia/NPSpecies_TidierOrg.md) | 
 | 42 | `2024-10-15` | [Southern Resident Killer Whale Encounters](data/2024/2024-10-15/readme.md) | [Center for Whale Research](https://www.whaleresearch.com/) | [Web Scraping & Mapping {orcas} Encounters](https://jadeynryan.github.io/orcas/) | 
 | 43 | `2024-10-22` | [The CIA World Factbook](data/2024/2024-10-22/readme.md) | [usdatasets R package](https://cran.r-project.org/package=usdatasets) | [The World Factbook](https://www.cia.gov/the-world-factbook/) | 
+| 44 | `2024-10-29` | [Monster Movies](data/2024/2024-10-29/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Why Do People Like Horror Films? A Statistical Analysis](https://www.statsignificant.com/p/why-do-people-like-horror-films-a) | 
 
 ***  
 
