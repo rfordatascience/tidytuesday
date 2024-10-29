@@ -34,7 +34,7 @@ You will also need:
 You'll need to perform this step the first time you submit a pull request to this repository. A "pull request" is a submission of code to a git repository. If you have never worked with git before, that's fine! We'll help you get set up.
 
 1.  Set up git, github, and your IDE (such as RStudio). We have step-by-step [instructions for setting up things to work with the Data Science Learning Community](https://github.com/r4ds/bookclub-setup?tab=readme-ov-file#setting-up-for-data-science-learning-community-book-clubs).
-2.  Fork the tidytuesday repository (this one). In R, you can use `usethis::create_from_github("rfordatascience/tidytuesday")` to create your personal fork on GitHub and copy it to your computer. Note: This step is currently quite slow, ad requires about **8 GB** of space on disk.
+2.  Fork the tidytuesday repository. In R, you can use `usethis::create_from_github("rfordatascience/tidytuesday")` to create your personal fork on GitHub and copy it to your computer. Note: This requires about **8 GB** of space on disk.
 
 ## Create a branch {#create-a-branch}
 
