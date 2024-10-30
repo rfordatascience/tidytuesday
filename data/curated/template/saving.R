@@ -1,7 +1,7 @@
 # Run this
 source("data/curated/curation_scripts.R")
 
-# Fill in the name of your directory, then run this.
+# Fill in the name of the folder you created in "curated", then run this.
 dir_name <- "name_of_your_dir"
 
 # Run this for each of your datasets, replacing YOUR_DATASET_DF with the name of
