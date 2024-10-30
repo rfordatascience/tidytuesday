@@ -15,7 +15,7 @@ If you have not yet set up your computer for submitting a dataset, please see th
     -   Provide the name of your directory as `dir_name`.
     -   Use `ttsave()` for each dataset you created in `cleaning.R`, substituting the name for the dataset for `YOUR_DATASET_DF`.
 
-3.  `{dataset}.md`: Edit the `{dataset}.md` files to describe your datasets. There should be one file for each of your datasets. You most likely only need to edit the "description" column to provide a description of each variable.
+3.  `{dataset}.md`: Edit the `{dataset}.md` files to describe your datasets (where `{dataset}` is the name of the dataset). These files are created by `saving.R`. There should be one file for each of your datasets. You most likely only need to edit the "description" column to provide a description of each variable.
 
 4.  `intro.md`: Edit the `intro.md` file to describe your dataset. You don't need to add a `# Title` at the top; this is just a paragraph or two to introduce the week.
 
