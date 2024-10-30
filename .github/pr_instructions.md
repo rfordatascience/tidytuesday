@@ -9,7 +9,7 @@ There are 4 main steps to submit a dataset:
 3.  [Create a branch.](#create-a-branch)
 4.  [Prepare the dataset.](#prepare-the-dataset)
 
-## Find a dataset {#find-a-dataset}
+## Find a dataset
 
 Find a dataset that would be good for TidyTuesday: either one that is already ready for analysis, or one that you can clean so that it meets the criteria. These are the requirements for a dataset:
 
@@ -29,14 +29,14 @@ You will also need:
 
 -   At least one image related to or using the dataset
 
-## Prepare your repository {#prepare-your-repository}
+## Prepare your repository
 
 You'll need to perform this step the first time you submit a pull request to this repository. A "pull request" is a submission of code to a git repository. If you have never worked with git before, that's fine! We'll help you get set up.
 
 1.  Set up git, github, and your IDE (such as RStudio). We have step-by-step [instructions for setting up things to work with the Data Science Learning Community](https://github.com/r4ds/bookclub-setup?tab=readme-ov-file#setting-up-for-data-science-learning-community-book-clubs).
 2.  Fork the tidytuesday repository. In R, you can use `usethis::create_from_github("rfordatascience/tidytuesday")` to create your personal fork on GitHub and copy it to your computer. Note: This requires about **8 GB** of space on disk.
 
-## Create a branch {#create-a-branch}
+## Create a branch
 
 We use a fork/branch approach to pull requests, meaning you'll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.
 
@@ -52,7 +52,7 @@ We use a fork/branch approach to pull requests, meaning you'll create a version 
 
 6.  Inside the folder you just created is where you're going to do your work.
 
-## Prepare the dataset {#prepare-the-dataset}
+## Prepare the dataset
 
 A copy the following instructions is also available in the folder you've created, as `instructions.md`. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.
 
