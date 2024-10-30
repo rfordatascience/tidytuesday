@@ -31,7 +31,8 @@ You will also need:
 
 ## Prepare your repository
 
-You'll need to perform this step the first time you submit a pull request to this repository. A "pull request" is a submission of code to a git repository. If you have never worked with git before, that's fine! We'll help you get set up.
+You'll need to perform this step the first time you submit a pull request to this repository. 
+A "pull request" is a submission of code to a git repository. If you have never worked with git before, that's fine! We'll help you get set up.
 
 1.  Set up git, github, and your IDE (such as RStudio). We have step-by-step [instructions for setting up things to work with the Data Science Learning Community](https://github.com/r4ds/bookclub-setup?tab=readme-ov-file#setting-up-for-data-science-learning-community-book-clubs).
 2.  Fork the tidytuesday repository. In R, you can use `usethis::create_from_github("rfordatascience/tidytuesday")` to create your personal fork on GitHub and copy it to your computer. Note: This requires about **8 GB** of space on disk.
@@ -54,7 +55,8 @@ We use a fork/branch approach to pull requests, meaning you'll create a version 
 
 ## Prepare the dataset
 
-A copy the following instructions is also available in the folder you've created, as `instructions.md`. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.
+A copy the following instructions is also available in the folder you've created, as `instructions.md`. 
+These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.
 
 1.  `cleaning.R`: Modify the `cleaning.R` file to get and clean the data.
     -   Write the code to download and clean the data in `cleaning.R`.
