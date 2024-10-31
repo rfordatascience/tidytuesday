@@ -1,0 +1,22 @@
+title: "Democracy and Dictatorship"
+article:
+  title: "Regime types and regime change: A new dataset on democracy, coups, and political institutions"
+  url: "https://link.springer.com/article/10.1007/s11558-019-09345-1"
+data_source:
+  title: "democracyData R Package"
+  url: "https://xmarquez.github.io/democracyData/index.html"
+images:
+- file: "political-regime-ert-within-regimes.png"
+  alt: >
+    A map from Our World in Data of Political regime, 2023. Based on the 
+    classification by Episodes of Regime Transformation and the estimates by
+    V-Dem's experts. Countries are filled with red (hardening autocracy), 
+    orange (stable autocracy), pale orange (liberalizing autocracy), 
+    light blue (eroding democracy), sky blue (stable democracy), or dark blue 
+    (deepending democracy). The Americas and Europe are mostly blue in this 
+    2023 map.
+credit:
+  post: "Jon Harmon"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"
