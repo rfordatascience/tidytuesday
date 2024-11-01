@@ -16,6 +16,8 @@ The dataset this week comes from the {[ISOcodes](https://cran.r-project.org/pack
 - `country_subdivisions`: Country subdivision code from ISO 3166-2.
 - `former_countries`: Code for formerly used names of countries from ISO 3166-3.
 
+Tip: Try the [`quick_map()` function in the {countries} package](https://fbellelli.github.io/countries/reference/quick_map.html) to produce maps colored by country.
+
 Some questions to consider:
 
 - When did ISO 3166-3 begin to log the date withdrawn as a full date, rather than just a year?
