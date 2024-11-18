@@ -7,7 +7,7 @@ data_source:
   url: "https://github.com/poncest/bobsburgersR"
 images:
 # Please include at least one image, and up to three images
-- file: bobs_seasons.png
+- file: "bobs_seasons.png"
   alt: >
     A series of radar charts showing dialogue patterns across 14 seasons of 
     Bob’s Burgers. Each season chart displays metrics including Dialogue 
@@ -15,7 +15,7 @@ images:
     and Exclamation Ratio. Light purple polygons represent individual episodes, 
     while dark purple lines show season averages, revealing how dialogue 
     patterns evolved throughout the series.
-- file: bobsburgersR.png
+- file: "bobsburgersR.png"
   alt: >
     Hex logo for the bobsburgersR R package, featuring a cartoon burger in the 
     style of the show, and the letters "bob's burgers R" in the font used by
@@ -23,8 +23,8 @@ images:
 credit:
 # We want to thank you for curating this dataset! If you do not want a 
 # particular type of credit, please delete the related line.
-  post: Jon Harmon
-  linkedin: https://www.linkedin.com/in/jonthegeek
-  bluesky: https://bsky.app/profile/jonthegeek.com
-  mastodon: @fosstodon.org@jonthegeek
-  github: https://github.com/jonthegeek
+  post: "Jon Harmon"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  mastodon: "@fosstodon.org@jonthegeek"
+  github: "https://github.com/jonthegeek"
