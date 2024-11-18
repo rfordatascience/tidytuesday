@@ -6,5 +6,4 @@ dir_name <- "burgers"
 
 # Run this for each of your datasets, replacing YOUR_DATASET_DF with the name of
 # a data.frame from cleaning.R.
-ttsave(transcript_data, dir_name = dir_name)
 ttsave(episode_metrics, dir_name = dir_name)
