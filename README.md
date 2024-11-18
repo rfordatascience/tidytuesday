@@ -78,6 +78,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 44 | `2024-10-29` | [Monster Movies](data/2024/2024-10-29/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Why Do People Like Horror Films? A Statistical Analysis](https://www.statsignificant.com/p/why-do-people-like-horror-films-a) | 
 | 45 | `2024-11-05` | [Democracy and Dictatorship](data/2024/2024-11-05/readme.md) | [democracyData R Package](https://xmarquez.github.io/democracyData/index.html) | [Regime types and regime change: A new dataset on democracy, coups, and political institutions](https://link.springer.com/article/10.1007/s11558-019-09345-1) | 
 | 46 | `2024-11-12` | [ISO Country Codes](data/2024/2024-11-12/readme.md) | [ISOcodes R Package](https://cran.r-project.org/package=ISOcodes) | [ISO 3166 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166) | 
+| 47 | `2024-11-19` | [Bob's Burgers Episodes](data/2024/2024-11-19/readme.md) | [bobsburgersR R Package](https://github.com/poncest/bobsburgersR) | [Bob’s Burgers Episode Fingerprints by Season](https://stevenponce.netlify.app/projects/standalone_visualizations/sa_2024-11-11.html) | 
 
 ***  
 
