@@ -1,0 +1,19 @@
+title: U.S. Customs and Border Protection (CBP) encounter data
+article:
+  title: U.S. Border Patrol Encounters
+  url: https://posit.cloud/content/9130042
+data_source:
+  title: U.S. Customs and Border Protection
+  url: https://www.cbp.gov/
+images:
+# Please include at least one image, and up to three images
+- file: inadmissible-aliens-plot.png
+  alt: >
+    A bar plot of monthly inadmissible CHNV (citizens of Cuba, Haiti, Nicaragua, and Venezuela) aliens encountered by U.S. Border Patrol agents from 2020 to 2024.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Tony Galván
+  linkedin: https://www.linkedin.com/in/anthony-raul-galvan
+  twitter: @GDataScience1
+  github: https://github.com/gdatascience
