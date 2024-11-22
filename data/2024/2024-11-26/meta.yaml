@@ -1,0 +1,19 @@
+title: "U.S. Customs and Border Protection (CBP) Encounter Data"
+article:
+  title: "U.S. Border Patrol Encounters"
+  url: "https://gdatascience.github.io/us_border_patrol_encounters/us_border_patrol_encounters.html"
+data_source:
+  title: "U.S. Customs and Border Protection"
+  url: "https://www.cbp.gov/"
+images:
+# Please include at least one image, and up to three images
+- file: "inadmissible-aliens-plot.png"
+  alt: >
+    A stacked bar plot (created by Tony Galvan, but inspired by @fentasyl on X) showing monthly inadmissible CHNV (Cuban, Haitian, Nicaraguan, and Venezuelan) alien encounters by U.S. Border Patrol agents from 2020 to 2024, based on data from U.S. Customs and Border Protection. Bars represent total monthly encounters, with the blue portion indicating Southern Border encounters and the red portion indicating Interior encounters. From 2020 to 2022, encounters are consistently below 10,000 per month, predominantly at the Southern Border. Starting in 2023, encounters surge dramatically, ranging from 10,000 to 60,000 per month, with Southern and Interior encounters roughly equal. The data appears inaccurately low for late 2023.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Tony Galván"
+  linkedin: "https://www.linkedin.com/in/anthony-raul-galvan"
+  twitter: "@GDataScience1"
+  github: "https://github.com/gdatascience"
