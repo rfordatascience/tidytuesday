@@ -10,8 +10,6 @@ Thank you to [Tony Galván](https://www.linkedin.com/in/anthony-raul-galvan/) fo
 -   What are the key differences in migration patterns and enforcement activity between the Northern and Southwest Land Borders?
 -   Are there seasonal or year-over-year trends in encounters that can help predict future migration patterns?
 
-Thank you to [Tony Galván](https://github.com/gdatascience) for curating this week's dataset.
-
 ## The Data
 
 ```r
