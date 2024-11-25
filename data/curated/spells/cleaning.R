@@ -3,7 +3,6 @@ library(purrr)
 library(dplyr)
 library(tibble)
 library(stringr)
-library(withr)
 
 src <- "https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions"
 
@@ -65,10 +64,10 @@ compile_description <- function(node) {
 
 description_blocks <- page |>
   rvest::html_elements(".spell-components") |>
-  map_chr(compile_description)
+  purrr::map_chr(compile_description)
 
 # Combine everything into a tibble.
-spells <- tibble(
+spells <- tibble::tibble(
   name = spell_names,
   school_etc = spell_schools,
   casting_time = casting_times,
@@ -123,19 +122,19 @@ spells <- tibble(
       dplyr::if_else(TRUE, FALSE),
     ritual = stringr::str_detect(casting_time, "Ritual") |>
       dplyr::if_else(TRUE, FALSE),
-    
     # Extract casting_time_long for specific times like "1 minute" or "24 hours"
-    casting_time_long = stringr::str_extract(casting_time, "\\d+ (minute(s?)|hour(s?)|day(s?)|week(s?))") |> 
+    casting_time_long = stringr::str_extract(
+      casting_time,
+      "\\d+ (minute(s?)|hour(s?)|day(s?)|week(s?))"
+    ) |> 
       stringr::str_trim() |> 
       dplyr::na_if(""),
-    
     # Extract trigger details for reactions or special cases.
     trigger = stringr::str_extract(casting_time, ", which you take .+") |>
       stringr::str_remove("^, which you take ") |> 
       stringr::str_remove("^when|immediately after|in response to") |>
       stringr::str_trim() |> 
       dplyr::na_if(""),
-    
     .after = "casting_time"
   ) |> 
   
