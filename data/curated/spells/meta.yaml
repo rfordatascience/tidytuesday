@@ -7,6 +7,13 @@ data_source:
   url: "https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions"
 images:
 # Please include at least one image, and up to three images
+- file: "dndfree2024.png"
+  alt: >
+    The cover of the Dungeons and Dragons Free Rules from the website 
+    dndbeyond.com. The tagline at the top calls D&D the World's greatest
+    roleplaying game. The image shows a wizard with white hair and a red robe 
+    casting a spell, with a pair of sword-wielding allies nearby. They're 
+    battling a wyvern, a dragon-like creature with a scorpion's tail.
 - file: "spell_power.png"
   alt: >
     A bar plot of D&D Spell Power. Number of spells available at each level for 
