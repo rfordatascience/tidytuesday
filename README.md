@@ -80,6 +80,8 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 46 | `2024-11-12` | [ISO Country Codes](data/2024/2024-11-12/readme.md) | [ISOcodes R Package](https://cran.r-project.org/package=ISOcodes) | [ISO 3166 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166) | 
 | 47 | `2024-11-19` | [Bob's Burgers Episodes](data/2024/2024-11-19/readme.md) | [bobsburgersR R Package](https://github.com/poncest/bobsburgersR) | [Bob’s Burgers Episode Fingerprints by Season](https://stevenponce.netlify.app/projects/standalone_visualizations/sa_2024-11-11.html) | 
 | 48 | `2024-11-26` | [U.S. Customs and Border Protection (CBP) Encounter Data](data/2024/2024-11-26/readme.md) | [U.S. Customs and Border Protection](https://www.cbp.gov/) | [U.S. Border Patrol Encounters](https://gdatascience.github.io/us_border_patrol_encounters/us_border_patrol_encounters.html) | 
+| 49 | `2024-12-03` | [National Highways Traffic Flow](data/2024/2024-12-03/readme.md) | [WebTRIS Traffic Flow API](https://webtris.nationalhighways.co.uk/api/swagger/ui/index) | [National Highways](https://webtris.nationalhighways.co.uk/) | 
+| 50 | `2024-12-10` | [The Scent of Data - Exploring the Parfumo Fragrance Dataset](data/2024/2024-12-10/readme.md) | [Parfumo Fragrance Dataset](https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset) | [Perfumes at parfumo](https://www.parfumo.com/Perfumes) | 
 
 ***  
 
