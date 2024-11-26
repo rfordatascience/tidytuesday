@@ -4,7 +4,7 @@
 |Site Name          |character |Name of road sensor, also often a number. |
 |Report Date        |character |Date that the data was recorded. |
 |Time Period Ending |character |Time of day in hh:mm:ss that time period ends. |
-|Time Interval      |double    |Number of the time interval duirng the day. |
+|Time Interval      |double    |Number of the time interval during the day. |
 |0 - 520 cm         |double    |Number of vehicles between 0 and 520cm. |
 |521 - 660 cm       |double    |Number of vehicles between 521 and 660cm. |
 |661 - 1160 cm      |double    |Number of vehicles between 661 and 1160cm. |
