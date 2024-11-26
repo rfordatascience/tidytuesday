@@ -8,8 +8,6 @@ We’ll explore how perfumes are rated, uncover the scent families they belong t
 
 Join us as we decode the stories within these perfumes, from the top notes that hit you first to the lasting base notes that linger in the air. Whether you're a fragrance aficionado or just curious about the data behind the scents, this exploration will open your eyes (and nose) to the artistry of perfume crafting. Ready to sniff out some data?
 
-Thank you to [Nicolas Foss](www.linkedin.com/in/nicolas-foss) this week's dataset.
-
 * What factors most influence the rating of a perfume?
 * Are there distinct scent families that dominate the market, and how are they perceived by users?
 * Has the popularity of certain fragrance notes evolved over time?
