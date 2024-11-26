@@ -82,6 +82,7 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 | 48 | `2024-11-26` | [U.S. Customs and Border Protection (CBP) Encounter Data](data/2024/2024-11-26/readme.md) | [U.S. Customs and Border Protection](https://www.cbp.gov/) | [U.S. Border Patrol Encounters](https://gdatascience.github.io/us_border_patrol_encounters/us_border_patrol_encounters.html) | 
 | 49 | `2024-12-03` | [National Highways Traffic Flow](data/2024/2024-12-03/readme.md) | [WebTRIS Traffic Flow API](https://webtris.nationalhighways.co.uk/api/swagger/ui/index) | [National Highways](https://webtris.nationalhighways.co.uk/) | 
 | 50 | `2024-12-10` | [The Scent of Data - Exploring the Parfumo Fragrance Dataset](data/2024/2024-12-10/readme.md) | [Parfumo Fragrance Dataset](https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset) | [Perfumes at parfumo](https://www.parfumo.com/Perfumes) | 
+| 51 | `2024-12-17` | [Dungeons and Dragons Spells (2024)](data/2024/2024-12-17/readme.md) | [D&D Free Rules (2024), Spell Descriptions](https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions) | [Start Playing Today with the 2024 D&D Free Rules](https://www.dndbeyond.com/posts/1804-start-playing-today-with-the-2024-d-d-free-rules) | 
 
 ***  
 
