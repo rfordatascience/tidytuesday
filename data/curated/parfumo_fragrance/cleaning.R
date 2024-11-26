@@ -10,7 +10,7 @@ library(tidyverse)
 library(jsonlite)
 library(glue)
 library(janitor)
-library(here)
+library(naniar)
 
 # Define the metadata URL and fetch it
 metadata_url <- "https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset/croissant/download"
