@@ -1,4 +1,4 @@
-This week, we're diving into the fascinating world of fragrances with a dataset sourced from [Parfumo](https://www.parfumo.com/), a vibrant community of perfume enthusiasts.  [Olga G.](https://www.kaggle.com/olgagmiufana1) webscraped these data from the various fragrance sections on the above-referenced website. Here is a description from the author:
+This week we're diving into the fascinating world of fragrances with a dataset sourced from [Parfumo](https://www.parfumo.com/), a vibrant community of perfume enthusiasts.  [Olga G.](https://www.kaggle.com/olgagmiufana1) webscraped these data from the various fragrance sections on the Parfumo website. Here is a description from the author:
 
 > This dataset contains detailed information about perfumes sourced from Parfumo, obtained through web scraping. It includes data on perfume ratings, olfactory notes (top, middle, and base notes), perfumers, year of release and other relevant characteristics of the perfumes listed on the Parfumo website.
 
