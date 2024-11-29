@@ -68,7 +68,7 @@ chips <- tuesdata$chips
 
 # Or read in the data manually
 
-chips <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-23/chips.csv')
+chips <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-08-23/chips.csv')
 
 ```
 ### Data Dictionary

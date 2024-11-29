@@ -64,7 +64,7 @@ numbats <- tuesdata$numbats
 
 # Or read in the data manually
 
-numbats <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-07/numbats.csv')
+numbats <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-03-07/numbats.csv')
 ```
 
 ### Data Dictionary

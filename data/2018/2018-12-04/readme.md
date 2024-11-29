@@ -1,6 +1,6 @@
 # Medium Data Science articles
 
-This week's [dataset](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-12-04/medium_datasci.csv) was submitted by [Matthew Hendrickson](https://twitter.com/mjhendrickson), thanks! Also credit to [Kanishka Misra](https://twitter.com/iamasharkskin) who wanted to work with some text-based data via the [tidytext package](https://github.com/juliasilge/tidytext).
+This week's [dataset](https://github.com/rfordatascience/tidytuesday/blob/main/data/2018-12-04/medium_datasci.csv) was submitted by [Matthew Hendrickson](https://twitter.com/mjhendrickson), thanks! Also credit to [Kanishka Misra](https://twitter.com/iamasharkskin) who wanted to work with some text-based data via the [tidytext package](https://github.com/juliasilge/tidytext).
 
 ## Data
 

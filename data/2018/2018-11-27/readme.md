@@ -1,4 +1,4 @@
-# [Maryland Bridges](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-27/baltimore_bridges.csv)
+# [Maryland Bridges](https://github.com/rfordatascience/tidytuesday/blob/main/data/2018-11-27/baltimore_bridges.csv)
 
 Many thanks to [Sara Stoudt](https://twitter.com/sastoudt) for submitting this dataset as to our GitHub! 
 

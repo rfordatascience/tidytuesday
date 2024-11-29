@@ -19,7 +19,7 @@ house <- tuesdata$diwali_sales_data
 
 # Option 2: Read directly from GitHub
 
-house <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-11-14/diwali_sales_data.csv')
+house <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-14/diwali_sales_data.csv')
 ```
 
 ## How to Participate

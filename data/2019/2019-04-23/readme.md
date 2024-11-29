@@ -9,7 +9,7 @@ Lots of interesting ways to explore the data this week!
 # Get the Data
 
 ```
-tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/tidy_anime.csv")
+tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-23/tidy_anime.csv")
 
 ```
 
@@ -54,7 +54,7 @@ Heads up the dataset is about 97 mb - if you want to free up some space, drop th
 library(tidyverse)
 library(here)
 
-raw_df <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/raw_anime.csv")
+raw_df <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-23/raw_anime.csv")
 
 clean_df <- raw_df %>% 
   # Producers

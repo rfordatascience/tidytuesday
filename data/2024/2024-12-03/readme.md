@@ -24,7 +24,7 @@ A64_traffic <- tuesdata$A64_traffic
 
 # Option 2: Read directly from GitHub
 
-A64_traffic <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-12-03/A64_traffic.csv')
+A64_traffic <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-03/A64_traffic.csv')
 ```
 
 ## How to Participate

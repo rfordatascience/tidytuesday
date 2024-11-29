@@ -22,8 +22,8 @@ holiday_episode_genres <- tuesdata$holiday_episode_genres
 
 # Option 2: Read directly from GitHub
 
-holiday_episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-19/holiday_episodes.csv')
-holiday_episode_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-19/holiday_episode_genres.csv')
+holiday_episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-19/holiday_episodes.csv')
+holiday_episode_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-19/holiday_episode_genres.csv')
 ```
 
 ## How to Participate

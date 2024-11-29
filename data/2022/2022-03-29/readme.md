@@ -56,7 +56,7 @@ sports <- tuesdata$sports
 
 # Or read in the data manually
 
-sports <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-29/sports.csv')
+sports <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-03-29/sports.csv')
 
 ```
 ### Data Dictionary

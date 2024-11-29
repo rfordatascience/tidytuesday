@@ -12,7 +12,7 @@ A lot of it is related to mapping, feel free to dive in and participate in their
 Alternatively, if you'd rather work with some simple aggregated malaria data from [Our World in Data](https://ourworldindata.org/malaria), you can see many different summary-level datasets related to malaria incidence by region, age, or time.
 
 __3 Datasets:__
-* [`malaria_inc.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-13/malaria_inc.csv) - Malaria incidence by country for all ages across the world across time
-* [`malaria_deaths.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-13/malaria_deaths.csv) - Malaria deaths by country for all ages across the world and time.
-* [`malaria_deaths_age.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-11-13/malaria_deaths_age.csv) - Malaria deaths by age across the world and time.
+* [`malaria_inc.csv`](https://github.com/rfordatascience/tidytuesday/blob/main/data/2018-11-13/malaria_inc.csv) - Malaria incidence by country for all ages across the world across time
+* [`malaria_deaths.csv`](https://github.com/rfordatascience/tidytuesday/blob/main/data/2018-11-13/malaria_deaths.csv) - Malaria deaths by country for all ages across the world and time.
+* [`malaria_deaths_age.csv`](https://github.com/rfordatascience/tidytuesday/blob/main/data/2018-11-13/malaria_deaths_age.csv) - Malaria deaths by age across the world and time.
 

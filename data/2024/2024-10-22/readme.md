@@ -47,7 +47,7 @@ cia_factbook <- tuesdata$cia_factbook
 
 # Option 2: Read directly from GitHub
 
-cia_factbook <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-10-22/cia_factbook.csv')
+cia_factbook <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-22/cia_factbook.csv')
 ```
 
 ## How to Participate

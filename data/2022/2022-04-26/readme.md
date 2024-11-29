@@ -70,7 +70,7 @@ hidden_gems <- tuesdata$hidden_gems
 
 # Or read in the data manually
 
-hidden_gems <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-04-26/hidden_gems.csv')
+hidden_gems <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-04-26/hidden_gems.csv')
 
 ```
 

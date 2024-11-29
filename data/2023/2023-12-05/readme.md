@@ -2,7 +2,7 @@
 
 Our World in Data released a [new report on life expectancy](https://ourworldindata.org/life-expectancy), and analysis and interpretations are making the rounds this week, and you can join in too! 
 
-We had a dataset on Global Life Expectancy on [2018-07-03](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018#readme), so if you're a long time tidytuesday-er, this is a chance for some new analyses. 
+We had a dataset on Global Life Expectancy on [2018-07-03](https://github.com/rfordatascience/tidytuesday/tree/main/data/2018#readme), so if you're a long time tidytuesday-er, this is a chance for some new analyses. 
 
 The data this week comes the [Our World in Data Life Expectancy report](https://ourworldindata.org/life-expectancy), specifically the figures in the [key insights](https://ourworldindata.org/life-expectancy#key-insights) section. The source for this data is from United Nations World Population Prospects (2022); Human Mortality Database (2023); Zijdeman, Richard and Filipa Ribeira da Silva (2015), [Life Expectancy at Birth (Total)](http://hdl.handle.net/10622/LKYT5); Riley, J.C. (2005), [Estimates of Regional and Global Life Expectancy 1800-2001](https://doi.org/10.1111/j.1728-4457.2005.00083.x), Population and Development Review, 31: 537-543. Minor processing by Our World in Data. 
 
@@ -31,9 +31,9 @@ life_expectancy_female_male <- tuesdata$life_expectancy_female_male
 
 # Option 2: Read directly from GitHub
 
-life_expectancy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-05/life_expectancy.csv')
-life_expectancy_different_ages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-05/life_expectancy_different_ages.csv')
-life_expectancy_female_male <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-05/life_expectancy_female_male.csv')
+life_expectancy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-05/life_expectancy.csv')
+life_expectancy_different_ages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-05/life_expectancy_different_ages.csv')
+life_expectancy_female_male <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-05/life_expectancy_female_male.csv')
 ```
 
 ## How to Participate

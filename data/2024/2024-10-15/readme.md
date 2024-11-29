@@ -24,7 +24,7 @@ orcas <- tuesdata$orcas
 
 # Option 2: Read directly from GitHub
 
-orcas <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-10-15/orcas.csv')
+orcas <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-15/orcas.csv')
 ```
 
 ## How to Participate

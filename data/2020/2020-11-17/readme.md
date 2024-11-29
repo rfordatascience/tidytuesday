@@ -46,7 +46,7 @@ black_in_data <- tuesdata$black_in_data
 
 # Or read in the data manually
 
-black_in_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-17/black_in_data.csv')
+black_in_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-11-17/black_in_data.csv')
 
 ```
 ### Data Dictionary

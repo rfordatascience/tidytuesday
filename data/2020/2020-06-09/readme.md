@@ -6,9 +6,9 @@ The data this week comes from [Wikipedia](https://en.wikipedia.org/wiki/List_of_
 
 For additional datasets related to describing racial problems that still exist in the US, please see a few of our previous `#TidyTuesday` datasets:  
 - Note, if you decide to use these datasets please read through the source material to better understand the nuance behind the data.  
-- [School Diversity](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-24)  
-- [Vera Institute Incarceration Trends](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-22)  
-- [The Stanford Open Policing Project](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-19)  
+- [School Diversity](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-09-24)  
+- [Vera Institute Incarceration Trends](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-22)  
+- [The Stanford Open Policing Project](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-03-19)  
 
 The article for this week is the obituary for [David Blackwell - Fought racism; became world famous statistician](https://www.stltoday.com/news/local/obituaries/david-blackwell-fought-racism-became-world-famous-statistician/article_8ea41058-5f35-5afa-9c3a-007200c5c179.html).
 
@@ -56,8 +56,8 @@ The `science.csv` dataset also celebrates the achievements of African-Americans,
 ```{r}
 # Get the Data
 
-firsts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-06-09/firsts.csv')
-science <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-06-09/science.csv')
+firsts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-09/firsts.csv')
+science <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-09/science.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 

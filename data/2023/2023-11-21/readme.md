@@ -19,7 +19,7 @@ rladies_chapters <- tuesdata$rladies_chapters
 
 # Option 2: Read directly from GitHub
 
-rladies_chapters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-11-21/rladies_chapters.csv')
+rladies_chapters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-21/rladies_chapters.csv')
 ```
 
 ## How to Participate

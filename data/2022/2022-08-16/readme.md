@@ -81,7 +81,7 @@ characters <- tuesdata$characters
 
 # Or read in the data manually
 
-characters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-16/characters.csv')
+characters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-08-16/characters.csv')
 
 ```
 ## Dictionary

@@ -26,7 +26,7 @@ chess <- tuesdata$chess
 
 # Option 2: Read directly from GitHub
 
-chess <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-10-01/chess.csv')
+chess <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-01/chess.csv')
 ```
 
 ## How to Participate

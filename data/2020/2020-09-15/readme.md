@@ -30,7 +30,7 @@ kids <- tuesdata$kids
 
 # Or read in the data manually
 
-kids <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-09-15/kids.csv')
+kids <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-15/kids.csv')
 
 ```
 ### Data Dictionary

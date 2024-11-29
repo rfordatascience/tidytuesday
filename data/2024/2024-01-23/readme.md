@@ -20,7 +20,7 @@ english_education <- tuesdata$english_education
 
 # Option 2: Read directly from GitHub
 
-english_education <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-01-23/english_education.csv')
+english_education <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-23/english_education.csv')
 ```
 
 ## How to Participate

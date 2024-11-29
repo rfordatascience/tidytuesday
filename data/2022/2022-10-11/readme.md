@@ -54,7 +54,7 @@ yarn <- tuesdata$yarn
 
 # Or read in the data manually
 
-yarn <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-10-11/yarn.csv')
+yarn <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-11/yarn.csv')
 
 ```
 ### Data Dictionary

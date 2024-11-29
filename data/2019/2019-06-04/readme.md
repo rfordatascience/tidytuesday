@@ -7,7 +7,7 @@ If you want to submit a dataset please do so as an [Issue](https://github.com/rf
 # Get the data!
 
 ```
-ramen_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-04/ramen_ratings.csv")
+ramen_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-04/ramen_ratings.csv")
 ```
 
 # Data Dictionary

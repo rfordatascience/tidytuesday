@@ -27,7 +27,7 @@ emissions <- tuesdata$emissions
 
 # Option 2: Read directly from GitHub
 
-emissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-05-21/emissions.csv')
+emissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-21/emissions.csv')
 ```
 
 ## How to Participate

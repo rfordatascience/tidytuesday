@@ -96,7 +96,7 @@ studio_album_tracks <- tuesdata$studio_album_tracks
 
 # Or read in the data manually
 
-studio_album_tracks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-14/studio_album_tracks.csv')
+studio_album_tracks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-12-14/studio_album_tracks.csv')
 
 ```
 ### Data Dictionary

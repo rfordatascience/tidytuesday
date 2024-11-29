@@ -28,7 +28,7 @@ population <- tuesdata$population
 
 # Option 2: Read directly from GitHub
 
-population <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-08-22/population.csv')
+population <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-22/population.csv')
 ```
 
 ### Data Dictionary

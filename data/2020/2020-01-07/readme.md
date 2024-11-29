@@ -35,11 +35,11 @@ Temp min/max data was sourced from:
 ```{r}
 # Get the Data
 
-rainfall <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-07/rainfall.csv')
-temperature <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-07/temperature.csv')
+rainfall <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/rainfall.csv')
+temperature <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/temperature.csv')
 
 # IF YOU USE THIS DATA PLEASE BE CAUTIOUS WITH INTERPRETATION
-nasa_fire <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-07/MODIS_C6_Australia_and_New_Zealand_7d.csv')
+nasa_fire <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/MODIS_C6_Australia_and_New_Zealand_7d.csv')
 
 # For JSON File of fires
 url <- "http://www.rfs.nsw.gov.au/feeds/majorIncidents.json"
