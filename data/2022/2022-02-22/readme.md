@@ -67,7 +67,7 @@ freedom <- tuesdata$freedom
 
 # Or read in the data manually
 
-freedom <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-02-22/freedom.csv')
+freedom <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-02-22/freedom.csv')
 
 ```
 ### Data Dictionary

@@ -85,7 +85,7 @@ tournament <- tuesdata$tournament
 
 # Or read in the data manually
 
-tournament <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-06/tournament.csv')
+tournament <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-10-06/tournament.csv')
 
 ```
 ### Data Dictionary

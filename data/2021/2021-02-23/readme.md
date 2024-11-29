@@ -2,7 +2,7 @@
 
 # Employed Status
 
-Please note that the `#DuboisChallenge` is still on going! It might be interesting to revisit that [data from last week](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-02-16/readme.md) OR apply the same visual techniques to this modern data.
+Please note that the `#DuboisChallenge` is still on going! It might be interesting to revisit that [data from last week](https://github.com/rfordatascience/tidytuesday/blob/main/data/2021/2021-02-16/readme.md) OR apply the same visual techniques to this modern data.
 
 The data this week comes from the [BLS](https://www.bls.gov/cps/tables.htm#charemp_m), specifically table `cpsaat17` across several years.
 
@@ -34,9 +34,9 @@ employed <- tuesdata$employed
 
 # Or read in the data manually
 
-employed <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-23/employed.csv')
+employed <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-23/employed.csv')
 
-earn <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-23/earn.csv')
+earn <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-23/earn.csv')
 
 ```
 ### Data Dictionary

@@ -26,7 +26,7 @@ lgbtq_movies <- tuesdata$lgbtq_movies
 
 # Option 2: Read directly from GitHub
 
-lgbtq_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-06-25/lgbtq_movies.csv')
+lgbtq_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-25/lgbtq_movies.csv')
 ```
 
 ## How to Participate

@@ -10,7 +10,7 @@ CityLab's [Linda Poon](https://twitter.com/linpoonsays) wrote an [article](https
 # Get the data!
 
 ```
-nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-29/nyc_squirrels.csv")
+nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-29/nyc_squirrels.csv")
 ```
 
 # Data Dictionary

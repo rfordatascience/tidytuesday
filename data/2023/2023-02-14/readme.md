@@ -64,7 +64,7 @@ age_gaps <- tuesdata$age_gaps
 
 # Or read in the data manually
 
-age_gaps <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-02-14/age_gaps.csv')
+age_gaps <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-02-14/age_gaps.csv')
 ```
 
 ### Data Dictionary

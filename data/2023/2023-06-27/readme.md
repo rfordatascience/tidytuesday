@@ -70,8 +70,8 @@ us_place_history <- tuesdata$`us_place_history`
 
 # Or read in the data manually
 
-us_place_names <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-06-27/us_place_names.csv')
-us_place_history <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-06-27/us_place_history.csv')
+us_place_names <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-27/us_place_names.csv')
+us_place_history <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-27/us_place_history.csv')
 ```
 
 ### Data Dictionary

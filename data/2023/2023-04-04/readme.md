@@ -58,7 +58,7 @@ soccer <- tuesdata$soccer
 
 # Or read in the data manually
 
-soccer <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-04/soccer21-22.csv')
+soccer <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-04-04/soccer21-22.csv')
 ```
 
 ### Data Dictionary

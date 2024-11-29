@@ -13,7 +13,7 @@ h/t to my colleague Katie Masiello for sharing this dataset!
 # Get the data!
 
 ```
-wildlife_impacts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-23/wildlife_impacts.csv")
+wildlife_impacts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-23/wildlife_impacts.csv")
 
 ```
 

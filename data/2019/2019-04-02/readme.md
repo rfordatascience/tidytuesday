@@ -8,7 +8,7 @@ The Seattle Times recently covered [What we can learn from Seattle's bike-counte
 # Get the Data!
 
 ```
-bike_traffic <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-02/bike_traffic.csv")
+bike_traffic <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-02/bike_traffic.csv")
 ```
 
 ### Data Dictionary

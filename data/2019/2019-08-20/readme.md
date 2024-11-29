@@ -12,7 +12,7 @@ For details around units for yield/magnitude, please see the [Nuclear Yield](htt
 # Get the data!
 
 ```
-nuclear_explosions <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-20/nuclear_explosions.csv")
+nuclear_explosions <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-20/nuclear_explosions.csv")
 
 ```
 

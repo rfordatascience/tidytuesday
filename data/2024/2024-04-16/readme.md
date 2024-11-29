@@ -26,8 +26,8 @@ package_details <- tuesdata$package_details
 
 # Option 2: Read directly from GitHub
 
-shiny_revdeps <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-16/shiny_revdeps.csv')
-package_details <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-16/package_details.csv')
+shiny_revdeps <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-16/shiny_revdeps.csv')
+package_details <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-16/package_details.csv')
 
 ```
 

@@ -7,7 +7,7 @@ A Reddit [/r/dataisbeautiful post](https://www.reddit.com/r/dataisbeautiful/comm
 # Get the data!
 
 ```
-emperors <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-13/emperors.csv")
+emperors <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-13/emperors.csv")
 
 ```
 

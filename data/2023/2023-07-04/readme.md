@@ -71,8 +71,8 @@ no_markers <- tuesdata$`no_markers`
 
 # Or read in the data manually
 
-historical_markers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-04/historical_markers.csv')
-no_markers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-04/no_markers.csv')
+historical_markers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-04/historical_markers.csv')
+no_markers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-04/no_markers.csv')
 ```
 
 ### Data Dictionary

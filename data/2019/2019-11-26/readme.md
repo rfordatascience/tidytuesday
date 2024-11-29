@@ -11,7 +11,7 @@ I have uploaded the raw data and the clean data - definitely a nice dive into so
 # Get the data!
 
 ```
-loans <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-11-26/loans.csv")
+loans <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-11-26/loans.csv")
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # Either ISO-8601 date or year/week works!

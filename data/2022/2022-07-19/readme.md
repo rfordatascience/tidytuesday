@@ -65,7 +65,7 @@ technology <- tuesdata$technology
 
 # Or read in the data manually
 
-technology <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-07-19/technology.csv')
+technology <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-07-19/technology.csv')
 
 ```
 ### Data Dictionary

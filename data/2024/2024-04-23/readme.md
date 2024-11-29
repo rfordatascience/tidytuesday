@@ -33,7 +33,7 @@ outer_space_objects <- tuesdata$outer_space_objects
 
 # Option 2: Read directly from GitHub
 
-outer_space_objects <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-23/outer_space_objects.csv')
+outer_space_objects <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-23/outer_space_objects.csv')
 
 
 ```

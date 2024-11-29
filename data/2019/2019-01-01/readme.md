@@ -4,8 +4,8 @@ Data for this week comes from [Mike Kearney](https://twitter.com/kearneymw) - au
 
 ## Datasets
 
-[`#rstats`](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-01/rstats_tweets.rds)  
-[`#TidyTuesday`](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-01/tidytuesday_tweets.rds)
+[`#rstats`](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-01/rstats_tweets.rds)  
+[`#TidyTuesday`](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-01/tidytuesday_tweets.rds)
 
 Just a heads up, there are A LOT of columns (88!) in this collection - feel free to select whichever are useful for your analysis or interest! Both datasets have the same column types which can be seen below.
 

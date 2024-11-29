@@ -24,7 +24,7 @@ worlds_fairs <- tuesdata$worlds_fairs
 
 # Option 2: Read directly from GitHub
 
-worlds_fairs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-08-13/worlds_fairs.csv')
+worlds_fairs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-13/worlds_fairs.csv')
 ```
 
 ## How to Participate

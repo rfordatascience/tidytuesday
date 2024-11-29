@@ -8,7 +8,7 @@ An article with some interesting graphs (different dataset) can be found [here](
 # Get the data!
 
 ```
-wine_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-28/winemag-data-130k-v2.csv")
+wine_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-28/winemag-data-130k-v2.csv")
 ```
 
 # Data Dictionary

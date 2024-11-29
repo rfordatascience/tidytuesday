@@ -26,7 +26,7 @@ youtube <- tuesdata$youtube
 
 # Or read in the data manually
 
-youtube <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-02/youtube.csv')
+youtube <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-02/youtube.csv')
 
 ```
 ### Data Dictionary

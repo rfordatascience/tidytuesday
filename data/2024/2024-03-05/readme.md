@@ -40,7 +40,7 @@ trashwheel <- tuesdata$trashwheel
 
 # Option 2: Read directly from GitHub
 
-trashwheel <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-05/trashwheel.csv')
+trashwheel <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-05/trashwheel.csv')
 
 ```
 

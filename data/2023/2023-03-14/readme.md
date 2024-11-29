@@ -54,7 +54,7 @@ drugs <- tuesdata$drugs
 
 # Or read in the data manually
 
-drugs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-14/drugs.csv')
+drugs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-03-14/drugs.csv')
 ```
 
 ### Data Dictionary

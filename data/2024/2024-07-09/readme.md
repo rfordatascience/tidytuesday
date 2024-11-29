@@ -23,7 +23,7 @@ drob_funs <- tuesdata$drob_funs
 
 # Option 2: Read directly from GitHub
 
-drob_funs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-09/drob_funs.csv')
+drob_funs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-09/drob_funs.csv')
 ```
 
 ## How to Participate

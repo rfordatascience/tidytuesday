@@ -27,7 +27,7 @@ richmondway <- tuesdata$richmondway
 
 # Option 2: Read directly from GitHub
 
-richmondway <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-09-26/richmondway.csv')
+richmondway <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-26/richmondway.csv')
 ```
 
 ## How to Participate

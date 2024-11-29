@@ -29,9 +29,9 @@ internal_calls <- tuesdata$internal_calls
 
 # Option 2: Read directly from GitHub
 
-cran_20221122 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-26/cran_20221122.csv')
-external_calls <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-26/external_calls.csv')
-internal_calls <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-26/internal_calls.csv')
+cran_20221122 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/cran_20221122.csv')
+external_calls <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/external_calls.csv')
+internal_calls <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/internal_calls.csv')
 ```
 
 If you would like to dive deeper, you can download the larger dataset with this code:

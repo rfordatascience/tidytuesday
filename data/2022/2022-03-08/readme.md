@@ -63,7 +63,7 @@ erasmus <- tuesdata$erasmus
 
 # Or read in the data manually
 
-erasmus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-08/erasmus.csv')
+erasmus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-03-08/erasmus.csv')
 
 ```
 ### Data Dictionary

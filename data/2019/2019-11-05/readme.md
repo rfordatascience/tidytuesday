@@ -7,7 +7,7 @@ Please note that the raw excel files are uploaded (6 total), along with the clea
 # Get the data!
 
 ```
-commute_mode <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-11-05/commute.csv")
+commute_mode <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-11-05/commute.csv")
 ```
 
 # Data Dictionary

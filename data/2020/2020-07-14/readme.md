@@ -10,7 +10,7 @@ This [article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420
 
 Credit for preparing the dataset: [Georgios Karamanis](https://twitter.com/geokaramanis)
 
-It may be interesting to also use the [Space Launches dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-15) from TidyTuesday 2019, week 3.
+It may be interesting to also use the [Space Launches dataset](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-15) from TidyTuesday 2019, week 3.
 
 There is also a [Wikipedia Article](https://en.wikipedia.org/wiki/List_of_cumulative_spacewalk_records) on cumulative spacewalk records - you should be able to create the same dataset with the astronaut database and the `eva_hrs_mission` column.
 
@@ -34,7 +34,7 @@ astronauts <- tuesdata$astronauts
 
 # Or read in the data manually
 
-astronauts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-14/astronauts.csv')
+astronauts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-14/astronauts.csv')
 
 ```
 ### Data Dictionary

@@ -56,7 +56,7 @@ starbucks <- tuesdata$starbucks
 
 # Or read in the data manually
 
-starbucks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv')
+starbucks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-12-21/starbucks.csv')
 
 ```
 ### Data Dictionary

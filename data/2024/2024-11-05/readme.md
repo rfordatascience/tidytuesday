@@ -30,7 +30,7 @@ democracy_data <- tuesdata$democracy_data
 
 # Option 2: Read directly from GitHub
 
-democracy_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-11-05/democracy_data.csv')
+democracy_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-05/democracy_data.csv')
 ```
 
 ## How to Participate

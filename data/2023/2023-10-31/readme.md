@@ -22,7 +22,7 @@ horror_articles <- tuesdata$horror_articles
 
 # Option 2: Read directly from GitHub
 
-horror_articles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-10-31/horror_articles.csv')
+horror_articles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-31/horror_articles.csv')
 ```
 
 ## How to Participate

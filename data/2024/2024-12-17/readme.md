@@ -24,7 +24,7 @@ spells <- tuesdata$spells
 
 # Option 2: Read directly from GitHub
 
-spells <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-12-17/spells.csv')
+spells <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-17/spells.csv')
 ```
 
 ## How to Participate

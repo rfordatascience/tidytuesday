@@ -14,8 +14,8 @@ Lastly, if for some reason you'd like to see the raw untranslated dataset it is 
 ### Grab the raw data here
 
 ```{r}
-full_trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-26/full_trains.csv")
-small_trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-26/small_trains.csv") 
+full_trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-26/full_trains.csv")
+small_trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-26/small_trains.csv") 
 ```
 
 </br>

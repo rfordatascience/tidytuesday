@@ -68,7 +68,7 @@ scoobydoo <- tuesdata$scoobydoo
 
 # Or read in the data manually
 
-scoobydoo <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-13/scoobydoo.csv')
+scoobydoo <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-07-13/scoobydoo.csv')
 
 ```
 ### Data Dictionary
