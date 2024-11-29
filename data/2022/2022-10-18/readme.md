@@ -59,7 +59,7 @@ episodes <- tuesdata$episodes
 
 # Or read in the data manually
 
-episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-10-18/episodes.csv')
+episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-18/episodes.csv')
 
 ```
 ### Data Dictionary

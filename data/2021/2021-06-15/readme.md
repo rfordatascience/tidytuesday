@@ -32,11 +32,11 @@ Need a **reminder**? There are [extensions](https://chrome.google.com/webstore/d
 
 # Du Bois and Juneteenth Revisited
 
-The data this week comes from [Anthony Starks](https://twitter.com/ajstarks), [Allen Hillery](https://twitter.com/AlDatavizguy/status/1358454676497313792?s=20) [Sekou Tyler](https://twitter.com/sqlsekou/status/1360281040657522689?s=20). The tweets aggregated show the [`#DuBoisChallenge`](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md) tweets from 2021. The data used for the challenge is also accessible from [TidyTuesday week 8 of 2021](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-02-16/readme.md).
+The data this week comes from [Anthony Starks](https://twitter.com/ajstarks), [Allen Hillery](https://twitter.com/AlDatavizguy/status/1358454676497313792?s=20) [Sekou Tyler](https://twitter.com/sqlsekou/status/1360281040657522689?s=20). The tweets aggregated show the [`#DuBoisChallenge`](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md) tweets from 2021. The data used for the challenge is also accessible from [TidyTuesday week 8 of 2021](https://github.com/rfordatascience/tidytuesday/blob/main/data/2021/2021-02-16/readme.md).
 
 Sekou has also visualized the Twitter activity in a [dashboard](https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity).
 
-Please also revisit the [2020 data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-06-16/readme.md) for data for and recognition of Juneteenth. While Juneteenth recognizes the political act of the freeing of the last American slaves in Texas, W.E.B Du Bois argued a more poignant detail:
+Please also revisit the [2020 data](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-06-16/readme.md) for data for and recognition of Juneteenth. While Juneteenth recognizes the political act of the freeing of the last American slaves in Texas, W.E.B Du Bois argued a more poignant detail:
 > in a series of landmark works, is that some 500,000 Black Americans freed themselves from slavery by walking off their plantation, with many of them joining up with the Union Army. Then, with the help of some Union Army officers, they organized themselves into soldiers, officers, farmers, spies, cooks, and nurses who enabled the Union to win the war, while their absence on plantations crippled the South's economy. This is the true Juneteenth: a freedom won by the freed.
 
 - [WEB Du Bois](https://en.wikipedia.org/wiki/W._E._B._Du_Bois)  
@@ -71,7 +71,7 @@ tweets <- tuesdata$tweets
 
 # Or read in the data manually
 
-tweets <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-06-15/tweets.csv')
+tweets <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-06-15/tweets.csv')
 ```
 ### Data Dictionary
 

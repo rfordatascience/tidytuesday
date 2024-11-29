@@ -9,7 +9,7 @@ H/t to [Georgios Karamanis](https://github.com/rfordatascience/tidytuesday/issue
 # Get the data!
 
 ```
-ufo_sightings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-25/ufo_sightings.csv")
+ufo_sightings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-25/ufo_sightings.csv")
 ```
 
 # Data Dictionary

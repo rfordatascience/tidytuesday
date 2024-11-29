@@ -54,7 +54,7 @@ paygap <- tuesdata$paygap
 
 # Or read in the data manually
 
-paygap <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-06-28/paygap.csv')
+paygap <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-28/paygap.csv')
 
 ```
 

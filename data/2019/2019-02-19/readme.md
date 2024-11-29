@@ -11,7 +11,7 @@ Alternatively - I have cleaned the data for you and saved as a `.csv` for you to
 To get at the details for broad or major fields, `dplyr::summarize` is your friend!
 
 ```{r}
-phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-19/phd_by_field.csv")
+phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-19/phd_by_field.csv")
 ```
 
 ### Data Dictionary

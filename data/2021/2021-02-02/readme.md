@@ -40,7 +40,7 @@ hbcu_all <- tuesdata$hbcu_all
 
 # Or read in the data manually
 
-hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-02/hbcu_all.csv')
+hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-02/hbcu_all.csv')
 
 ```
 ### Data Dictionary
@@ -168,7 +168,7 @@ library(tidyverse) # General-purpose cleaning
 library(janitor) # For the clean_names() function
 
 ### Import data ---------------------------------------------------------------
-hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-02/hbcu_all.csv') %>%
+hbcu_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-02/hbcu_all.csv') %>%
   # clean_names() converts field names to snake_case
   clean_names()
 

@@ -12,7 +12,7 @@ There is even more education data at the country level available at [UNESCO Inst
 # Get the data!
 
 ```
-student_ratio <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-07/student_teacher_ratio.csv")
+student_ratio <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-07/student_teacher_ratio.csv")
 ```
 
 # Data Dictionary

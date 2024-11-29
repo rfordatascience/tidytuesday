@@ -21,7 +21,7 @@ rolling_stone <- tuesdata$rolling_stone
 
 # Option 2: Read directly from GitHub
 
-rolling_stone <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-05-07/rolling_stone.csv')
+rolling_stone <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-07/rolling_stone.csv')
 ```
 
 ## How to Participate

@@ -24,7 +24,7 @@ spam <- tuesdata$spam
 
 # Option 2: Read directly from GitHub
 
-spam <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-08-15/spam.csv')
+spam <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-15/spam.csv')
 ```
 
 ### Data Dictionary

@@ -87,7 +87,7 @@ bakers <- tuesdata$bakers
 
 # Or read in the data manually
 
-bakers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-10-25/bakers.csv')
+bakers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-25/bakers.csv')
 
 ```
 ### Data Dictionary

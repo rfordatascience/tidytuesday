@@ -32,7 +32,7 @@ survey <- tuesdata$survey
 
 # Or read in the data manually
 
-survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-18/survey.csv')
+survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-05-18/survey.csv')
 
 ```
 ### Data Dictionary

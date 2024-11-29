@@ -41,7 +41,7 @@ A "pull request" is a submission of code to a git repository. If you have never 
 
 We use a fork/branch approach to pull requests, meaning you'll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.
 
-1.  If you are on anything other than the `master` branch of your local repository, switch back to master. In R, you can use `usethis::pr_pause()` (if your previous submission is still pending), or `usethis::pr_finish()` (if we've accepted your submission).
+1.  If you are on anything other than the `main` branch of your local repository, switch back to main. In R, you can use `usethis::pr_pause()` (if your previous submission is still pending), or `usethis::pr_finish()` (if we've accepted your submission).
 
 2.  Pull the latest version of the repository to your computer. In R, use `usethis::pr_merge_main()`
 

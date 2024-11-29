@@ -4,7 +4,7 @@
 
 The data this week comes from [Steam](https://www.kaggle.com/michau96/popularity-of-games-on-steam) by way of Kaggle and originally came from [SteamCharts](https://steamcharts.com/). The data was scraped and uploaded to Kaggle.
 
-Note there is a different dataset based on video games from 2019's TidyTuesday, check it out [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-30), there's a possibility that some of the data could be joined on "name".
+Note there is a different dataset based on video games from 2019's TidyTuesday, check it out [here](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-30), there's a possibility that some of the data could be joined on "name".
 
 Additionally we are doing a crossover with the "Sliced" data science challenge this week!
 
@@ -34,7 +34,7 @@ games <- tuesdata$games
 
 # Or read in the data manually
 
-games <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-16/games.csv')
+games <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-16/games.csv')
 
 ```
 ### Data Dictionary

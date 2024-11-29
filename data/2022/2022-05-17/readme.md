@@ -65,7 +65,7 @@ eurovision <- tuesdata$eurovision
 
 # Or read in the data manually
 
-eurovision <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-17/eurovision.csv')
+eurovision <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-05-17/eurovision.csv')
 
 ```
 ### Data Dictionary

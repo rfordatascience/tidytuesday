@@ -32,7 +32,7 @@ post_offices <- tuesdata$post_offices
 
 # Or read in the data manually
 
-post_offices <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-04-13/post_offices.csv')
+post_offices <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-13/post_offices.csv')
 
 ```
 ### Data Dictionary

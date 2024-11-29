@@ -26,7 +26,7 @@ college_admissions <- tuesdata$college_admissions
 
 # Option 2: Read directly from GitHub
 
-college_admissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-09-10/college_admissions.csv')
+college_admissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-10/college_admissions.csv')
 ```
 
 ## How to Participate

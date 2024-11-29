@@ -4,7 +4,7 @@ about: Suggest a new dataset for Tidy Tuesday
 labels: dataset
 ---
 
-Please consider submitting this dataset as a pull request! See https://github.com/rfordatascience/tidytuesday/blob/master/.github/pr_instructions.md to learn how.
+Please consider submitting this dataset as a pull request! See https://github.com/rfordatascience/tidytuesday/blob/main/.github/pr_instructions.md to learn how.
 Please fill out as much of this information as you can!
 
 - [ ] This dataset has not already been used in TidyTuesday.

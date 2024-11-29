@@ -11,7 +11,7 @@ A popular [reddit/dataisbeautiful post](https://www.reddit.com/r/dataisbeautiful
 # Get the data!
 
 ```
-media_franchises <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-02/media_franchises.csv")
+media_franchises <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-02/media_franchises.csv")
 ```
 
 # Data Dictionary

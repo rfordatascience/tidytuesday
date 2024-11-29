@@ -20,8 +20,8 @@ summer_movies <- tuesdata$summer_movies
 
 # Option 2: Read directly from GitHub
 
-summer_movie_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-30/summer_movie_genres.csv')
-summer_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-30/summer_movies.csv')
+summer_movie_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-30/summer_movie_genres.csv')
+summer_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-30/summer_movies.csv')
 ```
 
 ## How to Participate

@@ -30,7 +30,7 @@ women <- tuesdata$women
 
 # Or read in the data manually
 
-women <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-12-08/women.csv')
+women <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-12-08/women.csv')
 
 ```
 ### Data Dictionary

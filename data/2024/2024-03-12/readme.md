@@ -29,7 +29,7 @@ fiscal_sponsor_directory <- tuesdata$fiscal_sponsor_directory
 
 # Option 2: Read directly from GitHub
 
-fiscal_sponsor_directory <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-12/fiscal_sponsor_directory.csv')
+fiscal_sponsor_directory <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-12/fiscal_sponsor_directory.csv')
 
 ```
 

@@ -13,7 +13,7 @@ h/t to [Jon Harmon](https://github.com/rfordatascience/tidytuesday/issues/160) &
 ```{r}
 # Get the Data
 
-spotify_songs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv')
+spotify_songs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-21/spotify_songs.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO UPDATE tidytuesdayR from GitHub

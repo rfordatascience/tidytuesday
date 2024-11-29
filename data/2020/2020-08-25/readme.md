@@ -33,7 +33,7 @@ chopped <- tuesdata$chopped
 
 # Or read in the data manually
 
-chopped <- readr::read_tsv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-25/chopped.tsv')
+chopped <- readr::read_tsv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-25/chopped.tsv')
 
 ```
 ### Data Dictionary

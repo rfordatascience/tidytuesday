@@ -7,7 +7,7 @@ The 538 article can be found [here](https://fivethirtyeight.com/features/a-stati
 # Get the data!
 
 ```
-bob_ross <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-08-06/bob-ross.csv")
+bob_ross <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-06/bob-ross.csv")
 
 ```
 

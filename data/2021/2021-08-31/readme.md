@@ -69,7 +69,7 @@ bird_baths <- tuesdata$bird_baths
 
 # Or read in the data manually
 
-bird_baths <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-08-31/bird_baths.csv')
+bird_baths <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-08-31/bird_baths.csv')
 
 ```
 ### Data Dictionary

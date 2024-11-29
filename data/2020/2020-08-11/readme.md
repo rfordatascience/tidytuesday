@@ -34,8 +34,8 @@ avatar <- tuesdata$avatar
 
 # Or read in the data manually
 
-avatar <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-11/avatar.csv')
-scene_description <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-11/scene_description.csv')
+avatar <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-11/avatar.csv')
+scene_description <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-11/scene_description.csv')
 
 ```
 ### Data Dictionary

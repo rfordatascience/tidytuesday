@@ -40,9 +40,9 @@ ewf_standings <- tuesdata$ewf_standings
 
 # Option 2: Read directly from GitHub
 
-ewf_appearances <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-16/ewf_appearances.csv')
-ewf_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-16/ewf_matches.csv')
-ewf_standings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-07-16/ewf_standings.csv')
+ewf_appearances <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-16/ewf_appearances.csv')
+ewf_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-16/ewf_matches.csv')
+ewf_standings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-16/ewf_standings.csv')
 ```
 
 ## How to Participate

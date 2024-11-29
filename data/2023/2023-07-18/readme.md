@@ -75,7 +75,7 @@ detectors <- tuesdata$detectors
 
 # Or read in the data manually
 
-detectors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-18/detectors.csv')
+detectors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-18/detectors.csv')
 
 ```
 

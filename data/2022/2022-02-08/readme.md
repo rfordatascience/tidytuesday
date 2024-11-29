@@ -66,7 +66,7 @@ airmen <- tuesdata$airmen
 
 # Or read in the data manually
 
-airmen <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-02-08/airmen.csv')
+airmen <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-02-08/airmen.csv')
 
 ```
 ### Data Dictionary

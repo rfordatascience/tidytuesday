@@ -52,7 +52,7 @@ bigfoot <- tuesdata$bigfoot
 
 # Or read in the data manually
 
-bigfoot <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-13/bigfoot.csv')
+bigfoot <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-09-13/bigfoot.csv')
 
 ```
 ### Data Dictionary

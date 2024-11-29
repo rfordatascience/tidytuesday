@@ -6,7 +6,7 @@ Happy Valentine's Day! This week we're exploring [Valentine's Day survey data](h
 
 The NRF has continued to collect data. The data for this week is from 2010 to 2022, as organized by Suraj Das for a Kaggle dataset. In the historical surveys gender was collected as only 'Men' and 'Women', which does not accurately include all genders. 
 
-If you're looking for other Valentine's Day type datasets, check out previous datasets on [chocolate](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-18) or [board games](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-25) (a good Valentine's Day activity!).
+If you're looking for other Valentine's Day type datasets, check out previous datasets on [chocolate](https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-01-18) or [board games](https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-01-25) (a good Valentine's Day activity!).
 
 ## The Data
 
@@ -25,9 +25,9 @@ gifts_gender <- tuesdata$gifts_gender
 
 # Option 2: Read directly from GitHub
 
-historical_spending <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/historical_spending.csv')
-gifts_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/gifts_age.csv')
-gifts_gender <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-13/gifts_gender.csv')
+historical_spending <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/historical_spending.csv')
+gifts_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/gifts_age.csv')
+gifts_gender <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/gifts_gender.csv')
 ```
 
 ## How to Participate

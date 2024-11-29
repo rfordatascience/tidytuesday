@@ -58,7 +58,7 @@ nominees <- tuesdata$nominees
 
 # Or read in the data manually
 
-nominees <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-09-21/nominees.csv')
+nominees <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-21/nominees.csv')
 
 ```
 ### Data Dictionary

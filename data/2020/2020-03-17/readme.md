@@ -15,7 +15,7 @@ Lastly - the pudding analyzed *The Office* dialogue across a few charts - their 
 ```{r}
 # Get the Data
 
-office_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-17/office_ratings.csv')
+office_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-17/office_ratings.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO USE tidytuesdayR version ? from GitHub

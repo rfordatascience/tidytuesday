@@ -58,7 +58,7 @@ computer <- tuesdata$computer
 
 # Or read in the data manually
 
-computer <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-08-17/computer.csv')
+computer <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-08-17/computer.csv')
 
 ```
 ### Data Dictionary

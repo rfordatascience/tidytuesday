@@ -54,7 +54,7 @@ languages <- tuesdata$languages
 
 # Or read in the data manually
 
-languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-21/languages.csv')
+languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-03-21/languages.csv')
 ```
 
 ### Data Dictionary

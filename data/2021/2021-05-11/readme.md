@@ -34,7 +34,7 @@ broadband <- tuesdata$broadband
 
 # Or read in the data manually
 
-broadband <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-11/broadband.csv')
+broadband <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-05-11/broadband.csv')
 
 ```
 ### Data Dictionary

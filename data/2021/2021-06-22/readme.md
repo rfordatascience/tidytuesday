@@ -66,7 +66,7 @@ parks <- tuesdata$parks
 
 # Or read in the data manually
 
-parks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-06-22/parks.csv')
+parks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-06-22/parks.csv')
 
 ```
 ### Data Dictionary

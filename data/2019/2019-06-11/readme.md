@@ -9,7 +9,7 @@ If you want to submit a dataset of your own interest, please do so as an [Issue]
 # Get the data!
 
 ```
-meteorites <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-11/meteorites.csv")
+meteorites <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-11/meteorites.csv")
 ```
 
 # Data Dictionary

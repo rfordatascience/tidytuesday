@@ -69,7 +69,7 @@ frogs <- tuesdata$frogs
 
 # Or read in the data manually
 
-frogs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-02/frogs.csv')
+frogs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-08-02/frogs.csv')
 
 ```
 

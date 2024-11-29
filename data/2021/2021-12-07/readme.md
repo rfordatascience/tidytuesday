@@ -54,7 +54,7 @@ spiders <- tuesdata$spiders
 
 # Or read in the data manually
 
-spiders <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-07/spiders.csv')
+spiders <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-12-07/spiders.csv')
 
 ```
 ### Data Dictionary

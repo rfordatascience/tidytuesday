@@ -73,7 +73,7 @@ owid_energy <- tuesdata$`owid-energy`
 
 # Or read in the data manually
 
-owid_energy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-06-06/owid-energy.csv')
+owid_energy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-06/owid-energy.csv')
 ```
 
 ### Data Dictionary

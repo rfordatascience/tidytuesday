@@ -9,7 +9,7 @@ Kasia has put together a great guide on webscraping along with data cleaning and
 ```{r}
 # Get the Data
 
-food_consumption <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-18/food_consumption.csv')
+food_consumption <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-18/food_consumption.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO USE tidytuesdayR version ? from GitHub
