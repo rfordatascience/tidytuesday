@@ -15,7 +15,7 @@ There's lots of additional information about password quality & strength in the 
 ```{r}
 # Get the Data
 
-passwords <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-14/passwords.csv')
+passwords <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-14/passwords.csv')
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # PLEASE NOTE TO USE 2020 DATA YOU NEED TO UPDATE tidytuesdayR from GitHub

@@ -29,7 +29,7 @@ The code for this analysis and the output data can be found [here](https://githu
 # Get the data!
 
 ```
-school_diversity <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-24/school_diversity.csv")
+school_diversity <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-24/school_diversity.csv")
 ```
 
 # Data Dictionary

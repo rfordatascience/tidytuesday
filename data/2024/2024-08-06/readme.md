@@ -33,7 +33,7 @@ olympics <- tuesdata$olympics
 
 # Option 2: Read directly from GitHub
 
-olympics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-08-06/olympics.csv')
+olympics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-06/olympics.csv')
 
 ```
 

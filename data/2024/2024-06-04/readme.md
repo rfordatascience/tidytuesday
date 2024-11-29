@@ -24,7 +24,7 @@ cheeses <- tuesdata$cheeses
 
 # Option 2: Read directly from GitHub
 
-cheeses <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-06-04/cheeses.csv')
+cheeses <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-04/cheeses.csv')
 ```
 
 ## How to Participate

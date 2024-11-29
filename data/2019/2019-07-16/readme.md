@@ -9,7 +9,7 @@ Join us on Slack [here](https://join.slack.com/t/rfordatascience/shared_invite/e
 # Get the data!
 
 ```
-r4ds_members <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-16/r4ds_members.csv")
+r4ds_members <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-16/r4ds_members.csv")
 
 ```
 

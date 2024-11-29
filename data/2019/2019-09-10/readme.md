@@ -9,9 +9,9 @@ Additional data can be found at [SaferParks Database](https://saferparksdata.org
 # Get the data!
 
 ```
-tx_injuries <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-10/tx_injuries.csv")
+tx_injuries <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-10/tx_injuries.csv")
 
-safer_parks <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-10/saferparks.csv")
+safer_parks <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-10/saferparks.csv")
 
 ```
 

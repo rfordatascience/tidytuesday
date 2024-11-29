@@ -10,7 +10,7 @@ Anthony, Allen, and Sekou have put together a very cool data challenge as part o
 
 Their original readme and source of data can be found on [their GitHub](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md). Please check it out for even more detail, but I have duplicated the core details below:
 
-I have included a repeat of TidyTuesday census data from [week 23 of 2020](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-06-16), which covers the US census data broken down by race from, 1790 to 1990, where the 13th Amendment "officially abolished" slavery in 1865.
+I have included a repeat of TidyTuesday census data from [week 23 of 2020](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-06-16), which covers the US census data broken down by race from, 1790 to 1990, where the 13th Amendment "officially abolished" slavery in 1865.
 
 Please use the `#DuBoisChallenge` hashtag to fully interact/overlap with their event and note that it will continue for several weeks!
 
@@ -84,14 +84,14 @@ georgia_pop <- tuesdata$georgia_pop
 
 # Or read in the data manually
 
-georgia_pop <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/georgia_pop.csv')
-census <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/census.csv')
-furniture <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/furniture.csv')
-city_rural <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/city_rural.csv')
-income <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/income.csv')
-freed_slaves <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/freed_slaves.csv')
-occupation <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/occupation.csv')
-conjugal <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-16/conjugal.csv')
+georgia_pop <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/georgia_pop.csv')
+census <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/census.csv')
+furniture <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/furniture.csv')
+city_rural <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/city_rural.csv')
+income <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/income.csv')
+freed_slaves <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/freed_slaves.csv')
+occupation <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/occupation.csv')
+conjugal <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/conjugal.csv')
 
 ```
 ### Data Dictionary

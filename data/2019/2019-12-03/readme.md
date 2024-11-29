@@ -9,7 +9,7 @@ Some visualizations from [Philly Open Data](https://data.phila.gov/visualization
 # Get the Data
 
 ```
-tickets <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-12-03/tickets.csv")
+tickets <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-12-03/tickets.csv")
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 # Either ISO-8601 date or year/week works!

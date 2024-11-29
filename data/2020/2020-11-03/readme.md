@@ -24,7 +24,7 @@ ikea.csv <- tuesdata$ikea.csv
 
 # Or read in the data manually
 
-ikea <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-03/ikea.csv')
+ikea <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-11-03/ikea.csv')
 
 ```
 ### Data Dictionary

@@ -30,7 +30,7 @@ parfumo_data_clean <- tuesdata$parfumo_data_clean
 
 # Option 2: Read directly from GitHub
 
-parfumo_data_clean <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-12-10/parfumo_data_clean.csv')
+parfumo_data_clean <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-10/parfumo_data_clean.csv')
 ```
 
 ## How to Participate

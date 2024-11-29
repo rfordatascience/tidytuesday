@@ -23,7 +23,7 @@ patient_risk_profiles <- tuesdata$patient_risk_profiles
 
 # Option 2: Read directly from GitHub
 
-patient_risk_profiles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-10-24/patient_risk_profiles.csv')
+patient_risk_profiles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-24/patient_risk_profiles.csv')
 ```
 
 ## How to Participate

@@ -20,8 +20,8 @@ state_name_etymology <- tuesdata$state_name_etymology
 
 # Option 2: Read directly from GitHub
 
-states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-08-01/states.csv')
-state_name_etymology <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-08-01/state_name_etymology.csv')
+states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-01/states.csv')
+state_name_etymology <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-01/state_name_etymology.csv')
 ```
 
 ### Data Dictionary

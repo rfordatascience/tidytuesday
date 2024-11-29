@@ -19,7 +19,7 @@ Most of the data is from the international [FIVB tournaments](https://en.wikiped
 ```{r}
 # Get the Data
 
-vb_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-19/vb_matches.csv', guess_max = 76000)
+vb_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-19/vb_matches.csv', guess_max = 76000)
 
 # Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)
 

@@ -48,7 +48,7 @@ coffee_ratings <- tuesdata$coffee_ratings
 
 # Or read in the data manually
 
-coffee_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-07/coffee_ratings.csv')
+coffee_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-07/coffee_ratings.csv')
 
 ```
 ### Data Dictionary

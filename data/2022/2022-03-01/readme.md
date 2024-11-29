@@ -54,7 +54,7 @@ stations <- tuesdata$stations
 
 # Or read in the data manually
 
-stations <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-01/stations.csv')
+stations <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-03-01/stations.csv')
 
 ```
 ### Data Dictionary

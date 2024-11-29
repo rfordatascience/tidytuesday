@@ -30,7 +30,7 @@ scurvy <- tuesdata$scurvy
 
 # Option 2: Read directly from GitHub
 
-scurvy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-07-25/scurvy.csv')
+scurvy <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-25/scurvy.csv')
 ```
 
 ### Data Dictionary

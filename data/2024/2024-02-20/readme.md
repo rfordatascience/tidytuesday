@@ -26,7 +26,7 @@ isc_grants <- tuesdata$isc_grants
 
 # Option 2: Read directly from GitHub
 
-isc_grants <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-20/isc_grants.csv')
+isc_grants <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-20/isc_grants.csv')
 ```
 
 ## How to Participate

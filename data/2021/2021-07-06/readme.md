@@ -54,7 +54,7 @@ holidays <- tuesdata$holidays
 
 # Or read in the data manually
 
-holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-06/holidays.csv')
+holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-07-06/holidays.csv')
 
 ```
 ### Data Dictionary

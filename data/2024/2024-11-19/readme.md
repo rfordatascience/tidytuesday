@@ -23,7 +23,7 @@ episode_metrics <- tuesdata$episode_metrics
 
 # Option 2: Read directly from GitHub
 
-episode_metrics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-11-19/episode_metrics.csv')
+episode_metrics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-19/episode_metrics.csv')
 ```
 
 ## How to Participate

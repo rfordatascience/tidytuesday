@@ -21,8 +21,8 @@ holiday_movie_genres <- tuesdata$holiday_movie_genres
 
 # Option 2: Read directly from GitHub
 
-holiday_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-12/holiday_movies.csv')
-holiday_movie_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-12-12/holiday_movie_genres.csv')
+holiday_movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-12/holiday_movies.csv')
+holiday_movie_genres <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-12/holiday_movie_genres.csv')
 ```
 
 ## How to Participate

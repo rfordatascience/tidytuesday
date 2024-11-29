@@ -66,7 +66,7 @@ drought <- tuesdata$drought
 
 # Or read in the data manually
 
-drought <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-20/drought.csv')
+drought <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-07-20/drought.csv')
 
 ```
 ### Data Dictionary

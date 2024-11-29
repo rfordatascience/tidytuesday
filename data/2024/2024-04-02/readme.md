@@ -23,7 +23,7 @@ dubois_week10 <- tuesdata$dubois_week10
 
 # Option 2: Read directly from GitHub
 
-dubois_week10 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-02/dubois_week10.csv')
+dubois_week10 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-02/dubois_week10.csv')
 
 ```
 

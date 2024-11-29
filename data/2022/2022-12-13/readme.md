@@ -55,8 +55,8 @@ coverage_codes <- tuesdata$coverage_codes
 
 # Or read in the data manually
 
-state_retail <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-12-13/state_retail.csv',  col_types = "cciciiccc")
-coverage_codes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-12-13/coverage_codes.csv')
+state_retail <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-12-13/state_retail.csv',  col_types = "cciciiccc")
+coverage_codes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-12-13/coverage_codes.csv')
 
 ```
 ### Data Dictionary

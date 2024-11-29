@@ -59,8 +59,8 @@ fifteens <- tuesdata$fifteens
 
 # Or read in the data manually
 
-sevens <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-24/sevens.csv')
-fifteens <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-24/fifteens.csv')
+sevens <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-05-24/sevens.csv')
+fifteens <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-05-24/fifteens.csv')
 
 ```
 ### Data Dictionary

@@ -28,7 +28,7 @@ ninja_warrior <- tuesdata$ninja_warrior
 
 # Or read in the data manually
 
-ninja_warrior <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-12-15/ninja_warrior.csv')
+ninja_warrior <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-12-15/ninja_warrior.csv')
 
 ```
 ### Data Dictionary

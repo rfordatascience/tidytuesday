@@ -29,8 +29,8 @@ power_rangers_seasons <- tuesdata$power_rangers_seasons
 
 # Option 2: Read directly from GitHub
 
-power_rangers_episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-08-27/power_rangers_episodes.csv')
-power_rangers_seasons <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-08-27/power_rangers_seasons.csv')
+power_rangers_episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-27/power_rangers_episodes.csv')
+power_rangers_seasons <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-27/power_rangers_seasons.csv')
 ```
 
 ## How to Participate

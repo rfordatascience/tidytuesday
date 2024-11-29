@@ -18,7 +18,7 @@ heritage <- tuesdata$heritage
 
 # Option 2: Read directly from GitHub
 
-heritage <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-02-06/heritage.csv')
+heritage <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-06/heritage.csv')
 ```
 
 ## How to Participate

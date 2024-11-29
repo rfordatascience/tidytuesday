@@ -15,6 +15,6 @@ tuesdata <- tidytuesdayR::tt_load({{year}}, week = {{week}})
 # Option 2: Read directly from GitHub
 
 {{#datasets}}
-{{{dataset_name}}} <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/{{year}}/{{date}}/{{dataset_file}}')
+{{{dataset_name}}} <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/{{year}}/{{date}}/{{dataset_file}}')
 {{/datasets}}
 ```

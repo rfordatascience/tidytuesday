@@ -9,7 +9,7 @@ They have been carefully recording this data, and the raw data is available thro
 # Get the data!
 
 ```
-bird_counts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-18/bird_counts.csv")
+bird_counts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-18/bird_counts.csv")
 ```
 
 # Data Dictionary

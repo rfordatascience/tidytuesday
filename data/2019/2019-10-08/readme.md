@@ -11,7 +11,7 @@ A nice analysis of this dataset for age-effects in R can be found at [Elias Ozio
 # Get the data!
 
 ```
-ipf_lifts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-08/ipf_lifts.csv")
+ipf_lifts <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-08/ipf_lifts.csv")
 ```
 
 # Data Dictionary

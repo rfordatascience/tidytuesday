@@ -25,8 +25,8 @@ proposed_federal_holidays <- tuesdata$proposed_federal_holidays
 
 # Option 2: Read directly from GitHub
 
-federal_holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-06-18/federal_holidays.csv')
-proposed_federal_holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-06-18/proposed_federal_holidays.csv')
+federal_holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-18/federal_holidays.csv')
+proposed_federal_holidays <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-18/proposed_federal_holidays.csv')
 ```
 
 ## How to Participate

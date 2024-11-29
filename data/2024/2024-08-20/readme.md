@@ -20,7 +20,7 @@ english_monarchs_marriages_df <- tuesdata$english_monarchs_marriages_df
 
 # Option 2: Read directly from GitHub
 
-english_monarchs_marriages_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-08-20/english_monarchs_marriages_df.csv')
+english_monarchs_marriages_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-20/english_monarchs_marriages_df.csv')
 ```
 
 ## How to Participate

@@ -54,7 +54,7 @@ artists <- tuesdata$artists
 
 # Or read in the data manually
 
-artists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-27/artists.csv')
+artists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-09-27/artists.csv')
 
 ```
 ### Data Dictionary

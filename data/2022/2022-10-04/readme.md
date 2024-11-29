@@ -56,7 +56,7 @@ product_hunt <- tuesdata$product_hunt
 
 # Or read in the data manually
 
-product_hunt <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-10-04/product_hunt.csv')
+product_hunt <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-04/product_hunt.csv')
 
 ```
 ### Data Dictionary

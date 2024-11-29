@@ -25,7 +25,7 @@ mutant_moneyball <- tuesdata$mutant_moneyball
 
 # Option 2: Read directly from GitHub
 
-mutant_moneyball <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-19/mutant_moneyball.csv')
+mutant_moneyball <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-19/mutant_moneyball.csv')
 
 ```
 

@@ -40,7 +40,7 @@ datasaurus <- tuesdata$datasaurus
 
 # Or read in the data manually
 
-datasaurus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-13/datasaurus.csv')
+datasaurus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-10-13/datasaurus.csv')
 
 ```
 ### Data Dictionary
