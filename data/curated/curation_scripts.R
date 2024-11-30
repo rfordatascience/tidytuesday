@@ -4,7 +4,7 @@ tt_dict <- function(x) {
   rlang::check_installed(c("tibble", "dplyr", "knitr"))
   tibble::tibble(variable = names(x)) |>
     dplyr::mutate(
-      class = purrr::map(x, \(var) typeof(var)),
+      class = purrr::map(x, \(var) vctrs::vec_ptype_full(var)),
       description = "Describe this field in sentence case."
     ) |>
     knitr::kable()
