@@ -1,0 +1,32 @@
+title: "Global Holidays and Travel"
+article:
+  title: "Global holiday datasets for understanding seasonal human mobility and population dynamics"
+  url: "https://www.nature.com/articles/s41597-022-01120-z"
+data_source:
+  title: "WorldPop Hub"
+  url: "https://hub.worldpop.org/"
+images:
+- file: "monthly_vol_of_airline_pass_in_90_countries_2010_2018.png"
+  alt: >
+    Average rank of international air travel by month and country/territory/area
+    in the 2015–2019 period. International air travel data were based on
+    passenger bookings, obtained from the Official Aviation Guide. The regions
+    without data are filled with grey colour. Source: WorldPop Hub
+- file: "travel_holidays.png"
+  alt: >
+    Boxplots of the monthly volume of airline passengers by the duration of
+    holidays across the world. (a) Airline passenger statistics in 90
+    countries/territories/areas, collated by this study from openly available
+    data sources. (b) International air travel data based on passenger bookings,
+    obtained from the Official Aviation Guide. The monthly volume of air travel
+    was transformed as the rank. Months with higher volumes of airline
+    passengers have a higher rank (from the lowest to the highest: 1–12) in each
+    year and country. Source: Lai, S., Sorichetta, A., Steele, J. et al. Global
+    holiday datasets for understanding seasonal human mobility and population
+    dynamics. Sci Data 9, 17 (2022).
+credit:
+  post: "Jon Harmon"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"
