@@ -1,0 +1,21 @@
+title: "James Beard Awards"
+article:
+  title: "James Beard Foundation Awards"
+  url: "https://www.jamesbeard.org/awards"
+data_source:
+  title: "James Beard Foundation Awards Search"
+  url: "https://www.jamesbeard.org/awards/search"
+images:
+# Please include at least one image, and up to three images
+- file: "james_beard_logo.png"
+  alt: >
+    The logo of the James Beard Foundation. The name "James Beard", the slogan
+    "Good food for good", and the word "Foundation" inverted.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Jon Harmon"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"
