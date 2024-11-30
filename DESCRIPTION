@@ -25,6 +25,7 @@ Imports:
     stringr,
     tibble,
     usethis,
+    vctrs,
     whisker,
     yaml
 Encoding: UTF-8
