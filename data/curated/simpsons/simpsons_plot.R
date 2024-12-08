@@ -4,9 +4,6 @@
 ###_____________________________________________________________________________
 
 # packages
-library(httr)
-library(tidyverse)
-library(jsonlite)
 library(fontawesome) # for some icons
 library(showtext) #fonts look GREAT
 library(sysfonts) #for some helper functions
@@ -52,8 +49,8 @@ simpsons_episodes_plot <- simpsons_episodes |>
   ggplot2::geom_line(linejoin = "round", lineend = "round", color = "darkgray",
                      linewidth = 1.5
                      ) + 
-  labs(title = "The Simpsons Avg Views Over the Years",
-       subtitle = "Simpsons Dataset | Kaggle",
+  labs(title = "The Simpsons Avg Views in the U.S. Over the Years",
+       subtitle = "Simpsons Dataset 2010-2016 | Kaggle",
        x = "",
        y = "Views",
        fill = "",

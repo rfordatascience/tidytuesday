@@ -57,7 +57,10 @@ simpsons_locations <- read_csv(csv_file[3])
 simpsons_script_lines <- read_csv(csv_file[4])
 
 # Step 5: Explore the data
-glimpse(parfumo_data)
+glimpse(simpsons_characters)
+glimpse(simpsons_episodes)
+glimpse(simpsons_locations)
+glimpse(simpsons_script_lines)
 
 # Clean up temporary files (optional)
 unlink(c(temp_file, unzip_dir), recursive = TRUE)
