@@ -87,7 +87,29 @@ simpsons_script_lines_filter <- simpsons_script_lines |>
 
 # export
 
+# characters
+write_csv(
+  x = simpsons_characters,
+  file = paste0(getwd(), "/data/curated/simpsons/simpsons_characters.csv")
+)
 
+# episodes
+write_csv(
+  x = simpsons_episodes_filter,
+  file = paste0(getwd(), "/data/curated/simpsons/simpsons_episodes.csv")
+)
+
+# locations
+write_csv(
+  x = simpsons_locations,
+  file = paste0(getwd(), "/data/curated/simpsons/simpsons_locations.csv")
+)
+
+# script lines
+write_csv(
+  x = simpsons_script_lines_filter,
+  file = paste0(getwd(), "/data/curated/simpsons/simpsons_script_lines.csv")
+)
 
 ################################################################################
 ### End ########################################################################
