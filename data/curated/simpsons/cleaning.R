@@ -7,9 +7,6 @@
 library(httr)
 library(tidyverse)
 library(jsonlite)
-library(glue)
-library(janitor)
-library(naniar)
 
 # Define the metadata URL and fetch it
 metadata_url <- "www.kaggle.com/datasets/prashant111/the-simpsons-dataset/croissant/download"
@@ -87,9 +84,6 @@ new_episode_id <- simpsons_episodes_filter$id
 
 simpsons_script_lines_filter <- simpsons_script_lines |> 
   filter(episode_id %in% new_episode_id)
-
-# visualize viewership throughout the life of the Simpson's
-
 
 # export
 
