@@ -1,21 +1,17 @@
-title: DESCRIPTIVE TITLE THAT FITS THE SENTENCE "This week we're exploring {title}!"
+title: Donuts, Data, and D'oh - A Deep Dive into The Simpsons
 article:
-  title: TITLE OF ARTICLE THAT USES OR DESCRIBES THE DATASET
-  url: URL OF THAT ARTICLE
+  title: The Simpsons Dataset
+  url: https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset
 data_source:
-  title: TITLE OF THE SOURCE OF THE DATA
-  url: URL TO THAT SOURCE
+  title: The Simpsons Dataset
+  url: https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset
 images:
-# Please include at least one image, and up to three images
-- file: FILENAME.png
+- file: simpsons_line.png
   alt: >
-    ALT TEXT FOR THIS IMAGE. THIS TEXT SHOULD BE IN "Sentence case." AND SHOULD 
-    SERVE AS A *REPLACEMENT* FOR THE IMAGE, NOT JUST *DESCRIBE* THE IMAGE
+    Line graph titled 'The Simpsons Avg Views Over the Years' showing the average U.S. viewership for The Simpsons from its peak around 30 million viewers in the early 1990s to a gradual decline below 5 million by the 2010s. Note: this data reflects viewership in the United States only.
 credit:
-# We want to thank you for curating this dataset! If you do not want a 
-# particular type of credit, please delete the related line.
-  post: YOUR NAME AND AFFILIATION FOR CREDIT IN POST
-  bluesky: https://bsky.app/profile/YOURNAME
-  linkedin: https://www.linkedin.com/in/YOURNAME
-  mastodon: @YOURNAME@YOURSERVER
-  github: https://github.com/YOURNAME
+  post: Nicolas Foss, Ed.D., MS with Iowa HHS
+  bluesky: 
+  linkedin: https://www.linkedin.com/in/nicolas-foss
+  mastodon: 
+  github: https://github.com/nicolasfoss

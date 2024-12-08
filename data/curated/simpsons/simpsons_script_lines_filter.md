@@ -1,15 +1,15 @@
-|variable           |class     |description                           |
-|:------------------|:---------|:-------------------------------------|
-|id                 |double    |Describe this field in sentence case. |
-|episode_id         |double    |Describe this field in sentence case. |
-|number             |double    |Describe this field in sentence case. |
-|raw_text           |character |Describe this field in sentence case. |
-|timestamp_in_ms    |double    |Describe this field in sentence case. |
-|speaking_line      |logical   |Describe this field in sentence case. |
-|character_id       |double    |Describe this field in sentence case. |
-|location_id        |double    |Describe this field in sentence case. |
-|raw_character_text |character |Describe this field in sentence case. |
-|raw_location_text  |character |Describe this field in sentence case. |
-|spoken_words       |character |Describe this field in sentence case. |
-|normalized_text    |character |Describe this field in sentence case. |
-|word_count         |double    |Describe this field in sentence case. |
+| variable           | class     | description                                              |
+|:-------------------|:----------|:--------------------------------------------------------|
+| id                 | double    | Unique identifier for each script line. |
+| episode_id         | double    | Identifier for the episode in which the line appears. |
+| number             | double    | Sequential number of the line within the episode. |
+| raw_text           | character | The original text of the script line. |
+| timestamp_in_ms    | double    | Timestamp of the line in milliseconds. |
+| speaking_line      | logical   | Indicates whether the line is spoken by a character. |
+| character_id       | double    | Identifier for the character speaking the line. |
+| location_id        | double    | Identifier for the location where the line is spoken. |
+| raw_character_text | character | Original text of the character's name. |
+| raw_location_text  | character | Original text of the location name. |
+| spoken_words       | character | Words spoken by the character in the line. |
+| normalized_text    | character | Lowercase version of the script line. |
+| word_count         | double    | Number of words in the line. |

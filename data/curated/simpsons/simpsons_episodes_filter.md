@@ -1,16 +1,16 @@
-|variable               |class     |description                           |
-|:----------------------|:---------|:-------------------------------------|
-|id                     |double    |Describe this field in sentence case. |
-|image_url              |character |Describe this field in sentence case. |
-|imdb_rating            |double    |Describe this field in sentence case. |
-|imdb_votes             |double    |Describe this field in sentence case. |
-|number_in_season       |double    |Describe this field in sentence case. |
-|number_in_series       |double    |Describe this field in sentence case. |
-|original_air_date      |date      |Describe this field in sentence case. |
-|original_air_year      |double    |Describe this field in sentence case. |
-|production_code        |character |Describe this field in sentence case. |
-|season                 |double    |Describe this field in sentence case. |
-|title                  |character |Describe this field in sentence case. |
-|us_viewers_in_millions |double    |Describe this field in sentence case. |
-|video_url              |character |Describe this field in sentence case. |
-|views                  |double    |Describe this field in sentence case. |
+| variable               | class     | description                                         |
+|:-----------------------|:----------|:---------------------------------------------------|
+| id                     | double    | Unique identifier for each episode record.                 |
+| image_url              | character | URL linking to the image associated with the episode record. |
+| imdb_rating            | double    | IMDb rating for the episode. |
+| imdb_votes             | double    | Number of votes received on IMDb for the episode. |
+| number_in_season       | double    | Episode number within the season. |
+| number_in_series       | double    | Episode number within the series. |
+| original_air_date      | date      | Date the episode originally aired. |
+| original_air_year      | double    | Year the episode originally aired. |
+| production_code        | character | Code used in production to identify the episode. |
+| season                 | double    | Season number of the episode. |
+| title                  | character | Title of the episode. |
+| us_viewers_in_millions | double    | Number of viewers in the U.S. in millions. |
+| video_url              | character | URL linking to the video associated with the record. |
+| views                  | double    | Total number of views recorded for the episode video URL. |

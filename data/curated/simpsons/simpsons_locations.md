@@ -1,5 +1,5 @@
-|variable        |class     |description                           |
-|:---------------|:---------|:-------------------------------------|
-|id              |double    |Describe this field in sentence case. |
-|name            |character |Describe this field in sentence case. |
-|normalized_name |character |Describe this field in sentence case. |
+| variable        | class     | description                                 |
+|:----------------|:----------|:-------------------------------------------|
+| id              | double    | Unique identifier for each location.        |
+| name            | character | Name of the location.                       |
+| normalized_name | character | Lowercase version of the location name.  |
