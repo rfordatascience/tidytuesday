@@ -27,25 +27,30 @@ zip::unzip(zip_file, exdir = extracted_dir)
 # Test to confirm the extracted contents
 list.files(extracted_dir, recursive = TRUE)
 
-# Step 4: Locate the peaks.DBF file
-dbf_file <- file.path(extracted_dir, "Himalayan Database", "HIMDATA", "peaks.DBF")
-print(dbf_file) # Debugging: Verify the file path
+# Step 4: Locate the peaks.DBF and exped.DBP files
+dbf_file_peaks <- file.path(extracted_dir, "Himalayan Database", "HIMDATA", "peaks.DBF")
+dbf_file_exped <- file.path(extracted_dir, "Himalayan Database", "HIMDATA", "exped.DBF")
+print(dbf_file_peaks) # Debugging: Verify the file path
+print(dbf_file_exped) # Debugging: Verify the file path
 
-# Step 5: Read the .DBF file using the `foreign` package
-peaks_data <- foreign::read.dbf(dbf_file, as.is = F)
+# Step 5: Read the .DBF files using the `foreign` package
+peaks_data <- foreign::read.dbf(dbf_file_peaks, as.is = F)
+exped_data <- foreign::read.dbf(dbf_file_exped, as.is = F)
 
 # Step 6: Convert the data to a tidy tibble
 peaks_temp <- tibble::as_tibble(peaks_data)
+exped_temp <- tibble::as_tibble(exped_data)
 
 # Preview the data
-print(peaks_temp)
+glimpse(peaks_temp)
+glimpse(exped_temp)
 
 # Clean up temporary files (optional)
 unlink(c(zip_file, extracted_dir), recursive = TRUE)
 
 ###_____________________________________________________________________________
 ### Add columns that recode some variables that are integers into character
-### strings that describe their subject
+### strings that describe their subject in the peaks dataset
 ###_____________________________________________________________________________
 
 peaks_tidy <- peaks_temp |> 
@@ -109,6 +114,49 @@ peaks_tidy <- peaks_temp |>
   .after = PSTATUS
   ) |> 
   mutate(across(c(HIMAL_FACTOR, PHOST_FACTOR, PSTATUS_FACTOR), ~ factor(.)))
+
+###_____________________________________________________________________________
+### Add columns that recode some variables that are integers into character
+### strings that describe their subject in the expeditions dataset
+###_____________________________________________________________________________
+
+exped_tidy <- exped_temp |> 
+  dplyr::mutate(SEASON_FACTOR = case_when(SEASON == 0 ~ "Unknown",
+                                          SEASON == 1 ~ "Spring",
+                                          SEASON == 2 ~ "Summer",
+                                          SEASON == 3 ~ "Autumn",
+                                          SEASON == 4 ~ "Winter",
+                                          TRUE ~ NA_character_
+                                          ),
+                .after = SEASON
+                ) |> 
+  dplyr::mutate(HOST_FACTOR = case_when(HOST == 0 ~ "Unknown",
+                                        HOST == 1 ~ "Nepal",
+                                        HOST == 2 ~ "China",
+                                        HOST == 3 ~ "India",
+                                        TRUE ~ NA_character_
+                                        ),
+                .after = HOST
+                ) |> 
+  dplyr::mutate(TERMREASON_FACTOR = case_when(TERMREASON == 0 ~ "Unknown",
+                                       TERMREASON == 1 ~ "Success (main peak)",
+                                       TERMREASON == 2 ~ "Success (subpeak, foresummit)",
+                                       TERMREASON == 3 ~ "Success (claimed)",
+                                       TERMREASON == 4 ~ "Bad weather (storms, high winds)",
+                                       TERMREASON == 5 ~ "Bad conditions (deep snow, avalanching, falling ice, or rock)",
+                                       TERMREASON == 6 ~ "Accident (death or serious injury)",
+                                       TERMREASON == 7 ~ "Illness, AMS, exhaustion, or frostbite",
+                                       TERMREASON == 8 ~ "Lack (or loss) of supplies, support or equipment",
+                                       TERMREASON == 9 ~ "Lack of time",
+                                       TERMREASON == 10 ~ "Route technically too difficult, lack of experience, strength, or motivation",
+                                       TERMREASON == 11 ~ "Did not reach base camp",
+                                       TERMREASON == 12 ~ "Did not attempt climb",
+                                       TERMREASON == 13 ~ "Attempt rumored",
+                                       TERMREASON == 14 ~ "Other"
+                                       ),
+                .after = TERMREASON
+                ) |> 
+  filter(grepl(pattern = "202[01234]", x = YEAR))
 
 ################################################################################
 ### End  #######################################################################

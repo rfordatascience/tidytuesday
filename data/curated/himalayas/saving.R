@@ -7,3 +7,4 @@ dir_name <- "himalayas"
 # Run this for each of your datasets, replacing YOUR_DATASET_DF with the name of
 # a data.frame from cleaning.R.
 ttsave(peaks_tidy, dir_name = dir_name)
+ttsave(exped_tidy, dir_name = dir_name)
