@@ -1,0 +1,18 @@
+title: Pokemon
+article:
+  title: Gotta Catch Em All?
+  url: github.com/frankiethull/tidytuesday/tree/pokemon/data/curated/pokemon/article.md
+data_source:
+  title: pokemon
+  url: https://github.com/williamorim/pokemon/
+images:
+# Please include at least one image, and up to three images
+- file: pokemon.png
+  alt: >
+    Image shows faceted scatterplots of pokemon dataset. x = attack; y = defense; facet = pokemon type; color = primary pokemon color;
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Frank Hull
+  bluesky: https://bsky.app/profile/frankiethull
+  github: https://github.com/frankiethull
