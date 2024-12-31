@@ -59,4 +59,4 @@ Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tid
 
 ## Contributing
 
-PLease see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
+Please see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
