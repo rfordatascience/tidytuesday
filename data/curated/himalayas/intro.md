@@ -6,7 +6,6 @@ Originally published in 2004 by the American Alpine Club as a CD-ROM booklet, th
 
 These data are rich in historical value, detailing the peaks, expeditions, climbing statuses, and geographic information of numerous Himalayan summits. We will explore these data in two tidy tibbles, making it easier to analyze trends in mountaineering expeditions, including seasonality, success rates, and national participation over time.  Participants this week will be able to use the peaks and expeditions datasets.  To manage file size, the expeditions file was filtered down to 2020-2024.
 
-Thank you to [Nicolas Foss](www.linkedin.com/in/nicolas-foss) this week's dataset.
 
 * What is the distribution of climbing status (PSTATUS) across different mountain ranges (HIMAL_FACTOR)?
 * Which mountain range (HIMAL_FACTOR) has the highest average peak height (HEIGHTM)?
