@@ -7,11 +7,10 @@
 
 ## Goals
 
-Our over-arching goal for TidyTuesday is to make it easier to learn to work with data, by providing real-world datasets.
+Our over-arching goal for TidyTuesday is to provide real-world datasets so that people can learn to work with data.
 
-Our goal for 2023-2024 is to increase usage of #TidyTuesday within classrooms.
-We would like to be used in at least 10 courses by September 2024.
-If you are using TidyTuesday to teach data-related skills, [please let us know](https://forms.gle/G1Y7doYqRU89m9SE8)! 
+- [x] For 2024, our goal was to be used in at least 10 courses. Our survey indicates that we are used in at least 30 courses!
+- [ ] For 2025, our goal is to crowdsource the curation of TidyTuesday datasets.
 
 ***
 
@@ -28,63 +27,11 @@ If you are using TidyTuesday to teach data-related skills, [please let us know](
 
 ## DataSets
 
-### [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021) | [2022](data/2022) | [2023](data/2023) | [2024](data/2024)
+### [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021) | [2022](data/2022) | [2023](data/2023) | [2024](data/2024) | [2025](data/2025)
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2024-01-02` | Bring your own data to start 2024! | | |
-| 2 | `2024-01-09` | [Canadian NHL Player Birth Dates](data/2024/2024-01-09/readme.md) | [Statistics Canada](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310041501&pickMembers%5B0%5D=3.1&cubeTimeFrame.startYear=1991&cubeTimeFrame.endYear=2022&referencePeriods=19910101%2C20220101), [NHL team list endpoint](https://api.nhle.com/stats/rest/en/team), [NHL API](https://api-web.nhle.com/v1/) | [Are Birth Dates Still Destiny for Canadian NHL Players?](https://jlaw.netlify.app/2023/12/04/are-birth-dates-still-destiny-for-canadian-nhl-players/) |
-| 3 | `2024-01-16` | [US Polling Places 2012-2020](data/2024/2024-01-16/readme.md) | [Center for Public Integrity](https://github.com/PublicI/us-polling-places) | [National data release sheds light on past polling place changes](https://publicintegrity.org/politics/elections/ballotboxbarriers/data-release-sheds-light-on-past-polling-place-changes/) |
-| 4 | `2024-01-23` | [Educational attainment of young people in English towns](data/2024/2024-01-23/readme.md) | [The UK Office for National Statistics](https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/educationandchildcare/datasets/educationalattainmentofyoungpeopleinenglishtownsdata/200708201819/youngpeoplesattainmentintownsreferencetable1.xlsx) | [Why do children and young people in smaller towns do better academically than those in larger towns?](https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/articles/whydochildrenandyoungpeopleinsmallertownsdobetteracademicallythanthoseinlargertowns/2023-07-25) |
-| 5 | `2024-01-30` | [Groundhog predictions](data/2024/2024-01-30/readme.md) | [Groundhog-day.com API](https://groundhog-day.com/api) | [Groundhog-day.com Predictions by Year](https://groundhog-day.com/predictions) |
-| 6 | `2024-02-06` | [World heritage sites](data/2024/2024-02-06/readme.md) | [UNESCO World Heritage Sites](https://whc.unesco.org/en/list) | [1 dataset 100 visualizations](https://100.datavizproject.com/) |
-| 7 | `2024-02-13` | [Valentine's Day consumer data](data/2024/2024-02-13/readme.md) | [Valentine's Days consumer survey data](https://www.kaggle.com/datasets/infinator/happy-valentines-day-2022) | [National Retail Federation Valentine's Day Data Center](https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center) |
-| 8 | `2024-02-20` | [R Consortium ISC Grants](data/2024/2024-02-20/readme.md) | [R Consortium ISC Funded Projects](https://www.r-consortium.org/all-projects/awarded-projects) | [R Consortium ISC Call for Proposals 2024](https://www.r-consortium.org/blog/2024/02/08/r-consortium-infrastructure-steering-committee-isc-grant-program-accepting-proposals-starting-march-1st) |
-| 9 | `2024-02-27` | [Leap Day](data/2024/2024-02-27/readme.md) | [Wikipedia: February 29](https://en.wikipedia.org/wiki/February_29) | [Wikipedia: February 29](https://en.wikipedia.org/wiki/February_29) |
-| 10 | `2024-03-05` | [Trash Wheel Collection Data](data/2024/2024-03-05/readme.md) | [Healthy Harbor Trash Wheel Collection Data](https://docs.google.com/spreadsheets/d/1b8Lbe-z3PNb3H8nSsSjrwK2B0ReAblL2/edit#gid=1143432795) | [Mr. Trash Wheel](https://www.mrtrashwheel.com/) | 
-| 11 | `2024-03-12` | [Fiscal Sponsors](data/2024/2024-03-12/readme.md) | [Fiscal Sponsor Directory](https://fiscalsponsordirectory.org/?page_id=1330) | [Fiscal Sponsor Directory facts](https://fiscalsponsordirectory.org/?page_id=95) | 
-| 12 | `2024-03-19` | [X-Men Mutant Moneyball](data/2024/2024-03-19/readme.md) | [Mutant Moneyball Data](https://github.com/EliCash82/mutantmoneyball) | [Mutant moneyball: a data-driven ultimate X-Men](https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/) | 
-| 13 | `2024-03-26` | [NCAA Men's March Madness](data/2024/2024-03-26/readme.md) | [Men's March Madness Data](https://www.kaggle.com/datasets/nishaanamin/march-madness-data) | [Bracketology: predicting March Madness](https://www.kaggle.com/code/nishaanamin/bracketology-predicting-march-madness) | 
-| 14 | `2024-04-02` | [Du Bois Visualization Challenge 2024](data/2024/2024-04-02/readme.md) | [Week 10 Data ](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv) | [Du Bois Visualization Challenge: 2024](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md) | 
-| 15 | `2024-04-09` | [2023 & 2024 US Solar Eclipses](data/2024/2024-04-09/readme.md) | [NASA's Scientific Visualization Studio cities-eclipse-2024.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2024.json), [NASA's Scientific Visualization Studio cities-eclipse-2023.json](https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2023.json) | [The 2023 and 2024 Solar Eclipses: Map and Data](https://svs.gsfc.nasa.gov/5073) | 
-| 16 | `2024-04-16` | [Shiny Packages](data/2024/2024-04-16/readme.md) | [shiny on CRAN](https://cran.r-project.org/package=shiny) | [ShinyConf2024: The Future is Shiny](https://www.shinyconf.com/) | 
-| 17 | `2024-04-23` | [Objects Launched into Space](data/2024/2024-04-23/readme.md) | [Our World in Data: Annual number of objects launched into space](https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space) | [UN Office for Outer Space Affairs: Online index of objects launched into outer space](https://www.unoosa.org/oosa/osoindex/search-ng.jspx) | 
-| 18 | `2024-04-30` | [Worldwide Bureaucracy Indicators](data/2024/2024-04-30/readme.md) | [World Bank Data Catalog: Worldwide Bureaucracy Indicators](https://datacatalog.worldbank.org/search/dataset/0038132) | [Introducing the Worldwide Bureaucracy Indicators](https://blogs.worldbank.org/en/developmenttalk/introducing-worldwide-bureaucracy-indicators) | 
-| 19 | `2024-05-07` | [Rolling Stone Album Rankings](data/2024/2024-05-07/readme.md) | [Rolling Stone 500](https://docs.google.com/spreadsheets/d/1c_Tdnm7S1oo8R9UNtdCVIY7bYASmf_cvMynOJTpKuHA/edit#gid=0) | [What Makes an Album the Greatest of All Time](https://pudding.cool/2024/03/greatest-music/) | 
-| 20 | `2024-05-14` | [The Great American Coffee Taste Test](data/2024/2024-05-14/readme.md) | [James Hoffmann and Cometeer Great American Coffee Taste Test Survey](https://bit.ly/gacttCSV) | [Great American Coffee Taste Test Breakdown](https://rmckeon.medium.com/great-american-coffee-taste-test-breakdown-7f3fdcc3c41d) | 
-| 21 | `2024-05-21` | [Carbon Majors emissions data](data/2024/2024-05-21/readme.md) | [CarbonMajors dataset](https://carbonmajors.org/Downloads) | [CarbonMajors](https://carbonmajors.org/) |
-| 22 | `2024-05-28` | [Lisa's Vegetable Garden Data](data/2024/2024-05-28/readme.md) | [{gardenR} package](https://github.com/llendway/gardenR) | [Macalester College COMP/STAT 112 Tutorials](https://ds112-lendway.netlify.app/) | 
-| 23 | `2024-06-04` | [Cheese](data/2024/2024-06-04/readme.md) | [cheese.com](https://www.cheese.com/alphabetical/) | [cheese.com site and blog](https://www.cheese.com/) | 
-| 24 | `2024-06-11` | [Campus Pride Index](data/2024/2024-06-11/readme.md) | [Campus Pride Index search results](https://campusprideindex.org/searchresults/display/0) | [Campus Pride Index](https://campusprideindex.org) |  
-| 25 | `2024-06-18` | [US Federal Holidays](data/2024/2024-06-18/readme.md) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) | [Wikipedia Federal holidays in the United States](https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States) |  
-| 26 | `2024-06-25` | [tidyRainbow Datasets](data/2024/2024-06-25/readme.md) | [tidyRainbow LGBTQ Movie Database](https://raw.githubusercontent.com/r-lgbtq/tidyrainbow/main/data/LGBTQ-movie-database/movieData.csv) | [tidyRainbow Datasets](https://github.com/r-lgbtq/tidyrainbow/tree/main) |   
-| 27 | `2024-07-02` | [TidyTuesday Datasets](data/2024/2024-07-02/readme.md) | [ttmeta package](https://github.com/r4ds/ttmeta) | [ttmeta package](https://r4ds.github.io/ttmeta/) | 
-| 28 | `2024-07-09` | [David Robinson's TidyTuesday Functions](data/2024/2024-07-09/readme.md) | [funspotr examples](https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv) | [Network Visualizations of Code Collections](https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/) | 
-| 29 | `2024-07-16` | [English Women's Football](data/2024/2024-07-16/readme.md) | [The English Women's Football (EWF) Database, May 2024](https://github.com/probjects/ewf-database) | [The English Women's Football (EWF) Database, May 2024](https://github.com/probjects/ewf-database) | 
-| 30 | `2024-07-23` | [American Idol data](data/2024/2024-07-23/readme.md) | [American Idol data](https://github.com/kkakey/American_Idol) | [American Idol data](https://github.com/kkakey/American_Idol) | 
-| 31 | `2024-07-30` | [Summer Movies](data/2024/2024-07-30/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [IMDb's 2023 Summer Movie Guide](https://www.imdb.com/list/ls569932833) | 
-| 32 | `2024-08-06` | [Olympic Medals](data/2024/2024-08-06/readme.md) | [Kaggle Olypmic history data](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) | [Financial Times Tokyo Olypmics analysis](https://ig.ft.com/tokyo-olympics-alternative-medal-table/) |
-| 33 | `2024-08-13` | [World's Fairs](data/2024/2024-08-13/readme.md) | [List of world expositions (Wikipedia)](https://en.wikipedia.org/wiki/List_of_world_expositions) | [World's fair (Wikipedia)](https://en.wikipedia.org/wiki/World%27s_fair) | 
-| 34 | `2024-08-20` | [English Monarchs and Marriages](data/2024/2024-08-20/readme.md) | [A list of Monarchs by marriage](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) | [monarchs and marriages](github.com/frankiethull/english_monarch_marriages) | 
-| 35 | `2024-08-27` | [The Power Rangers Franchise](data/2024/2024-08-27/readme.md) | [Power Rangers: Seasons and episodes data](https://www.kaggle.com/datasets/karetnikovn/power-rangers-dataset/data) | [National Power Rangers Day (August 28)](https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28) | 
-| 36 | `2024-09-03` | [Stack Overflow Annual Developer Survey 2024](data/2024/2024-09-03/readme.md) | [Stack Overflow Annual Developer Survey 2024](https://survey.stackoverflow.co/) | [Stack Overflow Annual Developer Survey Results](https://survey.stackoverflow.co/2024/) | 
-| 37 | `2024-09-10` | [Economic Diversity and Student Outcomes](data/2024/2024-09-10/readme.md) | [Opportunity Insights: College-Level Data for 139 Selective American Colleges](https://opportunityinsights.org/data/) | [Economic diversity and student outcomes at the University of Texas at Dallas](https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-dallas) | 
-| 38 | `2024-09-17` | [Shakespeare Dialogue](data/2024/2024-09-17/readme.md) | [The Complete Works of William Shakespeare](https://shakespeare.mit.edu/) | [shakespeare](https://github.com/nrennie/shakespeare) | 
-| 39 | `2024-09-24` | [International Mathematical Olympiad (IMO) Data](data/2024/2024-09-24/readme.md) | [IMO Team and Individual Results](https://www.imo-official.org/organizers.aspx) | [Global Map of 2024 International Mathematical Olympiad Scores](https://www.voronoiapp.com/maps/-Global-Map-of-2024-International-Mathematical-Olympiad-Scores-1875) | 
-| 40 | `2024-10-01` | [Chess Game Dataset (Lichess)](data/2024/2024-10-01/readme.md) | [Chess Game Dataset (Lichess)](https://www.kaggle.com/datasets/datasnaek/chess/data) | [Beginner's Guide: Data Visualization with Python](https://www.kaggle.com/code/batibayburak/beginner-s-guide-data-visualization-with-python) | 
-| 41 | `2024-10-08` | [National Park Species](data/2024/2024-10-08/readme.md) | [NPSpecies - The National Park Service biodiversity database](https://irma.nps.gov/npspecies/) | [NPSpecies with Julia & Tidier](https://github.com/frankiethull/NPSpecies/inst/examples/julia/NPSpecies_TidierOrg.md) | 
-| 42 | `2024-10-15` | [Southern Resident Killer Whale Encounters](data/2024/2024-10-15/readme.md) | [Center for Whale Research](https://www.whaleresearch.com/) | [Web Scraping & Mapping {orcas} Encounters](https://jadeynryan.github.io/orcas/) | 
-| 43 | `2024-10-22` | [The CIA World Factbook](data/2024/2024-10-22/readme.md) | [usdatasets R package](https://cran.r-project.org/package=usdatasets) | [The World Factbook](https://www.cia.gov/the-world-factbook/) | 
-| 44 | `2024-10-29` | [Monster Movies](data/2024/2024-10-29/readme.md) | [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) | [Why Do People Like Horror Films? A Statistical Analysis](https://www.statsignificant.com/p/why-do-people-like-horror-films-a) | 
-| 45 | `2024-11-05` | [Democracy and Dictatorship](data/2024/2024-11-05/readme.md) | [democracyData R Package](https://xmarquez.github.io/democracyData/index.html) | [Regime types and regime change: A new dataset on democracy, coups, and political institutions](https://link.springer.com/article/10.1007/s11558-019-09345-1) | 
-| 46 | `2024-11-12` | [ISO Country Codes](data/2024/2024-11-12/readme.md) | [ISOcodes R Package](https://cran.r-project.org/package=ISOcodes) | [ISO 3166 on Wikipedia](https://en.wikipedia.org/wiki/ISO_3166) | 
-| 47 | `2024-11-19` | [Bob's Burgers Episodes](data/2024/2024-11-19/readme.md) | [bobsburgersR R Package](https://github.com/poncest/bobsburgersR) | [Bob’s Burgers Episode Fingerprints by Season](https://stevenponce.netlify.app/projects/standalone_visualizations/sa_2024-11-11.html) | 
-| 48 | `2024-11-26` | [U.S. Customs and Border Protection (CBP) Encounter Data](data/2024/2024-11-26/readme.md) | [U.S. Customs and Border Protection](https://www.cbp.gov/) | [U.S. Border Patrol Encounters](https://gdatascience.github.io/us_border_patrol_encounters/us_border_patrol_encounters.html) | 
-| 49 | `2024-12-03` | [National Highways Traffic Flow](data/2024/2024-12-03/readme.md) | [WebTRIS Traffic Flow API](https://webtris.nationalhighways.co.uk/api/swagger/ui/index) | [National Highways](https://webtris.nationalhighways.co.uk/) | 
-| 50 | `2024-12-10` | [The Scent of Data - Exploring the Parfumo Fragrance Dataset](data/2024/2024-12-10/readme.md) | [Parfumo Fragrance Dataset](https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset) | [Perfumes at parfumo](https://www.parfumo.com/Perfumes) | 
-| 51 | `2024-12-17` | [Dungeons and Dragons Spells (2024)](data/2024/2024-12-17/readme.md) | [D&D Free Rules (2024), Spell Descriptions](https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions) | [Start Playing Today with the 2024 D&D Free Rules](https://www.dndbeyond.com/posts/1804-start-playing-today-with-the-2024-d-d-free-rules) | 
-| 52 | `2024-12-24` | [Global Holidays and Travel](data/2024/2024-12-24/readme.md) | [WorldPop Hub](https://hub.worldpop.org/) | [Global holiday datasets for understanding seasonal human mobility and population dynamics](https://www.nature.com/articles/s41597-022-01120-z) | 
-| 53 | `2024-12-31` | [James Beard Awards](data/2024/2024-12-31/readme.md) | [James Beard Foundation Awards Search](https://www.jamesbeard.org/awards/search) | [James Beard Foundation Awards](https://www.jamesbeard.org/awards) | 
+| 1 | `2025-01-07` | Bring your own data to start the year! | | |
 
 ***  
 
@@ -112,4 +59,4 @@ Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tid
 
 ## Contributing
 
-PLease see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
+Please see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
