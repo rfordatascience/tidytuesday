@@ -17,7 +17,7 @@ These data are rich in historical value, detailing the peaks, expeditions, climb
 * How often does bad weather (TERMREASON = 4) play a role in termination compared to technical difficulty (TERMREASON = 10)?
 * Are expeditions with no hired personnel (NOHIRED) associated with higher or lower death rates?
 
-Thank you to [Nicolas Foss, Ed.D., MS](https://github.com/nicolasfoss) for curating this week's dataset.
+Thank you to [Nicolas Foss, Ed.D., MS](https://www.linkedin.com/in/nicolas-foss) for curating this week's dataset.
 
 ## The Data
 
