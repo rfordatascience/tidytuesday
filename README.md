@@ -32,6 +32,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
 | 1 | `2025-01-07` | Bring your own data to start the year! | | |
+| 2 | `2025-01-14` | [posit::conf talks](data/2025/2025-01-14/readme.md) | [posit::conf attendee portal 2023](https://reg.conf.posit.co/flow/posit/positconf23/attendee-portal/page/sessioncatalog), [posit::conf attendee portal 2024](https://reg.conf.posit.co/flow/posit/positconf24/attendee-portal/page/sessioncatalog) | [posit::conf(2025) in-person registration is now open!](https://posit.co/blog/positconf2025-in-person-registration-is-now-open/) | 
 
 ***  
 
