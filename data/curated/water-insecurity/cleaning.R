@@ -71,7 +71,3 @@ water_insecurity_2022 <- get_census_data(
   mutate(
     percent_lacking_plumbing = (plumbing / total_pop) * 100
   )
-
-# Combine 2022 and 2023 water insecurity data------
-water_insecurity_2022_2023 <- water_insecurity_2023 |>
-  bind_rows(water_insecurity_2022)

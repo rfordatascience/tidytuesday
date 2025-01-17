@@ -6,5 +6,5 @@ dir_name <- "water-insecurity"
 
 # Run this for each of your datasets, replacing YOUR_DATASET_DF with the name of
 # a data.frame from cleaning.R.
-ttsave(water_insecurity_2022_2023, dir_name = dir_name)
-
+ttsave(water_insecurity_2022, dir_name = dir_name)
+ttsave(water_insecurity_2023, dir_name = dir_name)
