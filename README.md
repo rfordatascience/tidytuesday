@@ -62,3 +62,8 @@ Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tid
 ## Contributing
 
 Please see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
+## Download the Data
+
+Click the button below to download the data:
+
+[![Download Data](https://img.shields.io/badge/Download%20Data-blue?style=for-the-badge)](https://link-to-your-data.com)
