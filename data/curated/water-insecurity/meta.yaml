@@ -1,0 +1,19 @@
+title: Water Insecurity
+article:
+  title: Mapping water insecurity in R with tidycensus
+  url: https://waterdata.usgs.gov/blog/acs-maps/
+data_source:
+  title: US Census Data from tidycensus
+  url: https://cran.r-project.org/package=tidycensus
+images:
+# Please include at least one image, and up to three images
+- file: https://waterdata.usgs.gov/blog/static/acs-maps/tidycensus-intro-banner.png
+  alt: >
+    Banner that displays three choropleth maps displaying percent hispanic, median gross rent, and average household size using 2022 U.S. Census Bureau Data.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Niha Pereira
+  bluesky: https://bsky.app/profile/nnpereira
+  linkedin: https://www.linkedin.com/in/niha-pereira
+  github: https://github.com/nnpereira
