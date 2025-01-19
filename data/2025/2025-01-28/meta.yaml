@@ -1,0 +1,19 @@
+title: "Water Insecurity"
+article:
+  title: "Mapping water insecurity in R with tidycensus"
+  url: "https://waterdata.usgs.gov/blog/acs-maps/"
+data_source:
+  title: "US Census Data from tidycensus"
+  url: "https://cran.r-project.org/package=tidycensus"
+images:
+# Please include at least one image, and up to three images
+- file: "tidycensus-intro-banner.png"
+  alt: >
+    Three choropleth maps of the United States west of the Mississippi River, using 2022 U.S. Census Bureau Data, entitled Mapping water insecurity in R with tidycensus. The first choropleth is labeled Percent Hispanic, 2022, and shows the highest percentages of Hispanic people near the US-Mexico border, with scattered high percentages, such as in the state of Washington. The second choropleth is labeled Median gross rent, 2022, and shows the highest rents in California, Washington state, and Colorado. The third choropleth is labeled Average household size, 2022, and has scattered areas of large household size, with the highest averages in South Dakota, Utah, southern California, and southern Texas. The image also includes the hex logo of the tidycensus R package, with an indistinct choropleth map in shades of green.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Niha Pereira"
+  bluesky: "https://bsky.app/profile/nnpereira"
+  linkedin: "https://www.linkedin.com/in/niha-pereira"
+  github: "https://github.com/nnpereira"
