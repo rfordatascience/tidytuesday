@@ -27,6 +27,20 @@ water_insecurity_2023 <- tuesdata$water_insecurity_2023
 
 water_insecurity_2022 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-28/water_insecurity_2022.csv')
 water_insecurity_2023 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-28/water_insecurity_2023.csv')
+
+# The geometry columns are saved as text with the code to reproduce them.
+water_insecurity_2022 <- water_insecurity_2022 |> 
+  dplyr::mutate(
+    geometry = purrr::map(geometry, \(geo) {
+      eval(parse(text = geo)))
+    } 
+  )
+water_insecurity_2023 <- water_insecurity_2023 |> 
+  dplyr::mutate(
+    geometry = purrr::map(geometry, \(geo) {
+      eval(parse(text = geo)))
+    } 
+  )
 ```
 
 ## How to Participate
