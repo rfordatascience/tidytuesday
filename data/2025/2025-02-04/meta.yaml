@@ -1,0 +1,15 @@
+title: "Donuts, Data, and D'oh - A Deep Dive into The Simpsons"
+article:
+  title: "The Simpsons by the Data"
+  url: "https://toddwschneider.com/posts/the-simpsons-by-the-data/"
+data_source:
+  title: "The Simpsons Dataset"
+  url: "https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset"
+images:
+- file: "simpsons_line.png"
+  alt: >
+    Line graph titled 'The Simpsons Avg Views Over the Years' showing the average U.S. viewership for The Simpsons from its peak around 30 million viewers in the early 1990s to a gradual decline below 5 million by the 2010s. Note: "this data reflects viewership in the United States only."
+credit:
+  post: "Nicolas Foss, Ed.D., MS with Iowa HHS"
+  linkedin: "https://www.linkedin.com/in/nicolas-foss"
+  github: "https://github.com/nicolasfoss"
