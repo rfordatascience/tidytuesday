@@ -72,7 +72,7 @@ unlink(c(temp_file, unzip_dir), recursive = TRUE)
 # for Tidy Tuesday.  We need to reduce the size of the file so we can use all
 # the files together for a more robust analysis.
 # Let's filter episodes down to the years 2010-2016, and then only select
-# the script lines that correspond with with those episodes.
+# the script lines that correspond with those episodes.
 
 ###_____________________________________________________________________________
 
