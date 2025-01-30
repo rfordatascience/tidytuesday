@@ -4,8 +4,6 @@ Here is some history on the Simpsons Dataset from the author:
 
 > Originally, this dataset was scraped by [Todd W. Schneider] for his post [The Simpsons by the Data](https://toddwschneider.com/posts/the-simpsons-by-the-data/), for which he made the scraper available on GitHub. Kaggle user William Cukierski used the scraper to upload the data set, which has been rehosted here.
 
-Thanks to [Nicolas Foss Ed.D., MS](https://github.com/nicolasfoss) for curating this week's dataset!
-
 * Which character has the most spoken lines across all episodes, and how has their dialogue volume changed over the seasons?
 * What are the most frequently used locations in the series, and do specific locations correspond to higher IMDb ratings for episodes?
 * Is there a relationship between the number of U.S. viewers (in millions) and the IMDb ratings or votes for episodes?
