@@ -7,6 +7,7 @@
 library(httr)
 library(tidyverse)
 library(jsonlite)
+library(withr)
 
 # Define the metadata URL and fetch it
 metadata_url <- "www.kaggle.com/datasets/prashant111/the-simpsons-dataset/croissant/download"
@@ -35,12 +36,13 @@ if (is.null(zip_url)) {
   stop("No ZIP file URL found in the metadata.")
 }
 
-# Download the ZIP file
-temp_file <- base::tempfile(fileext = ".zip")
+# Download the ZIP file. We'll use the withr package to make sure the downloaded
+# files get cleaned up when we're done.
+temp_file <- withr::local_tempfile(fileext = ".zip") 
 utils::download.file(zip_url, temp_file, mode = "wb")
 
 # Unzip and read the CSV
-unzip_dir <- base::tempdir()
+unzip_dir <- withr::local_tempdir()
 utils::unzip(temp_file, exdir = unzip_dir)
 
 # Locate the CSV file within the extracted contents
@@ -62,9 +64,6 @@ glimpse(simpsons_episodes)
 glimpse(simpsons_locations)
 glimpse(simpsons_script_lines)
 
-# Clean up temporary files (optional)
-unlink(c(temp_file, unzip_dir), recursive = TRUE)
-
 ###_____________________________________________________________________________
 # Problems with the Data!
 
@@ -76,19 +75,10 @@ unlink(c(temp_file, unzip_dir), recursive = TRUE)
 
 ###_____________________________________________________________________________
 
-# filter
-simpsons_episodes_filter <- simpsons_episodes |> 
-  filter(original_air_year >= 2010)
-
-# get episode ids of interest
-new_episode_id <- simpsons_episodes_filter$id
+# filter episodes to include 2010+
+simpsons_episodes <- simpsons_episodes |> 
+  dplyr::filter(original_air_year >= 2010)
 
 # filter script lines to only include lines for these episodes
-
-simpsons_script_lines_filter <- simpsons_script_lines |> 
-  filter(episode_id %in% new_episode_id)
-
-
-################################################################################
-### End ########################################################################
-################################################################################
+simpsons_script_lines <- simpsons_script_lines |> 
+  dplyr::semi_join(simpsons_episodes, by = c("episode_id" = "id"))
