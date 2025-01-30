@@ -88,31 +88,6 @@ new_episode_id <- simpsons_episodes_filter$id
 simpsons_script_lines_filter <- simpsons_script_lines |> 
   filter(episode_id %in% new_episode_id)
 
-# export
-
-# characters
-write_csv(
-  x = simpsons_characters,
-  file = paste0(getwd(), "/data/curated/simpsons/simpsons_characters.csv")
-)
-
-# episodes
-write_csv(
-  x = simpsons_episodes_filter,
-  file = paste0(getwd(), "/data/curated/simpsons/simpsons_episodes.csv")
-)
-
-# locations
-write_csv(
-  x = simpsons_locations,
-  file = paste0(getwd(), "/data/curated/simpsons/simpsons_locations.csv")
-)
-
-# script lines
-write_csv(
-  x = simpsons_script_lines_filter,
-  file = paste0(getwd(), "/data/curated/simpsons/simpsons_script_lines.csv")
-)
 
 ################################################################################
 ### End ########################################################################
