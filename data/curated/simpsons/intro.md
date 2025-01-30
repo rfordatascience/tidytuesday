@@ -2,7 +2,7 @@ This week, we are going to explore a [Simpsons Dataset from Kaggle](https://www.
 
 Here is some history on the Simpsons Dataset from the author:
 
-> Originally, this dataset was scraped by Tod Schenider for his post The Simpsons by the Data, for which he made the scraper available on GitHub. Kaggle user William Cukierski used the scraper to upload the data set, which has been rehosted here.
+> Originally, this dataset was scraped by [Todd W. Schneider] for his post [The Simpsons by the Data](https://toddwschneider.com/posts/the-simpsons-by-the-data/), for which he made the scraper available on GitHub. Kaggle user William Cukierski used the scraper to upload the data set, which has been rehosted here.
 
 Thanks to [Nicolas Foss Ed.D., MS](https://github.com/nicolasfoss) for curating this week's dataset!
 
