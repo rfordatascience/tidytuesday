@@ -32,14 +32,14 @@ water_insecurity_2023 <- readr::read_csv('https://raw.githubusercontent.com/rfor
 water_insecurity_2022 <- water_insecurity_2022 |> 
   dplyr::mutate(
     geometry = purrr::map(geometry, \(geo) {
-      eval(parse(text = geo)))
-    } 
+      eval(parse(text = geo))
+    } )
   )
 water_insecurity_2023 <- water_insecurity_2023 |> 
   dplyr::mutate(
     geometry = purrr::map(geometry, \(geo) {
-      eval(parse(text = geo)))
-    } 
+      eval(parse(text = geo))
+    } )
   )
 ```
 
