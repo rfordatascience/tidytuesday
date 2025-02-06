@@ -1,4 +1,7 @@
 Week,Date,year,data_files,data_type,delim
+6,2025-02-11,2025,cdc_datasets.csv,csv,","
+6,2025-02-11,2025,fpi_codes.csv,csv,","
+6,2025-02-11,2025,omb_codes.csv,csv,","
 5,2025-02-04,2025,simpsons_characters.csv,csv,","
 5,2025-02-04,2025,simpsons_episodes.csv,csv,","
 5,2025-02-04,2025,simpsons_locations.csv,csv,","
