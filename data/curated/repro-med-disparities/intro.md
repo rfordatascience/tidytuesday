@@ -6,8 +6,6 @@ A companion [interactive website](https://obgyn-shiny.shinyapps.io/obgyn-disp/) 
 
 The data provides an opportunity to critically examine how racial and ethnic disparities in reproductive medicine are framed, measured, and discussed in the academic literature. 
 
-QUESTION?
-
 - Explore how race and ethnicity are categorized in these articles. Which categories are most prominent? Which are missing? How do sample sizes vary across groups?
 - Has the sentiment of article titles, abstracts, keywords, and/or aims statements changed over time?  
 - What type of health outcomes have been studied? What disparities have been identified? 
