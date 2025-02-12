@@ -1,0 +1,28 @@
+title: "posit::conf talks"
+article:
+  title: "posit::conf(2025) in-person registration is now open!"
+  url: "https://posit.co/blog/positconf2025-in-person-registration-is-now-open/"
+data_source:
+  title: "posit::conf attendee portals"
+  url: "https://reg.conf.posit.co/flow/posit/positconf23/attendee-portal/page/sessioncatalog, https://reg.conf.posit.co/flow/posit/positconf24/attendee-portal/page/sessioncatalog"
+images:
+# Please include at least one image, and up to three images
+- file: "conf2025.png"
+  alt: >
+    The logo of posit conf 2025. A series of paralellograms in light blue,
+    green, dark blue, and yellow, forming step-like cubes. The words posit conf
+    2025 are set off by the wall of cubes, in dark blue text on a light blue
+    background.
+- file: "posit2024_crowd.png"
+  alt: >
+    A crowd of seated attendees watch Hadley Wickham on stage at the opening of
+    posit conf 2024. The crowd is very large and stretches deep into the
+    background of the photo.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Jon Harmon"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"
