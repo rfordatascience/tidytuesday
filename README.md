@@ -37,6 +37,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | 4 | `2025-01-28` | [Water Insecurity](data/2025/2025-01-28/readme.md) | [US Census Data from tidycensus](https://cran.r-project.org/package=tidycensus) | [Mapping water insecurity in R with tidycensus](https://waterdata.usgs.gov/blog/acs-maps/) | 
 | 5 | `2025-02-04` | [Donuts, Data, and D'oh - A Deep Dive into The Simpsons](data/2025/2025-02-04/readme.md) | [The Simpsons Dataset](https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset) | [The Simpsons by the Data](https://toddwschneider.com/posts/the-simpsons-by-the-data/) | 
 | 6 | `2025-02-11` | [CDC Datasets](data/2025/2025-02-11/readme.md) | [CDC datasets uploaded before January 28th, 2025](https://archive.org/details/20250128-cdc-datasets) | [Trump administration purges websites across federal health agencies](https://www.npr.org/sections/shots-health-news/2025/01/31/nx-s1-5282274/trump-administration-purges-health-websites) | 
+| 7 | `2025-02-18` | [Agencies from the FBI Crime Data API](data/2025/2025-02-18/readme.md) | [FBI Crime Data API](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi) | [Uniform Crime Reporting Program: Still Vital After 90 Years](https://le.fbi.gov/cjis-division/cjis-link/uniform-crime-reporting-program-still-vital-after-90-years-) | 
 
 ***  
 
