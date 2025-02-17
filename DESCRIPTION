@@ -19,6 +19,7 @@ Imports:
     here,
     knitr,
     lubridate,
+    magick,
     purrr,
     readr,
     rlang,
