@@ -38,6 +38,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | 5 | `2025-02-04` | [Donuts, Data, and D'oh - A Deep Dive into The Simpsons](data/2025/2025-02-04/readme.md) | [The Simpsons Dataset](https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset) | [The Simpsons by the Data](https://toddwschneider.com/posts/the-simpsons-by-the-data/) | 
 | 6 | `2025-02-11` | [CDC Datasets](data/2025/2025-02-11/readme.md) | [CDC datasets uploaded before January 28th, 2025](https://archive.org/details/20250128-cdc-datasets) | [Trump administration purges websites across federal health agencies](https://www.npr.org/sections/shots-health-news/2025/01/31/nx-s1-5282274/trump-administration-purges-health-websites) | 
 | 7 | `2025-02-18` | [Agencies from the FBI Crime Data API](data/2025/2025-02-18/readme.md) | [FBI Crime Data API](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi) | [Uniform Crime Reporting Program: Still Vital After 90 Years](https://le.fbi.gov/cjis-division/cjis-link/uniform-crime-reporting-program-still-vital-after-90-years-) | 
+| 8 | `2025-02-25` | [Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US](data/2025/2025-02-25/readme.md) | [Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence](https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext) | [This Art is HARD](https://katcorr.github.io/this-art-is-HARD/) | 
 
 ***  
 
