@@ -12,7 +12,7 @@ images:
 - file: blastocyst.png
   alt: A black background with bright yellow, pink, purple, and orange circles of varying sizes around a smaller white circle in the middle. The image is designed to resemble a blastocyst. The radius of each of the colorful circles is relative to the increased risk for maternal morbidity and mortality outcomes among different race and ethnic groups, as compared to "white". 
 - file: maternal_mortality_rural.png
-  alt: Within each race and ethnicity group, the number of pregnancy-related deaths per 100,000 live births increases with increasing rurality. Within each urban-rural categorization, the number of pregnancy-related deaths per 100,000 live births is lowest among white and Hispanic women and highest among Black women. This visualization is based on the data presented in Table 3 in [this 2021 *American Journal of Obstetrics & Gynecology* article by Merkt et al.](https://pubmed.ncbi.nlm.nih.gov/33640361/)
+  alt: Within each race and ethnicity group, the number of pregnancy-related deaths per 100,000 live births increases with increasing rurality. Within each urban-rural categorization, the number of pregnancy-related deaths per 100,000 live births is lowest among white and Hispanic women and highest among Black women. This visualization is based on the data presented in Table 3 in the 2021 American Journal of Obstetrics & Gynecology article by Merkt et al available at https://pubmed.ncbi.nlm.nih.gov/33640361
 credit:
 # We want to thank you for curating this dataset! If you do not want a 
 # particular type of credit, please delete the related line.
