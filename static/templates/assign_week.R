@@ -55,7 +55,24 @@ fs::file_copy(fs::path(src_dir, "meta.yaml"), target_dir)
 metadata$images |> 
   purrr::walk(
     \(image) {
-      fs::file_copy(fs::path(src_dir, image$file), target_dir)
+      original_img_path <- fs::path(src_dir, image$file)
+      original_img_size <- fs::file_size(original_img_path)
+      if (original_img_size >= fs::fs_bytes("1MB")) {
+        # Round down to make sure we're *under* 1MB. This isn't actually
+        # guaranteed to work because image size isn't directly proportional to
+        # file size, but it seems to err on the side of making things smaller
+        # than they need to be.
+        ratio <- floor(
+          as.integer(fs::fs_bytes("1MB"))/as.integer(original_img_size)*100
+        )
+        magick::image_read(original_img_path) |> 
+          magick::image_resize(
+            magick::geometry_size_percent(ratio)
+          ) |> 
+          magick::image_write(fs::path(target_dir, image$file))
+      } else {
+        fs::file_copy(original_img_path, target_dir)
+      }
     }
   )
 
