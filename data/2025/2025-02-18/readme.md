@@ -51,11 +51,11 @@ agencies = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 - [Share your output and the code used to generate it](../../../sharing.md) on social media with the #TidyTuesday hashtag.
 - [Submit your own dataset!](../../../.github/pr_instructions.md)
 
-## TidyTuesday Python Challenge: A collaboration with Posit  
+## PydyTuesday: A Posit collaboration with TidyTuesday  
 
-- Exploring the TidyTuesday data in Python and looking for an extra challenge? Use Python to create a [Quarto dashboard](https://quarto.org/docs/dashboards/). Share it with the world using the hashtags #TidyTuesday and #PositPythonChallenge so that Posit has the chance to highlight your work, too!
-- Deploy it however you want! If you'd like a super easy way to publish your dashboard, give [Connect Cloud](https://connect.posit.cloud/) a try.
-- Check out [Posit's Python Challenge repo](https://github.com/posit-dev/python-tidytuesday-challenge) for more information and resources to get you started.
+- Exploring the TidyTuesday data in Python?  Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
+- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 
 ### Data Dictionary
 
