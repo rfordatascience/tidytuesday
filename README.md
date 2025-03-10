@@ -18,10 +18,16 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 - Data is [posted to social media](dataset_announcements.md) every Monday morning. Follow the instructions in the new post for how to download the data.
 - [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
-- Create a visualization, a model, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R or another programming language.
+- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
 - [Share your output and the code used to generate it](sharing.md) on social media with the #TidyTuesday hashtag.
 
-**You can also [curate a dataset for a future TidyTuesday](.github/pr_instructions.md)!**
+## PydyTuesday: A Posit collaboration with TidyTuesday  
+
+- Exploring the TidyTuesday data in Python?  Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
+- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
+
+**You can also [curate a dataset for a future TidyTuesday](.github/pr_instructions.md)!**  
 
 ***
 
@@ -37,6 +43,9 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | 4 | `2025-01-28` | [Water Insecurity](data/2025/2025-01-28/readme.md) | [US Census Data from tidycensus](https://cran.r-project.org/package=tidycensus) | [Mapping water insecurity in R with tidycensus](https://waterdata.usgs.gov/blog/acs-maps/) | 
 | 5 | `2025-02-04` | [Donuts, Data, and D'oh - A Deep Dive into The Simpsons](data/2025/2025-02-04/readme.md) | [The Simpsons Dataset](https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset) | [The Simpsons by the Data](https://toddwschneider.com/posts/the-simpsons-by-the-data/) | 
 | 6 | `2025-02-11` | [CDC Datasets](data/2025/2025-02-11/readme.md) | [CDC datasets uploaded before January 28th, 2025](https://archive.org/details/20250128-cdc-datasets) | [Trump administration purges websites across federal health agencies](https://www.npr.org/sections/shots-health-news/2025/01/31/nx-s1-5282274/trump-administration-purges-health-websites) | 
+| 7 | `2025-02-18` | [Agencies from the FBI Crime Data API](data/2025/2025-02-18/readme.md) | [FBI Crime Data API](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi) | [Uniform Crime Reporting Program: Still Vital After 90 Years](https://le.fbi.gov/cjis-division/cjis-link/uniform-crime-reporting-program-still-vital-after-90-years-) | 
+| 8 | `2025-02-25` | [Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US](data/2025/2025-02-25/readme.md) | [Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence](https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext) | [This Art is HARD](https://katcorr.github.io/this-art-is-HARD/) | 
+| 9 | `2025-03-04` | [Long Beach Animal Shelter](data/2025/2025-03-04/readme.md) | [City of Long Beach Animal Care Services](https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/) | [Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal](https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/) | 
 
 ***  
 
