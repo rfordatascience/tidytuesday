@@ -5,7 +5,7 @@
 |acc_species             |character     |Accepted species name from the World Checklist of palms. |
 |palm_tribe              |character     |Name of palm tribe from the World Checklist of palms. |
 |palm_subfamily          |character     |Name of palm subfamily from the World Checklist of palms. |
-|climbing                |factor<bfb5a> |Whether palm species has climbing habit or not, or both if populations vary in this trait. |
+|climbing                |factor |Whether palm species has climbing habit or not, or both if populations vary in this trait. |
 |acaulescent             |factor<7af82> |Whether palm species has an acaulescent growth form (leaves and inflorescence rise from the ground, i.e. lacking a visible aboveground stem) or not, or both if populations vary in this trait. |
 |erect                   |factor<36b70> |Whether palm species has an erect stem (rather than an acaulescent or climbing growth form) or not, or both if local populations vary in this trait. |
 |stem_solitary           |factor<79fd9> |Whether stems are solitary (single-stemmed) or clustered (with several stems), or both if populations vary in this trait. |
