@@ -47,6 +47,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | 8 | `2025-02-25` | [Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US](data/2025/2025-02-25/readme.md) | [Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence](https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext) | [This Art is HARD](https://katcorr.github.io/this-art-is-HARD/) | 
 | 9 | `2025-03-04` | [Long Beach Animal Shelter](data/2025/2025-03-04/readme.md) | [City of Long Beach Animal Care Services](https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/) | [Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal](https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/) | 
 | 10 | `2025-03-11` | [Pixar Films](data/2025/2025-03-11/readme.md) | [pixarfilms R package](https://erictleung.com/pixarfilms/index.html) | [Pixar Film Ratings](https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html) | 
+| 11 | `2025-03-18` | [Palm Trees](data/2025/2025-03-18/readme.md) | [{palmtrees} R package](https://github.com/EmilHvitfeldt/palmtrees) | [PalmTraits 1.0, a species-level functional trait database of palms worldwide](https://www.nature.com/articles/s41597-019-0189-0) | 
 
 ***  
 
