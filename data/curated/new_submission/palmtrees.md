@@ -28,4 +28,4 @@
 |fruit_shape             |factor |Description of fruit shape as provided in a monograph or species description. |
 |fruit_color_description |character     |Verbatim description of fruit color (e.g. red to dark purple, green to orange to red, purple-brown) as provided in a monograph or species description. |
 |main_fruit_colors       |character     |Main fruit colors summarized from fruit color descriptions (black, yellow, orange, red, purple etc.). |
-|conspicuousness         |factor<831ce> |Main fruit colors classified into conspicuous colors (e.g. orange, red, yellow, pink, crimson, scarlet) vs. cryptic colors (brown, black, green, blue, cream, grey, ivory, straw-coloured, white, purple). |
+|conspicuousness         |factor |Main fruit colors classified into conspicuous colors (e.g. orange, red, yellow, pink, crimson, scarlet) vs. cryptic colors (brown, black, green, blue, cream, grey, ivory, straw-coloured, white, purple). |
