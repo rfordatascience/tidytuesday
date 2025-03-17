@@ -10,7 +10,7 @@
 |erect                   |factor |Whether palm species has an erect stem (rather than an acaulescent or climbing growth form) or not, or both if local populations vary in this trait. |
 |stem_solitary           |factor |Whether stems are solitary (single-stemmed) or clustered (with several stems), or both if populations vary in this trait. |
 |stem_armed              |factor |Whether bearing some form of spines at the stem or not, or both if populations vary in this trait. |
-|leaves_armed            |factor<e522a> |Whether bearing some form of spines on the leaves or not, or both if populations vary in this trait. |
+|leaves_armed            |factor |Whether bearing some form of spines on the leaves or not, or both if populations vary in this trait. |
 |max_stem_height_m       |double        |Maximum stem height. |
 |max_stem_dia_cm         |double        |Maximum stem diameter. |
 |understorey_canopy      |factor<27915> |Understory palms are defined as short-stemmed palms with a maximum stem height ≤5m or an acaulescent growth form, canopy palms with maximum stem height >5m. |
