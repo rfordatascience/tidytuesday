@@ -24,7 +24,7 @@
 |average_fruit_width_cm  |double        |Average width of the fruit as provided in a monograph or species description. |
 |min_fruit_width_cm      |double        |Minimum fruit width as provided in a monograph or species description. |
 |max_fruit_width_cm      |double        |Maximum fruit width as provided in a monograph or species description. |
-|fruit_size_categorical  |factor<4ae3b> |Species classified into small-fruited palms (fruits <4cm in length) and large-fruited palms (fruits ≥4cm in length). |
+|fruit_size_categorical  |factor |Species classified into small-fruited palms (fruits <4cm in length) and large-fruited palms (fruits ≥4cm in length). |
 |fruit_shape             |factor<3acf0> |Description of fruit shape as provided in a monograph or species description. |
 |fruit_color_description |character     |Verbatim description of fruit color (e.g. red to dark purple, green to orange to red, purple-brown) as provided in a monograph or species description. |
 |main_fruit_colors       |character     |Main fruit colors summarized from fruit color descriptions (black, yellow, orange, red, purple etc.). |
