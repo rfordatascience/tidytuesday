@@ -43,7 +43,7 @@ PyDyTuesday.get_date('2025-03-18')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-palmtrees = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-18/palmtrees.csv')
+palmtrees = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-18/palmtrees.csv', encoding='windows-1252')
 ```
 
 ## How to Participate
