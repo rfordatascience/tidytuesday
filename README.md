@@ -48,6 +48,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 | 9 | `2025-03-04` | [Long Beach Animal Shelter](data/2025/2025-03-04/readme.md) | [City of Long Beach Animal Care Services](https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/) | [Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal](https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/) | 
 | 10 | `2025-03-11` | [Pixar Films](data/2025/2025-03-11/readme.md) | [pixarfilms R package](https://erictleung.com/pixarfilms/index.html) | [Pixar Film Ratings](https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html) | 
 | 11 | `2025-03-18` | [Palm Trees](data/2025/2025-03-18/readme.md) | [{palmtrees} R package](https://github.com/EmilHvitfeldt/palmtrees) | [PalmTraits 1.0, a species-level functional trait database of palms worldwide](https://www.nature.com/articles/s41597-019-0189-0) | 
+| 12 | `2025-03-25` | [Text Data From Amazon's Annual Reports](data/2025/2025-03-25/readme.md) | [Amazon's Annual Reports](https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx) | [Exploring The Use of TidyText and LLMs to Understand Amazon’s Annual Reports](https://gregoryvdvinne.github.io/Text-Mining-Amazon-Budgets.html) | 
 
 ***  
 
