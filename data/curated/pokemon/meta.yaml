@@ -1,7 +1,7 @@
 title: Pokemon
 article:
-  title: Gotta Catch Em All?
-  url: github.com/frankiethull/tidytuesday/tree/pokemon/data/curated/pokemon/article.md
+  title: Pokemon Data Visualization and Analysis with R
+  url: https://medium.com/@hanahshih46/pokemon-data-visualization-and-analysis-with-r-60970c8e37f4
 data_source:
   title: pokemon R package
   url: https://github.com/williamorim/pokemon/
@@ -9,7 +9,13 @@ images:
 # Please include at least one image, and up to three images
 - file: pokemon.png
   alt: >
-    Image shows faceted scatterplots of pokemon dataset. x = attack; y = defense; facet = pokemon type; color = primary pokemon color;
+    Image shows faceted scatterplots of pokemon dataset. \n
+    The breakdown highlights a somewhat linear relationship between attack and defense for most pokemon types. \n
+    For the most part, they are correlated, with defense and attack increasing together. \n
+    There is less variance between the two variables when type is "dragon", "electric", or "normal". \n
+    Noticeable types that break this trend are "rock" type pokemon. \n
+    In addition, a few outliers such as a "bug" type with a near-zero attack and defense >200 hp. \n    
+    (chart legends: x = attack; y = defense; facet = pokemon type; color = primary pokemon color)
 credit:
 # We want to thank you for curating this dataset! If you do not want a 
 # particular type of credit, please delete the related line.
