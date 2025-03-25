@@ -1,6 +1,8 @@
 (This automated portion only applies to dataset submissions. If you're submitting something else, please delete all of these checkboxes)
 
-Thank you for your submission! Please leave this text as-is when you submit. The `- [ ]` lines below will become checkboxes. Please confirm that checklist after you submit the pull request.
+Thank you for your submission! 
+
+When you submit this pull request, the `- [ ]` lines below will become checkboxes. Please confirm that checklist after you submit the pull request (by clicking on the steps that you have completed).
 
 Usability:
 
