@@ -29,8 +29,14 @@ jobs:
       - name: Assign
         shell: Rscript {0}
         run: |
-          src_folder_name <- strsplit(Sys.getenv("GITHUB_COMMENT_BODY"), " ")[[1]][[2]]
-          target_date <- strsplit(Sys.getenv("GITHUB_COMMENT_BODY"), " ")[[1]][[3]]
+          split_input <- strsplit(Sys.getenv("GITHUB_COMMENT_BODY"), " ")[[1]]
+          target_date <- split_input[[2]]
+          if (length(split_input) > 2) {
+            src_folder_name <- split_input[[3]]
+          } else {
+            src_folder_name <- "new_submission"
+          }
+          
           source("static/templates/assign_week.R", local = TRUE)
 
       - name: commit
