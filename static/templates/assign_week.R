@@ -25,8 +25,6 @@ metadata <- read_metadata(fs::path(src_dir, "meta.yaml"))
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
 
-intro <- readLines(fs::path(src_dir, "intro.md"))
-
 title <- metadata$title %||% stop("missing data")
 data_title <- metadata$data_source$title %||% stop("missing data")
 data_link <- metadata$data_source$url %||% stop("missing data")
@@ -80,15 +78,12 @@ fs::file_copy(dataset_files, target_dir)
 
 ## Create readme ---------------------------------------------------------------
 
-read_piece <- function(filename) {
-  paste(readLines(filename, warn = FALSE), collapse = "\n")
-}
+source(here::here("static", "templates", "readme.R"), local = TRUE)
 
 title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
 credit_line <- glue::glue("Thank you to {credit} for curating this week's dataset.")
 if (length(credit_line)) {
-  
   intro <- paste(intro, credit_line, sep = "\n\n")
 }
 
