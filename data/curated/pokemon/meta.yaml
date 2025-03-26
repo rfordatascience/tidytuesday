@@ -9,13 +9,19 @@ images:
 # Please include at least one image, and up to three images
 - file: pokemon.png
   alt: >
-    Image shows faceted scatterplots of pokemon dataset. \n
-    The breakdown highlights a somewhat linear relationship between attack and defense for most pokemon types. \n
-    For the most part, they are correlated, with defense and attack increasing together. \n
-    There is less variance between the two variables when type is "dragon", "electric", or "normal". \n
-    Noticeable types that break this trend are "rock" type pokemon. \n
-    In addition, a few outliers such as a "bug" type with a near-zero attack and defense >200 hp. \n    
-    (chart legends: x = attack; y = defense; facet = pokemon type; color = primary pokemon color)
+    Image shows faceted scatterplots of pokemon dataset. 
+    Attack is on the x-axis, and defense is on the y-axis. 
+    The primary pokemon color is indicated with the color of the points, and the 
+    charts are faceted by pokemon type.
+    The breakdown highlights a somewhat linear relationship between attack and 
+    defense for most pokemon types.
+    For the most part, they are correlated, with defense and attack increasing 
+    together.
+    There is less variance between the two variables when type is "dragon", 
+    "electric", or "normal".
+    Noticeable types that break this trend are "rock" type pokemon.
+    In addition, there are a few outliers, such as a "bug" type with a near-zero
+    attack and defense above 200 hp.
 credit:
 # We want to thank you for curating this dataset! If you do not want a 
 # particular type of credit, please delete the related line.
