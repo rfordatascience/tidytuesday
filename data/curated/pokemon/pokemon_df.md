@@ -19,6 +19,6 @@
 |color_f         |character |The final color of each pokemon. |
 |egg_group_1     |character |The primary egg group. |
 |egg_group_2     |character |The secondary egg group. |
-|url_icon        |character |The URL image of each Pokemon. |
+|url_icon        |character |The URL for the icon of each Pokemon (if available). Note that these are missing the starting "https:". |
 |generation_id   |integer   |The generation ID of each Pokemon. |
-|url_image       |character |The URL image of each Pokemon. |
+|url_image       |character |The URL for the image of each Pokemon. |
