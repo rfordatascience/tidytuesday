@@ -18,6 +18,7 @@ website:
   search: false
   navbar: true
   sidebar:
+    logo: "static/tt_hex.png"
     style: docked
     contents:
       - section: "TidyTuesday"
