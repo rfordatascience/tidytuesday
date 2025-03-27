@@ -4,6 +4,8 @@ project:
     - "*.qmd" # render all qmd files
     - "data/2025/readme.md"
     - "data/2025/*/readme.md" # render each md file for 2025
+    - "data/2024/readme.md"
+    - "data/2024/*/readme.md"
   output-dir: docs
 
 website:
@@ -22,8 +24,10 @@ website:
       - section: "Datasets"
         contents:
           - text: "2025 Data"
-            href: "data/2025/readme.html"
-
+            href: data/2025/readme.html
+          - text: "2024 Data"
+            href: data/2024/readme.html
+            
 format:
   html:
     theme:
