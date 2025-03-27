@@ -2,4 +2,9 @@
 title: "TidyTuesday"
 ---
 
-test
+<!-- TODO:
+    look into ways to update path, we would likely need a GHA to kick off
+    a render job on this page each time...
+ -->
+
+{{< include data/2025/2025-03-25 >}}
