@@ -2,6 +2,10 @@ project:
   type: website
   render:
     - "*.qmd" # render all qmd files
+    - "links.md" # including a couple other files that may be useful
+    - "sharing.md"
+
+
     - "data/2025/readme.md"
     - "data/2025/*/readme.md" # render each md file for 2025
     - "data/2024/readme.md"
@@ -21,6 +25,10 @@ website:
         contents:
           - text: "About"
             href: about.qmd
+          - text: "Links"
+            href: links.html
+          - text: "Sharing"
+            href: sharing.html
       - section: "Datasets"
         contents:
           - text: "2025 Data"
