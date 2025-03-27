@@ -1,0 +1,34 @@
+project:
+  type: website
+  render:
+    - "*.qmd" # render all qmd files
+    - "data/2025/readme.md"
+    - "data/2025/*/readme.md" # render each md file for 2025
+  output-dir: docs
+
+website:
+  # site-url: {domain name to be used}
+  title: "TidyTuesday"
+  search: false
+  navbar: true
+  sidebar:
+    style: docked
+    contents:
+      - section: "TidyTuesday"
+        href: index.qmd
+        contents:
+          - text: "About"
+            href: about.qmd
+      - section: "Datasets"
+        contents:
+          - text: "2025 Data"
+            href: "data/2025/readme.html"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    page-layout: full
+    css: styles.css
+    toc: true
