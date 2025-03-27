@@ -30,6 +30,8 @@ vignettes/*.pdf
 tidytuesday_github.Rproj
 # Quarto files 
 /.quarto/
+# TODO: temporarily ignoring docs/ which is Quarto's output dir - remove once ready to deploy to pages
+docs/
 # Other leftovers
 .DS_Store
 working.R
