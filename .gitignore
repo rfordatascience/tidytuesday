@@ -28,11 +28,11 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 tidytuesday_github.Rproj
+# Quarto files 
+/.quarto/
 # Other leftovers
 .DS_Store
 working.R
 sample_viz.R
 weather_working.R
 ttues-script.R
-
-/.quarto/
