@@ -44,3 +44,10 @@ format:
     page-layout: full
     css: styles.css
     toc: true
+
+# quarto commands:
+# quarto preview
+# quarto render
+
+# if there are issues with previews sometimes this can help:
+# quarto preview --render all --no-watch-inputs
