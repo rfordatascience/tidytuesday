@@ -5,3 +5,8 @@ read_piece <- function(filename) {
     stringr::str_trim() |> 
     stringr::str_c("\n")
 }
+
+get_readme_datasets <- function(path = here::here("README.md")) {
+  readme <- read_piece(path)
+  return(readMDTable::extract_md_table(readme, show_col_types = FALSE))
+}

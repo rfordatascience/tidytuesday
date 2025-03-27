@@ -3,22 +3,27 @@
 
 # Set these variables ----------------------------------------------------------
 
-# src_folder_name <- "american_idol"
-# target_date <- "2024-09-10"
+# src_folder_name <- "new_submission"
+# src_folder_name <- "template"
+# target_date <- NULL
 
 # Run these scripts ------------------------------------------------------------
+
+library(dplyr)
+source(here::here("static", "templates", "readme.R"), local = TRUE)
+source(here::here("static", "templates", "dates.R"), local = TRUE)
+source(here::here("static", "templates", "metadata.R"), local = TRUE)
 
 ## Sources and targets ---------------------------------------------------------
 
 src_dir <- here::here("data", "curated", src_folder_name)
+target_date <- check_date(target_date)
 target_year <- lubridate::year(target_date)
 target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
 fs::dir_create(target_dir)
 
 ## metadata --------------------------------------------------------------------
-
-source(here::here("static", "templates", "metadata.R"), local = TRUE)
 
 metadata <- read_metadata(fs::path(src_dir, "meta.yaml"))
 
@@ -77,8 +82,6 @@ metadata$images |>
 fs::file_copy(dataset_files, target_dir)
 
 ## Create readme ---------------------------------------------------------------
-
-source(here::here("static", "templates", "readme.R"), local = TRUE)
 
 title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
@@ -153,31 +156,34 @@ paste(
 
 ## Update the YEAR readme ------------------------------------------------------
 
-this_row_year <- glue::glue(
-  "| {target_week}",
-  "`{target_date}`",
-  "[{title}]({target_date}/readme.md)",
-  "[{data_title}]({data_link})",
-  "[{article_title}]({article_link})",
-  "",
-  .sep = " | "
-) |> unclass()
-this_row_main <- glue::glue(
-  "| {target_week}",
-  "`{target_date}`",
-  "[{title}](data/{target_year}/{target_date}/readme.md)",
-  "[{data_title}]({data_link})",
-  "[{article_title}]({article_link})",
-  "",
-  .sep = " | "
-) |> unclass()
+year_readme_datasets <- get_readme_datasets(
+  here::here("data", target_year, "readme.md")
+)
+
+year_readme_datasets <- dplyr::bind_rows(
+  year_readme_datasets,
+  tibble::tibble(
+    Week = target_week,
+    Date = target_date,
+    Data = glue::glue("[{title}]({target_date}/readme.md)"),
+    Source = glue::glue("[{data_title}]({data_link})"),
+    Article = glue::glue("[{article_title}]({article_link})")
+  )
+) |>
+  dplyr::arrange(.data$Date)
 
 cat(
-  this_row_year,
-  "\n",
-  file = here::here("data", target_year, "readme.md"),
-  append = TRUE
+  glue::glue(
+    "# {target_year} Data",
+    "Archive of datasets and articles from the {target_year} series of `#TidyTuesday` events.",
+    .sep = "\n\n"
+  ),
+  paste(knitr::kable(year_readme_datasets), collapse = "\n"),
+  sep = "\n\n",
+  file = here::here("data", target_year, "readme.md")
 )
+
+## Update the MAIN readme ------------------------------------------------------
 
 main_readme <- readLines(here::here("README.md"))
 dataset_lines <- stringr::str_which(
@@ -188,12 +194,23 @@ dataset_lines_start <- dataset_lines[[1]]
 dataset_lines_end <- dataset_lines[[length(dataset_lines)]]
 main_readme_start <- main_readme[1:(dataset_lines_start - 1)]
 main_readme_end <- main_readme[(dataset_lines_end + 1):length(main_readme)]
-main_readme_datasets <- c(
-  main_readme[dataset_lines], this_row_main
-)
+
+main_readme_datasets <- get_readme_datasets()
+main_readme_datasets <- dplyr::bind_rows(
+  main_readme_datasets,
+  tibble::tibble(
+    Week = target_week,
+    Date = target_date,
+    Data = glue::glue("[{title}](data/{target_year}/{target_date}/readme.md)"),
+    Source = glue::glue("[{data_title}]({data_link})"),
+    Article = glue::glue("[{article_title}]({article_link})")
+  )
+) |>
+  dplyr::arrange(.data$Date)
+
 cat(
   main_readme_start,
-  main_readme_datasets,
+  paste(knitr::kable(main_readme_datasets), collapse = "\n"),
   main_readme_end,
   sep = "\n",
   file = here::here("README.md")
