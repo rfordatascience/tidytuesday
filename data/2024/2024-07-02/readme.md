@@ -10,7 +10,7 @@ Of those variables, which are used to mean the same thing, and which are used to
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

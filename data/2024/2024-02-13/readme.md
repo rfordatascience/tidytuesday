@@ -10,7 +10,7 @@ If you're looking for other Valentine's Day type datasets, check out previous da
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
