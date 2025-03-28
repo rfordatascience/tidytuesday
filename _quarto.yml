@@ -6,8 +6,10 @@ project:
     - "links.md" # manually including the files linked to from README
     - "sharing.md"
     - "dataset_announcements.md"
+    - "alt_text.md"
     - ".github/pr_instructions.md"
     - ".github/CONTRIBUTING.md"
+    - ".github/CODE_OF_CONDUCT.md"
     - "data/2025/readme.md"
     - "data/2025/*/readme.md" # render each md file for 2025
     - "data/2024/readme.md"
@@ -24,14 +26,13 @@ website:
     style: docked
     contents:
       - about.qmd
-      - sharing.md
-      - links.md
       - section: "Datasets"
         contents:
           - text: "2025"
             href: data/2025/readme.md
           - text: "2024"
             href: data/2024/readme.md
+      - links.md
             
 format:
   html:
