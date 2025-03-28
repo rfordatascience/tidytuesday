@@ -2,10 +2,12 @@ project:
   type: website
   render:
     - "*.qmd" # render all qmd files
-    - "links.md" # including a couple other files that may be useful
+    # - "*.md" # render all md files
+    - "links.md" # manually including the files linked to from README
     - "sharing.md"
-
-
+    - "dataset_announcements.md"
+    - ".github/pr_instructions.md"
+    - ".github/CONTRIBUTING.md"
     - "data/2025/readme.md"
     - "data/2025/*/readme.md" # render each md file for 2025
     - "data/2024/readme.md"
@@ -15,27 +17,21 @@ project:
 website:
   # site-url: {domain name to be used}
   title: "TidyTuesday"
-  search: false
+  search: true
   navbar: true
   sidebar:
     logo: "static/tt_hex.png"
     style: docked
     contents:
-      - section: "TidyTuesday"
-        href: index.qmd
-        contents:
-          - text: "About"
-            href: about.qmd
-          - text: "Links"
-            href: links.html
-          - text: "Sharing"
-            href: sharing.html
+      - about.qmd
+      - sharing.md
+      - links.md
       - section: "Datasets"
         contents:
-          - text: "2025 Data"
-            href: data/2025/readme.html
-          - text: "2024 Data"
-            href: data/2024/readme.html
+          - text: "2025"
+            href: data/2025/readme.md
+          - text: "2024"
+            href: data/2024/readme.md
             
 format:
   html:

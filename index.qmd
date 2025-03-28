@@ -1,10 +1,33 @@
----
-title: "TidyTuesday"
----
-
-<!-- TODO:
-    look into ways to update path, we would likely need a GHA to kick off
-    a render job on this page each time...
- -->
-
-{{< include data/2025/2025-03-25/readme.md >}}
+```{r}
+#| echo: false
+#| results: asis
+get_path <- function(tuesday) {
+  this_year <- lubridate::year(tuesday)
+  glue::glue("data/{this_year}/{tuesday}/readme.md")
+}
+today <- lubridate::today()
+diff_tuesday <- 3 - lubridate::wday(today, week_start = 7)
+if (diff_tuesday < 0) {
+  diff_tuesday <- diff_tuesday + 7
+}
+tuesday <- today + diff_tuesday
+if (diff_tuesday > 1) {
+  tuesday <- tuesday - 7
+}
+this_path <- get_path(tuesday)
+while(!fs::file_exists(this_path)) {
+  tuesday <- tuesday - 7
+  this_path <- get_path(tuesday)
+}
+tues_md <- readLines(this_path) |> 
+  # Move relative links up to the root.
+  stringr::str_remove_all(stringr::fixed("../../../")) |>
+  # Fix some historical weird formatting.
+  # TODO: Mass-fix these in source and remove these lines.
+  stringr::str_replace("^## PydyTuesday","### PydyTuesday") |> 
+  stringr::str_replace("^### Data Dictionary","## Data Dictionary") |> 
+  stringr::str_replace("^# (`.+csv`)","### \\1") |> 
+  stringr::str_replace("^### Cleaning Script","## Cleaning Script") |> 
+  paste(collapse = "\n")
+cat(tues_md)
+```

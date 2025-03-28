@@ -3,6 +3,8 @@
 .Rapp.history
 # R project
 .Rproj
+.Rproj.user
+tidytuesday_github.Rproj
 # Session Data files
 .RData
 # Example code in package build process
@@ -26,8 +28,7 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
-.Rproj.user
-tidytuesday_github.Rproj
+*.html
 # Quarto files 
 /.quarto/
 # TODO: temporarily ignoring docs/ which is Quarto's output dir - remove once ready to deploy to pages
