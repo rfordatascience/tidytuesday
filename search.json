@@ -704,85 +704,92 @@
     "text": "Explore the data, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about causation in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.\nCreate a visualization, a model, a shiny app, or some other piece of data-science-related output, using R or another programming language.\nShare your output and the code used to generate it on social media with the #TidyTuesday hashtag.\nSubmit your own dataset!"
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html",
-    "href": ".github/CODE_OF_CONDUCT.html",
+    "objectID": "dataset_idea.html",
+    "href": "dataset_idea.html",
+    "title": "Submitting a dataset idea",
+    "section": "",
+    "text": "Submitting a dataset idea\nPlease consider submitting the dataset through a pull request instead! This is the best way to help us.\nLook through existing dataset suggestions to see if the dataset you have in mind has already been suggested. You may be able to provide more information to an existing suggestion.\nSee our guide to reviewing submitted datasets for the checklist we will need to complete for the submitted dataset. The more you can do that in the initial issue, the better!\nIf you find yourself filling out all of the information, we strongly suggest submitting a pull request instead! We’ll help you through the process if you’ve never submitted a pull request before!\nYou can submit a dataset here."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\n\n\nExamples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nProject maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n\n\n\nThis Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rfordatasci@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership.\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4"
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#our-pledge",
-    "href": ".github/CODE_OF_CONDUCT.html#our-pledge",
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation."
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#our-standards",
-    "href": ".github/CODE_OF_CONDUCT.html#our-standards",
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "Examples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#our-responsibilities",
-    "href": ".github/CODE_OF_CONDUCT.html#our-responsibilities",
+    "objectID": "CODE_OF_CONDUCT.html#our-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#our-responsibilities",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful."
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#scope",
-    "href": ".github/CODE_OF_CONDUCT.html#scope",
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers."
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#enforcement",
-    "href": ".github/CODE_OF_CONDUCT.html#enforcement",
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rfordatasci@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership."
   },
   {
-    "objectID": ".github/CODE_OF_CONDUCT.html#attribution",
-    "href": ".github/CODE_OF_CONDUCT.html#attribution",
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4"
   },
   {
-    "objectID": ".github/pr_instructions.html",
-    "href": ".github/pr_instructions.html",
+    "objectID": "pr_instructions.html",
+    "href": "pr_instructions.html",
     "title": "How to Submit a Dataset",
     "section": "",
     "text": "Thank you for helping us help learners!\nThere are 4 main steps to submit a dataset:\n\nFind a dataset.\nPrepare your repositry.\nCreate a branch.\nPrepare the dataset.\n\n\n\nFind a dataset that would be good for TidyTuesday: either one that is already ready for analysis, or one that you can clean so that it meets the criteria. These are the requirements for a dataset:\n\nData can be saved as one or more CSV files.\nThe whole dataset (all files) is less than 20MB.\nYou can describe each variable (either using an existing data dictionary or by creating your own dictionary).\nThe data is publicly available and free for reuse, either with or without attribution.\n\nYou will also need:\n\nThe source of the dataset\nAn article about the dataset or that uses the dataset\nAt least one image related to or using the dataset\n\n\n\n\nYou’ll need to perform this step the first time you submit a pull request to this repository. A “pull request” is a submission of code to a git repository. If you have never worked with git before, that’s fine! We’ll help you get set up.\n\nSet up git, github, and your IDE (such as RStudio). We have step-by-step instructions for setting up things to work with the Data Science Learning Community.\nFork the tidytuesday repository. In R, you can use usethis::create_from_github(\"rfordatascience/tidytuesday\") to create your personal fork on GitHub and copy it to your computer. Note: This requires about 8 GB of space on disk.\n\n\n\n\nWe use a fork/branch approach to pull requests, meaning you’ll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.\n\nIf you are on anything other than the main branch of your local repository, switch back to main. In R, you can use usethis::pr_pause() (if your previous submission is still pending), or usethis::pr_finish() (if we’ve accepted your submission).\nPull the latest version of the repository to your computer. In R, use usethis::pr_merge_main()\nCreate a new branch, with something similar to the name of the dataset you’re submitting. In R, you can create this branch using usethis::pr_init(BRANCHNAME). For instance if it’s a dataset on American baseball, something like “american-baseball” using usethis::pr_init(\"american-baseball\").\nNavigate to the data/curated folder in your branch of the repository.\nMake a copy of the template folder for your dataset, inside the curated folder. Name it something descriptive – the same name as your branch would work, so “american-baseball” not “my_dataset”.\nInside the folder you just created is where you’re going to do your work.\n\n\n\n\nA copy the following instructions is also available in the folder you’ve created, as instructions.md. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.\n\ncleaning.R: Modify the cleaning.R file to get and clean the data.\n\nWrite the code to download and clean the data in cleaning.R.\nIf you’re getting the data from a github repo, remember to use the ‘raw’ version of the URL.\nThis script should result in one or more data.frames, with descriptive variable names (eg players and teams, not df1 and df2).\n\nsaving.R: Usesaving.R to save your datasets. This process creates both the .csv file(s) and the data dictionary template file(s) for your datasets. Don’t save the CSV files using a separate process because we also need the data dictionaries.\n\nRun the first line of saving.R to create the functions we’ll use to save your dataset.\nProvide the name of your directory as dir_name.\nUse ttsave() for each dataset you created in cleaning.R, substituting the name for the dataset for YOUR_DATASET_DF.\n\n{dataset}.md: Edit the {dataset}.md files to describe your datasets (where {dataset} is the name of the dataset). These files are created by saving.R. There should be one file for each of your datasets. You most likely only need to edit the “description” column to provide a description of each variable.\nintro.md: Edit the intro.md file to describe your dataset. You don’t need to add a # Title at the top; this is just a paragraph or two to introduce the week.\nFind at least one image for your dataset. These often come from the article about your dataset. If you can’t find an image, create an example data visualization, and save the images in your folder as png files.\nmeta.yaml: Edit meta.yaml to provide information about your dataset and how we can credit you. You can delete lines from the credit block that do not apply to you.\n\n\n\n\nCommit the changes with this folder to your branch. In RStudio, you can do this on the “Git” tab (the “Commit” button).\nSubmit a pull request to https://github.com/rfordatascience/tidytuesday. In R, you can do this with usethis::pr_push(), and then follow the instructions in your browser."
   },
   {
-    "objectID": ".github/pr_instructions.html#find-a-dataset",
-    "href": ".github/pr_instructions.html#find-a-dataset",
+    "objectID": "pr_instructions.html#find-a-dataset",
+    "href": "pr_instructions.html#find-a-dataset",
     "title": "How to Submit a Dataset",
     "section": "",
     "text": "Find a dataset that would be good for TidyTuesday: either one that is already ready for analysis, or one that you can clean so that it meets the criteria. These are the requirements for a dataset:\n\nData can be saved as one or more CSV files.\nThe whole dataset (all files) is less than 20MB.\nYou can describe each variable (either using an existing data dictionary or by creating your own dictionary).\nThe data is publicly available and free for reuse, either with or without attribution.\n\nYou will also need:\n\nThe source of the dataset\nAn article about the dataset or that uses the dataset\nAt least one image related to or using the dataset"
   },
   {
-    "objectID": ".github/pr_instructions.html#prepare-your-repository",
-    "href": ".github/pr_instructions.html#prepare-your-repository",
+    "objectID": "pr_instructions.html#prepare-your-repository",
+    "href": "pr_instructions.html#prepare-your-repository",
     "title": "How to Submit a Dataset",
     "section": "",
     "text": "You’ll need to perform this step the first time you submit a pull request to this repository. A “pull request” is a submission of code to a git repository. If you have never worked with git before, that’s fine! We’ll help you get set up.\n\nSet up git, github, and your IDE (such as RStudio). We have step-by-step instructions for setting up things to work with the Data Science Learning Community.\nFork the tidytuesday repository. In R, you can use usethis::create_from_github(\"rfordatascience/tidytuesday\") to create your personal fork on GitHub and copy it to your computer. Note: This requires about 8 GB of space on disk."
   },
   {
-    "objectID": ".github/pr_instructions.html#create-a-branch",
-    "href": ".github/pr_instructions.html#create-a-branch",
+    "objectID": "pr_instructions.html#create-a-branch",
+    "href": "pr_instructions.html#create-a-branch",
     "title": "How to Submit a Dataset",
     "section": "",
     "text": "We use a fork/branch approach to pull requests, meaning you’ll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.\n\nIf you are on anything other than the main branch of your local repository, switch back to main. In R, you can use usethis::pr_pause() (if your previous submission is still pending), or usethis::pr_finish() (if we’ve accepted your submission).\nPull the latest version of the repository to your computer. In R, use usethis::pr_merge_main()\nCreate a new branch, with something similar to the name of the dataset you’re submitting. In R, you can create this branch using usethis::pr_init(BRANCHNAME). For instance if it’s a dataset on American baseball, something like “american-baseball” using usethis::pr_init(\"american-baseball\").\nNavigate to the data/curated folder in your branch of the repository.\nMake a copy of the template folder for your dataset, inside the curated folder. Name it something descriptive – the same name as your branch would work, so “american-baseball” not “my_dataset”.\nInside the folder you just created is where you’re going to do your work."
   },
   {
-    "objectID": ".github/pr_instructions.html#prepare-the-dataset",
-    "href": ".github/pr_instructions.html#prepare-the-dataset",
+    "objectID": "pr_instructions.html#prepare-the-dataset",
+    "href": "pr_instructions.html#prepare-the-dataset",
     "title": "How to Submit a Dataset",
     "section": "",
     "text": "A copy the following instructions is also available in the folder you’ve created, as instructions.md. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.\n\ncleaning.R: Modify the cleaning.R file to get and clean the data.\n\nWrite the code to download and clean the data in cleaning.R.\nIf you’re getting the data from a github repo, remember to use the ‘raw’ version of the URL.\nThis script should result in one or more data.frames, with descriptive variable names (eg players and teams, not df1 and df2).\n\nsaving.R: Usesaving.R to save your datasets. This process creates both the .csv file(s) and the data dictionary template file(s) for your datasets. Don’t save the CSV files using a separate process because we also need the data dictionaries.\n\nRun the first line of saving.R to create the functions we’ll use to save your dataset.\nProvide the name of your directory as dir_name.\nUse ttsave() for each dataset you created in cleaning.R, substituting the name for the dataset for YOUR_DATASET_DF.\n\n{dataset}.md: Edit the {dataset}.md files to describe your datasets (where {dataset} is the name of the dataset). These files are created by saving.R. There should be one file for each of your datasets. You most likely only need to edit the “description” column to provide a description of each variable.\nintro.md: Edit the intro.md file to describe your dataset. You don’t need to add a # Title at the top; this is just a paragraph or two to introduce the week.\nFind at least one image for your dataset. These often come from the article about your dataset. If you can’t find an image, create an example data visualization, and save the images in your folder as png files.\nmeta.yaml: Edit meta.yaml to provide information about your dataset and how we can credit you. You can delete lines from the credit block that do not apply to you.\n\n\n\n\nCommit the changes with this folder to your branch. In RStudio, you can do this on the “Git” tab (the “Commit” button).\nSubmit a pull request to https://github.com/rfordatascience/tidytuesday. In R, you can do this with usethis::pr_push(), and then follow the instructions in your browser."
@@ -945,32 +952,46 @@
     "text": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday.\nThe DataViz Society/Nightingale has an article on writing good alt text for plots/graphs. &gt; Here’s a simple formula for writing alt text for data visualization: &gt; ### Chart type &gt; It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. &gt; Example: Line graph &gt; ### Type of data &gt; What data is included in the chart? The x and y axis labels may help you figure this out. &gt; Example: number of bananas sold per day in the last year &gt; ### Reason for including the chart &gt; Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for. &gt; Example: the winter months have more banana sales &gt; ### Link to data or source &gt; Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data. &gt; Example: Data from the USDA\nPenn State has an article on writing alt text descriptions for charts and tables.\n\nCharts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. See the examples on this page for details on how to make charts more accessible.\n\nThe {rtoot} package includes the ability to post to the Mastodon social network with alt text programmatically.\nNeed a reminder? Many social networks have settings to require alt text in your posts. We recommend turning them on when they are available!"
   },
   {
-    "objectID": ".github/CONTRIBUTING.html",
-    "href": ".github/CONTRIBUTING.html",
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
     "title": "CONTRIBUTING",
     "section": "",
     "text": "Thank you for contributing to this project, whether you have a dataset to share or a pull request to contribute! We’re excited for people to engage with the project, and aim to address issues aligned with the goals of the project and respond to people as we can.\nThis project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. So, you might not hear from us right away, but we appreciate your contribution!\nThere are several ways you can help:\n\nReview submitted datasets\nSubmit a dataset pull request\nSubmit an issue\nSubmit a dataset idea\n\nThese guidelines are for first-time contributors to get you started. If you are a regular contributor, we may be working in a different mode, where the workflow is different.\n\n\nIf you found something wrong or confusing with the project, please submit an issue!\nHowever, before you submit an issue, please search through existing issues to see if it’s something someone already shared. You may be able to provide more information to an existing issue.\n\nProvide as much information as you can. We suggest submitting a reprex if it’s an issue or bug. Also, see this guide to writing good bug reports for more on how to write a great bug report.\nIf it’s an idea for a feature or change, please describe the change you’re proposing, how you would plan to implement it (if you have an idea), and why it’s important for the goals of the project. See this guide to writing feature requests for more on how to write a great feature request.\nUse kind language aligned with how we treat each other in this project.\n\n\n\n\nThis project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. So, you might not hear from us right away, but we appreciate your contribution!\nWe may:\n\nask questions for more clarity\nadd some changes to your pull request and merge\nexplain why this issue or PR isn’t right for this project right now\n\n\n\n\nJon Harmon is the primary maintainer for this project. Decisions for the project will be made with the project goals in mind.\nIf you’d like to propose a new idea for the project, please share it an issue for discussion."
   },
   {
-    "objectID": ".github/CONTRIBUTING.html#submitting-general-non-dataset-issues",
-    "href": ".github/CONTRIBUTING.html#submitting-general-non-dataset-issues",
+    "objectID": "CONTRIBUTING.html#submitting-general-non-dataset-issues",
+    "href": "CONTRIBUTING.html#submitting-general-non-dataset-issues",
     "title": "CONTRIBUTING",
     "section": "",
     "text": "If you found something wrong or confusing with the project, please submit an issue!\nHowever, before you submit an issue, please search through existing issues to see if it’s something someone already shared. You may be able to provide more information to an existing issue.\n\nProvide as much information as you can. We suggest submitting a reprex if it’s an issue or bug. Also, see this guide to writing good bug reports for more on how to write a great bug report.\nIf it’s an idea for a feature or change, please describe the change you’re proposing, how you would plan to implement it (if you have an idea), and why it’s important for the goals of the project. See this guide to writing feature requests for more on how to write a great feature request.\nUse kind language aligned with how we treat each other in this project."
   },
   {
-    "objectID": ".github/CONTRIBUTING.html#expectations-for-responsereview",
-    "href": ".github/CONTRIBUTING.html#expectations-for-responsereview",
+    "objectID": "CONTRIBUTING.html#expectations-for-responsereview",
+    "href": "CONTRIBUTING.html#expectations-for-responsereview",
     "title": "CONTRIBUTING",
     "section": "",
     "text": "This project is in Active mode, meaning we review this repository on a weekly basis, but we may not have time to address every issue. So, you might not hear from us right away, but we appreciate your contribution!\nWe may:\n\nask questions for more clarity\nadd some changes to your pull request and merge\nexplain why this issue or PR isn’t right for this project right now"
   },
   {
-    "objectID": ".github/CONTRIBUTING.html#governance",
-    "href": ".github/CONTRIBUTING.html#governance",
+    "objectID": "CONTRIBUTING.html#governance",
+    "href": "CONTRIBUTING.html#governance",
     "title": "CONTRIBUTING",
     "section": "",
     "text": "Jon Harmon is the primary maintainer for this project. Decisions for the project will be made with the project goals in mind.\nIf you’d like to propose a new idea for the project, please share it an issue for discussion."
+  },
+  {
+    "objectID": "dataset_review.html",
+    "href": "dataset_review.html",
+    "title": "TidyTuesday",
+    "section": "",
+    "text": "We identify, curate, and post a new dataset every week, 51 weeks per year. To make that possible, we welcome dataset submissions. Once submitted, we need to verify that each dataset meets our standards.\nYou can help us identify usable datasets! Read through our open issues tagged with the dataset label, and leave a comment after checking for each of these things. Copy-paste this checklist as-is into your comment, then either add “x” between the [ ], or save your issue and then click the checkboxes. If anything isn’t provided in the original issue, but you can provide it, please do so!\n- [ ] I can download the dataset from the link provided.\n- [ ] The dataset will (probably) be less than 50MB when saved as a tidy CSV.\n- [ ] There is a link to an article that has something to do with the dataset.\n- [ ] I can imagine a data visualization related to this dataset.\n- [ ] This dataset has not already been used in TidyTuesday.\n- [ ] ALT text is provided for all (both) images.\n- [ ] There is a data dictionary describing the columns of the dataset.\n- [ ] The TidyTuesday maintainers are unlikely to get sued for using the dataset.\nSearches to help you identify issues that might need to be checked:\n\nI can download the dataset from the link provided.\nThe dataset will (probably) be less than 50MB when saved as a tidy CSV.\nThere is a link to an article that has something to do with the dataset.\nI can imagine a data visualization related to this dataset.\nThis dataset has not already been used in TidyTuesday.\nThere are links to two images related to the dataset (or images are attached to the issue).\nALT text is provided for all (both) images.\nThere is a data dictionary describing the columns of the dataset.\nThe TidyTuesday maintainers are unlikely to get sued for using the dataset.\n\nIf enough users show interest in helping us out, we will try to add a Shiny app to streamline the process!"
+  },
+  {
+    "objectID": "dataset_review.html#dataset-review",
+    "href": "dataset_review.html#dataset-review",
+    "title": "TidyTuesday",
+    "section": "",
+    "text": "We identify, curate, and post a new dataset every week, 51 weeks per year. To make that possible, we welcome dataset submissions. Once submitted, we need to verify that each dataset meets our standards.\nYou can help us identify usable datasets! Read through our open issues tagged with the dataset label, and leave a comment after checking for each of these things. Copy-paste this checklist as-is into your comment, then either add “x” between the [ ], or save your issue and then click the checkboxes. If anything isn’t provided in the original issue, but you can provide it, please do so!\n- [ ] I can download the dataset from the link provided.\n- [ ] The dataset will (probably) be less than 50MB when saved as a tidy CSV.\n- [ ] There is a link to an article that has something to do with the dataset.\n- [ ] I can imagine a data visualization related to this dataset.\n- [ ] This dataset has not already been used in TidyTuesday.\n- [ ] ALT text is provided for all (both) images.\n- [ ] There is a data dictionary describing the columns of the dataset.\n- [ ] The TidyTuesday maintainers are unlikely to get sued for using the dataset.\nSearches to help you identify issues that might need to be checked:\n\nI can download the dataset from the link provided.\nThe dataset will (probably) be less than 50MB when saved as a tidy CSV.\nThere is a link to an article that has something to do with the dataset.\nI can imagine a data visualization related to this dataset.\nThis dataset has not already been used in TidyTuesday.\nThere are links to two images related to the dataset (or images are attached to the issue).\nALT text is provided for all (both) images.\nThere is a data dictionary describing the columns of the dataset.\nThe TidyTuesday maintainers are unlikely to get sued for using the dataset.\n\nIf enough users show interest in helping us out, we will try to add a Shiny app to streamline the process!"
   },
   {
     "objectID": "data/2025/readme.html",

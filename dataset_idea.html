@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>readme – TidyTuesday</title>
+<title>dataset_idea – TidyTuesday</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +68,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -112,7 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">TidyTuesday</span>
     </a>
   </div>
@@ -137,15 +103,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../../../index.html" class="sidebar-logo-link">
-      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About TidyTuesday</span></a>
   </div>
 </li>
@@ -160,13 +126,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="./data/2025/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2025</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="./data/2024/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2024</span></a>
   </div>
 </li>
@@ -174,7 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
+  <a href="./links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Useful links</span></a>
   </div>
 </li>
@@ -188,18 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#david-robinsons-tidytuesday-functions" id="toc-david-robinsons-tidytuesday-functions" class="nav-link active" data-scroll-target="#david-robinsons-tidytuesday-functions">David Robinson’s TidyTuesday Functions</a>
-  <ul class="collapse">
-  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
-  <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
-  <ul class="collapse">
-  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#drob_funs.csv" id="toc-drob_funs.csv" class="nav-link" data-scroll-target="#drob_funs.csv"><code>drob_funs.csv</code></a>
-  <ul class="collapse">
-  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
-  </ul></li>
+  <li><a href="#submitting-a-dataset-idea" id="toc-submitting-a-dataset-idea" class="nav-link active" data-scroll-target="#submitting-a-dataset-idea">Submitting a dataset idea</a></li>
   </ul>
 </nav>
     </div>
@@ -209,90 +164,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="david-robinsons-tidytuesday-functions" class="level1">
-<h1>David Robinson’s TidyTuesday Functions</h1>
-<p>This week we’re seeing how <a href="https://github.com/dgrtwo/data-screencasts">David Robinson has explored TidyTuesday data</a> in his <a href="https://youtube.com/playlist?list=PL19ev-r1GBwkuyiwnxoHTRC8TTqP8OEi8&amp;si=jGBo0bcarEPV6cnn">YouTube screencasts</a>! Thanks to <a href="https://github.com/brshallo">Bryan Shalloway</a> for the suggestion, the <a href="https://brshallo.github.io/funspotr/">{funspotr} package</a>, and the <a href="https://www.bryanshalloway.com/2022/01/18/identifying-r-functions-packages-used-in-github-repos/">blog posts about how to use funspotr</a> (including <a href="https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/">this one about making network graphs with the data</a>).</p>
-<blockquote class="blockquote">
-<p>The goal of funspotr (R function spotter) is to make it easy to identify which R functions and packages are used in files and projects. It was initially written to create reference tables of the functions and packages used in a few popular github repositories.</p>
-</blockquote>
-<p>What are David’s most-used functions? Can you find relationships between functions used and the variable types (using the <a href="https://r4ds.github.io/ttmeta/">{ttmeta} package</a>)? How does his function graph compare to your own?</p>
-<section id="the-data" class="level2">
-<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR package </span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2024-07-09'</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2024</span>, <span class="at">week =</span> <span class="dv">28</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>drob_funs <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>drob_funs</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>drob_funs <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-09/drob_funs.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="how-to-participate" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
-<ul>
-<li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
-<li>Create a visualization, a model, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R or another programming language.</li>
-<li><a href="../../../sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
-</ul>
-<section id="data-dictionary" class="level3">
-<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
-</section>
-</section>
-</section>
-<section id="drob_funs.csv" class="level1">
-<h1><code>drob_funs.csv</code></h1>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 38%">
-<col style="width: 22%">
-<col style="width: 38%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">funs</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Function names</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">pkgs</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Package names</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">in_multiple_pkgs</td>
-<td style="text-align: left;">logical</td>
-<td style="text-align: left;">Boolean indicating whether this function is in multiple packages</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">contents</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">File in which the function is used</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">urls</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">URL to download the file in which the function is used</td>
-</tr>
-</tbody>
-</table>
-<section id="cleaning-script" class="level3">
-<h3 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by Bryan Shalloway (@brshallo on GitHub)!</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>drob_funs <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="submitting-a-dataset-idea" class="level1">
+<h1>Submitting a dataset idea</h1>
+<p>Please consider <a href="./pr_instructions.html">submitting the dataset through a pull request</a> instead! This is the best way to help us.</p>
+<p>Look through <a href="https://github.com/rfordatascience/tidytuesday/issues?q=is%3Aopen+is%3Aissue+label%3Adataset">existing dataset suggestions</a> to see if the dataset you have in mind has already been suggested. You may be able to provide more information to an existing suggestion.</p>
+<p>See our guide to <a href="./dataset_review.html">reviewing submitted datasets</a> for the checklist we will need to complete for the submitted dataset. The more you can do that in the initial issue, the better!</p>
+<p>If you find yourself filling out <em>all</em> of the information, we strongly suggest submitting a pull request instead! We’ll help you through the process if you’ve never submitted a pull request before!</p>
+<p>You can <a href="https://github.com/rfordatascience/tidytuesday/issues/new?assignees=&amp;labels=dataset&amp;projects=&amp;template=dataset_template.md">submit a dataset here</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
