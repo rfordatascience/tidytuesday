@@ -29,7 +29,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 - Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
 - Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 
-**You can also [curate a dataset for a future TidyTuesday](.github/pr_instructions.md)!**  
+**You can also [curate a dataset for a future TidyTuesday](pr_instructions.md)!**  
 
 ***
 
@@ -79,4 +79,4 @@ Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tid
 
 ## Contributing
 
-Please see our [contributing guide](.github/CONTRIBUTING.md) for ways that you can help!
+Please see our [contributing guide](CONTRIBUTING.md) for ways that you can help!
