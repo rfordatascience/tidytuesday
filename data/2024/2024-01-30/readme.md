@@ -11,7 +11,7 @@ Note: "Oil Springs Ollie" (groundhog #55) has been succeeded by "Heaven's Wildli
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -69,7 +69,7 @@ predictions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 ### Cleaning Script
 
-``` r
+```r
 library(tidyverse)
 library(here)
 library(fs)

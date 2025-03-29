@@ -6,7 +6,7 @@ Do you think participants in this survey are representative of Americans in gene
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -95,7 +95,7 @@ coffee_survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(here)

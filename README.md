@@ -1,9 +1,11 @@
-![Logo for the TidyTuesday project, represented by the word TidyTuesday over a messy splash of black paint](static/tt_logo.png)
+![](static/tt_logo.png){fig-alt="Logo for the TidyTuesday project, represented by the word TidyTuesday over a messy splash of black paint"}
 
-## About TidyTuesday
+**TidyTuesday** is a weekly social data project. 
+All are welcome to participate! 
+Please remember to share the code used to generate your results!
 
-- `TidyTuesday` is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!
-- `TidyTuesday` is organized by the [Data Science Learning Community](https://dslc.io). [Join our Slack](https://dslc.io/join) for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!
+**TidyTuesday** is organized by the [Data Science Learning Community](https://dslc.io). 
+[Join our Slack](https://dslc.io/join) for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!
 
 ## Goals
 
@@ -21,9 +23,9 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 - Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
 - [Share your output and the code used to generate it](sharing.md) on social media with the #TidyTuesday hashtag.
 
-## PydyTuesday: A Posit collaboration with TidyTuesday  
+### PydyTuesday: A Posit collaboration with TidyTuesday
 
-- Exploring the TidyTuesday data in Python?  Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
 - Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
 - Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 
@@ -33,7 +35,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 ## DataSets
 
-### [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021) | [2022](data/2022) | [2023](data/2023) | [2024](data/2024) | [2025](data/2025)
+### [2018](data/2018/readme.md) | [2019](data/2019/readme.md) | [2020](data/2020/readme.md)  | [2021](data/2021/readme.md) | [2022](data/2022/readme.md) | [2023](data/2023/readme.md) | [2024](data/2024/readme.md) | [2025](data/2025/readme.md)
 
 | Week|Date       |Data                                                                                    |Source                                                                                                                                                 |Article                                                                                             |
 |----:|:----------|:---------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
@@ -55,7 +57,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 ## Citing TidyTuesday
 
-To cite the `TidyTuesday` repo/project in publications use:
+To cite the **TidyTuesday** repo/project in publications use:
 
   Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project.
   https://tidytues.day

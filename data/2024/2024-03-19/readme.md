@@ -12,7 +12,7 @@ Dollar signs and percentage signs are in the data for some of the columns. Which
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

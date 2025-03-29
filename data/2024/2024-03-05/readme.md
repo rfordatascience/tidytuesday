@@ -27,7 +27,7 @@ What type of trash is collected the most? Do the different Trash Wheels collect 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

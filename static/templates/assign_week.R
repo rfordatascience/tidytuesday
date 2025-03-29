@@ -100,7 +100,7 @@ data_dictionaries <- purrr::map(
     dictionary <- fs::path(src_dir, dictionary_filename) |> 
       read_piece()
     dictionary_md <- glue::glue(
-      "# `{dataset_filename}`",
+      "### `{dataset_filename}`",
       dictionary,
       .sep = "\n\n"
     )
@@ -109,12 +109,12 @@ data_dictionaries <- purrr::map(
   glue::glue_collapse(sep = "\n\n") |> unclass()
 
 data_dictionary <- glue::glue(
-  "### Data Dictionary",
+  "## Data Dictionary",
   data_dictionaries,
   .sep = "\n\n"
 )
 cleaning_script <- paste(
-  "### Cleaning Script\n",
+  "## Cleaning Script\n",
   "```r",
   read_piece(fs::path(src_dir, "cleaning.R")),
   "```",

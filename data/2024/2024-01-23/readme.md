@@ -8,7 +8,7 @@ The article this week contains several plots, one of which is interactive. Can y
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -69,7 +69,7 @@ english_education <- readr::read_csv('https://raw.githubusercontent.com/rfordata
 
 ### Cleaning Script
 
-``` r
+```r
 library(tidyverse)
 library(here)
 library(fs)

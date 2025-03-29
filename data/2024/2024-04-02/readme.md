@@ -11,7 +11,7 @@ Visit the challenge GitHub repository for more details!
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

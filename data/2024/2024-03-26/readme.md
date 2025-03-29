@@ -20,7 +20,7 @@ Nishaan Amin's dataset contains many different sets of data. For TidyTuesday we'
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
