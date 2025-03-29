@@ -12,7 +12,7 @@ What about texture, flavor, or aroma?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -62,7 +62,7 @@ cheeses <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 library(fs)

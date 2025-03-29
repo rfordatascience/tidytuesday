@@ -12,7 +12,7 @@ For states with data for multiple elections, how have polling location counts pe
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -57,7 +57,7 @@ polling_places <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 
 ### Cleaning Script
 
-``` r
+```r
 library(tidyverse)
 library(here)
 library(fs)

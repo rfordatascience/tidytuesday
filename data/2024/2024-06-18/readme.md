@@ -12,7 +12,7 @@ What is the longest gap between holidays this year? Is it different in other yea
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -60,7 +60,7 @@ proposed_federal_holidays <- readr::read_csv('https://raw.githubusercontent.com/
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(here)

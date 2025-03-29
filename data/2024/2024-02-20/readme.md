@@ -14,7 +14,7 @@ Have the funded amounts changed over time?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

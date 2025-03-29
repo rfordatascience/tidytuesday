@@ -13,7 +13,7 @@ If you are observing the 2024 eclipse within the path of totality, you may want 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -104,7 +104,7 @@ eclipse_partial_2024 <- readr::read_csv('https://raw.githubusercontent.com/rford
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(jsonlite)
 library(janitor)
