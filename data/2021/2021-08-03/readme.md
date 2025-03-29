@@ -46,7 +46,7 @@ Paralympic categories [article](https://www.paralympic.org/athletics/classificat
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -85,7 +85,7 @@ athletes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(rvest)
 

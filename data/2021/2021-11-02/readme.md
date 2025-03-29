@@ -42,7 +42,7 @@ Rather than supplying datasets, this week we'll be exploring the excellent [Geoc
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 library(spData)

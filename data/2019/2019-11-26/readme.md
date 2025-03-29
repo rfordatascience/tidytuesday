@@ -43,7 +43,7 @@ loans <- tuesdata$loans
 
 # Scripts
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 library(readxl)

@@ -48,8 +48,7 @@ A data dictionary for each data set is provided [here](https://github.com/jacqui
 
 The R code below uses the `studio_album_tracks` data set to produce summary statistics for selected audio features.
 
-```{r, message = FALSE}
-
+```r
 # Load libraries
 library(dplyr)
 
@@ -80,7 +79,7 @@ studio_album_tracks %>%
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

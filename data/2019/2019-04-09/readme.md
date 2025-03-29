@@ -74,7 +74,7 @@ grand_slam_timeline <- readr::read_csv("https://raw.githubusercontent.com/rforda
 
 To get the tournament performance at age rather than simply across time we need to `join` the Date of Birth dataset with the grandslam dataset.
 
-```{r}
+```r
 age_slams_comb <- left_join(grand_slams, player_dob, by = c("name")) %>% 
   mutate(age = tournament_date - date_of_birth) %>% # needs to be datetime
   group_by(name, age, gender) %>% 

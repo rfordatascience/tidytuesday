@@ -10,7 +10,7 @@ The data this week comes from [FiveThirtyEight](https://github.com/fivethirtyeig
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -65,7 +65,7 @@ youtube <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 Note this is optional, and NOT required. I downloaded the youtube data via `httr` from the youtube API and an API key.
 
-```{r}
+```r
 library(tidyverse)
 library(tuber)
 library(rvest)

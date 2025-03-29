@@ -12,7 +12,7 @@ We've also included data on the trade off between higher yields and land use, so
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -102,7 +102,7 @@ arable_land <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 No real cleaning script today, but here's an example of how to pivot the data wider to longer.
 
-```{r}
+```r
 library(tidyverse)
 
 key_crops <- read_csv("2020/2020-09-01/key_crop_yields.csv")

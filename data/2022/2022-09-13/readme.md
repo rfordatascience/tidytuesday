@@ -36,7 +36,7 @@ A [bigfoot article](https://timothyrenner.github.io/datascience/2017/06/30/findi
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

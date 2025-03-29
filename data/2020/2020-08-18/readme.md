@@ -24,7 +24,7 @@ Credit: [Florent Lavergne](https://www.behance.net/florentlavergne) and [Cédric
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -104,7 +104,7 @@ threats <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(tidytext)
 

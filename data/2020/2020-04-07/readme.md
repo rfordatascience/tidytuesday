@@ -14,7 +14,7 @@ Some other stats and records can be found on [Wikipedia](https://alastairrushwor
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 tdf_winners <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-07/tdf_winners.csv')
@@ -90,7 +90,7 @@ tdf_winners <- tuesdata$tdf_winners
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(tdf) # install at: https://github.com/alastairrushworth/tdf
 

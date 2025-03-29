@@ -42,7 +42,7 @@ More articles by [NiemanLab](https://www.niemanlab.org/2020/03/the-google-backed
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

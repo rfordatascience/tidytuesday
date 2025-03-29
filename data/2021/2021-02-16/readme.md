@@ -68,7 +68,7 @@ For folks who are not familiar with the works of Du Bois, please read through th
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

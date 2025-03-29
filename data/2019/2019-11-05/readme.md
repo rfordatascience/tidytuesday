@@ -35,7 +35,7 @@ commute_mode <- readr::read_csv("https://raw.githubusercontent.com/rfordatascien
 
 # Cleaning Script
 
-```{r}
+```r
 
 # Load Packages -----------------------------------------------------------
 

@@ -14,7 +14,7 @@ Additional data sources are available at:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 measles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-25/measles.csv')
@@ -55,7 +55,7 @@ measles <- tuesdata$measles
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(rvest)
 

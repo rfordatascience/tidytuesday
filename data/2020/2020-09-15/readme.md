@@ -14,7 +14,7 @@ Another short article on Education Spending at [Governing.com](https://www.gover
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

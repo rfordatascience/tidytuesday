@@ -50,7 +50,7 @@ Lots of great detail on the [Tuskegee Airmen Wikipedia page](https://en.wikipedi
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

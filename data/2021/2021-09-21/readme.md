@@ -42,7 +42,7 @@ The [Emmy Award](https://en.wikipedia.org/wiki/Emmy_Awards):
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

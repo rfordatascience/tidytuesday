@@ -12,7 +12,7 @@ See their open-access article ["Five decades of CPS wages, methods, and union-no
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

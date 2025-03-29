@@ -17,7 +17,7 @@ On the Our World in Data Life Expectancy page, you will find global data and res
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

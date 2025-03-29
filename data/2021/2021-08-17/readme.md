@@ -42,7 +42,7 @@ Example commands are available on [YouTube](https://www.youtube.com/watch?v=qotC
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

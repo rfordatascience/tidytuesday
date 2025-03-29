@@ -38,7 +38,7 @@ The data updates monthly. We pulled the data on 2022-12-10, so this dataset runs
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

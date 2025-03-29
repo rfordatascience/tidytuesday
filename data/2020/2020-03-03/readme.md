@@ -10,7 +10,7 @@ This week's data visualization and article come from the [Washington Post](https
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 game_goals <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-03/game_goals.csv')

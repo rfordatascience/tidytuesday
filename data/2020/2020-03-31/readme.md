@@ -20,7 +20,7 @@ Massive shoutout to [`pdftools`](https://docs.ropensci.org/pdftools/) by ROpenSc
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 brewing_materials <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-31/brewing_materials.csv')

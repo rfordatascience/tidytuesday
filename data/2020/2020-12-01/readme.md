@@ -45,7 +45,7 @@ Shelters from [Reddit post](https://www.reddit.com/r/toronto/comments/7ocm1t/lis
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -86,7 +86,7 @@ shelters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 ### Cleaning Script
 
-```{r}
+```r
 library(opendatatoronto)
 library(tidyverse)
 library(lubridate)

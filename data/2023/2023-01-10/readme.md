@@ -53,7 +53,7 @@ More details on analyzing this dataset:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

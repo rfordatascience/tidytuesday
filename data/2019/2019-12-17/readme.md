@@ -13,7 +13,7 @@ The premise of the story in Amber's own words:
 > But where do adoptable dogs come from?"
 
 
-```{r}
+```r
 # Get the Data
 
 dog_moves <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-12-17/dog_moves.csv')

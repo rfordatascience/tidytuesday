@@ -49,7 +49,7 @@ The following project uses data from the [Eurovision Song Contest site](https://
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

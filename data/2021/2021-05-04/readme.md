@@ -16,7 +16,7 @@ Per [WPDX](https://www.waterpointdata.org/)
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

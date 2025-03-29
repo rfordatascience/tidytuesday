@@ -35,7 +35,7 @@ There are additional datasets from the [Nature article](https://www.nature.com/a
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 volcano <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/volcano.csv')
@@ -144,7 +144,7 @@ volcano <- tuesdata$volcano
 
 ### Cleaning Script
 
-```{r}
+```r
 library(readxl)
 library(tidyverse)
 

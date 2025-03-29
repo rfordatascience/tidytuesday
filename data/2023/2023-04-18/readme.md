@@ -42,7 +42,7 @@ Read the thread for context about this data!
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -42,7 +42,7 @@ Some data explorations: https://www.kaggle.com/datasets/evangower/fifa-world-cup
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

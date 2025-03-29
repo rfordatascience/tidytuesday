@@ -44,7 +44,7 @@ You might also want to check out our [previous Bob Ross dataset from 2019-08-06]
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

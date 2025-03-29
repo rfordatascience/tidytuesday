@@ -53,7 +53,7 @@ Examples of analyses are included in [Holland Stam's thesis](https://github.com/
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

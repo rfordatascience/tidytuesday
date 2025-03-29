@@ -46,7 +46,7 @@ A nice overview of some similar running statistics is available [RunRepeat.com](
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

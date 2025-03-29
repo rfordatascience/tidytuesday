@@ -32,7 +32,7 @@ Temp min/max data was sourced from:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 rainfall <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/rainfall.csv')
@@ -108,7 +108,7 @@ Please note that all weather station locations and metadata are in `weather_stat
 
 # Plot Fires courtesy of [Dean Marchiori](https://twitter.com/deanmarchiori/status/1212899902465822720)
 
-```{r}
+```r
 # Mapping NSW Current Incidents in R -------------------------------------------
 
 library(sf)
@@ -146,7 +146,7 @@ fires %>%
 
 # Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 

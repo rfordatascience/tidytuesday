@@ -14,7 +14,7 @@ The raw data is available as a [Google Sheet](https://docs.google.com/spreadshee
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -10,7 +10,7 @@ Alternatively - I have cleaned the data for you and saved as a `.csv` for you to
 
 To get at the details for broad or major fields, `dplyr::summarize` is your friend!
 
-```{r}
+```r
 phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-19/phd_by_field.csv")
 ```
 
@@ -30,12 +30,12 @@ phd_field <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/
 
 ### Spoilers - Cleaning Script
 
-```{r}
+```r
 # Because all the things
 library(tidyverse)
 ```
 
-```{r}
+```r
 library(tidyverse)
 
 # Grab just the sub-major (major field) titles for separating the columns
@@ -98,7 +98,7 @@ df_clean %>% View()
 ```
 
 
-```{r}
+```r
 
 # Check to confirm numbers match (they do!)
 df_clean %>% 
@@ -107,7 +107,7 @@ df_clean %>%
 ```
 
 
-```{r}
+```r
 # Write to .csv for posting
 df_clean  %>% 
   write_csv("phd_by_field.csv")

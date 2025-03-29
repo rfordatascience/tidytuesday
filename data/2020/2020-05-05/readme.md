@@ -26,7 +26,7 @@ PS there is an easter egg somewhere in the readme - something to do with... turn
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 critic <- readr::read_tsv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-05/critic.tsv')
@@ -109,7 +109,7 @@ critic <- tuesdata$critic
 
 ### Cleaning Script
 
-```{r}
+```r
 library(rvest)
 library(tidyverse)
 library(jsonlite)
@@ -943,7 +943,7 @@ There appear to be 3-4 types of turnip price trends.
 * Crash: Price increases early and then crashes
 * Decline: Price constantly decreases across week
 
-```{r}
+```r
 # Turnip price graphs examples
 
 raw_turnip <- read_html(turnip)

@@ -42,7 +42,7 @@ The data this week comes from [ESPN Cricinfo](https://www.espncricinfo.com/) by 
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

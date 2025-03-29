@@ -36,7 +36,7 @@ Note there are datasets for USA and New Zealand, with lifetables and names for e
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
