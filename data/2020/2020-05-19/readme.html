@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – TidyTuesday</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">TidyTuesday</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About TidyTuesday</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2023</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2019</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2018</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#beach-volleyball" id="toc-beach-volleyball" class="nav-link active" data-scroll-target="#beach-volleyball">Beach Volleyball</a>
+  <ul class="collapse">
+  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a></li>
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
+  </ul></li>
+  <li><a href="#vb_matches.csv" id="toc-vb_matches.csv" class="nav-link" data-scroll-target="#vb_matches.csv"><code>vb_matches.csv</code></a>
+  <ul class="collapse">
+  <li><a href="#skimr" id="toc-skimr" class="nav-link" data-scroll-target="#skimr"><code>skimr</code></a></li>
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cdn.pixabay.com/photo/2016/08/24/14/17/beach-volleyball-1617093_960_720.jpg" class="img-fluid figure-img"></p>
+<figcaption>Beach Volleyball</figcaption>
+</figure>
+</div>
+<section id="beach-volleyball" class="level1">
+<h1>Beach Volleyball</h1>
+<p>The data this week comes from <a href="https://github.com/rfordatascience/tidytuesday/issues/62">Adam Vagnar</a> who also <a href="https://bigtimestats.blog/2019/09/15/avp-stat-trends/">blogged</a> about this dataset. There’s a LOT of data here - match-level results, player details, and match-level statistics for some matches. For all this dataset all the matches are played 2 vs 2, so there are columns for 2 winners (1 team) and 2 losers (1 team). The data is relatively ready for analysis and clean, although there are some duplicated columns and the data is wide due to the 2-players per team.</p>
+<p>Check out the data dictionary, or <a href="https://en.wikipedia.org/wiki/Beach_volleyball#Skills">Wikipedia</a> for some longer-form details around what the various match statistics mean.</p>
+<p>Most of the data is from the international <a href="https://en.wikipedia.org/wiki/FIVB_Beach_Volleyball_World_Championships">FIVB tournaments</a> but about 1/3 is from the US-centric <a href="https://en.wikipedia.org/wiki/Association_of_Volleyball_Professionals">AVP</a>.</p>
+<blockquote class="blockquote">
+<p>The FIVB Beach Volleyball World Tour (known between 2003 and 2012 as the FIVB Beach Volleyball Swatch World Tour for sponsorship reasons) is the worldwide professional beach volleyball tour for both men and women organized by the Fédération Internationale de Volleyball (FIVB). The World Tour was introduced for men in 1989 while the women first competed in 1992.</p>
+<p>Winning the World Tour is considered to be one of the highest honours in international beach volleyball, being surpassed only by the World Championships, and the Beach Volleyball tournament at the Summer Olympic Games.</p>
+</blockquote>
+<p><a href="https://fivethirtyeight.com/features/serving-is-a-disadvantage-in-some-olympic-sports/">FiveThirtyEight</a> examined the disadvantage of serving in beach volleyball, although they used Olympic-level data. Again, Adam Vagnar also covered this data on his <a href="https://bigtimestats.blog/2019/09/15/avp-stat-trends/">blog</a>.</p>
+<section id="get-the-data-here" class="level3">
+<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the Data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>vb_matches <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-19/vb_matches.csv'</span>, <span class="at">guess_max =</span> <span class="dv">76000</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Either ISO-8601 date or year/week works!</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Install via pak::pak("dslc-io/tidytuesdayR")</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2020-05-19'</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2020</span>, <span class="at">week =</span> <span class="dv">21</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>vb_matches <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>vb_matches</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+</section>
+</section>
+<section id="vb_matches.csv" class="level1">
+<h1><code>vb_matches.csv</code></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 22%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">circuit</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Either AVP (USA) or FIVB (International)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tournament</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Tournament City or Name</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country where tournament played</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Year of tournament</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Date of match</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gender</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Gender of team</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">match_num</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Match Number</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_player1</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Winner player 1 Name</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_birthdate</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 birth date</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_age</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 age</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_hgt</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 height in inches</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Winner player country</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_player2</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Winner player 2 name</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_birthdate</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 birthdate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_age</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 age</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_hgt</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 height in inches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Winner player 2 country</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_rank</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Winner team rank</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_player1</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Losing player 1 name</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_birthdate</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 birthdate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_age</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 age</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_hgt</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 height in inches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Losing player 1 country</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_player2</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Losing player 2 name</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_birthdate</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 birthdate</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_age</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 age</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_hgt</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 height in inches</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Losing player 2 country</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_rank</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Losing team rank</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">score</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Match score separated by a dash and matches separated by a comma, eg 21 points to 12 points is 21-12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">duration</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Duration of match in minutes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bracket</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Tournament bracket</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">round</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Tournament round</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_tot_attacks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 number of attacks (attacking swings over the net)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_tot_kills</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 number of kills (point ending attacks)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_tot_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 mistakes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_tot_hitpct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 hitting percentage - calculated as (kills-errors)/attacks - this is the player’s effectiveness at scoring</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_tot_aces</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 total aces - point ending serves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_tot_serve_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 total serving errors - mistakes made on serve</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p1_tot_blocks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 total blocks - point ending blocks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p1_tot_digs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 1 total digs - successful defense of an attack</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_tot_attacks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 number of attacks (attacking swings over the net)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_tot_kills</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 number of kills (point ending attacks)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_tot_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 mistakes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_tot_hitpct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 hitting percentage - calculated as (kills-errors)/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_tot_aces</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 total aces - point ending serves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_tot_serve_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 total serving errors - mistakes made on serve</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">w_p2_tot_blocks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 total blocks - point ending blocks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">w_p2_tot_digs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Winner player 2 total digs - successful defense of an attack</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_tot_attacks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 number of attacks (attacking swings over the net)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_tot_kills</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 number of kills (point ending attacks)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_tot_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 mistakes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_tot_hitpct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 hitting percentage - calculated as (kills-errors)/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_tot_aces</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 total aces - point ending serves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_tot_serve_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 total serving errors - mistakes made on serve</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p1_tot_blocks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 total blocks - point ending blocks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p1_tot_digs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 1 total digs - successful defense of an attack</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_tot_attacks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 number of attacks (attacking swings over the net)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_tot_kills</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 number of kills (point ending attacks)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_tot_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 mistakes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_tot_hitpct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 hitting percentage - calculated as (kills-errors)/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_tot_aces</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 total aces - point ending serves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_tot_serve_errors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 total serving errors - mistakes made on serve</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">l_p2_tot_blocks</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 total blocks - point ending blocks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">l_p2_tot_digs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Losing player 2 total digs - successful defense of an attack</td>
+</tr>
+</tbody>
+</table>
+<section id="skimr" class="level3">
+<h3 class="anchored" data-anchor-id="skimr"><code>skimr</code></h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>── Data Summary ────────────────────────</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                           Values  </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Name                       vb_matches</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>Number of rows             <span class="dv">76756</span>   </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>Number of columns          <span class="dv">65</span>      </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>_______________________            </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>Column type frequency<span class="sc">:</span>             </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  character                <span class="dv">17</span>      </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  Date                     <span class="dv">5</span>       </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  difftime                 <span class="dv">1</span>       </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  numeric                  <span class="dv">42</span>      </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>________________________           </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>Group variables            None    </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>── Variable type<span class="sc">:</span> character ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>   skim_variable n_missing complete_rate   min   max empty n_unique whitespace</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a> <span class="dv">1</span> circuit               <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">3</span>     <span class="dv">4</span>     <span class="dv">0</span>        <span class="dv">2</span>          <span class="dv">0</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a> <span class="dv">2</span> tournament            <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">3</span>    <span class="dv">22</span>     <span class="dv">0</span>      <span class="dv">177</span>          <span class="dv">0</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a> <span class="dv">3</span> country               <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">4</span>    <span class="dv">22</span>     <span class="dv">0</span>       <span class="dv">51</span>          <span class="dv">0</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a> <span class="dv">4</span> gender                <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">1</span>     <span class="dv">1</span>     <span class="dv">0</span>        <span class="dv">2</span>          <span class="dv">0</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a> <span class="dv">5</span> w_player1             <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">6</span>    <span class="dv">29</span>     <span class="dv">0</span>     <span class="dv">3388</span>          <span class="dv">0</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a> <span class="dv">6</span> w_p1_country         <span class="dv">12</span>         <span class="fl">1.00</span>      <span class="dv">4</span>    <span class="dv">20</span>     <span class="dv">0</span>       <span class="dv">85</span>          <span class="dv">0</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a> <span class="dv">7</span> w_player2             <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">5</span>    <span class="dv">30</span>     <span class="dv">0</span>     <span class="dv">3431</span>          <span class="dv">0</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a> <span class="dv">8</span> w_p2_country          <span class="dv">5</span>         <span class="fl">1.00</span>      <span class="dv">4</span>    <span class="dv">20</span>     <span class="dv">0</span>       <span class="dv">87</span>          <span class="dv">0</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a> <span class="dv">9</span> w_rank              <span class="dv">148</span>         <span class="fl">0.998</span>     <span class="dv">1</span>     <span class="dv">7</span>     <span class="dv">0</span>      <span class="dv">812</span>          <span class="dv">0</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> l_player1             <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">5</span>    <span class="dv">29</span>     <span class="dv">0</span>     <span class="dv">5713</span>          <span class="dv">0</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="dv">11</span> l_p1_country         <span class="dv">18</span>         <span class="fl">1.00</span>      <span class="dv">4</span>    <span class="dv">20</span>     <span class="dv">0</span>      <span class="dv">109</span>          <span class="dv">0</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="dv">12</span> l_player2             <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">5</span>    <span class="dv">30</span>     <span class="dv">0</span>     <span class="dv">5689</span>          <span class="dv">0</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="dv">13</span> l_p2_country         <span class="dv">10</span>         <span class="fl">1.00</span>      <span class="dv">4</span>    <span class="dv">20</span>     <span class="dv">0</span>      <span class="dv">111</span>          <span class="dv">0</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="dv">14</span> l_rank             <span class="dv">1240</span>         <span class="fl">0.984</span>     <span class="dv">1</span>     <span class="dv">7</span>     <span class="dv">0</span>      <span class="dv">837</span>          <span class="dv">0</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span> score                <span class="dv">22</span>         <span class="fl">1.00</span>      <span class="dv">4</span>    <span class="dv">25</span>     <span class="dv">0</span>     <span class="dv">6624</span>          <span class="dv">0</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="dv">16</span> bracket               <span class="dv">0</span>         <span class="dv">1</span>         <span class="dv">6</span>    <span class="dv">21</span>     <span class="dv">0</span>       <span class="dv">36</span>          <span class="dv">0</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="dv">17</span> round              <span class="dv">4939</span>         <span class="fl">0.936</span>     <span class="dv">7</span>     <span class="dv">8</span>     <span class="dv">0</span>       <span class="dv">10</span>          <span class="dv">0</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>── Variable type<span class="sc">:</span> Date ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  skim_variable  n_missing complete_rate min        max        median     n_unique</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> date                   <span class="dv">0</span>         <span class="dv">1</span>     <span class="dv">2000-09-16</span> <span class="dv">2019-08-29</span> <span class="dv">2009-08-25</span>      <span class="dv">658</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> w_p1_birthdate       <span class="dv">383</span>         <span class="fl">0.995</span> <span class="dv">1953-06-13</span> <span class="dv">2004-07-15</span> <span class="dv">1981-10-30</span>     <span class="dv">2805</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> w_p2_birthdate       <span class="dv">408</span>         <span class="fl">0.995</span> <span class="dv">1952-10-11</span> <span class="dv">2004-06-08</span> <span class="dv">1981-10-15</span>     <span class="dv">2847</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span> l_p1_birthdate      <span class="dv">1059</span>         <span class="fl">0.986</span> <span class="dv">1953-06-13</span> <span class="dv">2004-12-01</span> <span class="dv">1982-03-28</span>     <span class="dv">4236</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span> l_p2_birthdate       <span class="dv">959</span>         <span class="fl">0.988</span> <span class="dv">1949-12-04</span> <span class="dv">2004-08-12</span> <span class="dv">1982-03-20</span>     <span class="dv">4282</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>── Variable type<span class="sc">:</span> difftime ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>  skim_variable n_missing complete_rate min      max       median n_unique</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> duration           <span class="dv">2249</span>         <span class="fl">0.971</span> <span class="dv">120</span> secs <span class="dv">8040</span> secs <span class="dv">42</span><span class="st">'00"      108</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="st">── Variable type: numeric ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="st">   skim_variable         n_missing complete_rate     mean     sd  hist </span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="st"> 1 year                          0         1     2010.     5.48   ▃▇▆▅▇</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="st"> 2 match_num                     0         1       31.8   23.5    ▇▅▂▁▁</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="st"> 3 w_p1_age                    383         0.995   28.7    5.05   ▂▇▃▁▁</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="st"> 4 w_p1_hgt                   3966         0.948   73.7    3.64   ▁▅▇▃▁</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="st"> 5 w_p2_age                    408         0.995   28.8    4.85   ▁▇▆▁▁</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="st"> 6 w_p2_hgt                   4016         0.948   73.7    3.69   ▁▃▇▆▁</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="st"> 7 l_p1_age                   1059         0.986   28.3    5.26   ▂▇▂▁▁</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="st"> 8 l_p1_hgt                   6988         0.909   73.4    3.62   ▁▃▇▅▁</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="st"> 9 l_p2_age                    959         0.988   28.4    5.12   ▂▇▁▁▁</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="st">10 l_p2_hgt                   6983         0.909   73.5    3.65   ▁▃▇▅▁</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="st">11 w_p1_tot_attacks          62178         0.190   25.9   10.0    ▇▅▁▁▁</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="st">12 w_p1_tot_kills            62178         0.190   14.7    5.34   ▂▇▅▁▁</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="st">13 w_p1_tot_errors           62413         0.187    2.90   2.27   ▇▁▁▁▁</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="st">14 w_p1_tot_hitpct           62185         0.190    0.480  0.230  ▇▁▁▁▁</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="st">15 w_p1_tot_aces             60560         0.211    1.32   1.45   ▇▂▁▁▁</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="st">16 w_p1_tot_serve_errors     62417         0.187    2.03   1.65   ▇▃▁▁▁</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="st">17 w_p1_tot_blocks           60560         0.211    1.70   2.15   ▇▂▁▁▁</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="st">18 w_p1_tot_digs             62178         0.190    8.35   5.48   ▇▅▁▁▁</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="st">19 w_p2_tot_attacks          62174         0.190   26.1   10.1    ▇▇▁▁▁</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="st">20 w_p2_tot_kills            62174         0.190   14.8    5.33   ▂▇▅▁▁</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="st">21 w_p2_tot_errors           62413         0.187    2.92   2.29   ▇▁▁▁▁</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="st">22 w_p2_tot_hitpct           62181         0.190    0.477  0.164  ▁▇▁▁▁</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="st">23 w_p2_tot_aces             60556         0.211    1.19   1.36   ▇▁▁▁▁</span></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="st">24 w_p2_tot_serve_errors     62413         0.187    1.93   1.62   ▇▃▁▁▁</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="st">25 w_p2_tot_blocks           60556         0.211    1.69   2.19   ▇▂▁▁▁</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="st">26 w_p2_tot_digs             62174         0.190    8.54   5.56   ▇▃▁▁▁</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="st">27 l_p1_tot_attacks          62179         0.190   27.1   11.1    ▇▁▁▁▁</span></span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="st">28 l_p1_tot_kills            62179         0.190   12.8    5.76   ▃▇▃▁▁</span></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="st">29 l_p1_tot_errors           62413         0.187    4.38   2.76   ▇▂▁▁▁</span></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="st">30 l_p1_tot_hitpct           62189         0.190    0.313  0.176  ▃▇▁▁▁</span></span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a><span class="st">31 l_p1_tot_aces             60561         0.211    0.776  1.04   ▇▂▁▁▁</span></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="st">32 l_p1_tot_serve_errors     62418         0.187    2.10   1.66   ▇▃▁▁▁</span></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a><span class="st">33 l_p1_tot_blocks           60561         0.211    0.997  1.53   ▇▁▁▁▁</span></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a><span class="st">34 l_p1_tot_digs             62179         0.190    7.19   5.17   ▇▂▁▁▁</span></span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a><span class="st">35 l_p2_tot_attacks          62178         0.190   26.7   10.8    ▃▇▁▁▁</span></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="st">36 l_p2_tot_kills            62178         0.190   12.6    5.66   ▃▇▃▁▁</span></span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="st">37 l_p2_tot_errors           62413         0.187    4.32   2.71   ▇▃▁▁▁</span></span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="st">38 l_p2_tot_hitpct           62189         0.190    0.313  0.176  ▂▇▁▁▁</span></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="st">39 l_p2_tot_aces             60560         0.211    0.775  1.06   ▇▁▁▁▁</span></span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="st">40 l_p2_tot_serve_errors     62417         0.187    2.05   1.66   ▇▂▁▁▁</span></span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="st">41 l_p2_tot_blocks           60560         0.211    1.06   1.56   ▇▁▁▁▁</span></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="st">42 l_p2_tot_digs             62178         0.190    7.14   5.18   ▇▃▁▁▁</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="cleaning-script" class="level3">
+<h3 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h3>
+<p>Data is already pretty clean! You may want to pivot the data by team or optionally separate out the winning/losing scores by match.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>col_types_vb <span class="ot">&lt;-</span> <span class="fu">cols</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">circuit =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">tournament =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">country =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">year =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">date =</span> <span class="fu">col_date</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">gender =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">match_num =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_player1 =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_birthdate =</span> <span class="fu">col_date</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_age =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_hgt =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_country =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_player2 =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_birthdate =</span> <span class="fu">col_date</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_age =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_hgt =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_country =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_rank =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_player1 =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_birthdate =</span> <span class="fu">col_date</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_age =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_hgt =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_country =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_player2 =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_birthdate =</span> <span class="fu">col_date</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_age =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_hgt =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_country =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_rank =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">score =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">duration =</span> <span class="fu">col_time</span>(<span class="at">format =</span> <span class="st">""</span>),</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>  <span class="at">bracket =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>  <span class="at">round =</span> <span class="fu">col_character</span>(),</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_attacks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_kills =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_hitpct =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_aces =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_serve_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_blocks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p1_tot_digs =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_attacks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_kills =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_hitpct =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_aces =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_serve_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_blocks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>  <span class="at">w_p2_tot_digs =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_attacks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_kills =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_hitpct =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_aces =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_serve_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_blocks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p1_tot_digs =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_attacks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_kills =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_hitpct =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_aces =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_serve_errors =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_blocks =</span> <span class="fu">col_double</span>(),</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>  <span class="at">l_p2_tot_digs =</span> <span class="fu">col_double</span>()</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>raw_df <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_archive_2000_to_2017_v2.csv"</span>,</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170729_to_20170912.csv"</span>,</span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170913_to_20180314.csv"</span>,</span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180315_to_20180821.csv"</span>,</span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180822_to_20190409.csv"</span>,</span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20190410_to_20190818.csv"</span>,</span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>            <span class="st">"https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20190818_to_20190902.csv"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">map_dfr</span>(read_csv, <span class="at">col_types =</span> col_types_vb)</span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>raw_df <span class="sc">%&gt;%</span> </span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>  skimr<span class="sc">::</span><span class="fu">skim</span>()</span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a><span class="co"># Georgios Karamanis noticed that the birthdates are </span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a><span class="co"># incorrect for anyone born before 1970 (off by 100 years)</span></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>clean_df <span class="ot">&lt;-</span> <span class="fu">mutate_at</span>(</span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>  raw_df,</span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">vars</span>(<span class="fu">contains</span>(<span class="st">"birthdate"</span>)),</span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list</span>(<span class="sc">~</span> <span class="fu">if_else</span>(. <span class="sc">&gt;=</span> <span class="fu">as.Date</span>(<span class="st">"2020-01-01"</span>),</span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>    . <span class="sc">-</span> lubridate<span class="sc">::</span><span class="fu">years</span>(<span class="dv">100</span>),</span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>    .</span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(clean_df, <span class="st">"2020/2020-05-19/vb_matches.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfordatascience\.github\.io\/tidytuesday\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

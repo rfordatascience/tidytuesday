@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – TidyTuesday</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">TidyTuesday</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../data/2025/readme.html">Datasets</a></li><li class="breadcrumb-item"><a href="../../data/2023/readme.html">2023</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About TidyTuesday</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2023/readme.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">2023</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2019</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2018</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data" id="toc-data" class="nav-link active" data-scroll-target="#data">2023 Data</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../data/2025/readme.html">Datasets</a></li><li class="breadcrumb-item"><a href="../../data/2023/readme.html">2023</a></li></ol></nav></header>
+
+
+
+
+<section id="data" class="level1">
+<h1>2023 Data</h1>
+<p>Archive of datasets and articles from the 2023 series of <code>#TidyTuesday</code> events.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Week</th>
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Data</th>
+<th style="text-align: left;">Source</th>
+<th style="text-align: left;">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">2023-01-03</td>
+<td style="text-align: left;">Bring your own data from 2022!</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">2023-01-10</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-01-10/readme.html">Bird FeederWatch data</a></td>
+<td style="text-align: left;"><a href="https://feederwatch.org/explore/raw-dataset-requests/">FeederWatch</a></td>
+<td style="text-align: left;"><a href="https://www.frontiersin.org/articles/10.3389/fevo.2021.619682/full">Over 30 Years of Standardized Bird Counts at Supplementary Feeding Stations in North America: A Citizen Science Data Report for Project FeederWatch</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">2023-01-17</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-01-17/readme.html">Art history data</a></td>
+<td style="text-align: left;"><a href="https://saralemus7.github.io/arthistory/">arthistory data package</a></td>
+<td style="text-align: left;"><a href="https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf">Quantifying Art Historical Narratives</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">2023-01-24</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-01-24/readme.html">Alone data</a></td>
+<td style="text-align: left;"><a href="https://github.com/doehm/alone">Alone data package</a></td>
+<td style="text-align: left;"><a href="https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/">Alone R package: Datasets from the survival TV series</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">2023-01-31</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-01-31/readme.html">Pet Cats UK</a></td>
+<td style="text-align: left;"><a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank for Animal Tracking Data</a></td>
+<td style="text-align: left;"><a href="https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013">Cats on the Move</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">2023-02-07</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-02-07/readme.html">Big Tech Stock Prices</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/datasets/evangower/big-tech-stock-prices">Big Tech Stock Prices on Kaggle</a></td>
+<td style="text-align: left;"><a href="https://www.morningstar.com/articles/1129535/5-charts-on-big-tech-stocks-collapse">5 Charts on Big Tech Stocks’ Collapse</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">2023-02-14</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-02-14/readme.html">Hollywood Age Gaps</a></td>
+<td style="text-align: left;"><a href="https://hollywoodagegap.com/movies.csv">Hollywood Age Gap Download Data</a></td>
+<td style="text-align: left;"><a href="https://hollywoodagegap.com/">Hollywood Age Gap</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">2023-02-21</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-02-21/readme.html">Bob Ross Paintings</a></td>
+<td style="text-align: left;"><a href="https://github.com/jwilber/Bob_Ross_Paintings/blob/master/data/bob_ross_paintings.csv">Bob Ross Paintings data</a></td>
+<td style="text-align: left;"><a href="https://github.com/frankiethull/BobRossColors">Bob Ross Colors data package</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">2023-02-28</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-02-28/readme.html">African Language Sentiment</a></td>
+<td style="text-align: left;"><a href="https://github.com/afrisenti-semeval/afrisent-semeval-2023">AfriSenti: Sentiment Analysis dataset for 14 African languages</a></td>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2302.08956.pdf">AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">2023-03-07</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-03-07/readme.html">Numbats in Australia</a></td>
+<td style="text-align: left;"><a href="https://www.ala.org.au">Atlas of Living Australia</a></td>
+<td style="text-align: left;"><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c72d199-f0f1-44d3-8197-224a2f7cff5f">Numbat page at the Atlas of Living Australia</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">2023-03-14</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-03-14/readme.html">European Drug Development</a></td>
+<td style="text-align: left;"><a href="https://www.ema.europa.eu/en/medicines/download-medicine-data">European Medicines Agency</a></td>
+<td style="text-align: left;"><a href="https://towardsdatascience.com/dissecting-28-years-of-european-pharmaceutical-development-3affd8f87dc0">Dissecting 28 years of European pharmaceutical development</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">2023-03-21</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-03-21/readme.html">Programming Languages</a></td>
+<td style="text-align: left;"><a href="https://pldb.com/index.html">Programming Language DataBase</a></td>
+<td style="text-align: left;"><a href="https://pldb.com/posts/does-every-programming-language-support-line-comments.html">Does every programming language have line comments?</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">2023-03-28</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-03-28/readme.html">Time Zones</a></td>
+<td style="text-align: left;"><a href="https://data.iana.org/time-zones/tz-link.html">IANA tz database</a></td>
+<td style="text-align: left;"><a href="https://www.timeanddate.com/time/dst/">“What Is Daylight Saving Time”</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: left;">2023-04-04</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-04-04/readme.html">Premier League Match Data</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/datasets/evangower/premier-league-match-data">Premier League Match Data 2021-2022</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/code/evangower/who-wins-the-epl-if-games-end-at-half-time/notebook?scriptVersionId=109590220">Who wins the EPL if games end at half time?</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">2023-04-11</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-04-11/readme.html">US Egg Production Data</a></td>
+<td style="text-align: left;"><a href="https://osf.io/z2gxn/">US Egg Production Data 2007-2021</a></td>
+<td style="text-align: left;"><a href="https://thehumaneleague.org/article/E008R01-us-egg-production-data">The Humane League Labs US Egg Production Dataset</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">2023-04-18</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-04-18/readme.html">Neolithic Founder Crops</a></td>
+<td style="text-align: left;"><a href="https://github.com/joeroe/SWAsiaNeolithicFounderCrops/">The “Neolithic Founder Crops” in Southwest Asia: Research Compendium</a></td>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s00334-023-00917-1">Revisiting the concept of the ‘Neolithic Founder Crops’ in southwest Asia</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">17</td>
+<td style="text-align: left;">2023-04-25</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-04-25/readme.html">London Marathon</a></td>
+<td style="text-align: left;"><a href="https://github.com/nrennie/LondonMarathon">London Marathon R package</a></td>
+<td style="text-align: left;"><a href="https://nrennie.rbind.io/blog/web-scraping-rvest-london-marathon/">Scraping London Marathon data with {rvest}</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">2023-05-02</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-05-02/readme.html">The Portal Project</a></td>
+<td style="text-align: left;"><a href="https://github.com/weecology/portaldata">Portal Project Data</a></td>
+<td style="text-align: left;"><a href="https://portal.weecology.org/">Portal Project</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">2023-05-09</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-05-09/readme.html">Childcare Costs</a></td>
+<td style="text-align: left;"><a href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National Database of Childcare Prices</a></td>
+<td style="text-align: left;"><a href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National Database of Childcare Prices</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">2023-05-16</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-05-16/readme.html">Tornados</a></td>
+<td style="text-align: left;"><a href="https://www.spc.noaa.gov/wcm/#data">NOAA’s National Weather Service Storm Prediction Center Severe Weather Maps, Graphics, and Data Page</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/code/evangower/diving-into-us-tornado-data">Diving into US Tornado Data</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21</td>
+<td style="text-align: left;">2023-05-23</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-05-23/readme.html">Central Park Squirrels</a></td>
+<td style="text-align: left;"><a href="https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw">2018 Central Park Squirrel Census</a></td>
+<td style="text-align: left;"><a href="https://www.thesquirrelcensus.com/">The Squirrel Census</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">2023-05-30</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-05-30/readme.html">Verified Oldest People</a></td>
+<td style="text-align: left;"><a href="https://github.com/frankiethull/centenarians">frankiethull: Centenarians</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List_of_the_verified_oldest_people">Wikipedia: List of the verified oldest people</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23</td>
+<td style="text-align: left;">2023-06-06</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-06-06/readme.html">Energy</a></td>
+<td style="text-align: left;"><a href="https://ourworldindata.org/explorers/energy">Energy Data Explorer</a></td>
+<td style="text-align: left;"><a href="https://github.com/owid/energy-data">Our World in Data Energy Complete Dataset</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: left;">2023-06-13</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-06-13/readme.html">Studying African Farmer-Led Irrigation Survey</a></td>
+<td style="text-align: left;"><a href="https://datacarpentry.org/socialsci-workshop/data/">SAFI Teaching Dataset for Data Carpentry Social Sciences</a></td>
+<td style="text-align: left;"><a href="https://figshare.com/articles/SAFI_Survey_Results/6262019">SAFI Teaching Dataset</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">2023-06-20</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-06-20/readme.html">UFO Sightings Redux</a></td>
+<td style="text-align: left;"><a href="https://nuforc.org/webreports/ndxshape.html">National UFO Reporting Center</a>, <a href="https://sunrise-sunset.org">sunrise-sunset.org</a></td>
+<td style="text-align: left;"><a href="https://tidytues.day/2019/2019-06-25">TidyTuesday 2019-06-25</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">2023-06-27</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-06-27/readme.html">US Populated Places</a></td>
+<td style="text-align: left;"><a href="https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/GeographicNames/">National Map Staged Products Directory</a></td>
+<td style="text-align: left;"><a href="https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data">US Board of Geographic Names</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">27</td>
+<td style="text-align: left;">2023-07-04</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-07-04/readme.html">Historical Markers</a></td>
+<td style="text-align: left;"><a href="https://www.hmdb.org/geolists.asp?c=United%20States%20of%20America">Historical Marker Database USA Index</a></td>
+<td style="text-align: left;"><a href="https://www.hmdb.org/stats.asp">Database Counts and Statistics</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">2023-07-11</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-07-11/readme.html">Global Surface Temperatures</a></td>
+<td style="text-align: left;"><a href="https://data.giss.nasa.gov/gistemp/">NASA GISS Surface Temperature Analysis (GISTEMP v4)</a></td>
+<td style="text-align: left;"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522">Improvements in the GISTEMP Uncertainty Model</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">29</td>
+<td style="text-align: left;">2023-07-18</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-07-18/readme.html">GPT detectors</a></td>
+<td style="text-align: left;"><a href="https://github.com/simonpcouch/detectors/">GPT detectors R package</a></td>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2304.02819">GPT Detectors Are Biased Against Non-Native English Writers</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">30</td>
+<td style="text-align: left;">2023-07-25</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-07-25/readme.html">Scurvy</a></td>
+<td style="text-align: left;"><a href="https://higgi13425.github.io/medicaldata/">medicaldata R package</a></td>
+<td style="text-align: left;"><a href="https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/scurvy_desc.html">Scurvy Dataset Description</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">31</td>
+<td style="text-align: left;">2023-08-01</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-08-01/readme.html">US States</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States">List of states and territories of the United States</a>, <a href="https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories">List of demonyms for US states and territories</a>, and <a href="https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States">List of state and territory name etymologies of the United States</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States">List of states and territories of the United States</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">32</td>
+<td style="text-align: left;">2023-08-08</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-08-08/readme.html">Hot Ones Episodes</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Hot_Ones"><em>Hot Ones</em></a> and <a href="https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes">List of Hot Ones episodes</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Hot_Ones"><em>Hot Ones</em></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">33</td>
+<td style="text-align: left;">2023-08-15</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-08-15/readme.html">Spam E-mail</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/spam7.html">Spam e-mail</a></td>
+<td style="text-align: left;"><a href="https://archive.ics.uci.edu/dataset/94/spambase">Spam email database</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">34</td>
+<td style="text-align: left;">2023-08-22</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-08-22/readme.html">Refugees</a></td>
+<td style="text-align: left;"><a href="https://github.com/PopulationStatistics/refugees">Refugees R package</a></td>
+<td style="text-align: left;"><a href="https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html">United Nations High Commissioner for Refugees (UNHCR) Refugee Data Finder</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">35</td>
+<td style="text-align: left;">2023-08-29</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-08-29/readme.html">Fair Use</a></td>
+<td style="text-align: left;"><a href="https://www.copyright.gov/fair-use/fair-index.html">U.S. Copyright Office Fair Use Index</a></td>
+<td style="text-align: left;"><a href="https://www.copyright.gov/fair-use/">U.S. Copyright Office Fair Use Index</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">36</td>
+<td style="text-align: left;">2023-09-05</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-09-05/readme.html">Union Membership in the United States</a></td>
+<td style="text-align: left;"><a href="https://www.unionstats.com/">Union Membership, Coverage, and Earnings from the CPS</a></td>
+<td style="text-align: left;"><a href="https://onlinelibrary.wiley.com/doi/10.1111/irel.12330">Five decades of CPS wages, methods, and union-nonunion wage gaps at Unionstats.com</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">37</td>
+<td style="text-align: left;">2023-09-12</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-09-12/readme.html">The Global Human Day</a></td>
+<td style="text-align: left;"><a href="https://zenodo.org/record/8040631">The Global Human Day dataset</a></td>
+<td style="text-align: left;"><a href="https://www.pnas.org/doi/10.1073/pnas.2219564120#sec-2">The global human day PNAS article</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">38</td>
+<td style="text-align: left;">2023-09-19</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-09-19/readme.html">CRAN Package Authors</a></td>
+<td style="text-align: left;"><a href="https://github.com/schochastics/CRAN_collaboration">The CRAN collaboration graph</a></td>
+<td style="text-align: left;"><a href="https://github.com/schochastics/CRAN_collaboration#readme">The CRAN collaboration graph README</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">39</td>
+<td style="text-align: left;">2023-09-26</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-09-26/readme.html">Roy Kent F**k count</a></td>
+<td style="text-align: left;"><a href="https://deepshamenghani.github.io/posit_plotly_crosstalk/#/but-first..-what-is-ted-lasso-and-who-is-roy-kent">Deepsha Menghani posit::conf(2023) talk on data visualization and Quarto</a></td>
+<td style="text-align: left;"><a href="https://github.com/deepshamenghani/richmondway">richmondway dataset</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">40</td>
+<td style="text-align: left;">2023-10-03</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-10-03/readme.html">US Government Grant Opportunities</a></td>
+<td style="text-align: left;"><a href="https://www.grants.gov/web/grants/learn-grants/grants-101.html">Grants 101 from Grants.gov</a></td>
+<td style="text-align: left;"><a href="https://www.grants.gov/web/grants/search-grants.html">Grants.gov Search Export</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">41</td>
+<td style="text-align: left;">2023-10-10</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-10-10/readme.html">Haunted Places in the United States</a></td>
+<td style="text-align: left;"><a href="https://github.com/timothyrenner/shadowlands-haunted-places">Tim Renner on data.world</a></td>
+<td style="text-align: left;"><a href="https://geocompx.org/post/2023/rgdal-retirement/index.html">Upcoming changes to popular R packages for spatial data: what you need to do</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">42</td>
+<td style="text-align: left;">2023-10-17</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-10-17/readme.html">Taylor Swift data</a></td>
+<td style="text-align: left;"><a href="https://taylor.wjakethompson.com/">taylor R package</a></td>
+<td style="text-align: left;"><a href="https://rpubs.com/salvatoremancino/1065547">Taylor Swift data analysis</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">43</td>
+<td style="text-align: left;">2023-10-24</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-10-24/readme.html">Patient Risk Profiles</a></td>
+<td style="text-align: left;"><a href="https://rinpharma.com/">R/Pharma</a></td>
+<td style="text-align: left;"><a href="https://rinpharma.com/">R/Pharma</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">44</td>
+<td style="text-align: left;">2023-10-31</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-10-31/readme.html">Horror Legends</a></td>
+<td style="text-align: left;"><a href="https://www.snopes.com/fact-check/category/horrors">Snopes Horrors Section</a></td>
+<td style="text-align: left;"><a href="https://www.snopes.com/fact-check/category/horrors">Snopes Horrors Section</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">45</td>
+<td style="text-align: left;">2023-11-07</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-11-07/readme.html">US House Election Results</a></td>
+<td style="text-align: left;"><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2">MIT Election Data and Science Lab</a></td>
+<td style="text-align: left;"><a href="https://electionlab.mit.edu/articles/new-report-how-we-voted-2022">New Report: How We Voted in 2022</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">46</td>
+<td style="text-align: left;">2023-11-14</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-11-14/readme.html">Diwali Sales Data</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/datasets/saadharoon27/diwali-sales-dataset">Diwali sales data</a></td>
+<td style="text-align: left;"><a href="https://www.kaggle.com/code/bhushanshelke69/diwali-data-exploration">Diwali sales data exploration (in Python)</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">47</td>
+<td style="text-align: left;">2023-11-21</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-11-21/readme.html">R-Ladies Chapter Events</a></td>
+<td style="text-align: left;"><a href="https://github.com/rladies/meetup_archive">R-Ladies Chapter Events data</a></td>
+<td style="text-align: left;"><a href="https://github.com/Fgazzelloni/RLadies-Chapters-Making-Talks-Work-for-Diverse-Audiences/tree/main">R-Ladies Chapters: Making talks work for diverse audiences</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">48</td>
+<td style="text-align: left;">2023-11-28</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-11-28/readme.html">Doctor Who Episodes</a></td>
+<td style="text-align: left;"><a href="https://cran.r-project.org/package=datardis">datardis package</a></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List_of_Doctor_Who_episodes_(2005%E2%80%93present)">List of Doctor Who episodes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">49</td>
+<td style="text-align: left;">2023-12-05</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-12-05/readme.html">Life Expectancy</a></td>
+<td style="text-align: left;"><a href="https://ourworldindata.org/life-expectancy">Our World in Data life expectancy</a></td>
+<td style="text-align: left;"><a href="https://ourworldindata.org/life-expectancy?insight=life-expectancy-has-increased-across-the-world#key-insights">Our World in Data key insights on life expectancy</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">2023-12-12</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-12-12/readme.html">Holiday Movies</a></td>
+<td style="text-align: left;"><a href="https://developer.imdb.com/non-commercial-datasets/">IMDb non-commercial datasets</a></td>
+<td style="text-align: left;"><a href="https://networkdatascience.ceu.edu/article/2019-12-16/christmas-movies">Christmas Movies blog</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">51</td>
+<td style="text-align: left;">2023-12-19</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-12-19/readme.html">Holiday Episodes</a></td>
+<td style="text-align: left;"><a href="https://developer.imdb.com/non-commercial-datasets/">IMDb non-commercial datasets</a></td>
+<td style="text-align: left;"><a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/HolidayEpisode">Holiday Episode TV Trope</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">52</td>
+<td style="text-align: left;">2023-12-26</td>
+<td style="text-align: left;"><a href="../../data/2023/2023-12-26/readme.html">R Package Structure</a></td>
+<td style="text-align: left;"><a href="https://zenodo.org/records/7414296">ropensci-review-tools/pkgstats</a></td>
+<td style="text-align: left;"><a href="https://mpadge.github.io/pkgstats-analyses/articles/pkgstats.html">Historical Trends in R Package Structure and Interdependency on CRAN</a>)</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfordatascience\.github\.io\/tidytuesday\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

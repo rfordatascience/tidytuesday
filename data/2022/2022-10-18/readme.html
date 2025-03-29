@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – TidyTuesday</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">TidyTuesday</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About TidyTuesday</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2023</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2019</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2018</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#please-add-alt-text-to-your-posts" id="toc-please-add-alt-text-to-your-posts" class="nav-link active" data-scroll-target="#please-add-alt-text-to-your-posts">Please add alt text to your posts</a></li>
+  <li><a href="#stranger-things-dialogue" id="toc-stranger-things-dialogue" class="nav-link" data-scroll-target="#stranger-things-dialogue">Stranger Things Dialogue</a>
+  <ul class="collapse">
+  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a></li>
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
+  <li><a href="#stranger_things_all_dialogue.csv" id="toc-stranger_things_all_dialogue.csv" class="nav-link" data-scroll-target="#stranger_things_all_dialogue.csv">stranger_things_all_dialogue.csv</a></li>
+  <li><a href="#episodes.csv" id="toc-episodes.csv" class="nav-link" data-scroll-target="#episodes.csv">episodes.csv</a></li>
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="please-add-alt-text-to-your-posts" class="level3">
+<h3 class="anchored" data-anchor-id="please-add-alt-text-to-your-posts">Please add alt text to your posts</h3>
+<p>Please add alt text (alternative text) to all of your posted graphics for <code>#TidyTuesday</code>.</p>
+<p>Twitter provides <a href="https://help.twitter.com/en/using-twitter/picture-descriptions">guidelines</a> for how to add alt text to your images.</p>
+<p>The DataViz Society/Nightingale by way of Amy Cesal has an <a href="https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81">article</a> on writing <em>good</em> alt text for plots/graphs.</p>
+<blockquote class="blockquote">
+<p>Here’s a simple formula for writing alt text for data visualization: ### Chart type It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for. Example: the winter months have more banana sales ### Link to data or source Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data. Example: Data from the USDA</p>
+</blockquote>
+<p>Penn State has an <a href="https://accessibility.psu.edu/images/charts/">article</a> on writing alt text descriptions for charts and tables.</p>
+<blockquote class="blockquote">
+<p>Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. See the <a href="https://accessibility.psu.edu/images/charts/">examples on this page</a> for details on how to make charts more accessible.</p>
+</blockquote>
+<p>The <code>{rtweet}</code> package includes the <a href="https://docs.ropensci.org/rtweet/reference/post_tweet.html">ability to post tweets</a> with alt text programatically.</p>
+<p>Need a <strong>reminder</strong>? There are <a href="https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related">extensions</a> that force you to remember to add Alt Text to Tweets with media.</p>
+</section>
+<section id="stranger-things-dialogue" class="level1">
+<h1>Stranger Things Dialogue</h1>
+<p>The data this week comes from <a href="https://8flix.com/collections/transcripts/stranger-things-2/">8flix.com</a> - prepped by <a href="https://twitter.com/FilmicAesthetic">Dan Fellowes</a> &amp; <a href="https://twitter.com/KittJonathan">Jonathan Kitt</a>.</p>
+<p>Repo with cleaning scripts + data: <a href="https://github.com/filmicaesthetic/stringr-things" class="uri">https://github.com/filmicaesthetic/stringr-things</a></p>
+<p>8flix: <a href="https://8flix.com/stranger-things/" class="uri">https://8flix.com/stranger-things/</a> Wikipedia - Stranger Things episodes: <a href="https://en.wikipedia.org/wiki/List_of_Stranger_Things_episodes" class="uri">https://en.wikipedia.org/wiki/List_of_Stranger_Things_episodes</a></p>
+<blockquote class="blockquote">
+<p>Stranger Things is an American science fiction fantasy horror drama television series created by the Duffer Brothers that is streaming on Netflix. The brothers serve as showrunners and are executive producers along with Shawn Levy and Dan Cohen. The first season of the series was released on Netflix on July 15, 2016, with the second, third, and fourth seasons following in October 2017, July 2019, and May and July 2022, respectively.</p>
+</blockquote>
+<p><a href="https://www.freecodecamp.org/news/a-statistical-curiosity-voyage-through-the-emotion-of-stranger-things-e7bc8b2a6395">A Statistical Curiosity Voyage Through the Emotion of Stranger Things</a> by Jordan Dworkin:</p>
+<section id="get-the-data-here" class="level3">
+<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the Data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in with tidytuesdayR package </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Install from CRAN via: install.packages("tidytuesdayR")</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># This loads the readme and all the datasets for the week of interest</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Either ISO-8601 date or year/week works!</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2022-10-18'</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2022</span>, <span class="at">week =</span> <span class="dv">42</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>episodes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>episodes</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Or read in the data manually</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>episodes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-18/episodes.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+</section>
+<section id="stranger_things_all_dialogue.csv" class="level3">
+<h3 class="anchored" data-anchor-id="stranger_things_all_dialogue.csv">stranger_things_all_dialogue.csv</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 67%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">season</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Season number</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">episode</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Episode number within the season</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">line</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Order in which line appears in episode</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_text</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Original text with both dialogue and stage directions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">stage_direction</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Text describing what’s happening, or who is talking</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dialogue</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Dialogue spoken within the episode</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">start_time</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Time within the episode when the line starts being spoken</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">end_time</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Time within the episode when the line stops being spoken</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="episodes.csv" class="level3">
+<h3 class="anchored" data-anchor-id="episodes.csv">episodes.csv</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">season</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Season number</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">episode</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Episode number within the season</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">title</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Title of the episode</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">directed_by</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Director(s) of the episode</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">written_by</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Writer(s) of the episode</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">original_release_date</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Release date of the episode</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cleaning-script" class="level3">
+<h3 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h3>
+<p>Scripts contributed: https://github.com/filmicaesthetic/stringr-things/tree/main/scripts</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pdftools)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># tidy script function</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>tidy_script <span class="ot">&lt;-</span> <span class="cf">function</span>(pdftext) {</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># paste as a single string</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  ep_string <span class="ot">&lt;-</span> <span class="fu">paste</span>(pdftext, <span class="at">sep =</span> <span class="st">" "</span>, <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\\\n</span><span class="st">"</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># split by line with \n</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  ep_byline <span class="ot">&lt;-</span> <span class="fu">str_extract_all</span>(ep_string, <span class="st">"</span><span class="sc">\\\n</span><span class="st">.*"</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># convert to dataframe</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  ep_byline_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(ep_byline[[<span class="dv">1</span>]])</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="co"># tidy text </span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  ep_squish <span class="ot">&lt;-</span>  ep_byline_df <span class="sc">|&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">ep_byline..1.. =</span> <span class="fu">str_squish</span>(ep_byline..<span class="dv">1</span>..))</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  <span class="co"># get row containing page 1 text</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  start_line <span class="ot">&lt;-</span> <span class="fu">which</span>(ep_squish<span class="sc">$</span>ep_byline..<span class="dv">1</span>.. <span class="sc">==</span> <span class="st">"Page |1"</span>)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove text above page 1</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  ep_script <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(ep_squish[start_line<span class="sc">:</span><span class="fu">nrow</span>(ep_squish),])</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(ep_script) <span class="ot">&lt;-</span> <span class="st">"raw_text"</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="co"># filter out irrelevant lines</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  ep_filt <span class="ot">&lt;-</span> ep_script <span class="sc">|&gt;</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span>(raw_text <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"8FLiX.com TRANSCRIPT DATABASE"</span>, <span class="st">"FOR EDUCATIONAL USE ONLY"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">"</span>, <span class="st">""</span>, <span class="st">"This transcript is for educational use only."</span>, <span class="st">"Not to be sold or auctioned."</span>)),</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>           <span class="sc">!</span>(<span class="fu">substr</span>(raw_text, <span class="dv">1</span>, <span class="dv">6</span>) <span class="sc">==</span> <span class="st">"Page |"</span>),</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>           <span class="sc">!</span>(<span class="fu">substr</span>(raw_text, <span class="dv">1</span>, <span class="dv">6</span>) <span class="sc">==</span> <span class="st">"P a g "</span>))</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>  ep_split <span class="ot">&lt;-</span> ep_filt <span class="sc">|&gt;</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">time =</span> <span class="fu">ifelse</span>(<span class="fu">grepl</span>(<span class="st">"--&gt;"</span>, raw_text) <span class="sc">==</span> <span class="cn">TRUE</span>, raw_text, <span class="cn">NA</span>),</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>           <span class="at">line =</span> <span class="fu">ifelse</span>(<span class="fu">grepl</span>(<span class="st">"^[0-9]+$"</span>, raw_text) <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="fu">as.numeric</span>(raw_text), <span class="cn">NA</span>),</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>           <span class="at">stage_direction =</span> <span class="fu">str_squish</span>(<span class="fu">str_extract</span>(raw_text, <span class="st">"</span><span class="sc">\\</span><span class="st">[(.*?)</span><span class="sc">\\</span><span class="st">]"</span>)),</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>           <span class="at">dialogue =</span> <span class="fu">str_squish</span>(<span class="fu">gsub</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">[(.*?)</span><span class="sc">\\</span><span class="st">]"</span>, <span class="st">""</span>, <span class="fu">gsub</span>(<span class="st">"-"</span>, <span class="st">""</span>, raw_text)))) <span class="sc">|&gt;</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fill</span>(time, <span class="at">.direction =</span> <span class="st">"down"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fill</span>(line, <span class="at">.direction =</span> <span class="st">"down"</span>)</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>  ep_timesplit <span class="ot">&lt;-</span> ep_split</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>  ep_timesplit[<span class="fu">c</span>(<span class="st">"start_time"</span>, <span class="st">"end_time"</span>)] <span class="ot">&lt;-</span> <span class="fu">str_split_fixed</span>(<span class="at">string =</span> ep_timesplit<span class="sc">$</span>time, <span class="at">pattern =</span> <span class="st">" --&gt; "</span>, <span class="at">n =</span> <span class="dv">2</span>)</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>  ep_timesplit <span class="ot">&lt;-</span> ep_timesplit <span class="sc">|&gt;</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>time)</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>  ep_tidy <span class="ot">&lt;-</span> ep_timesplit <span class="sc">|&gt;</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">"[a-zA-Z]"</span>, raw_text) <span class="sc">==</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>  ep_groupline <span class="ot">&lt;-</span> ep_tidy <span class="sc">|&gt;</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(line) <span class="sc">|&gt;</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(<span class="at">raw_text =</span> <span class="fu">paste0</span>(raw_text, <span class="at">collapse =</span> <span class="st">" "</span>),</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>              <span class="at">stage_direction =</span> <span class="fu">paste0</span>(stage_direction[<span class="sc">!</span><span class="fu">is.na</span>(stage_direction)], <span class="at">collapse =</span> <span class="st">" "</span>),</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>              <span class="at">dialogue =</span> <span class="fu">paste0</span>(dialogue, <span class="at">collapse =</span> <span class="st">" "</span>),</span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>              <span class="at">start_time =</span> <span class="fu">first</span>(start_time),</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>              <span class="at">end_time =</span> <span class="fu">first</span>(end_time)) <span class="sc">|&gt;</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(line) <span class="sc">|&gt;</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(line)) <span class="sc">|&gt;</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(season, episode, line, raw_text, stage_direction, dialogue, start_time, end_time)</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(ep_groupline)</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="co"># Process scripts for all seasons</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="co"># read PDFs for season 1 scripts</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>e101 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-101-Chapter-One-The-Vanishing-of-Will-Byers.pdf"</span>)</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>e102 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-102-Chapter-Two-The-Weirdo-on-Maple-Street.pdf"</span>)</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>e103 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-103-Chapter-Three-Holly-Jolly.pdf"</span>)</span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>e104 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-104-Chapter-Four-The-Body.pdf"</span>)</span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>e105 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-105-Chapter-Five-The-Flea-and-the-Acrobat.pdf"</span>)</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>e106 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-106-Chapter-Six-The-Monster.pdf"</span>)</span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>e107 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-107-Chapter-Seven-The-Bathtub.pdf"</span>)</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>e108 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-108-Chapter-Eight-The-Upside-Down.pdf"</span>)</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a><span class="co"># read PDFs for season 2 scripts</span></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>e201 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-201-Chapter-One-MADMAX.pdf"</span>)</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>e202 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-202-Chapter-Two-Trick-or-Treat-Freak.pdf"</span>)</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>e203 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-203-Chapter-Three-The-Pollywog.pdf"</span>)</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>e204 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-204-Chapter-Four-Will-the-Wise.pdf"</span>)</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>e205 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-205-Chapter-Five-Dig-Dug.pdf"</span>)</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>e206 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-206-Chapter-Six-The-Spy.pdf"</span>)</span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>e207 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-207-Chapter-Seven-The-Lost-Sister.pdf"</span>)</span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>e208 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-208-Chapter-Eight-The-Mind-Flayer.pdf"</span>)</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>e209 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-209-Chapter-Nine-The-Gate.pdf"</span>)</span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="co"># read PDFs for season 3 scripts</span></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a>e301 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-301-Chapter-One-Suzie-Do-You-Copy.pdf"</span>)</span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>e302 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-302-Chapter-Two-The-Mall-Rats.pdf"</span>)</span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>e303 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-303-Chapter-Three-The-Case-of-the-Missing-Lifeguard.pdf"</span>)</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>e304 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-304-Chapter-Four-The-Sauna-Test.pdf"</span>)</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>e305 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-305-Chapter-Five-The-Flayed.pdf"</span>)</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>e306 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-306-Chapter-Six-E-Pluribus-Unum.pdf"</span>)</span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>e307 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-307-Chapter-Seven-The-Bite.pdf"</span>)</span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>e308 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-308-Chapter-Eight-The-Battle-of-Starcourt.pdf"</span>)</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="co"># read PDFs for season 4 scripts</span></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>e401 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-401-Chapter-One-The-Hellfire-Club.pdf"</span>)</span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>e402 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-402-Chapter-Two-Vecnas-Curse.pdf"</span>)</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>e403 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-403-Chapter-Three-The-Monster-and-the-Superhero.pdf"</span>)</span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>e404 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-404-Chapter-Four-Dear-Billy.pdf"</span>)</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a>e405 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-405-Chapter-Five-The-Nina-Project.pdf"</span>)</span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>e406 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-406-Chapter-Six-The-Dive.pdf"</span>)</span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>e407 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-407-Chapter-Seven-The-Massacre-at-Hawkins-Lab.pdf"</span>)</span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>e408 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-408-Chapter-Eight-Papa.pdf"</span>)</span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a>e409 <span class="ot">&lt;-</span> <span class="fu">pdf_text</span>(<span class="st">"https://8flix.com/assets/transcripts/s/tt4574334/Stranger-Things-transcript-409-Chapter-Nine-The-Piggyback.pdf"</span>)</span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a><span class="co"># list of episodes by season</span></span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>s1 <span class="ot">&lt;-</span> <span class="fu">list</span>(e101, e102, e103, e104, e105, e106, e107, e108)</span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>s2 <span class="ot">&lt;-</span> <span class="fu">list</span>(e201, e202, e203, e204, e205, e206, e207, e208, e209)</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>s3 <span class="ot">&lt;-</span> <span class="fu">list</span>(e301, e302, e303, e304, e305, e306, e307, e308)</span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>s4 <span class="ot">&lt;-</span> <span class="fu">list</span>(e401, e402, e403, e404, e405, e406, e407, e308, e209)</span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a><span class="co"># list of seasons</span></span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>seasons <span class="ot">&lt;-</span> <span class="fu">list</span>(s1, s2, s3, s4)</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a><span class="co"># create blank dataframe</span></span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a>all_dialogue <span class="ot">&lt;-</span> <span class="fu">data.frame</span>()</span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a><span class="co"># process scripts into single dataframe</span></span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (s <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(seasons)) {</span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a>  <span class="co"># tidy scripts</span></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(seasons[[s]])) {</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a>    it <span class="ot">&lt;-</span> <span class="fu">tidy_script</span>(seasons[[s]][[i]])</span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a>    it<span class="sc">$</span>episode <span class="ot">&lt;-</span> i</span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a>    it<span class="sc">$</span>season <span class="ot">&lt;-</span> s</span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>    all_dialogue <span class="ot">&lt;-</span> <span class="fu">rbind</span>(all_dialogue, it)</span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a><span class="co"># save dataframe</span></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(all_dialogue, <span class="st">"data/stranger_things_all_dialogue.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfordatascience\.github\.io\/tidytuesday\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

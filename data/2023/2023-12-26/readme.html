@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – TidyTuesday</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">TidyTuesday</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About TidyTuesday</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2023</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2019</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2018</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#r-package-structure" id="toc-r-package-structure" class="nav-link active" data-scroll-target="#r-package-structure">R Package Structure</a>
+  <ul class="collapse">
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
+  <ul class="collapse">
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#cran_20221122.csv" id="toc-cran_20221122.csv" class="nav-link" data-scroll-target="#cran_20221122.csv"><code>cran_20221122.csv</code></a></li>
+  <li><a href="#external_calls.csv" id="toc-external_calls.csv" class="nav-link" data-scroll-target="#external_calls.csv"><code>external_calls.csv</code></a></li>
+  <li><a href="#internal_calls.csv" id="toc-internal_calls.csv" class="nav-link" data-scroll-target="#internal_calls.csv"><code>internal_calls.csv</code></a>
+  <ul class="collapse">
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="r-package-structure" class="level1">
+<h1>R Package Structure</h1>
+<p>Happy Boxing Day! While you’re dealing with your physical packages, we’re looking into R packages!</p>
+<p>The dataset this week comes from <a href="https://mpadge.github.io/pkgstats-analyses/articles/pkgstats.html">“Historical Trends in R Package Structure and Interdependency on CRAN”</a> by Mark Padgham and Noam Ross. In that paper, they use the <a href="https://cran.r-project.org/package=pkgstats">{pkgstats}</a> R package to analyze the structure of R packages over time, using an archive of all packages on <a href="https://cran.r-project.org/">CRAN</a> as of 2022-11-22. We’ve provided csv versions of two of <a href="https://zenodo.org/records/7414296">the datasets from that paper</a>.</p>
+<p>The paper focuses on package characteristics over time. It might be interesting to look at the distribution of similar features (such as lines of code) across packages.</p>
+<p>If you’re unfamiliar with some of the terminology in this dataset, you might find the <a href="https://r-pkgs.org/">R Packages</a> book by Hadley Wickham and Jennifer Bryan helpful.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR package </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2023-12-26'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2023</span>, <span class="at">week =</span> <span class="dv">52</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>cran_20221122 <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cran_20221122</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>external_calls <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>external_calls</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>internal_calls <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>internal_calls</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cran_20221122 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/cran_20221122.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>external_calls <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/external_calls.csv'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>internal_calls <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/internal_calls.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If you would like to dive deeper, you can download the larger dataset with this code:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>cran_all_20221122 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_rds</span>(<span class="st">"https://zenodo.org/records/7414296/files/pkgstats-CRAN-all.Rds?download=1"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="how-to-participate" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
+<ul>
+<li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
+<li>Create a visualization, a model, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R or another programming language.</li>
+<li><a href="../../../sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
+</ul>
+<section id="data-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+</section>
+</section>
+</section>
+<section id="cran_20221122.csv" class="level1">
+<h1><code>cran_20221122.csv</code></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 15%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">package</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The name of the package</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The package version</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The release date of that version of the package</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">license</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">License information</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">files_R</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of files in the /R directory, where numbers are recursively counted in all sub-directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">files_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of files in the /src directory, where numbers are recursively counted in all sub-directories</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">files_inst</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of files in the /inst/include directory, where numbers are recursively counted in all sub-directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">files_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of files in the /vignettes directory, where numbers are recursively counted in all sub-directories</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">files_tests</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of files in the /tests directory, where numbers are recursively counted in all sub-directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_R</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total lines of code across all files in the /R directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total lines of code across all files in the /src directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_inst</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total lines of code across all files in the /inst/include directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total lines of code across all files in the /vignettes directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_tests</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total lines of code across all files in the /tests directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">blank_lines_R</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of blank lines across all files in the /R directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">blank_lines_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of blank lines across all files in the /src directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">blank_lines_inst</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of blank lines across all files in the /inst directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">blank_lines_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of blank lines across all files in the /vignettes directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">blank_lines_tests</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of blank lines across all files in the /tests directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">comment_lines_R</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of comment lines across all files in the /R directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">comment_lines_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of comment lines across all files in the /src directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">comment_lines_inst</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of comment lines across all files in the /inst directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">comment_lines_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of comment lines across all files in the /vignettes directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">comment_lines_tests</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total numbers of comment lines across all files in the /tests directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rel_space</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /R, /src, and /inst directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rel_space_R</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /R directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rel_space_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /src directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rel_space_inst</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /inst directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rel_space_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /vignettes directory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rel_space_tests</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Measure of relative white space across all files in the /tests directory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">indentation</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The number of spaces used to indent code, with values of -1 indicating indentation with tab characters</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">nexpr</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The median number of nested expression per line of code, counting only those lines which have any expressions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">num_vignettes</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of vignettes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">num_demos</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of demos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">num_data_files</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of data files</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">data_size_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total size of all package data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">data_size_median</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median size of package data files</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">translations</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">List of translations where package includes translations files, given as a comma-separated list of (spoken) language codes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">urls</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Package URL(s)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bugs</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">URL for BugReports</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">desc_n_aut</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of author</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">desc_n_ctb</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of contributor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">desc_n_fnd</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of funder</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">desc_n_rev</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of reviewer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">desc_n_ths</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of thesis advisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">desc_n_trl</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of contributors with role of translator (relating to translation between computer and not spoken languages)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">depends</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated character entries for all depends packages</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">imports</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated character entries for all imports packages</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">suggests</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated character entries for all suggests packages</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">enhances</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated character entries for all enhances packages</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">linking_to</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated character entries for all linking_to packages</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_fns_r</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Numbers of functions in R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_fns_r_exported</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Numbers of exported R functions</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_fns_r_not_exported</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Numbers of non-exported R functions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_fns_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of functions (or objects) in other computer languages, including functions in both src and inst/include directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_fns_per_file_r</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of functions (or objects) per individual file in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_fns_per_file_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of functions (or objects) per individual file in source directories other than /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">npars_exported_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean number of parameters per exported R function</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">npars_exported_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median number of parameters per exported R function</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_per_fn_r_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of code per function in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_per_fn_r_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of code per function in /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_per_fn_r_exp_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of code per exported function in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_per_fn_r_exp_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of code per exported function in /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_per_fn_r_not_exp_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of code per non-exported function in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_per_fn_r_not_exp_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of code per non-exported function in /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">loc_per_fn_src_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of code per in other source directories</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">loc_per_fn_src_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of code per in other source directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">languages</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">languages</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">doclines_per_fn_exp_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of documentation per exported function in /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">doclines_per_fn_exp_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of documentation per exported function in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">doclines_per_fn_not_exp_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of documentation per non-exported function in /R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">doclines_per_fn_not_exp_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of documentation per non-exported function in /R</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">doclines_per_fn_src_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean lines of code per in other source directories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">doclines_per_fn_src_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median lines of code per in other source directories</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">docchars_per_par_exp_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean number of documentation characters per parameter of exported R functions</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">docchars_per_par_exp_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median number of documentation characters per parameter of exported R functions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_edges</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of edges connecting functions (and other objects) across all languages in package code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_edges_r</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of edges connecting R functions (and other objects)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_edges_src</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of edges connecting functions (and other objects) in other languages</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_clusters</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of distinct clusters in package network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">centrality_dir_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean centrality of all network edges, calculated from directed representation of network</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">centrality_dir_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median centrality of all network edges, calculated from directed representation of network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">centrality_dir_mn_no0</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean centrality of all network edges, calculated from directed representation of network, excluding edges with centrality of zero</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">centrality_dir_md_no0</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median centrality of all network edges, calculated from directed representation of network, excluding edges with centrality of zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">centrality_undir_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean centrality of all network edges, calculated from undirected representation of network</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">centrality_undir_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median centrality of all network edges, calculated from undirected representation of network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">centrality_undir_mn_no0</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean centrality of all network edges, calculated from undirected representation of network, excluding edges with centrality of zero</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">centrality_undir_md_no0</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median centrality of all network edges, calculated from undirected representation of network, excluding edges with centrality of zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">num_terminal_edges_dir</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Numbers of terminal edges, calculated from directed representation of network</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">num_terminal_edges_undir</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">num_terminal_edges_undir, calculated from undirected representation of network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">node_degree_mn</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Mean node degree</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">node_degree_md</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median node degree</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">node_degree_max</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Maximum node degree</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cpl_instability_pkg</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Coupling instability, a measure of the extent to which packages depend on external functionality without other packages in turn depending on them</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="external_calls.csv" class="level1">
+<h1><code>external_calls.csv</code></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 27%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">package_from</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The package that makes the call</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">package_to</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The package that the source package calls</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The total number of calls from package_from to package_to</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_unique</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The number of unique calls from package_from to package_to</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="internal_calls.csv" class="level1">
+<h1><code>internal_calls.csv</code></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 32%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">package</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The package being evaluated</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The total number of calls from functions in one file to functions in another file within the package</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_unique</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The number of unique calls from functions in one file to functions in another file within the package</td>
+</tr>
+</tbody>
+</table>
+<section id="cleaning-script" class="level3">
+<h3 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h3>
+<p>The authors provided mostly [clean data](https://zenodo.org/records/7414296. We chose one of their datasets, lightly cleaned the data, and saved it as a CSV. We also split the <code>external_calls</code> data into two files, one for calls to functions in other files in the same package (<code>internal_calls.csv</code>) and one for calls to functions in other packages (<code>external_calls.csv</code>).</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>working_dir <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"2023"</span>, <span class="st">"2023-12-26"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>cran_20221122_url <span class="ot">&lt;-</span> <span class="st">"https://zenodo.org/records/7414296/files/pkgstats-CRAN-current.Rds?download=1"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>cran_20221122 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_rds</span>(cran_20221122_url) <span class="sc">|&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">c</span>(translations, depends<span class="sc">:</span>linking_to, languages, external_calls),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>      \(x) {</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        dplyr<span class="sc">::</span><span class="fu">na_if</span>(x, <span class="st">"NA"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>          dplyr<span class="sc">::</span><span class="fu">na_if</span>(<span class="st">""</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">glimpse</span>(cran_20221122)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>calls_20221122 <span class="ot">&lt;-</span> cran_20221122 <span class="sc">|&gt;</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="at">package_from =</span> package, external_calls) <span class="sc">|&gt;</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">separate_longer_delim</span>(</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    external_calls,</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">","</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="co"># In at least one case, an extra "L:" prefix was picked up from a 1:10-style</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  <span class="co"># range.</span></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">external_calls =</span> stringr<span class="sc">::</span><span class="fu">str_remove</span>(external_calls, <span class="st">"^L:"</span>)</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">separate_wider_delim</span>(</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    external_calls,</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">":"</span>,</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">names =</span> <span class="fu">c</span>(<span class="st">"package_to"</span>, <span class="st">"n_total"</span>, <span class="st">"n_unique"</span>)</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>cran_20221122<span class="sc">$</span>external_calls <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>external_calls <span class="ot">&lt;-</span> calls_20221122 <span class="sc">|&gt;</span> </span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(package_from <span class="sc">!=</span> package_to)</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>internal_calls <span class="ot">&lt;-</span> calls_20221122 <span class="sc">|&gt;</span> </span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(package_from <span class="sc">==</span> package_to) <span class="sc">|&gt;</span> </span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="at">package =</span> package_from, n_total, n_unique)</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>  cran_20221122,</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  fs<span class="sc">::</span><span class="fu">path</span>(working_dir, <span class="st">"cran_20221122.csv"</span>)</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>  external_calls,</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>  fs<span class="sc">::</span><span class="fu">path</span>(working_dir, <span class="st">"external_calls.csv"</span>)</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>  internal_calls,</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>  fs<span class="sc">::</span><span class="fu">path</span>(working_dir, <span class="st">"internal_calls.csv"</span>)</span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfordatascience\.github\.io\/tidytuesday\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

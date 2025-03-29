@@ -1,0 +1,2171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – TidyTuesday</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">TidyTuesday</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About TidyTuesday</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2023</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2021</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2019</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2018</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#please-add-alt-text-to-your-posts" id="toc-please-add-alt-text-to-your-posts" class="nav-link active" data-scroll-target="#please-add-alt-text-to-your-posts">Please add alt text to your posts</a></li>
+  <li><a href="#formula-1-races" id="toc-formula-1-races" class="nav-link" data-scroll-target="#formula-1-races">Formula 1 Races</a>
+  <ul class="collapse">
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a></li>
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
+  <li><a href="#circuits.csv" id="toc-circuits.csv" class="nav-link" data-scroll-target="#circuits.csv"><code>circuits.csv</code></a></li>
+  <li><a href="#constructor_results-table" id="toc-constructor_results-table" class="nav-link" data-scroll-target="#constructor_results-table">constructor_results table</a></li>
+  <li><a href="#constructor_standings-table" id="toc-constructor_standings-table" class="nav-link" data-scroll-target="#constructor_standings-table">constructor_standings table</a></li>
+  <li><a href="#constructors-table" id="toc-constructors-table" class="nav-link" data-scroll-target="#constructors-table">constructors table</a></li>
+  <li><a href="#driver_standings-table" id="toc-driver_standings-table" class="nav-link" data-scroll-target="#driver_standings-table">driver_standings table</a></li>
+  <li><a href="#drivers-table" id="toc-drivers-table" class="nav-link" data-scroll-target="#drivers-table">drivers table</a></li>
+  <li><a href="#lap_times-table" id="toc-lap_times-table" class="nav-link" data-scroll-target="#lap_times-table">lap_times table</a></li>
+  <li><a href="#pit_stops-table" id="toc-pit_stops-table" class="nav-link" data-scroll-target="#pit_stops-table">pit_stops table</a></li>
+  <li><a href="#qualifying-table" id="toc-qualifying-table" class="nav-link" data-scroll-target="#qualifying-table">qualifying table</a></li>
+  <li><a href="#races-table" id="toc-races-table" class="nav-link" data-scroll-target="#races-table">races table</a></li>
+  <li><a href="#results-table" id="toc-results-table" class="nav-link" data-scroll-target="#results-table">results table</a></li>
+  <li><a href="#seasons-table" id="toc-seasons-table" class="nav-link" data-scroll-target="#seasons-table">seasons table</a></li>
+  <li><a href="#status-table" id="toc-status-table" class="nav-link" data-scroll-target="#status-table">status table</a></li>
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="please-add-alt-text-to-your-posts" class="level3">
+<h3 class="anchored" data-anchor-id="please-add-alt-text-to-your-posts">Please add alt text to your posts</h3>
+<p>Please add alt text (alternative text) to all of your posted graphics for <code>#TidyTuesday</code>.</p>
+<p>Twitter provides <a href="https://help.twitter.com/en/using-twitter/picture-descriptions">guidelines</a> for how to add alt text to your images.</p>
+<p>The DataViz Society/Nightingale by way of Amy Cesal has an <a href="https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81">article</a> on writing <em>good</em> alt text for plots/graphs.</p>
+<blockquote class="blockquote">
+<p>Here’s a simple formula for writing alt text for data visualization: ### Chart type It’s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you’re including this visual. What does it show that’s meaningful. There should be a point to every visual and you should tell people what to look for. Example: the winter months have more banana sales ### Link to data or source Don’t include this in your alt text, but it should be included somewhere in the surrounding text. People should be able to click on a link to view the source data or dig further into the visual. This provides transparency about your source and lets people explore the data. Example: Data from the USDA</p>
+</blockquote>
+<p>Penn State has an <a href="https://accessibility.psu.edu/images/charts/">article</a> on writing alt text descriptions for charts and tables.</p>
+<blockquote class="blockquote">
+<p>Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. See the <a href="https://accessibility.psu.edu/images/charts/">examples on this page</a> for details on how to make charts more accessible.</p>
+</blockquote>
+<p>The <code>{rtweet}</code> package includes the <a href="https://docs.ropensci.org/rtweet/reference/post_tweet.html">ability to post tweets</a> with alt text programatically.</p>
+<p>Need a <strong>reminder</strong>? There are <a href="https://chrome.google.com/webstore/detail/twitter-required-alt-text/fpjlpckbikddocimpfcgaldjghimjiik/related">extensions</a> that force you to remember to add Alt Text to Tweets with media.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/2018_Austrian_Grand_Prix_turn_1_%2843147259711%29.jpg" class="img-fluid figure-img"></p>
+<figcaption>The start of the 2018 Austrian Grand Prix - the image is of two long lines of F1 cars racing around the corner of the Austrian Grand Prix track.</figcaption>
+</figure>
+</div>
+</section>
+<section id="formula-1-races" class="level1">
+<h1>Formula 1 Races</h1>
+<p>The data this week comes from the <a href="https://ergast.com/mrd/db/#csv">Ergast API</a>, which has a CC-BY license. H/t to <a href="https://github.com/rfordatascience/tidytuesday/issues/372">Sara Stoudt</a> for sharing the link to the data by way of <a href="https://www.data-is-plural.com/archive/2021-08-25-edition/">Data is Plural</a>!</p>
+<p><a href="https://fivethirtyeight.com/features/formula-one-racing/">FiveThirtyEight</a> published a nice article on “Who’s The Best Formula One Driver Of All Time?”. While the ELO data is not present in this dataset, you could calculate your own rating or using the <a href="https://github.com/eheinzen/elo"><code>{elo}</code></a> package to create ELO scores.</p>
+<p>Per <a href="https://en.wikipedia.org/wiki/Formula_One">Wikipedia, Formula 1</a>:</p>
+<blockquote class="blockquote">
+<p>Formula One (also known as Formula 1 or F1) is the highest class of international auto racing for single-seater formula racing cars sanctioned by the Fédération Internationale de l’Automobile (FIA). The World Drivers’ Championship, which became the FIA Formula One World Championship in 1981, has been one of the premier forms of racing around the world since its inaugural season in 1950. The word formula in the name refers to the set of rules to which all participants’ cars must conform. A Formula One season consists of a series of races, known as Grands Prix, which take place worldwide on both purpose-built circuits and closed public roads.</p>
+<p>The results of each race are evaluated using a points system to determine two annual World Championships: one for drivers, the other for constructors. Each driver must hold a valid Super Licence, the highest class of racing licence issued by the FIA. The races must run on tracks graded “1” (formerly “A”), the highest grade-rating issued by the FIA. Most events occur in rural locations on purpose-built tracks, but several events take place on city streets.</p>
+</blockquote>
+<p>Each team can be called a “constructor” and they have two drivers. For example, Lewis Hamilton is the primary (driver) for the Mercedes team (constructor).</p>
+<section id="license" class="level3">
+<h3 class="anchored" data-anchor-id="license">License</h3>
+<blockquote class="blockquote">
+<p>Complete images of the Ergast database are published shortly after each race under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-NonCommercial-ShareAlike 3.0 Unported Licence</a>.</p>
+</blockquote>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>There is an option for raw CSVs (which is what is included in this repo), a SQL database, or querying the raw API. This is a <em>great</em> dataset to practice with using the <code>httr</code> package to query an API, SQL against the database or <code>dbplyr</code> against the database! You can also work with the raw CSVs and practice your <code>dplyr::left_join()</code> and friends. Read more about <code>dplyr</code> joins in the <a href="https://dplyr.tidyverse.org/reference/join.html"><code>dplyr</code> “joins” documentation</a>.</p>
+<p>If you wish to query the raw API, you can check the docs for example, to get a table of all drivers who have ever finished <code>#1</code> in the championship: <a href="http://ergast.com/mrd/methods/status/">http://ergast.com/mrd/methods/status/</a>. There is also an option to download the SQL database itself.</p>
+<pre><code>download.file(
+  "http://ergast.com/downloads/f1db_ansi.sql.gz", 
+  destfile = "f1db-mysql.zip"
+)</code></pre>
+<p>Working with this data will require you to do several left joins, for example to get the standings for each race/driver. Each of the tables listed in the data dictionary have their keys for joining. If you don’t want to dig too deep into the data, then I would recommend starting here. This is a good dataset of results by race, driver, season!</p>
+<pre><code>driver_results_df &lt;- driver_standings %&gt;% 
+  left_join(races, by = "raceId") %&gt;% 
+  rename(driver_url = url) %&gt;% 
+  left_join(drivers, by = "driverId")
+  
+glimpse(driver_results_df)
+
+#&gt; Rows: 33,206
+#&gt; Columns: 22
+#&gt; $ driverStandingsId &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, #&gt; 14, 1…
+#&gt; $ raceId            &lt;dbl&gt; 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, #&gt; 19, …
+#&gt; $ driverId          &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, #&gt; 8, …
+#&gt; $ points            &lt;dbl&gt; 10, 8, 6, 5, 4, 3, 2, 1, 14, 11, 6, 6, 10, 3, #&gt; 2,…
+#&gt; $ position          &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 1, 3, 6, 7, 4, 9, 10, #&gt; 2,…
+#&gt; $ positionText      &lt;chr&gt; "1", "2", "3", "4", "5", "6", "7", "8", "1", #&gt; "3"…
+#&gt; $ wins              &lt;dbl&gt; 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, #&gt; 1, …
+#&gt; $ year              &lt;dbl&gt; 2008, 2008, 2008, 2008, 2008, 2008, 2008, #&gt; 2008, …
+#&gt; $ round             &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, #&gt; 2, …
+#&gt; $ circuitId         &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, #&gt; 2, …
+#&gt; $ name              &lt;chr&gt; "Australian Grand Prix", "Australian Grand #&gt; Prix"…
+#&gt; $ date              &lt;date&gt; 2008-03-16, 2008-03-16, 2008-03-16, #&gt; 2008-03-16,…
+#&gt; $ time              &lt;chr&gt; "04:30:00", "04:30:00", "04:30:00", #&gt; "04:30:00", …
+#&gt; $ driver_url        &lt;chr&gt; #&gt; "http://en.wikipedia.org/wiki/2008_Australian_Gr…
+#&gt; $ driverRef         &lt;chr&gt; "hamilton", "heidfeld", "rosberg", "alonso", #&gt; "ko…
+#&gt; $ number            &lt;chr&gt; "44", "\\N", "6", "14", "\\N", "\\N", "\\N", #&gt; "7"…
+#&gt; $ code              &lt;chr&gt; "HAM", "HEI", "ROS", "ALO", "KOV", "NAK", #&gt; "BOU",…
+#&gt; $ forename          &lt;chr&gt; "Lewis", "Nick", "Nico", "Fernando", #&gt; "Heikki", "…
+#&gt; $ surname           &lt;chr&gt; "Hamilton", "Heidfeld", "Rosberg", "Alonso", #&gt; "Ko…
+#&gt; $ dob               &lt;date&gt; 1985-01-07, 1977-05-10, 1985-06-27, #&gt; 1981-07-29,…
+#&gt; $ nationality       &lt;chr&gt; "British", "German", "German", "Spanish", #&gt; "Finni…
+#&gt; $ url               &lt;chr&gt; #&gt; "http://en.wikipedia.org/wiki/Lewis_Hamilton", "…</code></pre>
+<p>To query the raw API, you can use <code>httr</code>, just make sure to end the call/url in <code>.json</code> to return JSON data.</p>
+<pre><code>library(tidyverse)
+library(jsonlite)
+library(httr)
+
+standing &lt;- 1
+raw_json &lt;- httr::GET(url = glue::glue(
+  "http://ergast.com/api/f1/driverStandings/{standing}/drivers.json")) %&gt;% 
+  content(type = "text", encoding = "UTF-8") %&gt;% 
+  jsonlite::parse_json(simplifyVector = FALSE) 
+  
+raw_json %&gt;% 
+  View()
+  
+winner_table &lt;- raw_json$MRData$DriverTable$Drivers %&gt;%
+  tibble(data = .) %&gt;%
+  unnest_wider(data)
+  
+winner_table %&gt;% glimpse()
+#&gt; Rows: 30
+#&gt; Columns: 8
+#&gt; $ driverId        &lt;chr&gt; "alonso", "mario_andretti", "ascari", "j…
+#&gt; $ permanentNumber &lt;chr&gt; "14", NA, NA, NA, "22", NA, NA, NA, NA, …
+#&gt; $ code            &lt;chr&gt; "ALO", NA, NA, NA, "BUT", NA, NA, NA, NA…
+#&gt; $ url             &lt;chr&gt; "http://en.wikipedia.org/wiki/Fernando_A…
+#&gt; $ givenName       &lt;chr&gt; "Fernando", "Mario", "Alberto", "Jack", …
+#&gt; $ familyName      &lt;chr&gt; "Alonso", "Andretti", "Ascari", "Brabham…
+#&gt; $ dateOfBirth     &lt;chr&gt; "1981-07-29", "1940-02-28", "1918-07-13"…
+#&gt; $ nationality     &lt;chr&gt; "Spanish", "American", "Italian", "Austr…</code></pre>
+</section>
+<section id="get-the-data-here" class="level3">
+<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the Data</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in with tidytuesdayR package </span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Install from CRAN via: install.packages("tidytuesdayR")</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># This loads the readme and all the datasets for the week of interest</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Either ISO-8601 date or year/week works!</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2021-09-07'</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2021</span>, <span class="at">week =</span> <span class="dv">37</span>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>results <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>results</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Or read in the data manually</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>circuits <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/circuits.csv'</span>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>constructor_results <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructor_results.csv'</span>)</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>constructor_standings <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructor_standings.csv'</span>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>constructors <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructors.csv'</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>driver_standings <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/driver_standings.csv'</span>)</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>drivers <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/drivers.csv'</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>lap_times <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/lap_times.csv'</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>pit_stops <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/pit_stops.csv'</span>)</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>qualifying <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/qualifying.csv'</span>)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>races <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/races.csv'</span>)</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>results <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/results.csv'</span>)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>seasons <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/seasons.csv'</span>)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>status <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/status.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>List of Tables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>circuits</td>
+</tr>
+<tr class="even">
+<td>constructorResults</td>
+</tr>
+<tr class="odd">
+<td>constructorStandings</td>
+</tr>
+<tr class="even">
+<td>constructors</td>
+</tr>
+<tr class="odd">
+<td>driverStandings</td>
+</tr>
+<tr class="even">
+<td>drivers</td>
+</tr>
+<tr class="odd">
+<td>lapTimes</td>
+</tr>
+<tr class="even">
+<td>pitStops</td>
+</tr>
+<tr class="odd">
+<td>qualifying</td>
+</tr>
+<tr class="even">
+<td>races</td>
+</tr>
+<tr class="odd">
+<td>results</td>
+</tr>
+<tr class="even">
+<td>seasons</td>
+</tr>
+<tr class="odd">
+<td>status</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>General Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dates, times and durations are in ISO 8601 format</td>
+</tr>
+<tr class="even">
+<td>Dates and times are UTC</td>
+</tr>
+<tr class="odd">
+<td>Strings use UTF-8 encoding</td>
+</tr>
+<tr class="even">
+<td>Primary keys are for internal use only</td>
+</tr>
+<tr class="odd">
+<td>Fields ending with “Ref” are unique identifiers for external use</td>
+</tr>
+<tr class="even">
+<td>A grid position of ‘0’ is used for starting from the pitlane</td>
+</tr>
+<tr class="odd">
+<td>Labels used in the positionText fields:</td>
+</tr>
+<tr class="even">
+<td>“D” - disqualified</td>
+</tr>
+<tr class="odd">
+<td>“E” - excluded</td>
+</tr>
+<tr class="even">
+<td>“F” - failed to qualify</td>
+</tr>
+<tr class="odd">
+<td>“N” - not classified</td>
+</tr>
+<tr class="even">
+<td>“R” - retired</td>
+</tr>
+<tr class="odd">
+<td>“W” - withdrew</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="circuits.csv" class="level3">
+<h3 class="anchored" data-anchor-id="circuits.csv"><code>circuits.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 17%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>circuitId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>circuitRef</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Unique circuit identifier</td>
+</tr>
+<tr class="odd">
+<td>name</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Circuit name</td>
+</tr>
+<tr class="even">
+<td>location</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Location name</td>
+</tr>
+<tr class="odd">
+<td>country</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Country name</td>
+</tr>
+<tr class="even">
+<td>lat</td>
+<td>float</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Latitude</td>
+</tr>
+<tr class="odd">
+<td>lng</td>
+<td>float</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Longitude</td>
+</tr>
+<tr class="even">
+<td>alt</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Altitude (metres)</td>
+</tr>
+<tr class="odd">
+<td>url</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td>UNI</td>
+<td></td>
+<td></td>
+<td>Circuit Wikipedia page</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="constructor_results-table" class="level3">
+<h3 class="anchored" data-anchor-id="constructor_results-table">constructor_results table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 14%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>constructorResultsId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="odd">
+<td>constructorId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to constructors table</td>
+</tr>
+<tr class="even">
+<td>points</td>
+<td>float</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Constructor points for race</td>
+</tr>
+<tr class="odd">
+<td>status</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>“D” for disqualified (or null)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="constructor_standings-table" class="level3">
+<h3 class="anchored" data-anchor-id="constructor_standings-table">constructor_standings table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 13%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>constructorStandingsId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="odd">
+<td>constructorId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to constructors table</td>
+</tr>
+<tr class="even">
+<td>points</td>
+<td>float</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Constructor points for season</td>
+</tr>
+<tr class="odd">
+<td>position</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Constructor standings position (integer)</td>
+</tr>
+<tr class="even">
+<td>positionText</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Constructor standings position (string)</td>
+</tr>
+<tr class="odd">
+<td>wins</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Season win count</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="constructors-table" class="level3">
+<h3 class="anchored" data-anchor-id="constructors-table">constructors table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 16%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>constructorId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>constructorRef</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Unique constructor identifier</td>
+</tr>
+<tr class="odd">
+<td>name</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td>UNI</td>
+<td></td>
+<td></td>
+<td>Constructor name</td>
+</tr>
+<tr class="even">
+<td>nationality</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Constructor nationality</td>
+</tr>
+<tr class="odd">
+<td>url</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Constructor Wikipedia page</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="driver_standings-table" class="level3">
+<h3 class="anchored" data-anchor-id="driver_standings-table">driver_standings table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 15%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>driverStandingsId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="odd">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to drivers table</td>
+</tr>
+<tr class="even">
+<td>points</td>
+<td>float</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Driver points for season</td>
+</tr>
+<tr class="odd">
+<td>position</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver standings position (integer)</td>
+</tr>
+<tr class="even">
+<td>positionText</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver standings position (string)</td>
+</tr>
+<tr class="odd">
+<td>wins</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Season win count</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="drivers-table" class="level3">
+<h3 class="anchored" data-anchor-id="drivers-table">drivers table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 17%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>driverRef</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Unique driver identifier</td>
+</tr>
+<tr class="odd">
+<td>number</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Permanent driver number</td>
+</tr>
+<tr class="even">
+<td>code</td>
+<td>varchar(3)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver code e.g.&nbsp;“ALO”</td>
+</tr>
+<tr class="odd">
+<td>forename</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Driver forename</td>
+</tr>
+<tr class="even">
+<td>surname</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Driver surname</td>
+</tr>
+<tr class="odd">
+<td>dob</td>
+<td>date</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver date of birth</td>
+</tr>
+<tr class="even">
+<td>nationality</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver nationality</td>
+</tr>
+<tr class="odd">
+<td>url</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td>UNI</td>
+<td></td>
+<td></td>
+<td>Driver Wikipedia page</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lap_times-table" class="level3">
+<h3 class="anchored" data-anchor-id="lap_times-table">lap_times table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="even">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Foreign key link to drivers table</td>
+</tr>
+<tr class="odd">
+<td>lap</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Lap number</td>
+</tr>
+<tr class="even">
+<td>position</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver race position</td>
+</tr>
+<tr class="odd">
+<td>time</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Lap time e.g.&nbsp;“1:43.762”</td>
+</tr>
+<tr class="even">
+<td>milliseconds</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Lap time in milliseconds</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pit_stops-table" class="level3">
+<h3 class="anchored" data-anchor-id="pit_stops-table">pit_stops table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="even">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Foreign key link to drivers table</td>
+</tr>
+<tr class="odd">
+<td>stop</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td></td>
+<td>Stop number</td>
+</tr>
+<tr class="even">
+<td>lap</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Lap number</td>
+</tr>
+<tr class="odd">
+<td>time</td>
+<td>time</td>
+<td>NO</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Time of stop e.g.&nbsp;“13:52:25”</td>
+</tr>
+<tr class="even">
+<td>duration</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Duration of stop e.g.&nbsp;“21.783”</td>
+</tr>
+<tr class="odd">
+<td>milliseconds</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Duration of stop in milliseconds</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="qualifying-table" class="level3">
+<h3 class="anchored" data-anchor-id="qualifying-table">qualifying table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 13%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 15%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>qualifyId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="odd">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to drivers table</td>
+</tr>
+<tr class="even">
+<td>constructorId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to constructors table</td>
+</tr>
+<tr class="odd">
+<td>number</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Driver number</td>
+</tr>
+<tr class="even">
+<td>position</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Qualifying position</td>
+</tr>
+<tr class="odd">
+<td>q1</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Q1 lap time e.g.&nbsp;“1:21.374”</td>
+</tr>
+<tr class="even">
+<td>q2</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Q2 lap time</td>
+</tr>
+<tr class="odd">
+<td>q3</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Q3 lap time</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="races-table" class="level3">
+<h3 class="anchored" data-anchor-id="races-table">races table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>year</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to seasons table</td>
+</tr>
+<tr class="odd">
+<td>round</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Round number</td>
+</tr>
+<tr class="even">
+<td>circuitId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to circuits table</td>
+</tr>
+<tr class="odd">
+<td>name</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Race name</td>
+</tr>
+<tr class="even">
+<td>date</td>
+<td>date</td>
+<td>NO</td>
+<td></td>
+<td>0000-00-00</td>
+<td></td>
+<td>Race date e.g.&nbsp;“1950-05-13”</td>
+</tr>
+<tr class="odd">
+<td>time</td>
+<td>time</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Race start time e.g.”13:00:00”</td>
+</tr>
+<tr class="even">
+<td>url</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td>UNI</td>
+<td>NULL</td>
+<td></td>
+<td>Race Wikipedia page</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="results-table" class="level3">
+<h3 class="anchored" data-anchor-id="results-table">results table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 14%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>resultId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>raceId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to races table</td>
+</tr>
+<tr class="odd">
+<td>driverId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to drivers table</td>
+</tr>
+<tr class="even">
+<td>constructorId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to constructors table</td>
+</tr>
+<tr class="odd">
+<td>number</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Driver number</td>
+</tr>
+<tr class="even">
+<td>grid</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Starting grid position</td>
+</tr>
+<tr class="odd">
+<td>position</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Official classification, if applicable</td>
+</tr>
+<tr class="even">
+<td>positionText</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Driver position string e.g.&nbsp;“1” or “R”</td>
+</tr>
+<tr class="odd">
+<td>positionOrder</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Driver position for ordering purposes</td>
+</tr>
+<tr class="even">
+<td>points</td>
+<td>float</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Driver points for race</td>
+</tr>
+<tr class="odd">
+<td>laps</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Number of completed laps</td>
+</tr>
+<tr class="even">
+<td>time</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Finishing time or gap</td>
+</tr>
+<tr class="odd">
+<td>milliseconds</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Finishing time in milliseconds</td>
+</tr>
+<tr class="even">
+<td>fastestLap</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Lap number of fastest lap</td>
+</tr>
+<tr class="odd">
+<td>rank</td>
+<td>int(11)</td>
+<td>YES</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Fastest lap rank, compared to other drivers</td>
+</tr>
+<tr class="even">
+<td>fastestLapTime</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Fastest lap time e.g.&nbsp;“1:27.453”</td>
+</tr>
+<tr class="odd">
+<td>fastestLapSpeed</td>
+<td>varchar(255)</td>
+<td>YES</td>
+<td></td>
+<td>NULL</td>
+<td></td>
+<td>Fastest lap speed (km/h) e.g.&nbsp;“213.874”</td>
+</tr>
+<tr class="even">
+<td>statusId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>Foreign key link to status table</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="seasons-table" class="level3">
+<h3 class="anchored" data-anchor-id="seasons-table">seasons table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 19%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 12%">
+<col style="width: 9%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>year</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>0</td>
+<td></td>
+<td>Primary key e.g.&nbsp;1950</td>
+</tr>
+<tr class="even">
+<td>url</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td>UNI</td>
+<td></td>
+<td></td>
+<td>Season Wikipedia page</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="status-table" class="level3">
+<h3 class="anchored" data-anchor-id="status-table">status table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 17%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Type</th>
+<th>Null</th>
+<th>Key</th>
+<th>Default</th>
+<th>Extra</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>statusId</td>
+<td>int(11)</td>
+<td>NO</td>
+<td>PRI</td>
+<td>NULL</td>
+<td>auto_increment</td>
+<td>Primary key</td>
+</tr>
+<tr class="even">
+<td>status</td>
+<td>varchar(255)</td>
+<td>NO</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Finishing status e.g.&nbsp;“Retired”</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cleaning-script" class="level3">
+<h3 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h3>
+<p>Not a real cleaning script, just me exploring the data structures.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(httr)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># if you want SQL with tables</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># download.file(</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">#   "http://ergast.com/downloads/f1db_ansi.sql.gz", </span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">#   destfile = "2021/2021-09-07/f1db-mysql.zip"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">#   )</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">"http://ergast.com/downloads/f1db_csv.zip"</span>, </span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">destfile =</span> <span class="st">"2021/2021-09-07/f1db.zip"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="fu">unzip</span>(<span class="st">"2021/2021-09-07/f1db.zip"</span>, <span class="at">exdir =</span> <span class="st">"2021/2021-09-07/"</span>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>raw_data <span class="ot">&lt;-</span> <span class="fu">map</span>(</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  fs<span class="sc">::</span><span class="fu">dir_ls</span>(<span class="st">"2021/2021-09-07/"</span>, <span class="at">glob =</span> <span class="st">"*.csv"</span>),</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  read_csv</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_names</span>(<span class="at">nm =</span> <span class="fu">str_remove</span>(<span class="fu">names</span>(.), <span class="st">"2021/2021-09-07/"</span>))</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>raw_data <span class="sc">%&gt;%</span> </span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str</span>(<span class="at">max.level =</span> <span class="dv">1</span>)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Example of JSON/HTTR</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>raw_json <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">GET</span>(<span class="at">url =</span> glue<span class="sc">::</span><span class="fu">glue</span>(</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  <span class="st">"http://ergast.com/api/f1/driverStandings/{standing}/drivers.json"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">content</span>(<span class="at">type =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>)</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>raw_json<span class="sc">%&gt;%</span> </span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">View</span>()</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>raw_json<span class="sc">$</span>MRData<span class="sc">$</span>DriverTable<span class="sc">$</span>Drivers <span class="sc">%&gt;%</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(<span class="at">data =</span> .) <span class="sc">%&gt;%</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_wider</span>(data)</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>driver_standings <span class="sc">%&gt;%</span> </span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(raw_data<span class="sc">$</span>races.csv, <span class="at">by =</span> <span class="st">"raceId"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">driver_url =</span> url) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(raw_data<span class="sc">$</span>drivers.csv, <span class="at">by =</span> <span class="st">"driverId"</span>)</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>file_names <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">dir_ls</span>(<span class="st">"2021/2021-09-07/"</span>, <span class="at">glob =</span> <span class="st">"*.csv"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_remove</span>(<span class="st">"2021/2021-09-07/"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_remove</span>(<span class="st">".csv"</span>)</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>file_names</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfordatascience\.github\.io\/tidytuesday\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
