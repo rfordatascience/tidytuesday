@@ -25,6 +25,7 @@ Imports:
     readMDTable,
     readr,
     rlang,
+    rmarkdown,
     stringr,
     tibble,
     usethis,
