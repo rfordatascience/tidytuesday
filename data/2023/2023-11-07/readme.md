@@ -25,7 +25,7 @@ url = {https://doi.org/10.7910/DVN/IG0UN2}
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

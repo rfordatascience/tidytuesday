@@ -6,7 +6,7 @@ The data this week comes from Wikipedia articles: [*Hot Ones*](https://en.wikipe
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

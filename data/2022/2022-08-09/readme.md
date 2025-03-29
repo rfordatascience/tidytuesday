@@ -38,7 +38,7 @@ Make sure to tag `@Emil_Hvitfeldt` so he can see all the cute dataviz y'all make
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

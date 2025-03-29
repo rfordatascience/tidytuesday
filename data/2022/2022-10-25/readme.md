@@ -71,7 +71,7 @@ For some introductory plots, also see [Data Visualization in the Tidyverse - The
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -39,7 +39,7 @@ Their modeled fit:
 
 You could see the quick plot of these points, but again note that this will vary a bit from the FiveThirtyEight table as they included SRS score in their equation.  
 
-```{r}
+```r
 tibble(
   seed = c(1:16),
   exp_wins = c(3.3, 2.4, 1.8, 1.6, 1.1, 1.1, 0.9, 0.7, 0.6, 0.6, 0.6, 0.5, 0.3, 0.2, 0.1, 0)
@@ -69,7 +69,7 @@ Thus, to get the points for each team/tournament season you can multiply the tea
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -139,7 +139,7 @@ To get the points for each team/tournament season you can multiply the teams ini
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 
 raw_df <- read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/ncaa-womens-basketball-tournament/ncaa-womens-basketball-tournament-history.csv")

@@ -48,7 +48,7 @@ Additional context/details about the Survivor TV show can be found on [Wikipedia
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

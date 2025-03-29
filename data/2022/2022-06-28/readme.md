@@ -38,7 +38,7 @@ The data this week comes from [gender-pay-gap.service.gov.uk](https://gender-pay
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

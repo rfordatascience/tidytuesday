@@ -14,7 +14,7 @@ The data this week comes from the [BBC](https://www.bbc.com/news/world-55042935)
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -48,7 +48,7 @@ women <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 
 ### Cleaning Script
 
-```{r}
+```r
 # Load packages
 
 library(rvest)

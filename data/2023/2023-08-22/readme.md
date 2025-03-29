@@ -16,7 +16,7 @@ The {refugees} package includes eight datasets. We're working with `population` 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

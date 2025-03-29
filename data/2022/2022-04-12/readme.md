@@ -58,7 +58,7 @@ The data this week comes from [Our World in Data](https://ourworldindata.org/ind
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -38,7 +38,7 @@ The data is user-submitted, so you might want to confirm the accuracy of anythin
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

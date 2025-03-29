@@ -14,7 +14,7 @@ Check out all of the raw data and other details on [Alex's GitHub](https://githu
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 grosses <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-28/grosses.csv', guess_max = 40000)
@@ -88,7 +88,7 @@ grosses <- tuesdata$grosses
 
 ### Cleaning Script
 
-```{r}
+```r
 # Load packages
 library(tidyverse)
 library(lubridate)

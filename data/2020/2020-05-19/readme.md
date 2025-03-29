@@ -16,7 +16,7 @@ Most of the data is from the international [FIVB tournaments](https://en.wikiped
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 vb_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-19/vb_matches.csv', guess_max = 76000)
@@ -107,7 +107,7 @@ vb_matches <- tuesdata$vb_matches
 
 ### `skimr`
 
-```{r}
+```r
 ── Data Summary ────────────────────────
                            Values  
 Name                       vb_matches
@@ -203,7 +203,7 @@ Group variables            None
 
 Data is already pretty clean! You may want to pivot the data by team or optionally separate out the winning/losing scores by match.
 
-```{r}
+```r
 library(tidyverse)
 
 col_types_vb <- cols(

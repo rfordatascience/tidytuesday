@@ -42,7 +42,7 @@ Evan did an analysis of [Who wins the EPL if games end at half time?](https://ww
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -12,7 +12,7 @@ A description of each obstacle and pictures of them can be found at:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -46,7 +46,7 @@ ninja_warrior <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 ### Cleaning Script
 
 
-```{r}
+```r
 library(tidyverse)
 library("httr")
 library("readxl")

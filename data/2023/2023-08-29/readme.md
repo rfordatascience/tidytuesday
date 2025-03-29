@@ -9,7 +9,7 @@ There are two datasets this week for which the rows align, but the values might 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

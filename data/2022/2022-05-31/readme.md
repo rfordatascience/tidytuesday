@@ -53,7 +53,7 @@ An RQ score is calculated by:  [ (Sum of ratings of each of the 9 attributes)/(t
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

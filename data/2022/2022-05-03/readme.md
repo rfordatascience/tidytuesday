@@ -38,7 +38,7 @@ hatttip to [Data is Plural](https://www.data-is-plural.com/archive/2022-04-20-ed
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -103,7 +103,7 @@ Average cost for each type of power in dollars/MWh
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(readxl)
 

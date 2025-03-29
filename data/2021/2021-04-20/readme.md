@@ -12,7 +12,7 @@ The data this week comes from [Kaggle](https://www.kaggle.com/shivamb/netflix-sh
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

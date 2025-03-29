@@ -11,7 +11,7 @@ This data looks more like the sort of data you're likely to encounter in the wil
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

@@ -38,7 +38,7 @@ The data this week comes from [rebrickable](https://rebrickable.com/downloads/) 
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

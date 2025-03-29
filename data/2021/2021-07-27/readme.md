@@ -46,7 +46,7 @@ The data this week comes from [Kaggle](https://www.kaggle.com/heesoo37/120-years
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -35,7 +35,7 @@ video_games <- readr::read_csv("https://raw.githubusercontent.com/rfordatascienc
 |median_playtime  |double    | Median playtime in minutes |
 |metascore        |double    | Metascore rating |
 
-```{r}
+```r
 library(tidyverse)
 
 # clean dataset from lizawood's github

@@ -2,20 +2,7 @@ project:
   type: website
   render:
     - "*.qmd" # render all qmd files
-    # - "*.md" # render all md files
-    - "links.md" # manually including the files linked to from README
-    - "sharing.md"
-    - "dataset_announcements.md"
-    - "alt_text.md"
-    - "pr_instructions.md"
-    - "CONTRIBUTING.md"
-    - "CODE_OF_CONDUCT.md"
-    - "dataset_review.md"
-    - "dataset_idea.md"
-    - "data/2025/readme.md"
-    - "data/2025/*/readme.md" # render each md file for 2025
-    - "data/2024/readme.md"
-    - "data/2024/*/readme.md"
+    - "*.md" # render all md files
   output-dir: docs
 
 website:
@@ -34,6 +21,18 @@ website:
             href: data/2025/readme.md
           - text: "2024"
             href: data/2024/readme.md
+          - text: "2023"
+            href: data/2023/readme.md
+          - text: "2022"
+            href: data/2022/readme.md
+          - text: "2021"
+            href: data/2021/readme.md
+          - text: "2020"
+            href: data/2020/readme.md
+          - text: "2019"
+            href: data/2019/readme.md
+          - text: "2018"
+            href: data/2018/readme.md
       - links.md
             
 format:

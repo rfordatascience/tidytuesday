@@ -7,7 +7,7 @@ The data this week comes from Pro Football Reference [team standings](https://ww
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 attendance <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-04/attendance.csv')

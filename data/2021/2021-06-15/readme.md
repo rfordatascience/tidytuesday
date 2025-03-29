@@ -55,7 +55,7 @@ Juneteenth details from the Intercept.
 
 Please note that data can also be used from 2021 week 8 and 2020 week 24/25.
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -38,7 +38,7 @@ The data this week comes from [Data For Progress](https://www.dataforprogress.or
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

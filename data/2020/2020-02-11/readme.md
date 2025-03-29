@@ -12,7 +12,7 @@ Also shoutout to a series of packages for time-series analysis and plotting - [`
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 hotels <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-11/hotels.csv')
@@ -71,7 +71,7 @@ hotels <- tuesdata$hotels
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(feasts)
 

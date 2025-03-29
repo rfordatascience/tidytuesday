@@ -42,7 +42,7 @@ Scrumqueen can be found on Twitter [@ScrumQueens](https://twitter.com/ScrumQueen
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

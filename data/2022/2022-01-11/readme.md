@@ -41,7 +41,7 @@ More details on bee colony losses at:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -90,7 +90,7 @@ stressor <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 ### Cleaning Script
 
-```{r}
+```r
 library(rvest)
 library(tidyverse)
 library(fs)
