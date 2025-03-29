@@ -54,7 +54,7 @@ Evan [investigated](https://www.kaggle.com/code/evangower/diving-into-us-tornado
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

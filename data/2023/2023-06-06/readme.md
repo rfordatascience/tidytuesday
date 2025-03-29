@@ -57,7 +57,7 @@ The data this week comes from Our World in Data's [Energy Data Explorer](https:/
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

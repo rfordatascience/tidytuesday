@@ -12,7 +12,7 @@ This dataset includes the number, percentage, and context of f**k used in the sh
 
 ## The Data
 
-```{r}
+```r
 # Scroll to the end of this code block to see how to recombine the data into a
 # graph!
 

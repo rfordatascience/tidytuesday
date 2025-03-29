@@ -40,7 +40,7 @@ Additional articles from [US News](https://www.usnews.com/news/sports/articles/2
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

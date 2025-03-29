@@ -24,7 +24,7 @@ I've left the datasets relatively "untidy" this week so you can practice some of
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

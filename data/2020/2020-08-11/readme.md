@@ -18,7 +18,7 @@ For people who have not seen the show or read this series of books, [Wikipedia](
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -67,7 +67,7 @@ This is the core dataset (scene description text moved to alternative dataset as
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(appa)
 

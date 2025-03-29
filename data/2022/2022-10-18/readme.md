@@ -43,7 +43,7 @@ Wikipedia - Stranger Things episodes: <https://en.wikipedia.org/wiki/List_of_Str
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

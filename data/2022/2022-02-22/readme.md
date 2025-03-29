@@ -51,7 +51,7 @@ Freedom House has written about their index - notably an article in 2018 on ["De
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

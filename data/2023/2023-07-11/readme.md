@@ -61,7 +61,7 @@ Citation: GISTEMP Team, 2023: GISS Surface Temperature Analysis (GISTEMP), versi
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

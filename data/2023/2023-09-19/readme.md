@@ -11,7 +11,7 @@ See the [README of the GitHub project](https://github.com/schochastics/CRAN_coll
 
 ## The Data
 
-```{r}
+```r
 # Scroll to the end of this code block to see how to recombine the data into a
 # graph!
 

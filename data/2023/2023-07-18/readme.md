@@ -59,7 +59,7 @@ GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert 
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

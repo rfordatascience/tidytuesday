@@ -40,7 +40,7 @@ Note: All `stock_symbol`s have 3271 prices, except META (2688) and TSLA (3148) b
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -48,7 +48,7 @@ Questions that would be interesting to answer are:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

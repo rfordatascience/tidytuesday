@@ -10,7 +10,7 @@ Canada's National Observer [Article](https://www.nationalobserver.com/2020/10/23
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

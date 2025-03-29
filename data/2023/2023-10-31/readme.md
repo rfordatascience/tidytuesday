@@ -10,7 +10,7 @@ Each observation includes the URL to that article, which you can open directly f
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

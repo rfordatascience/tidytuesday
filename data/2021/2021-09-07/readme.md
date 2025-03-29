@@ -132,7 +132,7 @@ winner_table %>% glimpse()
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -355,7 +355,7 @@ status <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 
 Not a real cleaning script, just me exploring the data structures.
 
-```{r}
+```r
 library(tidyverse)
 library(fs)
 library(httr)

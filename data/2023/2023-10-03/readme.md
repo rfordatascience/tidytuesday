@@ -15,7 +15,7 @@ Please let us know if you find anything interesting!
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

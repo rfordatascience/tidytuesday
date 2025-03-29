@@ -8,7 +8,7 @@ Article about Ikea from [FiveThirtyEight](https://fivethirtyeight.com/features/t
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

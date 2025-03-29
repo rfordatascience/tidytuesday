@@ -53,7 +53,7 @@ The `science.csv` dataset also celebrates the achievements of African-Americans,
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 firsts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-09/firsts.csv')
@@ -98,7 +98,7 @@ firsts <- tuesdata$firsts
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(rvest)
 

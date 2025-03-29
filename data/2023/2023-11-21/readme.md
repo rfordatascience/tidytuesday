@@ -7,7 +7,7 @@ The data this week comes from [Federica Gazzelloni](https://github.com/Fgazzello
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

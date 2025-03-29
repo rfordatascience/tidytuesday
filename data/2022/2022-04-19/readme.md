@@ -44,7 +44,7 @@ Data this week comes from [Cryptic Crossword Clues](https://cryptics.georgeho.or
 
 https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b9388d86bc
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

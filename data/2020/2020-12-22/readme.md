@@ -17,7 +17,7 @@ The data this week comes from [TheEconomist](https://github.com/TheEconomist/big
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

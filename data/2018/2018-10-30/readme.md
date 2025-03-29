@@ -25,7 +25,7 @@ Package downloads end up with MUCH larger metadata files and are a bit unwieldy 
 * Package and R-language downloads (anonymized)
 
 #### Here's an easy example/way to get all the URLs in R
-```{r} 
+```r 
 # Set your range of dates
 start <- as.Date('2012-10-01')
 today <- as.Date('2018-10-27')

@@ -19,7 +19,7 @@ Some additional context from the fandom Wiki [for Jelle's Marble Runs](https://j
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 marbles <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-02/marbles.csv')
@@ -97,7 +97,7 @@ Group variables
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(skimr)
 library(janitor)

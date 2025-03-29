@@ -50,7 +50,7 @@ You just need to replace the year (ie 2020) with the specific year of interest.
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -109,7 +109,7 @@ Note that "points" are essentially their yearly normalized values (higher points
 ### Cleaning Script
 
 
-```{r}
+```r
 library(tidyverse)
 library(pdftools)
 

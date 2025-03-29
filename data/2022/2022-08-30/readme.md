@@ -40,7 +40,7 @@ Credit: [Arafath Hossain](https://www.linkedin.com/in/arafath-hossain/)
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

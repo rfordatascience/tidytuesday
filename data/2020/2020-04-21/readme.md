@@ -12,7 +12,7 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 gdpr_violations <- readr::read_tsv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-21/gdpr_violations.tsv')
@@ -63,7 +63,7 @@ gdpr_violations <- tuesdata$gdpr_violations
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(rvest)
 

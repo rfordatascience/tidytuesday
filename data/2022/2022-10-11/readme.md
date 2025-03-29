@@ -38,7 +38,7 @@ Also see the [{ravelRy}](https://www.kaylinpavlik.com/introducing-new-r-package-
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

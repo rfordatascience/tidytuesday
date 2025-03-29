@@ -44,7 +44,7 @@ The Working Paper by [Jennifer Bennett et al](https://www.bea.gov/system/files/p
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

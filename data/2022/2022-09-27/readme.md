@@ -38,7 +38,7 @@ The data this week comes from [arts.gov](https://www.arts.gov/impact/research/ar
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

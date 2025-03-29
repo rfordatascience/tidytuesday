@@ -12,7 +12,7 @@ There's lots of additional information about password quality & strength in the 
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 passwords <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-14/passwords.csv')

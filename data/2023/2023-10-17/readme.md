@@ -25,7 +25,7 @@ You might also be interested in the [tayoRswift package](https://asteves.github.
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

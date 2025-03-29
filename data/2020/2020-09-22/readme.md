@@ -18,7 +18,7 @@ Also National Geographic has [5 Ways to help the Sherpas of Everest](https://www
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -107,7 +107,7 @@ peaks <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 
 ### Cleaning Script
 
-```{r}
+```r
 # Libraries
 library(tidyverse)
 library(janitor)

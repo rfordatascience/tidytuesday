@@ -30,7 +30,7 @@ The `cocktails.csv` dataset was web-scraped and has some classic "funkiness" tha
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 cocktails <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-26/cocktails.csv')
@@ -81,7 +81,7 @@ cocktails <- tuesdata$cocktails
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 
 # source for boston drinks

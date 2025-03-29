@@ -32,7 +32,7 @@ If you're looking to buy some coffee - check out this list of [12 Black-Owned Co
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -105,7 +105,7 @@ Note full description/examples at: [Coffee Quality Institute](https://database.c
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 
 raw_arabica <- read_csv("https://raw.githubusercontent.com/jldbc/coffee-quality-database/master/data/arabica_data_cleaned.csv") %>% 
