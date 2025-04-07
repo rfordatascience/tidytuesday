@@ -66,7 +66,7 @@ metadata$images |>
         # file size, but it seems to err on the side of making things smaller
         # than they need to be.
         ratio <- floor(
-          as.integer(fs::fs_bytes("1MB"))/as.integer(original_img_size)*100
+          as.integer(fs::fs_bytes("1MB"))/as.integer(original_img_size)*95
         )
         magick::image_read(original_img_path) |> 
           magick::image_resize(
