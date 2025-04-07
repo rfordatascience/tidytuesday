@@ -9,7 +9,7 @@
 
 # Run these scripts ------------------------------------------------------------
 
-library(dplyr)
+library(dplyr, warn.conflicts = FALSE)
 source(here::here("static", "templates", "readme.R"), local = TRUE)
 source(here::here("static", "templates", "dates.R"), local = TRUE)
 source(here::here("static", "templates", "metadata.R"), local = TRUE)
