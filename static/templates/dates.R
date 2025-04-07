@@ -1,3 +1,5 @@
+source(here::here("static", "templates", "readme.R"), local = TRUE)
+
 check_date <- function(target_date) {
   used_dates <- get_readme_dates()
   expected_used_dates <- purrr::accumulate(
