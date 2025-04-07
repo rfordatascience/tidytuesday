@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -190,15 +224,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pizza-party" id="toc-pizza-party" class="nav-link active" data-scroll-target="#pizza-party">Pizza Party!</a></li>
-  <li><a href="#get-the-data" id="toc-get-the-data" class="nav-link" data-scroll-target="#get-the-data">Get the data!</a></li>
+  <li><a href="#timely-and-effective-care-by-us-state" id="toc-timely-and-effective-care-by-us-state" class="nav-link active" data-scroll-target="#timely-and-effective-care-by-us-state">Timely and Effective Care by US State</a>
+  <ul class="collapse">
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
+  <ul class="collapse">
+  <li><a href="#pydytuesday-a-posit-collaboration-with-tidytuesday" id="toc-pydytuesday-a-posit-collaboration-with-tidytuesday" class="nav-link" data-scroll-target="#pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</a></li>
+  </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#pizza_jared.csv" id="toc-pizza_jared.csv" class="nav-link" data-scroll-target="#pizza_jared.csv"><code>pizza_jared.csv</code></a></li>
-  <li><a href="#pizza_barstool.csv" id="toc-pizza_barstool.csv" class="nav-link" data-scroll-target="#pizza_barstool.csv"><code>pizza_barstool.csv</code></a></li>
-  <li><a href="#pizza_datafiniti.csv" id="toc-pizza_datafiniti.csv" class="nav-link" data-scroll-target="#pizza_datafiniti.csv"><code>pizza_datafiniti.csv</code></a></li>
+  <li><a href="#care_state.csv" id="toc-care_state.csv" class="nav-link" data-scroll-target="#care_state.csv"><code>care_state.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,93 +246,71 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="pizza-party" class="level1">
-<h1>Pizza Party!</h1>
-<p>This week’s data is from <a href="https://twitter.com/jaredlander/status/1178122846419193858?s=20">Jared Lander</a> and Barstool Sports via <a href="https://github.com/tylerjrichards/Barstool_Pizza">Tyler Richards</a>.</p>
-<p>Credit for this week’s concept goes to <a href="https://twitter.com/ludmila_janda">Ludmila</a> who did a recent dataviz presentation and gave shoutouts to both <code>#tidytuesday</code> and a pizza dataset!</p>
-<p>Check out her DataViz video and slides at her <a href="https://github.com/ljanda/nyhackr_talk_2019_09_19">GitHub</a></p>
-<p>Jared’s data is from top NY pizza restaurants, with a 6 point likert scale survey on ratings. The Barstool sports dataset has critic, public, and the Barstool Staff’s rating as well as pricing, location, and geo-location. There are 22 pizza places that overlap between the two datasets.</p>
-<p>If you want to look more at geo-location of pizza places, checkout this one from <a href="https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell">DataFiniti</a>. This includes 10000 pizza places, their price ranges and geo-locations.</p>
+<section id="timely-and-effective-care-by-us-state" class="level1">
+<h1>Timely and Effective Care by US State</h1>
+<p>This week we’re exploring state-level results for medicare.gov “timely and effective care” measurements. As of 2025-04-06, the data is available at the <a href="https://data.cms.gov/provider-data/dataset/apyc-v239">Centers for Medicare and Medicaid Services (CMS) website</a>. Thanks to former TidyTuesday team member Tracy Teal (<span class="citation" data-cites="tracykteal">@tracykteal</span>) for the dataset suggestion and the link to <a href="https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/">a visualization by Kayla Zhu and Christina Kostandi at the Visual Capitalist</a>.</p>
+<blockquote class="blockquote">
+<p>Emergency room wait times vary significantly across the United States depending on factors such as hospital resources, patient volume, and staffing levels, with some states facing delays that can stretch for more than three hours.</p>
+</blockquote>
+<ul>
+<li>Is there a connection between state populations and wait times?</li>
+<li>Which conditions have the longest wait times? The shortest?</li>
+</ul>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-08'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">14</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>care_state</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: PyDyTuesday python library</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install PyDyTuesday</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyDyTuesday</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-08'</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>care_state <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="get-the-data" class="level1">
-<h1>Get the data!</h1>
-<pre><code>pizza_jared &lt;- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_jared.csv")
-pizza_barstool &lt;- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_barstool.csv")
-pizza_datafiniti &lt;- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_datafiniti.csv")</code></pre>
+<section id="how-to-participate" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
+<ul>
+<li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
+<li>Create a visualization, a model, a <a href="https://quarto.org/">Quarto</a> report, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R, Python, or another programming language.</li>
+<li><a href="../../../sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
+<li><a href="../../../pr_instructions.html">Submit your own dataset!</a></li>
+</ul>
+<section id="pydytuesday-a-posit-collaboration-with-tidytuesday" class="level3">
+<h3 class="anchored" data-anchor-id="pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</h3>
+<ul>
+<li>Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a <a href="https://quarto.org/docs/dashboards/">Quarto dashboard</a>? Find videos and other resources in <a href="https://github.com/posit-dev/python-tidytuesday-challenge">Posit’s PydyTuesday repo</a>.</li>
+<li>Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!</li>
+<li>Deploy or share your work however you want! If you’d like a super easy way to publish your work, give <a href="https://connect.posit.cloud/">Connect Cloud</a> a try.</li>
+</ul>
 </section>
-<section id="data-dictionary" class="level1">
-<h1>Data Dictionary</h1>
-<section id="pizza_jared.csv" class="level2">
-<h2 class="anchored" data-anchor-id="pizza_jared.csv"><code>pizza_jared.csv</code></h2>
+</section>
+<section id="data-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
+<section id="care_state.csv" class="level3">
+<h3 class="anchored" data-anchor-id="care_state.csv"><code>care_state.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 35%">
-<col style="width: 29%">
-<col style="width: 35%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">polla_qid</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Quiz ID</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">answer</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Answer (likert scale)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">votes</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of votes for that question/answer combo</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">pollq_id</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Poll Question ID</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">question</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Question</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">place</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Pizza Place</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Time of quiz</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">total_votes</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Total number of votes for that pizza place</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">percent</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Vote percent of total for that pizza place</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pizza_barstool.csv" class="level2">
-<h2 class="anchored" data-anchor-id="pizza_barstool.csv"><code>pizza_barstool.csv</code></h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 62%">
+<col style="width: 21%">
 <col style="width: 16%">
-<col style="width: 20%">
+<col style="width: 62%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -305,210 +321,71 @@ pizza_datafiniti &lt;- readr::read_csv("https://raw.githubusercontent.com/rforda
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">name</td>
+<td style="text-align: left;">state</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Pizza place name</td>
+<td style="text-align: left;">The two-letter code for the state (or territory, etc) where the hospital is located.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">address1</td>
+<td style="text-align: left;">condition</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Pizza place address</td>
+<td style="text-align: left;">The condition for which the patient was admitted. Six categories of conditions are included in the data.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">city</td>
+<td style="text-align: left;">measure_id</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">City</td>
+<td style="text-align: left;">The ID of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">zip</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Zip</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">country</td>
+<td style="text-align: left;">measure_name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Country</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">latitude</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Latitude</td>
+<td style="text-align: left;">The name of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">longitude</td>
+<td style="text-align: left;">score</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Longitude</td>
+<td style="text-align: left;">The score of the measure.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">price_level</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Price rating (fewer <code>$</code> = cheaper, more <code>$$$</code> = expensive)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">provider_rating</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Provider review score</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">provider_review_count</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Provider review count</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_all_average_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Average Score</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_all_count</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Count of all reviews</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_all_total_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Review total score</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_community_average_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Community average score</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_community_count</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">community review count</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_community_total_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">community review total score</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_critic_average_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Critic average score</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_critic_count</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Critic review count</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_critic_total_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Critic total score</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_dave_average_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Dave (Barstool) average score</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">review_stats_dave_count</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Dave review count</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">review_stats_dave_total_score</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Dave total score</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pizza_datafiniti.csv" class="level2">
-<h2 class="anchored" data-anchor-id="pizza_datafiniti.csv"><code>pizza_datafiniti.csv</code></h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">name</td>
+<td style="text-align: left;">footnote</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Pizza place</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">address</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Address</td>
+<td style="text-align: left;">Footnotes that apply to this measure: 5 = “Results are not available for this reporting period.”, 25 = “State and national averages include Veterans Health Administration (VHA) hospital data.”, 26 = “State and national averages include Department of Defense (DoD) hospital data.”.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">city</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">City</td>
+<td style="text-align: left;">start_date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The date on which measurement began for this measure.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">country</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Country</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">province</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">State</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">latitude</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Latitude</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">longitude</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Longitude</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">categories</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Restaurant category</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">price_range_min</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Price range min</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">price_range_max</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Price range max</td>
+<td style="text-align: left;">end_date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The date on which measurement ended for this measure.</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section id="cleaning-script" class="level1">
-<h1>Cleaning Script</h1>
-<pre><code>library(tidyverse)
-library(jsonlite)
-
-# Get barstool data off github
-pizza_raw &lt;- read_csv("https://raw.githubusercontent.com/tylerjrichards/Barstool_Pizza/master/pizza_data.csv")
-
-pizza_cooked &lt;- pizza_raw %&gt;% 
-  select(name, address1, city, zip, country, latitude, longitude, priceLevel, 
-         providerRating, providerReviewCount, 
-         reviewStats.all.averageScore:reviewStats.dave.totalScore) %&gt;% 
-  janitor::clean_names()
-
-# Get jared data off his website (json)
-
-url &lt;- "https://jaredlander.com/data/PizzaPollData.php"
-
-jared_pizza &lt;- fromJSON(readLines(url), flatten = TRUE) %&gt;% 
-  as_tibble() %&gt;% 
-  janitor::clean_names()
-
-write_csv(jared_pizza, here::here("2019", "2019-10-01", "pizza_jared.csv"))
-
-write_csv(pizza_cooked, here::here("2019", "2019-10-01", "pizza_barstool.csv"))</code></pre>
+<section id="cleaning-script" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data downloaded manually from https://data.cms.gov/provider-data/dataset/apyc-v239</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"Timely_and_Effective_Care-State.csv"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">score =</span> dplyr<span class="sc">::</span><span class="fu">na_if</span>(score, <span class="st">"Not Available"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.double</span>(),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_date"</span>),</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      lubridate<span class="sc">::</span>mdy</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

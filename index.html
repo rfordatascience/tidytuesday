@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -224,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pokemon" id="toc-pokemon" class="nav-link active" data-scroll-target="#pokemon">Pokemon</a>
+  <li><a href="#timely-and-effective-care-by-us-state" id="toc-timely-and-effective-care-by-us-state" class="nav-link active" data-scroll-target="#timely-and-effective-care-by-us-state">Timely and Effective Care by US State</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -233,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#pokemon_df.csv" id="toc-pokemon_df.csv" class="nav-link" data-scroll-target="#pokemon_df.csv"><code>pokemon_df.csv</code></a></li>
+  <li><a href="#care_state.csv" id="toc-care_state.csv" class="nav-link" data-scroll-target="#care_state.csv"><code>care_state.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -246,28 +246,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="pokemon" class="level1">
-<h1>Pokemon</h1>
-<p>This week we are exploring Pokemon! This dataset is sourced from {pokemon} (<a href="https://cran.r-project.org/package=pokemon">CRAN</a> | <a href="https://github.com/williamorim/pokemon">github</a>), an R package which provides Pokemon information in both English and Brazilian Portuguese.</p>
+<section id="timely-and-effective-care-by-us-state" class="level1">
+<h1>Timely and Effective Care by US State</h1>
+<p>This week we’re exploring state-level results for medicare.gov “timely and effective care” measurements. As of 2025-04-06, the data is available at the <a href="https://data.cms.gov/provider-data/dataset/apyc-v239">Centers for Medicare and Medicaid Services (CMS) website</a>. Thanks to former TidyTuesday team member Tracy Teal (<span class="citation" data-cites="tracykteal">@tracykteal</span>) for the dataset suggestion and the link to <a href="https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/">a visualization by Kayla Zhu and Christina Kostandi at the Visual Capitalist</a>.</p>
 <blockquote class="blockquote">
-<p>This package provides a dataset of Pokemon information in both English and Brazilian Portuguese. The dataset contains 949 rows and 22 columns, including information such as the Pokemon’s name, ID, height, weight, stats, type, and more.</p>
+<p>Emergency room wait times vary significantly across the United States depending on factors such as hospital resources, patient volume, and staffing levels, with some states facing delays that can stretch for more than three hours.</p>
 </blockquote>
-<p>Thank you to <a href="https://github.com/frankiethull">Frank Hull</a> for curating this week’s dataset.</p>
+<ul>
+<li>Is there a connection between state populations and wait times?</li>
+<li>Which conditions have the longest wait times? The shortest?</li>
+</ul>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-01'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-08'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">13</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">14</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>pokemon_df <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>pokemon_df</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>care_state</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>pokemon_df <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-01/pokemon_df.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: PyDyTuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install PyDyTuesday</span></span>
@@ -275,11 +279,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyDyTuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-01'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-08'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>pokemon_df <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-01/pokemon_df.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>care_state <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -300,13 +304,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="pokemon_df.csv" class="level3">
-<h3 class="anchored" data-anchor-id="pokemon_df.csv"><code>pokemon_df.csv</code></h3>
+<section id="care_state.csv" class="level3">
+<h3 class="anchored" data-anchor-id="care_state.csv"><code>care_state.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 15%">
-<col style="width: 59%">
+<col style="width: 21%">
+<col style="width: 16%">
+<col style="width: 62%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,114 +321,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">id</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The unique ID of each Pokemon.</td>
+<td style="text-align: left;">state</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The two-letter code for the state (or territory, etc) where the hospital is located.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">pokemon</td>
+<td style="text-align: left;">condition</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The name of each pokemon.</td>
+<td style="text-align: left;">The condition for which the patient was admitted. Six categories of conditions are included in the data.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">species_id</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The species ID of each Pokemon.</td>
+<td style="text-align: left;">measure_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The ID of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">height</td>
+<td style="text-align: left;">measure_name</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The name of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">score</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">The height of each pokemon.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">weight</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">The weight of each pokemon.</td>
+<td style="text-align: left;">The score of the measure.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">base_experience</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The base experience of each Pokemon.</td>
+<td style="text-align: left;">footnote</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Footnotes that apply to this measure: 5 = “Results are not available for this reporting period.”, 25 = “State and national averages include Veterans Health Administration (VHA) hospital data.”, 26 = “State and national averages include Department of Defense (DoD) hospital data.”.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">type_1</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The primary type.</td>
+<td style="text-align: left;">start_date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The date on which measurement began for this measure.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">type_2</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The secondary type.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">hp</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The HP (hit points).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">attack</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The attack points.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">defense</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The defense points.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">special_attack</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The special attack points.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">special_defense</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The special defense points.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">speed</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The speed.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">color_1</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The primary color of each pokemon.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">color_2</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The secondary color of each pokemon.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">color_f</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The final color of each pokemon.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">egg_group_1</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The primary egg group.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">egg_group_2</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The secondary egg group.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">url_icon</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The URL for the icon of each Pokemon (if available). Note that these are missing the starting “https:”.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">generation_id</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">The generation ID of each Pokemon.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">url_image</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The URL for the image of each Pokemon.</td>
+<td style="text-align: left;">end_date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The date on which measurement ended for this measure.</td>
 </tr>
 </tbody>
 </table>
@@ -432,10 +366,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by https://github.com/williamorim/pokemon. No cleaning was necessary.</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("pokemon")</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>pokemon_df <span class="ot">&lt;-</span> pokemon<span class="sc">::</span>pokemon</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data downloaded manually from https://data.cms.gov/provider-data/dataset/apyc-v239</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"Timely_and_Effective_Care-State.csv"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">score =</span> dplyr<span class="sc">::</span><span class="fu">na_if</span>(score, <span class="st">"Not Available"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.double</span>(),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_date"</span>),</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      lubridate<span class="sc">::</span>mdy</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
