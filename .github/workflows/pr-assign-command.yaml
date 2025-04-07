@@ -51,6 +51,10 @@ jobs:
           } else {
             src_folder_name <- "new_submission"
           }
+          cli::cli_inform(c(
+            i = "target_date = {target_date}",
+            i = "src_folder_name = {src_folder_name}"
+          ))
           
           source("static/templates/assign_week.R", local = TRUE)
 
