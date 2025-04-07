@@ -55,7 +55,7 @@ christmas_songs <- tuesdata$christmas_songs
 |line        |integer   | Line number |
 |lyric       |character | Lyric text |
 
-```{r}
+```r
 library(tidyverse)
 library(genius)
 

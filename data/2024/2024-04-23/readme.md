@@ -20,7 +20,7 @@ When did each entity start launching objects into space? What years saw the bigg
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -58,7 +58,7 @@ outer_space_objects <- readr::read_csv('https://raw.githubusercontent.com/rforda
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 

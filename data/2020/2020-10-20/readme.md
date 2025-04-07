@@ -18,7 +18,7 @@ NOTE - There are a few missing data points unfortunately
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

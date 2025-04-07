@@ -12,7 +12,7 @@ h/t [Data is Plural 2023-07-13 newsletter](https://www.data-is-plural.com/archiv
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

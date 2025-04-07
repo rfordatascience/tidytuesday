@@ -7,7 +7,7 @@ A number of past TidyTuesdays (such as
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

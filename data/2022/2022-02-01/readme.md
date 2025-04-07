@@ -40,7 +40,7 @@ The data this week comes from the American Kennel Club courtesy of [KKakey](http
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

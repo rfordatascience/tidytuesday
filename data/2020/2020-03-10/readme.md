@@ -24,7 +24,7 @@ Salary potential data comes from [payscale.com](https://www.payscale.com/college
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 tuition_cost <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/tuition_cost.csv')

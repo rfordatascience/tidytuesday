@@ -48,7 +48,7 @@ The Bechdel Test according to [Wikipedia](https://en.wikipedia.org/wiki/Bechdel_
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

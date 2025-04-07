@@ -58,7 +58,7 @@ Some limitations of the data expanded on the [Drought Monitor site](https://drou
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

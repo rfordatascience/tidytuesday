@@ -60,7 +60,7 @@ dplyr::left_join(wwc_outcomes, codes, by = "team")
 
 ## Cleaning script
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 library(rvest)

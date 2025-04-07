@@ -8,7 +8,7 @@ Don't be tricked by their demise!
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

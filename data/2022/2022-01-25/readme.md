@@ -42,7 +42,7 @@ In [Python](https://jvanelteren.github.io/blog/2022/01/19/boardgames.html) and i
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

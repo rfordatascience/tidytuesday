@@ -42,7 +42,7 @@ This is a good dataset to again better understand joining datasets in R. There a
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -86,7 +86,7 @@ paper_programs <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 
 ### Cleaning Script
 
-```{r}
+```r
 library(nberwp)
 library(tidyverse)
 

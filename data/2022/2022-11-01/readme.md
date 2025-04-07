@@ -39,7 +39,7 @@ Read more about Tanya's workshop on her GitHub: [Horror Movies](https://github.c
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

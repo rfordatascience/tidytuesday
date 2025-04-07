@@ -10,7 +10,7 @@ h/t to [Jon Harmon](https://github.com/rfordatascience/tidytuesday/issues/160) &
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 spotify_songs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-21/spotify_songs.csv')

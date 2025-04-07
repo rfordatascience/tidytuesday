@@ -55,7 +55,7 @@ Examples of analyses are included in [Dan Oehm's blog post](https://gradientdesc
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

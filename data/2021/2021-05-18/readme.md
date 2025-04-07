@@ -16,7 +16,7 @@ The survey itself is available [here](https://www.askamanager.org/2021/04/how-mu
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

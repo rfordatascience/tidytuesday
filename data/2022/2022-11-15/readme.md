@@ -38,7 +38,7 @@ Full data available via instructions at: <https://github.com/HTTPArchive/httparc
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

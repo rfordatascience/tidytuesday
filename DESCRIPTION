@@ -13,15 +13,19 @@ BugReports: https://github.com/rfordatascience/tidytuesday/issues
 Depends:
     R (>= 4.1.0)
 Imports: 
+    cli,
     dplyr,
     fs,
     glue,
     here,
     knitr,
     lubridate,
+    magick,
     purrr,
+    readMDTable,
     readr,
     rlang,
+    rmarkdown,
     stringr,
     tibble,
     usethis,

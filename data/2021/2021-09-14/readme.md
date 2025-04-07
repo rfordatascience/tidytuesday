@@ -48,7 +48,7 @@ Some exploratory graphs by [Azhad Syed](https://towardsdatascience.com/hot-or-no
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

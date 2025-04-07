@@ -1,0 +1,24 @@
+title: "Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US"
+article:
+  title: "This Art is HARD"
+  url: "https://katcorr.github.io/this-art-is-HARD/"
+data_source:
+  title: "Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence"
+  url: "https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext"
+images:
+# Please include at least one image, and up to three images
+- file: "num_articles_by_journal.png"
+  alt: >
+    The number of articles that met inclusion criteria for the narrative review of racial and ethnic disparities that were published in eight of the highest impact obstetrics and gynecology jourals. The counts increase over time, with spikes around 2016 and after 2020, for three of the journals.
+- file: "blastocyst.png"
+  alt: >
+    A black background with bright yellow, pink, purple, and orange circles of varying sizes around a smaller white circle in the middle. The image is designed to resemble a blastocyst. The radius of each of the colorful circles is relative to the increased risk for maternal morbidity and mortality outcomes among different race and ethnic groups, as compared to "white".
+- file: "maternal_mortality_rural.png"
+  alt: >
+    Within each race and ethnicity group, the number of pregnancy-related deaths per 100,000 live births increases with increasing rurality. Within each urban-rural categorization, the number of pregnancy-related deaths per 100,000 live births is lowest among white and Hispanic women and highest among Black women. This visualization is based on the data presented in Table 3 in the 2021 American Journal of Obstetrics & Gynecology article by Merkt et al available at https://pubmed.ncbi.nlm.nih.gov/33640361
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Kat Correia from Amherst College"
+  linkedin: "https://www.linkedin.com/in/kfbcorreia/"
+  github: "https://github.com/katcorr"

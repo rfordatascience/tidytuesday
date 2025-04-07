@@ -17,7 +17,7 @@ Some interesting articles:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 sf_trees <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-28/sf_trees.csv')
@@ -59,7 +59,7 @@ address order |
 
 ### Cleaning Script
 
-```{r}
+```r
 
 library(tidyverse)
 library(here)

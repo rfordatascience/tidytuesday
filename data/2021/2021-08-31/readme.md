@@ -53,7 +53,7 @@ Big thanks to [Alison Hill](https://twitter.com/apreshill) for suggesting this d
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

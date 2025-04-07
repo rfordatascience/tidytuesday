@@ -36,7 +36,7 @@ The data this week comes from [BigPumpkins.com](http://www.bigpumpkins.com/ViewA
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

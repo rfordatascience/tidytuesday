@@ -51,7 +51,7 @@ Another article from the Detroit Free Press on [King salmon reign becomes more p
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -123,7 +123,7 @@ stocked <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(readxl)
 

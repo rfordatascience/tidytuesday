@@ -67,7 +67,7 @@ gas_price <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/
 
 # Cleaning Script
 
-```{r}
+```r
 
 library(tidyverse)
 library(rvest)

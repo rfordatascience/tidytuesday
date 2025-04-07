@@ -19,7 +19,7 @@ Another note is that Offune and Amber have optionally allowed for the ["scrollyt
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

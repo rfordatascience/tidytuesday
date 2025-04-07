@@ -24,7 +24,7 @@ Data was accessed through [Movebank](https://www.movebank.org/cms/movebank-conte
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 individuals <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-23/individuals.csv')
@@ -97,7 +97,7 @@ individuals <- tuesdata$individuals
 
 ### Cleaning Script
 
-```{r}
+```r
 # Load libraries
 library(tidyverse)
 library(janitor)

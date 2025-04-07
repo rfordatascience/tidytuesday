@@ -9,7 +9,7 @@ We don't have an article using exactly this dataset, but you might get inspirati
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

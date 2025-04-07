@@ -15,7 +15,7 @@ If you're unfamiliar with some of the terminology in this dataset, you might fin
 ## The Data
 
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -36,7 +36,7 @@ internal_calls <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 
 If you would like to dive deeper, you can download the larger dataset with this code:
 
-```{r}
+```r
 cran_all_20221122 <- readr::read_rds("https://zenodo.org/records/7414296/files/pkgstats-CRAN-all.Rds?download=1")
 ```
 

@@ -10,7 +10,7 @@ Which cohort of leap day births is most represented in Wikipedia's data? Are any
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

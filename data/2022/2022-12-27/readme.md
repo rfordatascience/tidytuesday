@@ -43,7 +43,7 @@ We directly included two of the datasets from the {rtrek} package, but we encour
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -57,7 +57,7 @@ Note: This dataset implies that "both parents" means one man and one woman. We r
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

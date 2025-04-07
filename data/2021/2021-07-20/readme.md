@@ -50,7 +50,7 @@ Some limitations of the data expanded on the [Drought Monitor site](https://drou
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -90,7 +90,7 @@ A note on "cumulative" data. For `pop_pct`, `pop_total`, `area_pct`, and `area_t
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 
 read_and_prep <- function(file, type){

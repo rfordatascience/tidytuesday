@@ -48,7 +48,7 @@ Note: The age gaps dataset includes "gender" columns, which always contain the v
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

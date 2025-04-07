@@ -18,7 +18,7 @@ There's text, appearance, ratings, and many other datasets here - if you're tryi
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

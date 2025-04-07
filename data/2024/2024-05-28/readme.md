@@ -11,7 +11,7 @@ What changed between 2020 and 2021?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

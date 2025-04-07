@@ -47,7 +47,7 @@ All building permits can be found at the [Socrata API endpoint](https://dev.socr
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

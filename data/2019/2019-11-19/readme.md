@@ -47,7 +47,7 @@ nz_bird <- tuesdata$nz_bird
 
 # Scripts
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 
