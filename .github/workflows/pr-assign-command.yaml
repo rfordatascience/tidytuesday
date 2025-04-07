@@ -39,12 +39,22 @@ jobs:
         shell: Rscript {0}
         run: |
           split_input <- strsplit(Sys.getenv("GITHUB_COMMENT_BODY"), " ")[[1]]
-          target_date <- split_input[[2]]
+          if (length(split_input) > 1) {
+            target_date <- split_input[[2]]
+          } else {
+            source("static/templates/dates.R", local = TRUE)
+            used_dates <- get_readme_dates()
+            target_date <- max(used_dates) + lubridate::days(7)
+          }
           if (length(split_input) > 2) {
             src_folder_name <- split_input[[3]]
           } else {
             src_folder_name <- "new_submission"
           }
+          cli::cli_inform(c(
+            i = "target_date = {target_date}",
+            i = "src_folder_name = {src_folder_name}"
+          ))
           
           source("static/templates/assign_week.R", local = TRUE)
 
