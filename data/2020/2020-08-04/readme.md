@@ -24,7 +24,7 @@ Overall, this dataset was an exploration of pulling data from an Excel-based dat
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -75,7 +75,7 @@ Limited to total net production, along with imports, exports, energy lost, and e
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(readxl)
 library(countrycode)

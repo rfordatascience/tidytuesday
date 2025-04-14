@@ -15,7 +15,7 @@ The data this week comes from [FiveThirtyEight](https://github.com/fivethirtyeig
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -89,7 +89,7 @@ movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(jsonlite)
 

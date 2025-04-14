@@ -18,7 +18,7 @@ This is inline with the TidyTuesday efforts, and I look forward to seeing what t
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

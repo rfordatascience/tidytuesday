@@ -1,0 +1,52 @@
+project:
+  type: website
+  render:
+    - "*.qmd" # render all qmd files
+    - "*.md" # render all md files
+  output-dir: docs
+
+website:
+  # site-url: {domain name to be used}
+  title: "TidyTuesday"
+  search: true
+  navbar: true
+  sidebar:
+    logo: "static/tt_hex.png"
+    style: docked
+    contents:
+      - about.qmd
+      - section: "Datasets"
+        contents:
+          - text: "2025"
+            href: data/2025/readme.md
+          - text: "2024"
+            href: data/2024/readme.md
+          - text: "2023"
+            href: data/2023/readme.md
+          - text: "2022"
+            href: data/2022/readme.md
+          - text: "2021"
+            href: data/2021/readme.md
+          - text: "2020"
+            href: data/2020/readme.md
+          - text: "2019"
+            href: data/2019/readme.md
+          - text: "2018"
+            href: data/2018/readme.md
+      - links.md
+            
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    page-layout: full
+    css: styles.css
+    toc: true
+
+# quarto commands:
+# quarto preview
+# quarto render
+
+# if there are issues with previews sometimes this can help:
+# quarto preview --render all --no-watch-inputs

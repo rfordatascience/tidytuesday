@@ -24,7 +24,7 @@ From Steph and Lucy's [`datasauRus` Vignette](https://cran.r-project.org/web/pac
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -57,7 +57,7 @@ datasaurus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 
 No data cleaning this week, but a quick vignette from Steph and Lucy:
 
-```{r}
+```r
 library(ggplot2)
 
 ggplot(datasaurus_dozen, aes(x=x, y=y, colour=dataset))+

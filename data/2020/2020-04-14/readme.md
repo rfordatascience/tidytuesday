@@ -10,7 +10,7 @@ The raw data can be found on his [Github](https://github.com/sjockers/bbc-best-r
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 polls <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-14/polls.csv')

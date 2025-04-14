@@ -12,7 +12,7 @@ Another article from [investors.com](https://www.investors.com/news/ceo-turnover
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

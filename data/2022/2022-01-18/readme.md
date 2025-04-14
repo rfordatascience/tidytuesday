@@ -36,7 +36,7 @@ Some analysis from 2017 on this data at [Kaggle](https://www.kaggle.com/willcann
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

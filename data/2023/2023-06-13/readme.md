@@ -61,7 +61,7 @@ CITATION: Woodhouse, Philip; Veldwisch, Gert Jan; Brockington, Daniel; Komakech,
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

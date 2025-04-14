@@ -6,7 +6,7 @@ This is your chance to try that out too! Try recreating some of their plots, or 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

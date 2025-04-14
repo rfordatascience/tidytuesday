@@ -38,7 +38,7 @@ Miquel [wrote about](https://towardsdatascience.com/dissecting-28-years-of-europ
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

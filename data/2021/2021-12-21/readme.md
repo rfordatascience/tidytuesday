@@ -40,7 +40,7 @@ There's some infographics from [Behance.net](https://www.behance.net/gallery/587
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

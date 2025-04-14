@@ -30,7 +30,7 @@ Journal article - [A Retrospective Analysis of Complaints to RSPCA Queensland, A
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -94,7 +94,7 @@ brisbane_complaints <- readr::read_csv('https://raw.githubusercontent.com/rforda
 
 ### Cleaning Script
 
-```{r}
+```r
 
 library(tidyverse)
 library(pdftools)

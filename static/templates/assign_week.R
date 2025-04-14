@@ -3,14 +3,21 @@
 
 # Set these variables ----------------------------------------------------------
 
-# src_folder_name <- "american_idol"
-# target_date <- "2024-09-10"
+# src_folder_name <- "new_submission"
+# src_folder_name <- "template"
+# target_date <- NULL
 
 # Run these scripts ------------------------------------------------------------
+
+library(dplyr, warn.conflicts = FALSE)
+source(here::here("static", "templates", "readme.R"), local = TRUE)
+source(here::here("static", "templates", "dates.R"), local = TRUE)
+source(here::here("static", "templates", "metadata.R"), local = TRUE)
 
 ## Sources and targets ---------------------------------------------------------
 
 src_dir <- here::here("data", "curated", src_folder_name)
+target_date <- check_date(target_date)
 target_year <- lubridate::year(target_date)
 target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
@@ -18,14 +25,10 @@ fs::dir_create(target_dir)
 
 ## metadata --------------------------------------------------------------------
 
-source(here::here("static", "templates", "metadata.R"), local = TRUE)
-
 metadata <- read_metadata(fs::path(src_dir, "meta.yaml"))
 
 dataset_files <- fs::dir_ls(src_dir, glob = "*.csv") |> unname()
 dataset_filenames <- basename(dataset_files)
-
-intro <- readLines(fs::path(src_dir, "intro.md"))
 
 title <- metadata$title %||% stop("missing data")
 data_title <- metadata$data_source$title %||% stop("missing data")
@@ -55,7 +58,24 @@ fs::file_copy(fs::path(src_dir, "meta.yaml"), target_dir)
 metadata$images |> 
   purrr::walk(
     \(image) {
-      fs::file_copy(fs::path(src_dir, image$file), target_dir)
+      original_img_path <- fs::path(src_dir, image$file)
+      original_img_size <- fs::file_size(original_img_path)
+      if (original_img_size >= fs::fs_bytes("1MB")) {
+        # Round down to make sure we're *under* 1MB. This isn't actually
+        # guaranteed to work because image size isn't directly proportional to
+        # file size, but it seems to err on the side of making things smaller
+        # than they need to be.
+        ratio <- floor(
+          as.integer(fs::fs_bytes("1MB"))/as.integer(original_img_size)*95
+        )
+        magick::image_read(original_img_path) |> 
+          magick::image_resize(
+            magick::geometry_size_percent(ratio)
+          ) |> 
+          magick::image_write(fs::path(target_dir, image$file))
+      } else {
+        fs::file_copy(original_img_path, target_dir)
+      }
     }
   )
 
@@ -63,15 +83,10 @@ fs::file_copy(dataset_files, target_dir)
 
 ## Create readme ---------------------------------------------------------------
 
-read_piece <- function(filename) {
-  paste(readLines(filename, warn = FALSE), collapse = "\n")
-}
-
 title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
 credit_line <- glue::glue("Thank you to {credit} for curating this week's dataset.")
 if (length(credit_line)) {
-  
   intro <- paste(intro, credit_line, sep = "\n\n")
 }
 
@@ -85,7 +100,7 @@ data_dictionaries <- purrr::map(
     dictionary <- fs::path(src_dir, dictionary_filename) |> 
       read_piece()
     dictionary_md <- glue::glue(
-      "# `{dataset_filename}`",
+      "### `{dataset_filename}`",
       dictionary,
       .sep = "\n\n"
     )
@@ -94,12 +109,12 @@ data_dictionaries <- purrr::map(
   glue::glue_collapse(sep = "\n\n") |> unclass()
 
 data_dictionary <- glue::glue(
-  "### Data Dictionary",
+  "## Data Dictionary",
   data_dictionaries,
   .sep = "\n\n"
 )
 cleaning_script <- paste(
-  "### Cleaning Script\n",
+  "## Cleaning Script\n",
   "```r",
   read_piece(fs::path(src_dir, "cleaning.R")),
   "```",
@@ -141,31 +156,34 @@ paste(
 
 ## Update the YEAR readme ------------------------------------------------------
 
-this_row_year <- glue::glue(
-  "| {target_week}",
-  "`{target_date}`",
-  "[{title}]({target_date}/readme.md)",
-  "[{data_title}]({data_link})",
-  "[{article_title}]({article_link})",
-  "",
-  .sep = " | "
-) |> unclass()
-this_row_main <- glue::glue(
-  "| {target_week}",
-  "`{target_date}`",
-  "[{title}](data/{target_year}/{target_date}/readme.md)",
-  "[{data_title}]({data_link})",
-  "[{article_title}]({article_link})",
-  "",
-  .sep = " | "
-) |> unclass()
+year_readme_datasets <- get_readme_datasets(
+  here::here("data", target_year, "readme.md")
+)
+
+year_readme_datasets <- dplyr::bind_rows(
+  year_readme_datasets,
+  tibble::tibble(
+    Week = target_week,
+    Date = target_date,
+    Data = glue::glue("[{title}]({target_date}/readme.md)"),
+    Source = glue::glue("[{data_title}]({data_link})"),
+    Article = glue::glue("[{article_title}]({article_link})")
+  )
+) |>
+  dplyr::arrange(.data$Date)
 
 cat(
-  this_row_year,
-  "\n",
-  file = here::here("data", target_year, "readme.md"),
-  append = TRUE
+  glue::glue(
+    "# {target_year} Data",
+    "Archive of datasets and articles from the {target_year} series of `#TidyTuesday` events.",
+    .sep = "\n\n"
+  ),
+  paste(knitr::kable(year_readme_datasets), collapse = "\n"),
+  sep = "\n\n",
+  file = here::here("data", target_year, "readme.md")
 )
+
+## Update the MAIN readme ------------------------------------------------------
 
 main_readme <- readLines(here::here("README.md"))
 dataset_lines <- stringr::str_which(
@@ -176,12 +194,23 @@ dataset_lines_start <- dataset_lines[[1]]
 dataset_lines_end <- dataset_lines[[length(dataset_lines)]]
 main_readme_start <- main_readme[1:(dataset_lines_start - 1)]
 main_readme_end <- main_readme[(dataset_lines_end + 1):length(main_readme)]
-main_readme_datasets <- c(
-  main_readme[dataset_lines], this_row_main
-)
+
+main_readme_datasets <- get_readme_datasets()
+main_readme_datasets <- dplyr::bind_rows(
+  main_readme_datasets,
+  tibble::tibble(
+    Week = target_week,
+    Date = target_date,
+    Data = glue::glue("[{title}](data/{target_year}/{target_date}/readme.md)"),
+    Source = glue::glue("[{data_title}]({data_link})"),
+    Article = glue::glue("[{article_title}]({article_link})")
+  )
+) |>
+  dplyr::arrange(.data$Date)
+
 cat(
   main_readme_start,
-  main_readme_datasets,
+  paste(knitr::kable(main_readme_datasets), collapse = "\n"),
   main_readme_end,
   sep = "\n",
   file = here::here("README.md")

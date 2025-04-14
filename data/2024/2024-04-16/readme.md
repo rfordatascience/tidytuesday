@@ -13,7 +13,7 @@ Can you create a Shiny app to explore this data?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -120,7 +120,7 @@ See [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-ex
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(here)

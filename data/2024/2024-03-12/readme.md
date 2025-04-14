@@ -16,7 +16,7 @@ The Fiscal Sponsor Directory [analyzed their directory in March 2023](https://fi
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

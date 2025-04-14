@@ -65,7 +65,7 @@ Also see their article: <https://openpsychometrics.org/tests/characters/document
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

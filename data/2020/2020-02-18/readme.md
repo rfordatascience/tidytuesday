@@ -6,7 +6,7 @@ Kasia has put together a great guide on webscraping along with data cleaning and
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 food_consumption <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-18/food_consumption.csv')
@@ -37,7 +37,7 @@ food_consumption <- tuesdata$food_consumption
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(rvest)

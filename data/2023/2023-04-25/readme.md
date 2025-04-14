@@ -35,7 +35,7 @@ The data this week comes from Nicola Rennie's [LondonMarathon R package](https:/
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

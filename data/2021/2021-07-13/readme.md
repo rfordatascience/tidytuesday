@@ -52,7 +52,7 @@ More info about Scooby Doo can be found on [ScoobyPedia](https://scoobydoo.fando
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

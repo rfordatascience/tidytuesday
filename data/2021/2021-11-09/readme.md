@@ -36,7 +36,7 @@ Additional [larger dataset on > 100K health facility points for Africa](https://
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Data accessed via the afrimapr or afrilearndata packages

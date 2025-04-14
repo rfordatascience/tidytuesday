@@ -18,7 +18,7 @@ To get that data in, use `tidytuesdayR::tt_load("2019", week = 3)`.
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -71,7 +71,7 @@ astronauts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(knitr)

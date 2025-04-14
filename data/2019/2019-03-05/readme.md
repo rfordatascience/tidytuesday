@@ -16,7 +16,7 @@ Data Scientist and Austin #Rladies co-organizer [Caitlin Hudon](https://twitter.
 
 ### Grab the clean data here
 
-```{r}
+```r
 jobs_gender <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/jobs_gender.csv")
 earnings_female <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/earnings_female.csv") 
 employed_gender <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/employed_gender.csv") 
@@ -81,7 +81,7 @@ The original data came primarily from .xlsx sheets - I do **NOT** recommend clea
 ### Spoilers - Cleaning Script
 
 
-```{r load libraries}
+```r
 library(tidyverse)
 library(readxl)
 library(unpivotr)
@@ -91,7 +91,7 @@ library(rvest)
 
 ### Dataset 1
 
-```{r}
+```r
 col_nm <- c(
   "category", "total_estimate", "total_moe3", "men_estimate", "men_moe3",
   "women_estimate", "women_moe3", "percent_women", "percent_women_moe3",
@@ -140,7 +140,7 @@ all_years <- bind_rows(earnings_2013, earnings_2014, earnings_2015, earnings_201
 
 Grabbed the major categories from the table by hand and did some basic checks to make sure everything came out ok.
 
-```{r}
+```r
 
 cat1 <- c(
   "Management, Business, and Financial Occupations",
@@ -169,7 +169,7 @@ all.equal(cat1, tibble(category_names) %>%
 
 Grabbed the minor categories from the table by hand and did some basic checks to make sure everything came out ok.
 
-```{r}
+```r
 
 cat2 <- c(
   "Management Occupations",
@@ -211,7 +211,7 @@ all.equal(cat2, tibble(category_names) %>%
 
 Add the new columns and remove "occupations" from the text to shorten things out.
 
-```{r}
+```r
 category_added <- all_years %>%
   mutate(
     cat1 = case_when(
@@ -241,7 +241,7 @@ clean_all <- category_added %>%
 
 Clean up the names, filter to remove the within-table summary stats and leave only the more discrete occupations.
 
-```{r}
+```r
 
 nm_final <- c("year", "occupation", "major_category", "minor_category", "total_workers", "workers_male", "workers_female", "percent_female", "total_earnings", "total_earnings_male", "total_earnings_female", "wage_percent_of_male")
 
@@ -264,13 +264,13 @@ final_all <- clean_all %>%
 ### Mental and code checks
 
 
-```{r}
+```r
 final_all %>% 
   group_by(year) %>% count()
 ```
 
 
-```{r}
+```r
 
 final_all %>% 
   ggplot(aes(x = year, y = total_earnings, group = occupation)) +
@@ -280,7 +280,7 @@ final_all %>%
 
 ### Scrape the additional datasets
 
-```{r}
+```r
 url <- "https://www.bls.gov/opub/ted/2012/ted_20121123.htm"
 
 raw_html <- url %>%
@@ -293,7 +293,7 @@ women_earnings <- raw_html %>%
 ```
 
 
-```{r}
+```r
 url2 <- "https://www.bls.gov/opub/ted/2017/percentage-of-employed-women-working-full-time-little-changed-over-past-5-decades.htm"
 
 raw_html2 <- url2 %>%

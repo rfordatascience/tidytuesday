@@ -53,7 +53,7 @@ Raw data available at: <https://www.sciencebase.gov/catalog/item/60ba5a00d34e86b
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -95,7 +95,7 @@ frogs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 |Detection | character | detection type (Captured,No visual,Visual)|
 
 ### Cleaning script
-```{r}
+```r
 library(tidyverse)
 frog <- read_csv("2022/2022-08-02/Oregon_spotted_frog_telemetry_at_Crane_Prairie_OR.csv",
   col_names = TRUE,

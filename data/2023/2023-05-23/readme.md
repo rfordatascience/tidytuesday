@@ -55,7 +55,7 @@ Squirrel data! The data this week comes from the [2018 Central Park Squirrel Cen
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

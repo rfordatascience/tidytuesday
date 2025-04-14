@@ -17,7 +17,7 @@ This data and cleaning script are primarily from scraping tables out of a PDF. T
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 tbi_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-24/tbi_age.csv')
@@ -71,7 +71,7 @@ tbi_age <- tuesdata$tbi_age
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(rvest)
 

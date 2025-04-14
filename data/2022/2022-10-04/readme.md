@@ -40,7 +40,7 @@ Get the full dataset (280 mB) at <https://components.one/datasets/product-hunt-p
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

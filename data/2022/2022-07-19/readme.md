@@ -49,7 +49,7 @@ are approaching the technology frontier in the goods and services that they prod
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

@@ -18,7 +18,7 @@ The BLS has a corresponding [article](https://www.bls.gov/careeroutlook/2018/art
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -76,7 +76,7 @@ This was an interesting problem, and I think I have a decent reproducible pipeli
 
 Note the data is already cleaned, but feel free to test the below out for yourself.
 
-```{r}
+```r
 #basic url
 # https://www.bls.gov/cps/aa2020/cpsaat17.xlsx
 

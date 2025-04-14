@@ -10,7 +10,7 @@ Pew research also has a [nice article](https://www.pewresearch.org/global/2019/0
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -58,7 +58,7 @@ landline <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(countrycode)
 library(janitor)

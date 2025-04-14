@@ -41,7 +41,7 @@ Quotes below from the Our World in Data articles:
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

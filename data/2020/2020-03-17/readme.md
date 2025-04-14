@@ -12,7 +12,7 @@ Lastly - the pudding analyzed *The Office* dialogue across a few charts - their 
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 office_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-17/office_ratings.csv')

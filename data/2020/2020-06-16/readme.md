@@ -74,7 +74,7 @@ There are additional full text of [perspectives](https://www.blackpast.org/afric
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 blackpast <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-16/blackpast.csv')
@@ -137,7 +137,7 @@ Please note that there is missing data for many of the voyages, where this datab
 
 ### Cleaning Script
 
-```{r}
+```r
 library(pdftools) # reading in the PDF tables
 library(tidyverse) # requires tidy 1.0 and dplyr 1.0 for below example
 

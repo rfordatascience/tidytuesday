@@ -3,7 +3,7 @@
 These instructions are for preparing a dataset using the R programming language.
 We hope to provide instructions for other programming languages eventually.
 
-If you have not yet set up your computer for submitting a dataset, please see the full instructions at <https://github.com/rfordatascience/tidytuesday/blob/main/.github/pr_instructions.md>.
+If you have not yet set up your computer for submitting a dataset, please see the full instructions at <https://github.com/rfordatascience/tidytuesday/blob/main/pr_instructions.md>.
 
 1.  `cleaning.R`: Modify the `cleaning.R` file to get and clean the data.
     -   Write the code to download and clean the data in `cleaning.R`.

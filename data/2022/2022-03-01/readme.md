@@ -38,7 +38,7 @@ Note there is also a [shapefile](Alternative_Fueling_Stations.zip)
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

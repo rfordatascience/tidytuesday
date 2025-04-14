@@ -7,7 +7,7 @@ This week we're sharing Python data analysis examples! There's a few out there, 
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

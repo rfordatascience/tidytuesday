@@ -38,7 +38,7 @@ The data includes 16 months of forecasts and observations from 167 cities, as we
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

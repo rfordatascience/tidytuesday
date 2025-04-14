@@ -15,7 +15,7 @@ Can you replicate the figures in the blogs? Can you display any of the data more
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -97,7 +97,7 @@ that have or seek to have access to international markets), SDDS Plus (2012, the
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(janitor)
 library(here)

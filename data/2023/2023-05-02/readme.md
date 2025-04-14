@@ -92,7 +92,7 @@ been downloaded almost 50,000 times.
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

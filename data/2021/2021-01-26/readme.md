@@ -20,7 +20,7 @@ I downloaded the raw data from her Google Drive, and have a short cleaning scrip
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -69,7 +69,7 @@ The plastic is categorized by [recycling codes](https://en.wikipedia.org/wiki/Re
 
 NOTE: This is not necessary to use this data, but is just an example of how I prepared the `plastics.csv` dataset, which is already available.
 
-```{r}
+```r
 library(tidyverse)
 library(fs)
 

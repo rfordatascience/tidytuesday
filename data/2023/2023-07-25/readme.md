@@ -18,7 +18,7 @@ We're using the [scurvy dataset](https://htmlpreview.github.io/?https://github.c
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

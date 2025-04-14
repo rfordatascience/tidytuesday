@@ -14,7 +14,7 @@ What about the state in which the campus is located?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -75,7 +75,7 @@ pride_index_tags <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 
 ### Cleaning Script
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 library(fs)

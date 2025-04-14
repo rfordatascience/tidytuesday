@@ -47,7 +47,7 @@ wildlife_impacts <- readr::read_csv("https://raw.githubusercontent.com/rfordatas
 
 
 
-```{r}
+```r
 library(tidyverse)
 library(here)
 library(rvest)

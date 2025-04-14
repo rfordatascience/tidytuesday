@@ -8,7 +8,7 @@ What are the characteristics of artists and genres popular at different times?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

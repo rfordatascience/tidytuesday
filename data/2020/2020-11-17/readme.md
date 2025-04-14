@@ -30,7 +30,7 @@ We don't have our own dataset this week, but the data below returns the purpose,
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 
@@ -62,7 +62,7 @@ black_in_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 
 ### Cleaning Script
 
-```{r}
+```r
 black_in_data <- data.frame(
   date = seq(as.Date("2020-11-16"), as.Date("2020-11-21"), 1),
   hashtag = c("#BlackInDataRollCall",

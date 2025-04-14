@@ -1,0 +1,21 @@
+title: "Long Beach Animal Shelter"
+article:
+  title: "Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal"
+  url: "https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/"
+data_source:
+  title: "City of Long Beach Animal Care Services"
+  url: "https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/"
+images:
+# Please include at least one image, and up to three images
+- file: "LBACS-logo.png"
+  alt: >
+    Logo for the Long Beach Animal Cares Services. Blue dog with an orange collar and white cat with an orange collar encirceled by an ocean wave with the words Long Beach Animal Cares Services underneath.
+- file: "lbacs-adoption-graph.png"
+  alt: >
+    Barchart of annual adoption totals from 2018 to 2022. The lowest value was 687 adoptions in 2018, then 989 in 2019, down to 940 in 2020, climbing to 1072 in 2021, and way up to 1968 in 2022.
+credit:
+  post: "Lydia Gibson"
+  github: "@lgibson7"
+  bluesky: "@lydz-gibby.bsky.social"
+  linkedin: "@lgibson7"
+  mastodon: "@lydz_gibby@fosstodon.org"

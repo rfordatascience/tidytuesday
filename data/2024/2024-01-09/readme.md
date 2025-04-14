@@ -18,7 +18,7 @@ Can you reproduce JLaw's results? What else can you find in the NHL player data?
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 
@@ -102,7 +102,7 @@ nhl_teams <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 ### Cleaning Script
 
-``` r
+```r
 library(tidyverse)
 library(here)
 library(janitor)

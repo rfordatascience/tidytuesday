@@ -24,7 +24,7 @@ I've taken 3 indicators below just as a teaser, but go ahead and try the package
 
 ### Get the data here
 
-```{r}
+```r
 # Get the Data
 
 # Read in with tidytuesdayR package 

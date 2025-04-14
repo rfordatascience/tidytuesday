@@ -12,7 +12,7 @@ This is a dataset collected at Hewlett-Packard Labs by Mark Hopkins, Erik Reeber
 
 ## The Data
 
-```{r}
+```r
 # Option 1: tidytuesdayR package 
 ## install.packages("tidytuesdayR")
 

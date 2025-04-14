@@ -1,0 +1,18 @@
+title: "Pixar Films"
+article:
+  title: "Pixar Film Ratings"
+  url: "https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html"
+data_source:
+  title: "pixarfilms R package"
+  url: "https://erictleung.com/pixarfilms/index.html"
+images:
+# Please include at least one image, and up to three images
+- file: "pixarfilms_hex.png"
+  alt: >
+    A hex logo for the pixarfilms package. A light blue background inside a black hexagon, with the Pixar desk lamp in the center of the hexagon below the text pixarfilms.
+credit:
+  post: "Jon Harmon"
+  github: "@jonthegeek"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  mastodon: "@jonthegeek@fosstodon.org"
+  linkedin: "@jonthegeek"
