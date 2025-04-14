@@ -1,0 +1,27 @@
+title: "Base R Penguins"
+article:
+  title: "Preparing the Palmer Penguins Data for the datasets Package in R"
+  url: "https://zenodo.org/records/14902740"
+data_source:
+  title: "The R Datasets Package"
+  url: "https://www.r-project.org/"
+images:
+# Please include at least one image, and up to three images
+- file: "README-flipper-bill-1.png"
+  alt: >
+    Scatterplot titled 'Flipper and bill length' showing the relationship
+    between flipper length (x-axis, in mm) and bill length (y-axis, in mm) for
+    three penguin species at Palmer Station LTER. Adelie penguins are
+    represented by orange circles with a slight positive trend line. Chinstrap
+    penguins are shown with purple triangles, clustering higher on the bill
+    length axis and a steeper trend line. Gentoo penguins are shown with dark
+    green squares, positioned farther right along the flipper length axis, with
+    their own upward trend line. A legend at the bottom right indicates the
+    color and shape used for each species. The image is from the palmerpenguins
+    R package.
+credit:
+  post: "Jon Harmon"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
