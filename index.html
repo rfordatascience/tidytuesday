@@ -224,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#timely-and-effective-care-by-us-state" id="toc-timely-and-effective-care-by-us-state" class="nav-link active" data-scroll-target="#timely-and-effective-care-by-us-state">Timely and Effective Care by US State</a>
+  <li><a href="#base-r-penguins" id="toc-base-r-penguins" class="nav-link active" data-scroll-target="#base-r-penguins">Base R Penguins</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -233,7 +233,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#care_state.csv" id="toc-care_state.csv" class="nav-link" data-scroll-target="#care_state.csv"><code>care_state.csv</code></a></li>
+  <li><a href="#penguins.csv" id="toc-penguins.csv" class="nav-link" data-scroll-target="#penguins.csv"><code>penguins.csv</code></a></li>
+  <li><a href="#penguins_raw.csv" id="toc-penguins_raw.csv" class="nav-link" data-scroll-target="#penguins_raw.csv"><code>penguins_raw.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -246,32 +247,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="timely-and-effective-care-by-us-state" class="level1">
-<h1>Timely and Effective Care by US State</h1>
-<p>This week we’re exploring state-level results for medicare.gov “timely and effective care” measurements. As of 2025-04-06, the data is available at the <a href="https://data.cms.gov/provider-data/dataset/apyc-v239">Centers for Medicare and Medicaid Services (CMS) website</a>. Thanks to former TidyTuesday team member Tracy Teal (<span class="citation" data-cites="tracykteal">@tracykteal</span>) for the dataset suggestion and the link to <a href="https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/">a visualization by Kayla Zhu and Christina Kostandi at the Visual Capitalist</a>.</p>
+<section id="base-r-penguins" class="level1">
+<h1>Base R Penguins</h1>
+<p>This week we’re taking another look at penguins! The Palmer Penguins dataset first appeared in TidyTuesday back in <a href="https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-07-28/readme.md">July of 2020</a>. We’re using the dataset again because, as of R 4.5.0 (released this past Friday), the datasets are available in the base R datasets package!</p>
 <blockquote class="blockquote">
-<p>Emergency room wait times vary significantly across the United States depending on factors such as hospital resources, patient volume, and staffing levels, with some states facing delays that can stretch for more than three hours.</p>
+<p>The Palmer Penguins data, contained in the palmerpenguins R package as the penguins and penguins_raw data frames, have become popular for data exploration and visualisation, particularly in an educational context. … The data was originally published in Gorman et al.&nbsp;(2014). Their inclusion in the datasets package included in the base R distribution was motivated by Horst et al.&nbsp;(2022).</p>
 </blockquote>
-<ul>
-<li>Is there a connection between state populations and wait times?</li>
-<li>Which conditions have the longest wait times? The shortest?</li>
-</ul>
-<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
+<p>Also check out the <a href="https://ellakaye.github.io/basepenguins/">{basepenguins}</a> R package to convert scripts that use {palmerpenguins} to use the base R versions of the datasets.</p>
+<p>Questions:</p>
+<ol type="1">
+<li>If you participated in TidyTuesday in 2020, what have you learned since then that changes how you approach the data?</li>
+<li>Search the internet for “palmerpenguins” to find examples of plots that use these datasets. Can you reproduce those plots? Can you improve them?</li>
+</ol>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-08'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-15'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">14</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">15</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>care_state</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins_raw</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: PyDyTuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install PyDyTuesday</span></span>
@@ -279,11 +284,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyDyTuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-08'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-15'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>care_state <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -304,13 +310,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="care_state.csv" class="level3">
-<h3 class="anchored" data-anchor-id="care_state.csv"><code>care_state.csv</code></h3>
+<section id="penguins.csv" class="level3">
+<h3 class="anchored" data-anchor-id="penguins.csv"><code>penguins.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
+<col style="width: 18%">
 <col style="width: 21%">
-<col style="width: 16%">
-<col style="width: 62%">
+<col style="width: 59%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -321,44 +327,148 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">state</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The two-letter code for the state (or territory, etc) where the hospital is located.</td>
+<td style="text-align: left;">species</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Penguin species (Adelie, Gentoo, Chinstrap).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">condition</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The condition for which the patient was admitted. Six categories of conditions are included in the data.</td>
+<td style="text-align: left;">island</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Island where recorded (Biscoe, Dream, Torgersen).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">measure_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The ID of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">measure_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The name of the thing being measured. Note that there are 22 unique IDs but only 21 unique names.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">score</td>
+<td style="text-align: left;">bill_len</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">The score of the measure.</td>
+<td style="text-align: left;">Bill length in millimeters (also known as culmen length).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">footnote</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Footnotes that apply to this measure: 5 = “Results are not available for this reporting period.”, 25 = “State and national averages include Veterans Health Administration (VHA) hospital data.”, 26 = “State and national averages include Department of Defense (DoD) hospital data.”.</td>
+<td style="text-align: left;">bill_dep</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Bill depth in millimeters (also known as culmen depth).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">start_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">The date on which measurement began for this measure.</td>
+<td style="text-align: left;">flipper_len</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Flipper length in mm.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">end_date</td>
+<td style="text-align: left;">body_mass</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Body mass in grams.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Sex of the animal (male, female, or NA if unknown).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year recorded.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="penguins_raw.csv" class="level3">
+<h3 class="anchored" data-anchor-id="penguins_raw.csv"><code>penguins_raw.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 14%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">studyName</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Study name.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sample Number</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Sample id.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Species</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Species of penguin.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Region</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Region where recorded.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Island</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Island where recorded.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Stage of egg.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Individual ID</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Individual penguin ID.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Clutch Completion</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Egg clutch completion.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Date Egg</td>
 <td style="text-align: left;">date</td>
-<td style="text-align: left;">The date on which measurement ended for this measure.</td>
+<td style="text-align: left;">Date of egg.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Culmen Length (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">culmen length in mm (beak length).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Culmen Depth (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">culmen depth in mm (beak depth).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Flipper Length (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Flipper length in mm.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Body Mass (g)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Body mass in g.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sex</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Sex of the penguin.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delta 15 N (o/oo)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Blood isotopic Nitrogen - used for dietary comparison.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Delta 13 C (o/oo)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Blood isotopic Carbon - used for dietary comparison.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Comments</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Miscellaneous comments.</td>
 </tr>
 </tbody>
 </table>
@@ -366,23 +476,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data downloaded manually from https://data.cms.gov/provider-data/dataset/apyc-v239</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>care_state <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"Timely_and_Effective_Care-State.csv"</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">score =</span> dplyr<span class="sc">::</span><span class="fu">na_if</span>(score, <span class="st">"Not Available"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.double</span>(),</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_date"</span>),</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      lubridate<span class="sc">::</span>mdy</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by the base R {datasets} package (version &gt;=4.5.0). No </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaning was necessary.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins_raw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

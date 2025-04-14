@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About TidyTuesday – TidyTuesday</title>
+<title>readme – TidyTuesday</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c55491ef36bbbc1896d0375eee332cfe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -78,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">TidyTuesday</span>
     </a>
   </div>
@@ -92,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About TidyTuesday</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -103,15 +137,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About TidyTuesday</span></a>
   </div>
 </li>
@@ -126,49 +160,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2025/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2025</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2024/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2024</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2023/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2022/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2022</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2021/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2021</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2020/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2020</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2019/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2019</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2018/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2018</span></a>
   </div>
 </li>
@@ -176,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Useful links</span></a>
   </div>
 </li>
@@ -190,61 +224,80 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
+  <li><a href="#base-r-penguins" id="toc-base-r-penguins" class="nav-link active" data-scroll-target="#base-r-penguins">Base R Penguins</a>
+  <ul class="collapse">
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
   <ul class="collapse">
   <li><a href="#pydytuesday-a-posit-collaboration-with-tidytuesday" id="toc-pydytuesday-a-posit-collaboration-with-tidytuesday" class="nav-link" data-scroll-target="#pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</a></li>
   </ul></li>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">DataSets</a>
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025</a></li>
+  <li><a href="#penguins.csv" id="toc-penguins.csv" class="nav-link" data-scroll-target="#penguins.csv"><code>penguins.csv</code></a></li>
+  <li><a href="#penguins_raw.csv" id="toc-penguins_raw.csv" class="nav-link" data-scroll-target="#penguins_raw.csv"><code>penguins_raw.csv</code></a></li>
   </ul></li>
-  <li><a href="#citing-tidytuesday" id="toc-citing-tidytuesday" class="nav-link" data-scroll-target="#citing-tidytuesday">Citing TidyTuesday</a></li>
-  <li><a href="#contributing" id="toc-contributing" class="nav-link" data-scroll-target="#contributing">Contributing</a></li>
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About TidyTuesday</h1>
-</div>
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-body">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><img src="static/tt_logo.png" class="img-fluid" alt="Logo for the TidyTuesday project, represented by the word TidyTuesday over a messy splash of black paint"></p>
-<p><strong>TidyTuesday</strong> is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!</p>
-<p><strong>TidyTuesday</strong> is organized by the <a href="https://dslc.io">Data Science Learning Community</a>. <a href="https://dslc.io/join">Join our Slack</a> for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!</p>
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<p>Our over-arching goal for TidyTuesday is to provide real-world datasets so that people can learn to work with data.</p>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">For 2024, our goal was to be used in at least 10 courses. Our survey indicates that we are used in at least 30 courses!</label></li>
-<li><label><input type="checkbox">For 2025, our goal is to crowdsource the curation of TidyTuesday datasets.</label></li>
-</ul>
-<hr>
+<section id="base-r-penguins" class="level1">
+<h1>Base R Penguins</h1>
+<p>This week we’re taking another look at penguins! The Palmer Penguins dataset first appeared in TidyTuesday back in <a href="https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-07-28/readme.md">July of 2020</a>. We’re using the dataset again because, as of R 4.5.0 (released this past Friday), the datasets are available in the base R datasets package!</p>
+<blockquote class="blockquote">
+<p>The Palmer Penguins data, contained in the palmerpenguins R package as the penguins and penguins_raw data frames, have become popular for data exploration and visualisation, particularly in an educational context. … The data was originally published in Gorman et al.&nbsp;(2014). Their inclusion in the datasets package included in the base R distribution was motivated by Horst et al.&nbsp;(2022).</p>
+</blockquote>
+<p>Also check out the <a href="https://ellakaye.github.io/basepenguins/">{basepenguins}</a> R package to convert scripts that use {palmerpenguins} to use the base R versions of the datasets.</p>
+<p>Questions:</p>
+<ol type="1">
+<li>If you participated in TidyTuesday in 2020, what have you learned since then that changes how you approach the data?</li>
+<li>Search the internet for “palmerpenguins” to find examples of plots that use these datasets. Can you reproduce those plots? Can you improve them?</li>
+</ol>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon</a> for curating this week’s dataset.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-15'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">15</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins_raw</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: PyDyTuesday python library</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install PyDyTuesday</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyDyTuesday</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-15'</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
 <ul>
-<li>Data is <a href="./dataset_announcements.html">posted to social media</a> every Monday morning. Follow the instructions in the new post for how to download the data.</li>
 <li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
 <li>Create a visualization, a model, a <a href="https://quarto.org/">Quarto</a> report, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R, Python, or another programming language.</li>
-<li><a href="./sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
+<li><a href="../../../sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
+<li><a href="../../../pr_instructions.html">Submit your own dataset!</a></li>
 </ul>
 <section id="pydytuesday-a-posit-collaboration-with-tidytuesday" class="level3">
 <h3 class="anchored" data-anchor-id="pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</h3>
@@ -253,154 +306,183 @@ ul.task-list li input[type="checkbox"] {
 <li>Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!</li>
 <li>Deploy or share your work however you want! If you’d like a super easy way to publish your work, give <a href="https://connect.posit.cloud/">Connect Cloud</a> a try.</li>
 </ul>
-<p><strong>You can also <a href="./pr_instructions.html">curate a dataset for a future TidyTuesday</a>!</strong></p>
-<hr>
 </section>
 </section>
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">DataSets</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"><a href="./data/2018/readme.html">2018</a> | <a href="./data/2019/readme.html">2019</a> | <a href="./data/2020/readme.html">2020</a> | <a href="./data/2021/readme.html">2021</a> | <a href="./data/2022/readme.html">2022</a> | <a href="./data/2023/readme.html">2023</a> | <a href="./data/2024/readme.html">2024</a> | <a href="./data/2025/readme.html">2025</a></h3>
+<section id="data-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
+<section id="penguins.csv" class="level3">
+<h3 class="anchored" data-anchor-id="penguins.csv"><code>penguins.csv</code></h3>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 59%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: right;">Week</th>
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Data</th>
-<th style="text-align: left;">Source</th>
-<th style="text-align: left;">Article</th>
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">2025-01-07</td>
-<td style="text-align: left;">Bring your own data to start the year!</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
+<td style="text-align: left;">species</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Penguin species (Adelie, Gentoo, Chinstrap).</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">2025-01-14</td>
-<td style="text-align: left;"><a href="./data/2025/2025-01-14/readme.html">posit::conf talks</a></td>
-<td style="text-align: left;"><a href="https://reg.conf.posit.co/flow/posit/positconf23/attendee-portal/page/sessioncatalog">posit::conf attendee portal 2023</a>, <a href="https://reg.conf.posit.co/flow/posit/positconf24/attendee-portal/page/sessioncatalog">posit::conf attendee portal 2024</a></td>
-<td style="text-align: left;"><a href="https://posit.co/blog/positconf2025-in-person-registration-is-now-open/">posit::conf(2025) in-person registration is now open!</a></td>
+<td style="text-align: left;">island</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Island where recorded (Biscoe, Dream, Torgersen).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">2025-01-21</td>
-<td style="text-align: left;"><a href="./data/2025/2025-01-21/readme.html">The History of Himalayan Mountaineering Expeditions</a></td>
-<td style="text-align: left;"><a href="https://www.himalayandatabase.com/downloads.html">The Himalayan Database</a></td>
-<td style="text-align: left;"><a href="https://www.himalayandatabase.com/index.html">The Expedition Archives of Elizabeth Hawley</a></td>
+<td style="text-align: left;">bill_len</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Bill length in millimeters (also known as culmen length).</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">2025-01-28</td>
-<td style="text-align: left;"><a href="./data/2025/2025-01-28/readme.html">Water Insecurity</a></td>
-<td style="text-align: left;"><a href="https://cran.r-project.org/package=tidycensus">US Census Data from tidycensus</a></td>
-<td style="text-align: left;"><a href="https://waterdata.usgs.gov/blog/acs-maps/">Mapping water insecurity in R with tidycensus</a></td>
+<td style="text-align: left;">bill_dep</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Bill depth in millimeters (also known as culmen depth).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">2025-02-04</td>
-<td style="text-align: left;"><a href="./data/2025/2025-02-04/readme.html">Donuts, Data, and D’oh - A Deep Dive into The Simpsons</a></td>
-<td style="text-align: left;"><a href="https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset">The Simpsons Dataset</a></td>
-<td style="text-align: left;"><a href="https://toddwschneider.com/posts/the-simpsons-by-the-data/">The Simpsons by the Data</a></td>
+<td style="text-align: left;">flipper_len</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Flipper length in mm.</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">2025-02-11</td>
-<td style="text-align: left;"><a href="./data/2025/2025-02-11/readme.html">CDC Datasets</a></td>
-<td style="text-align: left;"><a href="https://archive.org/details/20250128-cdc-datasets">CDC datasets uploaded before January 28th, 2025</a></td>
-<td style="text-align: left;"><a href="https://www.npr.org/sections/shots-health-news/2025/01/31/nx-s1-5282274/trump-administration-purges-health-websites">Trump administration purges websites across federal health agencies</a></td>
+<td style="text-align: left;">body_mass</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Body mass in grams.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">2025-02-18</td>
-<td style="text-align: left;"><a href="./data/2025/2025-02-18/readme.html">Agencies from the FBI Crime Data API</a></td>
-<td style="text-align: left;"><a href="https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi">FBI Crime Data API</a></td>
-<td style="text-align: left;"><a href="https://le.fbi.gov/cjis-division/cjis-link/uniform-crime-reporting-program-still-vital-after-90-years-">Uniform Crime Reporting Program: Still Vital After 90 Years</a></td>
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Sex of the animal (male, female, or NA if unknown).</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">2025-02-25</td>
-<td style="text-align: left;"><a href="./data/2025/2025-02-25/readme.html">Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US</a></td>
-<td style="text-align: left;"><a href="https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext">Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence</a></td>
-<td style="text-align: left;"><a href="https://katcorr.github.io/this-art-is-HARD/">This Art is HARD</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">2025-03-04</td>
-<td style="text-align: left;"><a href="./data/2025/2025-03-04/readme.html">Long Beach Animal Shelter</a></td>
-<td style="text-align: left;"><a href="https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/">City of Long Beach Animal Care Services</a></td>
-<td style="text-align: left;"><a href="https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/">Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">2025-03-11</td>
-<td style="text-align: left;"><a href="./data/2025/2025-03-11/readme.html">Pixar Films</a></td>
-<td style="text-align: left;"><a href="https://erictleung.com/pixarfilms/index.html">pixarfilms R package</a></td>
-<td style="text-align: left;"><a href="https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html">Pixar Film Ratings</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">11</td>
-<td style="text-align: left;">2025-03-18</td>
-<td style="text-align: left;"><a href="./data/2025/2025-03-18/readme.html">Palm Trees</a></td>
-<td style="text-align: left;"><a href="https://github.com/EmilHvitfeldt/palmtrees">{palmtrees} R package</a></td>
-<td style="text-align: left;"><a href="https://www.nature.com/articles/s41597-019-0189-0">PalmTraits 1.0, a species-level functional trait database of palms worldwide</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">2025-03-25</td>
-<td style="text-align: left;"><a href="./data/2025/2025-03-25/readme.html">Text Data From Amazon’s Annual Reports</a></td>
-<td style="text-align: left;"><a href="https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx">Amazon’s Annual Reports</a></td>
-<td style="text-align: left;"><a href="https://gregoryvdvinne.github.io/Text-Mining-Amazon-Budgets.html">Exploring The Use of TidyText and LLMs to Understand Amazon’s Annual Reports</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">13</td>
-<td style="text-align: left;">2025-04-01</td>
-<td style="text-align: left;"><a href="./data/2025/2025-04-01/readme.html">Pokemon</a></td>
-<td style="text-align: left;"><a href="https://github.com/williamorim/pokemon/">pokemon R package</a></td>
-<td style="text-align: left;"><a href="https://medium.com/@hanahshih46/pokemon-data-visualization-and-analysis-with-r-60970c8e37f4">Pokemon Data Visualization and Analysis with R</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">14</td>
-<td style="text-align: left;">2025-04-08</td>
-<td style="text-align: left;"><a href="./data/2025/2025-04-08/readme.html">Timely and Effective Care by US State</a></td>
-<td style="text-align: left;"><a href="https://data.cms.gov/provider-data/dataset/apyc-v239">Centers for Medicare &amp; Medicaid Services</a></td>
-<td style="text-align: left;"><a href="https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/">Mapped: Emergency Room Visit Times by State</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">15</td>
-<td style="text-align: left;">2025-04-15</td>
-<td style="text-align: left;"><a href="./data/2025/2025-04-15/readme.html">Base R Penguins</a></td>
-<td style="text-align: left;"><a href="https://www.r-project.org/">The R Datasets Package</a></td>
-<td style="text-align: left;"><a href="https://zenodo.org/records/14902740">Preparing the Palmer Penguins Data for the datasets Package in R</a></td>
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year recorded.</td>
 </tr>
 </tbody>
 </table>
-<hr>
+</section>
+<section id="penguins_raw.csv" class="level3">
+<h3 class="anchored" data-anchor-id="penguins_raw.csv"><code>penguins_raw.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 14%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">studyName</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Study name.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sample Number</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Sample id.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Species</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Species of penguin.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Region</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Region where recorded.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Island</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Island where recorded.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Stage of egg.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Individual ID</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Individual penguin ID.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Clutch Completion</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Egg clutch completion.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Date Egg</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date of egg.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Culmen Length (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">culmen length in mm (beak length).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Culmen Depth (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">culmen depth in mm (beak depth).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Flipper Length (mm)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Flipper length in mm.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Body Mass (g)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Body mass in g.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sex</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Sex of the penguin.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delta 15 N (o/oo)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Blood isotopic Nitrogen - used for dietary comparison.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Delta 13 C (o/oo)</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Blood isotopic Carbon - used for dietary comparison.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Comments</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Miscellaneous comments.</td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
-<section id="citing-tidytuesday" class="level2">
-<h2 class="anchored" data-anchor-id="citing-tidytuesday">Citing TidyTuesday</h2>
-<p>To cite the <strong>TidyTuesday</strong> repo/project in publications use:</p>
-<p>Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project. https://tidytues.day</p>
-<p>A BibTeX entry for LaTeX users is</p>
-<pre><code>  @misc{tidytuesday, 
-    title = {Tidy Tuesday: A weekly social data project}, 
-    author = {Data Science Learning Community}, 
-    url = {https://tidytues.day}, 
-    year = {2024} 
-  }</code></pre>
-<p>Note: If you would like to cite the <a href="https://dslc-io.github.io/tidytuesdayR/">tidytuesdayR</a> package, you should use <code>citation("tidytuesdayR")</code> instead.</p>
-<hr>
-</section>
-<section id="contributing" class="level2">
-<h2 class="anchored" data-anchor-id="contributing">Contributing</h2>
-<p>Please see our <a href="./CONTRIBUTING.html">contributing guide</a> for ways that you can help!</p>
+<section id="cleaning-script" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by the base R {datasets} package (version &gt;=4.5.0). No </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaning was necessary.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins_raw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
