@@ -1,21 +1,14 @@
-title: DESCRIPTIVE TITLE THAT FITS THE SENTENCE "This week we're exploring {title}!"
-article:
-  title: TITLE OF ARTICLE THAT USES OR DESCRIBES THE DATASET
-  url: URL OF THAT ARTICLE
-data_source:
-  title: TITLE OF THE SOURCE OF THE DATA
-  url: URL TO THAT SOURCE
-images:
-# Please include at least one image, and up to three images
-- file: FILENAME.png
-  alt: >
-    ALT TEXT FOR THIS IMAGE. THIS TEXT SHOULD BE IN "Sentence case." AND SHOULD 
-    SERVE AS A *REPLACEMENT* FOR THE IMAGE, NOT JUST *DESCRIBE* THE IMAGE
+title: "Washington Cannabis Industry (2024–2025)"
+source: "Curated from WA cannabis regulatory data by Ensign Analytics"
+citation: "Ensign Analytics (https://github.com/Ensign-Analytics)"
+image: "wa-cannabis-sample-plot.png"
+alt-text: "Bar chart showing cannabis sales over time in WA"
+credit:
+  - name: Franklin Johnson | Ensign Analytics
+    url: https://github.com/Ensign-Analytics
+    type: curator
 credit:
 # We want to thank you for curating this dataset! If you do not want a 
 # particular type of credit, please delete the related line.
-  post: YOUR NAME AND AFFILIATION FOR CREDIT IN POST
-  bluesky: https://bsky.app/profile/YOURNAME
-  linkedin: https://www.linkedin.com/in/YOURNAME
-  mastodon: @YOURNAME@YOURSERVER
-  github: https://github.com/YOURNAME
+  post: Franklin Johnson | www.yourweeddata.com
+  dba-name: Franklin Johnson | Alma-Analytics
