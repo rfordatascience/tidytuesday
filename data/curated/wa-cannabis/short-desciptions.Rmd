@@ -1,0 +1,25 @@
+---
+title: "short_descriptions"
+output: html_document
+date: "2025-04-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+| variable                | type   | description                                 |
+|-------------------------|--------|---------------------------------------------|
+| sale_date_month         | date   | Month the transaction occurred              |
+| sale_type               | chr    | Type of sale: medical or recreational       |
+| retail_wholesale_desc   | chr    | Whether the sale was retail or wholesale    |
+| licensee_dba            | chr    | Doing-business-as name of the seller        |
+| sold_to_licensee_dba    | chr    | DBA name of the buyer                       |
+| retail_sales_amt        | dbl    | Total retail sale value in USD              |
+| sales_qty               | dbl    | Quantity sold                               |
+
+
+
+```
