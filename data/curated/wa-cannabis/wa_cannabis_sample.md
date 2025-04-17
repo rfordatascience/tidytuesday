@@ -1,0 +1,33 @@
+| variable | type | description |
+|----------|------|-------------|
+| sale_date_month | Date |  |
+| sale_type | character |  |
+| medical_flag | character |  |
+| inventory_type | character |  |
+| inventory_type_category | character |  |
+| inventory_type_sub_category | character |  |
+| strain_type | character |  |
+| strain_name | character |  |
+| product_name | character |  |
+| price_competitive_flag | character |  |
+| price_tiers_per_gram | character |  |
+| retail_price_with_tax | numeric |  |
+| unit_price_with_tax | numeric |  |
+| piece_price_with_tax | numeric |  |
+| tax_percent | numeric |  |
+| product_pack_size_from_name | numeric |  |
+| price_gram_wavg | numeric |  |
+| calc_product_unit_weight_grams | numeric |  |
+| calc_price_per_gram | numeric |  |
+| unit_price_amt_avg | numeric |  |
+| price_absolute_diff | numeric |  |
+| price_percent_diff | numeric |  |
+| discount_amt | numeric |  |
+| sales_tax_amt | numeric |  |
+| excise_tax_amt | numeric |  |
+| total_tax_amt | numeric |  |
+| retail_sales_amt | numeric |  |
+| sales_qty | numeric |  |
+| month | Date |  |
+| sold_to_licensee_dba | character |  |
+| licensee_dba | character |  |
