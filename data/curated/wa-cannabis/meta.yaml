@@ -1,14 +1,18 @@
-title: "Washington Cannabis Industry (2024–2025)"
-source: 
-  title: "Washington State Liquor and Cannabis Board (WSLCB) Reporting Data"
+title: "Washington State Cannabis Industry (2024–2025)"
+
+article:
+  title: "WA Cannabis Market Report"
+  url: "https://github.com/Ensign-Analytics/wa-cannabis-examples"
+
+data_source:
+  title: "Washington State Liquor and Cannabis Board"
   url: "https://lcb.wa.gov/"
-citation: 
-  title: "Ensign Analytics via yourweeddata.com"
-  url: "https://github.com/Ensign-Analytics"
-image: 
-  file: wa-cannabis-sample-plot.png
-  alt-text: "Bar chart showing cannabis retail sales in WA from 2024–2025"
+
+images:
+  - file: wa-cannabis-sample-plot.png
+    alt: "Bar chart showing cannabis retail sales in WA from 2024–2025"
+
 credit:
-  - name: Franklin Johnson
-    url: https://yourweeddata.com
-    type: curator
+  post: Franklin Johnson via yourweeddata.com
+  github: https://github.com/Ensign-Analytics
+  
