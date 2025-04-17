@@ -1,27 +1,35 @@
-<!-- 
-Describe the dataset. See previous weeks for the general format of the
-description. The description is the part of the readme.md file above "The Data";
-everything else will be filled in from the other md files in this directory +
-automatic scripts. We usually include brief introduction along the lines of
-"This week we're exploring DATASET" or "The dataset this week comes from 
-SOURCE".
--->
+🌿 The Washington Cannabis Industry: Inventory and Sales Reporting (2024–2025)
+This week, we’re exploring Washington State’s legal cannabis market through a dataset of retail transactions and inventory classifications reported by licensed businesses!
 
-<!-- Add a quote from the source, starting lines with a ">" character, like 
-this:
-> Plant traits are critical to plant form and function — including growth, 
-> survival and reproduction — and therefore shape fundamental aspects of
-> population and ecosystem dynamics as well as ecosystem services. Here, we 
-> present a global species-level compilation of key functional traits for palms 
-> (Arecaceae), a plant family with keystone importance in tropical and 
-> subtropical ecosystems.
--->
+Since the legalization of recreational cannabis in Washington, the Washington State Liquor and Cannabis Board (WSLCB) has mandated that all licensed producers, processors, and retailers report detailed inventory movements and sales. These reports are used for regulatory compliance, taxation, and market analysis, and are made available to the public through open data initiatives.
 
-> PasteQuoteHere
+This dataset is a cleaned, anonymized sample of 50,000 retail sales transactions from January 2024 through March 2025. It is a representative subset drawn from over 19 million records in the original dataset (approximately 11.6 GB in size).
 
-<!--
-Optional: Add questions that users should try to answer. For example:
-- How does the sizes of the different species of palms vary across sub families?
-- Which fruit colors occur most often?
--->
+The raw aggregated data includes information on:
 
+Product type and strain
+
+Sale date by month (aggregate) 
+
+Price and quantity sold
+
+Basic licensee, licensee-to-licensee, and retailer-to-consumer transactions
+
+Inventory categories (e.g., flower, concentrate, edibles)
+
+In this version, personally identifiable licensee information has been removed, retaining only the business “Doing Business As” (DBA) name for analysis purposes.
+
+Participants this week can explore trends in cannabis pricing, product popularity, retail behaviors, and market structure over time.
+
+🔍 Example questions to explore:
+How do sales volumes and prices change over time?
+
+Are there seasonal trends in retail cannabis activity?
+
+What categories of cannabis products are most frequently sold?
+
+How does product pack size relate to price per gram?
+
+Do different licensee types or retail chains show pricing patterns?
+
+This dataset is ideal for time series forecasting, market basket analysis, text analysis, price modeling, and policy evaluation related to cannabis regulation.
