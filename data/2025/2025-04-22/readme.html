@@ -235,6 +235,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#daily_accidents.csv" id="toc-daily_accidents.csv" class="nav-link" data-scroll-target="#daily_accidents.csv"><code>daily_accidents.csv</code></a></li>
   <li><a href="#daily_accidents_420.csv" id="toc-daily_accidents_420.csv" class="nav-link" data-scroll-target="#daily_accidents_420.csv"><code>daily_accidents_420.csv</code></a></li>
+  <li><a href="#daily_accidents_420_time.csv" id="toc-daily_accidents_420_time.csv" class="nav-link" data-scroll-target="#daily_accidents_420_time.csv"><code>daily_accidents_420_time.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -361,9 +362,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: left;">Date of the accident.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">d420</td>
+<td style="text-align: left;">e420</td>
 <td style="text-align: left;">logical</td>
 <td style="text-align: left;">Did the accident occur on the 4/20 “holiday” (between 4:20pm and 11:59pm on April 20th)?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">fatalities_count</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total count of fatalities.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="daily_accidents_420_time.csv" class="level3">
+<h3 class="anchored" data-anchor-id="daily_accidents_420_time.csv"><code>daily_accidents_420_time.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 12%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date of the accident.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">d420</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Did the accident occur between 4:20pm and 11:59pm on <em>any</em> day of the year)?</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">fatalities_count</td>
@@ -494,7 +529,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="co"># Daily+Time Group final working data</span></span>
 <span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a>daily_accidents_420 <span class="ot">&lt;-</span> all_accidents <span class="sc">|&gt;</span> </span>
 <span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>year <span class="sc">&gt;</span> <span class="dv">1991</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"d420"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"e420"</span>))</span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="co"># Daily working data for daily 420 period</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a>daily_accidents_420_time <span class="ot">&lt;-</span> all_accidents <span class="sc">|&gt;</span> </span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>year <span class="sc">&gt;</span> <span class="dv">1991</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"d420"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
