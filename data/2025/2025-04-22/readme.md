@@ -96,7 +96,7 @@ daily_accidents_420 = pandas.read_csv('https://raw.githubusercontent.com/rfordat
 |variable         |class   |description                           |
 |:----------------|:-------|:-------------------------------------|
 |date             |date    |Date of the accident. |
-|d420             |logical |Did the accident occur on the 4/20 "holiday" (between 4:20pm and 11:59pm on April 20th)? |
+|e420             |logical |Did the accident occur on the 4/20 "holiday" (between 4:20pm and 11:59pm on April 20th)? |
 |fatalities_count |integer |Total count of fatalities. |
 
 ## Cleaning Script
@@ -220,6 +220,5 @@ daily_accidents <- all_accidents |>
 # Daily+Time Group final working data
 daily_accidents_420 <- all_accidents |> 
   dplyr::filter(.data$year > 1991) |> 
-  dplyr::summarize(fatalities_count = dplyr::n(), .by = c("date", "d420"))
-
+  dplyr::summarize(fatalities_count = dplyr::n(), .by = c("date", "e420"))
 ```
