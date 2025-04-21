@@ -54,12 +54,12 @@ daily_accidents_420 <- readr::read_csv('https://raw.githubusercontent.com/rforda
 ```python
 # Using Python
 # Option 1: PyDyTuesday python library
-## pip install PyDyTuesday
+## pip install pydytuesday
 
-import PyDyTuesday
+import pydytuesday
 
 # Download files from the week, which you can then read in locally
-PyDyTuesday.get_date('2025-04-22')
+pydytuesday.get_date('2025-04-22')
 
 # Option 2: Read directly from GitHub and assign to an object
 
