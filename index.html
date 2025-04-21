@@ -224,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#base-r-penguins" id="toc-base-r-penguins" class="nav-link active" data-scroll-target="#base-r-penguins">Base R Penguins</a>
+  <li><a href="#fatal-car-crashes-on-420" id="toc-fatal-car-crashes-on-420" class="nav-link active" data-scroll-target="#fatal-car-crashes-on-420">Fatal Car Crashes on 4/20</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -233,8 +233,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#penguins.csv" id="toc-penguins.csv" class="nav-link" data-scroll-target="#penguins.csv"><code>penguins.csv</code></a></li>
-  <li><a href="#penguins_raw.csv" id="toc-penguins_raw.csv" class="nav-link" data-scroll-target="#penguins_raw.csv"><code>penguins_raw.csv</code></a></li>
+  <li><a href="#daily_accidents.csv" id="toc-daily_accidents.csv" class="nav-link" data-scroll-target="#daily_accidents.csv"><code>daily_accidents.csv</code></a></li>
+  <li><a href="#daily_accidents_420.csv" id="toc-daily_accidents_420.csv" class="nav-link" data-scroll-target="#daily_accidents_420.csv"><code>daily_accidents_420.csv</code></a></li>
+  <li><a href="#daily_accidents_420_time.csv" id="toc-daily_accidents_420_time.csv" class="nav-link" data-scroll-target="#daily_accidents_420_time.csv"><code>daily_accidents_420_time.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -247,36 +248,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="base-r-penguins" class="level1">
-<h1>Base R Penguins</h1>
-<p>This week we’re taking another look at penguins! The Palmer Penguins dataset first appeared in TidyTuesday back in <a href="https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-07-28/readme.md">July of 2020</a>. We’re using the dataset again because, as of R 4.5.0 (released this past Friday), the datasets are available in the base R datasets package!</p>
+<section id="fatal-car-crashes-on-420" class="level1">
+<h1>Fatal Car Crashes on 4/20</h1>
+<p>Today we’re exploring the (lack of) connection between fatal car crashes in the United States and the <a href="https://en.wikipedia.org/wiki/420_(cannabis_culture)">“4/20 holiday” (4:20pm to 11:59pm on April 20th)</a>. Thank you to <span class="citation" data-cites="Rmadillo">@Rmadillo</span> for <a href="https://github.com/rfordatascience/tidytuesday/issues/58">submitting this dataset <em>6 years ago!</em></a>, including <a href="https://github.com/Rmadillo/Harper_and_Palayew/blob/master/Load_Data_and_Clean.R">a bonus script to generate sample plots!</a></p>
 <blockquote class="blockquote">
-<p>The Palmer Penguins data, contained in the palmerpenguins R package as the penguins and penguins_raw data frames, have become popular for data exploration and visualisation, particularly in an educational context. … The data was originally published in Gorman et al.&nbsp;(2014). Their inclusion in the datasets package included in the base R distribution was motivated by Horst et al.&nbsp;(2022).</p>
+<p>[In January 2019], Harper and Palayew[1] published a study looking at whether a signal could be detected in fatal car crashes in the United States based on the “4/20” holiday, based on a previous study by Staples and Redelmeier[2] that suggested a strong link. Using more robust methods and a more comprehensive time window, Harper and Palayew could not find a signal for 4/20, but could for other holidays, such as July 4.</p>
 </blockquote>
-<p>Also check out the <a href="https://ellakaye.github.io/basepenguins/">{basepenguins}</a> R package to convert scripts that use {palmerpenguins} to use the base R versions of the datasets.</p>
+<blockquote class="blockquote">
+<p>This is a great example of how charts can mislead based on choices in analysis and plotting.</p>
+</blockquote>
+<p>[1]. Harper S, Palayew A “The annual cannabis holiday and fatal traffic crashes.” <em>BMJ Injury Prevention.</em> Published Online First: 29 January 2019. doi: 10.1136/injuryprev-2018-043068. Manuscript and original data/code at https://osf.io/qnrg6/</p>
+<p>[2]. Staples JA, Redelmeier DA. “The April 20 cannabis celebration and fatal traffic crashes in the United States.” <em>JAMA Intern Med.</em> 2018 Feb; 178(4):569–72.</p>
 <p>Questions:</p>
-<ol type="1">
-<li>If you participated in TidyTuesday in 2020, what have you learned since then that changes how you approach the data?</li>
-<li>Search the internet for “palmerpenguins” to find examples of plots that use these datasets. Can you reproduce those plots? Can you improve them?</li>
-</ol>
-<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon</a> for curating this week’s dataset.</p>
+<ul>
+<li>Can you detect any correlations between fatal car crashes and particular days of the year?</li>
+<li>What are the most dangerous days of the year for fatal car crashes in the United States?</li>
+<li>What other factors might help analyze the data in more detail? You can use the cleaning script to download the full dataset.</li>
+</ul>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-15'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-04-22'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">15</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">16</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>penguins_raw</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>daily_accidents <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>daily_accidents</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>daily_accidents_420 <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>daily_accidents_420</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>daily_accidents <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>daily_accidents_420 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: PyDyTuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install PyDyTuesday</span></span>
@@ -284,12 +290,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyDyTuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-15'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>PyDyTuesday.get_date(<span class="st">'2025-04-22'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>daily_accidents <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>daily_accidents_420 <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -310,14 +316,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="penguins.csv" class="level3">
-<h3 class="anchored" data-anchor-id="penguins.csv"><code>penguins.csv</code></h3>
+<section id="daily_accidents.csv" class="level3">
+<h3 class="anchored" data-anchor-id="daily_accidents.csv"><code>daily_accidents.csv</code></h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 21%">
-<col style="width: 59%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -327,55 +328,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">species</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Penguin species (Adelie, Gentoo, Chinstrap).</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date of the accident.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">island</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Island where recorded (Biscoe, Dream, Torgersen).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">bill_len</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Bill length in millimeters (also known as culmen length).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">bill_dep</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Bill depth in millimeters (also known as culmen depth).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">flipper_len</td>
+<td style="text-align: left;">fatalities_count</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Flipper length in mm.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">body_mass</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Body mass in grams.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">sex</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Sex of the animal (male, female, or NA if unknown).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year recorded.</td>
+<td style="text-align: left;">Total count of fatalities.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penguins_raw.csv" class="level3">
-<h3 class="anchored" data-anchor-id="penguins_raw.csv"><code>penguins_raw.csv</code></h3>
+<section id="daily_accidents_420.csv" class="level3">
+<h3 class="anchored" data-anchor-id="daily_accidents_420.csv"><code>daily_accidents_420.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 29%">
-<col style="width: 14%">
-<col style="width: 55%">
+<col style="width: 26%">
+<col style="width: 12%">
+<col style="width: 60%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -386,89 +357,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">studyName</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Study name.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Sample Number</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Sample id.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Species</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Species of penguin.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Region</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Region where recorded.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Island</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Island where recorded.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Stage</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Stage of egg.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Individual ID</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Individual penguin ID.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Clutch Completion</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Egg clutch completion.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Date Egg</td>
 <td style="text-align: left;">date</td>
-<td style="text-align: left;">Date of egg.</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date of the accident.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Culmen Length (mm)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">culmen length in mm (beak length).</td>
+<td style="text-align: left;">e420</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Did the accident occur on the 4/20 “holiday” (between 4:20pm and 11:59pm on April 20th)?</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Culmen Depth (mm)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">culmen depth in mm (beak depth).</td>
+<td style="text-align: left;">fatalities_count</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total count of fatalities.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="daily_accidents_420_time.csv" class="level3">
+<h3 class="anchored" data-anchor-id="daily_accidents_420_time.csv"><code>daily_accidents_420_time.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 12%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Date of the accident.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Flipper Length (mm)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Flipper length in mm.</td>
+<td style="text-align: left;">d420</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Did the accident occur between 4:20pm and 11:59pm on <em>any</em> day of the year)?</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Body Mass (g)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Body mass in g.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Sex</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Sex of the penguin.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Delta 15 N (o/oo)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Blood isotopic Nitrogen - used for dietary comparison.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Delta 13 C (o/oo)</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Blood isotopic Carbon - used for dietary comparison.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Comments</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Miscellaneous comments.</td>
+<td style="text-align: left;">fatalities_count</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total count of fatalities.</td>
 </tr>
 </tbody>
 </table>
@@ -476,10 +411,130 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by the base R {datasets} package (version &gt;=4.5.0). No </span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaning was necessary.</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>penguins_raw <span class="ot">&lt;-</span> datasets<span class="sc">::</span>penguins_raw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Draft cleaning script provided by @Rmadillo at</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># https://github.com/Rmadillo/Harper_and_Palayew/blob/1aaf1333e8fb6a8f3aa7f169a12943c17b3487da/Load_Data_and_Clean.R</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Script cleaned and modernized by @jonthegeek (the script was submitted as a</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># TidyTuesday issue in 2019!).</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="do">#### Load packages -------------------------------------------------------------</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(haven)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="do">#### Acquire raw data ----------------------------------------------------------</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Crash data (from Harper and Palayew)</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>dl_path <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempfile</span>(<span class="at">fileext =</span> <span class="st">".zip"</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://osf.io/kj7ub/download"</span>, dl_path, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>unzip_path <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempdir</span>()</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="fu">unzip</span>(dl_path, <span class="at">exdir =</span> unzip_path)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>dta_files <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">dir_ls</span>(unzip_path, <span class="at">glob =</span> <span class="st">"*.dta"</span>)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>fars <span class="ot">&lt;-</span> purrr<span class="sc">::</span><span class="fu">map</span>(dta_files, haven<span class="sc">::</span>read_dta) <span class="sc">|&gt;</span> </span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  purrr<span class="sc">::</span><span class="fu">list_rbind</span>(<span class="at">names_to =</span> <span class="st">"id"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">basename</span>(id))</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Geographic lookup</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>geog <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://www2.census.gov/geo/docs/reference/codes/files/national_county.txt"</span>,</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">col_names =</span> <span class="fu">c</span>(</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">"state_name"</span>,</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">"state_code"</span>,</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">"county_code"</span>,</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">"county_name"</span>,</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"FIPS_class_code"</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">state =</span> <span class="fu">as.numeric</span>(state_code),</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">count =</span> <span class="fu">as.numeric</span>(county_code),</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">FIPS =</span> <span class="fu">paste0</span>(state_code, county_code)</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="do">#### Data wrangling ------------------------------------------------------------</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Used https://osf.io/drbge/ Stata code as a guide for cleaning</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="co"># All data</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="co"># This might take a while... go get a coffee</span></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>all_accidents <span class="ot">&lt;-</span> fars <span class="sc">|&gt;</span> </span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  <span class="co"># What are state and county codes/look ups?</span></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>    <span class="st">"id"</span>, <span class="st">"state"</span>, <span class="st">"county"</span>, </span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>    <span class="st">"month"</span>, <span class="st">"day"</span>, <span class="st">"hour"</span>, <span class="st">"minute"</span>, </span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>    <span class="st">"st_case"</span>, <span class="st">"per_no"</span>, <span class="st">"veh_no"</span>, <span class="st">"per_typ"</span>, </span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>    <span class="st">"age"</span>, <span class="st">"sex"</span>, </span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>    <span class="st">"death_da"</span>, <span class="st">"death_mo"</span>, <span class="st">"death_yr"</span>, <span class="st">"death_hr"</span>, <span class="st">"death_mn"</span>, <span class="st">"death_tm"</span>,</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>    <span class="st">"inj_sev"</span>, <span class="st">"mod_year"</span>, <span class="st">"lag_hrs"</span>, <span class="st">"lag_mins"</span></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>      <span class="fu">c</span>(<span class="st">"month"</span>, <span class="st">"day"</span>, <span class="st">"hour"</span>, <span class="st">"minute"</span>),</span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>      <span class="sc">~</span> <span class="fu">na_if</span>(.x, <span class="dv">99</span>)</span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">year =</span> readr<span class="sc">::</span><span class="fu">parse_number</span>(id)</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>per_typ <span class="sc">==</span> <span class="dv">1</span>,</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>    <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>year),</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>month),</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>    <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>day)</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">crashtime =</span> .data<span class="sc">$</span>hour <span class="sc">*</span> <span class="dv">100</span> <span class="sc">+</span> .data<span class="sc">$</span>minute,</span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> <span class="fu">as.Date</span>(<span class="fu">paste</span>(.data<span class="sc">$</span>year, .data<span class="sc">$</span>month, .data<span class="sc">$</span>day, <span class="at">sep =</span> <span class="st">"-"</span>)),</span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">time =</span> <span class="fu">paste</span>(.data<span class="sc">$</span>hour, .data<span class="sc">$</span>minute, <span class="at">sep =</span> <span class="st">":"</span>),</span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">timestamp =</span> <span class="fu">as.POSIXct</span>(</span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>      <span class="fu">paste</span>(.data<span class="sc">$</span>date, .data<span class="sc">$</span>time),</span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>      <span class="at">format =</span> <span class="st">"%Y-%m-%d %H:%M"</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>    <span class="at">e420 =</span> .data<span class="sc">$</span>month <span class="sc">==</span> <span class="dv">4</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>day <span class="sc">==</span> <span class="dv">20</span> <span class="sc">&amp;</span> </span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>      .data<span class="sc">$</span>crashtime <span class="sc">&gt;=</span> <span class="dv">1620</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>crashtime <span class="sc">&lt;=</span> <span class="dv">2359</span>,</span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">e420_control =</span> .data<span class="sc">$</span>month <span class="sc">==</span> <span class="dv">4</span> <span class="sc">&amp;</span> (.data<span class="sc">$</span>day <span class="sc">==</span> <span class="dv">20</span> <span class="sc">|</span> .data<span class="sc">$</span>day <span class="sc">==</span> <span class="dv">27</span>) <span class="sc">&amp;</span> </span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>      .data<span class="sc">$</span>crashtime <span class="sc">&gt;=</span> <span class="dv">1620</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>crashtime <span class="sc">&lt;</span> <span class="dv">2359</span>,</span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">d420 =</span> .data<span class="sc">$</span>crashtime <span class="sc">&gt;=</span> <span class="dv">1620</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>crashtime <span class="sc">&lt;=</span> <span class="dv">2359</span>,</span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>    <span class="at">sex =</span> <span class="fu">factor</span>(</span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>sex <span class="sc">==</span> <span class="dv">2</span> <span class="sc">~</span> <span class="st">"F"</span>,</span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>sex <span class="sc">==</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"M"</span>,</span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>        <span class="at">.default =</span> <span class="cn">NA_character_</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">period =</span> <span class="fu">factor</span>(</span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>year <span class="sc">&lt;</span> <span class="dv">2004</span>  <span class="sc">~</span> <span class="st">"Remote (1992-2003)"</span>,</span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>year <span class="sc">&gt;=</span> <span class="dv">2004</span> <span class="sc">~</span> <span class="st">"Recent (2004-2016)"</span>,</span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a>        <span class="at">.default =</span> <span class="cn">NA_character_</span></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a>    <span class="at">age_group =</span> <span class="fu">factor</span>(</span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a>      dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>age <span class="sc">&lt;=</span> <span class="dv">20</span> <span class="sc">~</span> <span class="st">"&lt;20y"</span>,</span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>age <span class="sc">&lt;=</span> <span class="dv">30</span> <span class="sc">~</span> <span class="st">"21-30y"</span>,</span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>age <span class="sc">&lt;=</span> <span class="dv">40</span> <span class="sc">~</span> <span class="st">"31-40y"</span>,</span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>age <span class="sc">&lt;=</span> <span class="dv">50</span> <span class="sc">~</span> <span class="st">"41-50y"</span>,</span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a>        .data<span class="sc">$</span>age <span class="sc">&lt;=</span> <span class="dv">97</span> <span class="sc">~</span> <span class="st">"51-97y"</span>,</span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a>        <span class="at">.default =</span> <span class="cn">NA_character_</span></span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a><span class="co"># Daily final working data</span></span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a><span class="co"># Only use data starting in 1992</span></span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a>daily_accidents <span class="ot">&lt;-</span> all_accidents <span class="sc">|&gt;</span> </span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>year <span class="sc">&gt;</span> <span class="dv">1991</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="st">"date"</span>)</span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="co"># Daily+Time Group final working data</span></span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a>daily_accidents_420 <span class="ot">&lt;-</span> all_accidents <span class="sc">|&gt;</span> </span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>year <span class="sc">&gt;</span> <span class="dv">1991</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"e420"</span>))</span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a><span class="co"># Daily working data for daily 420 period</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a>daily_accidents_420_time <span class="ot">&lt;-</span> all_accidents <span class="sc">|&gt;</span> </span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>year <span class="sc">&gt;</span> <span class="dv">1991</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarize</span>(<span class="at">fatalities_count =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"d420"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
