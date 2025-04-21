@@ -29,6 +29,11 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 - Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
 - Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 
+### TidyTuesday.jl: A *Tidier* library for TidyTuesday
+
+- Exploring the TidyTuesday data in Julia? Tidier has a new package that will help you out! 
+- Share your work with the world using the hashtags #TidyTuesday, #PydyTuesday, or specifically #TidierTuesday if you want the Tidier Org to share your visuals! 
+
 **You can also [curate a dataset for a future TidyTuesday](pr_instructions.md)!**  
 
 ***
