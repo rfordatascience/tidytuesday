@@ -27,13 +27,13 @@ pokemon_df <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 
 ```python
 # Using Python
-# Option 1: PyDyTuesday python library
-## pip install PyDyTuesday
+# Option 1: pydytuesday python library
+## pip install pydytuesday
 
-import PyDyTuesday
+import pydytuesday
 
 # Download files from the week, which you can then read in locally
-PyDyTuesday.get_date('2025-04-01')
+pydytuesday.get_date('2025-04-01')
 
 # Option 2: Read directly from GitHub and assign to an object
 
