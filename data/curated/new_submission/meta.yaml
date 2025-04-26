@@ -1,0 +1,21 @@
+title: "The 50 US States"
+article:
+  title: "U.S. Department of Commerce, Bureau of the Census"
+  url: "https://www.census.gov/"
+data_source:
+  title: "The R datasets package"
+  url: "https://www.r-project.org/"
+images:
+# Please include at least one image, and up to three images
+- file: "states_population.png"
+  alt: >
+    A map of the continental United States, with each state colored in shades of
+    blue by population as of 1975. California and New York are the lightest,
+    indicating the highest population. Maine, New Hampshire, Vermont, and the
+    Plains States are all quite dark, indicating low population.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
