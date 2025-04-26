@@ -37,13 +37,13 @@ report_words_clean <- readr::read_csv('https://raw.githubusercontent.com/rfordat
 
 ```python
 # Using Python
-# Option 1: PyDyTuesday python library
-## pip install PyDyTuesday
+# Option 1: pydytuesday python library
+## pip install pydytuesday
 
-import PyDyTuesday
+import pydytuesday
 
 # Download files from the week, which you can then read in locally
-PyDyTuesday.get_date('2025-03-25')
+pydytuesday.get_date('2025-03-25')
 
 # Option 2: Read directly from GitHub and assign to an object
 
