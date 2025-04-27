@@ -39,10 +39,10 @@ pydytuesday.get_date('{{date}}')
 
 ```julia
 # Using Julia
-# Option 1: TidyTuesday.jl library
-## Pkg.add(url="https://github.com/nmcauley/TidyTuesday.jl")
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
 
-using TidyTuesday
+using TidierTuesday
 
 # Download files from the week, which you can then read in locally
 download_dataset('{{date}}')
