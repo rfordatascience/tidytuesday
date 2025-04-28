@@ -54,6 +54,23 @@ pydytuesday.get_date('2025-04-29')
 user2025 = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-29/user2025.csv')
 ```
 
+```julia
+# Using Julia
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
+
+using TidierTuesday
+
+# Download files from the week, which you can then read in locally
+download_dataset('2025-04-29')
+
+# Option 2: Read directly from GitHub and assign to an object with TidierFiles
+
+user2025 = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-29/user2025.csv")
+
+# Option 3: Read directly from Github and assign without Tidier dependencies
+user2025 = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-29/user2025.csv", DataFrame)
+```
 
 ## How to Participate
 
