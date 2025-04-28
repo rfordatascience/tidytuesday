@@ -31,7 +31,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 ### TidierTuesday.jl: A *Tidier* library for TidyTuesday
 
-- Exploring the TidyTuesday data in Julia? Tidier has a new package that will help you out! 
+- Exploring the TidyTuesday data in Julia? [Tidier has a package that will help you out](https://github.com/TidierOrg/TidierTuesday.jl)! 
 - Share your work with the world using the hashtags #TidyTuesday, #PydyTuesday, or specifically #TidierTuesday if you want the Tidier Org to share your visuals! 
 
 **You can also [curate a dataset for a future TidyTuesday](pr_instructions.md)!**  
