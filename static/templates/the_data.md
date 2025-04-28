@@ -36,3 +36,25 @@ pydytuesday.get_date('{{date}}')
 {{{dataset_name}}} = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/{{year}}/{{date}}/{{dataset_file}}')
 {{/datasets}}
 ```
+
+```julia
+# Using Julia
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
+
+using TidierTuesday
+
+# Download files from the week, which you can then read in locally
+download_dataset('{{date}}')
+
+# Option 2: Read directly from GitHub and assign to an object with TidierFiles
+
+{{#datasets}}
+{{{dataset_name}}} = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/{{year}}/{{date}}/{{dataset_file}}")
+{{/datasets}}
+
+# Option 3: Read directly from Github and assign without Tidier dependencies
+{{#datasets}}
+{{{dataset_name}}} = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/{{year}}/{{date}}/{{dataset_file}}", DataFrame)
+{{/datasets}}
+```
