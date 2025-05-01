@@ -7,7 +7,7 @@ data_source:
   url: "https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData"
 images:
 # Please include at least one image, and up to three images
-- file: "BeachwatchMap.avif"
+- file: "BeachwatchMap.png"
   alt: >
     The image is a map of Sydney City including coastal, harbour and western swimming locations. Each beach is marked by a red circle if pollution is likely, an orange pentagon if pollution is possible, or a green circle if pollution is unlikely. In this image, there are 20 red sites, 11 green sites, and 2 orange sites. The green sites are located at coastal beaches.
 credit:
