@@ -1,12 +1,12 @@
 This week we're exploring a dataset of grants for scientific research and education projects
 from the U.S. National Science Foundation (NSF) that have been terminated by
-the Trump foundation in 2025. In an unprecedented and possibly illegal action, the NSF has terminated
+the Trump administration in 2025. In an unprecedented and possibly illegal action, the NSF has terminated
 over 1,000 such grants starting on April 18, 2025, and terminations continue. These
 data were collected by [Grant Watch](https://grant-watch.us) by crowdsourcing
 from researchers and program administrators, as the administration has not released
 information on these terminations.
 
-From [New York Times article on the terminations](https://www.nytimes.com/2025/04/22/science/trump-national-science-foundation-grants.html):
+From a [New York Times article on the terminations](https://www.nytimes.com/2025/04/22/science/trump-national-science-foundation-grants.html):
 
 > In general, the agency provides scientists with the opportunity to dispute its
 > decisions about funding. But researchers were informed that the decision to

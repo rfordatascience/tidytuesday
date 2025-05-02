@@ -9,7 +9,7 @@
 |org_district            |character |The congressional district (state and number) where the organization is located. |
 |usaspending_obligated   |double    |The amount of money, via USAspending.gov, that NSF had committed to funding. |
 |award_type              |character |The type of grant. |
-|directorate_abbrev      |character |The three-letter abbreviation of the NSF directorate name |
+|directorate_abbrev      |character |The three-letter abbreviation of the NSF directorate name. |
 |directorate             |character |The NSF directorate (the highest level of organization), which administered the grant. |
 |division                |character |The NSF division (housed within directorate) which administered the grant. |
 |nsf_program_name        |character |The name of the funding program under which the grant was made. |
