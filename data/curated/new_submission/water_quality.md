@@ -6,7 +6,7 @@
 |date                  |date      |Date |
 |time                  |time      |Time of day |
 |enterococci_cfu_100ml |integer   |Enterococci bacteria levels in colony forming units (CFU) per 100 millilitres of water |
-|water_temperature_c   |integer   |Water temperature in degrees celcius |
+|water_temperature_c   |integer   |Water temperature in degrees Celsius |
 |conductivity_ms_cm    |integer   |Conductivity in microsiemens per centimetre |
 |latitude              |double    |Latitude |
 |longitude             |double    |Longitude |

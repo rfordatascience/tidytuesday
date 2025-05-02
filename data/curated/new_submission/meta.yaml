@@ -3,8 +3,8 @@ article:
   title: "Sydney beachgoers urged not to swim in waterways, amid pollution warnings and bull shark activity"
   url: "https://www.abc.net.au/news/2025-01-10/pollution-risks-in-sydney-beaches-contaminated-waterways-rain/104790856"
 data_source:
-  title: "BeachwatchNSW"
-  url: "https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData"
+  title: "BeachwatchNSW, Open-Meteo"
+  url: "https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData, https://open-meteo.com/"
 images:
 # Please include at least one image, and up to three images
 - file: "BeachwatchMap.png"

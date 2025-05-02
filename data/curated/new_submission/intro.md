@@ -11,8 +11,8 @@ this summer with high rainfall causing concerns about the safety of the water.
 
 The dataset this week includes both water quality and [historical weather data](https://open-meteo.com/) from 1991 until 2025. 
 
-Has the water quality declined over this period?
-How does rainfall impact E-coli bacteria levels? 
-Are some swimming sites particularly prone to high bacteria levels following rain?
+- Has the water quality declined over this period?
+- How does rainfall impact E-coli bacteria levels? 
+- Are some swimming sites particularly prone to high bacteria levels following rain?
 
 
