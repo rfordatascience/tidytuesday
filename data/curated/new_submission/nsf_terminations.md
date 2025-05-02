@@ -20,4 +20,4 @@
 |org_zip                 |character |The 5- or 9-digit ZIP code of the organization receiving the grant. |
 |org_uei                 |character |The unique entitity identifier (UEI) of the organization recieving the grant, used across U.S. government databases. |
 |abstract                |character |The text of the project abstract, describing the work to be done. |
-|in_cruz_list            |logical   |Whether the project was in a list of NSF projects named by U.S. Senator Ted Cruz that "promoted Diversity, Equity, and Inclusion (DEI) or advanced neo-Marxist class warfare propaganda." |
+|in_cruz_list            |logical   |Whether the project was in a [list of NSF projects named by U.S. Senator Ted Cruz](https://democrats-science.house.gov/imo/media/doc/democratic_staff_report-defending_hidden_figures.pdf) that he claimed "promoted Diversity, Equity, and Inclusion (DEI) or advanced neo-Marxist class warfare propaganda." |
