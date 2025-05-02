@@ -38,6 +38,7 @@ More elaborate analysis could use [data on total awards](https://www.nsf.gov/abo
 to look at the fraction of awards terminated, or [data on educational institutions](https://nces.ed.gov/ipeds/use-the-data)
 to look at what kinds of institutions are most affected.
 
+Check out the cleaning script below for instructions on fetching the latest version of the data!
 
 Thank you to [Noam Ross and Scott Delaney, Grant Watch](https://github.com/noamross) for curating this week's dataset.
 
@@ -148,8 +149,4 @@ nsf_terminations <- raw_nsf_terminations |>
            readr::parse_number()) |> 
   mutate(in_cruz_list = !is.na(in_cruz_list)) |> 
   mutate(grant_number = as.character(grant_number)) 
-
-# Save the cleaned data to a CSV file
-tt_save_dataset(nsf_terminations)
-
 ```
