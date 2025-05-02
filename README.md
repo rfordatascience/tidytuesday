@@ -18,16 +18,15 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 ## How to Participate
 
-- Data is [posted to social media](dataset_announcements.md) every Monday morning. Follow the instructions in the new post for how to download the data.
+- Data is [posted to social media](dataset_announcements.md) every Monday morning. Follow the instructions in the new post for how to download the data in R, Python, or Julia, or download the data directly from GitHub for use in your favorite data exploration tool.
 - [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
-- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
+- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, Julia, or another programming language.
+  - Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+  - Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 - [Share your output and the code used to generate it](sharing.md) on social media with the #TidyTuesday hashtag.
-
-### PydyTuesday: A Posit collaboration with TidyTuesday
-
-- Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
-- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
-- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
+  - R; TidyTuesday originated in the #RStats community on social media. Add that hashtag if you explore TidyTuesday data in R!
+  - Python: Add the #PydyTuesday hashtag so that Posit has the chance to highlight your work, too!
+  - Julia: Add the #TidierTuesday hashtag if you want the [Tidier Org](https://github.com/TidierOrg) to share your visuals!
 
 **You can also [curate a dataset for a future TidyTuesday](pr_instructions.md)!**  
 
@@ -55,6 +54,8 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   14|2025-04-08 |[Timely and Effective Care by US State](data/2025/2025-04-08/readme.md)                 |[Centers for Medicare & Medicaid Services](https://data.cms.gov/provider-data/dataset/apyc-v239)                                                       |[Mapped: Emergency Room Visit Times by State](https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/)|
 |   15|2025-04-15 |[Base R Penguins](data/2025/2025-04-15/readme.md)                                       |[The R Datasets Package](https://www.r-project.org/)                                                                                                   |[Preparing the Palmer Penguins Data for the datasets Package in R](https://zenodo.org/records/14902740)|
 |   16|2025-04-22 |[Fatal Car Crashes on 4/20](data/2025/2025-04-22/readme.md)                             |[420 (data-raw)](https://osf.io/qnrg6/)                                                                                                                |[The Annual Cannabis Holiday and Fatal Traffic Crashes](https://osf.io/preprints/osf/tzcsy_v1)      |
+|   17|2025-04-29 |[useR! 2025 program](data/2025/2025-04-29/readme.md)                                    |[Program for the useR! 2025 conference](https://user2025.r-project.org/)                                                                               |[Program for the useR! 2025 conference](https://user2025.r-project.org/)                            |
+|   18|2025-05-06 |[National Science Foundation Grant Terminations under the Trump Administration](data/2025/2025-05-06/readme.md)|[Grant Watch](https://grant-watch.us/nsf-data.html)                                                                                                    |[National Science Foundation Terminates Hundreds of Active Research Awards](https://www.nytimes.com/2025/04/22/science/trump-national-science-foundation-grants.html)|
 
 ***  
 
@@ -75,8 +76,6 @@ A BibTeX entry for LaTeX users is
     year = {2024} 
   }
 ```
-
-Note: If you would like to cite the [tidytuesdayR](https://dslc-io.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
 
 ***
 
