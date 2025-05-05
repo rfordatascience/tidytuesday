@@ -15,6 +15,7 @@ Some information about Mount Vesuvius [from INGV](https://www.ingv.it/somma-vesu
 - Last eruption: 1944 (lasted about 10 days)
 - Activity status: quiescent (not active, but is still registering seismic activity)
 
+Some questions you might explore with this data set include:
 - How has the number and severity of seismic events changed over the last decade?
 - Is there a correlation between earthquake depth and magnitude at Vesuvius?
 - Do seismic events at Vesuvius follow any seasonal patterns or time-of-day patterns?
