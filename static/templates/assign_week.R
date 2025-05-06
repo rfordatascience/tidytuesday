@@ -87,7 +87,7 @@ title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
 credit_line <- glue::glue("Thank you to {credit} for curating this week's dataset.")
 if (length(credit_line)) {
-  intro <- paste(intro, credit_line, sep = "\n\n")
+  intro <- paste(intro, credit_line, sep = "\n")
 }
 
 the_data_template <- read_piece(here::here("static", "templates", "the_data.md"))
@@ -166,8 +166,8 @@ year_readme_datasets <- dplyr::bind_rows(
     Week = target_week,
     Date = target_date,
     Data = glue::glue("[{title}]({target_date}/readme.md)"),
-    Source = glue::glue("[{data_title}]({data_link})"),
-    Article = glue::glue("[{article_title}]({article_link})")
+    Source = glue_comma("[{data_title}]({data_link})"),
+    Article = glue_comma("[{article_title}]({article_link})")
   )
 ) |>
   dplyr::arrange(.data$Date)
