@@ -166,8 +166,8 @@ year_readme_datasets <- dplyr::bind_rows(
     Week = target_week,
     Date = target_date,
     Data = glue::glue("[{title}]({target_date}/readme.md)"),
-    Source = glue::glue("[{data_title}]({data_link})"),
-    Article = glue::glue("[{article_title}]({article_link})")
+    Source = glue::glue_collapse(glue::glue("[{data_title}]({data_link})"), sep = ", "),
+    Article = glue::glue_collapse(glue::glue("[{article_title}]({article_link})"), sep = ", ")
   )
 ) |>
   dplyr::arrange(.data$Date)
