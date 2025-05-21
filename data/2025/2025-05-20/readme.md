@@ -151,4 +151,13 @@ water_quality <- readr::read_csv(here::here("data_raw", "Water quality-174606449
     )
   )
 
+weather <- weather %>%
+  mutate(coordinates = c(latitude, longitude))
+
+water_quality <- water_quality %>%
+  mutate(coordinates = c(latitude, longitude))
+
+Combined_Data <- weather %>%
+  mutate(inner_join(weather, water_quality, by = date)
+
 ```
