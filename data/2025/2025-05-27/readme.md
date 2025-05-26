@@ -1,3 +1,125 @@
+# Dungeons and Dragons Monsters (2024)
+
+This week we're exploring monsters from the Dungeons & Dragons System Reference Document! After the popularity of our [Dungeons and Dragons Spells (2024)](https://tidytues.day/2024/2024-12-17), we thought it might be fun to explore the freely available monsters from the 2024 update.
+
+> Every monster is a font of adventure. In this bestiary of Dungeons & Dragons monsters, you’ll discover the weird, the whimsical, the majestic, and the macabre. Choose your favorites, and make them part of your D&D play.
+
+- Which types of monsters have the highest (or lowest) of each ability score?
+- Which monster types have a broad range of challenger ratings?
+- Which language allows your character to communicate with the most monsters?
+- How else can the dataset be processed to pull out common fields?
+
+Thank you to [Jon Harmon, Data Science Learning Community](https://github.com/jonthegeek) for curating this week's dataset.
+
+## The Data
+
+```r
+# Using R
+# Option 1: tidytuesdayR R package 
+## install.packages("tidytuesdayR")
+
+tuesdata <- tidytuesdayR::tt_load('2025-05-27')
+## OR
+tuesdata <- tidytuesdayR::tt_load(2025, week = 21)
+
+monsters <- tuesdata$monsters
+
+# Option 2: Read directly from GitHub
+
+monsters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-27/monsters.csv')
+```
+
+```python
+# Using Python
+# Option 1: pydytuesday python library
+## pip install pydytuesday
+
+import pydytuesday
+
+# Download files from the week, which you can then read in locally
+pydytuesday.get_date('2025-05-27')
+
+# Option 2: Read directly from GitHub and assign to an object
+
+monsters = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-27/monsters.csv')
+```
+
+```julia
+# Using Julia
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
+
+using TidierTuesday
+
+# Download files from the week, which you can then read in locally
+download_dataset('2025-05-27')
+
+# Option 2: Read directly from GitHub and assign to an object with TidierFiles
+
+monsters = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-27/monsters.csv")
+
+# Option 3: Read directly from Github and assign without Tidier dependencies
+monsters = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-27/monsters.csv", DataFrame)
+```
+
+
+## How to Participate
+
+- [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
+- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
+- [Share your output and the code used to generate it](../../../sharing.md) on social media with the #TidyTuesday hashtag.
+- [Submit your own dataset!](../../../pr_instructions.md)
+
+### PydyTuesday: A Posit collaboration with TidyTuesday
+
+- Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
+- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
+
+
+## Data Dictionary
+
+### `monsters.csv`
+
+|variable          |class     |description                           |
+|:-----------------|:---------|:-------------------------------------|
+|name              |character |The name of the monster. |
+|category          |character |The category to which this monster belongs. Often the same as the name, but, for example, all "Animated Objects" share a category. |
+|cr                |double    |The challenge rating of the monster. |
+|size              |character |Tiny, Small, Medium, Large, Huge or Gargantuan. If size options are presented, you choose the creature's size from those options. |
+|type              |character |Each monster has a tag that identifies the type of creature it is. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type. |
+|descriptive_tags  |character |Optional additional tags. Such tags provide additional categorization and have no rules of their own, but certain game effects might refer to them. |
+|alignment         |character |One of Lawful Good, Neutral Good, Chaotic Good, Lawful Neutral, Neutral, Chaotic Neutral, Lawful Evil, Neutral Evil, Chaotic Evil, or Unaligned. The alignment specified in a monster's stat block is a default suggestion of how to roleplay the monster, inspired by its traditional role in the game or real-world folklore. Change a monster's alignment to suit your storytelling needs. The Neutral alignment, in particular, is an invitation for you to consider whether an individual leans toward one of the other alignments. |
+|ac                |character |The monster's Armor Class (AC) includes its natural armor, Dexterity, gear, and other defenses. |
+|initiative        |integer   |The monster's Initiative modifier. Use the modifier when you roll to determine a monster's Initiative. A monster's Initiative modifier is typically equal to its Dexterity modifier, but some monsters have additional modifiers, such as Proficiency Bonus, applied to that number. |
+|hp                |character |The monster's Hit Points are presented as a number followed by parentheses, where the monster's Hit Point Dice are provided, along with any contribution from its Constitution. Either use the number for the monster's Hit Points (also available in "hp_number") or roll the die expression in parentheses to determine the monster's Hit Points randomly; don't use both. |
+|hp_number         |integer   |The average Hit Points for the monster. |
+|speed             |character |The monster's Speed. Some monsters have one or more of the following speeds: Burrow, Climb, Fly, Swim. |
+|speed_base_number |integer   |The first numeric speed for the monster, which is usually the walking speed. |
+|str               |integer   |The monster's strength score. |
+|dex               |integer   |The monster's dexterity score. |
+|con               |integer   |The monster's constitution score. |
+|int               |integer   |The monster's intelligence score. |
+|wis               |integer   |The monster's wisdom score. |
+|cha               |integer   |The monster's charisma score. |
+|str_save          |integer   |The monster's strength saving throw bonus. |
+|dex_save          |integer   |The monster's dexterity saving throw bonus. |
+|con_save          |integer   |The monster's constitution saving throw bonus. |
+|int_save          |integer   |The monster's intelligence saving throw bonus. |
+|wis_save          |integer   |The monster's wisdom saving throw bonus. |
+|cha_save          |integer   |The monster's charisma saving throw bonus. |
+|skills            |character |The monster's Skill proficiencies, if any. For example, a monster that is very perceptive and stealthy might have bonuses to Wisdom (Perception) and Dexterity (Stealth) checks. A skill bonus is the sum of a monster's relevant ability modifier and its Proficiency Bonus. Other modifiers might apply. |
+|resistances       |character |The monster's Resistances, if any. |
+|vulnerabilities   |character |The monster's Vulnerabilities, if any. |
+|immunities        |character |The monster's Immunities, if any. If the monster has damage and condition Immunities, the damage types are listed before the conditions. |
+|gear              |character |Monsters have proficiency with their equipment. If the monster has equipment that can be given away or retrieved, the items are listed in the Gear entry. The monster's stat block might include special flourishes that happen when the monster uses an item, and the stat block might ignore the rules in "Equipment" for that item. When used by someone else, a retrievable item uses its "Equipment" rules, ignoring any special flourishes in the stat block. The Gear entry doesn't necessarily list all of a monster's equipment. For example, a monster that wears clothes is assumed to be dressed appropriately, and those clothes aren't in this entry. Equipment mentioned outside the Gear entry is considered to be supernatural or highly specialized, and it is unusable when the monster is defeated. |
+|senses            |character |The monster's Passive Perception score, as well as any special senses the monster possesses. |
+|languages         |character |Languages that the monster can use to communicate. Sometimes the monster can understand a language but can't communicate with it, which is noted in its entry. "None" indicates that the creature doesn't comprehend any language. Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. |
+|full_text         |character |The full text of the monster description, including the information above as well as monster Traits and Actions. |
+
+## Cleaning Script
+
+```r
 # This work includes material from the System Reference Document 5.2.1 (“SRD
 # 5.2.1”) by Wizards of the Coast LLC, available at
 # https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative
@@ -285,3 +407,5 @@ monsters <- purrr::map(
   purrr::list_rbind()
 
 dplyr::glimpse(monsters)
+
+```

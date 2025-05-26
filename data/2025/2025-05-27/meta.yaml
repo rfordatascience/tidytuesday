@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: "monster_int.png"
   alt: >
-    A box plot of Intelligence of D&D Monster Types. The y axis shows Intelligence, from 0 to 25. The x axis has 9 Monster Types: Beast, Dragon, Elemental, Fey, Fiend, Humanoid, Monstrosity, Undead, and Other. Beasts have the lowest average intelligence around 3, while Dragons and Fiends have the highest around 13 or 14. Humanoids, Monstrosities, Undead, and the Other bucket all have high outliers of 20 or higher.
+    A box plot of Intelligence of D&D Monster Types. The y axis shows Intelligence, from 0 to 25. The x axis has 9 Monster Types: "Beast, Dragon, Elemental, Fey, Fiend, Humanoid, Monstrosity, Undead, and Other. Beasts have the lowest average intelligence around 3, while Dragons and Fiends have the highest around 13 or 14. Humanoids, Monstrosities, Undead, and the Other bucket all have high outliers of 20 or higher."
 credit:
   post: "Jon Harmon, Data Science Learning Community"
   github: "@jonthegeek"
