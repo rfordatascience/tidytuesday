@@ -1,6 +1,6 @@
 # Project Gutenberg
 
-This week we're exploring books from Project Gutenberg and the {[https://docs.ropensci.org/gutenbergr/](gutenbergr)} R package!
+This week we're exploring books from Project Gutenberg and the {[gutenbergr](https://docs.ropensci.org/gutenbergr/)} R package!
 
 > [{gutenbergr} allows you to] Download and process public domain works in the 
 > Project Gutenberg collection <https://www.gutenberg.org/>. Includes metadata 
