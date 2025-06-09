@@ -1,4 +1,9 @@
 Week,Date,year,data_files,data_type,delim
+22,2025-06-03,2025,gutenberg_authors.csv,csv,","
+22,2025-06-03,2025,gutenberg_languages.csv,csv,","
+22,2025-06-03,2025,gutenberg_metadata.csv,csv,","
+22,2025-06-03,2025,gutenberg_subjects.csv,csv,","
+21,2025-05-27,2025,monsters.csv,csv,","
 20,2025-05-20,2025,water_quality.csv,csv,","
 20,2025-05-20,2025,weather.csv,csv,","
 19,2025-05-13,2025,vesuvius.csv,csv,","
