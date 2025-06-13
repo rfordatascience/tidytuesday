@@ -140,3 +140,17 @@ judges_people <- historydata::judges_people
 judges_appointments <- historydata::judges_appointments
 
 ```
+
+##Linear Regression Script
+
+```r
+library(tidyverse)
+
+judge_appointments <- judge_appointments %>%
+  mutate(retirement_from_active_service =ymd(retirement_from_active_service)) %>%
+  mutate(senate_confirmation_date = ymd(senate_confirmation_date) %>%
+  mutate(termination_date = ymd(termination_date)
+
+summary(lm(termination_reason ~ senate_confirmation_date + termination_date + president_party, data = judge_appointments))
+  
+```
