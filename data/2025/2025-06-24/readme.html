@@ -226,12 +226,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#passwords" id="toc-passwords" class="nav-link active" data-scroll-target="#passwords">Passwords</a>
+  <li><a href="#measles-cases-across-the-world" id="toc-measles-cases-across-the-world" class="nav-link active" data-scroll-target="#measles-cases-across-the-world">Measles cases across the world</a>
   <ul class="collapse">
-  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a></li>
-  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
+  <ul class="collapse">
+  <li><a href="#pydytuesday-a-posit-collaboration-with-tidytuesday" id="toc-pydytuesday-a-posit-collaboration-with-tidytuesday" class="nav-link" data-scroll-target="#pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</a></li>
   </ul></li>
-  <li><a href="#passwords.csv" id="toc-passwords.csv" class="nav-link" data-scroll-target="#passwords.csv"><code>passwords.csv</code></a></li>
+  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
+  <ul class="collapse">
+  <li><a href="#cases_month.csv" id="toc-cases_month.csv" class="nav-link" data-scroll-target="#cases_month.csv"><code>cases_month.csv</code></a></li>
+  <li><a href="#cases_year.csv" id="toc-cases_year.csv" class="nav-link" data-scroll-target="#cases_year.csv"><code>cases_year.csv</code></a></li>
+  </ul></li>
+  <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -241,42 +249,94 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p><img src="https://imgs.xkcd.com/comics/password_strength.png" class="img-fluid" alt="https://xkcd.com/936/"> ### <a href="https://xkcd.com/936/">XKCD Source for Comic</a></p>
-<section id="passwords" class="level1">
-<h1>Passwords</h1>
-<p>This week’s data is all about passwords. Data is sourced from <a href="https://docs.google.com/spreadsheets/d/1cz7TDhm0ebVpySqbTvrHrD3WpxeyE4hLZtifWSnoNTQ/edit#gid=21">Information is Beautiful</a>, with the graphic coming from the same group <a href="https://twitter.com/infobeautiful/status/1216765612439019521?s=20">here</a>.</p>
-<p>There’s lots of additional information about password quality &amp; strength in the source <a href="https://docs.google.com/spreadsheets/d/1cz7TDhm0ebVpySqbTvrHrD3WpxeyE4hLZtifWSnoNTQ/edit#gid=21">Doc</a>. Please note that the “strength” column in this dataset is relative to these common aka “bad” passwords and YOU SHOULDN’T USE ANY OF THEM!</p>
-<p><a href="https://en.wikipedia.org/wiki/Password_strength">Wikipedia</a> has a nice article on password strength as well.</p>
-<section id="get-the-data-here" class="level3">
-<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the Data</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>passwords <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-14/passwords.csv'</span>)</span>
+<section id="measles-cases-across-the-world" class="level1">
+<h1>Measles cases across the world</h1>
+<p>This week we are exploring measles and rubella cases across the world. This data was downloaded from the World Health Organisation <a href="https://immunizationdata.who.int/global?topic=Provisional-measles-and-rubella-data&amp;location=">Provisional monthly measles and rubella data</a> on 2025-06-12.</p>
+<blockquote class="blockquote">
+<p>Please note that all data contained within is provisional. The number of cases of measles and rubella officially reported by a WHO Member State is only available by July of each year (through the joint WHO UNICEF annual data collection exercise). If any numbers from this provisional data are quoted, they should be properly sourced with a date (i.e.&nbsp;“provisional data based on monthly data reported to WHO (Geneva) as of June 2025”). For official data from 1980, please visit our website: https://immunizationdata.who.int/global/wiise-detail-page/measles-reported-cases-and-incidence</p>
+</blockquote>
+<p>The <a href="https://abcnews.go.com/Health/measles-cases-reach-1046-us-infections-confirmed-30/story?id=122108194">measles outbreak in the USA</a> has been the subject of much media coverage in the past few months, however, <a href="https://www.cdc.gov/global-measles-vaccination/data-research/global-measles-outbreaks/index.html">measles continues to be a threat across the world</a></p>
+<ul>
+<li>How have global measles cases changed over time?</li>
+<li>Which regions or countries consistently report the highest measles burden?</li>
+<li>Are there seasonal patterns in measles outbreaks across different regions?</li>
+<li>Does the ratio of laboratory-confirmed cases to total cases reveal differences in healthcare capacity across countries?</li>
+</ul>
+<p>Thank you to <a href="https://github.com/jenrichmond">Jen Richmond (R-Ladies Sydney)</a> for curating this week’s dataset.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Or read in with tidytuesdayR package (https://github.com/dslc-io/tidytuesdayR)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># PLEASE </span><span class="al">NOTE</span><span class="co"> TO USE 2020 DATA YOU NEED TO UPDATE tidytuesdayR from GitHub</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Either ISO-8601 date or year/week works!</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Install via pak::pak("dslc-io/tidytuesdayR")</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-06-24'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">25</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cases_month</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cases_year</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2020-01-14'</span>) </span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2020</span>, <span class="at">week =</span> <span class="dv">3</span>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>passwords <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>passwords</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-06-24'</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-06-24'</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="data-dictionary" class="level3">
-<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+<section id="how-to-participate" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
+<ul>
+<li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
+<li>Create a visualization, a model, a <a href="https://quarto.org/">Quarto</a> report, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R, Python, or another programming language.</li>
+<li><a href="../../../sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.</li>
+<li><a href="../../../pr_instructions.html">Submit your own dataset!</a></li>
+</ul>
+<section id="pydytuesday-a-posit-collaboration-with-tidytuesday" class="level3">
+<h3 class="anchored" data-anchor-id="pydytuesday-a-posit-collaboration-with-tidytuesday">PydyTuesday: A Posit collaboration with TidyTuesday</h3>
+<ul>
+<li>Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a <a href="https://quarto.org/docs/dashboards/">Quarto dashboard</a>? Find videos and other resources in <a href="https://github.com/posit-dev/python-tidytuesday-challenge">Posit’s PydyTuesday repo</a>.</li>
+<li>Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!</li>
+<li>Deploy or share your work however you want! If you’d like a super easy way to publish your work, give <a href="https://connect.posit.cloud/">Connect Cloud</a> a try.</li>
+</ul>
 </section>
 </section>
-<section id="passwords.csv" class="level1">
-<h1><code>passwords.csv</code></h1>
+<section id="data-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
+<section id="cases_month.csv" class="level3">
+<h3 class="anchored" data-anchor-id="cases_month.csv"><code>cases_month.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 45%">
-<col style="width: 25%">
-<col style="width: 30%">
+<col style="width: 31%">
+<col style="width: 14%">
+<col style="width: 54%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -287,54 +347,233 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">rank</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">popularity in their database of released passwords</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">password</td>
+<td style="text-align: left;">region</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Actual text of the password</td>
+<td style="text-align: left;">Region name</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">category</td>
+<tr class="even">
+<td style="text-align: left;">country</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">What category does the password fall in to?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">value</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Time to crack by online guessing</td>
+<td style="text-align: left;">Country name</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">time_unit</td>
+<td style="text-align: left;">iso3</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Time unit to match with value</td>
+<td style="text-align: left;">Three letter country code</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">offline_crack_sec</td>
+<td style="text-align: left;">year</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Time to crack offline in seconds</td>
+<td style="text-align: left;">Year</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">rank_alt</td>
+<td style="text-align: left;">month</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Rank 2</td>
+<td style="text-align: left;">Month</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">strength</td>
+<td style="text-align: left;">measles_suspect</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Strength = quality of password where 10 is highest, 1 is lowest, please note that these are relative to these generally bad passwords</td>
+<td style="text-align: left;">Suspected measles cases: A suspected case is one in which a patient with fever and maculopapular (non-vesicular) rash, or in whom a health-care worker suspects measles</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">font_size</td>
+<td style="text-align: left;">measles_clinical</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Used to create the graphic for KIB</td>
+<td style="text-align: left;">Clinically-compatible measles cases: A suspected case with fever and maculopapular (non-vesicular) rash and at least one of cough, coryza or conjunctivitis, but no adequate clinical specimen was taken and the case has not been linked epidemiologically to a laboratory-confirmed case of measles or other communicable disease</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_epi_linked</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Epidemiologically-linked measles cases: A suspected case of measles that has not been confirmed by a laboratory, but was geographically and temporally related with dates of rash onset occurring 7–23 days apart from a laboratory-confirmed case or another epidemiologically linked measles case</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_lab_confirmed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Laboratory-confirmed measles cases: A suspected case of measles that has been confirmed positive by testing in a proficient laboratory, and vaccine-associated illness has been ruled out</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total measles cases: the sum of clinically-compatible, epidemiologically linked and laboratory-confirmed cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_clinical</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Clinically-compatible rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_epi_linked</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Epidemiologically-linked rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_lab_confirmed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Laboratory-confirmed rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">discarded</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Discarded cases: A suspected case that has been investigated and discarded as a non-measles (and non-rubella)</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="cases_year.csv" class="level3">
+<h3 class="anchored" data-anchor-id="cases_year.csv"><code>cases_year.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 8%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">region</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Region name</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country name</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">iso3</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Three letter country code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Year</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country population</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">annualized_population_most_recent_year_only</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Annualized population 2025</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">total_suspected_measles_rubella_cases</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Suspected measles/rubella cases: A suspected case is one in which a patient with fever and maculopapular (non-vesicular) rash, or in whom a health-care worker suspects measles (or rubella)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_total</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Total measles cases: the sum of clinically-compatible, epidemiologically linked and laboratory-confirmed cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_lab_confirmed</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Laboratory-confirmed measles cases: A suspected case of measles that has been confirmed positive by testing in a proficient laboratory, and vaccine-associated illness has been ruled out</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_epi_linked</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Epidemiologically-linked measles cases: A suspected case of measles that has not been confirmed by a laboratory, but was geographically and temporally related with dates of rash onset occurring 7–23 days apart from a laboratory-confirmed case or another epidemiologically linked measles case</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_clinical</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Clinically-compatible measles cases: A suspected case with fever and maculopapular (non-vesicular) rash and at least one of cough, coryza or conjunctivitis, but no adequate clinical specimen was taken and the case has not been linked epidemiologically to a laboratory-confirmed case of measles or other communicable disease</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_incidence_rate_per_1000000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Measles cases per million population</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_total</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Total rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_lab_confirmed</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Laboratory-confirmed rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_epi_linked</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Epidemiologically-linked rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_clinical</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Clinically-compatible rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_incidence_rate_per_1000000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Rubella cases per million population</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">discarded_cases</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Discarded cases: A suspected case that has been investigated and discarded as a non-measles (and non-rubella)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">discarded_non_measles_rubella_cases_per_100000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Discarded cases per million population</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="cleaning-script" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data provided by WHO Provisional measles and rubella data. Cleaning variable</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># names and fixing data types.</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="fu">here</span>(<span class="st">"404-table-web-epi-curve-data.xlsx"</span>), <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(year<span class="sc">:</span>discarded, as.numeric)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="fu">here</span>(<span class="st">"403-table-web-reporting-data.xlsx"</span>), <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_to_names</span>(<span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">country =</span> member_state,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">iso3 =</span> iso_country_code,</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_total=</span> number_of_measles_cases_by_confirmation_method,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_lab_confirmed =</span> na,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_epi_linked =</span> na_2,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_clinical =</span> na_3,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_total =</span> number_of_rubella_cases_by_confirmation_method,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_lab_confirmed =</span> na_4,</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_epi_linked =</span> na_5,</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_clinical =</span> na_6</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="sc">-</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

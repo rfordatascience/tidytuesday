@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-293e81bb0733230b9e755d5a7d46e87a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -226,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#api-specs" id="toc-api-specs" class="nav-link active" data-scroll-target="#api-specs">API Specs</a>
+  <li><a href="#measles-cases-across-the-world" id="toc-measles-cases-across-the-world" class="nav-link active" data-scroll-target="#measles-cases-across-the-world">Measles cases across the world</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -235,11 +235,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#api_categories.csv" id="toc-api_categories.csv" class="nav-link" data-scroll-target="#api_categories.csv"><code>api_categories.csv</code></a></li>
-  <li><a href="#api_info.csv" id="toc-api_info.csv" class="nav-link" data-scroll-target="#api_info.csv"><code>api_info.csv</code></a></li>
-  <li><a href="#api_logos.csv" id="toc-api_logos.csv" class="nav-link" data-scroll-target="#api_logos.csv"><code>api_logos.csv</code></a></li>
-  <li><a href="#api_origins.csv" id="toc-api_origins.csv" class="nav-link" data-scroll-target="#api_origins.csv"><code>api_origins.csv</code></a></li>
-  <li><a href="#apisguru_apis.csv" id="toc-apisguru_apis.csv" class="nav-link" data-scroll-target="#apisguru_apis.csv"><code>apisguru_apis.csv</code></a></li>
+  <li><a href="#cases_month.csv" id="toc-cases_month.csv" class="nav-link" data-scroll-target="#cases_month.csv"><code>cases_month.csv</code></a></li>
+  <li><a href="#cases_year.csv" id="toc-cases_year.csv" class="nav-link" data-scroll-target="#cases_year.csv"><code>cases_year.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,42 +249,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="api-specs" class="level1">
-<h1>API Specs</h1>
-<p>This week we’re exploring Web APIs! The lead volunteer for TidyTuesday (Jon Harmon) is writing a book about working with <a href="https://dslc.io/wapir">Web APIs with R</a> as well as <a href="https://beekeeper.api2r.org/">a series of R packages to make it easier to create API-wrapping R packages</a>. On Thursday, 2025-06-19, Jon will present a talk on this package ecosystem at the <a href="https://ghana-rusers.org/ghana-r-conference-2025/">Ghana R Conference 2025</a>. While working on the packages and the talk, Jon explored a list of APIs from the website <a href="https://apis.guru">APIs.guru</a>. That dataset is provided here.</p>
+<section id="measles-cases-across-the-world" class="level1">
+<h1>Measles cases across the world</h1>
+<p>This week we are exploring measles and rubella cases across the world. This data was downloaded from the World Health Organisation <a href="https://immunizationdata.who.int/global?topic=Provisional-measles-and-rubella-data&amp;location=">Provisional monthly measles and rubella data</a> on 2025-06-12.</p>
 <blockquote class="blockquote">
-<p>[APIs.guru’s] goal is to create a machine-readable Wikipedia for Web APIs in the OpenAPI Specification format.</p>
+<p>Please note that all data contained within is provisional. The number of cases of measles and rubella officially reported by a WHO Member State is only available by July of each year (through the joint WHO UNICEF annual data collection exercise). If any numbers from this provisional data are quoted, they should be properly sourced with a date (i.e.&nbsp;“provisional data based on monthly data reported to WHO (Geneva) as of June 2025”). For official data from 1980, please visit our website: https://immunizationdata.who.int/global/wiise-detail-page/measles-reported-cases-and-incidence</p>
 </blockquote>
+<p>The <a href="https://abcnews.go.com/Health/measles-cases-reach-1046-us-infections-confirmed-30/story?id=122108194">measles outbreak in the USA</a> has been the subject of much media coverage in the past few months, however, <a href="https://www.cdc.gov/global-measles-vaccination/data-research/global-measles-outbreaks/index.html">measles continues to be a threat across the world</a></p>
 <ul>
-<li>What API specs are provided by APIs.guru? Are these the same as the origin specs?</li>
-<li>How many different APIs (“services”) do providers provide?</li>
-<li>What licenses do APIs use?</li>
-<li>Are any APIs listed more than once in the dataset?</li>
+<li>How have global measles cases changed over time?</li>
+<li>Which regions or countries consistently report the highest measles burden?</li>
+<li>Are there seasonal patterns in measles outbreaks across different regions?</li>
+<li>Does the ratio of laboratory-confirmed cases to total cases reveal differences in healthcare capacity across countries?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/jenrichmond">Jen Richmond (R-Ladies Sydney)</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-06-17'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-06-24'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">24</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">25</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>api_categories <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>api_categories</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>api_info <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>api_info</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>api_logos <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>api_logos</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>api_origins <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>api_origins</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>apisguru_apis</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>api_categories <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_categories.csv'</span>)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>api_info <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_info.csv'</span>)</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>api_logos <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_logos.csv'</span>)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>api_origins <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_origins.csv'</span>)</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/apisguru_apis.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cases_month</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cases_year</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -295,15 +287,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-06-17'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-06-24'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>api_categories <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_categories.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>api_info <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_info.csv'</span>)</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>api_logos <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_logos.csv'</span>)</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>api_origins <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_origins.csv'</span>)</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/apisguru_apis.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -311,22 +300,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-06-17'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-06-24'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>api_categories <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_categories.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>api_info <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_info.csv"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>api_logos <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_logos.csv"</span>)</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>api_origins <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_origins.csv"</span>)</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/apisguru_apis.csv"</span>)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>api_categories <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_categories.csv"</span>, DataFrame)</span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>api_info <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_info.csv"</span>, DataFrame)</span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>api_logos <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_logos.csv"</span>, DataFrame)</span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>api_origins <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_origins.csv"</span>, DataFrame)</span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/apisguru_apis.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>cases_month <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>cases_year <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -347,189 +330,107 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="api_categories.csv" class="level3">
-<h3 class="anchored" data-anchor-id="api_categories.csv"><code>api_categories.csv</code></h3>
+<section id="cases_month.csv" class="level3">
+<h3 class="anchored" data-anchor-id="cases_month.csv"><code>cases_month.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 27%">
-<col style="width: 15%">
+<col style="width: 31%">
+<col style="width: 14%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">region</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Region name</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country name</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">iso3</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Three letter country code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Year</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">month</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Month</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_suspect</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Suspected measles cases: A suspected case is one in which a patient with fever and maculopapular (non-vesicular) rash, or in whom a health-care worker suspects measles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_clinical</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Clinically-compatible measles cases: A suspected case with fever and maculopapular (non-vesicular) rash and at least one of cough, coryza or conjunctivitis, but no adequate clinical specimen was taken and the case has not been linked epidemiologically to a laboratory-confirmed case of measles or other communicable disease</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_epi_linked</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Epidemiologically-linked measles cases: A suspected case of measles that has not been confirmed by a laboratory, but was geographically and temporally related with dates of rash onset occurring 7–23 days apart from a laboratory-confirmed case or another epidemiologically linked measles case</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_lab_confirmed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Laboratory-confirmed measles cases: A suspected case of measles that has been confirmed positive by testing in a proficient laboratory, and vaccine-associated illness has been ruled out</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total measles cases: the sum of clinically-compatible, epidemiologically linked and laboratory-confirmed cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_clinical</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Clinically-compatible rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_epi_linked</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Epidemiologically-linked rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_lab_confirmed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Laboratory-confirmed rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_total</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">discarded</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Discarded cases: A suspected case that has been investigated and discarded as a non-measles (and non-rubella)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cases_year.csv" class="level3">
+<h3 class="anchored" data-anchor-id="cases_year.csv"><code>cases_year.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
 <col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">apis.guru’s designation for this API.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">apisguru_category</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Sorting category of this API on apis.guru. If an API is listed in multiple categories, it has more than one row in this table.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="api_info.csv" class="level3">
-<h3 class="anchored" data-anchor-id="api_info.csv"><code>api_info.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 15%">
-<col style="width: 58%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">apis.guru’s designation for this API.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">contact_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The name of the person or entity responsible for this API.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">contact_url</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The url to check for information about this API.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">description</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">A brief description of this API.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">title</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The title of this API..</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">provider_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The provider of this API. This is more meaningful if a provider has multiple APIs in the apis.guru database.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">service_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The service that this API covers within the provider. Pressent when a provider has multiple APIs in the apis.guru database.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">license_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The name of the license associated with this API, if available.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">license_url</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The URL of the license, if available.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">terms_of_service</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The url of terms of service for this API, if available.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="api_logos.csv" class="level3">
-<h3 class="anchored" data-anchor-id="api_logos.csv"><code>api_logos.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 15%">
-<col style="width: 58%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">apis.guru’s designation for this API.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">background_color</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Hex code (in the format #RRGGBB) intended to show behind the logo. Missing values either mean that no color is expected (the background can be transparent), or that there isn’t a valid logo available for this API.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">url</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Path to the logo on apis.guru.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">alt_text</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Text to provide for this logo visually impaired users.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="api_origins.csv" class="level3">
-<h3 class="anchored" data-anchor-id="api_origins.csv"><code>api_origins.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 17%">
-<col style="width: 66%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">apis.guru’s designation for this API.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">format</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The format of the original API spec, if available. One of “apiBlueprint”, “google”, “openapi”, “postman”, “swagger”, or “wadl”.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">url</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The path to the original API spec. Note: Some of these paths are no longer valid.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">version</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The version of the format used by this API spec. Each format has its own list of possible values.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="apisguru_apis.csv" class="level3">
-<h3 class="anchored" data-anchor-id="apisguru_apis.csv"><code>apisguru_apis.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
+<col style="width: 8%">
 <col style="width: 33%">
-<col style="width: 17%">
-<col style="width: 48%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -540,49 +441,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">name</td>
+<td style="text-align: left;">region</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">apis.guru’s designation for this API.</td>
+<td style="text-align: left;">Region name</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">version</td>
+<td style="text-align: left;">country</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Version of the API. Data is filtered to only the “preferrred” versions.</td>
+<td style="text-align: left;">Country name</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">added</td>
-<td style="text-align: left;">datetime</td>
-<td style="text-align: left;">When the API was added to apis.guru.</td>
+<td style="text-align: left;">iso3</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Three letter country code</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">updated</td>
-<td style="text-align: left;">datetime</td>
-<td style="text-align: left;">When the API was updated on apis.guru.</td>
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Year</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">swagger_url</td>
+<td style="text-align: left;">total_population</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The path to this API spec on apis.guru.</td>
+<td style="text-align: left;">Country population</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">openapi_ver</td>
+<td style="text-align: left;">annualized_population_most_recent_year_only</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The version of the OpenAPI (or swagger) spec of this API on apis.guru.</td>
+<td style="text-align: left;">Annualized population 2025</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">link</td>
+<td style="text-align: left;">total_suspected_measles_rubella_cases</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The path to this information (plus some fields we don’t include here) for this API on apis.guru.</td>
+<td style="text-align: left;">Suspected measles/rubella cases: A suspected case is one in which a patient with fever and maculopapular (non-vesicular) rash, or in whom a health-care worker suspects measles (or rubella)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">external_docs_description</td>
+<td style="text-align: left;">measles_total</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">A short description of external documentation, if provided.</td>
+<td style="text-align: left;">Total measles cases: the sum of clinically-compatible, epidemiologically linked and laboratory-confirmed cases</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">external_docs_url</td>
+<td style="text-align: left;">measles_lab_confirmed</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The location of the external documentation, if provided.</td>
+<td style="text-align: left;">Laboratory-confirmed measles cases: A suspected case of measles that has been confirmed positive by testing in a proficient laboratory, and vaccine-associated illness has been ruled out</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_epi_linked</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Epidemiologically-linked measles cases: A suspected case of measles that has not been confirmed by a laboratory, but was geographically and temporally related with dates of rash onset occurring 7–23 days apart from a laboratory-confirmed case or another epidemiologically linked measles case</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measles_clinical</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Clinically-compatible measles cases: A suspected case with fever and maculopapular (non-vesicular) rash and at least one of cough, coryza or conjunctivitis, but no adequate clinical specimen was taken and the case has not been linked epidemiologically to a laboratory-confirmed case of measles or other communicable disease</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measles_incidence_rate_per_1000000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Measles cases per million population</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_total</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Total rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_lab_confirmed</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Laboratory-confirmed rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_epi_linked</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Epidemiologically-linked rubella cases</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rubella_clinical</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Clinically-compatible rubella cases</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rubella_incidence_rate_per_1000000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Rubella cases per million population</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">discarded_cases</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Discarded cases: A suspected case that has been investigated and discarded as a non-measles (and non-rubella)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">discarded_non_measles_rubella_cases_per_100000_total_population</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Discarded cases per million population</td>
 </tr>
 </tbody>
 </table>
@@ -590,141 +541,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This dataset was compiled using funcionality from my in-progress ecosystem of</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># packages described at https://beekeeper.api2r.org/. On Thursday, 2025-06-19, I</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># will present a talk on this ecosystem at the Ghana R Conference 2025</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># (https://ghana-rusers.org/ghana-r-conference-2025/).</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># I use information about APIs from https://apis.guru to test various aspects of</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># {beekeeper} and related packages. Here we use {nectar}</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># (https://nectar.api2r.org/) and {tibblify}</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># (https://mgirlich.github.io/tibblify/) to download and process the list of</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># APIs from apis.guru.</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># {nectar} is not available on CRAN. The rest of the packages can be installed</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># via install.packages.</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("pak")</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># pak::pak("jonthegeek/nectar")</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nectar)</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tibblify)</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co"># This section replicates functionality from the in-progress package {apisguru}</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># (https://jonthegeek.github.io/apisguru/). At the time that this dataset was</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co"># compiled, {apisguru} was not yet updated for the current version of {nectar},</span></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># so I'm not using it directly. Watch its progress as the {beekeeper} ecosystem</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co"># solidifies!</span></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>.schema_api_spec <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  tibblify<span class="sc">::</span><span class="fu">tspec_df</span>(</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.tib_datetime</span>(<span class="st">"added"</span>),</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_chr</span>(<span class="st">"preferred"</span>),</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_df</span>(</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">"versions"</span>,</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>      <span class="at">.names_to =</span> <span class="st">"version"</span>,</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>      <span class="fu">.schema_api_version_spec</span>()</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>.schema_api_version_spec <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  tibblify<span class="sc">::</span><span class="fu">tspec_df</span>(</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.tib_datetime</span>(<span class="st">"added"</span>),</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_variant</span>(<span class="st">"info"</span>),</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.tib_datetime</span>(<span class="st">"updated"</span>),</span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_chr</span>(<span class="st">"swaggerUrl"</span>),</span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_chr</span>(<span class="st">"swaggerYamlUrl"</span>),</span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_chr</span>(<span class="st">"openapiVer"</span>),</span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_chr</span>(<span class="st">"link"</span>, <span class="at">required =</span> <span class="cn">FALSE</span>),</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>    tibblify<span class="sc">::</span><span class="fu">tib_variant</span>(<span class="st">"externalDocs"</span>, <span class="at">required =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>.tib_datetime <span class="ot">&lt;-</span> <span class="cf">function</span>(key, ..., <span class="at">required =</span> <span class="cn">TRUE</span>) {</span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>  tibblify<span class="sc">::</span><span class="fu">tib_scalar</span>(</span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">key =</span> key,</span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">ptype =</span> vctrs<span class="sc">::</span><span class="fu">new_datetime</span>(<span class="at">tzone =</span> <span class="st">"UTC"</span>),</span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">required =</span> required,</span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">ptype_inner =</span> <span class="fu">character</span>(),</span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">transform =</span> .quick_datetime,</span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>    ...</span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>.quick_datetime <span class="ot">&lt;-</span> <span class="cf">function</span>(x, <span class="at">tzone =</span> <span class="st">"UTC"</span>) {</span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.POSIXct</span>(<span class="fu">gsub</span>(<span class="st">"T"</span>, <span class="st">" "</span>, x), <span class="at">tz =</span> tzone)</span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>req <span class="ot">&lt;-</span> nectar<span class="sc">::</span><span class="fu">req_prepare</span>(</span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://api.apis.guru/v2"</span>,</span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>  <span class="at">path =</span> <span class="st">"/list.json"</span>,</span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  <span class="at">tidy_fn =</span> nectar<span class="sc">::</span>resp_tidy_json,</span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>  <span class="at">tidy_args =</span> <span class="fu">list</span>(</span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">spec =</span> tibblify<span class="sc">::</span><span class="fu">tspec_df</span>(</span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>      <span class="at">.names_to =</span> <span class="st">"name"</span>,</span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>      <span class="fu">.schema_api_spec</span>()</span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>resp <span class="ot">&lt;-</span> nectar<span class="sc">::</span><span class="fu">req_perform_opinionated</span>(req, <span class="at">max_reqs =</span> <span class="cn">Inf</span>)</span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>apisguru_apis <span class="ot">&lt;-</span> nectar<span class="sc">::</span><span class="fu">resp_tidy</span>(resp) <span class="sc">|&gt;</span></span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span>, <span class="st">"preferred"</span>, <span class="st">"versions"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest</span>(<span class="st">"versions"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(</span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>preferred <span class="sc">==</span> .data<span class="sc">$</span>version</span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"externalDocs"</span>, <span class="at">names_sep =</span> <span class="st">"_"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span><span class="st">"preferred"</span>, <span class="sc">-</span><span class="st">"externalDocs_x-sha1"</span>, <span class="sc">-</span><span class="st">"swaggerYamlUrl"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>()</span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">glimpse</span>(apisguru_apis)</span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>api_info <span class="ot">&lt;-</span> apisguru_apis <span class="sc">|&gt;</span></span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span>, <span class="st">"info"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"info"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"contact"</span>, <span class="at">names_sep =</span> <span class="st">"_"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"license"</span>, <span class="at">names_sep =</span> <span class="st">"_"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>    <span class="st">"name"</span>,</span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>    <span class="st">"contact_name"</span>,</span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>    <span class="st">"contact_url"</span>,</span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>    <span class="st">"description"</span>,</span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>    <span class="st">"title"</span>,</span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>    <span class="at">apisguru_category =</span> <span class="st">"x-apisguru-categories"</span>,</span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>    <span class="at">logo =</span> <span class="st">"x-logo"</span>,</span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>    <span class="at">origin =</span> <span class="st">"x-origin"</span>,</span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">provider_name =</span> <span class="st">"x-providerName"</span>,</span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">service_name =</span> <span class="st">"x-serviceName"</span>,</span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>    <span class="st">"license_name"</span>,</span>
-<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>    <span class="st">"license_url"</span>,</span>
-<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>    <span class="at">terms_of_service =</span> <span class="st">"termsOfService"</span></span>
-<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>apisguru_apis<span class="sc">$</span>info <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">glimpse</span>(api_info)</span>
-<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>api_categories <span class="ot">&lt;-</span> api_info <span class="sc">|&gt;</span></span>
-<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span>, <span class="st">"apisguru_category"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_longer</span>(<span class="st">"apisguru_category"</span>)</span>
-<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>api_info<span class="sc">$</span>apisguru_category <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>api_logos <span class="ot">&lt;-</span> api_info <span class="sc">|&gt;</span></span>
-<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span>, <span class="st">"logo"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"logo"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
-<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span><span class="st">"href"</span>)</span>
-<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>api_info<span class="sc">$</span>logo <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>api_origins <span class="ot">&lt;-</span> api_info <span class="sc">|&gt;</span></span>
-<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span>, <span class="st">"origin"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_longer</span>(<span class="st">"origin"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_wider</span>(<span class="st">"origin"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="st">"name"</span><span class="sc">:</span><span class="st">"version"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Some of the entries are duplicated.</span></span>
-<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>()</span>
-<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>api_info<span class="sc">$</span>origin <span class="ot">&lt;-</span> <span class="cn">NULL</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data provided by WHO Provisional measles and rubella data. Cleaning variable</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># names and fixing data types.</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>cases_month <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="fu">here</span>(<span class="st">"404-table-web-epi-curve-data.xlsx"</span>), <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(year<span class="sc">:</span>discarded, as.numeric)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>cases_year <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(<span class="fu">here</span>(<span class="st">"403-table-web-reporting-data.xlsx"</span>), <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_to_names</span>(<span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">country =</span> member_state,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">iso3 =</span> iso_country_code,</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_total=</span> number_of_measles_cases_by_confirmation_method,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_lab_confirmed =</span> na,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_epi_linked =</span> na_2,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">measles_clinical =</span> na_3,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_total =</span> number_of_rubella_cases_by_confirmation_method,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_lab_confirmed =</span> na_4,</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_epi_linked =</span> na_5,</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">rubella_clinical =</span> na_6</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="sc">-</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
