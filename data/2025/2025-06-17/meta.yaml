@@ -1,0 +1,18 @@
+title: "API Specs"
+article:
+  title: "Web APIs with R: Introduction"
+  url: "https://dslc-io.github.io/club-wapir/slides/intro.html"
+data_source:
+  title: "APIs.guru"
+  url: "https://apis.guru"
+images:
+# Please include at least one image, and up to three images
+- file: "apisguru.png"
+  alt: >
+    The logo of apis.guru, consisting of a stylized bee face, with a hexagonal head and hexagonal glasses.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

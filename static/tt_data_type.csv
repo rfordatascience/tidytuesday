@@ -1,4 +1,11 @@
 Week,Date,year,data_files,data_type,delim
+25,2025-06-24,2025,cases_month.csv,csv,","
+25,2025-06-24,2025,cases_year.csv,csv,","
+24,2025-06-17,2025,api_categories.csv,csv,","
+24,2025-06-17,2025,api_info.csv,csv,","
+24,2025-06-17,2025,api_logos.csv,csv,","
+24,2025-06-17,2025,api_origins.csv,csv,","
+24,2025-06-17,2025,apisguru_apis.csv,csv,","
 23,2025-06-10,2025,judges_appointments.csv,csv,","
 23,2025-06-10,2025,judges_people.csv,csv,","
 22,2025-06-03,2025,gutenberg_authors.csv,csv,","
