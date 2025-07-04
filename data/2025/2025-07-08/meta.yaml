@@ -1,0 +1,23 @@
+title: "The xkcd Color Survey Results"
+article:
+  title: "Color Survey Results"
+  url: "https://blog.xkcd.com/2010/05/03/color-survey-results/"
+data_source:
+  title: "xkcd Color Survey SQLite database"
+  url: "https://xkcd.com/color/colorsurvey.tar.gz"
+images:
+# Please include at least one image, and up to three images
+- file: "xkcd-colors.png"
+  alt: >
+    A 10x10 grid of roughly drawn squares each including a color from the
+    top 100 most common rgb monitor colors from the xkcd color survey. Purple is the most
+    used, and ochre is the 100th. There are lots of green squares. Color names are
+    printed under each square.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Nicola Rennie"
+  bluesky: "https://bsky.app/profile/nrennie.bsky.social"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
+  mastodon: "@nrennie@fosstodon"
+  github: "https://github.com/nrennie"
