@@ -226,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#weekly-us-gas-prices" id="toc-weekly-us-gas-prices" class="nav-link active" data-scroll-target="#weekly-us-gas-prices">Weekly US Gas Prices</a>
+  <li><a href="#the-xkcd-color-survey-results" id="toc-the-xkcd-color-survey-results" class="nav-link active" data-scroll-target="#the-xkcd-color-survey-results">The xkcd Color Survey Results</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -235,7 +235,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#weekly_gas_prices.csv" id="toc-weekly_gas_prices.csv" class="nav-link" data-scroll-target="#weekly_gas_prices.csv"><code>weekly_gas_prices.csv</code></a></li>
+  <li><a href="#answers.csv" id="toc-answers.csv" class="nav-link" data-scroll-target="#answers.csv"><code>answers.csv</code></a></li>
+  <li><a href="#color_ranks.csv" id="toc-color_ranks.csv" class="nav-link" data-scroll-target="#color_ranks.csv"><code>color_ranks.csv</code></a></li>
+  <li><a href="#users.csv" id="toc-users.csv" class="nav-link" data-scroll-target="#users.csv"><code>users.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -248,32 +250,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="weekly-us-gas-prices" class="level1">
-<h1>Weekly US Gas Prices</h1>
-<p>This week we’re exploring weekly US gas prices! The data comes from the U.S. Energy Information Administration (EIA), which publishes average retail gasoline and diesel prices each Monday. The original data (including additional datasets) can be found at <a href="https://www.eia.gov/petroleum/gasdiesel/">eia.gov/petroleum/gasdiesel</a>, and the weekly time series used here was downloaded from <a href="https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls">this XLS file</a>.</p>
-<p>Gas price methodology: &gt; “Every Monday, retail prices for all three grades of gasoline are collected mainly by telephone and email from a sample of approximately 1,000 retail gasoline outlets. The prices are published around 5:00 p.m. ET Monday, except on government holidays, when the data are released on Tuesday (but still represent Monday’s price). The reported price includes all taxes and is the cash pump price paid by a consumer as of 8:00 a.m. Monday. This price represents the self-serve price except in areas having only full-serve. The price data from the sample are used to calculate volume-weighted average gasoline price estimates at the national, regional, and selected city and state levels for all gasoline grades and formulations.”</p>
-<p>Diesel price methodology: &gt; “Every Monday, cash self-serve on-highway diesel prices (including taxes) are collected from a sample of approximately 590 retail diesel outlets in the continental United States. The sample includes a combination of truck stops and service stations that sell on-highway diesel fuel. The data represent the price of ultra low sulfur diesel (ULSD), which contains less than 15 parts-per-million sulfur. All collected prices are subjected to automated edit checks during data collection and data processing. Data flagged by the edits are verified with the respondents. Imputation is used for companies that cannot be contacted and for reported prices that are extreme outliers. The average survey response rate for 2020 was 98%. Average national and regional prices are released around 5:00 p.m. ET on Mondays, except on government holidays, in which case the data are released on Tuesday (but still represent Monday’s price).”</p>
+<section id="the-xkcd-color-survey-results" class="level1">
+<h1>The xkcd Color Survey Results</h1>
+<p>In 2010, the <a href="https://blog.xkcd.com/2010/05/03/color-survey-results/">xkcd Color Survey</a> asked hundreds of thousands of people to name colors they saw, revealing the different ways in which people perceive and label colors.</p>
+<blockquote class="blockquote">
+<p>Color is a really fascinating topic, especially since we’re taught so many different and often contradictory ideas about rainbows, different primary colors, and frequencies of light.</p>
+</blockquote>
 <ul>
-<li>How did gas prices behave during major events like the 2008 recession or COVID-19 pandemic?</li>
-<li>Are diesel prices more or less volatile than gasoline prices?</li>
-<li>Do different grades or formulations of gasoline follow similar trends?</li>
+<li>Which types of users were most accurate in naming colors?</li>
+<li>Which colors are mentioned most in the top 100 ranked color names?</li>
+<li>Which types of users are least likely to be spam users?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/nrennie">Nicola Rennie</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-07-01'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-07-08'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">26</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">27</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>weekly_gas_prices</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>answers <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>answers</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>color_ranks</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>users <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>users</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-01/weekly_gas_prices.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>answers <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/answers.csv'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/color_ranks.csv'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>users <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/users.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -281,11 +288,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-07-01'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-07-08'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-01/weekly_gas_prices.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>answers <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/answers.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/color_ranks.csv'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/users.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -293,14 +302,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-07-01'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-07-08'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-01/weekly_gas_prices.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-01/weekly_gas_prices.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>answers <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/answers.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/color_ranks.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/users.csv"</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>answers <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/answers.csv"</span>, DataFrame)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/color_ranks.csv"</span>, DataFrame)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>users <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/users.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -321,13 +334,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="weekly_gas_prices.csv" class="level3">
-<h3 class="anchored" data-anchor-id="weekly_gas_prices.csv"><code>weekly_gas_prices.csv</code></h3>
+<section id="answers.csv" class="level3">
+<h3 class="anchored" data-anchor-id="answers.csv"><code>answers.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 7%">
-<col style="width: 80%">
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 66%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -338,29 +351,97 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">The week-ending date for the reported fuel price.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">fuel</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">The type of fuel reported (gasoline or diesel).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">grade</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">The grade or specification of the fuel (for gasoline: all, regular, midgrade, or premium; for diesel: all, ultra_low_sulfur, low_sulfur).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">formulation</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">The formulation of the gasoline (all, conventional, or reformulated). Only applies to gasoline.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">price</td>
+<td style="text-align: left;">user_id</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">The average U.S. retail price per gallon in U.S. dollars for that fuel type.</td>
+<td style="text-align: left;">The id of the user who gave the answer.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hex</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Hex code of the color shown to a user.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rank</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The rank of the color that the user gave as the name of the color they were shown (join with <code>color_ranks</code>to get the color name answer given by the user). Note that this table is a subset of the full answers data where the <code>color_name_answer</code> was one of the names of the 5 top ranked colors in the <code>color_ranks</code> data.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="color_ranks.csv" class="level3">
+<h3 class="anchored" data-anchor-id="color_ranks.csv"><code>color_ranks.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">color</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The name of the color (for the 954 most common RGB monitor colors only).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rank</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The rank of the color.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hex</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The hex code of the color.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="users.csv" class="level3">
+<h3 class="anchored" data-anchor-id="users.csv"><code>users.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 16%">
+<col style="width: 62%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">user_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The id of the user.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">monitor</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The user’s monitor type.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">y_chromosome</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Whether or not the user reported having a Y chromosome. The data was recorded in this way since chromosomal sex is related to colorblindness.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">colorblind</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Whether or not the user reported being colorblind.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">spam_prob</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Probability of the user being a spam user.</td>
 </tr>
 </tbody>
 </table>
@@ -368,45 +449,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data downloaded manually from</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls to tempdir.</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>file_path <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">path_temp</span>(<span class="st">"PET_PRI_GND_DCUS_NUS_W.xls"</span>)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>weekly_gas_prices <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_xls</span>(file_path, <span class="at">sheet =</span> <span class="st">"Data 1"</span>, <span class="at">skip =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> <span class="st">"Date"</span>,</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.all.all =</span> <span class="st">"Weekly U.S. All Grades All Formulations Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.all.conventional =</span> <span class="st">"Weekly U.S. All Grades Conventional Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.all.reformulated =</span> <span class="st">"Weekly U.S. All Grades Reformulated Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.regular.all =</span> <span class="st">"Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.regular.conventional =</span> <span class="st">"Weekly U.S. Regular Conventional Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.regular.reformulated =</span> <span class="st">"Weekly U.S. Regular Reformulated Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.midgrade.all =</span> <span class="st">"Weekly U.S. Midgrade All Formulations Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.midgrade.conventional =</span> <span class="st">"Weekly U.S. Midgrade Conventional Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.midgrade.reformulated =</span> <span class="st">"Weekly U.S. Midgrade Reformulated Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.premium.all =</span> <span class="st">"Weekly U.S. Premium All Formulations Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.premium.conventional =</span> <span class="st">"Weekly U.S. Premium Conventional Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">gasoline.premium.reformulated =</span> <span class="st">"Weekly U.S. Premium Reformulated Retail Gasoline Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">diesel.all =</span> <span class="st">"Weekly U.S. No 2 Diesel Retail Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">diesel.ultra_low_sulfur =</span> <span class="st">"Weekly U.S. No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices  (Dollars per Gallon)"</span>,</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">diesel.low_sulfur =</span> <span class="st">"Weekly U.S. No 2 Diesel Low Sulfur (15-500 ppm) Retail Prices  (Dollars per Gallon)"</span></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">date =</span> <span class="fu">as.Date</span>(date)) <span class="sc">|&gt;</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="sc">-</span>date,</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"fuel_spec"</span>,</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"price"</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(price)) <span class="sc">|&gt;</span></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">separate_wider_delim</span>(</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> fuel_spec,</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">delim =</span> <span class="st">"."</span>,</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">names =</span> <span class="fu">c</span>(<span class="st">"fuel"</span>, <span class="st">"grade"</span>, <span class="st">"formulation"</span>),</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">too_few =</span> <span class="st">"align_start"</span></span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(<span class="fu">c</span>(fuel, grade, formulation), as.factor)</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by https://github.com/nrennie/xkcd-color-survey/. No further cleaning was necessary.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>color_ranks <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/nrennie/xkcd-color-survey/main/data/clean/color_ranks.csv"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>answers <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/nrennie/xkcd-color-survey/main/data/clean/answers.csv"</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>users <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/nrennie/xkcd-color-survey/main/data/clean/users.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
