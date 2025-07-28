@@ -55,18 +55,19 @@ if (length(credit_github)) {
 
 fs::file_copy(fs::path(src_dir, "meta.yaml"), target_dir)
 
+max_bsky_size <- fs::fs_bytes("976.56KB")
 metadata$images |> 
   purrr::walk(
     \(image) {
       original_img_path <- fs::path(src_dir, image$file)
       original_img_size <- fs::file_size(original_img_path)
-      if (original_img_size >= fs::fs_bytes("1MB")) {
+      if (original_img_size >= max_bsky_size) {
         # Round down to make sure we're *under* 1MB. This isn't actually
         # guaranteed to work because image size isn't directly proportional to
         # file size, but it seems to err on the side of making things smaller
         # than they need to be.
         ratio <- floor(
-          as.integer(fs::fs_bytes("1MB"))/as.integer(original_img_size)*95
+          as.integer(max_bsky_size)/as.integer(original_img_size)*95
         )
         magick::image_read(original_img_path) |> 
           magick::image_resize(
