@@ -36,7 +36,7 @@ shows <- read_and_combine_sheets(excel_files, "TV") %>%
   row_to_names(4) %>%
   clean_names() %>%
   rename(source = x1_what_we_watched_a_netflix_engagement_report_2025jan_jun) %>%
- mutate(report = str_sub(source, -11), .before = title) %>%
+  mutate(report = str_sub(source, -11), .before = title) %>%
   mutate(release_date = ymd(release_date), 
          hours_viewed = as.numeric(hours_viewed),
          runtime = hm(runtime),
