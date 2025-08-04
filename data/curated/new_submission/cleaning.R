@@ -1,5 +1,6 @@
-# Clean data *and* sample instructions for use in R provided by <source of
-# data>. Minimal cleaning applied.
+# Clean data *and* sample instructions for use in R provided by Our World in
+# Data via https://ourworldindata.org/income-inequality-before-and-after-taxes.
+# Minimal cleaning applied.
 
 library(tidyverse)
 library(jsonlite)
