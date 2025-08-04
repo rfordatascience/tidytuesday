@@ -1,0 +1,18 @@
+title: "Income Inequality Before and After Taxes"
+article:
+  title: "Income inequality before and after taxes: how much do countries redistribute income?"
+  url: "https://ourworldindata.org/income-inequality-before-and-after-taxes"
+data_source:
+  title: "Our World in Data"
+  url: "https://ourworldindata.org"
+images:
+# Please include at least one image, and up to three images
+- file: "reduction-in-income-inequality.png"
+  alt: >
+    Bar chart titled 'Reduction in income inequality before and after tax, 2023,' showing the percentage reduction in the Gini coefficient of income due to taxes and benefits. The chart ranks 11 countries by their reduction percentage. Belgium leads with a 37.5% reduction, followed by Ireland at 35.7%, and Germany at 26%. Mexico shows the smallest reduction at 2.5%. Other countries in descending order include the UK (21.4%), US (17%), Japan (16.6%), Turkey (16.3%), South Korea (14.6%), Brazil (13.4%), and Chile (6%). The chart includes footnotes explaining the Gini coefficient and income equalization. Source: OECD (2024), via Our World in Data, https://ourworldindata.org/income-inequality-before-and-after-taxes.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
