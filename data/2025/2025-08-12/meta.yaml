@@ -1,13 +1,13 @@
-title: Extreme Weather Attribution Studies
+title: "Extreme Weather Attribution Studies"
 article:
   title: "Mapped: How climate change affects extreme weather around the word."
-  url: https://interactive.carbonbrief.org/attribution-studies/index.html
+  url: "https://interactive.carbonbrief.org/attribution-studies/index.html"
 data_source:
-  title: Carbon Brief
-  url: https://carbonbrief.org
+  title: "Carbon Brief"
+  url: "https://carbonbrief.org"
 images:
 # Please include at least one image, and up to three images
-- file: extremes.png
+- file: "extremes.png"
   alt: >
     World map showing distribution of 735 climate
     attribution studies results by region, with circles sized by study
@@ -17,6 +17,6 @@ images:
 credit:
 # We want to thank you for curating this dataset! If you do not want a
 # particular type of credit, please delete the related line.
-  post: Rajo
-  bluesky: https://bsky.app/profile/rajodm.bsky.social
-  github: https://github.com/rajodm
+  post: "Rajo"
+  bluesky: "https://bsky.app/profile/rajodm.bsky.social"
+  github: "https://github.com/rajodm"
