@@ -7,7 +7,7 @@
 |iso_country_code  |character |Three-character ISO country code(s), with multiple countries separated by commas for multi-country studies (e.g.: "KEN, SOM"). |
 |cb_region         |character |The geographic region classification used by Carbon Brief (Based on UN classification). |
 |event_type        |character |The type of extreme weather event or trend discussed in the study. |
-|classification    |character |How climate change have made the studied event: "More severe or more likely to occur", "No discernible human influence", "Insufficient data/inconclusive", "Decrease, less severe or less likely to occur". |
+|classification    |character |How climate change has affected the studied event: "More severe or more likely to occur", "No discernible human influence", "Insufficient data/inconclusive", "Decrease, less severe or less likely to occur". |
 |summary_statement |character |The authors' key findings. |
 |publication_year  |double    |The year when the study was published. |
 |citation          |character |The full citation for the study. |
