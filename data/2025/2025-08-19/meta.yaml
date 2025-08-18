@@ -1,0 +1,20 @@
+title: "Scottish Munros"
+article:
+  title: "The Accuracy of The Munro Society Heighting Surveys"
+  url: "https://www.hills-database.co.uk/TMS_heighting_accuracy.pdf"
+data_source:
+  title: "Database of British and Irish hills"
+  url: "https://www.hills-database.co.uk/downloads.html"
+images:
+# Please include at least one image, and up to three images
+- file: "ben_vane.png"
+  alt: >
+    A photograph of the equipment set up on the summit for measuring the height of Ben Vane under very foggy conditions, with three figures barely visible through the fog.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Nicola Rennie"
+  bluesky: "https://bsky.app/profile/nrennie.bsky.social"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"
+  github: "https://github.com/nrennie"
