@@ -5,7 +5,7 @@ the book [Uncharted Territory: What Numbers Tell Us about the Biggest Hit Songs 
 It also often powers his newsletter [Can't Get Much Higher](https://www.cantgetmuchhigher.com/). 
 
 > 7 years ago, I decided that I was going to listen to every number one hit. Along the way, I tracked an absurd amount of information about each song. 
-Using that information, I wrote a data-driven history of popular music covering 1958 through today.
+> Using that information, I wrote a data-driven history of popular music covering 1958 through today.
 
 
 - Have #1 hits become shorter over time?
