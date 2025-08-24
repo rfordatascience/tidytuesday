@@ -1,0 +1,20 @@
+title: "Australian Frogs"
+article:
+  title: "The FrogID Dataset 6.0 – nearly one million frog records now published open-access and online!"
+  url: "https://australian.museum/blog/amri-news/frogid-dataset-6/e"
+data_source:
+  title: "FrogID dataset 6.0"
+  url: "https://www.frogid.net.au/explore"
+images:
+# Please include at least one image, and up to three images
+- file: "FrogID_app_in_hand.png"
+  alt: >
+    An outstretched hand holding a smartphone that displays the FrogID app recording a frog call, with a creek and some wet greenery in the background.
+- file: "Litoria_pyrina.png"
+  alt: >
+    Close-up of a small brown frog with an inflated vocal sac in amongst wet brown reeds.
+credit:
+  post: "Jessica Moore"
+  github: "@jessjep"
+  bluesky: "@jessimoore.bsky.social"
+  linkedin: "@jmooretn"
