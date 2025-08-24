@@ -1,5 +1,4 @@
-# Clean data provided by Chris Dalla Riva Billboard Hot 100 Number Ones Database Google Sheet
-# No cleaning was necessary.
+# Mostly clean data by Chris Dalla Riva Billboard Hot 100 Number Ones Database Google Sheet
 
 library(googlesheets4)
 library(janitor)
