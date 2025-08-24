@@ -1,3 +1,98 @@
+# Billboard Hot 100 Number Ones
+
+This week we are exploring the [Billboard Hot 100 Number Ones Database](https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090).
+This workbook contains substantial data about every song to ever top the Billboard Hot 100 
+between August 4, 1958 and January 11, 2025. It was compiled by Chris Dalla Riva as he wrote 
+the book [Uncharted Territory: What Numbers Tell Us about the Biggest Hit Songs and Ourselves](https://bio.site/uncharted_territory). 
+It also often powers his newsletter [Can't Get Much Higher](https://www.cantgetmuchhigher.com/). 
+
+> 7 years ago, I decided that I was going to listen to every number one hit. Along the way, I tracked an absurd amount of information about each song. 
+> Using that information, I wrote a data-driven history of popular music covering 1958 through today.
+
+
+- Have \#1 hits become shorter over time?
+- Does the relation between artist age and chart success change across time?
+- Which keys are most common in \#1 hits?  Do our key preferences differ by genre?
+- What lyrical topics have dominated \#1 hits across different decades? 
+- How has the prevalence of explicit content changed over time?
+
+Thank you to [Jen Richmond (R-Ladies Sydney)](https://github.com/jenrichmond) for curating this week's dataset.
+
+## The Data
+
+```r
+# Using R
+# Option 1: tidytuesdayR R package 
+## install.packages("tidytuesdayR")
+
+tuesdata <- tidytuesdayR::tt_load('2025-08-26')
+## OR
+tuesdata <- tidytuesdayR::tt_load(2025, week = 34)
+
+billboard <- tuesdata$billboard
+topics <- tuesdata$topics
+
+# Option 2: Read directly from GitHub
+
+billboard <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv')
+topics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv')
+```
+
+```python
+# Using Python
+# Option 1: pydytuesday python library
+## pip install pydytuesday
+
+import pydytuesday
+
+# Download files from the week, which you can then read in locally
+pydytuesday.get_date('2025-08-26')
+
+# Option 2: Read directly from GitHub and assign to an object
+
+billboard = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv')
+topics = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv')
+```
+
+```julia
+# Using Julia
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
+
+using TidierTuesday
+
+# Download files from the week, which you can then read in locally
+download_dataset('2025-08-26')
+
+# Option 2: Read directly from GitHub and assign to an object with TidierFiles
+
+billboard = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv")
+topics = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv")
+
+# Option 3: Read directly from Github and assign without Tidier dependencies
+billboard = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv", DataFrame)
+topics = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv", DataFrame)
+```
+
+
+## How to Participate
+
+- [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
+- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
+- [Share your output and the code used to generate it](../../../sharing.md) on social media with the #TidyTuesday hashtag.
+- [Submit your own dataset!](../../../pr_instructions.md)
+
+### PydyTuesday: A Posit collaboration with TidyTuesday
+
+- Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
+- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
+
+
+## Data Dictionary
+
+### `billboard.csv`
+
 |variable                                     |class     |description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |:--------------------------------------------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |song                                         |list      |Song Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -105,3 +200,30 @@
 |double_a_side                                |character |Notes if the song were considered a double A-sided single. If so, the other side of the record is listed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |eurovision_entry                             |numeric   |Dummy for if the song was entered into the annual Eurovision music competition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |u_s_artwork                                  |character |Description of U.S. Single Artwork. "Cannot Find" means that the artwork could not be reliably located. All artwork before the year 2000 was located on https://discogs.com. Since digital music rose around that time, I begin consulting digital music stores and streaming services for artwork after 2000. If you would like to download the artwork, please follow this link.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+### `topics.csv`
+
+|variable       |class     |description                           |
+|:--------------|:---------|:-------------------------------------|
+|lyrical_topics |character |Main topic of the lyrics |
+
+## Cleaning Script
+
+```r
+# Mostly clean data by Chris Dalla Riva Billboard Hot 100 Number Ones Database
+# Google Sheet
+
+library(googlesheets4)
+library(janitor)
+
+billboard <- read_sheet(
+  "https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090",
+  sheet = 2,
+  na = c("", "N/A")
+) %>%
+  clean_names()
+
+topics <- read_sheet("https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090", sheet = 4) %>%
+  clean_names()
+
+```
