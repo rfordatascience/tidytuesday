@@ -8,10 +8,10 @@ It also often powers his newsletter [Can't Get Much Higher](https://www.cantgetm
 > Using that information, I wrote a data-driven history of popular music covering 1958 through today.
 
 
-- Have #1 hits become shorter over time?
+- Have \#1 hits become shorter over time?
 - Does the relation between artist age and chart success change across time?
-- Which keys are most common in #1 hits?  Do our key preferences differ by genre?
-- What lyrical topics have dominated #1 hits across different decades? 
+- Which keys are most common in \#1 hits?  Do our key preferences differ by genre?
+- What lyrical topics have dominated \#1 hits across different decades? 
 - How has the prevalence of explicit content changed over time?
 
 
