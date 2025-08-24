@@ -1,7 +1,7 @@
 ## Dataset Review
 
 We identify, curate, and post a new dataset every week, 51 weeks per year.
-To make that possible, we welcome [dataset submissions](https://github.com/rfordatascience/tidytuesday?tab=readme-ov-file#submitting-datasets).
+To make that possible, we welcome [dataset idea submissions](dataset_idea.md).
 Once submitted, we need to verify that each dataset meets our standards.
 
 You can help us identify usable datasets!
