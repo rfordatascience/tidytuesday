@@ -8,8 +8,8 @@ data_source:
 images:
 # Please include at least one image, and up to three images
 - file: "artists.png"
-  alt: >
-    This line chart shows the percentage of Billboard #1 hits by three demographic categories from 1942-1966: "Black artists (dotted line), Groups with Women (solid black line), and Black Women (solid line with dots).The data shows significant fluctuations across all three categories, with Black artists generally showing the most dramatic changes - rising from around 2% in 1942 to peaks of 15% in the late 1940s, then reaching 35% in 1961 before declining. Groups with women maintain more consistent representation between 5-20% throughout the period. Black women specifically show gradual increases from near 0% to  around 5% in the late-1950s, peaking close to 20% in the mid-1960s."
+  alt: |
+    This line chart shows the percentage of Billboard #1 hits by three demographic categories from 1942-1966: Black artists (dotted line), Groups with Women (solid black line), and Black Women (solid line with dots).The data shows significant fluctuations across all three categories, with Black artists generally showing the most dramatic changes - rising from around 2% in 1942 to peaks of 15% in the late 1940s, then reaching 35% in 1961 before declining. Groups with women maintain more consistent representation between 5-20% throughout the period. Black women specifically show gradual increases from near 0% to  around 5% in the late-1950s, peaking close to 20% in the mid-1960s.
 credit:
   post: "Jen Richmond (R-Ladies Sydney)"
   github: "@jenrichmond"
