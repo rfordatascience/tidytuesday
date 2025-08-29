@@ -1,0 +1,20 @@
+title: "Henley Passport Index Data"
+article:
+  title: "US slips again in passport power rankings"
+  url: "https://edition.cnn.com/2025/07/22/travel/world-most-powerful-passports-july-2025"
+data_source:
+  title: "Henley Passport Index Data"
+  url: "https://api.henleypassportindex.com/api/v3/countries"
+images:
+# Please include at least one image, and up to three images
+- file: "passport.jpg"
+  alt: >
+    An open passport displaying multiple colorful visa stamps and entry/exit stamps on its pages. The passport appears to be resting on a white surface, with various stamps visible including what looks like arrival and departure dates. The stamps show different colors including red, blue, and black ink, indicating travel to multiple countries. The passport's pages are fanned open to show the collection of travel documentation.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Brenden Smith and Jen Richmond"
+  bluesky: "@beesm.bsky.social @jenrichmondphd.bsky.social"
+  linkedin: "@brendenmsmith  @jenrichmondphd"
+  mastodon: "@jenrichmondPhD"
+  github: "@brendensm @jenrichmond"
