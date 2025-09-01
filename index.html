@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,10 +71,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a6cb8b00d52e44bfe076b25afc5475c7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-94599a0eca3b0000ac8b8cb7c63e4b76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -226,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#billboard-hot-100-number-ones" id="toc-billboard-hot-100-number-ones" class="nav-link active" data-scroll-target="#billboard-hot-100-number-ones">Billboard Hot 100 Number Ones</a>
+  <li><a href="#australian-frogs" id="toc-australian-frogs" class="nav-link active" data-scroll-target="#australian-frogs">Australian Frogs</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -235,8 +235,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#billboard.csv" id="toc-billboard.csv" class="nav-link" data-scroll-target="#billboard.csv"><code>billboard.csv</code></a></li>
-  <li><a href="#topics.csv" id="toc-topics.csv" class="nav-link" data-scroll-target="#topics.csv"><code>topics.csv</code></a></li>
+  <li><a href="#frogid_data.csv" id="toc-frogid_data.csv" class="nav-link" data-scroll-target="#frogid_data.csv"><code>frogID_data.csv</code></a></li>
+  <li><a href="#frog_names.csv" id="toc-frog_names.csv" class="nav-link" data-scroll-target="#frog_names.csv"><code>frog_names.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -249,37 +249,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="billboard-hot-100-number-ones" class="level1">
-<h1>Billboard Hot 100 Number Ones</h1>
-<p>This week we are exploring the <a href="https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090">Billboard Hot 100 Number Ones Database</a>. This workbook contains substantial data about every song to ever top the Billboard Hot 100 between August 4, 1958 and January 11, 2025. It was compiled by Chris Dalla Riva as he wrote the book <a href="https://bio.site/uncharted_territory">Uncharted Territory: What Numbers Tell Us about the Biggest Hit Songs and Ourselves</a>. It also often powers his newsletter <a href="https://www.cantgetmuchhigher.com/">Can’t Get Much Higher</a>.</p>
+<section id="australian-frogs" class="level1">
+<h1>Australian Frogs</h1>
+<p>This week we’re exploring 2023 data from the sixth annual release of <a href="https://www.frogid.net.au/explore">FrogID data</a>.</p>
+<p>FrogID is an Australian frog call identification initiative. The FrogID mobile app allows citizen scientists to record and submit frog calls for museum experts to identify. Since 2017, FrogID data has contributed to over 30 scientific papers exploring frog ecology, taxonomy, and conservation.</p>
 <blockquote class="blockquote">
-<p>7 years ago, I decided that I was going to listen to every number one hit. Along the way, I tracked an absurd amount of information about each song. Using that information, I wrote a data-driven history of popular music covering 1958 through today.</p>
+<p>Australia is home to a unique and diverse array of frog species found almost nowhere else on Earth, with 257 native species distributed throughout the continent. But Australia’s frogs are in peril – almost one in five species are threatened with extinction due to threats such as climate change, urbanisation, disease, and the spread of invasive species.</p>
 </blockquote>
-<ul>
-<li>Have #1 hits become shorter over time?</li>
-<li>Does the relation between artist age and chart success change across time?</li>
-<li>Which keys are most common in #1 hits? Do our key preferences differ by genre?</li>
-<li>What lyrical topics have dominated #1 hits across different decades?</li>
-<li>How has the prevalence of explicit content changed over time?</li>
-</ul>
-<p>Thank you to <a href="https://github.com/jenrichmond">Jen Richmond (R-Ladies Sydney)</a> for curating this week’s dataset.</p>
+<p>Some questions you might explore: - Are there species that are endemic to certain regions? - Do different frog species have distinct calling seasons? - Which species has the widest geographic range? Which is the rarest?</p>
+<p>Primary citation for FrogID data: Rowley JJL, &amp; Callaghan CT (2020) The FrogID dataset: expert-validated occurrence records of Australia’s frogs collected by citizen scientists. ZooKeys 912: 139-151</p>
+<p>Official frog name data: Australian Society of Herpetologists Official List of Australian Species. 2025. http://www.australiansocietyofherpetologists.org/ash-official-list-of-australian-species.</p>
+<p>Thank you to <a href="https://github.com/jessjep">Jessica Moore</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-08-26'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-09-02'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">34</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">35</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>billboard <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>billboard</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>topics <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>topics</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>frogID_data</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>frog_names</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>billboard <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>topics <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -287,12 +284,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-08-26'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-09-02'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>billboard <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>topics <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -300,16 +297,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-08-26'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-09-02'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>billboard <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>topics <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv"</span>)</span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>billboard <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/billboard.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>topics <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-26/topics.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -330,13 +327,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="billboard.csv" class="level3">
-<h3 class="anchored" data-anchor-id="billboard.csv"><code>billboard.csv</code></h3>
+<section id="frogid_data.csv" class="level3">
+<h3 class="anchored" data-anchor-id="frogid_data.csv"><code>frogID_data.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 3%">
-<col style="width: 0%">
-<col style="width: 96%">
+<col style="width: 38%">
+<col style="width: 12%">
+<col style="width: 48%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -347,536 +344,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">song</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Song Name</td>
+<td style="text-align: left;">occurrenceID</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Occurrence ID.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">artist</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Artist Name</td>
+<td style="text-align: left;">eventID</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Event ID.</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">decimalLatitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Latitude of frog recording.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">decimalLongitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Longitude of frog recording.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">scientificName</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Scientific frog name.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">eventDate</td>
 <td style="text-align: left;">date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">First Week to Hit Number One</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">weeks_at_number_one</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Collective (Consecutive and Non-Consecutive) Weeks at Number One</td>
+<td style="text-align: left;">Date of recording.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">non_consecutive</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if it were number one in non-consecutive weeks</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">rating_1</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Rating between 1 and 10, inclusive, provided by judge 1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">rating_2</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Rating between 1 and 10, inclusive, provided by judge 2</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">rating_3</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Rating between 1 and 10, inclusive, provided by judge 3</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">overall_rating</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Sample mean of Rating 1, Rating 2, and Rating 3</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">divisiveness</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Average absolute pairwise distance between all ratings, ranging from 0.0 to 6.0, inclusive</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">label</td>
+<td style="text-align: left;">eventTime</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Record Label that released the song</td>
+<td style="text-align: left;">Time of recording in 24-hour format.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">parent_label</td>
+<td style="text-align: left;">timezone</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The larger label or entity that owns the label that released the song, if any</td>
+<td style="text-align: left;">Time zone of recording.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">cdr_genre</td>
+<td style="text-align: left;">coordinateUncertaintyInMeters</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Uncertainty of coordinates. Exact locality is buffered for sensitive or endangered species.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">recordedBy</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">User ID.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">stateProvince</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Genre as assigned by Chris Dalla Riva and Vinnie Christopher.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">cdr_style</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Sub-genre as assigned by Chris Dalla Riva and Vinnie Christopher.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">discogs_genre</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Genre as assigned by Discogs.com. See https://blog.discogs.com/en/genres-and-styles/ for more information.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">discogs_style</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Style as assigned by Discogs.com. Style is Discogs’ equivalent of sub-genre. If there is no style listed, “None” is listed. See https://blog.discogs.com/en/genres-and-styles/ for more information.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_structure</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">0 means it is a group of three or more people. 1 means it is a solo act. 2 means it is a duo. If the number is followed by 0.5, then it means that there is at least one featured artist listed.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">featured_artists</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">List of notable featured artists, along with what they did on the track, whether they were credited or not.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">multiple_lead_vocalists</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains multiple people singing/rapping the lead vocal</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">group_named_after_non_lead_singer</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the group is named after someone who isn’t the lead singer (e.g., The J. Geils Band is named for the lead guitar player, not the singer)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">talent_contestant</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the artist became well known through a television talent competition. If so, the talent competition is listed (e.g., American Idol)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">posthumous</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the artist were dead when the song got to number one</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_place_of_origin</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The country that the artist was born in.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">front_person_age</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Age of the frontperson or bandleader on the song. If there are multiple, the average is taken. This is not necessarily the lead singer. If blank, then the age(s) could not be accurately located or age did not make sense (i.e., the band was animated).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_male</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the artist were a male or a group of males at the time of the release. If 0, the artist or group was all female. If 1, the artist or group was all male. If 2, the artist has a mix of males and females. If 3, the artist contains at least one non-binary person.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">artist_white</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the artist was white, meaning that their ancestry was of European origin. If 0, the artist was not white. If 1, the artist was white. If 2, the artist has members that are both white and not white.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_black</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the artist was black, meaning that their ancestry was of African origin. If 0, the artist was not black. If 1, the artist was black. If 2, the artist has members that are both black and not black.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">songwriters</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Songwriters from BMI/ASCAP Songview database. If they do not have the information, it comes from The Billboard Book of Number One Hits by Fred Bronson. If Bronson does not have the information, it comes from Spotify song credits.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">songwriters_w_o_interpolation_sample_credits</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Songwriters from “Songwriters” field, excluding credits for writers who are being interpolated or sampled.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">songwriter_male</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the songwriter were a male or a group of males at the time of the release. If 0, the songwriter or group of songwriters was all female. If 1, the songwriter or group of songwriters was all male. If 2, the songwriters were a mix of males and females. If 3, the songwriters were a mix of males, females, and non-binary persons.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">songwriter_white</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the songwriteres were white, meaning that their ancestry was of European origin. If 0, the songwriters were not white. If 1, the songwriters were white. If 2, the songwriters has members that are both white and not white.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">artist_is_a_songwriter</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the Artist is one of the songwriters</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_is_only_songwriter</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the Artist is the only songwriter</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">producers</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Producers from Tidal’s production credits. If Tidal doesn’t have the information, it comes from Fred Bronson’s The Billboard Book of Number One Hits. If Bronson does not have the information, it comes from Spotify production credits.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">producer_male</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the producer were a male or a group of males at the time of the release. If 0, the producer or producers were all female. If 1, the producer or producers were all female. If 2, the producers were a mix of males and females. If 3, the songwriters were a mix of males, females, and non-binary persons.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">producer_white</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the producers were white, meaning that their ancestry was of European origin. If 0, the producers were not white. If 1, the producers were not white. If 2, the producers were composed of both white and not white persons.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">artist_is_a_producer</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the Artist is one of the producers</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">artist_is_only_producer</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the artist is the only producer</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">songwriter_is_a_producer</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if one of the songwriters is one of the producers</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">time_signature</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Time Signature</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">keys</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Key that most captures a song. Key changes are seperated by a semi-colon. A percent sign (%) indicates that the song never returns to its original key. An ampersand (&amp;) indicates an energy key change, or a key change that takes the song either up one or two half steps.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">simplified_key</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">If the song has a single key, it is again listed here. If it has mutliple keys “Multiple Keys” is listed unless the only key change is an energy key change. In that case, the first key is listed.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">bpm</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Beats per minute as provided by Spotify</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">energy</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Energy measure from 0 to 100 as provided by Spotify</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">danceability</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Danceability measure from 0 to 100 as provided by Spotify</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">happiness</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Happiness measure from 0 to 100 as provided by Spotify</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">loudness_d_b</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Loudness measured in decibels as provided by Spotify</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">acousticness</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Probability between 0 and 100 that a song is acoustic from Spotify</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">vocally_based</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is largely based around a vocal. This does not indicate if the song has a vocal, just if the arrangement is largely fleshed out by human voice, like “Don’t Worry Be Happy” by Bobby McFerrin or “Blue Moon” by The Marcels. Please note that the vocal can be a sample (e.g., “Slow Jamz” by Kanye West)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">bass_based</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is largely based around a bass guitar or synth. This does not indicate if the song has a bass, just if the arrangement is largely fleshed out by bass.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">guitar_based</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is largely based around a guitar. This does not indicate if the song has a guitar, just if the arrangement is largely fleshed out by guitar.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">piano_keyboard_based</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is largely based around a piano or a keyboard. This does not indicate if the song has a piano or keyboard, just if the arrangement is largely fleshed out by one of those instruments.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">orchestral_strings</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a string section</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">horns_winds</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a horn and/or wind section</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">accordion</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains an accordion</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">banjo</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a banjo</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">bongos</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains bongos</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">clarinet</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a clarinet</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cowbell</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a cowbell</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">falsetto_vocal</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a falsetto vocal</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">flute_piccolo</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a flute or piccolo</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">handclaps_snaps</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains handclaps or snaps</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">harmonica</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a harmonica</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">human_whistling</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains human whistling</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">kazoo</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a kazoo</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mandolin</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a mandolin</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">pedal_lap_steel</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a pedal or lap steel</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ocarina</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains an ocarina</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">saxophone</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a saxophone</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">sitar</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a sitar</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">trumpet</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a trumpet</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ukulele</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a ukulele</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">violin</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains a violin</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">sound_effects</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the song contains any pre-recorded sound effects and, if so, what they are.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">song_structure</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Captures the general structure of the song. ‘A1’ means only verses with no refrain. ‘A2’ means verses with a refrain at the beginning or end. ‘A3’ means a lyrical intro and then verses with a refrain at the beginning or end. ‘A4’ means a lyrical intro and then verses with no refrain. ‘C1’ means verse and chorus. ‘C2’ means a lyrical intro, verse, and chorus. ‘C3’ means verse, pre-chorus, chorus. ‘C4’ means verse, pre-chorus, chorus, post-chorus. ‘C5’ means verse, chorus, post-chorus. ‘C6’ means intro, verse, pre-chorus, chorus. ‘C7’ means intro, verse, pre-chorus, chorus, post-chorus. ‘D1’ means verse with a refrain at the beginning or end and a bridge. ‘D3’ means a lyrical intro then a verse with a refrain at the beginning or end and then a bridge. ‘E1’ means verse, chorus, and bridge. ‘E2’ means verse with a refrain at the beginning or end then a chorus and a bridge. ‘E3’ means a verse, pre-chorus, chorus, and bridge. ‘E4’ means a verse, pre-chorus, chorus, post-chorus, and bridge. ‘E5’ means a verse, chorus, post-chorus, and bridge. ‘E6’ means an Intro, Verse, Chorus, Bridge. ‘E7’ means verse with a refrain at the beginning or end then a pre-chorus, chorus, and bridge. ‘F’ means 4 or more sections. ‘I’ means it is an instrumental. If a structure has a ‘V’ at the end, it means that it is a non-rap song with a single rap verse.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">rap_verse_in_a_non_rap_song</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains at least one rapped verse despite not being a rap song</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">length_sec</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Song length in seconds</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">instrumental</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if it is an instrumental. Note that if a song contains little to no vocals, it is still considered an instrumental (e.g., “Harlem Shake” by Baauer)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">instrumental_length_sec</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Length of time, in seconds, that does not contain a vocalist singing lyrics</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">intro_length_sec</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Length of time, in seconds, before the first verse or chorus at the beginning of the song. Hooks are classified as introductions even if they repeat throughout.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">vocal_introduction</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if a song contains a vocal introduction, meaning a vocal section that appears at the beginning of the song and then not again.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">free_time_vocal_introduction</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if a song contains a free time vocal introduction, meaning a vocal section with tempo rubato that appears at the beginning of the song and then not again.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">fade_out</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song fades out</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">live</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is a live recording from a concert</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cover</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is a cover, meaning the artist did not write the song and they were not the first person/group to record the song.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">sample</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains samples the recording of another song. This does not include interpolation/recording of parts of other songs. If a song is an English translation of a song in another language, it is still considered a cover.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">interpolation</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if a song uses a musical or lyrical element from another existing song but re-records it themselves and is not a complete cover.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">inspired_by_a_different_song</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if a song is a cover or contains sampled/interpolated elements</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">lyrics</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Text of lyrics as provided by http://azlyrics.com. If http://azlyrics.com did not have the lyrics, then http://genius.com is used.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">lyrical_topic</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Main topic of lyrics as assigned by Author. For a list of topics, see <lyrical topics=""> tab.</lyrical></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">lyrical_narrative</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the lyrics follow a narrative, meaning a story with a loose beginning, middle, and end</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">spoken_word</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song contains spoken word lyrics. Note this does not included rapped verses.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">explicit</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if Spotify labels the song as explicit, if the song contains expletives, or if it is overly sexual, violent, or related to drugs for the time of its release. A word is considered an expletive if it is one of the following: ‘ass’, ‘bastard’, ‘bitch’, ‘cock’, ‘cunt’, ‘damn’, ‘dick’, ‘faggot’, ‘fuck’, ‘hell’, ‘piss’, ‘shit’, ‘twat’, all racial epithets, and all derivative words and phrases from this list.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">foreign_language</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if there are any non-English lyrics.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">written_for_a_play</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song was originally written for a play</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">featured_in_a_then_contemporary_play</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the song was featured in a play around the time it topped the charts. If so, the play is listed. Please note that this does not mean the song was written for the play.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">written_for_a_film</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song was originally written for a film</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">featured_in_a_then_contemporary_film</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the song was featured in a film around the time it topped the charts. If so, the film is listed. Please note that this does not mean the song was written for the film.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">written_for_a_t_v_show</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song was originally written for a T.V. show</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">featured_in_a_then_contemporary_t_v_show</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the song was featured in a T.V. show around the time it topped the charts. If so, the T.V. show is listed. Please note that this does not mean the song was written for the T.V. show.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">associated_with_dance</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song is known to have inspired people do a certain dance while it plays</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">topped_the_charts_by_multiple_artist</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if separate recordings of the song got to number one by different artists</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">double_a_side</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Notes if the song were considered a double A-sided single. If so, the other side of the record is listed.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">eurovision_entry</td>
-<td style="text-align: left;">numeric</td>
-<td style="text-align: left;">Dummy for if the song was entered into the annual Eurovision music competition</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">u_s_artwork</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Description of U.S. Single Artwork. “Cannot Find” means that the artwork could not be reliably located. All artwork before the year 2000 was located on https://discogs.com. Since digital music rose around that time, I begin consulting digital music stores and streaming services for artwork after 2000. If you would like to download the artwork, please follow this link.</td>
+<td style="text-align: left;">State or territory.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="topics.csv" class="level3">
-<h3 class="anchored" data-anchor-id="topics.csv"><code>topics.csv</code></h3>
+<section id="frog_names.csv" class="level3">
+<h3 class="anchored" data-anchor-id="frog_names.csv"><code>frog_names.csv</code></h3>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 14%">
+<col style="width: 54%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -886,9 +418,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">lyrical_topics</td>
+<td style="text-align: left;">subfamily</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Main topic of the lyrics</td>
+<td style="text-align: left;">Name of frog subfamily.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tribe</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Name of frog tribe.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">scientificName</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Scientific frog name.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">commonName</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Common frog name.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">secondary_commonNames</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Secondary frog name/s.</td>
 </tr>
 </tbody>
 </table>
@@ -896,22 +448,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostly clean data by Chris Dalla Riva Billboard Hot 100 Number Ones Database</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Google Sheet</span></span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># download and clean frogID data</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>frogID <span class="ot">&lt;-</span> <span class="fu">here</span>(<span class="st">"frog_data.csv"</span>)</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>billboard <span class="ot">&lt;-</span> <span class="fu">read_sheet</span>(</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090"</span>,</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">sheet =</span> <span class="dv">2</span>,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">na =</span> <span class="fu">c</span>(<span class="st">""</span>, <span class="st">"N/A"</span>)</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">song =</span> <span class="fu">unlist</span>(song))</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>topics <span class="ot">&lt;-</span> <span class="fu">read_sheet</span>(<span class="st">"https://docs.google.com/spreadsheets/d/1j1AUgtMnjpFTz54UdXgCKZ1i4bNxFjf01ImJ-BqBEt0/edit?gid=1974823090#gid=1974823090"</span>, <span class="at">sheet =</span> <span class="dv">4</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://d2pifd398unoeq.cloudfront.net/FrogID6_final_dataset.csv"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>              <span class="at">destfile =</span> frogID, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"frog_data.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove columns containing only one unique value and other unnecessary columns</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(datasetName, basisOfRecord, dataGeneralizations,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>            sex, lifestage, behavior, samplingProtocol, country,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>            machineObservation, geoprivacy,</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>            modified)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># restrict to 2023 data only to reduce file size</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">format</span>(eventDate, <span class="st">"%Y"</span>) <span class="sc">==</span> <span class="st">"2023"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># split time column into time and timezone</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_wider_regex</span>(eventTime,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">patterns =</span> <span class="fu">c</span>(<span class="at">eventTime =</span> <span class="st">"^</span><span class="sc">\\</span><span class="st">d{2}:</span><span class="sc">\\</span><span class="st">d{2}:</span><span class="sc">\\</span><span class="st">d{2}"</span>, <span class="at">timezone   =</span> <span class="st">".*$"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">timezone =</span> <span class="fu">ifelse</span>(<span class="fu">grepl</span>(<span class="st">"^[+-]"</span>, timezone), <span class="fu">paste0</span>(<span class="st">"GMT"</span>, timezone), timezone))</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># read and tidy frog name and common name data</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://raw.githubusercontent.com/jessjep/Frogs/main/frog_names.xlsx"</span>,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>              <span class="at">destfile =</span> <span class="st">"frog_names.xlsx"</span>, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_xlsx</span>(<span class="st">"frog_names.xlsx"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_wider_delim</span>(<span class="st">`</span><span class="at">GROUP, FAMILY, SUBFAMILY, TRIBE</span><span class="st">`</span>, <span class="at">delim =</span> <span class="st">","</span>,</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">names =</span> <span class="fu">c</span>(<span class="st">"family"</span>, <span class="st">"subfamily"</span>, <span class="st">"tribe"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">scientificName =</span> <span class="st">`</span><span class="at">GENUS SPECIES SUBSPECIES</span><span class="st">`</span>,</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>         <span class="at">commonName =</span> <span class="st">`</span><span class="at">COMMON NAME</span><span class="st">`</span>,</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>         <span class="at">secondary_commonNames =</span> <span class="st">`</span><span class="at">SECONDARY COMMON NAMES</span><span class="st">`</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>frog_names[frog_names <span class="sc">==</span> <span class="st">"—"</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
