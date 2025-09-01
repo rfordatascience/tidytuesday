@@ -1,0 +1,17 @@
+title: "Allrecipes."
+article:
+  title: "I scraped 14K recipes, so you won’t have to."
+  url: "https://www.brians.works/i-scraped-14k-recipes-so-you-wont-have-to/"
+data_source:
+  title: "The tastyR package"
+  url: "https://cran.r-project.org/web/packages/tastyR/index.html"
+images:
+# Please include at least one image, and up to three images
+- file: "snack.png"
+  alt: >
+    A picture of a veggie snack on a table.
+credit:
+  post: "Brian Mubia"
+  github: "@owlzyseyes"
+  bluesky: "@hootist.bsky.social"
+  linkedin: "@brian1001"
