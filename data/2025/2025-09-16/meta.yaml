@@ -1,0 +1,22 @@
+title: "Allrecipes"
+article:
+  title: "I scraped 14K recipes, so you won’t have to."
+  url: "https://www.brians.works/i-scraped-14k-recipes-so-you-wont-have-to/"
+data_source:
+  title: "The tastyR package"
+  url: "https://cran.r-project.org/package=tastyR"
+images:
+# Please include at least one image, and up to three images
+- file: "snack.png"
+  alt: >
+    A close-up photo of a rectangular slice of flatbread or thin pizza on a
+    white plate with red heart patterns. The flatbread is topped with fresh
+    spinach leaves, sliced tomatoes, cubes of tofu in both light and dark
+    varieties, and zucchini. A dollop of mustard-like spread is visible on the
+    crust edge. In the background, part of another plate, a napkin, and a
+    person’s arm are slightly out of focus.
+credit:
+  post: "Brian Mubia"
+  github: "@owlzyseyes"
+  bluesky: "@hootist.bsky.social"
+  linkedin: "@brian1001"
