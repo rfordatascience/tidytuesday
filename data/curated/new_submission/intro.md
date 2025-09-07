@@ -2,8 +2,6 @@ This week we're exploring August and September chess player rating data from FID
 
 A chess rating (Elo) is an estimate of a player's strength relative to other players. If a player performs better or worse than expected, their rating increases or decreases accordingly.
 
-Thank you to [Jessica Moore](https://github.com/jessjep) for curating this week's dataset.
-
 > The September 2025 rating list was shaped primarily by results from 
 > the Sinquefield Cup, Quantbox Chennai Grand Masters, 61st International Akiba Rubinstein Chess Festival, 
 > and the Spanish League Honor Division 2025 – a Swiss team tournament held in Linares.
