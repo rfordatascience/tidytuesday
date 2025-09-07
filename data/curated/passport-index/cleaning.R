@@ -30,7 +30,6 @@ rank_by_year <- parsed$countries |>
 # this data was transformed into JSON to be saved into a csv file.
 
 list_to_nested_df <- function(input_list) {
-  
   processed_data <- lapply(input_list, function(x) {
     if(is.data.frame(x)) {
       toJSON(I(list(x)))
@@ -48,22 +47,17 @@ list_to_nested_df <- function(input_list) {
 country_lists <- data.frame()
 
 for (i in unique(rank_by_year$code)) {
-  
   print(i)
   
-  
   req2 <- GET(paste0("api.henleypassportindex.com/api/v3/visa-single/", i))
-  
   parsed2 <- req2$content |> 
     rawToChar() |> 
     fromJSON()
   
   add <- list_to_nested_df(parsed2)
-  
   country_lists <-  rbind(add, country_lists)
   
   Sys.sleep(2)
-  
 }
 
 # After the data is loaded in, you can run the following code to 
