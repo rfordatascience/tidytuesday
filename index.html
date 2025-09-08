@@ -226,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#australian-frogs" id="toc-australian-frogs" class="nav-link active" data-scroll-target="#australian-frogs">Australian Frogs</a>
+  <li><a href="#henley-passport-index-data" id="toc-henley-passport-index-data" class="nav-link active" data-scroll-target="#henley-passport-index-data">Henley Passport Index Data</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -235,8 +235,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#frogid_data.csv" id="toc-frogid_data.csv" class="nav-link" data-scroll-target="#frogid_data.csv"><code>frogID_data.csv</code></a></li>
-  <li><a href="#frog_names.csv" id="toc-frog_names.csv" class="nav-link" data-scroll-target="#frog_names.csv"><code>frog_names.csv</code></a></li>
+  <li><a href="#country_lists.csv" id="toc-country_lists.csv" class="nav-link" data-scroll-target="#country_lists.csv"><code>country_lists.csv</code></a></li>
+  <li><a href="#rank_by_year.csv" id="toc-rank_by_year.csv" class="nav-link" data-scroll-target="#rank_by_year.csv"><code>rank_by_year.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -249,34 +249,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="australian-frogs" class="level1">
-<h1>Australian Frogs</h1>
-<p>This week we’re exploring 2023 data from the sixth annual release of <a href="https://www.frogid.net.au/explore">FrogID data</a>.</p>
-<p>FrogID is an Australian frog call identification initiative. The FrogID mobile app allows citizen scientists to record and submit frog calls for museum experts to identify. Since 2017, FrogID data has contributed to over 30 scientific papers exploring frog ecology, taxonomy, and conservation.</p>
+<section id="henley-passport-index-data" class="level1">
+<h1>Henley Passport Index Data</h1>
+<p>This week we are exploring data from the <a href="api.henleypassportindex.com/api/v3/countries">Henley Passport Index API</a>. The <a href="https://www.henleyglobal.com/passport-index/about">Henley Passport Index</a> is produced by Henley &amp; Partners and captures the number of countries to which travelers in possession of each passport in the world may enter visa free.</p>
 <blockquote class="blockquote">
-<p>Australia is home to a unique and diverse array of frog species found almost nowhere else on Earth, with 257 native species distributed throughout the continent. But Australia’s frogs are in peril – almost one in five species are threatened with extinction due to threats such as climate change, urbanisation, disease, and the spread of invasive species.</p>
+<p>For each travel destination, if no visa is required for passport holders from a country or territory, then a score with value = 1 is created for that passport. A score with value = 1 is also applied if passport holders can obtain a visa on arrival, a visitor’s permit, or an electronic travel authority (ETA) when entering the destination. These visa-types require no pre-departure government approval, because of the specific visa-waiver programs in place. Where a visa is required, or where a passport holder has to obtain a government-approved electronic visa (e-Visa) before departure, a score with value = 0 is assigned. A score with value = 0 is also assigned if passport holders need pre-departure government approval for a visa on arrival, a scenario we do not consider ‘visa-free’. The total score for each passport is equal to the number of destinations for which no visa is required (value = 1), under the conditions defined above.</p>
 </blockquote>
-<p>Some questions you might explore: - Are there species that are endemic to certain regions? - Do different frog species have distinct calling seasons? - Which species has the widest geographic range? Which is the rarest?</p>
-<p>Primary citation for FrogID data: Rowley JJL, &amp; Callaghan CT (2020) The FrogID dataset: expert-validated occurrence records of Australia’s frogs collected by citizen scientists. ZooKeys 912: 139-151</p>
-<p>Official frog name data: Australian Society of Herpetologists Official List of Australian Species. 2025. http://www.australiansocietyofherpetologists.org/ash-official-list-of-australian-species.</p>
-<p>Thank you to <a href="https://github.com/jessjep">Jessica Moore</a> for curating this week’s dataset.</p>
+<p>Henley &amp; Partners update the <a href="https://www.henleyglobal.com/passport-index/ranking">Global Passport Index rankings</a> each month and <a href="https://edition.cnn.com/2025/07/22/travel/world-most-powerful-passports-july-2025">changes to the US passport rank</a> captured media attention recently.</p>
+<ul>
+<li>Which countries have made the most dramatic improvements in passport power? Which passports have lost the most visa-free access?</li>
+<li>Do countries with stronger trade relationships tend to offer mutual visa-free access?</li>
+<li>Did the COVID-19 pandemic affect passport rankings, particularly for countries that implemented strict border controls?</li>
+<li>How does political instability or economic crisis impact passport strength?</li>
+</ul>
+<p>Thank you to <a href="https://github.com/brendensm%20@jenrichmond">Brenden Smith and Jen Richmond</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-09-02'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-09-09'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">35</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">36</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>frogID_data</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>frog_names</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>country_lists <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>country_lists</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>rank_by_year</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>country_lists <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/country_lists.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/rank_by_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -284,12 +287,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-09-02'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-09-09'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>country_lists <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/country_lists.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/rank_by_year.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -297,16 +300,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-09-02'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-09-09'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>country_lists <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/country_lists.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/rank_by_year.csv"</span>)</span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frogID_data.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>frog_names <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-02/frog_names.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>country_lists <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/country_lists.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/rank_by_year.csv"</span>, DataFrame)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -327,13 +330,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="frogid_data.csv" class="level3">
-<h3 class="anchored" data-anchor-id="frogid_data.csv"><code>frogID_data.csv</code></h3>
+<section id="country_lists.csv" class="level3">
+<h3 class="anchored" data-anchor-id="country_lists.csv"><code>country_lists.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 38%">
+<col style="width: 40%">
 <col style="width: 12%">
-<col style="width: 48%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -344,70 +347,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">occurrenceID</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Occurrence ID.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">eventID</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Event ID.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">decimalLatitude</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Latitude of frog recording.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">decimalLongitude</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Longitude of frog recording.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">scientificName</td>
+<td style="text-align: left;">code</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Scientific frog name.</td>
+<td style="text-align: left;">Two letter country code.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">eventDate</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Date of recording.</td>
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Full country name.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">eventTime</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Time of recording in 24-hour format.</td>
+<td style="text-align: left;">visa_required</td>
+<td style="text-align: left;">json</td>
+<td style="text-align: left;">JSON data of code and name of the countries in which you need a traditional visa to enter these destinations, and you need to apply for it in person.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">timezone</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Time zone of recording.</td>
+<td style="text-align: left;">visa_online</td>
+<td style="text-align: left;">json</td>
+<td style="text-align: left;">JSON data of code and name of the countries in which you need a visa to enter, but you can apply for it online, and the visa you receive is electronic (pre-departure approval necessary).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">coordinateUncertaintyInMeters</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Uncertainty of coordinates. Exact locality is buffered for sensitive or endangered species.</td>
+<td style="text-align: left;">visa_on_arrival</td>
+<td style="text-align: left;">json</td>
+<td style="text-align: left;">JSON data of code and name of the countries in which you need a visa to enter, but you can apply for and receive the visa upon arrival at the airport (no pre-departure approval necessary).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">recordedBy</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">User ID.</td>
+<td style="text-align: left;">visa_free_access</td>
+<td style="text-align: left;">json</td>
+<td style="text-align: left;">JSON data of code and name of the countries in which you do not need a visa to enter.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">stateProvince</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">State or territory.</td>
+<td style="text-align: left;">electronic_travel_authorisation</td>
+<td style="text-align: left;">json</td>
+<td style="text-align: left;">JSON data of code and name of the countries in which you do not need a visa to enter, but you must apply for a digital electronic travel authority before arrival.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="frog_names.csv" class="level3">
-<h3 class="anchored" data-anchor-id="frog_names.csv"><code>frog_names.csv</code></h3>
+<section id="rank_by_year.csv" class="level3">
+<h3 class="anchored" data-anchor-id="rank_by_year.csv"><code>rank_by_year.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 31%">
-<col style="width: 14%">
-<col style="width: 54%">
+<col style="width: 25%">
+<col style="width: 15%">
+<col style="width: 59%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -418,29 +401,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">subfamily</td>
+<td style="text-align: left;">code</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of frog subfamily.</td>
+<td style="text-align: left;">Two letter country code.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">tribe</td>
+<td style="text-align: left;">country</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of frog tribe.</td>
+<td style="text-align: left;">Full country name.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">scientificName</td>
+<td style="text-align: left;">region</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Scientific frog name.</td>
+<td style="text-align: left;">Seven category country region.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">commonName</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Common frog name.</td>
+<td style="text-align: left;">rank</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Ranking of ‘visa_free_count’.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">secondary_commonNames</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Secondary frog name/s.</td>
+<td style="text-align: left;">visa_free_count</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The number of countries that do not require a visa for the passport holder, or passport holders can obtain a visa on arrival, a visitor’s permit, or an electronic travel authority (ETA) when entering the destination.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year of data.</td>
 </tr>
 </tbody>
 </table>
@@ -448,43 +436,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># download and clean frogID data</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>frogID <span class="ot">&lt;-</span> <span class="fu">here</span>(<span class="st">"frog_data.csv"</span>)</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(httr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(jsonlite)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># first httr request to get ranking data</span></span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://d2pifd398unoeq.cloudfront.net/FrogID6_final_dataset.csv"</span>,</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>              <span class="at">destfile =</span> frogID, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>frogID_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"frog_data.csv"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove columns containing only one unique value and other unnecessary columns</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(datasetName, basisOfRecord, dataGeneralizations,</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>            sex, lifestage, behavior, samplingProtocol, country,</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>            machineObservation, geoprivacy,</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>            modified)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># restrict to 2023 data only to reduce file size</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">format</span>(eventDate, <span class="st">"%Y"</span>) <span class="sc">==</span> <span class="st">"2023"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># split time column into time and timezone</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_wider_regex</span>(eventTime,</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">patterns =</span> <span class="fu">c</span>(<span class="at">eventTime =</span> <span class="st">"^</span><span class="sc">\\</span><span class="st">d{2}:</span><span class="sc">\\</span><span class="st">d{2}:</span><span class="sc">\\</span><span class="st">d{2}"</span>, <span class="at">timezone   =</span> <span class="st">".*$"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">timezone =</span> <span class="fu">ifelse</span>(<span class="fu">grepl</span>(<span class="st">"^[+-]"</span>, timezone), <span class="fu">paste0</span>(<span class="st">"GMT"</span>, timezone), timezone))</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>req <span class="ot">&lt;-</span> <span class="fu">GET</span>(<span class="st">"api.henleypassportindex.com/api/v3/countries"</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>parsed <span class="ot">&lt;-</span> req<span class="sc">$</span>content <span class="sc">|&gt;</span> </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rawToChar</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fromJSON</span>()</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Data by year was nested into a list. </span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Here we separate them out so that each year has its own row.</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>rank_by_year <span class="ot">&lt;-</span> parsed<span class="sc">$</span>countries <span class="sc">|&gt;</span> </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(has_data) <span class="sc">|&gt;</span> </span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">unnest_longer</span>(<span class="at">col =</span> data) <span class="sc">|&gt;</span> </span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(code, country, region, data, <span class="at">year =</span> data_id) <span class="sc">|&gt;</span> </span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_wider</span>(<span class="at">col =</span> data)</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># read and tidy frog name and common name data</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://raw.githubusercontent.com/jessjep/Frogs/main/frog_names.xlsx"</span>,</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>              <span class="at">destfile =</span> <span class="st">"frog_names.xlsx"</span>, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co"># The data for country_lists is pulled in with multiple httr requests.</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># We can run a query for a single country at a time, and we get back a list</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co"># with the country's name and code, and several data frames that show the </span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># names and codes of the countries a passport owner has different visa access to. </span></span>
 <span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>frog_names <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_xlsx</span>(<span class="st">"frog_names.xlsx"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_wider_delim</span>(<span class="st">`</span><span class="at">GROUP, FAMILY, SUBFAMILY, TRIBE</span><span class="st">`</span>, <span class="at">delim =</span> <span class="st">","</span>,</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">names =</span> <span class="fu">c</span>(<span class="st">"family"</span>, <span class="st">"subfamily"</span>, <span class="st">"tribe"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">scientificName =</span> <span class="st">`</span><span class="at">GENUS SPECIES SUBSPECIES</span><span class="st">`</span>,</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>         <span class="at">commonName =</span> <span class="st">`</span><span class="at">COMMON NAME</span><span class="st">`</span>,</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>         <span class="at">secondary_commonNames =</span> <span class="st">`</span><span class="at">SECONDARY COMMON NAMES</span><span class="st">`</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="dv">1</span>)</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>frog_names[frog_names <span class="sc">==</span> <span class="st">"—"</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># We can define a function to transform the list into a data frame with columns that contain </span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co"># these additional data frames. In order to meet Tidy Tuesday requirements,</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="co"># this data was transformed into JSON to be saved into a csv file.</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>list_to_nested_df <span class="ot">&lt;-</span> <span class="cf">function</span>(input_list) {</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  processed_data <span class="ot">&lt;-</span> <span class="fu">lapply</span>(input_list, <span class="cf">function</span>(x) {</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="fu">is.data.frame</span>(x)) {</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>      <span class="fu">toJSON</span>(<span class="fu">I</span>(<span class="fu">list</span>(x)))</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>      x </span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>  df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(processed_data)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(df)</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>country_lists <span class="ot">&lt;-</span> <span class="fu">data.frame</span>()</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">unique</span>(rank_by_year<span class="sc">$</span>code)) {</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(i)</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>  req2 <span class="ot">&lt;-</span> <span class="fu">GET</span>(<span class="fu">paste0</span>(<span class="st">"api.henleypassportindex.com/api/v3/visa-single/"</span>, i))</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  parsed2 <span class="ot">&lt;-</span> req2<span class="sc">$</span>content <span class="sc">|&gt;</span> </span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rawToChar</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fromJSON</span>()</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>  add <span class="ot">&lt;-</span> <span class="fu">list_to_nested_df</span>(parsed2)</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>  country_lists <span class="ot">&lt;-</span>  <span class="fu">rbind</span>(add, country_lists)</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">Sys.sleep</span>(<span class="dv">2</span>)</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a><span class="co"># After the data is loaded in, you can run the following code to </span></span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a><span class="co"># transform the JSON back into nested data frames or tibbles:</span></span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a><span class="co"># country_lists |&gt;</span></span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="co">#   mutate(across(c(3:7),</span></span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="co">#                 ~map(.x, ~fromJSON(.x)[[1]] |&gt; tibble())))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
