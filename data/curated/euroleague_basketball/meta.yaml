@@ -9,7 +9,7 @@ data_source:
   url: https://github.com/natanast/EuroleagueBasketball
 
 images:
-- file: arena_capacity.png
+- file: plot.png
   alt: >
     Lollipop chart showing the seating capacities of EuroLeague arenas by team.
 
