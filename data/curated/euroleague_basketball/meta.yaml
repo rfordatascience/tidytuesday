@@ -1,0 +1,20 @@
+title: EuroLeague Basketball
+
+article:
+  title: EuroLeague – Official competition overview
+  url: https://en.wikipedia.org/wiki/EuroLeague
+
+data_source:
+  title: EuroleagueBasketball R package (curated from Wikipedia and EuroLeague records)
+  url: https://github.com/natanast/EuroleagueBasketball
+
+images:
+- file: arena_capacity.png
+  alt: >
+    Lollipop chart showing the seating capacities of EuroLeague arenas by team.
+
+credit:
+  post: Natasa Anastasiadou
+  github: https://github.com/natanast
+  linkedin: https://www.linkedin.com/in/natasa-anastasiadou-87405a220
+
