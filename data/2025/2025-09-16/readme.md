@@ -103,10 +103,7 @@ cuisines = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesd
 | reviews        | integer   | Number of written reviews.                                                 |
 | prep_time      | integer   | Preparation time in minutes.                                               |
 | cook_time      | integer   | Cooking time in minutes.                                                   |
-| total_time     | integer   | Prep + cook time in minutes. Note that this value may not always match the |
-|                |           | actual total effort required, as other time-related fields (such as        |
-|                |           | refrigeration, marination, fry time or additional wait periods) have been  |
-|                |           | excluded due to inconsistent availability across recipes.                  |
+| total_time     | integer   | Prep + cook time in minutes. Note that this value may not always match the actual total effort required, as other time-related fields (such as refrigeration, marination, fry time or additional wait periods) have been excluded due to inconsistent availability across recipes.|
 | servings       | integer   | Number of servings.                                                        |
 
 ### `cuisines.csv`
@@ -128,10 +125,7 @@ cuisines = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesd
 | reviews        | integer   | Number of written reviews.                                                  |
 | prep_time      | integer   | Preparation time in minutes.                                                |
 | cook_time      | integer   | Cooking time in minutes.                                                    |
-| total_time     | integer   | Prep + cook time in minutes. Note that this value may not always match the  |
-|                |           | actual total effort required, as other time-related fields (such as         |
-|                |           | refrigeration, marination, fry time, or additional wait periods) have been  |
-|                |           | excluded due to inconsistent availability across recipes.                   |
+| total_time     | integer   | Prep + cook time in minutes. Note that this value may not always match the actual total effort required, as other time-related fields (such as refrigeration, marination, fry time, or additional wait periods) have been excluded due to inconsistent availability across recipes.|
 | servings       | integer   | Number of servings.                                                         |
 
 ## Cleaning Script
