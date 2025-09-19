@@ -1,0 +1,20 @@
+title: "Historic UK Meteorological & Climate Data"
+article:
+  title: "Met Office: Historic station data"
+  url: "https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data"
+data_source:
+  title: "Historical monthly data for meteorological stations"
+  url: "https://www.data.gov.uk/dataset/17ba3bbe-0e98-4a8c-9937-bd1d50fdc3c5/historic-monthly-meteorological-station-data"
+images:
+# Please include at least one image, and up to three images
+- file: "historic_station_map.png"
+  alt: >
+    A map of 37 long-running meteorological monitoring stations run by the UK 
+    Met Office. Most stations span the full range of Great Britain, from Camborne 
+    in the far South-West of England up to Lerwick on the Shetland Islands. 
+    Two of the stations are found in Northern Ireland.
+credit:
+  post: "Jack Davison"
+  github: "@jack-davison"
+  bluesky: "@jack-davison"
+  linkedin: "@jack-davison"
