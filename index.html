@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#allrecipes" id="toc-allrecipes" class="nav-link active" data-scroll-target="#allrecipes">Allrecipes</a>
+  <li><a href="#fide-chess-player-ratings" id="toc-fide-chess-player-ratings" class="nav-link active" data-scroll-target="#fide-chess-player-ratings">FIDE Chess Player Ratings</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,8 +239,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#all_recipes.csv" id="toc-all_recipes.csv" class="nav-link" data-scroll-target="#all_recipes.csv"><code>all_recipes.csv</code></a></li>
-  <li><a href="#cuisines.csv" id="toc-cuisines.csv" class="nav-link" data-scroll-target="#cuisines.csv"><code>cuisines.csv</code></a></li>
+  <li><a href="#fide_ratings_august.csv" id="toc-fide_ratings_august.csv" class="nav-link" data-scroll-target="#fide_ratings_august.csv"><code>fide_ratings_august.csv</code></a></li>
+  <li><a href="#fide_ratings_september.csv" id="toc-fide_ratings_september.csv" class="nav-link" data-scroll-target="#fide_ratings_september.csv"><code>fide_ratings_september.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -253,36 +253,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="allrecipes" class="level1">
-<h1>Allrecipes</h1>
-<p>This week we’re exploring a curated collection of recipes collected from Allrecipes.com! The data this week comes from the <a href="https://cran.r-project.org/package=tastyR">tastyR package</a> (a dataset assembled from Allrecipes.com) and was prepared for analysis in R. Fields have been cleaned and standardized where possible to make comparisons and visual exploration straightforward.</p>
+<section id="fide-chess-player-ratings" class="level1">
+<h1>FIDE Chess Player Ratings</h1>
+<p>This week we’re exploring August and September chess player rating data from FIDE (the International Chess Federation). Monthly data files are published on the <a href="https://www.fide.com/fide-september-2025-rating-list-vincent-keymer-debuts-in-top-10-open/">FIDE website</a>.</p>
+<p>A chess rating (Elo) is an estimate of a player’s strength relative to other players. If a player performs better or worse than expected, their rating increases or decreases accordingly.</p>
 <blockquote class="blockquote">
-<p>A collection of recipe datasets scraped from https://www.allrecipes.com/, containing two complementary datasets: <code>allrecipes</code> with 14,426 general recipes, and <code>cuisines</code> with 2,218 recipes categorized by country of origin. Both datasets include comprehensive recipe information such as ingredients, nutritional facts (calories, fat, carbs, protein), cooking times (preparation and cooking), ratings, and review metadata. All data has been cleaned and standardized, ready for analysis.</p>
+<p>The September 2025 rating list was shaped primarily by results from the Sinquefield Cup, Quantbox Chennai Grand Masters, 61st International Akiba Rubinstein Chess Festival, and the Spanish League Honor Division 2025 – a Swiss team tournament held in Linares.</p>
 </blockquote>
 <ul>
-<li>Which authors are most successful: who is most prolific, who has the highest average ratings or popularity, and do top authors specialize by cuisine, ingredient, or recipe length?</li>
-<li>Is there a relationship between prep/cook time and average rating?</li>
-<li>Which recipe categories or cuisines tend to have the highest average ratings and review counts?</li>
-<li>Which recipes are the most “actionable” — high rating with low total time?</li>
+<li>Which players showed the greatest improvement from August to September?</li>
+<li>Which federations have the most number of titled players?</li>
+<li>How did the rankings of the top male or female players change?</li>
+<li>Who are the top youth players?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/owlzyseyes">Brian Mubia</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/jessjep">Jessica Moore</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-09-16'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-09-23'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">37</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">38</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>all_recipes</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>cuisines <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cuisines</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>fide_ratings_august</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>fide_ratings_september</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/all_recipes.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>cuisines <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/cuisines.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_august.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -290,12 +291,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-09-16'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-09-23'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/all_recipes.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>cuisines <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/cuisines.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_august.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -303,16 +304,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-09-16'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-09-23'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/all_recipes.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>cuisines <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/cuisines.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_august.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv"</span>)</span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/all_recipes.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>cuisines <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-16/cuisines.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_august.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -333,13 +334,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="all_recipes.csv" class="level3">
-<h3 class="anchored" data-anchor-id="all_recipes.csv"><code>all_recipes.csv</code></h3>
+<section id="fide_ratings_august.csv" class="level3">
+<h3 class="anchored" data-anchor-id="fide_ratings_august.csv"><code>fide_ratings_august.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 15%">
-<col style="width: 10%">
-<col style="width: 73%">
+<col style="width: 17%">
+<col style="width: 66%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -350,95 +351,75 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Identification number of a player within FIDE database.</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the recipe.</td>
+<td style="text-align: left;">Player name.</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">url</td>
+<tr class="odd">
+<td style="text-align: left;">fed</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Link to the recipe.</td>
+<td style="text-align: left;">Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">author</td>
+<tr class="even">
+<td style="text-align: left;">sex</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Author of the recipe.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">date_published</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">When the recipe was published/updated.</td>
+<td style="text-align: left;">Sex of player (M - male, F - female)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">ingredients</td>
+<td style="text-align: left;">title</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The ingredients of the recipe.</td>
+<td style="text-align: left;">Title of a player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">calories</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Calories per serving.</td>
+<td style="text-align: left;">wtitle</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Woman title of a player (WGM - Woman Grand Master, WIM - Woman International Master, WFM - Woman FIDE Master, WCM - Woman Candidate Master)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">fat</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Fat per serving.</td>
+<td style="text-align: left;">otitle</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated list. Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">carbs</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Carbs per serving.</td>
+<td style="text-align: left;">foa</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">FIDE Online Arena title of a player (AGM - Arena Grand Master, AIM - Arena International Master, AFM - Arena FIDE Master, ACM - Arena Candidate Master)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">protein</td>
+<td style="text-align: left;">rating</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Proteins per serving.</td>
+<td style="text-align: left;">Standard chess rating (Elo).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">avg_rating</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Average rating out of 5 stars.</td>
+<td style="text-align: left;">games</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of games played in the month.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">total_ratings</td>
+<td style="text-align: left;">k</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of ratings received. NOTE: These values are erroneously truncated to the thousands, unless there were less than 1000 ratings total.</td>
+<td style="text-align: left;">Rating K factor (Value influencing how much a player’s rating changes after a game)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">reviews</td>
+<td style="text-align: left;">bday</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of written reviews. NOTE: These values are erroneously truncated to the thousands, unless there were less than 1000 ratings total.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">prep_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Preparation time in minutes.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">cook_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Cooking time in minutes.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">total_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Prep + cook time in minutes. Note that this value may not always match the actual total effort required, as other time-related fields (such as refrigeration, marination, fry time or additional wait periods) have been excluded due to inconsistent availability across recipes.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">servings</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of servings.</td>
+<td style="text-align: left;">Year of birth of a player.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="cuisines.csv" class="level3">
-<h3 class="anchored" data-anchor-id="cuisines.csv"><code>cuisines.csv</code></h3>
+<section id="fide_ratings_september.csv" class="level3">
+<h3 class="anchored" data-anchor-id="fide_ratings_september.csv"><code>fide_ratings_september.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 15%">
-<col style="width: 10%">
-<col style="width: 74%">
+<col style="width: 17%">
+<col style="width: 66%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -449,89 +430,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Identification number of a player within FIDE database.</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the recipe.</td>
+<td style="text-align: left;">Player name.</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">country</td>
+<tr class="odd">
+<td style="text-align: left;">fed</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The country/region the cuisine is from.</td>
+<td style="text-align: left;">Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">url</td>
+<tr class="even">
+<td style="text-align: left;">sex</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Link to the recipe.</td>
+<td style="text-align: left;">Sex of player (M - male, F - female)</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">author</td>
+<tr class="odd">
+<td style="text-align: left;">title</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Author of the recipe.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">date_published</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">When the recipe was published/updated.</td>
+<td style="text-align: left;">Title of a player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">ingredients</td>
+<td style="text-align: left;">wtitle</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The ingredients of the recipe.</td>
+<td style="text-align: left;">Woman title of a player (WGM - Woman Grand Master, WIM - Woman International Master, WFM - Woman FIDE Master, WCM - Woman Candidate Master)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">calories</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Calories per serving.</td>
+<td style="text-align: left;">otitle</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Comma-separated list. Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">fat</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Fat per serving.</td>
+<td style="text-align: left;">foa</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">FIDE Online Arena title of a player (AGM - Arena Grand Master, AIM - Arena International Master, AFM - Arena FIDE Master, ACM - Arena Candidate Master)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">carbs</td>
+<td style="text-align: left;">rating</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Carbs per serving.</td>
+<td style="text-align: left;">Standard chess rating (Elo).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">protein</td>
+<td style="text-align: left;">games</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Proteins per serving.</td>
+<td style="text-align: left;">Number of games played in the month.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">avg_rating</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Average rating out of 5 stars.</td>
+<td style="text-align: left;">k</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Rating K factor (Value influencing how much a player’s rating changes after a game)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">total_ratings</td>
+<td style="text-align: left;">bday</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of ratings received. NOTE: These values are erroneously truncated to the thousands, unless there were less than 1000 ratings total.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">reviews</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of written reviews. NOTE: These values are erroneously truncated to the thousands, unless there were less than 1000 ratings total.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">prep_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Preparation time in minutes.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cook_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Cooking time in minutes.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">total_time</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Prep + cook time in minutes. Note that this value may not always match the actual total effort required, as other time-related fields (such as refrigeration, marination, fry time, or additional wait periods) have been excluded due to inconsistent availability across recipes.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">servings</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of servings.</td>
+<td style="text-align: left;">Year of birth of a player.</td>
 </tr>
 </tbody>
 </table>
@@ -539,9 +495,85 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by owlzyseyes. No cleaning was necessary.</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>all_recipes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/owlzyseyes/tastyR/refs/heads/main/data-raw/allrecipes.csv"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>cuisines <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/owlzyseyes/tastyR/refs/heads/main/data-raw/cuisines.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(withr)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>conflicted<span class="sc">::</span><span class="fu">conflicts_prefer</span>(dplyr<span class="sc">::</span>filter)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># download, unzip and read the file #</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>august_zipped <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempfile</span>(<span class="at">fileext =</span> <span class="st">".zip"</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>september_zipped <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempfile</span>(<span class="at">fileext =</span> <span class="st">".zip"</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://ratings.fide.com/download/standard_aug25frl.zip"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">destfile =</span> august_zipped,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">mode =</span> <span class="st">"wb"</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://ratings.fide.com/download/standard_sep25frl.zip"</span>,</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">destfile =</span> september_zipped,</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">mode =</span> <span class="st">"wb"</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>august_unzipped <span class="ot">&lt;-</span> <span class="fu">unzip</span>(august_zipped, <span class="at">exdir =</span> <span class="fu">tempdir</span>())</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>september_unzipped <span class="ot">&lt;-</span> <span class="fu">unzip</span>(september_zipped, <span class="at">exdir =</span> <span class="fu">tempdir</span>())</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>fide_ratings_august <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_fwf</span>(</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> august_unzipped,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">skip =</span> <span class="dv">1</span>,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">col_types =</span> <span class="fu">c</span>(<span class="st">"dcccccccdddcc"</span>),</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fwf_widths</span>(</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">68</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">15</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">6</span>, <span class="dv">4</span>),</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">"id"</span>,</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">"name"</span>,</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>      <span class="st">"fed"</span>,</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">"sex"</span>,</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">"title"</span>,</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">"wtitle"</span>,</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>      <span class="st">"otitle"</span>,</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>      <span class="st">"foa"</span>,</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>      <span class="st">"rating"</span>,</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">"games"</span>,</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">"k"</span>,</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>      <span class="st">"bday"</span>,</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">"flag"</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>  <span class="co"># cleaning up player names</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">name =</span> <span class="fu">str_remove</span>(name, <span class="st">"^</span><span class="sc">\\</span><span class="st">d+</span><span class="sc">\\</span><span class="st">s+"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>  <span class="co"># filter to only players who were active in the last 12 months</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(flag <span class="sc">%in%</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="st">"w"</span>), bday <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>flag)</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>fide_ratings_september <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_fwf</span>(</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> september_unzipped,</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>  <span class="at">skip =</span> <span class="dv">1</span>,</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>  <span class="at">col_types =</span> <span class="fu">c</span>(<span class="st">"dcccccccdddcc"</span>),</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fwf_widths</span>(</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">68</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">15</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">6</span>, <span class="dv">4</span>),</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>      <span class="st">"id"</span>,</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>      <span class="st">"name"</span>,</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>      <span class="st">"fed"</span>,</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"sex"</span>,</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"title"</span>,</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"wtitle"</span>,</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"otitle"</span>,</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"foa"</span>,</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"rating"</span>,</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"games"</span>,</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">"k"</span>,</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>      <span class="st">"bday"</span>,</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>      <span class="st">"flag"</span></span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>  <span class="co"># cleaning up player names</span></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">name =</span> <span class="fu">str_remove</span>(name, <span class="st">"^</span><span class="sc">\\</span><span class="st">d+</span><span class="sc">\\</span><span class="st">s+"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>  <span class="co"># filter to only players who were active in the last 12 months</span></span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(flag <span class="sc">%in%</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="st">"w"</span>), bday <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>flag)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
