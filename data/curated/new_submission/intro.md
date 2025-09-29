@@ -8,4 +8,3 @@ For more than 30 years, cranes stopping at the Lake Hornborgasjön ('Lake Hornbo
 - Has the crane population at Lake Hornborgasjön grown over the past 30 years?
 - If you wanted to see thousands of cranes, when is the best time of year to visit?
 - Is it possible to predict the arrival of the cranes from weather patterns? 
-
