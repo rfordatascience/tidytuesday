@@ -16,6 +16,7 @@ cranes <- cranes |>
       stringr::str_detect(
         Anteckning,
         "[Ii]nga siffror|[Ii]ngen siffra|[Ii]ngen räkn|[Ii]nst[.ä]|[Ii]nat"
+        # no numbers, no number, no count, cancelled, innumerable
       ) ~
         "Canceled/No count",
       stringr::str_detect(Anteckning, "[Ss]vårräkn|[Oo]säk") ~
@@ -23,7 +24,10 @@ cranes <- cranes |>
       stringr::str_detect(Anteckning, "[Rr]ekord") ~ "Record observation",
       stringr::str_detect(Anteckning, "[Ff]örsta") ~ "First count of season",
       stringr::str_detect(Anteckning, "[Ss]ista|[Aa]vslut") ~
-        "Last count of season"
+        "Last count of season",
+      stringr::str_detect(Anteckning, "[Dd]åligt [Vv]äder") ~ "Bad weather",
+      stringr::str_detect(Anteckning, "[Kk]raftig [Ss]törning") ~
+        "Severe interference"
     )
   ) |>
   # Extract weather-related disruptions from comments into logical column
@@ -32,6 +36,7 @@ cranes <- cranes |>
       stringr::str_detect(
         Anteckning,
         "[Rr]egn|[Vv]äd|[Ss]nö|[Dd]imma|[Åå]ska"
+        # rain, weather, snow, fog, thunder
       ) ~
         TRUE,
       .default = FALSE
