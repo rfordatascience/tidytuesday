@@ -1,5 +1,5 @@
-# Download CSV from https://www.hornborga.com/naturen/transtatistik/ as
-# "Transtatistik.csv".
+# Download the full CSV from the bottom of
+# https://www.hornborga.com/naturen/transtatistik/ as "Transtatistik.csv".
 #
 # Cleaning code extracts comments in English, adds a variable related to weather
 # disruption, selects relevant columns and filters the data to include only 30
