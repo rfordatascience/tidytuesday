@@ -8,5 +8,5 @@ The dataset is curated from publicly available sources such as Wikipedia and off
 
 Some questions you might explore with this dataset:  
 - Which countries are most represented in the EuroLeague?  
-- How do arena capacities compare across teams and countries?  
+- How do arena capacities compare across teams and countries?  In R, the `readr::parse_number()` function might be helpful here.
 - Which clubs have been the most successful historically?
