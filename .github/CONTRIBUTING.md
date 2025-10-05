@@ -8,10 +8,10 @@ So, you might not hear from us right away, but we appreciate your contribution!
 
 There are several ways you can help:
 
-- [Review submitted datasets](dataset_review.md)
 - [Submit a dataset pull request](pr_instructions.md)
-- [Submit an issue](#submitting-general-non-dataset-issues)
+- [Review submitted dataset ideas](dataset_review.md)
 - [Submit a dataset idea](dataset_idea.md)
+- [Submit a bug report or feature request](#submitting-general-non-dataset-issues)
 
 These guidelines are for first-time contributors to get you started. 
 If you are a regular contributor, we may be working in a different mode, where the workflow is different. 
