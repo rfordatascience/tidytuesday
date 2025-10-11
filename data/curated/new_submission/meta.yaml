@@ -1,0 +1,16 @@
+title: "Lead concentration in Flint water samples in 2015"
+article:
+  title: "The Murky Tale of Flint's Deceptive Water Data"
+  url: "https://academic.oup.com/jrssig/article/14/2/16/7029247"
+data_source:
+  title: "Using Flint, Michigan, lead data in introductory statistics"
+  url: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/test.12187?casa_token=av3lP7OmqS0AAAAA:QAF3yU5kGzsUkqi1VlXkMlIN8ExolHZBSkdJ3hIHnlptUES57dGVoXjE3qdwPPHtLHNRd9VvX1x8f6VN"
+images:
+# Please include at least one image, and up to three images
+- file: "Flint_lead.png"
+  alt: >
+    This histogram shows the distribution of lead concentrations in water samples collected by Flint city officials from January to June 2015, during the Flint water crisis. The x-axis shows lead levels in parts per billion (ppb), with ND indicating non-detectable amounts, and the y-axis shows the number of samples at each concentration level. Most samples cluster at low concentrations, creating a right-skewed distribution with a long tail extending to very high values. Three vertical lines mark important regulatory levels. Blue dashed line: The 90th percentile after excluding two high outliers, Black dashed line: The EPA's lead action level, Red dashed line: The original 90th percentile before exclusions. Two samples shown in red were excluded from the official calculations, one at 20 ppb and another at 104 ppb.
+credit:
+  post: "gwynn gebeyehu & Jen Richmond"
+  github: "@nzgwynn; jenrichmond"
+  bluesky: "@nzgwynn; jenrichmondPhD"
