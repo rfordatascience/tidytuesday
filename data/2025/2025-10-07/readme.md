@@ -91,7 +91,7 @@ euroleague_basketball = CSV.read("https://raw.githubusercontent.com/rfordatascie
 |Home city                      |character |City where the team is based.                                               |
 |Arena                          |character |Name of the home arena.                                                     |
 |Capacity                       |character |Seating capacity of the arena.                                              |
-|Last season                    |character |Last season in which the team participated.                                 |
+|Last season                    |character |Ranking of team in the 2024-25 season, including teams elevated to the Euroleague from the Eurocup in that season.|
 |Country                        |character |Country where the team is based.                                            |
 |FinalFour_Appearances          |integer    |Number of times the team has reached the EuroLeague Final Four.             |
 |Titles_Won                     |integer    |Number of EuroLeague titles won by the team.                                |
