@@ -55,4 +55,8 @@ food_security <- readr::read_csv(csv_location) |>
     "Note"
   )
 
+# Filter so the resulting CSV will fit on GitHub.
+food_security <- food_security |>
+  dplyr::filter(.data$Year_Start >= 2005)
+
 rm(csv_location, food_security_url)
