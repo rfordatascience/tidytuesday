@@ -6,9 +6,7 @@
 name: PR Submission Check
 
 on:
-  pull_request:
-    branches:
-      - main
+  pull_request_target:
     paths:
       - 'data/curated/**'
   workflow_dispatch:
