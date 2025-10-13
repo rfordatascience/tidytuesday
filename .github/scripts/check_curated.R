@@ -14,7 +14,8 @@ cli::cli_inform(
 )
 
 # Setup ----
-errors <- c() # A vector to collect all identified errors.
+errors <- character() # A vector to collect all identified errors.
+other_info <- character() # A vector to collect other non-error info.
 
 # Helper function to check URL accessibility
 check_url <- function(url, source_name) {
@@ -75,6 +76,36 @@ if (length(csv_files) > 0) {
           "Missing data dictionary for {fs::path_file(csv_file)}. Expected {fs::path_file(md_file)}."
         )
       )
+    } else {
+      this_data <- readr::read_csv(csv_file)
+      this_report <- c(
+        glue::glue("{fs::path_file(csv_file)}:"),
+        "",
+        {
+          purrr::map(
+            names(this_data),
+            function(var) {
+              var_type <- class(this_data[[var]])[1]
+              var_pmiss <- round(
+                sum(is.na(this_data[[var]])) / nrow(this_data) * 100,
+                1
+              )
+              var_nunique <- length(unique(this_data[[var]]))
+              data.frame(
+                variable = var,
+                class = var_type,
+                p_missing = var_pmiss,
+                n_unique = var_nunique
+              )
+            }
+          ) |>
+            purrr::list_rbind() |>
+            knitr::kable(format = "pipe") |>
+            paste(collapse = "\n")
+        }
+      ) |>
+        paste(collapse = "\n")
+      other_info <- c(other_info, this_report)
     }
   }
 } else {
@@ -157,16 +188,22 @@ if (fs::file_exists(meta_path)) {
 # After all checks, prepare the report for commenting.
 cli::cli_inform("3. Preparing report...")
 report_file <- "pr_comment.md"
+header <- "### TidyTuesday Submission Check:"
 
-if (length(errors) > 0) {
-  header <- "### TidyTuesday Submission Check: Failed ❌\n\nFound the following issues with the submission:\n"
-  error_list <- paste0("- [ ]", errors, collapse = "\n")
-  report_body <- paste0(header, error_list)
+if (length(other_info)) {
+  other_info <- paste(other_info, collapse = "\n\n")
+}
+
+if (length(errors)) {
+  header <- paste(header, "Failed ❌")
+  errors <- paste("- [ ]", errors, collapse = "\n")
   check_status <- "failure"
 } else {
-  report_body <- "### TidyTuesday Submission Check: Passed ✅\n\nAll checks passed successfully!"
+  header <- paste(header, "Passed ✅")
   check_status <- "success"
 }
+
+report_body <- paste(header, errors, other_info, sep = "\n\n")
 
 writeLines(report_body, report_file)
 cli::cli_inform("Report written to {.path {report_file}}")
