@@ -17,6 +17,10 @@ on:
         description: 'Pull Request number to check'
         required: true
 
+permissions:
+  contents: read
+  pull-requests: write
+  
 jobs:
   check-submission:
     runs-on: ubuntu-latest
