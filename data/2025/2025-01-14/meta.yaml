@@ -3,8 +3,12 @@ article:
   title: "posit::conf(2025) in-person registration is now open!"
   url: "https://posit.co/blog/positconf2025-in-person-registration-is-now-open/"
 data_source:
-  title: "posit::conf attendee portals"
-  url: "https://reg.conf.posit.co/flow/posit/positconf23/attendee-portal/page/sessioncatalog, https://reg.conf.posit.co/flow/posit/positconf24/attendee-portal/page/sessioncatalog"
+  title: 
+    - "posit::conf attendee portal 2023"
+    - "posit::conf attendee portal 2024"
+  url: 
+    - "https://reg.conf.posit.co/flow/posit/positconf23/attendee-portal/page/sessioncatalog"
+    - "https://reg.conf.posit.co/flow/posit/positconf24/attendee-portal/page/sessioncatalog"
 images:
 # Please include at least one image, and up to three images
 - file: "conf2025.png"

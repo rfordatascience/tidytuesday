@@ -1,0 +1,18 @@
+title: "Dungeons and Dragons Monsters (2024)"
+article:
+  title: "You Can Now Publish Your Own Creations Using the New Core Rules"
+  url: "https://www.dndbeyond.com/posts/1949-you-can-now-publish-your-own-creations-using-the"
+data_source:
+  title: "System Reference Document v5.2.1"
+  url: "https://www.dndbeyond.com/srd"
+images:
+# Please include at least one image, and up to three images
+- file: "monster_int.png"
+  alt: >
+    A box plot of Intelligence of D&D Monster Types. The y axis shows Intelligence, from 0 to 25. The x axis has 9 Monster Types: "Beast, Dragon, Elemental, Fey, Fiend, Humanoid, Monstrosity, Undead, and Other. Beasts have the lowest average intelligence around 3, while Dragons and Fiends have the highest around 13 or 14. Humanoids, Monstrosities, Undead, and the Other bucket all have high outliers of 20 or higher."
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
