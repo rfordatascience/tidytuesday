@@ -61,19 +61,10 @@ jobs:
         run: Rscript .github/scripts/check_curated.R
 
       - name: Comment on PR
-        uses: actions/github-script@v7
+        uses: peter-evans/create-or-update-comment@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
-
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: ${{ steps.pr_num.outputs.pr_number }},
-              body: commentBody
-            });
+          issue-number: ${{ steps.pr_num.outputs.pr_number }}
+          body-file: pr_comment.md
 
       - name: Fail workflow if checks failed
         if: steps.run_checks.outputs.check_status == 'failure'
