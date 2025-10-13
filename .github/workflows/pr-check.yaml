@@ -25,6 +25,8 @@ permissions:
 jobs:
   check-submission:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Determine PR Number
         id: pr_num
@@ -64,11 +66,14 @@ jobs:
         uses: actions/github-script@v8
         with:
           script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
+          
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `Minimizing variables for testing.`
+              issue_number: ${process.env.PR_NUMBER},
+              body: commentBody
             });
 
       - name: Fail workflow if checks failed
