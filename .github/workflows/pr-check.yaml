@@ -58,20 +58,24 @@ jobs:
           PR_NUMBER=${{ steps.pr_num.outputs.pr_number }}
           echo "Processing PR #${PR_NUMBER}"
 
-          # Get a list of files changed in the PR, filter for the submission
-          # directory, find the unique directory name.
-          # The `|| true` prevents the pipe from failing if grep finds no matches.
-          SUBMISSION_DIR=$(gh pr view $PR_NUMBER --json files --jq '.files[].path' | \
+          # Get the unique submission directory name directly under 'data/curated/'.
+          # This extracts paths like 'data/curated/new_submission/file.csv',
+          # keeps only 'new_submission', and finds the unique value.
+          SUBMISSION_DIR_NAME=$(gh pr view $PR_NUMBER --json files --jq '.files[].path' | \
             grep '^data/curated/' || true | \
-            xargs -r -n 1 dirname | \
+            sed 's|^data/curated/||' | \
+            cut -d'/' -f1 | \
             sort | \
             uniq)
 
           # The PR should only contain files in ONE new directory.
-          if [ -z "$SUBMISSION_DIR" ] || [ $(echo "$SUBMISSION_DIR" | wc -l) -ne 1 ]; then
+          if [ -z "$SUBMISSION_DIR_NAME" ] || [ $(echo "$SUBMISSION_DIR_NAME" | wc -l) -ne 1 ]; then
             echo "::error::PR must contain files in exactly one new directory under data/curated/."
             exit 1
           fi
+          
+          # Reconstruct the full path
+          SUBMISSION_DIR="data/curated/$SUBMISSION_DIR_NAME"
 
           # Make the directory path available to subsequent steps.
           echo "submission_dir=$SUBMISSION_DIR" >> $GITHUB_OUTPUT
