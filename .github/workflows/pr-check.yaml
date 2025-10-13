@@ -61,7 +61,7 @@ jobs:
         run: Rscript .github/scripts/check_curated.R
 
       - name: Comment on PR
-        uses: actions/github-script@v7
+        uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
