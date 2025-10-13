@@ -1,10 +1,10 @@
 |variable              |class     |description                           |
 |:---------------------|:---------|:-------------------------------------|
-|prize_id              |double    |Unique prize identifier used in the SBLP dataset. |
+|prize_id              |integer    |Unique prize identifier used in the SBLP dataset. |
 |prize_alias           |character |Name of the prize awarded, regularized to the most current name. |
 |prize_name            |character |Name of the prize awarded, at the time of award. |
 |prize_institution     |character |Institution that sponsored the prize. |
-|prize_year            |double    |Year the prize was awarded. |
+|prize_year            |integer  |Year the prize was awarded. |
 |prize_genre           |character |Genre category of book that the prize was awarded to. |
 |person_id             |character |Unique author identifier used in the SBLP dataset, assigned in order of entity entry to the dataset. |
 |person_role           |character |Whether author was shortlisted or won the prize. |
