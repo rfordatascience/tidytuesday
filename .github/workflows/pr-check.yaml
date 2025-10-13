@@ -24,7 +24,6 @@ permissions:
 jobs:
   check-submission:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Determine PR Number
         id: pr_num
@@ -61,10 +60,18 @@ jobs:
         run: Rscript .github/scripts/check_curated.R
 
       - name: Comment on PR
-        uses: peter-evans/create-or-update-comment@v4
+        uses: actions/github-script@v7
         with:
-          issue-number: ${{ steps.pr_num.outputs.pr_number }}
-          body-file: pr_comment.md
+          script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: commentBody
+            });
 
       - name: Fail workflow if checks failed
         if: steps.run_checks.outputs.check_status == 'failure'
