@@ -12,6 +12,8 @@ Thanks to [Carl Börstell](https://github.com/borstell) for suggesting this data
 
 Thank you to [Jon Harmon, Data Science Learning Community](https://github.com/jonthegeek) for curating this week's dataset.
 
+Thanks to @ravichandrasekaran for reporting the major error in the dataset!
+
 ## The Data
 
 ```r
@@ -126,10 +128,11 @@ food_security <- readr::read_csv(csv_location) |>
       c(tidyselect::starts_with("CI_"), "Value"),
       \(CI) {
         dplyr::case_match(
-          .data$CI,
-          "<0.1" ~ 0.09,
-          "<0.5" ~ 0.49,
-          "<2.5" ~ 2.49
+          CI,
+          "<0.1" ~ "0.09",
+          "<0.5" ~ "0.49",
+          "<2.5" ~ "2.49",
+          .default = CI
         ) |>
           as.numeric()
       }
@@ -139,7 +142,7 @@ food_security <- readr::read_csv(csv_location) |>
     Unit = dplyr::case_when(
       is.na(.data$Unit) &
         .data$Item ==
-          "Political stability and absence of violence/terrorism (index)" ~
+        "Political stability and absence of violence/terrorism (index)" ~
         "index",
       .default = .data$Unit
     )
@@ -160,5 +163,4 @@ food_security <- food_security |>
   dplyr::filter(.data$Year_Start >= 2005)
 
 rm(csv_location, food_security_url)
-
 ```
