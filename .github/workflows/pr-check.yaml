@@ -36,7 +36,17 @@ jobs:
       - name: Install R dependencies
         run: |
           install.packages("pak")
-          pak::pak(c("yaml", "fs", "magick", "purrr", "stringr", "glue", "httr", "cli"))
+          pak::pak(c(
+            "cli",
+            "fs",
+            "glue",
+            "httr",
+            "knitr",
+            "magick",
+            "purrr",
+            "stringr",
+            "yaml"
+          ))
         shell: Rscript {0}
 
       - name: Run Submission Checks
