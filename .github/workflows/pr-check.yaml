@@ -36,14 +36,14 @@ jobs:
           else
             PR_NUMBER=${{ github.event.inputs.pr_number }}
           fi
-          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
 
       # For pull_request events, the action automatically checks out the PR's merge commit.
       # For workflow_dispatch, we explicitly check out the PR branch head.
       - name: Checkout PR Code
         uses: actions/checkout@v5
-        with:
-          ref: ${{ github.event_name == 'workflow_dispatch' && format('refs/pull/{0}/head', github.event.inputs.pr_number) || '' }}
+        # with:
+        #   ref: ${{ github.event_name == 'workflow_dispatch' && format('refs/pull/{0}/head', github.event.inputs.pr_number) || '' }}
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
@@ -61,11 +61,11 @@ jobs:
         run: Rscript .github/scripts/check_curated.R
 
       - name: Comment on PR
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         with:
           script: |
-            const fs = require('fs');
-            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
+            # const fs = require('fs');
+            # const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
