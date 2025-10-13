@@ -160,7 +160,7 @@ report_file <- "pr_comment.md"
 
 if (length(errors) > 0) {
   header <- "### TidyTuesday Submission Check: Failed ❌\n\nFound the following issues with the submission:\n"
-  error_list <- paste0("- [ ]", errors, collapse = "\n")
+  error_list <- paste("- [ ]", errors, collapse = "\n")
   report_body <- paste0(header, error_list)
   check_status <- "failure"
 } else {
