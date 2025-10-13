@@ -8,5 +8,7 @@ of sampling and data collection, as well as ethical data handling.
 The data this week includes samples collected by the Michigan Department of Environment (MDEQ) and data from a citizen science project coordinated by Prof Marc Edwards and colleagues at Virginia Tech. 
 Community-sourced samples were collected after concerns were raised about the MDEQ excluding samples from their data. You can read about the ["murky" story behind this data here](https://academic.oup.com/jrssig/article/14/2/16/7029247). 
 
+Thank you to @nzgwynn for submitting this dataset in #23!
+
 - How does the distribution of lead levels differ between MDEQ and Virginia Tech datasets?
 - How do key statistics (mean, median, 90th percentile) change with/without excluded samples in the MDEQ sample? 
