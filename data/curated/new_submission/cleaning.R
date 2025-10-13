@@ -1,4 +1,9 @@
+library(tidyverse)
+library(rvest)
+library(janitor)
+
 # list station data urls
+
 links <-
   rvest::read_html(
     "https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data"
