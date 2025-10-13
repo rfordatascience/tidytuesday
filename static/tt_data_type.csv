@@ -1,4 +1,6 @@
 Week,Date,year,data_files,data_type,delim
+42,2025-10-21,2025,historic_station_met.csv,csv,","
+42,2025-10-21,2025,station_meta.csv,csv,","
 41,2025-10-14,2025,food_security.csv,csv,","
 40,2025-10-07,2025,euroleague_basketball.csv,csv,","
 39,2025-09-30,2025,cranes.csv,csv,","
