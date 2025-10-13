@@ -44,6 +44,7 @@ jobs:
             "knitr",
             "magick",
             "purrr",
+            "readr",
             "stringr",
             "yaml"
           ))
