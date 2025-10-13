@@ -64,9 +64,6 @@ jobs:
         uses: actions/github-script@v8
         with:
           script: |
-            # const fs = require('fs');
-            # const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
-
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
