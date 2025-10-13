@@ -42,8 +42,8 @@ jobs:
       # For workflow_dispatch, we explicitly check out the PR branch head.
       - name: Checkout PR Code
         uses: actions/checkout@v5
-          with:
-            ref: refs/pull/${{ env.PR_NUMBER }}/head
+        with:
+          ref: refs/pull/${{ env.PR_NUMBER }}/head
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
