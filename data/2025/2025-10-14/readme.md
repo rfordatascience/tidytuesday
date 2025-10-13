@@ -125,13 +125,13 @@ food_security <- readr::read_csv(csv_location) |>
     dplyr::across(
       c(tidyselect::starts_with("CI_"), "Value"),
       \(CI) {
-        dplyr::case_match(
-          .data$CI,
-          "<0.1" ~ 0.09,
-          "<0.5" ~ 0.49,
-          "<2.5" ~ 2.49
-        ) |>
-          as.numeric()
+        dplyr::case_when(
+          stringr::str_detect(CI, "<0.1") ~ 0.09,
+          stringr::str_detect(CI, "<0.5") ~ 0.49,
+          stringr::str_detect(CI, "<2.5") ~ 2.49,
+          is.na(CI) ~ NA_real_,
+          TRUE ~ readr::parse_number(CI)
+        ) 
       }
     ),
     Year_Start = as.integer(stringr::str_extract(.data$Year, "^(\\d{4})")),
