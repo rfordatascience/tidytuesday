@@ -1,0 +1,14 @@
+title: "WHO TB Burden Data: Incidence, Mortality, and Population"
+article:
+  title: "getTBinR: Access and Summarise World Health Organization Tuberculosis Data"
+  url: "https://samabbott.co.uk/getTBinR/index.html"
+data_source:
+  title: "gerTBinR package"
+  url: "https://github.com/seabbs/getTBinR/"
+images:
+- file: "who_tb_map.png"
+  alt: >
+    World map showing estimated TB incidence rates per 100,000 population. Countries range from light green (low incidence) to dark purple (high incidence), with highest rates in Sub-Saharan Africa and South/Southeast Asia. Map sourced from WHO and rendered using getTBinR::map_tb_burden() in R.
+credit:
+  post: "Sam Abbott & Darakhshan Nehal"
+  github: "@seabbs; @darakhshannehal"
