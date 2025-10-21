@@ -3,7 +3,7 @@
 | country | character | Country or territory name |
 | g_whoregion | character | WHO region |
 | iso_numeric | integer | ISO numeric country/territory code |
-| iso2 | character | ISO 2-character country/territory code |
+| iso2 | character | ISO 2-character country/territory code. Note that Namibia's code ("'NA'") includes single quotes to avoid being encoded as missing |
 | iso3 | character | ISO 3-character country/territory code |
 | year | integer | Year of observation |
 | c_cdr | double | Case detection rate (all forms) [also known as TB treatment coverage], percent |
