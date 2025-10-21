@@ -1,0 +1,18 @@
+title: In today's dataset we explore if spring arrived earlier in Geneva, at least according to the *official* horse chestnut tree!
+article:
+  title: Spring begins in Geneva when the official horse chestnut tree says so
+  url: https://www.swissinfo.ch/eng/swiss-oddities/spring-begins-in-geneva-when-the-horse-chestnut-tree-blossoms/88756963
+data_source:
+  title: Marronnier officiel
+  url: https://ge.ch/grandconseil/m/secretariat/marronnier/
+images:
+# Please include at least one image, and up to three images
+- file: chestnut.png
+  alt: >
+    Evolution of the dates of the appearance of the first official horse chestnut leaves of the year (1818-2024)
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Matt
+  bluesky: https://bsky.app/profile/@econmaett.github.io
+  github: https://github.com/econmaett
