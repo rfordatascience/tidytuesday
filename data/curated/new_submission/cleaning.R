@@ -9,8 +9,5 @@ library(tidyverse)
 # Load diabetes data
 diabetes = medicaldata::diabetes
 
-# Save
-write_csv(diabetes, "diabetes.csv")
-
 # No data cleaning needed
 # For more information and background on the data: https://pmc.ncbi.nlm.nih.gov/articles/PMC4418458/
