@@ -1,0 +1,7 @@
+|variable  |class  |description                           |
+|:---------|:------|:-------------------------------------|
+|year      |integer|Year of observation (A.D.).                                                                                                                                                                                                                                                                            |
+|level_min |double |Nile River minimum levels at Roda Nilometer near Cairo, Egypt. 849 values from Toussoun 1925. Missing values for 1285, 1297, 1303, 1310, 1319, 1363 and 1434 are filled in using a simple method from Koutsoyiannis and Langousis (2011, p. 57). Large gaps have not been filled in. |
+|level_max |double |Nile River maximum levels.                                                                                                                                                                                                                                                           |
+|depth_min |double |Nile River minimum water depths assuming a datum for the river bottom of 8.80 m, as in Koutsoyiannis (2013). |
+|depth_max |double |Nile River maximum water depths. |

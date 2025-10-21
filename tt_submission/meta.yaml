@@ -1,0 +1,15 @@
+title: "Historical and modern seasonal forecasting: Comparison of the 'Summer Forecast' of Zurich's Böögg with a Dynamic Climate Model "
+article:
+  title: "Work Report of MeteoSwiss, Federal Office of Meteorology and Climatology MeteoSwiss"
+  url: "https://www.meteoswiss.admin.ch/services-and-publications/publications/reports-and-bulletins/2006/saisonale-vorhersage-in-tradition-und-moderne--vergleich-der--so.html"
+data_source:
+  title: "OpenData for Zürich's Sechseläuten"
+  url: "https://github.com/philshem/Sechselaeuten-data"
+images:
+# Please include at least one image, and up to three images
+- file: "sechselaeuten.png"
+  alt: >
+    A dot plot of the average summer temperature in Zurich versus the burn duration of the Böög in minutes, with a line of best fit and record summers annotated.
+credit:
+  post: "no"
+  github: "@philshem"
