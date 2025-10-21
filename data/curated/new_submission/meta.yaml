@@ -1,0 +1,19 @@
+title: "Pima Indian Diabetes Data: A Prospective Observational Cohort"
+
+article:
+  title: "Diabetes Description Document"
+  url: "https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/diabetes_desc.html"
+
+data_source:
+  title: "medicaldata package"
+  url: "https://higgi13425.github.io/medicaldata/"
+
+images:
+  - file: "diabetes-prevalence.png"
+    alt: >
+      World map showing diabetes prevalence in 2024 among adults aged 20–79, using a yellow-to-red gradient (0%–25%). High rates appear in South Asia, the Middle East, and North America. Source: International Diabetes Federation via World Bank (2025), published by OurWorldInData.org.
+
+credit:
+  post: "Darakhshan Nehal"
+  github: "@darakhshannehal"
+  
