@@ -14,5 +14,6 @@ images:
       World map showing estimated TB incidence rates per 100,000 population. Countries range from light green (low incidence) to dark purple (high incidence), with highest rates in Sub-Saharan Africa and South/Southeast Asia. Map sourced from WHO and rendered using getTBinR::map_tb_burden() in R.
 
 credit:
-  post: "Sam Abbott & Darakhshan Nehal"
-  github: "@seabbs; @darakhshannehal"
+  post: "Darakhshan Nehal"
+  github: "@darakhshannehal"
+

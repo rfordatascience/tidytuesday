@@ -39,6 +39,3 @@ who_tb_data <- tb_burden %>%
   select(all_of(vars_of_interest))
 
 # No data cleaning needed
-
-# Save 
-write_csv(who_tb_data, "who_tb_data.csv")
