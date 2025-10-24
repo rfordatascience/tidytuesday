@@ -1,0 +1,20 @@
+title: Statistical Performance Indicators
+article:
+  title: Measuring the Statistical Performance of Countries
+  url: "https://worldbank.github.io/SPI/measuring-the-statistical-performance-of-countries-an-overview-of-the-statistical-performance-indicators-and-index.html#spi-overall-scores"
+data_source:
+  title: World Bank Statistical Performance Indicators
+  url: "https://datacatalog.worldbank.org/search/dataset/0037996/Statistical-Performance-Indicators"
+images:
+# Please include at least one image, and up to three images
+- file: map.png
+  alt: >
+    A choropleth world map showing the quintile that each country was in for their statistical performance indicator in 2019. Regions including Europe, North America, and Australasia tend to have higher performance compared to Africa, parts of Asia, and parts of South America which are in lower quintiles.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Nicola Rennie
+  bluesky: https://bsky.app/profile/nrennie
+  linkedin: https://www.linkedin.com/in/nicola-rennie
+  mastodon: @nrennie@fosstodon.org
+  github: https://github.com/nrennie
