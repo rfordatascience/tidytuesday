@@ -1,0 +1,13 @@
+title: "And the address is 221B Baker Street"
+article:
+  title: "The Complete Sherlock Holmes"
+  url: "https://sherlock-holm.es/ascii/"
+data_source:
+  title: "The Complete Sherlock Holmes via {sherlock} R Package"
+  url: "https://github.com/EmilHvitfeldt/sherlock"
+images:
+  - file: "logo_sherlock.png"
+    alt: "Hex sticker for the {sherlock} R package created by Emil Hvitfeldt"
+credit:
+  post: "Darakhshan Nehal"
+  github: "@darakhshannehal"
