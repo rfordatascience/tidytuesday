@@ -1,0 +1,16 @@
+title: "Can an exploding snowman predict the summer season?"
+article:
+  title: "Boeoegg prediction"
+  url: "https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/boeoegg-prediction.html"
+data_source:
+  title: "OpenData for Zurich's Sechselaeuten"
+  url: "https://github.com/philshem/Sechselaeuten-data"
+images:
+# Please include at least one image, and up to three images
+- file: "sechselaeuten.png"
+  alt: >
+    A dot plot of the average summer temperature in Zurich versus the burn duration of the Böög in minutes, with a line of best fit and record summers annotated.
+credit:
+  post: "# SAVE ALL YOUR FILES BEFORE SUBMITTING!!"
+  github: "@econmaett"
+  bluesky: "@econmaett.github.io"
