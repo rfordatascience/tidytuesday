@@ -4,7 +4,7 @@
 |country                   |character |Country name. |
 |region                    |character |Region name. |
 |income                    |character |Income level of country. |
-|year                      |double    |Year. |
+|year                      |integer    |Year. |
 |population                |double    |Population of the country. |
 |overall_score             |double    |Overall statistical performance score. |
 |data_use_score            |double    |Score relating to Pillar 1 - Data use. |
