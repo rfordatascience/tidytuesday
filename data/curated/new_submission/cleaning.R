@@ -1,4 +1,3 @@
-
 # Imports
 library(tidyverse)
 library(devtools)
@@ -7,13 +6,8 @@ library(devtools)
 library(sherlock)
 
 # Load the dataset
-holmes <- sherlock::holmes
-
-# Add line numbers to preserve narrative order
-holmes <- holmes %>%
-  mutate(line_num = row_number())
-
-# Reorder columns
-holmes <- holmes %>%
-  select(book, text, line_num)
-
+holmes <- sherlock::holmes |>
+  # Add line numbers to preserve narrative order
+  mutate(line_num = row_number(), .by = "book") |>
+  # Reorder columns
+  select("book", "text", "line_num")
