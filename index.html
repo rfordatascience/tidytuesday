@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#selected-british-literary-prizes-1990-2022" id="toc-selected-british-literary-prizes-1990-2022" class="nav-link active" data-scroll-target="#selected-british-literary-prizes-1990-2022">Selected British Literary Prizes (1990-2022)</a>
+  <li><a href="#lead-concentration-in-flint-water-samples-in-2015" id="toc-lead-concentration-in-flint-water-samples-in-2015" class="nav-link active" data-scroll-target="#lead-concentration-in-flint-water-samples-in-2015">Lead concentration in Flint water samples in 2015</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,7 +239,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#prizes.csv" id="toc-prizes.csv" class="nav-link" data-scroll-target="#prizes.csv"><code>prizes.csv</code></a></li>
+  <li><a href="#flint_mdeq.csv" id="toc-flint_mdeq.csv" class="nav-link" data-scroll-target="#flint_mdeq.csv"><code>flint_mdeq.csv</code></a></li>
+  <li><a href="#flint_vt.csv" id="toc-flint_vt.csv" class="nav-link" data-scroll-target="#flint_vt.csv"><code>flint_vt.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,22 +253,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="selected-british-literary-prizes-1990-2022" class="level1">
-<h1>Selected British Literary Prizes (1990-2022)</h1>
-<p>This week we are exploring data related to the Selected British Literary Prizes (1990-2022) dataset which comes from the <a href="https://data.post45.org/posts/british-literary-prizes/">Post45 Data Collective</a>.</p>
+<section id="lead-concentration-in-flint-water-samples-in-2015" class="level1">
+<h1>Lead concentration in Flint water samples in 2015</h1>
+<p>This week we are exploring lead levels in water samples collected in Flint, Michigan in 2015. The data comes from a paper by <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/test.12187?casa_token=av3lP7OmqS0AAAAA:QAF3yU5kGzsUkqi1VlXkMlIN8ExolHZBSkdJ3hIHnlptUES57dGVoXjE3qdwPPHtLHNRd9VvX1x8f6VN">Loux and Gibson (2018)</a> who advocate for using this data as a teaching example in introductory statistics courses.</p>
 <blockquote class="blockquote">
-<p>“This dataset contains primary categories of information on individual authors comprising gender, sexuality, UK residency, ethnicity, geography and details of educational background, including institutions where the authors acquired their degrees and their fields of study. Along with other similar projects, we aim to provide information to assess the cultural, social and political factors determining literary prestige. Our goal is to contribute to greater transparency in discussions around diversity and equity in literary prize cultures.”</p>
+<p>The Flint lead data provide a compelling example for introducing students to simple univariate descriptive statistics. In addition, they provide examples for discussion of sampling and data collection, as well as ethical data handling.</p>
 </blockquote>
-<p>Additional metadata discussion relating to the ethnicity, gender and sexuality, and educational classification variables is <a href="https://data.post45.org/posts/british-literary-prizes/">available on the Post45 site</a>. Follow them on BlueSky at <a href="https://bsky.app/profile/post45data.bsky.social"><span class="citation" data-cites="post45data.bsky.social">@post45data.bsky.social</span></a>, and here on GitHub at <a href="https://github.com/Post45-Data-Collective"><span class="citation" data-cites="Post45-Data-Collective">@Post45-Data-Collective</span></a>.</p>
-<p>Thank you to <a href="https://github.com/gkaramanis">Georgios Karamanis</a> for the <a href="https://github.com/rfordatascience/tidytuesday/issues/893">dataset suggestion</a>!</p>
-<p>In relation to ethical considerations, the authors note that…</p>
-<blockquote class="blockquote">
-<p>“All of the information in this dataset is publicly available. Information about a writer’s location, gender identity, race, ethnicity, or education from scholarly and public sources can be sensitive. The data provided here enables the study of broad patterns and is not intended as definitive.”</p>
-</blockquote>
+<p>The data this week includes samples collected by the Michigan Department of Environment (MDEQ) and data from a citizen science project coordinated by Prof Marc Edwards and colleagues at Virginia Tech. Community-sourced samples were collected after concerns were raised about the MDEQ excluding samples from their data. You can read about the <a href="https://academic.oup.com/jrssig/article/14/2/16/7029247">“murky” story behind this data here</a>.</p>
+<p>Thank you to <span class="citation" data-cites="nzgwynn">@nzgwynn</span> for submitting this dataset in #23!</p>
 <ul>
-<li>In which genres are women, Black, Asian and ethnically diverse writers most likely to be shortlisted and/or awarded?</li>
-<li>Have prizes improved their record on gender and/or ethnic representation in shortlists and awardees?</li>
-<li>Is there a connection between specific educational credentials and/or educational institutions and writers’ chances of being shortlisted or winning?</li>
+<li>How does the distribution of lead levels differ between MDEQ and Virginia Tech datasets?</li>
+<li>How do key statistics (mean, median, 90th percentile) change with/without excluded samples in the MDEQ sample?</li>
 </ul>
 <p>Thank you to <a href="https://github.com/jenrichmond">Jen Richmond</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
@@ -276,15 +272,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-10-28'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-11-04'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">43</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">44</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>prizes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>prizes</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>prizes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-28/prizes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>flint_mdeq</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>flint_vt <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>flint_vt</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_mdeq.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>flint_vt <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_vt.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -292,11 +290,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-10-28'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-11-04'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>prizes <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-28/prizes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_mdeq.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>flint_vt <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_vt.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -304,14 +303,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-10-28'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-11-04'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>prizes <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-28/prizes.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>prizes <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-28/prizes.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_mdeq.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>flint_vt <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_vt.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_mdeq.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>flint_vt <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-04/flint_vt.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -332,14 +333,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="prizes.csv" class="level3">
-<h3 class="anchored" data-anchor-id="prizes.csv"><code>prizes.csv</code></h3>
+<section id="flint_mdeq.csv" class="level3">
+<h3 class="anchored" data-anchor-id="flint_mdeq.csv"><code>flint_mdeq.csv</code></h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 31%">
-<col style="width: 14%">
-<col style="width: 54%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -349,119 +345,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">prize_id</td>
+<td style="text-align: left;">sample</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">sample number</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lead</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">lead level in parts per billion (all samples)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lead2</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">lead level in parts per billion (2 samples removed)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">notes</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">comment about data removal</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="flint_vt.csv" class="level3">
+<h3 class="anchored" data-anchor-id="flint_vt.csv"><code>flint_vt.csv</code></h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">sample</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Unique prize identifier used in the SBLP dataset.</td>
+<td style="text-align: left;">sample number</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">prize_alias</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the prize awarded, regularized to the most current name.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">prize_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the prize awarded, at the time of award.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">prize_institution</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Institution that sponsored the prize.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">prize_year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year the prize was awarded.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">prize_genre</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Genre category of book that the prize was awarded to.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">person_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Unique author identifier used in the SBLP dataset, assigned in order of entity entry to the dataset.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">person_role</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Whether author was shortlisted or won the prize.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">last_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Family name of author.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">first_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Given name of author.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Full name author in family name, given name format.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">gender</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Author’s gender, as self-declared/publicly available.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">sexuality</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Author’s sexuality, as self-declared/publicly available.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">uk_residence</td>
-<td style="text-align: left;">logical</td>
-<td style="text-align: left;">Whether the author holds residence status in the UK at the time of data gathering.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">ethnicity_macro</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Ethnicity macro category, as created for this dataset.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ethnicity</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Ethnicity as self-declared/publicly available.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">highest_degree</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Highest level of post-secondary education.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">degree_institution</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Institution from which the highest degree was attained.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">degree_field_category</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Degree macro category, as created for this dataset.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">degree_field</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Field of study, as self-declared/publicly available.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">viaf</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Virtual internet authority file code.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">book_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Unique book identifier used in the SBLP dataset.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">book_title</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Title of the awarded or shortlisted book.</td>
+<td style="text-align: left;">lead</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">lead levels in parts per billion (ppb)</td>
 </tr>
 </tbody>
 </table>
@@ -469,9 +394,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data obtained from Post45 Data Collective Github, no cleaning necessary</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>prizes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/Post45-Data-Collective/data/refs/heads/main/british_literary_prizes/british_literary_prizes-1990-2022.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># data downloaded from https://onlinelibrary.wiley.com/doi/10.1111/test.12187 </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># notes variable added to flint_mdeq to explain why samples were removed</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the data directory. Change this if your data is in a different location.</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>data_dir <span class="ot">&lt;-</span> <span class="st">"tt_submission"</span>  <span class="co"># Expected structure: data_dir contains test12187-supp-0001-flint.rdata</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(here<span class="sc">::</span><span class="fu">here</span>(data_dir, <span class="st">"test12187-supp-0001-flint.rdata"</span>))</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># add notes</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>flint_mdeq <span class="ot">&lt;-</span> flint_mdeq <span class="sc">%&gt;%</span> </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">notes =</span> <span class="fu">case_when</span>(lead <span class="sc">==</span> <span class="dv">104</span> <span class="sc">&amp;</span> <span class="fu">is.na</span>(lead2) <span class="sc">~</span> <span class="st">"sample removed: house had a filter"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>                           lead <span class="sc">==</span> <span class="dv">20</span> <span class="sc">&amp;</span> <span class="fu">is.na</span>(lead2) <span class="sc">~</span> <span class="st">"sample removed: business not residence"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
