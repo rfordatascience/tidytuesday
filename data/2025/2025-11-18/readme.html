@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#who-tb-burden-data-incidence-mortality-and-population" id="toc-who-tb-burden-data-incidence-mortality-and-population" class="nav-link active" data-scroll-target="#who-tb-burden-data-incidence-mortality-and-population">WHO TB Burden Data: Incidence, Mortality, and Population</a>
+  <li><a href="#the-complete-sherlock-holmes" id="toc-the-complete-sherlock-holmes" class="nav-link active" data-scroll-target="#the-complete-sherlock-holmes">The Complete Sherlock Holmes</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#who_tb_data.csv" id="toc-who_tb_data.csv" class="nav-link" data-scroll-target="#who_tb_data.csv"><code>who_tb_data.csv</code></a></li>
+  <li><a href="#holmes.csv" id="toc-holmes.csv" class="nav-link" data-scroll-target="#holmes.csv"><code>holmes.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,16 +252,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="who-tb-burden-data-incidence-mortality-and-population" class="level1">
-<h1>WHO TB Burden Data: Incidence, Mortality, and Population</h1>
-<p>This week, we explore global tuberculosis (TB) burden estimates from the World Health Organization, using data curated via <a href="https://samabbott.co.uk/getTBinR/">the getTBinR R package by Sam Abbott</a>. The dataset includes country-level indicators such as TB incidence, mortality, case detection rates, and population estimates across multiple years. These metrics help researchers, public health professionals, and learners understand the scale and distribution of TB worldwide.</p>
+<section id="the-complete-sherlock-holmes" class="level1">
+<h1>The Complete Sherlock Holmes</h1>
+<p>This week we’re exploring the complete line-by-line text of the Sherlock Holmes stories and novels, made available through the {<a href="https://github.com/EmilHvitfeldt/sherlock">sherlock</a>} R package by Emil Hvitfeldt. The dataset includes the full collection of Holmes texts, organized by book and line number, and is ideal for stylometry, sentiment analysis, and literary exploration.</p>
 <blockquote class="blockquote">
-<p>Tuberculosis remains one of the world’s deadliest infectious diseases. WHO estimates that 10.6 million people fell ill with TB in 2021, and 1.6 million died from the disease. Monitoring TB burden is essential to guide national responses and global strategies.</p>
+<p>“The name is Sherlock Holmes and the address is 221B Baker Street.” Holmes is a consulting detective known for his keen observation, logical reasoning, and use of forensic science to solve complex cases. Created by Sir Arthur Conan Doyle, Holmes has become one of the most famous fictional detectives in literature.</p>
 </blockquote>
 <ul>
-<li>Are there any years where global TB metrics show unusual spikes or drops?</li>
-<li>How does TB mortality differ between HIV-positive and HIV-negative populations?</li>
-<li>Which regions show consistent high TB burden across multiple years?</li>
+<li>Are there patterns in how Watson narrates versus how Holmes speaks?</li>
+<li>How does sentence length vary between stories?</li>
+<li>Can we detect shifts in tone when Watson is the narrator versus when Holmes speaks directly?</li>
+<li>Does sentiment shift as the mystery unfolds?</li>
 </ul>
 <p>Thank you to <a href="https://github.com/darakhshannehal">Darakhshan Nehal</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
@@ -270,15 +271,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-11-18'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-11-25'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">46</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">47</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>who_tb_data</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>holmes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>holmes</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>holmes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -286,11 +287,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-11-18'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-11-25'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>holmes <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -298,14 +299,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-11-18'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-11-25'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>holmes <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv"</span>)</span>
 <span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>holmes <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -326,13 +327,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="who_tb_data.csv" class="level3">
-<h3 class="anchored" data-anchor-id="who_tb_data.csv"><code>who_tb_data.csv</code></h3>
+<section id="holmes.csv" class="level3">
+<h3 class="anchored" data-anchor-id="holmes.csv"><code>holmes.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 68%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -343,94 +344,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">country</td>
+<td style="text-align: left;">book</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Country or territory name</td>
+<td style="text-align: left;">Title of the Sherlock Holmes story or novel.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">g_whoregion</td>
+<td style="text-align: left;">text</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">WHO region</td>
+<td style="text-align: left;">Line of text extracted from the book.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">iso_numeric</td>
+<td style="text-align: left;">line_num</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">ISO numeric country/territory code</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">iso2</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">ISO 2-character country/territory code. Note that Namibia’s code (“‘NA’”) includes single quotes to avoid being encoded as missing</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">iso3</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">ISO 3-character country/territory code</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year of observation</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">c_cdr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Case detection rate (all forms) [also known as TB treatment coverage], percent</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">c_newinc_100k</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Case notification rate, which is the total of new and relapse cases and cases with unknown previous TB treatment history per 100 000 population (calculated)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cfr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Estimated TB case fatality ratio</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e_inc_100k</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Estimated incidence (all forms) per 100 000 population</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">e_inc_num</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated number of incident cases (all forms)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e_mort_100k</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Estimated mortality of TB cases (all forms) per 100 000 population</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">e_mort_exc_tbhiv_100k</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Estimated mortality of TB cases (all forms, excluding HIV) per 100 000 population</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e_mort_exc_tbhiv_num</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated number of deaths from TB (all forms, excluding HIV)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">e_mort_num</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated number of deaths from TB (all forms)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e_mort_tbhiv_100k</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Estimated mortality of TB cases who are HIV-positive, per 100 000 population</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">e_mort_tbhiv_num</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated number of deaths from TB in people who are HIV-positive</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e_pop_num</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated total population number</td>
+<td style="text-align: left;">Narrative-preserving line index. When you load the data, blank lines (<code>""</code>) may appear as <code>NA</code>.</td>
 </tr>
 </tbody>
 </table>
@@ -438,46 +364,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This data is a subset of WHO TB data via the getTBinR package (Sam Abbott)</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Import libraries</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(devtools)</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Install getTBinR package</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#devtools::install_github("seabbs/getTBinR")</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(getTBinR)</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Load WHO TB burden data</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>tb_burden <span class="ot">&lt;-</span> <span class="fu">get_tb_burden</span>()</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a vector of variable of interest</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>vars_of_interest <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="st">"country"</span>,</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="st">"g_whoregion"</span>,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="st">"iso_numeric"</span>,</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="st">"iso2"</span>,</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="st">"iso3"</span>,</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="st">"year"</span>,</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="st">"c_cdr"</span>,</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  <span class="st">"c_newinc_100k"</span>,</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="st">"cfr"</span>,</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_inc_100k"</span>,</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_inc_num"</span>,</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_100k"</span>,</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_exc_tbhiv_100k"</span>,</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_exc_tbhiv_num"</span>,</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_num"</span>,</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_tbhiv_100k"</span>,</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_mort_tbhiv_num"</span>,</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="st">"e_pop_num"</span></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Subset the dataset </span></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>who_tb_data <span class="ot">&lt;-</span> tb_burden <span class="sc">%&gt;%</span></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">all_of</span>(vars_of_interest))</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="co"># No data cleaning needed</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Imports</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(devtools)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#devtools::install_github("EmilHvitfeldt/sherlock")</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sherlock)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>holmes <span class="ot">&lt;-</span> sherlock<span class="sc">::</span>holmes <span class="sc">|&gt;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add line numbers to preserve narrative order</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">line_num =</span> <span class="fu">row_number</span>(), <span class="at">.by =</span> <span class="st">"book"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Reorder columns</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="st">"book"</span>, <span class="st">"text"</span>, <span class="st">"line_num"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
