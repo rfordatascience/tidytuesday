@@ -1,19 +1,18 @@
-title: "WHO TB Burden Data: Incidence, Mortality, and Population"
-
+title: "The Complete Sherlock Holmes"
 article:
-  title: "getTBinR: Access and Summarise World Health Organization Tuberculosis Data"
-  url: "https://samabbott.co.uk/getTBinR/index.html"
-
+  title: "The Complete Sherlock Holmes"
+  url: "https://sherlock-holm.es/ascii/"
 data_source:
-  title: "getTBinR package"
-  url: "https://github.com/seabbs/getTBinR/"
-
+  title: "The Complete Sherlock Holmes via {sherlock} R Package"
+  url: "https://github.com/EmilHvitfeldt/sherlock"
 images:
-  - file: "who_tb_map.png"
+  - file: "logo_sherlock.png"
     alt: >
-      World map showing estimated TB incidence rates per 100,000 population. Countries range from light green (low incidence) to dark purple (high incidence), with highest rates in Sub-Saharan Africa and South/Southeast Asia. Map sourced from WHO and rendered using getTBinR::map_tb_burden() in R.
-
+      Hex sticker for the sherlock R package created by Emil Hvitfeldt. The
+      image depicts a silhouette of Sherlock Holmes with his typical deerstalker
+      hat and calabash pipe. The word sherlock appears in blue over the
+      silhouette, and the background is a pale green hexagon with a gray-green
+      border.
 credit:
   post: "Darakhshan Nehal"
   github: "@darakhshannehal"
-

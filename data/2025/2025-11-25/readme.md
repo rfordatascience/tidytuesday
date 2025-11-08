@@ -1,15 +1,18 @@
-# The Complete Sherlock Holmes
+# Statistical Performance Indicators
 
-This week we're exploring the complete line-by-line text of the Sherlock Holmes stories and novels, made available through the {[sherlock](https://github.com/EmilHvitfeldt/sherlock)} R package by Emil Hvitfeldt. The dataset includes the full collection of Holmes texts, organized by book and line number, and is ideal for stylometry, sentiment analysis, and literary exploration.
+The World Bank has developed Statistical Performance Indicators (SPI) to monitor the statistical performance of countries. The SPI focuses on five key dimensions of a country’s statistical performance: (i) data use, (ii) data services, (iii) data products, (iv) data sources, and (v) data infrastructure. This set of countries covers 99 percent of the world population. The data extend from 2016-2023, with some indicators going back to 2004.
 
-> "The name is Sherlock Holmes and the address is 221B Baker Street." Holmes is a consulting detective known for his keen observation, logical reasoning, and use of forensic science to solve complex cases. Created by Sir Arthur Conan Doyle, Holmes has become one of the most famous fictional detectives in literature.
+> The purpose of the SPI is to help countries assess and improve the performance of their statistical systems.
 
-- Are there patterns in how Watson narrates versus how Holmes speaks?
-- How does sentence length vary between stories?
-- Can we detect shifts in tone when Watson is the narrator versus when Holmes speaks directly?
-- Does sentiment shift as the mystery unfolds?
+In relation to these indicators, it should be noted that:
 
-Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating this week's dataset.
+> Small differences between countries should not be highlighted since they can reflect imprecision arising from the currently available indicators rather than meaningful differences in performance.
+
+* How has the statistical performance of a country changed over time?
+* Is statistical performance related to a country's income level or population?
+* Which pillar do countries score lowest in?
+
+Thank you to [Nicola Rennie](https://github.com/nrennie) for curating this week's dataset.
 
 ## The Data
 
@@ -18,15 +21,15 @@ Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2025-11-25')
+tuesdata <- tidytuesdayR::tt_load('2025-12-02')
 ## OR
-tuesdata <- tidytuesdayR::tt_load(2025, week = 47)
+tuesdata <- tidytuesdayR::tt_load(2025, week = 48)
 
-holmes <- tuesdata$holmes
+spi_indicators <- tuesdata$spi_indicators
 
 # Option 2: Read directly from GitHub
 
-holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv')
+spi_indicators <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv')
 ```
 
 ```python
@@ -37,11 +40,11 @@ holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 import pydytuesday
 
 # Download files from the week, which you can then read in locally
-pydytuesday.get_date('2025-11-25')
+pydytuesday.get_date('2025-12-02')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv')
+spi_indicators = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv')
 ```
 
 ```julia
@@ -52,14 +55,14 @@ holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 using TidierTuesday
 
 # Download files from the week, which you can then read in locally
-download_dataset('2025-11-25')
+download_dataset('2025-12-02')
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 
-holmes = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv")
+spi_indicators = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv")
 
 # Option 3: Read directly from Github and assign without Tidier dependencies
-holmes = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv", DataFrame)
+spi_indicators = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv", DataFrame)
 ```
 
 
@@ -79,29 +82,43 @@ holmes = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday
 
 ## Data Dictionary
 
-### `holmes.csv`
+### `spi_indicators.csv`
 
-| variable | class     | description                                  |
-|:---------|:----------|:---------------------------------------------|
-| book     | character | Title of the Sherlock Holmes story or novel. |
-| text     | character | Line of text extracted from the book.        |
-| line_num | integer   | Narrative-preserving line index. When you load the data, blank lines (`""`) may appear as `NA`.|
+|variable                  |class     |description                           |
+|:-------------------------|:---------|:-------------------------------------|
+|iso3c                     |character |ISO3 country code. |
+|country                   |character |Country name. |
+|region                    |character |Region name. |
+|income                    |character |Income level of country. |
+|year                      |integer    |Year. |
+|population                |double    |Population of the country. |
+|overall_score             |double    |Overall statistical performance score. |
+|data_use_score            |double    |Score relating to Pillar 1 - Data use. |
+|data_services_score       |double    |Score relating to Pillar 2 - Data services. |
+|data_products_score       |double    |Score relating to Pillar 3 - Data products. |
+|data_sources_score        |double    |Score relating to Pillar 4 - Data sources. |
+|data_infrastructure_score |double    |Score relating to Pillar 5 - Data infrastructure. |
 
 ## Cleaning Script
 
 ```r
-# Imports
 library(tidyverse)
-library(devtools)
 
-#devtools::install_github("EmilHvitfeldt/sherlock")
-library(sherlock)
+raw_data <- read_csv("https://datacatalogfiles.worldbank.org/ddh-published/0037996/8/DR0046108/SPI_index.csv")
 
-# Load the dataset
-holmes <- sherlock::holmes |>
-  # Add line numbers to preserve narrative order
-  mutate(line_num = row_number(), .by = "book") |>
-  # Reorder columns
-  select("book", "text", "line_num")
+spi_indicators <- raw_data |>
+  select(
+    iso3c, country, region, income, date, population,
+    SPI.INDEX, starts_with("SPI.INDEX.")
+  ) |>
+  rename(
+    year = date,
+    overall_score = SPI.INDEX,
+    data_use_score = SPI.INDEX.PIL1,
+    data_services_score = SPI.INDEX.PIL2,
+    data_products_score = SPI.INDEX.PIL3,
+    data_sources_score = SPI.INDEX.PIL4,
+    data_infrastructure_score = SPI.INDEX.PIL5
+  )
 
 ```
