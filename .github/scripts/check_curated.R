@@ -123,6 +123,20 @@ meta_path <- fs::path(submission_dir, "meta.yaml")
 if (fs::file_exists(meta_path)) {
   metadata <- yaml::read_yaml(meta_path)
 
+  # Generate a link to manually check for controversy
+  if (length(metadata$title) && nchar(metadata$title)) {
+    search_query <- URLencode(metadata$title)
+    controversy_link <- glue::glue(
+      "https://www.google.com/search?q={search_query}+controversy"
+    )
+    other_info <- c(
+      other_info,
+      glue::glue(
+        "- [ ] [Manual controversy check]({controversy_link})"
+      )
+    )
+  }
+
   # Check URLs from meta.yaml
   errors <- c(
     errors,
@@ -184,7 +198,8 @@ if (fs::file_exists(meta_path)) {
   }
 }
 
-# --- 3. Final Report ---
+# Final Report ----
+
 # After all checks, prepare the report for commenting.
 cli::cli_inform("3. Preparing report...")
 report_file <- "pr_comment.md"
