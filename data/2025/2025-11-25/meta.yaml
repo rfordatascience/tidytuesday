@@ -1,18 +1,20 @@
-title: "The Complete Sherlock Holmes"
+title: "Statistical Performance Indicators"
 article:
-  title: "The Complete Sherlock Holmes"
-  url: "https://sherlock-holm.es/ascii/"
+  title: "Measuring the Statistical Performance of Countries"
+  url: "https://worldbank.github.io/SPI/measuring-the-statistical-performance-of-countries-an-overview-of-the-statistical-performance-indicators-and-index.html#spi-overall-scores"
 data_source:
-  title: "The Complete Sherlock Holmes via {sherlock} R Package"
-  url: "https://github.com/EmilHvitfeldt/sherlock"
+  title: "World Bank Statistical Performance Indicators"
+  url: "https://datacatalog.worldbank.org/search/dataset/0037996/Statistical-Performance-Indicators"
 images:
-  - file: "logo_sherlock.png"
-    alt: >
-      Hex sticker for the sherlock R package created by Emil Hvitfeldt. The
-      image depicts a silhouette of Sherlock Holmes with his typical deerstalker
-      hat and calabash pipe. The word sherlock appears in blue over the
-      silhouette, and the background is a pale green hexagon with a gray-green
-      border.
+# Please include at least one image, and up to three images
+- file: "map.png"
+  alt: >
+    A choropleth world map showing the quintile that each country was in for their statistical performance indicator in 2019. Regions including Europe, North America, and Australasia tend to have higher performance compared to Africa, parts of Asia, and parts of South America which are in lower quintiles.
 credit:
-  post: "Darakhshan Nehal"
-  github: "@darakhshannehal"
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Nicola Rennie"
+  bluesky: "https://bsky.app/profile/nrennie"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"
+  github: "https://github.com/nrennie"
