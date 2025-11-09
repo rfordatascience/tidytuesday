@@ -19,15 +19,15 @@ Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2025-11-18')
+tuesdata <- tidytuesdayR::tt_load('2025-11-11')
 ## OR
-tuesdata <- tidytuesdayR::tt_load(2025, week = 46)
+tuesdata <- tidytuesdayR::tt_load(2025, week = 45)
 
 who_tb_data <- tuesdata$who_tb_data
 
 # Option 2: Read directly from GitHub
 
-who_tb_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv')
+who_tb_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-11/who_tb_data.csv')
 ```
 
 ```python
@@ -38,11 +38,11 @@ who_tb_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 import pydytuesday
 
 # Download files from the week, which you can then read in locally
-pydytuesday.get_date('2025-11-18')
+pydytuesday.get_date('2025-11-11')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-who_tb_data = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv')
+who_tb_data = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-11/who_tb_data.csv')
 ```
 
 ```julia
@@ -53,14 +53,14 @@ who_tb_data = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience
 using TidierTuesday
 
 # Download files from the week, which you can then read in locally
-download_dataset('2025-11-18')
+download_dataset('2025-11-11')
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 
-who_tb_data = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv")
+who_tb_data = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-11/who_tb_data.csv")
 
 # Option 3: Read directly from Github and assign without Tidier dependencies
-who_tb_data = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv", DataFrame)
+who_tb_data = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-11/who_tb_data.csv", DataFrame)
 ```
 
 

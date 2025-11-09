@@ -21,15 +21,15 @@ Thank you to [Nicola Rennie](https://github.com/nrennie) for curating this week'
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2025-12-02')
+tuesdata <- tidytuesdayR::tt_load('2025-11-25')
 ## OR
-tuesdata <- tidytuesdayR::tt_load(2025, week = 48)
+tuesdata <- tidytuesdayR::tt_load(2025, week = 47)
 
 spi_indicators <- tuesdata$spi_indicators
 
 # Option 2: Read directly from GitHub
 
-spi_indicators <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv')
+spi_indicators <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/spi_indicators.csv')
 ```
 
 ```python
@@ -40,11 +40,11 @@ spi_indicators <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 import pydytuesday
 
 # Download files from the week, which you can then read in locally
-pydytuesday.get_date('2025-12-02')
+pydytuesday.get_date('2025-11-25')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-spi_indicators = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv')
+spi_indicators = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/spi_indicators.csv')
 ```
 
 ```julia
@@ -55,14 +55,14 @@ spi_indicators = pandas.read_csv('https://raw.githubusercontent.com/rfordatascie
 using TidierTuesday
 
 # Download files from the week, which you can then read in locally
-download_dataset('2025-12-02')
+download_dataset('2025-11-25')
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 
-spi_indicators = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv")
+spi_indicators = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/spi_indicators.csv")
 
 # Option 3: Read directly from Github and assign without Tidier dependencies
-spi_indicators = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/spi_indicators.csv", DataFrame)
+spi_indicators = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/spi_indicators.csv", DataFrame)
 ```
 
 
