@@ -18,15 +18,15 @@ Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
 
-tuesdata <- tidytuesdayR::tt_load('2025-11-25')
+tuesdata <- tidytuesdayR::tt_load('2025-11-18')
 ## OR
-tuesdata <- tidytuesdayR::tt_load(2025, week = 47)
+tuesdata <- tidytuesdayR::tt_load(2025, week = 46)
 
 holmes <- tuesdata$holmes
 
 # Option 2: Read directly from GitHub
 
-holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv')
+holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv')
 ```
 
 ```python
@@ -37,11 +37,11 @@ holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 import pydytuesday
 
 # Download files from the week, which you can then read in locally
-pydytuesday.get_date('2025-11-25')
+pydytuesday.get_date('2025-11-18')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv')
+holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv')
 ```
 
 ```julia
@@ -52,14 +52,14 @@ holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 using TidierTuesday
 
 # Download files from the week, which you can then read in locally
-download_dataset('2025-11-25')
+download_dataset('2025-11-18')
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 
-holmes = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv")
+holmes = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv")
 
 # Option 3: Read directly from Github and assign without Tidier dependencies
-holmes = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-25/holmes.csv", DataFrame)
+holmes = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv", DataFrame)
 ```
 
 
