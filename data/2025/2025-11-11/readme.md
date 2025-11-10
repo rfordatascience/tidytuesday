@@ -4,13 +4,13 @@ This week, we explore global tuberculosis (TB) burden estimates from the World H
 
 > Tuberculosis remains one of the world’s deadliest infectious diseases. WHO estimates that 10.6 million people fell ill with TB in 2021, and 1.6 million died from the disease. Monitoring TB burden is essential to guide national responses and global strategies.
 
-s- Are there any years where global TB metrics show unusual spikes or drops?
+- Are there any years where global TB metrics show unusual spikes or drops?
 - How does TB mortality differ between HIV-positive and HIV-negative populations?
 - Which regions show consistent high TB burden across multiple years?
 
 Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating this week's dataset.
 
-(Note: We remove the original dataset that was slated to run this week after being informed about the history of that dataset. See [Case Study of Pima Indian Diabetes Data: Intersection of Big Data & History](https://www.studocu.com/en-us/document/new-york-university/intro-to-media-studies/digital-natives-by-joanna-radin/12585855) by Dr. Joanna Radin, Associate Professor of History of Medicine and History at Yale University, for a detailed exploration of the issues inherint in that dataset and many like it, and [Diabetes — and Privacy — Meet 'Big Data'](https://researchblog.duke.edu/2016/10/24/diabetes-and-privacy-meet-big-data/) for a summary on the Duke Research Blog by Maya Iskandarani. If you recognize issues with any TidyTuesday dataset, we greatly appreciate an [issue](https://github.com/rfordatascience/tidytuesday/issues) or [pull request](https://github.com/rfordatascience/tidytuesday/blob/main/pr_instructions.md) letting us know!)
+(Note: We removed the original dataset that was slated to run this week after being informed about the history of that dataset. See [Case Study of Pima Indian Diabetes Data: Intersection of Big Data & History](https://www.studocu.com/en-us/document/new-york-university/intro-to-media-studies/digital-natives-by-joanna-radin/12585855) by Dr. Joanna Radin, Associate Professor of History of Medicine and History at Yale University, for a detailed exploration of the issues inherint in that dataset and many like it, and [Diabetes — and Privacy — Meet 'Big Data'](https://researchblog.duke.edu/2016/10/24/diabetes-and-privacy-meet-big-data/) for a summary on the Duke Research Blog by Maya Iskandarani. If you recognize issues with any TidyTuesday dataset, we greatly appreciate an [issue](https://github.com/rfordatascience/tidytuesday/issues) or [pull request](https://github.com/rfordatascience/tidytuesday/blob/main/pr_instructions.md) letting us know!)
 
 ## The Data
 
