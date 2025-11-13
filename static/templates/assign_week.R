@@ -39,9 +39,9 @@ credit <- metadata$credit$post
 credit_github <- metadata$credit$github
 if (length(credit_github)) {
   # Normalize in case they gave full path vs just handle or included @.
-  credit_handle <- sub("github.com", "", credit_github) |> 
-    sub("https://", "", x = _) |> 
-    gsub("/", "", x = _) |> 
+  credit_handle <- sub("github.com", "", credit_github) |>
+    sub("https://", "", x = _) |>
+    gsub("/", "", x = _) |>
     sub("@", "", x = _)
   credit_github <- glue::glue("https://github.com/{credit_handle}")
   if (length(credit)) {
@@ -49,14 +49,27 @@ if (length(credit_github)) {
   } else {
     credit <- glue::glue("@credit_handle")
   }
-} 
+}
 
 ## Copy files ------------------------------------------------------------------
 
 fs::file_copy(fs::path(src_dir, "meta.yaml"), target_dir)
+fs::file_copy(dataset_files, target_dir)
 
+### Keep these files even though they're also added to the readme. -------------
+md_files <- fs::dir_ls(src_dir, glob = "*.md")
+files_to_resave <- c(md_files, fs::path(src_dir, "cleaning.R"))
+
+purrr::walk(files_to_resave, \(resave_me) {
+  # Get rid of comments, make sure there's a trailing newline, make sure there
+  # *isn't* a newline at the start.
+  read_piece(resave_me) |>
+    writeLines(fs::path(target_dir, basename(resave_me)))
+})
+
+### Resize images --------------------------------------------------------------
 max_bsky_size <- fs::fs_bytes("976.56KB")
-metadata$images |> 
+metadata$images |>
   purrr::walk(
     \(image) {
       original_img_path <- fs::path(src_dir, image$file)
@@ -67,12 +80,12 @@ metadata$images |>
         # file size, but it seems to err on the side of making things smaller
         # than they need to be.
         ratio <- floor(
-          as.integer(max_bsky_size)/as.integer(original_img_size)*90
+          as.integer(max_bsky_size) / as.integer(original_img_size) * 90
         )
-        magick::image_read(original_img_path) |> 
+        magick::image_read(original_img_path) |>
           magick::image_resize(
             magick::geometry_size_percent(ratio)
-          ) |> 
+          ) |>
           magick::image_write(fs::path(target_dir, image$file))
       } else {
         fs::file_copy(original_img_path, target_dir)
@@ -80,25 +93,33 @@ metadata$images |>
     }
   )
 
-fs::file_copy(dataset_files, target_dir)
-
 ## Create readme ---------------------------------------------------------------
 
 title_line <- glue::glue("# {title}")
 intro <- read_piece(fs::path(src_dir, "intro.md"))
-credit_line <- glue::glue("Thank you to {credit} for curating this week's dataset.")
+credit_line <- glue::glue(
+  "Thank you to {credit} for curating this week's dataset."
+)
 if (length(credit_line)) {
   intro <- paste(intro, credit_line, sep = "\n")
 }
 
-the_data_template <- read_piece(here::here("static", "templates", "the_data.md"))
-how_to_participate <- read_piece(here::here("static", "templates", "how_to_participate.md"))
+the_data_template <- read_piece(here::here(
+  "static",
+  "templates",
+  "the_data.md"
+))
+how_to_participate <- read_piece(here::here(
+  "static",
+  "templates",
+  "how_to_participate.md"
+))
 
 data_dictionaries <- purrr::map(
   dataset_filenames,
   \(dataset_filename) {
     dictionary_filename <- fs::path_ext_set(dataset_filename, "md")
-    dictionary <- fs::path(src_dir, dictionary_filename) |> 
+    dictionary <- fs::path(src_dir, dictionary_filename) |>
       read_piece()
     dictionary_md <- glue::glue(
       "### `{dataset_filename}`",
@@ -106,8 +127,9 @@ data_dictionaries <- purrr::map(
       .sep = "\n\n"
     )
   }
-) |> 
-  glue::glue_collapse(sep = "\n\n") |> unclass()
+) |>
+  glue::glue_collapse(sep = "\n\n") |>
+  unclass()
 
 data_dictionary <- glue::glue(
   "## Data Dictionary",
@@ -152,7 +174,7 @@ paste(
   data_dictionary,
   cleaning_script,
   sep = "\n\n"
-) |> 
+) |>
   cat(file = fs::path(target_dir, "readme.md"))
 
 ## Update the YEAR readme ------------------------------------------------------
@@ -241,5 +263,5 @@ tt_data_types <- dplyr::bind_rows(
 readr::write_csv(tt_data_types, tt_data_types_file)
 
 # Delete the used directory ----------------------------------------------------
- 
+
 fs::dir_delete(src_dir)
