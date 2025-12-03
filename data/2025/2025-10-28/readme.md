@@ -6,9 +6,9 @@ This week we are exploring data related to the Selected British Literary Prizes 
 > including institutions where the authors acquired their degrees and their fields of study. Along with other similar projects, we aim to provide information to assess the cultural, 
 > social and political factors determining literary prestige. Our goal is to contribute to greater transparency in discussions around diversity and equity in literary prize cultures." 
 
-Additional metadata discussion relating to the ethnicity, gender and sexuality, and educational classification variables is [available here](https://data.post45.org/posts/british-literary-prizes/). 
+Additional metadata discussion relating to the ethnicity, gender and sexuality, and educational classification variables is [available on the Post45 site](https://data.post45.org/posts/british-literary-prizes/). Follow them on BlueSky at [@post45data.bsky.social](https://bsky.app/profile/post45data.bsky.social), and here on GitHub at [@Post45-Data-Collective](https://github.com/Post45-Data-Collective).
 
-Thank you to @gkaramanis for the [dataset suggestion](https://github.com/rfordatascience/tidytuesday/issues/893)!
+Thank you to [Georgios Karamanis](https://github.com/gkaramanis) for the [dataset suggestion](https://github.com/rfordatascience/tidytuesday/issues/893)!
 
 In relation to ethical considerations, the authors note that...
 
