@@ -1,17 +1,13 @@
 title: "The Languages of the World"
-
 article:
   title: "Glottolog: A Free, Online, Comprehensive Bibliography of the World’s Languages"
   url: "https://glottolog.org/"
-
 data_source:
   title: "Glottolog_5.2"
   url: "https://github.com/glottolog/glottolog-cldf/tree/master/cldf"
-
 images:
   - file: "Glottolog_5.2.png"
     alt: >
       Reproduction of the antique world map Nova Totius Terrarum Orbis Tabula, featuring allegorical scenes and mythological figures surrounding the continents.
-
 credit:
   post: "Darakhshan Nehal"
