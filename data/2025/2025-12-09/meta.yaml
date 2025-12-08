@@ -1,20 +1,20 @@
-title: Cars in Qatar
+title: "Cars in Qatar"
 article:
    title: "Introducing the Qatar Cars Dataset"
-   url: https://musgrave.substack.com/p/introducing-the-qatar-cars-dataset
+   url: "https://musgrave.substack.com/p/introducing-the-qatar-cars-dataset"
 data_source:
   title: "{qatarcars}"
   url: "https://profmusgrave.github.io/qatarcars/"
 images:
-- file: qatarcars_hex.png
+- file: "qatarcars_hex.png"
   alt: >
     Hex logo for the {qatarcars} package, with the title "Qatar Cars" overlaid on an illustrated car that is decorated with the design and colors of the Qatari flag.
-- file: example-plot.png
+- file: "example-plot.png"
   alt: >
     A scatterplot showing the number of seconds to accelerate from 0 to 100 km/h on the x-axis (ranging from 0 to 15 seconds) and the logged price of cars in the y-axis (ranging from $10,000 to $10,000,000 USD). The points are colored by engine type (electric, hybrid, and petrol). The plot includes an annotation pointing out the $2.2 million Lotus Evija, which is an electric hypercar with an acceleration time of about a second, and another annotation highlighting the fact that electric cars tend to accelerate quickly.
 credit:
-  post: Andrew Heiss, Georgia State University
-  bluesky: https://bsky.app/profile/andrew.heiss.phd
-  linkedin: https://www.linkedin.com/in/andrewheiss
+  post: "Andrew Heiss, Georgia State University"
+  bluesky: "https://bsky.app/profile/andrew.heiss.phd"
+  linkedin: "https://www.linkedin.com/in/andrewheiss"
   mastodon: "@andrew@fediscience.org"
-  github: https://github.com/andrewheiss
+  github: "https://github.com/andrewheiss"

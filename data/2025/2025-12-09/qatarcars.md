@@ -15,3 +15,4 @@
 |performance |double    |Time to accelerate from 0 to 100 km/h (in seconds).         |
 |type        |character |The type of the car, such as coupe, sedan, or SUV.          |
 |enginetype  |character |The type of engine: electric, hybrid, or petrol.            |
+

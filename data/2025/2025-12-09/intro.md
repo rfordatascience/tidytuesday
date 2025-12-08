@@ -23,3 +23,4 @@ There are many possible questions to explore!
 - What's the relationship between (logged) price and performance?
 - Are there patterns across cars from different countries? Do some countries make more expensive cars? More electic cars?
 - What's the relationship between car dimensions and seating or trunk volume?
+

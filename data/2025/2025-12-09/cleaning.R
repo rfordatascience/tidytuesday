@@ -6,3 +6,4 @@ qatarcars <- readr::read_csv("https://raw.githubusercontent.com/profmusgrave/qat
 # install.packages("qatarcars")
 # library(qatarcars)
 # data(qatarcars, package = "qatarcars")
+
