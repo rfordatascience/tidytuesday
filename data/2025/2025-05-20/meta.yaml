@@ -1,0 +1,22 @@
+title: "Water Quality at Sydney Beaches"
+article:
+  title: "Sydney beachgoers urged not to swim in waterways, amid pollution warnings and bull shark activity"
+  url: "https://www.abc.net.au/news/2025-01-10/pollution-risks-in-sydney-beaches-contaminated-waterways-rain/104790856"
+data_source:
+  title:
+    - "BeachwatchNSW"
+    - "Open-Meteo"
+  url:
+    - "https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData"
+    - "https://open-meteo.com/"
+images:
+# Please include at least one image, and up to three images
+- file: "BeachwatchMap.png"
+  alt: >
+    The image is a map of Sydney City including coastal, harbour and western swimming locations. Each beach is marked by a red circle if pollution is likely, an orange pentagon if pollution is possible, or a green circle if pollution is unlikely. In this image, there are 20 red sites, 11 green sites, and 2 orange sites. The green sites are located at coastal beaches.
+credit:
+  post: "Jen Richmond (R-Ladies Sydney)"
+  github: "@jenrichmondPhD"
+  bluesky: "@jenrichmondphd.bsky.social"
+  linkedin: "@jenrichmondPhD"
+  mastodon: "@jenrichmondPhD"

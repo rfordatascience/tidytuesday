@@ -1,0 +1,18 @@
+title: "Crane Observations at Lake Hornborgasjön, Sweden (1994–2024)"
+article:
+  title: "The dancing cranes of Lake Hornborga"
+  url: "https://www.datawrapper.de/blog/the-dancing-cranes-of-lake-hornborga"
+data_source:
+  title: "Transtatistik ('crane statistics'), Naturum, Hornborgasjön, Västra Götaland County Administrative Board"
+  url: "https://www.hornborga.com/naturen/transtatistik/"
+images:
+# Please include at least one image, and up to three images
+- file: "cranes.png"
+  alt: >
+    Large flock of cranes gathered in a grassy field during golden hour, with some birds in flight overhead and autumn-colored vegetation in the background.
+- file: "plot.png"
+  alt: >
+    Line chart showing the number of cranes per day at Lake Hornborga in Sweden during March and April from 2014-2021. Multiple gray lines represent different years, with the 2018 and 2021 seasons highlighted in blue. The chart shows crane migration patterns starting near zero in early March, building to peak numbers of 15,000-27,000 birds between March 30 and April 8 (highlighted in beige), then declining through late April. The highest recorded count was 27,300 cranes on April 3rd, 2019. Dashed lines indicate days when weather conditions made accurate counting difficult. A note explains that 2018 had unusually cold February temperatures causing later arrival. The chart is credited to Anna Thieme from Länsstyrelsen VG at https://transtat.lansstyrelsen.se/
+credit:
+  post: "Carl Borstell"
+  github: "@borstell"
