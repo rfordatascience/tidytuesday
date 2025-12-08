@@ -1,5 +1,5 @@
-This week we are exploring data from the [`roundabouts` package](https://github.com/EmilHvitfeldt/roundabouts) by Emil Hvitfeldt. 
-The roundabouts package provides a R friendly way to access the roundabouts database which is compiled by [Kittelson & Associates](https://roundabouts.kittelson.com/) 
+This week we are exploring data from the [`{roundabouts}` package](https://github.com/EmilHvitfeldt/roundabouts) by Emil Hvitfeldt. 
+The roundabouts package provides an R friendly way to access the roundabouts database which is compiled by [Kittelson & Associates](https://roundabouts.kittelson.com/) 
 and contains information about the location, configuration, and construction of roundabout intersections around the world. 
 
 > “It started with an inventory of U.S. roundabouts that identified 150 sites,” Lee says. “One thing led to another, and now we’re at 
