@@ -83,8 +83,7 @@ wwbi_country <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
 |external_debt_reporting_status |character |estimate, preliminary, or actual |
 |system_of_trade  |character |Under the general system imports include goods imported for domestic consumption and imports into bonded warehouses and free trade zones. Under the special system imports comprise goods imported for domestic consumption (including transformation and repair) and withdrawals for domestic consumption from bonded warehouses and free trade zones. Goods transported through a country en route to another are excluded. |
 |government_accounting_concept |character |government accounting concept |
-|imf_data_dissemination_standard |character |International Monetary Fund data-dissemination standard: Special Data Dissemination Standard (SDDS, 1996, created for countries
-that have or seek to have access to international markets), SDDS Plus (2012, the highest tier of data standards, intended for systemically important economies), enhanced GDDS (e-GDDS, 2015, encouraging participants to emphasize data publication) |
+|imf_data_dissemination_standard |character |International Monetary Fund data-dissemination standard: Special Data Dissemination Standard (SDDS, 1996, created for countries that have or seek to have access to international markets), SDDS Plus (2012, the highest tier of data standards, intended for systemically important economies), enhanced GDDS (e-GDDS, 2015, encouraging participants to emphasize data publication) |
 |latest_household_survey |character |which household survey was most recently administered |
 |source_of_most_recent_income_and_expenditure_data |character |which survey serves as the basis for income and expenditure data |
 |vital_registration_complete |logical |whether the vital registration is complete |

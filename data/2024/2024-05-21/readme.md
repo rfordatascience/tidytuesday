@@ -48,8 +48,7 @@ emissions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 |commodity              |character |Specifies which commodity the production refers to: Oil and NGL, Natural Gas, Anthracite Coal, Bituminous Coal, Lignite Coal, Metallurgical Coal, Sub-Bituminous Coal, Thermal Coal, or Cement.  |
 |production_value       |double    |The quantity of production    |
 |production_unit        |character |The unit of production (Oil & NGL - million barrels, Natural Gas - billion cubic feet, Coal - million tonnes, Cement - million tonnes CO2 (see methodology for explanation)). Units - Billion cubic feet per year (Bcf/yr), Million barrels per year (Million bbl/yr), or Million tonnes per year (Million tonnes/yr).  |
-|total_emissions_MtCO2e |double    |The total emissions traced to
-the 'parent_entity' in the 'year'. Units - million tonnes of carbon dioxide equivalent (MtCO2e). |
+|total_emissions_MtCO2e |double    |The total emissions traced to the 'parent_entity' in the 'year'. Units - million tonnes of carbon dioxide equivalent (MtCO2e). |
 
 
 

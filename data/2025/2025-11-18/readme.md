@@ -1,15 +1,13 @@
-# WHO TB Burden Data: Incidence, Mortality, and Population
+# The Complete Sherlock Holmes
 
-This week, we explore global tuberculosis (TB) burden estimates from the World Health Organization, using data curated via [the getTBinR R package by Sam Abbott](https://samabbott.co.uk/getTBinR/). The dataset includes country-level indicators such as TB incidence, mortality, case detection rates, and population estimates across multiple years. These metrics help researchers, public health professionals, and learners understand the scale and distribution of TB worldwide.
+This week we're exploring the complete line-by-line text of the Sherlock Holmes stories and novels, made available through the {[sherlock](https://github.com/EmilHvitfeldt/sherlock)} R package by Emil Hvitfeldt. The dataset includes the full collection of Holmes texts, organized by book and line number, and is ideal for stylometry, sentiment analysis, and literary exploration.
 
+> "The name is Sherlock Holmes and the address is 221B Baker Street." Holmes is a consulting detective known for his keen observation, logical reasoning, and use of forensic science to solve complex cases. Created by Sir Arthur Conan Doyle, Holmes has become one of the most famous fictional detectives in literature.
 
-
-> Tuberculosis remains one of the world’s deadliest infectious diseases. WHO estimates that 10.6 million people fell ill with TB in 2021, and 1.6 million died from the disease. Monitoring TB burden is essential to guide national responses and global strategies.
-
-
-- Are there any years where global TB metrics show unusual spikes or drops?
-- How does TB mortality differ between HIV-positive and HIV-negative populations?
-- Which regions show consistent high TB burden across multiple years?
+- Are there patterns in how Watson narrates versus how Holmes speaks?
+- How does sentence length vary between stories?
+- Can we detect shifts in tone when Watson is the narrator versus when Holmes speaks directly?
+- Does sentiment shift as the mystery unfolds?
 
 Thank you to [Darakhshan Nehal](https://github.com/darakhshannehal) for curating this week's dataset.
 
@@ -24,11 +22,11 @@ tuesdata <- tidytuesdayR::tt_load('2025-11-18')
 ## OR
 tuesdata <- tidytuesdayR::tt_load(2025, week = 46)
 
-who_tb_data <- tuesdata$who_tb_data
+holmes <- tuesdata$holmes
 
 # Option 2: Read directly from GitHub
 
-who_tb_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv')
+holmes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv')
 ```
 
 ```python
@@ -43,7 +41,7 @@ pydytuesday.get_date('2025-11-18')
 
 # Option 2: Read directly from GitHub and assign to an object
 
-who_tb_data = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv')
+holmes = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv')
 ```
 
 ```julia
@@ -58,10 +56,10 @@ download_dataset('2025-11-18')
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 
-who_tb_data = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv")
+holmes = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv")
 
 # Option 3: Read directly from Github and assign without Tidier dependencies
-who_tb_data = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/who_tb_data.csv", DataFrame)
+holmes = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv", DataFrame)
 ```
 
 
@@ -81,71 +79,29 @@ who_tb_data = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytu
 
 ## Data Dictionary
 
-### `who_tb_data.csv`
+### `holmes.csv`
 
-| variable | class | description |
-|:---|:---|:---|
-| country | character | Country or territory name |
-| g_whoregion | character | WHO region |
-| iso_numeric | integer | ISO numeric country/territory code |
-| iso2 | character | ISO 2-character country/territory code. Note that Namibia's code ("'NA'") includes single quotes to avoid being encoded as missing |
-| iso3 | character | ISO 3-character country/territory code |
-| year | integer | Year of observation |
-| c_cdr | double | Case detection rate (all forms) [also known as TB treatment coverage], percent |
-| c_newinc_100k | double | Case notification rate, which is the total of new and relapse cases and cases with unknown previous TB treatment history per 100 000 population (calculated) |
-| cfr | double | Estimated TB case fatality ratio |
-| e_inc_100k | double | Estimated incidence (all forms) per 100 000 population |
-| e_inc_num | integer | Estimated number of incident cases (all forms) |
-| e_mort_100k | double | Estimated mortality of TB cases (all forms) per 100 000 population |
-| e_mort_exc_tbhiv_100k | double | Estimated mortality of TB cases (all forms, excluding HIV) per 100 000 population |
-| e_mort_exc_tbhiv_num | integer | Estimated number of deaths from TB (all forms, excluding HIV) |
-| e_mort_num | integer | Estimated number of deaths from TB (all forms) |
-| e_mort_tbhiv_100k | double | Estimated mortality of TB cases who are HIV-positive, per 100 000 population |
-| e_mort_tbhiv_num | integer | Estimated number of deaths from TB in people who are HIV-positive |
-| e_pop_num | integer | Estimated total population number |
+| variable | class     | description                                  |
+|:---------|:----------|:---------------------------------------------|
+| book     | character | Title of the Sherlock Holmes story or novel. |
+| text     | character | Line of text extracted from the book.        |
+| line_num | integer   | Narrative-preserving line index. When you load the data, blank lines (`""`) may appear as `NA`.|
 
 ## Cleaning Script
 
 ```r
-# This data is a subset of WHO TB data via the getTBinR package (Sam Abbott)
-
-# Import libraries
+# Imports
 library(tidyverse)
 library(devtools)
 
-# Install getTBinR package
-#devtools::install_github("seabbs/getTBinR")
-library(getTBinR)
+#devtools::install_github("EmilHvitfeldt/sherlock")
+library(sherlock)
 
-# Load WHO TB burden data
-tb_burden <- get_tb_burden()
-
-# Create a vector of variable of interest
-vars_of_interest <- c(
-  "country",
-  "g_whoregion",
-  "iso_numeric",
-  "iso2",
-  "iso3",
-  "year",
-  "c_cdr",
-  "c_newinc_100k",
-  "cfr",
-  "e_inc_100k",
-  "e_inc_num",
-  "e_mort_100k",
-  "e_mort_exc_tbhiv_100k",
-  "e_mort_exc_tbhiv_num",
-  "e_mort_num",
-  "e_mort_tbhiv_100k",
-  "e_mort_tbhiv_num",
-  "e_pop_num"
-)
-
-# Subset the dataset 
-who_tb_data <- tb_burden %>%
-  select(all_of(vars_of_interest))
-
-# No data cleaning needed
+# Load the dataset
+holmes <- sherlock::holmes |>
+  # Add line numbers to preserve narrative order
+  mutate(line_num = row_number(), .by = "book") |>
+  # Reorder columns
+  select("book", "text", "line_num")
 
 ```
