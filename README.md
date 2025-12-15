@@ -89,6 +89,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   49|2025-12-09 |[Cars in Qatar](data/2025/2025-12-09/readme.md)                                         |[{qatarcars}](https://profmusgrave.github.io/qatarcars/)                                                                                               |[Introducing the Qatar Cars Dataset](https://musgrave.substack.com/p/introducing-the-qatar-cars-dataset)|
 |   50|2025-12-16 |[Roundabouts across the world](data/2025/2025-12-16/readme.md)                          |[roundabouts R package](https://github.com/EmilHvitfeldt/roundabouts)                                                                                  |[How Many Roundabouts Are in the United States?](https://www.kittelson.com/ideas/how-many-roundabouts-are-in-the-united-states/)|
 |   51|2025-12-23 |[The Languages of the World](data/2025/2025-12-23/readme.md)                            |[Glottolog_5.2](https://github.com/glottolog/glottolog-cldf/tree/master/cldf)                                                                          |[Glottolog: A Free, Online, Comprehensive Bibliography of the World’s Languages](https://glottolog.org/)|
+|   52|2025-12-30 |[Christmas Novels](data/2025/2025-12-30/readme.md)                                      |[Project Gutenberg](https://www.gutenberg.org/)                                                                                                        |[New (gutenbergr) Maintainer Wanted](https://github.com/ropensci/gutenbergr/issues/95)              |
 
 ***  
 
