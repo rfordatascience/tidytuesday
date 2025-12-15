@@ -13,16 +13,12 @@ christmas_novels_raw <- gutenbergr::gutenberg_works(
 )
 
 christmas_novels <- christmas_novels_raw |>
-  dplyr::distinct(
-    .data$gutenberg_id,
-    .data$title
-  )
+  dplyr::distinct(.data$gutenberg_id, .data$title, .data$gutenberg_author_id)
 
 christmas_novel_authors <- christmas_novels_raw |>
-  dplyr::distinct(
-    .data$gutenberg_id,
-    .data$author,
-    .data$gutenberg_author_id
-  )
+  dplyr::distinct(.data$gutenberg_author_id) |>
+  dplyr::left_join(gutenbergr::gutenberg_authors, by = "gutenberg_author_id") |>
+  # Just use the "aliases" column, "alias" is redundant.
+  dplyr::select(-"alias")
 
 christmas_novel_text <- gutenbergr::gutenberg_download(christmas_novels)
