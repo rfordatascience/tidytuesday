@@ -1,43 +1,36 @@
-gutenberg_id,author,gutenberg_author_id
-46,"Dickens, Charles",37
-1902,"Wiggin, Kate Douglas Smith",266
-2731,"Thackeray, William Makepeace",313
-4384,"Van Dyke, Henry",362
-8694,"Alcott, Louisa May",102
-10707,"Locke, William John",1324
-10813,"Boyd, Mary Stuart",3695
-12881,"Hughes, Rupert",2334
-14534,"Finley, Martha",2044
-14606,"Brady, Cyrus Townsend",5591
-14835,"Miller, Alice Duer",3939
-15552,"Dawson, Coningsby",2497
-15709,"Brown, Abbie Farwell",5282
-15826,"Dalrymple, Leona",6328
-16134,"Van Dyke, Henry",362
-16454,"Barclay, Florence L. (Florence Louisa)",1253
-17006,"Parker, Theodore",7088
-17456,"Wiggin, Kate Douglas Smith",266
-17510,"Dalrymple, Leona",6328
-17743,"Williamson, C. N. (Charles Norris)",3522
-17743,"Williamson, A. M. (Alice Muriel)",3796
-17937,"Butler, Ellis Parker",585
-18770,"Francis, Samuel W. (Samuel Ward)",8241
-19337,"Dickens, Charles",37
-19384,"Richmond, Grace S. (Grace Smith)",2216
-20018,"McIntosh, Maria J. (Maria Jane)",9034
-20180,"Mitchell, S. Weir (Silas Weir)",357
-20210,"McMahan, Anna Benneson",9154
-20251,"Leighton, John",9186
-20453,"Stretton, Hesba",2440
-20516,"Gale, Zona",3531
-22665,"Auerbach, Berthold",8194
-22696,"Hughes, Rupert",2334
-23569,"Burnett, Alice Hale",7166
-32455,"Hale, Edward Everett",650
-37547,"Gask, Lilian",38912
-38983,"Frey, Hildegard G.",2241
-42919,"Williamson, C. N. (Charles Norris)",3522
-42919,"Williamson, A. M. (Alice Muriel)",3796
-42923,"Allen, James Lane",869
-44796,"Bacheller, Irving",4001
-52935,"Eggleston, Edward",3293
+gutenberg_author_id,author,birthdate,deathdate,wikipedia,aliases
+37,"Dickens, Charles",1812,1870,https://en.wikipedia.org/wiki/Charles_Dickens,"Boz/Dickens, Charles John Huffam"
+266,"Wiggin, Kate Douglas Smith",1856,1923,https://en.wikipedia.org/wiki/Kate_Douglas_Wiggin,"Riggs, Kate Douglas Smith Wiggin/Smith, Kate Douglas/Riggs, George Christopher, Mrs./Wiggin, Samuel Bradley, Mrs."
+313,"Thackeray, William Makepeace",1811,1863,https://en.wikipedia.org/wiki/William_Makepeace_Thackeray,"Titmarsh, Michael Angelo/Thackeray, W. M./Titmarsh, M. A./Thackeray, William M."
+362,"Van Dyke, Henry",1852,1933,https://en.wikipedia.org/wiki/Henry_van_Dyke,"Dyke, Henry Van/Dyke, Henry Jackson Van/Dyke, Henry I. Van"
+102,"Alcott, Louisa May",1832,1888,https://en.wikipedia.org/wiki/Louisa_May_Alcott,"Barnard, A. M./Alcott, Louisa M. (Louisa May)/Alcott, L. M. (Louisa May)"
+1324,"Locke, William John",1863,1930,https://en.wikipedia.org/wiki/William_John_Locke,"Locke, William J. (William John)/Locke, W. J. (William John)"
+3695,"Boyd, Mary Stuart",1860,1937,NA,NA
+2334,"Hughes, Rupert",1872,1956,https://en.wikipedia.org/wiki/Rupert_Hughes,NA
+2044,"Finley, Martha",1828,1909,https://en.wikipedia.org/wiki/Martha_Finley,"Farquharson, Martha/Cousin Martha"
+5591,"Brady, Cyrus Townsend",1861,1920,https://en.wikipedia.org/wiki/Cyrus_Townsend_Brady,NA
+3939,"Miller, Alice Duer",1874,1942,https://en.wikipedia.org/wiki/Alice_Duer_Miller,"Duer, Alice"
+2497,"Dawson, Coningsby",1883,1959,https://en.wikipedia.org/wiki/Coningsby_Dawson,"Dawson, Coningsby W. (Coningsby William)/Dawson, Coningsby William"
+5282,"Brown, Abbie Farwell",1871,1927,https://en.wikipedia.org/wiki/Abbie_Farwell_Brown,NA
+6328,"Dalrymple, Leona",1884,1968,https://en.wikipedia.org/wiki/Leona_Dalrymple,"Dalrymple, C. Leona"
+1253,"Barclay, Florence L. (Florence Louisa)",1862,1921,https://en.wikipedia.org/wiki/Florence_L._Barclay,"Barclay, Florence Louisa (Charlesworth), Mrs./Roy, Brandon"
+7088,"Parker, Theodore",1810,1860,https://en.wikipedia.org/wiki/Theodore_Parker,"Blodgett, Levi"
+3522,"Williamson, C. N. (Charles Norris)",1859,1920,https://en.wikipedia.org/wiki/Charles_Norris_Williamson,"Williamson, Charles Norris"
+3796,"Williamson, A. M. (Alice Muriel)",1869,1933,https://en.wikipedia.org/wiki/A._M._Williamson,"Williamson, Alice Muriel/Williamson, Mrs. C. N."
+585,"Butler, Ellis Parker",1869,1937,https://en.wikipedia.org/wiki/Ellis_Parker_Butler,NA
+8241,"Francis, Samuel W. (Samuel Ward)",1835,1886,https://en.wikipedia.org/wiki/Samuel_Ward_Francis,"Francis, Samuel Ward/Syntax, Samuel"
+2216,"Richmond, Grace S. (Grace Smith)",1866,1959,https://en.wikipedia.org/wiki/Grace_S._Richmond,"Smith, Grace"
+9034,"McIntosh, Maria J. (Maria Jane)",1803,1878,https://en.wikipedia.org/wiki/Maria_Jane_McIntosh,"McIntosh, Maria Jane/McIntosh, M. J. (Maria Jane)/M'Intosh, M. J. (Maria Jane)/M'Intosh, Maria"
+357,"Mitchell, S. Weir (Silas Weir)",1829,1914,https://en.wikipedia.org/wiki/Silas_Weir_Mitchell,"Mitchell, Weir/Mitchell, Silas Weir"
+9154,"McMahan, Anna Benneson",NA,NA,NA,NA
+9186,"Leighton, John",1822,1912,https://en.wikipedia.org/wiki/John_Leighton_(artist),"Limner, Luke"
+2440,"Stretton, Hesba",1832,1911,https://en.wikipedia.org/wiki/Hesba_Stretton,"Smith, Sarah"
+3531,"Gale, Zona",1874,1938,https://en.wikipedia.org/wiki/Zona_Gale,"Breese, William Llywelyn, Mrs./Breese, William Lleywelyn, Mrs."
+8194,"Auerbach, Berthold",1812,1882,https://en.wikipedia.org/wiki/Berthold_Auerbach|https://de.wikipedia.org/wiki/Berthold_Auerbach,"Baruch, Moses"
+7166,"Burnett, Alice Hale",NA,NA,https://en.wikipedia.org/wiki/Alice_Hale_Burnett,NA
+650,"Hale, Edward Everett",1822,1909,https://en.wikipedia.org/wiki/Edward_Everett_Hale,"Ingham, Frederic/Darragh, J. Thomas/Hale, E. E. (Edward Everett)/Hale, Edward E."
+38912,"Gask, Lilian",1865,NA,https://en.wikipedia.org/wiki/Lilian_Gask,NA
+2241,"Frey, Hildegard G.",1891,1957,NA,"Frey, Hildegard G. (Hildegard Gertrude)/Frey, Hildegarde G."
+869,"Allen, James Lane",1849,1925,https://en.wikipedia.org/wiki/James_Lane_Allen,NA
+4001,"Bacheller, Irving",1859,1950,https://en.wikipedia.org/wiki/Irving_Bacheller,"Bacheller, Addison Irving"
+3293,"Eggleston, Edward",1837,1902,https://en.wikipedia.org/wiki/Edward_Eggleston,NA
