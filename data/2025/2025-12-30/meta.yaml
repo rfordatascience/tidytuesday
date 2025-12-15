@@ -1,0 +1,18 @@
+title: "Christmas Novels"
+article:
+  title: "New (gutenbergr) Maintainer Wanted"
+  url: "https://github.com/ropensci/gutenbergr/issues/95"
+data_source:
+  title: "Project Gutenberg"
+  url: "https://www.gutenberg.org/"
+images:
+# Please include at least one image, and up to three images
+- file: "christmas_present.png"
+  alt: >
+    A color drawing of the Spirit of Christmas Present from A Christmas Carol by Charles Dickens. A man in a green robe sits on top of a pile of varoius foods, and holds a torch above his head. Scrooge stands beside him, dwarfed by the spirt.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
