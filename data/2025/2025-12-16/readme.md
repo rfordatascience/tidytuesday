@@ -13,6 +13,8 @@ over 20,000 records in the database.”
 
 Thank you to [Jen Richmond](https://github.com/jenrichmond) for curating this week's dataset.
 
+Note: After this dataset was posted, [Georgios Karamanis](https://github.com/gkaramanis) discovered that the latitude and longitude columns were reversed in the cleaning script. If you re-scrape the data, change the order in the `tidyr::separate()` function accordingly as noted in the cleaning script below!
+
 ## The Data
 
 ```r
@@ -119,7 +121,9 @@ roundabouts_clean <- roundabouts |>
                 country = stringr::str_remove_all(country, "[\\(\\)]"),  # remove brackets
                 address2 = stringr::str_remove(address, "\\s*\\([^)]+\\)$")) |>  # remove last () from original address
   tidyr::separate(address2, into = c("town_city", "county_area", "state_region"), sep = ",") |> # separate address by comma
-  tidyr::separate(coordinates, into = c("long", "lat"), sep = ",") |> # separate latitude longitude by comma
+  # Note: It was discovered after this dataset was shared that latitude and 
+  # longitude were reversed here. If you re-scrape the data, change this to `c("long", "lat")`.
+  tidyr::separate(coordinates, into = c("lat", "long"), sep = ",") |> # separate latitude longitude by comma
   dplyr::select(name, address, town_city, county_area, state_region, country, lat, long, everything()) |> # reorder variables
   dplyr::mutate(lat = as.numeric(lat), long = as.numeric(long), # fix data types
                 year_completed = as.integer(year_completed), 
