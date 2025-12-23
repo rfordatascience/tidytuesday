@@ -1,4 +1,4 @@
-# remotes::install_github("eringrand/astropic")
+remotes::install_github("eringrand/astropic")
 
 # Dataset inside the the {{astropic}} R package on GitHub.
 library(astropic)
