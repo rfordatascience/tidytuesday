@@ -1,0 +1,20 @@
+title: "This week we're exploring {title}!"
+article:
+  title: Languages of Africa
+  url: https://en.wikipedia.org/wiki/Languages_of_Africa
+data_source:
+  title: Demographics
+  url: https://en.wikipedia.org/wiki/Languages_of_Africa#Demographics_2
+images:
+# Please include at least one image, and up to three images
+- file: Africa_ethnic_groups_1996.png
+  alt: >
+    Map showing the traditional language families represented in Africa. Credit 
+    to Wikipedia.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Robert Muwanga, Data Enthusiast 
+  bluesky: https://bsky.app/profile/muwanga.me
+  linkedin: https://www.linkedin.com/in/robertmuwanga
+
