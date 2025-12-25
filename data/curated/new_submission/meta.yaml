@@ -1,0 +1,15 @@
+title: "Ferris Wheels"
+article:
+  title: "List of Ferris wheels"
+  url: "https://en.wikipedia.org/wiki/List_of_Ferris_wheels"
+data_source:
+  title: "ferriswheels R package"
+  url: "https://github.com/EmilHvitfeldt/ferriswheels"
+images:
+- file: "wheels.png"
+  alt: >
+    A distant view of a ferris wheel at a town fair
+credit:
+  post: "Darakhshan Nehal"
+  github: "@darakhshannehal"
+  bluesky: "@darakhshann.bsky.social"
