@@ -228,7 +228,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-languages-of-the-world" id="toc-the-languages-of-the-world" class="nav-link active" data-scroll-target="#the-languages-of-the-world">The Languages of the World</a>
+  <li><a href="#christmas-novels" id="toc-christmas-novels" class="nav-link active" data-scroll-target="#christmas-novels">Christmas Novels</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -237,9 +237,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#endangered_status.csv" id="toc-endangered_status.csv" class="nav-link" data-scroll-target="#endangered_status.csv"><code>endangered_status.csv</code></a></li>
-  <li><a href="#families.csv" id="toc-families.csv" class="nav-link" data-scroll-target="#families.csv"><code>families.csv</code></a></li>
-  <li><a href="#languages.csv" id="toc-languages.csv" class="nav-link" data-scroll-target="#languages.csv"><code>languages.csv</code></a></li>
+  <li><a href="#christmas_novel_authors.csv" id="toc-christmas_novel_authors.csv" class="nav-link" data-scroll-target="#christmas_novel_authors.csv"><code>christmas_novel_authors.csv</code></a></li>
+  <li><a href="#christmas_novel_text.csv" id="toc-christmas_novel_text.csv" class="nav-link" data-scroll-target="#christmas_novel_text.csv"><code>christmas_novel_text.csv</code></a></li>
+  <li><a href="#christmas_novels.csv" id="toc-christmas_novels.csv" class="nav-link" data-scroll-target="#christmas_novels.csv"><code>christmas_novels.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,38 +252,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="the-languages-of-the-world" class="level1">
-<h1>The Languages of the World</h1>
-<p>This week we’re exploring <strong>The Languages of the World</strong>, curated from <a href="https://glottolog.org">Glottolog 5.2.1</a>, an open-access database in linguistics, maintained by the Max Planck Institute for Evolutionary Anthropology.</p>
-<blockquote class="blockquote">
-<p>Glottolog is the most comprehensive language database in linguistics, and contains information (names, genealogy, geographical information, endangerment status, etc.) of over 8,000 languages of the world.</p>
-</blockquote>
+<section id="christmas-novels" class="level1">
+<h1>Christmas Novels</h1>
+<p>This week we’re exploring “Christmas” novels from Project Gutenberg via the <a href="https://docs.ropensci.org/gutenbergr/">{gutenbergr}</a> R package! I originally curated this dataset to serve as an “ad” of sorts for a <a href="https://github.com/ropensci/gutenbergr/issues/95">new maintainer of that package</a>, but <a href="https://github.com/jrdnbradford">Jordan Bradford</a> has already assumed that role. Thank you for taking over stewardship of the package, Jordan! He could still use help, so, if you enjoy working with text data and R, consider stepping up to help maintain this useful package!</p>
+<p>You might find <a href="https://www.tidytextmining.com/"><em>Text Mining with R</em></a> helpful for analyzing this data.</p>
 <ul>
-<li>Which macroareas have the highest concentration of endangered languages?</li>
-<li>Are language isolates more likely to be endangered?</li>
-<li>Which language families span the widest geographic range?</li>
-<li>What geographic patterns emerge when mapping endangered languages?</li>
+<li>Which is mentioned more often in these novels: “spirit” or “santa”?</li>
+<li>What is the overall sentiment of each novel?</li>
+<li>How does the text sentiment change over the course of each novel?</li>
 </ul>
-<p>Thank you to Darakhshan Nehal for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-12-23'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2025-12-30'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">51</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2025</span>, <span class="at">week =</span> <span class="dv">52</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>endangered_status</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>families <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>families</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>languages <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>languages</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>christmas_novel_authors</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>christmas_novel_text</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>christmas_novels</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/endangered_status.csv'</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>families <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/families.csv'</span>)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>languages <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/languages.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_authors.csv'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_text.csv'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novels.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -291,13 +288,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-12-23'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2025-12-30'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/endangered_status.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>families <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/families.csv'</span>)</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>languages <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/languages.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_authors.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_text.csv'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novels.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -305,18 +302,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-12-23'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download_dataset</span>(<span class="ch">'2025-12-30'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/endangered_status.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>families <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/families.csv"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>languages <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/languages.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_authors.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_text.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novels.csv"</span>)</span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/endangered_status.csv"</span>, DataFrame)</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>families <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/families.csv"</span>, DataFrame)</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>languages <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/languages.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_authors.csv"</span>, DataFrame)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_text.csv"</span>, DataFrame)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novels.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -337,124 +334,114 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="endangered_status.csv" class="level3">
-<h3 class="anchored" data-anchor-id="endangered_status.csv"><code>endangered_status.csv</code></h3>
+<section id="christmas_novel_authors.csv" class="level3">
+<h3 class="anchored" data-anchor-id="christmas_novel_authors.csv"><code>christmas_novel_authors.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 14%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">gutenberg_author_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Project Gutenberg author ID.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The <code>agent_name</code> field from the original metadata.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">birthdate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year of birth, if known.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deathdate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year of death, if known.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">wikipedia</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Link to Wikipedia article on the author. If there are multiple, they are ”</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">aliases</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Character vector of aliases. If there are multiple, they are “/”-delimited.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="christmas_novel_text.csv" class="level3">
+<h3 class="anchored" data-anchor-id="christmas_novel_text.csv"><code>christmas_novel_text.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 21%">
-<col style="width: 14%">
-<col style="width: 64%">
+<col style="width: 16%">
+<col style="width: 62%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Variable</th>
-<th>Class</th>
-<th>Description</th>
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>id</code></td>
-<td>character</td>
-<td>Unique identifier for language</td>
+<td style="text-align: left;">gutenberg_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Numeric ID, used to retrieve works from Project Gutenberg</td>
 </tr>
 <tr class="even">
-<td><code>status_code</code></td>
-<td>character</td>
-<td>Code of the agglomerated endangerment status (1–6)</td>
-</tr>
-<tr class="odd">
-<td><code>status_label</code></td>
-<td>character</td>
-<td>Descriptive label of endangerment category</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">A line of text from the work (<code>NA</code> indicates an empty line)</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="families.csv" class="level3">
-<h3 class="anchored" data-anchor-id="families.csv"><code>families.csv</code></h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Variable</th>
-<th>Class</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>id</code></td>
-<td>character</td>
-<td>Unique identifier for language family</td>
-</tr>
-<tr class="even">
-<td><code>name</code></td>
-<td>character</td>
-<td>Language family name</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="languages.csv" class="level3">
-<h3 class="anchored" data-anchor-id="languages.csv"><code>languages.csv</code></h3>
+<section id="christmas_novels.csv" class="level3">
+<h3 class="anchored" data-anchor-id="christmas_novels.csv"><code>christmas_novels.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 29%">
+<col style="width: 14%">
+<col style="width: 55%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Variable</th>
-<th>Class</th>
-<th>Description</th>
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>id</code></td>
-<td>character</td>
-<td>Unique identifier for language</td>
+<td style="text-align: left;">gutenberg_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Numeric ID, used to retrieve works from Project Gutenberg.</td>
 </tr>
 <tr class="even">
-<td><code>name</code></td>
-<td>character</td>
-<td>Language name</td>
+<td style="text-align: left;">title</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Title of the work.</td>
 </tr>
 <tr class="odd">
-<td><code>macroarea</code></td>
-<td>character</td>
-<td>General geographic area in which the language is found</td>
-</tr>
-<tr class="even">
-<td><code>latitude</code></td>
-<td>double</td>
-<td>Latitude of language location (as point)</td>
-</tr>
-<tr class="odd">
-<td><code>longitude</code></td>
-<td>double</td>
-<td>Longitude of language location (as point)</td>
-</tr>
-<tr class="even">
-<td><code>iso639p3code</code></td>
-<td>character</td>
-<td>ISO 639-3 identifier of language (if available)</td>
-</tr>
-<tr class="odd">
-<td><code>countries</code></td>
-<td>character</td>
-<td>Countries in which language is used (separated by “;”)</td>
-</tr>
-<tr class="even">
-<td><code>is_isolate</code></td>
-<td>logical</td>
-<td>Whether language is an isolate (i.e.&nbsp;has no known relatives)</td>
-</tr>
-<tr class="odd">
-<td><code>family_id</code></td>
-<td>character</td>
-<td>Unique identifier of family that the language is part of (if not isolate)</td>
+<td style="text-align: left;">gutenberg_author_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Project Gutenberg author ID.</td>
 </tr>
 </tbody>
 </table>
@@ -462,37 +449,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Imports</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gutenbergr)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Download raw data and filter to endangered status</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>endangered_status <span class="ot">&lt;-</span> </span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/glottolog/glottolog-cldf/refs/heads/master/cldf/values.csv"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(Parameter_ID <span class="sc">==</span> <span class="st">"aes"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Language_ID, Value, Code_ID) <span class="sc">|&gt;</span> </span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(<span class="at">id =</span> Language_ID,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>                <span class="at">status_code =</span> Value,</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>                <span class="at">status_label =</span> Code_ID) <span class="sc">|&gt;</span> </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">status_label =</span> stringr<span class="sc">::</span><span class="fu">str_replace</span>(stringr<span class="sc">::</span><span class="fu">str_remove</span>(status_label, <span class="st">"^aes-"</span>), <span class="st">"_"</span>, <span class="st">" "</span>))</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Download language and family data</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>fam_lgs <span class="ot">&lt;-</span> </span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/glottolog/glottolog-cldf/refs/heads/master/cldf/languages.csv"</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># I do this as a separate step so I can be sure the option has resolved before I</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># do anything in bulk.</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>gutenbergr<span class="sc">::</span><span class="fu">gutenberg_get_mirror</span>()</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>christmas_novels_raw <span class="ot">&lt;-</span> gutenbergr<span class="sc">::</span><span class="fu">gutenberg_works</span>(</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">if_all</span>(dplyr<span class="sc">::</span><span class="fu">everything</span>(), <span class="sc">~</span> <span class="sc">!</span><span class="fu">is.na</span>(.)),</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  stringr<span class="sc">::</span><span class="fu">str_detect</span>(.data<span class="sc">$</span>gutenberg_bookshelf, <span class="st">"Novels"</span>),</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  stringr<span class="sc">::</span><span class="fu">str_detect</span>(.data<span class="sc">$</span>title, <span class="st">"Christmas"</span>),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  stringr<span class="sc">::</span><span class="fu">str_detect</span>(.data<span class="sc">$</span>gutenberg_bookshelf, <span class="st">"Christmas"</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>christmas_novels <span class="ot">&lt;-</span> christmas_novels_raw <span class="sc">|&gt;</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>(.data<span class="sc">$</span>gutenberg_id, .data<span class="sc">$</span>title, .data<span class="sc">$</span>gutenberg_author_id)</span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter and clean language family data</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>families <span class="ot">&lt;-</span> </span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  fam_lgs <span class="sc">|&gt;</span> </span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(Level <span class="sc">==</span> <span class="st">"family"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(ID, Name) <span class="sc">|&gt;</span> </span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(<span class="at">Family =</span> Name) <span class="sc">|&gt;</span> </span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename_with</span>(stringr<span class="sc">::</span>str_to_lower, dplyr<span class="sc">::</span><span class="fu">everything</span>())</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter and clean language data</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>languages <span class="ot">&lt;-</span> </span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  fam_lgs <span class="sc">|&gt;</span> </span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(Level <span class="sc">==</span> <span class="st">"language"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(ID, Name, Macroarea, Latitude, Longitude, ISO639P3code, Countries, Is_Isolate, Family_ID) <span class="sc">|&gt;</span> </span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename_with</span>(stringr<span class="sc">::</span>str_to_lower, dplyr<span class="sc">::</span><span class="fu">everything</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>christmas_novel_authors <span class="ot">&lt;-</span> christmas_novels_raw <span class="sc">|&gt;</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>(.data<span class="sc">$</span>gutenberg_author_id) <span class="sc">|&gt;</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">left_join</span>(gutenbergr<span class="sc">::</span>gutenberg_authors, <span class="at">by =</span> <span class="st">"gutenberg_author_id"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Just use the "aliases" column, "alias" is redundant.</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span><span class="st">"alias"</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>christmas_novel_text <span class="ot">&lt;-</span> gutenbergr<span class="sc">::</span><span class="fu">gutenberg_download</span>(christmas_novels)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
