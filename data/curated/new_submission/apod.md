@@ -1,7 +1,7 @@
 |variable        |class     |description                           |
 |:---------------|:---------|:-------------------------------------|
 |copyright       |character |The name of the copyright holder. |
-|date            |character |Date of image. |
+|date            |Date |Date of image. |
 |explanation     |character |The supplied text explanation of the image. |
 |media_type      |character |The type of media (data) returned. May either be ‘image’ or ‘video’ depending on content. |
 |title           |character |The title of the image. |
