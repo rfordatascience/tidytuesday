@@ -72,3 +72,4 @@ africa <- africa |>
          native_speakers = as.integer(native_speakers)) |> 
   filter(!is.na(native_speakers)) |> 
   select(-country_index)
+
