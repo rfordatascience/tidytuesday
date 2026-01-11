@@ -37,9 +37,10 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 
 ### [2018](data/2018/readme.md) | [2019](data/2019/readme.md) | [2020](data/2020/readme.md) | [2021](data/2021/readme.md) | [2022](data/2022/readme.md) | [2023](data/2023/readme.md) | [2024](data/2024/readme.md) | [2025](data/2025/readme.md) | [2026](data/2026/readme.md)
 
-| Week|Date       |Data                                                                                    |Source                                                                                                                                                 |Article                                                                                             |
-|----:|:----------|:---------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-|    1|2026-01-06 |Bring your own data to start the year!                                                  |NA                                                                                                                                                     |NA                                                                                                  |
+| Week|Date       |Data                                   |Source              |Article             |
+|----:|:----------|:--------------------------------------|:-------------------|:-------------------|
+|    1|2026-01-06 |Bring your own data to start the year! |NA                  |NA                  |
+|    2|2026-01-13 |[The Languages of Africa](data/2026/2026-01-13/readme.md)|[Languages of Africa](https://en.wikipedia.org/wiki/Languages_of_Africa)|[Languages of Africa](https://en.wikipedia.org/wiki/Languages_of_Africa)|
 
 ***  
 
