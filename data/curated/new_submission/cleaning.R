@@ -1,6 +1,6 @@
 remotes::install_github("eringrand/astropic")
 
-# Dataset inside the the {{astropic}} R package on GitHub.
+# Dataset inside the {{astropic}} R package on GitHub.
 library(astropic)
 library(dplyr)
 data("hist_apod")
