@@ -1,9 +1,11 @@
 # Brazilian Companies
+
 Brazilian Government has a huge database of enterprises and make it publicly available. Since the original raw data exceeds the file size limit of GitHub, and because is more interesting to deal with continuous variables, I applied a filter to keep only companies with a [share capital](https://en.wikipedia.org/wiki/Share_capital) above above BRL 15,000.00 (approximately  USD 3,000). Notice that the raw dataset (`Empresas0.zip`) is just a set of companies, and may or may not be a representative part of the actual landscape of enterprises in Brazil.
 
 ![Panel of Brazilian Companies and Their Capital Stock, showing mean capital stock and percentage of contribution by company size and ownder qualification](br_capital_stock.png)
 
 This panel was made with the entire dataset (over 80 MB large). The dataset given here is 23% of the original dataset, with rows removed randomly (pseudo-randomly :p), so I could deliver a 19 MB file.
+
 # The Data
 
 ```python
@@ -69,7 +71,7 @@ with open("../data/companies.csv", mode="w", newline='') as file:
     write.writerows(filtered_df0.values.tolist())
 ```
 
-# Data Dictionary
+## Data dictionary
 
 ### `companies.csv`
 
@@ -102,6 +104,29 @@ with open("../data/companies.csv", mode="w", newline='') as file:
 | :----------- | :-------- | :--------------------------------------------------------------------------------------------- |
 | id           | integer   | Company size code (source registry code).                                                      |
 | company_size | character | Company size label corresponding to `id` (e.g., `micro-enterprise`, `small-enterprise`). |
+
+## How to Participate
+
+[](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-01-20/readme.md#how-to-participate)
+
+* [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation**
+  in the data. There are various moderating variables that affect all
+  data, many of which might not have been captured in these datasets. As
+  such, our suggestion is to use the data provided to practice your data
+  tidying and plotting techniques, and to consider for yourself what
+  nuances might underlie these relationships.
+* Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
+* [Share your output and the code used to generate it](https://github.com/rfordatascience/tidytuesday/blob/main/sharing.md) on social media with the #TidyTuesday hashtag.
+* [Submit your own dataset!](https://github.com/rfordatascience/tidytuesday/blob/main/pr_instructions.md)
+
+### PydyTuesday: A Posit collaboration with TidyTuesday
+
+[](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-01-20/readme.md#pydytuesday-a-posit-collaboration-with-tidytuesday)
+
+* Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit&#39;s PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+* Share your work with the world using the hashtags #TidyTuesday and
+  #PydyTuesday so that Posit has the chance to highlight your work, too!
+* Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
 
 # Source
 
