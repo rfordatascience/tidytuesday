@@ -128,7 +128,7 @@ size = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/m
 
 ## Cleaning Script
 
-```r
+```python
 # Imports
 import pandas as pd
 import numpy as np
