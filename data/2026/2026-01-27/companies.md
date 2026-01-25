@@ -6,3 +6,4 @@
 | owner_qualification | character | Owner/partner qualification label (e.g., “Managing Partner / Partner-Administrator”). |
 | capital_stock       | numeric   | Declared share capital (**BRL**), numeric.                                        |
 | company_size        | character | Company size category (e.g.,`micro-enterprise`, `small-enterprise`, `other`).     |
+

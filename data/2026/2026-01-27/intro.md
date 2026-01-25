@@ -6,3 +6,4 @@ This week we’re exploring  **Brazilian Companies**, curated from Brazil’s op
 * How does **company size** relate to capital stock (and how skewed is it)?
 * Do specific **owner qualification** groups dominate high-capital companies?
 * What patterns emerge when comparing the **top capital-stock tail** across categories (legal nature, size, qualification)?
+

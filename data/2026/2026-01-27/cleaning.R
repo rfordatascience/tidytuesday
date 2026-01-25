@@ -58,3 +58,4 @@ with open("../data/companies.csv", mode="w", newline='') as file:
     write = csv.writer(file, delimiter=';')
     write.writerow(filtered_df0.columns) 
     write.writerows(filtered_df0.values.tolist())
+
