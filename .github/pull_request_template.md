@@ -16,7 +16,7 @@ Usability:
 
 Preparation:
 
-- [ ] `cleaning.R` has code to download and clean the dataset, resulting in descriptively-named data.frames.
+- [ ] `cleaning.R` or `cleaning.py` has code to download and clean the dataset, resulting in descriptively-named data.frames.
 - [ ] I ran `saving.R` or `tidytuesdayR::tt_save_dataset()` to create `csv`s and `md` data dictionaries for each of my data.frames.
 - [ ] I filled in descriptions for each variable in each of the `{dataset}.md` files.
 - [ ] I edited the `intro.md` file to introduce my dataset.
