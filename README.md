@@ -43,6 +43,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |    2|2026-01-13 |[The Languages of Africa](data/2026/2026-01-13/readme.md)|[Languages of Africa](https://en.wikipedia.org/wiki/Languages_of_Africa)|[Languages of Africa](https://en.wikipedia.org/wiki/Languages_of_Africa)|
 |    3|2026-01-20 |[Astronomy Picture of the Day (APOD) Archive](data/2026/2026-01-20/readme.md)|[NASA API](https://api.nasa.gov/)|[Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)|
 |    4|2026-01-27 |[Brazilian Companies](data/2026/2026-01-27/readme.md)|[Open data CNPJ - December 2025](https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-12/)|[Wikipedia's List of largest Brazilian companies](https://en.wikipedia.org/wiki/List_of_largest_Brazilian_companies)|
+|    5|2026-02-03 |[Edible Plants Database](data/2026/2026-02-03/readme.md)|[Edible Plant Database](https://discovery.dundee.ac.uk/en/datasets/edible-plant-database/)|[GROW Observatory](https://www.dundee.ac.uk/projects/grow-observatory)|
 
 ***  
 
