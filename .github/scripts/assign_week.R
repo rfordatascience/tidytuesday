@@ -22,7 +22,7 @@ target_year <- lubridate::year(target_date)
 target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
 fs::dir_create(target_dir)
-cleaning_src <- fs::dir_ls(src_dir, regexp = "cleaning\\.(R|py|jl)$")
+cleaning_src <- fs::dir_ls(src_dir, regexp = "cleaning\\.(R|r|py|jl)$")
 
 ## metadata --------------------------------------------------------------------
 
@@ -138,11 +138,13 @@ data_dictionary <- glue::glue(
   .sep = "\n\n"
 )
 
+cleaning_ext <- fs::path_ext(cleaning_src)
 language_tag <- switch(
-  tolower(fs::path_ext(cleaning_src)),
+  tolower(cleaning_ext),
   r = "r",
   py = "python",
-  jl = "julia"
+  jl = "julia",
+  cli::cli_abort("Unknown cleaning script extension: {cleaning_ext}")
 )
 
 cleaning_script <- paste(

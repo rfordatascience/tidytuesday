@@ -46,19 +46,19 @@ jobs:
             src_folder_name <- split_input[[3]]
           } else {
             curated_dirs <- fs::dir_ls("data/curated", type = "directory") |>
-              setdiff("data/curated/template")
-            if (length(curated_dirs) == 0) {
-              stop("No curated directories found in 'data/curated' (excluding 'template').")
+              setdiff("data/curated/template") |> 
+              basename()
+            if (!length(curated_dirs)) {
+              cli::cli_abort("No curated directories found in {.field data/curated}.")
             } else if (length(curated_dirs) == 1) {
               src_folder_name <- curated_dirs
             } else {
-              dir_info <- file.info(curated_dirs)
-              src_folder_name <- rownames(dir_info)[which.max(dir_info$mtime)]
+              cli::cli_abort("Multiple curated directories found in {.field data/curated}: {.field {curated_dirs}}")
             }
           }
           cli::cli_inform(c(
-            i = "target_date = {target_date}",
-            i = "src_folder_name = {src_folder_name}"
+            i = "target_date = {.field target_date}",
+            i = "src_folder_name = {.field src_folder_name}"
           ))
           
           source(".github/scripts/assign_week.R", local = TRUE)
