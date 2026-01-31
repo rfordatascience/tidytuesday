@@ -58,3 +58,4 @@ edible_plants <- plants |>
   mutate(across(where(is.character), ~ str_squish(.x)))
 
 odbcCloseAll()
+

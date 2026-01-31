@@ -4,3 +4,4 @@ This week we're exploring edible plants! The Edible Plant Database (EPD) is an o
 
 * Do plants that require more sunlight also require higher temperatures?
 * What cultivation classes require the most water?
+

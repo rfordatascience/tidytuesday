@@ -20,3 +20,4 @@
 |sensitivities           |character |Sensitivities i.e. issues the plant might face. |
 |description             |character |General description of the plant. |
 |requirements            |character |Longer text description of the plant requirements. |
+
