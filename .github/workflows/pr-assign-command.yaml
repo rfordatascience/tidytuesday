@@ -45,8 +45,16 @@ jobs:
           if (length(split_input) > 2) {
             src_folder_name <- split_input[[3]]
           } else {
-            src_folder_name <- fs::dir_ls("data/curated", type = "directory") |>
+            curated_dirs <- fs::dir_ls("data/curated", type = "directory") |>
               setdiff("data/curated/template")
+            if (length(curated_dirs) == 0) {
+              stop("No curated directories found in 'data/curated' (excluding 'template').")
+            } else if (length(curated_dirs) == 1) {
+              src_folder_name <- curated_dirs
+            } else {
+              dir_info <- file.info(curated_dirs)
+              src_folder_name <- rownames(dir_info)[which.max(dir_info$mtime)]
+            }
           }
           cli::cli_inform(c(
             i = "target_date = {target_date}",

@@ -22,7 +22,7 @@ target_year <- lubridate::year(target_date)
 target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
 fs::dir_create(target_dir)
-cleaning_src <- fs::dir_ls(src_dir, regexp = "cleaning\\.")
+cleaning_src <- fs::dir_ls(src_dir, regexp = "cleaning\\.(R|py|jl)$")
 
 ## metadata --------------------------------------------------------------------
 
