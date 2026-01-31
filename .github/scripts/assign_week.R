@@ -10,9 +10,9 @@
 # Run these scripts ------------------------------------------------------------
 
 library(dplyr, warn.conflicts = FALSE)
-source(here::here("static", "templates", "readme.R"), local = TRUE)
-source(here::here("static", "templates", "dates.R"), local = TRUE)
-source(here::here("static", "templates", "metadata.R"), local = TRUE)
+source(here::here(".github", "scripts", "parse_readme.R"), local = TRUE)
+source(here::here(".github", "scripts", "dates.R"), local = TRUE)
+source(here::here(".github", "scripts", "metadata.R"), local = TRUE)
 
 ## Sources and targets ---------------------------------------------------------
 
@@ -22,6 +22,7 @@ target_year <- lubridate::year(target_date)
 target_week <- lubridate::week(target_date)
 target_dir <- here::here("data", target_year, target_date)
 fs::dir_create(target_dir)
+cleaning_src <- fs::dir_ls(src_dir, regexp = "cleaning\\.")
 
 ## metadata --------------------------------------------------------------------
 
@@ -58,7 +59,7 @@ fs::file_copy(dataset_files, target_dir)
 
 ### Keep these files even though they're also added to the readme. -------------
 md_files <- fs::dir_ls(src_dir, glob = "*.md")
-files_to_resave <- c(md_files, fs::path(src_dir, "cleaning.R"))
+files_to_resave <- c(md_files, cleaning_src)
 
 purrr::walk(files_to_resave, \(resave_me) {
   # Get rid of comments, make sure there's a trailing newline, make sure there
@@ -136,10 +137,18 @@ data_dictionary <- glue::glue(
   data_dictionaries,
   .sep = "\n\n"
 )
+
+language_tag <- switch(
+  tolower(fs::path_ext(cleaning_src)),
+  r = "r",
+  py = "python",
+  jl = "julia"
+)
+
 cleaning_script <- paste(
   "## Cleaning Script\n",
-  "```r",
-  read_piece(fs::path(src_dir, "cleaning.R")),
+  paste0("```", language_tag),
+  read_piece(cleaning_src),
   "```",
   sep = "\n"
 )
@@ -166,7 +175,7 @@ if (!stringr::str_ends(cleaning_script, "\n")) {
   cleaning_script <- paste0(cleaning_script, "\n")
 }
 
-paste(
+full_readme <- paste(
   title_line,
   intro,
   the_data,
@@ -175,7 +184,9 @@ paste(
   cleaning_script,
   sep = "\n\n"
 ) |>
-  cat(file = fs::path(target_dir, "readme.md"))
+  stringr::str_replace_all("\n{3,}", "\n\n")
+
+cat(full_readme, file = fs::path(target_dir, "readme.md"))
 
 ## Update the YEAR readme ------------------------------------------------------
 

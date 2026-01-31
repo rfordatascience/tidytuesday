@@ -14,12 +14,8 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_COMMENT_BODY: ${{ github.event.comment.body }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: r-lib/actions/pr-fetch@v2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: Merge main into PR branch
         run: |
           git fetch origin main
@@ -49,14 +45,15 @@ jobs:
           if (length(split_input) > 2) {
             src_folder_name <- split_input[[3]]
           } else {
-            src_folder_name <- "new_submission"
+            src_folder_name <- fs::dir_ls("data/curated", type = "directory") |>
+              setdiff("data/curated/template")
           }
           cli::cli_inform(c(
             i = "target_date = {target_date}",
             i = "src_folder_name = {src_folder_name}"
           ))
           
-          source("static/templates/assign_week.R", local = TRUE)
+          source(".github/scripts/assign_week.R", local = TRUE)
 
       - name: commit
         run: |
