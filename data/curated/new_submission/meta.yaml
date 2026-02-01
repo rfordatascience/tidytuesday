@@ -1,0 +1,37 @@
+title: "US Agricultural Tariffs"
+article:
+  title: "The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture"
+  url: "https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480"
+data_source:
+  title: "DataWeb: Annual Tariff Data"
+  url: "https://dataweb.usitc.gov/tariff/annual"
+images:
+# Please include at least one image, and up to three images
+- file: "us_agricultural_exports_to_china.png"
+  alt: >
+    A bar chart titled U.S. agricultural exports to China, by fiscal year, 
+    1999–22 (year ending September 30) illustrates the value of these exports in 
+    billions of U.S. dollars. The x-axis shows fiscal years from 1999/20 to 
+    2021/22F (where F indicates forecast). The y-axis ranges from 0 to 40 
+    billion dollars. The chart shows a general upward trend in exports from 
+    1999/20 (under $5 billion) to a peak in 2013/14 (around $26 billion). 
+    Exports then fluctuated and declined. The bars for fiscal years 2018/19 and 
+    2019/20 are colored yellow and are marked with the annotation U.S. exports 
+    hit by Chinese retaliatory tariffs. These bars show a significant drop, with 
+    the 2018/19 value falling to around $10 billion and 2019/20 to approximately 
+    $17 billion. The bars for fiscal years 2020/21 and 2021/22F are colored 
+    green, indicating the period after the U.S.-China sign Phase One agreement 
+    (as noted by an annotation). These bars show a sharp increase, with 2020/21 
+    reaching over $33 billion and the 2021/22 forecast exceeding $36 billion, 
+    the highest values on the chart. Notes below the chart explain the color 
+    coding for retaliatory tariffs (yellow) and the Phase One agreement (green), 
+    specify that 'F' means forecast, and mention a change in the USDA's 
+    definition of agricultural products in March 2021. The source is listed as 
+    USDA, Economic Research Service using data from their Trade Outlook Reports 
+    and the U.S. Department of Commerce, Bureau of the Census.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
