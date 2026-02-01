@@ -14,12 +14,8 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_COMMENT_BODY: ${{ github.event.comment.body }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: r-lib/actions/pr-fetch@v2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: Merge main into PR branch
         run: |
           git fetch origin main
@@ -49,14 +45,23 @@ jobs:
           if (length(split_input) > 2) {
             src_folder_name <- split_input[[3]]
           } else {
-            src_folder_name <- "new_submission"
+            curated_dirs <- fs::dir_ls("data/curated", type = "directory") |>
+              setdiff("data/curated/template") |> 
+              basename()
+            if (!length(curated_dirs)) {
+              cli::cli_abort("No curated directories found in {.field data/curated}.")
+            } else if (length(curated_dirs) == 1) {
+              src_folder_name <- curated_dirs
+            } else {
+              cli::cli_abort("Multiple curated directories found in {.field data/curated}: {.field {curated_dirs}}")
+            }
           }
           cli::cli_inform(c(
-            i = "target_date = {target_date}",
-            i = "src_folder_name = {src_folder_name}"
+            i = "target_date = {.field target_date}",
+            i = "src_folder_name = {.field src_folder_name}"
           ))
           
-          source("static/templates/assign_week.R", local = TRUE)
+          source(".github/scripts/assign_week.R", local = TRUE)
 
       - name: commit
         run: |
