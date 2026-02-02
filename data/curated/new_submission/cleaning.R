@@ -289,7 +289,7 @@ agreements <- tibble::tribble(
   "North American Free Trade Agreement (NAFTA)",
   "Mexico",
   "mfn",
-  "Most Favored Nation (MFN) / Normal Trade Relations (NTR)",
+  "Most Favored Nation (MFN)",
   "Standard rates for WTO members",
   "morocco",
   "Morocco-United States Free Trade Agreement",
