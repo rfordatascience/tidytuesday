@@ -11,3 +11,5 @@ Some questions to explore:
 - Which venues host the most events?
 - How does the schedule vary by day of the week?
 - What proportion of scheduled sessions are training versus competition?
+
+For more information about how the data was collected and example code for creating the table in R or Python you can go to this repository: <https://github.com/chendaniely/olympics-2026>
