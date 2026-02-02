@@ -7,28 +7,8 @@ data_source:
   url: "https://dataweb.usitc.gov/tariff/annual"
 images:
 # Please include at least one image, and up to three images
-- file: "us_agricultural_exports_to_china.png"
-  alt: >
-    A bar chart titled U.S. agricultural exports to China, by fiscal year, 
-    1999–22 (year ending September 30) illustrates the value of these exports in 
-    billions of U.S. dollars. The x-axis shows fiscal years from 1999/20 to 
-    2021/22F (where F indicates forecast). The y-axis ranges from 0 to 40 
-    billion dollars. The chart shows a general upward trend in exports from 
-    1999/20 (under $5 billion) to a peak in 2013/14 (around $26 billion). 
-    Exports then fluctuated and declined. The bars for fiscal years 2018/19 and 
-    2019/20 are colored yellow and are marked with the annotation U.S. exports 
-    hit by Chinese retaliatory tariffs. These bars show a significant drop, with 
-    the 2018/19 value falling to around $10 billion and 2019/20 to approximately 
-    $17 billion. The bars for fiscal years 2020/21 and 2021/22F are colored 
-    green, indicating the period after the U.S.-China sign Phase One agreement 
-    (as noted by an annotation). These bars show a sharp increase, with 2020/21 
-    reaching over $33 billion and the 2021/22 forecast exceeding $36 billion, 
-    the highest values on the chart. Notes below the chart explain the color 
-    coding for retaliatory tariffs (yellow) and the Phase One agreement (green), 
-    specify that 'F' means forecast, and mention a change in the USDA's 
-    definition of agricultural products in March 2021. The source is listed as 
-    USDA, Economic Research Service using data from their Trade Outlook Reports 
-    and the U.S. Department of Commerce, Bureau of the Census.
+- file: "agricultural_tariff_trends.png"
+  alt: "A four-panel line chart showing Most Favored Nation tariff rates by HTS section from 2000 to 2024. Each panel displays all four sections as thin grey background lines for comparison, with the focal section highlighted in a bold colored line matching its panel title. Panel I (orange, top-left) shows Live Animals & Animal Products with the highest rates, starting around 11% in 2000, dropping to about 9% in 2012, and stabilizing near 9.5% through 2024. Panel II (green, top-right) shows Vegetable Products declining from 8.5% in 2000 to about 6.5% in 2012, then climbing back to 7.5% by 2024. Panel III (pink, bottom-left) shows Animal/Vegetable Fats & Oils with the lowest rates, around 6-6.5%, also dropping in 2012 to about 5.5% before increasing back near 6% in 2020. Panel IV (blue, bottom-right) shows Prepared Foodstuffs remaining relatively stable around 7.5-8% throughout the period, with a similar 2012 drop. The title reads MFN tariff rates are highest for Live Animals & Animal Products with the section name in matching orange color. All panels share a common y-axis scale showing average tariff rates as percentages between 5% and 11.5%, and x-axis marks every four years for 2000 through 2024."
 credit:
   post: "Jon Harmon, Data Science Learning Community"
   github: "@jonthegeek"
