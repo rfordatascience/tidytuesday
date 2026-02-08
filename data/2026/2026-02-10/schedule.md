@@ -21,3 +21,4 @@
 |day_of_week          |character     |Day of the week the event occurs on. |
 |start_time           |time          |Event start time without date component. |
 |end_time             |time          |Event end time without date component. |
+

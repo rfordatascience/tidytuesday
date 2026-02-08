@@ -28,3 +28,4 @@ If you have not yet set up your computer for submitting a dataset, please see th
 1.  Commit the changes with this folder to your branch. In RStudio, you can do this on the "Git" tab (the "Commit" button).
 
 2.  Submit a pull request to <https://github.com/rfordatascience/tidytuesday>. In R, you can do this with `usethis::pr_push()`, and then follow the instructions in your browser.
+

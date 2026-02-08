@@ -126,3 +126,4 @@ gt_table <- schedule_pivot |>
 gt_table
 
 ```
+
