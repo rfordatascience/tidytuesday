@@ -1,0 +1,20 @@
+title: "This week we're getting ready for the 2026 Winter Olympics!"
+article:
+  title: "Olympics Schedule and Results"
+  url: "https://www.olympics.com/en/milano-cortina-2026/schedule"
+data_source:
+  title: "Milano-Cortina 2026 Winter Olympics Data"
+  url: "https://raw.githubusercontent.com/chendaniely/olympics-2026/refs/heads/main/data/final/olympics/olympics_events.csv"
+images:
+# Please include at least one image, and up to three images
+- file: "table.png"
+  alt: >
+    A table of event counts by day. Each row is a sport, each column represents a date. The body of the table counts the number of events for each sport on a given day.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Daniel Chen, Posit PBC, University of British Columbia"
+  bluesky: "https://bsky.app/profile/chendaniely.bsky.social"
+  linkedin: "https://www.linkedin.com/in/chendaniely/"
+  mastodon: "@chendaniely@mastodon.social"
+  github: "https://github.com/chendaniely"
