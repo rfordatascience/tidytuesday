@@ -14,7 +14,7 @@ Some questions to explore:
 
 For more information about how the data was collected and example code for creating the table in R or Python you can go to this repository: <https://github.com/chendaniely/olympics-2026>
 
-If you want the code that generaated the example table:
+If you want the code that generated the example table:
 
 ```python
 from pathlib import Path

@@ -3,8 +3,8 @@ article:
   title: Olympics Schedule and Results
   url: https://www.olympics.com/en/milano-cortina-2026/schedule
 data_source:
-  title: Olympics Schedule and Results
-  url: https://www.olympics.com/en/milano-cortina-2026/schedule
+  title: Milano-Cortina 2026 Winter Olympics Data
+  url: https://raw.githubusercontent.com/chendaniely/olympics-2026/refs/heads/main/data/final/olympics/olympics_events.csv
 images:
 # Please include at least one image, and up to three images
 - file: table.png
