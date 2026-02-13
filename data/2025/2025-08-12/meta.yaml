@@ -1,0 +1,22 @@
+title: "Extreme Weather Attribution Studies"
+article:
+  title: "Mapped: How climate change affects extreme weather around the word."
+  url: "https://interactive.carbonbrief.org/attribution-studies/index.html"
+data_source:
+  title: "Carbon Brief"
+  url: "https://carbonbrief.org"
+images:
+# Please include at least one image, and up to three images
+- file: "extremes.png"
+  alt: >
+    World map showing distribution of 735 climate
+    attribution studies results by region, with circles sized by study
+    count. Legend shows climate change made weather events more
+    severe/likely (547 studies), had no influence (71), less
+    severe/likely (64), or results were inconclusive (53).
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Rajo"
+  bluesky: "https://bsky.app/profile/rajodm.bsky.social"
+  github: "https://github.com/rajodm"
