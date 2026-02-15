@@ -4,3 +4,4 @@
 |measure         |character |Agricultural production category |
 |value           |integer    |Number of units produced |
 |value_label     |character |Unit of production |
+
