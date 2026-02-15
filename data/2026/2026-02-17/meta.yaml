@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: "sheep.png"
   alt: >
-    Line chart of New Zealand’s sheep-to-people ratio from 1950 to 2023. The ratio peaks at about 22 sheep per person in 1981 (“peak sheep”) and then steadily declines, falling below 5 in 2022 and reaching 4.6 in 2023. Image credit: "https://sherwood.news/world/new-zealands-sheep-to-people-ratio-fell-again-in-2023/"
+    Line chart of New Zealand's sheep-to-people ratio from 1950 to 2023. The ratio peaks at about 22 sheep per person in 1981 ("peak sheep") and then steadily declines, falling below 5 in 2022 and reaching 4.6 in 2023. Image credit: "https://sherwood.news/world/new-zealands-sheep-to-people-ratio-fell-again-in-2023/"
 credit:
   post: "Jen Richmond"
   github: "@jenrichmond"
