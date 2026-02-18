@@ -5,7 +5,7 @@ Thank you for helping us help learners!
 > [!NOTE]
 > This article talks about submitting datasets "from scratch," but there's an easier way!
 > The {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package has a [set of functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)!
-> The functions currently only work in Rstudio, but [we hope to also support Positron soon!](https://github.com/dslc-io/tidytuesdayR/issues/139)
+> The functions currently only work in Rstudio, but [we also support Positron in the dev version!](https://github.com/dslc-io/tidytuesdayR/issues/139)
 
 There are 4 main steps to submit a dataset:
 
