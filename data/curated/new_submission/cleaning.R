@@ -1,7 +1,7 @@
 ################################################################################
 # Science Foundation Ireland (SFI) Grants Commitments
 # https://www.sfi.ie/about-us/governance/open-data/Open-Data-2024-07-31.csv
-# Accessed 2026-02-05
+# Accessed 2026-02-22
 ################################################################################
 
 # Packages ---------------------------------------------------------------------
@@ -10,9 +10,10 @@ library(dplyr)
 library(stringr)
 
 # Loading and tidying dataset --------------------------------------------------
-sfi_grants <- readr::read_csv(
+sfi_grants_raw <- readr::read_csv(
   "https://www.sfi.ie/about-us/governance/open-data/Open-Data-2024-07-31.csv"
-) |>
+)
+sfi_grants <- sfi_grants_raw |>
   janitor::clean_names() |>
   dplyr::select(
     start_date,
@@ -39,4 +40,13 @@ sfi_grants <- readr::read_csv(
       "\\(|,|\\)"
     ),
     current_total_commitment = as.double(current_total_commitment)
+  ) |>
+  # 3. A few columns sometimes code NA as "#N/A" rather than "".
+  dplyr::mutate(
+    dplyr::across(
+      c(programme_name, sub_programme, supplement),
+      \(x) {
+        dplyr::na_if(x, "#N/A")
+      }
+    )
   )
