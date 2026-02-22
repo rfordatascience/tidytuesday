@@ -114,7 +114,8 @@ library(stringr)
 
 # Loading and tidying dataset --------------------------------------------------
 sfi_grants_raw <- readr::read_csv(
-  "https://www.sfi.ie/about-us/governance/open-data/Open-Data-2024-07-31.csv"
+  "https://www.sfi.ie/about-us/governance/open-data/Open-Data-2024-07-31.csv",
+  locale = readr::locale(encoding = "latin1")
 )
 sfi_grants <- sfi_grants_raw |>
   janitor::clean_names() |>

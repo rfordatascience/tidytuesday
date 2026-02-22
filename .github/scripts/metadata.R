@@ -4,9 +4,9 @@ read_metadata <- function(path) {
 }
 
 yaml_preprocess <- function(path) {
-  readLines(path, warn = FALSE) |> 
-    stringr::str_trim("right") |> 
-    yaml_quote() |> 
+  readLines(path, warn = FALSE) |>
+    stringr::str_trim("right") |>
+    yaml_quote() |>
     writeLines(path)
 }
 
