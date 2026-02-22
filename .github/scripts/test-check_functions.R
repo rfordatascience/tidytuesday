@@ -153,6 +153,15 @@ test_that("check_meta_yaml() errors when image exceeds Bluesky size limit", {
   expect_true(any(grepl("too large", result$errors)))
 })
 
+test_that("check_meta_yaml() errors when image exceeds Mastodon megapixel limit", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  big_img <- magick::image_blank(3500, 3500, color = "white")
+  magick::image_write(big_img, fs::path(dir, "image.png"), format = "png")
+  result <- check_meta_yaml(dir)
+  expect_true(any(grepl("megapixels", result$errors)))
+})
+
 # write_report() -------------------------------------------------
 
 test_that("write_report() writes a passing report when there are no errors", {
@@ -195,13 +204,4 @@ test_that("write_report() includes other_info in the report body", {
   )
   report <- paste(readLines(report_file), collapse = "\n")
   expect_match(report, "Some extra info.")
-})
-
-test_that("check_meta_yaml() errors when image exceeds Mastodon megapixel limit", {
-  dir <- withr::local_tempdir()
-  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
-  big_img <- magick::image_blank(3500, 3500, color = "white")
-  magick::image_write(big_img, fs::path(dir, "image.png"), format = "png")
-  result <- check_meta_yaml(dir)
-  expect_true(any(grepl("megapixels", result$errors)))
 })
