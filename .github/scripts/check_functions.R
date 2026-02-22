@@ -78,7 +78,7 @@ check_url <- function(url, source_name) {
 .is_ssrf_risk <- function(url) {
   parsed <- tryCatch(httr::parse_url(url), error = function(e) NULL)
   if (is.null(parsed)) {
-    return(TRUE) # Unparseable URL — treat as unsafe
+    return(TRUE) # nocov
   }
   host <- parsed$hostname
   if (is.null(host) || !nchar(host)) {

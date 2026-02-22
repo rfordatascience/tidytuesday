@@ -55,6 +55,12 @@ test_that(".is_ssrf_risk() returns TRUE for private/reserved hosts", {
   expect_true(.is_ssrf_risk("http://172.20.0.5"))
 })
 
+test_that(".is_ssrf_risk() returns TRUE for a URL with no hostname", {
+  # httr::parse_url("http:///path") succeeds but returns an empty hostname,
+  # triggering the missing-host early return (line 85).
+  expect_true(.is_ssrf_risk("http:///path"))
+})
+
 # check_required_files() -----------------------------------------
 
 test_that("check_required_files() passes for a valid fixture", {
