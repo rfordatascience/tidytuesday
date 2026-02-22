@@ -77,6 +77,44 @@ if (length(csv_files) > 0) {
         )
       )
     } else {
+      # Check that all lines are valid UTF-8.
+      raw_lines <- readLines(csv_file, encoding = "UTF-8", warn = FALSE)
+      bad_lines <- which(!validUTF8(raw_lines))
+      if (length(bad_lines) > 0) {
+        # For each bad line, find the specific non-UTF-8 bytes to help diagnosis.
+        # Read the whole file as raw bytes once, then index into it per bad line.
+        all_bytes   <- readBin(csv_file, what = "raw", n = .Machine$integer.max)
+        newline_pos <- which(all_bytes == as.raw(0x0a))
+        bad_details <- purrr::map_chr(utils::head(bad_lines, 5), function(i) {
+          line_start <- if (i == 1L) 1L else newline_pos[i - 1L] + 1L
+          line_end   <- if (i <= length(newline_pos)) newline_pos[i] else length(all_bytes)
+          this_line  <- all_bytes[line_start:line_end]
+          # Any byte > 0x7F is non-ASCII; in a file that failed validUTF8()
+          # these are the characters causing the problem.
+          non_ascii  <- this_line[this_line > as.raw(0x7f)]
+          hex_str    <- paste(as.character(non_ascii), collapse = " ")
+          # Attempt Latin-1 decode to give a human-readable hint.
+          latin1_chars <- tryCatch(
+            paste(
+              iconv(rawToChar(non_ascii, multiple = TRUE), from = "latin1", to = "UTF-8"),
+              collapse = ""
+            ),
+            error = function(e) "(could not decode)"
+          )
+          glue::glue("  line {i}: bytes [{hex_str}] (as latin1: \"{latin1_chars}\")")
+        })
+        errors <- c(
+          errors,
+          glue::glue(
+            "{fs::path_file(csv_file)} contains {length(bad_lines)} line(s) with",
+            "non-UTF-8 bytes (first 5 shown). The file may be Latin-1 or another",
+            "encoding; re-save as UTF-8 in cleaning.R using",
+            "`readr::locale(encoding = \"latin1\")` (or the correct encoding).",
+            "Offending bytes per line:\n{paste(bad_details, collapse = '\n')}",
+            .sep = " "
+          )
+        )
+      }
       this_data <- readr::read_csv(csv_file)
       this_report <- c(
         glue::glue("{fs::path_file(csv_file)}:"),
