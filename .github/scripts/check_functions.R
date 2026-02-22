@@ -3,10 +3,11 @@
 
 #' Check whether a URL is reachable
 #'
-#' Sends a HEAD request to the given URL and returns an error string if the
-#' server responds with a 4xx/5xx status or the request fails entirely (e.g.
-#' timeout, DNS failure). Returns `NULL` if the URL is accessible or if no URL
-#' was provided.
+#' Validates the URL scheme and hostname before sending a HEAD request. Returns
+#' an error string if the URL uses a non-HTTP/HTTPS scheme, targets a private or
+#' reserved address (SSRF risk), the server responds with a 4xx/5xx status, or
+#' the request fails entirely (e.g. timeout, DNS failure). Returns `NULL` if the
+#' URL is accessible or if no URL was provided.
 #'
 #' @param url `character(1)` The URL to check. Treated as absent if `NULL`,
 #'   non-character, or zero-length.
@@ -16,10 +17,24 @@
 #' @returns `NULL` if the URL is reachable or absent; a `character(1)` error
 #'   string otherwise.
 check_url <- function(url, source_name) {
-  # nocov start
   if (is.null(url) || !is.character(url) || !nchar(url)) {
     return(NULL) # No URL to check
   }
+  # Only allow safe HTTP/HTTPS schemes to prevent SSRF via other protocols
+  # (e.g. file://, ftp://).
+  if (!grepl("^https?://", url, ignore.case = TRUE)) {
+    return(glue::glue(
+      "URL for '{source_name}' must use http:// or https:// scheme: {url}"
+    ))
+  }
+  # Block private/internal addresses to prevent SSRF from CI environments
+  # (e.g. probing cloud metadata endpoints or internal services).
+  if (.is_ssrf_risk(url)) {
+    return(glue::glue(
+      "URL for '{source_name}' targets a private or reserved address: {url}"
+    ))
+  }
+  # nocov start
   error_message <- glue::glue(
     "Could not reach URL for '{source_name}'.",
     "Please check manually: {url}",
@@ -47,6 +62,47 @@ check_url <- function(url, source_name) {
     }
   )
   # nocov end
+}
+
+#' Check whether a URL targets a private or reserved host (SSRF risk)
+#'
+#' Parses the hostname from the URL and tests it against known private/reserved
+#' address patterns, including loopback, link-local (e.g. AWS/Azure metadata),
+#' RFC 1918 private ranges, and IPv6 private addresses.
+#'
+#' @param url `character(1)` A URL that has already been confirmed to start with
+#'   `http://` or `https://`.
+#' @returns `TRUE` if the hostname looks like a private/internal address,
+#'   `FALSE` otherwise.
+#' @keywords internal
+.is_ssrf_risk <- function(url) {
+  parsed <- tryCatch(httr::parse_url(url), error = function(e) NULL)
+  if (is.null(parsed)) {
+    return(TRUE) # Unparseable URL — treat as unsafe
+  }
+  host <- parsed$hostname
+  if (is.null(host) || !nchar(host)) {
+    return(TRUE) # Missing host — treat as unsafe
+  }
+  # Patterns covering loopback, link-local (169.254.x.x covers AWS/GCP/Azure
+  # metadata endpoints), RFC 1918 private ranges, and IPv6 private addresses
+  # (fc00::/7 covers both fc and fd ULA ranges).
+  private_patterns <- c(
+    "^localhost$",
+    "^127\\.",
+    "^10\\.",
+    "^172\\.(1[6-9]|2[0-9]|3[01])\\.",
+    "^192\\.168\\.",
+    "^169\\.254\\.",
+    "^::1$",
+    "^\\[::1\\]$",
+    "^f[cd][0-9a-f]{2}:"
+  )
+  any(vapply(
+    private_patterns,
+    function(p) grepl(p, host, ignore.case = TRUE, perl = TRUE),
+    logical(1)
+  ))
 }
 
 #' Wrapper around httr::HEAD
