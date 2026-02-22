@@ -25,6 +25,36 @@ test_that("check_url() returns NULL for absent/empty URLs", {
   expect_null(check_url(42L, "source"))
 })
 
+test_that("check_url() rejects non-HTTP/HTTPS schemes", {
+  expect_match(check_url("file:///etc/passwd", "source"), "must use http")
+  expect_match(check_url("ftp://example.com/file", "source"), "must use http")
+  expect_match(check_url("javascript:alert(1)", "source"), "must use http")
+})
+
+test_that("check_url() rejects private/internal addresses", {
+  expect_match(check_url("http://localhost/api", "source"), "private or reserved")
+  expect_match(check_url("http://127.0.0.1/secret", "source"), "private or reserved")
+  expect_match(check_url("http://169.254.169.254/metadata", "source"), "private or reserved")
+  expect_match(check_url("http://10.0.0.1/internal", "source"), "private or reserved")
+  expect_match(check_url("http://192.168.1.1/router", "source"), "private or reserved")
+  expect_match(check_url("http://172.16.0.1/priv", "source"), "private or reserved")
+})
+
+test_that(".is_ssrf_risk() returns FALSE for public hostnames", {
+  expect_false(.is_ssrf_risk("http://example.com"))
+  expect_false(.is_ssrf_risk("https://github.com/repo"))
+  expect_false(.is_ssrf_risk("https://www.google.com/search"))
+})
+
+test_that(".is_ssrf_risk() returns TRUE for private/reserved hosts", {
+  expect_true(.is_ssrf_risk("http://localhost"))
+  expect_true(.is_ssrf_risk("http://127.0.0.1"))
+  expect_true(.is_ssrf_risk("http://169.254.169.254"))
+  expect_true(.is_ssrf_risk("http://10.1.2.3"))
+  expect_true(.is_ssrf_risk("http://192.168.0.1"))
+  expect_true(.is_ssrf_risk("http://172.20.0.5"))
+})
+
 # check_required_files() -----------------------------------------
 
 test_that("check_required_files() passes for a valid fixture", {
