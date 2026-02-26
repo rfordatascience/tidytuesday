@@ -1,0 +1,20 @@
+title: How likely is 'likely'?
+article:
+  title: Comparative and Absolute Probability Phrases
+  url: https://adamkucharski.github.io/CAPphrase/
+data_source:
+  title: "CAPphrase: Comparative and Absolute Probability phrase dataset"
+  url: https://github.com/adamkucharski/CAPphrase
+images:
+# Please include at least one image, and up to three images
+- file: 01_words_means.png
+  alt: >
+    Chart showing the distribution of estimated probabilities for different phrases, ranked by mean. 'Will Happen' is top, and 'Almost No Chance' is bottom.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Nicola Rennie
+  bluesky: https://bsky.app/profile/nrennie
+  linkedin: https://www.linkedin.com/in/nicola-rennie
+  mastodon: "@nrennie@fosstodon.org"
+  github: https://github.com/nrennie
