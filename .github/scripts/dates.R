@@ -1,4 +1,4 @@
-source(here::here("static", "templates", "readme.R"), local = TRUE)
+source(here::here(".github", "scripts", "parse_readme.R"), local = TRUE)
 
 check_date <- function(target_date) {
   used_dates <- get_readme_dates()
@@ -7,8 +7,8 @@ check_date <- function(target_date) {
     `+`,
     .init = used_dates[[1]]
   )
-  next_available <- setdiff(expected_used_dates, used_dates) |> 
-    lubridate::as_date() |> 
+  next_available <- setdiff(expected_used_dates, used_dates) |>
+    lubridate::as_date() |>
     min()
   if (!length(target_date) || !nzchar(target_date)) {
     return(next_available)
