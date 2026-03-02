@@ -2,7 +2,7 @@
 |:---------------------------|:---------|:-------------------------------------|
 |individual                  |character |The ID of the individual. Here it is a character type because some IDs include letters. |
 |year                        |integer   |The year the measurement was taken. |
-|year_recode                 |integer   |An ID of measurement for an individual starting at for the first year it was observed. |
+|year_recode                 |integer   |Per-individual observation index: 1 for the first year an individual was observed, 2 for the second, and so on, ordered by year/recapture. |
 |season                      |character |Season of the year. |
 |locality                    |character |Locality. |
 |sex                         |character |Sex. |

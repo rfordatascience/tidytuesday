@@ -46,7 +46,7 @@ tortoise_body_condition_cleaned <- tortoise_body_condition |>
     sex,
     body_mass_grams,
     body_condition_index,
-    straight_carapace_length_mm,
+    straight_carapace_length_mm
   ) |>
   # add more then initial so some columns
   dplyr::mutate(
