@@ -9,3 +9,4 @@
 |body_mass_grams             |double    |The body mass of the individual in grams. |
 |body_condition_index        |double    |The index for the body condition. |
 |straight_carapace_length_mm |double    |The carapace length in millimeters. |
+

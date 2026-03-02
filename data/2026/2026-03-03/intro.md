@@ -14,5 +14,5 @@ This topic seemed so interesting that even media like the New York Times picked 
 
 - Do recaptures happen more often in spring or summer? 
 - Does it seem easier to recapture male or female tortoises?
-- What are the differences among tortoises from the mainland vs the ones from the island in terms of body mass or carapace length? 
+- What are the differences among tortoises from the mainland vs the ones from the island in terms of body mass or carapace length?
 
