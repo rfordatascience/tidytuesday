@@ -8,7 +8,7 @@ library(janitor)
 # Update this to point to your downloaded file.
 repairs_xlsx_file <- "repairs-en.xlsx"
 
-repairs <- readxl::read_xlsx(repairs_xlsx_file) %>%
+repairs_all <- readxl::read_xlsx(repairs_xlsx_file, col_types = "text") %>%
   janitor::clean_names() %>%
   dplyr::rename(
     model = model_type_number_and_or_serial_number,
@@ -28,7 +28,6 @@ repairs <- readxl::read_xlsx(repairs_xlsx_file) %>%
     repair_date = ymd(repair_date),
     repair_cafe_number = as.integer(repair_cafe_number),
     estimated_year_of_production = as.integer(estimated_year_of_production),
-    failure_reason_open = as.character(failure_reason_open),
     repairability = as.integer(repairability)
   )
 
@@ -47,8 +46,9 @@ repairs_text_cols <- c(
   "suggestions"
 )
 
-write_csv(select(repairs, -all_of(repairs_text_cols)), "repairs.csv")
-write_csv(
-  select(repairs, repair_id, all_of(repairs_text_cols)),
-  "repairs_text.csv"
+repairs <- dplyr::select(repairs_all, -tidyselect::all_of(repairs_text_cols))
+repairs_text <- dplyr::select(
+  repairs_all,
+  repair_id,
+  tidyselect::all_of(repairs_text_cols)
 )

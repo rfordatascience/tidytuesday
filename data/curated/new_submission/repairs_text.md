@@ -9,6 +9,6 @@
 |failure_reasons      |character |Reason(s) repair was not completed (list)             |
 |failure_reason_open  |character |Reason repair was not completed (open answer)         |
 |used_repair_info     |character |Whether repair information was consulted              |
-|repair_info_source   |character |Source of repair information                          |
-|repair_info_url      |character |Repair information URL                                |
+|repair_info_source   |character |"Where did this information come from?"               |
+|repair_info_url      |character |"Source repair information (url website)"             |
 |suggestions          |character |Advice for other repairers of similar products        |
