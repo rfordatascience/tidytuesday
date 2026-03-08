@@ -1,6 +1,6 @@
 |variable    |class     |description                           |
 |:-----------|:---------|:-------------------------------------|
-|response_id |double    |Unique respondent identifier. |
+|response_id |integer   |Unique respondent identifier. |
 |term        |character |Probability phrase. |
-|probability |double    |Numerical estimate (0--100). |
-|order       |double    |Presentation order of this term for the respondent. |
+|probability |integer   |Numerical estimate (0--100). |
+|order       |integer   |Presentation order of this term for the respondent. |

@@ -3,16 +3,13 @@ article:
   title: Comparative and Absolute Probability Phrases
   url: https://adamkucharski.github.io/CAPphrase/
 data_source:
-  title: "CAPphrase: Comparative and Absolute Probability phrase dataset"
+  title: "Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055"
   url: https://github.com/adamkucharski/CAPphrase
 images:
-# Please include at least one image, and up to three images
 - file: 01_words_means.png
   alt: >
-    Chart showing the distribution of estimated probabilities for different phrases, ranked by mean. 'Will Happen' is top, and 'Almost No Chance' is bottom.
+    A chart from github.com/adamkucharski showing the distribution of estimated probabilities for different phrases, ranked by mean. The y-axis is labeled with the individual phrases, and the x-axis shows the probabily percent from 0 to 100%. Each point is an individual response, with the mean for each phrase shown as a hollow red circle, and the median for each phrase shown as a red diamond. 'Will Happen' is top with a median 100% and mean 98% probability, and 'Almost No Chance' is bottom with a median 2% and mean about 3.5% probability. 'Realistic Possibility', 'May Happen', 'Might Happen', and 'Could Happen' each have points spanning roughly the entire range from 0% to 100%.
 credit:
-# We want to thank you for curating this dataset! If you do not want a 
-# particular type of credit, please delete the related line.
   post: Nicola Rennie
   bluesky: https://bsky.app/profile/nrennie
   linkedin: https://www.linkedin.com/in/nicola-rennie
