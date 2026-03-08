@@ -44,8 +44,8 @@ pydytuesday.get_date('{{date}}')
 
 using TidierTuesday
 
-# Download files from the week, which you can then read in locally
-download_dataset('{{date}}')
+# Download datasets for the week, and load them as a NamedTuple of DataFrames
+data = tt_load("{{date}}")
 
 # Option 2: Read directly from GitHub and assign to an object with TidierFiles
 

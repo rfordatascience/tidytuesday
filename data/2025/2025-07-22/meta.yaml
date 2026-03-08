@@ -1,0 +1,29 @@
+title: "MTA Permanent Art Catalog"
+article:
+  title: "Permanent Art"
+  url: "https://www.mta.info/agency/arts-design/permanent-art"
+data_source:
+  title: "MTA Permanent Art Catalog: Beginning 1980"
+  url: "https://data.ny.gov/Transportation/MTA-Permanent-Art-Catalog-Beginning-1980/4y8j-9pkd/about_data"
+images:
+# Please include at least one image, and up to three images
+- file: "Andors_NYCT_Kings_01_RhodaAndors.png"
+  alt: >
+    Photograph of the artwork 'Kings Highway Hieroglyphs' (1987) by Rhoda Yohai
+    Andors at the Kings Hwy subway station. The mural features six outlined
+    human figures standing in profile, each with one arm raised. The figures are
+    each set on their own vertical panel with a blue background, and the three
+    on the left face the three on the right, separated by an orange stripe.
+    Above and below the figures are rows of stylized pictograms of things like
+    clouds, an airplane, a bridge, a roller coaster, a helicopter, fish, and
+    birds, modern visual symbols echoing ancient hieroglyphs. A plaque with more
+    information about the artwork is visible but illegible. Subway turnstiles are
+    visible in the foreground, with directional signs for 'Manhattan' and
+    'Coney Island' hanging above. Photo by Rhoda Yohai Andors via MTA Arts &
+    Design at https://www.mta.info/agency/arts-design/collection/Kings-Highway-Hieroglyphs.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

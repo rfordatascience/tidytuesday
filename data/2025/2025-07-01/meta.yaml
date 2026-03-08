@@ -1,0 +1,17 @@
+title: "Weekly US Gas Prices"
+article:
+  title: "Weekly U.S. Gasoline and Diesel Retail Prices"
+  url: "https://www.eia.gov/petroleum/gasdiesel/"
+data_source:
+  title: "U.S. Gasoline and Diesel Retail Prices"
+  url: "https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls"
+images:
+- file: "regular_gasoline_prices.png"
+  alt: >
+    A line chart titled 'Regular Gasoline Prices' showing weekly average gasoline prices by U.S. region from July 2024 to May 2025 in dollars per gallon. California and West Coast lines are highest, ranging from just below $4 to almost $5. Gulf Coast is lowest, starting just above $3 but remaining below $3 since September 2024. Most regions cluster near $3 per gallon.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

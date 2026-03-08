@@ -1,0 +1,17 @@
+title: "Seismic Events at Mount Vesuvius"
+article:
+  title: "Somma Vesuvio"
+  url: "https://www.ingv.it/somma-vesuvio"
+data_source:
+  title: "Italian Istituto Nazionale di Geofisica e Vulcanologia (INGV)"
+  url: "https://www.ingv.it/"
+images:
+# Please include at least one image, and up to three images
+- file: "vesuvius_map_2024.png"
+  alt: >
+    Map of Mount Vesuvius region from the GOSSIP website showing seismic activity. The map displays numerous colored dots concentrated mainly on the volcano, with red and orange circles indicating more recent events clustered around the crater area. Green circles represent older seismic events, while yellow triangles mark monitoring stations surrounding the volcano. The larger the circles, the stronger the seismic activity.
+credit:
+  post: "Libby Heeren"
+  github: "@LibbyHeeren"
+  bluesky: "@libbyheeren.bsky.social"
+  linkedin: "@libbyheeren"

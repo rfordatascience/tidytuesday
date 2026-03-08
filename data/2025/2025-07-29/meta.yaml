@@ -1,0 +1,15 @@
+title: "What have we been watching on Netflix?"
+article:
+  title: "What We Watched the First Half of 2025"
+  url: "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025"
+data_source:
+  title: "Netflix Engagement Reports 2023-2025"
+  url: "https://assets.ctfassets.net/4cd45et68cgf/inuAnzotdsAEgbInGLzH5/1be323ba419b2af3a96bffa29acc31a3/What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec.xlsx, https://assets.ctfassets.net/4cd45et68cgf/2PoZlfdc46dH2gQvI8eUzI/9db5840720c47acfcf7b89ffe2402860/What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun.xlsx, https://assets.ctfassets.net/4cd45et68cgf/6XSmoEjBjVMPRtYybT9d1E/8c0b0b2645b8712d5597b0bdbe0d64e2/What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec.xlsx, https://assets.ctfassets.net/4cd45et68cgf/mplcXj5ulHDfbCPCr0f0I/5dbb6ec09f03df89706476e380e9b8bd/What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun.xlsx"
+images:
+# Please include at least one image, and up to three images
+- file: "NFLX_H12025_EngagementReport_Top10Shows.png"
+  alt: >
+    A stacked bar chart illustrating the number of times the Top10 shows on Nexflix were viewed between January-June2025. The bars are filled green with images from each show embedded on the right side of each bar. The show Adolescence tops the charts with 145M views followed by Season 2 and 3 of the Squid Games, with 117M and 72M views respectively.
+credit:
+  post: "Jen Richmond, RLadies-Sydney"
+  github: "@jenrichmond"

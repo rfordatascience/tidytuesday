@@ -1,0 +1,18 @@
+title: "National Science Foundation Grant Terminations under the Trump Administration"
+article:
+  title: "National Science Foundation Terminates Hundreds of Active Research Awards"
+  url: "https://www.nytimes.com/2025/04/22/science/trump-national-science-foundation-grants.html"
+data_source:
+  title: "Grant Watch"
+  url: "https://grant-watch.us/nsf-data.html"
+images:
+# Please include at least one image, and up to three images
+- file: "nsf-word-cloud.png"
+  alt: >
+    A word cloud of the most frequent terms in terminated NSF grant titles and abstracts, with words of different sizes, and different colors, with purple for the largest, red medium, and green small. "Black" stands out prominently in purple. In red, we see "climate", "student", "network", "justice", "identity", "teacher", and "undergraduate".
+credit:
+  post: "Noam Ross and Scott Delaney, Grant Watch"
+  github: "@noamross"
+  bluesky: "@noamross.net"
+  linkedin: "@noamross"
+  mastodon: "@noamross@ecoevo.social"

@@ -1,0 +1,18 @@
+title: "U.S. Judges and the historydata R package"
+article:
+  title: "What Does It Mean to Maintain a Package?"
+  url: "https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/"
+data_source:
+  title: "Web site of the Federal Judicial Center, via the historydata R package"
+  url: "https://github.com/ropensci/historydata"
+images:
+# Please include at least one image, and up to three images
+- file: "logo.png"
+  alt: >
+    The logo of rOpenSci, consisting of a letter R and an O in the form of a circle-arrow, on a light blue background.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

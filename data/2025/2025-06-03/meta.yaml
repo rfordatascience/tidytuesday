@@ -1,0 +1,18 @@
+title: "Project Gutenberg"
+article:
+  title: "50 years of eBooks: 1971-2021"
+  url: "https://www.gutenberg.org/about/background/50years.html"
+data_source:
+  title: "The R gutenbergr package"
+  url: "https://docs.ropensci.org/gutenbergr/"
+images:
+# Please include at least one image, and up to three images
+- file: "pg-logo-129x80.png"
+  alt: >
+    The logo of Project Gutenberg. Project Gutenberg is written in a stylized calligraphic font, with the P and G in gold and the rest in black. Behind them is an image of the original Gutenberg printing press.
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
