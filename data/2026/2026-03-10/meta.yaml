@@ -1,17 +1,17 @@
-title: How likely is 'likely'?
+title: "How likely is 'likely'?"
 article:
-  title: Comparative and Absolute Probability Phrases
-  url: https://adamkucharski.github.io/CAPphrase/
+  title: "Comparative and Absolute Probability Phrases"
+  url: "https://adamkucharski.github.io/CAPphrase/"
 data_source:
   title: "Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055"
-  url: https://github.com/adamkucharski/CAPphrase
+  url: "https://github.com/adamkucharski/CAPphrase"
 images:
-- file: 01_words_means.png
+- file: "01_words_means.png"
   alt: >
     A chart from github.com/adamkucharski showing the distribution of estimated probabilities for different phrases, ranked by mean. The y-axis is labeled with the individual phrases, and the x-axis shows the probabily percent from 0 to 100%. Each point is an individual response, with the mean for each phrase shown as a hollow red circle, and the median for each phrase shown as a red diamond. 'Will Happen' is top with a median 100% and mean 98% probability, and 'Almost No Chance' is bottom with a median 2% and mean about 3.5% probability. 'Realistic Possibility', 'May Happen', 'Might Happen', and 'Could Happen' each have points spanning roughly the entire range from 0% to 100%.
 credit:
-  post: Nicola Rennie
-  bluesky: https://bsky.app/profile/nrennie
-  linkedin: https://www.linkedin.com/in/nicola-rennie
+  post: "Nicola Rennie"
+  bluesky: "https://bsky.app/profile/nrennie"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
   mastodon: "@nrennie@fosstodon.org"
-  github: https://github.com/nrennie
+  github: "https://github.com/nrennie"

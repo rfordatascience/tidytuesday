@@ -3,3 +3,4 @@ In an [online quiz](https://probability.kucharski.io/), created as an independen
 * Which phrases do people most disagree on, in relation to the probability they represent?
 * Which demographic background is the most optimistic?
 * Does the order people are shown phrases in change their interpretation?
+

@@ -1,4 +1,7 @@
 Week,Date,year,data_files,data_type,delim
+10,2026-03-10,2026,absolute_judgements.csv,csv,","
+10,2026-03-10,2026,pairwise_comparisons.csv,csv,","
+10,2026-03-10,2026,respondent_metadata.csv,csv,","
 9,2026-03-03,2026,clutch_size_cleaned.csv,csv,","
 9,2026-03-03,2026,tortoise_body_condition_cleaned.csv,csv,","
 8,2026-02-24,2026,sfi_grants.csv,csv,","

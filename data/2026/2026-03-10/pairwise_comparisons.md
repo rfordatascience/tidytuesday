@@ -5,3 +5,4 @@
 |term1       |character |First term shown. |
 |term2       |character |Second term shown. |
 |selected    |character |The term the respondent chose as higher probability. |
+
