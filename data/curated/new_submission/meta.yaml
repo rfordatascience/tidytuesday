@@ -1,0 +1,17 @@
+title: "Salmonid Mortality Data"
+article:
+  title: "https://www.vetinst.no/arrangementer/lansering-av-fiskehelserapporten-2026"
+  url: "Launch of the Fish Health Report (in Norwegian)"
+data_source:
+  title: "Norwegian Veterinary Institute"
+  url: "https://apps.vetinst.no/laksetap/"
+images:
+# Please include at least one image, and up to three images
+- file: "Laks-i-merd-13-10-2014_2_web.jpg"
+  alt: >
+    Salmon in cage. Photo: Rudolf Svensen
+credit:
+  post: "Novica Nakov"
+  github: "@novica"
+  bluesky: "@novica"
+  linkedin: "@novica"
