@@ -63,11 +63,11 @@ ewf_standings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 | division        |character  | The division name in English football.|
 | match_id        |character  | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match's date, then by the name of the home team, and then by the name of the away team. References `match_id` in the `ewf_matches` dataset.|
 | match_name      |character  | The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
-| date            |date  | The date of the match, in `yyyy-mm-dd` format.|
+| date            |date       | The date of the match, in `yyyy-mm-dd` format.|
 | attendance      |character  | The total crowd attendance at the match. Note that this information is not available for some matches.|
 | team_id         |character  | The unique ID for the team. Has the format `T-###-T`.|
 | team_name       |character  | The name of the team at the match.|
-| opponent_id| The unique ID for the team’s opponent. Has the format `T-###-T`.|
+| opponent_id     |character  | The unique ID for the team’s opponent. Has the format `T-###-T`.|
 | opponent_name   |character  | The name of the team’s opponent at the match.|
 | home_team       |integer    | Whether the team was the home team. Possible value are `1` if the team was the home team and `0` otherwise.|
 | away_team       |integer    | Whether the team was the away team. Possible value are `1` if the team was the away team and `0` otherwise.|
@@ -91,7 +91,7 @@ ewf_standings <- readr::read_csv('https://raw.githubusercontent.com/rfordatascie
 | division              |character  | The division name in English football.|
 | match_id              |character  | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match's date, then by the name of the home team, and then by the name of the away team.|
 | match_name            |character  | The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
-| date                  |date  | The date of the match, in `yyyy-mm-dd` format.|
+| date                  |date       | The date of the match, in `yyyy-mm-dd` format.|
 | attendance            |character  | The total crowd attendance at the match. Note that this information is not available for some matches.|
 | home_team_id          |character  | The unique ID for the home team. Has the format `T-###-T`.|
 | home_team_name        |character  | The name of the home team at the match.|

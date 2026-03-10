@@ -1,0 +1,18 @@
+title: "Edible Plants Database"
+article:
+  title: "GROW Observatory"
+  url: "https://www.dundee.ac.uk/projects/grow-observatory"
+data_source:
+  title: "Edible Plant Database"
+  url: "https://discovery.dundee.ac.uk/en/datasets/edible-plant-database/"
+images:
+# Please include at least one image, and up to three images
+- file: "image.png"
+  alt: >
+    Minimalist map of Europe showing nine locations taking part in GROW projects, including locations in Scotland, Ireland, Portugal, Spain, Austria, Luxembourg, The Netherlands, Hungary, and Greece.
+credit:
+  post: "Nicola Rennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@nrennie@fossotodon.org"
+  github: "@nrennie"

@@ -1,0 +1,10 @@
+title: "Test Dataset"
+article:
+  title: "Test Article"
+  url: "https://example.com/article"
+data_source:
+  title: "Test Source"
+  url: "https://example.com/data"
+images:
+  - file: "image.png"
+    alt: "A test image"

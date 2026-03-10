@@ -94,7 +94,7 @@ fide_ratings_september = CSV.read("https://raw.githubusercontent.com/rfordatasci
 |:--------|:---------|:-------------------------------------|
 |id       |integer   |Identification number of a player within FIDE database. |
 |name     |character |Player name. |
-|fed      |character |Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm|) |
+|fed      |character |Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm) |
 |sex      |character |Sex of player (M - male, F - female) |
 |title    |character |Title of a player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master) |
 |wtitle   |character |Woman title of a player (WGM - Woman Grand Master, WIM - Woman International Master, WFM - Woman FIDE Master, WCM - Woman Candidate Master) |
@@ -111,7 +111,7 @@ fide_ratings_september = CSV.read("https://raw.githubusercontent.com/rfordatasci
 |:--------|:---------|:-------------------------------------|
 |id       |integer   |Identification number of a player within FIDE database. |
 |name     |character |Player name. |
-|fed      |character |Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm|) |
+|fed      |character |Federation of player. Similar, but not identical to, IOC country codes. An unofficial list is available [here](https://www.mark-weeks.com/aboutcom/mw15b16.htm) |
 |sex      |character |Sex of player (M - male, F - female) |
 |title    |character |Title of a player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master) |
 |wtitle   |character |Woman title of a player (WGM - Woman Grand Master, WIM - Woman International Master, WFM - Woman FIDE Master, WCM - Woman Candidate Master) |
