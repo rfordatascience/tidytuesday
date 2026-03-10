@@ -7,7 +7,7 @@ data_source:
   url: "https://apps.vetinst.no/laksetap/"
 images:
 # Please include at least one image, and up to three images
-- file: "Laks-i-merd-13-10-2014_2_web.jpg"
+- file: "Laks-i-merd-13-10-2014_2_web.png"
   alt: >
     Salmon in cage. Photo: Rudolf Svensen
 credit:
@@ -15,3 +15,4 @@ credit:
   github: "@novica"
   bluesky: "@novica"
   linkedin: "@novica"
+
