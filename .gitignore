@@ -40,3 +40,13 @@ sample_viz.R
 weather_working.R
 ttues-script.R
 .positai
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
