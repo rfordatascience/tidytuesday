@@ -49,6 +49,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |    8|2026-02-24 |[Science Foundation Ireland Grants Commitments](data/2026/2026-02-24/readme.md)|[Science Foundation Ireland Historical Grants Commitments](https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments)|[Science Foundation Ireland Historical Grants Commitments](https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments)|
 |    9|2026-03-03 |[Golem Grad Tortoise Data](data/2026/2026-03-03/readme.md)|[Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population](https://figshare.com/articles/journal_contribution/Sex_ratio_bias_triggers_demographic_suicide_in_a_dense_tortoise_population/30752687)|[Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population](https://onlinelibrary.wiley.com/doi/10.1111/ele.70296)|
 |   10|2026-03-10 |[How likely is 'likely'?](data/2026/2026-03-10/readme.md)|[Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055](https://github.com/adamkucharski/CAPphrase)|[Comparative and Absolute Probability Phrases](https://adamkucharski.github.io/CAPphrase/)|
+|   11|2026-03-17 |[Salmonid Mortality Data](data/2026/2026-03-17/readme.md)|[Norwegian Veterinary Institute](https://apps.vetinst.no/laksetap/)                                              |[Launch of the Fish Health Report (in Norwegian)](https://www.vetinst.no/arrangementer/lansering-av-fiskehelserapporten-2026)|
 
 ***  
 
