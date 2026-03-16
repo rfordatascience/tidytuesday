@@ -534,6 +534,7 @@ write_report <- function(
 #'   (`"success"` or `"failure"`).
 #' @keywords internal
 .build_report_body <- function(errors, other_info) {
+  tag <- "<!-- PR check -->"
   header <- "### TidyTuesday Submission Check:"
 
   if (length(other_info)) {
@@ -550,7 +551,7 @@ write_report <- function(
   }
 
   list(
-    body = paste(header, errors, other_info, sep = "\n\n"),
+    body = paste(tag, header, errors, other_info, sep = "\n\n"),
     status = status
   )
 }
