@@ -51,6 +51,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   10|2026-03-10 |[How likely is 'likely'?](data/2026/2026-03-10/readme.md)|[Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055](https://github.com/adamkucharski/CAPphrase)|[Comparative and Absolute Probability Phrases](https://adamkucharski.github.io/CAPphrase/)|
 |   11|2026-03-17 |[Salmonid Mortality Data](data/2026/2026-03-17/readme.md)|[Norwegian Veterinary Institute](https://apps.vetinst.no/laksetap/)                                              |[Launch of the Fish Health Report (in Norwegian)](https://www.vetinst.no/arrangementer/lansering-av-fiskehelserapporten-2026)|
 |   12|2026-03-24 |[One Million Digits of Pi](data/2026/2026-03-24/readme.md)|[One Million Digits of Pi (Eve Andersson collection)](https://github.com/eneko/Pi/blob/master/one-million.txt)   |[How Many Decimals of Pi Do We Really Need?](https://www.jpl.nasa.gov/edu/news/how-many-decimals-of-pi-do-we-really-need/)|
+|   13|2026-03-31 |[Coastal Ocean Temperature by Depth](data/2026/2026-03-31/readme.md)|[Lunenburg County Water Quality Data](https://data.novascotia.ca/Nature-and-Environment/Lunenburg-County-Water-Quality-Data/eda5-aubu/about_data)|[Understanding Complex Data: Coastal Monitoring](https://data.novascotia.ca/stories/s/a25g-piws)|
 
 ***  
 
