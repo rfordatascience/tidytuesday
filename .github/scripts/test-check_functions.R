@@ -241,3 +241,16 @@ test_that("write_report() includes other_info in the report body", {
   report <- paste(readLines(report_file), collapse = "\n")
   expect_match(report, "Some extra info.")
 })
+
+test_that("write_report() includes the hidden PR check tag for comment deduplication", {
+  report_file <- withr::local_tempfile(fileext = ".md")
+  status_file <- withr::local_tempfile()
+  write_report(
+    character(),
+    character(),
+    report_file = report_file,
+    status_file = status_file
+  )
+  report <- paste(readLines(report_file), collapse = "\n")
+  expect_match(report, "<!-- PR check -->", fixed = TRUE)
+})
