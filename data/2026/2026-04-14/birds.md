@@ -26,3 +26,4 @@
 |following_ship          |logical   |Whether any birds were following the ship's wake.                                                                                                                                                                                                                |
 |moulting                |logical   |Whether any birds were observed moulting.                                                                                                                                                                                                                        |
 |naturally_feeding       |logical   |Whether any birds were naturally feeding (i.e., not feeding on ship discards).                                                                                                                                                                                   |
+

@@ -21,3 +21,4 @@
 |observer                |factor  |Name of the observer, decoded from a 4-letter code in the source data.                                                                                                                                                                                                                  |
 |census_method           |ordered |Count method: `"partial"` indicates a count lasting less than 10 minutes or a casual observation; `"full"` indicates a complete 10-minute count. Recoded from `"P"` and `"F"` in the source data.                                                                                       |
 |season                  |ordered |Southern hemisphere season: `"summer"`, `"autumn"`, `"winter"`, or `"spring"`. Recorded directly in the source data (but likely derived rather than being entered directly in the log book data).                                                                                       |
+

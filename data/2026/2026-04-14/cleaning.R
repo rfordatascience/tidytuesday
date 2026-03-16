@@ -6,3 +6,4 @@ beaufort_scale <- seabirddata::beaufort_scale
 birds <- seabirddata::birds
 ships <- seabirddata::ships
 sea_states <- seabirddata::sea_states
+

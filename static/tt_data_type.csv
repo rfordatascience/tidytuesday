@@ -1,4 +1,8 @@
 Week,Date,year,data_files,data_type,delim
+15,2026-04-14,2026,beaufort_scale.csv,csv,","
+15,2026-04-14,2026,birds.csv,csv,","
+15,2026-04-14,2026,sea_states.csv,csv,","
+15,2026-04-14,2026,ships.csv,csv,","
 14,2026-04-07,2026,repairs.csv,csv,","
 14,2026-04-07,2026,repairs_text.csv,csv,","
 13,2026-03-31,2026,ocean_temperature.csv,csv,","
