@@ -6,21 +6,35 @@
 name: PR Submission Check
 
 on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number to run checks for'
+        required: true
+        type: number
   pull_request_target:
     paths:
       - 'data/curated/**'
 
-# Use the principle of least privilege. We only need to read contents.
 permissions:
   contents: read
   pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request_target' }}
   
 jobs:
   check-submission:
     runs-on: ubuntu-latest
     steps:
       - name: Determine PR Number
-        run: echo "PR_NUMBER=${{ github.event.pull_request.number }}" >> $GITHUB_ENV
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "PR_NUMBER=${{ github.event.inputs.pr_number }}" >> "$GITHUB_ENV"
+          else
+            echo "PR_NUMBER=${{ github.event.pull_request.number }}" >> "$GITHUB_ENV"
+          fi
 
       # For pull_request events, the action automatically checks out the PR's merge commit.
       - name: Checkout PR Code
