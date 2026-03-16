@@ -1,4 +1,6 @@
 Week,Date,year,data_files,data_type,delim
+13,2026-03-31,2026,ocean_temperature.csv,csv,","
+13,2026-03-31,2026,ocean_temperature_deployments.csv,csv,","
 12,2026-03-24,2026,pi_digits.csv,csv,","
 11,2026-03-17,2026,monthly_losses_data.csv,csv,","
 11,2026-03-17,2026,monthly_mortality_data.csv,csv,","
