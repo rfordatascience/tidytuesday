@@ -16,6 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - uses: r-lib/actions/pr-fetch@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Merge main into PR branch
         run: |
           git fetch origin main
@@ -38,7 +42,7 @@ jobs:
           if (length(split_input) > 1) {
             target_date <- split_input[[2]]
           } else {
-            source("static/templates/dates.R", local = TRUE)
+            source(".github/scripts/dates.R", local = TRUE)
             used_dates <- get_readme_dates()
             target_date <- max(used_dates) + lubridate::days(7)
           }
@@ -57,8 +61,8 @@ jobs:
             }
           }
           cli::cli_inform(c(
-            i = "target_date = {.field target_date}",
-            i = "src_folder_name = {.field src_folder_name}"
+            i = "target_date = {.field {target_date}}",
+            i = "src_folder_name = {.field {src_folder_name}}"
           ))
           
           source(".github/scripts/assign_week.R", local = TRUE)

@@ -1,0 +1,8 @@
+sea_state_class,sea_state_description,wave_meters_min,wave_meters_max
+0,"calm, glassy",0,0
+1,"calm, rippled",0,0.1
+2,smooth,0.1,0.5
+3,slight,0.5,1.2
+4,moderate,1.3,2.5
+5,rough,2.5,4
+6,very rough,4,6
