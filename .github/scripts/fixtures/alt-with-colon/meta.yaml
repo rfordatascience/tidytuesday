@@ -1,11 +1,11 @@
-title: Test Dataset
+title: "Test Dataset"
 article:
-  title: Test Article
-  url: https://example.com/article
+  title: "Test Article"
+  url: "https://example.com/article"
 data_source:
-  title: Test Source
-  url: https://example.com/data
+  title: "Test Source"
+  url: "https://example.com/data"
 images:
-- file: image.png
+- file: "image.png"
   alt: >
     Infographic showing repair success rates. Overall success rate: 62% across 136,000 repairs.

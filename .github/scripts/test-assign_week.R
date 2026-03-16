@@ -38,7 +38,10 @@ test_that("yaml_quote() preserves block scalar continuation lines containing col
     "    Overall success rate: 62% across 136,000 repairs."
   )
   result <- yaml_quote(lines)
-  expect_equal(result[[4]], "    Overall success rate: 62% across 136,000 repairs.")
+  expect_equal(
+    result[[4]],
+    "    Overall success rate: 62% across 136,000 repairs."
+  )
 })
 
 test_that("yaml_quote() resumes quoting after a block scalar ends", {
@@ -70,23 +73,13 @@ test_that("yaml_quote() does not quote empty lines inside a block scalar", {
 # read_metadata() ------------------------------------------------
 
 test_that("read_metadata() parses the standard valid fixture without error", {
-  dir <- withr::local_tempdir()
-  fs::file_copy(
-    file.path(fixtures, "valid", "meta.yaml"),
-    file.path(dir, "meta.yaml")
-  )
-  result <- read_metadata(file.path(dir, "meta.yaml"))
+  result <- read_metadata(file.path(fixtures, "valid", "meta.yaml"))
   expect_type(result, "list")
   expect_equal(result$title, "Test Dataset")
 })
 
 test_that("read_metadata() parses a meta.yaml whose block-scalar alt contains colons", {
-  dir <- withr::local_tempdir()
-  fs::file_copy(
-    file.path(fixtures, "alt-with-colon", "meta.yaml"),
-    file.path(dir, "meta.yaml")
-  )
-  result <- read_metadata(file.path(dir, "meta.yaml"))
+  result <- read_metadata(file.path(fixtures, "alt-with-colon", "meta.yaml"))
   expect_type(result, "list")
   # The alt text must not contain stray quote characters injected by yaml_quote()
   expect_false(grepl('"', result$images[[1]]$alt, fixed = TRUE))
