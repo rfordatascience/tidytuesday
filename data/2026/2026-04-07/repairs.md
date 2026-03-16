@@ -11,3 +11,4 @@
 |estimated_year_of_production |integer   |Estimated year of production                           |
 |repaired                     |character |Whether the product was repaired                       |
 |repairability                |integer   |Rating of repair ease, from 1 (difficult) to 10 (easy)|
+

@@ -8,4 +8,5 @@ Note: There appears to be some uncertainty (by submitters to the source data) of
 - What kinds of items are most easily repaired?
 - What are the most common reasons that items can't be repaired? 
 - Which countries have seen the most growth in Repair Cafe branches?
-- Is GenAI becoming more popular than YouTube as a source of useful information for repairers? 
+- Is GenAI becoming more popular than YouTube as a source of useful information for repairers?
+

@@ -52,3 +52,4 @@ repairs_text <- dplyr::select(
   repair_id,
   tidyselect::all_of(repairs_text_cols)
 )
+

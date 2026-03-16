@@ -12,3 +12,4 @@
 |repair_info_source   |character |"Where did this information come from?"               |
 |repair_info_url      |character |"Source repair information (url website)"             |
 |suggestions          |character |Advice for other repairers of similar products        |
+
