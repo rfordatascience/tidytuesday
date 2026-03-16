@@ -1,4 +1,4 @@
-This week we're exploring the digits of π in celebration of Pi Day (March 14).
+This week we're exploring the digits of π with a [dataset submission](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) in celebration of Pi Day (March 14).
 The dataset contains the first one million digits of π, beginning with 3.14159 …,
 collected from publicly available sources and curated for analysis and visualization.
 
@@ -9,9 +9,10 @@ One million digits of Pi represents an incredible achievement in mathematical co
 - Statistical analysis of number patterns
 - Educational purposes and demonstrations
 
-> “Pi is an irrational number, meaning its decimal representation never ends and never settles into a permanent repeating pattern.” — Eve Andersson, collector of the one million digits dataset
+> "Pi is an irrational number, meaning its decimal representation never ends and never settles into a permanent repeating pattern."" — Eve Andersson, collector of the one million digits dataset
 
 The digits are available from multiple open sources, including:
+
 - [PiDay](https://piday.co/million/)  
 - [Eneko Pi (one-million)](https://github.com/eneko/Pi/blob/master/one-million.txt)
 
