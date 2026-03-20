@@ -1,0 +1,14 @@
+wind_speed_class,wind_description,wind_speed_knots_min,wind_speed_knots_max
+0,calm,0,1
+1,light air,1,3
+2,light breeze,4,6
+3,gentle breeze,7,10
+4,moderate breeze,11,16
+5,fresh breeze,17,21
+6,strong breeze,22,27
+7,near gale,28,33
+8,gale,34,40
+9,strong gale,41,47
+10,storm,48,55
+11,violent storm,56,63
+12,hurricane,64,NA
