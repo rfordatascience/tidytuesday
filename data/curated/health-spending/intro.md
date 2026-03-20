@@ -1,44 +1,21 @@
-This week we're exploring global health spending data from the [WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database). 
-The dataset was curated by [ONE Data](https://data.one.org), which builds open data infrastructure, tools, and analyses,
-to make development data more accessible and useful. The data was processed using ONE's 
-open-source [`bblocks-data-importers` Python package](https://github.com/ONEcampaign/bblocks_data_importers), and can 
-also be explored interactively through the [Health Financing Agent](https://data.one.org/tools/agents/health-financing).
+This week we're exploring global health spending data from the [WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database).
 
-Health financing — how countries fund their health systems and what they prioritise — is a critical determinant of health outcomes. 
+How countries fund their health systems and what they prioritise is a critical determinant of health outcomes. 
 Global health spending has grown substantially over the past two decades, but remains deeply unequal: high-income countries 
-account for the vast majority of spending, while many low-income countries struggle to meet basic health needs.
+account for the vast majority of spending, and many low-income countries struggle to meet basic health needs.
 
-How much countries spend on health care is only part of the story. What they spend on, and how they finance it, also matters.
-When health systems rely heavily on out-of-pocket payments rather than government or pooled financing schemes, the cost 
-of care falls directly on households — pushing families into poverty and deterring people
-from seeking treatment altogether. Similarly, how spending is allocated across health care functions matters: countries
-that invest adequately in preventive care tend to achieve better population health outcomes at lower long-term cost, yet
-globally, curative care dominates health budgets while prevention receives a smaller and often fragile share of spending.
+How much countries spend on health care is only part of the story. What they spend on, and how they finance it, also 
+matters. When health systems rely heavily on out-of-pocket payments rather than pooled financing arrangements, 
+the cost of care falls directly on households. Similarly, how spending is allocated across health care functions
+matters: countries that invest adequately in preventive care tend to achieve better population health outcomes at lower 
+long-term cost, yet globally, curative care dominates health budgets while prevention receives a smaller and often 
+fragile share of spending.
 
+The data is organised into three datasets:
 
-The three datasets cover aggregate health spending by source, financing scheme breakdowns, and spending
-by health care function. Each indicator is available in two units, identified by a suffix in the `indicator_code`:
-
-- `_che` — as a percentage of current health expenditure (CHE)
-- `_usd2023` — in constant 2023 US dollars (adjusted for inflation, enabling comparisons over time among countries)
-
-Find more details about each dataset and its indicators in the respective metadata files:
-- [Health spending by source](./health_spending.md)
-- [Health spending by financing scheme](./financing_schemes.md)
-- [Health spending by health care function](./spending_purpose.md)
-
-
-### Example analyses and visualisations
-
-These articles from [ONE](https://data.one.org) use the same underlying data and include interactive
-visualisations that illustrate what can be explored with these datasets:
-
-- **[Out-of-pocket health burden remains high](https://data.one.org/analysis/out-of-pocket-health-burden)** — the impact of out-of-pocket spending on families
-- **[Health care spending is not evenly distributed](https://data.one.org/analysis/health-spending-inequality)** — the disparities in health spending across countries
-- **[The hidden fragility of preventive health spending](https://data.one.org/analysis/hidden-fragility-of-prevention-spending)** — comparing curative and preventive care spending across countries
-- **[Africa falls short on health spending](https://data.one.org/analysis/african_gov_health-spending-off-track)** — the gap between current and recommended government health spending in African countries
-- **[A turning point in health financing](https://data.one.org/analysis/turning-point-in-health-financing)** — the changing patterns of health financing in the wake of the COVID-19 pandemic
-
+- **`health_spending`** — Aggregate health spending and its breakdown by funding source. Current health expenditure (CHE) is the total, split into three mutually exclusive sources: domestic government spending (GGHE-D), domestic private spending (PVT-D), and external aid (EXT). Together, `gghed + pvtd + ext = che`.
+- **`financing_schemes`** — Health spending by financing scheme: government schemes, voluntary payment schemes, household out-of-pocket payments, rest of the world, and unspecified.
+- **`spending_purpose`** — Health spending by health care function: curative care, rehabilitative care, long-term care, ancillary services, medical goods, preventive care, governance and administration, and other services.
 
 Some questions to explore:
 
@@ -47,6 +24,5 @@ Some questions to explore:
 - What is the split between curative and preventive care spending across countries?
 - How did the COVID-19 pandemic impact health spending patterns?
 
-These datasets are not comprehensive of all the data available from the Global Health Expenditure Database. To explore
-more data try out [ONE's health financing agent](https://data.one.org/tools/agents/health-financing), 
-the [`bblocks` python package](https://github.com/ONEcampaign/bblocks_data_importers), or visit the [GHED](https://apps.who.int/nha/database/) portal directly!
+Visit the [GHED portal](https://apps.who.int/nha/database/) or use the open-source [`bblocks-data-importers` Python package](https://github.com/ONEcampaign/bblocks_data_importers)
+for additional indicators and data beyond what is included here, or explore related analyses at [ONE Data](https://data.one.org).
