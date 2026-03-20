@@ -1,0 +1,14 @@
+title: "Global Health Financing"
+article:
+  title: "Health Financing Agent"
+  url: "https://data.one.org/tools/agents/health-financing"
+data_source:
+  title: "WHO Global Health Expenditure Database (GHED)"
+  url: "https://apps.who.int/nha/database"
+images:
+- file: health_spending_charts.png
+  alt: >
+    A collage of charts exploring global health spending patterns, including spending breakdowns by country and purpose, out-of-pocket payment trends, government health spending targets.
+credit:
+  post: "Luca Picci; ONE Data"
+  github: https://github.com/lpicci96
