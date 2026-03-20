@@ -1,18 +1,19 @@
-This week we're exploring data from the [WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database), 
-which tracks global health spending. The data is sourced 
-via the [ONE Health Financing Agent](https://data.one.org/tools/agents/health-financing) and 
-the [bblocks-data-importers](https://github.com/ONEcampaign/bblocks-data-importers) Python package.
+This week we're exploring global health spending data from the [WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database). 
+The dataset was curated by [ONE Data](https://data.one.org), which builds open data infrastructure, tools, and analyses,
+to make development data more accessible and useful. The data was processed using ONE's 
+open-source [`bblocks-data-importers` Python package](https://github.com/ONEcampaign/bblocks_data_importers), and can 
+also be explored interactively through the [Health Financing Agent](https://data.one.org/tools/agents/health-financing).
 
-Health financing — how countries fund their health systems — is a critical determinant of health outcomes. 
-In 2023, countries spent over $10 trillion on health globally, but this spending is deeply unequal: high-income 
-countries account for the majority of health spending, while low-income countries struggle to meet basic health needs.
+Health financing — how countries fund their health systems and what they prioritise — is a critical determinant of health outcomes. 
+Global health spending has grown substantially over the past two decades, but remains deeply unequal: high-income countries 
+account for the vast majority of spending, while many low-income countries struggle to meet basic health needs.
 
 How much countries spend on health care is only part of the story. What they spend on, and how they finance it, also matters.
-When health systems rely heavily on out-of-pocket payments rather than government schemes or compulsory contributory
-financing, the cost of care falls directly on households — pushing families into poverty and deterring people
+When health systems rely heavily on out-of-pocket payments rather than government or pooled financing schemes, the cost 
+of care falls directly on households — pushing families into poverty and deterring people
 from seeking treatment altogether. Similarly, how spending is allocated across health care functions matters: countries
 that invest adequately in preventive care tend to achieve better population health outcomes at lower long-term cost, yet
-globally, curative care dominates health budgets while prevention receives a small and often fragile share of spending.
+globally, curative care dominates health budgets while prevention receives a smaller and often fragile share of spending.
 
 
 The three datasets cover aggregate health spending by source, financing scheme breakdowns, and spending
@@ -42,6 +43,10 @@ visualisations that illustrate what can be explored with these datasets:
 Some questions to explore:
 
 - Which countries rely most heavily on out-of-pocket payments for health care?
-- How has the balance between government and private health spending changed over time?
+- How has the balance between government, private, and external aid changed over time?
 - What is the split between curative and preventive care spending across countries?
 - How did the COVID-19 pandemic impact health spending patterns?
+
+These datasets are not comprehensive of all the data available from the Global Health Expenditure Database. To explore
+more data try out [ONE's health financing agent](https://data.one.org/tools/agents/health-financing), 
+the [`bblocks` python package](https://github.com/ONEcampaign/bblocks_data_importers), or visit the [GHED](https://apps.who.int/nha/database/) portal directly!
