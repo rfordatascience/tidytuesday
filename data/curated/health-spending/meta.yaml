@@ -1,7 +1,7 @@
-title: "Global Health Financing"
+title: "Global Health Spending"
 article:
-  title: "Health Financing Agent"
-  url: "https://data.one.org/tools/agents/health-financing"
+  title: "Out-of-Pocket Health Burden Remains High"
+  url: "https://data.one.org/analysis/out-of-pocket-health-burden"
 data_source:
   title: "WHO Global Health Expenditure Database (GHED)"
   url: "https://apps.who.int/nha/database"
@@ -21,3 +21,4 @@ images:
 credit:
   post: "Luca Picci; ONE Data"
   github: https://github.com/lpicci96
+  linkedin: https://www.linkedin.com/in/luca-picci-589735b3/
