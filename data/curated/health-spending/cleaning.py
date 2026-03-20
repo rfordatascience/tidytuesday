@@ -1,7 +1,7 @@
 """Clean data from the WHO Global Health Expenditure Database (GHED).
 
-Uses the bblocks-data-importers package.
-Python dependencies: see requirements.txt (pip install -r requirements.txt)
+Python dependencies: bblocks-data-importers, pandas.
+Install with: pip install bblocks-data-importers pandas
 """
 
 from __future__ import annotations
