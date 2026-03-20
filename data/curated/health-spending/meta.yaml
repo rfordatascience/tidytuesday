@@ -8,19 +8,16 @@ data_source:
 images:
 - file: health_spending_charts.png
   alt: >
-    A collage of five charts exploring global health expenditure using data
+    A collage of four charts exploring global health expenditure using data
     from the Global Health Expenditure Database (GHED). Top left: a Voronoi
     treemap of total global health care spending broken down by country, 
     dominated by high income countries. Top right:
-    a bubble chart showing many African countries fall short of the $86 per
-    capita and 5% of GDP health spending targets. Center: a small-multiples
-    line chart showing out-of-pocket payments as a share of health
-    spending are declining across all income groups, but remain high in many
-    countries. Bottom left: a scatter plot with LOESS curves showing curative
-    spending rises with income while preventive spending gets squeezed. Bottom
-    right: a line chart showing Africa's median domestic government health
-    spending has stalled around 6% of total government expenditure, well below
-    the 15% Abuja Declaration target.
+    a small-multiples line chart showing out-of-pocket payments as a share of
+    health spending are declining across all income groups, but remain high in
+    many countries. Bottom left: a bubble chart showing many African countries
+    fall short of the $86 per capita and 5% of GDP health spending targets.
+    Bottom right: a scatter plot with LOESS curves showing curative spending
+    rises with income while preventive spending gets squeezed.
 credit:
   post: "Luca Picci; ONE Data"
   github: https://github.com/lpicci96
