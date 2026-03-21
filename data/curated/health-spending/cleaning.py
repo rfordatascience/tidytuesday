@@ -87,12 +87,18 @@ def _expand_indicators(prefixes: list[str]) -> list[str]:
     return [f"{prefix}{suffix}" for prefix in prefixes for suffix in UNIT_SUFFIXES]
 
 
-def build_dataset(df: pd.DataFrame, prefixes: list[str]) -> pd.DataFrame:
+def build_dataset(
+    df: pd.DataFrame,
+    prefixes: list[str],
+    *,
+    name_column: str = "indicator_name",
+) -> pd.DataFrame:
     """Filter data for given indicator prefixes, apply clean units, return tidy long format.
 
     Args:
         df: Full GHED dataframe.
         prefixes: Indicator code prefixes (e.g. ["hc1", "hc2"]).
+        name_column: Name for the indicator_name column in the output.
 
     Returns:
         Cleaned dataframe with standardised columns and units.
@@ -107,7 +113,12 @@ def build_dataset(df: pd.DataFrame, prefixes: list[str]) -> pd.DataFrame:
     subset["value"] = subset["value"].clip(lower=0)
     # Apply clean unit labels
     subset["unit"] = subset["indicator_code"].map(_clean_unit)
-    subset = subset[COLUMNS].dropna(subset=["value"])
+    subset["indicator_name"] = subset["indicator_name"].str.replace(
+        r"[, ]+(?:in (?:million|thousand) |as %[ ]?(?:of )?).*$", "", regex=True
+    )
+    subset = subset.rename(columns={"indicator_name": name_column})
+    columns = [name_column if c == "indicator_name" else c for c in COLUMNS]
+    subset = subset[columns].dropna(subset=["value"])
     return subset.sort_values(
         ["country_name", "year", "indicator_code"]
     ).reset_index(drop=True)
@@ -121,9 +132,9 @@ def main() -> None:
     data = ghed.get_data()
 
     datasets: dict[str, pd.DataFrame] = {
-        "health_spending": build_dataset(data, HEALTH_SPENDING_INDICATORS),
-        "financing_schemes": build_dataset(data, FINANCING_SCHEMES_INDICATORS),
-        "spending_purpose": build_dataset(data, SPENDING_PURPOSE_INDICATORS),
+        "health_spending": build_dataset(data, HEALTH_SPENDING_INDICATORS, name_column="expenditure_type"),
+        "financing_schemes": build_dataset(data, FINANCING_SCHEMES_INDICATORS, name_column="financing_scheme"),
+        "spending_purpose": build_dataset(data, SPENDING_PURPOSE_INDICATORS, name_column="spending_purpose"),
     }
 
     for name, df in datasets.items():
