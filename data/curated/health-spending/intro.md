@@ -1,21 +1,19 @@
-This week we're exploring global health spending data from the [WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database).
+This week we're exploring global health spending data. The
+[WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database)
+provides comparable data on health expenditure for 195 countries and territories since 2000.
 
-How countries fund their health systems and what they prioritise is a critical determinant of health outcomes. 
-Global health spending has grown substantially over the past two decades, but remains deeply unequal: high-income countries 
-account for the vast majority of spending, and many low-income countries struggle to meet basic health needs.
-
-How much countries spend on health care is only part of the story. What they spend on, and how they finance it, also 
-matters. When health systems rely heavily on out-of-pocket payments rather than pooled financing arrangements, 
-the cost of care falls directly on households. Similarly, how spending is allocated across health care functions
-matters: countries that invest adequately in preventive care tend to achieve better population health outcomes at lower 
-long-term cost, yet globally, curative care dominates health budgets while prevention receives a smaller and often 
-fragile share of spending.
+The data tracks how much countries spend on health care, where the money comes from (government, private,
+or external sources), how it is channelled through financing schemes (e.g. government programmes, 
+voluntary insurance, out-of-pocket payments), and what it is spent on (e.g. curative care, 
+preventive care, medical goods). How health systems are funded and how resources are allocated directly 
+shapes health outcomes, progress toward universal health coverage, and whether households face financial 
+hardship when accessing care. These indicators are essential to inform health policy decisions.
 
 The data is organised into three datasets:
 
-- **`health_spending`** — Aggregate health spending and its breakdown by funding source. Current health expenditure (CHE) is the total, split into three mutually exclusive sources: domestic government spending (GGHE-D), domestic private spending (PVT-D), and external aid (EXT). Together, `gghed + pvtd + ext = che`.
-- **`financing_schemes`** — Health spending by financing scheme: government schemes, voluntary payment schemes, household out-of-pocket payments, rest of the world, and unspecified.
-- **`spending_purpose`** — Health spending by health care function: curative care, rehabilitative care, long-term care, ancillary services, medical goods, preventive care, governance and administration, and other services.
+- **`health_spending`** — Aggregate health spending and its breakdown by funding source (domestic government, domestic private, and external aid).
+- **`financing_schemes`** — Health spending by financing scheme (e.g. government schemes, voluntary insurance, out-of-pocket payments).
+- **`spending_purpose`** — Health spending by health care function (e.g. curative care, preventive care, medical goods).
 
 Some questions to explore:
 
@@ -25,4 +23,11 @@ Some questions to explore:
 - How did the COVID-19 pandemic impact health spending patterns?
 
 Visit the [GHED portal](https://apps.who.int/nha/database/) or use the open-source [`bblocks-data-importers` Python package](https://github.com/ONEcampaign/bblocks_data_importers)
-for additional indicators and data beyond what is included here, or explore related analyses at [ONE Data](https://data.one.org).
+for additional indicators and data beyond what is included here.
+
+See example visualisations using the same underlying data:
+
+- [Health care spending is not evenly distributed](https://data.one.org/analysis/health-spending-inequality)
+- [The hidden fragility of preventive health spending](https://data.one.org/analysis/hidden-fragility-of-prevention-spending)
+- [Africa falls short on health spending](https://data.one.org/analysis/african_gov_health-spending-off-track)
+- [A turning point in health financing](https://data.one.org/analysis/turning-point-in-health-financing)
