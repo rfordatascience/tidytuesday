@@ -9,7 +9,7 @@ This is part of a potential series of US tariff datasets exploring different sec
 * Do products with higher MFN rates tend to have more preferential trade agreements?
 * How have NAFTA/USMCA rates evolved from the 1990s to today?
 
-This submission was generated with the help of Claude Sonnet 4.5 via Posit Assistant (in private beta at the time of this submission). [Learn more about Posit Assistant and sign up](https://posit.co/products/ai/).
+This submission was generated with the help of Claude Sonnet 4.5 via Posit Assistant (in private beta at the time of this submission, but now available to everyone). [Learn more about Posit Assistant and sign up](https://posit.co/products/ai/).
 
 Code for the plot:
 
