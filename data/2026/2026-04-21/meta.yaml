@@ -6,11 +6,11 @@ data_source:
   title: "WHO Global Health Expenditure Database (GHED)"
   url: "https://apps.who.int/nha/database"
 images:
-- file: health_spending_charts.png
+- file: "health_spending_charts.png"
   alt: >
     A collage of four charts exploring global health expenditure using data
     from the Global Health Expenditure Database (GHED). Top left: a Voronoi
-    treemap of total global health care spending broken down by country, 
+    treemap of total global health care spending broken down by country,
     dominated by high income countries. Top right:
     a small-multiples line chart showing out-of-pocket payments as a share of
     health spending are declining across all income groups, but remain high in
@@ -20,5 +20,5 @@ images:
     rises with income while preventive spending gets squeezed.
 credit:
   post: "Luca Picci; ONE Data"
-  github: https://github.com/lpicci96
-  linkedin: https://www.linkedin.com/in/luca-picci-589735b3/
+  github: "https://github.com/lpicci96"
+  linkedin: "https://www.linkedin.com/in/luca-picci-589735b3/"

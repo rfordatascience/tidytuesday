@@ -7,3 +7,4 @@
 |financing_scheme |character |Health care financing scheme. |
 |value |double |Indicator value in the unit specified. |
 |unit |character |Unit of measurement: <code>% of current health expenditure</code> or <code>constant 2023 US$</code>. |
+
