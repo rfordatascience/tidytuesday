@@ -31,3 +31,5 @@ See example visualisations using the same underlying data:
 - [The hidden fragility of preventive health spending](https://data.one.org/analysis/hidden-fragility-of-prevention-spending)
 - [Africa falls short on health spending](https://data.one.org/analysis/african_gov_health-spending-off-track)
 - [A turning point in health financing](https://data.one.org/analysis/turning-point-in-health-financing)
+
+The data was processed using [ONE Data](https://data.one.org)'s open-source [`bblocks-data-importers` Python package](https://github.com/ONEcampaign/bblocks_data_importers), and can also be explored interactively through the [Health Financing Agent](https://data.one.org/tools/agents/health-financing).
