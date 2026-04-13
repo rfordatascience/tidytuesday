@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -74,10 +74,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b933da61422079644513f618cd81c344.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d22b584035f135c269abed1b239a31db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#repair-cafes-worldwide" id="toc-repair-cafes-worldwide" class="nav-link active" data-scroll-target="#repair-cafes-worldwide">Repair Cafes Worldwide</a>
+  <li><a href="#bird-sightings-at-sea" id="toc-bird-sightings-at-sea" class="nav-link active" data-scroll-target="#bird-sightings-at-sea">Bird Sightings at Sea</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,8 +239,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#repairs.csv" id="toc-repairs.csv" class="nav-link" data-scroll-target="#repairs.csv"><code>repairs.csv</code></a></li>
-  <li><a href="#repairs_text.csv" id="toc-repairs_text.csv" class="nav-link" data-scroll-target="#repairs_text.csv"><code>repairs_text.csv</code></a></li>
+  <li><a href="#beaufort_scale.csv" id="toc-beaufort_scale.csv" class="nav-link" data-scroll-target="#beaufort_scale.csv"><code>beaufort_scale.csv</code></a></li>
+  <li><a href="#birds.csv" id="toc-birds.csv" class="nav-link" data-scroll-target="#birds.csv"><code>birds.csv</code></a></li>
+  <li><a href="#sea_states.csv" id="toc-sea_states.csv" class="nav-link" data-scroll-target="#sea_states.csv"><code>sea_states.csv</code></a></li>
+  <li><a href="#ships.csv" id="toc-ships.csv" class="nav-link" data-scroll-target="#ships.csv"><code>ships.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -253,37 +255,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="repair-cafes-worldwide" class="level1">
-<h1>Repair Cafes Worldwide</h1>
-<p>The dataset this week comes from the <a href="https://dashboard.repairmonitor.org/?language=en">Repair Monitor</a>, which has been compiling data from Repair Cafes worldwide since 2015. Repair Cafe branches bring together volunteer fixers to help people learn how to repair household items that are broken.</p>
-<p>Note: There appears to be some uncertainty (by submitters to the source data) of what to put in <code>repair_info_source</code> and <code>repair_info_url</code>. We included the questions for these fields to aid in the interpretation of the data.</p>
+<section id="bird-sightings-at-sea" class="level1">
+<h1>Bird Sightings at Sea</h1>
+<p>This week we’re exploring Bird Sightings at Sea! The data this week comes from Te Papa Tongarewa, The Museum of New Zealand. It consists of log book entries of bird sightings at sea near New Zealand, from 1969 to 1990.</p>
+<p>Thank you to <a href="https://bsky.app/profile/thoughtfulnz.bsky.social">David Hood</a> for the <a href="https://bsky.app/profile/thoughtfulnz.bsky.social/post/3mdp6dzuaks2d">dataset suggestion</a>.</p>
 <blockquote class="blockquote">
-<p>As carbon-hungry consumer production and its subsequent waste surge to all-time highs, experts say that the concept can help curb pollution while promoting a more circular economy.</p>
+<p>The data was recorded using guidelines for the Australasian Seabird Mapping Scheme and counts seabirds seen from a ship during a 10 minute period. The data includes geolocations of the sightings, bird species, numbers and behaviour, observer and ship name, and observation date and time.</p>
 </blockquote>
 <ul>
-<li>What kinds of items are most easily repaired?</li>
-<li>What are the most common reasons that items can’t be repaired?</li>
-<li>Which countries have seen the most growth in Repair Cafe branches?</li>
-<li>Is GenAI becoming more popular than YouTube as a source of useful information for repairers?</li>
+<li>The data was recorded by hand and split into standardized columns. Do the logbook entries in <code>species_common_name</code> in the <code>birds</code> dataset always match up with the split columns such as <code>species_scientific_name</code>, <code>age</code>, <code>wan_plumage_phase</code>, <code>plumage_phase</code>, and <code>sex</code>.</li>
 </ul>
-<p>Thank you to <a href="https://github.com/jenrichmond">Jen Richmond</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-04-07'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-04-14'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">14</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">15</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>repairs <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>repairs</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>repairs_text</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>beaufort_scale</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>birds</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>sea_states <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>sea_states</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>ships <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>ships</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>repairs <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs_text.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/beaufort_scale.csv'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/birds.csv'</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>sea_states <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/sea_states.csv'</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>ships <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/ships.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -291,12 +294,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-04-07'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-04-14'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>repairs <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs_text.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/beaufort_scale.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>birds <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/birds.csv'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>sea_states <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/sea_states.csv'</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>ships <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/ships.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -304,16 +309,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-04-07"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-04-14"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>repairs <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs_text.csv"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>repairs <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs_text.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/beaufort_scale.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>birds <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/birds.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>sea_states <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/sea_states.csv"</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>ships <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/ships.csv"</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/beaufort_scale.csv"</span>, DataFrame)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>birds <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/birds.csv"</span>, DataFrame)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>sea_states <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/sea_states.csv"</span>, DataFrame)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>ships <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/ships.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -334,13 +343,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="repairs.csv" class="level3">
-<h3 class="anchored" data-anchor-id="repairs.csv"><code>repairs.csv</code></h3>
+<section id="beaufort_scale.csv" class="level3">
+<h3 class="anchored" data-anchor-id="beaufort_scale.csv"><code>beaufort_scale.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 30%">
-<col style="width: 10%">
-<col style="width: 58%">
+<col style="width: 16%">
+<col style="width: 6%">
+<col style="width: 77%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -351,70 +360,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">repair_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Repair case ID number</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">repair_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Date</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">repair_cafe_number</td>
+<td style="text-align: left;">wind_speed_class</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Repair cafe branch number</td>
+<td style="text-align: left;">Beaufort scale class (0–12), corresponding to <code>ships$wind_speed_class</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">repair_cafe_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Repair cafe branch name</td>
+<td style="text-align: left;">wind_description</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Text description of the wind conditions, ordered from <code>"calm"</code> (class 0) to <code>"hurricane"</code> (class 12).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">country</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Country</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">kind_of_product</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Product type</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">category</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Product category</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">brand</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Product brand</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">estimated_year_of_production</td>
+<td style="text-align: left;">wind_speed_knots_min</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Estimated year of production</td>
+<td style="text-align: left;">Minimum wind speed in knots for this class.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">repaired</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Whether the product was repaired</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">repairability</td>
+<td style="text-align: left;">wind_speed_knots_max</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Rating of repair ease, from 1 (difficult) to 10 (easy)</td>
+<td style="text-align: left;">Maximum wind speed in knots for this class. <code>NA</code> for class 12 (hurricane), which has no upper bound.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="repairs_text.csv" class="level3">
-<h3 class="anchored" data-anchor-id="repairs_text.csv"><code>repairs_text.csv</code></h3>
+<section id="birds.csv" class="level3">
+<h3 class="anchored" data-anchor-id="birds.csv"><code>birds.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 24%">
-<col style="width: 11%">
-<col style="width: 63%">
+<col style="width: 8%">
+<col style="width: 3%">
+<col style="width: 88%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -425,64 +399,297 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">repair_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Repair case ID number</td>
+<td style="text-align: left;">bird_observation_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Identifier for this bird observation record, corresponding to the original record order in the source data.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">model</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Product model or serial number</td>
+<td style="text-align: left;">record_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Record identifier. Links to <code>ships$record_id</code>. One observation (record_id 1184009, bird_observation_id 974) has no corresponding ship record in the source data.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">defect_found</td>
+<td style="text-align: left;">species_common_name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Description of defect</td>
+<td style="text-align: left;">The original log entry as recorded in the source data. May encode species, age, sex, and plumage phase in a single string. <code>NA</code> indicates a census period with no birds recorded (converted from the sentinel value <code>"[NO BIRDS RECORDED]"</code> in the source data).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">problem_description</td>
+<td style="text-align: left;">species_scientific_name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Description of repair problem or probable cause</td>
+<td style="text-align: left;">Scientific name, derived from <code>species_common_name</code> by Te Papa staff. May represent a species aggregate if the log entry could not be identified to a single species.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">repair_method</td>
+<td style="text-align: left;">species_abbreviation</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Description of successful repair method</td>
+<td style="text-align: left;">Abbreviated species name (mostly the first three letters of the genus and species), derived from <code>species_common_name</code> by Te Papa staff.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">partial_repair_notes</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Description of partial repair method or advice</td>
+<td style="text-align: left;">age</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Age class, derived from <code>species_common_name</code>. One of <code>"juvenile"</code>, <code>"immature"</code>, <code>"subadult"</code>, or <code>"adult"</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">failure_reasons</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Reason(s) repair was not completed (list)</td>
+<td style="text-align: left;">wan_plumage_phase</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Wandering albatross plumage phase, derived from <code>species_common_name</code>. One of <code>"all brown"</code>, <code>"brown plumage breaking"</code>, <code>"white patch on wing"</code>, <code>"wing patch breaking"</code>, or <code>"white"</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">failure_reason_open</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Reason repair was not completed (open answer)</td>
+<td style="text-align: left;">plumage_phase</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Plumage phase for species other than wandering albatross, derived from <code>species_common_name</code>. One of <code>"dark"</code>, <code>"intermediate"</code>, <code>"light"</code>, or <code>"white"</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">used_repair_info</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Whether repair information was consulted</td>
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Sex, derived from <code>species_common_name</code>. One of <code>"female"</code> or <code>"male"</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">repair_info_source</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">“Where did this information come from?”</td>
+<td style="text-align: left;">count</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total number of birds counted in this observation. <code>99999</code> is used for counts estimated to be over 100,000.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">repair_info_url</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">“Source repair information (url website)”</td>
+<td style="text-align: left;">n_feeding</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds observed feeding (unspecified whether actively or passively). <code>99999</code> is used for counts estimated to be over 100,000.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">suggestions</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Advice for other repairers of similar products</td>
+<td style="text-align: left;">feeding</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were observed feeding.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_sitting_on_water</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds sitting on water.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sitting_on_water</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were sitting on water.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_sitting_on_ice</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds sitting on ice.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sitting_on_ice</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were sitting on ice.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sitting_on_ship</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were sitting on the ship.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">in_hand</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were held in hand (i.e., captured).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_flying_past</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds flying past. <code>99999</code> is used for counts estimated to be over 100,000.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">flying_past</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were flying past.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_accompanying</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds accompanying the ship (flying alongside).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">accompanying</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were accompanying the ship.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_following_ship</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of birds following the ship’s wake.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">following_ship</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were following the ship’s wake.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">moulting</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were observed moulting.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">naturally_feeding</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether any birds were naturally feeding (i.e., not feeding on ship discards).</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sea_states.csv" class="level3">
+<h3 class="anchored" data-anchor-id="sea_states.csv"><code>sea_states.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 5%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">sea_state_class</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Sea state class (0–6), corresponding to <code>ships$sea_state_class</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sea_state_description</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Text description of the sea state, ordered from <code>"calm, glassy"</code> (class 0) to <code>"very rough"</code> (class 6).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">wave_meters_min</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Minimum wave height in meters for this class.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wave_meters_max</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Maximum wave height in meters for this class.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ships.csv" class="level3">
+<h3 class="anchored" data-anchor-id="ships.csv"><code>ships.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 13%">
+<col style="width: 52%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">record_id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Record identifier. Links to <code>birds$record_id</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Observation date.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">time</td>
+<td style="text-align: left;">time</td>
+<td style="text-align: left;">Local time at the start of the 10-minute count.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">latitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Decimal latitude (negative values indicate southern hemisphere).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">longitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Decimal longitude.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hemisphere</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">East/West hemisphere: <code>"E"</code> or <code>"W"</code>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">activity</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Ship activity during the count period. One of <code>"steaming, sailing"</code>, <code>"dropping trash"</code>, <code>"trawling"</code>, <code>"oceanography"</code>, <code>"potting"</code>, <code>"line fishing"</code>, <code>"cleaning fish"</code>, <code>"stationary"</code>, <code>"flying helicopters"</code>, or <code>"whaling"</code>. Recoded from numeric codes 1–10 in the source data.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">speed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Ship speed in knots.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">direction</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Ship direction in degrees.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cloud_cover</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Cloud cover: <code>"clear"</code>, <code>"partially cloudy"</code>, or <code>"overcast"</code>. Recoded from codes 0–2 in the source data.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">precipitation</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Precipitation type: <code>"none"</code>, <code>"squalls"</code>, <code>"fog"</code>, <code>"drizzle"</code>, <code>"rain"</code>, <code>"showers"</code>, <code>"snow showers"</code>, or <code>"continuous snow"</code>. Recoded from numeric codes in the source data.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wind_speed_class</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Wind speed on the Beaufort scale (0–12). Join to [beaufort_scale] for descriptions and knot ranges.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">wind_direction</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Wind direction in degrees.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">air_temperature</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Air temperature in degrees Celsius.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pressure</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Atmospheric sea-level pressure in millibars.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sea_state_class</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Sea state class (0–6). Join to [sea_states] for descriptions and wave height ranges.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sea_surface_temperature</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Sea surface temperature in degrees Celsius.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">depth</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Sea floor depth in meters.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">observer</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">Name of the observer, decoded from a 4-letter code in the source data.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">census_method</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Count method: <code>"partial"</code> indicates a count lasting less than 10 minutes or a casual observation; <code>"full"</code> indicates a complete 10-minute count. Recoded from <code>"P"</code> and <code>"F"</code> in the source data.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">season</td>
+<td style="text-align: left;">ordered</td>
+<td style="text-align: left;">Southern hemisphere season: <code>"summer"</code>, <code>"autumn"</code>, <code>"winter"</code>, or <code>"spring"</code>. Recorded directly in the source data (but likely derived rather than being entered directly in the log book data).</td>
 </tr>
 </tbody>
 </table>
@@ -490,60 +697,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data downloaded from https://dashboard.repairmonitor.org/?language=en as</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># "repairs-en.xlsx". Cleaning applied to fix variable names and data types.</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Update this to point to your downloaded file.</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>repairs_xlsx_file <span class="ot">&lt;-</span> <span class="st">"repairs-en.xlsx"</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>repairs_all <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_xlsx</span>(repairs_xlsx_file, <span class="at">col_types =</span> <span class="st">"text"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">model =</span> model_type_number_and_or_serial_number,</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">problem_description =</span> problem_description_probable_cause,</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">repaired =</span> has_the_product_been_repaired,</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">repair_method =</span> if_yes_what_did_you_do_to_repair_it,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">partial_repair_notes =</span> if_half_repaired_what_did_you_do_what_advice_did_you_give,</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">failure_reasons =</span> if_not_repaired_why_could_you_not_repair_it_list,</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">failure_reason_open =</span> if_not_repaired_why_could_you_not_repair_it_open_answer,</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">repairability =</span> reparability_of_product_1_difficult_10_easy,</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">used_repair_info =</span> did_you_use_repair_information,</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">repair_info_source =</span> where_did_this_information_come_from,</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">repair_info_url =</span> source_repair_information_url_website,</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">suggestions =</span> do_you_have_any_suggestions_for_other_repairers_of_this_or_similar_product</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">repair_date =</span> <span class="fu">ymd</span>(repair_date),</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">repair_cafe_number =</span> <span class="fu">as.integer</span>(repair_cafe_number),</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">estimated_year_of_production =</span> <span class="fu">as.integer</span>(estimated_year_of_production),</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">repairability =</span> <span class="fu">as.integer</span>(repairability)</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Split off detail/free-text columns to keep repairs.csv under 20 MB.</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>repairs_text_cols <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>  <span class="st">"model"</span>,</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  <span class="st">"defect_found"</span>,</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  <span class="st">"problem_description"</span>,</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  <span class="st">"repair_method"</span>,</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>  <span class="st">"partial_repair_notes"</span>,</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>  <span class="st">"failure_reasons"</span>,</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  <span class="st">"failure_reason_open"</span>,</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="st">"used_repair_info"</span>,</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  <span class="st">"repair_info_source"</span>,</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>  <span class="st">"repair_info_url"</span>,</span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>  <span class="st">"suggestions"</span></span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>repairs <span class="ot">&lt;-</span> dplyr<span class="sc">::</span><span class="fu">select</span>(repairs_all, <span class="sc">-</span>tidyselect<span class="sc">::</span><span class="fu">all_of</span>(repairs_text_cols))</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>repairs_text <span class="ot">&lt;-</span> dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>  repairs_all,</span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>  repair_id,</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  tidyselect<span class="sc">::</span><span class="fu">all_of</span>(repairs_text_cols)</span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by the seabirddata package</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># (https://jonthegeek.github.io/seabirddata/index.html). Full cleaning scripts</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># are available on GitHub at</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># https://github.com/jonthegeek/seabirddata/blob/main/data-raw/</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>beaufort_scale <span class="ot">&lt;-</span> seabirddata<span class="sc">::</span>beaufort_scale</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> seabirddata<span class="sc">::</span>birds</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>ships <span class="ot">&lt;-</span> seabirddata<span class="sc">::</span>ships</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>sea_states <span class="ot">&lt;-</span> seabirddata<span class="sc">::</span>sea_states</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
