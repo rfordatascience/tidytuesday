@@ -93,13 +93,14 @@ read_tariff_year <- function(year, cache_dir) {
   return(data)
 }
 
-# Setup cache directory. Hard-code the path so we use the same dir if we rerun.
+# Setup cache directory. Hard-code the subdir path so we use the same dir if we rerun in the same session.
 cache_dir <- fs::path(tempdir(), "tariff_cache")
 on.exit(unlink(cache_dir), add = TRUE)
 fs::dir_create(cache_dir, recurse = TRUE)
 
 years <- 1997:2025
 
+# We assign this to zip_files for debugging, but don't actually use that object in the code.
 zip_files <- purrr::map(
   years,
   download_tariff_year,
