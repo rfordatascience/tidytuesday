@@ -55,6 +55,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   14|2026-04-07 |[Repair Cafes Worldwide](data/2026/2026-04-07/readme.md)|[Repair Monitor](https://dashboard.repairmonitor.org/?language=en)                                               |[A growing number of 'Repair Cafes' are popping up around the world to curb consumer waste](https://insideclimatenews.org/news/11112025/todays-climate-repair-cafe-consumer-waste/)|
 |   15|2026-04-14 |[Bird Sightings at Sea](data/2026/2026-04-14/readme.md)|[At-Sea Observations of Seabirds 1969 to 1990](https://catalogue.data.govt.nz/dataset/at-sea-observations-of-seabirds-1969-to-1990)|[At-Sea Observations of Seabirds 1969 to 1990, Tasman Sea, New Zealand and Australian waters](https://obis.org/dataset/29ea15ed-8f76-40ca-bd14-58c62e10b2ef)|
 |   16|2026-04-21 |[Global Health Spending](data/2026/2026-04-21/readme.md)|[WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database)                               |[Out-of-Pocket Health Burden Remains High](https://data.one.org/analysis/out-of-pocket-health-burden)|
+|   17|2026-04-28 |[US Agricultural Tariffs](data/2026/2026-04-28/readme.md)|[DataWeb: Annual Tariff Data](https://dataweb.usitc.gov/tariff/annual)                                           |[The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture](https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480)|
 
 ***  
 
