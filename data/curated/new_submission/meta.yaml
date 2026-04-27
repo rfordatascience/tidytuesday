@@ -1,0 +1,18 @@
+title: "Italian industrial production"
+article:
+  title: "History of Italian Industrial Data"
+  url: "https://seriestoriche.istat.it/fileadmin/documenti/14_History_Industry.pdf"
+data_source:
+  title: "Industrial production volume"
+  url: "https://seriestoriche.istat.it/index.php?id=1&no_cache=1&L=1&tx_usercento_centofe%5Bcategoria%5D=44&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=8a65478a9f8d5ddd079041fd1d696b05"
+images:
+# Please include at least one image, and up to three images
+- file: "chart.png"
+  alt: >
+    A line chart of Italian beer production between 1871 and 1985. The line is quite flat initially until around 1950 onwards where it increases dramatically.
+credit:
+  post: "Nicola Rennie"
+  github: "@nrennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@fosstodon.org/@nrennie"
