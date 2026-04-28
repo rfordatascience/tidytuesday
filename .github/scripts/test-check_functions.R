@@ -198,6 +198,36 @@ test_that("check_meta_yaml() errors when image exceeds Mastodon megapixel limit"
   expect_true(any(grepl("megapixels", result$errors)))
 })
 
+test_that("check_meta_yaml() errors when alt text exceeds 1000 characters", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  long_alt <- strrep("a", 1001)
+  writeLines(
+    paste0(
+      "title: 'Test'\ndata_source:\n  url: 'https://example.com'\n",
+      "images:\n  - file: 'image.png'\n    alt: '", long_alt, "'\n"
+    ),
+    fs::path(dir, "meta.yaml")
+  )
+  result <- check_meta_yaml(dir)
+  expect_true(any(grepl("alt text", result$errors, ignore.case = TRUE)))
+})
+
+test_that("check_meta_yaml() passes when alt text is exactly 1000 characters", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  exact_alt <- strrep("a", 1000)
+  writeLines(
+    paste0(
+      "title: 'Test'\ndata_source:\n  url: 'https://example.com'\n",
+      "images:\n  - file: 'image.png'\n    alt: '", exact_alt, "'\n"
+    ),
+    fs::path(dir, "meta.yaml")
+  )
+  result <- check_meta_yaml(dir)
+  expect_false(any(grepl("alt text", result$errors, ignore.case = TRUE)))
+})
+
 # write_report() -------------------------------------------------
 
 test_that("write_report() writes a passing report when there are no errors", {
