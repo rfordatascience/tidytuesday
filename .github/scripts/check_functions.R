@@ -389,7 +389,8 @@ check_meta_yaml <- function(submission_dir) {
   list(
     errors = c(
       .check_meta_urls(metadata),
-      .check_images(metadata$images, submission_dir)
+      .check_images(metadata$images, submission_dir),
+      .check_alt_text(metadata$images)
     ),
     info = .build_controversy_link(metadata$title)
   )
@@ -418,6 +419,30 @@ check_meta_yaml <- function(submission_dir) {
     return("'images' section is missing or malformed in meta.yaml.")
   }
   purrr::list_c(purrr::map(images, .check_image, submission_dir))
+}
+
+#' Check alt text length for all images listed in meta.yaml
+#'
+#' Mastodon requires alt text to be 1000 characters or fewer.
+#'
+#' @param images The `images` element from parsed meta.yaml metadata, or `NULL`.
+#' @returns A `character` vector of error strings, zero-length if all pass.
+#' @keywords internal
+.check_alt_text <- function(images) {
+  if (is.null(images) || !is.list(images)) {
+    return(character())
+  }
+  purrr::list_c(purrr::map(images, function(img_item) {
+    alt <- img_item$alt
+    if (!is.null(alt) && nchar(alt) > 1000) {
+      glue::glue(
+        "Alt text for '{img_item$file}' is {nchar(alt)} characters, ",
+        "which exceeds the Mastodon limit of 1000 characters."
+      )
+    } else {
+      character()
+    }
+  }))
 }
 
 #' Build a manual controversy check link for the report
