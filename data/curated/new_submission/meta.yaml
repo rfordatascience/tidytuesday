@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: "chart.png"
   alt: >
-    A line chart of Italian beer production between 1871 and 1985. The line is quite flat initially until around 1950 onwards where it increases dramatically.
+    A line chart titled Italian beer production increased dramatically between 1950 and 1980, showing Italian beer production between 1871 and 1985 in million hectolitres per year. The line is quite flat initially around 1 million hectolitres per year, until around 1950 onwards where it increases dramatically, reaching about 10 million hectolitres per year in 1985.
 credit:
   post: "Nicola Rennie"
   github: "@nrennie"

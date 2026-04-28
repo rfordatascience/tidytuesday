@@ -2,7 +2,6 @@
 |:----------------------------------|:------|:-------------------------------------|
 |Year                               |integer |Year. |
 |Ships_launched                     |integer |Number of ships launched. |
-|Ships_weight                       |integer |Tons of gross tonnage. |
 |Steam_and_electric_engine          |integer |Number of steam and electric engine rolling stock in the property of the Italian Railway Service. |
 |Rail_cars_and_electric_locomotives |integer |Number of rail cars and electric locomotives rolling stock in the property of the Italian Railway Service. |
 |Carriages_and_trailers             |integer |Number of carriages and trailers rolling stock in the property of the Italian Railway Service. |
