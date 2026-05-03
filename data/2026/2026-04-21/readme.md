@@ -121,10 +121,10 @@ spending_purpose = CSV.read("https://raw.githubusercontent.com/rfordatascience/t
 |country_name |character |Country or territory name as used by WHO. |
 |iso3_code |character |ISO 3166-1 alpha-3 country code. |
 |year |integer |Year of observation. |
-|indicator_code |character |GHED indicator code. Suffix indicates unit: <code>_che</code> = % of CHE, <code>_usd2023</code> = constant 2023 US$. <br><br>Indicators: <br><code>hf1</code> — Government schemes and compulsory contributory health care financing schemes. <br><code>hf2</code> — Voluntary health care payment schemes. <br><code>hf3</code> — Household out-of-pocket payments (OOPS). <br><code>hf4</code> — Rest of the world financing schemes (non-resident). <br><code>hfnec</code> — Unspecified financing schemes (n.e.c.). |
+|indicator_code |character |GHED indicator code. Suffix indicates unit: `_che` = % of CHE, `_usd2023` = constant 2023 US$. <br><br>Indicators: <br>`hf1` — Government schemes and compulsory contributory health care financing schemes. <br>`hf2` — Voluntary health care payment schemes. <br>`hf3` — Household out-of-pocket payments (OOPS). <br>`hf4` — Rest of the world financing schemes (non-resident). <br>`hfnec` — Unspecified financing schemes (n.e.c.). |
 |financing_scheme |character |Health care financing scheme. |
 |value |double |Indicator value in the unit specified. |
-|unit |character |Unit of measurement: <code>% of current health expenditure</code> or <code>constant 2023 US$</code>. |
+|unit |character |Unit of measurement: `% of current health expenditure` or `constant 2023 US$`. |
 
 ### `health_spending.csv`
 
@@ -133,10 +133,10 @@ spending_purpose = CSV.read("https://raw.githubusercontent.com/rfordatascience/t
 |country_name |character |Country or territory name as used by WHO. |
 |iso3_code |character |ISO 3166-1 alpha-3 country code. |
 |year |integer |Year of observation. |
-|indicator_code |character |GHED indicator code. Suffix indicates unit: <code>_che</code> = % of CHE, <code>_usd2023</code> = constant 2023 US$. <br><br>Indicators: <br><code>che</code> — Current health expenditure (total, only <code>_usd2023</code>). <br><code>gghed</code> — Domestic general government health expenditure (GGHE-D). <br><code>pvtd</code> — Domestic private health expenditure (PVT-D). <br><code>ext</code> — External health expenditure (EXT). |
+|indicator_code |character |GHED indicator code. Suffix indicates unit: `_che` = % of CHE, `_usd2023` = constant 2023 US$. <br><br>Indicators: <br>`che` — Current health expenditure (total, only `_usd2023`). <br>`gghed` — Domestic general government health expenditure (GGHE-D). <br>`pvtd` — Domestic private health expenditure (PVT-D). <br>`ext` — External health expenditure (EXT). |
 |expenditure_type |character |Type of health expenditure. |
 |value |double |Indicator value in the unit specified. |
-|unit |character |Unit of measurement: <code>% of current health expenditure</code> or <code>constant 2023 US$</code>. |
+|unit |character |Unit of measurement: `% of current health expenditure` or `constant 2023 US$`. |
 
 ### `spending_purpose.csv`
 
@@ -145,10 +145,10 @@ spending_purpose = CSV.read("https://raw.githubusercontent.com/rfordatascience/t
 |country_name |character |Country or territory name as used by WHO. |
 |iso3_code |character |ISO 3166-1 alpha-3 country code. |
 |year |integer |Year of observation. |
-|indicator_code |character |GHED indicator code. Suffix indicates unit: <code>_che</code> = % of CHE, <code>_usd2023</code> = constant 2023 US$. Data available from 2016 onwards. <br><br>Indicators: <br><code>hc1</code> — Curative care. <br><code>hc2</code> — Rehabilitative care. <br><code>hc3</code> — Long-term care (health). <br><code>hc4</code> — Ancillary services. <br><code>hc5</code> — Medical goods. <br><code>hc6</code> — Preventive care. <br><code>hc7</code> — Governance and health system administration. <br><code>hc9</code> — Other health care services (n.e.c.). |
+|indicator_code |character |GHED indicator code. Suffix indicates unit: `_che` = % of CHE, `_usd2023` = constant 2023 US$. Data available from 2016 onwards. <br><br>Indicators: <br>`hc1` — Curative care. <br>`hc2` — Rehabilitative care. <br>`hc3` — Long-term care (health). <br>`hc4` — Ancillary services. <br>`hc5` — Medical goods. <br>`hc6` — Preventive care. <br>`hc7` — Governance and health system administration. <br>`hc9` — Other health care services (n.e.c.). |
 |spending_purpose |character |Health care function or purpose of spending. |
 |value |double |Indicator value in the unit specified. |
-|unit |character |Unit of measurement: <code>% of current health expenditure</code> or <code>constant 2023 US$</code>. |
+|unit |character |Unit of measurement: `% of current health expenditure` or `constant 2023 US$`. |
 
 ## Cleaning Script
 
