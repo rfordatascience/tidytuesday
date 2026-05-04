@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: "map.png"
   alt: >
-    A screenshot of the twin cities explorer showing a minimalist world map. On the map points represent some cities, with lines connected the different cities indicating a link between them. The highlighted cities include Hamburg, Marseille, Tunis, Paris, and Dubai. Links from those cities are largely concentrated within Europe.
+    A screenshot of the twin cities explorer showing a minimalist world map. On the map points represent some cities, with lines connecting the different cities indicating a link between them. The highlighted cities include Hamburg, Marseille, Tunis, Paris, and Dubai. Links from those cities are largely concentrated within Europe.
 credit:
   post: "Nicola Rennie"
   github: "@nrennie"

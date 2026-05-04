@@ -1,4 +1,4 @@
-This week we're exploring data about links between cities! Twinned towns (also known as sister cities) are a form of legal or social agreement between two geographically and politically distinct localities for the purpose of promoting cultural and commercial ties. This dataset looks at links specifically between cities.
+This week we're exploring data about links between cities! Twinned towns (also known as sister cities) are a form of legal or social agreement between two geographically and politically distinct localities for the purpose of promoting cultural and commercial ties. This dataset looks at links specifically between cities, i.e. it does not include towns, villages or other geographic entities..
  
 Wikipedia states:
 
@@ -8,6 +8,6 @@ Wikipedia states:
 * Which city is the most connected?
 * Which countries are the most connected to each other?
 
-
+Thank you to @bothness for [curating the original dataset](https://bothness.github.io/twin-cities/) and [suggesting it on Bluesky](https://bsky.app/profile/bothness.bsky.social/post/3mkmroqdulk24)!
 
 
