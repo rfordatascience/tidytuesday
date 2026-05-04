@@ -57,6 +57,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   16|2026-04-21 |[Global Health Spending](data/2026/2026-04-21/readme.md)|[WHO Global Health Expenditure Database (GHED)](https://apps.who.int/nha/database)                               |[Out-of-Pocket Health Burden Remains High](https://data.one.org/analysis/out-of-pocket-health-burden)|
 |   17|2026-04-28 |[US Agricultural Tariffs](data/2026/2026-04-28/readme.md)|[DataWeb: Annual Tariff Data](https://dataweb.usitc.gov/tariff/annual)                                           |[The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture](https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480)|
 |   18|2026-05-05 |[Italian industrial production](data/2026/2026-05-05/readme.md)|[Industrial production volume](https://seriestoriche.istat.it/index.php?id=1&no_cache=1&L=1&tx_usercento_centofe%5Bcategoria%5D=44&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=8a65478a9f8d5ddd079041fd1d696b05)|[History of Italian Industrial Data](https://seriestoriche.istat.it/fileadmin/documenti/14_History_Industry.pdf)|
+|   19|2026-05-12 |[Twinned Cities](data/2026/2026-05-12/readme.md)  |[Wikidata Query Service](https://query.wikidata.org/)                                                            |[Twin Cities Explorer](https://bothness.github.io/twin-cities/)                             |
 
 ***  
 
