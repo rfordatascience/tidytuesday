@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#us-agricultural-tariffs" id="toc-us-agricultural-tariffs" class="nav-link active" data-scroll-target="#us-agricultural-tariffs">US Agricultural Tariffs</a>
+  <li><a href="#italian-industrial-production" id="toc-italian-industrial-production" class="nav-link active" data-scroll-target="#italian-industrial-production">Italian industrial production</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,10 +239,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#agreements.csv" id="toc-agreements.csv" class="nav-link" data-scroll-target="#agreements.csv"><code>agreements.csv</code></a></li>
-  <li><a href="#quantity_codes.csv" id="toc-quantity_codes.csv" class="nav-link" data-scroll-target="#quantity_codes.csv"><code>quantity_codes.csv</code></a></li>
-  <li><a href="#tariff_agricultural.csv" id="toc-tariff_agricultural.csv" class="nav-link" data-scroll-target="#tariff_agricultural.csv"><code>tariff_agricultural.csv</code></a></li>
-  <li><a href="#tariff_codes.csv" id="toc-tariff_codes.csv" class="nav-link" data-scroll-target="#tariff_codes.csv"><code>tariff_codes.csv</code></a></li>
+  <li><a href="#food_beverages.csv" id="toc-food_beverages.csv" class="nav-link" data-scroll-target="#food_beverages.csv"><code>food_beverages.csv</code></a></li>
+  <li><a href="#textiles.csv" id="toc-textiles.csv" class="nav-link" data-scroll-target="#textiles.csv"><code>textiles.csv</code></a></li>
+  <li><a href="#transport.csv" id="toc-transport.csv" class="nav-link" data-scroll-target="#transport.csv"><code>transport.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -255,204 +254,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="us-agricultural-tariffs" class="level1">
-<h1>US Agricultural Tariffs</h1>
-<p>This week we’re exploring US Agricultural Tariffs! The dataset comes from the <a href="https://dataweb.usitc.gov/tariff/annual">USITC Tariff Database</a>, which contains tariff rates for all products imported into the United States from 1997-2025. This week’s data focuses on agricultural and food products (HTS Chapters 1-24), covering everything from live animals to beverages.</p>
-<p>This is part of a potential series of US tariff datasets exploring different sectors of the Harmonized Tariff Schedule. The data includes Most Favored Nation (MFN) rates that apply to normal trade relations, as well as preferential rates under various trade agreements like NAFTA/USMCA, and individual bilateral agreements with countries like Chile, Australia, and Korea. Tariff rates can include both ad valorem (percentage-based) and specific (per-unit) components, and they can change multiple times within a year.</p>
+<section id="italian-industrial-production" class="level1">
+<h1>Italian industrial production</h1>
+<p><a href="https://www.istat.it/">ISTAT (Istituto nazionale di statistica / Italian National Institute of Statistics)</a> is the primary source of official statistics in Italy. They publish long-running time series data on industrial production of food and beverages, transport equipment, and textiles covering over 100 years.</p>
 <blockquote class="blockquote">
-<p>Welcome to the U.S. International Trade Commission. We’re an independent, nonpartisan, quasi-judicial federal agency that fulfills a range of trade-related mandates. We provide high-quality, leading-edge analysis of international trade issues to the President and the Congress. The Commission is a highly regarded forum for the adjudication of intellectual property and trade disputes.</p>
+<p>Information on the volumes of some industrial products has been also collected over time by public and private Institutions and published by Istat in the previous Sommari di statistiche storiche (Historical statistics summaries), for the period between 1861 to 1985. This information does not provide a coherent reconstruction of the development of the Italian industrial system; however, for the purposes of completing the historical overview of the statistics in the sector, this chapter does present some parts of the material collected over the years, with specific reference to the food, textiles and transport industries</p>
 </blockquote>
 <ul>
-<li>How do tariff rates for agricultural products compare between different trade agreements?</li>
-<li>Which products have seen the largest changes in MFN rates over time?</li>
-<li>Do products with higher MFN rates tend to have more preferential trade agreements?</li>
-<li>How have NAFTA/USMCA rates evolved from the 1990s to today?</li>
+<li>Which industries have increased production, and which have decreased?</li>
+<li>How has the average weight per ship changed over time?</li>
 </ul>
-<p>This submission was generated with the help of Claude Sonnet 4.5 via Posit Assistant (in private beta at the time of this submission, but now available to everyone). <a href="https://posit.co/products/ai/">Learn more about Posit Assistant and sign up</a>.</p>
-<p>Code for the plot:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(conflicted)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>conflicted<span class="sc">::</span><span class="fu">conflict_prefer_all</span>(<span class="st">"dplyr"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"tariff_agricultural.csv"</span>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>agreements <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"agreements.csv"</span>)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Add year columns for joining</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>tariff_with_years <span class="ot">&lt;-</span> tariff_agricultural <span class="sc">|&gt;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">begin_effective_year =</span> <span class="fu">year</span>(begin_effective_date),</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">end_effective_year =</span> <span class="fu">year</span>(end_effective_date)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Create all combinations of hts8-agreement pairs with years 2000-2024</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>tariff_hts_agreement <span class="ot">&lt;-</span> tariff_agricultural <span class="sc">|&gt;</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(hts8, agreement)</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>tariff_agricultural_years <span class="ot">&lt;-</span> tariff_hts_agreement <span class="sc">|&gt;</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">crossing</span>(<span class="at">year =</span> <span class="dv">2000</span><span class="sc">:</span><span class="dv">2024</span>)</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Join to get the rates that were in effect for each year</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>tariff_rates_by_year <span class="ot">&lt;-</span> tariff_agricultural_years <span class="sc">|&gt;</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    tariff_with_years,</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">join_by</span>(</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>      hts8,</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>      agreement,</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>      year <span class="sc">&gt;=</span> begin_effective_year,</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>      year <span class="sc">&lt;=</span> end_effective_year</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(ad_val_rate))</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove duplicates (rates that apply to same product-agreement-year)</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>tariff_rates_by_year_clean <span class="ot">&lt;-</span> tariff_rates_by_year <span class="sc">|&gt;</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(hts8, agreement, year, ad_val_rate, specific_rate)</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract HTS section from the first 2 digits of hts8</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>tariff_rates_with_section <span class="ot">&lt;-</span> tariff_rates_by_year_clean <span class="sc">|&gt;</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">hts_chapter =</span> <span class="fu">as.integer</span>(<span class="fu">substr</span>(hts8, <span class="dv">1</span>, <span class="dv">2</span>)),</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">section =</span> <span class="fu">case_when</span>(</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>      hts_chapter <span class="sc">&lt;=</span> <span class="dv">5</span> <span class="sc">~</span> <span class="st">"I. Live Animals &amp; Animal Products"</span>,</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>      hts_chapter <span class="sc">&lt;=</span> <span class="dv">14</span> <span class="sc">~</span> <span class="st">"II. Vegetable Products"</span>,</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      hts_chapter <span class="sc">&lt;=</span> <span class="dv">15</span> <span class="sc">~</span> <span class="st">"III. Animal/Vegetable Fats &amp; Oils"</span>,</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>      hts_chapter <span class="sc">&lt;=</span> <span class="dv">24</span> <span class="sc">~</span> <span class="st">"IV. Prepared Foodstuffs"</span>,</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"Other"</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>section_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>  <span class="st">"I. Live Animals &amp; Animal Products"</span> <span class="ot">=</span> <span class="st">"#D55E00"</span>,</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  <span class="st">"II. Vegetable Products"</span> <span class="ot">=</span> <span class="st">"#009E73"</span>,</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>  <span class="st">"III. Animal/Vegetable Fats &amp; Oils"</span> <span class="ot">=</span> <span class="st">"#CC79A7"</span>,</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>  <span class="st">"IV. Prepared Foodstuffs"</span> <span class="ot">=</span> <span class="st">"#0072B2"</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>mfn_by_section <span class="ot">&lt;-</span> tariff_rates_with_section <span class="sc">|&gt;</span></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter for reasonable percentage rates</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(ad_val_rate <span class="sc">&gt;</span> <span class="dv">0</span>, ad_val_rate <span class="sc">&lt;</span> <span class="dv">1</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(agreements, <span class="at">by =</span> <span class="st">"agreement"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(agreement_full <span class="sc">==</span> <span class="st">"Most Favored Nation (MFN)"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(year, section) <span class="sc">|&gt;</span></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    <span class="at">avg_rate =</span> <span class="fu">mean</span>(ad_val_rate, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_products =</span> <span class="fu">n</span>(),</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(n_products <span class="sc">&gt;=</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">section_label =</span> <span class="fu">case_when</span>(</span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>      section <span class="sc">==</span> <span class="st">"I. Live Animals &amp; Animal Products"</span> <span class="sc">~</span> </span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>        <span class="st">"&lt;span style='color:#D55E00'&gt;**I. Live Animals &amp; Animal Products**&lt;/span&gt;"</span>,</span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>      section <span class="sc">==</span> <span class="st">"II. Vegetable Products"</span> <span class="sc">~</span> </span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>        <span class="st">"&lt;span style='color:#009E73'&gt;**II. Vegetable Products**&lt;/span&gt;"</span>,</span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>      section <span class="sc">==</span> <span class="st">"III. Animal/Vegetable Fats &amp; Oils"</span> <span class="sc">~</span> </span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>        <span class="st">"&lt;span style='color:#CC79A7'&gt;**III. Animal/Vegetable Fats &amp; Oils**&lt;/span&gt;"</span>,</span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>      section <span class="sc">==</span> <span class="st">"IV. Prepared Foodstuffs"</span> <span class="sc">~</span> </span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>        <span class="st">"&lt;span style='color:#0072B2'&gt;**IV. Prepared Foodstuffs**&lt;/span&gt;"</span>,</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> section</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>    <span class="at">section_label =</span> <span class="fu">factor</span>(section_label, <span class="at">levels =</span> <span class="fu">c</span>(</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>      <span class="st">"&lt;span style='color:#D55E00'&gt;**I. Live Animals &amp; Animal Products**&lt;/span&gt;"</span>,</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>      <span class="st">"&lt;span style='color:#009E73'&gt;**II. Vegetable Products**&lt;/span&gt;"</span>,</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>      <span class="st">"&lt;span style='color:#CC79A7'&gt;**III. Animal/Vegetable Fats &amp; Oils**&lt;/span&gt;"</span>,</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>      <span class="st">"&lt;span style='color:#0072B2'&gt;**IV. Prepared Foodstuffs**&lt;/span&gt;"</span></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    ))</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>mfn_background <span class="ot">&lt;-</span> <span class="fu">select</span>(mfn_by_section, <span class="st">"year"</span>, <span class="st">"section"</span>, <span class="st">"avg_rate"</span>)</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">ggplot</span>() <span class="sc">+</span></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Background: all sections in grey</span></span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data =</span> mfn_background, </span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> avg_rate <span class="sc">*</span> <span class="dv">100</span>, <span class="at">group =</span> section),</span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">"grey70"</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Foreground: highlighted section with its color</span></span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data =</span> mfn_by_section,</span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> avg_rate <span class="sc">*</span> <span class="dv">100</span>, <span class="at">color =</span> section),</span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>            <span class="at">linewidth =</span> <span class="fl">1.2</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> mfn_by_section,</span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>             <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> avg_rate <span class="sc">*</span> <span class="dv">100</span>, <span class="at">color =</span> section),</span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>             <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> section_colors) <span class="sc">+</span></span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>section_label, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">2000</span>, <span class="dv">2024</span>, <span class="at">by =</span> <span class="dv">4</span>)) <span class="sc">+</span></span>
-<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">paste0</span>(x, <span class="st">"%"</span>)) <span class="sc">+</span></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"MFN tariff rates are highest for &lt;span style='color:#D55E00'&gt;**Live Animals &amp; Animal Products**&lt;/span&gt;"</span>,</span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Most Favored Nation rates by HTS section (2000-2024), with all sections shown in grey for comparison"</span>,</span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Average Tariff Rate"</span></span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_markdown</span>(<span class="at">size =</span> <span class="dv">14</span>),</span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),</span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_markdown</span>(<span class="at">size =</span> <span class="dv">9</span>)</span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>p</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Thank you to <a href="https://github.com/jonthegeek">Jon Harmon, Data Science Learning Community</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/nrennie">Nicola Rennie</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-05-05'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">18</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>food_beverages</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>textiles <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>textiles</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>transport <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>transport</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>textiles <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>transport <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/transport.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-04-28'</span>)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">17</span>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>agreements <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>agreements</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>quantity_codes</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>tariff_agricultural</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>tariff_codes</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>agreements <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/agreements.csv'</span>)</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/quantity_codes.csv'</span>)</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_agricultural.csv'</span>)</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_codes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-05-05'</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>textiles <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>transport <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/transport.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-04-28'</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-05-05"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>agreements <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/agreements.csv'</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/quantity_codes.csv'</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_agricultural.csv'</span>)</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_codes.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-04-28"</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>agreements <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/agreements.csv"</span>)</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/quantity_codes.csv"</span>)</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_agricultural.csv"</span>)</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_codes.csv"</span>)</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>agreements <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/agreements.csv"</span>, DataFrame)</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/quantity_codes.csv"</span>, DataFrame)</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_agricultural.csv"</span>, DataFrame)</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_codes.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>textiles <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>transport <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/transport.csv"</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv"</span>, DataFrame)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>textiles <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv"</span>, DataFrame)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>transport <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/transport.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -473,13 +337,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="agreements.csv" class="level3">
-<h3 class="anchored" data-anchor-id="agreements.csv"><code>agreements.csv</code></h3>
+<section id="food_beverages.csv" class="level3">
+<h3 class="anchored" data-anchor-id="food_beverages.csv"><code>food_beverages.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 15%">
-<col style="width: 59%">
+<col style="width: 28%">
+<col style="width: 11%">
+<col style="width: 60%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -490,30 +354,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">agreement</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Trade agreement or rate type code as used in the tariff datasets (e.g., “mfn”, “chile”, “cbi*“).</td>
+<td style="text-align: left;">Year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year. The figures for the years between 1871 and 1950 refer to the fiscal year, which does not necessarily coincide with the calendar year; in particular, for the years between 1931 to 1950 the fiscal year began on 1st July. From 1951 onwards, the figures refer to the calendar year.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">agreement_full</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Full name of the trade agreement or rate type.</td>
+<td style="text-align: left;">Sugar</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Sugar produced (tons)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">agreement_notes</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Additional notes about eligibility, restrictions, or program status. Common values: duty-free status, country-specific variations (e.g., “Canada” vs “Mexico” for NAFTA), “Plus rate” for enhanced benefits, or “Program expired” for discontinued programs.</td>
+<td style="text-align: left;">Glucose</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Glucose, maltose, invert sugar produced (quintals)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Coffee_substitute</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Coffee substitute produced (quintals)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Seed_oil</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Seed oil produced (quintals)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ethyl_alcohol_1</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Ethyl alcohol (1st category) produced (Ettanidro, 100 litres pure alcohol).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ethyl_alcohol_2</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Ethyl alcohol (2nd category) produced (Ettanidro, 100 litres pure alcohol).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Beer</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Beer produced (hectolitres)</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="quantity_codes.csv" class="level3">
-<h3 class="anchored" data-anchor-id="quantity_codes.csv"><code>quantity_codes.csv</code></h3>
+<section id="textiles.csv" class="level3">
+<h3 class="anchored" data-anchor-id="textiles.csv"><code>textiles.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 16%">
-<col style="width: 63%">
+<col style="width: 26%">
+<col style="width: 11%">
+<col style="width: 62%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -524,25 +413,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Unit of quantity code used in tariff schedules (e.g., KG, NO, M2).</td>
+<td style="text-align: left;">Year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">description</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Full description of the unit of measurement for the code.</td>
+<td style="text-align: left;">Cotton_yarn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Cotton yarn produced (tons).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flock_yarn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Flock cotton yarn produced (tons).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other_yarn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Other fibres and fibre blend cotton yarn produced (tons).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Total_yarn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total cotton yarn produced (tons).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cotton_textiles</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Cotton textiles produced (tons).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flock_textiles</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Flock cotton textiles produced (tons).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other_textiles</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Other fibres and fibre blend cotton textiles produced (tons).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Total_textiles</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Total cotton textiles produced (tons).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Raw_silk</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Raw silk produced (tons).</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="tariff_agricultural.csv" class="level3">
-<h3 class="anchored" data-anchor-id="tariff_agricultural.csv"><code>tariff_agricultural.csv</code></h3>
+<section id="transport.csv" class="level3">
+<h3 class="anchored" data-anchor-id="transport.csv"><code>transport.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 30%">
-<col style="width: 14%">
-<col style="width: 55%">
+<col style="width: 43%">
+<col style="width: 8%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -553,88 +482,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">hts8</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">8-digit Harmonized Tariff Schedule code (legal tariff line). Join with <code>tariff_codes</code> for product descriptions.</td>
+<td style="text-align: left;">Year</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Year.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">begin_effective_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Beginning effective date for tariff rate (rates can change mid-year).</td>
+<td style="text-align: left;">Ships_launched</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of ships launched.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">end_effective_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Ending effective date for tariff rate. Far-future dates (e.g., 2050-12-31, 2100-12-31) indicate no scheduled change.</td>
+<td style="text-align: left;">Ships_weight</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Tons of gross tonnage.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">agreement</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Trade agreement or rate type code. Join with <code>agreements</code> table for full names and notes. Asterisk (<code>*</code>) or plus (<code>+</code>) suffix indicates restrictions (e.g., <code>"cbi*"</code> = certain products/countries excluded).</td>
+<td style="text-align: left;">Steam_and_electric_engine</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of steam and electric engine rolling stock in the property of the Italian Railway Service.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">rate_type_code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Duty calculation method code. See https://www.usitc.gov/applications/dataweb/td-codes.pdf for details (0=free, 1-6=specific formulas, 7=ad valorem, 9=derived duty, K/X/T=see HTS).</td>
+<td style="text-align: left;">Rail_cars_and_electric_locomotives</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of rail cars and electric locomotives rolling stock in the property of the Italian Railway Service.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">ad_val_rate</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Ad valorem (percentage) portion of the duty rate (0.05 = 5%).</td>
+<td style="text-align: left;">Carriages_and_trailers</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of carriages and trailers rolling stock in the property of the Italian Railway Service.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">specific_rate</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Specific (per-unit) portion of the duty rate in dollars (0.05 = $0.05 per unit of quantity).</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="tariff_codes.csv" class="level3">
-<h3 class="anchored" data-anchor-id="tariff_codes.csv"><code>tariff_codes.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 13%">
-<col style="width: 52%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">earliest_effective_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Earliest effective date this HTS code/description combination appeared in the data.</td>
+<td style="text-align: left;">Mail_luggage_vans_and_carriages</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of mail luggage vans and carriages rolling stock in the property of the Italian Railway Service.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">hts8</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">8-digit Harmonized Tariff Schedule code (legal tariff line).</td>
+<td style="text-align: left;">Passenger_cars</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of passenger cars.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">description</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Abbreviated product description (max 150 characters, not legally binding).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">quantity_1_code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Primary unit of quantity code. See the <code>quantity_codes</code> dataset for descriptions.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">quantity_2_code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Secondary unit of quantity code if applicable. See the <code>quantity_codes</code> dataset for descriptions.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">wto_binding_code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">WTO tariff binding status (B=bound, U=unbound; C/P/V are undocumented, possibly typos).</td>
+<td style="text-align: left;">Other</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of other motor vehicles (e.g.&nbsp;lorries, vans and pick-ups, buses, trolleybuses, or special motor vehicles).</td>
 </tr>
 </tbody>
 </table>
@@ -642,385 +532,154 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(withr)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(curl)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(glue)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cli)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Setup ----</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a handle with user agent to avoid 403 errors</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>handle <span class="ot">&lt;-</span> curl<span class="sc">::</span><span class="fu">new_handle</span>()</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>curl<span class="sc">::</span><span class="fu">handle_setheaders</span>(</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  handle,</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">"User-Agent"</span> <span class="ot">=</span> <span class="st">"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to download one year of data</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>download_tariff_year <span class="ot">&lt;-</span> <span class="cf">function</span>(year, handle, cache_dir) {</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">&lt;-</span> glue<span class="sc">::</span><span class="fu">glue</span>(</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://www.usitc.gov/tariff_affairs/documents/tariff_data/tariff_data_{year}.zip"</span></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  zip_file <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">path</span>(cache_dir, glue<span class="sc">::</span><span class="fu">glue</span>(<span class="st">"tariff_data_{year}.zip"</span>))</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Only download if not already cached</span></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span>fs<span class="sc">::</span><span class="fu">file_exists</span>(zip_file)) {</span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    cli<span class="sc">::</span><span class="fu">cli_inform</span>(<span class="st">"Downloading year {year}..."</span>)</span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    curl<span class="sc">::</span><span class="fu">curl_download</span>(url, zip_file, <span class="at">handle =</span> handle)</span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(zip_file)</span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to read one year of data from downloaded file</span></span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>read_tariff_year <span class="ot">&lt;-</span> <span class="cf">function</span>(year, cache_dir) {</span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>  zip_file <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">path</span>(cache_dir, glue<span class="sc">::</span><span class="fu">glue</span>(<span class="st">"tariff_data_{year}.zip"</span>))</span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>  extract_dir <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">path</span>(cache_dir, glue<span class="sc">::</span><span class="fu">glue</span>(<span class="st">"extracted_{year}"</span>))</span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(extract_dir)) {</span>
-<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>    cli<span class="sc">::</span><span class="fu">cli_inform</span>(<span class="st">"Extracting year {year}..."</span>)</span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>    fs<span class="sc">::</span><span class="fu">dir_create</span>(extract_dir, <span class="at">recurse =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>    utils<span class="sc">::</span><span class="fu">unzip</span>(zip_file, <span class="at">exdir =</span> extract_dir)</span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  txt_file <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">dir_ls</span>(extract_dir, <span class="at">glob =</span> <span class="st">"*.txt"</span>)</span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(txt_file) <span class="sc">!=</span> <span class="dv">1</span>) {</span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>    cli<span class="sc">::</span><span class="fu">cli_abort</span>(<span class="st">"Year {year} has something wrong with its files."</span>)</span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>  cli<span class="sc">::</span><span class="fu">cli_inform</span>(<span class="st">"Fixing year {year}..."</span>)</span>
-<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Detect delimiter (some years use pipe, others use comma)</span></span>
-<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>  first_line <span class="ot">&lt;-</span> <span class="fu">readLines</span>(txt_file, <span class="at">n =</span> <span class="dv">1</span>)</span>
-<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>  delim <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(stringr<span class="sc">::</span><span class="fu">str_detect</span>(first_line, <span class="st">"</span><span class="sc">\\</span><span class="st">|"</span>), <span class="st">"|"</span>, <span class="st">","</span>)</span>
-<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>  expected_cols <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_count</span>(first_line, stringr<span class="sc">::</span><span class="fu">fixed</span>(delim)) <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Some files (e.g., 2011) have embedded newlines in text fields</span></span>
-<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Read all lines and fix malformed rows before parsing</span></span>
-<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>  all_lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(txt_file, <span class="at">encoding =</span> <span class="st">"latin1"</span>)</span>
-<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>  header <span class="ot">&lt;-</span> all_lines[[<span class="dv">1</span>]]</span>
-<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>  data_lines <span class="ot">&lt;-</span> all_lines[<span class="sc">-</span><span class="dv">1</span>]</span>
-<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fix rows that don't have the expected number of delimiters</span></span>
-<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>  <span class="co"># by joining them with the next row(s) until we have the right count</span></span>
-<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>  fixed_lines <span class="ot">&lt;-</span> <span class="fu">character</span>()</span>
-<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>  i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span> (i <span class="sc">&lt;=</span> <span class="fu">length</span>(data_lines)) {</span>
-<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>    current_line <span class="ot">&lt;-</span> data_lines[i]</span>
-<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>    delim_count <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_count</span>(current_line, stringr<span class="sc">::</span><span class="fu">fixed</span>(delim))</span>
-<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If line has too few delimiters, append next lines until we have enough</span></span>
-<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (delim_count <span class="sc">&lt;</span> (expected_cols <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">&amp;&amp;</span> (i <span class="sc">+</span> <span class="dv">1</span>) <span class="sc">&lt;=</span> <span class="fu">length</span>(data_lines)) {</span>
-<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>      i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>      current_line <span class="ot">&lt;-</span> <span class="fu">paste</span>(current_line, data_lines[i])</span>
-<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>      delim_count <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_count</span>(current_line, stringr<span class="sc">::</span><span class="fu">fixed</span>(delim))</span>
-<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>    fixed_lines <span class="ot">&lt;-</span> <span class="fu">c</span>(fixed_lines, current_line)</span>
-<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a>    i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Save it as a locally-temporary tempfile because we want to re-process if we</span></span>
-<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>  <span class="co"># change this function.</span></span>
-<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>  fixed_file <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempfile</span>(<span class="at">fileext =</span> <span class="st">".txt"</span>)</span>
-<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(<span class="fu">c</span>(header, fixed_lines), fixed_file)</span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>  cli<span class="sc">::</span><span class="fu">cli_inform</span>(<span class="st">"Reading year {year}..."</span>)</span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>  data <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_delim</span>(</span>
-<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a>    fixed_file,</span>
-<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a>    <span class="at">delim =</span> delim,</span>
-<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>    <span class="at">col_types =</span> readr<span class="sc">::</span><span class="fu">cols</span>(<span class="at">.default =</span> <span class="st">"c"</span>),</span>
-<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">show_col_types =</span> <span class="cn">FALSE</span></span>
-<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(data)</span>
-<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a><span class="co"># Setup cache directory. Hard-code the subdir path so we use the same dir if we rerun in the same session.</span></span>
-<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a>cache_dir <span class="ot">&lt;-</span> fs<span class="sc">::</span><span class="fu">path</span>(<span class="fu">tempdir</span>(), <span class="st">"tariff_cache"</span>)</span>
-<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a><span class="fu">on.exit</span>(<span class="fu">unlink</span>(cache_dir), <span class="at">add =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_create</span>(cache_dir, <span class="at">recurse =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="dv">1997</span><span class="sc">:</span><span class="dv">2025</span></span>
-<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a><span class="co"># We assign this to zip_files for debugging, but don't actually use that object in the code.</span></span>
-<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a>zip_files <span class="ot">&lt;-</span> purrr<span class="sc">::</span><span class="fu">map</span>(</span>
-<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a>  years,</span>
-<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a>  download_tariff_year,</span>
-<span id="cb5-107"><a href="#cb5-107" aria-hidden="true" tabindex="-1"></a>  <span class="at">handle =</span> handle,</span>
-<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>  <span class="at">cache_dir =</span> cache_dir</span>
-<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>tariff_raw <span class="ot">&lt;-</span> purrr<span class="sc">::</span><span class="fu">map_dfr</span>(</span>
-<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a>  years,</span>
-<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>  read_tariff_year,</span>
-<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a>  <span class="at">cache_dir =</span> cache_dir</span>
-<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert date columns after combining all years</span></span>
-<span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a><span class="co"># Handle both "MM/DD/YYYY HH:MM:SS" and "MM/DD/YYYY" formats</span></span>
-<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a>tariff_raw <span class="ot">&lt;-</span> tariff_raw <span class="sc">|&gt;</span></span>
-<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(</span>
-<span id="cb5-122"><a href="#cb5-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">begin_effective_date =</span> <span class="st">"begin_effect_date"</span></span>
-<span id="cb5-123"><a href="#cb5-123" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-124"><a href="#cb5-124" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb5-125"><a href="#cb5-125" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
-<span id="cb5-126"><a href="#cb5-126" aria-hidden="true" tabindex="-1"></a>      tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_effective_date"</span>),</span>
-<span id="cb5-127"><a href="#cb5-127" aria-hidden="true" tabindex="-1"></a>      \(date_col) {</span>
-<span id="cb5-128"><a href="#cb5-128" aria-hidden="true" tabindex="-1"></a>        stringr<span class="sc">::</span><span class="fu">str_extract</span>(date_col, <span class="st">"^</span><span class="sc">\\</span><span class="st">S+"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb5-129"><a href="#cb5-129" aria-hidden="true" tabindex="-1"></a>          lubridate<span class="sc">::</span><span class="fu">mdy</span>()</span>
-<span id="cb5-130"><a href="#cb5-130" aria-hidden="true" tabindex="-1"></a>      }</span>
-<span id="cb5-131"><a href="#cb5-131" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb5-132"><a href="#cb5-132" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-133"><a href="#cb5-133" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>()</span>
-<span id="cb5-134"><a href="#cb5-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-135"><a href="#cb5-135" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean and create tidy datasets</span></span>
-<span id="cb5-136"><a href="#cb5-136" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-137"><a href="#cb5-137" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 1: HTS Code lookup table ----</span></span>
-<span id="cb5-138"><a href="#cb5-138" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-139"><a href="#cb5-139" aria-hidden="true" tabindex="-1"></a><span class="co"># Contains product descriptions and units for each HTS code</span></span>
-<span id="cb5-140"><a href="#cb5-140" aria-hidden="true" tabindex="-1"></a>tariff_codes <span class="ot">&lt;-</span> tariff_raw <span class="sc">|&gt;</span></span>
-<span id="cb5-141"><a href="#cb5-141" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
-<span id="cb5-142"><a href="#cb5-142" aria-hidden="true" tabindex="-1"></a>    <span class="st">"begin_effective_date"</span>,</span>
-<span id="cb5-143"><a href="#cb5-143" aria-hidden="true" tabindex="-1"></a>    <span class="st">"hts8"</span>,</span>
-<span id="cb5-144"><a href="#cb5-144" aria-hidden="true" tabindex="-1"></a>    <span class="at">description =</span> <span class="st">"brief_description"</span>,</span>
-<span id="cb5-145"><a href="#cb5-145" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quantity_1_code"</span>,</span>
-<span id="cb5-146"><a href="#cb5-146" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quantity_2_code"</span>,</span>
-<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a>    <span class="st">"wto_binding_code"</span></span>
-<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">arrange</span>(.data<span class="sc">$</span>hts8, .data<span class="sc">$</span>begin_effective_date) <span class="sc">|&gt;</span></span>
-<span id="cb5-150"><a href="#cb5-150" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>(</span>
-<span id="cb5-151"><a href="#cb5-151" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>hts8,</span>
-<span id="cb5-152"><a href="#cb5-152" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>description,</span>
-<span id="cb5-153"><a href="#cb5-153" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>quantity_1_code,</span>
-<span id="cb5-154"><a href="#cb5-154" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>quantity_2_code,</span>
-<span id="cb5-155"><a href="#cb5-155" aria-hidden="true" tabindex="-1"></a>    .data<span class="sc">$</span>wto_binding_code,</span>
-<span id="cb5-156"><a href="#cb5-156" aria-hidden="true" tabindex="-1"></a>    <span class="at">.keep_all =</span> <span class="cn">TRUE</span></span>
-<span id="cb5-157"><a href="#cb5-157" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-158"><a href="#cb5-158" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(<span class="at">earliest_effective_date =</span> <span class="st">"begin_effective_date"</span>)</span>
-<span id="cb5-159"><a href="#cb5-159" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-160"><a href="#cb5-160" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 2: Quantity codes lookup table ----</span></span>
-<span id="cb5-161"><a href="#cb5-161" aria-hidden="true" tabindex="-1"></a><span class="co"># Extracted from USITC Tariff Database Code Key</span></span>
-<span id="cb5-162"><a href="#cb5-162" aria-hidden="true" tabindex="-1"></a>td_codes_file <span class="ot">&lt;-</span> withr<span class="sc">::</span><span class="fu">local_tempfile</span>(<span class="at">fileext =</span> <span class="st">".pdf"</span>)</span>
-<span id="cb5-163"><a href="#cb5-163" aria-hidden="true" tabindex="-1"></a>curl<span class="sc">::</span><span class="fu">curl_download</span>(</span>
-<span id="cb5-164"><a href="#cb5-164" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://www.usitc.gov/applications/dataweb/td-codes.pdf"</span>,</span>
-<span id="cb5-165"><a href="#cb5-165" aria-hidden="true" tabindex="-1"></a>  td_codes_file,</span>
-<span id="cb5-166"><a href="#cb5-166" aria-hidden="true" tabindex="-1"></a>  <span class="at">handle =</span> handle</span>
-<span id="cb5-167"><a href="#cb5-167" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-168"><a href="#cb5-168" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-169"><a href="#cb5-169" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract quantity codes table from PDF</span></span>
-<span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a>pdf_text <span class="ot">&lt;-</span> pdftools<span class="sc">::</span><span class="fu">pdf_text</span>(td_codes_file)</span>
-<span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a><span class="co"># Quantity codes span pages 3-5</span></span>
-<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>quantity_code_text <span class="ot">&lt;-</span> <span class="fu">paste</span>(pdf_text[<span class="dv">3</span><span class="sc">:</span><span class="dv">5</span>], <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a>lines <span class="ot">&lt;-</span> <span class="fu">strsplit</span>(quantity_code_text, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)[[<span class="dv">1</span>]]</span>
-<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-176"><a href="#cb5-176" aria-hidden="true" tabindex="-1"></a><span class="co"># Find table start (after header and column names)</span></span>
-<span id="cb5-177"><a href="#cb5-177" aria-hidden="true" tabindex="-1"></a>start_idx <span class="ot">&lt;-</span> <span class="fu">which</span>(stringr<span class="sc">::</span><span class="fu">str_detect</span>(</span>
-<span id="cb5-178"><a href="#cb5-178" aria-hidden="true" tabindex="-1"></a>  lines,</span>
-<span id="cb5-179"><a href="#cb5-179" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Description of quantity codes"</span></span>
-<span id="cb5-180"><a href="#cb5-180" aria-hidden="true" tabindex="-1"></a>)) <span class="sc">+</span></span>
-<span id="cb5-181"><a href="#cb5-181" aria-hidden="true" tabindex="-1"></a>  <span class="dv">2</span></span>
-<span id="cb5-182"><a href="#cb5-182" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-183"><a href="#cb5-183" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract and clean table lines</span></span>
-<span id="cb5-184"><a href="#cb5-184" aria-hidden="true" tabindex="-1"></a>table_lines <span class="ot">&lt;-</span> lines[start_idx<span class="sc">:</span><span class="fu">length</span>(lines)] <span class="sc">|&gt;</span></span>
-<span id="cb5-185"><a href="#cb5-185" aria-hidden="true" tabindex="-1"></a>  stringr<span class="sc">::</span><span class="fu">str_trim</span>()</span>
-<span id="cb5-186"><a href="#cb5-186" aria-hidden="true" tabindex="-1"></a>table_lines <span class="ot">&lt;-</span> table_lines[<span class="fu">nzchar</span>(table_lines)]</span>
-<span id="cb5-187"><a href="#cb5-187" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-188"><a href="#cb5-188" aria-hidden="true" tabindex="-1"></a><span class="co"># Most lines have format: CODE  description (with 2+ spaces)</span></span>
-<span id="cb5-189"><a href="#cb5-189" aria-hidden="true" tabindex="-1"></a><span class="co"># One entry (NA) has its description split across 3 lines</span></span>
-<span id="cb5-190"><a href="#cb5-190" aria-hidden="true" tabindex="-1"></a><span class="co"># Identify lines without the standard 2-space separator (these are extra pieces)</span></span>
-<span id="cb5-191"><a href="#cb5-191" aria-hidden="true" tabindex="-1"></a>line_numbers_to_merge <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_which</span>(table_lines, <span class="st">"  "</span>, <span class="at">negate =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-192"><a href="#cb5-192" aria-hidden="true" tabindex="-1"></a>extra_pieces <span class="ot">&lt;-</span> table_lines[line_numbers_to_merge]</span>
-<span id="cb5-193"><a href="#cb5-193" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-194"><a href="#cb5-194" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract codes and descriptions from normal lines</span></span>
-<span id="cb5-195"><a href="#cb5-195" aria-hidden="true" tabindex="-1"></a>normal_pieces <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_subset</span>(table_lines, <span class="st">"  "</span>)</span>
-<span id="cb5-196"><a href="#cb5-196" aria-hidden="true" tabindex="-1"></a>codes <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_extract</span>(normal_pieces, <span class="st">"^</span><span class="sc">\\</span><span class="st">S+"</span>)</span>
-<span id="cb5-197"><a href="#cb5-197" aria-hidden="true" tabindex="-1"></a>descriptions <span class="ot">&lt;-</span> stringr<span class="sc">::</span><span class="fu">str_extract</span>(normal_pieces, <span class="st">"</span><span class="sc">\\</span><span class="st">s{2}(</span><span class="sc">\\</span><span class="st">S.+$)"</span>, <span class="dv">1</span>)</span>
-<span id="cb5-198"><a href="#cb5-198" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-199"><a href="#cb5-199" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge the multi-line description for NA code</span></span>
-<span id="cb5-200"><a href="#cb5-200" aria-hidden="true" tabindex="-1"></a>na_line_number <span class="ot">&lt;-</span> line_numbers_to_merge[[<span class="dv">1</span>]]</span>
-<span id="cb5-201"><a href="#cb5-201" aria-hidden="true" tabindex="-1"></a>descriptions[[na_line_number]] <span class="ot">&lt;-</span> <span class="fu">paste</span>(</span>
-<span id="cb5-202"><a href="#cb5-202" aria-hidden="true" tabindex="-1"></a>  extra_pieces[[<span class="dv">1</span>]],</span>
-<span id="cb5-203"><a href="#cb5-203" aria-hidden="true" tabindex="-1"></a>  descriptions[[na_line_number]],</span>
-<span id="cb5-204"><a href="#cb5-204" aria-hidden="true" tabindex="-1"></a>  extra_pieces[[<span class="dv">2</span>]]</span>
-<span id="cb5-205"><a href="#cb5-205" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-206"><a href="#cb5-206" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-207"><a href="#cb5-207" aria-hidden="true" tabindex="-1"></a>quantity_codes <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(</span>
-<span id="cb5-208"><a href="#cb5-208" aria-hidden="true" tabindex="-1"></a>  <span class="at">code =</span> codes,</span>
-<span id="cb5-209"><a href="#cb5-209" aria-hidden="true" tabindex="-1"></a>  <span class="at">description =</span> descriptions</span>
-<span id="cb5-210"><a href="#cb5-210" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-211"><a href="#cb5-211" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-212"><a href="#cb5-212" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 3: Agreements lookup table ----</span></span>
-<span id="cb5-213"><a href="#cb5-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-214"><a href="#cb5-214" aria-hidden="true" tabindex="-1"></a><span class="co"># Manually constructed from</span></span>
-<span id="cb5-215"><a href="#cb5-215" aria-hidden="true" tabindex="-1"></a><span class="co"># https://www.usitc.gov/applications/dataweb/td-fields.pdf</span></span>
-<span id="cb5-216"><a href="#cb5-216" aria-hidden="true" tabindex="-1"></a>agreements <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tribble</span>(</span>
-<span id="cb5-217"><a href="#cb5-217" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>agreement                                                           ,</span>
-<span id="cb5-218"><a href="#cb5-218" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>agreement_full                                                      ,</span>
-<span id="cb5-219"><a href="#cb5-219" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>agreement_notes                                                     ,</span>
-<span id="cb5-220"><a href="#cb5-220" aria-hidden="true" tabindex="-1"></a>  <span class="st">"agoa"</span>                                                               ,</span>
-<span id="cb5-221"><a href="#cb5-221" aria-hidden="true" tabindex="-1"></a>  <span class="st">"African Growth and Opportunity Act (AGOA)"</span>                          ,</span>
-<span id="cb5-222"><a href="#cb5-222" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-223"><a href="#cb5-223" aria-hidden="true" tabindex="-1"></a>  <span class="st">"apta"</span>                                                               ,</span>
-<span id="cb5-224"><a href="#cb5-224" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Automotive Products Trade Act (APTA)"</span>                               ,</span>
-<span id="cb5-225"><a href="#cb5-225" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free"</span>                                                          ,</span>
-<span id="cb5-226"><a href="#cb5-226" aria-hidden="true" tabindex="-1"></a>  <span class="st">"atpa"</span>                                                               ,</span>
-<span id="cb5-227"><a href="#cb5-227" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Andean Trade Preference Act (ATPA)"</span>                                 ,</span>
-<span id="cb5-228"><a href="#cb5-228" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Program expired"</span>                                                    ,</span>
-<span id="cb5-229"><a href="#cb5-229" aria-hidden="true" tabindex="-1"></a>  <span class="st">"atpa*"</span>                                                              ,</span>
-<span id="cb5-230"><a href="#cb5-230" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Andean Trade Preference Act (ATPA)"</span>                                 ,</span>
-<span id="cb5-231"><a href="#cb5-231" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Certain products excluded; program expired"</span>                         ,</span>
-<span id="cb5-232"><a href="#cb5-232" aria-hidden="true" tabindex="-1"></a>  <span class="st">"atpdea"</span>                                                             ,</span>
-<span id="cb5-233"><a href="#cb5-233" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Andean Trade Promotion and Drug Eradication Act (ATPDEA)"</span>           ,</span>
-<span id="cb5-234"><a href="#cb5-234" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Program expired"</span>                                                    ,</span>
-<span id="cb5-235"><a href="#cb5-235" aria-hidden="true" tabindex="-1"></a>  <span class="st">"australia"</span>                                                          ,</span>
-<span id="cb5-236"><a href="#cb5-236" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Australia-United States Free Trade Agreement"</span>                       ,</span>
-<span id="cb5-237"><a href="#cb5-237" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-238"><a href="#cb5-238" aria-hidden="true" tabindex="-1"></a>  <span class="st">"bahrain"</span>                                                            ,</span>
-<span id="cb5-239"><a href="#cb5-239" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Bahrain-United States Free Trade Agreement"</span>                         ,</span>
-<span id="cb5-240"><a href="#cb5-240" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-241"><a href="#cb5-241" aria-hidden="true" tabindex="-1"></a>  <span class="st">"canada"</span>                                                             ,</span>
-<span id="cb5-242"><a href="#cb5-242" aria-hidden="true" tabindex="-1"></a>  <span class="st">"North American Free Trade Agreement (NAFTA)"</span>                        ,</span>
-<span id="cb5-243"><a href="#cb5-243" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Canada"</span>                                                             ,</span>
-<span id="cb5-244"><a href="#cb5-244" aria-hidden="true" tabindex="-1"></a>  <span class="st">"cbi"</span>                                                                ,</span>
-<span id="cb5-245"><a href="#cb5-245" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Caribbean Basin Initiative (CBI)"</span>                                   ,</span>
-<span id="cb5-246"><a href="#cb5-246" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-247"><a href="#cb5-247" aria-hidden="true" tabindex="-1"></a>  <span class="st">"cbi*"</span>                                                               ,</span>
-<span id="cb5-248"><a href="#cb5-248" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Caribbean Basin Initiative (CBI)"</span>                                   ,</span>
-<span id="cb5-249"><a href="#cb5-249" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Certain products or countries excluded"</span>                             ,</span>
-<span id="cb5-250"><a href="#cb5-250" aria-hidden="true" tabindex="-1"></a>  <span class="st">"cbtpa"</span>                                                              ,</span>
-<span id="cb5-251"><a href="#cb5-251" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Caribbean Basin Trade Partnership Act (CBTPA)"</span>                      ,</span>
-<span id="cb5-252"><a href="#cb5-252" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-253"><a href="#cb5-253" aria-hidden="true" tabindex="-1"></a>  <span class="st">"chile"</span>                                                              ,</span>
-<span id="cb5-254"><a href="#cb5-254" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Chile-United States Free Trade Agreement"</span>                           ,</span>
-<span id="cb5-255"><a href="#cb5-255" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-256"><a href="#cb5-256" aria-hidden="true" tabindex="-1"></a>  <span class="st">"civil_air"</span>                                                          ,</span>
-<span id="cb5-257"><a href="#cb5-257" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Agreement on Trade in Civil Aircraft"</span>                               ,</span>
-<span id="cb5-258"><a href="#cb5-258" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free"</span>                                                          ,</span>
-<span id="cb5-259"><a href="#cb5-259" aria-hidden="true" tabindex="-1"></a>  <span class="st">"col2"</span>                                                               ,</span>
-<span id="cb5-260"><a href="#cb5-260" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Column 2 Rates"</span>                                                     ,</span>
-<span id="cb5-261"><a href="#cb5-261" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Non-market economy countries"</span>                                       ,</span>
-<span id="cb5-262"><a href="#cb5-262" aria-hidden="true" tabindex="-1"></a>  <span class="st">"colombia"</span>                                                           ,</span>
-<span id="cb5-263"><a href="#cb5-263" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Colombia-United States Trade Promotion Agreement"</span>                   ,</span>
-<span id="cb5-264"><a href="#cb5-264" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-265"><a href="#cb5-265" aria-hidden="true" tabindex="-1"></a>  <span class="st">"dr_cafta"</span>                                                           ,</span>
-<span id="cb5-266"><a href="#cb5-266" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic-Central America Free Trade Agreement (DR-CAFTA)"</span> ,</span>
-<span id="cb5-267"><a href="#cb5-267" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-268"><a href="#cb5-268" aria-hidden="true" tabindex="-1"></a>  <span class="st">"dr_cafta_plus"</span>                                                      ,</span>
-<span id="cb5-269"><a href="#cb5-269" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic-Central America Free Trade Agreement (DR-CAFTA)"</span> ,</span>
-<span id="cb5-270"><a href="#cb5-270" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Plus rate"</span>                                                          ,</span>
-<span id="cb5-271"><a href="#cb5-271" aria-hidden="true" tabindex="-1"></a>  <span class="st">"dyes"</span>                                                               ,</span>
-<span id="cb5-272"><a href="#cb5-272" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay Round Concessions on Intermediate Chemicals for Dyes"</span>       ,</span>
-<span id="cb5-273"><a href="#cb5-273" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free"</span>                                                          ,</span>
-<span id="cb5-274"><a href="#cb5-274" aria-hidden="true" tabindex="-1"></a>  <span class="st">"gsp"</span>                                                                ,</span>
-<span id="cb5-275"><a href="#cb5-275" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Generalized System of Preferences (GSP)"</span>                            ,</span>
-<span id="cb5-276"><a href="#cb5-276" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free for eligible beneficiary countries"</span>                       ,</span>
-<span id="cb5-277"><a href="#cb5-277" aria-hidden="true" tabindex="-1"></a>  <span class="st">"israel_fta"</span>                                                         ,</span>
-<span id="cb5-278"><a href="#cb5-278" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Israel-United States Free Trade Agreement"</span>                          ,</span>
-<span id="cb5-279"><a href="#cb5-279" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free"</span>                                                          ,</span>
-<span id="cb5-280"><a href="#cb5-280" aria-hidden="true" tabindex="-1"></a>  <span class="st">"japan"</span>                                                              ,</span>
-<span id="cb5-281"><a href="#cb5-281" aria-hidden="true" tabindex="-1"></a>  <span class="st">"United States-Japan Trade Agreement"</span>                                ,</span>
-<span id="cb5-282"><a href="#cb5-282" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-283"><a href="#cb5-283" aria-hidden="true" tabindex="-1"></a>  <span class="st">"jordan"</span>                                                             ,</span>
-<span id="cb5-284"><a href="#cb5-284" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Jordan-United States Free Trade Agreement"</span>                          ,</span>
-<span id="cb5-285"><a href="#cb5-285" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-286"><a href="#cb5-286" aria-hidden="true" tabindex="-1"></a>  <span class="st">"korea"</span>                                                              ,</span>
-<span id="cb5-287"><a href="#cb5-287" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Korea-United States Free Trade Agreement (KORUS)"</span>                   ,</span>
-<span id="cb5-288"><a href="#cb5-288" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-289"><a href="#cb5-289" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mexico"</span>                                                             ,</span>
-<span id="cb5-290"><a href="#cb5-290" aria-hidden="true" tabindex="-1"></a>  <span class="st">"North American Free Trade Agreement (NAFTA)"</span>                        ,</span>
-<span id="cb5-291"><a href="#cb5-291" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Mexico"</span>                                                             ,</span>
-<span id="cb5-292"><a href="#cb5-292" aria-hidden="true" tabindex="-1"></a>  <span class="st">"mfn"</span>                                                                ,</span>
-<span id="cb5-293"><a href="#cb5-293" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Most Favored Nation (MFN)"</span>                                          ,</span>
-<span id="cb5-294"><a href="#cb5-294" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Standard rates for WTO members"</span>                                     ,</span>
-<span id="cb5-295"><a href="#cb5-295" aria-hidden="true" tabindex="-1"></a>  <span class="st">"morocco"</span>                                                            ,</span>
-<span id="cb5-296"><a href="#cb5-296" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Morocco-United States Free Trade Agreement"</span>                         ,</span>
-<span id="cb5-297"><a href="#cb5-297" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-298"><a href="#cb5-298" aria-hidden="true" tabindex="-1"></a>  <span class="st">"nepal"</span>                                                              ,</span>
-<span id="cb5-299"><a href="#cb5-299" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Nepal Trade Preference Program"</span>                                     ,</span>
-<span id="cb5-300"><a href="#cb5-300" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-301"><a href="#cb5-301" aria-hidden="true" tabindex="-1"></a>  <span class="st">"oman"</span>                                                               ,</span>
-<span id="cb5-302"><a href="#cb5-302" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Oman-United States Free Trade Agreement"</span>                            ,</span>
-<span id="cb5-303"><a href="#cb5-303" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-304"><a href="#cb5-304" aria-hidden="true" tabindex="-1"></a>  <span class="st">"panama"</span>                                                             ,</span>
-<span id="cb5-305"><a href="#cb5-305" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Panama-United States Trade Promotion Agreement"</span>                     ,</span>
-<span id="cb5-306"><a href="#cb5-306" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-307"><a href="#cb5-307" aria-hidden="true" tabindex="-1"></a>  <span class="st">"peru"</span>                                                               ,</span>
-<span id="cb5-308"><a href="#cb5-308" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Peru-United States Trade Promotion Agreement"</span>                       ,</span>
-<span id="cb5-309"><a href="#cb5-309" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-310"><a href="#cb5-310" aria-hidden="true" tabindex="-1"></a>  <span class="st">"pharmaceutical"</span>                                                     ,</span>
-<span id="cb5-311"><a href="#cb5-311" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Agreement on Trade in Pharmaceutical Products"</span>                      ,</span>
-<span id="cb5-312"><a href="#cb5-312" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Duty-free"</span>                                                          ,</span>
-<span id="cb5-313"><a href="#cb5-313" aria-hidden="true" tabindex="-1"></a>  <span class="st">"singapore"</span>                                                          ,</span>
-<span id="cb5-314"><a href="#cb5-314" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Singapore-United States Free Trade Agreement"</span>                       ,</span>
-<span id="cb5-315"><a href="#cb5-315" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-316"><a href="#cb5-316" aria-hidden="true" tabindex="-1"></a>  <span class="st">"usmca"</span>                                                              ,</span>
-<span id="cb5-317"><a href="#cb5-317" aria-hidden="true" tabindex="-1"></a>  <span class="st">"United States-Mexico-Canada Agreement (USMCA)"</span>                      ,</span>
-<span id="cb5-318"><a href="#cb5-318" aria-hidden="true" tabindex="-1"></a>  <span class="cn">NA_character_</span>                                                        ,</span>
-<span id="cb5-319"><a href="#cb5-319" aria-hidden="true" tabindex="-1"></a>  <span class="st">"usmca+"</span>                                                             ,</span>
-<span id="cb5-320"><a href="#cb5-320" aria-hidden="true" tabindex="-1"></a>  <span class="st">"United States-Mexico-Canada Agreement (USMCA)"</span>                      ,</span>
-<span id="cb5-321"><a href="#cb5-321" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Plus rate"</span></span>
-<span id="cb5-322"><a href="#cb5-322" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-323"><a href="#cb5-323" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-324"><a href="#cb5-324" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 4: Tariff rates in long format ----</span></span>
-<span id="cb5-325"><a href="#cb5-325" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-326"><a href="#cb5-326" aria-hidden="true" tabindex="-1"></a><span class="co"># Each row represents one agreement's rate for an HTS code during a time period</span></span>
-<span id="cb5-327"><a href="#cb5-327" aria-hidden="true" tabindex="-1"></a><span class="co"># This includes MFN (Most Favored Nation) and COL2 (Column 2) as agreement types</span></span>
-<span id="cb5-328"><a href="#cb5-328" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-329"><a href="#cb5-329" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Pivot all rate data to long format</span></span>
-<span id="cb5-330"><a href="#cb5-330" aria-hidden="true" tabindex="-1"></a>tariff_rates_long <span class="ot">&lt;-</span> tariff_raw <span class="sc">|&gt;</span></span>
-<span id="cb5-331"><a href="#cb5-331" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
-<span id="cb5-332"><a href="#cb5-332" aria-hidden="true" tabindex="-1"></a>    <span class="st">"hts8"</span>,</span>
-<span id="cb5-333"><a href="#cb5-333" aria-hidden="true" tabindex="-1"></a>    <span class="st">"begin_effective_date"</span>,</span>
-<span id="cb5-334"><a href="#cb5-334" aria-hidden="true" tabindex="-1"></a>    <span class="st">"end_effective_date"</span>,</span>
-<span id="cb5-335"><a href="#cb5-335" aria-hidden="true" tabindex="-1"></a>    tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_rate_type_code"</span>),</span>
-<span id="cb5-336"><a href="#cb5-336" aria-hidden="true" tabindex="-1"></a>    tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_ad_val_rate"</span>),</span>
-<span id="cb5-337"><a href="#cb5-337" aria-hidden="true" tabindex="-1"></a>    tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_specific_rate"</span>),</span>
-<span id="cb5-338"><a href="#cb5-338" aria-hidden="true" tabindex="-1"></a>    tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_indicator"</span>)</span>
-<span id="cb5-339"><a href="#cb5-339" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-340"><a href="#cb5-340" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(</span>
-<span id="cb5-341"><a href="#cb5-341" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(</span>
-<span id="cb5-342"><a href="#cb5-342" aria-hidden="true" tabindex="-1"></a>      tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_rate_type_code"</span>),</span>
-<span id="cb5-343"><a href="#cb5-343" aria-hidden="true" tabindex="-1"></a>      tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_ad_val_rate"</span>),</span>
-<span id="cb5-344"><a href="#cb5-344" aria-hidden="true" tabindex="-1"></a>      tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_specific_rate"</span>),</span>
-<span id="cb5-345"><a href="#cb5-345" aria-hidden="true" tabindex="-1"></a>      tidyselect<span class="sc">::</span><span class="fu">ends_with</span>(<span class="st">"_indicator"</span>)</span>
-<span id="cb5-346"><a href="#cb5-346" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb5-347"><a href="#cb5-347" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">"agreement"</span>, <span class="st">".value"</span>),</span>
-<span id="cb5-348"><a href="#cb5-348" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_pattern =</span> <span class="st">"^(.+)_(rate_type_code|ad_val_rate|specific_rate|indicator)$"</span></span>
-<span id="cb5-349"><a href="#cb5-349" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-350"><a href="#cb5-350" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(</span>
-<span id="cb5-351"><a href="#cb5-351" aria-hidden="true" tabindex="-1"></a>    <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>ad_val_rate) <span class="sc">|</span></span>
-<span id="cb5-352"><a href="#cb5-352" aria-hidden="true" tabindex="-1"></a>      <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>specific_rate) <span class="sc">|</span></span>
-<span id="cb5-353"><a href="#cb5-353" aria-hidden="true" tabindex="-1"></a>      <span class="sc">!</span><span class="fu">is.na</span>(.data<span class="sc">$</span>rate_type_code)</span>
-<span id="cb5-354"><a href="#cb5-354" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-355"><a href="#cb5-355" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb5-356"><a href="#cb5-356" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">across</span>(</span>
-<span id="cb5-357"><a href="#cb5-357" aria-hidden="true" tabindex="-1"></a>      <span class="fu">c</span>(<span class="st">"ad_val_rate"</span>, <span class="st">"specific_rate"</span>),</span>
-<span id="cb5-358"><a href="#cb5-358" aria-hidden="true" tabindex="-1"></a>      as.numeric</span>
-<span id="cb5-359"><a href="#cb5-359" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb5-360"><a href="#cb5-360" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-361"><a href="#cb5-361" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Merge "agreement" and "indicator"</span></span>
-<span id="cb5-362"><a href="#cb5-362" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb5-363"><a href="#cb5-363" aria-hidden="true" tabindex="-1"></a>    <span class="at">agreement =</span> dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
-<span id="cb5-364"><a href="#cb5-364" aria-hidden="true" tabindex="-1"></a>      .data<span class="sc">$</span>agreement <span class="sc">==</span> <span class="st">"atpa"</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>indicator <span class="sc">==</span> <span class="st">"J*"</span> <span class="sc">~</span> <span class="st">"atpa*"</span>,</span>
-<span id="cb5-365"><a href="#cb5-365" aria-hidden="true" tabindex="-1"></a>      .data<span class="sc">$</span>agreement <span class="sc">==</span> <span class="st">"cbi"</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>indicator <span class="sc">==</span> <span class="st">"E*"</span> <span class="sc">~</span> <span class="st">"cbi*"</span>,</span>
-<span id="cb5-366"><a href="#cb5-366" aria-hidden="true" tabindex="-1"></a>      .data<span class="sc">$</span>agreement <span class="sc">==</span> <span class="st">"usmca"</span> <span class="sc">&amp;</span> .data<span class="sc">$</span>indicator <span class="sc">==</span> <span class="st">"S+"</span> <span class="sc">~</span> <span class="st">"usmca+"</span>,</span>
-<span id="cb5-367"><a href="#cb5-367" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> .data<span class="sc">$</span>agreement</span>
-<span id="cb5-368"><a href="#cb5-368" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb5-369"><a href="#cb5-369" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-370"><a href="#cb5-370" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span><span class="st">"indicator"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb5-371"><a href="#cb5-371" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb5-372"><a href="#cb5-372" aria-hidden="true" tabindex="-1"></a>    <span class="at">chapter =</span> <span class="fu">as.integer</span>(<span class="fu">substr</span>(.data<span class="sc">$</span>hts8, <span class="dv">1</span>, <span class="dv">2</span>))</span>
-<span id="cb5-373"><a href="#cb5-373" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb5-374"><a href="#cb5-374" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">distinct</span>()</span>
-<span id="cb5-375"><a href="#cb5-375" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-376"><a href="#cb5-376" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Split by HTS chapter groups to stay under size limits</span></span>
-<span id="cb5-377"><a href="#cb5-377" aria-hidden="true" tabindex="-1"></a>tariff_agricultural <span class="ot">&lt;-</span> tariff_rates_long <span class="sc">|&gt;</span></span>
-<span id="cb5-378"><a href="#cb5-378" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(.data<span class="sc">$</span>chapter <span class="sc">&lt;</span> <span class="dv">25</span>) <span class="sc">|&gt;</span></span>
-<span id="cb5-379"><a href="#cb5-379" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span><span class="st">"chapter"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files ----------------------------------------------------------</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://seriestoriche.istat.it/fileadmin/documenti/Table_14.4.xls"</span>, <span class="st">"italian-industry-production/Table_14.4.xls"</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://seriestoriche.istat.it/fileadmin/documenti/Table_14.5.xls"</span>, <span class="st">"italian-industry-production/Table_14.5.xls"</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">"https://seriestoriche.istat.it/fileadmin/documenti/Table_14.6.xls"</span>, <span class="st">"italian-industry-production/Table_14.6.xls"</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Food and beverages ------------------------------------------------------</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>raw_data1 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.4.xls"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">5</span>, <span class="at">sheet =</span> <span class="dv">1</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>raw_data2 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.4.xls"</span>,</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">5</span>, <span class="at">sheet =</span> <span class="dv">2</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>data1 <span class="ot">&lt;-</span> raw_data1 <span class="sc">|&gt;</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(YEARS) <span class="sc">|&gt;</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> YEARS,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>         <span class="at">Sugar =</span> <span class="st">`</span><span class="at">Sugar (tons)</span><span class="st">`</span>,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>         <span class="at">Glucose =</span> <span class="st">`</span><span class="at">Glucose, maltose, invert sugar </span><span class="sc">\n</span><span class="at">(quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>         <span class="at">Coffee_substitute =</span> <span class="st">`</span><span class="at">Coffee substitute (quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>         <span class="at">Seed_oil =</span> <span class="st">`</span><span class="at">Seed oil (quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ethyl_alcohol_1 =</span> <span class="st">`</span><span class="at">Ethyl alcohol  (ettanidri) (c)</span><span class="st">`</span>,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ethyl_alcohol_2 =</span> <span class="st">`</span><span class="at">...11</span><span class="st">`</span>,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>         <span class="at">Beer =</span> <span class="st">`</span><span class="at">Beer (hectolitres)</span><span class="st">`</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year)</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>data2 <span class="ot">&lt;-</span> raw_data2 <span class="sc">|&gt;</span></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> YEARS,</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>         <span class="at">Sugar =</span> <span class="st">`</span><span class="at">Sugar (tons)</span><span class="st">`</span>,</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>         <span class="at">Glucose =</span> <span class="st">`</span><span class="at">Glucose, maltose, invert sugar</span><span class="sc">\n</span><span class="at"> (quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>         <span class="at">Coffee_substitute =</span> <span class="st">`</span><span class="at">Coffee substitute (quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>         <span class="at">Seed_oil =</span> <span class="st">`</span><span class="at">Seed oil </span><span class="sc">\n</span><span class="at">(quintals)</span><span class="st">`</span>,</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ethyl_alcohol_1 =</span> <span class="st">`</span><span class="at">Ethyl alcohol  (ettanidri) (c)</span><span class="st">`</span>,</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ethyl_alcohol_2 =</span> <span class="st">`</span><span class="at">...11</span><span class="st">`</span>,</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>         <span class="at">Beer =</span> <span class="st">`</span><span class="at">Beer </span><span class="sc">\n</span><span class="at">(hectolitres)</span><span class="st">`</span></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year)</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>food_beverages <span class="ot">&lt;-</span> <span class="fu">rbind</span>(data1, data2) <span class="sc">|&gt;</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">everything</span>(), as.integer</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(food_beverages, <span class="st">"italian-industry-production/food_beverages.csv"</span>)</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a><span class="co"># Textiles ----------------------------------------------------------------</span></span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>raw_data1 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.5.xls"</span>,</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">6</span>, <span class="at">sheet =</span> <span class="dv">1</span>)</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>raw_data2 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.5.xls"</span>,</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">7</span>, <span class="at">sheet =</span> <span class="dv">2</span>)</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>data1 <span class="ot">&lt;-</span> raw_data1 <span class="sc">|&gt;</span></span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> <span class="st">"...1"</span>,</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>         <span class="at">Raw_silk =</span> <span class="st">"...12"</span>,</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>         <span class="at">Cotton_yarn =</span> Cotton...<span class="dv">2</span>,</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>         <span class="at">Flock_yarn =</span> Flock...<span class="dv">3</span>,</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>         <span class="at">Other_yarn =</span> <span class="st">`</span><span class="at">Other fibres and fibre blend...4</span><span class="st">`</span>,</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>         <span class="at">Total_yarn =</span> Total...<span class="dv">5</span>,</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>         <span class="at">Cotton_textiles =</span> Cotton...<span class="dv">7</span>,</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>         <span class="at">Flock_textiles =</span> Flock...<span class="dv">8</span>,</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>         <span class="at">Other_textiles =</span> <span class="st">`</span><span class="at">Other fibres and fibre blend...9</span><span class="st">`</span>,</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>         <span class="at">Total_textiles =</span> Total...<span class="dv">10</span></span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year)</span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>data2 <span class="ot">&lt;-</span> raw_data2 <span class="sc">|&gt;</span></span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> <span class="st">"...1"</span>,</span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>         <span class="at">Raw_silk =</span> <span class="st">"...12"</span>,</span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>         <span class="at">Cotton_yarn =</span> Cotton...<span class="dv">2</span>,</span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>         <span class="at">Flock_yarn =</span> Flock...<span class="dv">3</span>,</span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>         <span class="at">Other_yarn =</span> <span class="st">`</span><span class="at">Other fibres and fibre blend...4</span><span class="st">`</span>,</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>         <span class="at">Total_yarn =</span> Total...<span class="dv">5</span>,</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>         <span class="at">Cotton_textiles =</span> Cotton...<span class="dv">7</span>,</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>         <span class="at">Flock_textiles =</span> Flock...<span class="dv">8</span>,</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>         <span class="at">Other_textiles =</span> <span class="st">`</span><span class="at">Other fibres and fibre blend...9</span><span class="st">`</span>,</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>         <span class="at">Total_textiles =</span> Total...<span class="dv">10</span></span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year)</span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>textiles <span class="ot">&lt;-</span> <span class="fu">rbind</span>(data1, data2) <span class="sc">|&gt;</span></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>    <span class="fu">everything</span>(), as.integer</span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(textiles, <span class="st">"italian-industry-production/textiles.csv"</span>)</span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a><span class="co"># Transport ---------------------------------------------------------------</span></span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>raw_data1 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.6.xls"</span>,</span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">7</span>, <span class="at">sheet =</span> <span class="dv">1</span>)</span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>raw_data2 <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"italian-industry-production/Table_14.6.xls"</span>,</span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>                      <span class="at">skip =</span> <span class="dv">7</span>, <span class="at">sheet =</span> <span class="dv">2</span>)</span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>data1 <span class="ot">&lt;-</span> raw_data1 <span class="sc">|&gt;</span></span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> <span class="st">"...1"</span>,</span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ships_launched =</span> Number,</span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ships_weight  =</span> <span class="st">`</span><span class="at">Tons of gross</span><span class="sc">\n</span><span class="at"> tonnage</span><span class="st">`</span></span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year) <span class="sc">|&gt;</span></span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="sc">-</span>Year) <span class="sc">|&gt;</span></span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">name =</span> <span class="fu">str_remove</span>(name, <span class="st">"</span><span class="sc">\\</span><span class="st">(c</span><span class="sc">\\</span><span class="st">)"</span>),</span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_trim</span>(name),</span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_replace_all</span>(name, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>, <span class="st">""</span>),</span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_replace_all</span>(name, <span class="st">" "</span>, <span class="st">"_"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>()</span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>data2 <span class="ot">&lt;-</span> raw_data2 <span class="sc">|&gt;</span></span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Year =</span> <span class="st">"...1"</span>,</span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ships_launched =</span> Number,</span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>         <span class="at">Ships_weight  =</span> <span class="st">`</span><span class="at">Tons of gross tonnage</span><span class="st">`</span></span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">starts_with</span>(<span class="st">"..."</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(<span class="fu">everything</span>(), as.numeric)</span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Year) <span class="sc">|&gt;</span></span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="sc">-</span>Year) <span class="sc">|&gt;</span></span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">name =</span> <span class="fu">str_remove</span>(name, <span class="st">"</span><span class="sc">\\</span><span class="st">(c</span><span class="sc">\\</span><span class="st">)"</span>),</span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_trim</span>(name),</span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_replace_all</span>(name, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>, <span class="st">""</span>),</span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="fu">str_replace_all</span>(name, <span class="st">" "</span>, <span class="st">"_"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>()</span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>transport <span class="ot">&lt;-</span> <span class="fu">rbind</span>(data1, data2) <span class="sc">|&gt;</span></span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(</span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>    <span class="fu">everything</span>(), as.integer</span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(transport, <span class="st">"italian-industry-production/transport.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
