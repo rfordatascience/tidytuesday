@@ -1,4 +1,4 @@
-# Data provided by Energy Data. No cleaning was necessary.
+# Data provided by Energy Data. Some* cleaning was necessary.
 
 # ----
 # Downloading the data
