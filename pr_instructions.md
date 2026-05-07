@@ -49,7 +49,7 @@ A "pull request" is a submission of code to a git repository. If you have never 
 
 > [!NOTE]
 > This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
-> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this huge download!
+> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this complicated step!
 
 We use a fork/branch approach to pull requests, meaning you'll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.
 
@@ -69,7 +69,7 @@ We use a fork/branch approach to pull requests, meaning you'll create a version 
 
 > [!NOTE]
 > This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
-> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this huge download!
+> The {tidytuesdayR} [`tt_submit()`](https://dslc-io.github.io/tidytuesdayR/reference/tt_submit.html) function replaces what `saving.R` was meant to assist.
 
 A copy of the following instructions is also available in the folder you've created, as `instructions.md`. 
 These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.
@@ -93,6 +93,10 @@ These instructions are for preparing a dataset using the R programming language,
 6.  `meta.yaml`: Edit `meta.yaml` to provide information about your dataset and how we can credit you. You can delete lines from the `credit` block that do not apply to you.
 
 ### Submit your pull request with the data
+
+> [!NOTE]
+> This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
+> The {tidytuesdayR} [`tt_submit()`](https://dslc-io.github.io/tidytuesdayR/reference/tt_submit.html) function automatically commits your files and replaces `usethis::pr_push()`.
 
 1.  Commit the changes with this folder to your branch. In RStudio, you can do this on the "Git" tab (the "Commit" button).
 
