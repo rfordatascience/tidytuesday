@@ -257,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="create-a-branch" class="level2">
 <h2 class="anchored" data-anchor-id="create-a-branch">Create a branch</h2>
 <blockquote class="blockquote">
-<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this huge download!</p>
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this complicated step!</p>
 </blockquote>
 <p>We use a fork/branch approach to pull requests, meaning you’ll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.</p>
 <ol type="1">
@@ -272,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="prepare-the-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="prepare-the-dataset">Prepare the dataset</h2>
 <blockquote class="blockquote">
-<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this huge download!</p>
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! The {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/reference/tt_submit.html"><code>tt_submit()</code></a> function replaces what <code>saving.R</code> was meant to assist.</p>
 </blockquote>
 <p>A copy of the following instructions is also available in the folder you’ve created, as <code>instructions.md</code>. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.</p>
 <ol type="1">
@@ -295,6 +295,9 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <section id="submit-your-pull-request-with-the-data" class="level3">
 <h3 class="anchored" data-anchor-id="submit-your-pull-request-with-the-data">Submit your pull request with the data</h3>
+<blockquote class="blockquote">
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! The {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/reference/tt_submit.html"><code>tt_submit()</code></a> function automatically commits your files and replaces <code>usethis::pr_push()</code>.</p>
+</blockquote>
 <ol type="1">
 <li><p>Commit the changes with this folder to your branch. In RStudio, you can do this on the “Git” tab (the “Commit” button).</p></li>
 <li><p>Submit a pull request to <a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a>. In R, you can do this with <code>usethis::pr_push()</code>, and then follow the instructions in your browser.</p></li>
