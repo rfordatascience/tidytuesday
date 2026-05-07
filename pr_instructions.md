@@ -5,7 +5,6 @@ Thank you for helping us help learners!
 > [!NOTE]
 > This article talks about submitting datasets "from scratch," but there's an easier way!
 > The {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package has a [set of functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)!
-> The functions currently only work in Rstudio, but [we also support Positron in the dev version!](https://github.com/dslc-io/tidytuesdayR/issues/139)
 
 There are 4 main steps to submit a dataset:
 
@@ -36,6 +35,10 @@ You will also need:
 
 ## Prepare your repository
 
+> [!NOTE]
+> This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
+> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this huge download!
+
 You'll need to perform this step the first time you submit a pull request to this repository. 
 A "pull request" is a submission of code to a git repository. If you have never worked with git before, that's fine! We'll help you get set up.
 
@@ -43,6 +46,10 @@ A "pull request" is a submission of code to a git repository. If you have never 
 2.  Fork the tidytuesday repository. In R, you can use `usethis::create_from_github("rfordatascience/tidytuesday")` to create your personal fork on GitHub and copy it to your computer. Note: This requires about **8 GB** of space on disk.
 
 ## Create a branch
+
+> [!NOTE]
+> This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
+> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this huge download!
 
 We use a fork/branch approach to pull requests, meaning you'll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.
 
@@ -60,7 +67,11 @@ We use a fork/branch approach to pull requests, meaning you'll create a version 
 
 ## Prepare the dataset
 
-A copy the following instructions is also available in the folder you've created, as `instructions.md`. 
+> [!NOTE]
+> This only applies if you are **NOT** using the {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package!
+> We strongly recommend the {tidytuesdayR} [functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html) to avoid this huge download!
+
+A copy of the following instructions is also available in the folder you've created, as `instructions.md`. 
 These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.
 
 1.  `cleaning.R`: Modify the `cleaning.R` file to get and clean the data.
