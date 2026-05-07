@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>How to Submit a Dataset</h1>
 <p>Thank you for helping us help learners!</p>
 <blockquote class="blockquote">
-<p>[!NOTE] This article talks about submitting datasets “from scratch,” but there’s an easier way! The {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package has a <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">set of functions for curating TidyTuesday datasets in R</a>! The functions currently only work in Rstudio, but <a href="https://github.com/dslc-io/tidytuesdayR/issues/139">we also support Positron in the dev version!</a></p>
+<p>[!NOTE] This article talks about submitting datasets “from scratch,” but there’s an easier way! The {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package has a <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">set of functions for curating TidyTuesday datasets in R</a>!</p>
 </blockquote>
 <p>There are 4 main steps to submit a dataset:</p>
 <ol type="1">
@@ -245,6 +245,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="prepare-your-repository" class="level2">
 <h2 class="anchored" data-anchor-id="prepare-your-repository">Prepare your repository</h2>
+<blockquote class="blockquote">
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this huge download!</p>
+</blockquote>
 <p>You’ll need to perform this step the first time you submit a pull request to this repository. A “pull request” is a submission of code to a git repository. If you have never worked with git before, that’s fine! We’ll help you get set up.</p>
 <ol type="1">
 <li>Set up git, github, and your IDE (such as RStudio). We have step-by-step <a href="https://github.com/r4ds/bookclub-setup?tab=readme-ov-file#setting-up-for-data-science-learning-community-book-clubs">instructions for setting up things to work with the Data Science Learning Community</a>.</li>
@@ -253,6 +256,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="create-a-branch" class="level2">
 <h2 class="anchored" data-anchor-id="create-a-branch">Create a branch</h2>
+<blockquote class="blockquote">
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this huge download!</p>
+</blockquote>
 <p>We use a fork/branch approach to pull requests, meaning you’ll create a version of the repo specifically for your changes, and then ask us to merge those changes into the main tidytuesday repository.</p>
 <ol type="1">
 <li><p>If you are on anything other than the <code>main</code> branch of your local repository, switch back to main. In R, you can use <code>usethis::pr_pause()</code> (if your previous submission is still pending), or <code>usethis::pr_finish()</code> (if we’ve accepted your submission).</p></li>
@@ -265,7 +271,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="prepare-the-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="prepare-the-dataset">Prepare the dataset</h2>
-<p>A copy the following instructions is also available in the folder you’ve created, as <code>instructions.md</code>. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.</p>
+<blockquote class="blockquote">
+<p>[!NOTE] This only applies if you are <strong>NOT</strong> using the {<a href="https://DSLC.io/tidytuesdayR">tidytuesdayR</a>} R package! We strongly recommend the {tidytuesdayR} <a href="https://dslc-io.github.io/tidytuesdayR/articles/curating.html">functions for curating TidyTuesday datasets in R</a> to avoid this huge download!</p>
+</blockquote>
+<p>A copy of the following instructions is also available in the folder you’ve created, as <code>instructions.md</code>. These instructions are for preparing a dataset using the R programming language, but we hope to provide instructions for other programming languages eventually.</p>
 <ol type="1">
 <li><p><code>cleaning.R</code>: Modify the <code>cleaning.R</code> file to get and clean the data.</p>
 <ul>
