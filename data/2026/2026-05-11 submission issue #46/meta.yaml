@@ -1,0 +1,17 @@
+title: "Income Distribution"
+article:
+  title: "Income distribution database"
+  url: "https://data-explorer.oecd.org/vis?lc=en&fs[0]=Topic%2C1%7CSociety%23SOC%23%7CInclusion%20and%20equality%23SOC_INE%23&pg=0&fc=Topic&bp=true&snb=2&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_WISE_IDD%40DF_IDD&df[ag]=OECD.WISE.INE&df[vs]=1.0&dq=.A.INC_DISP_GINI..._T.METH2012.D_CUR.&pd=2010%2C&to[TIME_PERIOD]=false"
+data_source:
+  title: "Income distribution database"
+  url: "https://data-explorer.oecd.org/vis?lc=en&fs[0]=Topic%2C1%7CSociety%23SOC%23%7CInclusion%20and%20equality%23SOC_INE%23&pg=0&fc=Topic&bp=true&snb=2&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_WISE_IDD%40DF_IDD&df[ag]=OECD.WISE.INE&df[vs]=1.0&dq=.A.INC_DISP_GINI..._T.METH2012.D_CUR.&pd=2010%2C&to[TIME_PERIOD]=false"
+images:
+- file: "sample_income_distribution_plot.png"
+  alt: >
+    A bar chart titled 'How has the Self-employed Estonian fared?' showing average income values in Estonia from 2003 to 2023, segmented by self-employment type. The x-axis represents the year, and the y-axis represents the observation value (mean income in Euros). For each year, two side-by-side bars compare 'Income from self-employment' (light blue) and 'Income from self-employment and from goods produced for own consumption' (darker blue). The chart shows a notable dip in average income across both categories in 2004 and 2005, followed by a steady recovery and growth from 2006 through 2023. The 'Income from self-employment' group consistently shows significantly lower average income values than the 'Income from self-employment and from goods produced for own consumption' group.
+credit:
+  post: "Ntobeko Sosibo"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"
