@@ -49,3 +49,4 @@
 |ror_id_for_funders_assertions             |double    |Number of ROR ID assertions for funders.                                                                                                                                                    |
 |preprint_to_article_links                 |double    |Number of links registered between a work of type `posted-content` and subtype `preprint` and a published work (e.g., `journal-article`).                                                   |
 |retractions                               |double    |Number of retracted works.                                                                                                                                                                  |
+

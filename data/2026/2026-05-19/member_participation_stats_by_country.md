@@ -23,3 +23,4 @@
 |deposits_ror_id_for_affiliations |double    |Number of members that have deposited at least one work with a ROR ID for an affiliation.                                                                                            |
 |deposits_ror_id_for_funders      |double    |Number of members that have deposited at least one work with a ROR ID for a funder.                                                                                                  |
 |deposits_ror_id_for_institutions |double    |Number of members that have deposited at least one work with a ROR ID for an institution.                                                                                            |
+
