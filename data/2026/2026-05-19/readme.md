@@ -15,7 +15,7 @@ By analyzing these files, you can explore themes of global research equity, the 
 - How does the connectedness of research vary across different work types within a single country?
 - Which regions are leading the way in adopting the Research Nexus vision?
 
-Thank you to [Crossref](https://github.com/crossref) for curating this week's dataset.
+Thank you to [Alexandre Bédard-Vallée](https://github.com/bedard-valleea) from [Crossref](https://github.com/crossref) for curating this week's dataset.
 
 ## The Data
 
