@@ -77,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d22b584035f135c269abed1b239a31db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6417478169390d5200ae675d66b5a4f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#twinned-cities" id="toc-twinned-cities" class="nav-link active" data-scroll-target="#twinned-cities">Twinned Cities</a>
+  <li><a href="#state-of-crossref-metadata-by-member-country" id="toc-state-of-crossref-metadata-by-member-country" class="nav-link active" data-scroll-target="#state-of-crossref-metadata-by-member-country">State of Crossref metadata by member country</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,8 +239,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#cities.csv" id="toc-cities.csv" class="nav-link" data-scroll-target="#cities.csv"><code>cities.csv</code></a></li>
-  <li><a href="#links.csv" id="toc-links.csv" class="nav-link" data-scroll-target="#links.csv"><code>links.csv</code></a></li>
+  <li><a href="#member_participation_stats_by_country.csv" id="toc-member_participation_stats_by_country.csv" class="nav-link" data-scroll-target="#member_participation_stats_by_country.csv"><code>member_participation_stats_by_country.csv</code></a></li>
+  <li><a href="#metadata_coverage_stats_by_country.csv" id="toc-metadata_coverage_stats_by_country.csv" class="nav-link" data-scroll-target="#metadata_coverage_stats_by_country.csv"><code>metadata_coverage_stats_by_country.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -253,37 +253,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="twinned-cities" class="level1">
-<h1>Twinned Cities</h1>
-<p>This week we’re exploring data about links between cities! Twinned towns (also known as sister cities) are a form of legal or social agreement between two geographically and politically distinct localities for the purpose of promoting cultural and commercial ties. This dataset looks at links specifically between cities, i.e.&nbsp;it does not include towns, villages or other geographic entities..</p>
-<p>Wikipedia states:</p>
+<section id="state-of-crossref-metadata-by-member-country" class="level1">
+<h1>State of Crossref metadata by member country</h1>
+<p><a href="https://www.crossref.org/">Crossref</a> is a central pillar of the global research ecosystem, running open infrastructure to create a lasting and reusable scholarly record that underpins open science. While many of us know Crossref for providing Digital Object Identifiers (DOIs), they also maintain a massive repository of metadata, which is the essential data <em>about</em> research that makes it discoverable, linkable, and reusable.</p>
+<p>This dataset provides a granular look at how that metadata was populated across the globe from December 2018 to April 2026 (with monthly granularity beginning in January 2025). It is split into two files:</p>
+<ul>
+<li><strong>Member participation statistics by country:</strong> A look at the Crossref members registering DOIs, broken down by region and country, highlighting the geographical diversity of the publishing community.</li>
+<li><strong>Metadata coverage statistics:</strong> A look at metadata completion at the level of individual outputs, also broken down by region and country, and also by content type. This details the connectedness of research, including adoption metrics for citations, funding, ORCID IDs, and ROR IDs.</li>
+</ul>
+<p>By analyzing these files, you can explore themes of global research equity, the adoption of modern publishing standards, and the varying levels of metadata richness across different corners of the world.</p>
 <blockquote class="blockquote">
-<p>While there are early examples of international links between municipalities akin to what are now known as sister cities dating back to the 9th century, the modern concept was first established and adopted worldwide during World War II.</p>
+<p>By shifting the lens from global aggregates to country-level insights, this dataset provides a new look at the global landscape of scholarly communication. It serves as a critical benchmark for Crossref’s Research Nexus vision — the creation of a rich, reusable open network of relationships connecting research organizations, people, and actions — enabling the community to track progress toward a more transparent and interconnected global research record.</p>
 </blockquote>
 <ul>
-<li>Is every country connected through a chain of twin city links?</li>
-<li>Which city is the most connected?</li>
-<li>Which countries are the most connected to each other?</li>
+<li>Which countries or regions show the fastest growth in metadata “richness” over time?</li>
+<li>How does the connectedness of research vary across different work types within a single country?</li>
+<li>Which regions are leading the way in adopting the Research Nexus vision?</li>
 </ul>
-<p>Thank you to <span class="citation" data-cites="bothness">@bothness</span> for <a href="https://bothness.github.io/twin-cities/">curating the original dataset</a> and <a href="https://bsky.app/profile/bothness.bsky.social/post/3mkmroqdulk24">suggesting it on Bluesky</a>!</p>
-<p>Thank you to <a href="https://github.com/nrennie">Nicola Rennie</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/bedard-valleea">Alexandre Bédard-Vallée</a> from <a href="https://github.com/crossref">Crossref</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-05-12'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-05-19'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">19</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">20</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>cities <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cities</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>links <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>links</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>member_participation_stats_by_country</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>metadata_coverage_stats_by_country</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cities <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>links <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/links.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -291,12 +295,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-05-12'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-05-19'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>cities <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>links <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/links.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -304,16 +308,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-05-12"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-05-19"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>cities <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>links <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/links.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv"</span>)</span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>cities <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>links <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/links.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -334,14 +338,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="cities.csv" class="level3">
-<h3 class="anchored" data-anchor-id="cities.csv"><code>cities.csv</code></h3>
+<section id="member_participation_stats_by_country.csv" class="level3">
+<h3 class="anchored" data-anchor-id="member_participation_stats_by_country.csv"><code>member_participation_stats_by_country.csv</code></h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 65%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -351,51 +350,126 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">City ID from Wikidata entity ID. Join with <code>links</code> data.</td>
+<td style="text-align: left;">current_up_to</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The latest DOI submission date that was taken into account when computing statistics. All Crossref works submitted or updated until this date are accounted for in these statistics.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">name</td>
+<td style="text-align: left;">region_id</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">City name.</td>
+<td style="text-align: left;">Three-letter code identifying the region the member is located in. These codes are sourced from the <a href="https://esgdata.worldbank.org/about/faq?lang=en">World Bank taxonomy</a>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">lng</td>
+<td style="text-align: left;">iso3_code</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Three-letter code identifying the country the member is located in. These codes are sourced from the ISO 3166-1 alpha-3 taxonomy.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">total_members</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Longitude.</td>
+<td style="text-align: left;">Number of members with at least one registered DOI.</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">lat</td>
+<tr class="odd">
+<td style="text-align: left;">deposits_ref</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Latitude.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">country</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Country name.</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with references.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">countrycd</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Two letter country code. Note that Taiwan has a code in the form XX-XX, and some entries as <code>NA</code> indicating a missing country code.</td>
+<td style="text-align: left;">deposits_abstract</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an abstract.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">continent</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Continent name.</td>
+<td style="text-align: left;">deposits_license</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with <a href="https://www.crossref.org/documentation/principles-practices/best-practices/license/">license metadata</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_crossmark</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://www.crossref.org/documentation/crossmark/crossmark-policy-page/">Crossmark update policy</a>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_updates</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one <a href="https://www.crossref.org/documentation/register-maintain-records/maintaining-your-metadata/registering-updates/">update record</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_textmining</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with text-mining information.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_status_info</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with preprint status information.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">acknowledges_funding</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with funding metadata.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_funder_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work acknowledging a <a href="https://www.crossref.org/services/funder-registry/">funder ID</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_grant_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://www.crossref.org/documentation/research-nexus/grants/">grant ID</a>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_orcid</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an <a href="https://orcid.org/">ORCID ID</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_orcid_for_authors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for an author.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_orcid_for_chairs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for a chair.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_orcid_for_editors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for an editor.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_orcid_for_translators</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for a translator.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_ror_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://ror.org/">ROR ID</a>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_ror_id_for_affiliations</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for an affiliation.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deposits_ror_id_for_funders</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for a funder.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deposits_ror_id_for_institutions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for an institution.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="links.csv" class="level3">
-<h3 class="anchored" data-anchor-id="links.csv"><code>links.csv</code></h3>
+<section id="metadata_coverage_stats_by_country.csv" class="level3">
+<h3 class="anchored" data-anchor-id="metadata_coverage_stats_by_country.csv"><code>metadata_coverage_stats_by_country.csv</code></h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 17%">
-<col style="width: 66%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -405,14 +479,249 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">source</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">ID of source city (from Wikidata entity ID), denoting link between source and target. The order of source and target does not matter.</td>
+<td style="text-align: left;">current_up_to</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">The latest DOI submission date that was taken into account when computing statistics. All Crossref works submitted or updated until this date are accounted for in these statistics.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">target</td>
+<td style="text-align: left;">region_id</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">ID of target city (from Wikidata entity ID).</td>
+<td style="text-align: left;">Three-letter code identifying the region the registering members are located in. These codes are sourced from the <a href="https://esgdata.worldbank.org/about/faq?lang=en">World Bank taxonomy</a>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">iso3_code</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Three-letter code identifying the country the registering members are located in. These codes are sourced from the ISO 3166-1 alpha-3 taxonomy.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">document_type</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The type of work. Based off the <code>type</code> field of the <a href="https://api.crossref.org/types">Crossref REST API</a>, with book types () merged under <code>book</code>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">document_subtype</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The subtype of work for which statistics are computed. Applies to type <code>posted_content</code> only, null for all others.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">n_dois</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total number of works of the specified type and subtype, registered by members in the country.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_ref</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with at least one reference.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_doi_ref</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with at least one reference including a DOI.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">references</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of references from these works.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">references_with_dois</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of references with DOIs from these works.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">references_with_doi_asserted_by_publisher</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of references with DOIs asserted by the publisher from these works.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">references_with_doi_asserted_by_crossref</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of references with DOIs asserted by Crossref from these works.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">citations_received</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of citations received by these works, from other Crossref-registered works only.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_abstract</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with an abstract.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_license</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with license information.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_crossmark</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with a Crossmark update policy registered.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_crossmark_update</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that have received at least one Crossmark update.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">crossmark_updates</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of update DOIs.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">update_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of update assertions made by all update DOIs.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">update_assertions_from_publisher</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of update assertions registered by a Crossref member.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">update_assertions_from_retraction_watch</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of update assertions registered through Retraction Watch.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_textmining</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with at least one registered text-mining link.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_status_info</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works with <a href="https://doi.org/10.13003/325070#preprint-status">preprint status metadata</a>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">acknowledges_funding</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include any kind of funding metadata.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">award_number_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of acknowledged award numbers.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_grant_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one grant ID.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">grant_id_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of acknowledged grant IDs.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_funder_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one funder ID.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">funder_id_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of acknowledged funder IDs.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_orcid</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ORCID ID.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_orcid_for_authors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ORCID ID for an author.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_orcid_for_chairs</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ORCID ID for a chair.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_orcid_for_editors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ORCID ID for an editor.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_orcid_for_translators</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ORCID ID for a translator.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">orcid_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ORCID ID assertions.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">orcid_for_authors_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ORCID ID assertions for authors.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">orcid_for_chairs_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ORCID ID assertions for chairs.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">orcid_for_editors_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ORCID ID assertions for editors.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">orcid_for_translators_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ORCID ID assertions for translators.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_ror_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ROR ID.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_ror_id_for_affiliations</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ROR ID for affiliations.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">with_ror_id_for_institutions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ROR ID for institutions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">with_ror_id_for_funders</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of works that include at least one ROR ID for funders.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ror_id_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ROR ID assertions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ror_id_for_affiliations_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ROR ID assertions for affiliations.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ror_id_for_institutions_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ROR ID assertions for institutions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ror_id_for_funders_assertions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of ROR ID assertions for funders.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">preprint_to_article_links</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of links registered between a work of type <code>posted-content</code> and subtype <code>preprint</code> and a published work (e.g., <code>journal-article</code>).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">retractions</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Number of retracted works.</td>
 </tr>
 </tbody>
 </table>
@@ -420,9 +729,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by https://github.com/bothness/twin-cities. No cleaning was necessary.</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cities <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_tsv</span>(<span class="st">"https://raw.githubusercontent.com/bothness/twin-cities/refs/heads/main/public/data/nodes.tsv"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>links <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_tsv</span>(<span class="st">"https://raw.githubusercontent.com/bothness/twin-cities/refs/heads/main/public/data/links.tsv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by Crossref. No cleaning was necessary.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://zenodo.org/api/records/19928426/files/metadata_coverage_stats_by_country.csv/content"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://zenodo.org/api/records/19928426/files/member_participation_stats_by_country.csv/content"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
