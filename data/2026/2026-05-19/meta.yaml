@@ -1,0 +1,22 @@
+title: "State of Crossref metadata by member country"
+article:
+  title: "2026 public data file now available (Crossref blog)"
+  url: "https://doi.org/10.64000/7s70g-drz77"
+data_source:
+  title: "State of Crossref metadata by member country"
+  url: "https://zenodo.org/records/19928426"
+images:
+# Please include at least one image, and up to three images
+- file: "research-nexus-2023-final.png"
+  alt: >
+    An infographic depicting the continuous lifecycle of research outputs.
+    The center consists of various entities including books, blogs, conference materials, articles, organizations, preprints, videos, images, theses, software, data, protocols, contributors, and other objects.
+    Surrounding this core are five interconnected stages: Fund (fund, provide facilities, give award, fund again); Create (propose, generate data, author, revise, and write/produce); Post (edit, publish, deposit, check similarity, share, link, maintain metadata, and archive); Respond (comment, cite, mention, review, correct, and retract); and Use (verify, reuse, reproduce, translate, and refute).
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Crossref"
+  bluesky: "https://bsky.app/profile/crossref.bsky.social"
+  linkedin: "https://www.linkedin.com/company/crossref"
+  mastodon: "@crossref@mastodon.online"
+  github: "https://github.com/crossref"
