@@ -55,7 +55,7 @@ When reviewing a dataset submission PR, check the following:
 - [ ] `article.url` and `data_source.url` are present and publicly accessible. If you are not able to verify this, ask a maintainer to verify these URLs.
 - [ ] The `images` section lists at least one PNG (which is also present in this submission); each entry has a `file` and an `alt` field.
 - [ ] Alt text is in sentence case, and is 1000 characters or fewer, and serves as a *replacement* for the image (e.g. "A bar chart showing widgets produced per country in 1997. Peru has the largest value with 27 widgets, Kenya has the second largest value at 24, and other countries are evenly distributed down to the United States with only 3 widgets."), not simply a description of the image (e.g. "A bar chart of countries and widgets."). If you are able to evaluate the image, do so to assess the alt text. If not, still assess the alt text as described here.
-- [ ] The `credit` block is filled in. The submitter will be automatically thanked with the line `"Thank you to {credit.post} for curating this week's dataset."` If anyone else is thanked in `intro.md`, check that it won't produce awkward or duplicate acknowledgements alongside the auto-generated credit line.
+- [ ] The `credit` block is filled in. The submitter will be automatically thanked with the line "Thank you to {credit} for curating this week's dataset." (where `{credit}` may be a Markdown link if `credit.github` is provided). If anyone else is thanked in `intro.md`, check that it won't produce awkward or duplicate acknowledgements alongside the auto-generated credit line.
 
 ### CSV files vs. data dictionaries (`{dataset}.md`)
 - [ ] Every `*.csv` file has a matching `{dataset}.md` dictionary.
