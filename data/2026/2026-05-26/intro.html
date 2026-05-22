@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About TidyTuesday – TidyTuesday</title>
+<title>intro – TidyTuesday</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +23,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6417478169390d5200ae675d66b5a4f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-6417478169390d5200ae675d66b5a4f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -82,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">TidyTuesday</span>
     </a>
   </div>
@@ -96,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About TidyTuesday</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -107,16 +142,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./static/tt_hex.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="./static/tt_hex.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../../static/tt_hex.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About TidyTuesday</span></a>
   </div>
 </li>
@@ -131,49 +166,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2025/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2025/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2025</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2024/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2024/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2024</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2023/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2023/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2022/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2022/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2022</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2021/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2021/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2021</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2020/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2020/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2020</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2019/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2019/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2019</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data/2018/readme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../data/2018/readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2018</span></a>
   </div>
 </li>
@@ -181,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Useful links</span></a>
   </div>
 </li>
@@ -195,255 +230,82 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
-  <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a></li>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">DataSets</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026</a></li>
-  </ul></li>
-  <li><a href="#citing-tidytuesday" id="toc-citing-tidytuesday" class="nav-link" data-scroll-target="#citing-tidytuesday">Citing TidyTuesday</a></li>
-  <li><a href="#contributing" id="toc-contributing" class="nav-link" data-scroll-target="#contributing">Contributing</a></li>
+  <li><a href="#creating-the-sample-plot" id="toc-creating-the-sample-plot" class="nav-link active" data-scroll-target="#creating-the-sample-plot">Creating the sample plot</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About TidyTuesday</h1>
-</div>
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-body">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><img src="static/tt_logo.png" class="img-fluid" alt="Logo for the TidyTuesday project, represented by the word TidyTuesday over a messy splash of black paint"></p>
-<p><strong>TidyTuesday</strong> is a weekly social data project. All are welcome to participate! Please remember to share the code used to generate your results!</p>
-<p><strong>TidyTuesday</strong> is organized by the <a href="https://dslc.io">Data Science Learning Community</a>. <a href="https://dslc.io/join">Join our Slack</a> for free online help with R, Python, and other data-related topics, or to participate in a data-related book club!</p>
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<p>Our over-arching goal for TidyTuesday is to provide real-world datasets so that people can learn to work with data.</p>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">For 2024, our goal was to be used in at least 10 courses. Our survey indicates that we are used in at least 30 courses!</label></li>
-<li><label><input type="checkbox" checked="">For 2025, our goal was to crowdsource the curation of TidyTuesday datasets. We certainly didn’t hit 100%, but we are grateful for the 51 pull requests, which included dataset submissions, improvements to welcome participants using Python and Julia, and other improvements to the project. We look forward to more community contributions in 2026!</label></li>
-<li><label><input type="checkbox">For 2026, our goal is to provide tools for easier and better dataset curation, leading to curation of 95% of 2027 datasets by the end of 2026.</label></li>
+<p>This week we’re exploring Sustainable Energy for all! Beyond the raw metrics, this dataset offers a window into how nations are balancing growth with green initiatives, challenging us to visualize the actual momentum behind the global energy transition.</p>
+<blockquote class="blockquote">
+<p>The “<strong>Sustainable Energy for all</strong> (<strong>SE4ALL</strong>)” initiative, launched in 2010 by the UN Secretary General, established three global objectives to be accomplished by 2030: to ensure universal access to modern energy services, to double the global rate of improvement in global energy efficiency, and to double the share of renewable energy in the global energy mix. SE4ALL database supports this initiative and provides country level historical data for access to electricity and non-solid fuel; share of renewable energy in total final energy consumption by technology; and energy intensity rate of improvement.</p>
+</blockquote>
+<p>Some questions to get you going:</p>
+<ul>
+<li>Which countries have the lowest capacity for solar energy?<br>
+</li>
+<li>What form of renewable energy has, on average, experienced the fasted rate of adoption?</li>
 </ul>
-<hr>
-</section>
-<section id="how-to-participate" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
-<ul>
-<li>Data is <a href="./dataset_announcements.html">posted to social media</a> every Monday morning. Follow the instructions in the new post for how to download the data in R, Python, or Julia, or download the data directly from GitHub for use in your favorite data exploration tool.</li>
-<li><a href="https://r4ds.hadley.nz/">Explore the data</a>, watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about <strong>causation</strong> in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.</li>
-<li>Create a visualization, a model, a <a href="https://quarto.org/">Quarto</a> report, a <a href="https://shiny.posit.co/">shiny app</a>, or some other piece of data-science-related output, using R, Python, Julia, or another programming language.
-<ul>
-<li>Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a <a href="https://quarto.org/docs/dashboards/">Quarto dashboard</a>? Find videos and other resources in <a href="https://github.com/posit-dev/python-tidytuesday-challenge">Posit’s PydyTuesday repo</a>.</li>
-<li>Deploy or share your work however you want! If you’d like a super easy way to publish your work, give <a href="https://connect.posit.cloud/">Connect Cloud</a> a try.</li>
-</ul></li>
-<li><a href="./sharing.html">Share your output and the code used to generate it</a> on social media with the #TidyTuesday hashtag.
-<ul>
-<li>R; TidyTuesday originated in the #RStats community on social media. Add that hashtag if you explore TidyTuesday data in R!</li>
-<li>Python: Add the #PydyTuesday hashtag so that Posit has the chance to highlight your work, too!</li>
-<li>Julia: Add the #TidierTuesday hashtag if you want the <a href="https://github.com/TidierOrg">Tidier Org</a> to share your visuals!</li>
-</ul></li>
-</ul>
-<p><strong>You can also <a href="./pr_instructions.html">curate a dataset for a future TidyTuesday</a>!</strong></p>
-<hr>
-</section>
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">DataSets</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"><a href="./data/2018/readme.html">2018</a> | <a href="./data/2019/readme.html">2019</a> | <a href="./data/2020/readme.html">2020</a> | <a href="./data/2021/readme.html">2021</a> | <a href="./data/2022/readme.html">2022</a> | <a href="./data/2023/readme.html">2023</a> | <a href="./data/2024/readme.html">2024</a> | <a href="./data/2025/readme.html">2025</a> | <a href="./data/2026/readme.html">2026</a></h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: right;">Week</th>
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Data</th>
-<th style="text-align: left;">Source</th>
-<th style="text-align: left;">Article</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">2026-01-06</td>
-<td style="text-align: left;">Bring your own data to start the year!</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">2026-01-13</td>
-<td style="text-align: left;"><a href="./data/2026/2026-01-13/readme.html">The Languages of Africa</a></td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Languages_of_Africa">Languages of Africa</a></td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Languages_of_Africa">Languages of Africa</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">2026-01-20</td>
-<td style="text-align: left;"><a href="./data/2026/2026-01-20/readme.html">Astronomy Picture of the Day (APOD) Archive</a></td>
-<td style="text-align: left;"><a href="https://api.nasa.gov/">NASA API</a></td>
-<td style="text-align: left;"><a href="https://apod.nasa.gov/apod/astropix.html">Astronomy Picture of the Day</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">2026-01-27</td>
-<td style="text-align: left;"><a href="./data/2026/2026-01-27/readme.html">Brazilian Companies</a></td>
-<td style="text-align: left;"><a href="https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-12/">Open data CNPJ - December 2025</a></td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List_of_largest_Brazilian_companies">Wikipedia’s List of largest Brazilian companies</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">2026-02-03</td>
-<td style="text-align: left;"><a href="./data/2026/2026-02-03/readme.html">Edible Plants Database</a></td>
-<td style="text-align: left;"><a href="https://discovery.dundee.ac.uk/en/datasets/edible-plant-database/">Edible Plant Database</a></td>
-<td style="text-align: left;"><a href="https://www.dundee.ac.uk/projects/grow-observatory">GROW Observatory</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">2026-02-10</td>
-<td style="text-align: left;"><a href="./data/2026/2026-02-10/readme.html">The 2026 Winter Olympics!</a></td>
-<td style="text-align: left;"><a href="https://raw.githubusercontent.com/chendaniely/olympics-2026/refs/heads/main/data/final/olympics/olympics_events.csv">Milano-Cortina 2026 Winter Olympics Data</a></td>
-<td style="text-align: left;"><a href="https://www.olympics.com/en/milano-cortina-2026/schedule">Olympics Schedule and Results</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">2026-02-17</td>
-<td style="text-align: left;"><a href="./data/2026/2026-02-17/readme.html">Agricultural Production Statistics in New Zealand</a></td>
-<td style="text-align: left;"><a href="https://figure.nz/table/TSQ8lkuKnyzfERF3">Figure.NZ</a></td>
-<td style="text-align: left;"><a href="https://www.rnz.co.nz/news/country/560252/gap-between-people-and-sheep-rapidly-closing">Gap between people and sheep rapidly closing</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">2026-02-24</td>
-<td style="text-align: left;"><a href="./data/2026/2026-02-24/readme.html">Science Foundation Ireland Grants Commitments</a></td>
-<td style="text-align: left;"><a href="https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments">Science Foundation Ireland Historical Grants Commitments</a></td>
-<td style="text-align: left;"><a href="https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments">Science Foundation Ireland Historical Grants Commitments</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">2026-03-03</td>
-<td style="text-align: left;"><a href="./data/2026/2026-03-03/readme.html">Golem Grad Tortoise Data</a></td>
-<td style="text-align: left;"><a href="https://figshare.com/articles/journal_contribution/Sex_ratio_bias_triggers_demographic_suicide_in_a_dense_tortoise_population/30752687">Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population</a></td>
-<td style="text-align: left;"><a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.70296">Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">2026-03-10</td>
-<td style="text-align: left;"><a href="./data/2026/2026-03-10/readme.html">How likely is ‘likely’?</a></td>
-<td style="text-align: left;"><a href="https://github.com/adamkucharski/CAPphrase">Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055</a></td>
-<td style="text-align: left;"><a href="https://adamkucharski.github.io/CAPphrase/">Comparative and Absolute Probability Phrases</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">11</td>
-<td style="text-align: left;">2026-03-17</td>
-<td style="text-align: left;"><a href="./data/2026/2026-03-17/readme.html">Salmonid Mortality Data</a></td>
-<td style="text-align: left;"><a href="https://apps.vetinst.no/laksetap/">Norwegian Veterinary Institute</a></td>
-<td style="text-align: left;"><a href="https://www.vetinst.no/arrangementer/lansering-av-fiskehelserapporten-2026">Launch of the Fish Health Report (in Norwegian)</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">2026-03-24</td>
-<td style="text-align: left;"><a href="./data/2026/2026-03-24/readme.html">One Million Digits of Pi</a></td>
-<td style="text-align: left;"><a href="https://github.com/eneko/Pi/blob/master/one-million.txt">One Million Digits of Pi (Eve Andersson collection)</a></td>
-<td style="text-align: left;"><a href="https://www.jpl.nasa.gov/edu/news/how-many-decimals-of-pi-do-we-really-need/">How Many Decimals of Pi Do We Really Need?</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">13</td>
-<td style="text-align: left;">2026-03-31</td>
-<td style="text-align: left;"><a href="./data/2026/2026-03-31/readme.html">Coastal Ocean Temperature by Depth</a></td>
-<td style="text-align: left;"><a href="https://data.novascotia.ca/Nature-and-Environment/Lunenburg-County-Water-Quality-Data/eda5-aubu/about_data">Lunenburg County Water Quality Data</a></td>
-<td style="text-align: left;"><a href="https://data.novascotia.ca/stories/s/a25g-piws">Understanding Complex Data: Coastal Monitoring</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">14</td>
-<td style="text-align: left;">2026-04-07</td>
-<td style="text-align: left;"><a href="./data/2026/2026-04-07/readme.html">Repair Cafes Worldwide</a></td>
-<td style="text-align: left;"><a href="https://dashboard.repairmonitor.org/?language=en">Repair Monitor</a></td>
-<td style="text-align: left;"><a href="https://insideclimatenews.org/news/11112025/todays-climate-repair-cafe-consumer-waste/">A growing number of ‘Repair Cafes’ are popping up around the world to curb consumer waste</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">15</td>
-<td style="text-align: left;">2026-04-14</td>
-<td style="text-align: left;"><a href="./data/2026/2026-04-14/readme.html">Bird Sightings at Sea</a></td>
-<td style="text-align: left;"><a href="https://catalogue.data.govt.nz/dataset/at-sea-observations-of-seabirds-1969-to-1990">At-Sea Observations of Seabirds 1969 to 1990</a></td>
-<td style="text-align: left;"><a href="https://obis.org/dataset/29ea15ed-8f76-40ca-bd14-58c62e10b2ef">At-Sea Observations of Seabirds 1969 to 1990, Tasman Sea, New Zealand and Australian waters</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">16</td>
-<td style="text-align: left;">2026-04-21</td>
-<td style="text-align: left;"><a href="./data/2026/2026-04-21/readme.html">Global Health Spending</a></td>
-<td style="text-align: left;"><a href="https://apps.who.int/nha/database">WHO Global Health Expenditure Database (GHED)</a></td>
-<td style="text-align: left;"><a href="https://data.one.org/analysis/out-of-pocket-health-burden">Out-of-Pocket Health Burden Remains High</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">17</td>
-<td style="text-align: left;">2026-04-28</td>
-<td style="text-align: left;"><a href="./data/2026/2026-04-28/readme.html">US Agricultural Tariffs</a></td>
-<td style="text-align: left;"><a href="https://dataweb.usitc.gov/tariff/annual">DataWeb: Annual Tariff Data</a></td>
-<td style="text-align: left;"><a href="https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480">The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">18</td>
-<td style="text-align: left;">2026-05-05</td>
-<td style="text-align: left;"><a href="./data/2026/2026-05-05/readme.html">Italian industrial production</a></td>
-<td style="text-align: left;"><a href="https://seriestoriche.istat.it/index.php?id=1&amp;no_cache=1&amp;L=1&amp;tx_usercento_centofe%5Bcategoria%5D=44&amp;tx_usercento_centofe%5Baction%5D=show&amp;tx_usercento_centofe%5Bcontroller%5D=Categoria&amp;cHash=8a65478a9f8d5ddd079041fd1d696b05">Industrial production volume</a></td>
-<td style="text-align: left;"><a href="https://seriestoriche.istat.it/fileadmin/documenti/14_History_Industry.pdf">History of Italian Industrial Data</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">19</td>
-<td style="text-align: left;">2026-05-12</td>
-<td style="text-align: left;"><a href="./data/2026/2026-05-12/readme.html">Twinned Cities</a></td>
-<td style="text-align: left;"><a href="https://query.wikidata.org/">Wikidata Query Service</a></td>
-<td style="text-align: left;"><a href="https://bothness.github.io/twin-cities/">Twin Cities Explorer</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">20</td>
-<td style="text-align: left;">2026-05-19</td>
-<td style="text-align: left;"><a href="./data/2026/2026-05-19/readme.html">State of Crossref metadata by member country</a></td>
-<td style="text-align: left;"><a href="https://zenodo.org/records/19928426">State of Crossref metadata by member country</a></td>
-<td style="text-align: left;"><a href="https://doi.org/10.64000/7s70g-drz77">2026 public data file now available (Crossref blog)</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">21</td>
-<td style="text-align: left;">2026-05-26</td>
-<td style="text-align: left;"><a href="./data/2026/2026-05-26/readme.html">Sustainable Energy for All</a></td>
-<td style="text-align: left;"><a href="https://energydata.info/dataset/se4all-database/resource/f779714e-d97f-4f57-a61f-057f5496d06f">SE4ALL Database</a></td>
-<td style="text-align: left;"><a href="https://energydata.info/dataset/dashboard/se4all-database">SE4ALL Database</a></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-</section>
-<section id="citing-tidytuesday" class="level2">
-<h2 class="anchored" data-anchor-id="citing-tidytuesday">Citing TidyTuesday</h2>
-<p>To cite the <strong>TidyTuesday</strong> repo/project in publications use:</p>
-<p>Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project. https://tidytues.day</p>
-<p>A BibTeX entry for LaTeX users is</p>
-<pre><code>  @misc{tidytuesday, 
-    title = {Tidy Tuesday: A weekly social data project}, 
-    author = {Data Science Learning Community}, 
-    url = {https://tidytues.day}, 
-    year = {2024} 
-  }</code></pre>
-<hr>
-</section>
-<section id="contributing" class="level2">
-<h2 class="anchored" data-anchor-id="contributing">Contributing</h2>
-<p>Please see our <a href="./CONTRIBUTING.html">contributing guide</a> for ways that you can help!</p>
+<section id="creating-the-sample-plot" class="level2">
+<h2 class="anchored" data-anchor-id="creating-the-sample-plot">Creating the sample plot</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyplots)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># framing: of 3 windy countries, which one has consumed the most wind power?</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># A quick Google search suggested Denmark, Ireland, and Norway</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>target_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Denmark"</span>, <span class="st">"Ireland"</span>, <span class="st">"Norway"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>the_windies <span class="ot">&lt;-</span> energy_cleaned <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>(country_name <span class="sc">%in%</span> target_countries) <span class="sc">|&gt;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>country_name,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>yr,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>wind_energy_consumption_tfec_pct</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>the_windies <span class="ot">&lt;-</span> the_windies <span class="sc">|&gt;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">yr =</span> <span class="fu">as.numeric</span>(yr))</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># creating the plot</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>sample_plot <span class="ot">&lt;-</span> the_windies <span class="sc">|&gt;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">tidyplot</span>(<span class="at">x =</span> yr, <span class="at">y =</span> wind_energy_consumption_tfec_pct, <span class="at">color =</span> country_name, <span class="at">fill =</span> country_name) <span class="sc">|&gt;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">add</span>(</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>ggplot2<span class="sc">::</span><span class="fu">geom_area</span>(<span class="at">position =</span> <span class="st">"identity"</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_x_axis_title</span>(<span class="st">"Year"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_y_axis_title</span>(<span class="st">"Wind energy consumption (% in TFEC)"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">add_title</span>(<span class="st">"Wind Power Consumed by Population and Industry (%)"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">add_caption</span>(<span class="st">"Denmark and Ireland maintained an upward trend upto 2010, but</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="st">Norway's consumption **levels out from 2007**."</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_size</span>(<span class="at">width =</span> <span class="dv">140</span>, <span class="at">height =</span> <span class="dv">120</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_tidyplot</span>() <span class="sc">+</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">theme</span>(</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"roboto"</span>,<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">vjust =</span> <span class="dv">10</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">10</span>)),</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">r =</span> <span class="dv">18</span>)),</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">18</span>)),</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="at">axis.text.x  =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>),</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="at">axis.text.y  =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>),</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="at">plot.caption =</span> <span class="fu">element_markdown</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">20</span>), <span class="at">lineheight =</span> <span class="fl">1.5</span>),</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">9</span>)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#009e73"</span>, <span class="st">"#56b4e9"</span>, <span class="st">"#d55e00"</span>)) <span class="sc">+</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#009e73"</span>, <span class="st">"#56b4e9"</span>, <span class="st">"#d55e00"</span>))</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># saving the plot image</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="st">"sample_plot.png"</span>,</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>sample_plot,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="at">width =</span> <span class="dv">10</span>,</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="at">height =</span> <span class="dv">8</span>,</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="at">limitsize =</span> <span class="cn">FALSE</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
