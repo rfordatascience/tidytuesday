@@ -148,3 +148,4 @@ energy_cleaned <- energy_clean |>
     wind_energy_consumption_tfec_pct = `Wind energy consumption (% in TFEC)`,
     wind_energy_consumption_terajoules = `Wind energy consumption (TJ)`
     )
+
