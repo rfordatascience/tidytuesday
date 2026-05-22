@@ -60,6 +60,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   19|2026-05-12 |[Twinned Cities](data/2026/2026-05-12/readme.md)  |[Wikidata Query Service](https://query.wikidata.org/)                                                            |[Twin Cities Explorer](https://bothness.github.io/twin-cities/)                             |
 |   20|2026-05-19 |[State of Crossref metadata by member country](data/2026/2026-05-19/readme.md)|[State of Crossref metadata by member country](https://zenodo.org/records/19928426)                              |[2026 public data file now available (Crossref blog)](https://doi.org/10.64000/7s70g-drz77) |
 |   21|2026-05-26 |[Sustainable Energy for All](data/2026/2026-05-26/readme.md)|[SE4ALL Database](https://energydata.info/dataset/se4all-database/resource/f779714e-d97f-4f57-a61f-057f5496d06f) |[SE4ALL Database](https://energydata.info/dataset/dashboard/se4all-database)                |
+|   22|2026-06-02 |[European Parenting Leave Policies](data/2026/2026-06-02/readme.md)|[The European Parenting Leave Policies (EPLP) Dataset](https://zenodo.org/records/17648712)                      |[The European Parenting Leave Policies (EPLP) Dataset](https://eplp-dataset.org/)           |
 
 ***  
 
