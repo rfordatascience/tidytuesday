@@ -26,7 +26,7 @@ If the dataset is approved, a maintainer will comment with `/assign`. This trigg
    - A credit line: `"Thank you to {credit} for curating this week's dataset."` (from `meta.yaml`'s `credit.post` / `credit.github`).
    - The data dictionaries from the `{dataset}.md` files.
    - The contents of `cleaning.R` / `cleaning.py` / `cleaning.jl`.
-3. The year-level and main `README.md` are updated with the new dataset entry.
+3. The year-level `data/{year}/readme.md` and main `README.md` are updated with the new dataset entry.
 
 ## Automated Checks
 
