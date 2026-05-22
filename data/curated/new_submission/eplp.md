@@ -1,6 +1,6 @@
 |variable           |class     |description                           |
 |:------------------|:---------|:-------------------------------------|
-|country            |character |Country name. |
+|country            |character |Two-letter country code. |
 |year               |double    |Year. |
 |mat_m_ld_bb        |double    |Mandatory maternity leave duration before birth. |
 |mat_m_ld_ab        |double    |Mandatory maternity leave duration after birth. |
