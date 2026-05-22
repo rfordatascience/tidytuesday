@@ -1,6 +1,6 @@
 # TidyTuesday Dataset Submission Review Instructions
 
-This file tells GitHub Copilot how to review pull requests that submit new TidyTuesday datasets.
+This file contains instructions for how to review pull requests that submit new TidyTuesday datasets.
 
 ## What a Dataset Submission Looks Like
 
@@ -9,7 +9,6 @@ Submissions live in a new folder under `data/curated/` (there should be exactly 
 | File | Description |
 |------|-------------|
 | `cleaning.R` (or `cleaning.py` / `cleaning.jl`) | Code to download and clean the data |
-| `saving.R` | Script used to write CSVs and generate data dictionaries (R submissions only) |
 | `{dataset}.csv` | One or more tidy CSV data files (each < 20 MB) |
 | `{dataset}.md` | Data dictionary for each corresponding CSV |
 | `intro.md` | A short introduction to the dataset (a paragraph or two) |
@@ -18,7 +17,7 @@ Submissions live in a new folder under `data/curated/` (there should be exactly 
 
 ## How Submissions Are Processed
 
-When a maintainer runs `/assign` on the PR:
+If the dataset is approved, a maintainer will comment with `/assign`. This triggers a workflow on the PR:
 
 1. `.github/workflows/pr-assign-command.yaml` triggers `.github/scripts/assign_week.R`.
 2. `assign_week.R` reads `meta.yaml`, copies files to `data/{year}/{date}/`, and builds `readme.md` by combining:
@@ -31,7 +30,7 @@ When a maintainer runs `/assign` on the PR:
 
 ## Automated Checks
 
-Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.github/scripts/check_curated.R` (sourcing `.github/scripts/check_functions.R`). Results appear in a **"TidyTuesday Submission Check"** comment on the PR. A failure does **not** automatically mean the dataset should be rejected — for example, URLs may block bots while still being reachable by humans — but each flagged item deserves a closer look.
+Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.github/scripts/check_curated.R` (sourcing `.github/scripts/check_functions.R`). Results appear in a **"TidyTuesday Submission Check"** comment on the PR. A failure does **not** automatically mean the dataset should be rejected, but each flagged item deserves a closer look.
 
 The automated checks verify:
 - Exactly one submission folder is present under `data/curated/`.
@@ -39,7 +38,7 @@ The automated checks verify:
 - At least one `*.png` image is present.
 - Each `*.csv` has a matching `*.md` data dictionary.
 - All CSV files are valid UTF-8.
-- The `article` and `data_source` URLs in `meta.yaml` are reachable.
+- The `article` and `data_source` URLs in `meta.yaml` are reachable. This check is *not* an automatic ground to reject the dataset (URLs may block bots while still being reachable by humans).
 - Images listed in `meta.yaml` exist, are within the Bluesky file-size limit (~976 KB), and within the Mastodon megapixel limit (8.3 MP).
 - Alt text for images is 1000 characters or fewer (Mastodon limit).
 
@@ -53,9 +52,9 @@ When reviewing a dataset submission PR, check the following:
 
 ### `meta.yaml`
 - [ ] `title` is descriptive and fits the sentence "This week we're exploring {title}!".
-- [ ] `article.url` and `data_source.url` are present and publicly accessible.
-- [ ] The `images` section lists at least one PNG; each entry has a `file` and an `alt` field.
-- [ ] Alt text is in sentence case, acts as a *replacement* for the image (not just a caption), and is 1000 characters or fewer.
+- [ ] `article.url` and `data_source.url` are present and publicly accessible. If you are not able to verify this, ask a maintainer to verify these URLs.
+- [ ] The `images` section lists at least one PNG (which is also present in this submission); each entry has a `file` and an `alt` field.
+- [ ] Alt text is in sentence case, and is 1000 characters or fewer, and serves as a *replacement* for the image (e.g. "A bar chart showing widgets produced per country in 1997. Peru has the largest value with 27 widgets, Kenya has the second largest value at 24, and other countries are evenly distributed down to the United States with only 3 widgets."), not simply a description of the image (e.g. "A bar chart of countries and widgets."). If you are able to evaluate the image, do so to assess the alt text. If not, still assess the alt text as described here.
 - [ ] The `credit` block is filled in. The submitter will be automatically thanked with the line `"Thank you to {credit.post} for curating this week's dataset."` If anyone else is thanked in `intro.md`, check that it won't produce awkward or duplicate acknowledgements alongside the auto-generated credit line.
 
 ### CSV files vs. data dictionaries (`{dataset}.md`)
@@ -67,7 +66,7 @@ When reviewing a dataset submission PR, check the following:
 - [ ] Each description makes sense given the column name and a sample of its values.
 
 ### `cleaning.R` / `cleaning.py` / `cleaning.jl`
-- [ ] The script can plausibly be run to reproduce the CSV files from their original source.
+- [ ] The script can plausibly be run to reproduce the CSV files from their original source. You should *not* actually execute this code, though.
 - [ ] If fetching from GitHub, the raw URL is used.
 - [ ] Data frames are given descriptive names (e.g. `players`, `teams`; not `df1`, `df2`).
 
@@ -101,7 +100,7 @@ Check for:
 ## Helpful Files and References
 
 - `pr_instructions.md` — submission instructions for contributors (R-focused; the same logic applies using `cleaning.py` or `cleaning.jl` for Python/Julia submissions).
-- `data/curated/template/` — the template folder that submitters copy and edit.
+- `data/curated/template/` — the template folder that submitters can copy and edit.
 - `.github/scripts/check_curated.R` and `.github/scripts/check_functions.R` — automated check logic.
 - `.github/scripts/assign_week.R` — the script that processes accepted submissions (sources `parse_readme.R`, `dates.R`, and `metadata.R`).
 - `.github/pull_request_template.md` — the checklist contributors are asked to complete before submitting.
