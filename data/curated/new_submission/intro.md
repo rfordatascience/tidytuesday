@@ -7,9 +7,7 @@ This week we're exploring Sustainable Energy for all! Beyond the raw metrics, th
 Some questions to get you going:  
 
 * Which countries have the lowest capacity for solar energy?    
-* What form of renewable energy has , on average, experienced the fasted rate of adoption?
-
-&nbsp;  
+* What form of renewable energy has, on average, experienced the fasted rate of adoption?
 
 ## Creating the sample plot
 ```r
