@@ -4,7 +4,7 @@ This file contains instructions for how to review pull requests that submit new 
 
 ## What a Dataset Submission Looks Like
 
-Submissions live in a new folder under `data/curated/` (there should be exactly one such folder, not counting `data/curated/template`). That folder must contain:
+Submissions live in a new folder under `data/curated/`. There should be exactly one such folder, not counting `data/curated/template`. Any name (other than `template`) is acceptable for that folder. That folder must contain:
 
 | File | Description |
 |------|-------------|
