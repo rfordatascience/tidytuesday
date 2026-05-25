@@ -4,7 +4,8 @@ The dataset this week comes from the Wikipedia article [List of films based on v
 
 Some questions worth exploring:
 
-- How has the critical reception (Rotten Tomatoes, Metacritic) of video game adaptations changed over time?
+- Which video game franchise has generated the most film adaptations, and
+  which has earned the most at the box office?
 - Which video game publishers have the most film adaptations, and how have they performed at the box office?
-- Is there a relationship between production budget and box office gross for theatrical releases?
-- Which categories (theatrical, direct-to-video, anime) dominate the landscape of video game adaptations?
+- Do audiences and critics agree? Compare CinemaScore grades against
+  Rotten Tomatoes scores.
