@@ -1,0 +1,17 @@
+title: "Films Based on Video Games"
+article:
+  title: "List of films based on video games"
+  url: "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games"
+data_source:
+  title: "Wikipedia"
+  url: "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games"
+images:
+# Please include at least one image, and up to three images
+- file: "image.png"
+  alt: >
+    A ranked list of the top 10 highest-grossing video game film adaptations, with The Super Mario Bros. Movie at #1 with $1.36B, followed by Detective Pikachu at $450M and Warcraft at $439M.
+credit:
+  post: "Georgios Karamanis"
+  github: "@gkaramanis"
+  bluesky: "@karaman.is"
+  linkedin: "georgios-karamanis-a54926153"
