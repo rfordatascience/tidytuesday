@@ -9,3 +9,4 @@ Some questions worth exploring:
 - Which video game publishers have the most film adaptations, and how have they performed at the box office?
 - Do audiences and critics agree? Compare CinemaScore grades against
   Rotten Tomatoes scores.
+
