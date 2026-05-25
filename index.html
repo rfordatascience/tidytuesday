@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6417478169390d5200ae675d66b5a4f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -230,8 +230,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#state-of-crossref-metadata-by-member-country" id="toc-state-of-crossref-metadata-by-member-country" class="nav-link active" data-scroll-target="#state-of-crossref-metadata-by-member-country">State of Crossref metadata by member country</a>
+  <li><a href="#sustainable-energy-for-all" id="toc-sustainable-energy-for-all" class="nav-link active" data-scroll-target="#sustainable-energy-for-all">Sustainable Energy for All</a>
   <ul class="collapse">
+  <li><a href="#creating-the-sample-plot" id="toc-creating-the-sample-plot" class="nav-link" data-scroll-target="#creating-the-sample-plot">Creating the sample plot</a></li>
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
   <ul class="collapse">
@@ -239,8 +240,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#member_participation_stats_by_country.csv" id="toc-member_participation_stats_by_country.csv" class="nav-link" data-scroll-target="#member_participation_stats_by_country.csv"><code>member_participation_stats_by_country.csv</code></a></li>
-  <li><a href="#metadata_coverage_stats_by_country.csv" id="toc-metadata_coverage_stats_by_country.csv" class="nav-link" data-scroll-target="#metadata_coverage_stats_by_country.csv"><code>metadata_coverage_stats_by_country.csv</code></a></li>
+  <li><a href="#energy_cleaned.csv" id="toc-energy_cleaned.csv" class="nav-link" data-scroll-target="#energy_cleaned.csv"><code>energy_cleaned.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -253,71 +253,118 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="state-of-crossref-metadata-by-member-country" class="level1">
-<h1>State of Crossref metadata by member country</h1>
-<p><a href="https://www.crossref.org/">Crossref</a> is a central pillar of the global research ecosystem, running open infrastructure to create a lasting and reusable scholarly record that underpins open science. While many of us know Crossref for providing Digital Object Identifiers (DOIs), they also maintain a massive repository of metadata, which is the essential data <em>about</em> research that makes it discoverable, linkable, and reusable.</p>
-<p>This dataset provides a granular look at how that metadata was populated across the globe from December 2018 to April 2026 (with monthly granularity beginning in January 2025). It is split into two files:</p>
-<ul>
-<li><strong>Member participation statistics by country:</strong> A look at the Crossref members registering DOIs, broken down by region and country, highlighting the geographical diversity of the publishing community.</li>
-<li><strong>Metadata coverage statistics:</strong> A look at metadata completion at the level of individual outputs, also broken down by region and country, and also by content type. This details the connectedness of research, including adoption metrics for citations, funding, ORCID IDs, and ROR IDs.</li>
-</ul>
-<p>By analyzing these files, you can explore themes of global research equity, the adoption of modern publishing standards, and the varying levels of metadata richness across different corners of the world.</p>
+<section id="sustainable-energy-for-all" class="level1">
+<h1>Sustainable Energy for All</h1>
+<p>This week we’re exploring Sustainable Energy for all! Beyond the raw metrics, this dataset offers a window into how nations are balancing growth with green initiatives, challenging us to visualize the actual momentum behind the global energy transition.</p>
 <blockquote class="blockquote">
-<p>By shifting the lens from global aggregates to country-level insights, this dataset provides a new look at the global landscape of scholarly communication. It serves as a critical benchmark for Crossref’s Research Nexus vision — the creation of a rich, reusable open network of relationships connecting research organizations, people, and actions — enabling the community to track progress toward a more transparent and interconnected global research record.</p>
+<p>The “<strong>Sustainable Energy for all</strong> (<strong>SE4ALL</strong>)” initiative, launched in 2010 by the UN Secretary General, established three global objectives to be accomplished by 2030: to ensure universal access to modern energy services, to double the global rate of improvement in global energy efficiency, and to double the share of renewable energy in the global energy mix. SE4ALL database supports this initiative and provides country level historical data for access to electricity and non-solid fuel; share of renewable energy in total final energy consumption by technology; and energy intensity rate of improvement.</p>
 </blockquote>
+<p>Some questions to get you going:</p>
 <ul>
-<li>Which countries or regions show the fastest growth in metadata “richness” over time?</li>
-<li>How does the connectedness of research vary across different work types within a single country?</li>
-<li>Which regions are leading the way in adopting the Research Nexus vision?</li>
+<li>Which countries have the lowest capacity for solar energy?<br>
+</li>
+<li>What form of renewable energy has, on average, experienced the fasted rate of adoption?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/bedard-valleea">Alexandre Bédard-Vallée</a> from <a href="https://github.com/crossref">Crossref</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/afrikaniz3d-za">Ntobeko Sosibo, Data Analyst and CG Hobbyist</a> for curating this week’s dataset.</p>
+<section id="creating-the-sample-plot" class="level2">
+<h2 class="anchored" data-anchor-id="creating-the-sample-plot">Creating the sample plot</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyplots)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># framing: of 3 windy countries, which one has consumed the most wind power?</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># A quick Google search suggested Denmark, Ireland, and Norway</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>target_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Denmark"</span>, <span class="st">"Ireland"</span>, <span class="st">"Norway"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>the_windies <span class="ot">&lt;-</span> energy_cleaned <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>(country_name <span class="sc">%in%</span> target_countries) <span class="sc">|&gt;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>country_name,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>yr,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>wind_energy_consumption_tfec_pct</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>the_windies <span class="ot">&lt;-</span> the_windies <span class="sc">|&gt;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">yr =</span> <span class="fu">as.numeric</span>(yr))</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># creating the plot</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>sample_plot <span class="ot">&lt;-</span> the_windies <span class="sc">|&gt;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">tidyplot</span>(<span class="at">x =</span> yr, <span class="at">y =</span> wind_energy_consumption_tfec_pct, <span class="at">color =</span> country_name, <span class="at">fill =</span> country_name) <span class="sc">|&gt;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">add</span>(</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>ggplot2<span class="sc">::</span><span class="fu">geom_area</span>(<span class="at">position =</span> <span class="st">"identity"</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_x_axis_title</span>(<span class="st">"Year"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_y_axis_title</span>(<span class="st">"Wind energy consumption (% in TFEC)"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">add_title</span>(<span class="st">"Wind Power Consumed by Population and Industry (%)"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">add_caption</span>(<span class="st">"Denmark and Ireland maintained an upward trend upto 2010, but</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="st">Norway's consumption **levels out from 2007**."</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">adjust_size</span>(<span class="at">width =</span> <span class="dv">140</span>, <span class="at">height =</span> <span class="dv">120</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_tidyplot</span>() <span class="sc">+</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">theme</span>(</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"roboto"</span>,<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">vjust =</span> <span class="dv">10</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">10</span>)),</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">r =</span> <span class="dv">18</span>)),</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">18</span>)),</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="at">axis.text.x  =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>),</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="at">axis.text.y  =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>),</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="at">plot.caption =</span> <span class="fu">element_markdown</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">20</span>), <span class="at">lineheight =</span> <span class="fl">1.5</span>),</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">9</span>)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#009e73"</span>, <span class="st">"#56b4e9"</span>, <span class="st">"#d55e00"</span>)) <span class="sc">+</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#009e73"</span>, <span class="st">"#56b4e9"</span>, <span class="st">"#d55e00"</span>))</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># saving the plot image</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="st">"sample_plot.png"</span>,</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>sample_plot,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="at">width =</span> <span class="dv">10</span>,</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="at">height =</span> <span class="dv">8</span>,</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="at">limitsize =</span> <span class="cn">FALSE</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-05-19'</span>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">20</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>member_participation_stats_by_country</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>metadata_coverage_stats_by_country</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv'</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-05-19'</span>)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-05-26'</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">21</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>energy_cleaned</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-26/energy_cleaned.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-05-19"</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-05-26'</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv"</span>, DataFrame)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-26/energy_cleaned.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-05-26"</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-26/energy_cleaned.csv"</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-26/energy_cleaned.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -338,9 +385,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="member_participation_stats_by_country.csv" class="level3">
-<h3 class="anchored" data-anchor-id="member_participation_stats_by_country.csv"><code>member_participation_stats_by_country.csv</code></h3>
+<section id="energy_cleaned.csv" class="level3">
+<h3 class="anchored" data-anchor-id="energy_cleaned.csv"><code>energy_cleaned.csv</code></h3>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 3%">
+<col style="width: 75%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">variable</th>
@@ -350,378 +402,264 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">current_up_to</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">The latest DOI submission date that was taken into account when computing statistics. All Crossref works submitted or updated until this date are accounted for in these statistics.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">region_id</td>
+<td style="text-align: left;">country_name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Three-letter code identifying the region the member is located in. These codes are sourced from the <a href="https://esgdata.worldbank.org/about/faq?lang=en">World Bank taxonomy</a>.</td>
+<td style="text-align: left;">Name of country.</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">iso3_code</td>
+<tr class="even">
+<td style="text-align: left;">country_code</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Three-letter code identifying the country the member is located in. These codes are sourced from the ISO 3166-1 alpha-3 taxonomy.</td>
+<td style="text-align: left;">Three-letter country code defined by the International Organization for Standardization (ISO) to represent countries, dependent territories, and special areas of geographical interest.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">yr</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The year.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">total_members</td>
+<td style="text-align: left;">access_non_solid_fuel_rural_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members with at least one registered DOI.</td>
+<td style="text-align: left;">Percentage of rural population with access to Non-Solid fuel like Natural Gas, LPG, Electricity, and Ethanol.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_ref</td>
+<td style="text-align: left;">access_non_solid_fuel_total_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with references.</td>
+<td style="text-align: left;">Percentage of total population with access to Non-Solid fuel like Natural Gas, LPG, Electricity, and Ethanol.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_abstract</td>
+<td style="text-align: left;">access_non_solid_fuel_urban_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an abstract.</td>
+<td style="text-align: left;">Percentage of urban population with access to Non-Solid fuel like Natural Gas, LPG, Electricity, and Ethanol.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_license</td>
+<td style="text-align: left;">access_electricity_rural_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with <a href="https://www.crossref.org/documentation/principles-practices/best-practices/license/">license metadata</a>.</td>
+<td style="text-align: left;">Percentage of rural population with access to electricity.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_crossmark</td>
+<td style="text-align: left;">access_electricity_total_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://www.crossref.org/documentation/crossmark/crossmark-policy-page/">Crossmark update policy</a>.</td>
+<td style="text-align: left;">Percentage of total population with access to electricity.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_updates</td>
+<td style="text-align: left;">access_electricity_urban_pop_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one <a href="https://www.crossref.org/documentation/register-maintain-records/maintaining-your-metadata/registering-updates/">update record</a>.</td>
+<td style="text-align: left;">Percentage of urban population with access to electricity.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_textmining</td>
+<td style="text-align: left;">biogas_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with text-mining information.</td>
+<td style="text-align: left;">Percentage of energy that was Biogas consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_status_info</td>
+<td style="text-align: left;">biogas_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with preprint status information.</td>
+<td style="text-align: left;">Terajoules of Biogas energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">acknowledges_funding</td>
+<td style="text-align: left;">divisia_decomp_analysis_activity_component_index</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with funding metadata.</td>
+<td style="text-align: left;">Changes in energy use caused by the size of the economy.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_funder_id</td>
+<td style="text-align: left;">divisia_decomp_analysis_energy_intensity_component_index</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work acknowledging a <a href="https://www.crossref.org/services/funder-registry/">funder ID</a>.</td>
+<td style="text-align: left;">Changes caused by efficiency.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_grant_id</td>
+<td style="text-align: left;">divisia_decomp_analysis_structure_component_index</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://www.crossref.org/documentation/research-nexus/grants/">grant ID</a>.</td>
+<td style="text-align: left;">Changes caused by shifts in the economy.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_orcid</td>
+<td style="text-align: left;">energy_intensity_level_final_energy_megajoules_per_usd_2005_ppp</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an <a href="https://orcid.org/">ORCID ID</a>.</td>
+<td style="text-align: left;">Purchasing Power Parity for comparing final energy Megajoules per 2005 Dollar needed by other sectors to produce 1 dollar of GDP (adjusted to 2005 prices) with other countries .</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_orcid_for_authors</td>
+<td style="text-align: left;">energy_intensity_level_primary_energy_megajoules_per_usd_2005_ppp</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for an author.</td>
+<td style="text-align: left;">Purchasing Power Parity for comparing primary energy Megajoules per 2005 Dollar needed by other sectors to produce 1 dollar of GDP (adjusted to 2005 prices) with other countries .</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_orcid_for_chairs</td>
+<td style="text-align: left;">energy_intensity_agricultural_sector_megajoules_per_usd_2005</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for a chair.</td>
+<td style="text-align: left;">Megajoules per 2005 Dollar needed by agricultural sector to produce 1 dollar of GDP (adjusted to 2005 prices).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_orcid_for_editors</td>
+<td style="text-align: left;">energy_intensity_industrial_sector_megajoules_per_usd_2005</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for an editor.</td>
+<td style="text-align: left;">Megajoules per 2005 Dollar needed by industrial sector to produce 1 dollar of GDP (adjusted to 2005 prices).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_orcid_for_translators</td>
+<td style="text-align: left;">energy_intensity_other_sectors_megajoules_per_usd_2005</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with an ORCID ID for a translator.</td>
+<td style="text-align: left;">Megajoules per 2005 Dollar needed by other sectors to produce 1 dollar of GDP (adjusted to 2005 prices).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_ror_id</td>
+<td style="text-align: left;">energy_savings_primary_energy_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a <a href="https://ror.org/">ROR ID</a>.</td>
+<td style="text-align: left;">Terajoules of primary energy savings.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_ror_id_for_affiliations</td>
+<td style="text-align: left;">final_to_primary_energy_ratio_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for an affiliation.</td>
+<td style="text-align: left;">Percentage ratio of final energy to primary energy.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">deposits_ror_id_for_funders</td>
+<td style="text-align: left;">geothermal_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for a funder.</td>
+<td style="text-align: left;">Percentage of energy that was Geothermal consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">deposits_ror_id_for_institutions</td>
+<td style="text-align: left;">geothermal_energy_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of members that have deposited at least one work with a ROR ID for an institution.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="metadata_coverage_stats_by_country.csv" class="level3">
-<h3 class="anchored" data-anchor-id="metadata_coverage_stats_by_country.csv"><code>metadata_coverage_stats_by_country.csv</code></h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">current_up_to</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">The latest DOI submission date that was taken into account when computing statistics. All Crossref works submitted or updated until this date are accounted for in these statistics.</td>
+<td style="text-align: left;">Terajoules of Geothermal energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">region_id</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Three-letter code identifying the region the registering members are located in. These codes are sourced from the <a href="https://esgdata.worldbank.org/about/faq?lang=en">World Bank taxonomy</a>.</td>
+<td style="text-align: left;">hydro_energy_consumption_tfec_pct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Percentage of energy that was Hydro consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">iso3_code</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Three-letter code identifying the country the registering members are located in. These codes are sourced from the ISO 3166-1 alpha-3 taxonomy.</td>
+<td style="text-align: left;">hydro_energy_consumption_terajoules</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Terajoules of Hydro energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">document_type</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The type of work. Based off the <code>type</code> field of the <a href="https://api.crossref.org/types">Crossref REST API</a>, with book types () merged under <code>book</code>.</td>
+<td style="text-align: left;">liquid_biofuels_energy_consumption_tfec_pct</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Percentage of energy that was Liquid biofuels consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">document_subtype</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The subtype of work for which statistics are computed. Applies to type <code>posted_content</code> only, null for all others.</td>
+<td style="text-align: left;">liquid_biofuels_consumption_terajoules</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Terajoules of Liquid biofuels consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">n_dois</td>
+<td style="text-align: left;">marine_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Total number of works of the specified type and subtype, registered by members in the country.</td>
+<td style="text-align: left;">Percentage of energy that was Marine energy consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">with_ref</td>
+<td style="text-align: left;">marine_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with at least one reference.</td>
+<td style="text-align: left;">Terajoules of Marine energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_doi_ref</td>
+<td style="text-align: left;">modern_biomass_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with at least one reference including a DOI.</td>
+<td style="text-align: left;">Percentage of energy that was Modern biomass consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">references</td>
+<td style="text-align: left;">modern_biomass_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of references from these works.</td>
+<td style="text-align: left;">Terajoules of Modern biomass consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">references_with_dois</td>
+<td style="text-align: left;">perc_renewable_of_total_electricity_output</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of references with DOIs from these works.</td>
+<td style="text-align: left;">Renewable energy percentage of total electricity output.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">references_with_doi_asserted_by_publisher</td>
+<td style="text-align: left;">renewable_energy_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of references with DOIs asserted by the publisher from these works.</td>
+<td style="text-align: left;">Terajoules of Renewable energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">references_with_doi_asserted_by_crossref</td>
+<td style="text-align: left;">renewable_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of references with DOIs asserted by Crossref from these works.</td>
+<td style="text-align: left;">Percentage of energy that was Renewable consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">citations_received</td>
+<td style="text-align: left;">renewable_energy_electricity_output_gigawatt_hours</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of citations received by these works, from other Crossref-registered works only.</td>
+<td style="text-align: left;">Renewable energy output in Gigawatt-hours.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_abstract</td>
+<td style="text-align: left;">renewable_energy_installed_capacity_gigawatts</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with an abstract.</td>
+<td style="text-align: left;">Renewable energy installed capacity in Gigawatts.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">with_license</td>
+<td style="text-align: left;">share_of_renewable_capacity_in_total_capacity_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with license information.</td>
+<td style="text-align: left;">Percentage share of installed capacity of Renewable energy.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_crossmark</td>
+<td style="text-align: left;">solar_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with a Crossmark update policy registered.</td>
+<td style="text-align: left;">Percentage of energy that was Solar consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">with_crossmark_update</td>
+<td style="text-align: left;">solar_energy_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that have received at least one Crossmark update.</td>
+<td style="text-align: left;">Terajoules of Solar energy consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">crossmark_updates</td>
+<td style="text-align: left;">thermal_efficiency_in_power_supply_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of update DOIs.</td>
+<td style="text-align: left;">Percentage of Thermal efficiency in power supply</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">update_assertions</td>
+<td style="text-align: left;">total_electricity_output_gigawatt_hours</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of update assertions made by all update DOIs.</td>
+<td style="text-align: left;">Total electricity output in Gigawatt-hours.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">update_assertions_from_publisher</td>
+<td style="text-align: left;">total_final_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of update assertions registered by a Crossref member.</td>
+<td style="text-align: left;">Terajoules of Total final energy consumed.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">update_assertions_from_retraction_watch</td>
+<td style="text-align: left;">total_final_energy_consumption_tfec</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of update assertions registered through Retraction Watch.</td>
+<td style="text-align: left;">Total final energy consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_textmining</td>
+<td style="text-align: left;">total_installed_generation_capacity_gigawatts</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with at least one registered text-mining link.</td>
+<td style="text-align: left;">Total installed generation capacity in Gigawatts</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">with_status_info</td>
+<td style="text-align: left;">total_primary_energy_supply_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works with <a href="https://doi.org/10.13003/325070#preprint-status">preprint status metadata</a>.</td>
+<td style="text-align: left;">Terajoules of Total primary energy supply.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">acknowledges_funding</td>
+<td style="text-align: left;">traditional_biomass_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include any kind of funding metadata.</td>
+<td style="text-align: left;">Percentage of energy that was Traditional biomass consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">award_number_assertions</td>
+<td style="text-align: left;">traditional_biomass_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of acknowledged award numbers.</td>
+<td style="text-align: left;">Terajoules of Traditional biomass consumed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_grant_id</td>
+<td style="text-align: left;">transmission_and_distribution_losses_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one grant ID.</td>
+<td style="text-align: left;">Percentage of power lost in transmission and distribution</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">grant_id_assertions</td>
+<td style="text-align: left;">waste_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of acknowledged grant IDs.</td>
+<td style="text-align: left;">Percentage of energy that was Waste energy consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_funder_id</td>
+<td style="text-align: left;">waste_energy_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one funder ID.</td>
+<td style="text-align: left;">Terajoules of Waste energy consumed.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">funder_id_assertions</td>
+<td style="text-align: left;">wind_energy_consumption_tfec_pct</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of acknowledged funder IDs.</td>
+<td style="text-align: left;">Percentage of energy that was Wind consumed by end-users (households, industry, agriculture), excluding energy used by the energy sector itself.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">with_orcid</td>
+<td style="text-align: left;">wind_energy_consumption_terajoules</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ORCID ID.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">with_orcid_for_authors</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ORCID ID for an author.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">with_orcid_for_chairs</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ORCID ID for a chair.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">with_orcid_for_editors</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ORCID ID for an editor.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">with_orcid_for_translators</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ORCID ID for a translator.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">orcid_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ORCID ID assertions.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">orcid_for_authors_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ORCID ID assertions for authors.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">orcid_for_chairs_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ORCID ID assertions for chairs.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">orcid_for_editors_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ORCID ID assertions for editors.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">orcid_for_translators_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ORCID ID assertions for translators.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">with_ror_id</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ROR ID.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">with_ror_id_for_affiliations</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ROR ID for affiliations.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">with_ror_id_for_institutions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ROR ID for institutions.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">with_ror_id_for_funders</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of works that include at least one ROR ID for funders.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ror_id_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ROR ID assertions.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">ror_id_for_affiliations_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ROR ID assertions for affiliations.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ror_id_for_institutions_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ROR ID assertions for institutions.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">ror_id_for_funders_assertions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of ROR ID assertions for funders.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">preprint_to_article_links</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of links registered between a work of type <code>posted-content</code> and subtype <code>preprint</code> and a published work (e.g., <code>journal-article</code>).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">retractions</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Number of retracted works.</td>
+<td style="text-align: left;">Terajoules of Wind energy consumed.</td>
 </tr>
 </tbody>
 </table>
@@ -729,9 +667,156 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean data provided by Crossref. No cleaning was necessary.</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>metadata_coverage_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://zenodo.org/api/records/19928426/files/metadata_coverage_stats_by_country.csv/content"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>member_participation_stats_by_country <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://zenodo.org/api/records/19928426/files/member_participation_stats_by_country.csv/content"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data provided by Energy Data. Some* cleaning was necessary.</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ----</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Downloading the data</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>energy <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://energydata.info/dataset/538a3ba2-f218-42b2-a79c-3a5b7603556e/resource/f779714e-d97f-4f57-a61f-057f5496d06f/download/se4alldata.csv"</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># ----</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">#  Figuring out which columns to exclude</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Pivoting table to longer format so that the metrics and their units are </span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># better exposed [ This is the initial process. Final cleaning follows it.]</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>tidy_test_df <span class="ot">&lt;-</span> energy <span class="sc">|&gt;</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 0. Excluding the `Period 1990-2000`,    `Period 1990-2010`, `Period 2000-2010`</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># because they're aggregations that will confuse the pivot.</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># The indicator codes column is also dropped </span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="fu">c</span>(</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 1990-2000</span><span class="st">`</span>, </span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 1990-2010</span><span class="st">`</span>,</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 2000-2010</span><span class="st">`</span>,</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Indicator_Code</span><span class="st">`</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 1. Standard pivot to get years in one column</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">matches</span>(<span class="st">"^[0-9]{4}$"</span>), </span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"Year"</span>, </span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"Value"</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 2. We want the Indicator_Name to become the headers.</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_wider</span>(</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">id_cols =</span> <span class="fu">c</span>(Country_Name, Country_Code, Year),</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> Indicator_Name,</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> Value</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="co"># A quick check of the new columns tied to those earlier periods reveals blank</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="co"># columns:</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>  <span class="co"># &gt; unique(tidy_test_df$`Final energy intensity -Compound Annual Growth Rate (%)`)</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>  <span class="co"># [1] NA</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  <span class="co"># &gt; unique(tidy_test_df$`Divisia Decomposition Analysis - Activity component  -Compound Annual Growth Rate (%)`)</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="co"># [1] NA</span></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Going back and looking at the original table to see which indicator codes </span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  <span class="co"># indicator names correspond with, the following can be safely removed:</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 8.1_FINAL.ENER.INTENS.RATE</span></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 16.4_DECOMP.EFFICIENCY.RATE</span></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 16.5_DECOMP.ACTIVITY.RATE</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 16.6_DECOMP.STRUCTURE.RATE</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="co"># ----</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating the final cleaned table</span></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="co"># removing the rows with the associated indicator codes mentioned above that</span></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a><span class="co"># were associated with those year period columns</span></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>to_remove <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>  <span class="st">"8.1_FINAL.ENER.INTENS.RATE"</span>, </span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>  <span class="st">"16.4_DECOMP.EFFICIENCY.RATE"</span>,</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>  <span class="st">"16.5_DECOMP.ACTIVITY.RATE"</span>,</span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>  <span class="st">"16.6_DECOMP.STRUCTURE.RATE"</span></span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>energy_clean <span class="ot">&lt;-</span> energy[<span class="sc">!</span>(energy<span class="sc">$</span>Indicator_Code <span class="sc">%in%</span> to_remove), ] <span class="sc">|&gt;</span></span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="fu">c</span>(</span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 1990-2000</span><span class="st">`</span>, </span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 1990-2010</span><span class="st">`</span>,</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Period 2000-2010</span><span class="st">`</span>,</span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Indicator_Code</span><span class="st">`</span></span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 1. Standard pivot to get years in one column</span></span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(</span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">matches</span>(<span class="st">"^[0-9]{4}$"</span>), </span>
+<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"Year"</span>, </span>
+<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"Value"</span></span>
+<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 2. To keep Indicator_Code as a column, it MUST be in id_cols.</span></span>
+<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a>  <span class="co"># But we want the Indicator_Name to become the headers.</span></span>
+<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_wider</span>(</span>
+<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">id_cols =</span> <span class="fu">c</span>(Country_Name, Country_Code, Year),</span>
+<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> Indicator_Name,</span>
+<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> Value</span>
+<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a><span class="co"># checking for empty columns</span></span>
+<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a><span class="co"># energy_clean[, colSums(is.na(energy_clean)) == nrow(energy_clean)]</span></span>
+<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a><span class="co"># dropping the final rogue columns</span></span>
+<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>energy_cleaned <span class="ot">&lt;-</span> energy_clean <span class="sc">|&gt;</span></span>
+<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="fu">any_of</span>(<span class="fu">c</span>(</span>
+<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Divisia Decomposition Analysis - Activity component  -Compound Annual Growth Rate (%)"</span>,</span>
+<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Primary energy intensity -Compound Annual Growth Rate (%)"</span></span>
+<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a>    ))</span>
+<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">rename</span>(</span>
+<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a>    <span class="at">country_name =</span> Country_Name,</span>
+<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a>    <span class="at">country_code =</span> Country_Code,</span>
+<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a>    <span class="at">yr =</span> Year,</span>
+<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_non_solid_fuel_rural_pop_pct =</span> <span class="st">`</span><span class="at">Access to Non-Solid Fuel (% of rural population)</span><span class="st">`</span>,</span>
+<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_non_solid_fuel_total_pop_pct =</span> <span class="st">`</span><span class="at">Access to Non-Solid Fuel (% of total population)</span><span class="st">`</span>,</span>
+<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_non_solid_fuel_urban_pop_pct =</span> <span class="st">`</span><span class="at">Access to Non-Solid Fuel (% of urban population)</span><span class="st">`</span>,</span>
+<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_electricity_rural_pop_pct =</span> <span class="st">`</span><span class="at">Access to electricity (% of rural population)</span><span class="st">`</span>,</span>
+<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_electricity_total_pop_pct =</span> <span class="st">`</span><span class="at">Access to electricity (% of total population)</span><span class="st">`</span>,</span>
+<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a>    <span class="at">access_electricity_urban_pop_pct =</span> <span class="st">`</span><span class="at">Access to electricity (% of urban population)</span><span class="st">`</span>,</span>
+<span id="cb5-107"><a href="#cb5-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">biogas_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Biogas consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">biogas_consumption_terajoules =</span> <span class="st">`</span><span class="at">Biogas consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a>    <span class="at">divisia_decomp_analysis_activity_component_index =</span> <span class="st">`</span><span class="at">Divisia Decomposition Analysis - Activity component Index</span><span class="st">`</span>,</span>
+<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a>    <span class="at">divisia_decomp_analysis_energy_intensity_component_index =</span> <span class="st">`</span><span class="at">Divisia Decomposition Analysis - Energy Intensity component Index</span><span class="st">`</span>,</span>
+<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>    <span class="at">divisia_decomp_analysis_structure_component_index =</span> <span class="st">`</span><span class="at">Divisia Decomposition Analysis - Structure Component Index</span><span class="st">`</span>,</span>
+<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_intensity_level_final_energy_megajoules_per_usd_2005_ppp =</span> <span class="st">`</span><span class="at">Energy intensity level of final energy (MJ/$2005 PPP)</span><span class="st">`</span>,</span>
+<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_intensity_level_primary_energy_megajoules_per_usd_2005_ppp =</span> <span class="st">`</span><span class="at">Energy intensity level of primary energy (MJ/$2005 PPP)</span><span class="st">`</span>,</span>
+<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_intensity_agricultural_sector_megajoules_per_usd_2005 =</span> <span class="st">`</span><span class="at">Energy intensity of agricultural sector (MJ/$2005)</span><span class="st">`</span>,</span>
+<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_intensity_industrial_sector_megajoules_per_usd_2005 =</span> <span class="st">`</span><span class="at">Energy intensity of industrial sector (MJ/$2005)</span><span class="st">`</span>,</span>
+<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_intensity_other_sectors_megajoules_per_usd_2005 =</span> <span class="st">`</span><span class="at">Energy intensity of other sectors (MJ/$2005)</span><span class="st">`</span>,</span>
+<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a>    <span class="at">energy_savings_primary_energy_terajoules =</span> <span class="st">`</span><span class="at">Energy savings of primary energy (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a>    <span class="at">final_to_primary_energy_ratio_pct =</span> <span class="st">`</span><span class="at">Final to primary energy ratio (%)</span><span class="st">`</span>,</span>
+<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a>    <span class="at">geothermal_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Geothermal energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a>    <span class="at">geothermal_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Geothermal energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">hydro_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Hydro energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-122"><a href="#cb5-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">hydro_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Hydro energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-123"><a href="#cb5-123" aria-hidden="true" tabindex="-1"></a>    <span class="at">liquid_biofuels_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Liquid biofuels consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-124"><a href="#cb5-124" aria-hidden="true" tabindex="-1"></a>    <span class="at">liquid_biofuels_consumption_terajoules =</span> <span class="st">`</span><span class="at">Liquid biofuels consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-125"><a href="#cb5-125" aria-hidden="true" tabindex="-1"></a>    <span class="at">marine_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Marine energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-126"><a href="#cb5-126" aria-hidden="true" tabindex="-1"></a>    <span class="at">marine_consumption_terajoules =</span> <span class="st">`</span><span class="at">Marine energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-127"><a href="#cb5-127" aria-hidden="true" tabindex="-1"></a>    <span class="at">modern_biomass_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Modern biomass consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-128"><a href="#cb5-128" aria-hidden="true" tabindex="-1"></a>    <span class="at">modern_biomass_consumption_terajoules =</span> <span class="st">`</span><span class="at">Modern biomass consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-129"><a href="#cb5-129" aria-hidden="true" tabindex="-1"></a>    <span class="at">perc_renewable_of_total_electricity_output =</span> <span class="st">`</span><span class="at">Renewable electricity (% in total electricity output)</span><span class="st">`</span>,</span>
+<span id="cb5-130"><a href="#cb5-130" aria-hidden="true" tabindex="-1"></a>    <span class="at">renewable_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Renewable energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-131"><a href="#cb5-131" aria-hidden="true" tabindex="-1"></a>    <span class="at">renewable_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Renewable energy consumption(% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-132"><a href="#cb5-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">renewable_energy_electricity_output_gigawatt_hours =</span> <span class="st">`</span><span class="at">Renewable energy electricity output (GWh)</span><span class="st">`</span>,</span>
+<span id="cb5-133"><a href="#cb5-133" aria-hidden="true" tabindex="-1"></a>    <span class="at">renewable_energy_installed_capacity_gigawatts =</span> <span class="st">`</span><span class="at">Renewable energy installed capacity (GW)</span><span class="st">`</span>,</span>
+<span id="cb5-134"><a href="#cb5-134" aria-hidden="true" tabindex="-1"></a>    <span class="at">share_of_renewable_capacity_in_total_capacity_pct =</span> <span class="st">`</span><span class="at">Share of renewable capacity in total capacity (%)</span><span class="st">`</span>,</span>
+<span id="cb5-135"><a href="#cb5-135" aria-hidden="true" tabindex="-1"></a>    <span class="at">solar_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Solar energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-136"><a href="#cb5-136" aria-hidden="true" tabindex="-1"></a>    <span class="at">solar_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Solar energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-137"><a href="#cb5-137" aria-hidden="true" tabindex="-1"></a>    <span class="at">thermal_efficiency_in_power_supply_pct =</span> <span class="st">`</span><span class="at">Thermal efficiency (%) in power supply</span><span class="st">`</span>,</span>
+<span id="cb5-138"><a href="#cb5-138" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_electricity_output_gigawatt_hours =</span> <span class="st">`</span><span class="at">Total electricity output (GWh)</span><span class="st">`</span>,</span>
+<span id="cb5-139"><a href="#cb5-139" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_final_consumption_terajoules =</span> <span class="st">`</span><span class="at">Total final consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-140"><a href="#cb5-140" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_final_energy_consumption_tfec =</span> <span class="st">`</span><span class="at">Total final energy consumtion (TFEC)</span><span class="st">`</span>, <span class="co">#also correcting typo in consumption</span></span>
+<span id="cb5-141"><a href="#cb5-141" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_installed_generation_capacity_gigawatts =</span> <span class="st">`</span><span class="at">Total installed generation capacity (GW)</span><span class="st">`</span>,</span>
+<span id="cb5-142"><a href="#cb5-142" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_primary_energy_supply_terajoules =</span> <span class="st">`</span><span class="at">Total primary energy supply (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-143"><a href="#cb5-143" aria-hidden="true" tabindex="-1"></a>    <span class="at">traditional_biomass_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Traditional biomass consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-144"><a href="#cb5-144" aria-hidden="true" tabindex="-1"></a>    <span class="at">traditional_biomass_consumption_terajoules =</span> <span class="st">`</span><span class="at">Traditional biomass consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-145"><a href="#cb5-145" aria-hidden="true" tabindex="-1"></a>    <span class="at">transmission_and_distribution_losses_pct =</span> <span class="st">`</span><span class="at">Transmission and distribution losses (%)</span><span class="st">`</span>,</span>
+<span id="cb5-146"><a href="#cb5-146" aria-hidden="true" tabindex="-1"></a>    <span class="at">waste_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Waste energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a>    <span class="at">waste_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Waste energy consumption (TJ)</span><span class="st">`</span>,</span>
+<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a>    <span class="at">wind_energy_consumption_tfec_pct =</span> <span class="st">`</span><span class="at">Wind energy consumption (% in TFEC)</span><span class="st">`</span>,</span>
+<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a>    <span class="at">wind_energy_consumption_terajoules =</span> <span class="st">`</span><span class="at">Wind energy consumption (TJ)</span><span class="st">`</span></span>
+<span id="cb5-150"><a href="#cb5-150" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
