@@ -42,6 +42,60 @@ jobs:
         with:
           ref: refs/pull/${{ env.PR_NUMBER }}/head
 
+      - name: Validate changed files scope
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ env.PR_NUMBER }}
+        with:
+          script: |
+            const prNumber = parseInt(process.env.PR_NUMBER, 10);
+            const files = await github.paginate(
+              github.rest.pulls.listFiles,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                per_page: 100,
+              }
+            );
+
+            const filePaths = files.map(file => file.filename);
+            const disallowedPaths = filePaths.filter(path => !path.startsWith('data/curated/'));
+            const curatedRootFiles = filePaths.filter(path => path.split('/').length < 3);
+            const curatedFolders = new Set(
+              filePaths
+                .filter(path => path.startsWith('data/curated/'))
+                .map(path => path.split('/').slice(0, 3).join('/'))
+            );
+
+            if (filePaths.length === 0) {
+              core.setFailed('No changed files found in this PR.');
+              return;
+            }
+
+            if (disallowedPaths.length > 0) {
+              core.setFailed(
+                `PR includes disallowed changes outside data/curated/**:\n${disallowedPaths.join('\n')}`
+              );
+              return;
+            }
+
+            if (curatedRootFiles.length > 0) {
+              core.setFailed(
+                `PR includes changes not isolated to a single curated folder:\n${curatedRootFiles.join('\n')}`
+              );
+              return;
+            }
+
+            if (curatedFolders.size !== 1) {
+              core.setFailed(
+                `PR must only modify one folder under data/curated. Found: ${Array.from(curatedFolders).join(', ')}`
+              );
+              return;
+            }
+
+            core.info(`Validated changed files in folder: ${Array.from(curatedFolders)[0]}`);
+
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
         with:
