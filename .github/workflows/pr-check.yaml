@@ -32,8 +32,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "PR_NUMBER=${{ github.event.inputs.pr_number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.repository.default_branch }}" >> "$GITHUB_ENV"
           else
             echo "PR_NUMBER=${{ github.event.pull_request.number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.pull_request.base.ref }}" >> "$GITHUB_ENV"
           fi
 
       # For pull_request events, the action automatically checks out the PR's merge commit.
@@ -41,60 +43,43 @@ jobs:
         uses: actions/checkout@v5
         with:
           ref: refs/pull/${{ env.PR_NUMBER }}/head
+          fetch-depth: 0
 
       - name: Validate changed files scope
-        uses: actions/github-script@v7
-        env:
-          PR_NUMBER: ${{ env.PR_NUMBER }}
-        with:
-          script: |
-            const prNumber = parseInt(process.env.PR_NUMBER, 10);
-            const files = await github.paginate(
-              github.rest.pulls.listFiles,
-              {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: prNumber,
-                per_page: 100,
-              }
-            );
+        run: |
+          git fetch origin "${BASE_REF}:refs/remotes/origin/${BASE_REF}"
+          mapfile -t changed_files < <(git diff --name-only "origin/${BASE_REF}...HEAD")
 
-            const filePaths = files.map(file => file.filename);
-            const disallowedPaths = filePaths.filter(path => !path.startsWith('data/curated/'));
-            const curatedRootFiles = filePaths.filter(path => path.split('/').length < 3);
-            const curatedFolders = new Set(
-              filePaths
-                .filter(path => path.startsWith('data/curated/'))
-                .map(path => path.split('/').slice(0, 3).join('/'))
-            );
+          if [ "${#changed_files[@]}" -eq 0 ]; then
+            echo "No changed files found in this PR."
+            exit 1
+          fi
 
-            if (filePaths.length === 0) {
-              core.setFailed('No changed files found in this PR.');
-              return;
-            }
+          disallowed_paths=()
+          curated_folders=()
+          for path in "${changed_files[@]}"; do
+            if [[ "${path}" != data/curated/* ]]; then
+              disallowed_paths+=("${path}")
+              continue
+            fi
+            IFS='/' read -r data curated folder _ <<< "${path}"
+            curated_folders+=("data/curated/${folder}")
+          done
 
-            if (disallowedPaths.length > 0) {
-              core.setFailed(
-                `PR includes disallowed changes outside data/curated/**:\n${disallowedPaths.join('\n')}`
-              );
-              return;
-            }
+          if [ "${#disallowed_paths[@]}" -gt 0 ]; then
+            echo "PR includes disallowed changes outside data/curated/**:"
+            printf '%s\n' "${disallowed_paths[@]}"
+            exit 1
+          fi
 
-            if (curatedRootFiles.length > 0) {
-              core.setFailed(
-                `PR includes changes not isolated to a single curated folder:\n${curatedRootFiles.join('\n')}`
-              );
-              return;
-            }
+          mapfile -t unique_curated_folders < <(printf '%s\n' "${curated_folders[@]}" | sort -u)
+          if [ "${#unique_curated_folders[@]}" -ne 1 ]; then
+            echo "PR must only modify one folder under data/curated. Found:"
+            printf '%s\n' "${unique_curated_folders[@]}"
+            exit 1
+          fi
 
-            if (curatedFolders.size !== 1) {
-              core.setFailed(
-                `PR must only modify one folder under data/curated. Found: ${Array.from(curatedFolders).join(', ')}`
-              );
-              return;
-            }
-
-            core.info(`Validated changed files in folder: ${Array.from(curatedFolders)[0]}`);
+          echo "Validated changed files in folder: ${unique_curated_folders[0]}"
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
