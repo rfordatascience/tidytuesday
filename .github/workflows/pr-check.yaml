@@ -32,8 +32,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "PR_NUMBER=${{ github.event.inputs.pr_number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.repository.default_branch }}" >> "$GITHUB_ENV"
           else
             echo "PR_NUMBER=${{ github.event.pull_request.number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.pull_request.base.ref }}" >> "$GITHUB_ENV"
           fi
 
       # For pull_request events, the action automatically checks out the PR's merge commit.
@@ -41,6 +43,43 @@ jobs:
         uses: actions/checkout@v5
         with:
           ref: refs/pull/${{ env.PR_NUMBER }}/head
+          fetch-depth: 0
+
+      - name: Validate changed files scope
+        run: |
+          git fetch origin "${BASE_REF}:refs/remotes/origin/${BASE_REF}"
+          mapfile -t changed_files < <(git diff --name-only "origin/${BASE_REF}...HEAD")
+
+          if [ "${#changed_files[@]}" -eq 0 ]; then
+            echo "No changed files found in this PR."
+            exit 1
+          fi
+
+          disallowed_paths=()
+          curated_folders=()
+          for path in "${changed_files[@]}"; do
+            if [[ "${path}" != data/curated/* ]]; then
+              disallowed_paths+=("${path}")
+              continue
+            fi
+            IFS='/' read -r data curated folder _ <<< "${path}"
+            curated_folders+=("data/curated/${folder}")
+          done
+
+          if [ "${#disallowed_paths[@]}" -gt 0 ]; then
+            echo "PR includes disallowed changes outside data/curated/**:"
+            printf '%s\n' "${disallowed_paths[@]}"
+            exit 1
+          fi
+
+          mapfile -t unique_curated_folders < <(printf '%s\n' "${curated_folders[@]}" | sort -u)
+          if [ "${#unique_curated_folders[@]}" -ne 1 ]; then
+            echo "PR must only modify one folder under data/curated. Found:"
+            printf '%s\n' "${unique_curated_folders[@]}"
+            exit 1
+          fi
+
+          echo "Validated changed files in folder: ${unique_curated_folders[0]}"
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
