@@ -1,0 +1,20 @@
+title: "Papal Encyclicals: Industrial Revolution vs. AI Revolution"
+article:
+  title: "Magnifica Humanitas - Encyclical Letter of Pope Leo XIV"
+  url: "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html"
+data_source:
+  title: "The Holy See (Vatican.va)"
+  url: "https://www.vatican.va"
+images:
+- file: "encyclical_comparison.png"
+  alt: >
+    A two-panel visualization comparing Pope Leo XIII's Rerum Novarum (1891) with
+    Pope Leo XIV's Magnifica Humanitas (2026). The top panel shows thematic density
+    (mentions per 1,000 words) across six categories including Dignity & Rights,
+    Common Good, and Technology & Power. The bottom panel shows a sentiment arc
+    tracking net positive/negative tone through each document. Rerum Novarum is
+    shown in brown and Magnifica Humanitas in navy blue.
+credit:
+  post: "Tony Galvan, Golden Dome Data Science"
+  github: "@gdatascience"
+  linkedin: "@anthony-raul-galvan"
