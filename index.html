@@ -106,6 +106,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -230,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#european-parenting-leave-policies" id="toc-european-parenting-leave-policies" class="nav-link active" data-scroll-target="#european-parenting-leave-policies">European Parenting Leave Policies</a>
+  <li><a href="#films-based-on-video-games" id="toc-films-based-on-video-games" class="nav-link active" data-scroll-target="#films-based-on-video-games">Films Based on Video Games</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,7 +268,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#eplp.csv" id="toc-eplp.csv" class="nav-link" data-scroll-target="#eplp.csv"><code>eplp.csv</code></a></li>
+  <li><a href="#game_films.csv" id="toc-game_films.csv" class="nav-link" data-scroll-target="#game_films.csv"><code>game_films.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,35 +281,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="european-parenting-leave-policies" class="level1">
-<h1>European Parenting Leave Policies</h1>
-<p>This week we’re exploring European Parenting Leave Policies. The European Parenting Leave Policies (EPLP) Dataset provides harmonised data on maternity, co-parent, paid parental, and job-protected leave regulations across 21 European countries from 1970 to 2024.</p>
+<section id="films-based-on-video-games" class="level1">
+<h1>Films Based on Video Games</h1>
+<p>The dataset this week comes from the Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_films_based_on_video_games">List of films based on video games</a>. It covers theatrical releases, direct-to-video productions, television films, short films, and documentaries adapted from video games, spanning from the early 1990s to upcoming releases. Each row is a film, with box office figures, critic scores, budgets, and release dates where available.</p>
 <blockquote class="blockquote">
-<p>The dataset enables quantitative analyses of policy trends, cross-national differences, and the effects of major reforms – for researchers, policymakers, and others interested in family policy.</p>
+<p>The list covers feature films, animated films, live-action films, television films, and short films that are based on or inspired by a video game franchise.</p>
 </blockquote>
-<p>Given the variety of parental leave schemes across countries, the dataset considers three different dimensions of parental leave duration for each country, if applicable. Dimension 1 (par1) identifies the paid parental leave scheme with the longest possible duration. Dimension 2 (par2) identifies the paid parental leave duration with the highest monthly flat rate payment. Dimension 3 (par3) identifies the duration with the highest replacement rate.</p>
-<p>Values that are missing are represented as <code>NA</code>. Some values are missing because they are not applicable. These values are encoded as <code>"Not applicable"</code> for character vectors, and <code>-98</code> for numeric variables.</p>
+<p>Some questions worth exploring:</p>
 <ul>
-<li>Which countries were the first to implement co-parent leave policies?</li>
-<li>Has parenting leave decreased in any countries?</li>
+<li>Which video game franchise has generated the most film adaptations, and which has earned the most at the box office?</li>
+<li>Which video game publishers have the most film adaptations, and how have they performed at the box office?</li>
+<li>Do audiences and critics agree? Compare CinemaScore grades against Rotten Tomatoes scores.</li>
 </ul>
-<p>Cite the dataset as: S. Spitzer et al., “The European Parenting Leave Policies (EPLP) Dataset”. Zenodo, Nov.&nbsp;19, 2025. doi: 10.5281/zenodo.17648712.</p>
-<p>Thank you to <a href="https://github.com/nrennie">Nicola Rennie</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/gkaramanis">Georgios Karamanis</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-06-02'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-06-09'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">22</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">23</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>eplp <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>eplp</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>game_films <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>game_films</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>eplp <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-02/eplp.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>game_films <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-09/game_films.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -288,11 +316,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-06-02'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-06-09'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>eplp <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-02/eplp.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>game_films <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-09/game_films.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -300,14 +328,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-06-02"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-06-09"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>eplp <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-02/eplp.csv"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>game_films <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-09/game_films.csv"</span>)</span>
 <span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>eplp <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-02/eplp.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>game_films <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-09/game_films.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -328,13 +356,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="eplp.csv" class="level3">
-<h3 class="anchored" data-anchor-id="eplp.csv"><code>eplp.csv</code></h3>
+<section id="game_films.csv" class="level3">
+<h3 class="anchored" data-anchor-id="game_films.csv"><code>game_films.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 28%">
-<col style="width: 14%">
-<col style="width: 56%">
+<col style="width: 38%">
+<col style="width: 12%">
+<col style="width: 48%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -345,179 +373,76 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">country</td>
+<td style="text-align: left;">category</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Two-letter country code.</td>
+<td style="text-align: left;">Top-level Wikipedia section the film belongs to (e.g.&nbsp;“Theatrical releases”, “Direct-to-video”, “Television films”).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">year</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Year.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">mat_m_ld_bb</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Mandatory maternity leave duration before birth.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mat_m_ld_ab</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Mandatory maternity leave duration after birth.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">mat_v_ld_bb</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Voluntary maternity leave duration before birth (maximum duration).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mat_v_ld_ab</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Voluntary maternity leave duration after birth (maximum duration).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">co_ld</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Co-parent leave duration (maximum duration).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">jp_ld_m</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Job-protected leave duration for birth mothers (maximum duration).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">jp_ld_co</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Job-protected leave duration for co-parents (maximum duration).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">jp_part_time</td>
+<td style="text-align: left;">subcategory</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Job-protected leave is longer if taken part-time.</td>
+<td style="text-align: left;">Second-level Wikipedia section within the category (e.g.&nbsp;“English”, “Japanese”, “Animation”). NA for films with no subsection.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">jp_later</td>
+<td style="text-align: left;">title</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to take (parts of) the leave at a later point in time.</td>
+<td style="text-align: left;">Title of the film or production.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">par1_ld</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Paid parental leave duration (maximum duration).</td>
+<td style="text-align: left;">director</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Director(s) of the film. Multiple directors are separated by ” | “.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">par1_fr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Amount of benefits per month (with maximum duration).</td>
+<td style="text-align: left;">release_date</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">Parsed release date. For films with regional releases, this is the earliest date. For year-only or month-year entries, the date is set to the first day of that period. TBA and undated entries are NA.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">par1_rr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Replacement rate (with maximum duration).</td>
+<td style="text-align: left;">release_date_raw</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Original release date string as it appeared on Wikipedia before parsing.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">par1_cap</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Monthly cap (with maximum duration).</td>
+<td style="text-align: left;">air_date_raw</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Original air date string for television productions, as it appeared on Wikipedia. NA for non-television entries.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">par1_for_whom</td>
+<td style="text-align: left;">worldwide_box_office_currency</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Mothers only, co-parents only, or both.</td>
+<td style="text-align: left;">Currency symbol of the worldwide box office figure (e.g.&nbsp;“<span class="math inline">\(", "¥"). |
+|worldwide_box_office          |double    |Worldwide box office gross in the original currency units. See worldwide_box_office_currency. |
+|rotten_tomatoes               |double    |Rotten Tomatoes critic score as a percentage (0–100). |
+|metacritic                    |double    |Metacritic score out of 100. |
+|cinema_score                  |character |CinemaScore audience grade (e.g. "A+", "B−"). |
+|distributor                   |character |Film distributor(s). |
+|original_game_publisher       |character |Publisher of the video game the film is based on. |
+|budget_currency               |character |Currency symbol of the budget figures (e.g. "\)</span>”, “¥”).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">par1_second_parent</td>
+<td style="text-align: left;">budget_low</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Additional time for second parent if the first parent takes the maximum leave duration.</td>
+<td style="text-align: left;">Lower bound of the reported production budget in the original currency units. Equal to budget_high for single-value budgets.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">par1_work</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to work/earn money during parts of the leave.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par1_later</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to take (parts of) the leave at a later point in time.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par2_ld</td>
+<td style="text-align: left;">budget_high</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Paid parental leave duration (with highest flat rate).</td>
+<td style="text-align: left;">Upper bound of the reported production budget in the original currency units. Equal to budget_low for single-value budgets.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">par2_fr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Amount of benefits per month (with highest flat rate).</td>
+<td style="text-align: left;">domestic_box_office</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Domestic box office gross as reported on Wikipedia (documentary sections).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">par2_for_whom</td>
+<td style="text-align: left;">subject</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Mothers only, co-parents only, or both.</td>
+<td style="text-align: left;">Subject or topic of the documentary (documentary sections only).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">par2_second_parent</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Additional time for second parent if the first parent takes the maximum leave duration.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par2_work</td>
+<td style="text-align: left;">network</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to work/earn money during parts of the leave.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par2_later</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to take (parts of) the leave at a later point in time.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par3_ld</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Paid parental leave duration (with highest replacement rate).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par3_rr</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Replacement rate (with highest replacement rate).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par3_cap</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Monthly cap (with highest replacement rate).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par3_for_whom</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Mothers only, co-parents only, or both.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par3_second_parent</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Additional time for second parent if the first parent takes the maximum leave duration.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par3_work</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to work/earn money during parts of the leave.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">par3_later</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Possibility to take (parts of) the leave at a later point in time.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">par_incentives</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Incentives for parents to share parental leave.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">user_note</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Whether there are additional user notes for this row of the data.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">currency</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Country currency. Note this changes over time for some countries.</td>
+<td style="text-align: left;">Broadcasting network for television productions.</td>
 </tr>
 </tbody>
 </table>
@@ -525,35 +450,101 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rvest)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># If you don't want to automatically download unknown files, download the XLSX file from https://zenodo.org/records/17648712</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>xlsx_url <span class="ot">&lt;-</span> <span class="st">"https://zenodo.org/records/17648712/files/EPLP_Dataset_Workbook_v2.xlsx?download=1"</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>xlsx_file <span class="ot">&lt;-</span> <span class="st">"EPLP_Dataset_Workbook_v2.xlsx"</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">file.exists</span>(xlsx_file)) {</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(xlsx_url, <span class="at">destfile =</span> xlsx_file, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>raw_data <span class="ot">&lt;-</span> <span class="fu">read_xlsx</span>(xlsx_file, <span class="at">sheet =</span> <span class="dv">2</span>, <span class="at">skip =</span> <span class="dv">1</span>)</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>eplp <span class="ot">&lt;-</span> raw_data <span class="sc">|&gt;</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Missing</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>      <span class="fu">where</span>(is.numeric), <span class="sc">~</span><span class="fu">replace_values</span>(.x, <span class="sc">-</span><span class="dv">99</span> <span class="sc">~</span> <span class="cn">NA</span>)</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>      <span class="fu">where</span>(is.character), <span class="sc">~</span><span class="fu">replace_values</span>(.x, <span class="st">"-99"</span> <span class="sc">~</span> <span class="cn">NA</span>)</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Not applicable</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>      <span class="fu">where</span>(is.character), <span class="sc">~</span><span class="fu">replace_values</span>(.x, <span class="st">"-98"</span> <span class="sc">~</span> <span class="st">"Not applicable"</span>)</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://en.wikipedia.org/wiki/List_of_films_based_on_video_games"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>page <span class="ot">&lt;-</span> <span class="fu">read_html</span>(url)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>parse_scaled <span class="ot">&lt;-</span> <span class="cf">function</span>(x, fn) {</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  mult <span class="ot">&lt;-</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_detect</span>(x, <span class="fu">regex</span>(<span class="st">"billion"</span>, <span class="at">ignore_case =</span> <span class="cn">TRUE</span>)) <span class="sc">~</span> <span class="fl">1e9</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_detect</span>(x, <span class="fu">regex</span>(<span class="st">"million"</span>, <span class="at">ignore_case =</span> <span class="cn">TRUE</span>)) <span class="sc">~</span> <span class="fl">1e6</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">.default =</span> <span class="dv">1</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  nums <span class="ot">&lt;-</span> <span class="fu">str_extract_all</span>(x, <span class="st">"[0-9][0-9,]*(?:</span><span class="sc">\\</span><span class="st">.[0-9]+)?"</span>)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">map_dbl</span>(nums, <span class="sc">~</span> { v <span class="ot">&lt;-</span> <span class="fu">parse_number</span>(.x); <span class="cf">if</span> (<span class="fu">length</span>(v) <span class="sc">==</span> <span class="dv">0</span>) <span class="cn">NA_real_</span> <span class="cf">else</span> <span class="fu">fn</span>(v) }) <span class="sc">*</span> mult</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>clean_film_table <span class="ot">&lt;-</span> <span class="cf">function</span>(df, category, subcategory) {</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  df <span class="sc">|&gt;</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(<span class="fu">any_of</span>(<span class="fu">c</span>(<span class="at">cinema_score =</span> <span class="st">"cinema_score_1"</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), <span class="sc">~</span> <span class="fu">str_remove_all</span>(., <span class="st">"</span><span class="sc">\\</span><span class="st">[.*?</span><span class="sc">\\</span><span class="st">]"</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    (\(d) <span class="cf">if</span> (<span class="st">"release_date"</span> <span class="sc">%in%</span> <span class="fu">names</span>(d))</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>      d <span class="sc">|&gt;</span> <span class="fu">mutate</span>(</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">release_date_raw =</span> <span class="fu">as.character</span>(release_date),</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">release_date =</span> release_date_raw <span class="sc">|&gt;</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>          <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">s*</span><span class="sc">\\</span><span class="st">(.*"</span>) <span class="sc">|&gt;</span>       <span class="co"># strip regional suffixes: "... (JP)..."</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>          <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">s*[–—-].*"</span>) <span class="sc">|&gt;</span>     <span class="co"># strip date ranges: "... – end date"</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>          <span class="fu">str_trim</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>          <span class="fu">parse_date_time</span>(<span class="at">orders =</span> <span class="fu">c</span>(<span class="st">"mdy"</span>, <span class="st">"my"</span>, <span class="st">"Y"</span>), <span class="at">quiet =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>          <span class="fu">as.Date</span>()</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">|&gt;</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>      <span class="fu">relocate</span>(release_date_raw, <span class="at">.after =</span> release_date)</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> d)() <span class="sc">|&gt;</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">any_of</span>(<span class="fu">c</span>(<span class="st">"worldwide_box_office"</span>, <span class="st">"budget"</span>)),</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>                  <span class="sc">~</span> <span class="fu">str_extract</span>(., <span class="st">"^[£$€¥₹]"</span>), <span class="at">.names =</span> <span class="st">"{.col}_currency"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">any_of</span>(<span class="st">"worldwide_box_office"</span>), parse_number)) <span class="sc">|&gt;</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    (\(d) <span class="cf">if</span> (<span class="st">"budget"</span> <span class="sc">%in%</span> <span class="fu">names</span>(d))</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>      d <span class="sc">|&gt;</span></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>        <span class="fu">mutate</span>(<span class="at">budget_low =</span> <span class="fu">parse_scaled</span>(budget, first), <span class="at">budget_high =</span> <span class="fu">parse_scaled</span>(budget, last)) <span class="sc">|&gt;</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>        <span class="fu">select</span>(<span class="sc">-</span>budget)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> d)() <span class="sc">|&gt;</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">any_of</span>(<span class="st">"rotten_tomatoes"</span>), <span class="sc">~</span> <span class="fu">parse_number</span>(<span class="fu">str_remove</span>(., <span class="st">"%"</span>)))) <span class="sc">|&gt;</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">any_of</span>(<span class="st">"metacritic"</span>), <span class="sc">~</span> <span class="fu">parse_number</span>(<span class="fu">str_remove</span>(., <span class="st">"/100"</span>)))) <span class="sc">|&gt;</span></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(<span class="fu">any_of</span>(<span class="fu">c</span>(<span class="at">director =</span> <span class="st">"direction"</span>, <span class="at">air_date_raw =</span> <span class="st">"original_air_date_s"</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">category =</span> category, <span class="at">subcategory =</span> subcategory) <span class="sc">|&gt;</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">relocate</span>(category, subcategory) <span class="sc">|&gt;</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>    <span class="fu">relocate</span>(<span class="fu">any_of</span>(<span class="st">"worldwide_box_office_currency"</span>), <span class="at">.before =</span> <span class="fu">any_of</span>(<span class="st">"worldwide_box_office"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">relocate</span>(<span class="fu">any_of</span>(<span class="st">"budget_currency"</span>), <span class="at">.before =</span> <span class="fu">any_of</span>(<span class="st">"budget_low"</span>))</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>get_heading_text <span class="ot">&lt;-</span> <span class="cf">function</span>(node) {</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  text <span class="ot">&lt;-</span> <span class="fu">html_text2</span>(<span class="fu">html_element</span>(node, <span class="st">".mw-headline"</span>))</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.na</span>(text) <span class="sc">||</span> <span class="fu">nchar</span>(<span class="fu">str_trim</span>(text)) <span class="sc">==</span> <span class="dv">0</span>) text <span class="ot">&lt;-</span> <span class="fu">html_text2</span>(node)</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_trim</span>(text)</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>game_films <span class="ot">&lt;-</span> <span class="fu">local</span>({</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>  nodes <span class="ot">&lt;-</span> xml2<span class="sc">::</span><span class="fu">xml_find_all</span>(page, <span class="st">".//h2 | .//h3 | .//table[contains(@class,'wikitable')]"</span>)</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>  current_h2 <span class="ot">&lt;-</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>  current_h3 <span class="ot">&lt;-</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  raw_tables <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>  categories <span class="ot">&lt;-</span> <span class="fu">character</span>()</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  subcategories <span class="ot">&lt;-</span> <span class="fu">character</span>()</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_along</span>(nodes)) {</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>    node <span class="ot">&lt;-</span> nodes[[i]]</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>    tag <span class="ot">&lt;-</span> <span class="fu">html_name</span>(node)</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (tag <span class="sc">==</span> <span class="st">"h2"</span>) {</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>      current_h2 <span class="ot">&lt;-</span> <span class="fu">get_heading_text</span>(node)</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>      current_h3 <span class="ot">&lt;-</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (tag <span class="sc">==</span> <span class="st">"h3"</span>) {</span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>      current_h3 <span class="ot">&lt;-</span> <span class="fu">get_heading_text</span>(node)</span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (tag <span class="sc">==</span> <span class="st">"table"</span>) {</span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>      tbl <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>(</span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>        node <span class="sc">|&gt;</span></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>          <span class="fu">as.character</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>          <span class="fu">str_replace_all</span>(<span class="st">"&lt;hr</span><span class="sc">\\</span><span class="st">s*/?</span><span class="sc">\\</span><span class="st">s*&gt;</span><span class="sc">\\</span><span class="st">s*"</span>, <span class="st">" | "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>          <span class="fu">read_html</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>          <span class="fu">html_element</span>(<span class="st">"table"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>          <span class="fu">html_table</span>(),</span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>        <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NULL</span></span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>      )</span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(tbl) <span class="sc">&amp;&amp;</span> <span class="fu">nrow</span>(tbl) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>        raw_tables <span class="ot">&lt;-</span> <span class="fu">c</span>(raw_tables, <span class="fu">list</span>(tbl))</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>        categories <span class="ot">&lt;-</span> <span class="fu">c</span>(categories, current_h2)</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>        subcategories <span class="ot">&lt;-</span> <span class="fu">c</span>(subcategories, current_h3)</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pmap</span>(<span class="fu">list</span>(raw_tables, categories, subcategories), clean_film_table) <span class="sc">|&gt;</span></span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>    <span class="fu">bind_rows</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>    <span class="fu">relocate</span>(<span class="fu">any_of</span>(<span class="st">"air_date_raw"</span>), <span class="at">.after =</span> <span class="fu">any_of</span>(<span class="st">"release_date_raw"</span>))</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
