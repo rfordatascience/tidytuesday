@@ -54,7 +54,7 @@ ni_boys <- ni_boys_list |>
   dplyr::mutate(Sex = "Boy") |>
   dplyr::select(Year, Sex, Name = V1, Number = V2, Rank = V3) |>
   dplyr::mutate(
-    Number == "-", "0", Number
+    Number = dplyr::if_else(Number == "-", "0", Number)
   ) |>
   dplyr::mutate(
     dplyr::across(c(Year, Rank, Number), as.numeric)
@@ -62,7 +62,6 @@ ni_boys <- ni_boys_list |>
   dplyr::arrange(
     Year, Name
   )
-
 ni_girls_data <- openxlsx::read.xlsx("https://www.nisra.gov.uk/files/nisra/documents/2026-04/Full_Name_List_NI_97_25.xlsx", sheet = "Table 2", startRow = 6)
 ni_girls_list <- ni_girls_data |>
   split.default(ceiling(seq_along(ni_girls_data) / 3)) |>
@@ -81,7 +80,7 @@ ni_girls <- ni_girls_list |>
   dplyr::mutate(Sex = "Girl") |>
   dplyr::select(Year, Sex, Name = V1, Number = V2, Rank = V3) |>
   dplyr::mutate(
-    Number == "-", "0", Number
+    Number = dplyr::if_else(Number == "-", "0", Number)
   ) |>
   dplyr::mutate(
     dplyr::across(c(Year, Rank, Number), as.numeric)
