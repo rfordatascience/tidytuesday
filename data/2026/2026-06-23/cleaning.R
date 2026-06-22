@@ -252,3 +252,4 @@ papal_encyclicals <- bind_rows(all_docs, missing_encyclicals) |>
   arrange(year, title) |>
   select(title, pope, year, papal_number, birth_name, birth_country,
          pontificate_start, pontificate_end, pontificate_year)
+

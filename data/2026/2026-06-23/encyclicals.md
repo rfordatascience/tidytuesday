@@ -7,3 +7,4 @@
 |text |character |Full text of the paragraph. |
 |word_count |integer |Number of words in the paragraph. |
 |sentence_count |integer |Number of sentences in the paragraph (counted by terminal punctuation). |
+

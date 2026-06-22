@@ -9,3 +9,4 @@ The data comes from [Vatican.va](https://www.vatican.va), the official website o
 - Can a machine learning model reliably distinguish which Pope wrote a paragraph? What features does it rely on — specific words, or writing style?
 - How has encyclical output changed over time? Leo XIII wrote 86 encyclicals; Francis wrote 4. What does that tell us about how papal communication has evolved?
 - Which passages of *Magnifica Humanitas* are most textually similar to *Rerum Novarum*, suggesting direct intellectual lineage?
+

@@ -9,3 +9,4 @@
 |pontificate_start |date |Date the pope's pontificate began. |
 |pontificate_end |date |Date the pope's pontificate ended (NA if currently reigning). |
 |pontificate_year |integer |Year of the pontificate in which the encyclical was published (1 = first year). |
+
