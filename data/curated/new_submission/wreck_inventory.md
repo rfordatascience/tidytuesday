@@ -1,7 +1,7 @@
 |variable              |class     |description                           |
 |:---------------------|:---------|:-------------------------------------|
 |date                  |date      |Standardised date of the shipwreck event, where an exact date could be determined. |
-|year                  |double    |Calendar year of the shipwreck event. |
+|year                  |double    |Calendar year of the shipwreck event (but see `descriptive_date`). |
 |wreck_name            |character |Recorded name of the wrecked vessel. |
 |wreck_no              |character |Unique identifier assigned to the shipwreck record. |
 |classification        |character |Vessel type or classification. |

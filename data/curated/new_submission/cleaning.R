@@ -4,13 +4,13 @@
 # Accessed 2026-06-10
 # Curator: Cormac Monaghan
 # A couple of notes ↓
-# 1. Accessing the data initially returns a warning message because the some
-#    of the dates and years values of the csv file are not consistent.
-#    Instead of all rows being in dym format some of them are written as
-#    "19th century" or "the 1800s". I could probably try some fancy regex to
-#    better format all the dates nicely but I'm really bad at stuff like that.
-#    Instead I plan to set these dates as NA but leave in a "descriptive date"
-#    column for those potentially interested in these dates.
+# 1. Accessing the data initially returns a warning message because some of the 
+#    dates and years values of the csv file are not consistent. Instead of all 
+#    rows being in dym format some of them are written as "19th century" or "the 
+#    1800s". I could probably try some fancy regex to better format all the 
+#    dates nicely but I'm really bad at stuff like that. Instead I plan to set 
+#    these dates as NA but leave in a "descriptive date" column for those 
+#    potentially interested in these dates.
 # 2. Additionally, many of the older wreaks (pre 1945) do not have accurate
 #    coordinates and are hardcoded as zeros. However, the National Monuments
 #    service is still searching for information on such wreaks. As such rather
