@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#papal-encyclicals-industrial-revolution-vs.-ai-revolution" id="toc-papal-encyclicals-industrial-revolution-vs.-ai-revolution" class="nav-link active" data-scroll-target="#papal-encyclicals-industrial-revolution-vs.-ai-revolution">Papal Encyclicals: Industrial Revolution vs.&nbsp;AI Revolution</a>
+  <li><a href="#wreck-inventory-of-ireland" id="toc-wreck-inventory-of-ireland" class="nav-link active" data-scroll-target="#wreck-inventory-of-ireland">Wreck Inventory of Ireland</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,9 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#encyclicals.csv" id="toc-encyclicals.csv" class="nav-link" data-scroll-target="#encyclicals.csv"><code>encyclicals.csv</code></a></li>
-  <li><a href="#papal_encyclicals.csv" id="toc-papal_encyclicals.csv" class="nav-link" data-scroll-target="#papal_encyclicals.csv"><code>papal_encyclicals.csv</code></a></li>
-  <li><a href="#scripture_references.csv" id="toc-scripture_references.csv" class="nav-link" data-scroll-target="#scripture_references.csv"><code>scripture_references.csv</code></a></li>
+  <li><a href="#wreck_inventory.csv" id="toc-wreck_inventory.csv" class="nav-link" data-scroll-target="#wreck_inventory.csv"><code>wreck_inventory.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -254,40 +252,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="papal-encyclicals-industrial-revolution-vs.-ai-revolution" class="level1">
-<h1>Papal Encyclicals: Industrial Revolution vs.&nbsp;AI Revolution</h1>
-<p>This week we’re exploring papal encyclicals — the most authoritative form of papal teaching in the Catholic Church. The primary dataset contains the full paragraph-level text of two encyclicals that bookend 135 years of technological revolution: Pope Leo XIII’s <em>Rerum Novarum</em> (1891), which addressed the Industrial Revolution’s impact on workers, and Pope Leo XIV’s <em>Magnifica Humanitas</em> (2026), which addresses artificial intelligence’s impact on human dignity. Both were signed on May 15 of their respective years.</p>
-<p>The data comes from <a href="https://www.vatican.va">Vatican.va</a>, the official website of the Holy See. A supplementary dataset catalogs all 213 papal encyclicals from 1878 to 2026 with metadata about each pope.</p>
+<section id="wreck-inventory-of-ireland" class="level1">
+<h1>Wreck Inventory of Ireland</h1>
+<p>This week we are exploring Irish shipwreck data. The <a href="https://www.archaeology.ie/advice-and-support/locate-a-monument-or-wreck/wreck-viewer/">Wreck Inventory of Ireland Database (WIID)</a> holds records of over 18,000 known and potential wreck sites in Irish waters, with data going back all the way to the 1300s.</p>
 <blockquote class="blockquote">
-<p>“Humanity, created by God in all its grandeur, is today facing a pivotal choice: either to construct a new Tower of Babel or to build the city in which God and humanity dwell together.” — Pope Leo XIV, <em>Magnifica Humanitas</em> §1</p>
+<p>The Wreck Inventory of Ireland Database (WIID) holds records of over 18,000 known and potential wreck sites in the marine and inland waterways of Ireland. The WIID includes all known wrecks dating to pre-1946 but some later wrecks are also included. The database also includes records of aircraft wrecks where these have come to attention.</p>
 </blockquote>
 <ul>
-<li>How does the vocabulary of Catholic Social Teaching evolve from the Industrial Revolution to the AI Revolution?</li>
-<li>Which books of the Bible does each Pope draw upon, and what does that reveal about their theological emphasis?</li>
-<li>Can a machine learning model reliably distinguish which Pope wrote a paragraph? What features does it rely on — specific words, or writing style?</li>
-<li>How has encyclical output changed over time? Leo XIII wrote 86 encyclicals; Francis wrote 4. What does that tell us about how papal communication has evolved?</li>
-<li>Which passages of <em>Magnifica Humanitas</em> are most textually similar to <em>Rerum Novarum</em>, suggesting direct intellectual lineage?</li>
+<li>How many wrecks still have not been found?</li>
+<li>Where are shipwrecks more likely to occur around Ireland?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/gdatascience">Tony Galvan, Golden Dome Data Science</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/C-Monaghan">Cormac Monaghan</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-06-23'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-06-30'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">25</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">26</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>encyclicals</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>papal_encyclicals</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>scripture_references</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>wreck_inventory</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/encyclicals.csv'</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/papal_encyclicals.csv'</span>)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/scripture_references.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-30/wreck_inventory.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -295,13 +285,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-06-23'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-06-30'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/encyclicals.csv'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/papal_encyclicals.csv'</span>)</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/scripture_references.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-30/wreck_inventory.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -309,18 +297,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-06-23"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-06-30"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/encyclicals.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/papal_encyclicals.csv"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/scripture_references.csv"</span>)</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/encyclicals.csv"</span>, DataFrame)</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/papal_encyclicals.csv"</span>, DataFrame)</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-23/scripture_references.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-30/wreck_inventory.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-30/wreck_inventory.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -341,13 +325,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="encyclicals.csv" class="level3">
-<h3 class="anchored" data-anchor-id="encyclicals.csv"><code>encyclicals.csv</code></h3>
+<section id="wreck_inventory.csv" class="level3">
+<h3 class="anchored" data-anchor-id="wreck_inventory.csv"><code>wreck_inventory.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 16%">
-<col style="width: 65%">
+<col style="width: 31%">
+<col style="width: 14%">
+<col style="width: 54%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -358,157 +342,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">encyclical</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the encyclical (Rerum Novarum or Magnifica Humanitas).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">pope</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Papal name of the author (Leo XIII or Leo XIV).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year the encyclical was published.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">paragraph</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Paragraph number within the encyclical (1-indexed).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">text</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Full text of the paragraph.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">word_count</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of words in the paragraph.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">sentence_count</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Number of sentences in the paragraph (counted by terminal punctuation).</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="papal_encyclicals.csv" class="level3">
-<h3 class="anchored" data-anchor-id="papal_encyclicals.csv"><code>papal_encyclicals.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 16%">
-<col style="width: 65%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">title</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Title of the encyclical (usually in Latin).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">pope</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Papal name of the author.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year the encyclical was published.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">papal_number</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Ordinal number of the pope (e.g., Leo XIII = 256, Francis = 266).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">birth_name</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Birth name of the pope before taking the papal name.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">birth_country</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Country of birth of the pope.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">pontificate_start</td>
 <td style="text-align: left;">date</td>
-<td style="text-align: left;">Date the pope’s pontificate began.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">pontificate_end</td>
 <td style="text-align: left;">date</td>
-<td style="text-align: left;">Date the pope’s pontificate ended (NA if currently reigning).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">pontificate_year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year of the pontificate in which the encyclical was published (1 = first year).</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="scripture_references.csv" class="level3">
-<h3 class="anchored" data-anchor-id="scripture_references.csv"><code>scripture_references.csv</code></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 16%">
-<col style="width: 65%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">variable</th>
-<th style="text-align: left;">class</th>
-<th style="text-align: left;">description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">encyclical</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Name of the encyclical containing the citation.</td>
+<td style="text-align: left;">Standardised date of the shipwreck event, where an exact date could be determined.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">pope</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Papal name of the author.</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">year</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Year the encyclical was published.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">paragraph</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Paragraph number where the citation appears.</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Calendar year of the shipwreck event (but see <code>descriptive_date</code>).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">reference</td>
+<td style="text-align: left;">wreck_name</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The scripture citation as written in the text (e.g., “Gen 1:28”, “Matt 25:40”).</td>
+<td style="text-align: left;">Recorded name of the wrecked vessel.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">book</td>
+<td style="text-align: left;">wreck_no</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Standardized English name of the biblical book (e.g., “Genesis”, “Matthew”).</td>
+<td style="text-align: left;">Unique identifier assigned to the shipwreck record.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">testament</td>
+<td style="text-align: left;">classification</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Old Testament or New Testament.</td>
+<td style="text-align: left;">Vessel type or classification.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">description</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Historical description of the vessel.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">descriptive_date</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Original date information as recorded in the source material, including approximate or uncertain dates.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">place_of_loss</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Recorded location where the vessel was lost.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">latitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Latitude of the shipwreck location (where available).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">longitude</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Longitude of the shipwreck location (where available).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">source_of_co_ordinate</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Source or method used to obtain the geographic coordinates.</td>
 </tr>
 </tbody>
 </table>
@@ -516,260 +402,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rvest)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(httr)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 1: encyclicals</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Paragraph-level text from two papal encyclicals</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Fetch Rerum Novarum (Leo XIII, 1891)</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>rn_url <span class="ot">&lt;-</span> <span class="st">"https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html"</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>rn_response <span class="ot">&lt;-</span> <span class="fu">GET</span>(rn_url, <span class="fu">user_agent</span>(<span class="st">"Mozilla/5.0"</span>))</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>rn_html <span class="ot">&lt;-</span> <span class="fu">read_html</span>(<span class="fu">content</span>(rn_response, <span class="at">as =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>))</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>rn_raw <span class="ot">&lt;-</span> rn_html <span class="sc">|&gt;</span> <span class="fu">html_nodes</span>(<span class="st">"p"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text2</span>()</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Fetch Magnifica Humanitas (Leo XIV, 2026)</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>mh_url <span class="ot">&lt;-</span> <span class="st">"https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html"</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>mh_response <span class="ot">&lt;-</span> <span class="fu">GET</span>(mh_url, <span class="fu">user_agent</span>(<span class="st">"Mozilla/5.0"</span>))</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>mh_html <span class="ot">&lt;-</span> <span class="fu">read_html</span>(<span class="fu">content</span>(mh_response, <span class="at">as =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>))</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>mh_raw <span class="ot">&lt;-</span> mh_html <span class="sc">|&gt;</span> <span class="fu">html_nodes</span>(<span class="st">"p"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text2</span>()</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Parse numbered paragraphs from Rerum Novarum</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>rn_numbered <span class="ot">&lt;-</span> <span class="fu">grep</span>(<span class="st">"^[0-9]+[.]"</span>, rn_raw, <span class="at">value =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>rn_first <span class="ot">&lt;-</span> rn_raw[<span class="dv">8</span>]  <span class="co"># Opening paragraph (unnumbered)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">################################################################################</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># National Monuments service - Wreck Inventory of Ireland</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># https://www.arcgis.com/sharing/rest/content/items/d4b084c880b546fabe38345461b563d2/data</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Accessed 2026-06-10</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Curator: Cormac Monaghan</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># A couple of notes ↓</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Accessing the data initially returns a warning message because some of the </span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#    dates and years values of the csv file are not consistent. Instead of all </span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">#    rows being in dym format some of them are written as "19th century" or "the </span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">#    1800s". I could probably try some fancy regex to better format all the </span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co">#    dates nicely but I'm really bad at stuff like that. Instead I plan to set </span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co">#    these dates as NA but leave in a "descriptive date" column for those </span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">#    potentially interested in these dates.</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Additionally, many of the older wreaks (pre 1945) do not have accurate</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co">#    coordinates and are hardcoded as zeros. However, the National Monuments</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co">#    service is still searching for information on such wreaks. As such rather</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co">#    than removing these I'm just going to recode them as NA as I think it could</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co">#    still lead to some interesting analysis.</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="do">################################################################################</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Packages ---------------------------------------------------------------------</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
 <span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>rn_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">paragraph =</span> <span class="fu">c</span>(<span class="dv">1</span>L, <span class="fu">as.integer</span>(<span class="fu">str_extract</span>(rn_numbered, <span class="st">"^[0-9]+"</span>))),</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">text =</span> <span class="fu">c</span>(rn_first, <span class="fu">str_replace</span>(rn_numbered, <span class="st">"^[0-9]+[.] ?"</span>, <span class="st">""</span>))</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Parse numbered paragraphs from Magnifica Humanitas</span></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>mh_numbered <span class="ot">&lt;-</span> <span class="fu">grep</span>(<span class="st">"^[0-9]+[.]"</span>, mh_raw, <span class="at">value =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>mh_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>  <span class="at">paragraph =</span> <span class="fu">as.integer</span>(<span class="fu">str_extract</span>(mh_numbered, <span class="st">"^[0-9]+"</span>)),</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  <span class="at">text =</span> <span class="fu">str_replace</span>(mh_numbered, <span class="st">"^[0-9]+[.] ?"</span>, <span class="st">""</span>)</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine into final dataset</span></span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>encyclicals <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  rn_df <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">encyclical =</span> <span class="st">"Rerum Novarum"</span>, <span class="at">pope =</span> <span class="st">"Leo XIII"</span>, <span class="at">year =</span> <span class="dv">1891</span>L),</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  mh_df <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">encyclical =</span> <span class="st">"Magnifica Humanitas"</span>, <span class="at">pope =</span> <span class="st">"Leo XIV"</span>, <span class="at">year =</span> <span class="dv">2026</span>L)</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">word_count =</span> <span class="fu">as.integer</span>(<span class="fu">str_count</span>(text, <span class="st">"</span><span class="sc">\\</span><span class="st">S+"</span>)),</span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">sentence_count =</span> <span class="fu">as.integer</span>(<span class="fu">str_count</span>(text, <span class="st">"[.!?]+"</span>))</span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(encyclical, pope, year, paragraph, text, word_count, sentence_count)</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 2: scripture_references</span></span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a><span class="co"># Biblical citations extracted from both encyclicals</span></span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Magnifica Humanitas: parenthetical refs like (cf. Gen 11:1-9)</span></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>mh_paren_pattern <span class="ot">&lt;-</span> <span class="st">"</span><span class="sc">\\</span><span class="st">(cf[.]</span><span class="sc">\\</span><span class="st">s*([^)]+)</span><span class="sc">\\</span><span class="st">)"</span></span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>mh_scripture <span class="ot">&lt;-</span> mh_df <span class="sc">|&gt;</span></span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">paren_refs =</span> <span class="fu">str_extract_all</span>(text, mh_paren_pattern)) <span class="sc">|&gt;</span></span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest</span>(paren_refs, <span class="at">keep_empty =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">paren_refs =</span> <span class="fu">str_replace_all</span>(paren_refs, <span class="st">"^</span><span class="sc">\\</span><span class="st">(cf[.]</span><span class="sc">\\</span><span class="st">s*|</span><span class="sc">\\</span><span class="st">)$"</span>, <span class="st">""</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_longer_delim</span>(paren_refs, <span class="at">delim =</span> <span class="st">";"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">reference =</span> <span class="fu">str_trim</span>(paren_refs)) <span class="sc">|&gt;</span></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(paragraph, reference) <span class="sc">|&gt;</span></span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">encyclical =</span> <span class="st">"Magnifica Humanitas"</span>, <span class="at">pope =</span> <span class="st">"Leo XIV"</span>, <span class="at">year =</span> <span class="dv">2026</span>L)</span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="co"># Magnifica Humanitas: inline refs like Jn 10:10</span></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>mh_inline_pattern <span class="ot">&lt;-</span> <span class="st">"(?&lt;!</span><span class="sc">\\</span><span class="st">()(?:Jn|Mt|Mc|Lc|Is|Ps|Ap|Rm|Gn|Ex|Ac|Ef|Col|Ga|Ph)</span><span class="sc">\\</span><span class="st">s+[0-9]+[,:][0-9]+"</span></span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>mh_inline <span class="ot">&lt;-</span> mh_df <span class="sc">|&gt;</span></span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">inline_refs =</span> <span class="fu">str_extract_all</span>(text, mh_inline_pattern)) <span class="sc">|&gt;</span></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest</span>(inline_refs, <span class="at">keep_empty =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">reference =</span> <span class="fu">str_trim</span>(inline_refs)) <span class="sc">|&gt;</span></span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(paragraph, reference) <span class="sc">|&gt;</span></span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">encyclical =</span> <span class="st">"Magnifica Humanitas"</span>, <span class="at">pope =</span> <span class="st">"Leo XIV"</span>, <span class="at">year =</span> <span class="dv">2026</span>L)</span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>mh_all_scripture <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(mh_scripture, mh_inline) <span class="sc">|&gt;</span></span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(encyclical, pope, year, paragraph, reference)</span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Rerum Novarum: manually mapped from the footnotes section</span></span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>rn_scripture <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>paragraph, <span class="sc">~</span>reference,</span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>  <span class="dv">11</span>L, <span class="st">"Deut 5:21"</span>,</span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>  <span class="dv">12</span>L, <span class="st">"Gen 1:28"</span>,</span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>  <span class="dv">17</span>L, <span class="st">"Gen 3:17"</span>,</span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  <span class="dv">20</span>L, <span class="st">"James 5:4"</span>,</span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  <span class="dv">21</span>L, <span class="st">"2 Tim 2:12"</span>,</span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>  <span class="dv">21</span>L, <span class="st">"2 Cor 4:17"</span>,</span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  <span class="dv">22</span>L, <span class="st">"Matt 19:23-24"</span>,</span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>  <span class="dv">22</span>L, <span class="st">"Luke 6:24-25"</span>,</span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>  <span class="dv">22</span>L, <span class="st">"Luke 11:41"</span>,</span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>  <span class="dv">22</span>L, <span class="st">"Acts 20:35"</span>,</span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>  <span class="dv">22</span>L, <span class="st">"Matt 25:40"</span>,</span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>  <span class="dv">23</span>L, <span class="st">"2 Cor 8:9"</span>,</span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>  <span class="dv">23</span>L, <span class="st">"Mark 6:3"</span>,</span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>  <span class="dv">24</span>L, <span class="st">"Matt 5:3"</span>,</span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>  <span class="dv">24</span>L, <span class="st">"Matt 11:28"</span>,</span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>  <span class="dv">25</span>L, <span class="st">"Rom 8:17"</span>,</span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>  <span class="dv">28</span>L, <span class="st">"1 Tim 6:10"</span>,</span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>  <span class="dv">29</span>L, <span class="st">"Acts 4:34"</span>,</span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>  <span class="dv">40</span>L, <span class="st">"Gen 1:28"</span>,</span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>  <span class="dv">40</span>L, <span class="st">"Rom 10:12"</span>,</span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>  <span class="dv">41</span>L, <span class="st">"Exod 20:8"</span>,</span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>  <span class="dv">41</span>L, <span class="st">"Gen 2:2"</span>,</span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>  <span class="dv">44</span>L, <span class="st">"Gen 3:19"</span>,</span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>  <span class="dv">50</span>L, <span class="st">"Eccl 4:9-10"</span>,</span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>  <span class="dv">50</span>L, <span class="st">"Prov 18:19"</span>,</span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>  <span class="dv">57</span>L, <span class="st">"Matt 16:26"</span>,</span>
-<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>  <span class="dv">57</span>L, <span class="st">"Matt 6:32-33"</span>,</span>
-<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>  <span class="dv">63</span>L, <span class="st">"1 Cor 13:4-7"</span></span>
-<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
-<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">encyclical =</span> <span class="st">"Rerum Novarum"</span>, <span class="at">pope =</span> <span class="st">"Leo XIII"</span>, <span class="at">year =</span> <span class="dv">1891</span>L)</span>
-<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine and standardize book names</span></span>
-<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>scripture_references <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
-<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>  rn_scripture <span class="sc">|&gt;</span> <span class="fu">select</span>(encyclical, pope, year, paragraph, reference),</span>
-<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>  mh_all_scripture</span>
-<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
-<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">book =</span> <span class="fu">case_when</span>(</span>
-<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Gen"</span>) <span class="sc">~</span> <span class="st">"Genesis"</span>,</span>
-<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Gn"</span>) <span class="sc">~</span> <span class="st">"Genesis"</span>,</span>
-<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Exod"</span>) <span class="sc">~</span> <span class="st">"Exodus"</span>,</span>
-<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ex</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Exodus"</span>,</span>
-<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Deut"</span>) <span class="sc">~</span> <span class="st">"Deuteronomy"</span>,</span>
-<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Neh"</span>) <span class="sc">~</span> <span class="st">"Nehemiah"</span>,</span>
-<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Prov"</span>) <span class="sc">~</span> <span class="st">"Proverbs"</span>,</span>
-<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Eccl"</span>) <span class="sc">~</span> <span class="st">"Ecclesiastes"</span>,</span>
-<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ps"</span>) <span class="sc">~</span> <span class="st">"Psalms"</span>,</span>
-<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Is"</span>) <span class="sc">~</span> <span class="st">"Isaiah"</span>,</span>
-<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Jer"</span>) <span class="sc">~</span> <span class="st">"Jeremiah"</span>,</span>
-<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ezek"</span>) <span class="sc">~</span> <span class="st">"Ezekiel"</span>,</span>
-<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Dan"</span>) <span class="sc">~</span> <span class="st">"Daniel"</span>,</span>
-<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Matt"</span>) <span class="sc">~</span> <span class="st">"Matthew"</span>,</span>
-<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Mt</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Matthew"</span>,</span>
-<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Mark"</span>) <span class="sc">~</span> <span class="st">"Mark"</span>,</span>
-<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Mk</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Mark"</span>,</span>
-<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Mc</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Mark"</span>,</span>
-<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Luke"</span>) <span class="sc">~</span> <span class="st">"Luke"</span>,</span>
-<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Lc</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Luke"</span>,</span>
-<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Lk</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Luke"</span>,</span>
-<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^John"</span>) <span class="sc">~</span> <span class="st">"John"</span>,</span>
-<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Jn</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"John"</span>,</span>
-<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Acts"</span>) <span class="sc">~</span> <span class="st">"Acts"</span>,</span>
-<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ac</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Acts"</span>,</span>
-<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Rom"</span>) <span class="sc">~</span> <span class="st">"Romans"</span>,</span>
-<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Rm</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Romans"</span>,</span>
-<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^1 Cor"</span>) <span class="sc">~</span> <span class="st">"1 Corinthians"</span>,</span>
-<span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^1</span><span class="sc">\\</span><span class="st">s*Co</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"1 Corinthians"</span>,</span>
-<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^2 Cor"</span>) <span class="sc">~</span> <span class="st">"2 Corinthians"</span>,</span>
-<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^2</span><span class="sc">\\</span><span class="st">s*Co</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"2 Corinthians"</span>,</span>
-<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Gal"</span>) <span class="sc">~</span> <span class="st">"Galatians"</span>,</span>
-<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Eph"</span>) <span class="sc">~</span> <span class="st">"Ephesians"</span>,</span>
-<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ef</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Ephesians"</span>,</span>
-<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Phil"</span>) <span class="sc">~</span> <span class="st">"Philippians"</span>,</span>
-<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ph</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Philippians"</span>,</span>
-<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Col"</span>) <span class="sc">~</span> <span class="st">"Colossians"</span>,</span>
-<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^1 Tim"</span>) <span class="sc">~</span> <span class="st">"1 Timothy"</span>,</span>
-<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^2 Tim"</span>) <span class="sc">~</span> <span class="st">"2 Timothy"</span>,</span>
-<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Heb"</span>) <span class="sc">~</span> <span class="st">"Hebrews"</span>,</span>
-<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^James"</span>) <span class="sc">~</span> <span class="st">"James"</span>,</span>
-<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^1 Pet"</span>) <span class="sc">~</span> <span class="st">"1 Peter"</span>,</span>
-<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^1</span><span class="sc">\\</span><span class="st">s*P</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"1 Peter"</span>,</span>
-<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Rev"</span>) <span class="sc">~</span> <span class="st">"Revelation"</span>,</span>
-<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(reference, <span class="st">"^Ap</span><span class="sc">\\</span><span class="st">b"</span>) <span class="sc">~</span> <span class="st">"Revelation"</span>,</span>
-<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a>      <span class="at">.default =</span> <span class="cn">NA_character_</span></span>
-<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>    <span class="at">testament =</span> <span class="fu">case_when</span>(</span>
-<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a>      book <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Genesis"</span>, <span class="st">"Exodus"</span>, <span class="st">"Leviticus"</span>, <span class="st">"Numbers"</span>, <span class="st">"Deuteronomy"</span>,</span>
-<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a>                  <span class="st">"Nehemiah"</span>, <span class="st">"Psalms"</span>, <span class="st">"Proverbs"</span>, <span class="st">"Ecclesiastes"</span>, <span class="st">"Isaiah"</span>,</span>
-<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a>                  <span class="st">"Jeremiah"</span>, <span class="st">"Ezekiel"</span>, <span class="st">"Daniel"</span>) <span class="sc">~</span> <span class="st">"Old Testament"</span>,</span>
-<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a>      <span class="sc">!</span><span class="fu">is.na</span>(book) <span class="sc">~</span> <span class="st">"New Testament"</span>,</span>
-<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a>      <span class="at">.default =</span> <span class="cn">NA_character_</span></span>
-<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(encyclical, pope, year, paragraph, reference, book, testament)</span>
-<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataset 3: papal_encyclicals</span></span>
-<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a><span class="co"># Catalog of all papal encyclicals from 1878-2026</span></span>
-<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
-<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="co"># Scrape the Vatican's alphabetical papal documents list</span></span>
-<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a>catalog_url <span class="ot">&lt;-</span> <span class="st">"https://www.vatican.va/offices/papal_docs_list.html"</span></span>
-<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a>catalog_resp <span class="ot">&lt;-</span> <span class="fu">GET</span>(catalog_url, <span class="fu">user_agent</span>(<span class="st">"Mozilla/5.0"</span>))</span>
-<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a>catalog_html <span class="ot">&lt;-</span> <span class="fu">read_html</span>(<span class="fu">content</span>(catalog_resp, <span class="at">as =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>))</span>
-<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract all 4-column HTML tables (Title, Author, Year, Type)</span></span>
-<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a>tables <span class="ot">&lt;-</span> catalog_html <span class="sc">|&gt;</span> <span class="fu">html_table</span>(<span class="at">fill =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a>four_col_tables <span class="ot">&lt;-</span> <span class="fu">keep</span>(tables, <span class="sc">~</span> <span class="fu">ncol</span>(.x) <span class="sc">==</span> <span class="dv">4</span>)</span>
-<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a>all_docs <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(four_col_tables, <span class="at">.id =</span> <span class="st">"table_id"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">title =</span> X1, <span class="at">author =</span> X2, <span class="at">year_raw =</span> X3, <span class="at">type =</span> X4) <span class="sc">|&gt;</span></span>
-<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(title <span class="sc">!=</span> <span class="st">"Title"</span>, title <span class="sc">!=</span> <span class="st">""</span>, <span class="fu">nchar</span>(title) <span class="sc">&gt;</span> <span class="dv">2</span>, type <span class="sc">==</span> <span class="st">"Encyclical"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-196"><a href="#cb4-196" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">year =</span> <span class="fu">as.integer</span>(<span class="fu">str_extract</span>(year_raw, <span class="st">"[0-9]{4}"</span>))) <span class="sc">|&gt;</span></span>
-<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(year)) <span class="sc">|&gt;</span></span>
-<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(title, author, year, <span class="at">.keep_all =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a>    <span class="at">pope =</span> <span class="fu">case_when</span>(</span>
-<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Leo XIII"</span>) <span class="sc">~</span> <span class="st">"Leo XIII"</span>,</span>
-<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Pius X($|[^I])"</span>) <span class="sc">~</span> <span class="st">"Pius X"</span>,</span>
-<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Pius XI($|[^I])"</span>) <span class="sc">~</span> <span class="st">"Pius XI"</span>,</span>
-<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Pius XII"</span>) <span class="sc">~</span> <span class="st">"Pius XII"</span>,</span>
-<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Benedict XV($|[^I])"</span>) <span class="sc">~</span> <span class="st">"Benedict XV"</span>,</span>
-<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Benedict XVI"</span>) <span class="sc">~</span> <span class="st">"Benedict XVI"</span>,</span>
-<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"John XXIII"</span>) <span class="sc">~</span> <span class="st">"John XXIII"</span>,</span>
-<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"John Paul II"</span>) <span class="sc">~</span> <span class="st">"John Paul II"</span>,</span>
-<span id="cb4-209"><a href="#cb4-209" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(author, <span class="st">"Paul VI"</span>) <span class="sc">~</span> <span class="st">"Paul VI"</span>,</span>
-<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a>      <span class="at">.default =</span> author</span>
-<span id="cb4-211"><a href="#cb4-211" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(title, pope, year)</span>
-<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a><span class="co"># Add encyclicals missing from the Vatican's legacy list</span></span>
-<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a>missing_encyclicals <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>title, <span class="sc">~</span>pope, <span class="sc">~</span>year,</span>
-<span id="cb4-218"><a href="#cb4-218" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Lumen Fidei"</span>, <span class="st">"Francis"</span>, <span class="dv">2013</span>L,</span>
-<span id="cb4-219"><a href="#cb4-219" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Laudato Si'"</span>, <span class="st">"Francis"</span>, <span class="dv">2015</span>L,</span>
-<span id="cb4-220"><a href="#cb4-220" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Fratelli Tutti"</span>, <span class="st">"Francis"</span>, <span class="dv">2020</span>L,</span>
-<span id="cb4-221"><a href="#cb4-221" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dilexit Nos"</span>, <span class="st">"Francis"</span>, <span class="dv">2024</span>L,</span>
-<span id="cb4-222"><a href="#cb4-222" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Magnifica Humanitas"</span>, <span class="st">"Leo XIV"</span>, <span class="dv">2026</span>L</span>
-<span id="cb4-223"><a href="#cb4-223" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-224"><a href="#cb4-224" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-225"><a href="#cb4-225" aria-hidden="true" tabindex="-1"></a><span class="co"># Papal biographical metadata</span></span>
-<span id="cb4-226"><a href="#cb4-226" aria-hidden="true" tabindex="-1"></a>papal_metadata <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-227"><a href="#cb4-227" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>pope, <span class="sc">~</span>papal_number, <span class="sc">~</span>birth_name, <span class="sc">~</span>birth_country, <span class="sc">~</span>pontificate_start, <span class="sc">~</span>pontificate_end,</span>
-<span id="cb4-228"><a href="#cb4-228" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Leo XIII"</span>, <span class="dv">256</span>L, <span class="st">"Vincenzo Gioacchino Pecci"</span>, <span class="st">"Italy"</span>, <span class="st">"1878-02-20"</span>, <span class="st">"1903-07-20"</span>,</span>
-<span id="cb4-229"><a href="#cb4-229" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Pius X"</span>, <span class="dv">257</span>L, <span class="st">"Giuseppe Melchiorre Sarto"</span>, <span class="st">"Italy"</span>, <span class="st">"1903-08-04"</span>, <span class="st">"1914-08-20"</span>,</span>
-<span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Benedict XV"</span>, <span class="dv">258</span>L, <span class="st">"Giacomo della Chiesa"</span>, <span class="st">"Italy"</span>, <span class="st">"1914-09-03"</span>, <span class="st">"1922-01-22"</span>,</span>
-<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Pius XI"</span>, <span class="dv">259</span>L, <span class="st">"Achille Ratti"</span>, <span class="st">"Italy"</span>, <span class="st">"1922-02-06"</span>, <span class="st">"1939-02-10"</span>,</span>
-<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Pius XII"</span>, <span class="dv">260</span>L, <span class="st">"Eugenio Maria Giuseppe Pacelli"</span>, <span class="st">"Italy"</span>, <span class="st">"1939-03-02"</span>, <span class="st">"1958-10-09"</span>,</span>
-<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a>  <span class="st">"John XXIII"</span>, <span class="dv">261</span>L, <span class="st">"Angelo Giuseppe Roncalli"</span>, <span class="st">"Italy"</span>, <span class="st">"1958-10-28"</span>, <span class="st">"1963-06-03"</span>,</span>
-<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Paul VI"</span>, <span class="dv">262</span>L, <span class="st">"Giovanni Battista Montini"</span>, <span class="st">"Italy"</span>, <span class="st">"1963-06-21"</span>, <span class="st">"1978-08-06"</span>,</span>
-<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a>  <span class="st">"John Paul II"</span>, <span class="dv">264</span>L, <span class="st">"Karol Jozef Wojtyla"</span>, <span class="st">"Poland"</span>, <span class="st">"1978-10-16"</span>, <span class="st">"2005-04-02"</span>,</span>
-<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Benedict XVI"</span>, <span class="dv">265</span>L, <span class="st">"Joseph Aloisius Ratzinger"</span>, <span class="st">"Germany"</span>, <span class="st">"2005-04-19"</span>, <span class="st">"2013-02-28"</span>,</span>
-<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Francis"</span>, <span class="dv">266</span>L, <span class="st">"Jorge Mario Bergoglio"</span>, <span class="st">"Argentina"</span>, <span class="st">"2013-03-13"</span>, <span class="st">"2025-04-21"</span>,</span>
-<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Leo XIV"</span>, <span class="dv">267</span>L, <span class="st">"Robert Francis Prevost"</span>, <span class="st">"United States"</span>, <span class="st">"2025-05-08"</span>, <span class="cn">NA_character_</span></span>
-<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
-<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a>    <span class="at">pontificate_start =</span> <span class="fu">as.Date</span>(pontificate_start),</span>
-<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a>    <span class="at">pontificate_end =</span> <span class="fu">as.Date</span>(pontificate_end)</span>
-<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine and enrich</span></span>
-<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a>papal_encyclicals <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(all_docs, missing_encyclicals) <span class="sc">|&gt;</span></span>
-<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(title, pope, year) <span class="sc">|&gt;</span></span>
-<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(papal_metadata, <span class="at">by =</span> <span class="st">"pope"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a>    <span class="at">pontificate_year =</span> <span class="fu">as.integer</span>(year <span class="sc">-</span> <span class="fu">as.integer</span>(<span class="fu">format</span>(pontificate_start, <span class="st">"%Y"</span>)) <span class="sc">+</span> <span class="dv">1</span>L)</span>
-<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(year, title) <span class="sc">|&gt;</span></span>
-<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(title, pope, year, papal_number, birth_name, birth_country,</span>
-<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a>         pontificate_start, pontificate_end, pontificate_year)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Accessing and tidying dataset ------------------------------------------------</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>wreck_inventory <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://www.arcgis.com/sharing/rest/content/items/d4b084c880b546fabe38345461b563d2/data"</span>,</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">locale =</span> readr<span class="sc">::</span><span class="fu">locale</span>(<span class="at">encoding =</span> <span class="st">"latin1"</span>)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> date_of_loss,</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">year =</span> date_of_loss_year_only,</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    wreck_name,</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    wreck_no,</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    classification,</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    description,</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">descriptive_date =</span> date_of_loss,</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    place_of_loss,</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">latitude =</span> dd_lat,</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">longitude =</span> dd_long,</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>    source_of_co_ordinate</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Turning inconsistent dates &amp; years into NA values by making remaking</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>  <span class="co"># everything to be dmy format.</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Additionally, setting hardcoded coordinates to be NA</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> lubridate<span class="sc">::</span><span class="fu">dmy</span>(date),</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">year =</span> lubridate<span class="sc">::</span><span class="fu">year</span>(date),</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">latitude =</span> <span class="fu">ifelse</span>(latitude <span class="sc">==</span> <span class="dv">0</span>, <span class="cn">NA</span>, latitude),</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">longitude =</span> <span class="fu">ifelse</span>(longitude <span class="sc">==</span> <span class="dv">0</span>, <span class="cn">NA</span>, longitude)</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
