@@ -1,0 +1,18 @@
+title: "UFC Athletes and Fight Data"
+article:
+  title: "fightr: Analyze Fight Probabilities and Proportions via Statistical Frameworks"
+  url: "https://github.com/benyamindsmith/fightr/"
+data_source:
+  title: "fightr: Analyze Fight Probabilities and Proportions via Statistical Frameworks"
+  url: "https://github.com/benyamindsmith/fightr/"
+images:
+# Please include at least one image, and up to three images
+- file: "fightr_banner.png"
+  alt: >
+    Banner for the 'fightr' R package, featuring a hexagonal logo with a fighter silhouette and the R logo, next to the stylized text 'fightr' against a dark chain-link background.
+credit:
+  post: "Benjamin Smith"
+  github: "@benyamindsmith"
+  bluesky: "@NA"
+  linkedin: "@benjamin-smith-8116a215b"
+  mastodon: "@bensstats@fosstodon.org"
