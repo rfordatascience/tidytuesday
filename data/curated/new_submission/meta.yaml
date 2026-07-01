@@ -1,0 +1,18 @@
+title: "Many penguins"
+article:
+  title: "AVONET: morphological, ecological and geographical data for all birds"
+  url: "http://dx.doi.org/10.1111/ele.13898"
+data_source:
+  title: "AVONET: morphological, ecological and geographical data for all birds"
+  url: "https://opentraits.org/datasets/avonet.html"
+images:
+# Please include at least one image, and up to three images
+- file: "penguin_mosaic.jpg"
+  alt: >
+    A montage of the 18 penguin species included in the data set, arranged alphabetically from A. forsteri (top left) to S. mendiculus (bottom right). The images vary; most show a single individual in a terrestrial habitat, but some show multiple individuals or family groups, or show birds at sea.
+- file: "gg_penguin_phylo.png"
+  alt: >
+    A phylogenetic layout of images of the 18 penguin species included in the data set, arranged according to a radial phylogenetic layout. The images vary; most show a single individual in a terrestrial habitat, but some show multiple individuals or family groups, or show birds at sea.
+credit:
+  post: "Ben Bolker, McMaster University"
+  bluesky: "@bbolker"
