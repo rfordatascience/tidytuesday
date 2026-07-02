@@ -1,0 +1,18 @@
+title: "Swedish Wildlife Accidents"
+article:
+  title: "När händer olyckorna? (When do the accidents happen?)"
+  url: "https://statistik.viltolycka.se/statistik/nar-hander-olyckorna/"
+data_source:
+  title: "Nationella viltolycksrådet (National Wildlife Accident Council)"
+  url: "https://statistik.viltolycka.se/statistik/excelrapport/"
+images:
+# Please include at least one image, and up to three images
+- file: "wildlife_accidents_map.png"
+  alt: >
+    Twelve maps of Sweden, one per wildlife species, showing the density of vehicle accidents involving each species from July 2024 to June 2026, in shades from yellow to dark red for increasing density. Roe deer accidents blanket the whole southern half of the country and reach up along the northern coast. Moose accidents cover the entire country, including the far north. Wild boar accidents concentrate in the south, and fallow deer accidents show strong hotspots around Södermanland and in southern Skåne. Red deer and otter accidents are scattered across the south, while bear, lynx, wolf, mouflon, eagle, and wolverine accidents are rare and scattered.
+- file: "wildlife_accidents_heatmap.png"
+  alt: >
+    Heatmap of wildlife-vehicle accidents in Sweden by month and hour of day, July 2024 to June 2026, in shades of green. Accidents cluster in two bands, one around dawn and one around dusk, and both bands shift through the year following daylight: the evening peak comes as early as 16:00-17:00 in November but as late as 22:00 in midsummer. October and November have the most accidents overall, with the darkest cells at 06:00-07:00 in October and at dusk in November.
+credit:
+  post: "Georgios Karamanis"
+  github: "@gkaramanis"
