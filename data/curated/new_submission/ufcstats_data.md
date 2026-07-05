@@ -8,7 +8,7 @@
 |height   |double    |Fighter height in inches, where available. |
 |weight   |double    |Fighter listed weight in pounds, where available. |
 |reach    |double    |Fighter reach in inches, where available. |
-|stance   |character |Fighter stance, such as '"Orthodox"', '"Southpaw"', or '"Switch"', where available. |
+|stance   |character |Fighter stance, such as "Orthodox", "Southpaw", or "Switch", where available. |
 |dob      |date      |Fighter date of birth, where available. |
 |s_lp_m   |double    |Significant strikes landed per minute. |
 |str_acc  |double    |Significant striking accuracy, expressed as a proportion. |
