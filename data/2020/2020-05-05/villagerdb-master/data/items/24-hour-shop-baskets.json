@@ -1,0 +1,20 @@
+{
+  "id": "24-hour-shop-baskets",
+  "name": "24-hour-shop Baskets",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "filly"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

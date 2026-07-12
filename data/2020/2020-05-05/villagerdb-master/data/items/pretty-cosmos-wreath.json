@@ -1,0 +1,25 @@
+{
+  "id": "pretty-cosmos-wreath",
+  "name": "Pretty Cosmos Wreath",
+  "games": {
+    "nh": {
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4800
+        }
+      ],
+      "recipe": {
+        "orange-cosmos": 3,
+        "pink-cosmos": 3,
+        "red-cosmos": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cabana-wall",
+  "name": "Cabana Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Cabana",
+      "sources": [
+        "Island Gift Shop (rare)"
+      ],
+      "rvs": [
+        "kappn",
+        "tybalt"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

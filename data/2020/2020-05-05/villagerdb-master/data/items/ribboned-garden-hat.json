@@ -1,0 +1,19 @@
+{
+  "id": "ribboned-garden-hat",
+  "name": "Ribboned Garden Hat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 175
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

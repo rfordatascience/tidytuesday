@@ -1,0 +1,14 @@
+{
+  "id": "golden-wand",
+  "name": "Golden Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20750
+      }
+    }
+  },
+  "category": "Tools"
+}

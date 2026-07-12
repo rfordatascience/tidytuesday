@@ -1,0 +1,18 @@
+{
+  "id": "log-bench",
+  "name": "Log Bench",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "recipe": {
+        "hardwood": 5
+      }
+    }
+  }
+}

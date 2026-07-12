@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "2-18",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "sharp-outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "sharp-outfit",
+      "song": "Only Me"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "sharp-outfit",
+      "song": "Only Me",
+      "phrase": "squeaky",
+      "quote": "Got any cheese for me?"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "sharp-outfit",
+      "song": "Only Me",
+      "phrase": "squeaky"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "sharp-outfit",
+      "song": "Only Me",
+      "phrase": "squeaky",
+      "skill": "Dusting",
+      "goal": "Translator",
+      "fear": "Ghost Mask",
+      "quote": "The squeaky wheel gets the cheese.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "squeaky",
+      "song": "Only Me"
+    }
+  },
+  "name": "Dora",
+  "id": "dora"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shark-tooth-pattern",
+  "name": "Shark-tooth Pattern",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      }
+    }
+  },
+  "category": "Fossils"
+}

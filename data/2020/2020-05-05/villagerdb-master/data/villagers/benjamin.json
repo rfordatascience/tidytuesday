@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "8-3",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "subdued-print-tee",
+      "song": "Wandering",
+      "phrase": "alrighty",
+      "skill": "Brainteasers",
+      "goal": "Archaeologist",
+      "fear": "Mummy Mask",
+      "quote": "A good dog deserves a good treat.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "alrighty",
+      "song": "Wandering"
+    }
+  },
+  "name": "Benjamin",
+  "id": "benjamin"
+}

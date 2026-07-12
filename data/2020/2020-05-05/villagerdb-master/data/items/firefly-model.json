@@ -1,0 +1,13 @@
+{
+  "id": "firefly-model",
+  "name": "Firefly Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

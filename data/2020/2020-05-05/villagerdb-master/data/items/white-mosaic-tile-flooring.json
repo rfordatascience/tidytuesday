@@ -1,0 +1,23 @@
+{
+  "id": "white-mosaic-tile-flooring",
+  "name": "White Mosaic-tile Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 225
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 900
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

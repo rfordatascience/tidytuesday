@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "octopus",
+  "birthday": "9-20",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "big-star-shirt",
+      "song": "K.K. D & B",
+      "phrase": "sucker"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "big-star-shirt",
+      "song": "K.K. D & B"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "big-star-tee",
+      "song": "K.K. D & B",
+      "phrase": "sucker",
+      "quote": "Don't be a sucker!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "big-star-tee",
+      "song": "K.K. D & B",
+      "phrase": "sucker"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "big-star-tee",
+      "song": "K.K. D & B",
+      "phrase": "sucker",
+      "skill": "Trivia",
+      "goal": "Fisherman",
+      "fear": "Werewolf Hood",
+      "quote": "Don't be a sucker!",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "sucker",
+      "song": "K.K. D & B"
+    }
+  },
+  "name": "Octavian",
+  "id": "octavian"
+}

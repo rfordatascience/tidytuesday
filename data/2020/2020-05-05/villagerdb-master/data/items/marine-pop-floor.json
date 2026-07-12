@@ -1,0 +1,17 @@
+{
+  "id": "marine-pop-floor",
+  "name": "Marine Pop Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 410
+      },
+      "sources": [
+        "Fishing Tourney"
+      ]
+    }
+  }
+}

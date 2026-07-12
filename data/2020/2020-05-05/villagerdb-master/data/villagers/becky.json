@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "12-9",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "kaffes-shirt",
+      "song": "K.K. Aria"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "noble-shirt",
+      "song": "K.K. Aria",
+      "phrase": "chicklet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "noble-shirt",
+      "song": "K.K. Aria",
+      "phrase": "chicklet",
+      "skill": "Writing letters",
+      "goal": "Singer",
+      "fear": "Ghost Mask",
+      "quote": "A fool and his Bells are soon parted.",
+      "siblings": "Second of 3 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "chicklet",
+      "song": "K.K. Aria"
+    }
+  },
+  "name": "Becky",
+  "id": "becky"
+}

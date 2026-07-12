@@ -1,0 +1,42 @@
+{
+  "id": "bandage",
+  "name": "Bandage",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 80
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140
+        }
+      ]
+    }
+  }
+}

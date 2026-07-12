@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "1-19",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "red-bar-tee",
+      "song": "Forest Life",
+      "phrase": "zzzook",
+      "quote": "It's kind of a stereotype, but I really do love bananas!"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "red-bar-tee",
+      "song": "Forest Life",
+      "phrase": "zzzook"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "red-bar-tee",
+      "song": "Forest Life",
+      "phrase": "zzzook",
+      "skill": "Memorizing stuff",
+      "goal": "Movie director",
+      "fear": "Monster Mask",
+      "quote": "Friends go together like peanut butter and bananas.",
+      "siblings": "Third of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "zzzook",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Simon",
+  "id": "simon"
+}

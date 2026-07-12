@@ -1,0 +1,35 @@
+{
+  "id": "cushion",
+  "name": "Cushion",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 75
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 300
+        }
+      ]
+    }
+  }
+}

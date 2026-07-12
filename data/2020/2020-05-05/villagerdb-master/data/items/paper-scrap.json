@@ -1,0 +1,17 @@
+{
+  "id": "paper-scrap",
+  "name": "Paper Scrap",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": -120
+      },
+      "sources": [
+        "Undelivered petition form"
+      ]
+    }
+  }
+}

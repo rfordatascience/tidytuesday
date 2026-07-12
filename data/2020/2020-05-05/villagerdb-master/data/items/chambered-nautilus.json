@@ -1,0 +1,17 @@
+{
+  "id": "chambered-nautilus",
+  "name": "Chambered Nautilus",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

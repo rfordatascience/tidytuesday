@@ -1,0 +1,35 @@
+{
+  "id": "robot-hero",
+  "name": "Robot Hero",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Happy Home Designer save data"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 8000
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250000
+      },
+      "recipe": {
+        "rocket": 1,
+        "gold-armor": 1,
+        "rusted-part": 30,
+        "iron-nugget": 90,
+        "gold-nugget": 10
+      }
+    }
+  }
+}

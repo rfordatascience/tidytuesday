@@ -1,0 +1,17 @@
+{
+  "id": "blue-pansy",
+  "name": "Blue Pansy",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Hybrid - From Two White Pansy."
+      ]
+    }
+  }
+}

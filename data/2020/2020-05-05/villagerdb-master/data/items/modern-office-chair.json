@@ -1,0 +1,37 @@
+{
+  "id": "modern-office-chair",
+  "name": "Modern Office Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cleo",
+        "raddle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  }
+}

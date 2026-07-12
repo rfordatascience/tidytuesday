@@ -1,0 +1,232 @@
+age_group,type,injury_mechanism,number_est,rate_est
+0-17,Emergency Department Visit,Motor Vehicle Crashes,47138,64.1
+0-17,Emergency Department Visit,Unintentional Falls,397190,539.8
+0-17,Emergency Department Visit,Unintentionally struck by or against an object,229236,311.6
+0-17,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",55785,75.8
+0-17,Emergency Department Visit,Intentional self-harm,NA,NA
+0-17,Emergency Department Visit,Assault,24360,33.1
+0-17,Emergency Department Visit,Other or no mechanism specified,57983,78.8
+0-4,Emergency Department Visit,Motor Vehicle Crashes,5464,27.5
+0-4,Emergency Department Visit,Unintentional Falls,230776,1161
+0-4,Emergency Department Visit,Unintentionally struck by or against an object,53436,268.8
+0-4,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",12007,60.4
+0-4,Emergency Department Visit,Intentional self-harm,NA,NA
+0-4,Emergency Department Visit,Assault,674,3.4
+0-4,Emergency Department Visit,Other or no mechanism specified,19360,97.4
+5-14,Emergency Department Visit,Motor Vehicle Crashes,19785,48
+5-14,Emergency Department Visit,Unintentional Falls,133084,323.1
+5-14,Emergency Department Visit,Unintentionally struck by or against an object,120839,293.4
+5-14,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",30656,74.4
+5-14,Emergency Department Visit,Intentional self-harm,NA,NA
+5-14,Emergency Department Visit,Assault,9690,23.5
+5-14,Emergency Department Visit,Other or no mechanism specified,26022,63.2
+15-24,Emergency Department Visit,Motor Vehicle Crashes,103892,236.4
+15-24,Emergency Department Visit,Unintentional Falls,96568,219.7
+15-24,Emergency Department Visit,Unintentionally struck by or against an object,106679,242.7
+15-24,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",37118,84.5
+15-24,Emergency Department Visit,Intentional self-harm,870,2
+15-24,Emergency Department Visit,Assault,65399,148.8
+15-24,Emergency Department Visit,Other or no mechanism specified,33395,76
+25-34,Emergency Department Visit,Motor Vehicle Crashes,71641,164.8
+25-34,Emergency Department Visit,Unintentional Falls,70210,161.6
+25-34,Emergency Department Visit,Unintentionally struck by or against an object,44404,102.2
+25-34,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",22360,51.5
+25-34,Emergency Department Visit,Intentional self-harm,650,1.5
+25-34,Emergency Department Visit,Assault,57213,131.6
+25-34,Emergency Department Visit,Other or no mechanism specified,20974,48.3
+35-44,Emergency Department Visit,Motor Vehicle Crashes,44108,109.1
+35-44,Emergency Department Visit,Unintentional Falls,68830,170.2
+35-44,Emergency Department Visit,Unintentionally struck by or against an object,32479,80.3
+35-44,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",17541,43.4
+35-44,Emergency Department Visit,Intentional self-harm,421,1
+35-44,Emergency Department Visit,Assault,34100,84.3
+35-44,Emergency Department Visit,Other or no mechanism specified,16503,40.8
+45-54,Emergency Department Visit,Motor Vehicle Crashes,40020,92.2
+45-54,Emergency Department Visit,Unintentional Falls,95127,219.2
+45-54,Emergency Department Visit,Unintentionally struck by or against an object,30495,70.3
+45-54,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",17808,41
+45-54,Emergency Department Visit,Intentional self-harm,247,0.6
+45-54,Emergency Department Visit,Assault,27682,63.8
+45-54,Emergency Department Visit,Other or no mechanism specified,15962,36.8
+55-64,Emergency Department Visit,Motor Vehicle Crashes,27193,67.9
+55-64,Emergency Department Visit,Unintentional Falls,112460,280.9
+55-64,Emergency Department Visit,Unintentionally struck by or against an object,20408,51
+55-64,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",12928,32.3
+55-64,Emergency Department Visit,Intentional self-harm,105,0.3
+55-64,Emergency Department Visit,Assault,11538,28.8
+55-64,Emergency Department Visit,Other or no mechanism specified,13387,33.4
+65-74,Emergency Department Visit,Motor Vehicle Crashes,13829,52.4
+65-74,Emergency Department Visit,Unintentional Falls,120327,456.1
+65-74,Emergency Department Visit,Unintentionally struck by or against an object,11937,45.2
+65-74,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",7077,26.8
+65-74,Emergency Department Visit,Intentional self-harm,NA,NA
+65-74,Emergency Department Visit,Assault,2893,11
+65-74,Emergency Department Visit,Other or no mechanism specified,10051,38.1
+75+,Emergency Department Visit,Motor Vehicle Crashes,8176,41.2
+75+,Emergency Department Visit,Unintentional Falls,286031,1442.5
+75+,Emergency Department Visit,Unintentionally struck by or against an object,13270,66.9
+75+,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",7440,37.5
+75+,Emergency Department Visit,Intentional self-harm,NA,NA
+75+,Emergency Department Visit,Assault,1260,6.4
+75+,Emergency Department Visit,Other or no mechanism specified,17318,87.3
+Total,Emergency Department Visit,Motor Vehicle Crashes,334109,104.9
+Total,Emergency Department Visit,Unintentional Falls,1213412,380.9
+Total,Emergency Department Visit,Unintentionally struck by or against an object,433947,136.2
+Total,Emergency Department Visit,"Other unintentional injury, mechanism unspecified",164935,51.8
+Total,Emergency Department Visit,Intentional self-harm,2567,0.8
+Total,Emergency Department Visit,Assault,210450,66.1
+Total,Emergency Department Visit,Other or no mechanism specified,172974,54.3
+0-17,Hospitalizations,Motor Vehicle Crashes,5830,7.9
+0-17,Hospitalizations,Unintentional Falls,7935,10.8
+0-17,Hospitalizations,Unintentionally struck by or against an object,1985,2.7
+0-17,Hospitalizations,"Other unintentional injury, mechanism unspecified",3135,4.3
+0-17,Hospitalizations,Intentional self-harm,NA,NA
+0-17,Hospitalizations,Assault,1535,2.1
+0-17,Hospitalizations,Other or no mechanism specified,2595,3.5
+0-4,Hospitalizations,Motor Vehicle Crashes,870,4.4
+0-4,Hospitalizations,Unintentional Falls,4700,23.6
+0-4,Hospitalizations,Unintentionally struck by or against an object,510,2.6
+0-4,Hospitalizations,"Other unintentional injury, mechanism unspecified",785,3.9
+0-4,Hospitalizations,Intentional self-harm,NA,NA
+0-4,Hospitalizations,Assault,960,4.8
+0-4,Hospitalizations,Other or no mechanism specified,1140,5.7
+5-14,Hospitalizations,Motor Vehicle Crashes,2395,5.8
+5-14,Hospitalizations,Unintentional Falls,2270,5.5
+5-14,Hospitalizations,Unintentionally struck by or against an object,980,2.4
+5-14,Hospitalizations,"Other unintentional injury, mechanism unspecified",1435,3.5
+5-14,Hospitalizations,Intentional self-harm,NA,NA
+5-14,Hospitalizations,Assault,195,0.5
+5-14,Hospitalizations,Other or no mechanism specified,955,2.3
+15-24,Hospitalizations,Motor Vehicle Crashes,12925,29.4
+15-24,Hospitalizations,Unintentional Falls,3910,8.9
+15-24,Hospitalizations,Unintentionally struck by or against an object,1070,2.4
+15-24,Hospitalizations,"Other unintentional injury, mechanism unspecified",3060,7
+15-24,Hospitalizations,Intentional self-harm,280,0.6
+15-24,Hospitalizations,Assault,3125,7.1
+15-24,Hospitalizations,Other or no mechanism specified,2050,4.7
+25-34,Hospitalizations,Motor Vehicle Crashes,11050,25.4
+25-34,Hospitalizations,Unintentional Falls,4470,10.3
+25-34,Hospitalizations,Unintentionally struck by or against an object,635,1.5
+25-34,Hospitalizations,"Other unintentional injury, mechanism unspecified",2600,6
+25-34,Hospitalizations,Intentional self-harm,440,1
+25-34,Hospitalizations,Assault,4320,9.9
+25-34,Hospitalizations,Other or no mechanism specified,1965,4.5
+35-44,Hospitalizations,Motor Vehicle Crashes,7305,18.1
+35-44,Hospitalizations,Unintentional Falls,5640,13.9
+35-44,Hospitalizations,Unintentionally struck by or against an object,610,1.5
+35-44,Hospitalizations,"Other unintentional injury, mechanism unspecified",2255,5.6
+35-44,Hospitalizations,Intentional self-harm,340,0.8
+35-44,Hospitalizations,Assault,2865,7.1
+35-44,Hospitalizations,Other or no mechanism specified,1920,4.7
+45-54,Hospitalizations,Motor Vehicle Crashes,8490,19.6
+45-54,Hospitalizations,Unintentional Falls,12010,27.7
+45-54,Hospitalizations,Unintentionally struck by or against an object,685,1.6
+45-54,Hospitalizations,"Other unintentional injury, mechanism unspecified",3140,7.2
+45-54,Hospitalizations,Intentional self-harm,350,0.8
+45-54,Hospitalizations,Assault,3290,7.6
+45-54,Hospitalizations,Other or no mechanism specified,2775,6.4
+55-64,Hospitalizations,Motor Vehicle Crashes,7280,18.2
+55-64,Hospitalizations,Unintentional Falls,18490,46.2
+55-64,Hospitalizations,Unintentionally struck by or against an object,765,1.9
+55-64,Hospitalizations,"Other unintentional injury, mechanism unspecified",3165,7.9
+55-64,Hospitalizations,Intentional self-harm,145,0.4
+55-64,Hospitalizations,Assault,1780,4.4
+55-64,Hospitalizations,Other or no mechanism specified,4215,10.5
+65-74,Hospitalizations,Motor Vehicle Crashes,4485,17
+65-74,Hospitalizations,Unintentional Falls,25235,95.6
+65-74,Hospitalizations,Unintentionally struck by or against an object,790,3
+65-74,Hospitalizations,"Other unintentional injury, mechanism unspecified",2180,8.3
+65-74,Hospitalizations,Intentional self-harm,85,0.3
+65-74,Hospitalizations,Assault,535,2
+65-74,Hospitalizations,Other or no mechanism specified,5085,19.3
+75+,Hospitalizations,Motor Vehicle Crashes,3965,20
+75+,Hospitalizations,Unintentional Falls,74005,373.2
+75+,Hospitalizations,Unintentionally struck by or against an object,1045,5.3
+75+,Hospitalizations,"Other unintentional injury, mechanism unspecified",2550,12.9
+75+,Hospitalizations,Intentional self-harm,70,0.4
+75+,Hospitalizations,Assault,325,1.6
+75+,Hospitalizations,Other or no mechanism specified,11360,57.3
+Total,Hospitalizations,Motor Vehicle Crashes,58765,18.4
+Total,Hospitalizations,Unintentional Falls,150730,47.3
+Total,Hospitalizations,Unintentionally struck by or against an object,7090,2.2
+Total,Hospitalizations,"Other unintentional injury, mechanism unspecified",21170,6.6
+Total,Hospitalizations,Intentional self-harm,1730,0.5
+Total,Hospitalizations,Assault,17395,5.5
+Total,Hospitalizations,Other or no mechanism specified,31465,9.9
+0-17,Deaths,Motor Vehicle Crashes,931,1.3
+0-17,Deaths,Unintentional Falls,48,0.1
+0-17,Deaths,Unintentionally struck by or against an object,52,0.1
+0-17,Deaths,"Other unintentional injury, mechanism unspecified",308,0.4
+0-17,Deaths,Intentional self-harm,NA,NA
+0-17,Deaths,Assault,611,0.8
+0-17,Deaths,Other or no mechanism specified,61,0.1
+0-4,Deaths,Motor Vehicle Crashes,187,0.9
+0-4,Deaths,Unintentional Falls,19,0.1
+0-4,Deaths,Unintentionally struck by or against an object,27,0.1
+0-4,Deaths,"Other unintentional injury, mechanism unspecified",136,0.7
+0-4,Deaths,Intentional self-harm,NA,NA
+0-4,Deaths,Assault,322,1.6
+0-4,Deaths,Other or no mechanism specified,30,0.2
+5-14,Deaths,Motor Vehicle Crashes,326,0.8
+5-14,Deaths,Unintentional Falls,16,0
+5-14,Deaths,Unintentionally struck by or against an object,19,0
+5-14,Deaths,"Other unintentional injury, mechanism unspecified",110,0.3
+5-14,Deaths,Intentional self-harm,NA,NA
+5-14,Deaths,Assault,117,0.3
+5-14,Deaths,Other or no mechanism specified,19,0
+15-24,Deaths,Motor Vehicle Crashes,2419,5.5
+15-24,Deaths,Unintentional Falls,95,0.2
+15-24,Deaths,Unintentionally struck by or against an object,21,0
+15-24,Deaths,"Other unintentional injury, mechanism unspecified",344,0.8
+15-24,Deaths,Intentional self-harm,2171,4.9
+15-24,Deaths,Assault,1165,2.7
+15-24,Deaths,Other or no mechanism specified,96,0.2
+25-34,Deaths,Motor Vehicle Crashes,1960,4.5
+25-34,Deaths,Unintentional Falls,175,0.4
+25-34,Deaths,Unintentionally struck by or against an object,34,0.1
+25-34,Deaths,"Other unintentional injury, mechanism unspecified",345,0.8
+25-34,Deaths,Intentional self-harm,2622,6
+25-34,Deaths,Assault,1110,2.6
+25-34,Deaths,Other or no mechanism specified,125,0.3
+35-44,Deaths,Motor Vehicle Crashes,1402,3.5
+35-44,Deaths,Unintentional Falls,328,0.8
+35-44,Deaths,Unintentionally struck by or against an object,41,0.1
+35-44,Deaths,"Other unintentional injury, mechanism unspecified",388,1
+35-44,Deaths,Intentional self-harm,2502,6.2
+35-44,Deaths,Assault,732,1.8
+35-44,Deaths,Other or no mechanism specified,152,0.4
+45-54,Deaths,Motor Vehicle Crashes,1484,3.4
+45-54,Deaths,Unintentional Falls,908,2.1
+45-54,Deaths,Unintentionally struck by or against an object,62,0.1
+45-54,Deaths,"Other unintentional injury, mechanism unspecified",618,1.4
+45-54,Deaths,Intentional self-harm,3334,7.7
+45-54,Deaths,Assault,633,1.5
+45-54,Deaths,Other or no mechanism specified,297,0.7
+55-64,Deaths,Motor Vehicle Crashes,1287,3.2
+55-64,Deaths,Unintentional Falls,1674,4.2
+55-64,Deaths,Unintentionally struck by or against an object,70,0.2
+55-64,Deaths,"Other unintentional injury, mechanism unspecified",585,1.5
+55-64,Deaths,Intentional self-harm,3233,8.1
+55-64,Deaths,Assault,410,1
+55-64,Deaths,Other or no mechanism specified,393,1
+65-74,Deaths,Motor Vehicle Crashes,797,3
+65-74,Deaths,Unintentional Falls,2324,8.8
+65-74,Deaths,Unintentionally struck by or against an object,60,0.2
+65-74,Deaths,"Other unintentional injury, mechanism unspecified",504,1.9
+65-74,Deaths,Intentional self-harm,2244,8.5
+65-74,Deaths,Assault,241,0.9
+65-74,Deaths,Other or no mechanism specified,356,1.3
+75+,Deaths,Motor Vehicle Crashes,794,4
+75+,Deaths,Unintentional Falls,10400,52.4
+75+,Deaths,Unintentionally struck by or against an object,44,0.2
+75+,Deaths,"Other unintentional injury, mechanism unspecified",859,4.3
+75+,Deaths,Intentional self-harm,2212,11.2
+75+,Deaths,Assault,174,0.9
+75+,Deaths,Other or no mechanism specified,1079,5.4
+Total,Deaths,Motor Vehicle Crashes,10656,3.3
+Total,Deaths,Unintentional Falls,15939,5
+Total,Deaths,Unintentionally struck by or against an object,378,0.1
+Total,Deaths,"Other unintentional injury, mechanism unspecified",3889,1.2
+Total,Deaths,Intentional self-harm,18485,5.8
+Total,Deaths,Assault,4906,1.5
+Total,Deaths,Other or no mechanism specified,2547,0.8

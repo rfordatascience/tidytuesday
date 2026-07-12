@@ -1,0 +1,42 @@
+{
+  "id": "doctors-mask",
+  "name": "Doctor's Mask",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 80
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140
+        }
+      ]
+    }
+  }
+}

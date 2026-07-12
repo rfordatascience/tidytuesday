@@ -1,0 +1,153 @@
+# This GitHub Action checks incoming TidyTuesday dataset submissions.
+# It verifies that all required files are present, images meet size and 
+# dimension constraints, and provided URLs are accessible. Coded with the help 
+# of Google Gemini.
+
+name: PR Submission Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number to run checks for'
+        required: true
+        type: number
+  pull_request_target:
+    paths:
+      - 'data/curated/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request_target' }}
+  
+jobs:
+  check-submission:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine PR Number
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "PR_NUMBER=${{ github.event.inputs.pr_number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.repository.default_branch }}" >> "$GITHUB_ENV"
+          else
+            echo "PR_NUMBER=${{ github.event.pull_request.number }}" >> "$GITHUB_ENV"
+            echo "BASE_REF=${{ github.event.pull_request.base.ref }}" >> "$GITHUB_ENV"
+          fi
+
+      # For pull_request events, the action automatically checks out the PR's merge commit.
+      - name: Checkout PR Code
+        uses: actions/checkout@v5
+        with:
+          ref: refs/pull/${{ env.PR_NUMBER }}/head
+          fetch-depth: 0
+
+      - name: Validate changed files scope
+        run: |
+          git fetch origin "${BASE_REF}:refs/remotes/origin/${BASE_REF}"
+          mapfile -t changed_files < <(git diff --name-only "origin/${BASE_REF}...HEAD")
+
+          if [ "${#changed_files[@]}" -eq 0 ]; then
+            echo "No changed files found in this PR."
+            exit 1
+          fi
+
+          disallowed_paths=()
+          curated_folders=()
+          for path in "${changed_files[@]}"; do
+            if [[ "${path}" != data/curated/* ]]; then
+              disallowed_paths+=("${path}")
+              continue
+            fi
+            IFS='/' read -r data curated folder _ <<< "${path}"
+            curated_folders+=("data/curated/${folder}")
+          done
+
+          if [ "${#disallowed_paths[@]}" -gt 0 ]; then
+            echo "PR includes disallowed changes outside data/curated/**:"
+            printf '%s\n' "${disallowed_paths[@]}"
+            exit 1
+          fi
+
+          mapfile -t unique_curated_folders < <(printf '%s\n' "${curated_folders[@]}" | sort -u)
+          if [ "${#unique_curated_folders[@]}" -ne 1 ]; then
+            echo "PR must only modify one folder under data/curated. Found:"
+            printf '%s\n' "${unique_curated_folders[@]}"
+            exit 1
+          fi
+
+          echo "Validated changed files in folder: ${unique_curated_folders[0]}"
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R dependencies
+        run: |
+          install.packages("pak")
+          pak::pak(c(
+            "cli",
+            "fs",
+            "glue",
+            "httr",
+            "knitr",
+            "magick",
+            "purrr",
+            "readr",
+            "stringr",
+            "yaml"
+          ))
+        shell: Rscript {0}
+
+      - name: Run Submission Checks
+        id: run_checks
+        run: Rscript .github/scripts/check_curated.R
+
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ env.PR_NUMBER }}
+        with:
+          script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
+            const tag = '<!-- PR check -->';
+            const issueNumber = parseInt(process.env.PR_NUMBER, 10);
+
+            // Find existing comment with the tag (from the GitHub Actions bot)
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                per_page: 100,
+              }
+            );
+            const existing = comments.find(
+              c => c.user.type === 'Bot' && c.body && c.body.includes(tag)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: commentBody
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: commentBody
+              });
+            }
+
+      - name: Fail workflow if checks failed
+        if: steps.run_checks.outputs.check_status == 'failure'
+        run: exit 1

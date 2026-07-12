@@ -1,0 +1,23 @@
+{
+  "id": "cloth-shoulder-bag",
+  "name": "Cloth Shoulder Bag",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Kick's"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

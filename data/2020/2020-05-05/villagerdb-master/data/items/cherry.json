@@ -1,0 +1,34 @@
+{
+  "id": "cherry",
+  "name": "Cherry",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Cherry tree"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Shaking fruit tree",
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    }
+  }
+}

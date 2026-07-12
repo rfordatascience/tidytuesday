@@ -1,0 +1,18 @@
+{
+  "id": "tree-branch-wreath",
+  "name": "Tree Branch Wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "recipe": {
+        "tree-branch": 10
+      }
+    }
+  },
+  "category": "Furniture"
+}

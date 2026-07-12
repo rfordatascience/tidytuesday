@@ -1,0 +1,19 @@
+{
+  "id": "peacoat-and-skirt-combo",
+  "name": "Peacoat-and-skirt Combo",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

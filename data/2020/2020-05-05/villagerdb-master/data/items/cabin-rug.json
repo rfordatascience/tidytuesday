@@ -1,0 +1,27 @@
+{
+  "id": "cabin-rug",
+  "name": "Cabin Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Cabin",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 385
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1540
+        }
+      ]
+    }
+  }
+}

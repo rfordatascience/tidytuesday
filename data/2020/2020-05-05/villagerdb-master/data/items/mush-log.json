@@ -1,0 +1,19 @@
+{
+  "id": "mush-log",
+  "name": "Mush Log",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1680
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6720
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

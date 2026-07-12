@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "9-9",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "dazed-shirt",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "dazed-shirt",
+      "song": "Imperial K.K."
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie",
+      "quote": "LEAPING LOLLIPOPS!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Imperial K.K.",
+      "phrase": "cubbie",
+      "skill": "Hula dancing",
+      "goal": "Cartoonist",
+      "fear": "Skeleton Hood",
+      "quote": "Time spent with friends is time well spent!",
+      "siblings": "Eldest of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "cubbie",
+      "song": "Imperial K.K."
+    }
+  },
+  "name": "Pinky",
+  "id": "pinky"
+}

@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "5-15",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "three-ball-shirt",
+      "song": "K.K. Safari"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "three-ball-tee",
+      "song": "K.K. Safari",
+      "phrase": "flexin",
+      "skill": "Playing catch",
+      "goal": "Soccer player",
+      "fear": "Werewolf Hood",
+      "quote": "That's the way the energy bar crumbles.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "flexin",
+      "song": "K.K. Safari"
+    }
+  },
+  "name": "Leonardo",
+  "id": "leonardo"
+}

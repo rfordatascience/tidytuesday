@@ -1,0 +1,19 @@
+{
+  "id": "cosmos-shower",
+  "name": "Cosmos Shower",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3050
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

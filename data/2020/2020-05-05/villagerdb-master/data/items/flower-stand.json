@@ -1,0 +1,19 @@
+{
+  "id": "flower-stand",
+  "name": "Flower Stand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2880
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 11520
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

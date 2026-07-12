@@ -1,0 +1,21 @@
+{
+  "id": "beans",
+  "name": "Beans",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Bean Day (JP",
+        "Nookling stores)",
+        "Harvey (While feeding birds)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  }
+}

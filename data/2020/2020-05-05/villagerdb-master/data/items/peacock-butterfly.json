@@ -1,0 +1,29 @@
+{
+  "id": "peacock-butterfly",
+  "name": "Peacock Butterfly",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "sources": [
+        "Around blue",
+        "purple",
+        "and black flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Near hybrid flowers (Mar-Jun)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "left-ptera-wing",
+  "name": "Left Ptera Wing",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      }
+    }
+  },
+  "category": "Fossils"
+}

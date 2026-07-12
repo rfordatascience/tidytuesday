@@ -1,0 +1,18 @@
+{
+  "id": "spiky-fence",
+  "name": "Spiky Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 96
+      },
+      "recipe": {
+        "hardwood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

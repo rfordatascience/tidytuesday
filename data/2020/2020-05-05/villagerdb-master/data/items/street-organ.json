@@ -1,0 +1,20 @@
+{
+  "id": "street-organ",
+  "name": "Street Organ",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

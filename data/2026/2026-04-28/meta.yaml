@@ -1,0 +1,17 @@
+title: "US Agricultural Tariffs"
+article:
+  title: "The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture"
+  url: "https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480"
+data_source:
+  title: "DataWeb: Annual Tariff Data"
+  url: "https://dataweb.usitc.gov/tariff/annual"
+images:
+# Please include at least one image, and up to three images
+- file: "agricultural_tariff_trends.png"
+  alt: "A four-panel line chart showing Most Favored Nation tariff rates by HTS section from 2000 to 2024. Each panel displays the focal section highlighted in a bold colored line matching its panel title. Panel I (orange) shows Live Animals & Animal Products with the highest rates, starting around 11% in 2000, dropping to about 9% in 2012, and stabilizing near 9.5% through 2024. Panel II (green) shows Vegetable Products declining from 8.5% in 2000 to about 6.5% in 2012, then climbing back to 7.5% by 2024. Panel III (pink) shows Animal/Vegetable Fats & Oils with the lowest rates, around 6-6.5%, also dropping in 2012 to about 5.5% before increasing back near 6% in 2020. Panel IV (blue) shows Prepared Foodstuffs remaining relatively stable around 7.5-8% throughout the period, with a similar 2012 drop. MFN tariff rates are highest for Live Animals & Animal Products."
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

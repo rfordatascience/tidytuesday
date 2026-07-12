@@ -1,0 +1,24 @@
+{
+  "id": "golden-net",
+  "name": "Golden Net",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Bug Off (full insect encyclopedia)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10400
+      }
+    }
+  }
+}

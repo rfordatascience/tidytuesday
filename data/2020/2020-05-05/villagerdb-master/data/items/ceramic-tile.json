@@ -1,0 +1,26 @@
+{
+  "id": "ceramic-tile",
+  "name": "Ceramic Tile",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 348
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1392
+        }
+      ]
+    }
+  }
+}

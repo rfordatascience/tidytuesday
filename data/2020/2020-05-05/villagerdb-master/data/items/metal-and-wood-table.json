@@ -1,0 +1,33 @@
+{
+  "id": "metal-and-wood-table",
+  "name": "Metal-and-wood Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "ketchup",
+        "plucky",
+        "tasha"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cute-white-wall",
+  "name": "Cute White Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 470
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1880
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

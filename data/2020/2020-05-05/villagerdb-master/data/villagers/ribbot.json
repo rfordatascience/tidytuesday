@@ -1,0 +1,53 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "2-13",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!"
+    },
+    "ww": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt",
+      "quote": "Never rest, never rust."
+    },
+    "cf": {
+      "personality": "jock",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "lightning-tee",
+      "song": "Go K.K. Rider!",
+      "phrase": "zzrrbbitt",
+      "skill": "Ventriloquism",
+      "goal": "Astronaut",
+      "fear": "Bug Mask",
+      "quote": "Never rest, never rust.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "zzrrbbitt",
+      "song": "Go K.K. Rider!"
+    }
+  },
+  "name": "Ribbot",
+  "id": "ribbot"
+}

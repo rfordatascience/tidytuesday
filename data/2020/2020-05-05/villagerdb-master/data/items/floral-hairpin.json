@@ -1,0 +1,19 @@
+{
+  "id": "floral-hairpin",
+  "name": "Floral Hairpin",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 122
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 490
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

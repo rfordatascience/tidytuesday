@@ -1,0 +1,30 @@
+{
+  "id": "milk-can",
+  "name": "Milk Can",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "norma"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

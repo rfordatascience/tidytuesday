@@ -1,0 +1,18 @@
+title: "The Scent of Data - Exploring the Parfumo Fragrance Dataset"
+article:
+  title: "Perfumes at parfumo"
+  url: "https://www.parfumo.com/Perfumes"
+data_source:
+  title: "Parfumo Fragrance Dataset"
+  url: "https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset"
+images:
+- file: "parfumo_data_scatter.png"
+  alt: >
+    A scatter plot showing the relationship between the number of ratings (x-axis) and the average perfume rating (y-axis) from the Parfumo Fragrance Dataset. The color gradient indicates the rating, ranging from blue (low ratings) to orange (high ratings). Most data points cluster near the top-left, suggesting higher ratings with fewer reviews, while ratings spread out with increasing review counts. The title reads "Relationship Between Rating Count and Actual Rating," and a legend is provided to represent the color-coded ratings. The footer includes links to the creator's LinkedIn and GitHub profiles.
+- file: "parfumo_data_bar.png"
+  alt: > 
+    A bar plot illustrating the evolution of fragrance ratings from 1900 to the present, based on the Parfumo Fragrance Dataset. The x-axis represents the year of release, while the y-axis shows the number of releases (Release Count). Bars are color-coded by ratings count, with a gradient ranging from blue (lower ratings count) to orange (higher ratings count). The plot highlights a significant increase in releases starting around the mid-20th century, peaking in the early 2000s. The title reads "Evolution of Fragrance Ratings Years 1900 - Present," with a legend representing the ratings count gradient. The footer includes LinkedIn and GitHub links to the creator's profiles.
+credit:
+  post: "Nicolas Foss, Ed.D., MS | Bureau of Emergency Medical and Trauma Services > Iowa HHS"
+  linkedin: "https://www.linkedin.com/in/nicolas-foss"
+  github: "https://github.com/nicolasfoss"

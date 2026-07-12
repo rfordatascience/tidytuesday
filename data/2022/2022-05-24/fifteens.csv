@@ -1,0 +1,1469 @@
+test_no,date,team_1,score_1,score_2,team_2,venue,home_test_no,away_test_no,series_no,tournament,margin_of_victory,home_away_win,winner,loser
+1,1982-06-13,Netherlands,0,4,France,Utrecht,1,1,1,Friendly,4,A,France,Netherlands
+2,1983-06-05,France,10,0,Netherlands,La Teste,2,2,2,Friendly,10,H,France,Netherlands
+3,1984-05-27,Netherlands,0,3,France,Hilversum,3,3,3,Friendly,3,A,France,Netherlands
+4,1984-12-31,Sweden,0,34,Netherlands,Malmö,1,4,1,Friendly,34,A,Netherlands,Sweden
+5,1985-06-02,France,20,0,Netherlands,Bourg en Bresse,4,5,4,Friendly,20,H,France,Netherlands
+6,1985-06-22,Italy,0,0,France,Riccione,1,5,1,Friendly,0,D,Draw,Draw
+7,1985-12-31,Netherlands,19,0,Sweden,Nijmegen,6,2,2,Friendly,19,H,Netherlands,Sweden
+8,1986-04-19,Great Britain,8,14,France,Richmond,1,6,1,Friendly,6,A,France,Great Britain
+9,1986-05-01,Netherlands,10,0,France,Enschede,7,7,5,Friendly,10,H,Netherlands,France
+10,1986-05-18,France,12,0,Italy,Bardos,8,2,2,Friendly,12,H,France,Italy
+11,1986-12-31,Belgium,0,32,Sweden,Brussels,1,3,1,Friendly,32,A,Sweden,Belgium
+12,1986-12-31,Netherlands,11,6,Sweden,Akersloot,8,4,3,Friendly,5,H,Netherlands,Sweden
+13,1987-04-05,Wales,4,22,England,Pontypool Park,1,1,1,Friendly,18,A,England,Wales
+14,1987-05-02,France,28,6,Great Britain,Chalon-sur-Saône,9,2,2,Friendly,22,H,France,Great Britain
+15,1987-05-17,Italy,4,16,France,Rome,3,10,3,Friendly,12,A,France,Italy
+16,1987-05-31,France,22,3,Netherlands,Chalon-sur-Saône,11,9,6,Friendly,19,H,France,Netherlands
+17,1987-11-14,Canada,3,22,United States,"Victoria, British Columbia",1,1,1,Friendly,19,A,United States,Canada
+18,1987-11-22,Great Britain,16,0,Netherlands,Richmond,3,10,1,Friendly,16,H,Great Britain,Netherlands
+19,1988-04-24,Wales,6,36,England,Newport RFC,2,2,2,Friendly,30,A,England,Wales
+20,1988-05-21,France,13,3,Netherlands,Bourg en Bresse,12,11,7,European Championship,10,H,France,Netherlands
+21,1988-05-21,Great Britain,32,9,Italy,Bourg en Bresse,4,4,1,European Championship,23,N,Great Britain,Italy
+22,1988-05-22,France,16,3,Italy,Bourg en Bresse,13,5,4,European Championship,13,H,France,Italy
+23,1988-05-22,Great Britain,26,0,Netherlands,Bourg en Bresse,5,12,2,European Championship,26,N,Great Britain,Netherlands
+24,1988-05-23,France,8,6,Great Britain,Bourg en Bresse,14,6,3,European Championship,2,H,France,Great Britain
+25,1988-05-23,Italy,6,10,Netherlands,Bourg en Bresse,6,13,1,European Championship,4,N,Netherlands,Italy
+26,1988-08-08,United States,26,10,Canada,"Saranac Lake, NY",2,2,2,Friendly,16,H,United States,Canada
+27,1988-10-15,England,40,0,Sweden,Waterloo,3,5,1,Friendly,40,H,England,Sweden
+28,1988-11-27,Belgium,0,66,France,Brussels,2,15,1,Friendly,66,A,France,Belgium
+29,1988-11-27,Netherlands,3,0,Wales,Utrecht,14,3,1,Friendly,3,H,Netherlands,Wales
+30,1989-02-12,England,38,4,Wales,Moseley RFC,4,4,3,Friendly,34,H,England,Wales
+31,1989-03-04,Great Britain,13,0,France,Rosslyn Park,7,16,4,Friendly,13,H,Great Britain,France
+32,1989-04-20,Italy,26,14,Netherlands,Rome,7,15,2,Friendly,13,H,Italy,Netherlands
+33,1989-05-02,Spain,0,28,France,Boe,1,17,1,Friendly,28,A,France,Spain
+34,1989-09-03,Canada,3,28,United States,Edmonton,3,3,3,Friendly,25,A,United States,Canada
+35,1989-10-14,Germany,0,8,Sweden,Berlin,1,6,1,Friendly,8,A,Sweden,Germany
+36,1990-02-11,Wales,12,18,England,Neath RFC,5,5,4,Friendly,6,A,England,Wales
+37,1990-03-18,Great Britain,32,0,Italy,Moseley,8,8,2,Friendly,32,H,Great Britain,Italy
+38,1990-04-14,Netherlands,0,10,France,Amsterdam,16,18,8,Friendly,10,A,France,Netherlands
+39,1990-08-26,New Zealand,56,0,Netherlands,Christchurch,1,17,1,RugbyFest,56,H,New Zealand,Netherlands
+40,1990-08-28,New Zealand,8,0,USSR,Christchurch,2,1,1,RugbyFest,8,H,New Zealand,USSR
+41,1990-08-29,Netherlands,0,38,United States,Christchurch,18,4,1,RugbyFest,38,N,United States,Netherlands
+42,1990-08-30,Netherlands,12,4,USSR,Christchurch,19,2,1,RugbyFest,8,N,Netherlands,USSR
+43,1990-08-30,New Zealand,9,3,United States,Christchurch,3,5,1,RugbyFest,6,H,New Zealand,United States
+44,1990-08-31,United States,32,0,USSR,Christchurch,6,3,1,RugbyFest,32,N,United States,USSR
+45,1990-09-01,New Zealand,12,4,World XV,Christchurch,4,1,1,RugbyFest,8,H,New Zealand,World XV
+46,1990-10-21,Netherlands,0,26,England,Utrecht,20,6,1,Friendly,26,A,England,Netherlands
+47,1991-03-24,England,24,13,Wales,Waterloo,7,6,5,Friendly,11,H,England,Wales
+48,1991-04-06,Canada,8,24,New Zealand,Glamorgan Wanderers,4,5,1,World Cup,16,N,New Zealand,Canada
+49,1991-04-06,France,62,0,Japan,Aberavon,19,1,1,World Cup,62,N,France,Japan
+50,1991-04-06,Netherlands,0,7,United States,Pontypool,21,7,2,World Cup,7,N,United States,Netherlands
+51,1991-04-06,England,12,0,Spain,Swansea,8,2,1,World Cup,12,N,England,Spain
+52,1991-04-08,Wales,9,9,Canada,Glamorgan Wanderers,7,5,1,World Cup,0,D,Draw,Draw
+53,1991-04-08,France,37,0,Sweden,Glamorgan Wanderers,20,7,1,World Cup,37,N,France,Sweden
+54,1991-04-08,Netherlands,28,0,USSR,Llanharan,22,4,2,World Cup,28,N,Netherlands,USSR
+55,1991-04-08,England,25,9,Italy,Llanharan,9,9,1,World Cup,16,N,England,Italy
+56,1991-04-10,Wales,6,24,New Zealand,Llanharan,8,6,1,World Cup,18,A,New Zealand,Wales
+57,1991-04-10,Japan,0,20,Sweden,Llanharan,2,8,1,World Cup,20,N,Sweden,Japan
+58,1991-04-10,United States,46,0,USSR,Glamorgan Wanderers,8,5,2,World Cup,46,N,United States,USSR
+59,1991-04-10,Italy,7,13,Spain,Glamorgan Wanderers,10,3,1,World Cup,6,N,Spain,Italy
+60,1991-04-11,Canada,38,0,USSR,"Cardiff IHE, Cyncoed",6,6,1,World Cup,38,N,Canada,USSR
+61,1991-04-11,Italy,18,0,Sweden,"Cardiff IHE, Cyncoed",11,9,1,World Cup,18,N,Italy,Sweden
+62,1991-04-11,Wales,3,6,Netherlands,"Cardiff IHE, Cyncoed",9,23,2,World Cup,3,A,Netherlands,Wales
+63,1991-04-11,Japan,0,30,Spain,"Cardiff IHE, Cyncoed",3,4,1,World Cup,30,N,Spain,Japan
+64,1991-04-12,New Zealand,0,7,United States,Cardiff Arms Park,7,9,2,World Cup,7,N,United States,New Zealand
+65,1991-04-12,England,13,0,France,Cardiff Arms Park,10,21,1,World Cup,13,N,England,France
+66,1991-04-12,Canada,6,0,Italy,"Cardiff IHE, Cyncoed",7,12,1,World Cup,6,N,Canada,Italy
+67,1991-04-12,Netherlands,0,8,Spain,"Cardiff IHE, Cyncoed",24,5,1,World Cup,8,N,Spain,Netherlands
+68,1991-04-13,Canada,19,4,Spain,"Cardiff IHE, Cyncoed",8,6,1,World Cup,15,N,Canada,Spain
+69,1991-04-14,England,6,19,United States,Cardiff Arms Park,11,10,1,World Cup,13,N,United States,England
+70,1991-11-09,Sweden,20,6,Germany,Trelleborg,10,2,2,Friendly,14,H,Sweden,Germany
+71,1992-02-09,Wales,10,14,England,National Stadium Cardiff,10,12,6,Friendly,4,A,England,Wales
+72,1992-06-13,France,14,10,Spain,Bon Encontre,22,7,2,Friendly,4,H,France,Spain
+73,1992-09-13,United States,13,12,Canada,"Blaine, Minnesota",11,9,4,Friendly,1,H,United States,Canada
+74,1992-10-17,Germany,0,39,Netherlands,Hanover,3,25,1,Friendly,39,A,Netherlands,Germany
+75,1992-11-15,France,24,0,Netherlands,Fécamp,23,26,9,Friendly,24,H,France,Netherlands
+76,1993-02-14,Scotland,10,0,Ireland,"Raeburn Place, Edinburgh",1,1,1,Friendly,10,H,Scotland,Ireland
+77,1993-03-13,Italy,8,5,Netherlands,"Stadio Comunale, Rho",13,27,3,Friendly,3,H,Italy,Netherlands
+78,1993-03-14,England,23,5,Wales,Northampton RFC,13,11,7,Friendly,18,H,England,Wales
+79,1993-04-04,Italy,0,24,France,Rovigo,14,24,5,Friendly,24,A,France,Italy
+80,1993-06-08,Canada,22,8,Wales,"Brampton, Ontario",10,12,2,Canada Cup,14,H,Canada,Wales
+81,1993-06-08,England,17,6,United States,"Fletcher’s Fields, Toronto",14,12,2,Canada Cup,11,N,England,United States
+82,1993-06-10,Canada,8,12,England,"Ajax, Ontario",11,15,1,Canada Cup,4,A,England,Canada
+83,1993-06-10,United States,26,0,Wales,"Fletcher’s Fields, Toronto",13,13,1,Canada Cup,26,N,United States,Wales
+84,1993-06-12,England,38,0,Wales,"Fletcher’s Fields, Toronto",16,14,8,Canada Cup,38,N,England,Wales
+85,1993-06-12,Canada,3,60,United States,"Markham, Ontario",12,14,5,Canada Cup,57,A,United States,Canada
+86,1993-10-10,Netherlands,53,0,Germany,Delft,28,4,2,Friendly,53,H,Netherlands,Germany
+87,1993-10-31,Germany,11,10,Kazakhstan,Hanover,5,1,1,Friendly,1,H,Germany,Kazakhstan
+88,1993-12-19,Scotland,0,23,Wales,"Burnbrae, Glasgow",2,15,1,Friendly,23,A,Wales,Scotland
+89,1994-02-13,Ireland,0,5,Scotland,"Ravenhill, Belfast",2,3,2,Friendly,5,A,Scotland,Ireland
+90,1994-02-13,Wales,10,11,England,Bridgend,16,17,9,Friendly,1,A,England,Wales
+91,1994-02-18,England,32,8,France,Wolverhampton,18,25,2,Friendly,24,H,England,France
+92,1994-04-11,Sweden,0,111,United States,Melrose,11,15,1,World Cup,111,N,United States,Sweden
+93,1994-04-11,England,66,0,Russia,Boroughmuir,19,1,1,World Cup,66,N,England,Russia
+94,1994-04-11,Canada,5,11,Wales,Edinburgh Academicals RFC,13,17,3,World Cup,6,N,Wales,Canada
+95,1994-04-13,Japan,10,5,Sweden,Melrose,4,12,2,World Cup,5,N,Japan,Sweden
+96,1994-04-13,Scotland,51,0,Russia,Boroughmuir,4,2,1,World Cup,51,H,Scotland,Russia
+97,1994-04-13,Kazakhstan,8,29,Wales,Edinburgh Academicals RFC,2,18,1,World Cup,21,N,Wales,Kazakhstan
+98,1994-04-15,Japan,0,121,United States,Melrose,5,16,1,World Cup,121,N,United States,Japan
+99,1994-04-15,Scotland,0,26,England,Boroughmuir,5,20,1,World Cup,26,A,England,Scotland
+100,1994-04-15,France,31,0,Ireland,West of Scotland RFC,26,3,1,World Cup,31,N,France,Ireland
+101,1994-04-15,Canada,28,0,Kazakhstan,Edinburgh Academicals RFC,14,3,1,World Cup,28,N,Canada,Kazakhstan
+102,1994-04-17,Russia,13,20,Sweden,Kirkcaldy,3,13,1,World Cup,7,N,Sweden,Russia
+103,1994-04-17,United States,76,0,Ireland,Boroughmuir,17,4,1,World Cup,76,N,United States,Ireland
+104,1994-04-17,England,24,10,Canada,Gala,21,15,2,World Cup,14,N,England,Canada
+105,1994-04-17,France,99,0,Japan,Edinburgh Academicals RFC,27,6,2,World Cup,99,N,France,Japan
+106,1994-04-17,Scotland,0,8,Wales,Melrose,6,19,2,World Cup,8,A,Wales,Scotland
+107,1994-04-19,Kazakhstan,25,0,Russia,Gala,4,4,1,World Cup,25,N,Kazakhstan,Russia
+108,1994-04-20,United States,56,15,Wales,Gala,18,20,2,World Cup,41,N,United States,Wales
+109,1994-04-20,England,18,6,France,Gala,22,28,3,World Cup,12,N,England,France
+110,1994-04-20,Canada,57,0,Japan,Melrose,16,7,1,World Cup,57,N,Canada,Japan
+111,1994-04-20,Scotland,10,3,Ireland,Melrose,7,5,3,World Cup,7,H,Scotland,Ireland
+112,1994-04-21,Kazakhstan,31,12,Sweden,Stirling County,5,14,1,World Cup,19,N,Kazakhstan,Sweden
+113,1994-04-23,Ireland,11,3,Japan,Boroughmuir,6,8,1,World Cup,8,N,Ireland,Japan
+114,1994-04-23,Scotland,11,5,Canada,Boroughmuir,8,17,1,World Cup,6,H,Scotland,Canada
+115,1994-04-24,France,27,0,Wales,Edinburgh Academicals RFC,29,21,1,World Cup,27,N,France,Wales
+116,1994-04-23,Kazakhstan,29,12,Sweden,Boroughmuir,6,15,2,World Cup,17,N,Kazakhstan,Sweden
+117,1994-04-24,England,38,23,United States,Edinburgh Academicals RFC,23,19,3,World Cup,15,N,England,United States
+118,1994-04-24,Scotland,60,0,Sweden,Meggetland,9,16,1,Friendly,60,H,Scotland,Sweden
+119,1994-05-16,Spain,0,3,Italy,Madrid,8,15,2,Friendly,60,H,Italy,Spain
+120,1994-09-02,Australia,0,37,New Zealand,Sydney,1,8,1,Friendly,37,A,New Zealand,Australia
+121,1994-11-19,Germany,12,0,Sweden,Hamburg,6,17,3,Friendly,12,H,Germany,Sweden
+122,1994-11-28,Germany,3,15,Kazakhstan,Hanover,7,7,2,Friendly,12,A,Kazakhstan,Germany
+123,1994-12-18,Wales,0,5,Scotland,Bridgend,22,10,3,Friendly,5,A,Scotland,Wales
+124,1994-12-18,England,30,5,Netherlands,Wasps,24,29,2,Friendly,25,H,England,Netherlands
+125,1995-02-12,England,25,0,Wales,Sale RFC,25,23,10,Friendly,25,H,England,Wales
+126,1995-02-18,Scotland,20,3,Ireland,"Myreside, Edinburgh",11,7,4,Friendly,17,H,Scotland,Ireland
+127,1995-03-05,Ireland,10,39,France,Dublin,8,30,2,Friendly,29,A,France,Ireland
+128,1995-04-12,France,17,0,Netherlands,Treviso,31,30,10,FIRA,17,N,France,Netherlands
+129,1995-04-12,Italy,0,5,Spain,Treviso,16,9,3,FIRA,5,A,Spain,Italy
+130,1995-04-16,Italy,23,19,Netherlands,Treviso,17,31,4,FIRA,4,H,Italy,Netherlands
+131,1995-04-16,France,6,22,Spain,Treviso,32,10,3,FIRA,16,N,Spain,France
+132,1995-04-30,Scotland,10,12,Italy,"Meggetland, Edinburgh",12,18,1,Friendly,2,A,Italy,Scotland
+133,1995-05-14,Germany,50,0,Portugal,Heidelberg,8,1,1,Friendly,50,H,Germany,Portugal
+134,1995-07-22,New Zealand,64,0,Australia,Auckland,9,2,2,Friendly,64,H,New Zealand,Australia
+135,1995-09-23,Netherlands,5,3,Scotland,Amsterdam,32,13,1,Friendly,2,H,Netherlands,Scotland
+136,1996-01-21,Ireland,0,21,Scotland,Blackrock,9,14,5,Home Nations,21,A,Scotland,Ireland
+137,1996-02-04,England,56,3,Wales,Leicester,26,24,11,Home Nations,53,H,England,Wales
+138,1996-02-18,France,6,15,England,Villand Bonnot,33,27,4,Friendly,9,A,England,France
+139,1996-02-18,Wales,11,6,Scotland,Bridgend,25,15,4,Home Nations,5,H,Wales,Scotland
+140,1996-03-03,Scotland,8,12,England,"Meggetland, Edinburgh",16,28,2,Home Nations,4,A,England,Scotland
+141,1996-03-03,Ireland,22,6,Wales,"Old Belvedere RFC, Dublin",10,26,1,Home Nations,16,H,Ireland,Wales
+142,1996-03-17,England,12,8,Ireland,"London Irish, Sunbury",29,11,1,Home Nations,4,H,England,Ireland
+143,1996-04-10,Spain,53,0,Germany,Madrid,11,9,1,FIRA,53,H,Spain,Germany
+144,1996-04-11,France,57,8,Italy,Madrid,34,19,6,FIRA,49,N,France,Italy
+145,1996-04-11,Netherlands,29,11,Germany,Madrid,33,10,3,FIRA,18,N,Netherlands,Germany
+146,1996-04-12,Spain,29,0,Netherlands,Madrid,12,34,2,FIRA,29,H,Spain,Netherlands
+147,1996-04-13,Italy,11,6,Netherlands,Madrid,20,35,5,FIRA,5,N,Italy,Netherlands
+148,1996-04-13,Italy,39,0,Germany,Madrid,21,11,1,FIRA,39,N,Italy,Germany
+149,1996-04-14,Spain,10,15,France,Madrid,13,35,4,FIRA,5,A,France,Spain
+150,1996-08-24,Germany,3,53,Kazakhstan,Hanover,12,8,3,Friendly,50,A,Kazakhstan,Germany
+151,1996-08-31,Australia,5,28,New Zealand,Sydney,3,10,3,Friendly,23,A,New Zealand,Australia
+152,1996-09-08,Canada,3,88,New Zealand,St Albert,18,11,2,Canada Cup,85,A,New Zealand,Canada
+153,1996-09-08,France,16,39,United States,Edmonton,36,20,1,Canada Cup,23,N,United States,France
+154,1996-09-11,New Zealand,88,8,United States,Edmonton,12,21,3,Canada Cup,80,N,New Zealand,United States
+155,1996-09-11,Canada,34,3,France,Edmonton,19,37,1,Canada Cup,31,H,Canada,France
+156,1996-09-14,France,0,109,New Zealand,Edmonton,38,13,1,Canada Cup,109,N,New Zealand,France
+157,1996-09-14,Canada,14,22,United States,Edmonton,20,22,6,Canada Cup,8,A,United States,Canada
+158,1996-11-30,Scotland,27,3,Netherlands,Meggetland,17,36,2,Friendly,24,H,Scotland,Netherlands
+159,1997-01-05,England,17,15,Spain,Leeds,30,14,2,Friendly,2,H,England,Spain
+160,1997-01-12,Scotland,10,0,Wales,Meggetland,18,27,5,Home Nations,10,H,Scotland,Wales
+161,1997-01-26,Wales,32,5,Ireland,Bridgend,28,12,2,Home Nations,27,H,Wales,Ireland
+162,1997-01-26,England,23,3,Scotland,Blackheath,31,19,3,Home Nations,20,H,England,Scotland
+163,1997-02-09,Ireland,0,32,England,Limerick,13,32,2,Home Nations,32,A,England,Ireland
+164,1997-02-23,England,15,17,France,Northampton,33,39,5,Friendly,2,A,France,England
+165,1997-02-23,Scotland,28,3,Ireland,"Pennypit, Edinburgh",20,14,6,Home Nations,25,H,Scotland,Ireland
+166,1997-03-09,Wales,22,24,England,Worcester,29,34,12,Home Nations,2,A,England,Wales
+167,1997-04-02,France,58,18,Germany,"Nice, France",40,13,1,FIRA,40,H,France,Germany
+168,1997-04-02,England,40,3,Netherlands,"Nice, France",35,37,3,FIRA,37,N,England,Netherlands
+169,1997-04-02,Spain,27,0,Ireland,"Nice, France",15,15,1,FIRA,27,N,Spain,Ireland
+170,1997-04-02,Italy,7,31,Scotland,"Nice, France",22,21,2,FIRA,24,N,Scotland,Italy
+171,1997-04-04,Italy,13,5,Ireland,"Nice, France",23,16,1,FIRA,8,N,Italy,Ireland
+172,1997-04-04,Netherlands,32,10,Germany,"Nice, France",38,14,4,FIRA,22,N,Netherlands,Germany
+173,1997-04-04,France,10,15,England,"Nice, France",41,36,6,FIRA,5,A,England,France
+174,1997-04-04,Scotland,11,10,Spain,"Nice, France",22,16,1,FIRA,1,N,Scotland,Spain
+175,1997-04-06,Germany,0,16,Ireland,"Nice, France",15,17,1,FIRA,16,N,Ireland,Germany
+176,1997-04-06,Italy,24,26,Netherlands,"Nice, France",24,39,6,FIRA,2,N,Netherlands,Italy
+177,1997-04-06,France,8,25,Spain,"Nice, France",42,17,5,FIRA,17,A,Spain,France
+178,1997-04-06,England,24,8,Scotland,"Nice, France",37,23,4,FIRA,16,N,England,Scotland
+179,1997-07-06,Canada,12,21,United States,"Ajax, Ontario",21,23,7,Friendly,9,A,United States,Canada
+180,1997-12-31,Kazakhstan,0,15,Russia,?,9,5,2,Friendly,15,A,Russia,Kazakhstan
+181,1997-12-31,Kazakhstan,12,35,Russia,?,10,6,3,Friendly,23,A,Russia,Kazakhstan
+182,1997-12-31,Kazakhstan,5,7,Russia,?,11,7,4,Friendly,2,A,Russia,Kazakhstan
+183,1997-12-31,Spain,17,12,Russia,?,18,8,1,Friendly,5,H,Spain,Russia
+184,1997-08-02,Australia,24,28,United States,Brisbane,4,24,1,Friendly,4,A,United States,Australia
+185,1997-08-05,Sweden,0,42,Scotland,Stockholm,18,24,2,Friendly,42,A,Scotland,Sweden
+186,1997-08-13,New Zealand,67,0,England,Burnham,14,38,1,Friendly,67,H,New Zealand,England
+187,1997-08-16,New Zealand,44,0,Australia,Dunedin,15,5,4,Friendly,44,H,New Zealand,Australia
+188,1997-08-31,Germany,0,84,England,Hürth,16,39,1,Friendly,84,A,England,Germany
+189,1997-10-26,Netherlands,31,7,Germany,Amsterdam,40,17,5,Friendly,24,H,Netherlands,Germany
+190,1997-11-09,Germany,6,32,Ireland,Hamburg,18,18,2,Friendly,26,A,Ireland,Germany
+191,1997-12-07,Spain,15,15,England,Toledo,19,40,3,Friendly,0,D,Draw,Draw
+192,1998-02-01,France,5,13,England,"Villeneuve d'Ascq, Lille",43,41,7,Friendly,8,A,England,France
+193,1998-02-08,Ireland,0,15,Scotland,"Old Belvedere, Dublin",19,25,7,Home Nations,15,A,Scotland,Ireland
+194,1998-02-15,England,29,12,Wales,Waterloo,42,30,13,Home Nations,17,H,England,Wales
+195,1998-02-15,Netherlands,5,29,Spain,Amsterdam,41,20,3,Friendly,17,H,Spain,Netherlands
+196,1998-02-21,Scotland,19,3,France,"Raeburn Place, Edinburgh",26,44,1,Friendly,16,H,Scotland,France
+197,1998-03-01,Wales,12,22,Scotland,Cardiff,31,27,6,Home Nations,10,A,Scotland,Wales
+198,1998-03-15,Spain,29,3,Kazakhstan,L'Hospitalet,21,12,1,Friendly,10,A,Spain,Kazakhstan
+199,1998-03-21,Scotland,8,5,England,Stewarts Melville,28,43,5,Home Nations,3,H,Scotland,England
+200,1998-03-22,Ireland,10,27,Wales,"Old Crescent RFC, Rosbrien",20,32,3,Home Nations,17,A,Wales,Ireland
+201,1998-04-05,England,62,8,Ireland,Worcester,44,21,3,Home Nations,54,H,England,Ireland
+202,1998-04-08,Japan,42,14,Hong Kong,Kumagaya Rugby Stadium,9,1,1,Friendly,28,H,Japan,Hong Kong
+203,1998-04-12,Japan,39,0,Hong Kong,Kumagaya Rugby Stadium,10,2,2,Friendly,39,H,Japan,Hong Kong
+204,1998-05-01,Netherlands,7,16,Canada,Amsterdam,42,22,1,World Cup,9,A,Canada,Netherlands
+205,1998-05-02,England,75,0,Sweden,Amsterdam,45,19,2,World Cup,75,N,England,Sweden
+206,1998-05-02,Spain,28,18,Wales,Amsterdam,22,33,1,World Cup,10,N,Spain,Wales
+207,1998-05-02,Russia,0,84,United States,Amsterdam,9,25,1,World Cup,84,N,United States,Russia
+208,1998-05-02,Germany,6,134,New Zealand,Amsterdam,19,16,1,World Cup,128,N,New Zealand,Germany
+209,1998-05-02,Italy,8,37,Scotland,Amsterdam,25,29,3,World Cup,29,N,Scotland,Italy
+210,1998-05-02,France,23,6,Kazakhstan,Amsterdam,45,13,1,World Cup,17,N,France,Kazakhstan
+211,1998-05-02,Australia,21,0,Ireland,Amsterdam,6,22,1,World Cup,21,N,Australia,Ireland
+212,1998-05-05,Canada,6,72,England,Amsterdam,23,46,3,World Cup,66,N,England,Canada
+213,1998-05-05,Netherlands,44,0,Sweden,Amsterdam,43,20,4,World Cup,44,H,Netherlands,Sweden
+214,1998-05-05,Spain,16,38,United States,Amsterdam,23,26,1,World Cup,22,N,United States,Spain
+215,1998-05-05,Russia,7,83,Wales,Amsterdam,10,34,1,World Cup,76,N,Wales,Russia
+216,1998-05-05,New Zealand,76,0,Scotland,Amsterdam,17,30,1,World Cup,76,N,New Zealand,Scotland
+217,1998-05-05,Germany,5,34,Italy,Amsterdam,20,26,2,World Cup,29,N,Italy,Germany
+218,1998-05-05,Australia,8,10,France,Amsterdam,7,46,1,World Cup,2,N,France,Australia
+219,1998-05-05,Ireland,6,12,Kazakhstan,Amsterdam,23,14,1,World Cup,6,N,Kazakhstan,Ireland
+220,1998-05-09,Australia,13,30,England,Amsterdam,8,47,1,World Cup,17,N,England,Australia
+221,1998-05-09,Scotland,10,25,United States,Amsterdam,31,27,1,World Cup,15,N,United States,Scotland
+222,1998-05-09,Canada,9,7,France,Amsterdam,24,47,2,World Cup,2,N,Canada,France
+223,1998-05-09,New Zealand,46,3,Spain,Amsterdam,18,24,1,World Cup,43,N,New Zealand,Spain
+224,1998-05-09,Netherlands,18,21,Ireland,Amsterdam,44,24,1,World Cup,3,A,Ireland,Netherlands
+225,1998-05-09,Germany,12,55,Wales,Amsterdam,21,35,1,World Cup,43,N,Wales,Germany
+226,1998-05-09,Kazakhstan,47,5,Sweden,Amsterdam,15,21,3,World Cup,42,N,Kazakhstan,Sweden
+227,1998-05-09,Italy,51,7,Russia,Amsterdam,27,11,1,World Cup,44,N,Italy,Russia
+228,1998-05-12,England,11,44,New Zealand,Amsterdam,48,19,2,World Cup,33,N,New Zealand,England
+229,1998-05-12,Canada,6,46,United States,Amsterdam,25,28,8,World Cup,40,N,United States,Canada
+230,1998-05-12,Australia,17,15,Spain,Amsterdam,9,25,1,World Cup,2,N,Australia,Spain
+231,1998-05-12,France,7,27,Scotland,Amsterdam,48,32,2,World Cup,20,N,Scotland,France
+232,1998-05-12,Ireland,20,5,Italy,Amsterdam,25,28,2,World Cup,15,N,Ireland,Italy
+233,1998-05-12,Kazakhstan,18,13,Wales,Amsterdam,16,36,2,World Cup,5,N,Kazakhstan,Wales
+234,1998-05-12,Netherlands,61,0,Russia,Amsterdam,45,12,1,World Cup,61,H,Netherlands,Russia
+235,1998-05-12,Germany,20,18,Sweden,Amsterdam,22,22,4,World Cup,2,N,Germany,Sweden
+236,1998-05-15,Russia,3,23,Sweden,Amsterdam,13,23,2,World Cup,20,N,Sweden,Russia
+237,1998-05-15,Italy,10,12,Wales,Amsterdam,29,37,1,World Cup,2,N,Wales,Italy
+238,1998-05-15,Netherlands,67,3,Germany,Amsterdam,46,23,6,World Cup,64,H,Netherlands,Germany
+239,1998-05-15,Ireland,10,26,Kazakhstan,Amsterdam,26,17,2,World Cup,16,N,Kazakhstan,Ireland
+240,1998-05-16,Canada,15,31,England,Amsterdam,26,49,4,World Cup,16,N,England,Canada
+241,1998-05-16,France,9,22,Spain,Amsterdam,49,26,6,World Cup,13,N,Spain,France
+242,1998-05-16,Australia,25,15,Scotland,Amsterdam,10,33,1,World Cup,10,N,Australia,Scotland
+243,1998-05-16,New Zealand,44,12,United States,Amsterdam,20,29,4,World Cup,32,N,New Zealand,United States
+244,1998-08-29,Australia,3,27,New Zealand,Sydney,11,21,5,Friendly,24,A,New Zealand,Australia
+245,1998-12-05,Spain,3,5,Scotland,?,27,34,2,Friendly,2,A,Scotland,Spain
+246,1999-02-07,Ireland,0,24,France,Dublin,27,50,3,5 Nations,24,A,France,Ireland
+247,1999-02-07,Scotland,23,0,Wales,"Inverleith, Edinburgh",35,38,7,5 Nations,23,H,Scotland,Wales
+248,1999-02-28,England,34,7,Scotland,Richmond RFC,50,36,6,5 Nations,27,H,England,Scotland
+249,1999-02-28,Wales,26,0,Ireland,Venue unknown,39,28,4,5 Nations,26,H,Wales,Ireland
+250,1999-03-05,France,34,5,Wales,Savigny-en-Barley,51,40,2,5 Nations,29,H,France,Wales
+251,1999-03-07,Ireland,0,56,England,Dublin,29,51,4,5 Nations,56,A,England,Ireland
+252,1999-03-21,England,13,8,France,Worcester,52,52,8,5 Nations,5,H,England,France
+253,1999-03-21,Scotland,22,5,Ireland,"Inverleith, Edinburgh",37,30,8,5 Nations,17,H,Scotland,Ireland
+254,1999-04-09,France,48,18,Scotland,Melun,53,38,3,5 Nations,30,H,France,Scotland
+255,1999-04-09,Germany,12,19,Netherlands,Hanover,24,47,7,Friendly,7,A,Netherlands,Germany
+256,1999-04-10,Wales,11,83,England,Swansea,41,53,14,5 Nations,72,A,England,Wales
+257,1999-04-11,Germany,6,34,Kazakhstan,Hanover,25,18,4,Friendly,28,A,Kazakhstan,Germany
+258,1999-04-19,France,28,0,Kazakhstan,"Belluno, Italy",54,19,2,FIRA,28,N,France,Kazakhstan
+259,1999-04-19,England,91,3,Netherlands,"Belluno, Italy",54,48,4,FIRA,88,N,England,Netherlands
+260,1999-04-19,Spain,14,8,Wales,"Belluno, Italy",28,42,2,FIRA,6,N,Spain,Wales
+261,1999-04-19,Italy,15,43,Scotland,"Belluno, Italy",30,39,4,FIRA,28,A,Scotland,Italy
+262,1999-04-21,Netherlands,0,24,Kazakhstan,"Belluno, Italy",49,20,1,FIRA,24,N,Kazakhstan,Netherlands
+263,1999-04-21,Italy,17,28,Wales,"Belluno, Italy",31,43,2,FIRA,11,A,Wales,Italy
+264,1999-04-21,England,0,19,France,"Belluno, Italy",55,55,9,FIRA,19,N,France,England
+265,1999-04-21,Spain,11,9,Scotland,"Belluno, Italy",29,40,3,FIRA,2,N,Spain,Scotland
+266,1999-04-24,Italy,50,18,Netherlands,"Belluno, Italy",32,50,7,FIRA,32,H,Italy,Netherlands
+267,1999-04-24,Wales,11,22,Kazakhstan,"Belluno, Italy",44,21,3,FIRA,11,N,Kazakhstan,Wales
+268,1999-04-24,England,13,15,Scotland,"Belluno, Italy",56,41,7,FIRA,2,N,Scotland,England
+269,1999-04-24,France,13,5,Spain,"Belluno, Italy",56,30,7,FIRA,8,N,France,Spain
+270,1999-08-08,United States,16,11,Canada,"Saranac Lake, NY",30,27,9,Friendly,5,H,United States,Canada
+271,1999-10-13,Canada,18,15,United States,"Palmerston North, New Zealand",28,31,10,Triangular ‘99,3,N,Canada,United States
+272,1999-10-16,New Zealand,73,0,Canada,"Palmerston North, New Zealand",22,29,3,Triangular ‘99,73,H,New Zealand,Canada
+273,1999-10-19,New Zealand,65,5,United States,"Palmerston North, New Zealand",23,32,5,Triangular ‘99,60,H,New Zealand,United States
+274,2000-01-09,Spain,10,41,England,Barcelona,31,57,4,Friendly,32,A,England,Spain
+275,2000-02-04,Wales,10,27,France,Swansea,45,57,3,5 Nations,17,A,France,Wales
+276,2000-02-06,England,31,7,Spain,Banbury,58,32,5,5 Nations,24,H,England,Spain
+277,2000-02-18,France,8,24,England,"Massy, Paris",58,59,10,5 Nations,16,A,England,France
+278,2000-02-18,Spain,13,9,Scotland,Murcia,33,42,4,5 Nations,4,H,Spain,Scotland
+279,2000-02-20,Netherlands,54,7,Belgium,Amsterdam,51,3,1,Friendly,47,H,Netherlands,Belgium
+280,2000-03-05,England,51,0,Wales,Newbury,60,46,15,5 Nations,51,H,England,Wales
+281,2000-03-06,Scotland,7,10,France,Edinburgh,43,59,4,5 Nations,3,A,France,Scotland
+282,2000-03-18,France,38,5,Spain,Dax,60,34,8,5 Nations,33,H,France,Spain
+283,2000-03-19,Wales,12,36,Scotland,Caerphilly,47,44,8,5 Nations,24,A,Scotland,Wales
+284,2000-04-01,Scotland,9,64,England,Edinburgh,45,61,8,5 Nations,55,A,England,Scotland
+285,2000-04-01,Spain,18,10,Wales,"Majadahonda,Madrid",35,48,3,5 Nations,8,H,Spain,Wales
+286,2000-05-08,France,41,14,Ireland,"El Ejido, Spain",61,31,4,FIRA,27,N,France,Ireland
+287,2000-05-08,England,41,3,Kazakhstan,"Vera, Spain",62,22,1,FIRA,38,N,England,Kazakhstan
+288,2000-05-08,Scotland,28,6,Wales,"Almeria, Spain",46,49,9,FIRA,22,N,Scotland,Wales
+289,2000-05-08,Spain,58,16,Italy,"Roquetas, Spain",36,33,4,FIRA,42,H,Spain,Italy
+290,2000-05-08,Germany,5,12,Netherlands,"El Ejido, Spain",26,52,8,FIRA,7,N,Netherlands,Germany
+291,2000-05-10,Italy,24,25,Wales,"El Ejido, Spain",34,50,3,FIRA,1,N,Wales,Italy
+292,2000-05-10,Ireland,15,31,Kazakhstan,"Vera, Spain",32,23,3,FIRA,16,N,Kazakhstan,Ireland
+293,2000-05-10,England,12,19,France,"Roquetas, Spain",63,62,11,FIRA,7,N,France,England
+294,2000-05-10,Spain,13,10,Scotland,"Almeria, Spain",37,47,5,FIRA,3,H,Spain,Scotland
+295,2000-05-10,Germany,0,7,Netherlands,"Roquetas, Spain",27,53,9,FIRA,7,N,Netherlands,Germany
+296,2000-05-13,Wales,6,3,Kazakhstan,"Vera, Spain",51,24,4,FIRA,3,N,Wales,Kazakhstan
+297,2000-05-13,England,40,20,Scotland,"Almeria, Spain",64,48,9,FIRA,20,N,England,Scotland
+298,2000-05-13,Spain,0,31,France,"Almeria, Spain",38,63,9,FIRA,31,A,France,Spain
+299,2000-05-13,Italy,27,5,Germany,"Roquetas, Spain",35,28,3,FIRA,22,H,Italy,Germany
+300,2000-05-13,Ireland,19,12,Netherlands,"El Ejido, Spain",33,54,2,FIRA,7,N,Ireland,Netherlands
+301,2000-06-06,United States,10,17,Canada,New York,33,30,11,Friendly,7,A,Canada,United States
+302,2000-08-12,Germany,5,30,Sweden,Hanover,29,24,5,Friendly,25,A,Sweden,Germany
+303,2000-09-01,Samoa,10,12,Japan,Apia Park,1,11,1,Friendly,2,A,Japan,Samoa
+304,2000-09-23,England,31,7,United States,Winnipeg,65,34,4,Canada Cup,24,N,England,United States
+305,2000-09-23,Canada,0,41,New Zealand,Winnipeg,31,24,4,Canada Cup,41,A,New Zealand,Canada
+306,2000-09-27,New Zealand,45,0,United States,Winnipeg,25,35,6,Canada Cup,45,N,New Zealand,United States
+307,2000-09-27,Canada,10,34,England,Winnipeg,32,66,5,Canada Cup,24,A,England,Canada
+308,2000-09-30,England,13,32,New Zealand,Winnipeg,67,26,3,Canada Cup,19,N,New Zealand,England
+309,2000-09-30,Canada,9,15,United States,Winnipeg,33,36,12,Canada Cup,6,A,United States,Canada
+310,2000-12-15,Hong Kong,0,62,Japan,"Aberdeen Park, Hong Kong",3,12,3,World Cup,62,A,Japan,Hong Kong
+311,2001-01-15,Wales,72,5,Netherlands,Bridgend,52,55,3,Friendly,67,H,Wales,Netherlands
+312,2001-02-03,France,13,0,Scotland,Saint Denis,64,49,5,5 Nations,13,H,France,Scotland
+313,2001-02-04,Wales,0,18,England,Newport,53,68,16,5 Nations,18,A,England,Wales
+314,2001-02-09,Spain,42,0,Ireland,Madrid,39,34,2,Friendly,42,H,Spain,Ireland
+315,2001-02-16,Ireland,0,53,France,Dublin,35,65,5,Friendly,53,A,France,Ireland
+316,2001-02-18,England,28,12,Spain,Worcester,69,40,6,5 Nations,16,H,England,Spain
+317,2001-02-18,Scotland,22,0,Wales,Meggetland,50,54,10,5 Nations,22,H,Scotland,Wales
+318,2001-03-03,Spain,6,0,France,Madrid,41,66,10,5 Nations,6,H,Spain,France
+319,2001-03-04,England,39,0,Scotland,Richmond,70,51,10,5 Nations,39,H,England,Scotland
+320,2001-03-16,France,24,3,Wales,Nanterre,67,55,4,5 Nations,21,H,France,Wales
+321,2001-03-18,Scotland,19,8,Spain,Melrose,52,42,6,5 Nations,11,H,Scotland,Spain
+322,2001-04-08,England,50,6,France,Northampton,71,68,12,5 Nations,44,H,England,France
+323,2001-04-08,Wales,0,5,Spain,Wrexham,56,43,4,5 Nations,5,A,Spain,Wales
+324,2001-04-08,Netherlands,105,0,Belgium,Amsterdam,56,4,2,Friendly,105,H,Netherlands,Belgium
+325,2001-05-06,France,45,9,Ireland,"Marquette-lez-Lille, France",69,36,6,FIRA,36,H,France,Ireland
+326,2001-05-06,Spain,34,3,Italy,"Lille, France",44,36,5,FIRA,31,N,Spain,Italy
+327,2001-05-06,England,29,15,Kazakhstan,"Tourcoing, France",72,25,2,FIRA,14,N,England,Kazakhstan
+328,2001-05-06,Scotland,13,3,Wales,"Hazebrouck, France",53,57,11,FIRA,10,N,Scotland,Wales
+329,2001-05-07,Belgium,0,66,Netherlands,"IC Lille, France",5,57,3,FIRA,66,N,Netherlands,Belgium
+330,2001-05-07,Germany,13,15,Sweden,"Villeneuve d' Ascq, France",30,25,6,FIRA,2,N,Sweden,Germany
+331,2001-05-09,Germany,6,17,Netherlands,Armentières,31,58,10,FIRA,11,N,Netherlands,Germany
+332,2001-05-09,Belgium,0,90,Sweden,Roubaix,6,26,2,FIRA,90,N,Sweden,Belgium
+333,2001-05-10,Ireland,10,15,Wales,"Tourcoing, France",37,58,5,FIRA,5,N,Wales,Ireland
+334,2001-05-10,Italy,0,20,Kazakhstan,Villeneuve d'ascq,37,26,1,FIRA,20,N,Kazakhstan,Italy
+335,2001-05-10,France,6,9,Scotland,Armentières,70,54,6,FIRA,3,A,Scotland,France
+336,2001-05-10,England,8,15,Spain,Roubaix,73,45,7,FIRA,7,N,Spain,England
+337,2001-05-12,Netherlands,12,13,Sweden,"Lille, France",59,27,5,FIRA,1,N,Sweden,Netherlands
+338,2001-05-12,Belgium,0,67,Germany,Armentières,7,32,1,FIRA,67,N,Germany,Belgium
+339,2001-05-12,Ireland,9,8,Italy,"Lille, France",38,38,3,FIRA,1,N,Ireland,Italy
+340,2001-05-12,Wales,17,7,Kazakhstan,Villeneuve d'ascq,59,27,5,FIRA,10,N,Wales,Kazakhstan
+341,2001-05-12,France,23,34,England,"Lille, France",71,74,13,FIRA,11,A,England,France
+342,2001-05-12,Spain,3,15,Scotland,"Lille, France",46,55,7,FIRA,12,N,Scotland,Spain
+343,2001-05-26,Australia,19,41,England,"T.G.Milner, Eastwood, Sydney",12,75,2,Friendly,22,A,England,Australia
+344,2001-06-02,Australia,5,15,England,"Newcastle, NSW",13,76,3,Friendly,10,A,England,Australia
+345,2001-06-09,New Zealand,15,10,England,Rotorua,27,77,4,Friendly,5,H,New Zealand,England
+346,2001-06-16,New Zealand,17,22,England,"North Harbour Stadium, Albany, North Shore City",28,78,5,Friendly,5,A,England,New Zealand
+347,2001-07-07,Canada,23,3,United States,"Twin Elm Park, Ottawa, Ontario,",34,37,13,Friendly,20,H,Canada,United States
+348,2001-08-05,United States,22,21,Canada,"Saranac Lake, NY",38,35,14,Friendly,1,H,United States,Canada
+349,2001-09-16,Trinidad and Tobago,0,76,Venezuela,"Queens Park Savannah, Port of Spain",1,1,1,Friendly,76,A,Venezuela,Trinidad and Tobago
+350,2001-10-18,Wales,7,21,Canada,Glamorgan Wanderers,60,36,4,Friendly,14,A,Canada,Wales
+351,2001-10-21,Wales,11,12,Canada,Caerphilly,61,37,5,Friendly,1,A,Canada,Wales
+352,2001-10-24,Netherlands,0,15,Ireland,Amsterdam,60,39,3,Friendly,15,A,Ireland,Netherlands
+353,2001-10-28,Wales,13,13,Canada,Ebbw Vale,62,38,6,Friendly,0,D,Draw,Draw
+354,2001-11-11,Scotland,13,3,Sweden,Edinburgh,56,28,3,Friendly,10,H,Scotland,Sweden
+355,2001-11-18,Wales,17,20,United States,Ebbw Vale,63,39,3,Friendly,3,A,United States,Wales
+356,2001-11-24,Scotland,22,3,United States,Inverleith,57,40,2,Friendly,19,H,Scotland,United States
+357,2002-02-02,France,24,0,Spain,Bègles,72,47,11,6 Nations,24,H,France,Spain
+358,2002-02-03,Ireland,5,13,Wales,"Thormond Park, Limerick",40,64,6,6 Nations,8,A,Wales,Ireland
+359,2002-02-03,Scotland,8,35,England,Dunbar,58,79,11,6 Nations,27,A,England,Scotland
+360,2002-02-15,Wales,0,20,France,"The Brewery Field, Bridgend",65,73,5,6 Nations,20,A,France,Wales
+361,2002-02-16,Spain,14,17,Scotland,Barcelona,48,59,8,6 Nations,3,A,Scotland,Spain
+362,2002-02-17,England,79,0,Ireland,Worcester,80,41,5,6 Nations,79,H,England,Ireland
+363,2002-03-01,France,22,17,England,"Tournon, Lyon",74,81,14,6 Nations,5,H,France,England
+364,2002-03-02,Spain,20,0,Wales,Madrid,49,66,5,6 Nations,20,H,Spain,Wales
+365,2002-03-02,Ireland,0,13,Scotland,Limerick,42,60,9,6 Nations,13,A,Scotland,Ireland
+366,2002-03-20,Netherlands,0,22,Sweden,"Treviso, Italy",61,29,6,FIRA,22,N,Sweden,Netherlands
+367,2002-03-20,Italy,16,0,Germany,San Donà,39,33,4,FIRA,16,H,Italy,Germany
+368,2002-03-23,England,40,0,Wales,London Welsh,82,67,17,6 Nations,40,H,England,Wales
+369,2002-03-23,Germany,12,10,Netherlands,Treviso,34,62,11,FIRA,2,N,Germany,Netherlands
+370,2002-03-23,Italy,35,24,Sweden,Treviso,40,30,2,FIRA,11,H,Italy,Sweden
+371,2002-03-24,Scotland,12,22,France,Inverleith,61,75,7,6 Nations,10,A,France,Scotland
+372,2002-03-25,Ireland,6,8,Spain,Limerick,43,50,3,6 Nations,2,A,Spain,Ireland
+373,2002-04-05,France,46,0,Ireland,Melun,76,44,7,6 Nations,46,H,France,Ireland
+374,2002-04-07,Spain,14,53,England,Madrid,51,83,8,6 Nations,39,A,England,Spain
+375,2002-04-07,Wales,3,31,Scotland,Stradey Park,68,62,12,6 Nations,28,A,Scotland,Wales
+376,2002-05-13,Germany,0,117,New Zealand,"Cornellà de Llobregat, Barcelona",35,29,2,World Cup,117,N,New Zealand,Germany
+377,2002-05-13,Australia,30,0,Wales,"Sant Boi de Llobregat, Barcelona",14,69,1,World Cup,30,N,Australia,Wales
+378,2002-05-13,Spain,62,0,Japan,"Cornellà de Llobregat, Barcelona",52,13,2,World Cup,62,H,Spain,Japan
+379,2002-05-13,United States,87,0,Netherlands,"Sant Boi de Llobregat, Barcelona",41,63,3,World Cup,87,N,United States,Netherlands
+380,2002-05-13,Canada,57,0,Ireland,"Girona, Barcelona",39,45,1,World Cup,57,N,Canada,Ireland
+381,2002-05-13,France,31,12,Kazakhstan,"Sant Boi de Llobregat, Barcelona",77,28,3,World Cup,19,N,France,Kazakhstan
+382,2002-05-13,Scotland,13,3,Samoa,"Girona, Barcelona",63,2,1,World Cup,10,N,Scotland,Samoa
+383,2002-05-13,England,63,9,Italy,"Cornellà de Llobregat, Barcelona",84,41,2,World Cup,54,N,England,Italy
+384,2002-05-17,Germany,0,77,Wales,"Girona, Barcelona",36,70,2,World Cup,77,N,Wales,Germany
+385,2002-05-17,Netherlands,10,37,Kazakhstan,"Girona, Barcelona",64,29,2,World Cup,27,N,Kazakhstan,Netherlands
+386,2002-05-17,Italy,30,3,Japan,"Sant Boi de Llobregat, Barcelona",42,14,1,World Cup,27,N,Italy,Japan
+387,2002-05-17,Ireland,0,22,Samoa,"Sant Boi de Llobregat, Barcelona",46,3,1,World Cup,22,N,Samoa,Ireland
+388,2002-05-18,Australia,3,36,New Zealand,"Cornellà de Llobregat, Barcelona",15,30,6,World Cup,33,N,New Zealand,Australia
+389,2002-05-18,France,21,9,United States,"Girona, Barcelona",78,42,2,World Cup,12,N,France,United States
+390,2002-05-18,Spain,5,13,England,"Cornellà de Llobregat, Barcelona",53,85,9,World Cup,8,A,England,Spain
+391,2002-05-18,Canada,11,0,Scotland,"Girona, Barcelona",40,64,2,World Cup,11,N,Canada,Scotland
+392,2002-05-20,Germany,0,18,Ireland,"Girona, Barcelona",37,47,3,World Cup,18,N,Ireland,Germany
+393,2002-05-20,Japan,37,3,Netherlands,"Girona, Barcelona",15,65,1,World Cup,34,N,Japan,Netherlands
+394,2002-05-20,Wales,35,3,Italy,"Sant Boi de Llobregat, Barcelona",71,43,4,World Cup,32,N,Wales,Italy
+395,2002-05-20,Samoa,9,3,Kazakhstan,"Girona, Barcelona",4,30,1,World Cup,6,N,Samoa,Kazakhstan
+396,2002-05-21,Australia,17,5,United States,"Girona, Barcelona",16,43,2,World Cup,18,N,Australia,United States
+397,2002-05-21,Spain,16,23,Scotland,"Cornellà de Llobregat, Barcelona",54,65,9,World Cup,7,A,Scotland,Spain
+398,2002-05-21,New Zealand,30,0,France,"Cornellà de Llobregat, Barcelona",31,79,2,World Cup,30,N,New Zealand,France
+399,2002-05-21,Canada,10,53,England,"Girona, Barcelona",41,86,6,World Cup,43,N,England,Canada
+400,2002-05-24,Germany,19,20,Netherlands,Saragossa,38,66,12,World Cup,1,N,Netherlands,Germany
+401,2002-05-24,Ireland,23,3,Japan,"Girona, Barcelona",48,16,2,World Cup,18,N,Ireland,Japan
+402,2002-05-24,Italy,3,20,Kazakhstan,"Sant Boi de Llobregat, Barcelona",44,31,2,World Cup,17,N,Kazakhstan,Italy
+403,2002-05-24,Wales,14,17,Samoa,"Sant Boi de Llobregat, Barcelona",72,5,1,World Cup,3,N,Samoa,Wales
+404,2002-05-25,Spain,5,23,United States,"Sant Boi de Llobregat, Barcelona",55,44,2,World Cup,18,A,United States,Spain
+405,2002-05-25,Australia,30,0,Scotland,"Girona, Barcelona",17,66,2,World Cup,30,N,Australia,Scotland
+406,2002-05-25,France,41,7,Canada,"Olympic Stadium, Barcelona",80,42,3,World Cup,34,N,France,Canada
+407,2002-05-25,England,9,19,New Zealand,"Olympic Stadium, Barcelona",87,32,6,World Cup,10,N,New Zealand,England
+408,2002-11-24,Scotland,34,3,Sweden,"Murrayfield, Edinburgh",67,31,4,Friendly,31,H,Scotland,Sweden
+409,2003-02-15,England,57,0,France,Twickenham,88,81,15,6 Nations,57,H,England,France
+410,2003-02-15,Wales,44,0,Spain,"Arms Park, Cardiff",73,56,6,6 Nations,44,H,Wales,Spain
+411,2003-02-15,Scotland,25,0,Ireland,Netherdale (Gala),68,49,10,6 Nations,25,H,Scotland,Ireland
+412,2003-02-21,Wales,7,69,England,"Arms Park, Cardiff",74,89,18,6 Nations,62,A,England,Wales
+413,2003-02-21,Spain,0,16,Ireland,Madrid,57,50,4,6 Nations,16,A,Ireland,Spain
+414,2003-02-22,France,14,19,Scotland,Evreux,82,69,8,6 Nations,5,A,Scotland,France
+415,2003-03-09,Ireland,0,20,France,Limerick,51,83,8,6 Nations,20,A,France,Ireland
+416,2003-03-09,England,74,0,Spain,Harlequins RFC,90,58,10,6 Nations,69,H,England,Spain
+417,2003-03-09,Scotland,9,8,Wales,Meadowbank,70,75,13,6 Nations,1,H,Scotland,Wales
+418,2003-03-21,Wales,17,0,Ireland,"Arms Park, Cardiff",76,52,7,6 Nations,17,H,Wales,Ireland
+419,2003-03-22,Spain,7,27,France,Girona,59,84,12,6 Nations,20,A,France,Spain
+420,2003-03-22,England,31,0,Scotland,Harlequins RFC,91,71,12,6 Nations,31,H,England,Scotland
+421,2003-03-28,Ireland,3,46,England,"Thomond Park RFC, Limerick",53,92,6,6 Nations,43,A,England,Ireland
+422,2003-03-28,France,34,7,Wales,Paris,85,77,6,6 Nations,27,H,France,Wales
+423,2003-03-29,Scotland,48,7,Spain,Meadowbank,72,60,10,6 Nations,41,H,Scotland,Spain
+424,2003-05-01,Sweden,0,9,France,"Malmö, Sweden",32,86,2,FIRA,9,A,France,Sweden
+425,2003-05-01,Italy,5,29,Spain,"Malmö, Sweden",45,61,6,FIRA,24,N,Spain,Italy
+426,2003-05-03,Sweden,15,10,Italy,"Malmö, Sweden",33,46,3,FIRA,5,H,Sweden,Italy
+427,2003-05-03,France,10,16,Spain,"Malmö, Sweden",87,62,13,FIRA,6,N,Spain,France
+428,2003-05-08,Netherlands,113,0,Denmark,"Amsterdam, Netherlands",67,1,1,FIRA,113,H,Netherlands,Denmark
+429,2003-05-08,Germany,75,0,Norway,"Amsterdam, Netherlands",39,1,1,FIRA,75,N,Germany,Norway
+430,2003-05-11,Denmark,10,10,Norway,"Amsterdam, Netherlands",2,2,1,FIRA,0,N,Draw,Draw
+431,2003-05-11,Netherlands,19,12,Germany,"Amsterdam, Netherlands",68,40,13,FIRA,7,H,Netherlands,Germany
+432,2003-06-14,Canada,5,10,England,"Thunderbird Stadium, Vancouver",43,93,7,Churchill Cup,5,A,England,Canada
+433,2003-06-18,England,15,8,United States,"Thunderbird Stadium, Vancouver",94,45,5,Churchill Cup,7,N,England,United States
+434,2003-06-20,Canada,18,13,United States,"Thunderbird Stadium, Vancouver",44,46,15,Churchill Cup,5,H,Canada,United States
+435,2003-06-28,Canada,18,21,England,"Thunderbird Stadium, Vancouver",45,95,8,Churchill Cup,3,A,England,Canada
+436,2003-07-06,Sweden,5,49,Scotland,Linköping,34,73,5,Friendly,44,A,Scotland,Sweden
+437,2003-10-04,New Zealand,37,0,World XV,"Eden Park, Auckland",33,2,2,Friendly,37,H,New Zealand,World XV
+438,2003-10-11,New Zealand,38,18,World XV,Whangarei,34,3,3,Friendly,20,H,New Zealand,World XV
+439,2003-12-03,Trinidad and Tobago,20,0,Jamaica,Port of Spain,2,1,1,"NAWIRA",20,H,Trinidad and Tobago,Jamaica
+440,2003-12-04,Trinidad and Tobago,10,0,Jamaica,Port of Spain,3,2,2,"NAWIRA",10,H,Trinidad and Tobago,Jamaica
+441,2004-02-14,Wales,10,30,Scotland,"Arms Park, Cardiff",78,74,14,6 Nations,20,A,Scotland,Wales
+442,2004-02-15,Spain,3,71,England,"Pinares de Venecia , Zaragoza",63,96,11,6 Nations,68,A,England,Spain
+443,2004-02-15,France,22,5,Ireland,"Savigny sur Orge, Paris",88,54,9,6 Nations,17,H,France,Ireland
+444,2004-02-21,Ireland,13,14,Wales,Thomond Park,55,79,8,6 Nations,1,A,Wales,Ireland
+445,2004-02-21,Scotland,7,20,England,"Netherdale, Galashiels",75,97,13,6 Nations,13,A,England,Scotland
+446,2004-02-21,France,24,0,Spain,Perpignan,89,64,14,6 Nations,24,H,France,Spain
+447,2004-03-06,England,51,10,Ireland,Twickenham,98,56,7,6 Nations,41,H,England,Ireland
+448,2004-03-06,Spain,6,5,Scotland,"Lalin, Corunna",65,76,11,6 Nations,1,H,Spain,Scotland
+449,2004-03-07,Wales,0,22,France,"Arms Park, Cardiff",80,90,7,6 Nations,22,A,France,Wales
+450,2004-03-20,England,53,3,Wales,"The Stoop, London",99,81,19,6 Nations,50,H,England,Wales
+451,2004-03-20,Ireland,7,8,Spain,"Thomond Park, Limerick",57,66,5,6 Nations,1,A,Spain,Ireland
+452,2004-03-21,Scotland,12,16,France,Murrayfield,77,91,9,6 Nations,4,A,France,Scotland
+453,2004-03-27,France,13,12,England,"Bourg-en-Bresse, Lyon",92,100,16,6 Nations,1,H,France,England
+454,2004-03-27,Wales,7,12,Spain,"Arms Park, Cardiff",82,67,7,6 Nations,5,A,Spain,Wales
+455,2004-03-27,Ireland,0,17,Scotland,"Thomond Park, Limerick",58,78,11,6 Nations,17,A,Scotland,Ireland
+456,2004-05-01,France,24,5,Spain,"Castres, France",93,68,15,FIRA,19,H,France,Spain
+457,2004-05-02,Ireland,7,24,Wales,"St Jean du Falga , France",59,83,9,FIRA,17,N,Wales,Ireland
+458,2004-05-02,England,73,7,Italy,"Beaumont de Lomagne, France",101,47,3,FIRA,66,N,England,Italy
+459,2004-05-02,Scotland,32,0,Sweden,"Castelsarrasin, France",79,35,6,FIRA,32,N,Scotland,Sweden
+460,2004-05-02,Denmark,3,141,Netherlands,"Grenade, France",3,69,2,FIRA,138,N,Netherlands,Denmark
+461,2004-05-02,Germany,67,0,Norway,"Grenade, France",41,3,2,FIRA,67,N,Germany,Norway
+462,2004-05-05,Netherlands,78,0,Norway,"St Orens, France",70,4,1,FIRA,78,N,Netherlands,Norway
+463,2004-05-05,Denmark,0,47,Germany,"Villefranche de Lauragais, France",4,42,1,FIRA,47,N,Germany,Denmark
+464,2004-05-05,Ireland,14,5,Italy,"Balma, France",60,48,4,FIRA,9,N,Ireland,Italy
+465,2004-05-05,Spain,31,5,Sweden,"Quint Fonsegrives, France",69,36,1,FIRA,26,N,Spain,Sweden
+466,2004-05-05,France,25,6,Scotland,St Orens,94,80,10,FIRA,19,H,France,Scotland
+467,2004-05-05,England,39,3,Wales,"Villefranche de Lauragais, France",102,84,20,FIRA,36,N,England,Wales
+468,2004-05-08,Italy,13,0,Sweden,"L'Union, Toulouse, France",49,37,4,FIRA,13,N,Italy,Sweden
+469,2004-05-08,Ireland,20,12,Spain,"Lalande Aucamville, France",61,70,6,FIRA,8,N,Ireland,Spain
+470,2004-05-08,Scotland,11,10,Wales,"Tournefeuille, France",81,85,15,FIRA,1,N,Scotland,Wales
+471,2004-05-08,France,8,6,England,"Stade des Minimes, Toulouse",95,103,17,FIRA,2,H,France,England
+472,2004-05-08,Germany,0,30,Netherlands,"Lalande Aucamville, France",43,71,14,FIRA,30,N,Netherlands,Germany
+473,2004-05-08,Denmark,5,8,Norway,"Tournefeuille, France",5,5,2,FIRA,3,N,Norway,Denmark
+474,2004-05-29,South Africa,5,8,Wales,"Adcock Stadium, Port Elizabeth",1,86,1,Friendly,3,A,Wales,South Africa
+475,2004-06-05,Austria,5,5,Czechia,"Hohe Warte, Vienna",1,1,1,Friendly,0,D,Draw,Draw
+476,2004-06-05,South Africa,15,16,Wales,"Loftus Versfeld, Pretoria",2,87,2,Friendly,1,A,Wales,South Africa
+477,2004-06-08,Canada,5,32,New Zealand,"Thunderbird Stadium, Vancouver",46,35,5,Churchill Cup,27,A,New Zealand,Canada
+478,2004-06-13,New Zealand,35,0,United States,Calgary Rugby Park,36,47,7,Churchill Cup,35,N,New Zealand,United States
+479,2004-06-13,Canada,11,35,England,Calgary Rugby Park,47,104,9,Churchill Cup,24,A,England,Canada
+480,2004-06-19,Canada,10,29,United States,Edmonton,48,48,16,Churchill Cup,19,A,United States,Canada
+481,2004-06-19,England,0,38,New Zealand,Edmonton,105,37,7,Churchill Cup,38,N,New Zealand,England
+482,2004-06-19,Jamaica,15,3,Cayman Islands,Montego Bay,3,1,1,Friendly,12,H,Jamaica,Cayman Islands
+483,2004-11-06,Netherlands,15,7,Japan,Amsterdam,72,17,2,Friendly,8,H,Netherlands,Japan
+484,2004-11-14,England,45,5,Canada,Richmond,106,49,10,Friendly,40,H,England,Canada
+485,2004-11-14,Ireland,55,0,Japan,"Donnybrook, Dublin",62,18,3,Friendly,55,H,Ireland,Japan
+486,2004-11-17,England,41,3,Canada,Newbury,107,50,11,Friendly,38,H,England,Canada
+487,2004-11-27,Scotland,6,12,United States,"Murrayfield, Edinburgh",82,49,3,Friendly,6,A,United States,Scotland
+488,2005-02-04,France,22,15,Scotland,"Roubaix, Lyon",96,83,11,6 Nations,7,H,France,Scotland
+489,2005-02-04,Wales,0,81,England,"Arms Park, Cardiff",88,108,21,6 Nations,81,A,England,Wales
+490,2005-02-05,Spain,19,17,Ireland,"Campo Central Ciudad Universitaria, Madrid",71,63,7,6 Nations,2,H,Spain,Ireland
+491,2005-02-12,Spain,10,10,Wales,"Orense, Orense",72,89,8,6 Nations,0,D,Draw,Draw
+492,2005-02-12,Scotland,15,5,Ireland,Murrayfield,84,64,12,6 Nations,10,H,Scotland,Ireland
+493,2005-02-13,England,10,13,France,"Imber Court, London",109,97,18,6 Nations,3,A,France,England
+494,2005-02-25,France,48,0,Wales,"Bondoufle, Paris",98,90,8,6 Nations,48,H,France,Wales
+495,2005-02-26,Scotland,19,3,Spain,"Anniesland, Glasgow",85,73,12,6 Nations,16,H,Scotland,Spain
+496,2005-02-26,Ireland,0,32,England,"St Mary's College, Dublin",65,110,8,6 Nations,32,A,England,Ireland
+497,2005-02-26,Rwanda,0,92,Uganda,Kigali,1,1,1,Friendly,92,A,Uganda,Rwanda
+498,2005-03-12,England,76,0,Spain,"Imber Court, London",111,74,12,6 Nations,76,H,England,Spain
+499,2005-03-13,Ireland,0,34,France,Dublin,66,99,10,6 Nations,34,A,France,Ireland
+500,2005-03-13,Scotland,22,5,Wales,Murrayfield,86,91,16,6 Nations,17,H,Scotland,Wales
+501,2005-03-18,Wales,6,11,Ireland,"Arms Park, Cardiff",92,67,10,6 Nations,5,A,Ireland,Wales
+502,2005-03-19,Spain,0,39,France,"San Boï de Llobregat, Barcelona",75,100,16,6 Nations,39,A,France,Spain
+503,2005-03-19,England,22,10,Scotland,Twickenham,112,87,14,6 Nations,12,H,England,Scotland
+504,2005-04-07,Netherlands,8,7,Sweden,"Hamburg, Germany",73,38,7,FIRA,1,N,Netherlands,Sweden
+505,2005-04-07,Germany,0,52,Italy,"Hamburg, Germany",44,50,5,FIRA,52,A,Italy,Germany
+506,2005-04-09,Germany,5,17,Sweden,"Hamburg, Germany",45,39,7,FIRA,12,A,Sweden,Germany
+507,2005-04-09,Italy,22,3,Netherlands,"Hamburg, Germany",51,74,8,FIRA,19,N,Italy,Netherlands
+508,2005-04-30,Austria,5,5,Czechia,"Hohe Warte, Vienna",2,2,2,Friendly,0,D,Draw,Draw
+509,2005-04-30,Wales,9,24,South Africa,Ebbw Vale RFC,93,3,3,Friendly,15,A,South Africa,Wales
+510,2005-05-14,England,101,0,South Africa,Imber Court RFC,113,4,1,Friendly,101,H,England,South Africa
+511,2005-05-21,Norway,0,25,Russia,"Zenica, Bosnia",6,14,1,FIRA,25,N,Russia,Norway
+512,2005-05-21,Bosnia-Herzegovina,0,30,Norway,"Zenica, Bosnia",1,7,1,FIRA,30,A,Norway,Bosnia-Herzegovina
+513,2005-05-21,Bosnia-Herzegovina,0,74,Russia,"Zenica, Bosnia",2,15,1,FIRA,74,A,Russia,Bosnia-Herzegovina
+514,2005-05-23,Norway,0,49,Russia,"Zenica, Bosnia",8,16,2,FIRA,49,N,Russia,Norway
+515,2005-05-23,Bosnia-Herzegovina,0,22,Norway,"Zenica, Bosnia",3,9,2,FIRA,22,A,Norway,Bosnia-Herzegovina
+516,2005-05-23,Bosnia-Herzegovina,0,65,Russia,"Zenica, Bosnia",4,17,2,FIRA,65,A,Russia,Bosnia-Herzegovina
+517,2005-06-03,Hong Kong,0,78,Japan,Bangkok,4,19,4,World Cup,78,N,Japan,Hong Kong
+518,2005-06-03,Thailand,0,67,Kazakhstan,Bangkok,1,32,1,World Cup,67,A,Kazakhstan,Thailand
+519,2005-06-05,Thailand,20,18,Hong Kong,Bangkok,2,5,1,World Cup,2,H,Thailand,Hong Kong
+520,2005-06-05,Kazakhstan,19,3,Japan,Bangkok,33,20,1,World Cup,16,N,Kazakhstan,Japan
+521,2005-06-29,New Zealand,30,9,Scotland,Ottawa,38,88,2,Canada Cup,21,N,New Zealand,Scotland
+522,2005-07-02,Canada,22,9,Scotland,Ottawa,51,89,3,Canada Cup,13,H,Canada,Scotland
+523,2005-07-05,Canada,3,43,New Zealand,Ottawa,52,39,6,Canada Cup,40,A,New Zealand,Canada
+524,2005-07-08,Canada,5,32,New Zealand,Ottawa,53,40,7,Canada Cup,27,A,New Zealand,Canada
+525,2005-10-15,Samoa,0,53,England,"Ericsson Stadium, Auckland",6,114,1,Friendly,53,N,England,Samoa
+526,2005-10-22,New Zealand,24,15,England,"Eden Park, Auckland",41,115,8,Friendly,9,H,New Zealand,England
+527,2005-10-22,Italy,11,14,Wales,Treviso,52,94,5,Friendly,3,A,Wales,Italy
+528,2005-10-26,New Zealand,33,8,England,"Waikato Stadium, Hamilton",42,116,9,Friendly,25,H,New Zealand,England
+529,2005-11-11,France,13,5,Canada,Nantes,101,54,4,Friendly,8,H,France,Canada
+530,2005-11-11,France,29,0,Canada,Nanterre,102,55,5,Friendly,29,H,France,Canada
+531,2005-12-10,Uganda,81,0,Rwanda,Kampala,2,2,2,Friendly,81,H,Uganda,Rwanda
+532,2006-01-21,Scotland,6,13,United States,"Netherdale, Gala",90,50,4,Friendly,7,A,United States,Scotland
+533,2006-01-25,Ireland,5,23,United States,Limerick,68,51,2,Friendly,18,A,United States,Ireland
+534,2006-02-04,Ireland,25,10,Spain,"Donnybrook, Dublin",69,76,8,6 Nations,15,H,Ireland,Spain
+535,2006-02-04,England,38,15,Wales,"Old Albanians, St Albans",117,95,22,6 Nations,23,H,England,Wales
+536,2006-02-05,Scotland,3,23,France,Murrayfield,91,103,12,6 Nations,20,A,France,Scotland
+537,2006-02-10,France,32,0,Ireland,"Montauban, Toulouse",104,70,11,6 Nations,32,H,France,Ireland
+538,2006-02-11,Spain,3,86,England,"La Ciudad Universitaria, Madrid",77,118,13,6 Nations,83,A,England,Spain
+539,2006-02-11,Wales,5,0,Scotland,"Sardis Rd, Pontypridd",96,92,17,6 Nations,5,H,Wales,Scotland
+540,2006-02-25,Ireland,7,14,Wales,"Donnybrook, Dublin",71,97,11,6 Nations,7,A,Wales,Ireland
+541,2006-02-25,Scotland,5,22,England,Murrayfield,93,119,15,6 Nations,17,A,England,Scotland
+542,2006-02-25,France,38,0,Spain,"Saint Jean De Luz, Biarritz",105,78,17,6 Nations,38,H,France,Spain
+543,2006-03-10,Wales,10,0,Spain,"Sardis Rd, Pontypridd",98,79,9,6 Nations,10,H,Wales,Spain
+544,2006-03-10,Ireland,0,9,Scotland,Navan,72,94,13,6 Nations,9,A,Scotland,Ireland
+545,2006-03-11,France,0,28,England,"Bondoufle, Paris",106,120,19,6 Nations,28,A,England,France
+546,2006-03-17,Wales,11,10,France,"Sardis Rd, Pontypridd",99,107,9,6 Nations,1,H,Wales,France
+547,2006-03-17,England,29,10,Ireland,"Old Albanians, St Albans",121,73,9,6 Nations,19,H,England,Ireland
+548,2006-03-18,Spain,12,16,Scotland,"La Ciudad Universitaria, Madrid",80,95,13,6 Nations,4,A,Scotland,Spain
+549,2006-04-14,Fiji,15,27,Samoa,"Teufaiva Park, Nuku’alofa",1,7,1,Pacific tri-nations,12,N,Samoa,Fiji
+550,2006-04-18,Tonga,5,52,Fiji,"Teufaiva Park, Nuku’alofa",1,2,1,Pacific tri-nations,47,A,Fiji,Tonga
+551,2006-04-22,Tonga,5,60,Samoa,"Teufaiva Park, Nuku’alofa",2,8,1,Pacific tri-nations,55,A,Samoa,Tonga
+552,2006-04-23,Italy,34,0,Belgium,"San Donà di Piave, Italy",53,8,1,FIRA,34,H,Italy,Belgium
+553,2006-04-23,Belgium,0,24,Russia,"San Donà di Piave, Italy",9,18,1,FIRA,24,N,Russia,Belgium
+554,2006-04-23,Italy,30,0,Russia,"San Donà di Piave, Italy",54,19,2,FIRA,30,H,Italy,Russia
+555,2006-04-23,Netherlands,84,0,Norway,"San Donà di Piave, Italy",75,10,2,FIRA,84,N,Netherlands,Norway
+556,2006-04-23,Norway,0,34,Sweden,"San Donà di Piave, Italy",11,40,1,FIRA,34,N,Sweden,Norway
+557,2006-04-23,Netherlands,10,5,Sweden,"San Donà di Piave, Italy",76,41,8,FIRA,5,N,Netherlands,Sweden
+558,2006-04-26,Netherlands,53,5,Russia,"San Donà di Piave, Italy",77,20,2,FIRA,48,N,Netherlands,Russia
+559,2006-04-26,Italy,33,0,Sweden,"San Donà di Piave, Italy",55,42,5,FIRA,33,H,Italy,Sweden
+560,2006-04-26,Belgium,41,0,Norway,"San Donà di Piave, Italy",10,12,1,FIRA,41,N,Belgium,Norway
+561,2006-04-29,Ireland,15,8,Canada,Galway,74,56,2,Friendly,7,N,Ireland,Canada
+562,2006-04-30,Italy,28,7,Netherlands,"San Donà di Piave, Italy",56,78,9,FIRA,21,H,Italy,Netherlands
+563,2006-04-30,Belgium,0,32,Sweden,"San Donà di Piave, Italy",11,43,3,FIRA,32,N,Sweden,Belgium
+564,2006-04-30,Norway,5,62,Russia,"San Donà di Piave, Italy",13,21,3,FIRA,57,N,Russia,Norway
+565,2006-05-06,Wales,16,11,Canada,Glamorgan Wanderers,100,57,7,Friendly,5,H,Wales,Canada
+566,2006-06-09,Uganda,24,0,Kenya,Kampala,3,1,1,Elgon Cup,24,H,Uganda,Kenya
+567,2006-06-10,United States,25,10,Canada,"Boulder, Colorado",52,58,17,Friendly,15,H,United States,Canada
+568,2006-06-13,United States,18,20,Canada,"Boulder, Colorado",53,59,18,Friendly,2,A,Canada,United States
+569,2006-06-17,South Africa,35,0,Netherlands,Port Elizabeth,5,79,1,Friendly,35,H,South Africa,Netherlands
+570,2006-06-24,South Africa,42,12,Netherlands,Durban,6,80,2,Friendly,30,H,South Africa,Netherlands
+571,2006-08-12,Kenya,0,3,Uganda,Nairobi,2,4,2,Elgon Cup,3,A,Uganda,Kenya
+572,2006-08-31,New Zealand,66,7,Canada,"Ellerslie Rugby Park, Edmonton",43,60,8,World Cup,59,N,New Zealand,Canada
+573,2006-08-31,Spain,0,24,Scotland,"St. Albert Rugby Park, St. Albert",81,96,14,World Cup,24,N,Scotland,Spain
+574,2006-08-31,Kazakhstan,0,20,Samoa,"Ellerslie Rugby Park, Edmonton",34,9,2,World Cup,20,N,Samoa,Kazakhstan
+575,2006-08-31,England,18,0,United States,"St. Albert Rugby Park, St. Albert",122,54,6,World Cup,18,N,England,United States
+576,2006-08-31,Australia,68,12,South Africa,"Ellerslie Rugby Park, Edmonton",18,7,1,World Cup,56,N,Australia,South Africa
+577,2006-08-31,Ireland,0,43,France,"St. Albert Rugby Park, St. Albert",75,108,12,World Cup,43,N,France,Ireland
+578,2006-09-04,New Zealand,50,0,Samoa,"St. Albert Rugby Park, St. Albert",44,10,1,World Cup,50,N,New Zealand,Samoa
+579,2006-09-04,England,74,8,South Africa,"Ellerslie Rugby Park, Edmonton",123,8,2,World Cup,66,N,England,South Africa
+580,2006-09-04,Canada,79,0,Spain,"St. Albert Rugby Park, St. Albert",61,82,2,World Cup,79,H,Canada,Spain
+581,2006-09-04,Australia,10,24,France,"Ellerslie Rugby Park, Edmonton",19,109,2,World Cup,14,N,France,Australia
+582,2006-09-04,Kazakhstan,17,32,Scotland,"St. Albert Rugby Park, St. Albert",35,97,1,World Cup,15,N,Scotland,Kazakhstan
+583,2006-09-04,Ireland,11,24,United States,"Ellerslie Rugby Park, Edmonton",76,55,3,World Cup,13,N,United States,Ireland
+584,2006-09-08,New Zealand,21,0,Scotland,"Ellerslie Rugby Park, Edmonton",45,98,3,World Cup,21,N,New Zealand,Scotland
+585,2006-09-08,Canada,45,5,Kazakhstan,"Ellerslie Rugby Park, Edmonton",62,36,2,World Cup,40,H,Canada,Kazakhstan
+586,2006-09-08,England,27,8,France,"St. Albert Rugby Park, St. Albert",124,110,20,World Cup,19,N,England,France
+587,2006-09-08,Spain,14,12,Samoa,"St. Albert Rugby Park, St. Albert",83,11,1,World Cup,2,N,Spain,Samoa
+588,2006-09-08,Australia,6,10,United States,"Ellerslie Rugby Park, Edmonton",20,56,3,World Cup,4,N,United States,Australia
+589,2006-09-08,Ireland,37,0,South Africa,"St. Albert Rugby Park, St. Albert",77,9,1,World Cup,37,N,Ireland,South Africa
+590,2006-09-12,New Zealand,40,10,France,"Ellerslie Rugby Park, Edmonton",46,111,3,World Cup,30,N,New Zealand,France
+591,2006-09-12,Canada,6,10,England,"Ellerslie Rugby Park, Edmonton",63,125,12,World Cup,4,A,England,Canada
+592,2006-09-12,Ireland,10,11,Scotland,"St. Albert Rugby Park, St. Albert",78,99,14,World Cup,1,N,Scotland,Ireland
+593,2006-09-12,United States,29,12,Australia,"St. Albert Rugby Park, St. Albert",57,21,4,World Cup,17,N,United States,Australia
+594,2006-09-12,Samoa,43,10,South Africa,"St. Albert Rugby Park, St. Albert",12,10,1,World Cup,33,N,Samoa,South Africa
+595,2006-09-12,Spain,17,12,Kazakhstan,"Ellerslie Rugby Park, Edmonton",84,37,2,World Cup,5,N,Spain,Kazakhstan
+596,2006-09-16,Ireland,14,18,Australia,"Ellerslie Rugby Park, Edmonton",79,22,2,World Cup,4,N,Australia,Ireland
+597,2006-09-16,Samoa,5,10,Spain,"Ellerslie Rugby Park, Edmonton",13,85,2,World Cup,5,N,Spain,Samoa
+598,2006-09-16,Kazakhstan,36,0,South Africa,"Ellerslie Rugby Park, Edmonton",38,11,1,World Cup,36,N,Kazakhstan,South Africa
+599,2006-09-17,Scotland,0,24,United States,"Commonwealth Stadium, Edmonton",100,58,5,World Cup,24,N,United States,Scotland
+600,2006-09-17,Canada,8,17,France,"Commonwealth Stadium, Edmonton",64,112,6,World Cup,9,A,France,Canada
+601,2006-09-17,England,17,25,New Zealand,"Commonwealth Stadium, Edmonton",126,47,10,World Cup,8,N,New Zealand,England
+602,2006-09-28,Jamaica,5,6,Guyana,Kingston,4,1,1,"NAWIRA",1,A,Guyana,Jamaica
+603,2006-09-29,Guyana,8,15,Trinidad and Tobago,Kingston,2,4,1,"NAWIRA",7,N,Trinidad and Tobago,Guyana
+604,2006-09-30,Jamaica,27,0,Trinidad and Tobago,Kingston,5,5,3,"NAWIRA",27,H,Jamaica,Trinidad and Tobago
+605,2006-11-17,China,53,11,Thailand,Kunming,1,3,1,ARFU,42,H,China,Thailand
+606,2006-11-17,Hong Kong,12,0,Singapore,Kunming,6,1,1,ARFU,12,N,Hong Kong,Singapore
+607,2006-11-18,Wales,31,7,Italy,Glamorgan Wanderers,101,57,6,Friendly,24,H,Wales,Italy
+608,2006-11-19,Thailand,20,0,Singapore,Kunming,4,2,1,ARFU,20,N,Thailand,Singapore
+609,2006-11-19,China,31,7,Hong Kong,Kunming,2,7,1,ARFU,24,H,China,Hong Kong
+610,2006-12-03,Wales,24,0,Netherlands,Llanrumney,102,81,4,Friendly,24,H,Wales,Netherlands
+611,2007-02-03,England,60,0,Scotland,"Old Albanians, St Albans",127,101,16,6 Nations,60,H,England,Scotland
+612,2007-02-03,Wales,10,5,Ireland,"Cae Gwyn, Taff's Well, Rhondda",103,80,12,6 Nations,5,H,Wales,Ireland
+613,2007-02-04,Italy,17,37,France,Biella,58,113,7,6 Nations,20,A,France,Italy
+614,2007-02-10,Ireland,10,13,France,"St Mary's RFC, Dublin",81,114,13,6 Nations,3,A,France,Ireland
+615,2007-02-10,England,23,0,Italy,Twickenham,128,59,4,6 Nations,23,H,England,Italy
+616,2007-02-10,Scotland,0,10,Wales,Dunbar,102,104,18,6 Nations,10,A,Wales,Scotland
+617,2007-02-24,Scotland,25,6,Italy,"Meggetland, Edinburgh",103,60,5,6 Nations,19,H,Scotland,Italy
+618,2007-02-24,France,15,0,Wales,"Stade Guy Moquet a Drancy, Paris",115,105,10,6 Nations,15,H,France,Wales
+619,2007-02-25,Ireland,0,32,England,"Thomond Park, Limerick",82,129,10,6 Nations,32,A,England,Ireland
+620,2007-03-10,Scotland,6,18,Ireland,"Meggetland, Edinburgh",104,83,15,6 Nations,12,A,Ireland,Scotland
+621,2007-03-11,Italy,0,24,Wales,Rome,61,106,7,6 Nations,24,A,Wales,Italy
+622,2007-03-11,England,38,12,France,"Old Albanians, St Albans",130,116,21,6 Nations,26,H,England,France
+623,2007-03-17,Italy,12,17,Ireland,"Tre Fontane, Rome",62,84,5,6 Nations,5,A,Ireland,Italy
+624,2007-03-17,Wales,0,30,England,"Cae Gwyn, Taff's Well, Rhondda",107,131,23,6 Nations,30,A,England,Wales
+625,2007-03-18,France,18,10,Scotland,"Stade le Bout du Clos , Paris",117,105,13,6 Nations,8,H,France,Scotland
+626,2007-04-01,Netherlands,62,5,Belgium,Eindhoven,82,12,4,Friendly,57,H,Netherlands,Belgium
+627,2007-04-11,Belgium,73,0,Luxembourg,"Leuven, Belgium",13,1,1,FIRA,73,H,Belgium,Luxembourg
+628,2007-04-11,Romania,65,0,Serbia,"Watermael-Boitsfort, Belgium",1,1,1,FIRA,65,N,Romania,Serbia
+629,2007-04-11,Norway,12,12,Finland,"Boisfort, Belgium",14,1,1,FIRA,0,N,Draw,Draw
+630,2007-04-12,Belgium,20,0,Serbia,"Frameries, Belgium",14,2,1,FIRA,20,H,Belgium,Serbia
+631,2007-04-12,Luxembourg,0,38,Romania,"Kituro (Brussels), Belgium",2,2,1,FIRA,38,N,Romania,Luxembourg
+632,2007-04-12,Germany,48,0,Norway,"Kituro (Brussels), Belgium",46,15,3,FIRA,48,N,Germany,Norway
+633,2007-04-13,Belgium,20,0,Romania,"Dendermonde, Belgium",15,3,1,FIRA,20,H,Belgium,Romania
+634,2007-04-13,Luxembourg,20,0,Serbia,"Dendermonde, Belgium",3,3,1,FIRA,20,N,Luxembourg,Serbia
+635,2007-04-13,Germany,32,0,Finland,"Liège, Belgium",47,2,1,FIRA,32,N,Germany,Finland
+636,2007-04-15,Norway,62,0,Serbia,"Tervuren, Belgium",16,4,1,FIRA,62,N,Norway,Serbia
+637,2007-04-15,Finland,14,7,Luxembourg,"Tervuren, Belgium",3,4,1,FIRA,7,N,Finland,Luxembourg
+638,2007-04-15,Germany,15,0,Romania,"Boisfort, Belgium",48,4,1,FIRA,15,N,Germany,Romania
+639,2007-04-28,England,62,0,Russia,"Barcelona, Spain",132,22,2,FIRA,62,H,England,Russia
+640,2007-04-28,Spain,15,6,Italy,"Barcelona, Spain",86,63,7,FIRA,9,H,Spain,Italy
+641,2007-04-28,France,12,0,Sweden,"Barcelona, Spain",118,44,3,FIRA,12,N,France,Sweden
+642,2007-04-28,Netherlands,12,3,Wales,"Barcelona, Spain",83,108,5,FIRA,9,N,Netherlands,Wales
+643,2007-04-30,England,41,11,Italy,"Barcelona, Spain",133,64,5,FIRA,30,N,England,Italy
+644,2007-04-30,Spain,54,3,Russia,"Barcelona, Spain",87,23,2,FIRA,51,H,Spain,Russia
+645,2007-04-30,France,27,8,Netherlands,"Barcelona, Spain",119,84,11,FIRA,19,N,France,Netherlands
+646,2007-04-30,Sweden,18,8,Wales,"Barcelona, Spain",45,109,1,FIRA,10,N,Sweden,Wales
+647,2007-05-02,Italy,50,5,Russia,"Barcelona, Spain",65,24,3,FIRA,45,N,Italy,Russia
+648,2007-05-02,Spain,22,22,England,"Barcelona, Spain",88,134,14,FIRA,0,D,Draw,Draw
+649,2007-05-02,France,17,10,Wales,"Barcelona, Spain",120,110,11,FIRA,7,N,France,Wales
+650,2007-05-02,Netherlands,20,5,Sweden,"Barcelona, Spain",85,46,9,FIRA,15,N,Netherlands,Sweden
+651,2007-05-05,Russia,14,38,Wales,"Barcelona, Spain",25,111,2,FIRA,24,N,Wales,Russia
+652,2007-05-05,Italy,0,6,Sweden,"Barcelona, Spain",66,47,6,FIRA,6,N,Sweden,Italy
+653,2007-05-05,Spain,37,0,Netherlands,"Barcelona, Spain",89,86,4,FIRA,37,H,Spain,Netherlands
+654,2007-05-05,England,27,17,France,"Barcelona, Spain",135,121,22,FIRA,10,N,England,France
+655,2007-09-22,Zimbabwe,0,28,Zambia,Harare,1,1,1,Friendly,28,A,Zambia,Zimbabwe
+656,2007-10-16,New Zealand,21,10,Australia,"Cooks Gardens, Wanganui",48,23,7,Friendly,11,H,New Zealand,Australia
+657,2007-10-20,New Zealand,29,12,Australia,Wellington,49,24,8,Friendly,17,H,New Zealand,Australia
+658,2007-10-28,Germany,37,0,Luxembourg,Heidelberg,49,5,1,Friendly,37,H,Germany,Luxembourg
+659,2007-11-02,China,39,6,Singapore,Kunming,3,3,1,ARFU,33,H,China,Singapore
+660,2007-11-02,Japan,6,10,Kazakhstan,Kunming,21,39,2,ARFU,4,N,Kazakhstan,Japan
+661,2007-11-04,Japan,20,7,Singapore,Kunming,22,4,1,ARFU,13,N,Japan,Singapore
+662,2007-11-04,China,5,34,Kazakhstan,Kunming,4,40,1,ARFU,29,A,Kazakhstan,China
+663,2007-11-04,Scotland,3,45,Canada,Glasgow,106,65,4,Friendly,42,A,Canada,Scotland
+664,2007-11-09,Wales,3,25,Canada,"Cae Gwyn, Taff's Well, Rhondda",112,66,8,Friendly,22,A,Canada,Wales
+665,2007-12-01,Belgium,7,19,Netherlands,Ghent,16,87,5,Friendly,12,A,Netherlands,Belgium
+666,2007-12-15,England,34,0,United States,London Irish,136,59,7,Friendly,34,H,England,United States
+667,2008-02-01,Ireland,19,0,Italy,"St Mary's RFC, Dublin",85,67,6,6 Nations,19,H,Ireland,Italy
+668,2008-02-02,England,55,0,Wales,London Irish,137,113,24,6 Nations,55,H,England,Wales
+669,2008-02-03,Scotland,15,43,France,Meggetland,107,122,14,6 Nations,28,A,France,Scotland
+670,2008-02-09,Italy,6,76,England,Rome,68,138,6,6 Nations,70,A,England,Italy
+671,2008-02-10,Wales,23,6,Scotland,"Cae Gwyn, Taff's Well, Rhondda",114,108,19,6 Nations,17,H,Wales,Scotland
+672,2008-02-10,France,26,17,Ireland,Saint-Gratien,123,86,14,6 Nations,9,H,France,Ireland
+673,2008-02-22,Ireland,13,3,Scotland,"St Mary's RFC, Dublin",87,109,16,6 Nations,10,H,Ireland,Scotland
+674,2008-02-23,France,0,31,England,"Bergerac, Agen",124,139,23,6 Nations,31,A,England,France
+675,2008-02-24,Wales,27,5,Italy,"Cae Gwyn, Taff's Well, Rhondda",115,69,8,6 Nations,22,H,Wales,Italy
+676,2008-03-07,Ireland,10,19,Wales,"St Mary's RFC, Dublin",88,116,13,6 Nations,9,A,Wales,Ireland
+677,2008-03-08,Scotland,5,34,England,Meggetland,110,140,17,6 Nations,29,A,England,Scotland
+678,2008-03-08,France,35,6,Italy,"Valence, Lyon",125,70,8,6 Nations,29,H,France,Italy
+679,2008-03-15,England,17,7,Ireland,London Irish,141,89,11,6 Nations,10,H,England,Ireland
+680,2008-03-15,Wales,3,0,France,"Cae Gwyn, Taff's Well, Rhondda",117,126,12,6 Nations,3,H,Wales,France
+681,2008-03-16,Italy,31,10,Scotland,Mira,71,111,6,6 Nations,21,H,Italy,Scotland
+682,2008-03-16,Germany,0,43,Netherlands,Aachen,50,88,15,Friendly,43,A,Netherlands,Germany
+683,2008-04-20,Netherlands,50,10,Germany,Valkenswaard,89,51,16,Friendly,40,H,Netherlands,Germany
+684,2008-05-05,Guyana,41,0,Cayman Islands,"Georgetown, Guyana",3,2,1,"NAWIRA",41,H,Guyana,Cayman Islands
+685,2008-05-05,Jamaica,10,12,Trinidad and Tobago,"Georgetown, Guyana",6,6,4,"NAWIRA",2,N,Trinidad and Tobago,Jamaica
+686,2008-05-07,Cayman Islands,7,12,Jamaica,"Georgetown, Guyana",3,7,2,"NAWIRA",5,N,Jamaica,Cayman Islands
+687,2008-05-07,Guyana,5,5,Trinidad and Tobago,"Georgetown, Guyana",4,7,2,"NAWIRA",0,D,Draw,Draw
+688,2008-05-10,Cayman Islands,0,79,Trinidad and Tobago,"Georgetown, Guyana",4,8,1,"NAWIRA",79,N,Trinidad and Tobago,Cayman Islands
+689,2008-05-10,Guyana,13,10,Jamaica,"Georgetown, Guyana",5,8,2,"NAWIRA",3,H,Guyana,Jamaica
+690,2008-05-10,Netherlands,10,0,Brazil,Amsterdam,90,1,1,Friendly,10,H,Netherlands,Brazil
+691,2008-05-17,England,80,3,Sweden,Amsterdam,142,48,3,FIRA,77,N,England,Sweden
+692,2008-05-17,Netherlands,3,24,France,Amsterdam,91,127,12,FIRA,21,A,France,Netherlands
+693,2008-05-17,Scotland,10,27,Wales,Amsterdam,112,118,20,FIRA,17,N,Wales,Scotland
+694,2008-05-17,Ireland,41,7,Spain,Amsterdam,90,90,9,FIRA,34,N,Ireland,Spain
+695,2008-05-19,Belgium,0,5,Germany,"Castricum, Netherlands",17,52,2,FIRA,5,N,Germany,Belgium
+696,2008-05-19,Finland,5,13,Romania,"Utrecht, Netherlands",4,5,1,FIRA,8,N,Romania,Finland
+697,2008-05-19,Finland,0,39,Russia,"Utrecht, Netherlands",5,26,1,FIRA,39,N,Russia,Finland
+698,2008-05-19,Romania,3,32,Russia,"Utrecht, Netherlands",6,27,1,FIRA,29,N,Russia,Romania
+699,2008-05-20,Sweden,0,20,Spain,"Drachten, Netherlands",49,91,2,FIRA,20,N,Spain,Sweden
+700,2008-05-20,Netherlands,0,26,Scotland,"Leiden, Netherlands",92,113,3,FIRA,26,A,Scotland,Netherlands
+701,2008-05-20,England,22,11,Ireland,"Drachten, Netherlands",143,91,12,FIRA,11,N,England,Ireland
+702,2008-05-20,France,10,18,Wales,"Leiden, Netherlands",128,119,13,FIRA,8,N,Wales,France
+703,2008-05-21,Belgium,0,22,Russia,"Tilburg, Netherlands",18,28,2,FIRA,22,N,Russia,Belgium
+704,2008-05-21,Belgium,15,7,Romania,"Tilburg, Netherlands",19,7,2,FIRA,8,N,Belgium,Romania
+705,2008-05-21,Finland,3,39,Germany,"Driebergen, Netherlands",6,53,2,FIRA,36,N,Germany,Finland
+706,2008-05-21,Romania,0,29,Russia,"Tilburg, Netherlands",8,29,2,FIRA,29,N,Russia,Romania
+707,2008-05-23,Finland,5,12,Romania,Amsterdam,7,9,2,FIRA,7,N,Romania,Finland
+708,2008-05-23,Belgium,15,19,Germany,Amsterdam,20,54,3,FIRA,4,N,Germany,Belgium
+709,2008-05-24,Uganda,18,7,Kenya,Kampala,5,3,3,Elgon Cup,11,H,Uganda,Kenya
+710,2008-05-24,Netherlands,7,6,Sweden,Amsterdam,93,50,10,FIRA,1,H,Netherlands,Sweden
+711,2008-05-24,Scotland,27,25,Spain,Amsterdam,114,92,15,FIRA,2,N,Scotland,Spain
+712,2008-05-24,France,22,22,Ireland,Amsterdam,129,92,15,FIRA,0,N,Draw,Draw
+713,2008-05-24,England,12,6,Wales,Amsterdam,144,120,25,FIRA,6,N,England,Wales
+714,2008-06-03,Kyrgyzstan,0,38,Singapore,"Taldykorgan, Kazahkstan",1,5,1,ARFU,38,N,Singapore,Kyrgyzstan
+715,2008-06-03,Hong Kong,6,8,Uzbekistan,"Taldykorgan, Kazahkstan",8,1,1,ARFU,2,N,Uzbekistan,Hong Kong
+716,2008-06-05,Kazakhstan,64,3,Uzbekistan,"Taldykorgan, Kazahkstan",41,2,1,ARFU,61,H,Kazakhstan,Uzbekistan
+717,2008-06-05,Japan,17,10,Singapore,"Taldykorgan, Kazahkstan",23,6,2,ARFU,7,N,Japan,Singapore
+718,2008-06-07,Hong Kong,49,0,Kyrgyzstan,"Taldykorgan, Kazahkstan",9,2,1,ARFU,49,N,Hong Kong,Kyrgyzstan
+719,2008-06-07,Singapore,0,15,Uzbekistan,"Taldykorgan, Kazahkstan",7,3,1,ARFU,15,N,Uzbekistan,Singapore
+720,2008-06-07,Kazakhstan,39,3,Japan,"Taldykorgan, Kazahkstan",42,24,3,ARFU,36,H,Kazakhstan,Japan
+721,2008-06-14,Jamaica,15,0,Cayman Islands,"Kingston, Jamaica",9,5,3,Friendly,15,H,Jamaica,Cayman Islands
+722,2008-08-16,Kenya,15,13,Uganda,Nairobi,4,6,4,Elgon Cup,2,H,Kenya,Uganda
+723,2008-08-19,England,50,3,United States,Esher,145,60,8,Friendly,47,H,England,United States
+724,2008-08-22,England,17,14,United States,"Esher, England",146,61,9,Nations Cup,3,H,England,United States
+725,2008-08-24,England,43,9,Canada,"Esher, England",147,67,13,Nations Cup,34,H,England,Canada
+726,2008-08-26,Canada,15,0,United States,"Esher, England",68,62,19,Nations Cup,15,N,Canada,United States
+727,2008-08-29,England,24,0,Canada,Esher,148,69,14,Friendly,24,H,England,Canada
+728,2008-10-16,Australia,3,37,New Zealand,"Viking Park, Canberra",25,50,9,Friendly,34,A,New Zealand,Australia
+729,2008-10-20,Australia,16,22,New Zealand,"Viking Park, Canberra",26,51,10,Friendly,6,A,New Zealand,Australia
+730,2008-11-02,Germany,12,5,Sweden,Hanover,55,51,8,Friendly,7,H,Germany,Sweden
+731,2008-12-04,Singapore,10,10,Hong Kong,"St Andrew's School, Singapore",8,10,2,Friendly,0,D,Draw,Draw
+732,2008-12-05,Singapore,0,5,Hong Kong,"Yio Chu Kang Stadium, Singapore",9,11,3,Friendly,5,A,Hong Kong,Singapore
+733,2009-01-10,Scotland,32,0,Sweden,Meggetland,115,52,7,Friendly,32,H,Scotland,Sweden
+734,2009-02-06,Ireland,7,5,France,"Milltown House, Ashbourne, County Meath, Leinster",93,130,16,6 Nations,2,H,Ireland,France
+735,2009-02-07,England,69,13,Italy,"Old Deer Park, Richmond upon Thames, London",149,72,7,6 Nations,56,H,England,Italy
+736,2009-02-08,Scotland,10,31,Wales,"Howthornden, Lasswade, Midlothian",116,121,21,6 Nations,21,A,Wales,Scotland
+737,2009-02-14,Wales,16,15,England,"Cae Gwyn, Taff's Well, Rhondda",122,150,26,6 Nations,1,H,Wales,England
+738,2009-02-14,Italy,17,35,Ireland,"Stadio Maurizio Natali, Colleferro, Roma",73,94,7,6 Nations,18,A,Ireland,Italy
+739,2009-02-15,France,25,12,Scotland,"Stade Dominique Grimaldi, Arras, Pas-de-Calais",131,117,15,6 Nations,13,H,France,Scotland
+740,2009-02-27,Ireland,13,29,England,"Templeville Road, Templeogue, Dublin",95,151,13,6 Nations,16,A,England,Ireland
+741,2009-02-28,Scotland,13,10,Italy,"Meggetland, Craiglockhart, Edinburgh",118,74,7,6 Nations,3,H,Scotland,Italy
+742,2009-02-28,France,27,5,Wales,"Stade Sapiac, Montauban, Tarn-et-Garonne",132,123,14,6 Nations,22,H,France,Wales
+743,2009-03-13,Scotland,0,23,Ireland,"Meggetland, Craiglockhart, Edinburgh",119,96,17,6 Nations,23,A,Ireland,Scotland
+744,2009-03-15,England,52,7,France,"Old Deer Park, Richmond upon Thames, London",152,133,24,6 Nations,45,H,England,France
+745,2009-03-15,Italy,7,29,Wales,"Stadio Comunale, Mira, Venice",75,124,9,6 Nations,22,A,Wales,Italy
+746,2009-03-21,Wales,13,10,Ireland,"Cae Gwyn, Taff's Well, Rhondda",125,97,14,6 Nations,3,H,Wales,Ireland
+747,2009-03-21,England,72,3,Scotland,"Old Deer Park, Richmond upon Thames, London",153,120,18,6 Nations,69,H,England,Scotland
+748,2009-03-22,Italy,10,14,France,"Stadio Primo Nebiolo, Torino",76,134,9,6 Nations,4,A,France,Italy
+749,2009-04-25,Sweden,0,24,Netherlands,Norrköping,53,94,11,Friendly,24,A,Netherlands,Sweden
+750,2009-04-26,Sweden,3,7,Netherlands,Norrköping,54,95,12,Friendly,4,A,Netherlands,Sweden
+751,2009-05-17,Belgium,0,100,Netherlands,"Körsangens IP, Enköping,",21,96,6,FIRA,100,N,Netherlands,Belgium
+752,2009-05-17,Germany,0,74,Spain,"Kristinebergs IP, Stockholm",56,93,2,FIRA,74,N,Spain,Germany
+753,2009-05-17,Russia,0,84,Scotland,"Körsangens IP, Enköping, Uppsala",30,121,2,FIRA,84,N,Scotland,Russia
+754,2009-05-17,Sweden,16,14,Italy,"Kristinebergs IP, Stockholm",55,77,7,FIRA,2,H,Sweden,Italy
+755,2009-05-20,Belgium,0,71,Scotland,"Kristinebergs IP, Stockholm",22,122,1,FIRA,71,N,Scotland,Belgium
+756,2009-05-20,Germany,0,47,Italy,"Körsangens IP, Enköping, Uppsala",57,78,6,FIRA,47,N,Italy,Germany
+757,2009-05-20,Netherlands,34,0,Russia,"Kristinebergs IP, Stockholm",97,31,3,FIRA,34,N,Netherlands,Russia
+758,2009-05-20,Sweden,11,6,Spain,"Körsangens IP, Enköping, Uppsala",56,94,3,FIRA,5,H,Sweden,Spain
+759,2009-05-23,Belgium,11,29,Russia,"Körsangens IP, Enköping, Uppsala",23,32,3,FIRA,18,N,Russia,Belgium
+760,2009-05-23,Sweden,38,6,Germany,"Kristinebergs IP, Stockholm",57,58,9,FIRA,32,H,Sweden,Germany
+761,2009-05-23,Netherlands,18,38,Scotland,"Körsangens IP, Enköping, Uppsala",98,123,4,FIRA,20,N,Scotland,Netherlands
+762,2009-05-23,Italy,7,12,Spain,"Kristinebergs IP, Stockholm",79,95,8,FIRA,5,N,Spain,Italy
+763,2009-06-21,Barbados,3,54,Cayman Islands,"Bridgetown, Barbados",1,6,1,"NAWIRA",51,A,Cayman Islands,Barbados
+764,2009-06-21,St Vincent,0,90,Trinidad and Tobago,"Bridgetown, Barbados",1,9,1,"NAWIRA",90,N,Trinidad and Tobago,St Vincent
+765,2009-06-24,Barbados,0,78,Trinidad and Tobago,"Bridgetown, Barbados",2,10,1,"NAWIRA",78,A,Trinidad and Tobago,Barbados
+766,2009-06-24,Cayman Islands,76,0,St Vincent,"Bridgetown, Barbados",7,2,1,"NAWIRA",76,N,Cayman Islands,St Vincent
+767,2009-06-27,Barbados,49,0,St Vincent,"Bridgetown, Barbados",3,3,1,"NAWIRA",49,H,Barbados,St Vincent
+768,2009-06-27,Cayman Islands,0,48,Trinidad and Tobago,"Bridgetown, Barbados",8,11,2,"NAWIRA",48,N,Trinidad and Tobago,Cayman Islands
+769,2009-06-27,United States,17,25,Canada,"Infinity Park, Glendale, Colorado",63,70,20,Friendly,8,A,Canada,United States
+770,2009-08-07,Samoa,0,87,Australia,Apia,14,27,1,World Cup,87,A,Australia,Samoa
+771,2009-08-10,France,17,17,South Africa,"Appleby College, Oakville, Ontario",135,12,1,Nations Cup,0,N,Draw,Draw
+772,2009-08-10,England,36,7,United States,"Appleby College, Oakville, Ontario",154,64,10,Nations Cup,29,N,England,United States
+773,2009-08-13,England,43,8,France,"Appleby College, Oakville, Ontario",155,136,25,Nations Cup,35,N,England,France
+774,2009-08-13,Canada,35,17,South Africa,"Appleby College, Oakville, Ontario",71,13,1,Nations Cup,18,H,Canada,South Africa
+775,2009-08-15,Kenya,38,5,Uganda,Nairobi,5,7,5,Elgon Cup,33,H,Kenya,Uganda
+776,2009-08-16,South Africa,0,39,United States,"Appleby College, Oakville, Ontario",14,65,1,Nations Cup,39,N,United States,South Africa
+777,2009-08-16,Canada,7,12,France,"Appleby College, Oakville, Ontario",72,137,7,Nations Cup,5,A,France,Canada
+778,2009-08-19,England,25,0,South Africa,"Appleby College, Oakville, Ontario",156,15,3,Nations Cup,25,N,England,South Africa
+779,2009-08-19,Canada,10,15,United States,"Appleby College, Oakville, Ontario",73,66,21,Nations Cup,5,A,United States,Canada
+780,2009-08-22,France,15,15,United States,"Fletcher’s Fields, Toronto",138,67,3,Nations Cup,0,N,Draw,Draw
+781,2009-08-22,Canada,0,22,England,"Fletcher’s Fields, Toronto",74,157,15,Nations Cup,22,A,England,Canada
+782,2009-08-29,Uganda,12,5,Kenya,Kampala,8,6,6,Elgon Cup,7,H,Uganda,Kenya
+783,2009-10-03,Singapore,63,0,Malaysia,Yio Chu Kang Stadium,10,1,1,Friendly,63,H,Singapore,Malaysia
+784,2009-10-10,Hong Kong,22,17,Singapore,"So Kan Poh Stadium, Hong Kong",12,11,4,Friendly,5,H,Hong Kong,Singapore
+785,2009-11-04,Singapore,11,35,Japan,"Republic Polytechnic, Singapore",12,25,3,World Cup,24,A,Japan,Singapore
+786,2009-10-24,Norway,5,22,Finland,"Ekeberg, Oslo",17,8,2,Regional Cup,17,A,Finland,Norway
+787,2009-11-04,Hong Kong,14,58,Kazakhstan,"Republic Polytechnic, Singapore",13,43,1,World Cup,44,N,Kazakhstan,Hong Kong
+788,2009-11-06,Singapore,3,16,Hong Kong,"Padang, Singapore",13,14,5,World Cup,13,A,Hong Kong,Singapore
+789,2009-11-06,Japan,5,43,Kazakhstan,"Padang, Singapore",26,44,4,World Cup,38,N,Kazakhstan,Japan
+790,2009-11-14,England,3,16,New Zealand,Esher,158,52,11,Friendly,13,A,New Zealand,England
+791,2009-11-18,France,5,14,Canada,Dijon,139,75,8,Friendly,9,A,Canada,France
+792,2009-11-21,England,10,3,New Zealand,Twickenham,159,53,12,Friendly,7,H,England,New Zealand
+793,2009-11-21,France,22,0,Canada,"Stade de France, Paris",140,76,9,Friendly,22,H,France,Canada
+794,2009-11-28,Wales,56,7,Sweden,"St Helen's, Swansea",126,58,2,Friendly,49,H,Wales,Sweden
+795,2010-01-12,United States,8,18,Canada,"Lakeland, Florida",68,77,22,Atlantic cup,10,A,Canada,United States
+796,2010-01-16,United States,11,10,Canada,"Lakeland, Florida",69,78,23,Atlantic cup,1,H,United States,Canada
+797,2010-02-05,Ireland,22,5,Italy,Ashbourne,98,80,8,6 Nations,17,H,Ireland,Italy
+798,2010-02-06,England,31,0,Wales,Esher,160,127,27,6 Nations,31,H,England,Wales
+799,2010-02-06,Scotland,10,8,France,Lasswade,124,141,16,6 Nations,2,H,Scotland,France
+800,2010-02-12,France,19,9,Ireland,Blois,142,99,17,6 Nations,10,H,France,Ireland
+801,2010-02-13,Italy,0,41,England,Parma,81,161,8,6 Nations,41,A,England,Italy
+802,2010-02-14,Wales,28,12,Scotland,Bridgend,128,125,22,6 Nations,16,H,Wales,Scotland
+803,2010-02-28,Wales,3,15,France,Bridgend,129,143,15,6 Nations,12,A,France,Wales
+804,2010-02-28,Italy,6,6,Scotland,Colleferro,82,126,8,6 Nations,0,D,Draw,Draw
+805,2010-02-28,England,22,5,Ireland,Esher,162,100,14,6 Nations,17,H,England,Ireland
+806,2010-03-12,Ireland,18,3,Wales,Ashbourne,101,130,15,6 Nations,15,H,Ireland,Wales
+807,2010-03-13,France,45,14,Italy,"Stade du Manoir, Montpellier",144,83,10,6 Nations,31,H,France,Italy
+808,2010-03-13,Scotland,0,51,England,Meggetland,127,163,19,6 Nations,51,A,England,Scotland
+809,2010-03-19,Ireland,15,3,Scotland,Ashbourne,102,128,18,6 Nations,12,H,Ireland,Scotland
+810,2010-03-19,France,10,11,England,Rennes,145,164,26,6 Nations,1,A,England,France
+811,2010-03-21,Wales,15,19,Italy,Bridgend,131,84,10,6 Nations,4,A,Italy,Wales
+812,2010-04-02,Netherlands,19,0,Sweden,"Leiden, Netherlands",99,59,13,Friendly,19,H,Netherlands,Sweden
+813,2010-04-04,Netherlands,20,7,Sweden,Amsterdam,100,60,14,Friendly,13,H,Netherlands,Sweden
+814,2010-04-08,Kazakhstan,17,22,South Africa,"Al Ain Rugby Club, Dubai",45,16,2,Friendly,5,N,South Africa,Kazakhstan
+815,2010-04-10,Kazakhstan,0,38,South Africa,"Al Ain Rugby Club, Dubai",46,17,3,Friendly,38,N,South Africa,Kazakhstan
+816,2010-04-18,Netherlands,83,0,Germany,Maastrict,101,59,17,Friendly,83,H,Netherlands,Germany
+817,2010-05-08,Germany,0,43,Italy,Sélestat,60,85,7,FIRA,43,N,Italy,Germany
+818,2010-05-08,Uganda,10,10,Kenya,Kampala,9,7,7,Friendly,0,D,Draw,Draw
+819,2010-05-08,Netherlands,12,26,Spain,Longwy,102,96,5,FIRA,14,N,Spain,Netherlands
+820,2010-05-08,Russia,0,32,Sweden,Sélestat,33,61,3,FIRA,32,N,Sweden,Russia
+821,2010-05-10,Belgium,0,74,Netherlands,Verdun,24,103,7,FIRA,74,N,Netherlands,Belgium
+822,2010-05-10,Italy,33,0,Russia,Colmar,86,34,4,FIRA,33,N,Italy,Russia
+823,2010-05-10,Germany,0,29,Sweden,Colmar,61,62,10,FIRA,29,N,Sweden,Germany
+824,2010-05-12,Belgium,0,66,Spain,Metz,25,97,1,FIRA,66,N,Spain,Belgium
+825,2010-05-12,Italy,10,0,Sweden,Haguenau,87,63,8,FIRA,10,N,Italy,Sweden
+826,2010-05-12,Germany,14,12,Russia,Haguenau,62,35,1,FIRA,2,N,Germany,Russia
+827,2010-05-15,Belgium,5,5,Germany,Strasbourg Hautepierre,26,63,4,FIRA,0,N,Draw,Draw
+828,2010-05-15,Netherlands,47,19,Sweden,Illkirch,104,64,15,FIRA,28,N,Netherlands,Sweden
+829,2010-05-15,Italy,13,31,Spain,Strasbourg Meinau,88,98,9,FIRA,18,N,Spain,Italy
+830,2010-05-22,Japan,17,0,Hong Kong,"Prince Chichibu Mem Sta, Tokyo",27,15,5,Friendly,17,H,Japan,Hong Kong
+831,2010-05-22,Kenya,8,0,Uganda,Nairobi,8,10,8,Friendly,8,H,Kenya,Uganda
+832,2010-06-05,Scotland,8,27,South Africa,Lasswade,129,18,1,Friendly,19,A,South Africa,Scotland
+833,2010-06-12,Scotland,17,41,South Africa,Lasswade,130,19,2,Friendly,24,A,South Africa,Scotland
+834,2010-06-14,Canada,14,8,United States,Shawnigan Lake,79,70,24,CanAm,6,H,Canada,United States
+835,2010-06-18,Canada,34,22,United States,"Bear Mountain Stadium, Langford",80,71,25,CanAm,12,H,Canada,United States
+836,2010-07-03,Uganda,8,5,Kenya,Kampala,11,9,9,Elgon Cup,3,H,Uganda,Kenya
+837,2010-08-19,Bahamas,0,65,Caribbean XV,Nassau,1,1,1,Friendly,65,A,Caribbean XV,Bahamas
+838,2010-07-10,Kenya,16,8,Uganda,Nairobi,10,12,10,Elgon Cup,8,H,Kenya,Uganda
+839,2010-08-20,Canada,37,10,Scotland,"Surrey Sports Park, Guildford",81,131,5,World Cup,27,N,Canada,Scotland
+840,2010-08-20,Australia,26,12,Wales,"Surrey Sports Park, Guildford",28,132,2,World Cup,14,N,Australia,Wales
+841,2010-08-20,Kazakhstan,0,51,United States,"Surrey Sports Park, Guildford",47,72,1,World Cup,51,N,United States,Kazakhstan
+842,2010-08-20,New Zealand,55,3,South Africa,"Surrey Sports Park, Guildford",54,20,1,World Cup,52,N,New Zealand,South Africa
+843,2010-08-20,France,15,9,Sweden,"Surrey Sports Park, Guildford",146,65,4,World Cup,6,N,France,Sweden
+844,2010-08-20,England,27,0,Ireland,"Surrey Sports Park, Guildford",165,103,15,World Cup,27,H,England,Ireland
+845,2010-08-21,Bahamas,0,48,Cayman Islands,Nassau,2,9,1,"NACRA",48,A,Cayman Islands,Bahamas
+846,2010-08-24,South Africa,15,10,Wales,"Surrey Sports Park, Guildford",21,133,4,World Cup,5,N,South Africa,Wales
+847,2010-08-24,France,17,7,Scotland,"Surrey Sports Park, Guildford",147,132,17,World Cup,10,N,France,Scotland
+848,2010-08-24,Canada,40,10,Sweden,"Surrey Sports Park, Guildford",82,66,1,World Cup,30,N,Canada,Sweden
+849,2010-08-24,Australia,5,32,New Zealand,"Surrey Sports Park, Guildford",29,55,11,World Cup,27,N,New Zealand,Australia
+850,2010-08-24,Ireland,22,12,United States,"Surrey Sports Park, Guildford",104,73,4,World Cup,10,N,Ireland,United States
+851,2010-08-24,England,82,0,Kazakhstan,"Surrey Sports Park, Guildford",166,48,3,World Cup,82,H,England,Kazakhstan
+852,2010-08-28,Scotland,32,5,Sweden,"Surrey Sports Park, Guildford",133,67,8,World Cup,27,N,Scotland,Sweden
+853,2010-08-28,New Zealand,41,8,Wales,"Surrey Sports Park, Guildford",56,134,2,World Cup,33,N,New Zealand,Wales
+854,2010-08-28,Canada,8,23,France,"Surrey Sports Park, Guildford",83,148,10,World Cup,15,N,France,Canada
+855,2010-08-28,Australia,62,0,South Africa,"Surrey Sports Park, Guildford",30,22,2,World Cup,62,N,Australia,South Africa
+856,2010-08-28,Ireland,37,3,Kazakhstan,"Surrey Sports Park, Guildford",105,49,4,World Cup,34,N,Ireland,Kazakhstan
+857,2010-08-28,England,37,10,United States,"Surrey Sports Park, Guildford",167,74,11,World Cup,27,H,England,United States
+858,2010-09-01,Kazakhstan,10,25,South Africa,"Surrey Sports Park, Guildford",50,23,4,World Cup,15,N,South Africa,Kazakhstan
+859,2010-09-01,Sweden,10,32,Wales,"Surrey Sports Park, Guildford",68,135,3,World Cup,22,N,Wales,Sweden
+860,2010-09-01,Canada,41,0,Scotland,"Surrey Sports Park, Guildford",84,134,6,World Cup,41,N,Canada,Scotland
+861,2010-09-01,Ireland,3,40,United States,"Surrey Sports Park, Guildford",106,75,5,World Cup,37,N,United States,Ireland
+862,2010-09-01,France,7,45,New Zealand,"Stoop Memorial Ground, Twickenham",149,57,4,World Cup,38,N,New Zealand,France
+863,2010-09-01,England,15,0,Australia,"Stoop Memorial Ground, Twickenham",168,31,4,World Cup,15,H,England,Australia
+864,2010-09-05,Kazakhstan,12,8,Sweden,"Surrey Sports Park, Guildford",51,69,4,World Cup,4,N,Kazakhstan,Sweden
+865,2010-09-05,South Africa,17,29,Wales,"Surrey Sports Park, Guildford",24,136,5,World Cup,12,N,Wales,South Africa
+866,2010-09-05,Ireland,32,8,Scotland,"Surrey Sports Park, Guildford",107,135,19,World Cup,24,N,Ireland,Scotland
+867,2010-09-05,Canada,20,23,United States,"Surrey Sports Park, Guildford",85,76,26,World Cup,3,N,United States,Canada
+868,2010-09-05,Australia,22,8,France,"Stoop Memorial Ground, Twickenham",32,150,3,World Cup,14,N,Australia,France
+869,2010-09-05,England,10,13,New Zealand,"Stoop Memorial Ground, Twickenham",169,58,13,World Cup,3,A,New Zealand,England
+870,2010-12-18,Malaysia,0,81,Hong Kong,Royal Selangor Club Kuala Lumpur,2,16,1,Friendly,81,A,Hong Kong,Malaysia
+871,2011-01-03,Spain,28,13,Scotland,Madrid,99,136,16,Friendly,15,H,Spain,Scotland
+872,2011-02-04,France,53,3,Scotland,"Stade Henri-Longuet, Viry-Chatillon",151,137,18,6 Nations,50,H,France,Scotland
+873,2011-02-06,Italy,5,26,Ireland,Rovigo,89,108,9,6 Nations,21,A,Ireland,Italy
+874,2011-02-06,Wales,0,19,England,"Pandy Park, Cross Keys",137,170,28,6 Nations,19,A,England,Wales
+875,2011-02-11,Ireland,12,14,France,Ashbourne,109,152,18,6 Nations,2,A,France,Ireland
+876,2011-02-12,England,68,5,Italy,Esher,171,90,9,6 Nations,63,H,England,Italy
+877,2011-02-13,Scotland,12,41,Wales,West of Scotland RFC,138,138,23,6 Nations,29,A,Wales,Scotland
+878,2011-02-26,Scotland,5,22,Ireland,Lasswade,139,110,20,6 Nations,17,A,Ireland,Scotland
+879,2011-02-27,Italy,12,8,Wales,La Spezia,91,139,11,6 Nations,4,H,Italy,Wales
+880,2011-02-27,England,16,3,France,Worcester,172,153,27,6 Nations,13,H,England,France
+881,2011-03-13,Italy,20,28,France,Benevento,92,154,11,6 Nations,8,A,France,Italy
+882,2011-03-13,Wales,15,14,Ireland,"Pandy Park, Cross Keys",140,111,16,6 Nations,1,H,Wales,Ireland
+883,2011-03-13,England,89,0,Scotland,Twickenham,173,140,20,6 Nations,89,H,England,Scotland
+884,2011-03-18,Ireland,0,31,England,Ashbourne,112,174,16,6 Nations,31,A,England,Ireland
+885,2011-03-19,France,15,0,Wales,Bourgoin,155,141,16,6 Nations,15,H,France,Wales
+886,2011-03-20,Scotland,0,26,Italy,"Meggetland, Edinburgh",141,93,9,6 Nations,26,A,Italy,Scotland
+887,2011-04-30,Hong Kong,0,15,Japan,Hong Kong,17,28,6,Friendly,15,A,Japan,Hong Kong
+888,2011-04-30,Netherlands,10,17,Russia,INEF Bastiagueiro,105,36,4,FIRA,7,N,Russia,Netherlands
+889,2011-04-30,Spain,119,0,Finland,University of  Coruña,100,9,1,FIRA,119,H,Spain,Finland
+890,2011-05-02,Finland,0,20,Sweden,"A Malata, Ferrol",10,70,1,FIRA,20,N,Sweden,Finland
+891,2011-05-04,Spain,18,3,Sweden,University of  Coruña,101,71,4,FIRA,15,H,Spain,Sweden
+892,2011-05-07,Finland,5,22,Russia,INEF Bastiagueiro,11,37,2,FIRA,17,N,Russia,Finland
+893,2011-05-07,Netherlands,21,5,Sweden,INEF Bastiagueiro,106,72,16,FIRA,16,N,Netherlands,Sweden
+894,2011-05-14,Kazakhstan,58,3,Uzbekistan,Kazakh National University,52,4,2,Friendly,55,H,Kazakhstan,Uzbekistan
+895,2011-05-21,Hong Kong,53,8,Singapore,Hong Kong,18,14,6,Friendly,45,H,Hong Kong,Singapore
+896,2011-07-09,Kenya,22,10,Uganda,Nairobi,11,13,11,Elgon Cup,12,H,Kenya,Uganda
+897,2011-07-10,Caribbean XV,0,94,Trinidad and Tobago,Grand Cayman,2,12,1,"NACRA",94,N,Trinidad and Tobago,Caribbean XV
+898,2011-07-10,Cayman Islands,12,15,Jamaica,Grand Cayman,10,10,4,"NACRA",3,A,Jamaica,Cayman Islands
+899,2011-07-12,Jamaica,5,37,Trinidad and Tobago,Grand Cayman,11,13,5,"NACRA",32,N,Trinidad and Tobago,Jamaica
+900,2011-07-12,Cayman Islands,27,12,Caribbean XV,Grand Cayman,11,3,1,"NACRA",15,H,Cayman Islands,Caribbean XV
+901,2011-07-14,Caribbean XV,13,44,Jamaica,Grand Cayman,4,12,1,"NACRA",31,N,Jamaica,Caribbean XV
+902,2011-07-15,Cayman Islands,0,50,Trinidad and Tobago,Grand Cayman,12,14,3,"NACRA",50,A,Trinidad and Tobago,Cayman Islands
+903,2011-07-16,Uganda,29,10,Kenya,Kampala,14,12,12,Elgon Cup,19,H,Uganda,Kenya
+904,2011-08-02,Canada,52,17,South Africa,"Appleby College, Oakville, Ontario",86,25,2,Nations Cup,35,H,Canada,South Africa
+905,2011-08-02,England,15,11,United States,"Appleby College, Oakville, Ontario",175,77,12,Nations Cup,4,N,England,United States
+906,2011-08-05,England,48,6,South Africa,"Chatham-Kent, Ontario",176,26,4,Nations Cup,42,N,England,South Africa
+907,2011-08-05,Canada,35,17,United States,"Chatham-Kent, Ontario",87,78,27,Nations Cup,18,H,Canada,United States
+908,2011-08-09,United States,23,26,South Africa,"Appleby College, Oakville, Ontario",79,27,2,Nations Cup,3,N,South Africa,United States
+909,2011-08-09,Canada,10,22,England,"Appleby College, Oakville, Ontario",88,177,16,Nations Cup,12,A,England,Canada
+910,2011-08-13,United States,29,9,South Africa,"Appleby College, Oakville, Ontario",80,28,3,Nations Cup,20,H,United States,South Africa
+911,2011-08-13,Canada,19,41,England,"Appleby College, Oakville, Ontario",89,178,17,Nations Cup,22,A,England,Canada
+912,2011-09-04,Belgium,7,15,Switzerland,"Kituro Rugby Club, Schaerbeek, Brussels",27,1,1,Friendly,8,A,Switzerland,Belgium
+913,2011-10-29,France,37,0,Italy,"Stade des Arboras, Nice",156,94,12,Friendly,37,H,France,Italy
+914,2011-11-05,France,16,15,England,"Stade Pierre-de-Coubertin, Châteaurenard",157,179,28,Friendly,1,H,France,England
+915,2011-11-06,Netherlands,10,33,Scotland,Amsterdam,107,142,5,Friendly,23,A,Scotland,Netherlands
+916,2011-11-24,Laos,0,38,Thailand,"Chao Anou Vong stadium, Vientiane, Laos",1,5,1,Asian Championship (Div II),38,A,Thailand,Laos
+917,2011-11-24,China,36,0,Philippines,"Chao Anou Vong stadium, Vientiane, Laos",5,1,1,Asian Championship (Div II),36,N,China,Philippines
+918,2011-11-25,Thailand,39,0,Philippines,"Chao Anou Vong stadium, Vientiane, Laos",6,2,1,Asian Championship (Div II),39,N,Thailand,Philippines
+919,2011-11-25,Laos,0,66,China,"Chao Anou Vong stadium, Vientiane, Laos",2,6,1,Asian Championship (Div II),66,A,China,Laos
+920,2011-11-26,Laos,12,20,Philippines,"Chao Anou Vong stadium, Vientiane, Laos",3,3,1,Asian Championship (Div II),8,A,Philippines,Laos
+921,2011-11-26,China,38,0,Thailand,"Chao Anou Vong stadium, Vientiane, Laos",7,7,2,Asian Championship (Div II),38,N,China,Thailand
+922,2011-11-26,England,10,0,New Zealand,Twickenham,180,59,14,Friendly,10,H,England,New Zealand
+923,2011-12-06,England,21,7,New Zealand,Esher,181,60,15,Friendly,14,H,England,New Zealand
+924,2011-12-10,England,8,8,New Zealand,Esher,182,61,16,Friendly,0,D,Draw,Draw
+925,2012-02-05,France,32,0,Italy,"Stade Emile Pons, Riom",158,95,13,6 Nations,32,H,France,Italy
+926,2012-02-05,Scotland,0,47,England,Lasswade,143,183,21,6 Nations,47,A,England,Scotland
+927,2012-02-11,France,8,7,Ireland,"Stade de Hameau, Pau",159,113,19,6 Nations,1,H,France,Ireland
+928,2012-02-12,Italy,3,43,England,"Recco, Genoa",96,184,10,6 Nations,40,A,England,Italy
+929,2012-02-12,Wales,20,0,Scotland,Cross Keys,142,144,24,6 Nations,20,H,Wales,Scotland
+930,2012-02-24,Ireland,40,10,Italy,Ashbourne,114,97,10,6 Nations,30,H,Ireland,Italy
+931,2012-02-25,England,33,0,Wales,Twickenham,185,143,29,6 Nations,33,H,England,Wales
+932,2012-02-25,Scotland,0,23,France,Stirling County,145,160,19,6 Nations,23,A,France,Scotland
+933,2012-03-03,Ireland,36,0,Wales,Ashbourne,115,144,17,6 Nations,36,H,Ireland,Wales
+934,2012-03-09,Ireland,20,0,Scotland,Ashbourne,116,146,21,6 Nations,20,H,Ireland,Scotland
+935,2012-03-10,Wales,30,13,Italy,"Millennium Stadium, Cardiff",145,98,12,6 Nations,17,H,Wales,Italy
+936,2012-03-11,France,3,15,England,"Stade Charlety, Paris",161,186,29,6 Nations,12,A,England,France
+937,2012-03-17,England,23,6,Ireland,Esher,187,117,17,6 Nations,17,H,England,Ireland
+938,2012-03-18,Italy,29,12,Scotland,"Pagani Stadium, Rovato, near Brescia",99,147,10,6 Nations,17,H,Italy,Scotland
+939,2012-03-18,Wales,0,31,France,Cross Keys,146,162,17,6 Nations,31,A,France,Wales
+940,2012-04-21,Uganda,15,6,Kenya,"Kyadondo Rugby Club, Kampala",15,13,13,Elgon Cup,9,H,Uganda,Kenya
+941,2012-04-28,Kenya,15,3,Uganda,"RFUEA, Nairobi",14,16,14,Elgon Cup,12,H,Kenya,Uganda
+942,2012-05-03,Netherlands,105,0,Finland,"Enkoping, Sweden",108,12,1,European Championship,105,N,Netherlands,Finland
+943,2012-05-03,Sweden,67,0,Russia,"Enkoping, Sweden",73,38,4,European Championship,67,H,Sweden,Russia
+944,2012-05-07,Finland,17,45,Russia,"Enkoping, Sweden",13,39,3,European Championship,28,N,Russia,Finland
+945,2012-05-07,Sweden,10,3,Netherlands,"Enkoping, Sweden",74,109,17,European Championship,7,H,Sweden,Netherlands
+946,2012-05-12,England,61,0,Spain,"Rovereto, Italy",188,102,15,European Championship,61,N,England,Spain
+947,2012-05-12,Italy,19,22,France,"Rovereto, Italy",100,163,14,European Championship,3,A,France,Italy
+948,2012-05-16,Italy,8,32,England,"Rovereto, Italy",101,189,11,European Championship,24,A,England,Italy
+949,2012-05-16,France,60,3,Spain,"Rovereto, Italy",164,103,18,European Championship,57,N,France,Spain
+950,2012-05-19,Japan,61,15,Hong Kong,"Chichibunomiya Rugby Stadium, Tokyo",29,19,7,Friendly,46,H,Japan,Hong Kong
+951,2012-05-19,Italy,54,3,Spain,"Rovereto, Italy",102,104,10,European Championship,51,H,Italy,Spain
+952,2012-05-19,England,29,25,France,"Rovereto, Italy",190,165,30,European Championship,4,N,England,France
+953,2012-06-14,Laos,0,74,Singapore,"Manilla, Philippines",4,15,1,Asian Championship (Div II),74,N,Singapore,Laos
+954,2012-06-14,Philippines,14,50,Thailand,"Manilla, Philippines",4,8,2,Asian Championship (Div II),36,A,Thailand,Philippines
+955,2012-06-16,Philippines,55,0,Laos,"Manilla, Philippines",5,5,2,Asian Championship (Div II),55,H,Philippines,Laos
+956,2012-06-16,Singapore,21,19,Thailand,"Manilla, Philippines",16,9,2,Asian Championship (Div II),2,N,Singapore,Thailand
+957,2012-07-05,Japan,41,17,Hong Kong,"Kunshan, China",30,20,8,Asian Four Nations,24,N,Japan,Hong Kong
+958,2012-07-05,China,0,51,Kazakhstan,"Kunshan, China",8,53,2,Asian Four Nations,51,A,Kazakhstan,China
+959,2012-07-07,China,3,27,Hong Kong,"Kunshan, China",9,21,2,Asian Four Nations,24,A,Hong Kong,China
+960,2012-07-07,Japan,8,17,Kazakhstan,"Kunshan, China",31,54,5,Asian Four Nations,9,N,Kazakhstan,Japan
+961,2012-10-06,Finland,5,15,Switzerland,"Myllypuro Sports Park, Helsinki",14,2,1,Friendly,10,A,Switzerland,Finland
+962,2012-11-03,England,23,13,France,Esher,191,166,31,Friendly,10,H,England,France
+963,2012-11-18,Italy,20,34,United States,Centro Sportivo di Roma,103,81,1,Friendly,14,A,United States,Italy
+964,2012-11-21,France,13,0,United States,"Stade Marcel Garcin, Orléans",167,82,4,Friendly,13,H,France,United States
+965,2012-11-23,England,16,13,New Zealand,Esher,192,62,17,Friendly,3,H,England,New Zealand
+966,2012-11-24,France,27,3,United States,"Stade de France, Paris",168,83,5,Friendly,24,H,France,United States
+967,2012-11-27,England,17,8,New Zealand,Aldershot Military Stadium,193,63,18,Friendly,9,H,England,New Zealand
+968,2012-12-01,England,32,23,New Zealand,Twickenham,194,64,19,Friendly,9,H,England,New Zealand
+969,2012-12-09,Italy,29,12,Spain,"Centro di Preparazione Olimpica, Rome",104,105,11,Friendly,17,H,Italy,Spain
+970,2012-12-12,Singapore,21,45,Hong Kong,Yio Chu Kang Stadium,17,22,7,Friendly,24,A,Hong Kong,Singapore
+971,2012-12-15,Singapore,17,44,Hong Kong,Yio Chu Kang Stadium,18,23,8,Friendly,27,A,Hong Kong,Singapore
+972,2013-02-02,Italy,13,12,France,"Rovato, Italy",105,169,15,6 Nations,1,H,Italy,France
+973,2013-02-02,England,76,0,Scotland,Esher,195,148,22,6 Nations,76,H,England,Scotland
+974,2013-02-03,Wales,10,12,Ireland,Aberavon RFC,147,118,18,6 Nations,2,A,Ireland,Wales
+975,2013-02-08,France,32,0,Wales,Stadium Marcel Levindrey Laon,170,148,18,6 Nations,32,H,France,Wales
+976,2013-02-09,Ireland,25,0,England,Ashbourne,119,196,18,6 Nations,25,H,Ireland,England
+977,2012-02-10,Scotland,0,8,Italy,"Mayfield, Dundee High School",149,106,11,6 Nations,8,A,Italy,Scotland
+978,2013-02-23,Scotland,3,30,Ireland,Lasswade,150,120,22,6 Nations,27,A,Ireland,Scotland
+979,2013-02-23,England,20,30,France,Twickenham,197,171,32,6 Nations,10,A,France,England
+980,2013-02-24,Italy,15,16,Wales,Benevento,107,149,13,6 Nations,1,A,Wales,Italy
+981,2013-03-08,Ireland,15,10,France,Ashbourne,121,172,20,6 Nations,5,H,Ireland,France
+982,2013-03-09,England,34,0,Italy,Esher,198,108,12,6 Nations,34,H,England,Italy
+983,2013-03-10,Scotland,0,13,Wales,"Scotstoun, Glasgow",151,150,25,6 Nations,13,A,Wales,Scotland
+984,2013-03-15,France,76,0,Scotland,"Stade Bourillot, Dijon",173,152,20,6 Nations,76,H,France,Scotland
+985,2013-03-17,Italy,3,6,Ireland,Parabiago,109,122,11,6 Nations,3,A,Ireland,Italy
+986,2013-03-17,Wales,16,20,England,Aberavon RFC,151,199,30,6 Nations,4,A,England,Wales
+987,2013-04-13,Switzerland,5,25,Belgium,"Centre de Sportif Colovray, Nyon",3,28,2,Jacques Rogge Trophy,20,A,Belgium,Switzerland
+988,2013-04-20,Italy,65,22,Samoa,Madrid,110,15,1,FIRA,43,N,Italy,Samoa
+989,2013-04-20,Netherlands,7,29,Scotland,Madrid,110,153,6,FIRA,22,N,Scotland,Netherlands
+990,2013-04-20,Spain,55,0,Sweden,Madrid,106,75,5,FIRA,55,H,Spain,Sweden
+991,2013-04-23,Italy,27,3,Scotland,Madrid,111,154,12,FIRA,24,N,Italy,Scotland
+992,2013-04-23,Sweden,0,29,Samoa,Madrid,76,16,1,FIRA,29,N,Samoa,Sweden
+993,2013-04-23,Spain,78,0,Netherlands,Madrid,107,111,6,FIRA,78,H,Spain,Netherlands
+994,2013-04-27,Hong Kong,29,0,Singapore,Hong Kong Football Club,24,19,9,Friendly,29,H,Hong Kong,Singapore
+995,2013-04-27,Sweden,8,63,Scotland,Madrid,77,155,9,FIRA,55,N,Scotland,Sweden
+996,2013-04-27,Netherlands,14,33,Samoa,Madrid,112,17,1,FIRA,19,N,Samoa,Netherlands
+997,2013-04-27,Spain,38,7,Italy,Madrid,108,112,12,FIRA,31,H,Spain,Italy
+998,2013-06-07,United States,13,10,France,Pontarlier,84,174,6,Friendly,3,H,United States,France
+999,2013-06-11,United States,25,27,France,Amnéville,85,175,7,Friendly,2,A,France,United States
+1000,2013-06-14,United States,12,18,France,"Home Depot Center Campus, Carson, California",86,176,8,Friendly,6,A,France,United States
+1001,2013-06-15,Kenya,18,17,Uganda,"RFUEA, Nairobi",15,17,15,Elgon Cup,1,H,Kenya,Uganda
+1002,2013-06-22,Uganda,13,8,Kenya,"Kyadondo Rugby Club, Kampala",18,16,16,Elgon Cup,5,H,Uganda,Kenya
+1003,2013-06-29,Czechia,15,27,Switzerland,"Tatra Smichov, Prague",3,4,1,Friendly,12,A,Switzerland,Czechia
+1004,2013-07-13,New Zealand,29,10,England,"Eden Park, Auckland",65,200,20,Friendly,19,H,New Zealand,England
+1005,2013-07-16,New Zealand,14,9,England,"Waikato Stadium, Hamilton",66,201,21,Friendly,5,A,New Zealand,England
+1006,2013-07-20,New Zealand,29,8,England,"ECOLight Stadium, Pukekohe",67,202,22,Friendly,21,A,New Zealand,England
+1007,2013-07-30,Canada,29,25,England,University of  Northern Colorado,90,203,18,Nations Cup,4,N,Canada,England
+1008,2013-07-30,United States,32,22,South Africa,University of  Northern Colorado,87,29,4,Nations Cup,10,H,United States,South Africa
+1009,2013-08-04,England,18,17,South Africa,University of  Northern Colorado,204,30,5,Nations Cup,1,N,England,South Africa
+1010,2013-08-04,United States,29,17,Canada,University of  Northern Colorado,88,91,28,Nations Cup,12,H,United States,Canada
+1011,2013-08-07,Canada,53,15,South Africa,University of  Northern Colorado,92,31,3,Nations Cup,38,N,Canada,South Africa
+1012,2013-08-07,United States,21,36,England,University of  Northern Colorado,89,205,13,Nations Cup,15,A,England,United States
+1013,2013-08-10,United States,61,5,South Africa,"Infinity Park, Glendale, Colorado",90,32,5,Nations Cup,56,H,United States,South Africa
+1014,2013-08-10,Canada,27,13,England,"Infinity Park, Glendale, Colorado",93,206,19,Nations Cup,14,N,Canada,England
+1015,2013-09-04,Hong Kong,0,82,Japan,Almaty,25,32,9,Asian Four Nations,82,N,Japan,Hong Kong
+1016,2013-09-04,Kazakhstan,91,7,Singapore,Almaty,55,20,1,Asian Four Nations,84,H,Kazakhstan,Singapore
+1017,2013-09-07,Hong Kong,15,17,Singapore,Almaty,26,21,10,Asian Four Nations,2,N,Singapore,Hong Kong
+1018,2013-09-07,Kazakhstan,25,23,Japan,Almaty,56,33,6,Asian Four Nations,2,H,Kazakhstan,Japan
+1019,2013-09-07,South Africa,63,3,Uganda,East London,33,19,1,World Cup,60,H,South Africa,Uganda
+1020,2013-10-19,Namibia,31,10,Botswana,"Hage Geingob, Windhoek",1,1,1,Friendly,21,H,Namibia,Botswana
+1021,2013-11-02,France,29,17,Canada,Portalier,177,94,11,Friendly,12,H,France,Canada
+1022,2013-11-05,France,6,11,Canada,Amnéville,178,95,12,Friendly,5,A,Canada,France
+1023,2013-11-09,England,40,20,France,Twickenham,207,179,33,Friendly,20,H,England,France
+1024,2013-11-13,England,32,3,Canada,"Stoop Memorial Ground, Twickenham",208,96,20,Friendly,29,H,England,Canada
+1025,2013-11-16,Switzerland,42,0,Czechia,"Centre sportif de Colovray, Nyon",5,4,2,Friendly,42,H,Switzerland,Czechia
+1026,2013-01-31,Ireland,59,0,Scotland,Ashbourne,123,156,23,6 Nations,59,H,Ireland,Scotland
+1027,2014-02-01,France,18,6,England,"Stade des Alpes, Grenoble",180,209,34,6 Nations,12,H,France,England
+1028,2014-02-02,Wales,11,12,Italy,Talbot Athletic Ground,152,113,14,6 Nations,1,A,Italy,Wales
+1029,2014-02-07,Ireland,14,8,Wales,Ashbourne RFC,124,153,19,6 Nations,6,H,Ireland,Wales
+1030,2014-02-08,France,29,0,Italy,"Stade Ernest-Argeles, Blagnac",181,114,16,6 Nations,29,H,France,Italy
+1031,2014-02-09,Scotland,0,63,England,Rubislaw,157,210,23,6 Nations,63,A,England,Scotland
+1032,2014-02-22,England,17,10,Ireland,Twickenham,211,125,19,6 Nations,7,H,England,Ireland
+1033,2014-02-23,Italy,45,5,Scotland,Stadio Parco Urbano,115,158,13,6 Nations,40,H,Italy,Scotland
+1034,2014-02-23,Wales,0,27,France,Talbot Athletic Ground,154,182,19,6 Nations,27,A,France,Wales
+1035,2014-03-07,England,35,3,Wales,Twickenham Stoop,212,155,31,6 Nations,32,H,England,Wales
+1036,2014-03-08,Ireland,39,0,Italy,"Aviva Stadium, Dublin",126,116,12,6 Nations,39,H,Ireland,Italy
+1037,2014-03-08,Switzerland,80,0,Finland,Unterägeri,6,15,2,Friendly,80,H,Switzerland,Finland
+1038,2014-03-09,Scotland,0,69,France,Howthornden,159,183,21,6 Nations,69,A,France,Scotland
+1039,2014-03-14,France,19,15,Ireland,"Stade du Hameau, Pau",184,127,21,6 Nations,4,H,France,Ireland
+1040,2014-03-16,Wales,25,0,Scotland,Talbot Athletic Ground,156,160,26,6 Nations,25,H,Wales,Scotland
+1041,2014-03-16,Italy,0,24,England,"Giulio e Silvio Pagani, Rovato",117,213,13,6 Nations,24,A,England,Italy
+1042,2014-04-15,Canada,51,7,United States,Shawnigan Lake,97,91,29,CanAm,44,H,Canada,United States
+1043,2014-04-19,Canada,14,10,United States,"Langford, BC",98,92,30,CanAm,4,H,Canada,United States
+1044,2014-05-18,Hong Kong,10,13,Kazakhstan,Hong Kong,27,57,2,Asian Four Nations,3,A,Kazakhstan,Hong Kong
+1045,2014-05-18,Japan,37,5,Singapore,Hong Kong,34,22,4,Asian Four Nations,32,N,Japan,Singapore
+1046,2014-05-21,Kazakhstan,68,0,Singapore,Hong Kong,58,23,2,Asian Four Nations,68,N,Kazakhstan,Singapore
+1047,2014-05-21,Hong Kong,15,14,Japan,Hong Kong,28,35,10,Asian Four Nations,1,H,Hong Kong,Japan
+1048,2014-05-24,Hong Kong,53,5,Singapore,Hong Kong,29,24,11,Asian Four Nations,48,H,Hong Kong,Singapore
+1049,2014-05-24,Japan,17,49,Kazakhstan,Hong Kong,36,59,7,Asian Four Nations,32,N,Kazakhstan,Japan
+1050,2014-06-01,New Zealand,38,3,Australia,Rotorua,68,33,12,Laurie O'Reilly Memorial Trophy,35,H,New Zealand,Australia
+1051,2014-06-06,Australia,0,22,Canada,Tauranga,34,99,1,Friendly,22,N,Canada,Australia
+1052,2014-06-07,New Zealand,90,12,Samoa,"Eden Park, Auckland",69,18,2,Friendly,78,H,New Zealand,Samoa
+1053,2014-06-10,New Zealand,16,8,Canada,Tauranga,70,100,9,Friendly,8,H,New Zealand,Canada
+1054,2014-06-14,New Zealand,33,21,Canada,Whakatane,71,101,10,Friendly,12,H,New Zealand,Canada
+1055,2014-06-28,Wales,7,10,United States,Cross Keys,157,93,4,Friendly,3,A,United States,Wales
+1056,2014-06-29,Czechia,3,32,Switzerland,"RC Slavia Praha, Prague",5,7,3,European Championship,29,A,Switzerland,Czechia
+1057,2014-07-01,Spain,3,37,France,Valladolid,109,185,19,Friendly,34,A,France,Spain
+1058,2014-07-04,France,46,8,South Africa,Marcoussis,186,34,2,Friendly,38,H,France,South Africa
+1059,2014-07-12,Uganda,15,33,Kenya,Kampala,20,17,17,Elgon Cup,18,A,Kenya,Uganda
+1060,2014-07-19,Kenya,39,10,Uganda,Nairobi,18,21,18,Elgon Cup,29,H,Kenya,Uganda
+1061,2014-08-01,New Zealand,79,5,Kazakhstan,Marcoussis,72,60,1,World Cup,74,N,New Zealand,Kazakhstan
+1062,2014-08-01,Canada,31,5,Spain,Marcoussis,102,110,3,World Cup,26,N,Canada,Spain
+1063,2014-08-01,Australia,26,3,South Africa,Marcoussis,35,35,3,World Cup,23,N,Australia,South Africa
+1064,2014-08-01,United States,17,23,Ireland,Marcoussis,94,128,6,World Cup,6,N,Ireland,United States
+1065,2014-08-01,England,65,3,Samoa,Marcoussis,214,19,2,World Cup,62,N,England,Samoa
+1066,2014-08-01,France,26,0,Wales,Marcoussis,187,158,20,World Cup,26,H,France,Wales
+1067,2014-08-05,United States,47,7,Kazakhstan,Marcoussis,95,61,2,World Cup,40,N,United States,Kazakhstan
+1068,2014-08-05,Australia,25,3,Wales,Marcoussis,36,159,3,World Cup,22,N,Australia,Wales
+1069,2014-08-05,England,45,5,Spain,Marcoussis,215,111,16,World Cup,40,N,England,Spain
+1070,2014-08-05,Canada,42,7,Samoa,Marcoussis,103,20,1,World Cup,35,N,Canada,Samoa
+1071,2014-08-05,New Zealand,14,17,Ireland,Marcoussis,73,129,1,World Cup,3,N,Ireland,New Zealand
+1072,2014-08-05,France,55,3,South Africa,Marcoussis,188,36,3,World Cup,52,H,France,South Africa
+1073,2014-08-09,Ireland,40,5,Kazakhstan,Marcoussis,130,62,5,World Cup,35,N,Ireland,Kazakhstan
+1074,2014-08-09,Spain,41,5,Samoa,Marcoussis,112,21,3,World Cup,36,N,Spain,Samoa
+1075,2014-08-09,England,13,13,Canada,Marcoussis,216,104,21,World Cup,0,N,Draw,Draw
+1076,2014-08-09,Wales,35,3,South Africa,Marcoussis,160,37,6,World Cup,32,N,Wales,South Africa
+1077,2014-08-09,New Zealand,34,3,United States,Marcoussis,74,96,8,World Cup,31,N,New Zealand,United States
+1078,2014-08-09,France,17,3,Australia,Marcoussis,189,37,4,World Cup,14,H,France,Australia
+1079,2014-08-13,South Africa,25,24,Samoa,Marcoussis,38,22,2,World Cup,1,N,South Africa,Samoa
+1080,2014-08-13,New Zealand,63,7,Wales,"Jean Bouin, Paris",75,161,3,World Cup,56,N,New Zealand,Wales
+1081,2014-08-13,Spain,18,5,Kazakhstan,Marcoussis,113,63,3,World Cup,13,N,Spain,Kazakhstan
+1082,2014-08-13,Ireland,7,40,England,"Jean Bouin, Paris",131,217,20,World Cup,33,N,England,Ireland
+1083,2014-08-13,Australia,20,23,United States,Marcoussis,38,97,5,World Cup,3,N,United States,Australia
+1084,2014-08-13,France,16,18,Canada,"Jean Bouin, Paris",190,105,13,World Cup,2,A,Canada,France
+1085,2014-08-17,Samoa,31,0,Kazakhstan,Marcoussis,23,64,3,World Cup,31,N,Samoa,Kazakhstan
+1086,2014-08-17,South Africa,0,36,Spain,Marcoussis,39,114,1,World Cup,36,N,Spain,South Africa
+1087,2014-08-17,United States,5,55,New Zealand,"Jean Bouin, Paris",98,76,9,World Cup,50,N,New Zealand,United States
+1088,2014-08-17,Australia,30,3,Wales,Marcoussis,39,162,4,World Cup,27,N,Australia,Wales
+1089,2014-08-17,Ireland,18,25,France,"Jean Bouin, Paris",132,191,22,World Cup,7,A,France,Ireland
+1090,2014-08-17,Canada,9,21,England,"Jean Bouin, Paris",106,218,22,World Cup,12,N,England,Canada
+1091,2014-10-18,Sweden,3,10,Netherlands,Malmo,78,113,18,Friendly,7,A,Netherlands,Sweden
+1092,2014-10-30,Netherlands,39,0,Switzerland,ASUB Waterloo,114,8,1,European Trophy,39,H,Netherlands,Switzerland
+1093,2014-10-30,Belgium,29,7,Russia,ASUB Waterloo,29,40,4,European Trophy,22,H,Belgium,Russia
+1094,2014-11-02,Switzerland,24,31,Russia,ASUB Waterloo,9,41,1,European Trophy,7,A,Russia,Switzerland
+1095,2014-11-02,Belgium,3,12,Netherlands,ASUB Waterloo,30,115,8,European Trophy,9,A,Netherlands,Belgium
+1096,2014-11-23,Italy,27,3,Scotland,Avezzano,118,161,14,Friendly,24,H,Italy,Scotland
+1097,2015-01-31,Ireland,31,12,Wales,"Milltown House, Ashbourne RFC",133,163,20,Friendly,19,H,Ireland,Wales
+1098,2015-02-06,Italy,5,30,Ireland,"Stadio Mario Lodigiani, Florence",119,134,13,6 Nations,25,A,Ireland,Italy
+1099,2015-02-07,France,42,0,Scotland,"Stade Pascal Laporte, Nantes",192,162,22,6 Nations,42,H,France,Scotland
+1100,2015-02-08,Wales,13,0,England,"St Helen's, Swansea",164,219,32,6 Nations,13,H,Wales,England
+1101,2015-02-13,Ireland,5,10,France,"Milltown House, Ashbourne RFC",135,193,23,6 Nations,5,A,France,Ireland
+1102,2015-02-14,Scotland,3,39,Wales,"Broadwood Stadium, Cumbernauld",163,165,27,6 Nations,36,A,Wales,Scotland
+1103,2015-02-15,England,39,7,Italy,Twickenham Stoop,220,120,14,6 Nations,32,H,England,Italy
+1104,2015-02-27,Ireland,11,8,England,"Milltown House, Ashbourne RFC",136,221,21,6 Nations,3,H,Ireland,England
+1105,2015-02-27,France,28,7,Wales,"Stade Sapiac, Montauban",194,166,21,6 Nations,21,H,France,Wales
+1106,2015-03-01,Scotland,8,31,Italy,"Broadwood Stadium, Cumbernauld",164,121,15,6 Nations,23,A,Italy,Scotland
+1107,2015-03-13,England,42,13,Scotland,"Northern Echo Arena, Darlington",222,165,24,6 Nations,29,H,England,Scotland
+1108,2015-03-14,Italy,17,12,France,"Nuovi Impianti, Venice",122,195,17,6 Nations,5,H,Italy,France
+1109,2015-03-15,Wales,0,20,Ireland,"St Helen's, Swansea",167,137,21,6 Nations,20,A,Ireland,Wales
+1110,2015-03-21,Italy,22,5,Wales,"Stadio Plebiscito, Padua",123,168,15,6 Nations,17,H,Italy,Wales
+1111,2015-03-21,England,15,21,France,Twickenham,223,196,35,6 Nations,6,A,France,England
+1112,2015-03-22,Scotland,3,73,Ireland,"Broadwood Stadium, Cumbernauld",166,138,24,6 Nations,70,A,Ireland,Scotland
+1113,2015-04-25,Kazakhstan,40,0,Hong Kong,Almaty,65,30,3,Asian Championship,40,H,Kazakhstan,Hong Kong
+1114,2015-05-09,Japan,27,12,Kazakhstan,Fukuoka,37,66,8,Asian Championship,15,H,Japan,Kazakhstan
+1115,2015-05-23,Hong Kong,12,27,Japan,"Aberdeen Stadium, Hong Kong",31,38,11,Asian Championship,15,A,Japan,Hong Kong
+1116,2015-06-13,Kenya,5,5,Uganda,Nairobi,19,22,19,Elgon Cup,0,D,Draw,Draw
+1117,2015-06-20,Uganda,6,7,Kenya,Kampala,23,20,20,Elgon Cup,1,A,Kenya,Uganda
+1118,2015-06-27,United States,13,39,England,Calgary Rugby Park,99,224,14,Super Series,26,N,England,United States
+1119,2015-06-27,Canada,22,40,New Zealand,Calgary Rugby Park,107,77,11,Super Series,18,A,New Zealand,Canada
+1120,2015-07-01,New Zealand,26,7,England,Red Deer Rugby Club,78,225,23,Super Series,19,N,New Zealand,England
+1121,2015-07-01,Canada,28,36,United States,Red Deer Rugby Club,108,100,31,Super Series,8,A,United States,Canada
+1122,2015-07-05,New Zealand,47,14,United States,Ellerslie Rugby Park,79,101,10,Super Series,33,N,New Zealand,United States
+1123,2015-07-05,Canada,14,15,England,Ellerslie Rugby Park,109,226,23,Super Series,1,A,England,Canada
+1124,2015-10-29,Belgium,20,3,Czechia,Unterägeri,31,6,1,European Trophy,17,N,Belgium,Czechia
+1125,2015-10-29,Switzerland,27,12,Russia,Unterägeri,10,42,2,European Trophy,15,H,Switzerland,Russia
+1126,2015-11-01,Russia,41,15,Czechia,Unterägeri,43,7,1,European Trophy,26,N,Russia,Czechia
+1127,2015-11-01,Switzerland,20,50,Belgium,Unterägeri,11,32,3,European Trophy,30,A,Belgium,Switzerland
+1128,2015-11-07,France,11,0,England,"Stade Francis Turcan, Martigues",197,227,36,Friendly,11,H,France,England
+1129,2015-11-14,England,8,3,Ireland,Twickenham Stoop,228,139,22,Friendly,5,H,England,Ireland
+1130,2015-11-22,Spain,10,34,Scotland,Valladolid,115,167,17,Friendly,24,A,Scotland,Spain
+1131,2015-12-19,Spain,57,0,Hong Kong,Madrid,116,32,1,Friendly,57,H,Spain,Hong Kong
+1132,2016-02-05,Scotland,0,32,England,Cumbernauld,168,229,25,6 Nations,32,A,England,Scotland
+1133,2016-02-06,Ireland,21,3,Wales,Donnybrook,140,169,22,6 Nations,18,H,Ireland,Wales
+1134,2016-02-06,France,39,0,Italy,Bourg-en-Bresse,198,124,18,6 Nations,39,H,France,Italy
+1135,2016-02-13,Italy,24,33,England,Ivrea (Turin),125,230,15,6 Nations,9,A,England,Italy
+1136,2016-02-13,France,18,6,Ireland,Perpignan,199,141,24,6 Nations,12,H,France,Ireland
+1137,2016-02-14,Wales,23,10,Scotland,"The Gnoll, Neath",170,169,28,6 Nations,13,H,Wales,Scotland
+1138,2016-02-27,England,13,9,Ireland,Twickenham,231,142,23,6 Nations,4,H,England,Ireland
+1139,2016-02-28,Wales,10,8,France,"The Gnoll, Neath",171,200,22,6 Nations,2,H,Wales,France
+1140,2016-02-28,Italy,18,6,Scotland,Bologna,126,170,16,6 Nations,12,H,Italy,Scotland
+1141,2016-03-11,Scotland,0,24,France,Cumbernauld,171,201,23,6 Nations,24,A,France,Scotland
+1142,2016-03-12,England,20,13,Wales,Twickenham Stoop,232,172,33,6 Nations,7,H,England,Wales
+1143,2016-03-13,Ireland,14,0,Italy,Donnybrook,143,127,14,6 Nations,14,H,Ireland,Italy
+1144,2016-03-18,France,17,12,England,"Stade de la Rabine, Vannes",202,233,37,6 Nations,5,H,France,England
+1145,2016-03-20,Ireland,45,12,Scotland,Donnybrook,144,172,25,6 Nations,33,H,Ireland,Scotland
+1146,2016-03-20,Wales,12,16,Italy,"The Gnoll, Neath",173,128,16,6 Nations,4,A,Italy,Wales
+1147,2016-05-07,Hong Kong,3,39,Japan,Hong Kong,33,39,12,Asian Championship,36,A,Japan,Hong Kong
+1148,2016-05-14,Singapore,7,40,Hong Kong,Singapore,25,34,12,Friendly,33,A,Hong Kong,Singapore
+1149,2016-05-28,Japan,30,3,Hong Kong,Tokyo,40,35,13,Asian Championship,27,H,Japan,Hong Kong
+1150,2016-07-01,Canada,52,17,England,Salt Lake City,110,234,24,Super Series,35,N,Canada,England
+1151,2016-07-01,United States,13,19,France,Salt Lake City,102,203,9,Super Series,6,A,France,United States
+1152,2016-07-05,England,17,13,France,Salt Lake City,235,204,38,Super Series,4,N,England,France
+1153,2016-07-05,United States,5,33,Canada,Salt Lake City,103,111,32,Super Series,28,A,Canada,United States
+1154,2016-07-09,Canada,29,10,France,Salt Lake City,112,205,14,Super Series,19,N,Canada,France
+1155,2016-07-09,United States,13,39,England,Salt Lake City,104,236,15,Super Series,26,A,England,United States
+1156,2016-08-21,Germany,36,0,Switzerland,Heidelberg,64,12,1,Friendly,36,H,Germany,Switzerland
+1157,2016-10-06,Netherlands,55,0,Switzerland,Madrid,116,13,2,European Championship,55,N,Netherlands,Switzerland
+1158,2016-10-06,Spain,76,0,Belgium,Madrid,117,33,2,European Championship,76,H,Spain,Belgium
+1159,2016-10-09,Netherlands,22,17,Russia,Madrid,117,44,5,European Championship,5,N,Netherlands,Russia
+1160,2016-10-09,Spain,97,0,Czechia,Madrid,118,8,1,European Championship,97,H,Spain,Czechia
+1161,2016-10-12,Belgium,20,5,Czechia,Madrid,34,9,2,European Championship,15,N,Belgium,Czechia
+1162,2016-10-12,Russia,51,0,Switzerland,Madrid,45,14,3,European Championship,51,N,Russia,Switzerland
+1163,2016-10-15,Czechia,12,24,Switzerland,Madrid,10,15,4,European Championship,12,N,Switzerland,Czechia
+1164,2016-10-15,Russia,74,5,Belgium,Madrid,46,35,5,European Championship,69,N,Russia,Belgium
+1165,2016-10-15,Spain,34,7,Netherlands,Madrid,119,118,7,European Championship,27,H,Spain,Netherlands
+1166,2016-10-22,New Zealand,67,3,Australia,Auckland,80,40,13,Laurie O'Reilly Memorial Trophy,64,H,New Zealand,Australia
+1167,2016-10-26,New Zealand,29,3,Australia,North Harbour,81,41,14,Laurie O'Reilly Memorial Trophy,26,H,New Zealand,Australia
+1168,2016-11-05,Fiji,37,10,Papua New Guinea,Suva,3,1,1,World Cup,27,H,Fiji,Papua New Guinea
+1169,2016-11-09,England,10,5,France,Twickenham Stoop,237,206,39,Friendly,5,H,England,France
+1170,2016-11-13,Ireland,10,12,England,Dublin,145,238,24,Friendly,2,A,England,Ireland
+1171,2016-11-18,Scotland,5,10,Spain,"Scotstoun, Glasgow",173,120,18,World Cup,5,A,Spain,Scotland
+1172,2016-11-19,England,20,25,New Zealand,Twickenham Stoop,239,82,24,Friendly,5,A,New Zealand,England
+1173,2016-11-19,Ireland,7,48,Canada,Dublin,146,113,3,Friendly,41,A,Canada,Ireland
+1174,2016-11-22,France,36,10,United States,Beziers,207,105,10,Friendly,26,H,France,United States
+1175,2016-11-23,Canada,10,20,New Zealand,Dublin,114,83,12,Friendly,10,N,New Zealand,Canada
+1176,2016-11-25,France,31,6,United States,Montpellier,208,106,11,Friendly,25,H,France,United States
+1177,2016-11-26,Spain,15,10,Scotland,Madrid,121,174,19,World Cup,5,H,Spain,Scotland
+1178,2016-11-26,England,39,6,Canada,Twickenham,240,115,25,Friendly,33,H,England,Canada
+1179,2016-11-27,Ireland,8,38,New Zealand,Dublin,147,84,2,Friendly,30,A,New Zealand,Ireland
+1180,2016-12-09,Hong Kong,45,7,Fiji,Hong Kong,36,4,1,World Cup,38,H,Hong Kong,Fiji
+1181,2016-12-13,Japan,55,0,Fiji,Hong Kong,41,5,1,World Cup,55,N,Japan,Fiji
+1182,2016-12-17,Hong Kong,8,20,Japan,Hong Kong,37,42,14,World Cup,12,A,Japan,Hong Kong
+1183,2017-02-03,Scotland,16,22,Ireland,"Broadwood Stadium, Cumbernauld",175,148,26,6 Nations,6,A,Ireland,Scotland
+1184,2017-02-03,Italy,8,20,Wales,"Stadio Comunale Pacifico, Iesi",129,174,17,6 Nations,12,A,Wales,Italy
+1185,2017-02-04,England,26,13,France,Twickenham,241,209,40,6 Nations,13,H,England,France
+1186,2017-02-10,Wales,0,63,England,Cardiff Arms Park,175,242,34,6 Nations,63,A,England,Wales
+1187,2017-02-11,France,55,0,Scotland,"Marcel Deflandre, La Rochelle",210,176,24,6 Nations,55,H,France,Scotland
+1188,2017-02-12,Italy,3,27,Ireland,"Stadio Tommaso Fattori, L'Aquila",130,149,15,6 Nations,24,A,Ireland,Italy
+1189,2017-02-24,Scotland,15,14,Wales,"Broadwood Stadium, Cumbernauld",177,176,29,6 Nations,1,H,Scotland,Wales
+1190,2017-02-25,England,29,15,Italy,Twickenham Stoop,243,131,16,6 Nations,14,H,England,Italy
+1191,2017-02-26,Ireland,13,10,France,Donnybrook,150,211,25,6 Nations,3,H,Ireland,France
+1192,2017-03-11,Wales,7,12,Ireland,Cardiff Arms Park,177,151,23,6 Nations,5,A,Ireland,Wales
+1193,2017-03-11,England,64,0,Scotland,Twickenham Stoop,244,178,26,6 Nations,64,H,England,Scotland
+1194,2017-03-12,Italy,5,28,France,"Stadio Sergio Lanfranchi, Parma",132,212,19,6 Nations,23,A,France,Italy
+1195,2017-03-17,Scotland,14,12,Italy,"Broadwood Stadium, Cumbernauld",179,133,17,6 Nations,2,H,Scotland,Italy
+1196,2017-03-17,Ireland,7,34,England,Donnybrook,152,245,25,6 Nations,27,A,England,Ireland
+1197,2017-03-18,France,39,19,Wales,"Amedee Domenech, Brive",213,178,23,6 Nations,20,H,France,Wales
+1198,2017-03-28,United States,5,39,Canada,"Chula Vista, San Diego",107,116,33,Friendly,34,A,Canada,United States
+1199,2017-04-01,United States,10,37,Canada,"Chula Vista, San Diego",108,117,34,Friendly,27,A,Canada,United States
+1200,2017-06-03,Spain,41,18,Hong Kong,Medina del Campo,122,38,2,Friendly,23,H,Spain,Hong Kong
+1201,2017-06-09,New Zealand,28,16,Canada,"Westpac Stadium, Wellington",85,118,13,Friendly,12,H,New Zealand,Canada
+1202,2017-06-09,Australia,10,53,England,"Porirua Park, Wellington",42,246,5,Friendly,43,N,England,Australia
+1203,2017-06-11,Wales,10,52,Japan,Ystrad Mynach,179,43,1,Friendly,42,A,Japan,Wales
+1204,2017-06-13,New Zealand,44,17,Australia,"Rugby Park, Christchurch",86,43,15,Laurie O'Reilly Memorial Trophy,27,H,New Zealand,Australia
+1205,2017-06-13,Canada,20,27,England,"Rugby Park, Christchurch",119,247,26,Friendly,7,N,England,Canada
+1206,2017-06-17,New Zealand,21,29,England,Rotorua International Stadium,87,248,25,Friendly,8,A,England,New Zealand
+1207,2017-06-17,Australia,5,45,Canada,"Smallbone Park, Rototua",44,120,2,Friendly,40,N,Canada,Australia
+1208,2017-07-08,Japan,58,0,Hong Kong,"Shiroyama, Odawara City",44,39,15,Asian Championship,58,H,Japan,Hong Kong
+1209,2017-07-15,Hong Kong,19,60,Japan,"King's Park, Hong Kong",40,45,16,Asian Championship,41,A,Japan,Hong Kong
+1210,2017-07-22,Zimbabwe,10,5,Botswana,Bulawayo,2,2,1,Friendly,5,H,Zimbabwe,Botswana
+1211,2017-08-09,England,56,5,Spain,"UCD Bowl, Dublin",249,123,17,World Cup,51,N,England,Spain
+1212,2017-08-09,New Zealand,44,12,Wales,"Billings Park UCD, Dublin",88,180,4,World Cup,32,N,New Zealand,Wales
+1213,2017-08-09,United States,24,12,Italy,"UCD Bowl, Dublin",109,134,2,World Cup,12,N,United States,Italy
+1214,2017-08-09,Canada,98,0,Hong Kong,"Billings Park UCD, Dublin",121,41,1,World Cup,98,N,Canada,Hong Kong
+1215,2017-08-09,Ireland,19,17,Australia,"UCD Bowl, Dublin",153,45,3,World Cup,2,H,Ireland,Australia
+1216,2017-08-09,France,72,14,Japan,"Billings Park UCD, Dublin",214,46,3,World Cup,58,N,France,Japan
+1217,2017-08-13,New Zealand,121,0,Hong Kong,"Billings Park UCD, Dublin",89,42,1,World Cup,121,N,New Zealand,Hong Kong
+1218,2017-08-13,England,56,13,Italy,"Billings Park UCD, Dublin",250,135,17,World Cup,43,N,England,Italy
+1219,2017-08-13,United States,43,0,Spain,"UCD Bowl, Dublin",110,124,3,World Cup,43,N,United States,Spain
+1220,2017-08-13,Canada,15,0,Wales,"Billings Park UCD, Dublin",122,181,9,World Cup,15,N,Canada,Wales
+1221,2017-08-13,Ireland,24,14,Japan,"UCD Bowl, Dublin",154,47,4,World Cup,10,H,Ireland,Japan
+1222,2017-08-13,France,48,0,Australia,"UCD Bowl, Dublin",215,46,5,World Cup,48,N,France,Australia
+1223,2017-08-17,Canada,5,48,New Zealand,"Billings Park UCD, Dublin",123,90,14,World Cup,43,N,New Zealand,Canada
+1224,2017-08-17,England,47,26,United States,"Billings Park UCD, Dublin",251,111,16,World Cup,21,N,England,United States
+1225,2017-08-17,Italy,8,22,Spain,"UCD Bowl, Dublin",136,125,13,World Cup,14,N,Spain,Italy
+1226,2017-08-17,Australia,29,15,Japan,"Billings Park UCD, Dublin",47,48,1,World Cup,14,N,Australia,Japan
+1227,2017-08-17,Wales,39,15,Hong Kong,"UCD Bowl, Dublin",182,43,1,World Cup,24,N,Wales,Hong Kong
+1228,2017-08-17,Ireland,5,21,France,"UCD Bowl, Dublin",155,216,26,World Cup,16,A,France,Ireland
+1229,2017-08-22,Italy,22,0,Japan,"Queen's University, Belfast",137,49,2,World Cup,22,N,Italy,Japan
+1230,2017-08-22,Ireland,24,36,Australia,"Kingspan Stadium, Belfast",156,48,4,World Cup,12,A,Australia,Ireland
+1231,2017-08-22,Spain,31,7,Hong Kong,"Queen's University, Belfast",126,44,3,World Cup,24,N,Spain,Hong Kong
+1232,2017-08-22,Canada,52,0,Wales,"Queen's University, Belfast",124,183,10,World Cup,52,N,Canada,Wales
+1233,2017-08-22,New Zealand,45,12,United States,"Kingspan Stadium, Belfast",91,112,11,World Cup,33,N,New Zealand,United States
+1234,2017-08-22,England,20,3,France,"Kingspan Stadium, Belfast",252,217,41,World Cup,17,N,England,France
+1235,2017-08-26,Japan,44,5,Hong Kong,"Queen's University, Belfast",50,45,17,World Cup,39,N,Japan,Hong Kong
+1236,2017-08-26,Ireland,17,27,Wales,"Kingspan Stadium, Belfast",157,184,24,World Cup,10,A,Wales,Ireland
+1237,2017-08-26,Italy,20,15,Spain,"Queen's University, Belfast",138,127,14,World Cup,5,N,Italy,Spain
+1238,2017-08-26,Australia,12,43,Canada,"Queen's University, Belfast",49,125,3,World Cup,31,N,Canada,Australia
+1239,2017-08-26,France,31,23,United States,"Kingspan Stadium, Belfast",218,113,12,World Cup,8,N,France,United States
+1240,2017-08-26,England,32,41,New Zealand,"Kingspan Stadium, Belfast",253,92,26,World Cup,9,N,New Zealand,England
+1241,2017-09-10,Germany,29,0,Switzerland,"Sportplatz Almmannsdorf, Konstanz",65,16,2,Friendly,29,N,Germany,Switzerland
+1242,2017-10-21,Finland,10,39,Sweden,Eerikkilä,16,79,2,Friendly,29,A,Sweden,Finland
+1243,2017-11-05,Spain,5,25,Scotland,"Estadio Nacional Complutense, Madrid",128,180,20,Friendly,20,A,Scotland,Spain
+1244,2017-11-11,Spain,0,97,France,"Estadio Pedro Escartín, Guadalajara",129,219,20,Friendly,97,A,France,Spain
+1245,2017-11-17,England,79,5,Canada,"Allianz Park, London",254,126,27,Friendly,74,H,England,Canada
+1246,2017-11-19,Italy,21,41,France,Biella,139,220,20,Friendly,20,A,France,Italy
+1247,2017-11-21,England,49,12,Canada,Twickenham Stoop,255,127,28,Friendly,37,H,England,Canada
+1248,2017-11-25,England,69,19,Canada,Twickenham,256,128,29,Friendly,50,H,England,Canada
+1249,2018-02-02,Wales,18,17,Scotland,"Parc Eirias, Colwyn Bay",185,181,30,6 Nations,1,H,Wales,Scotland
+1250,2018-02-03,France,24,0,Ireland,"Stade Ernest Wallon, Toulouse",221,158,27,6 Nations,24,H,France,Ireland
+1251,2018-02-04,Italy,7,42,England,"Stadio Mirabello, Reggio Emilia",140,257,18,6 Nations,35,A,England,Italy
+1252,2018-02-10,England,52,0,Wales,Twickenham Stoop,258,186,35,6 Nations,52,H,England,Wales
+1253,2018-02-10,Scotland,3,26,France,"Scotstoun Stadium, Glasgow",182,222,25,6 Nations,23,A,France,Scotland
+1254,2018-02-11,Ireland,21,8,Italy,"Donnybrook, Dublin",159,141,16,6 Nations,13,H,Ireland,Italy
+1255,2018-02-23,Scotland,8,43,England,"Scotstoun Stadium, Glasgow",183,259,27,6 Nations,35,A,England,Scotland
+1256,2018-02-24,France,57,0,Italy,"Stade Furiani, Corsica",223,142,21,6 Nations,57,H,France,Italy
+1257,2018-02-25,Ireland,35,12,Wales,"Donnybrook, Dublin",160,187,25,6 Nations,23,H,Ireland,Wales
+1258,2018-02-27,Germany,0,44,Spain,Waterloo,66,130,3,European Championship,44,N,Spain,Germany
+1259,2018-02-27,Belgium,12,84,Netherlands,Waterloo,36,119,9,European Championship,72,A,Netherlands,Belgium
+1260,2018-03-02,Belgium,5,24,Germany,Waterloo,37,67,5,European Championship,19,A,Germany,Belgium
+1261,2018-03-03,Netherlands,7,40,Spain,"Centre Nelson Mandela, Brussels",120,131,8,European Championship,33,N,Spain,Netherlands
+1262,2018-03-10,France,18,17,England,"Stade des Alpes, Grenoble",224,260,42,6 Nations,1,H,France,England
+1263,2018-03-11,Wales,15,22,Italy,"Principality Stadium, Cardiff",188,143,18,6 Nations,7,A,Italy,Wales
+1264,2018-03-11,Ireland,12,15,Scotland,"Donnybrook, Dublin",161,184,27,6 Nations,3,A,Scotland,Ireland
+1265,2018-03-16,England,33,11,Ireland,"Ricoh Arena, Coventry",261,162,26,6 Nations,22,H,England,Ireland
+1266,2018-03-16,Wales,3,38,France,"Parc Eirias, Colwyn Bay",189,225,24,6 Nations,35,A,France,Wales
+1267,2018-03-18,Italy,26,12,Scotland,"Stadio Plebiscito, Padua",144,185,18,6 Nations,14,H,Italy,Scotland
+1268,2018-06-02,Singapore,30,5,India,"Queenstown Stadium, Singapore",26,1,1,Asian Championship (Div I),25,H,Singapore,India
+1269,2018-06-05,India,5,19,Philippines,"Queenstown Stadium, Singapore",2,6,1,Asian Championship (Div I),14,N,Philippines,India
+1270,2018-06-08,Singapore,19,10,Philippines,"Queenstown Stadium, Singapore",27,7,1,Asian Championship (Div I),9,H,Singapore,Philippines
+1271,2018-08-18,Australia,11,31,New Zealand,"ANZ Stadium, Sydney",50,93,16,Laurie O'Reilly Memorial Trophy,20,A,New Zealand,Australia
+1272,2018-08-25,New Zealand,47,17,Australia,Auckland,94,51,17,Laurie O'Reilly Memorial Trophy,30,H,New Zealand,Australia
+1273,2018-10-13,Finland,5,20,Switzerland,"Myllypuro Urheilupuisto, Helsinki",17,17,3,European Trophy,15,A,Switzerland,Finland
+1274,2018-10-28,Germany,25,0,Czechia,"Stadion Buschalle, Berlin",68,11,1,Friendly,25,H,Germany,Czechia
+1275,2018-11-03,United States,6,67,New Zealand,"Soldier Field, Chicago",114,95,12,Friendly,61,A,New Zealand,United States
+1276,2018-11-04,Italy,38,0,Scotland,Calvisano,145,186,19,Friendly,38,H,Italy,Scotland
+1277,2018-11-09,England,57,5,United States,"Allianz Park, London",262,115,17,Friendly,52,H,England,United States
+1278,2018-11-09,France,0,14,New Zealand,Toulon,226,96,5,Friendly,14,A,New Zealand,France
+1279,2018-11-10,Wales,19,5,South Africa,Cardiff Arms Park,190,40,7,Friendly,14,H,Wales,South Africa
+1280,2018-11-10,Spain,60,5,Hong Kong,Villajoyosa,132,46,4,Friendly,55,H,Spain,Hong Kong
+1281,2018-11-16,Papua New Guinea,45,56,Samoa,"Churchill Park, Lautoka, Fiji",2,24,1,Oceania Championship,11,N,Samoa,Papua New Guinea
+1282,2018-11-16,Fiji,53,8,Tonga,"Churchill Park, Lautoka, Fiji",6,3,2,Oceania Championship,45,H,Fiji,Tonga
+1283,2018-11-16,Wales,65,0,Hong Kong,Cardiff Arms Park,191,47,2,Friendly,65,H,Wales,Hong Kong
+1284,2018-11-17,Switzerland,5,10,Czechia,Yverdon,18,12,5,European Trophy,5,A,Czechia,Switzerland
+1285,2018-11-17,France,30,27,New Zealand,Grenoble,227,97,6,Friendly,3,H,France,New Zealand
+1286,2018-11-17,Spain,17,5,South Africa,Villajoyosa,133,41,2,Friendly,12,H,Spain,South Africa
+1287,2018-11-18,Ireland,10,19,United States,"Donnybrook, Dublin",163,116,7,Friendly,9,A,United States,Ireland
+1288,2018-11-18,England,27,19,Canada,"Castle Park, Doncaster",263,129,30,Friendly,8,H,England,Canada
+1289,2018-11-20,Samoa,68,7,Tonga,"Churchill Park, Lautoka, Fiji",25,4,2,Oceania Championship,61,N,Samoa,Tonga
+1290,2018-11-20,Fiji,96,0,Papua New Guinea,"Churchill Park, Lautoka, Fiji",7,3,2,Oceania Championship,96,H,Fiji,Papua New Guinea
+1291,2018-11-24,Papua New Guinea,26,62,Tonga,"Churchill Park, Lautoka, Fiji",4,5,1,Oceania Championship,36,N,Tonga,Papua New Guinea
+1292,2018-11-24,Fiji,43,12,Samoa,"Churchill Park, Lautoka, Fiji",8,26,2,Oceania Championship,31,N,Fiji,Samoa
+1293,2018-11-24,Wales,21,38,Canada,Cardiff Arms Park,192,130,11,Friendly,17,A,Canada,Wales
+1294,2018-11-24,England,37,15,Ireland,Twickenham,264,164,27,Friendly,22,H,England,Ireland
+1295,2018-11-25,Italy,35,10,South Africa,"Chersoni Stadium, Prato",146,42,1,Friendly,25,H,Italy,South Africa
+1296,2018-11-27,Scotland,25,28,Canada,Scotstoun,187,131,7,Friendly,3,A,Canada,Scotland
+1297,2019-01-20,Spain,29,24,Scotland,"Estadio Nacional Complutense, Madrid",134,188,21,Friendly,5,H,Spain,Scotland
+1298,2019-02-01,Ireland,7,51,England,Donnybrook,165,265,28,6 Nations,44,A,England,Ireland
+1299,2019-02-01,Scotland,7,21,Italy,"Scotstoun Stadium, Glasgow",189,147,20,6 Nations,14,A,Italy,Scotland
+1300,2019-02-02,France,52,3,Wales,"Stadium GGL, Montpellier",228,193,25,6 Nations,49,H,France,Wales
+1301,2019-02-08,Scotland,5,22,Ireland,"Scotstoun Stadium, Glasgow",190,166,28,6 Nations,17,A,Ireland,Scotland
+1302,2019-02-09,Italy,3,3,Wales,"Stadio Via del Mare, Lecce",148,194,19,6 Nations,0,D,Draw,Draw
+1303,2019-02-10,England,41,26,France,"Castle Park, Doncaster",266,229,43,6 Nations,15,H,England,France
+1304,2019-02-23,Spain,41,0,Russia,"Estadio Nacional Complutense, Madrid",135,47,3,European Championship,41,H,Spain,Russia
+1305,2019-02-23,Italy,29,27,Ireland,"Stadio Sergio Lanfranchi, Parma",149,167,17,6 Nations,2,H,Italy,Ireland
+1306,2019-02-23,France,41,10,Scotland,"Stadium Metropole, Lille",230,191,26,6 Nations,31,H,France,Scotland
+1307,2019-02-24,Wales,12,51,England,Cardiff Arms Park,195,267,36,6 Nations,39,A,England,Wales
+1308,2019-02-08,Scotland,15,17,Wales,"Scotstoun Stadium, Glasgow",192,196,31,6 Nations,2,A,Wales,Scotland
+1309,2019-03-09,England,55,0,Italy,"Sandy Park, Exeter",268,150,19,6 Nations,55,H,England,Italy
+1310,2019-03-09,Netherlands,46,17,Germany,Amsterdam,121,69,18,European Championship,29,H,Netherlands,Germany
+1311,2019-03-09,Ireland,17,47,France,"Donnybrook, Dublin",168,231,28,6 Nations,30,A,France,Ireland
+1312,2019-03-16,Czechia,15,0,Finland,Prague,13,18,1,European Trophy,15,H,Czechia,Finland
+1313,2019-03-16,England,80,0,Scotland,Twickenham,269,193,28,6 Nations,80,H,England,Scotland
+1314,2019-03-17,Wales,24,5,Ireland,Cardiff Arms Park,197,169,26,6 Nations,19,H,Wales,Ireland
+1315,2019-03-17,Italy,31,12,France,"Stadio Plebiscito, Padua",151,232,22,6 Nations,19,H,Italy,France
+1316,2019-03-30,Spain,54,0,Netherlands,"Central University, Madrid",136,122,9,European Championship,54,H,Spain,Netherlands
+1317,2019-05-04,Germany,5,20,Russia,Bonn,70,48,2,European Championship,15,A,Russia,Germany
+1318,2019-05-24,Fiji,10,29,Hong Kong,"Churchill Park, Lautoka, Fiji",9,48,2,Asia Pacific Championship,19,A,Hong Kong,Fiji
+1319,2019-05-28,Hong Kong,12,34,Samoa,"Churchill Park, Lautoka, Fiji",49,27,1,Asia Pacific Championship,22,A,Samoa,Hong Kong
+1320,2019-06-01,Fiji,12,15,Samoa,"Churchill Park, Lautoka, Fiji",10,28,3,Asia Pacific Championship,3,A,Samoa,Fiji
+1321,2019-06-19,Philippines,32,27,India,Manila,8,3,2,Asia Championship (Div 1),5,H,Philippines,India
+1322,2019-06-19,Singapore,7,59,China,Manila,28,10,2,Asia Championship (Div 1),52,N,China,Singapore
+1323,2019-06-22,Singapore,19,21,India,Manila,29,4,2,Asia Championship (Div 1),2,N,India,Singapore
+1324,2019-06-22,Philippines,0,68,China,Manila,9,11,2,Asia Championship (Div 1),68,A,China,Philippines
+1325,2019-06-22,Kenya,44,13,Uganda,Kisumu,21,24,21,Elgon Cup,31,H,Kenya,Uganda
+1326,2019-06-28,Canada,20,35,New Zealand,Chula Vista Elite Athlete Training Center,132,98,15,Super Series,15,N,New Zealand,Canada
+1327,2019-06-28,United States,5,38,England,Chula Vista Elite Athlete Training Center,117,270,18,Super Series,33,A,England,United States
+1328,2019-07-02,Canada,36,19,France,Chula Vista Elite Athlete Training Center,133,233,15,Super Series,17,N,Canada,France
+1329,2019-07-02,United States,0,33,New Zealand,Chula Vista Elite Athlete Training Center,118,99,13,Super Series,33,N,New Zealand,United States
+1330,2019-07-06,France,25,16,New Zealand,Chula Vista Elite Athlete Training Center,234,100,7,Super Series,9,H,France,New Zealand
+1331,2019-07-06,Canada,17,19,England,Chula Vista Elite Athlete Training Center,134,271,31,Super Series,2,N,England,Canada
+1332,2019-07-10,United States,20,18,Canada,Chula Vista Elite Athlete Training Center,119,135,35,Super Series,2,N,United States,Canada
+1333,2019-07-10,England,20,18,France,Chula Vista Elite Athlete Training Center,272,235,44,Super Series,2,H,England,France
+1334,2019-07-13,Zimbabwe,18,19,Zambia,Harare,3,2,2,Friendly,1,A,Zambia,Zimbabwe
+1335,2019-07-13,Uganda,5,35,Kenya,Kampala,25,22,22,Elgon Cup,30,A,Kenya,Uganda
+1336,2019-07-13,Australia,34,5,Japan,Newcastle Sportsground Number 2,52,51,2,Friendly,29,H,Australia,Japan
+1336,2019-07-14,England,13,28,New Zealand,"Torero Stadium, San Diego",273,101,27,Super Series,15,N,New Zealand,England
+1337,2019-07-14,United States,14,53,France,"Torero Stadium, San Diego",120,236,13,Super Series,39,A,France,United States
+1338,2019-07-19,Australia,46,3,Japan,North Sydney Oval,53,52,3,Friendly,43,H,Australia,Japan
+1339,2019-07-31,China,13,8,Kazakhstan,"Jiujiang Stadium, China",12,67,3,Asian Championship qualifier,5,H,China,Kazakhstan
+1340,2019-08-03,China,0,15,Kazakhstan,"Jiujiang Stadium, China",13,68,4,Asian Championship qualifier,15,A,Kazakhstan,China
+1341,2019-08-09,Kenya,35,5,Madagascar,"Bosman Stadium, Johannesburg",23,1,1,Africa Gold Cup,30,N,Kenya,Madagascar
+1342,2019-08-09,South Africa,89,5,Uganda,"Bosman Stadium, Johannesburg",43,26,2,Africa Gold Cup,84,H,South Africa,Uganda
+1343,2019-08-10,Australia,10,47,New Zealand,"Optus Stadium, Perth",54,102,18,Laurie O'Reilly Memorial Trophy,37,A,New Zealand,Australia
+1344,2019-08-13,Kenya,37,5,Uganda,"Bosman Stadium, Johannesburg",24,27,23,Africa Gold Cup,32,N,Kenya,Uganda
+1345,2019-08-13,South Africa,73,0,Madagascar,"Bosman Stadium, Johannesburg",44,2,1,Africa Gold Cup,73,H,South Africa,Madagascar
+1346,2019-08-17,New Zealand,37,8,Australia,"Eden Park, Auckland",103,55,19,Laurie O'Reilly Memorial Trophy,29,H,New Zealand,Australia
+1347,2019-08-17,Madagascar,15,15,Uganda,"Bosman Stadium, Johannesburg",3,28,1,Africa Gold Cup,0,N,Draw,Draw
+1348,2019-08-17,South Africa,37,0,Kenya,"Bosman Stadium, Johannesburg",45,25,1,Africa Gold Cup,37,H,South Africa,Kenya
+1349,2019-08-25,Colombia,28,7,Brazil,Medellin,1,2,1,Friendly,21,H,Colombia,Brazil
+1350,2019-09-14,Zambia,21,15,Zimbabwe,Lusaka,3,4,3,Friendly,6,H,Zambia,Zimbabwe
+1351,2019-09-21,South Africa,12,29,Spain,Port Elizabeth,46,137,3,Friendly,17,A,Spain,South Africa
+1352,2019-09-30,South Africa,5,47,Scotland,"City Park Sports Grounds, Cape Town",47,194,3,Friendly,42,A,Scotland,South Africa
+1353,2019-10-05,South Africa,15,38,Scotland,"City Park Sports Grounds, Cape Town",48,195,4,Friendly,23,A,Scotland,South Africa
+1354,2019-10-12,Finland,5,5,Czechia,"Myllypuro Urheilupuisto, Helsinki",19,14,2,European Trophy,0,D,Draw,Draw
+1355,2019-11-02,Sweden,19,7,Finland,Malmö,80,20,3,European Trophy,12,H,Sweden,Finland
+1356,2019-11-03,Spain,29,5,Wales,"Estadio Nacional Complutense, Madrid",138,198,10,Friendly,24,H,Spain,Wales
+1357,2019-11-09,Czechia,15,5,Switzerland,Brno,15,19,6,European Trophy,10,H,Czechia,Switzerland
+1358,2019-11-09,France,10,20,England,Clermont Ferrand,237,274,45,Friendly,10,A,England,France
+1359,2019-11-10,Ireland,13,15,Wales,"UCD Bowl, Dublin",170,199,27,Friendly,2,A,Wales,Ireland
+1360,2019-11-16,Czechia,17,5,Sweden,Prague,16,81,1,European Trophy,12,H,Czechia,Sweden
+1361,2019-11-16,England,17,15,France,Exeter,275,238,46,Friendly,2,H,England,France
+1362,2019-11-16,Italy,17,17,Japan,"Stadio Tommaso Fattori, L'Aquila",152,53,3,Friendly,0,D,Draw,Draw
+1363,2019-11-17,Scotland,3,17,Wales,Scotstoun,196,200,32,Friendly,14,A,Wales,Scotland
+1364,2019-11-18,Samoa,65,12,Papua New Guinea,"Churchill Park, Lautoka, Fiji",29,5,2,Oceania Championship,53,H,Samoa,Papua New Guinea
+1365,2019-11-20,United States,0,19,Canada,Chula Vista Elite Athlete Training Center,121,136,36,Friendly,19,A,Canada,United States
+1366,2019-11-22,Fiji,26,7,Samoa,"Churchill Park, Lautoka, Fiji",11,30,4,Oceania Championship,19,H,Fiji,Samoa
+1367,2019-11-23,England,60,3,Italy,Bedford,276,153,20,Friendly,57,H,England,Italy
+1368,2019-11-23,Switzerland,32,0,Finland,Yverdon,20,21,4,Friendly,32,H,Switzerland,Finland
+1369,2019-11-24,Scotland,20,24,Japan,Scotstoun,197,54,1,Friendly,4,A,Japan,Scotland
+1370,2019-11-24,United States,27,52,Canada,Chula Vista Elite Athlete Training Center,122,137,37,Friendly,25,A,Canada,United States
+1371,2019-11-26,Netherlands,12,14,Hong Kong,Amsterdam,123,50,1,Friendly,2,A,Hong Kong,Netherlands
+1372,2019-11-30,Fiji,41,13,Samoa,"Churchill Park, Lautoka, Fiji",12,31,5,Friendly,28,H,Fiji,Samoa
+1373,2019-11-30,Netherlands,0,18,Hong Kong,Amsterdam,124,51,2,Friendly,18,A,Hong Kong,Netherlands
+1374,2020-01-19,Spain,12,36,Scotland,"Juan Rojas, Almeria",139,198,22,Friendly,24,A,Scotland,Spain
+1375,2020-02-02,France,13,19,England,"Stade du Hameau, Pau",239,277,47,6 Nations,6,A,England,France
+1376,2020-02-02,Wales,15,19,Italy,Cardiff Arms Park,201,154,20,6 Nations,4,A,Italy,Wales
+1400,2020-02-02,Ireland,18,14,Scotland,Donnybrook,171,199,29,6 Nations,4,H,Ireland,Scotland
+1401,2020-02-08,France,45,10,Italy,"Stade Beaublanc, Limoges",240,155,23,6 Nations,35,H,France,Italy
+1402,2020-02-09,Ireland,31,12,Wales,Donnybrook,172,202,28,6 Nations,19,H,Ireland,Wales
+1403,2020-02-10,Scotland,0,53,England,Murrayfield,200,278,29,6 Nations,53,A,England,Scotland
+1404,2020-02-23,Wales,0,50,France,Cardiff Arms Park,203,241,26,6 Nations,50,A,France,Wales
+1405,2020-02-23,England,22,0,Ireland,"Castle Park, Doncaster",279,173,29,6 Nations,22,H,England,Ireland
+1406,2020-03-01,Papua New Guinea,24,36,Tonga,"Bava Park Ground, Port Moresby",6,6,2,World Cup qualifier,12,A,Tonga,Papua New Guinea
+1407,2020-03-07,Netherlands,21,27,Russia,Amsterdam,125,49,6,European Championship,6,A,Russia,Netherlands
+1408,2020-03-07,England,66,7,Wales,Twickenham Stoop,280,204,37,6 Nations,59,H,England,Wales
+1409,2020-03-07,Colombia,23,19,Brazil,"Estadio Cincuentenario, Medellin",2,3,2,South American Championship,4,H,Colombia,Brazil
+1410,2020-03-08,Guatemala,50,5,El Salvador,"Parque Erick Barrondo, Guatemala City",1,1,1,Friendly,45,H,Guatemala,El Salvador
+1411,2020-10-24,Ireland,21,7,Italy,Donnybrook,174,156,18,6 Nations,14,H,Ireland,Italy
+1412,2020-10-25,Scotland,13,13,France,Scotstoun,201,242,27,6 Nations,0,D,Draw,Draw
+1413,2020-11-01,Italy,0,54,England,"Stadio Plebiscito, Padova",157,281,21,6 Nations,54,A,England,Italy
+1414,2020-11-14,Samoa,40,0,Tonga,Auckland,32,7,3,World Cup qualifier,40,N,Samoa,Tonga
+1415,2020-11-14,France,10,33,England,Grenoble,243,282,48,Friendly,23,A,England,France
+1416,2020-11-21,England,25,23,France,Twickenham,283,244,49,Friendly,2,H,England,France
+1417,2021-02-20,Spain,56,7,Russia,"Estadio Pedro Escartín, Guadalajara",140,50,4,European Championship,49,H,Spain,Russia
+1418,2021-02-27,Spain,87,0,Netherlands,"Estadio Pedro Escartín, Guadalajara",141,126,10,European Championship,87,H,Spain,Netherlands
+1419,2021-04-03,England,52,10,Scotland,"Castle Park, Doncaster",284,202,30,6 Nations,42,H,England,Scotland
+1420,2021-04-03,France,53,0,Wales,"Stade de la Rabine, Vannes",245,205,27,6 Nations,53,H,France,Wales
+1421,2021-04-10,Italy,3,67,England,Parma,158,285,22,6 Nations,64,A,England,Italy
+1422,2021-04-10,Wales,0,43,Ireland,Cardiff Arms Park,206,175,29,6 Nations,43,A,Ireland,Wales
+1423,2021-04-17,Ireland,15,56,France,"Donnybrook, Dublin",176,246,29,6 Nations,41,A,France,Ireland
+1424,2021-04-17,Scotland,20,41,Italy,"Scotstoun Stadium, Glasgow",203,159,21,6 Nations,21,A,Italy,Scotland
+1425,2021-04-24,Ireland,25,5,Italy,"Donnybrook, Dublin",177,160,19,6 Nations,20,H,Ireland,Italy
+1426,2021-04-24,England,10,6,France,Twickenham Stoop,286,247,50,6 Nations,4,H,England,France
+1427,2021-04-24,Scotland,27,20,Wales,"Scotstoun Stadium, Glasgow",204,207,33,6 Nations,7,H,Scotland,Wales
+1428,2021-04-30,France,15,17,England,Lille,248,287,51,Friendly,2,A,England,France
+1429,2021-06-09,Burkina Faso,0,37,Cameroon,Ouagadougou,1,1,1,Africa Cup,37,A,Cameroon,Burkina Faso
+1430,2021-06-12,Burkina Faso,3,35,Cameroon,Ouagadougou,2,2,2,Africa Cup,32,A,Cameroon,Burkina Faso
+1431,2021-07-03,Kenya,15,27,Madagascar,Nairobi,26,4,2,Africa Cup,12,A,Madagascar,Kenya
+1432,2021-07-11,Kenya,0,10,Madagascar,Nairobi,27,5,3,Africa Cup,10,A,Madagascar,Kenya
+1433,2021-07-14,Uganda,41,0,Zimbabwe,Kampala,29,5,1,Africa Cup,41,H,Uganda,Zimbabwe
+1434,2021-07-18,Uganda,34,3,Zimbabwe,Kampala,30,6,2,Africa Cup,31,H,Uganda,Zimbabwe
+1435,2021-08-12,South Africa,66,0,Kenya,Stellenbosch,49,28,2,Friendly,66,H,South Africa,Kenya
+1435,2021-08-12,South Africa,29,22,Kenya,Stellenbosch,50,29,3,Friendly,7,H,South Africa,Kenya
+1436,2021-08-25,Kenya,15,16,Colombia,Nairobi,30,3,1,World Cup qualifier,1,A,Colombia,Kenya
+1437,2021-09-13,Italy,38,13,Scotland,Parma,161,205,22,World Cup qualifier,25,H,Italy,Scotland
+1438,2021-09-13,Ireland,7,8,Spain,Parma,178,142,10,World Cup qualifier,1,N,Spain,Ireland
+1440,2021-09-20,Scotland,27,22,Spain,Parma,206,143,23,World Cup qualifier,5,N,Scotland,Spain
+1441,2021-09-20,Italy,7,15,Ireland,Parma,162,179,20,World Cup qualifier,8,A,Ireland,Italy
+1442,2021-09-25,Italy,34,10,Spain,Parma,163,144,15,World Cup qualifier,24,H,Italy,Spain
+1443,2021-09-25,Ireland,18,20,Scotland,Parma,180,207,30,World Cup qualifier,2,N,Scotland,Ireland
+1444,2021-10-09,Tunisia,14,3,Senegal,Tunis,1,1,1,Africa Cup,11,H,Tunisia,Senegal
+1445,2021-10-13,Cote d'Ivoire,4,45,Senegal,Tunis,1,2,1,Africa Cup,41,N,Senegal,Cote d'Ivoire
+1446,2021-10-16,Finland,10,24,Sweden,"Myllypuro, Helsinki",22,82,4,European Trophy,14,A,Sweden,Finland
+1447,2021-10-17,Tunisia,61,0,Cote d'Ivoire,Tunis,2,2,1,Africa Cup,61,H,Tunisia,Cote d'Ivoire
+1448,2021-10-30,Sweden,31,12,Czechia,Norrköping,83,17,2,European Trophy,19,H,Sweden,Czechia
+1449,2021-10-31,England,43,12,New Zealand,"Sandy Park, Exeter",288,104,28,Friendly,31,H,England,New Zealand
+1450,2021-11-01,United States,9,15,Canada,"Glendale, Colorado",123,138,38,Pacific 4s,6,A,Canada,United States
+1451,2021-11-05,United States,13,26,Canada,"Glendale, Colorado",124,139,39,Pacific 4s,13,A,Canada,United States
+1452,2021-11-06,Czechia,39,12,Finland,"Tatra Smichov, Prague",18,23,3,European Trophy,27,H,Czechia,Finland
+1453,2021-11-06,France,46,3,South Africa,"Stade de la Rabine, Vannes",249,51,4,Friendly,43,H,France,South Africa
+1454,2021-11-07,England,56,15,New Zealand,Northampton,289,105,29,Friendly,41,H,England,New Zealand
+1455,2021-11-07,Wales,23,5,Japan,Cardiff Arms Park,208,55,2,Friendly,18,H,Wales,Japan
+1456,2021-11-12,Ireland,20,10,United States,"RDS, Dublin",181,125,8,Friendly,10,H,Ireland,United States
+1457,2021-11-13,Switzerland,0,27,Czechia,Nyon,21,19,7,European Trophy,27,A,Czechia,Switzerland
+1458,2021-11-13,Wales,29,19,South Africa,Cardiff Arms Park,209,52,8,Friendly,10,H,Wales,South Africa
+1459,2021-11-13,France,38,13,New Zealand,Pau,250,106,8,Friendly,25,H,France,New Zealand
+1460,2021-11-13,Namibia,5,75,Zambia,"Hage Geingob, Windhoek",2,4,1,Africa Cup,70,A,Zambia,Namibia
+1461,2021-11-14,England,51,12,Canada,Twickemham Stoop,290,140,32,Friendly,39,H,England,Canada
+1462,2021-11-14,Scotland,36,12,Japan,"Dam Health Stadium, Edinburgh",208,56,2,Friendly,24,H,Scotland,Japan
+1463,2021-11-20,France,29,7,New Zealand,Castres,251,107,9,Friendly,22,H,France,New Zealand
+1464,2021-11-20,Ireland,15,12,Japan,"RDS, Dublin",182,57,5,Friendly,3,H,Ireland,Japan
+1465,2021-11-21,England,89,0,United States,"Sixways, Worcester",291,126,19,Friendly,89,H,England,United States
+1466,2021-11-21,Wales,7,24,Canada,Cardiff Arms Park,210,141,12,Friendly,17,A,Canada,Wales
+1467,2021-11-22,Portugal,10,8,Belgium,"Jamor Stadium, Lisbon",2,38,1,European Trophy B,2,H,Portugal,Belgium
+1468,2022-02-19,Colombia,18,10,Kazakhstan,"7s Stadium, Dubai",4,69,1,World Cup qualifier,8,H,Colombia,Kazakhstan
+1469,2022-02-19,Netherlands,0,69,Spain,Amsterdam,127,145,11,European Championship,69,A,Spain,Netherlands
+1470,2022-02-25,Colombia,3,59,Scotland,Dubai,5,209,1,World Cup qualifier,56,A,Scotland,Colombia
+1471,2022-02-26,Spain,27,0,Russia,Campo de Rugby de Las Terrazas,146,51,5,European Championship,27,H,Spain,Russia
+1472,2022-03-12,Switzerland,0,48,Sweden,"Plan les Ouates, Geneva",22,84,1,European Trophy,48,A,Sweden,Switzerland
+1473,2022-03-26,Scotland,5,57,England,"Dam Health Stadium, Edinburgh",210,292,31,6 Nations,52,A,England,Scotland
+1474,2022-03-26,Ireland,19,27,Wales,"RDS, Dublin",183,211,30,6 Nations,8,A,Wales,Ireland
+1476,2022-03-27,France,39,6,Italy,"Stade des Alpes, Grenoble",252,164,24,6 Nations,33,H,France,Italy
+1477,2022-04-02,France,40,5,Ireland,"Stade Ernest-Wallon, Toulouse",253,184,30,6 Nations,35,H,France,Ireland
+1478,2022-04-02,Wales,24,19,Scotland,Cardiff Arms Park,212,211,34,6 Nations,5,H,Wales,Scotland
+1479,2022-02-03,Italy,0,74,England,Parma,165,293,23,6 Nations,74,A,England,Italy
+1480,2022-04-09,England,58,5,Wales,"Kingsholm, Gloucester",294,213,38,6 Nations,53,H,England,Wales
+1481,2022-04-10,Scotland,8,28,France,"Scotstoun, Glasgow",212,254,28,6 Nations,20,A,France,Scotland
+1482,2022-04-10,Ireland,29,8,Italy,"Musgrove Park, Cork",185,166,21,6 Nations,21,H,Ireland,Italy
+1483,2022-04-23,Wales,5,33,France,Cardiff Arms Park,214,255,28,6 Nations,28,A,France,Wales
+1484,2022-04-24,Italy,20,13,Scotland,Parma,167,213,23,6 Nations,7,H,Italy,Scotland
+1485,2022-04-25,England,69,0,Ireland,Leicester,295,186,30,6 Nations,69,H,England,Ireland
+1486,2022-04-30,Wales,8,10,Italy,Cardiff Arms Park,215,168,21,6 Nations,2,A,Italy,Wales
+1487,2022-04-30,France,12,24,England,Bayonne,256,296,52,6 Nations,12,A,England,France
+1488,2022-04-30,Portugal,57,0,Germany,"Jamor Stadium, Lisbon",3,71,2,European Trophy B,57,H,Portugal,Germany
+1489,2022-04-30,Ireland,15,14,Scotland,"Kingspan Stadium, Belfast",187,214,31,6 Nations,1,H,Ireland,Scotland
+1490,2022-05-01,Fiji,14,28,Japan,"Bond University Oval, Gold Coast",13,58,2,Tri-Series,14,N,Japan,Fiji
+1491,2022-05-06,Australia,36,19,Fiji,"Suncorp Stadium, Brisbane",56,14,1,Tri-Series,17,H,Australia,Fiji

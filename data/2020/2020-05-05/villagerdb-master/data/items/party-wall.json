@@ -1,0 +1,46 @@
+{
+  "id": "party-wall",
+  "name": "Party Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "jingle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        }
+      ]
+    }
+  }
+}

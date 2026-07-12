@@ -1,0 +1,17 @@
+{
+  "id": "stone-egg-outfit",
+  "name": "Stone-egg Outfit",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "stone-egg": 3
+      }
+    }
+  },
+  "category": "Dresses"
+}

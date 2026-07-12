@@ -1,0 +1,30 @@
+{
+  "id": "pave-wall",
+  "name": "Pavé Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Pavé",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "Pavé (Festivale)"
+      ],
+      "rvs": [
+        "pave"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

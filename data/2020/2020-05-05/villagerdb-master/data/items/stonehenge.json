@@ -1,0 +1,19 @@
+{
+  "id": "stonehenge",
+  "name": "Stonehenge",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

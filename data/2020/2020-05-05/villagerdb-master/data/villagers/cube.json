@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "1-29",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "g-logo-shirt",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "song": "K.K. Technopop"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "big-dot-tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude",
+      "quote": "Stay cool."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "big-dot-tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "big-dot-tee",
+      "song": "K.K. Technopop",
+      "phrase": "d-d-dude",
+      "skill": "Staying awake",
+      "goal": "Astronaut",
+      "fear": "Werewolf Hood",
+      "quote": "Sometimes you gotta learn to chill.",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Official",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "d-d-dude",
+      "song": "K.K. Technopop"
+    }
+  },
+  "name": "Cube",
+  "id": "cube"
+}

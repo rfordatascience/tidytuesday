@@ -1,0 +1,18 @@
+title: "Italian industrial production"
+article:
+  title: "History of Italian Industrial Data"
+  url: "https://seriestoriche.istat.it/fileadmin/documenti/14_History_Industry.pdf"
+data_source:
+  title: "Industrial production volume"
+  url: "https://seriestoriche.istat.it/index.php?id=1&no_cache=1&L=1&tx_usercento_centofe%5Bcategoria%5D=44&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=8a65478a9f8d5ddd079041fd1d696b05"
+images:
+# Please include at least one image, and up to three images
+- file: "chart.png"
+  alt: >
+    A line chart titled Italian beer production increased dramatically between 1950 and 1980, showing Italian beer production between 1871 and 1985 in million hectolitres per year. The line is quite flat initially around 1 million hectolitres per year, until around 1950 onwards where it increases dramatically, reaching about 10 million hectolitres per year in 1985.
+credit:
+  post: "Nicola Rennie"
+  github: "@nrennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@fosstodon.org/@nrennie"

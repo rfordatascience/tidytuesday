@@ -1,0 +1,25 @@
+{
+  "id": "ironwood-diy-workbench",
+  "name": "Ironwood Diy Workbench",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8520
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 34080
+        }
+      ],
+      "recipe": {
+        "wood": 12,
+        "iron-nugget": 6,
+        "mini-diy-workbench": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

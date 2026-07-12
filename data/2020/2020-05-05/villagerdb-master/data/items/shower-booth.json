@@ -1,0 +1,20 @@
+{
+  "id": "shower-booth",
+  "name": "Shower Booth",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 27500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 110000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

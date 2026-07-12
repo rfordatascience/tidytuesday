@@ -1,0 +1,23 @@
+{
+  "id": "museum-floor",
+  "name": "Museum Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Museum Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        }
+      ]
+    }
+  }
+}

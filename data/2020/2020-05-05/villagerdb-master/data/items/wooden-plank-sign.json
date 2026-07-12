@@ -1,0 +1,18 @@
+{
+  "id": "wooden-plank-sign",
+  "name": "Wooden-plank Sign",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "recipe": {
+        "hardwood": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

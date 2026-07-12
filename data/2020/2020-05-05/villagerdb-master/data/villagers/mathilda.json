@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "11-12",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "u-r-here-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "u-r-here-shirt",
+      "song": "K.K. Ragtime"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "u-r-here-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby",
+      "quote": "Blood is thicker than water!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "u-r-here-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "u-r-here-tee",
+      "song": "K.K. Ragtime",
+      "phrase": "wee baby",
+      "skill": "Pretending to sleep",
+      "goal": "Writer",
+      "fear": "Skeleton Hood",
+      "quote": "Nail polish is thicker than water.",
+      "siblings": "Youngest of 3 sisters",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "wee baby",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Mathilda",
+  "id": "mathilda"
+}

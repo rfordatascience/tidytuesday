@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "6-1",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "raglan-tee",
+      "song": "K.K. Moody",
+      "phrase": "wingo",
+      "skill": "Tongue twisters",
+      "goal": "Musician",
+      "fear": "Werewolf Hood",
+      "quote": "Even in a room full of fools, someone is the smartest.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "wingo",
+      "song": "K.K. Moody"
+    }
+  },
+  "name": "Keaton",
+  "id": "keaton"
+}

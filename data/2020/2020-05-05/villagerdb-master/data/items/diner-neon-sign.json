@@ -1,0 +1,19 @@
+{
+  "id": "diner-neon-sign",
+  "name": "Diner Neon Sign",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 975
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

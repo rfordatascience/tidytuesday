@@ -1,0 +1,27 @@
+{
+  "id": "boot",
+  "name": "Boot",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": -80
+      },
+      "sources": [
+        "Freshwater or sea (medium shadow)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  }
+}

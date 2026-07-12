@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "7-10",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "phrase": "ribbit",
+      "clothes": "kerokerokeroppi-top",
+      "skill": "Swimming",
+      "goal": "Weatherperson",
+      "song": "King K.K.",
+      "fear": "Bug Mask",
+      "quote": "Toby or not Toby? I don't know, I'm asking you.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    }
+  },
+  "name": "Toby",
+  "id": "toby"
+}

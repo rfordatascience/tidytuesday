@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cub",
+  "birthday": "6-23",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "red-jacket",
+      "song": "K.K. Disco",
+      "phrase": "ya heard",
+      "skill": "Staying positive",
+      "goal": "Movie director",
+      "fear": "Skeleton Hood",
+      "quote": "If a job is worth doing, do it right!",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "ya heard",
+      "song": "K.K. Disco"
+    }
+  },
+  "name": "Tammy",
+  "id": "tammy"
+}

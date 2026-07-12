@@ -1,0 +1,31 @@
+{
+  "id": "lunar-horizon",
+  "name": "Lunar Horizon",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "set": "Space",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1900
+      },
+      "sources": [
+        "Saharah"
+      ],
+      "rvs": [
+        "celeste",
+        "villager"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

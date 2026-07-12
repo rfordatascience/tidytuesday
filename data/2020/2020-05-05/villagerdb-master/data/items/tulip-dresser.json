@@ -1,0 +1,21 @@
+{
+  "id": "tulip-dresser",
+  "name": "Tulip Dresser",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "sources": [
+        "Leif (Weeding Day -- Happy Generosity Award)"
+      ]
+    }
+  }
+}

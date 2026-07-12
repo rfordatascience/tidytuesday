@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "1-20",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "gray-tartan",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "gray-tartan",
+      "song": "Forest Life"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "gray-tartan-tee",
+      "song": "Forest Life",
+      "phrase": "snoot",
+      "quote": "Now whenever you see this picture of me, you can think warm thoughts."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "gray-tartan-tee",
+      "song": "Forest Life",
+      "phrase": "snoot"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "gray-tartan-tee",
+      "song": "Forest Life",
+      "phrase": "snoot",
+      "skill": "Memorizing stuff",
+      "goal": "Doctor",
+      "fear": "Ghost Mask",
+      "quote": "However little you think of an elephant, you can't say it won't fill a pot.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "snoot",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Opal",
+  "id": "opal"
+}

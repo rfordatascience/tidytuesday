@@ -1,0 +1,42 @@
+{
+  "id": "tiara-hair",
+  "name": "Tiara Hair",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "GracieGrace (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7200
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 735
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2940
+        }
+      ]
+    }
+  }
+}

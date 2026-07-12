@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "deer",
+  "birthday": "8-20",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "brown-bar-tee",
+      "song": "K.K. Milonga",
+      "phrase": "buckaroo",
+      "skill": "Debating",
+      "goal": "CEO",
+      "fear": "Skeleton Hood",
+      "quote": "Always look both ways before crossing the street.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "buckaroo",
+      "song": "K.K. Milonga"
+    }
+  },
+  "name": "Lopez",
+  "id": "lopez"
+}

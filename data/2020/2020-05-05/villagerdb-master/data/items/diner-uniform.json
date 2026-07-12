@@ -1,0 +1,51 @@
+{
+  "id": "diner-uniform",
+  "name": "Diner Uniform",
+  "category": "Dresses",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Spring)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Spring)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 290
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  }
+}

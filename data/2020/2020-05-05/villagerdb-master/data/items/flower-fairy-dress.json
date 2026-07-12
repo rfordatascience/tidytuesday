@@ -1,0 +1,22 @@
+{
+  "id": "flower-fairy-dress",
+  "name": "Flower Fairy Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Obtain at least 10",
+        "000 points in Score Attack on any difficulty in Puzzle League"
+      ]
+    }
+  }
+}

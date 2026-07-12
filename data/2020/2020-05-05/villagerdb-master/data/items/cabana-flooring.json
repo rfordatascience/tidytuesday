@@ -1,0 +1,30 @@
+{
+  "id": "cabana-flooring",
+  "name": "Cabana Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Cabana",
+      "sources": [
+        "Island Gift Shop (rare)"
+      ],
+      "rvs": [
+        "kappn"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "moms-cool-kitchen-mat",
+  "name": "Mom's Cool Kitchen Mat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

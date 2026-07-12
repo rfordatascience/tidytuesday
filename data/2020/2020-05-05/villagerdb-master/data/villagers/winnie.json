@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "1-31",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "cow-shirt",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "cow-shirt",
+      "song": "My Place"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "cow-tee",
+      "song": "My Place",
+      "phrase": "hay-OK"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "cow-tee",
+      "song": "My Place",
+      "phrase": "hay-OK",
+      "skill": "Tiptoeing",
+      "goal": "Volleyball player",
+      "fear": "Werewolf Hood",
+      "quote": "Smile, and the world smiles with you.",
+      "siblings": "Only child",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "hay-OK",
+      "song": "My Place"
+    }
+  },
+  "name": "Winnie",
+  "id": "winnie"
+}

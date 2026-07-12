@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "8-18",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "danger-shirt",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "danger-shirt",
+      "song": "K.K. Lament"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "danger-tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie",
+      "quote": "You smell like patchouli!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "danger-tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "danger-tee",
+      "song": "K.K. Lament",
+      "phrase": "hippie",
+      "skill": "Making puns",
+      "goal": "Boxer",
+      "fear": "Monster Mask",
+      "quote": "The only thing to fear is fear itself... and bees.",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "hippie",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Rocco",
+  "id": "rocco"
+}

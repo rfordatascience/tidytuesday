@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "12-21",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "straw-shirt",
+      "song": "K.K. Jongara",
+      "phrase": "quite so",
+      "skill": "Dusting",
+      "goal": "Chef",
+      "fear": "Mummy Mask",
+      "quote": "Nothing beats personal experience.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "quite so",
+      "song": "K.K. Jongara"
+    }
+  },
+  "name": "Blanche",
+  "id": "blanche"
+}

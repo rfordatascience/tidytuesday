@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "hamster",
+  "birthday": "1-30",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "folk-shirt",
+      "song": "Hypno K.K.",
+      "phrase": "powderpuff",
+      "skill": "Peeling apples",
+      "goal": "Superhero",
+      "fear": "Bug Mask",
+      "quote": "Squeak your mind, even if your voice shakes.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "powderpuff",
+      "song": "Hypno K.K."
+    }
+  },
+  "name": "Flurry",
+  "id": "flurry"
+}

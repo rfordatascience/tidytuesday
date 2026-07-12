@@ -1,0 +1,21 @@
+{
+  "id": "creepy-clock",
+  "name": "Creepy Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Creepy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

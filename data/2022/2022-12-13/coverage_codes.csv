@@ -1,0 +1,6 @@
+coverage_code,coverage
+A,non-imputed coverage is less than 10% of the state/NAICS total.
+B,non-imputed coverage is greater than or equal to 10% and less than 25% of the state/NAICS total
+C,non-imputed coverage is greater than or equal to 25% and less than 50% of the state/NAICS total
+D,non-imputed coverage is greater than or equal to 50% of the state/NAICS total.
+S,Suppressed due to data quality concerns

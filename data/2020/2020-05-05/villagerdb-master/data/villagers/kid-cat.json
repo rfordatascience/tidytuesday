@@ -1,0 +1,51 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "8-1",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "Go K.K. Rider!"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst",
+      "quote": "Spandex is the best disguise."
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "no-1-shirt",
+      "song": "Go K.K. Rider!",
+      "phrase": "psst",
+      "fear": "Ghost Mask",
+      "quote": "Crime doesn't pay!",
+      "skill": "Sprinting",
+      "goal": "Superhero",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "psst",
+      "song": "Go K.K. Rider!"
+    }
+  },
+  "name": "Kid Cat",
+  "id": "kid-cat"
+}

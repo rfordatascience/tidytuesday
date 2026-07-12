@@ -1,0 +1,20 @@
+{
+  "id": "simple-accent-socks",
+  "name": "Simple-accent Socks",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 180
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 720
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

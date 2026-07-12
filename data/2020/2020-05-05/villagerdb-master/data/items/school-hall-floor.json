@@ -1,0 +1,25 @@
+{
+  "id": "school-hall-floor",
+  "name": "School-hall Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "rvs": [
+        "raddle",
+        "rover"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

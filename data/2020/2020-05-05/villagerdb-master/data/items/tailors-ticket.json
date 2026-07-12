@@ -1,0 +1,13 @@
+{
+  "id": "tailors-ticket",
+  "name": "Tailors Ticket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  },
+  "category": "Usables"
+}

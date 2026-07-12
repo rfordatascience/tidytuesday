@@ -1,0 +1,14 @@
+{
+  "id": "ikada-trophy",
+  "name": "Ikada Trophy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Obtain high scores in all levels in Desert Island Escape"
+      ]
+    }
+  }
+}

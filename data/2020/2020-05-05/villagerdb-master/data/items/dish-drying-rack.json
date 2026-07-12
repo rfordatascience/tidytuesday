@@ -1,0 +1,20 @@
+{
+  "id": "dish-drying-rack",
+  "name": "Dish-drying Rack",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 132
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 530
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

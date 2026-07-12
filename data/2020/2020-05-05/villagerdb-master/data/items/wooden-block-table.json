@@ -1,0 +1,19 @@
+{
+  "id": "wooden-block-table",
+  "name": "Wooden-block Table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1320
+      },
+      "recipe": {
+        "wooden-block-toy": 1,
+        "softwood": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "iron-closet",
+  "name": "Iron Closet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 9000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 36000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

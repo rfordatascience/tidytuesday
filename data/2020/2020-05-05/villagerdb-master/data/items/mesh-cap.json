@@ -1,0 +1,23 @@
+{
+  "id": "mesh-cap",
+  "name": "Mesh Cap",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook shopping"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

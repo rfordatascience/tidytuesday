@@ -1,0 +1,20 @@
+{
+  "id": "creepy-wall",
+  "name": "Creepy Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "wobbling-zipper-toy",
+  "name": "Wobbling Zipper Toy",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 9600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 38400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "koala",
+  "birthday": "4-12",
+  "games": {
+    "ww": {
+      "personality": "normal",
+      "clothes": "green-stripe-tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty",
+      "quote": "You're my new best bud!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "green-stripe-tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "green-stripe-tank",
+      "song": "K.K. Ragtime",
+      "phrase": "toasty",
+      "skill": "Shadow puppetry",
+      "goal": "Professor",
+      "fear": "Mummy Mask",
+      "quote": "A friend who shares is a friend who cares.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "toasty",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Melba",
+  "id": "melba"
+}

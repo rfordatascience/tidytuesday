@@ -1,0 +1,19 @@
+{
+  "id": "botanical-tee",
+  "name": "Botanical Tee",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

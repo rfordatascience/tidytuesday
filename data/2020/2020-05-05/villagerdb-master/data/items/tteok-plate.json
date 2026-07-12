@@ -1,0 +1,29 @@
+{
+  "id": "tteok-plate",
+  "name": "Tteok Plate",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "DLC (KOR)"
+      ],
+      "rvs": [
+        "wade"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

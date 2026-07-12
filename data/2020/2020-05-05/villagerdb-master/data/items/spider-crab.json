@@ -1,0 +1,17 @@
+{
+  "id": "spider-crab",
+  "name": "Spider Crab",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

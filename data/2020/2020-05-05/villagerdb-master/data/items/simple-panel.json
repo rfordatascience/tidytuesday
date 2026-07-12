@@ -1,0 +1,33 @@
+{
+  "id": "simple-panel",
+  "name": "Simple Panel",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "spike",
+        "timmy-tommy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 202
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 810
+        }
+      ]
+    }
+  }
+}

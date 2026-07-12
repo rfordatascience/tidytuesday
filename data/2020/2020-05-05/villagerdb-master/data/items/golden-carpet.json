@@ -1,0 +1,21 @@
+{
+  "id": "golden-carpet",
+  "name": "Golden Carpet",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "set": "Golden",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ]
+    }
+  }
+}

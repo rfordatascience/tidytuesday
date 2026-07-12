@@ -1,0 +1,19 @@
+{
+  "id": "labelle-coat",
+  "name": "Labelle Coat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 975
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3900
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ironwood-kitchenette",
+  "name": "Ironwood Kitchenette",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7560
+      },
+      "recipe": {
+        "wood": 4,
+        "iron-nugget": 3,
+        "ironwood-dresser": 1,
+        "cutting-board": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

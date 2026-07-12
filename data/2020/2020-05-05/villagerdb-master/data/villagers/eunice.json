@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "4-3",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "red-grid-shirt",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "red-grid-shirt",
+      "song": "K.K. Waltz"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "red-grid-tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "red-grid-tee",
+      "song": "K.K. Waltz",
+      "phrase": "lambchop",
+      "skill": "Dusting",
+      "goal": "Hair stylist",
+      "fear": "Werewolf Hood",
+      "quote": "There is a point to every encounter.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "lambchop",
+      "song": "K.K. Waltz"
+    }
+  },
+  "name": "Eunice",
+  "id": "eunice"
+}

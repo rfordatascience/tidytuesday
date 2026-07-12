@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "6-12",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "chefs-outfit",
+      "song": "K.K. Swing",
+      "phrase": "eekers"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "chefs-outfit",
+      "song": "K.K. Swing",
+      "phrase": "eekers",
+      "skill": "Forgetting stuff",
+      "goal": "Chef",
+      "fear": "Ghost Mask",
+      "quote": "No time like the present!",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "eekers",
+      "song": "K.K. Swing"
+    }
+  },
+  "name": "Bettina",
+  "id": "bettina"
+}

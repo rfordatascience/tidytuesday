@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "3-24",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "spring-shirt",
+      "song": "Forest Life",
+      "phrase": "airmail",
+      "skill": "Chopping vegetables",
+      "goal": "Pastry chef",
+      "fear": "Mummy Mask",
+      "quote": "Love makes the world go 'round.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "airmail",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Skye",
+  "id": "skye"
+}

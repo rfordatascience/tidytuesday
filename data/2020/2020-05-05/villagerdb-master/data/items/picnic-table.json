@@ -1,0 +1,31 @@
+{
+  "id": "picnic-table",
+  "name": "Picnic Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Mossy Garden",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 348
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "booker"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1392
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bluegill",
+  "name": "Bluegill",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Small Shadows on River, All Year (9am-4pm)",
+        "South: Small Shadows on River, All Year (9am-4pm)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 180
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "white-carnation",
+  "name": "White Carnation",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Hybrid - From Red and Pink Carnation."
+      ]
+    }
+  }
+}

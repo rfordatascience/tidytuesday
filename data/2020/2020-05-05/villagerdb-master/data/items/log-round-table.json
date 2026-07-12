@@ -1,0 +1,18 @@
+{
+  "id": "log-round-table",
+  "name": "Log Round Table",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "recipe": {
+        "hardwood": 15
+      }
+    }
+  },
+  "category": "Furniture"
+}

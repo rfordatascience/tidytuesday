@@ -1,0 +1,30 @@
+{
+  "id": "pitfall-seed",
+  "name": "Pitfall Seed",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      },
+      "sources": [
+        "Dig spot",
+        "Police Station (lost and found)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "recipe": {
+        "clump-of-weeds": 4,
+        "tree-branch": 6
+      }
+    }
+  }
+}

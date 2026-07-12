@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "9-16",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "mod-top",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "mod-top",
+      "song": "K.K. Ballad"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn"
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "lite-polka-tee",
+      "song": "K.K. Ballad",
+      "phrase": "greenhorn",
+      "skill": "Juggling",
+      "goal": "Singer",
+      "fear": "Bug Mask",
+      "quote": "Beauty is pain!",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "greenhorn",
+      "song": "K.K. Ballad"
+    }
+  },
+  "name": "Ed",
+  "id": "ed"
+}

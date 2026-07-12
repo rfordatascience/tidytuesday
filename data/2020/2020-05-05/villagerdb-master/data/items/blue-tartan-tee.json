@@ -1,0 +1,26 @@
+{
+  "id": "blue-tartan-tee",
+  "name": "Blue Tartan Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 98
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 392
+        }
+      ]
+    }
+  }
+}

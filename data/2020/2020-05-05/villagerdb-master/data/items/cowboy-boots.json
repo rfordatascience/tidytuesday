@@ -1,0 +1,43 @@
+{
+  "id": "cowboy-boots",
+  "name": "Cowboy Boots",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Cowboy Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4000
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 595
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2380
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sweets-player",
+  "name": "Sweets Player",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

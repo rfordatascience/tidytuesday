@@ -1,0 +1,25 @@
+{
+  "id": "manga-library-wall",
+  "name": "Manga-library Wall",
+  "games": {
+    "nh": {
+      "sources": [
+        "Balloon (recipe)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1050
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4200
+        }
+      ],
+      "recipe": {
+        "magazine": 10
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

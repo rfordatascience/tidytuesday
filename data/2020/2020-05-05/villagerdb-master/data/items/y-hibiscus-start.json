@@ -1,0 +1,19 @@
+{
+  "id": "y-hibiscus-start",
+  "name": "Y.-hibiscus Start",
+  "category": "Trees",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

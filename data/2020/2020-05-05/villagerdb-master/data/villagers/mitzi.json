@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "9-25",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "patchwork-top",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "patchwork-top",
+      "song": "K.K. Swing"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Swing",
+      "phrase": "mew",
+      "quote": "Sometimes I think I'm the only sane one around."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Swing",
+      "phrase": "mew"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Swing",
+      "phrase": "mew",
+      "skill": "Hula dancing",
+      "goal": "Lawyer",
+      "fear": "Bug Mask",
+      "quote": "Practice makes purrrfect!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "mew",
+      "song": "K.K. Swing"
+    }
+  },
+  "name": "Mitzi",
+  "id": "mitzi"
+}

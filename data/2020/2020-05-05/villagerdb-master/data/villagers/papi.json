@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "1-10",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "speedway-tee",
+      "song": "Hypno K.K.",
+      "phrase": "haaay",
+      "skill": "Ventriloquism",
+      "goal": "Cartoonist",
+      "fear": "Skeleton Hood",
+      "quote": "Never say neigh.",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "haaay",
+      "song": "Hypno K.K."
+    }
+  },
+  "name": "Papi",
+  "id": "papi"
+}

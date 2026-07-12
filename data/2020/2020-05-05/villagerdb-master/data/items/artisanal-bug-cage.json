@@ -1,0 +1,19 @@
+{
+  "id": "artisanal-bug-cage",
+  "name": "Artisanal Bug Cage",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

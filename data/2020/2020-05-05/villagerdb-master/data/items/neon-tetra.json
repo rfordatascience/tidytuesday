@@ -1,0 +1,24 @@
+{
+  "id": "neon-tetra",
+  "name": "Neon Tetra",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  }
+}

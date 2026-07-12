@@ -1,0 +1,25 @@
+{
+  "id": "varia-suit-pants",
+  "name": "Varia Suit Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "set": "Bounty Hunter Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #42"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "creepy-crystal",
+  "name": "Creepy Crystal",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Creepy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "sources": [
+        "Jack (Halloween)"
+      ]
+    }
+  }
+}

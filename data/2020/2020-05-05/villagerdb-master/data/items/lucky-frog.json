@@ -1,0 +1,27 @@
+{
+  "id": "lucky-frog",
+  "name": "Lucky Frog",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Zen",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 338
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1352
+        }
+      ]
+    }
+  }
+}

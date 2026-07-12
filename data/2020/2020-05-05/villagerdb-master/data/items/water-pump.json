@@ -1,0 +1,19 @@
+{
+  "id": "water-pump",
+  "name": "Water Pump",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2700
+      },
+      "recipe": {
+        "iron-nugget": 2,
+        "clay": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

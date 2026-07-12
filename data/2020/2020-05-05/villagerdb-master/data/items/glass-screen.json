@@ -1,0 +1,25 @@
+{
+  "id": "glass-screen",
+  "name": "Glass Screen",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "rvs": [
+        "cashmere",
+        "kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

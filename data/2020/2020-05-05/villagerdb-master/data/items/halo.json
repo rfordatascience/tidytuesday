@@ -1,0 +1,42 @@
+{
+  "id": "halo",
+  "name": "Halo",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 555
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2220
+        }
+      ]
+    }
+  }
+}

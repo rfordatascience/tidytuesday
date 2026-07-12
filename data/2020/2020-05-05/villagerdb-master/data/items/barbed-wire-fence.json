@@ -1,0 +1,19 @@
+{
+  "id": "barbed-wire-fence",
+  "name": "Barbed-wire Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 198
+      },
+      "recipe": {
+        "hardwood": 4,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

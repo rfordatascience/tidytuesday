@@ -1,0 +1,19 @@
+{
+  "id": "puffy-vest",
+  "name": "Puffy Vest",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 312
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1250
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

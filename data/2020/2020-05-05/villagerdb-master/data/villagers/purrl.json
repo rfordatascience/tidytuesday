@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "5-29",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "moody-blue-shirt",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Swing"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "periwinkle-tee",
+      "song": "K.K. Swing",
+      "phrase": "kitten",
+      "quote": "You don't mind if I use your bed to sharpen my claws, do you?"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "periwinkle-tee",
+      "song": "K.K. Swing",
+      "phrase": "kitten"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "periwinkle-tee",
+      "song": "K.K. Swing",
+      "phrase": "kitten",
+      "skill": "Writing backward",
+      "goal": "Movie director",
+      "fear": "Monster Mask",
+      "quote": "Let them drink cream.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "kitten",
+      "song": "K.K. Swing"
+    }
+  },
+  "name": "Purrl",
+  "id": "purrl"
+}

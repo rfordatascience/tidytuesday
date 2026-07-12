@@ -1,0 +1,19 @@
+{
+  "id": "jester-costume",
+  "name": "Jester Costume",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

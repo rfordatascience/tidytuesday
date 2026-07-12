@@ -1,0 +1,19 @@
+{
+  "id": "hickory-stripe-pants",
+  "name": "Hickory-stripe Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1560
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cosmos-crown",
+  "name": "Cosmos Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

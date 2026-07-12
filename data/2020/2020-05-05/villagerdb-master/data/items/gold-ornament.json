@@ -1,0 +1,13 @@
+{
+  "id": "gold-ornament",
+  "name": "Gold Ornament",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      }
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bunny-day-wand",
+  "name": "Bunny Day Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 11100
+      }
+    }
+  },
+  "category": "Tools"
+}

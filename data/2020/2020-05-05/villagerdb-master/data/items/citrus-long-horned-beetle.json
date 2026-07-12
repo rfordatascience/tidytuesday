@@ -1,0 +1,17 @@
+{
+  "id": "citrus-long-horned-beetle",
+  "name": "Citrus Long-horned Beetle",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "On stumps (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      }
+    }
+  },
+  "category": "Bugs"
+}

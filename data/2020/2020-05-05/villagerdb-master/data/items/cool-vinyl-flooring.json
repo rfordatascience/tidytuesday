@@ -1,0 +1,19 @@
+{
+  "id": "cool-vinyl-flooring",
+  "name": "Cool Vinyl Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 287
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1150
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

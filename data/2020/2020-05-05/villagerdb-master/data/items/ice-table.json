@@ -1,0 +1,21 @@
+{
+  "id": "ice-table",
+  "name": "Ice Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Ice",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowmam"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "silver-bug-trophy",
+  "name": "Silver Bug Trophy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "Bug Off"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 425
+      }
+    }
+  }
+}

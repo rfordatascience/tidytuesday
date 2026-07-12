@@ -1,0 +1,22 @@
+{
+  "id": "rolling-closet",
+  "name": "Rolling Closet",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cashmere",
+        "copper",
+        "tasha"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

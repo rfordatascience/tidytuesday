@@ -1,0 +1,24 @@
+{
+  "id": "desktop-mic",
+  "name": "Desktop Mic",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

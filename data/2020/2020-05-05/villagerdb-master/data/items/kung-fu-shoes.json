@@ -1,0 +1,19 @@
+{
+  "id": "kung-fu-shoes",
+  "name": "Kung-fu Shoes",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 315
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1260
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

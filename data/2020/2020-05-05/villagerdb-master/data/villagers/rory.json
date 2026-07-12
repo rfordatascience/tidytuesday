@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "8-7",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "periwinkle-tee",
+      "song": "K.K. Faire",
+      "phrase": "capital",
+      "skill": "Tiptoeing",
+      "goal": "Firefighter",
+      "fear": "Ghost Mask",
+      "quote": "Set 'em up and knock 'em down.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "capital",
+      "song": "K.K. Faire"
+    }
+  },
+  "name": "Rory",
+  "id": "rory"
+}

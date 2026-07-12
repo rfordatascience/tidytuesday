@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-8",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "sunset-top",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "sunset-top",
+      "song": "K.K. Mambo"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "sunset-tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep",
+      "quote": "Think about it, man. Bullfrog is only one letter away from blue frog."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "sunset-tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "sunset-tee",
+      "song": "K.K. Mambo",
+      "phrase": "nee-deep",
+      "skill": "Hitting snooze",
+      "goal": "Writer",
+      "fear": "Monster Mask",
+      "quote": "Sleep before you leap.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "nee-deep",
+      "song": "K.K. Mambo"
+    }
+  },
+  "name": "Jeremiah",
+  "id": "jeremiah"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "fire-pit",
+  "name": "Fire Pit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 24000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 96000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

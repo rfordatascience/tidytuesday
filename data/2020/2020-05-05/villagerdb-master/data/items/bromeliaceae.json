@@ -1,0 +1,27 @@
+{
+  "id": "bromeliaceae",
+  "name": "Bromeliaceae",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "House Plant",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "sources": [
+        "Gardening Store (TIY)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  }
+}

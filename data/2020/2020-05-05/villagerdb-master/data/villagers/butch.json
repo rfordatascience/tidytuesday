@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-1",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "houndstooth-knit",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "houndstooth-knit",
+      "song": "K.K. Fusion"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "arctic-camo-tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF",
+      "quote": "I'm watching you!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "arctic-camo-tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "arctic-camo-tee",
+      "song": "K.K. Fusion",
+      "phrase": "ROOOOOWF",
+      "skill": "Air guitar",
+      "goal": "Race car driver",
+      "fear": "Monster Mask",
+      "quote": "A house without either a cat or a dog is a sad house indeed.",
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "ROOOOOWF",
+      "song": "K.K. Fusion"
+    }
+  },
+  "name": "Butch",
+  "id": "butch"
+}

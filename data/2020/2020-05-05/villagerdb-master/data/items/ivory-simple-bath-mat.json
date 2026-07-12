@@ -1,0 +1,19 @@
+{
+  "id": "ivory-simple-bath-mat",
+  "name": "Ivory Simple Bath Mat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

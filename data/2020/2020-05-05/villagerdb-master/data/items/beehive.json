@@ -1,0 +1,17 @@
+{
+  "id": "beehive",
+  "name": "Beehive",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Shaking trees"
+      ]
+    }
+  }
+}

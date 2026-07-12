@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "7-19",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "watermelon-shirt",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "watermelon-shirt",
+      "song": "K.K. Technopop"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "watermelon-tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet",
+      "quote": "Coming soon to a billboard near you!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "watermelon-tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "watermelon-tee",
+      "song": "K.K. Technopop",
+      "phrase": "niblet",
+      "skill": "Juggling",
+      "goal": "Journalist",
+      "fear": "Bug Mask",
+      "quote": "Appearances are, like, totally deceiving.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "niblet",
+      "song": "K.K. Technopop"
+    }
+  },
+  "name": "Nibbles",
+  "id": "nibbles"
+}

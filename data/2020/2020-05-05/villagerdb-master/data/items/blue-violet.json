@@ -1,0 +1,17 @@
+{
+  "id": "blue-violet",
+  "name": "Blue Violet",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Hybrid - From Purple and White Violets."
+      ]
+    }
+  }
+}

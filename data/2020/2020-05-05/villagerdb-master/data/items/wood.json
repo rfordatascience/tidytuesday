@@ -1,0 +1,17 @@
+{
+  "id": "wood",
+  "name": "Wood",
+  "category": "Usables",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hitting trees with an axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "autumn-wall",
+  "name": "Autumn Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "sources": [
+        "Saharah"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4700
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 18800
+        }
+      ]
+    }
+  }
+}

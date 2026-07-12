@@ -1,0 +1,24 @@
+{
+  "id": "heros-clothes",
+  "name": "Hero's Clothes",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Hero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #3"
+      ]
+    }
+  }
+}

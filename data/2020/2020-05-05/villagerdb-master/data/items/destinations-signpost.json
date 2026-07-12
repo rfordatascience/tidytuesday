@@ -1,0 +1,19 @@
+{
+  "id": "destinations-signpost",
+  "name": "Destinations Signpost",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1440
+      },
+      "recipe": {
+        "hardwood": 4,
+        "softwood": 8
+      }
+    }
+  },
+  "category": "Furniture"
+}

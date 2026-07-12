@@ -1,0 +1,23 @@
+{
+  "id": "cooler-box",
+  "name": "Cooler Box",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 425
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1700
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

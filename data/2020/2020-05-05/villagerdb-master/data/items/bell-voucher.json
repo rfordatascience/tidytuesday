@@ -1,0 +1,13 @@
+{
+  "id": "bell-voucher",
+  "name": "Bell Voucher",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      }
+    }
+  },
+  "category": "Usables"
+}

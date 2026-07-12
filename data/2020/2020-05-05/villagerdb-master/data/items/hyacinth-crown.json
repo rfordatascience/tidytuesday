@@ -1,0 +1,19 @@
+{
+  "id": "hyacinth-crown",
+  "name": "Hyacinth Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 640
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2560
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

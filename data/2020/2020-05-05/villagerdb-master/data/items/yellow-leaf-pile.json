@@ -1,0 +1,19 @@
+{
+  "id": "yellow-leaf-pile",
+  "name": "Yellow-leaf Pile",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

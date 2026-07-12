@@ -1,0 +1,23 @@
+{
+  "id": "town-hall-winter-top",
+  "name": "Town-hall Winter Top",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "isabelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cypress-bathtub",
+  "name": "Cypress Bathtub",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 13000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

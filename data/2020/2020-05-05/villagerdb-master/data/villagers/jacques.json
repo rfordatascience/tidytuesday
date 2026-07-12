@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "6-22",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "red-flannel-shirt",
+      "song": "K.K. House",
+      "phrase": "zut alors",
+      "skill": "Beat boxing",
+      "goal": "Singer",
+      "fear": "Bug Mask",
+      "quote": "Better to have loved and squawked than to have never loved at all.",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "zut alors",
+      "song": "K.K. House"
+    }
+  },
+  "name": "Jacques",
+  "id": "jacques"
+}

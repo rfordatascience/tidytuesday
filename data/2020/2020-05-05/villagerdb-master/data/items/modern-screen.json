@@ -1,0 +1,35 @@
+{
+  "id": "modern-screen",
+  "name": "Modern Screen",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 288
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "wade"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1152
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

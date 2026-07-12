@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-3",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "floral-knit",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "floral-knit",
+      "song": "Two Days Ago"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr",
+      "quote": "You're the best kind of friend because you make me look even prettier."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "floral-knit-tee",
+      "song": "Two Days Ago",
+      "phrase": "purrr",
+      "skill": "Brainteasers",
+      "goal": "Drummer",
+      "fear": "Monster Mask",
+      "quote": "There's an exception to every rule.",
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "purrr",
+      "song": "Two Days Ago"
+    }
+  },
+  "name": "Olivia",
+  "id": "olivia"
+}

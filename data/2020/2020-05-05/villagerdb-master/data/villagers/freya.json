@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "wolf",
+  "birthday": "12-14",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "deer-shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "deer-shirt",
+      "song": "Rockin' K.K."
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "deer-shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "deer-shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "uff da",
+      "skill": "Peeling apples",
+      "goal": "Judge",
+      "fear": "Bug Mask",
+      "quote": "Don't stray too far from the pack.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "uff da",
+      "song": "Rockin' K.K."
+    }
+  },
+  "name": "Freya",
+  "id": "freya"
+}

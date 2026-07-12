@@ -1,0 +1,17 @@
+{
+  "id": "silver-net",
+  "name": "Silver Net",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Museum Shop (after donating 30 or more insects)"
+      ]
+    }
+  }
+}

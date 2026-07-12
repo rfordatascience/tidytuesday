@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "anteater",
+  "birthday": "11-9",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "subdued-print",
+      "song": "K.K. Casbah",
+      "phrase": "snooooof"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "subdued-print",
+      "song": "K.K. Casbah"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Casbah",
+      "phrase": "snooooof",
+      "quote": "Now you can say you knew me when!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Casbah",
+      "phrase": "snooooof"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Casbah",
+      "phrase": "snooooof",
+      "skill": "Tongue twisters",
+      "goal": "Aesthetician",
+      "fear": "Ghost Mask",
+      "quote": "A thing of beauty is a joy forever!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "snooooof",
+      "song": "K.K. Casbah"
+    }
+  },
+  "name": "Pango",
+  "id": "pango"
+}

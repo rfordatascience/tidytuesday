@@ -1,0 +1,24 @@
+{
+  "id": "metal-flagpole",
+  "name": "Metal Flagpole",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

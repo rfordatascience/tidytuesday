@@ -1,0 +1,14 @@
+{
+  "id": "fish-wand",
+  "name": "Fish Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      }
+    }
+  },
+  "category": "Tools"
+}

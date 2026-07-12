@@ -1,0 +1,20 @@
+{
+  "id": "wood-burning-stove",
+  "name": "Wood-burning Stove",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

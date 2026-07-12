@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "1-14",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "cool-shirt",
+      "song": "K.K. Etude",
+      "phrase": "blih"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "cool-shirt",
+      "song": "K.K. Etude"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "swell-tee",
+      "song": "K.K. Etude",
+      "phrase": "blih",
+      "skill": "Speed-reading",
+      "goal": "Lawyer",
+      "fear": "Bug Mask",
+      "quote": "Work smarter, not harder.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "blih",
+      "song": "K.K. Etude"
+    }
+  },
+  "name": "Velma",
+  "id": "velma"
+}

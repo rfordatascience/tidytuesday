@@ -1,0 +1,19 @@
+{
+  "id": "monochromatic-tile-flooring",
+  "name": "Monochromatic Tile Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 405
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1620
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

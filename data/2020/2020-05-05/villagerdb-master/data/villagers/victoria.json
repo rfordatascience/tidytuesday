@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "horse",
+  "birthday": "7-11",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "racer-6-shirt",
+      "song": "K.K. Country"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "one-ball-tee",
+      "song": "K.K. Country",
+      "phrase": "sugar cube",
+      "quote": "CATERWAULING CARROT CAKE!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "one-ball-tee",
+      "song": "K.K. Country",
+      "phrase": "sugar cube"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "one-ball-tee",
+      "song": "K.K. Country",
+      "phrase": "sugar cube",
+      "fear": "Werewolf Hood",
+      "quote": "Don't put the cart before the horse.",
+      "skill": "Playing horseshoes",
+      "goal": "Marathon runner",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "sugar cube",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Victoria",
+  "id": "victoria"
+}

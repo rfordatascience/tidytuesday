@@ -1,0 +1,38 @@
+{
+  "id": "cherry-blossom-clock",
+  "name": "Cherry-blossom Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1040
+      },
+      "sources": [
+        "DLC"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4160
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2750
+      },
+      "recipe": {
+        "cherry-blossom-petal": 5,
+        "iron-nugget": 1
+      }
+    }
+  }
+}

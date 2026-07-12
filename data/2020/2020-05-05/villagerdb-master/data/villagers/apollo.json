@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "7-4",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Rock",
+      "phrase": "pah"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Rock"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Rock",
+      "phrase": "pah",
+      "quote": "I'm not bald! I've just got fine feathers, that's all!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Rock",
+      "phrase": "pah"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "zipper-shirt",
+      "song": "K.K. Rock",
+      "phrase": "pah",
+      "skill": "Staying up late",
+      "goal": "Pilot",
+      "fear": "Ghost Mask",
+      "quote": "What goes up must come down.",
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "pah",
+      "song": "K.K. Rock"
+    }
+  },
+  "name": "Apollo",
+  "id": "apollo"
+}

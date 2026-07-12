@@ -1,0 +1,20 @@
+{
+  "id": "glass-holder-with-candle",
+  "name": "Glass Holder With Candle",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 87
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 350
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

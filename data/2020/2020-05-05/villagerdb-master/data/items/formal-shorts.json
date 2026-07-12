@@ -1,0 +1,19 @@
+{
+  "id": "formal-shorts",
+  "name": "Formal Shorts",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 840
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

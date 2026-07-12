@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "10-29",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "beatnik-tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps",
+      "quote": "Zzzzzzzzzzzzzzzzz..."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "beatnik-tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "beatnik-tee",
+      "song": "Stale Cupcakes",
+      "phrase": "chaps",
+      "skill": "Spoon bending",
+      "goal": "Astronaut",
+      "fear": "Ghost Mask",
+      "quote": "Zzzzzzzzzzzzzzzzz...",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "chaps",
+      "song": "Stale Cupcakes"
+    }
+  },
+  "name": "Rodeo",
+  "id": "rodeo"
+}

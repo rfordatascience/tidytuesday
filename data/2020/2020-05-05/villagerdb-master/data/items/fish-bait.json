@@ -1,0 +1,18 @@
+{
+  "id": "fish-bait",
+  "name": "Fish Bait",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "recipe": {
+        "manila-clam": 1
+      }
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,24 @@
+title: "Timely and Effective Care by US State"
+article:
+  title: "Mapped: Emergency Room Visit Times by State"
+  url: "https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/"
+data_source:
+  title: "Centers for Medicare & Medicaid Services"
+  url: "https://data.cms.gov/provider-data/dataset/apyc-v239"
+images:
+# Please include at least one image, and up to three images
+- file: "visits.png"
+  alt: >
+    Infographic titled 'Emergency Room Visit Times by State' from the Visual
+    Capitalist, showing a map of the U.S. with each state color-coded based on
+    average ER visit times, ranging from 1 hour 50 minutes for North Dakota to 5
+    hours 14 minutes for the District of Colombia. At the top, diverse
+    individuals are seated in a waiting room. The source is the U.S. Centers for
+    Medicare & Medicaid Services, 2024. More details about the graphic are
+    available at https://www.voronoiapp.com/healthcare/People-in-DC-Spend-Over-5-Hours-On-Average-In-the-Emergency-Room--3590
+credit:
+  post: "Jon Harmon, Data Science Learning Community"
+  github: "@jonthegeek"
+  bluesky: "@jonthegeek.com"
+  linkedin: "@jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"

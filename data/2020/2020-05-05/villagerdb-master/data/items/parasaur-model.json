@@ -1,0 +1,23 @@
+{
+  "id": "parasaur-model",
+  "name": "Parasaur Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 9000
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3600
+        }
+      ]
+    }
+  }
+}

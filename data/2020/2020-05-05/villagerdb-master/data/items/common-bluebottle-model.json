@@ -1,0 +1,13 @@
+{
+  "id": "common-bluebottle-model",
+  "name": "Common Bluebottle Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cherry-lamp",
+  "name": "Cherry Lamp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "recipe": {
+        "cherry": 10,
+        "clay": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "5-19",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "matadors-jacket",
+      "song": "K.K. Milonga",
+      "phrase": "whiffa",
+      "skill": "Dancing",
+      "goal": "Dancer",
+      "fear": "Monster Mask",
+      "quote": "Keep your nose clean.",
+      "siblings": "Older twin",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "whiffa",
+      "song": "K.K. Milonga"
+    }
+  },
+  "name": "Olaf",
+  "id": "olaf"
+}

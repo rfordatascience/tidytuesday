@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "hippo",
+  "birthday": "10-6",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "funky-dot-shirt",
+      "song": "K.K. Disco",
+      "phrase": "my dear"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "funky-dot-shirt",
+      "song": "K.K. Disco"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "funky-dot-tee",
+      "song": "K.K. Disco",
+      "phrase": "my dear",
+      "skill": "Stomping around",
+      "goal": "Designer",
+      "fear": "Ghost Mask",
+      "quote": "Necessity is the mother of all the invention.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "my dear",
+      "song": "K.K. Disco"
+    }
+  },
+  "name": "Bitty",
+  "id": "bitty"
+}

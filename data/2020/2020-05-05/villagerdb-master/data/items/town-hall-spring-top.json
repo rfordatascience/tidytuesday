@@ -1,0 +1,23 @@
+{
+  "id": "town-hall-spring-top",
+  "name": "Town-hall Spring Top",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "isabelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

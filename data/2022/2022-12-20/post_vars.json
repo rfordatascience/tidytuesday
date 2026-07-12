@@ -1,0 +1,5 @@
+{
+  "article_link": "https://github.com/speegled/weather_forecasts",
+  "pic1_alt": "A scatter plot of observed temperatures vs forecast temperatures. Points with possible errors are highlighted, with the problem variable (observed temperature, forecast temperature, or forecast outlook) indicated by color. Most points lie alone the x = y diagonal.",
+  "pic2_alt": "A map of the mean high temperature forecast error for the continental United States. Colors range from yellow (an error of about 1 degree Fahrenheit) through red (an error of about 3 degrees Fahrenheit). Cities in the dataset are indicated with points. The highest errors are in the Great Plains area in the middle of the map. The lowest errors are in Arizona and Florida."
+}

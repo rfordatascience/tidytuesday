@@ -1,0 +1,19 @@
+{
+  "id": "lacy-dress",
+  "name": "Lacy Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 380
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1520
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

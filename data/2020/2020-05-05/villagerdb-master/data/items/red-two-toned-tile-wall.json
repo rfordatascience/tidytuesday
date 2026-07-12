@@ -1,0 +1,19 @@
+{
+  "id": "red-two-toned-tile-wall",
+  "name": "Red Two-toned Tile Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 462
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1850
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

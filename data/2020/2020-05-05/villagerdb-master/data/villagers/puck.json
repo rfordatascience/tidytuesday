@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "2-21",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "bb-shirt",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "bb-shirt",
+      "song": "K.K. Casbah"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "bb-tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "bb-tee",
+      "song": "K.K. Casbah",
+      "phrase": "brrrrrrrrr",
+      "skill": "Doing handstands",
+      "goal": "Superhero",
+      "fear": "Werewolf Hood",
+      "quote": "A bad attitude will land you in the penalty box.",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "brrrrrrrrr",
+      "song": "K.K. Casbah"
+    }
+  },
+  "name": "Puck",
+  "id": "puck"
+}

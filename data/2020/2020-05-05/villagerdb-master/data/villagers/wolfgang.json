@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "11-25",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "gracies-top",
+      "song": "K.K. Song",
+      "phrase": "snarrrl"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "gracies-top",
+      "song": "K.K. Song"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "gracie-tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl",
+      "quote": "I could eat you for breakfast, short stack!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "gracie-tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "gracie-tank",
+      "song": "K.K. Song",
+      "phrase": "snarrrl",
+      "skill": "Memorizing stuff",
+      "goal": "Journalist",
+      "fear": "Werewolf Hood",
+      "quote": "Don't be afraid to show your fangs.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "snarrrl",
+      "song": "K.K. Song"
+    }
+  },
+  "name": "Wolfgang",
+  "id": "wolfgang"
+}

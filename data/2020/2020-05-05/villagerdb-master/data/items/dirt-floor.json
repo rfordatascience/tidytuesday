@@ -1,0 +1,26 @@
+{
+  "id": "dirt-floor",
+  "name": "Dirt Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "rvs": [
+        "booker",
+        "boots",
+        "buzz"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

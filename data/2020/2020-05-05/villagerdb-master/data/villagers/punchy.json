@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "cat",
+  "birthday": "4-11",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "cherry-shirt",
+      "song": "K.K. Love Song",
+      "phrase": "mrmpht"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "song": "K.K. Love Song",
+      "clothes": "cherry-shirt"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "gray-tartan-tee",
+      "song": "K.K. Love Song",
+      "phrase": "mrmpht",
+      "quote": "Turn the other cheek."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "gray-tartan-tee",
+      "song": "K.K. Love Song",
+      "phrase": "mrmpht"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "gray-tartan-tee",
+      "song": "K.K. Love Song",
+      "phrase": "mrmpht",
+      "fear": "Monster Mask",
+      "quote": "There's always more fish in the sea!",
+      "skill": "Staying awake",
+      "goal": "Cartoonist",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "mrmpht",
+      "song": "K.K. Love Song"
+    }
+  },
+  "name": "Punchy",
+  "id": "punchy"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "zodiac-boar",
+  "name": "Zodiac Boar",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "New Year's (Isabelle)"
+      ],
+      "rvs": [
+        "joan"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

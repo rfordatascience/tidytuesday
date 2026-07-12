@@ -1,0 +1,43 @@
+{
+  "id": "jesters-cap",
+  "name": "Jester's Cap",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "set": "Jester Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  }
+}

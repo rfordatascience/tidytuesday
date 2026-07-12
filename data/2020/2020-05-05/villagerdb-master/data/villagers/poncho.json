@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "1-2",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "blue-grid-shirt",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "blue-grid-shirt",
+      "song": "K.K. Condor"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "blue-grid-tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear",
+      "quote": "C'mere! I wanna bench-press you!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "blue-grid-tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "blue-grid-tee",
+      "song": "K.K. Condor",
+      "phrase": "li'l bear",
+      "skill": "Making puns",
+      "goal": "Astronaut",
+      "fear": "Monster Mask",
+      "quote": "Fortune favors the brave!",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "li'l bear",
+      "song": "K.K. Condor"
+    }
+  },
+  "name": "Poncho",
+  "id": "poncho"
+}

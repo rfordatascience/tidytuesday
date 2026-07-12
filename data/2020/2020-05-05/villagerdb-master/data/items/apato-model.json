@@ -1,0 +1,23 @@
+{
+  "id": "apato-model",
+  "name": "Apato Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 13500
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5400
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "natural-lamp",
+  "name": "Natural Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "claude",
+        "isabelle",
+        "vivian"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "imperial-dining-lantern",
+  "name": "Imperial Dining Lantern",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 19000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sweets-chair",
+  "name": "Sweets Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30000
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

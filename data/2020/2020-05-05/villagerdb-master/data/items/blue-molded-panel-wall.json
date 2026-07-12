@@ -1,0 +1,23 @@
+{
+  "id": "blue-molded-panel-wall",
+  "name": "Blue Molded-panel Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 495
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1980
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

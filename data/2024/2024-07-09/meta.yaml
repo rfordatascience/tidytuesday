@@ -1,0 +1,15 @@
+title: David Robinson's TidyTuesday Functions
+article:
+  title: Network Visualizations of Code Collections
+  url: https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/
+data_source:
+  title: funspotr examples
+  url: https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv
+images:
+- file: funspotr.png
+  alt: Package hex logo for the funspotr R package. A red hexagon containing the word
+    funspotr. Below that is a file icon, which contains a magnifying glass, and a
+    table of hexagons in various colors, representing different R packages.
+- file: pkg_graph.png
+  alt: A network graph of packages used in files. Package and file nodes are densely
+    gathered at the center, with several outliers.

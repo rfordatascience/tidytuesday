@@ -1,0 +1,17 @@
+{
+  "id": "birdwing",
+  "name": "Birdwing",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "Around flowers."
+      ]
+    }
+  }
+}

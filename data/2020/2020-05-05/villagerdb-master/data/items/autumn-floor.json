@@ -1,0 +1,20 @@
+{
+  "id": "autumn-floor",
+  "name": "Autumn Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1700
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sky-egg",
+  "name": "Sky Egg",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Bunny Day (gift balloon)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hit an egg balloon with a slingshot"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  }
+}

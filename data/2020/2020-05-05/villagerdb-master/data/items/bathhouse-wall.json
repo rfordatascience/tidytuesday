@@ -1,0 +1,21 @@
+{
+  "id": "bathhouse-wall",
+  "name": "Bathhouse Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Spa",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

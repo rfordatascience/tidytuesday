@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "horse",
+  "birthday": "5-1",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "bubble-gum-tee",
+      "song": "K.K. Dixie",
+      "phrase": "clip-clawp"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "bubble-gum-tee",
+      "song": "K.K. Dixie",
+      "phrase": "clip-clawp",
+      "skill": "Pretending to sleep",
+      "goal": "Superhero",
+      "fear": "Skeleton Hood",
+      "quote": "The grass is always greener.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "clip-clawp",
+      "song": "K.K. Dixie"
+    }
+  },
+  "name": "Clyde",
+  "id": "clyde"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "leaf-egg-shell",
+  "name": "Leaf-egg Shell",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "leaf-egg": 2
+      }
+    }
+  },
+  "category": "Hats"
+}

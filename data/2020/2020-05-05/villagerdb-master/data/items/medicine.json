@@ -1,0 +1,25 @@
+{
+  "id": "medicine",
+  "name": "Medicine",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Nookling stores (T&T Mart at least)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      }
+    }
+  }
+}

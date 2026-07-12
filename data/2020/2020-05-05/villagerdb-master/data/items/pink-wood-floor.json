@@ -1,0 +1,22 @@
+{
+  "id": "pink-wood-floor",
+  "name": "Pink Wood Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "carrie",
+        "lottie",
+        "reese"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "6-3",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "vogue-top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "vogue-top",
+      "song": "Two Days Ago"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "vogue-top",
+      "song": "Two Days Ago",
+      "phrase": "bucko",
+      "quote": "Don't go nuts or anything."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "vogue-top",
+      "song": "Two Days Ago",
+      "phrase": "bucko"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "checkered-tee",
+      "song": "Two Days Ago",
+      "phrase": "bucko",
+      "skill": "Vaulting",
+      "goal": "Pilot",
+      "fear": "Werewolf Hood",
+      "quote": "Don't go nuts or anything.",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar."
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "bucko",
+      "song": "Two Days Ago"
+    }
+  },
+  "name": "Filbert",
+  "id": "filbert"
+}

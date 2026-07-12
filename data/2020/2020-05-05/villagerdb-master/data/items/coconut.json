@@ -1,0 +1,28 @@
+{
+  "id": "coconut",
+  "name": "Coconut",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Island tree"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Shaking fruit tree",
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  }
+}

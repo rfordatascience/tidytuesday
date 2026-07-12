@@ -1,0 +1,20 @@
+{
+  "id": "champions-pennant",
+  "name": "Champion's Pennant",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 975
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pan-flute",
+  "name": "Pan Flute",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2800
+      },
+      "recipe": {
+        "young-spring-bamboo": 7
+      }
+    }
+  },
+  "category": "Tools"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "brick-fence",
+  "name": "Brick Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "recipe": {
+        "clay": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

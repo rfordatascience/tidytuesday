@@ -1,0 +1,20 @@
+title: "National Highways Traffic Flow"
+article:
+  title: "National Highways"
+  url: "https://webtris.nationalhighways.co.uk/"
+data_source:
+  title: "WebTRIS Traffic Flow API"
+  url: "https://webtris.nationalhighways.co.uk/api/swagger/ui/index"
+images:
+# Please include at least one image, and up to three images
+- file: "traffic-heatmap.png"
+  alt: >
+    A heatmap of average speed of vehicles showing time of day on x-axis and day of week on y-axis for the TAME Site 30361338 during May 2021. Squares are colored from light peach to dark red with darker colors indicating higher speed. The speed scale ranges from 0 to 50 mph, and the chart shows some speed spikes in the early morning hours, and especially slow traffic on Friday afternoons.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Nicola Rennie"
+  bluesky: "https://bsky.app/profile/nrennie.bsky.social"
+  linkedin: "https://www.linkedin.com/in/nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"
+  github: "https://github.com/nrennie"

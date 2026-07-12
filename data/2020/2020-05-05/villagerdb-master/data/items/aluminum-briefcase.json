@@ -1,0 +1,35 @@
+{
+  "id": "aluminum-briefcase",
+  "name": "Aluminum Briefcase",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "5",
+        "000",
+        "000 Bells in savings account"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 100000
+        }
+      ]
+    }
+  }
+}

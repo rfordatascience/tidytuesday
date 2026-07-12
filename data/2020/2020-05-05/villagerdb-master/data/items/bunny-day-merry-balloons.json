@@ -1,0 +1,20 @@
+{
+  "id": "bunny-day-merry-balloons",
+  "name": "Bunny Day Merry Balloons",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "earth-egg": 1,
+        "leaf-egg": 1,
+        "sky-egg": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

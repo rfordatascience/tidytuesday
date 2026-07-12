@@ -1,0 +1,22 @@
+{
+  "id": "mini-dingloid",
+  "name": "Mini Dingloid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale",
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

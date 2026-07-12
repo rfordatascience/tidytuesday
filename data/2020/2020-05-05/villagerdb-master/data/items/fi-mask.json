@@ -1,0 +1,23 @@
+{
+  "id": "fi-mask",
+  "name": "Fi Mask",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #50"
+      ]
+    }
+  }
+}

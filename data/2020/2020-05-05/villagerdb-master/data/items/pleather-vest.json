@@ -1,0 +1,26 @@
+{
+  "id": "pleather-vest",
+  "name": "Pleather Vest",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1550
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6200
+        }
+      ]
+    }
+  }
+}

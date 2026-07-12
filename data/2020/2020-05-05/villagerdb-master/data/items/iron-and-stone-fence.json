@@ -1,0 +1,19 @@
+{
+  "id": "iron-and-stone-fence",
+  "name": "Iron-and-stone Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 315
+      },
+      "recipe": {
+        "stone": 6,
+        "iron-nugget": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "poncho",
+  "name": "Poncho",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Vaquero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 145
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 580
+        }
+      ]
+    }
+  }
+}

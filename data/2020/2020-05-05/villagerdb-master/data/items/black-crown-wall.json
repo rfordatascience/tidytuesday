@@ -1,0 +1,23 @@
+{
+  "id": "black-crown-wall",
+  "name": "Black-crown Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 587
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2350
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

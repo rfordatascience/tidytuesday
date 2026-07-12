@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "eagle",
+  "birthday": "11-19",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "spiderweb-shirt",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "spiderweb-shirt",
+      "song": "K.K. Condor"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "spiderweb-tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet",
+      "quote": "Pampering yourself is as important as food, water, and shelter!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "spiderweb-tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "spiderweb-tee",
+      "song": "K.K. Condor",
+      "phrase": "eaglet",
+      "skill": "Writing about pickles",
+      "goal": "Lawyer",
+      "fear": "Skeleton Hood",
+      "quote": "Pampering yourself is as important as food, water, and shelter!",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "eaglet",
+      "song": "K.K. Condor"
+    }
+  },
+  "name": "Amelia",
+  "id": "amelia"
+}

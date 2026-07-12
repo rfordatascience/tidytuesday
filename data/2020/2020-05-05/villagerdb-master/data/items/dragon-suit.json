@@ -1,0 +1,74 @@
+{
+  "id": "dragon-suit",
+  "name": "Dragon Suit",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 85
+      },
+      "sources": [
+        "Able Sisters (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 340
+        }
+      ]
+    },
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 85
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 340
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 85
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 340
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "hippo",
+  "birthday": "3-29",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "jagged-shirt",
+      "song": "The K. Funk",
+      "phrase": "squirt"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "jagged-shirt",
+      "song": "The K. Funk"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "jagged-tee",
+      "song": "The K. Funk",
+      "phrase": "squirt",
+      "skill": "Limboing",
+      "goal": "Basketball player",
+      "fear": "Ghost Mask",
+      "quote": "Eighth place is just the seventh loser.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "squirt",
+      "song": "The K. Funk"
+    }
+  },
+  "name": "Biff",
+  "id": "biff"
+}

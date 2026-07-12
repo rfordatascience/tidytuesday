@@ -1,0 +1,39 @@
+{
+  "id": "jingle-wall",
+  "name": "Jingle Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Jingle",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1224
+      },
+      "sources": [
+        "Nookling stores (12/1 through 12/23)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4896
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 10000
+        }
+      ]
+    }
+  }
+}

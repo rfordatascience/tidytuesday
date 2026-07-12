@@ -1,0 +1,30 @@
+{
+  "id": "bathroom-stall",
+  "name": "Bathroom Stall",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "resetti"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kimono",
+  "name": "Kimono",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Geisha Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 205
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 820
+        }
+      ]
+    }
+  }
+}

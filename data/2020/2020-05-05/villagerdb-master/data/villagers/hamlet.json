@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "5-30",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "big-star-tee",
+      "song": "K.K. Reggae",
+      "phrase": "hammie",
+      "skill": "Limboing",
+      "goal": "Soccer player",
+      "fear": "Monster Mask",
+      "quote": "The ear's the thing.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "hammie",
+      "song": "K.K. Reggae"
+    }
+  },
+  "name": "Hamlet",
+  "id": "hamlet"
+}

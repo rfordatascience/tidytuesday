@@ -1,0 +1,40 @@
+{
+  "id": "moon",
+  "name": "Moon",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "set": "Space",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8000
+      },
+      "sources": [
+        "Nookling stores (Spotlight)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 32000
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 50000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "marie-shoes",
+  "name": "Marie Shoes",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-Roll"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "viche"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

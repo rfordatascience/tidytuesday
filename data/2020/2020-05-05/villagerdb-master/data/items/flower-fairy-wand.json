@@ -1,0 +1,18 @@
+{
+  "id": "flower-fairy-wand",
+  "name": "Flower Fairy Wand",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Destroy at least 100 candy blocks in Candy Attack on any difficulty in Puzzle League"
+      ]
+    }
+  }
+}

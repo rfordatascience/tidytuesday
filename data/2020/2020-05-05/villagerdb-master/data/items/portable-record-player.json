@@ -1,0 +1,23 @@
+{
+  "id": "portable-record-player",
+  "name": "Portable Record Player",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

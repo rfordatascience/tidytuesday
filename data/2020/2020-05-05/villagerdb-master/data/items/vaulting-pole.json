@@ -1,0 +1,18 @@
+{
+  "id": "vaulting-pole",
+  "name": "Vaulting Pole",
+  "category": "Tools",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "recipe": {
+        "softwood": 5
+      }
+    }
+  }
+}

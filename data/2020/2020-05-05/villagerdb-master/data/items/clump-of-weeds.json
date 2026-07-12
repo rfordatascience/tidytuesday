@@ -1,0 +1,17 @@
+{
+  "id": "clump-of-weeds",
+  "name": "Clump Of Weeds",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Pick up from ground"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "red-leaf-pile",
+  "name": "Red-leaf Pile",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5120
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

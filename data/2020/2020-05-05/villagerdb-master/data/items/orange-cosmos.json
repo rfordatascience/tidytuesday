@@ -1,0 +1,28 @@
+{
+  "id": "orange-cosmos",
+  "name": "Orange Cosmos",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Hybrid - From Red and Yellow Cosmos."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Find on ground at mystery island",
+        "crossbreeding flowers"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      }
+    }
+  }
+}

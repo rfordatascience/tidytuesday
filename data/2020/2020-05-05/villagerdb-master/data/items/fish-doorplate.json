@@ -1,0 +1,19 @@
+{
+  "id": "fish-doorplate",
+  "name": "Fish Doorplate",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

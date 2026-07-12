@@ -1,0 +1,29 @@
+{
+  "id": "pumpkin-pie",
+  "name": "Pumpkin Pie",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "sources": [
+        "DLC (NA)"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

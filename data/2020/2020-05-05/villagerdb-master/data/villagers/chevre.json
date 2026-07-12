@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "3-6",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "natty-shirt",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "natty-shirt",
+      "song": "K.K. Chorale"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa",
+      "quote": "Dream a little dream."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "K.K. Chorale",
+      "phrase": "la baa",
+      "skill": "Calculating tips",
+      "goal": "Teacher",
+      "fear": "Ghost Mask",
+      "quote": "If you're gonna dream, dream big.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "la baa",
+      "song": "K.K. Chorale"
+    }
+  },
+  "name": "Chevre",
+  "id": "chevre"
+}

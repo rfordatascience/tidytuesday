@@ -1,0 +1,27 @@
+{
+  "id": "illusion-wall",
+  "name": "Illusion Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        }
+      ]
+    }
+  }
+}

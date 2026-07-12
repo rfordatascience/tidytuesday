@@ -1,0 +1,39 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "8-5",
+  "games": {
+    "cf": {
+      "personality": "normal",
+      "clothes": "rally-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "rally-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "nutty",
+      "skill": "Making budgets",
+      "goal": "Stylist",
+      "fear": "Skeleton Hood",
+      "quote": "It's all about positive thinking!",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "nutty",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Poppy",
+  "id": "poppy"
+}

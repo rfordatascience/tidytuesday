@@ -1,0 +1,13 @@
+{
+  "id": "monster-statue",
+  "name": "Monster Statue",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25000
+      }
+    }
+  },
+  "category": "Furniture"
+}

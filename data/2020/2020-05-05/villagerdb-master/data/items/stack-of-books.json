@@ -1,0 +1,39 @@
+{
+  "id": "stack-of-books",
+  "name": "Stack Of Books",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "rvs": [
+        "blathers",
+        "dobie",
+        "jacob",
+        "pascal"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 725
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2900
+        }
+      ]
+    }
+  }
+}

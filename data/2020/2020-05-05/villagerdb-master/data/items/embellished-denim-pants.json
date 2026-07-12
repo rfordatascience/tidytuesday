@@ -1,0 +1,19 @@
+{
+  "id": "embellished-denim-pants",
+  "name": "Embellished Denim Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

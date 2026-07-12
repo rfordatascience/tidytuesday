@@ -1,0 +1,42 @@
+{
+  "id": "kiwi-hat",
+  "name": "Kiwi Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "set": "Kiwi Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 640
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 192
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 770
+        }
+      ]
+    }
+  }
+}

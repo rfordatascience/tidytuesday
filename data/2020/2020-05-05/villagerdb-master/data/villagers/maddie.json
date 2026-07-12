@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "1-11",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "fetching-outfit",
+      "song": "Forest Life",
+      "phrase": "yippee"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "fetching-outfit",
+      "song": "Forest Life"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "picnic-tee",
+      "song": "Forest Life",
+      "phrase": "yippee",
+      "skill": "Tonque twisters",
+      "goal": "Tour guide",
+      "fear": "Bug Mask",
+      "quote": "The IT revolution is under way.",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Blue mountain",
+        "milk": "lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "yippee",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Maddie",
+  "id": "maddie"
+}

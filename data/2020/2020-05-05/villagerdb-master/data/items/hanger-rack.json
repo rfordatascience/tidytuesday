@@ -1,0 +1,21 @@
+{
+  "id": "hanger-rack",
+  "name": "Hanger Rack",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "bitty",
+        "spike"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

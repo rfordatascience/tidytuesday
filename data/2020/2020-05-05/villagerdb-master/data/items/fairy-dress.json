@@ -1,0 +1,19 @@
+{
+  "id": "fairy-dress",
+  "name": "Fairy Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 910
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3640
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

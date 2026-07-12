@@ -1,0 +1,17 @@
+{
+  "id": "water-egg-shoes",
+  "name": "Water-egg Shoes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "water-egg": 2
+      }
+    }
+  },
+  "category": "Shoes"
+}

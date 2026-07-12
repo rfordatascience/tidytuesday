@@ -1,0 +1,50 @@
+<HTML>
+<HEAD><TITLE>Help Using CSV Files - Honey Bee Colonies</title></head>
+<BODY bgcolor="#FFFFFF">
+<font size="+3"><b>Help Using CSV Files</b></font size>
+<P>
+<font size="+2"><b>Honey Bee Colonies</b></font size>  -  Released August 3, 2020, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA).<br>
+<P>
+<P>
+You have downloaded "comma-separated value" (CSV) files which contain delimited-record representations of the tables in the report referenced above.  These CSV files can be imported into spreadsheets, or can be processed easily by other types of software.
+<P>
+The file<b> <a href="hcny_index.htm">hcny_index.htm</a></b> is among the files you have downloaded.  It contains table descriptions and file names for the CSV files.
+<P>
+Each line in a given CSV file represents one line in the published table (exception: there is a separate line for each footnote, regardless of how the footnotes are presented in the published table).
+<P>
+The first two values on the line are not part of the table.  The first value is a table number.  The second value is a line "type", as follows:
+<BR><BLOCKQUOTE>
+       t = title line<BR>
+       h = column heading line<BR>
+       u = units definition line<BR>
+       d = data line<BR>
+       c = the horizontal "closing" line (___) at the bottom of the table<BR>
+       f = footnote
+</blockquote>
+<P>
+<b>Examples:</b>
+<P>
+&nbsp;&nbsp;<b>Title Line</b><br>
+&nbsp;&nbsp;195,"t","Crop Summary:  Area Planted and Harvested, United States, 2000-2001"<br>
+<P>
+&nbsp;&nbsp;<b>Column Heading Lines</b><br>
+&nbsp;&nbsp;195,"h","","Area Planted","Area Planted","Area Harvested","Area Harvested"<br>
+&nbsp;&nbsp;195,"h","Crop","","","",""<br>
+&nbsp;&nbsp;195,"h","","2000","2001","2000","2001"<br>
+&nbsp;&nbsp;195,"h","","","","",""<br>
+<P>
+&nbsp;&nbsp;<b>Units Definition Line</b><br>
+&nbsp;&nbsp;195,"u","","1,000 Acres","1,000 Acres","1,000 Acres","1,000 Acres"<br>
+<P>
+&nbsp;&nbsp;<b>Data Lines</b><br>
+&nbsp;&nbsp;195,"d","","","","",""<br>
+&nbsp;&nbsp;195,"d","Grains & Hay","","","",""<br>
+&nbsp;&nbsp;195,"d","  Corn for Grain 2/","79545.0","","72732.0",""<br>
+<P>
+&nbsp;&nbsp;<b>Closing Line</b><br>
+&nbsp;&nbsp;195,"c",""<br>
+<P>
+&nbsp;&nbsp;<b>Footnote</b><br>
+&nbsp;&nbsp;195,"f","2/ Area planted for all purposes."
+</body>
+</html>

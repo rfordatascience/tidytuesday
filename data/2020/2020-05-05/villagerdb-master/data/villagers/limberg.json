@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "10-17",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "subdued-print",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "subdued-print",
+      "song": "K.K. Folk"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky",
+      "quote": "Something stinks!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "subdued-print-tee",
+      "song": "K.K. Folk",
+      "phrase": "squinky",
+      "skill": "Making faces",
+      "goal": "Mayor",
+      "fear": "Mummy Mask",
+      "quote": "Don’t build a better mousetrap.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Official",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "squinky",
+      "song": "K.K. Folk"
+    }
+  },
+  "name": "Limberg",
+  "id": "limberg"
+}

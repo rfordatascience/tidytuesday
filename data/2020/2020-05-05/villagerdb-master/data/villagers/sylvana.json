@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "10-22",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "kiwi-shirt",
+      "song": "Spring Blossoms"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "kiwi-tank",
+      "song": "Spring Blossoms",
+      "phrase": "hubbub",
+      "skill": "Doodling",
+      "goal": "Superhero",
+      "fear": "Skeleton Hood",
+      "quote": "Remember to see the forest between the trees.",
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "hubbub",
+      "song": "Spring Blossoms"
+    }
+  },
+  "name": "Sylvana",
+  "id": "sylvana"
+}

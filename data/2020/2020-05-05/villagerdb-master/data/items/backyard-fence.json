@@ -1,0 +1,31 @@
+{
+  "id": "backyard-fence",
+  "name": "Backyard Fence",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Mossy Garden",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "maggie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

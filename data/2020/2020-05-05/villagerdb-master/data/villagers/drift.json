@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "10-9",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "blue-aloha-shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "afe+": {
+      "personality": "jock",
+      "song": "K.K. Country"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "no-67-shirt",
+      "song": "K.K. Country",
+      "phrase": "brah",
+      "quote": "Always go for the gold!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "no-67-shirt",
+      "song": "K.K. Country",
+      "phrase": "brah"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "no-67-shirt",
+      "song": "K.K. Country",
+      "phrase": "brah",
+      "skill": "Shadow puppetry",
+      "goal": "Tycoon",
+      "fear": "Bug Mask",
+      "quote": "Always go for the gold!",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "brah",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Drift",
+  "id": "drift"
+}

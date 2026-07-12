@@ -1,0 +1,75 @@
+agency,count,ucode,state_code,type,class,tstart,tstop,short_name,name,location,longitude,latitude,error,parent,short_english_name,english_name,unicode_name,agency_type
+RVSN,1528,RVSN,SU,O/LA,D,1960,1991 Dec,RVSN,Rakentiye Voiska Strategicheskogo Naznacheniye,Mosvka?,-,-,-,-,-,Strategic Rocket Forces,Ракетные войска стратегического назначения,state
+UNKS,904,GUKOS,SU,O/LA,D,1986 Apr 24,1991,UNKS,Upravleniye Nachalnika Kosmicheskikh Sredstv,Moskva,-,-,-,MO,-,-,Управление начальника космических средств МО СССР,state
+NASA,469,NASA,US,O/LA/LV/PL/S,C,1958 Oct  1,-,NASA,National Aeronautics and Space Administration,"Washington, D.C.",-,-,-,-,-,-,National Aeronautics and Space Administration,state
+USAF,388,USAF,US,O/LA/S,D,1947 Sep 18,-,USAF,United States Air Force,"Washington, DC-Pentagon",-,-,-,-,-,-,United States Air Force,state
+AE,258,AE,F,O/LA,B,1980 Mar 26,*,Arianespace,"Arianespace, Inc.","Paris-Evry, France",-,-,-,-,Arianespace,-,"Arianespace, Inc.",private
+AFSC,247,AFSC,US,LA,D,1961 Apr  1,1992 Jul  1,AFSC,"US Air Force Systems Command, Los Angeles AFS","El Segundo, California",-,-,-,USAF,-,-,"US Air Force Systems Command, Los Angeles AFS",state
+VKSR,200,GUKOS,RU,O/LA,D,1997 Jul,2001 Jun  1,VKS RVSN,"Voenno-Kosmicheskiye Sili (Military Space Forces), RVSN","Mosvka-Solnechnogorsk, Rossiya",-,-,-,RVSN,-,Russian Military Space Forces,Военно-космические силы РВСН,state
+CALT,181,CALT,CN,LA/LV/PL/E,C,1957 Nov 11,-,CALT,Zhongguo yunzaihuojian jishu yanjiu yuan,Beijing-Nanyuan,-,-,-,CASC,CALT,Chinese Academy of Launch Vehicle Technology (CASC 1st Acad),中国运载火箭技术研究院,state
+FKA,128,MOM,RU,O/LA,C,2004,2016 Jan  1,Roskosmos,Federal'noe kosmicheskoe agentstvo Rossii (Roskosmos),Moskva,-,-,-,-,-,Roskosmos,Федеральное космическое агентство (Роскосмос),state
+SAST,105,SBA,CN,O/LA/LV/PL,B,1993,-,SAST,Shanghai hangtian jishu yanjiuyuan,Shanghai-Minghan,-,-,-,CASC,-,Shanghai Academy of Space Technology (CASC 8th Acad),上海航天技术研究院,state
+ILSK,97,ILSK,RU,LA,B,1995,-,ILS-K,"International Launch Services, Khrunichev",Moskva,-,-,-,KHRU,-,-,"International Launch Services, Khrunichev",private
+KVR,78,GUKOS,RU,O/LA,D,2001 Jun  1,2011 Dec  1,KVR,Kosmichesikiye voyska Rossii,Moskva-Solnechnogorsk,-,-,-,-,-,Russian Space Forces,Космические войска России,state
+ULAL,70,ULAL,US,LA,B,2006 Dec,-,ULA/LMA,United Launch Alliance/Lockheed Martin Astronautics,"Denver-Centennial, Colorado",-,-,-,LM,-,-,United Launch Alliance/Lockheed Martin Astronautics,private
+KHRU,67,KHRU,RU,O/LA/LV/PL/S,B,1994,1998,Khrunichev,"GKNPTs im. M.V. Khrunichev, Zavod Khrunichev",Moskva-Fili,-,-,-,-,-,Khrunichev State Research and Production Center,ГКНПЦ им. М.В.Хруничева,state
+SPX,65,SPX,US,O/LA/LV/PL/S,B,2007 Aug,-,SpaceX,SpaceX,"Hawthorne, California",-,-,-,-,-,-,SpaceX,startup
+ISRO,64,ISRO,IN,O/LA/LV/PL/E/S,C,1969,-,ISRO,Indian Space Research Organization,Bangalore,-,-,-,-,-,-,Indian Space Research Organization,state
+MDSSC,62,MDSSC,US,LA,B,-,-,MDSSC,McDonnell Douglas Space Systems Corp. (MDSSC-HB),"Huntington Beach, California",-,-,-,MDC,-,McDonnell Douglas/HB,McDonnell Douglas Space Systems Corp. (MDSSC-HB),private
+OSC,60,OSC,US,O/LA/LV,B,1986,1993,OSC-Fairfax,Orbital Sciences Corp.,"Fairfax, Virginia",-,-,-,-,-,-,Orbital Sciences Corp.,private
+ULAB,58,ULAB,US,LA,B,2006 Dec,-,ULA/Boeing,United Launch Alliance/Boeing,"Denver-Centennial, Colorado",-,-,-,BOE,-,-,United Launch Alliance/Boeing,private
+BLS,56,BLS,US,O/LA,B,1990s,*,Boeing,Boeing Launch Services (?),"Huntington Beach, California",-,-,-,BOHB,-,-,Boeing Launch Services (?),private
+RVSNR,54,RVSN,RU,LA,D,1991 Dec,-,RVSN RF,Rakentiye Voiska Strategicheskogo Naznacheniye (Rossisk. Fed.),Mosvka?,-,-,-,-,-,Russian Strategic Rocket Forces,Ракетные войска стратегического назначения Российской Федерации,state
+LMA,43,MARTD,US,LA/LV/PL,B,1995 Mar 15,2003 Jan,LMA,Lockheed Martin Astronautics,"Denver-Littleton, Colorado",-,-,-,LM,-,-,Lockheed Martin Astronautics,private
+NASDA,37,NASDA,J,O/LA/LV/PL/E/S,C,1969 Oct,2003 Oct  1,NASDA,Ucyu Kaihatsu Jigyoudan,"Tokyo, Nippon",-,-,-,-,-,National Space Development Adminstration,宇宙開発事業団,state
+ISAS,33,ISAS,J,O/LA/LV/PL/E/S,C,1964 Apr,1981 Apr,ISAS,Ucyu Koku Kenkyujyo,Tokyo-Komaba,-,-,-,-,-,Institute of Space and Aeronautical Sci,宇宙航空研究所,state
+MHI,33,MHI,J,LA/PL/E,B,1964,-,MHI,Mitsubishi Jukogyo Kabushiki-kaisha,Tokyo-Minato,-,-,-,-,-,Mitsubishi Heavy Industries (Launch Services),三菱重工業株式会社,private
+ILSL,31,GDCLS,US,LA,B,2000,2008,ILS-LMA,"International Launch Services, Lockheed Martin","McLean, Virginia",-,-,-,LM,-,-,"International Launch Services, Lockheed Martin",private
+UNKSR,29,GUKOS,RU,O/LA,D,1991,1992,UNKS RF,Upravleniye Nachalnika Kosmicheskikh Sredstv RF,Moskva,-,-,-,RVSNR,-,-,Управление начальника космических средств,state
+RAKA,27,MOM,RU,LA,C,1999,2004,RAKA,Rosaviakosmos (Rossiskoe aviatsionno-kosmicheskoe agentstvo),"Moskva, Rossiya",-,-,-,-,-,-,Российское авиационно-космическое агентство,state
+VVKO,27,GUKOS,RU,LA,D,2011 Dec  1,2015,VVKO,Voisk Vosdushno-Kosmicheskoi Oborona,Moskva,-,-,-,-,-,Aerospace Defence Forces,Войска воздушно-космической обороны,state
+SEALP,26,SEALP,US,LA,B,2000 Sep,2010,SeaLaunch,Sea Launch Limited Partnership,"Long Beach, California",-,-,-,-,-,-,Sea Launch Limited Partnership,private
+10ADS,22,10ADS,US,LA,D,1966?,-,ADCOM 10ADS,"USAF Aerospace Defence Command, 10th Aerospace Defence Sqn.","Vandenberg AFB, California",-,-,-,AFADC,-,-,"USAF Aerospace Defence Command, 10th Aerospace Defence Sqn.",state
+2SLS,20,2SLS,US,LA,D,1990s,*,Boeing/2SLS,Boeing/USAF 2SLS,"Patrick AFB, Florida",-,-,-,USAF,-,-,Boeing/USAF 2SLS,state
+STSM,20,STSM,F,O/LA,B,1996 Aug  6,*,Starsem,Starsem,Paris-Evry,-,-,-,-,-,-,Starsem,private
+USN,15,USN,US,O/LA/LV/E/S,D,1775,-,USN,United States Navy,"Washington, DC-Pentagon",-,-,-,-,-,-,United States Navy,state
+EUROK,14,EUROK,RU,O,B,1995,-,Eurockot,Eurockot Launch Services GmbH (D for RU lanch vehicle),Bremen,-,-,-,-,-,-,Eurockot Launch Services GmbH (D for RU lanch vehicle),private
+GDCLS,14,GDCLS,US,LA,B,1988,1994 May,GDCLS,General Dynamics Commercial Launch Service,"San Diego, California",-,-,-,GD,-,-,General Dynamics Commercial Launch Service,private
+ESA,13,ESA,I-ESA,O/LA/S,C,1975 Apr 30,-,ESA,European Space Agency,Paris,-,-,-,-,-,-,European Space Agency,state
+AFSPC,11,AFSPC,US,O/LA,D,1982 Sep  1,-,USAF AFSPC,US Air Force Space Command,"Peterson AFB, Colorado",-,-,-,USAF,-,-,US Air Force Space Command,state
+CNES,11,CNES,F,O/LA/LV/PL/S,C,1962,-,CNES,"Centre Nationale d'Etudes Spatiales, Paris",Paris,-,-,-,-,-,National Space Research Center,Centre national d'études spatiales,state
+ISA,10,ISA,IL,O/LA,C,1983,-,ISA,Israeli Space Agency,Yisra'el,-,-,-,IL,-,-,Israeli Space Agency,state
+MVS,10,MVS,SU,LA,D,1946 Mar,1950 Feb,MVS,Ministerstvo Voenniy Sili?,Moskva,-,-,-,-,-,Miinistry of the Armed Forces,Министерство Вооруженных Сил СССР,state
+CRA,9,CRA,I,LA/PL/S,C,1959,-,CRA,"Centro Richerchi Aerospaziale, Roma la Sapienza",Roma,-,-,-,CRPSM,-,Aerospace Research Center,"Centro Richerchi Aerospaziale, Roma la Sapienza",state
+IRSA,8,IRSA,IR,O/LA/PL/S,D,2004,-,IRSA,Sazman Fizaii Iran (Iranian Space Agency),Tehran,-,-,-,-,-,Iranian Space Agency,سازمان فضایی ایران,state
+JAXA,8,NASDA,J,O/LA/LV/PL/E/S,C,2003 Oct  1,-,JAXA,Ucyu Koku Kenkyu Kaihatsu Kikou,Tokyo-Chofu,-,-,-,-,-,Japan Aerospace Exploration Agency,宇宙航空研究開発機構,state
+S4300,8,S4300,US,LA,D,-,-,SAC 4300SS,"USAF Strategic Air Command, 4300th Support Sqn.","Vandenberg AFB, California",-,-,-,USAF,-,-,"USAF Strategic Air Command, 4300th Support Sqn.",state
+MMCLS,7,GDCLS,US,LA,B,1994 May,1995 Mar 15,MMCLS,Martin Marietta Commercial Launch Services,"San Diego, California",-,-,-,MM,-,-,Martin Marietta Commercial Launch Services,private
+ABMA,6,ABMA,US,O/LA/LV/PL/E,D,1956 Feb,1961 Dec,ABMA,U.S. Army Ballistic Missile Agency,"Huntsville, Alabama",-,-,-,USA,-,-,U.S. Army Ballistic Missile Agency,state
+AFMC,6,AFAMC,US,LA,D,1992 Jul  1,-,USAF AFMC,US Air Force Materiel Command,"Wright-Patterson AFB, Dayton, Ohio",-,-,-,USAF,USAF AFMC,-,US Air Force Materiel Command,state
+ELUS,6,BOSL,US,LA,B,2010,-,Energia Ltd US,"Energia Logistics Ltd, (ELUS)","Long Beach, California",-,-,-,RKKE,-,-,"Energia Logistics Ltd, (ELUS)",private
+CASC,4,CASC,CN,O/LA/PL,B,1999 Jul,-,CASC,Zhongguo hangtian keji jituangongsi,"Beijing, Zhongguo",-,-,-,-,-,China Aerospace Corp,中国航天科技集团公司,state
+KCST,4,KCST,KP,-,D,1998?,2013,KCST,Joseon ujugong gangisul wiwonhoe,Pyongyang?,-,-,-,-,-,Korean Committee of Space Technology,조선우주공간기술위원회,state
+MMA,4,MMA,US,LA,B,1961,1995 Mar 15,MMA,Martin Marietta Astronautics,"Denver, Colorado",-,-,-,MM,-,-,Martin Marietta Astronautics,private
+PLA2AC,4,PLA2AC,CN,LA,D,1966 Jul  1,2016 Jan  1,PLA SAC,"Di Er Paobing Budui, Zhongguo Renmin Jeifangjun",Beijing,-,-,-,-,-,PLA Second Artillery Corps,第二炮兵部队,state
+PU,4,PU,RU,LA,B,1992?,-,PU,ZAO Puskovie Uslugi,Moskva,-,-,-,-,-,-,ЗАО «Пусковые услуги»,private
+SEALC,4,SEALP,CYM,LA,B,1997,2000 Sep,SeaLaunch,Sea Launch Limited Partnership,"Georgetown, Cayman Islands",-,-,-,-,-,-,Sea Launch Limited Partnership,private
+SIS,4,SIS,RU,LA,B,2005?,-,SIS,Space International Services,Moskva,-,-,-,-,-,-,Space International Services,state
+USA,4,USA,US,O/LA/S,D,1775 Jun 14,*,US Army,United States Army,"Washington, DC",-,-,-,-,-,-,United States Army,state
+ELDO,3,ELDO,I-ELDO,O/LA/LV,C,1962?,1975,CECLES/ELDO,Centre Europeene de Construct. de Lanceurs et d'Engins Spatiaux,Paris,-,-,-,I-ELDO,-,European Launcher Development Organization,Centre européen pour la construction de lanceurs d'engins spatiaux,state
+KARI,3,KARI,KR,O/LA/LV/PL/E/S,C,1989 Oct,-,KARI,Han-guk Hanggong Uju Yeon-guwon (Korea Aerospace Research Inst),Daejeon,-,-,-,-,-,Korea Aerospace Research Institute,한국항공우주연구원,state
+RSC,3,RSC,J,LA,B,1990 Jul  5,2006 Mar 31,RSC,Rocket Systems Corporation,Tokyo,-,-,-,-,-,-,株)ロケットシステム,private
+VMFR,3,VMF,RU,O/LA,D,1991 Dec,-,VMF RF,Voenno-Morskoy Flot RF,"Moskva, Rossiya",-,-,-,-,-,Russian Navy,Военно-Морской Флот Российской Федерации,state
+3SLS,2,3SLS,US,LA,D,1990s,*,USAF 3SLS,USAF 3SLS,"Patrick AFB, Florida",-,-,-,USAF,-,-,USAF 3SLS,state
+4SLS,2,4SLS,US,LA,D,1990s,*,USAF 4SLS,USAF 4SLS,"Patrick AFB, Florida",-,-,-,USAF,-,-,USAF 4SLS,state
+AEB,2,AEB,BR,O/LA/S,C,-,*,AEB,Agencia Espacial Brasileira,"San Jose dos Campos, Brasil",-,-,-,BR,BSA,Brazilian Space Agency,Agência Espacial Brasileira,state
+OATK,2,OATK,US,-,B,2015 Feb 10,-,OATK,Orbital ATK,"Washington-Dulles, Virginia",-,-,-,-,-,-,Orbital ATK,private
+RAE,2,RAE,UK,O/LA/LV/PL/S,D,1918 Apr  1,1991 Apr  1,RAE,Royal Aircraft Establishment,"Farnborough, Hants.",-,-,-,-,-,-,Royal Aircraft Establishment,state
+RLABU,2,RLABU,US,E,B,2014,-,Rocket Lab,Rocket Lab USA,"Los Angeles, California",-,-,-,-,-,-,Rocket Lab USA,startup
+CASIC4A,1,CASIC4A,CN,LV,C,2002,-,CASIC 4th Acad,Zhongguo hangtian kegong jituan di 4 yanjiuyuan,Beijing?,-,-,-,CASIC,-,CASIC 4th Academy,中国航天科工集团第四研究院,state
+EER,1,EER,US,O/LA,B,1990 Dec,2001?,EER,EER Systems Inc. Aerospace Div.,"Seabrook, Maryland",-,-,-,-,-,-,EER Systems Inc. Aerospace Div.,private
+EXPACE,1,EXPACE,CN,-,B,2016,-,CASIC Expace,Hangtian kegong huojian jishu youxiangongsi,Beijing-Haidian,-,-,-,CASIC,Expace,Expace,航天科工火箭技术有限公司,state
+LMSC,1,LMSC,US,LA/LV/PL/S,B,1961 Jun,1995 Mar 15,LMSC,Lockheed Missiles and Space Co.,"Sunnyvale, California",-,-,-,LAC,-,-,Lockheed Missiles and Space Co.,private
+NADA,1,KCST,KP,LA,D,2013,-,NADA,Gugga Uju Gaebalgug (Kukga uju gaebalkuk),Pyongyang,-,-,-,-,-,National Aerospace Development Administration,국가우주개발국,state
+RKA,1,MOM,RU,O/LA,C,1992 Feb,1999,RKA,Rossiskoe aviatsionno-kosmicheskoe agentsvo (Rosaviakosmos),Moskva,-,-,-,-,-,-,Российское космическое агентство,state
+S394I,1,S394I,US,LA,D,-,-,SAC 394ITMS,"USAF Strategic Air Command, 394th ICBM Test Maintenance Sqn","Vandenberg AFB, California",-,-,-,USAF,-,-,"USAF Strategic Air Command, 394th ICBM Test Maintenance Sqn",state

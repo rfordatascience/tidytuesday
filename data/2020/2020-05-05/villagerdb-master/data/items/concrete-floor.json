@@ -1,0 +1,21 @@
+{
+  "id": "concrete-floor",
+  "name": "Concrete Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

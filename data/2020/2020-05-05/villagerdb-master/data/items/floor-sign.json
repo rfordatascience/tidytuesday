@@ -1,0 +1,23 @@
+{
+  "id": "floor-sign",
+  "name": "Floor Sign",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 222
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 890
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

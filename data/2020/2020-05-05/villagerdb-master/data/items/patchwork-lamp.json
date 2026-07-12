@@ -1,0 +1,26 @@
+{
+  "id": "patchwork-lamp",
+  "name": "Patchwork Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        }
+      ]
+    }
+  }
+}

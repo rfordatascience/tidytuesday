@@ -1,0 +1,35 @@
+{
+  "id": "upright-piano",
+  "name": "Upright Piano",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 13250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 53000
+        }
+      ]
+    }
+  }
+}

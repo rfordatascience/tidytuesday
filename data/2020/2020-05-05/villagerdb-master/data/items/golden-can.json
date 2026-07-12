@@ -1,0 +1,17 @@
+{
+  "id": "golden-can",
+  "name": "Golden Can",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Isabelle (Maintain a perfect town rating for 15 days)"
+      ]
+    }
+  }
+}

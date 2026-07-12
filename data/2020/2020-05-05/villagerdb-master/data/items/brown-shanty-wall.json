@@ -1,0 +1,19 @@
+{
+  "id": "brown-shanty-wall",
+  "name": "Brown Shanty Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 155
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 620
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

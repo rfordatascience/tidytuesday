@@ -1,0 +1,19 @@
+{
+  "id": "junihitoe-kimono",
+  "name": "Junihitoe Kimono",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7000
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sauna-heater",
+  "name": "Sauna Heater",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3510
+      },
+      "recipe": {
+        "stone": 6,
+        "iron-nugget": 3,
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

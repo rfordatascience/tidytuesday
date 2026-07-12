@@ -1,0 +1,17 @@
+title: "Wreck Inventory of Ireland"
+article:
+  title: "Wreck Inventory of Ireland"
+  url: "https://www.archaeology.ie/advice-and-support/locate-a-monument-or-wreck/wreck-viewer/"
+data_source:
+  title: "Wreck Inventory of Ireland"
+  url: "https://data.gov.ie/dataset/national-monuments-service-wreck-inventory-of-ireland"
+images:
+# Please include at least one image, and up to three images
+- file: "wrecks.png"
+  alt: >
+    Map of Ireland showing the locations of recorded shipwrecks. Each grey circle represents a wreck site, with a very high concentration around the Irish coastline and relatively few points in the open Atlantic to the west.
+credit:
+  post: "Cormac Monaghan"
+  github: "@C-Monaghan"
+  bluesky: "c-monaghan.bsky.social"
+  linkedin: "@cormac-monaghan"

@@ -1,0 +1,50 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-18",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "icy-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "icy-shirt",
+      "song": "K.K. Calypso"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "icy-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "icy-shirt",
+      "song": "K.K. Calypso",
+      "phrase": "cha-chomp",
+      "skill": "Mental math",
+      "goal": "Hair stylist",
+      "fear": "Werewolf Hood",
+      "quote": "You mess with the wolf, you get the fangs.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "cha-chomp",
+      "song": "K.K. Calypso"
+    }
+  },
+  "name": "Fang",
+  "id": "fang"
+}

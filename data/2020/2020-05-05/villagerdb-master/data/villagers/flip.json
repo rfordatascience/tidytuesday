@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "monkey",
+  "birthday": "11-21",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "happi-tee",
+      "song": "K.K. Rally",
+      "phrase": "rerack",
+      "skill": "Climbing trees",
+      "goal": "Pro golfer",
+      "fear": "Ghost Mask",
+      "quote": "See no donut, hear no donut, speak no donut.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "rerack",
+      "song": "K.K. Rally"
+    }
+  },
+  "name": "Flip",
+  "id": "flip"
+}

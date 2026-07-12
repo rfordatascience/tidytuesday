@@ -1,0 +1,20 @@
+{
+  "id": "baby-chick-costume",
+  "name": "Baby-chick Costume",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 425
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1700
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

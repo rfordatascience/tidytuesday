@@ -1,0 +1,28 @@
+{
+  "id": "infused-water-dispenser",
+  "name": "Infused-water Dispenser",
+  "games": {
+    "nh": {
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ],
+      "recipe": {
+        "apple": 1,
+        "pear": 1,
+        "cherry": 1,
+        "orange": 1,
+        "peach": 1,
+        "coconut": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

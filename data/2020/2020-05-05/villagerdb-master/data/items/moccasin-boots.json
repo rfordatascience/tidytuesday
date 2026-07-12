@@ -1,0 +1,19 @@
+{
+  "id": "moccasin-boots",
+  "name": "Moccasin Boots",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

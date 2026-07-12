@@ -1,0 +1,39 @@
+{
+  "id": "cardboard-table",
+  "name": "Cardboard Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Re-Tail (flea market) or Police Station (lost and found)"
+      ],
+      "rvs": [
+        "jacob"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "recipe": {
+        "cardboard-box": 4
+      }
+    }
+  }
+}

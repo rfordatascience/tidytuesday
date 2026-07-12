@@ -1,0 +1,23 @@
+{
+  "id": "flower-bopper",
+  "name": "Flower Bopper",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Fireworks Show (Isabelle)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "file-cabinet-l",
+  "name": "File Cabinet (L)",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "blathers",
+        "cleo"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

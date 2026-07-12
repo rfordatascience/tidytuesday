@@ -1,0 +1,39 @@
+{
+  "id": "g-logo-shirt",
+  "name": "G Logo Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 32
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 128
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 32
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 128
+        }
+      ]
+    }
+  }
+}

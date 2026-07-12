@@ -1,0 +1,23 @@
+{
+  "id": "white-botanical-tile-wall",
+  "name": "White Botanical-tile Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 310
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1240
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

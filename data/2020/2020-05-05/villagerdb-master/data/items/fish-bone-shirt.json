@@ -1,0 +1,31 @@
+{
+  "id": "fish-bone-shirt",
+  "name": "Fish Bone Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 340
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 340
+        }
+      ]
+    }
+  }
+}

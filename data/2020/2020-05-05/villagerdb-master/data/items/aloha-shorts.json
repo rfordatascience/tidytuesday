@@ -1,0 +1,26 @@
+{
+  "id": "aloha-shorts",
+  "name": "Aloha Shorts",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 15
+        }
+      ]
+    }
+  }
+}

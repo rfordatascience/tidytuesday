@@ -1,0 +1,16 @@
+title: "Selected British Literary Prizes (1990-2022)"
+article:
+  title: "Why we still need a women’s prize for fiction"
+  url: "https://theconversation.com/why-we-still-need-a-womens-prize-for-fiction-257494"
+data_source:
+  title: "Post45 Data Collective"
+  url: "https://data.post45.org/posts/british-literary-prizes/"
+images:
+# Please include at least one image, and up to three images
+- file: "prize_by_gender.png"
+  alt: >
+    This horizontal bar chart shows gender distribution of winners across British literary awards. Each bar displays the percentage and count of women (blue), men (green), and non-binary (yellow) winners. The Women's Prize for Fiction is 100% women by design. Other awards show varying gender representation, with women most represented in children's literature (Costa Children's Book Award at 71%) and poetry (Ted Hughes Award at 50%). Most other prizes show male majorities, ranging from slight (Costa awards around 52% men) to substantial (BSFA Award at 79% men). The data reveals significant gender imbalances across most literary prizes, with men winning the majority of awards except in women-specific and children's categories.
+credit:
+  post: "Jen Richmond"
+  github: "@jenrichmond"
+  bluesky: "@jenrichmondPhD"

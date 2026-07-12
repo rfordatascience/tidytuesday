@@ -1,0 +1,23 @@
+{
+  "id": "brown-shaggy-rug",
+  "name": "Brown Shaggy Rug",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Saharah"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

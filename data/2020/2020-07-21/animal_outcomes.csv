@@ -1,0 +1,665 @@
+year,animal_type,outcome,ACT,NSW,NT,QLD,SA,TAS,VIC,WA,Total
+1999,Dogs,Reclaimed,610,3140,205,1392,2329,516,7130,1,15323
+1999,Dogs,Rehomed,1245,7525,526,5489,1105,480,4908,137,21415
+1999,Dogs,Other,12,745,955,860,380,168,1001,6,4127
+1999,Dogs,Euthanized,360,9221,9,9214,1701,599,5217,18,26339
+1999,Cats,Reclaimed,111,201,22,206,157,31,884,0,1612
+1999,Cats,Rehomed,1442,3913,269,3901,1055,752,3768,62,15162
+1999,Cats,Other,0,447,0,386,46,124,1501,5,2509
+1999,Cats,Euthanized,1007,8205,847,10554,3415,1056,6113,5,31202
+1999,Horses,Reclaimed,0,0,1,0,2,1,87,0,91
+1999,Horses,Rehomed,1,12,3,3,10,0,19,0,48
+1999,Horses,Other,0,0,0,11,1,2,0,0,14
+1999,Horses,Euthanized,0,8,0,1,0,0,4,0,13
+1999,Livestock,Reclaimed,2,15,0,9,13,1,418,0,458
+1999,Livestock,Rehomed,90,719,120,88,61,25,315,3,1421
+1999,Livestock,Other,39,15,0,217,2,6,18,0,297
+1999,Livestock,Euthanized,9,49,0,109,54,2,179,0,402
+1999,Wildlife,Released,390,26,6,1461,175,66,4582,0,6706
+1999,Wildlife,Other,173,597,32,0,446,127,2081,0,3456
+1999,Wildlife,Euthanized,746,181,50,1305,861,75,1629,0,4847
+1999,Other Animals,Reclaimed,31,50,5,0,16,5,2,0,109
+1999,Other Animals,Rehomed,239,250,60,43,67,63,133,0,855
+1999,Other Animals,Other,37,26,0,259,5,24,18,12,381
+1999,Other Animals,Euthanized,86,987,10,318,103,18,297,1,1820
+2000,Dogs,Reclaimed,1198,2969,912,1440,2651,570,5759,456,15955
+2000,Dogs,Rehomed,501,6720,753,5124,1233,460,5390,755,20936
+2000,Dogs,Other,5,1050,2,102,0,250,166,94,1669
+2000,Dogs,Euthanized,269,7886,667,8538,1887,554,6003,107,25911
+2000,Cats,Reclaimed,91,181,26,163,138,45,625,4,1273
+2000,Cats,Rehomed,1367,3522,568,3858,1323,629,4146,406,15819
+2000,Cats,Other,67,645,2,42,0,176,655,18,1605
+2000,Cats,Euthanized,940,7161,987,10570,3728,1294,8133,88,32901
+2000,Horses,Reclaimed,0,1,0,0,1,2,0,0,4
+2000,Horses,Rehomed,1,4,0,21,3,0,4,15,48
+2000,Horses,Other,1,3,0,0,0,2,0,3,9
+2000,Horses,Euthanized,0,1,0,1,1,0,0,0,3
+2000,Livestock,Reclaimed,6,0,0,2,20,0,25,2,55
+2000,Livestock,Rehomed,113,318,0,237,53,71,257,26,1075
+2000,Livestock,Other,2,72,0,0,0,9,10,5,98
+2000,Livestock,Euthanized,11,79,0,141,80,5,36,8,360
+2000,Wildlife,Released,481,287,0,852,0,109,2682,19,4430
+2000,Wildlife,Other,502,95,0,0,506,125,723,37,1988
+2000,Wildlife,Euthanized,423,700,0,1225,637,77,2739,28,5829
+2000,Other Animals,Reclaimed,25,34,0,23,0,17,98,2,199
+2000,Other Animals,Rehomed,276,131,0,750,338,36,176,28,1735
+2000,Other Animals,Other,41,35,0,0,0,28,125,1,230
+2000,Other Animals,Euthanized,63,1416,0,202,196,11,644,6,2538
+2001,Dogs,Reclaimed,602,3195,238,1270,2133,495,6273,813,15019
+2001,Dogs,Rehomed,985,6269,699,5104,916,516,5265,942,20696
+2001,Dogs,Other,8,874,51,64,794,148,430,0,2369
+2001,Dogs,Euthanized,126,7082,694,7761,1845,429,5569,102,23608
+2001,Cats,Reclaimed,116,180,40,215,187,75,574,36,1423
+2001,Cats,Rehomed,1376,3800,385,3566,940,594,4326,426,15413
+2001,Cats,Other,19,539,50,54,286,220,729,12,1909
+2001,Cats,Euthanized,785,5981,927,10825,3264,1151,7968,108,31009
+2001,Horses,Reclaimed,0,4,0,0,4,1,2,0,11
+2001,Horses,Rehomed,2,8,0,13,2,0,14,0,39
+2001,Horses,Other,0,1,0,0,5,0,0,2,8
+2001,Horses,Euthanized,2,1,0,1,1,0,0,0,5
+2001,Livestock,Reclaimed,2,11,0,5,653,5,10,2,688
+2001,Livestock,Rehomed,128,80,0,240,304,68,100,18,938
+2001,Livestock,Other,0,146,0,0,30,11,134,2,323
+2001,Livestock,Euthanized,1,110,0,257,987,13,108,4,1480
+2001,Wildlife,Released,537,517,0,843,268,52,1539,0,3756
+2001,Wildlife,Other,576,74,0,0,649,37,1819,0,3155
+2001,Wildlife,Euthanized,703,514,0,917,994,52,3108,0,6288
+2001,Other Animals,Reclaimed,28,645,0,5,18,8,78,1,783
+2001,Other Animals,Rehomed,361,396,0,132,105,74,98,68,1234
+2001,Other Animals,Other,0,168,0,0,25,5,35,4,237
+2001,Other Animals,Euthanized,50,530,0,416,163,21,482,1,1663
+2002,Dogs,Reclaimed,592,2921,254,1821,1058,513,6960,669,14788
+2002,Dogs,Rehomed,873,6500,562,4711,2095,531,5369,828,21469
+2002,Dogs,In Stock,74,699,39,599,101,32,330,136,2010
+2002,Dogs,Transferred,2,280,0,39,321,94,145,380,1261
+2002,Dogs,Euthanized,216,7105,960,8769,1535,450,5473,46,24554
+2002,Dogs,Other,10,496,0,0,0,3,0,2,511
+2002,Cats,Reclaimed,109,182,20,29,49,68,586,8,1051
+2002,Cats,Rehomed,1110,4426,374,4028,1122,622,4805,452,16939
+2002,Cats,In Stock,77,324,68,533,24,43,392,31,1492
+2002,Cats,Transferred,5,91,0,6,0,167,1204,0,1473
+2002,Cats,Euthanized,755,6042,779,12475,3052,777,6456,113,30449
+2002,Cats,Other,22,250,0,0,0,10,0,15,297
+2002,Horses,Reclaimed,0,10,1,4,3,1,0,0,19
+2002,Horses,Rehomed,1,15,0,9,0,3,2,1,31
+2002,Horses,In Stock,2,15,0,6,8,14,0,1,46
+2002,Horses,Transferred,0,0,0,4,0,0,0,0,4
+2002,Horses,Euthanized,0,1,0,6,2,0,0,1,10
+2002,Horses,Other,0,2,0,0,0,0,0,0,2
+2002,Livestock,Reclaimed,1,26,0,17,61,6,22,1,134
+2002,Livestock,Rehomed,119,317,12,229,55,41,64,65,902
+2002,Livestock,In Stock,21,90,2,19,2,9,0,6,149
+2002,Livestock,Transferred,0,4,0,232,0,9,0,0,245
+2002,Livestock,Euthanized,4,231,0,376,86,9,97,29,832
+2002,Livestock,Other,149,3,0,0,0,2,110,6,270
+2002,Wildlife,Released,692,376,0,502,128,70,318,0,2086
+2002,Wildlife,In Stock,27,4,0,1,0,1,4,0,37
+2002,Wildlife,Transferred,51,335,0,63,273,65,1112,0,1899
+2002,Wildlife,Euthanized,1329,370,0,1241,421,63,3432,0,6856
+2002,Wildlife,Other,0,37,0,0,0,6,629,0,672
+2002,Other Animals,Reclaimed,19,26,0,10,72,14,10,0,151
+2002,Other Animals,Rehomed,160,215,6,3,73,66,185,0,708
+2002,Other Animals,In Stock,21,77,2,5,0,5,0,110,NA
+2002,Other Animals,Transferred,0,78,0,0,0,2,0,80,NA
+2002,Other Animals,Euthanized,76,752,0,1,204,23,253,0,1309
+2002,Other Animals,Other,2,20,0,0,0,95,0,117,NA
+2003,Dogs,Reclaimed,620,3310,195,1692,1395,510,6573,689,14984
+2003,Dogs,Rehomed,808,6053,504,3581,1502,508,4697,781,18434
+2003,Dogs,In Stock,81,812,50,0,77,69,452,75,1616
+2003,Dogs,Transferred,0,687,19,0,318,128,50,0,1202
+2003,Dogs,Euthanized,197,6992,1001,7265,1358,313,4855,188,22169
+2003,Dogs,Other,0,152,0,0,0,11,16,0,179
+2003,Cats,Reclaimed,125,213,29,270,140,35,639,6,1475
+2003,Cats,Rehomed,1078,4343,237,3664,967,633,4851,377,16150
+2003,Cats,In Stock,30,768,20,0,36,59,154,44,1111
+2003,Cats,Transferred,0,283,0,0,0,185,815,0,1283
+2003,Cats,Euthanized,1220,7910,1040,12426,3273,1001,8979,85,35934
+2003,Cats,Other,11,164,90,0,0,16,11,0,292
+2003,Horses,Reclaimed,0,11,0,0,2,8,1,0,22
+2003,Horses,Rehomed,0,12,0,2,2,14,0,0,36
+2003,Horses,In Stock,2,3,0,0,3,1,0,0,9
+2003,Horses,Transferred,0,0,0,0,0,0,0,0,0
+2003,Horses,Euthanized,0,3,0,7,5,0,0,0,15
+2003,Horses,Other,0,0,0,0,0,0,10,0,10
+2003,Livestock,Reclaimed,4,13,0,5,15,8,87,7,139
+2003,Livestock,Rehomed,84,287,12,180,47,82,0,57,749
+2003,Livestock,In Stock,1,16,0,0,0,5,28,9,59
+2003,Livestock,Transferred,1,14,0,0,0,2,365,0,382
+2003,Livestock,Euthanized,0,253,0,200,62,2,420,10,947
+2003,Livestock,Other,0,13,0,0,0,7,0,0,20
+2003,Wildlife,Released,837,212,0,297,151,34,0,0,1531
+2003,Wildlife,In Stock,32,67,0,0,0,0,60,0,159
+2003,Wildlife,Transferred,635,305,0,471,227,68,1404,0,2475
+2003,Wildlife,Euthanized,899,450,0,2645,906,61,2612,0,7573
+2003,Wildlife,Other,51,173,0,469,0,20,0,0,1348
+2003,Other Animals,Reclaimed,20,26,0,0,31,22,21,0,120
+2003,Other Animals,Rehomed,268,270,15,97,264,64,128,0,1106
+2003,Other Animals,In Stock,0,286,0,0,5,3,39,0,333
+2003,Other Animals,Transferred,0,80,0,0,0,9,0,0,89
+2003,Other Animals,Euthanized,153,1217,0,662,244,12,1004,0,3352
+2003,Other Animals,Other,4,53,0,0,0,5,0,0,62
+2004,Dogs,Reclaimed,610,4278,168,1661,1770,470,6667,555,16179
+2004,Dogs,Rehomed,636,5493,588,4023,776,720,4534,750,17520
+2004,Dogs,In Stock,79,4173,48,106,93,54,418,70,5041
+2004,Dogs,Transferred,12,0,0,0,0,117,250,0,379
+2004,Dogs,Euthanized,247,7456,903,6197,883,203,4637,132,20658
+2004,Dogs,Other,13,133,1,103,0,3,0,0,253
+2004,Cats,Reclaimed,134,247,18,219,70,30,647,0,1365
+2004,Cats,Rehomed,1014,3906,367,3577,942,820,5599,364,16589
+2004,Cats,In Stock,58,3504,42,92,44,114,193,45,4092
+2004,Cats,Transferred,14,0,0,0,0,193,804,0,1011
+2004,Cats,Euthanized,1010,8255,617,10469,1748,657,9133,52,31941
+2004,Cats,Other,24,45,20,154,0,15,35,0,293
+2004,Horses,Reclaimed,1,3,0,0,0,2,4,0,10
+2004,Horses,Rehomed,1,4,0,5,1,1,0,10,22
+2004,Horses,In Stock,2,4,0,0,2,0,2,1,11
+2004,Horses,Transferred,0,0,0,0,0,0,1,0,1
+2004,Horses,Euthanized,0,0,0,1,1,0,0,2,4
+2004,Horses,Other,0,3,0,2,0,0,0,0,5
+2004,Livestock,Reclaimed,1,4,0,4,6,23,18,0,56
+2004,Livestock,Rehomed,55,158,17,148,26,89,42,21,556
+2004,Livestock,In Stock,2,583,4,51,6,5,17,1,669
+2004,Livestock,Transferred,0,0,0,0,0,1,165,0,166
+2004,Livestock,Euthanized,45,228,2,332,77,3,119,2,808
+2004,Livestock,Other,1,8,0,237,0,11,1,0,258
+2004,Wildlife,Released,652,33,0,233,123,20,132,0,1193
+2004,Wildlife,In Stock,55,8,0,29,0,0,63,0,155
+2004,Wildlife,Transferred,9,0,23,389,0,149,1602,0,2172
+2004,Wildlife,Euthanized,720,174,0,2089,217,57,1766,2,5025
+2004,Wildlife,Other,604,41,0,349,0,14,121,0,1129
+2004,Other Animals,Reclaimed,15,12,0,30,6,20,50,1,134
+2004,Other Animals,Rehomed,138,238,11,111,85,93,312,22,1010
+2004,Other Animals,In Stock,12,233,2,34,6,3,29,1,320
+2004,Other Animals,Transferred,2,0,5,0,0,2,13,0,22
+2004,Other Animals,Euthanized,219,1210,0,666,278,26,495,2,2896
+2004,Other Animals,Other,13,11,0,162,0,9,21,0,216
+2005,Dogs,Reclaimed,518,7598,183,3197,2208,635,7126,430,21895
+2005,Dogs,Rehomed,667,5075,606,5323,552,696,4508,772,18199
+2005,Dogs,In Stock,57,657,NA,456,97,79,472,133,1951
+2005,Dogs,Transferred,0,390,NA,47,451,127,0,0,1015
+2005,Dogs,Euthanized,188,8146,505,6883,1274,344,4141,73,21554
+2005,Dogs,Other,5,211,3,1403,NA,8,100,0,1730
+2005,Cats,Reclaimed,278,308,19,460,136,51,728,3,1983
+2005,Cats,Rehomed,1223,4442,384,4514,1235,900,5702,391,18791
+2005,Cats,In Stock,45,399,NA,474,96,52,218,52,1336
+2005,Cats,Transferred,0,18,NA,21,0,300,829,0,1168
+2005,Cats,Euthanized,1040,9959,801,12727,3260,1121,8073,29,37010
+2005,Cats,Other,12,151,17,635,0,15,65,0,895
+2005,Horses,Reclaimed,0,14,0,6,0,8,2,0,30
+2005,Horses,Rehomed,1,15,0,13,0,0,2,2,33
+2005,Horses,In Stock,2,3,0,7,2,2,0,0,16
+2005,Horses,Transferred,0,10,0,0,0,0,0,0,10
+2005,Horses,Euthanized,0,1,0,1,4,1,1,0,8
+2005,Horses,Other,0,0,0,0,0,0,0,0,0
+2005,Livestock,Reclaimed,3,45,0,15,29,4,90,0,186
+2005,Livestock,Rehomed,112,396,0,404,271,102,159,5,1349
+2005,Livestock,In Stock,9,101,0,26,13,0,6,0,155
+2005,Livestock,Transferred,0,70,0,0,0,9,0,0,79
+2005,Livestock,Euthanized,54,364,0,377,70,14,144,1,1024
+2005,Livestock,Other,0,49,0,75,0,0,1,0,125
+2005,Wildlife,Released,791,41,0,882,89,18,0,0,1821
+2005,Wildlife,In Stock,53,3,0,22,0,0,39,0,117
+2005,Wildlife,Transferred,0,242,0,1,118,124,1091,0,1576
+2005,Wildlife,Euthanized,1028,257,0,2626,254,58,1864,0,6087
+2005,Wildlife,Other,664,125,0,478,0,32,151,0,1450
+2005,Other Animals,Reclaimed,5,41,NA,54,10,5,47,0,162
+2005,Other Animals,Rehomed,113,249,NA,694,108,95,329,6,1594
+2005,Other Animals,In Stock,24,41,NA,80,2,1,76,0,224
+2005,Other Animals,Transferred,0,260,NA,0,0,0,0,0,260
+2005,Other Animals,Euthanized,181,1074,NA,645,222,11,373,1,2507
+2005,Other Animals,Other,0,362,NA,97,NA,2,20,0,481
+2006,Dogs,Reclaimed,564,5062,147,3216,1957,714,8159,499,20318
+2006,Dogs,Rehomed,558,5746,593,5349,743,812,4769,956,19526
+2006,Dogs,In Stock,58,913,39,429,69,96,326,104,2034
+2006,Dogs,Transferred,42,1300,0,4,279,140,0,0,1765
+2006,Dogs,Euthanized,179,8597,506,6946,1285,314,3926,220,21973
+2006,Dogs,Other,5,189,2,1512,226,NA,153,5,2087
+2006,Cats,Reclaimed,111,298,11,456,138,8,750,1,1773
+2006,Cats,Rehomed,1218,4542,344,5206,1340,994,4926,635,19205
+2006,Cats,In Stock,47,756,49,478,73,76,202,52,1733
+2006,Cats,Transferred,5,353,0,13,0,412,609,0,1392
+2006,Cats,Euthanized,1130,9773,795,10257,2877,1340,7061,110,33343
+2006,Cats,Other,27,145,18,683,136,0,25,0,1034
+2006,Horses,Reclaimed,1,6,0,6,1,4,2,0,20
+2006,Horses,Rehomed,5,35,0,13,1,2,0,0,56
+2006,Horses,In Stock,0,21,0,11,1,9,35,0,77
+2006,Horses,Transferred,0,0,0,0,0,0,0,0,0
+2006,Horses,Euthanized,0,6,0,7,4,1,1,0,19
+2006,Horses,Other,0,0,0,0,0,0,1,0,1
+2006,Livestock,Reclaimed,2,9,NA,30,5,7,42,0,95
+2006,Livestock,Rehomed,51,288,8,466,37,111,189,19,1169
+2006,Livestock,In Stock,3,81,2,22,1,7,7,0,123
+2006,Livestock,Transferred,0,34,0,13,0,1,0,0,48
+2006,Livestock,Euthanized,29,350,1,317,32,13,207,3,952
+2006,Livestock,Other,1,18,3,94,0,0,1,0,117
+2006,Wildlife,Released,18,0,917,26,127,19,0,1893,1893
+2006,Wildlife,In Stock,57,0,51,0,0,6,0,142,142
+2006,Wildlife,Transferred,290,0,0,106,120,979,0,1502,1502
+2006,Wildlife,Euthanized,324,0,2707,187,37,1578,0,6035,6035
+2006,Wildlife,Other,116,0,538,17,14,8,0,1318,1318
+2006,Other Animals,Reclaimed,30,0,73,11,4,38,0,167,167
+2006,Other Animals,Rehomed,249,9,665,121,72,229,21,1631,1631
+2006,Other Animals,In Stock,67,0,52,20,0,12,0,169,169
+2006,Other Animals,Transferred,169,0,2,15,0,0,0,186,186
+2006,Other Animals,Euthanized,970,1,273,195,9,633,5,2291,2291
+2006,Other Animals,Other,43,2,128,0,0,44,0,227,227
+2007,Dogs,Reclaimed,661,4825,147,4150,2187,582,9018,591,22161
+2007,Dogs,Rehomed,597,5619,593,5152,1066,329,4893,1027,19276
+2007,Dogs,In Stock,55,1059,39,688,106,35,458,71,2511
+2007,Dogs,Transferred,123,718,0,2,561,66,0,0,1470
+2007,Dogs,Euthanized,107,9738,506,6962,1350,533,4419,157,23772
+2007,Dogs,Other,3,717,2,303,0,0,299,0,1324
+2007,Cats,Reclaimed,154,478,11,654,231,54,873,0,2455
+2007,Cats,Rehomed,1292,4874,344,5051,1486,717,5268,621,19653
+2007,Cats,In Stock,75,808,49,747,107,48,303,42,2179
+2007,Cats,Transferred,0,373,0,1,155,112,606,0,1247
+2007,Cats,Euthanized,1355,13267,795,11243,4252,1181,10567,71,42731
+2007,Cats,Other,33,71,18,394,0,0,253,0,769
+2007,Horses,Reclaimed,0,12,0,13,0,2,19,0,46
+2007,Horses,Rehomed,0,38,0,16,1,7,8,8,78
+2007,Horses,In Stock,0,6,0,15,0,7,18,1,47
+2007,Horses,Transferred,0,0,0,0,0,0,0,0,0
+2007,Horses,Euthanized,0,2,0,8,5,3,7,0,25
+2007,Horses,Other,0,0,0,0,0,0,0,0,0
+2007,Livestock,Reclaimed,4,33,0,35,4,9,25,0,110
+2007,Livestock,Rehomed,56,240,8,654,64,72,232,44,1370
+2007,Livestock,In Stock,2,72,2,15,1,6,38,2,138
+2007,Livestock,Transferred,0,0,0,0,0,2,0,0,2
+2007,Livestock,Euthanized,6,306,1,375,28,20,130,2,868
+2007,Livestock,Other,2,44,3,74,0,0,11,0,134
+2007,Wildlife,Released,824,46,0,1014,253,16,41,0,2194
+2007,Wildlife,In Stock,58,16,0,80,0,0,31,0,185
+2007,Wildlife,Transferred,22,435,0,0,257,135,714,0,1563
+2007,Wildlife,Euthanized,1366,496,0,2860,731,83,1214,0,6750
+2007,Wildlife,Other,1515,358,0,573,2,0,279,0,2727
+2007,Other Animals,Reclaimed,19,59,0,75,19,5,45,0,222
+2007,Other Animals,Rehomed,319,320,9,1025,179,56,243,21,2172
+2007,Other Animals,In Stock,24,65,0,40,6,6,59,0,200
+2007,Other Animals,Transferred,0,1,0,1,8,0,42,0,52
+2007,Other Animals,Euthanized,222,1411,1,367,151,33,1181,6,3372
+2007,Other Animals,Other,18,51,2,58,0,0,62,0,191
+2008,Dogs,Reclaimed,735,4947,86,4860,2099,702,8846,621,22896
+2008,Dogs,Rehomed,493,5397,450,5263,1065,584,4939,1045,19236
+2008,Dogs,In Stock,70,1145,57,756,140,73,312,128,2681
+2008,Dogs,Transferred,191,1212,0,14,356,80,0,0,1853
+2008,Dogs,Euthanized,136,9286,266,6878,1008,305,3958,248,22085
+2008,Dogs,Other,3,391,2,1175,0,0,61,0,632
+2008,Cats,Reclaimed,193,473,5,582,195,62,935,2,2447
+2008,Cats,Rehomed,1229,4654,291,5188,1427,829,5090,958,19666
+2008,Cats,In Stock,47,962,179,745,132,131,178,110,2484
+2008,Cats,Transferred,0,690,0,41,4,129,616,0,1480
+2008,Cats,Euthanized,1175,12477,212,11045,2712,1974,9801,99,39495
+2008,Cats,Other,10,281,15,226,0,6,95,0,633
+2008,Horses,Reclaimed,0,10,0,5,1,1,18,0,35
+2008,Horses,Rehomed,0,18,0,25,0,21,13,2,79
+2008,Horses,In Stock,0,30,0,5,0,6,22,0,63
+2008,Horses,Transferred,0,0,0,0,0,0,0,0,0
+2008,Horses,Euthanized,0,9,0,9,4,3,9,0,34
+2008,Horses,Other,0,3,0,0,0,0,0,0,3
+2008,Livestock,Reclaimed,4,24,0,54,8,7,38,1,136
+2008,Livestock,Rehomed,60,281,0,466,33,161,177,38,1216
+2008,Livestock,In Stock,8,199,0,39,1,9,18,3,277
+2008,Livestock,Transferred,0,54,0,0,0,1,0,0,55
+2008,Livestock,Euthanized,9,357,0,332,14,64,141,2,919
+2008,Livestock,Other,2,22,0,31,0,2,3,0,60
+2008,Wildlife,Released,813,95,0,562,135,42,29,0,1676
+2008,Wildlife,In Stock,38,62,0,25,16,1,15,0,157
+2008,Wildlife,Transferred,17,181,0,596,119,70,758,0,1741
+2008,Wildlife,Euthanized,1580,452,0,3021,134,77,1054,0,6318
+2008,Wildlife,Other,757,306,0,494,24,25,186,0,1792
+2008,Other Animals,Reclaimed,15,34,0,74,5,25,25,0,178
+2008,Other Animals,Rehomed,343,395,6,909,185,120,299,47,2304
+2008,Other Animals,In Stock,30,35,0,174,7,11,29,0,287
+2008,Other Animals,Transferred,0,0,0,5,0,7,19,0,31
+2008,Other Animals,Euthanized,167,1573,3,879,139,60,633,4,3458
+2008,Other Animals,Other,15,94,0,113,0,7,18,0,214
+2009,Dogs,Reclaimed,757,5307,79,5103,2346,677,9399,555,24223
+2009,Dogs,Rehomed,477,5298,369,5440,1440,546,4609,828,19007
+2009,Dogs,Currently In Care,65,1386,46,644,171,88,330,110,2840
+2009,Dogs,Transferred,255,709,0,166,361,77,2,0,1570
+2009,Dogs,Euthanized,98,8361,138,6454,1233,363,3297,233,20177
+2009,Dogs,Other,18,267,0,233,289,26,96,0,929
+2009,Cats,Reclaimed,191,484,21,550,222,64,919,0,2451
+2009,Cats,Rehomed,1235,4668,356,4764,1674,912,4899,935,19443
+2009,Cats,Currently In Care,139,1142,55,708,120,172,250,69,2655
+2009,Cats,Transferred,0,740,0,228,13,60,704,0,1745
+2009,Cats,Euthanized,1133,13084,177,9303,4028,1682,9086,149,38642
+2009,Cats,Other,50,185,12,249,239,26,17,0,781
+2009,Horses,Reclaimed,0,20,0,13,0,1,14,0,48
+2009,Horses,Rehomed,2,37,0,20,1,23,22,7,112
+2009,Horses,Currently In Care,1,22,0,10,1,9,6,5,54
+2009,Horses,Transferred,0,0,0,14,0,0,0,0,14
+2009,Horses,Euthanized,1,14,0,4,0,1,3,4,27
+2009,Horses,Other,0,0,0,1,0,0,0,0,1
+2009,Livestock,Reclaimed,2,119,0,41,14,10,155,0,341
+2009,Livestock,Rehomed,66,431,0,446,462,85,347,86,1923
+2009,Livestock,Currently In Care,24,220,0,70,3,55,14,0,386
+2009,Livestock,Transferred,0,5,0,31,0,0,0,0,36
+2009,Livestock,Euthanized,7,419,0,395,43,49,147,4,1064
+2009,Livestock,Other,0,15,0,49,0,7,43,0,114
+2009,Wildlife,Released,1180,48,0,1360,164,24,9,0,2785
+2009,Wildlife,Currently In Care,107,48,0,21,3,0,6,0,185
+2009,Wildlife,Transferred,3,303,0,111,146,46,688,0,1294
+2009,Wildlife,Euthanized,1241,485,0,3769,450,178,806,1,6930
+2009,Wildlife,Other,815,313,0,574,109,44,218,0,2073
+2009,Other Animals,Reclaimed,23,44,4,70,19,14,59,0,233
+2009,Other Animals,Rehomed,436,596,4,759,316,191,411,44,2697
+2009,Other Animals,Currently In Care,45,22,1,50,16,25,53,0,212
+2009,Other Animals,Transferred,0,38,0,158,56,45,0,0,297
+2009,Other Animals,Euthanized,181,1722,3,516,171,30,686,7,3316
+2009,Other Animals,Other,34,115,0,114,0,12,127,0,402
+2010,Dogs,Reclaimed,923,5039,146,5703,2131,621,8831,534,23928
+2010,Dogs,Rehomed,434,5052,345,5462,1136,639,4665,665,18398
+2010,Dogs,Currently In Care,59,805,20,868,73,110,456,64,2455
+2010,Dogs,Transferred,219,1612,0,447,402,60,5,1,2746
+2010,Dogs,Euthanized,105,8209,225,6618,1012,239,2893,282,19583
+2010,Dogs,Other,11,242,4,156,6,21,22,3,463
+2010,Cats,Reclaimed,161,470,16,699,132,83,819,6,2386
+2010,Cats,Rehomed,1221,4554,353,4933,1513,1078,4668,684,19004
+2010,Cats,Currently In Care,121,1338,21,783,92,294,297,23,2969
+2010,Cats,Transferred,1,1118,0,256,58,22,559,0,2014
+2010,Cats,Euthanized,1252,13031,228,9566,2630,1667,8527,276,37177
+2010,Cats,Other,109,192,16,218,481,24,15,12,1067
+2010,Horses,Reclaimed,0,11,0,16,0,0,4,0,31
+2010,Horses,Rehomed,1,40,0,15,1,21,5,8,91
+2010,Horses,Currently In Care,1,11,0,13,0,1,19,5,50
+2010,Horses,Transferred,0,1,0,11,0,0,0,0,12
+2010,Horses,Euthanized,0,12,0,8,8,1,1,2,24
+2010,Horses,Other,0,0,0,0,0,0,0,0,0
+2010,Livestock,Reclaimed,3,107,4,46,1,9,34,0,204
+2010,Livestock,Rehomed,88,422,0,451,20,160,241,133,1515
+2010,Livestock,Currently In Care,13,234,0,62,2,15,16,11,353
+2010,Livestock,Transferred,0,61,0,58,0,1,0,0,120
+2010,Livestock,Euthanized,19,417,0,324,80,62,163,22,1087
+2010,Livestock,Other,6,14,0,73,1,3,56,0,153
+2010,Wildlife,Released,894,39,0,827,25,13,41,1,1840
+2010,Wildlife,Currently In Care,120,48,0,66,0,12,18,0,264
+2010,Wildlife,Transferred,31,301,0,1675,98,60,593,0,2758
+2010,Wildlife,Euthanized,1542,483,0,3986,186,103,730,3,7033
+2010,Wildlife,Other,653,308,0,848,10,22,212,2,2055
+2010,Other Animals,Reclaimed,35,34,1,68,16,13,58,0,225
+2010,Other Animals,Rehomed,329,456,3,647,248,180,614,0,2500
+2010,Other Animals,Currently In Care,37,15,0,91,8,55,88,0,297
+2010,Other Animals,Transferred,0,106,0,428,11,14,0,0,559
+2010,Other Animals,Euthanized,129,1472,13,426,382,42,873,0,3346
+2010,Other Animals,Other,46,85,0,87,14,68,84,0,387
+2011,Dogs,Reclaimed,967,896,141,5132,2044,666,8204,566,18616
+2011,Dogs,Rehomed,358,4921,376,5988,946,681,4249,456,17975
+2011,Dogs,Currently In Care,100,633,50,746,30,102,525,101,2287
+2011,Dogs,Transferred,245,609,0,802,323,56,7,0,2042
+2011,Dogs,Euthanized,117,4862,150,5242,899,327,2306,308,14211
+2011,Dogs,Other,20,68,4,118,42,8,169,3,432
+2011,Cats,Reclaimed,226,243,16,580,125,69,898,9,2166
+2011,Cats,Rehomed,1243,4589,289,6191,1441,1390,4900,446,20489
+2011,Cats,Currently In Care,71,1241,115,767,62,190,515,35,2996
+2011,Cats,Transferred,0,731,0,174,105,44,365,0,1419
+2011,Cats,Euthanized,822,9531,188,5684,2125,1113,4952,236,24651
+2011,Cats,Other,38,74,19,204,84,33,152,12,616
+2011,Horses,Reclaimed,0,7,0,22,0,0,0,0,29
+2011,Horses,Rehomed,1,31,0,19,4,8,10,2,75
+2011,Horses,Currently In Care,0,51,0,12,0,5,13,4,85
+2011,Horses,Transferred,0,0,0,8,0,0,0,0,8
+2011,Horses,Euthanized,1,10,0,2,3,2,13,2,33
+2011,Horses,Other,0,0,0,0,2,0,0,0,2
+2011,Livestock,Reclaimed,6,11,1,15,3,11,21,0,68
+2011,Livestock,Rehomed,92,478,0,385,6,94,158,38,1251
+2011,Livestock,Currently In Care,9,289,0,42,0,21,38,6,405
+2011,Livestock,Transferred,0,10,0,112,0,2,2,0,126
+2011,Livestock,Euthanized,24,369,0,318,3,63,138,13,928
+2011,Livestock,Other,1,8,0,43,2,2,10,2,68
+2011,Wildlife,Released,697,49,0,1029,44,26,69,0,1914
+2011,Wildlife,Currently In Care,89,114,0,33,29,1,9,0,275
+2011,Wildlife,Transferred,24,255,0,2345,17,50,567,0,3258
+2011,Wildlife,Euthanized,1612,349,1,4428,45,69,787,0,7291
+2011,Wildlife,Other,428,197,0,477,1,14,240,0,1357
+2011,Other Animals,Reclaimed,47,36,0,86,18,28,25,5,245
+2011,Other Animals,Rehomed,384,609,8,758,296,184,482,97,2818
+2011,Other Animals,Currently In Care,70,19,0,67,25,15,107,19,322
+2011,Other Animals,Transferred,0,20,0,144,53,4,8,0,229
+2011,Other Animals,Euthanized,191,1284,4,328,228,29,470,40,2574
+2011,Other Animals,Other,26,36,1,88,41,8,62,2,264
+2012,Dogs,Reclaimed,1072,1208,94,5568,1800,652,7259,303,17956
+2012,Dogs,Rehomed,389,4693,253,5809,1043,550,3636,254,16627
+2012,Dogs,Currently In Care,76,652,93,761,435,74,485,94,2670
+2012,Dogs,Transferred,152,452,0,717,2,0,11,0,1334
+2012,Dogs,Euthanized,132,4021,106,2999,618,343,1973,163,10355
+2012,Dogs,Other,9,45,0,134,11,5,43,0,247
+2012,Cats,Reclaimed,187,422,4,561,134,76,855,4,2243
+2012,Cats,Rehomed,1192,5531,254,7639,1517,1208,5301,275,22917
+2012,Cats,Currently In Care,67,701,0,812,502,198,474,120,2874
+2012,Cats,Transferred,0,742,0,367,0,0,0,0,1109
+2012,Cats,Euthanized,776,7224,175,3585,1480,1392,4661,171,19464
+2012,Cats,Other,121,113,9,249,34,15,81,7,629
+2012,Horses,Reclaimed,0,13,0,8,0,0,12,0,33
+2012,Horses,Rehomed,0,31,0,14,0,27,5,1,78
+2012,Horses,Currently In Care,0,42,0,3,0,12,43,14,114
+2012,Horses,Transferred,0,6,0,4,0,0,1,0,11
+2012,Horses,Euthanized,0,8,0,4,1,5,5,6,29
+2012,Horses,Other,0,1,0,1,0,0,0,0,2
+2012,Livestock,Reclaimed,2,29,0,17,1,14,136,0,199
+2012,Livestock,Rehomed,65,536,0,486,2,157,285,33,1564
+2012,Livestock,Currently In Care,16,75,0,57,0,52,106,22,328
+2012,Livestock,Transferred,0,15,0,173,0,0,48,0,1806
+2012,Livestock,Euthanized,16,435,0,243,0,74,147,107,1022
+2012,Livestock,Other,13,9,0,19,0,3,13,0,57
+2012,Wildlife,Released,677,102,0,1046,33,6,82,0,1946
+2012,Wildlife,Currently In Care,136,16,0,44,0,11,37,0,244
+2012,Wildlife,Transferred,30,185,3,3064,52,0,622,0,3956
+2012,Wildlife,Euthanized,1330,304,0,7041,109,79,840,0,3366
+2012,Wildlife,Other,526,204,0,463,4,8,293,0,1498
+2012,Other Animals,Reclaimed,46,62,0,69,34,31,93,0,335
+2012,Other Animals,Rehomed,305,697,6,820,305,136,725,18,3014
+2012,Other Animals,Currently In Care,47,110,0,109,131,30,272,48,747
+2012,Other Animals,Transferred,0,28,0,152,7,0,0,0,187
+2012,Other Animals,Euthanized,131,1346,2,474,153,45,516,16,2683
+2012,Other Animals,Other,25,78,1,72,18,11,59,0,264
+2013,Dogs,Reclaimed,923,1244,79,4948,1815,597,6717,330,16653
+2013,Dogs,Rehomed,403,4161,357,6694,1302,652,3292,181,17042
+2013,Dogs,Currently In Care,71,635,63,905,273,110,771,50,2878
+2013,Dogs,Transferred,138,828,0,615,56,0,46,0,1683
+2013,Dogs,Euthanized,104,2957,76,2026,303,232,1472,143,7313
+2013,Dogs,Other,6,44,1,140,21,5,163,5,385
+2013,Cats,Reclaimed,196,466,16,562,172,92,819,7,2330
+2013,Cats,Rehomed,1328,6557,232,8055,2448,1065,5625,250,25560
+2013,Cats,Currently In Care,73,745,60,1114,544,86,830,192,3644
+2013,Cats,Transferred,0,748,0,382,270,0,9,0,1409
+2013,Cats,Euthanized,640,5518,58,2285,1705,1127,4011,147,15491
+2013,Cats,Other,28,64,4,311,142,19,160,4,732
+2013,Horses,Reclaimed,0,5,0,3,1,1,0,1,11
+2013,Horses,Rehomed,0,32,0,8,11,39,35,6,131
+2013,Horses,Currently In Care,0,68,0,9,6,5,27,2,117
+2013,Horses,Transferred,0,2,0,6,2,0,12,0,22
+2013,Horses,Euthanized,0,10,0,1,2,15,10,8,49
+2013,Horses,Other,0,0,0,0,0,2,1,0,3
+2013,Livestock,Reclaimed,3,4,1,23,4,11,32,0,78
+2013,Livestock,Rehomed,113,501,0,527,63,211,221,47,1683
+2013,Livestock,Currently In Care,2,49,0,72,7,127,38,1,296
+2013,Livestock,Transferred,0,24,0,73,3,0,110,0,210
+2013,Livestock,Euthanized,22,391,0,239,44,587,62,9,1354
+2013,Livestock,Other,3,19,0,35,5,7,14,5,88
+2013,Wildlife,Released,610,31,0,1384,55,31,69,0,2180
+2013,Wildlife,Currently In Care,73,3,0,78,8,2,11,0,175
+2013,Wildlife,Transferred,134,326,3,3949,223,17,593,0,5242
+2013,Wildlife,Euthanized,1626,337,0,8286,208,36,728,0,11221
+2013,Wildlife,Other,396,54,0,396,31,4,337,0,1218
+2013,Other Animals,Reclaimed,36,126,0,71,10,16,48,0,307
+2013,Other Animals,Rehomed,387,1387,23,892,372,165,801,64,4091
+2013,Other Animals,Currently In Care,89,160,6,135,98,0,174,44,706
+2013,Other Animals,Transferred,0,103,0,114,2,1,0,0,220
+2013,Other Animals,Euthanized,77,1212,4,964,62,43,164,16,2542
+2013,Other Animals,Other,36,65,1,71,14,15,39,3,243
+2014,Dogs,Reclaimed,671,5204,54,4457,1504,637,6216,314,19057
+2014,Dogs,Rehomed,388,3713,315,6306,878,746,3181,120,15647
+2014,Dogs,Currently In Care,54,946,67,718,270,107,691,72,2925
+2014,Dogs,Transferred,168,903,0,477,72,14,234,3,1871
+2014,Dogs,Euthanized,87,3435,61,1381,345,189,1157,110,6765
+2014,Dogs,Other,8,51,1,156,15,2,91,6,330
+2014,Cats,Reclaimed,165,648,5,558,177,90,769,14,2426
+2014,Cats,Rehomed,1376,7338,219,7874,2481,1136,5893,225,26542
+2014,Cats,Currently In Care,134,1206,40,1288,424,240,1110,79,4521
+2014,Cats,Transferred,0,326,0,334,267,36,126,45,1134
+2014,Cats,Euthanized,607,9148,44,1491,1447,834,3599,228,17398
+2014,Cats,Other,32,126,3,340,78,19,176,9,783
+2014,Horses,Reclaimed,0,16,0,9,2,0,0,0,27
+2014,Horses,Rehomed,0,38,0,10,4,19,31,1,103
+2014,Horses,Currently In Care,0,81,0,6,0,11,16,1,115
+2014,Horses,Transferred,0,0,0,3,3,0,1,0,7
+2014,Horses,Euthanized,0,14,0,3,3,14,3,0,37
+2014,Horses,Other,0,3,0,1,0,2,0,0,6
+2014,Livestock,Reclaimed,2,27,0,27,4,1,29,0,90
+2014,Livestock,Rehomed,239,577,2,362,106,116,190,36,1628
+2014,Livestock,Currently In Care,43,75,0,41,27,114,23,0,323
+2014,Livestock,Transferred,0,19,0,21,14,0,64,0,118
+2014,Livestock,Euthanized,40,356,0,228,28,58,72,2,784
+2014,Livestock,Other,4,30,0,29,3,19,16,0,101
+2014,Wildlife,Released,256,21,0,1513,110,11,680,0,2591
+2014,Wildlife,Currently In Care,7,3,0,384,10,9,21,0,434
+2014,Wildlife,Transferred,158,265,0,4393,82,21,4,0,4923
+2014,Wildlife,Euthanized,872,339,1,11317,90,21,654,0,13294
+2014,Wildlife,Other,243,47,0,852,18,26,141,0,1327
+2014,Other Animals,Reclaimed,37,122,0,64,23,16,34,0,296
+2014,Other Animals,Rehomed,735,1386,40,966,326,132,752,39,4376
+2014,Other Animals,Currently In Care,103,168,0,146,209,35,146,5,812
+2014,Other Animals,Transferred,0,40,0,174,30,8,63,0,315
+2014,Other Animals,Euthanized,89,1210,1,397,133,38,141,9,2018
+2014,Other Animals,Other,47,101,0,104,31,41,42,5,371
+2015,Dogs,Reclaimed,293,4782,70,4703,1505,539,5595,279,17766
+2015,Dogs,Rehomed,389,4178,473,6819,890,715,2951,228,16643
+2015,Dogs,Currently In Care,53,884,81,797,220,134,567,103,2839
+2015,Dogs,Transferred,69,974,0,410,54,1,423,0,1931
+2015,Dogs,Euthanized,37,2713,51,1351,605,112,916,87,5872
+2015,Dogs,Other,3,48,1,104,15,5,17,12,205
+2015,Cats,Reclaimed,144,685,9,664,192,72,822,6,2594
+2015,Cats,Rehomed,1628,8502,281,9768,2874,1308,6396,421,31178
+2015,Cats,Currently In Care,144,953,54,1304,414,221,647,58,3795
+2015,Cats,Transferred,0,337,5,355,75,1,151,1,925
+2015,Cats,Euthanized,520,8456,41,1533,1563,559,3341,192,16205
+2015,Cats,Other,47,196,6,407,71,25,100,21,873
+2015,Horses,Reclaimed,0,11,0,8,4,0,0,0,23
+2015,Horses,Rehomed,1,21,0,11,1,21,11,10,76
+2015,Horses,Currently In Care,1,119,0,5,1,40,46,26,238
+2015,Horses,Transferred,0,1,0,0,10,2,119,0,132
+2015,Horses,Euthanized,0,10,0,6,3,6,6,4,35
+2015,Horses,Other,0,0,0,0,0,1,2,4,7
+2015,Livestock,Reclaimed,4,15,0,41,19,7,15,3,104
+2015,Livestock,Rehomed,197,565,7,405,45,164,159,49,1591
+2015,Livestock,Currently In Care,33,60,0,50,37,187,26,28,421
+2015,Livestock,Transferred,0,41,0,40,17,1,130,0,229
+2015,Livestock,Euthanized,25,318,0,239,35,60,47,5,729
+2015,Livestock,Other,16,52,0,52,4,2,10,2,138
+2015,Wildlife,Released,81,17,0,2532,95,7,610,5,3347
+2015,Wildlife,Currently In Care,9,1,0,288,16,0,26,0,340
+2015,Wildlife,Transferred,249,224,0,6247,94,9,1,0,6824
+2015,Wildlife,Euthanized,717,339,0,11665,98,7,679,1,13506
+2015,Wildlife,Other,96,32,0,1239,40,9,134,1,1551
+2015,Other Animals,Reclaimed,30,76,0,87,47,12,28,0,280
+2015,Other Animals,Rehomed,581,1361,34,720,449,191,716,38,4090
+2015,Other Animals,Currently In Care,78,278,5,89,202,52,120,8,832
+2015,Other Animals,Transferred,0,175,1,108,24,0,2,0,310
+2015,Other Animals,Euthanized,40,911,3,145,167,20,119,6,1411
+2015,Other Animals,Other,24,105,5,103,53,14,40,7,351
+2016,Dogs,Reclaimed,380,59,4320,5803,1408,568,5454,198,18190
+2016,Dogs,Rehomed,421,505,4177,6933,868,743,2318,329,16294
+2016,Dogs,Currently In Care,38,42,876,777,143,91,555,93,2615
+2016,Dogs,Transferred,79,0,744,412,41,1,375,18,1670
+2016,Dogs,Euthanized,35,48,2544,1515,659,96,744,122,5763
+2016,Dogs,Other,2,7,42,129,11,1,24,22,238
+2016,Cats,Reclaimed,154,12,608,770,222,75,802,15,2658
+2016,Cats,Rehomed,1597,376,7941,10069,2849,1425,5824,514,30595
+2016,Cats,Currently In Care,55,118,1011,1159,665,240,1134,84,4466
+2016,Cats,Transferred,0,2,242,304,13,4,179,41,785
+2016,Cats,Euthanized,465,26,6571,1800,1514,816,3222,149,14563
+2016,Cats,Other,44,5,188,335,99,33,131,21,856
+2016,Horses,Reclaimed,0,0,15,14,1,1,7,0,38
+2016,Horses,Rehomed,0,0,43,12,4,48,21,18,146
+2016,Horses,Currently In Care,1,0,105,8,9,7,50,22,202
+2016,Horses,Transferred,0,0,6,1,16,0,6,9,38
+2016,Horses,Euthanized,0,0,12,4,11,7,12,5,51
+2016,Horses,Other,0,0,0,0,3,6,0,0,9
+2016,Livestock,Reclaimed,5,0,17,83,14,6,17,0,142
+2016,Livestock,Rehomed,351,18,526,326,109,317,169,90,1906
+2016,Livestock,Currently In Care,10,1,80,75,79,55,18,11,329
+2016,Livestock,Transferred,20,0,11,134,43,1,47,0,256
+2016,Livestock,Euthanized,25,1,248,197,102,21,65,10,669
+2016,Livestock,Other,9,0,10,39,16,17,8,5,104
+2016,Wildlife,Released,57,0,8,2772,6,14,610,0,3467
+2016,Wildlife,Currently In Care,0,0,1,384,1,5,16,0,407
+2016,Wildlife,Transferred,151,0,231,5788,15,11,11,0,6207
+2016,Wildlife,Euthanized,348,0,247,12864,34,19,605,0,14117
+2016,Wildlife,Other,52,0,36,1361,4,20,106,0,1579
+2016,Other Animals,Reclaimed,36,2,123,106,35,5,33,0,340
+2016,Other Animals,Rehomed,455,34,1350,1029,223,154,624,64,3933
+2016,Other Animals,Currently In Care,23,2,143,277,16,12,138,8,619
+2016,Other Animals,Transferred,1,0,143,169,67,0,23,0,403
+2016,Other Animals,Euthanized,51,2,816,577,149,21,110,8,1734
+2016,Other Animals,Other,110,0,100,114,98,21,44,7,494
+2017,Dogs,Reclaimed,349,50,3720,5521,1166,384,4215,160,15565
+2017,Dogs,Rehomed,335,338,4014,6344,734,447,2285,384,14881
+2017,Dogs,Currently In Care,51,44,769,651,105,78,410,95,2203
+2017,Dogs,Transferred,46,4,703,464,32,33,507,93,1882
+2017,Dogs,Euthanized,52,15,2302,1992,532,83,516,85,5577
+2017,Dogs,Other,3,2,45,81,5,7,18,17,178
+2017,Cats,Reclaimed,133,4,642,880,229,64,693,6,2651
+2017,Cats,Rehomed,1208,349,8150,10337,3174,1059,7389,562,32228
+2017,Cats,Currently In Care,92,65,1012,1027,377,96,1063,50,3782
+2017,Cats,Transferred,0,4,236,296,21,45,335,65,1002
+2017,Cats,Euthanized,323,18,6118,2042,1356,328,2291,134,12610
+2017,Cats,Other,17,8,162,313,72,16,135,15,738
+2017,Horses,Reclaimed,0,0,11,7,0,0,2,0,21
+2017,Horses,Rehomed,1,0,48,15,5,24,33,6,132
+2017,Horses,Currently In Care,0,0,149,16,7,1,44,21,238
+2017,Horses,Transferred,0,0,4,0,3,0,21,1,29
+2017,Horses,Euthanized,1,0,12,4,1,6,9,3,36
+2017,Horses,Other,0,0,0,0,1,2,0,0,3
+2017,Livestock,Reclaimed,3,2,21,157,9,1,5,1,199
+2017,Livestock,Rehomed,90,27,572,319,126,111,139,52,1436
+2017,Livestock,Currently In Care,8,1,86,51,44,12,20,24,246
+2017,Livestock,Transferred,0,0,41,305,206,0,56,54,662
+2017,Livestock,Euthanized,16,1,251,653,88,26,65,23,1123
+2017,Livestock,Other,2,1,13,22,56,14,3,5,116
+2017,Wildlife,Released,28,0,14,3116,15,37,521,0,3731
+2017,Wildlife,Currently In Care,1,0,2,251,8,0,97,0,359
+2017,Wildlife,Transferred,62,0,250,5767,138,0,22,0,6239
+2017,Wildlife,Euthanized,296,0,302,14690,174,8,605,0,16075
+2017,Wildlife,Other,20,1,21,1376,19,0,128,0,1565
+2017,Other Animals,Reclaimed,15,0,89,154,8,7,23,0,296
+2017,Other Animals,Rehomed,208,1,1385,1324,415,120,683,91,4227
+2017,Other Animals,Currently In Care,16,0,113,163,32,0,191,44,559
+2017,Other Animals,Transferred,1,0,91,208,3,4,38,12,357
+2017,Other Animals,Euthanized,45,0,674,502,54,16,109,17,1417
+2017,Other Animals,Other,7,0,99,89,13,22,51,13,294
+2018,Dogs,Reclaimed,282,24,3160,4452,1086,198,3768,137,13107
+2018,Dogs,Rehomed,360,299,3805,4907,702,207,2214,378,12872
+2018,Dogs,Currently In Care,42,36,774,590,112,3,313,71,1941
+2018,Dogs,Transferred,23,0,616,289,6,0,387,70,1391
+2018,Dogs,Euthanized,51,12,1663,1228,520,44,683,107,4308
+2018,Dogs,Other,45,1,57,51,16,0,16,58,244
+2018,Cats,Reclaimed,139,6,563,901,265,39,730,22,2665
+2018,Cats,Rehomed,1186,330,7652,9833,3317,717,7500,570,31105
+2018,Cats,Currently In Care,89,90,1239,810,298,186,1169,63,3944
+2018,Cats,Transferred,9,0,288,233,19,0,391,93,1033
+2018,Cats,Euthanized,318,20,5735,1666,1121,376,2369,135,11740
+2018,Cats,Other,34,6,211,205,50,7,113,57,683
+2018,Horses,Reclaimed,0,0,0,21,0,0,3,4,28
+2018,Horses,Rehomed,0,0,101,27,4,6,33,14,185
+2018,Horses,Currently In Care,0,0,52,52,19,0,40,9,172
+2018,Horses,Transferred,0,0,3,8,0,0,6,0,17
+2018,Horses,Euthanized,0,0,16,17,4,0,23,12,72
+2018,Horses,Other,0,0,1,0,0,1,2,1,5
+2018,Livestock,Reclaimed,3,0,32,112,80,1,9,2,239
+2018,Livestock,Rehomed,62,9,446,307,61,80,130,51,1146
+2018,Livestock,Currently In Care,3,0,42,121,3,0,23,21,213
+2018,Livestock,Transferred,1,0,53,622,0,0,49,73,798
+2018,Livestock,Euthanized,11,0,263,413,47,0,107,17,858
+2018,Livestock,Other,1,0,11,22,3,5,8,5,55
+2018,Wildlife,Released,25,0,13,3048,0,9,69,14,3178
+2018,Wildlife,Currently In Care,1,0,2,197,6,3,21,0,230
+2018,Wildlife,Transferred,64,0,179,5380,111,0,326,3,6063
+2018,Wildlife,Euthanized,244,0,308,15690,141,7,576,4,16970
+2018,Wildlife,Other,6,0,536,1070,9,0,120,1,1742
+2018,Other Animals,Reclaimed,22,0,89,131,52,3,21,2,320
+2018,Other Animals,Rehomed,263,10,1030,1195,390,90,744,91,3813
+2018,Other Animals,Currently In Care,61,0,141,218,34,9,175,8,646
+2018,Other Animals,Transferred,3,0,55,294,13,2,32,15,414
+2018,Other Animals,Euthanized,124,0,1005,298,90,36,73,15,1641
+2018,Other Animals,Other,21,0,60,100,11,5,51,60,308

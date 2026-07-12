@@ -1,0 +1,23 @@
+{
+  "id": "bronze-bug-trophy",
+  "name": "Bronze Bug Trophy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1150
+      },
+      "sources": [
+        "Bug Off"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      }
+    }
+  }
+}

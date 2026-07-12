@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "2-10",
+  "games": {
+    "ww": {
+      "personality": "lazy",
+      "clothes": "star-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'",
+      "quote": "Sometimes the sum is greater than its parts! Get it? A huh huh huh!"
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "star-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "star-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "stuffin'",
+      "skill": "Forgetting stuff",
+      "goal": "Lawyer",
+      "fear": "Ghost Mask",
+      "quote": "One stitch in time saves nine!",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "stuffin'",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Stitches",
+  "id": "stitches"
+}

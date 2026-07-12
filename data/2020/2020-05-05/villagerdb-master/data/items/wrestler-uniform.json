@@ -1,0 +1,19 @@
+{
+  "id": "wrestler-uniform",
+  "name": "Wrestler Uniform",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

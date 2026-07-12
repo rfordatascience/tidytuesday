@@ -1,0 +1,20 @@
+{
+  "id": "diplo-hip",
+  "name": "Diplo Hip",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

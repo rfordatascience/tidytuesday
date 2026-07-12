@@ -1,0 +1,39 @@
+{
+  "id": "loud-bloom-shirt",
+  "name": "Loud Bloom Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Summer)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    }
+  }
+}

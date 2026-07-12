@@ -1,0 +1,25 @@
+title: "Southern Resident Killer Whale Encounters"
+article:
+  title: "Web Scraping & Mapping {orcas} Encounters"
+  url: "https://jadeynryan.github.io/orcas/"
+data_source:
+  title: "Center for Whale Research"
+  url: "https://www.whaleresearch.com/"
+images:
+# Please include at least one image, and up to three images
+- file: "l-pod-orcas.png"
+  alt: >
+    Southern Resident Killer Whale L83 carrying the new, emaciated calf L128 across her rostrum. Photo taken by Center for Whale Research under Federal Permits NMFS PERMIT: 27038/DFO SARA 388.
+- file: "orcas-leaflet.png"
+  alt: >
+    Screenshot of map of the San Juan Islands in Washington created with Leaflet
+    in R. Whale icons represent the starting point of an encounter and whale 
+    tale icons represent the ending point of the encounter. Two encounters are 
+    shown. 
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Jadey Ryan"
+  linkedin: "https://www.linkedin.com/in/jadey-ryan"
+  mastodon: "@jadeynryan@fosstodon.org"
+  github: "https://github.com/jadeynryan"

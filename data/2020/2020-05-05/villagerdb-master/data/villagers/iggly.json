@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "11-2",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "red-bar-tee",
+      "song": "K.K. March",
+      "phrase": "waddler"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "red-bar-tee",
+      "song": "K.K. March",
+      "phrase": "waddler",
+      "skill": "Bunting",
+      "goal": "Baseball player",
+      "fear": "Bug Mask",
+      "quote": "Six of one, half dozen of the other.",
+      "siblings": "Only child",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "waddler",
+      "song": "K.K. March"
+    }
+  },
+  "name": "Iggly",
+  "id": "iggly"
+}

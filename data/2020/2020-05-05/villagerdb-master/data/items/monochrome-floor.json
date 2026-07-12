@@ -1,0 +1,21 @@
+{
+  "id": "monochrome-floor",
+  "name": "Monochrome Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "claude",
+        "timmy-tommy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "wingtip-shoes",
+  "name": "Wingtip Shoes",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Balloon",
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 225
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 900
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

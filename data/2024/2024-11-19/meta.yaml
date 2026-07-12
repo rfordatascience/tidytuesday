@@ -1,0 +1,30 @@
+title: "Bob's Burgers Episodes"
+article:
+  title: "Bob’s Burgers Episode Fingerprints by Season"
+  url: "https://stevenponce.netlify.app/projects/standalone_visualizations/sa_2024-11-11.html"
+data_source:
+  title: "bobsburgersR R Package"
+  url: "https://github.com/poncest/bobsburgersR"
+images:
+# Please include at least one image, and up to three images
+- file: "bobs_seasons.png"
+  alt: >
+    A series of radar charts showing dialogue patterns across 14 seasons of 
+    Bob’s Burgers. Each season chart displays metrics including Dialogue 
+    Density, Average Length, Sentiment Variance, Unique Words, Question Ratio, 
+    and Exclamation Ratio. Light purple polygons represent individual episodes, 
+    while dark purple lines show season averages, revealing how dialogue 
+    patterns evolved throughout the series.
+- file: "bobsburgersR.png"
+  alt: >
+    Hex logo for the bobsburgersR R package, featuring a cartoon burger in the 
+    style of the show, and the letters "bob's burgers R" in the font used by
+    the show.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: "Jon Harmon"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"

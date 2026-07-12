@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "6-29",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "daisy-shirt",
+      "song": "DJ K.K."
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "daisy-tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "daisy-tee",
+      "song": "DJ K.K.",
+      "phrase": "mweee",
+      "skill": "Vaulting",
+      "goal": "Figure skater",
+      "fear": "Werewolf Hood",
+      "quote": "A smile increases your face value.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "mweee",
+      "song": "DJ K.K."
+    }
+  },
+  "name": "Merry",
+  "id": "merry"
+}

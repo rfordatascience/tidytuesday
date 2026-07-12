@@ -1,0 +1,20 @@
+{
+  "id": "bamboo-grass",
+  "name": "Bamboo Grass",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 770
+      },
+      "sources": [
+        "Starcrossed Day (Isabelle -- JP only)"
+      ]
+    }
+  }
+}

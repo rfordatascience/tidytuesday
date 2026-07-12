@@ -1,0 +1,30 @@
+{
+  "id": "net",
+  "name": "Net",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Nookling stores",
+        "Bug Off"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "recipe": {
+        "flimsy-net": 1,
+        "iron-nugget": 1
+      }
+    }
+  }
+}

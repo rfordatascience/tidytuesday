@@ -1,0 +1,27 @@
+{
+  "id": "princess-zelda-dress",
+  "name": "Princess Zelda Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "rvs": [
+        "wolf-link"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

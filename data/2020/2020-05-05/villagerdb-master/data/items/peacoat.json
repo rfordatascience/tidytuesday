@@ -1,0 +1,38 @@
+{
+  "id": "peacoat",
+  "name": "Peacoat",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 120
+      },
+      "sources": [
+        "Able Sisters (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 480
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 490
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1960
+        }
+      ]
+    }
+  }
+}

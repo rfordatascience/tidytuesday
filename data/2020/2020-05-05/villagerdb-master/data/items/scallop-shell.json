@@ -1,0 +1,17 @@
+{
+  "id": "scallop-shell",
+  "name": "Scallop Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

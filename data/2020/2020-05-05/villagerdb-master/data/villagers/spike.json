@@ -1,0 +1,40 @@
+{
+  "gender": "male",
+  "species": "rhino",
+  "birthday": "6-17",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "skull-shirt",
+      "phrase": "punk"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "skull-shirt"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "skull-tee",
+      "phrase": "punk",
+      "skill": "Climbing trees",
+      "goal": "Actor",
+      "fear": "Skeleton Hood",
+      "quote": "Keep your eye on the ball.",
+      "siblings": "Third of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "punk"
+    }
+  },
+  "name": "Spike",
+  "id": "spike"
+}

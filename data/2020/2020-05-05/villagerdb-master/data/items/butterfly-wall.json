@@ -1,0 +1,21 @@
+{
+  "id": "butterfly-wall",
+  "name": "Butterfly Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Insect",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Bug Off"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "muumuu",
+  "name": "Muumuu",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 15
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "snowman-wall",
+  "name": "Snowman Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Snowman",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowboy"
+      ]
+    }
+  }
+}

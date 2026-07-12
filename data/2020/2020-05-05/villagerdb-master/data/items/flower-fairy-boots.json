@@ -1,0 +1,22 @@
+{
+  "id": "flower-fairy-boots",
+  "name": "Flower Fairy Boots",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Obtain at least 2",
+        "500 points in Time Attack on any difficulty in Puzzle League"
+      ]
+    }
+  }
+}

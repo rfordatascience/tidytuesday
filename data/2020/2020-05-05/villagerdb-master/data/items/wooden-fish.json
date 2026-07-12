@@ -1,0 +1,18 @@
+{
+  "id": "wooden-fish",
+  "name": "Wooden Fish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "recipe": {
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

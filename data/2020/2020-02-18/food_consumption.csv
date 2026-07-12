@@ -1,0 +1,1431 @@
+country,food_category,consumption,co2_emmission
+Argentina,Pork,10.51,37.2
+Argentina,Poultry,38.660000000000004,41.53
+Argentina,Beef,55.48,1712
+Argentina,Lamb & Goat,1.56,54.63
+Argentina,Fish,4.359999999999999,6.96
+Argentina,Eggs,11.39,10.46
+Argentina,Milk - inc. cheese,195.08,277.87
+Argentina,Wheat and Wheat Products,103.11,19.66
+Argentina,Rice,8.77,11.219999999999999
+Argentina,Soybeans,0,0
+Argentina,Nuts inc. Peanut Butter,0.49,0.8700000000000001
+Australia,Pork,24.14,85.44000000000001
+Australia,Poultry,46.120000000000005,49.54
+Australia,Beef,33.86,1044.85
+Australia,Lamb & Goat,9.870000000000001,345.65000000000003
+Australia,Fish,17.69,28.25
+Australia,Eggs,8.51,7.819999999999999
+Australia,Milk - inc. cheese,234.49,334.01
+Australia,Wheat and Wheat Products,70.46000000000001,13.44
+Australia,Rice,11.03,14.12
+Australia,Soybeans,0.19,0.09
+Australia,Nuts inc. Peanut Butter,8.729999999999999,15.450000000000001
+Albania,Pork,10.88,38.51
+Albania,Poultry,13.229999999999999,14.209999999999999
+Albania,Beef,22.5,694.3
+Albania,Lamb & Goat,15.32,536.5
+Albania,Fish,3.8499999999999996,6.1499999999999995
+Albania,Eggs,12.450000000000001,11.44
+Albania,Milk - inc. cheese,303.71999999999997,432.62
+Albania,Wheat and Wheat Products,138.64,26.439999999999998
+Albania,Rice,7.78,9.96
+Albania,Soybeans,0,0
+Albania,Nuts inc. Peanut Butter,4.359999999999999,7.72
+Iceland,Pork,21.69,76.77
+Iceland,Poultry,26.87,28.86
+Iceland,Beef,13.360000000000001,412.26
+Iceland,Lamb & Goat,21.12,739.62
+Iceland,Fish,74.41000000000001,118.81
+Iceland,Eggs,8.239999999999998,7.57
+Iceland,Milk - inc. cheese,225.82000000000002,321.66
+Iceland,Wheat and Wheat Products,72.92,13.91
+Iceland,Rice,3.8899999999999997,4.98
+Iceland,Soybeans,0.11,0.05
+Iceland,Nuts inc. Peanut Butter,3.88,6.87
+New Zealand,Pork,22.29,78.9
+New Zealand,Poultry,34.98,37.58
+New Zealand,Beef,22.49,693.99
+New Zealand,Lamb & Goat,18.91,662.23
+New Zealand,Fish,20.36,32.51
+New Zealand,Eggs,9.91,9.1
+New Zealand,Milk - inc. cheese,137.25,195.5
+New Zealand,Wheat and Wheat Products,76.91000000000001,14.67
+New Zealand,Rice,9.16,11.719999999999999
+New Zealand,Soybeans,0.44,0.2
+New Zealand,Nuts inc. Peanut Butter,8.219999999999999,14.55
+USA,Pork,27.64,97.83
+USA,Poultry,50.01,53.720000000000006
+USA,Beef,36.24,1118.29
+USA,Lamb & Goat,0.43000000000000005,15.06
+USA,Fish,12.350000000000001,19.72
+USA,Eggs,14.58,13.39
+USA,Milk - inc. cheese,254.69,362.78
+USA,Wheat and Wheat Products,80.43,15.34
+USA,Rice,6.88,8.8
+USA,Soybeans,0.04,0.02
+USA,Nuts inc. Peanut Butter,7.859999999999999,13.91
+Uruguay,Pork,16.84,59.61
+Uruguay,Poultry,27.45,29.49
+Uruguay,Beef,29.1,897.9599999999999
+Uruguay,Lamb & Goat,8.229999999999999,288.21
+Uruguay,Fish,6.53,10.43
+Uruguay,Eggs,13.139999999999999,12.07
+Uruguay,Milk - inc. cheese,210.54,299.89
+Uruguay,Wheat and Wheat Products,109.31,20.85
+Uruguay,Rice,11.5,14.719999999999999
+Uruguay,Soybeans,0.01,0
+Uruguay,Nuts inc. Peanut Butter,0.9500000000000001,1.6800000000000002
+Luxembourg,Pork,43.58,154.25
+Luxembourg,Poultry,21.37,22.959999999999997
+Luxembourg,Beef,29.88,922.03
+Luxembourg,Lamb & Goat,1.6700000000000002,58.48
+Luxembourg,Fish,23.09,36.87
+Luxembourg,Eggs,14.639999999999999,13.450000000000001
+Luxembourg,Milk - inc. cheese,255.3,363.65000000000003
+Luxembourg,Wheat and Wheat Products,103.2,19.68
+Luxembourg,Rice,4.2,5.37
+Luxembourg,Soybeans,0.04,0.02
+Luxembourg,Nuts inc. Peanut Butter,0.93,1.6500000000000001
+Brazil,Pork,12.6,44.6
+Brazil,Poultry,45,48.339999999999996
+Brazil,Beef,39.25,1211.1699999999998
+Brazil,Lamb & Goat,0.62,21.71
+Brazil,Fish,10.01,15.98
+Brazil,Eggs,8.98,8.25
+Brazil,Milk - inc. cheese,149.28,212.63
+Brazil,Wheat and Wheat Products,53,10.11
+Brazil,Rice,32.13,41.120000000000005
+Brazil,Soybeans,3.62,1.6300000000000001
+Brazil,Nuts inc. Peanut Butter,0.6699999999999999,1.1900000000000002
+Kazakhstan,Pork,10.360000000000001,36.67
+Kazakhstan,Poultry,18.38,19.74
+Kazakhstan,Beef,23.38,721.4599999999999
+Kazakhstan,Lamb & Goat,9.56,334.78999999999996
+Kazakhstan,Fish,5.21,8.32
+Kazakhstan,Eggs,8.29,7.619999999999999
+Kazakhstan,Milk - inc. cheese,288.12,410.4
+Kazakhstan,Wheat and Wheat Products,92.31,17.6
+Kazakhstan,Rice,7.319999999999999,9.370000000000001
+Kazakhstan,Soybeans,0.03,0.01
+Kazakhstan,Nuts inc. Peanut Butter,5.14,9.1
+Sweden,Pork,37,130.96
+Sweden,Poultry,16.64,17.87
+Sweden,Beef,24.58,758.49
+Sweden,Lamb & Goat,1.41,49.379999999999995
+Sweden,Fish,23.86,38.1
+Sweden,Eggs,13.370000000000001,12.28
+Sweden,Milk - inc. cheese,341.22999999999996,486.05
+Sweden,Wheat and Wheat Products,79.59,15.18
+Sweden,Rice,5.96,7.63
+Sweden,Soybeans,0.13,0.06
+Sweden,Nuts inc. Peanut Butter,6.23,11.03
+Bermuda,Pork,28.24,99.96000000000001
+Bermuda,Poultry,32.620000000000005,35.04
+Bermuda,Beef,33.15,1022.9399999999999
+Bermuda,Lamb & Goat,2.71,94.9
+Bermuda,Fish,33.220000000000006,53.04
+Bermuda,Eggs,14.92,13.709999999999999
+Bermuda,Milk - inc. cheese,95.56,136.12
+Bermuda,Wheat and Wheat Products,54.879999999999995,10.47
+Bermuda,Rice,5.38,6.88
+Bermuda,Soybeans,0.22,0.1
+Bermuda,Nuts inc. Peanut Butter,5.72,10.12
+Denmark,Pork,24.87,88.03
+Denmark,Poultry,26.75,28.73
+Denmark,Beef,28.459999999999997,878.22
+Denmark,Lamb & Goat,0.92,32.220000000000006
+Denmark,Fish,16.49,26.330000000000002
+Denmark,Eggs,15.350000000000001,14.1
+Denmark,Milk - inc. cheese,277.3,394.98999999999995
+Denmark,Wheat and Wheat Products,98,18.69
+Denmark,Rice,4.96,6.35
+Denmark,Soybeans,0.03,0.01
+Denmark,Nuts inc. Peanut Butter,5.94,10.51
+Finland,Pork,36.14,127.92
+Finland,Poultry,19.87,21.34
+Finland,Beef,19.22,593.09
+Finland,Lamb & Goat,0.53,18.56
+Finland,Fish,33.8,53.97
+Finland,Eggs,9.55,8.77
+Finland,Milk - inc. cheese,430.76,613.57
+Finland,Wheat and Wheat Products,81.99000000000001,15.639999999999999
+Finland,Rice,4.42,5.659999999999999
+Finland,Soybeans,0.08,0.04
+Finland,Nuts inc. Peanut Butter,3.4299999999999997,6.07
+Ireland,Pork,32.4,114.67999999999999
+Ireland,Poultry,26.259999999999998,28.21
+Ireland,Beef,22.35,689.6700000000001
+Ireland,Lamb & Goat,4.1,143.58
+Ireland,Fish,17.39,27.77
+Ireland,Eggs,8.96,8.229999999999999
+Ireland,Milk - inc. cheese,291.86,415.72999999999996
+Ireland,Wheat and Wheat Products,107.98,20.59
+Ireland,Rice,3,3.84
+Ireland,Soybeans,0.25,0.11
+Ireland,Nuts inc. Peanut Butter,4.1,7.26
+Greece,Pork,28.310000000000002,100.2
+Greece,Poultry,15.739999999999998,16.91
+Greece,Beef,16.1,496.81
+Greece,Lamb & Goat,12.47,436.7
+Greece,Fish,14.42,23.02
+Greece,Eggs,10.129999999999999,9.31
+Greece,Milk - inc. cheese,255.26,363.59
+Greece,Wheat and Wheat Products,124.04,23.650000000000002
+Greece,Rice,6.64,8.5
+Greece,Soybeans,0.02,0.01
+Greece,Nuts inc. Peanut Butter,10.5,18.59
+France,Pork,33.05,116.98
+France,Poultry,22.93,24.630000000000003
+France,Beef,23.810000000000002,734.73
+France,Lamb & Goat,3.2800000000000002,114.86999999999999
+France,Fish,22.91,36.58
+France,Eggs,13.129999999999999,12.06
+France,Milk - inc. cheese,241.31,343.71999999999997
+France,Wheat and Wheat Products,108.43,20.68
+France,Rice,4.88,6.24
+France,Soybeans,0.05,0.02
+France,Nuts inc. Peanut Butter,5.39,9.54
+Canada,Pork,22.810000000000002,80.74000000000001
+Canada,Poultry,36.68,39.4
+Canada,Beef,30.25,933.4499999999999
+Canada,Lamb & Goat,0.97,33.97
+Canada,Fish,14.56,23.25
+Canada,Eggs,12.950000000000001,11.9
+Canada,Milk - inc. cheese,187.76999999999998,267.46
+Canada,Wheat and Wheat Products,84.96000000000001,16.2
+Canada,Rice,12.65,16.19
+Canada,Soybeans,0.9400000000000001,0.42000000000000004
+Canada,Nuts inc. Peanut Butter,8.01,14.18
+Norway,Pork,23.51,83.21000000000001
+Norway,Poultry,21.01,22.57
+Norway,Beef,19.830000000000002,611.91
+Norway,Lamb & Goat,5.34,187.01
+Norway,Fish,38.18,60.96
+Norway,Eggs,11.41,10.48
+Norway,Milk - inc. cheese,261.34000000000003,372.25
+Norway,Wheat and Wheat Products,97.11999999999999,18.52
+Norway,Rice,4.359999999999999,5.58
+Norway,Soybeans,0.11,0.05
+Norway,Nuts inc. Peanut Butter,5.28,9.350000000000001
+Hong Kong SAR. China,Pork,67.11,237.54
+Hong Kong SAR. China,Poultry,54.86,58.93
+Hong Kong SAR. China,Beef,25.82,796.75
+Hong Kong SAR. China,Lamb & Goat,2.22,77.74000000000001
+Hong Kong SAR. China,Fish,42.44,67.76
+Hong Kong SAR. China,Eggs,14.5,13.32
+Hong Kong SAR. China,Milk - inc. cheese,105.85,150.76999999999998
+Hong Kong SAR. China,Wheat and Wheat Products,53.14,10.129999999999999
+Hong Kong SAR. China,Rice,43.48,55.64
+Hong Kong SAR. China,Soybeans,2.79,1.26
+Hong Kong SAR. China,Nuts inc. Peanut Butter,13.81,24.439999999999998
+French Polynesia,Pork,14.75,52.21
+French Polynesia,Poultry,49.55,53.230000000000004
+French Polynesia,Beef,30.9,953.51
+French Polynesia,Lamb & Goat,2.8299999999999996,99.11
+French Polynesia,Fish,38.949999999999996,62.190000000000005
+French Polynesia,Eggs,8.75,8.04
+French Polynesia,Milk - inc. cheese,93.56,133.26999999999998
+French Polynesia,Wheat and Wheat Products,68.66999999999999,13.1
+French Polynesia,Rice,35.59,45.54
+French Polynesia,Soybeans,0.77,0.35
+French Polynesia,Nuts inc. Peanut Butter,2.34,4.14
+Israel,Pork,1.99,7.04
+Israel,Poultry,62.5,67.14
+Israel,Beef,28.779999999999998,888.09
+Israel,Lamb & Goat,1.87,65.49000000000001
+Israel,Fish,22.18,35.41
+Israel,Eggs,11.350000000000001,10.43
+Israel,Milk - inc. cheese,193.6,275.76
+Israel,Wheat and Wheat Products,110.86,21.14
+Israel,Rice,16.810000000000002,21.51
+Israel,Soybeans,0.1,0.05
+Israel,Nuts inc. Peanut Butter,7.71,13.65
+Switzerland,Pork,31.49,111.46000000000001
+Switzerland,Poultry,16.38,17.6
+Switzerland,Beef,21.259999999999998,656.04
+Switzerland,Lamb & Goat,1.42,49.730000000000004
+Switzerland,Fish,13.48,21.52
+Switzerland,Eggs,10.53,9.67
+Switzerland,Milk - inc. cheese,318.69,453.94
+Switzerland,Wheat and Wheat Products,89.51,17.07
+Switzerland,Rice,2.4299999999999997,3.11
+Switzerland,Soybeans,0.44,0.2
+Switzerland,Nuts inc. Peanut Butter,9.27,16.41
+Netherlands,Pork,36.36,128.7
+Netherlands,Poultry,23.9,25.67
+Netherlands,Beef,17.67,545.26
+Netherlands,Lamb & Goat,0.9400000000000001,32.92
+Netherlands,Fish,18.64,29.759999999999998
+Netherlands,Eggs,14.03,12.89
+Netherlands,Milk - inc. cheese,341.46999999999997,486.39
+Netherlands,Wheat and Wheat Products,70.16999999999999,13.38
+Netherlands,Rice,2.9299999999999997,3.75
+Netherlands,Soybeans,0.12000000000000001,0.05
+Netherlands,Nuts inc. Peanut Butter,7.94,14.05
+Kuwait,Pork,0,0
+Kuwait,Poultry,53.61,57.59
+Kuwait,Beef,13.03,402.08
+Kuwait,Lamb & Goat,15.61,546.66
+Kuwait,Fish,11.99,19.14
+Kuwait,Eggs,12.6,11.57
+Kuwait,Milk - inc. cheese,157.66,224.57
+Kuwait,Wheat and Wheat Products,96.76,18.45
+Kuwait,Rice,43.83,56.09
+Kuwait,Soybeans,0.06,0.03
+Kuwait,Nuts inc. Peanut Butter,5.23,9.26
+United Kingdom,Pork,25.79,91.28
+United Kingdom,Poultry,31.55,33.89
+United Kingdom,Beef,18.12,559.15
+United Kingdom,Lamb & Goat,4.49,157.23999999999998
+United Kingdom,Fish,15.49,24.73
+United Kingdom,Eggs,11.08,10.18
+United Kingdom,Milk - inc. cheese,232.2,330.75
+United Kingdom,Wheat and Wheat Products,98.63,18.810000000000002
+United Kingdom,Rice,6.39,8.18
+United Kingdom,Soybeans,0.05,0.02
+United Kingdom,Nuts inc. Peanut Butter,4.18,7.4
+Austria,Pork,52.56,186.04
+Austria,Poultry,18.610000000000003,19.99
+Austria,Beef,17.14,528.9
+Austria,Lamb & Goat,1.1600000000000001,40.620000000000005
+Austria,Fish,12.16,19.419999999999998
+Austria,Eggs,14.68,13.49
+Austria,Milk - inc. cheese,258.09,367.62
+Austria,Wheat and Wheat Products,81.1,15.47
+Austria,Rice,3.7,4.73
+Austria,Soybeans,2.06,0.93
+Austria,Nuts inc. Peanut Butter,7.88,13.950000000000001
+Oman,Pork,0.01,0.04
+Oman,Poultry,31.51,33.849999999999994
+Oman,Beef,15.1,465.95
+Oman,Lamb & Goat,12.870000000000001,450.71
+Oman,Fish,21.56,34.42
+Oman,Eggs,7.8,7.17
+Oman,Milk - inc. cheese,152.28,216.91
+Oman,Wheat and Wheat Products,64.1,12.219999999999999
+Oman,Rice,56.55,72.36999999999999
+Oman,Soybeans,0.21000000000000002,0.09
+Oman,Nuts inc. Peanut Butter,1.6800000000000002,2.9699999999999998
+Italy,Pork,40.28,142.57
+Italy,Poultry,18.610000000000003,19.99
+Italy,Beef,18.6,573.9599999999999
+Italy,Lamb & Goat,0.92,32.220000000000006
+Italy,Fish,15.6,24.91
+Italy,Eggs,13.34,12.25
+Italy,Milk - inc. cheese,246.88000000000002,351.66
+Italy,Wheat and Wheat Products,146.37,27.91
+Italy,Rice,5.74,7.35
+Italy,Soybeans,0.01,0
+Italy,Nuts inc. Peanut Butter,7.63,13.51
+Bahamas,Pork,32.74,115.88
+Bahamas,Poultry,45.74,49.13
+Bahamas,Beef,19.919999999999998,614.69
+Bahamas,Lamb & Goat,5.22,182.8
+Bahamas,Fish,18.8,30.02
+Bahamas,Eggs,6.2,5.7
+Bahamas,Milk - inc. cheese,104.76,149.22
+Bahamas,Wheat and Wheat Products,39.98,7.619999999999999
+Bahamas,Rice,23.97,30.67
+Bahamas,Soybeans,0.09,0.04
+Bahamas,Nuts inc. Peanut Butter,4.03,7.13
+Portugal,Pork,37.91,134.18
+Portugal,Poultry,30.14,32.379999999999995
+Portugal,Beef,16.45,507.61
+Portugal,Lamb & Goat,2.38,83.35
+Portugal,Fish,45.39,72.47
+Portugal,Eggs,9.05,8.31
+Portugal,Milk - inc. cheese,205.04,292.06
+Portugal,Wheat and Wheat Products,94.3,17.979999999999997
+Portugal,Rice,14.860000000000001,19.02
+Portugal,Soybeans,0.01,0
+Portugal,Nuts inc. Peanut Butter,3.9099999999999997,6.92
+Malta,Pork,34.24,121.19
+Malta,Poultry,26.4,28.36
+Malta,Beef,19.22,593.09
+Malta,Lamb & Goat,1.1900000000000002,41.67
+Malta,Fish,24.58,39.25
+Malta,Eggs,11.639999999999999,10.69
+Malta,Milk - inc. cheese,190.06,270.71999999999997
+Malta,Wheat and Wheat Products,139.58,26.62
+Malta,Rice,4.96,6.35
+Malta,Soybeans,0.05,0.02
+Malta,Nuts inc. Peanut Butter,5.619999999999999,9.950000000000001
+Armenia,Pork,9.67,34.230000000000004
+Armenia,Poultry,13.350000000000001,14.34
+Armenia,Beef,19.66,606.6700000000001
+Armenia,Lamb & Goat,3.02,105.76
+Armenia,Fish,4.359999999999999,6.96
+Armenia,Eggs,11.69,10.739999999999998
+Armenia,Milk - inc. cheese,209.03,297.74
+Armenia,Wheat and Wheat Products,130.6,24.91
+Armenia,Rice,3.18,4.07
+Armenia,Soybeans,0,0
+Armenia,Nuts inc. Peanut Butter,2.55,4.51
+Slovenia,Pork,28.19,99.78
+Slovenia,Poultry,23.459999999999997,25.2
+Slovenia,Beef,18.43,568.71
+Slovenia,Lamb & Goat,0.7899999999999999,27.67
+Slovenia,Fish,7.76,12.39
+Slovenia,Eggs,9.360000000000001,8.6
+Slovenia,Milk - inc. cheese,235.01,334.75
+Slovenia,Wheat and Wheat Products,103.43,19.72
+Slovenia,Rice,3.9499999999999997,5.05
+Slovenia,Soybeans,0.75,0.33999999999999997
+Slovenia,Nuts inc. Peanut Butter,5.28,9.350000000000001
+Chile,Pork,24.68,87.35
+Chile,Poultry,36.52,39.230000000000004
+Chile,Beef,23.86,736.2700000000001
+Chile,Lamb & Goat,0.42000000000000004,14.709999999999999
+Chile,Fish,7.6499999999999995,12.209999999999999
+Chile,Eggs,9.97,9.16
+Chile,Milk - inc. cheese,116.11,165.39000000000001
+Chile,Wheat and Wheat Products,104.74000000000001,19.97
+Chile,Rice,8.850000000000001,11.33
+Chile,Soybeans,0.04,0.02
+Chile,Nuts inc. Peanut Butter,2.22,3.9299999999999997
+Venezuela,Pork,7.23,25.59
+Venezuela,Poultry,39.28,42.190000000000005
+Venezuela,Beef,25.89,798.91
+Venezuela,Lamb & Goat,0.32,11.209999999999999
+Venezuela,Fish,8.34,13.32
+Venezuela,Eggs,5.63,5.17
+Venezuela,Milk - inc. cheese,117.79,167.78
+Venezuela,Wheat and Wheat Products,49.17,9.38
+Venezuela,Rice,23.39,29.93
+Venezuela,Soybeans,0,0
+Venezuela,Nuts inc. Peanut Butter,0.35,0.62
+Belgium,Pork,38.65,136.8
+Belgium,Poultry,12.2,13.11
+Belgium,Beef,15.629999999999999,482.31
+Belgium,Lamb & Goat,1.32,46.230000000000004
+Belgium,Fish,18.97,30.29
+Belgium,Eggs,12.59,11.57
+Belgium,Milk - inc. cheese,236.19,336.42999999999995
+Belgium,Wheat and Wheat Products,111.91000000000001,21.34
+Belgium,Rice,8.61,11.02
+Belgium,Soybeans,0.07,0.03
+Belgium,Nuts inc. Peanut Butter,7.319999999999999,12.96
+Germany,Pork,51.809999999999995,183.38000000000002
+Germany,Poultry,17.75,19.07
+Germany,Beef,13.16,406.09
+Germany,Lamb & Goat,0.73,25.56
+Germany,Fish,11.16,17.82
+Germany,Eggs,12.2,11.209999999999999
+Germany,Milk - inc. cheese,258.7,368.48999999999995
+Germany,Wheat and Wheat Products,83.41000000000001,15.91
+Germany,Rice,3.34,4.2700000000000005
+Germany,Soybeans,0.88,0.4
+Germany,Nuts inc. Peanut Butter,7.96,14.09
+Russia,Pork,25.66,90.82
+Russia,Poultry,27.5,29.54
+Russia,Beef,16.979999999999997,523.97
+Russia,Lamb & Goat,1.4,49.03
+Russia,Fish,20.82,33.24
+Russia,Eggs,15.43,14.17
+Russia,Milk - inc. cheese,163.57,232.99
+Russia,Wheat and Wheat Products,130.99,24.979999999999997
+Russia,Rice,4.71,6.03
+Russia,Soybeans,0.05,0.02
+Russia,Nuts inc. Peanut Butter,1.62,2.8699999999999997
+Croatia,Pork,42.790000000000006,151.46
+Croatia,Poultry,8.52,9.15
+Croatia,Beef,12.41,382.95
+Croatia,Lamb & Goat,1.71,59.879999999999995
+Croatia,Fish,15.83,25.279999999999998
+Croatia,Eggs,8.48,7.79
+Croatia,Milk - inc. cheese,231.02,329.06
+Croatia,Wheat and Wheat Products,106.59,20.330000000000002
+Croatia,Rice,2.64,3.38
+Croatia,Soybeans,0,0
+Croatia,Nuts inc. Peanut Butter,3.88,6.87
+Belarus,Pork,40.37,142.89000000000001
+Belarus,Poultry,31.29,33.61
+Belarus,Beef,17.110000000000003,527.98
+Belarus,Lamb & Goat,0.11,3.8499999999999996
+Belarus,Fish,15.75,25.150000000000002
+Belarus,Eggs,15.860000000000001,14.57
+Belarus,Milk - inc. cheese,133.73,190.49
+Belarus,Wheat and Wheat Products,60.48,11.53
+Belarus,Rice,3.17,4.06
+Belarus,Soybeans,0.3,0.14
+Belarus,Nuts inc. Peanut Butter,3.36,5.95
+Spain,Pork,48.92,173.15
+Spain,Poultry,28.630000000000003,30.75
+Spain,Beef,12.15,374.91999999999996
+Spain,Lamb & Goat,2.16,75.64
+Spain,Fish,28.830000000000002,46.03
+Spain,Eggs,13.32,12.239999999999998
+Spain,Milk - inc. cheese,164.29,234.01
+Spain,Wheat and Wheat Products,93.88,17.9
+Spain,Rice,8.32,10.65
+Spain,Soybeans,0.02,0.01
+Spain,Nuts inc. Peanut Butter,7.44,13.17
+Paraguay,Pork,26.24,92.88
+Paraguay,Poultry,6.39,6.859999999999999
+Paraguay,Beef,19.810000000000002,611.2900000000001
+Paraguay,Lamb & Goat,0.56,19.610000000000003
+Paraguay,Fish,3.6,5.75
+Paraguay,Eggs,18.830000000000002,17.3
+Paraguay,Milk - inc. cheese,75.72,107.86
+Paraguay,Wheat and Wheat Products,31.51,6.01
+Paraguay,Rice,4.91,6.28
+Paraguay,Soybeans,0,0
+Paraguay,Nuts inc. Peanut Butter,1.6,2.8299999999999996
+New Caledonia,Pork,19.9,70.44000000000001
+New Caledonia,Poultry,44.36,47.65
+New Caledonia,Beef,16.07,495.89
+New Caledonia,Lamb & Goat,1.95,68.29
+New Caledonia,Fish,19.38,30.939999999999998
+New Caledonia,Eggs,8.850000000000001,8.129999999999999
+New Caledonia,Milk - inc. cheese,108,153.84
+New Caledonia,Wheat and Wheat Products,81.75,15.59
+New Caledonia,Rice,17.47,22.36
+New Caledonia,Soybeans,0.55,0.25
+New Caledonia,Nuts inc. Peanut Butter,2.96,5.24
+South Africa,Pork,4.159999999999999,14.719999999999999
+South Africa,Poultry,37.57,40.36
+South Africa,Beef,18.03,556.37
+South Africa,Lamb & Goat,4.28,149.89000000000001
+South Africa,Fish,5.56,8.88
+South Africa,Eggs,7.21,6.619999999999999
+South Africa,Milk - inc. cheese,55.75,79.41000000000001
+South Africa,Wheat and Wheat Products,60.13,11.47
+South Africa,Rice,17.41,22.279999999999998
+South Africa,Soybeans,1.27,0.5700000000000001
+South Africa,Nuts inc. Peanut Butter,1.04,1.84
+Barbados,Pork,8.3,29.38
+Barbados,Poultry,42.620000000000005,45.78
+Barbados,Beef,13.129999999999999,405.16
+Barbados,Lamb & Goat,4.08,142.88000000000002
+Barbados,Fish,37.41,59.730000000000004
+Barbados,Eggs,9.61,8.83
+Barbados,Milk - inc. cheese,110.48,157.37
+Barbados,Wheat and Wheat Products,65.71000000000001,12.53
+Barbados,Rice,15.66,20.04
+Barbados,Soybeans,0.1,0.05
+Barbados,Nuts inc. Peanut Butter,4.159999999999999,7.359999999999999
+Lithuania,Pork,45.67,161.65
+Lithuania,Poultry,26.84,28.830000000000002
+Lithuania,Beef,4.49,138.55
+Lithuania,Lamb & Goat,0.24000000000000002,8.4
+Lithuania,Fish,42.39,67.67999999999999
+Lithuania,Eggs,13.11,12.04
+Lithuania,Milk - inc. cheese,295.46,420.85
+Lithuania,Wheat and Wheat Products,121.59,23.19
+Lithuania,Rice,3.07,3.9299999999999997
+Lithuania,Soybeans,0.02,0.01
+Lithuania,Nuts inc. Peanut Butter,2.13,3.77
+Turkey,Pork,0.01,0.04
+Turkey,Poultry,18.779999999999998,20.17
+Turkey,Beef,11.639999999999999,359.19
+Turkey,Lamb & Goat,4.68,163.89000000000001
+Turkey,Fish,5.58,8.91
+Turkey,Eggs,8.2,7.53
+Turkey,Milk - inc. cheese,193.94,276.25
+Turkey,Wheat and Wheat Products,169.96,32.41
+Turkey,Rice,10.739999999999998,13.739999999999998
+Turkey,Soybeans,1.71,0.77
+Turkey,Nuts inc. Peanut Butter,7.970000000000001,14.11
+Estonia,Pork,29.68,105.05
+Estonia,Poultry,21.110000000000003,22.68
+Estonia,Beef,7.1899999999999995,221.87
+Estonia,Lamb & Goat,0.44,15.41
+Estonia,Fish,12.78,20.41
+Estonia,Eggs,12.66,11.629999999999999
+Estonia,Milk - inc. cheese,284.85,405.74
+Estonia,Wheat and Wheat Products,89.36,17.04
+Estonia,Rice,2.56,3.2800000000000002
+Estonia,Soybeans,0.04,0.02
+Estonia,Nuts inc. Peanut Butter,4.29,7.59
+Mexico,Pork,15.229999999999999,53.91
+Mexico,Poultry,30.12,32.349999999999994
+Mexico,Beef,15.33,473.05
+Mexico,Lamb & Goat,0.89,31.17
+Mexico,Fish,7.56,12.07
+Mexico,Eggs,18.34,16.85
+Mexico,Milk - inc. cheese,111.86999999999999,159.35000000000002
+Mexico,Wheat and Wheat Products,35.21,6.71
+Mexico,Rice,5.64,7.22
+Mexico,Soybeans,0.02,0.01
+Mexico,Nuts inc. Peanut Butter,2.51,4.44
+Costa Rica,Pork,10.28,36.39
+Costa Rica,Poultry,24.47,26.29
+Costa Rica,Beef,15.229999999999999,469.96999999999997
+Costa Rica,Lamb & Goat,0.02,0.7
+Costa Rica,Fish,11.32,18.07
+Costa Rica,Eggs,10.55,9.69
+Costa Rica,Milk - inc. cheese,183.28,261.06
+Costa Rica,Wheat and Wheat Products,39.309999999999995,7.5
+Costa Rica,Rice,45.690000000000005,58.47
+Costa Rica,Soybeans,1.54,0.69
+Costa Rica,Nuts inc. Peanut Butter,1.3800000000000001,2.44
+Bolivia,Pork,8.89,31.47
+Bolivia,Poultry,34.309999999999995,36.86
+Bolivia,Beef,19.779999999999998,610.37
+Bolivia,Lamb & Goat,1.72,60.230000000000004
+Bolivia,Fish,2.18,3.48
+Bolivia,Eggs,5.18,4.76
+Bolivia,Milk - inc. cheese,46.04,65.58
+Bolivia,Wheat and Wheat Products,49.99,9.53
+Bolivia,Rice,26.99,34.54
+Bolivia,Soybeans,0.01,0
+Bolivia,Nuts inc. Peanut Butter,9.16,16.21
+Ecuador,Pork,14.44,51.11
+Ecuador,Poultry,21.85,23.47
+Ecuador,Beef,16.610000000000003,512.55
+Ecuador,Lamb & Goat,0.44,15.41
+Ecuador,Fish,5.17,8.25
+Ecuador,Eggs,8.01,7.359999999999999
+Ecuador,Milk - inc. cheese,139.6,198.85000000000002
+Ecuador,Wheat and Wheat Products,39.190000000000005,7.470000000000001
+Ecuador,Rice,45.07,57.68
+Ecuador,Soybeans,0,0
+Ecuador,Nuts inc. Peanut Butter,0.98,1.73
+Panama,Pork,13.48,47.71
+Panama,Poultry,30.810000000000002,33.1
+Panama,Beef,20.4,629.5
+Panama,Lamb & Goat,0.01,0.35
+Panama,Fish,11.05,17.64
+Panama,Eggs,4.53,4.159999999999999
+Panama,Milk - inc. cheese,70.29,100.11999999999999
+Panama,Wheat and Wheat Products,38.96,7.430000000000001
+Panama,Rice,66.42,85
+Panama,Soybeans,3.53,1.59
+Panama,Nuts inc. Peanut Butter,1.05,1.86
+Czech Republic,Pork,41.17,145.72
+Czech Republic,Poultry,19.09,20.51
+Czech Republic,Beef,8.15,251.49
+Czech Republic,Lamb & Goat,0.33999999999999997,11.91
+Czech Republic,Fish,8.25,13.17
+Czech Republic,Eggs,11.66,10.709999999999999
+Czech Republic,Milk - inc. cheese,195.2,278.04
+Czech Republic,Wheat and Wheat Products,92.66999999999999,17.67
+Czech Republic,Rice,4.79,6.13
+Czech Republic,Soybeans,0.8200000000000001,0.37
+Czech Republic,Nuts inc. Peanut Butter,2.4699999999999998,4.37
+Romania,Pork,25.310000000000002,89.58
+Romania,Poultry,15.38,16.52
+Romania,Beef,4.78,147.5
+Romania,Lamb & Goat,3.4099999999999997,119.42
+Romania,Fish,6.07,9.69
+Romania,Eggs,12.94,11.89
+Romania,Milk - inc. cheese,238.33,339.47999999999996
+Romania,Wheat and Wheat Products,134.87,25.72
+Romania,Rice,2.59,3.3099999999999996
+Romania,Soybeans,0.01,0
+Romania,Nuts inc. Peanut Butter,1.8,3.19
+Colombia,Pork,6.51,23.04
+Colombia,Poultry,27.57,29.62
+Colombia,Beef,16.36,504.84000000000003
+Colombia,Lamb & Goat,0.21000000000000002,7.35
+Colombia,Fish,6.01,9.6
+Colombia,Eggs,10.78,9.9
+Colombia,Milk - inc. cheese,108.47,154.5
+Colombia,Wheat and Wheat Products,29.79,5.68
+Colombia,Rice,28.02,35.86
+Colombia,Soybeans,0.89,0.4
+Colombia,Nuts inc. Peanut Butter,0.42000000000000004,0.74
+Maldives,Pork,1.22,4.319999999999999
+Maldives,Poultry,18.47,19.84
+Maldives,Beef,9.44,291.3
+Maldives,Lamb & Goat,0.7,24.51
+Maldives,Fish,179.70999999999998,286.94
+Maldives,Eggs,10.79,9.91
+Maldives,Milk - inc. cheese,111.47,158.78
+Maldives,Wheat and Wheat Products,77.77,14.83
+Maldives,Rice,50.730000000000004,64.92
+Maldives,Soybeans,0.2,0.09
+Maldives,Nuts inc. Peanut Butter,15.83,28.02
+Cyprus,Pork,38.379999999999995,135.85000000000002
+Cyprus,Poultry,24.45,26.259999999999998
+Cyprus,Beef,5.79,178.67
+Cyprus,Lamb & Goat,5.05,176.85000000000002
+Cyprus,Fish,14.860000000000001,23.73
+Cyprus,Eggs,8.98,8.25
+Cyprus,Milk - inc. cheese,113.31,161.4
+Cyprus,Wheat and Wheat Products,83.25,15.88
+Cyprus,Rice,4.94,6.319999999999999
+Cyprus,Soybeans,0.04,0.02
+Cyprus,Nuts inc. Peanut Butter,4.6,8.139999999999999
+Serbia,Pork,32.04,113.41000000000001
+Serbia,Poultry,10.639999999999999,11.43
+Serbia,Beef,7.05,217.55
+Serbia,Lamb & Goat,3.56,124.66999999999999
+Serbia,Fish,5.59,8.93
+Serbia,Eggs,8.89,8.17
+Serbia,Milk - inc. cheese,148.53,211.57
+Serbia,Wheat and Wheat Products,105.88,20.19
+Serbia,Rice,1.22,1.56
+Serbia,Soybeans,0,0
+Serbia,Nuts inc. Peanut Butter,3.3099999999999996,5.859999999999999
+United Arab Emirates,Pork,0,0
+United Arab Emirates,Poultry,41.04,44.09
+United Arab Emirates,Beef,5.64,174.04
+United Arab Emirates,Lamb & Goat,9.08,317.97999999999996
+United Arab Emirates,Fish,20.41,32.59
+United Arab Emirates,Eggs,8.229999999999999,7.56
+United Arab Emirates,Milk - inc. cheese,132.66,188.96
+United Arab Emirates,Wheat and Wheat Products,101.29,19.32
+United Arab Emirates,Rice,56.25,71.98
+United Arab Emirates,Soybeans,0.08,0.04
+United Arab Emirates,Nuts inc. Peanut Butter,23.03,40.760000000000005
+Algeria,Pork,0,0
+Algeria,Poultry,7.42,7.970000000000001
+Algeria,Beef,5.6,172.8
+Algeria,Lamb & Goat,7.6899999999999995,269.3
+Algeria,Fish,3.74,5.970000000000001
+Algeria,Eggs,8.06,7.4
+Algeria,Milk - inc. cheese,141.53,201.6
+Algeria,Wheat and Wheat Products,185.42000000000002,35.36
+Algeria,Rice,2.9699999999999998,3.8
+Algeria,Soybeans,0,0
+Algeria,Nuts inc. Peanut Butter,2.08,3.68
+Ukraine,Pork,20.56,72.77
+Ukraine,Poultry,24.23,26.03
+Ukraine,Beef,8.96,276.48999999999995
+Ukraine,Lamb & Goat,0.41000000000000003,14.360000000000001
+Ukraine,Fish,15.229999999999999,24.32
+Ukraine,Eggs,18.01,16.54
+Ukraine,Milk - inc. cheese,145.03,206.58
+Ukraine,Wheat and Wheat Products,105.14999999999999,20.05
+Ukraine,Rice,3,3.84
+Ukraine,Soybeans,0.02,0.01
+Ukraine,Nuts inc. Peanut Butter,2.68,4.74
+Pakistan,Pork,0,0
+Pakistan,Poultry,5.01,5.38
+Pakistan,Beef,8.82,272.17
+Pakistan,Lamb & Goat,2.46,86.14999999999999
+Pakistan,Fish,1.87,2.9899999999999998
+Pakistan,Eggs,2.9499999999999997,2.71
+Pakistan,Milk - inc. cheese,183.13,260.85
+Pakistan,Wheat and Wheat Products,113.63,21.67
+Pakistan,Rice,12.25,15.68
+Pakistan,Soybeans,0,0
+Pakistan,Nuts inc. Peanut Butter,0.8300000000000001,1.47
+Swaziland,Pork,2.4299999999999997,8.6
+Swaziland,Poultry,6.18,6.64
+Swaziland,Beef,15.1,465.95
+Swaziland,Lamb & Goat,1.94,67.94000000000001
+Swaziland,Fish,1.26,2.01
+Swaziland,Eggs,1.5,1.3800000000000001
+Swaziland,Milk - inc. cheese,56.6,80.61999999999999
+Swaziland,Wheat and Wheat Products,37.15,7.08
+Swaziland,Rice,21.150000000000002,27.07
+Swaziland,Soybeans,0.55,0.25
+Swaziland,Nuts inc. Peanut Butter,6.44,11.4
+Latvia,Pork,34.96,123.74000000000001
+Latvia,Poultry,20.53,22.05
+Latvia,Beef,5.109999999999999,157.68
+Latvia,Lamb & Goat,0.33999999999999997,11.91
+Latvia,Fish,21.3,34.01
+Latvia,Eggs,14.03,12.89
+Latvia,Milk - inc. cheese,174.10999999999999,248
+Latvia,Wheat and Wheat Products,72.13,13.76
+Latvia,Rice,2.21,2.8299999999999996
+Latvia,Soybeans,0.04,0.02
+Latvia,Nuts inc. Peanut Butter,3.7800000000000002,6.6899999999999995
+Bosnia and Herzegovina,Pork,9.38,33.2
+Bosnia and Herzegovina,Poultry,13.17,14.15
+Bosnia and Herzegovina,Beef,9.12,281.41999999999996
+Bosnia and Herzegovina,Lamb & Goat,0.47000000000000003,16.459999999999997
+Bosnia and Herzegovina,Fish,4.06,6.48
+Bosnia and Herzegovina,Eggs,4.49,4.119999999999999
+Bosnia and Herzegovina,Milk - inc. cheese,174.03,247.89000000000001
+Bosnia and Herzegovina,Wheat and Wheat Products,93.56,17.84
+Bosnia and Herzegovina,Rice,1.8800000000000001,2.4099999999999997
+Bosnia and Herzegovina,Soybeans,1.48,0.6699999999999999
+Bosnia and Herzegovina,Nuts inc. Peanut Butter,2,3.54
+Fiji,Pork,4.31,15.26
+Fiji,Poultry,20.259999999999998,21.759999999999998
+Fiji,Beef,8.96,276.48999999999995
+Fiji,Lamb & Goat,5.9,206.62
+Fiji,Fish,35.01,55.9
+Fiji,Eggs,6.44,5.92
+Fiji,Milk - inc. cheese,40.2,57.260000000000005
+Fiji,Wheat and Wheat Products,84.22,16.06
+Fiji,Rice,45.620000000000005,58.379999999999995
+Fiji,Soybeans,0.3,0.14
+Fiji,Nuts inc. Peanut Butter,1.3,2.3
+South Korea,Pork,32.760000000000005,115.95
+South Korea,Poultry,16,17.19
+South Korea,Beef,14.53,448.37
+South Korea,Lamb & Goat,0.14,4.9
+South Korea,Fish,33.09,52.83
+South Korea,Eggs,11.239999999999998,10.33
+South Korea,Milk - inc. cheese,29.05,41.379999999999995
+South Korea,Wheat and Wheat Products,50.839999999999996,9.7
+South Korea,Rice,85.17999999999999,109
+South Korea,Soybeans,8.350000000000001,3.7600000000000002
+South Korea,Nuts inc. Peanut Butter,4.88,8.639999999999999
+Poland,Pork,46.190000000000005,163.49
+Poland,Poultry,27.41,29.439999999999998
+Poland,Beef,2.32,71.59
+Poland,Lamb & Goat,0.02,0.7
+Poland,Fish,10.49,16.75
+Poland,Eggs,7.53,6.92
+Poland,Milk - inc. cheese,205.39000000000001,292.56
+Poland,Wheat and Wheat Products,108.83,20.75
+Poland,Rice,0.9500000000000001,1.22
+Poland,Soybeans,0.06,0.03
+Poland,Nuts inc. Peanut Butter,2.23,3.9499999999999997
+Saudi Arabia,Pork,0,0
+Saudi Arabia,Poultry,49.05,52.690000000000005
+Saudi Arabia,Beef,6.45,199.03
+Saudi Arabia,Lamb & Goat,6.54,229.03
+Saudi Arabia,Fish,11.99,19.14
+Saudi Arabia,Eggs,5.37,4.930000000000001
+Saudi Arabia,Milk - inc. cheese,83.64999999999999,119.14999999999999
+Saudi Arabia,Wheat and Wheat Products,89.47,17.06
+Saudi Arabia,Rice,36.02,46.09
+Saudi Arabia,Soybeans,0.05,0.02
+Saudi Arabia,Nuts inc. Peanut Butter,3.23,5.72
+Botswana,Pork,0.74,2.62
+Botswana,Poultry,5.33,5.73
+Botswana,Beef,7.85,242.23
+Botswana,Lamb & Goat,3.7600000000000002,131.67
+Botswana,Fish,3.98,6.35
+Botswana,Eggs,1.95,1.79
+Botswana,Milk - inc. cheese,117.74000000000001,167.70999999999998
+Botswana,Wheat and Wheat Products,38.2,7.28
+Botswana,Rice,7.06,9.03
+Botswana,Soybeans,1.1600000000000001,0.52
+Botswana,Nuts inc. Peanut Butter,1.08,1.91
+Macedonia,Pork,10.350000000000001,36.63
+Macedonia,Poultry,18.77,20.16
+Macedonia,Beef,7.6899999999999995,237.3
+Macedonia,Lamb & Goat,0.9400000000000001,32.92
+Macedonia,Fish,5.470000000000001,8.729999999999999
+Macedonia,Eggs,6.38,5.859999999999999
+Macedonia,Milk - inc. cheese,157.93,224.96
+Macedonia,Wheat and Wheat Products,104.8,19.99
+Macedonia,Rice,2.8099999999999996,3.6
+Macedonia,Soybeans,0.46,0.21000000000000002
+Macedonia,Nuts inc. Peanut Butter,5.87,10.39
+Hungary,Pork,34.93,123.63
+Hungary,Poultry,23.779999999999998,25.54
+Hungary,Beef,4.96,153.06
+Hungary,Lamb & Goat,0.11,3.8499999999999996
+Hungary,Fish,4.930000000000001,7.87
+Hungary,Eggs,12.450000000000001,11.44
+Hungary,Milk - inc. cheese,159.05,226.55
+Hungary,Wheat and Wheat Products,109.98,20.97
+Hungary,Rice,2.15,2.75
+Hungary,Soybeans,0.01,0
+Hungary,Nuts inc. Peanut Butter,0.64,1.1300000000000001
+Trinidad and Tobago,Pork,8.92,31.57
+Trinidad and Tobago,Poultry,58.27,62.59
+Trinidad and Tobago,Beef,6.13,189.16
+Trinidad and Tobago,Lamb & Goat,2.79,97.71000000000001
+Trinidad and Tobago,Fish,20.54,32.8
+Trinidad and Tobago,Eggs,4.2,3.86
+Trinidad and Tobago,Milk - inc. cheese,103.8,147.85000000000002
+Trinidad and Tobago,Wheat and Wheat Products,90.16999999999999,17.2
+Trinidad and Tobago,Rice,16.38,20.959999999999997
+Trinidad and Tobago,Soybeans,0.04,0.02
+Trinidad and Tobago,Nuts inc. Peanut Butter,3.7800000000000002,6.6899999999999995
+Tunisia,Pork,0,0
+Tunisia,Poultry,18.5,19.87
+Tunisia,Beef,5.53,170.64
+Tunisia,Lamb & Goat,5.34,187.01
+Tunisia,Fish,12.629999999999999,20.17
+Tunisia,Eggs,7.67,7.05
+Tunisia,Milk - inc. cheese,114.47,163.05
+Tunisia,Wheat and Wheat Products,197.5,37.660000000000004
+Tunisia,Rice,1.07,1.37
+Tunisia,Soybeans,1.8800000000000001,0.8500000000000001
+Tunisia,Nuts inc. Peanut Butter,6.34,11.219999999999999
+Egypt,Pork,0.02,0.07
+Egypt,Poultry,14.43,15.5
+Egypt,Beef,12.88,397.45
+Egypt,Lamb & Goat,1.58,55.33
+Egypt,Fish,21.459999999999997,34.260000000000005
+Egypt,Eggs,4.59,4.22
+Egypt,Milk - inc. cheese,59.46,84.69
+Egypt,Wheat and Wheat Products,146.83,28
+Egypt,Rice,39.77,50.89
+Egypt,Soybeans,0.64,0.29000000000000004
+Egypt,Nuts inc. Peanut Butter,1.82,3.22
+Mauritius,Pork,4.08,14.44
+Mauritius,Poultry,38.51,41.37
+Mauritius,Beef,5.99,184.84
+Mauritius,Lamb & Goat,4.08,142.88000000000002
+Mauritius,Fish,19.66,31.39
+Mauritius,Eggs,6.319999999999999,5.81
+Mauritius,Milk - inc. cheese,117.27,167.04
+Mauritius,Wheat and Wheat Products,114.02,21.74
+Mauritius,Rice,45.56,58.3
+Mauritius,Soybeans,0.3,0.14
+Mauritius,Nuts inc. Peanut Butter,2.3299999999999996,4.119999999999999
+Bulgaria,Pork,26.259999999999998,92.95
+Bulgaria,Poultry,20.68,22.21
+Bulgaria,Beef,3.84,118.49000000000001
+Bulgaria,Lamb & Goat,1.6300000000000001,57.08
+Bulgaria,Fish,6.24,9.96
+Bulgaria,Eggs,8.360000000000001,7.68
+Bulgaria,Milk - inc. cheese,155.70999999999998,221.79
+Bulgaria,Wheat and Wheat Products,121.16999999999999,23.110000000000003
+Bulgaria,Rice,2.24,2.8699999999999997
+Bulgaria,Soybeans,0.04,0.02
+Bulgaria,Nuts inc. Peanut Butter,2.2600000000000002,4
+Morocco,Pork,0.01,0.04
+Morocco,Poultry,20.77,22.310000000000002
+Morocco,Beef,8.04,248.1
+Morocco,Lamb & Goat,4.359999999999999,152.69
+Morocco,Fish,17.439999999999998,27.85
+Morocco,Eggs,6.68,6.14
+Morocco,Milk - inc. cheese,54.68,77.89
+Morocco,Wheat and Wheat Products,179.7,34.27
+Morocco,Rice,1.1,1.41
+Morocco,Soybeans,0,0
+Morocco,Nuts inc. Peanut Butter,3.23,5.72
+Slovakia,Pork,31.779999999999998,112.49000000000001
+Slovakia,Poultry,15.129999999999999,16.25
+Slovakia,Beef,5.1899999999999995,160.15
+Slovakia,Lamb & Goat,0.16,5.6
+Slovakia,Fish,8.39,13.4
+Slovakia,Eggs,16.05,14.739999999999998
+Slovakia,Milk - inc. cheese,143.14,203.89000000000001
+Slovakia,Wheat and Wheat Products,123.61999999999999,23.57
+Slovakia,Rice,2.88,3.69
+Slovakia,Soybeans,0.02,0.01
+Slovakia,Nuts inc. Peanut Butter,3.7,6.55
+Niger,Pork,0.09,0.32
+Niger,Poultry,1.08,1.1600000000000001
+Niger,Beef,8.97,276.8
+Niger,Lamb & Goat,4.17,146.03
+Niger,Fish,2.7,4.31
+Niger,Eggs,0.3,0.28
+Niger,Milk - inc. cheese,58.92,83.93
+Niger,Wheat and Wheat Products,4.79,0.91
+Niger,Rice,13.17,16.85
+Niger,Soybeans,0,0
+Niger,Nuts inc. Peanut Butter,6.95,12.3
+Kenya,Pork,0.29000000000000004,1.03
+Kenya,Poultry,0.47000000000000003,0.5
+Kenya,Beef,9.54,294.38
+Kenya,Lamb & Goat,1.86,65.14
+Kenya,Fish,4.2700000000000005,6.819999999999999
+Kenya,Eggs,1.84,1.6900000000000002
+Kenya,Milk - inc. cheese,94.86,135.12
+Kenya,Wheat and Wheat Products,34.65,6.609999999999999
+Kenya,Rice,12.94,16.56
+Kenya,Soybeans,0.2,0.09
+Kenya,Nuts inc. Peanut Butter,1.6400000000000001,2.9
+Jordan,Pork,0.02,0.07
+Jordan,Poultry,33.39,35.87
+Jordan,Beef,5.609999999999999,173.10999999999999
+Jordan,Lamb & Goat,5.68,198.91
+Jordan,Fish,5.13,8.19
+Jordan,Eggs,3.92,3.6
+Jordan,Milk - inc. cheese,77.67999999999999,110.64999999999999
+Jordan,Wheat and Wheat Products,136.73999999999998,26.08
+Jordan,Rice,19.67,25.17
+Jordan,Soybeans,0.02,0.01
+Jordan,Nuts inc. Peanut Butter,3.56,6.3
+Japan,Pork,20.62,72.98
+Japan,Poultry,19.419999999999998,20.86
+Japan,Beef,9.15,282.35
+Japan,Lamb & Goat,0.14,4.9
+Japan,Fish,31.1,49.660000000000004
+Japan,Eggs,19.150000000000002,17.59
+Japan,Milk - inc. cheese,72.06,102.64
+Japan,Wheat and Wheat Products,45.04,8.59
+Japan,Rice,59.849999999999994,76.59
+Japan,Soybeans,7.34,3.3
+Japan,Nuts inc. Peanut Butter,2.59,4.58
+Georgia,Pork,8.93,31.610000000000003
+Georgia,Poultry,12.28,13.19
+Georgia,Beef,6.04,186.38000000000002
+Georgia,Lamb & Goat,0.63,22.06
+Georgia,Fish,10.42,16.64
+Georgia,Eggs,6.119999999999999,5.619999999999999
+Georgia,Milk - inc. cheese,149.26,212.60999999999999
+Georgia,Wheat and Wheat Products,163.43,31.17
+Georgia,Rice,2.64,3.38
+Georgia,Soybeans,0,0
+Georgia,Nuts inc. Peanut Butter,2.4699999999999998,4.37
+Grenada,Pork,11.52,40.78
+Grenada,Poultry,43.51,46.74
+Grenada,Beef,3.46,106.77
+Grenada,Lamb & Goat,1.25,43.77
+Grenada,Fish,27.95,44.63
+Grenada,Eggs,10.34,9.5
+Grenada,Milk - inc. cheese,86.88,123.75
+Grenada,Wheat and Wheat Products,59.59,11.360000000000001
+Grenada,Rice,9.56,12.229999999999999
+Grenada,Soybeans,0.01,0
+Grenada,Nuts inc. Peanut Butter,0.18,0.32
+El Salvador,Pork,3.23,11.43
+El Salvador,Poultry,19.84,21.310000000000002
+El Salvador,Beef,5.95,183.6
+El Salvador,Lamb & Goat,0.02,0.7
+El Salvador,Fish,6.25,9.98
+El Salvador,Eggs,9.51,8.739999999999998
+El Salvador,Milk - inc. cheese,124.34,177.10999999999999
+El Salvador,Wheat and Wheat Products,28.19,5.38
+El Salvador,Rice,10.53,13.48
+El Salvador,Soybeans,0.8,0.36
+El Salvador,Nuts inc. Peanut Butter,1.1,1.95
+Cuba,Pork,19.82,70.14999999999999
+Cuba,Poultry,20.150000000000002,21.650000000000002
+Cuba,Beef,6.39,197.18
+Cuba,Lamb & Goat,1.24,43.42
+Cuba,Fish,4.76,7.6
+Cuba,Eggs,9.82,9.02
+Cuba,Milk - inc. cheese,99.94000000000001,142.35000000000002
+Cuba,Wheat and Wheat Products,54.620000000000005,10.42
+Cuba,Rice,67.7,86.64
+Cuba,Soybeans,6.34,2.8499999999999996
+Cuba,Nuts inc. Peanut Butter,0.23,0.41000000000000003
+China,Pork,38.43,136.02
+China,Poultry,13.2,14.18
+China,Beef,5.119999999999999,157.99
+China,Lamb & Goat,3.13,109.61
+China,Fish,21.01,33.55
+China,Eggs,18.759999999999998,17.23
+China,Milk - inc. cheese,32.660000000000004,46.52
+China,Wheat and Wheat Products,63.36,12.08
+China,Rice,78.17999999999999,100.05
+China,Soybeans,3.66,1.6500000000000001
+China,Nuts inc. Peanut Butter,6.39,11.31
+Honduras,Pork,6.48,22.939999999999998
+Honduras,Poultry,20.29,21.8
+Honduras,Beef,7.1899999999999995,221.87
+Honduras,Lamb & Goat,0.04,1.4
+Honduras,Fish,2.7,4.31
+Honduras,Eggs,5.1899999999999995,4.7700000000000005
+Honduras,Milk - inc. cheese,91.33,130.09
+Honduras,Wheat and Wheat Products,37.36,7.119999999999999
+Honduras,Rice,14.42,18.45
+Honduras,Soybeans,0.01,0
+Honduras,Nuts inc. Peanut Butter,0.75,1.33
+Taiwan. ROC,Pork,39.37,139.35000000000002
+Taiwan. ROC,Poultry,32.13,34.51
+Taiwan. ROC,Beef,5.21,160.76999999999998
+Taiwan. ROC,Lamb & Goat,0.92,32.220000000000006
+Taiwan. ROC,Fish,18.29,29.2
+Taiwan. ROC,Eggs,13.08,12.02
+Taiwan. ROC,Milk - inc. cheese,41.720000000000006,59.43
+Taiwan. ROC,Wheat and Wheat Products,50.92,9.709999999999999
+Taiwan. ROC,Rice,45.849999999999994,58.67
+Taiwan. ROC,Soybeans,16.95,7.63
+Taiwan. ROC,Nuts inc. Peanut Butter,9.06,16.04
+Angola,Pork,8.89,31.47
+Angola,Poultry,17.330000000000002,18.62
+Angola,Beef,8.42,259.82
+Angola,Lamb & Goat,1.08,37.82
+Angola,Fish,15.239999999999998,24.330000000000002
+Angola,Eggs,1.11,1.02
+Angola,Milk - inc. cheese,12.3,17.52
+Angola,Wheat and Wheat Products,40.720000000000006,7.7700000000000005
+Angola,Rice,8.12,10.39
+Angola,Soybeans,0.52,0.23
+Angola,Nuts inc. Peanut Butter,2.2600000000000002,4
+Jamaica,Pork,3.9899999999999998,14.12
+Jamaica,Poultry,52.51,56.41
+Jamaica,Beef,3.9699999999999998,122.51
+Jamaica,Lamb & Goat,1.26,44.13
+Jamaica,Fish,21.95,35.05
+Jamaica,Eggs,2.27,2.09
+Jamaica,Milk - inc. cheese,91.13,129.81
+Jamaica,Wheat and Wheat Products,70.66999999999999,13.48
+Jamaica,Rice,23.45,30.01
+Jamaica,Soybeans,0,0
+Jamaica,Nuts inc. Peanut Butter,1.82,3.22
+Namibia,Pork,4.21,14.9
+Namibia,Poultry,12.19,13.09
+Namibia,Beef,3.75,115.72
+Namibia,Lamb & Goat,2.27,79.5
+Namibia,Fish,10.7,17.08
+Namibia,Eggs,1.6300000000000001,1.5
+Namibia,Milk - inc. cheese,73.05,104.05
+Namibia,Wheat and Wheat Products,36.260000000000005,6.91
+Namibia,Rice,6.31,8.07
+Namibia,Soybeans,0.07,0.03
+Namibia,Nuts inc. Peanut Butter,0.71,1.26
+Belize,Pork,16.8,59.46
+Belize,Poultry,28.310000000000002,30.41
+Belize,Beef,4.859999999999999,149.97
+Belize,Lamb & Goat,0.14,4.9
+Belize,Fish,7.57,12.09
+Belize,Eggs,4.85,4.46
+Belize,Milk - inc. cheese,80.3,114.38
+Belize,Wheat and Wheat Products,54.06,10.31
+Belize,Rice,28.419999999999998,36.37
+Belize,Soybeans,1.8800000000000001,0.8500000000000001
+Belize,Nuts inc. Peanut Butter,5.58,9.88
+Malaysia,Pork,7.76,27.47
+Malaysia,Poultry,41.01,44.05
+Malaysia,Beef,6.52,201.19
+Malaysia,Lamb & Goat,0.9400000000000001,32.92
+Malaysia,Fish,49.43,78.92
+Malaysia,Eggs,16.57,15.219999999999999
+Malaysia,Milk - inc. cheese,25.279999999999998,36.01
+Malaysia,Wheat and Wheat Products,51.04,9.729999999999999
+Malaysia,Rice,81.25,103.98
+Malaysia,Soybeans,0.04,0.02
+Malaysia,Nuts inc. Peanut Butter,2.9,5.13
+Zimbabwe,Pork,2.65,9.38
+Zimbabwe,Poultry,4.970000000000001,5.34
+Zimbabwe,Beef,7.37,227.42000000000002
+Zimbabwe,Lamb & Goat,0.96,33.620000000000005
+Zimbabwe,Fish,2.8,4.470000000000001
+Zimbabwe,Eggs,1.75,1.61
+Zimbabwe,Milk - inc. cheese,31.9,45.44
+Zimbabwe,Wheat and Wheat Products,31.310000000000002,5.970000000000001
+Zimbabwe,Rice,10.09,12.91
+Zimbabwe,Soybeans,0.54,0.24000000000000002
+Zimbabwe,Nuts inc. Peanut Butter,2.22,3.9299999999999997
+Guatemala,Pork,4.85,17.17
+Guatemala,Poultry,16.45,17.67
+Guatemala,Beef,5.6,172.8
+Guatemala,Lamb & Goat,0.23,8.05
+Guatemala,Fish,1.08,1.72
+Guatemala,Eggs,14.61,13.42
+Guatemala,Milk - inc. cheese,46.6,66.38
+Guatemala,Wheat and Wheat Products,35.9,6.85
+Guatemala,Rice,5.659999999999999,7.24
+Guatemala,Soybeans,0.32,0.14
+Guatemala,Nuts inc. Peanut Butter,2,3.54
+Uganda,Pork,3.3699999999999997,11.93
+Uganda,Poultry,1.51,1.62
+Uganda,Beef,5.1499999999999995,158.92000000000002
+Uganda,Lamb & Goat,1.25,43.77
+Uganda,Fish,12.5,19.959999999999997
+Uganda,Eggs,0.97,0.89
+Uganda,Milk - inc. cheese,37.27,53.09
+Uganda,Wheat and Wheat Products,10.139999999999999,1.93
+Uganda,Rice,4.64,5.94
+Uganda,Soybeans,0.01,0
+Uganda,Nuts inc. Peanut Butter,3.77,6.67
+Nepal,Pork,0.6699999999999999,2.3699999999999997
+Nepal,Poultry,1.56,1.6800000000000002
+Nepal,Beef,7.89,243.47
+Nepal,Lamb & Goat,2.1,73.54
+Nepal,Fish,2.17,3.46
+Nepal,Eggs,1.42,1.3
+Nepal,Milk - inc. cheese,52.1,74.21000000000001
+Nepal,Wheat and Wheat Products,50.46,9.62
+Nepal,Rice,87.75,112.29
+Nepal,Soybeans,0.01,0
+Nepal,Nuts inc. Peanut Butter,2.42,4.28
+Iran,Pork,0,0
+Iran,Poultry,25.38,27.259999999999998
+Iran,Beef,3.58,110.47
+Iran,Lamb & Goat,3.69,129.22
+Iran,Fish,9.8,15.65
+Iran,Eggs,7.7,7.07
+Iran,Milk - inc. cheese,46.690000000000005,66.51
+Iran,Wheat and Wheat Products,153.31,29.24
+Iran,Rice,29.95,38.33
+Iran,Soybeans,0,0
+Iran,Nuts inc. Peanut Butter,12.16,21.52
+Tanzania,Pork,0.32,1.1300000000000001
+Tanzania,Poultry,1.84,1.98
+Tanzania,Beef,6.09,187.92000000000002
+Tanzania,Lamb & Goat,1.28,44.83
+Tanzania,Fish,5.5,8.78
+Tanzania,Eggs,0.58,0.53
+Tanzania,Milk - inc. cheese,40.290000000000006,57.39
+Tanzania,Wheat and Wheat Products,15.94,3.04
+Tanzania,Rice,21.01,26.89
+Tanzania,Soybeans,0.04,0.02
+Tanzania,Nuts inc. Peanut Butter,5.94,10.51
+Senegal,Pork,0.9400000000000001,3.3299999999999996
+Senegal,Poultry,4.619999999999999,4.96
+Senegal,Beef,5.85,180.52
+Senegal,Lamb & Goat,3.19,111.71000000000001
+Senegal,Fish,22.939999999999998,36.63
+Senegal,Eggs,1.6300000000000001,1.5
+Senegal,Milk - inc. cheese,16.86,24.02
+Senegal,Wheat and Wheat Products,37.32,7.119999999999999
+Senegal,Rice,72.29,92.51
+Senegal,Soybeans,0,0
+Senegal,Nuts inc. Peanut Butter,4.03,7.13
+Peru,Pork,3.8499999999999996,13.629999999999999
+Peru,Poultry,11.719999999999999,12.59
+Peru,Beef,4.6899999999999995,144.72
+Peru,Lamb & Goat,1,35.02
+Peru,Fish,15.739999999999998,25.130000000000003
+Peru,Eggs,8.76,8.05
+Peru,Milk - inc. cheese,62.15,88.53
+Peru,Wheat and Wheat Products,56.120000000000005,10.7
+Peru,Rice,48.92,62.6
+Peru,Soybeans,1.59,0.72
+Peru,Nuts inc. Peanut Butter,0.65,1.1500000000000001
+Nicaragua,Pork,3.38,11.96
+Nicaragua,Poultry,21.310000000000002,22.89
+Nicaragua,Beef,4.73,145.96
+Nicaragua,Lamb & Goat,0.01,0.35
+Nicaragua,Fish,3.59,5.73
+Nicaragua,Eggs,4.9,4.5
+Nicaragua,Milk - inc. cheese,85.16,121.3
+Nicaragua,Wheat and Wheat Products,28.17,5.37
+Nicaragua,Rice,43.33,55.449999999999996
+Nicaragua,Soybeans,0.01,0
+Nicaragua,Nuts inc. Peanut Butter,2.36,4.18
+Vietnam,Pork,35,123.88
+Vietnam,Poultry,12.360000000000001,13.28
+Vietnam,Beef,7.44,229.58
+Vietnam,Lamb & Goat,0.14,4.9
+Vietnam,Fish,26.52,42.339999999999996
+Vietnam,Eggs,3.84,3.53
+Vietnam,Milk - inc. cheese,16.36,23.3
+Vietnam,Wheat and Wheat Products,10.49,2
+Vietnam,Rice,144.56,184.99
+Vietnam,Soybeans,5.75,2.59
+Vietnam,Nuts inc. Peanut Butter,6.28,11.12
+Ethiopia,Pork,0.02,0.07
+Ethiopia,Poultry,0.6599999999999999,0.71
+Ethiopia,Beef,3.61,111.4
+Ethiopia,Lamb & Goat,1.57,54.98
+Ethiopia,Fish,0.24000000000000002,0.38
+Ethiopia,Eggs,0.36,0.32999999999999996
+Ethiopia,Milk - inc. cheese,44.14,62.87
+Ethiopia,Wheat and Wheat Products,31.259999999999998,5.96
+Ethiopia,Rice,2.25,2.88
+Ethiopia,Soybeans,0.45,0.2
+Ethiopia,Nuts inc. Peanut Butter,1.21,2.14
+Myanmar,Pork,11.31,40.03
+Myanmar,Poultry,21.87,23.49
+Myanmar,Beef,4.94,152.44
+Myanmar,Lamb & Goat,0.89,31.17
+Myanmar,Fish,54.260000000000005,86.64
+Myanmar,Eggs,6.45,5.92
+Myanmar,Milk - inc. cheese,31.479999999999997,44.839999999999996
+Myanmar,Wheat and Wheat Products,6.22,1.1900000000000002
+Myanmar,Rice,132.8,169.94
+Myanmar,Soybeans,0.38,0.17
+Myanmar,Nuts inc. Peanut Butter,4.5,7.970000000000001
+Congo,Pork,2.3899999999999997,8.46
+Congo,Poultry,13.02,13.99
+Congo,Beef,4.35,134.23
+Congo,Lamb & Goat,0.4,14.01
+Congo,Fish,26.22,41.86
+Congo,Eggs,0.6,0.55
+Congo,Milk - inc. cheese,10.69,15.229999999999999
+Congo,Wheat and Wheat Products,40.07,7.64
+Congo,Rice,16.51,21.130000000000003
+Congo,Soybeans,0,0
+Congo,Nuts inc. Peanut Butter,3.08,5.45
+Zambia,Pork,1.6600000000000001,5.88
+Zambia,Poultry,3.29,3.53
+Zambia,Beef,4.76,146.88000000000002
+Zambia,Lamb & Goat,0.6799999999999999,23.810000000000002
+Zambia,Fish,6.2,9.9
+Zambia,Eggs,3.32,3.05
+Zambia,Milk - inc. cheese,9.709999999999999,13.83
+Zambia,Wheat and Wheat Products,12.1,2.3099999999999996
+Zambia,Rice,3.05,3.9
+Zambia,Soybeans,7.3,3.29
+Zambia,Nuts inc. Peanut Butter,5.04,8.92
+Cameroon,Pork,1.47,5.2
+Cameroon,Poultry,3.29,3.53
+Cameroon,Beef,4.17,128.68
+Cameroon,Lamb & Goat,1.4,49.03
+Cameroon,Fish,14.709999999999999,23.49
+Cameroon,Eggs,0.4,0.37
+Cameroon,Milk - inc. cheese,15.27,21.75
+Cameroon,Wheat and Wheat Products,22.6,4.31
+Cameroon,Rice,23.85,30.52
+Cameroon,Soybeans,0.64,0.29000000000000004
+Cameroon,Nuts inc. Peanut Butter,9.29,16.439999999999998
+Madagascar,Pork,2.56,9.06
+Madagascar,Poultry,3.14,3.3699999999999997
+Madagascar,Beef,7.51,231.73999999999998
+Madagascar,Lamb & Goat,0.5700000000000001,19.959999999999997
+Madagascar,Fish,4.41,7.04
+Madagascar,Eggs,0.71,0.65
+Madagascar,Milk - inc. cheese,24.84,35.379999999999995
+Madagascar,Wheat and Wheat Products,9.01,1.72
+Madagascar,Rice,102.53,131.20999999999998
+Madagascar,Soybeans,0,0
+Madagascar,Nuts inc. Peanut Butter,0.35,0.62
+Malawi,Pork,5.45,19.29
+Malawi,Poultry,1.3800000000000001,1.48
+Malawi,Beef,2.3499999999999996,72.52
+Malawi,Lamb & Goat,2.07,72.49000000000001
+Malawi,Fish,7.33,11.7
+Malawi,Eggs,1.08,0.99
+Malawi,Milk - inc. cheese,7.98,11.370000000000001
+Malawi,Wheat and Wheat Products,11.77,2.24
+Malawi,Rice,4.75,6.08
+Malawi,Soybeans,1.76,0.7899999999999999
+Malawi,Nuts inc. Peanut Butter,5.08,8.99
+Guinea,Pork,0.16,0.5700000000000001
+Guinea,Poultry,1.83,1.97
+Guinea,Beef,6.26,193.17
+Guinea,Lamb & Goat,1.6,56.03
+Guinea,Fish,9.18,14.66
+Guinea,Eggs,1.95,1.79
+Guinea,Milk - inc. cheese,20.62,29.37
+Guinea,Wheat and Wheat Products,18.55,3.54
+Guinea,Rice,97.11999999999999,124.28
+Guinea,Soybeans,0,0
+Guinea,Nuts inc. Peanut Butter,4.14,7.33
+Nigeria,Pork,1.47,5.2
+Nigeria,Poultry,1.73,1.86
+Nigeria,Beef,2.3299999999999996,71.9
+Nigeria,Lamb & Goat,2.72,95.25
+Nigeria,Fish,16.03,25.59
+Nigeria,Eggs,3.46,3.18
+Nigeria,Milk - inc. cheese,7.91,11.27
+Nigeria,Wheat and Wheat Products,20.82,3.9699999999999998
+Nigeria,Rice,28.23,36.13
+Nigeria,Soybeans,2.6,1.1700000000000002
+Nigeria,Nuts inc. Peanut Butter,6.930000000000001,12.27
+Rwanda,Pork,0.76,2.69
+Rwanda,Poultry,1.34,1.44
+Rwanda,Beef,2.53,78.07
+Rwanda,Lamb & Goat,1.93,67.59
+Rwanda,Fish,3.88,6.2
+Rwanda,Eggs,0.16,0.15000000000000002
+Rwanda,Milk - inc. cheese,7.23,10.3
+Rwanda,Wheat and Wheat Products,11.34,2.16
+Rwanda,Rice,8.7,11.129999999999999
+Rwanda,Soybeans,1.93,0.8700000000000001
+Rwanda,Nuts inc. Peanut Butter,0.58,1.03
+Philippines,Pork,18.4,65.13
+Philippines,Poultry,11.91,12.79
+Philippines,Beef,4.06,125.28
+Philippines,Lamb & Goat,0.56,19.610000000000003
+Philippines,Fish,28.51,45.52
+Philippines,Eggs,4.02,3.69
+Philippines,Milk - inc. cheese,15.66,22.310000000000002
+Philippines,Wheat and Wheat Products,23.12,4.41
+Philippines,Rice,119.44000000000001,152.85000000000002
+Philippines,Soybeans,0.03,0.01
+Philippines,Nuts inc. Peanut Butter,2.08,3.68
+Ghana,Pork,1.36,4.81
+Ghana,Poultry,8.629999999999999,9.27
+Ghana,Beef,1.09,33.64
+Ghana,Lamb & Goat,1.74,60.93
+Ghana,Fish,26.05,41.59
+Ghana,Eggs,1.21,1.11
+Ghana,Milk - inc. cheese,9.08,12.93
+Ghana,Wheat and Wheat Products,14.450000000000001,2.7600000000000002
+Ghana,Rice,32.03,40.99
+Ghana,Soybeans,0.01,0
+Ghana,Nuts inc. Peanut Butter,5.56,9.84
+Togo,Pork,1.57,5.56
+Togo,Poultry,6.63,7.119999999999999
+Togo,Beef,1.53,47.21
+Togo,Lamb & Goat,1.58,55.33
+Togo,Fish,11.69,18.67
+Togo,Eggs,0.8600000000000001,0.7899999999999999
+Togo,Milk - inc. cheese,7.96,11.34
+Togo,Wheat and Wheat Products,12.91,2.46
+Togo,Rice,25.99,33.260000000000005
+Togo,Soybeans,0.01,0
+Togo,Nuts inc. Peanut Butter,3.59,6.35
+Gambia,Pork,0.18,0.64
+Gambia,Poultry,2.66,2.86
+Gambia,Beef,2.16,66.64999999999999
+Gambia,Lamb & Goat,0.71,24.86
+Gambia,Fish,23.130000000000003,36.93
+Gambia,Eggs,0.99,0.91
+Gambia,Milk - inc. cheese,45.71,65.11
+Gambia,Wheat and Wheat Products,37.91,7.23
+Gambia,Rice,61.839999999999996,79.14
+Gambia,Soybeans,0,0
+Gambia,Nuts inc. Peanut Butter,5.2700000000000005,9.33
+India,Pork,0.28,0.99
+India,Poultry,1.8800000000000001,2.02
+India,Beef,0.81,24.99
+India,Lamb & Goat,0.58,20.310000000000002
+India,Fish,4.71,7.52
+India,Eggs,2.58,2.3699999999999997
+India,Milk - inc. cheese,84.5,120.36
+India,Wheat and Wheat Products,60.56,11.55
+India,Rice,69.49000000000001,88.93
+India,Soybeans,0.39,0.18
+India,Nuts inc. Peanut Butter,1.92,3.4
+Thailand,Pork,13,46.01
+Thailand,Poultry,13.69,14.709999999999999
+Thailand,Beef,2.56,79
+Thailand,Lamb & Goat,0.05,1.75
+Thailand,Fish,19.45,31.06
+Thailand,Eggs,12.350000000000001,11.34
+Thailand,Milk - inc. cheese,29.35,41.809999999999995
+Thailand,Wheat and Wheat Products,10.93,2.08
+Thailand,Rice,114.57,146.62
+Thailand,Soybeans,2.13,0.96
+Thailand,Nuts inc. Peanut Butter,1.5,2.66
+Mozambique,Pork,5.13,18.16
+Mozambique,Poultry,1.41,1.51
+Mozambique,Beef,1.04,32.09
+Mozambique,Lamb & Goat,0.9,31.52
+Mozambique,Fish,7.74,12.360000000000001
+Mozambique,Eggs,1.7,1.56
+Mozambique,Milk - inc. cheese,4.79,6.819999999999999
+Mozambique,Wheat and Wheat Products,14.65,2.79
+Mozambique,Rice,23.41,29.959999999999997
+Mozambique,Soybeans,0.03,0.01
+Mozambique,Nuts inc. Peanut Butter,2.61,4.619999999999999
+Cambodia,Pork,6.52,23.08
+Cambodia,Poultry,1.84,1.98
+Cambodia,Beef,4.85,149.66
+Cambodia,Lamb & Goat,0,0
+Cambodia,Fish,39.59,63.21
+Cambodia,Eggs,1.37,1.26
+Cambodia,Milk - inc. cheese,3.4699999999999998,4.94
+Cambodia,Wheat and Wheat Products,2.74,0.52
+Cambodia,Rice,159.1,203.6
+Cambodia,Soybeans,4.33,1.95
+Cambodia,Nuts inc. Peanut Butter,1.25,2.21
+Sierra Leone,Pork,1.22,4.319999999999999
+Sierra Leone,Poultry,4.970000000000001,5.34
+Sierra Leone,Beef,1.99,61.41
+Sierra Leone,Lamb & Goat,0.65,22.759999999999998
+Sierra Leone,Fish,32.03,51.14
+Sierra Leone,Eggs,1.92,1.76
+Sierra Leone,Milk - inc. cheese,7,9.97
+Sierra Leone,Wheat and Wheat Products,8.719999999999999,1.6600000000000001
+Sierra Leone,Rice,103.3,132.19
+Sierra Leone,Soybeans,0,0
+Sierra Leone,Nuts inc. Peanut Butter,5.57,9.860000000000001
+Sri Lanka,Pork,0.05,0.18
+Sri Lanka,Poultry,4.96,5.33
+Sri Lanka,Beef,1.3800000000000001,42.58
+Sri Lanka,Lamb & Goat,0.09,3.15
+Sri Lanka,Fish,24.919999999999998,39.790000000000006
+Sri Lanka,Eggs,4.57,4.2
+Sri Lanka,Milk - inc. cheese,34.98,49.83
+Sri Lanka,Wheat and Wheat Products,37.01,7.06
+Sri Lanka,Rice,109.72,140.41
+Sri Lanka,Soybeans,0,0
+Sri Lanka,Nuts inc. Peanut Butter,1.09,1.93
+Indonesia,Pork,2.98,10.55
+Indonesia,Poultry,7.5,8.06
+Indonesia,Beef,2.59,79.92
+Indonesia,Lamb & Goat,0.46,16.110000000000003
+Indonesia,Fish,25.650000000000002,40.949999999999996
+Indonesia,Eggs,4.88,4.48
+Indonesia,Milk - inc. cheese,14.82,21.110000000000003
+Indonesia,Wheat and Wheat Products,25.45,4.85
+Indonesia,Rice,134.62,172.26999999999998
+Indonesia,Soybeans,1.12,0.5
+Indonesia,Nuts inc. Peanut Butter,4.92,8.709999999999999
+Liberia,Pork,4.01,14.19
+Liberia,Poultry,8.91,9.57
+Liberia,Beef,0.7799999999999999,24.07
+Liberia,Lamb & Goat,0.48000000000000004,16.810000000000002
+Liberia,Fish,4.13,6.59
+Liberia,Eggs,2.05,1.8800000000000001
+Liberia,Milk - inc. cheese,3.04,4.33
+Liberia,Wheat and Wheat Products,10.950000000000001,2.09
+Liberia,Rice,94.75,121.25
+Liberia,Soybeans,0.63,0.28
+Liberia,Nuts inc. Peanut Butter,1.31,2.32
+Bangladesh,Pork,0,0
+Bangladesh,Poultry,1.4,1.5
+Bangladesh,Beef,1.28,39.5
+Bangladesh,Lamb & Goat,1.33,46.58
+Bangladesh,Fish,18.07,28.85
+Bangladesh,Eggs,2.08,1.91
+Bangladesh,Milk - inc. cheese,21.91,31.21
+Bangladesh,Wheat and Wheat Products,17.47,3.3299999999999996
+Bangladesh,Rice,171.73,219.76
+Bangladesh,Soybeans,0.61,0.27
+Bangladesh,Nuts inc. Peanut Butter,0.72,1.27

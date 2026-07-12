@@ -1,0 +1,14 @@
+{
+  "id": "lily-wand",
+  "name": "Lily Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1580
+      }
+    }
+  },
+  "category": "Tools"
+}

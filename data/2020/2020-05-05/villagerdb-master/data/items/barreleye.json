@@ -1,0 +1,18 @@
+{
+  "id": "barreleye",
+  "name": "Barreleye",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Small Shadows at Sea, All Year (9pm-4am)",
+        "South: Small Shadows at Sea, All Year (9pm-4am)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      }
+    }
+  },
+  "category": "Fish"
+}

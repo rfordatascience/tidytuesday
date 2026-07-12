@@ -1,0 +1,17 @@
+{
+  "id": "sea-cucumber",
+  "name": "Sea Cucumber",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chessboard-rug",
+  "name": "Chessboard Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2075
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

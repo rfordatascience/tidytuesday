@@ -1,0 +1,20 @@
+{
+  "id": "common-bluebottle",
+  "name": "Common Bluebottle",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Bugs"
+}

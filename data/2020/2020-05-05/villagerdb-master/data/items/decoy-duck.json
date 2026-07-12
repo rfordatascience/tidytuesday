@@ -1,0 +1,36 @@
+{
+  "id": "decoy-duck",
+  "name": "Decoy Duck",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1920
+        }
+      ]
+    }
+  }
+}

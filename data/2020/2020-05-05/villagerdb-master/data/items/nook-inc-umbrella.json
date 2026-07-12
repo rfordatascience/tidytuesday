@@ -1,0 +1,23 @@
+{
+  "id": "nook-inc-umbrella",
+  "name": "Nook Inc. Umbrella",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3500
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

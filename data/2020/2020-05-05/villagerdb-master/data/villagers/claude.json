@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "12-3",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "dark-polka-shirt",
+      "song": "Pondering",
+      "phrase": "hopalong"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "dark-polka-shirt",
+      "song": "Pondering"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "dark-polka-tee",
+      "song": "Pondering",
+      "phrase": "hopalong",
+      "skill": "Calculating tips",
+      "goal": "Superhero",
+      "fear": "Ghost Mask",
+      "quote": "Don't judge a rabbit by its ears.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "hopalong",
+      "song": "Pondering"
+    }
+  },
+  "name": "Claude",
+  "id": "claude"
+}

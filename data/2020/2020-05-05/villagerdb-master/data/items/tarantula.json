@@ -1,0 +1,27 @@
+{
+  "id": "tarantula",
+  "name": "Tarantula",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8000
+      },
+      "sources": [
+        "On grass and dirt."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Ground at night (Nov-Apr)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8000
+      }
+    }
+  }
+}

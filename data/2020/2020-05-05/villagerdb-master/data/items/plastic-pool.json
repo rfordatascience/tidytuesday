@@ -1,0 +1,23 @@
+{
+  "id": "plastic-pool",
+  "name": "Plastic Pool",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 775
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3100
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

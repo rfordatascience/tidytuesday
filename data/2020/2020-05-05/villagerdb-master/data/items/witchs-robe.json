@@ -1,0 +1,30 @@
+{
+  "id": "witchs-robe",
+  "name": "Witch's Robe",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Historical"
+      ],
+      "set": "Witch Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7200
+        }
+      ]
+    }
+  }
+}

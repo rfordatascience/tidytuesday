@@ -1,0 +1,18 @@
+title: "The History of Himalayan Mountaineering Expeditions"
+article:
+  title: "The Expedition Archives of Elizabeth Hawley"
+  url: "https://www.himalayandatabase.com/index.html"
+data_source:
+  title: "The Himalayan Database"
+  url: "https://www.himalayandatabase.com/downloads.html"
+images:
+# Please include at least one image, and up to three images
+- file: "himalayas.png"
+  alt: >
+    Cover of the book Himalayas by the Numbers by The Himalayan Database organization, featuring a detailed statistical breakdown of Himalayan mountaineering expeditions, with the title in bold white text on a dark blue background and a graphic of Himalayan peaks.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Nicolas Foss, Ed.D., MS"
+  linkedin: "https://www.linkedin.com/in/nicolas-foss"
+  github: "https://github.com/nicolasfoss"

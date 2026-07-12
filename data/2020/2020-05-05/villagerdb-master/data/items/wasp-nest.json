@@ -1,0 +1,17 @@
+{
+  "id": "wasp-nest",
+  "name": "Wasp Nest",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Trees"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      }
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "5-2",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "gumdrop-shirt",
+      "song": "K.K. Soul",
+      "phrase": "ahhhhhh"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "gumdrop-shirt",
+      "song": "K.K. Soul"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Soul",
+      "phrase": "ahhhhhh",
+      "quote": "I'm totally fresh and you know it!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Soul",
+      "phrase": "ahhhhhh"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "gumdrop-tee",
+      "song": "K.K. Soul",
+      "phrase": "ahhhhhh",
+      "skill": "Cramming for tests",
+      "goal": "Architect",
+      "fear": "Werewolf Hood",
+      "quote": "Always lead by example.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "ahhhhhh",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Mint",
+  "id": "mint"
+}

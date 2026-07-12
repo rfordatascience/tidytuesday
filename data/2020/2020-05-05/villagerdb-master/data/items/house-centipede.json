@@ -1,0 +1,17 @@
+{
+  "id": "house-centipede",
+  "name": "House Centipede",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Hidden under rocks (smack with a shovel)."
+      ]
+    }
+  }
+}

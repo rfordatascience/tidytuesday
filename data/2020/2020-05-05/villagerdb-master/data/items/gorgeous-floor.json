@@ -1,0 +1,21 @@
+{
+  "id": "gorgeous-floor",
+  "name": "Gorgeous Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Gorgeous",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 31000
+      },
+      "sources": [
+        "GracieGrace (winter)"
+      ]
+    }
+  }
+}

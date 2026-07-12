@@ -1,0 +1,33 @@
+{
+  "id": "tent-wall",
+  "name": "Tent Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "saharah"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

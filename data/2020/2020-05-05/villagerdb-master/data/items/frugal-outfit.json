@@ -1,0 +1,19 @@
+{
+  "id": "frugal-outfit",
+  "name": "Frugal Outfit",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 112
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 450
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

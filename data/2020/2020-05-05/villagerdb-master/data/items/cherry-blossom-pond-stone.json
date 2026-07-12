@@ -1,0 +1,19 @@
+{
+  "id": "cherry-blossom-pond-stone",
+  "name": "Cherry-blossom Pond Stone",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2700
+      },
+      "recipe": {
+        "stone": 10,
+        "cherry-blossom-petal": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

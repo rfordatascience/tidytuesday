@@ -1,0 +1,21 @@
+{
+  "id": "sci-fi-floor",
+  "name": "Sci-fi Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

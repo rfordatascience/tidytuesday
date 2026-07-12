@@ -1,0 +1,19 @@
+{
+  "id": "strawberry-umbrella",
+  "name": "Strawberry Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 387
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1550
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

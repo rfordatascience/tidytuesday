@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "anteater",
+  "birthday": "3-9",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "wave-print",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "wave-print",
+      "song": "K.K. Faire"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "dawn-tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO",
+      "quote": "Wish you were here!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "dawn-tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "dawn-tee",
+      "song": "K.K. Faire",
+      "phrase": "ah-CHOO",
+      "skill": "Whistling",
+      "goal": "Journalist",
+      "fear": "Bug Mask",
+      "quote": "Don't cut off your nose to spite your face.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "ah-CHOO",
+      "song": "K.K. Faire"
+    }
+  },
+  "name": "Cyrano",
+  "id": "cyrano"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "purple-feather",
+  "name": "Purple Feather",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Festivale (Drifting through town)"
+      ]
+    }
+  }
+}

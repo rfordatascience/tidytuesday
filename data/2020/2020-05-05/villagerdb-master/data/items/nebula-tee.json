@@ -1,0 +1,26 @@
+{
+  "id": "nebula-tee",
+  "name": "Nebula Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 98
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 392
+        }
+      ]
+    }
+  }
+}

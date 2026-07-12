@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "ostrich",
+  "birthday": "9-23",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "lotus-tee",
+      "song": "Steep Hill",
+      "phrase": "sweatband",
+      "skill": "Backflips",
+      "goal": "CEO",
+      "fear": "Monster Mask",
+      "quote": "Hard work beats talent.",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Official",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "sweatband",
+      "song": "Steep Hill"
+    }
+  },
+  "name": "Cranston",
+  "id": "cranston"
+}

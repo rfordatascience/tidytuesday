@@ -1,0 +1,27 @@
+{
+  "id": "wash-station",
+  "name": "Wash Station",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Spa",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 720
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2880
+        }
+      ]
+    }
+  }
+}

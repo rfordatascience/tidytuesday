@@ -1,0 +1,14 @@
+{
+  "id": "good-luck-charm",
+  "name": "Good-luck Charm",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Complete every level in Desert Island Escape"
+      ]
+    }
+  }
+}

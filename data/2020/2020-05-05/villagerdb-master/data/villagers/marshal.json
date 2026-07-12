@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "9-29",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "denim-jacket",
+      "song": "Space K.K.",
+      "phrase": "sulky",
+      "skill": "Mental math",
+      "goal": "Designer",
+      "fear": "Ghost Mask",
+      "quote": "Seize the day.",
+      "siblings": "Middle kid",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "sulky",
+      "song": "Space K.K."
+    }
+  },
+  "name": "Marshal",
+  "id": "marshal"
+}

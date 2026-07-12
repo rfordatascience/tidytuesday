@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-15",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "crewel-shirt",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "crewel-shirt",
+      "song": "K.K. Etude"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "crewel-tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "crewel-tee",
+      "song": "K.K. Etude",
+      "phrase": "mrowrr",
+      "skill": "Writing letters",
+      "goal": "CEO",
+      "fear": "Monster Mask",
+      "quote": "If you want something done well, do it yourself.",
+      "siblings": "Middle of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "mrowrr",
+      "song": "K.K. Etude"
+    }
+  },
+  "name": "Kitty",
+  "id": "kitty"
+}

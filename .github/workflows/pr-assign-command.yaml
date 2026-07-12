@@ -1,0 +1,79 @@
+# Workflow based on from https://github.com/r-lib/actions/tree/v2/examples
+on:
+  issue_comment:
+    types: [created]
+
+name: Commands
+
+jobs:
+  assign:
+    if: ${{ github.event.issue.pull_request && (github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'OWNER' || github.event.comment.author_association == 'COLLABORATOR') && startsWith(github.event.comment.body, '/assign') }}
+    name: assign
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_COMMENT_BODY: ${{ github.event.comment.body }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: r-lib/actions/pr-fetch@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Merge main into PR branch
+        run: |
+          git fetch origin main
+          if ! git merge --no-edit origin/main; then
+            echo "❌ Merge conflict: manually merge the main branch before accepting this PR."
+            exit 1
+          fi
+        shell: bash
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+
+      - name: Assign
+        shell: Rscript {0}
+        run: |
+          split_input <- strsplit(Sys.getenv("GITHUB_COMMENT_BODY"), " ")[[1]]
+          if (length(split_input) > 1) {
+            target_date <- split_input[[2]]
+          } else {
+            source(".github/scripts/dates.R", local = TRUE)
+            used_dates <- get_readme_dates()
+            target_date <- max(used_dates) + lubridate::days(7)
+          }
+          if (length(split_input) > 2) {
+            src_folder_name <- split_input[[3]]
+          } else {
+            curated_dirs <- fs::dir_ls("data/curated", type = "directory") |>
+              setdiff("data/curated/template") |> 
+              basename()
+            if (!length(curated_dirs)) {
+              cli::cli_abort("No curated directories found in {.field data/curated}.")
+            } else if (length(curated_dirs) == 1) {
+              src_folder_name <- curated_dirs
+            } else {
+              cli::cli_abort("Multiple curated directories found in {.field data/curated}: {.field {curated_dirs}}")
+            }
+          }
+          cli::cli_inform(c(
+            i = "target_date = {.field {target_date}}",
+            i = "src_folder_name = {.field {src_folder_name}}"
+          ))
+          
+          source(".github/scripts/assign_week.R", local = TRUE)
+
+      - name: commit
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add --all
+          git commit -m 'Accept submission'
+
+      - uses: r-lib/actions/pr-push@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

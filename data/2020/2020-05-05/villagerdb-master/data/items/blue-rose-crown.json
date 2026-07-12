@@ -1,0 +1,19 @@
+{
+  "id": "blue-rose-crown",
+  "name": "Blue Rose Crown",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 12000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 48000
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

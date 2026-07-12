@@ -1,0 +1,19 @@
+{
+  "id": "party-flooring",
+  "name": "Party Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 370
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1480
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

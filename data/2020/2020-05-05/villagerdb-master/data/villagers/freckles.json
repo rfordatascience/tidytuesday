@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "2-19",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "oft-seen-print",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "oft-seen-print",
+      "song": "K.K. Song"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "bright-tee",
+      "song": "K.K. Song",
+      "phrase": "ducky",
+      "quote": "CATAPULTING CUPCAKES!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "bright-tee",
+      "song": "K.K. Song",
+      "phrase": "ducky"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "bright-tee",
+      "song": "K.K. Song",
+      "phrase": "ducky",
+      "skill": "Staying awake",
+      "goal": "Pharmacist",
+      "fear": "Werewolf Hood",
+      "quote": "Act now before you change your mind!",
+      "siblings": "Middle triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "ducky",
+      "song": "K.K. Song"
+    }
+  },
+  "name": "Freckles",
+  "id": "freckles"
+}

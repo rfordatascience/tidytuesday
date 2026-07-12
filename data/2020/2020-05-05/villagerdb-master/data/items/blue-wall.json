@@ -1,0 +1,31 @@
+{
+  "id": "blue-wall",
+  "name": "Blue Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Blue",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 315
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "sylvana"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1260
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

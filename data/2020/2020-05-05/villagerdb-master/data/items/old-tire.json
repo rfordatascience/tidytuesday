@@ -1,0 +1,17 @@
+{
+  "id": "old-tire",
+  "name": "Old Tire",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Fishing"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Usables"
+}

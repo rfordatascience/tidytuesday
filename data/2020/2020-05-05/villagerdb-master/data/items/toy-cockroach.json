@@ -1,0 +1,19 @@
+{
+  "id": "toy-cockroach",
+  "name": "Toy Cockroach",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 70
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 280
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

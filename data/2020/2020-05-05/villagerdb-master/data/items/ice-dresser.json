@@ -1,0 +1,21 @@
+{
+  "id": "ice-dresser",
+  "name": "Ice Dresser",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Ice",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowmam"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tango-dress",
+  "name": "Tango Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 650
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

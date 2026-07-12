@@ -1,0 +1,337 @@
+"","airline","avail_seat_km_per_week","year_range","type_of_event","n_events"
+"1","Aer Lingus",320906734,"85_99","incidents",2
+"2","Aeroflot*",1197672318,"85_99","incidents",76
+"3","Aerolineas Argentinas",385803648,"85_99","incidents",6
+"4","Aeromexico*",596871813,"85_99","incidents",3
+"5","Air Canada",1865253802,"85_99","incidents",2
+"6","Air France",3004002661,"85_99","incidents",14
+"7","Air India*",869253552,"85_99","incidents",2
+"8","Air New Zealand*",710174817,"85_99","incidents",3
+"9","Alaska Airlines*",965346773,"85_99","incidents",5
+"10","Alitalia",698012498,"85_99","incidents",7
+"11","All Nippon Airways",1841234177,"85_99","incidents",3
+"12","American*",5228357340,"85_99","incidents",21
+"13","Austrian Airlines",358239823,"85_99","incidents",1
+"14","Avianca",396922563,"85_99","incidents",5
+"15","British Airways*",3179760952,"85_99","incidents",4
+"16","Cathay Pacific*",2582459303,"85_99","incidents",0
+"17","China Airlines",813216487,"85_99","incidents",12
+"18","Condor",417982610,"85_99","incidents",2
+"19","COPA",550491507,"85_99","incidents",3
+"20","Delta / Northwest*",6525658894,"85_99","incidents",24
+"21","Egyptair",557699891,"85_99","incidents",8
+"22","El Al",335448023,"85_99","incidents",1
+"23","Ethiopian Airlines",488560643,"85_99","incidents",25
+"24","Finnair",506464950,"85_99","incidents",1
+"25","Garuda Indonesia",613356665,"85_99","incidents",10
+"26","Gulf Air",301379762,"85_99","incidents",1
+"27","Hawaiian Airlines",493877795,"85_99","incidents",0
+"28","Iberia",1173203126,"85_99","incidents",4
+"29","Japan Airlines",1574217531,"85_99","incidents",3
+"30","Kenya Airways",277414794,"85_99","incidents",2
+"31","KLM*",1874561773,"85_99","incidents",7
+"32","Korean Air",1734522605,"85_99","incidents",12
+"33","LAN Airlines",1001965891,"85_99","incidents",3
+"34","Lufthansa*",3426529504,"85_99","incidents",6
+"35","Malaysia Airlines",1039171244,"85_99","incidents",3
+"36","Pakistan International",348563137,"85_99","incidents",8
+"37","Philippine Airlines",413007158,"85_99","incidents",7
+"38","Qantas*",1917428984,"85_99","incidents",1
+"39","Royal Air Maroc",295705339,"85_99","incidents",5
+"40","SAS*",682971852,"85_99","incidents",5
+"41","Saudi Arabian",859673901,"85_99","incidents",7
+"42","Singapore Airlines",2376857805,"85_99","incidents",2
+"43","South African",651502442,"85_99","incidents",2
+"44","Southwest Airlines",3276525770,"85_99","incidents",1
+"45","Sri Lankan / AirLanka",325582976,"85_99","incidents",2
+"46","SWISS*",792601299,"85_99","incidents",2
+"47","TACA",259373346,"85_99","incidents",3
+"48","TAM",1509195646,"85_99","incidents",8
+"49","TAP - Air Portugal",619130754,"85_99","incidents",0
+"50","Thai Airways",1702802250,"85_99","incidents",8
+"51","Turkish Airlines",1946098294,"85_99","incidents",8
+"52","United / Continental*",7139291291,"85_99","incidents",19
+"53","US Airways / America West*",2455687887,"85_99","incidents",16
+"54","Vietnam Airlines",625084918,"85_99","incidents",7
+"55","Virgin Atlantic",1005248585,"85_99","incidents",1
+"56","Xiamen Airlines",430462962,"85_99","incidents",9
+"57","Aer Lingus",320906734,"85_99","fatal_accidents",0
+"58","Aeroflot*",1197672318,"85_99","fatal_accidents",14
+"59","Aerolineas Argentinas",385803648,"85_99","fatal_accidents",0
+"60","Aeromexico*",596871813,"85_99","fatal_accidents",1
+"61","Air Canada",1865253802,"85_99","fatal_accidents",0
+"62","Air France",3004002661,"85_99","fatal_accidents",4
+"63","Air India*",869253552,"85_99","fatal_accidents",1
+"64","Air New Zealand*",710174817,"85_99","fatal_accidents",0
+"65","Alaska Airlines*",965346773,"85_99","fatal_accidents",0
+"66","Alitalia",698012498,"85_99","fatal_accidents",2
+"67","All Nippon Airways",1841234177,"85_99","fatal_accidents",1
+"68","American*",5228357340,"85_99","fatal_accidents",5
+"69","Austrian Airlines",358239823,"85_99","fatal_accidents",0
+"70","Avianca",396922563,"85_99","fatal_accidents",3
+"71","British Airways*",3179760952,"85_99","fatal_accidents",0
+"72","Cathay Pacific*",2582459303,"85_99","fatal_accidents",0
+"73","China Airlines",813216487,"85_99","fatal_accidents",6
+"74","Condor",417982610,"85_99","fatal_accidents",1
+"75","COPA",550491507,"85_99","fatal_accidents",1
+"76","Delta / Northwest*",6525658894,"85_99","fatal_accidents",12
+"77","Egyptair",557699891,"85_99","fatal_accidents",3
+"78","El Al",335448023,"85_99","fatal_accidents",1
+"79","Ethiopian Airlines",488560643,"85_99","fatal_accidents",5
+"80","Finnair",506464950,"85_99","fatal_accidents",0
+"81","Garuda Indonesia",613356665,"85_99","fatal_accidents",3
+"82","Gulf Air",301379762,"85_99","fatal_accidents",0
+"83","Hawaiian Airlines",493877795,"85_99","fatal_accidents",0
+"84","Iberia",1173203126,"85_99","fatal_accidents",1
+"85","Japan Airlines",1574217531,"85_99","fatal_accidents",1
+"86","Kenya Airways",277414794,"85_99","fatal_accidents",0
+"87","KLM*",1874561773,"85_99","fatal_accidents",1
+"88","Korean Air",1734522605,"85_99","fatal_accidents",5
+"89","LAN Airlines",1001965891,"85_99","fatal_accidents",2
+"90","Lufthansa*",3426529504,"85_99","fatal_accidents",1
+"91","Malaysia Airlines",1039171244,"85_99","fatal_accidents",1
+"92","Pakistan International",348563137,"85_99","fatal_accidents",3
+"93","Philippine Airlines",413007158,"85_99","fatal_accidents",4
+"94","Qantas*",1917428984,"85_99","fatal_accidents",0
+"95","Royal Air Maroc",295705339,"85_99","fatal_accidents",3
+"96","SAS*",682971852,"85_99","fatal_accidents",0
+"97","Saudi Arabian",859673901,"85_99","fatal_accidents",2
+"98","Singapore Airlines",2376857805,"85_99","fatal_accidents",2
+"99","South African",651502442,"85_99","fatal_accidents",1
+"100","Southwest Airlines",3276525770,"85_99","fatal_accidents",0
+"101","Sri Lankan / AirLanka",325582976,"85_99","fatal_accidents",1
+"102","SWISS*",792601299,"85_99","fatal_accidents",1
+"103","TACA",259373346,"85_99","fatal_accidents",1
+"104","TAM",1509195646,"85_99","fatal_accidents",3
+"105","TAP - Air Portugal",619130754,"85_99","fatal_accidents",0
+"106","Thai Airways",1702802250,"85_99","fatal_accidents",4
+"107","Turkish Airlines",1946098294,"85_99","fatal_accidents",3
+"108","United / Continental*",7139291291,"85_99","fatal_accidents",8
+"109","US Airways / America West*",2455687887,"85_99","fatal_accidents",7
+"110","Vietnam Airlines",625084918,"85_99","fatal_accidents",3
+"111","Virgin Atlantic",1005248585,"85_99","fatal_accidents",0
+"112","Xiamen Airlines",430462962,"85_99","fatal_accidents",1
+"113","Aer Lingus",320906734,"85_99","fatalities",0
+"114","Aeroflot*",1197672318,"85_99","fatalities",128
+"115","Aerolineas Argentinas",385803648,"85_99","fatalities",0
+"116","Aeromexico*",596871813,"85_99","fatalities",64
+"117","Air Canada",1865253802,"85_99","fatalities",0
+"118","Air France",3004002661,"85_99","fatalities",79
+"119","Air India*",869253552,"85_99","fatalities",329
+"120","Air New Zealand*",710174817,"85_99","fatalities",0
+"121","Alaska Airlines*",965346773,"85_99","fatalities",0
+"122","Alitalia",698012498,"85_99","fatalities",50
+"123","All Nippon Airways",1841234177,"85_99","fatalities",1
+"124","American*",5228357340,"85_99","fatalities",101
+"125","Austrian Airlines",358239823,"85_99","fatalities",0
+"126","Avianca",396922563,"85_99","fatalities",323
+"127","British Airways*",3179760952,"85_99","fatalities",0
+"128","Cathay Pacific*",2582459303,"85_99","fatalities",0
+"129","China Airlines",813216487,"85_99","fatalities",535
+"130","Condor",417982610,"85_99","fatalities",16
+"131","COPA",550491507,"85_99","fatalities",47
+"132","Delta / Northwest*",6525658894,"85_99","fatalities",407
+"133","Egyptair",557699891,"85_99","fatalities",282
+"134","El Al",335448023,"85_99","fatalities",4
+"135","Ethiopian Airlines",488560643,"85_99","fatalities",167
+"136","Finnair",506464950,"85_99","fatalities",0
+"137","Garuda Indonesia",613356665,"85_99","fatalities",260
+"138","Gulf Air",301379762,"85_99","fatalities",0
+"139","Hawaiian Airlines",493877795,"85_99","fatalities",0
+"140","Iberia",1173203126,"85_99","fatalities",148
+"141","Japan Airlines",1574217531,"85_99","fatalities",520
+"142","Kenya Airways",277414794,"85_99","fatalities",0
+"143","KLM*",1874561773,"85_99","fatalities",3
+"144","Korean Air",1734522605,"85_99","fatalities",425
+"145","LAN Airlines",1001965891,"85_99","fatalities",21
+"146","Lufthansa*",3426529504,"85_99","fatalities",2
+"147","Malaysia Airlines",1039171244,"85_99","fatalities",34
+"148","Pakistan International",348563137,"85_99","fatalities",234
+"149","Philippine Airlines",413007158,"85_99","fatalities",74
+"150","Qantas*",1917428984,"85_99","fatalities",0
+"151","Royal Air Maroc",295705339,"85_99","fatalities",51
+"152","SAS*",682971852,"85_99","fatalities",0
+"153","Saudi Arabian",859673901,"85_99","fatalities",313
+"154","Singapore Airlines",2376857805,"85_99","fatalities",6
+"155","South African",651502442,"85_99","fatalities",159
+"156","Southwest Airlines",3276525770,"85_99","fatalities",0
+"157","Sri Lankan / AirLanka",325582976,"85_99","fatalities",14
+"158","SWISS*",792601299,"85_99","fatalities",229
+"159","TACA",259373346,"85_99","fatalities",3
+"160","TAM",1509195646,"85_99","fatalities",98
+"161","TAP - Air Portugal",619130754,"85_99","fatalities",0
+"162","Thai Airways",1702802250,"85_99","fatalities",308
+"163","Turkish Airlines",1946098294,"85_99","fatalities",64
+"164","United / Continental*",7139291291,"85_99","fatalities",319
+"165","US Airways / America West*",2455687887,"85_99","fatalities",224
+"166","Vietnam Airlines",625084918,"85_99","fatalities",171
+"167","Virgin Atlantic",1005248585,"85_99","fatalities",0
+"168","Xiamen Airlines",430462962,"85_99","fatalities",82
+"169","Aer Lingus",320906734,"00_14","incidents",0
+"170","Aeroflot*",1197672318,"00_14","incidents",6
+"171","Aerolineas Argentinas",385803648,"00_14","incidents",1
+"172","Aeromexico*",596871813,"00_14","incidents",5
+"173","Air Canada",1865253802,"00_14","incidents",2
+"174","Air France",3004002661,"00_14","incidents",6
+"175","Air India*",869253552,"00_14","incidents",4
+"176","Air New Zealand*",710174817,"00_14","incidents",5
+"177","Alaska Airlines*",965346773,"00_14","incidents",5
+"178","Alitalia",698012498,"00_14","incidents",4
+"179","All Nippon Airways",1841234177,"00_14","incidents",7
+"180","American*",5228357340,"00_14","incidents",17
+"181","Austrian Airlines",358239823,"00_14","incidents",1
+"182","Avianca",396922563,"00_14","incidents",0
+"183","British Airways*",3179760952,"00_14","incidents",6
+"184","Cathay Pacific*",2582459303,"00_14","incidents",2
+"185","China Airlines",813216487,"00_14","incidents",2
+"186","Condor",417982610,"00_14","incidents",0
+"187","COPA",550491507,"00_14","incidents",0
+"188","Delta / Northwest*",6525658894,"00_14","incidents",24
+"189","Egyptair",557699891,"00_14","incidents",4
+"190","El Al",335448023,"00_14","incidents",1
+"191","Ethiopian Airlines",488560643,"00_14","incidents",5
+"192","Finnair",506464950,"00_14","incidents",0
+"193","Garuda Indonesia",613356665,"00_14","incidents",4
+"194","Gulf Air",301379762,"00_14","incidents",3
+"195","Hawaiian Airlines",493877795,"00_14","incidents",1
+"196","Iberia",1173203126,"00_14","incidents",5
+"197","Japan Airlines",1574217531,"00_14","incidents",0
+"198","Kenya Airways",277414794,"00_14","incidents",2
+"199","KLM*",1874561773,"00_14","incidents",1
+"200","Korean Air",1734522605,"00_14","incidents",1
+"201","LAN Airlines",1001965891,"00_14","incidents",0
+"202","Lufthansa*",3426529504,"00_14","incidents",3
+"203","Malaysia Airlines",1039171244,"00_14","incidents",3
+"204","Pakistan International",348563137,"00_14","incidents",10
+"205","Philippine Airlines",413007158,"00_14","incidents",2
+"206","Qantas*",1917428984,"00_14","incidents",5
+"207","Royal Air Maroc",295705339,"00_14","incidents",3
+"208","SAS*",682971852,"00_14","incidents",6
+"209","Saudi Arabian",859673901,"00_14","incidents",11
+"210","Singapore Airlines",2376857805,"00_14","incidents",2
+"211","South African",651502442,"00_14","incidents",1
+"212","Southwest Airlines",3276525770,"00_14","incidents",8
+"213","Sri Lankan / AirLanka",325582976,"00_14","incidents",4
+"214","SWISS*",792601299,"00_14","incidents",3
+"215","TACA",259373346,"00_14","incidents",1
+"216","TAM",1509195646,"00_14","incidents",7
+"217","TAP - Air Portugal",619130754,"00_14","incidents",0
+"218","Thai Airways",1702802250,"00_14","incidents",2
+"219","Turkish Airlines",1946098294,"00_14","incidents",8
+"220","United / Continental*",7139291291,"00_14","incidents",14
+"221","US Airways / America West*",2455687887,"00_14","incidents",11
+"222","Vietnam Airlines",625084918,"00_14","incidents",1
+"223","Virgin Atlantic",1005248585,"00_14","incidents",0
+"224","Xiamen Airlines",430462962,"00_14","incidents",2
+"225","Aer Lingus",320906734,"00_14","fatal_accidents",0
+"226","Aeroflot*",1197672318,"00_14","fatal_accidents",1
+"227","Aerolineas Argentinas",385803648,"00_14","fatal_accidents",0
+"228","Aeromexico*",596871813,"00_14","fatal_accidents",0
+"229","Air Canada",1865253802,"00_14","fatal_accidents",0
+"230","Air France",3004002661,"00_14","fatal_accidents",2
+"231","Air India*",869253552,"00_14","fatal_accidents",1
+"232","Air New Zealand*",710174817,"00_14","fatal_accidents",1
+"233","Alaska Airlines*",965346773,"00_14","fatal_accidents",1
+"234","Alitalia",698012498,"00_14","fatal_accidents",0
+"235","All Nippon Airways",1841234177,"00_14","fatal_accidents",0
+"236","American*",5228357340,"00_14","fatal_accidents",3
+"237","Austrian Airlines",358239823,"00_14","fatal_accidents",0
+"238","Avianca",396922563,"00_14","fatal_accidents",0
+"239","British Airways*",3179760952,"00_14","fatal_accidents",0
+"240","Cathay Pacific*",2582459303,"00_14","fatal_accidents",0
+"241","China Airlines",813216487,"00_14","fatal_accidents",1
+"242","Condor",417982610,"00_14","fatal_accidents",0
+"243","COPA",550491507,"00_14","fatal_accidents",0
+"244","Delta / Northwest*",6525658894,"00_14","fatal_accidents",2
+"245","Egyptair",557699891,"00_14","fatal_accidents",1
+"246","El Al",335448023,"00_14","fatal_accidents",0
+"247","Ethiopian Airlines",488560643,"00_14","fatal_accidents",2
+"248","Finnair",506464950,"00_14","fatal_accidents",0
+"249","Garuda Indonesia",613356665,"00_14","fatal_accidents",2
+"250","Gulf Air",301379762,"00_14","fatal_accidents",1
+"251","Hawaiian Airlines",493877795,"00_14","fatal_accidents",0
+"252","Iberia",1173203126,"00_14","fatal_accidents",0
+"253","Japan Airlines",1574217531,"00_14","fatal_accidents",0
+"254","Kenya Airways",277414794,"00_14","fatal_accidents",2
+"255","KLM*",1874561773,"00_14","fatal_accidents",0
+"256","Korean Air",1734522605,"00_14","fatal_accidents",0
+"257","LAN Airlines",1001965891,"00_14","fatal_accidents",0
+"258","Lufthansa*",3426529504,"00_14","fatal_accidents",0
+"259","Malaysia Airlines",1039171244,"00_14","fatal_accidents",2
+"260","Pakistan International",348563137,"00_14","fatal_accidents",2
+"261","Philippine Airlines",413007158,"00_14","fatal_accidents",1
+"262","Qantas*",1917428984,"00_14","fatal_accidents",0
+"263","Royal Air Maroc",295705339,"00_14","fatal_accidents",0
+"264","SAS*",682971852,"00_14","fatal_accidents",1
+"265","Saudi Arabian",859673901,"00_14","fatal_accidents",0
+"266","Singapore Airlines",2376857805,"00_14","fatal_accidents",1
+"267","South African",651502442,"00_14","fatal_accidents",0
+"268","Southwest Airlines",3276525770,"00_14","fatal_accidents",0
+"269","Sri Lankan / AirLanka",325582976,"00_14","fatal_accidents",0
+"270","SWISS*",792601299,"00_14","fatal_accidents",0
+"271","TACA",259373346,"00_14","fatal_accidents",1
+"272","TAM",1509195646,"00_14","fatal_accidents",2
+"273","TAP - Air Portugal",619130754,"00_14","fatal_accidents",0
+"274","Thai Airways",1702802250,"00_14","fatal_accidents",1
+"275","Turkish Airlines",1946098294,"00_14","fatal_accidents",2
+"276","United / Continental*",7139291291,"00_14","fatal_accidents",2
+"277","US Airways / America West*",2455687887,"00_14","fatal_accidents",2
+"278","Vietnam Airlines",625084918,"00_14","fatal_accidents",0
+"279","Virgin Atlantic",1005248585,"00_14","fatal_accidents",0
+"280","Xiamen Airlines",430462962,"00_14","fatal_accidents",0
+"281","Aer Lingus",320906734,"00_14","fatalities",0
+"282","Aeroflot*",1197672318,"00_14","fatalities",88
+"283","Aerolineas Argentinas",385803648,"00_14","fatalities",0
+"284","Aeromexico*",596871813,"00_14","fatalities",0
+"285","Air Canada",1865253802,"00_14","fatalities",0
+"286","Air France",3004002661,"00_14","fatalities",337
+"287","Air India*",869253552,"00_14","fatalities",158
+"288","Air New Zealand*",710174817,"00_14","fatalities",7
+"289","Alaska Airlines*",965346773,"00_14","fatalities",88
+"290","Alitalia",698012498,"00_14","fatalities",0
+"291","All Nippon Airways",1841234177,"00_14","fatalities",0
+"292","American*",5228357340,"00_14","fatalities",416
+"293","Austrian Airlines",358239823,"00_14","fatalities",0
+"294","Avianca",396922563,"00_14","fatalities",0
+"295","British Airways*",3179760952,"00_14","fatalities",0
+"296","Cathay Pacific*",2582459303,"00_14","fatalities",0
+"297","China Airlines",813216487,"00_14","fatalities",225
+"298","Condor",417982610,"00_14","fatalities",0
+"299","COPA",550491507,"00_14","fatalities",0
+"300","Delta / Northwest*",6525658894,"00_14","fatalities",51
+"301","Egyptair",557699891,"00_14","fatalities",14
+"302","El Al",335448023,"00_14","fatalities",0
+"303","Ethiopian Airlines",488560643,"00_14","fatalities",92
+"304","Finnair",506464950,"00_14","fatalities",0
+"305","Garuda Indonesia",613356665,"00_14","fatalities",22
+"306","Gulf Air",301379762,"00_14","fatalities",143
+"307","Hawaiian Airlines",493877795,"00_14","fatalities",0
+"308","Iberia",1173203126,"00_14","fatalities",0
+"309","Japan Airlines",1574217531,"00_14","fatalities",0
+"310","Kenya Airways",277414794,"00_14","fatalities",283
+"311","KLM*",1874561773,"00_14","fatalities",0
+"312","Korean Air",1734522605,"00_14","fatalities",0
+"313","LAN Airlines",1001965891,"00_14","fatalities",0
+"314","Lufthansa*",3426529504,"00_14","fatalities",0
+"315","Malaysia Airlines",1039171244,"00_14","fatalities",537
+"316","Pakistan International",348563137,"00_14","fatalities",46
+"317","Philippine Airlines",413007158,"00_14","fatalities",1
+"318","Qantas*",1917428984,"00_14","fatalities",0
+"319","Royal Air Maroc",295705339,"00_14","fatalities",0
+"320","SAS*",682971852,"00_14","fatalities",110
+"321","Saudi Arabian",859673901,"00_14","fatalities",0
+"322","Singapore Airlines",2376857805,"00_14","fatalities",83
+"323","South African",651502442,"00_14","fatalities",0
+"324","Southwest Airlines",3276525770,"00_14","fatalities",0
+"325","Sri Lankan / AirLanka",325582976,"00_14","fatalities",0
+"326","SWISS*",792601299,"00_14","fatalities",0
+"327","TACA",259373346,"00_14","fatalities",3
+"328","TAM",1509195646,"00_14","fatalities",188
+"329","TAP - Air Portugal",619130754,"00_14","fatalities",0
+"330","Thai Airways",1702802250,"00_14","fatalities",1
+"331","Turkish Airlines",1946098294,"00_14","fatalities",84
+"332","United / Continental*",7139291291,"00_14","fatalities",109
+"333","US Airways / America West*",2455687887,"00_14","fatalities",23
+"334","Vietnam Airlines",625084918,"00_14","fatalities",0
+"335","Virgin Atlantic",1005248585,"00_14","fatalities",0
+"336","Xiamen Airlines",430462962,"00_14","fatalities",0

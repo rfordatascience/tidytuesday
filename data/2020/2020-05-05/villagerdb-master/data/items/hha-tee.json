@@ -1,0 +1,21 @@
+{
+  "id": "hha-tee",
+  "name": "Hha Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25
+      },
+      "sources": [
+        "HHA (10",
+        "000 points)"
+      ]
+    }
+  }
+}

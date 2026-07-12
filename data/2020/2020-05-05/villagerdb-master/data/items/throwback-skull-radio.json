@@ -1,0 +1,23 @@
+{
+  "id": "throwback-skull-radio",
+  "name": "Throwback Skull Radio",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

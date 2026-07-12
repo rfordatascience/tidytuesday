@@ -1,0 +1,19 @@
+{
+  "id": "high-tops",
+  "name": "High-tops",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 270
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1080
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

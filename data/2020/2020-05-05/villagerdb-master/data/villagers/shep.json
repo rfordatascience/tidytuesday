@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-24",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "denim-vest",
+      "song": "K.K. Reggae",
+      "phrase": "baaa man",
+      "skill": "Speed-reading",
+      "goal": "Professor",
+      "fear": "Mummy Mask",
+      "quote": "Even dogs won't get in the middle of true love.",
+      "siblings": "Third quadruplet",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "baaa man",
+      "song": "K.K. Reggae"
+    }
+  },
+  "name": "Shep",
+  "id": "shep"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cicada-stereo",
+  "name": "Cicada Stereo",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Insect",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "Bug Off"
+      ]
+    }
+  }
+}

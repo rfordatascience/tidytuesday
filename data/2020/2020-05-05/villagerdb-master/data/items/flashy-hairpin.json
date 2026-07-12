@@ -1,0 +1,41 @@
+{
+  "id": "flashy-hairpin",
+  "name": "Flashy Hairpin",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "GracieGrace (summer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4800
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 585
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2340
+        }
+      ]
+    }
+  }
+}

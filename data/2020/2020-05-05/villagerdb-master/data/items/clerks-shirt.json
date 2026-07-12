@@ -1,0 +1,33 @@
+{
+  "id": "clerks-shirt",
+  "name": "Clerk's Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "sources": [
+        "DLC (JP)"
+      ],
+      "rvs": [
+        "timmy-tommy"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

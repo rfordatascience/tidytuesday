@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "7-28",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "turnip-top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Two Days Ago"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "turnip-top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie",
+      "quote": "JUMPING JELLY BEANS!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "turnip-top",
+      "song": "Two Days Ago",
+      "phrase": "snoutie"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "fern-tee",
+      "song": "Two Days Ago",
+      "phrase": "snoutie",
+      "skill": "Trivia",
+      "goal": "Actor",
+      "fear": "Monster Mask",
+      "quote": "The best things in life are free.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "snoutie",
+      "song": "Two Days Ago"
+    }
+  },
+  "name": "Truffles",
+  "id": "truffles"
+}

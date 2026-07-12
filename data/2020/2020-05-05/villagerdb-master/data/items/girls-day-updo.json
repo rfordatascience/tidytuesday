@@ -1,0 +1,32 @@
+{
+  "id": "girls-day-updo",
+  "name": "Girl's Day Updo",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale",
+        "Harmonious"
+      ],
+      "fashionThemes": [
+        "Ornate"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 333
+      },
+      "sources": [
+        "Labelle (JP",
+        "3/1 - 3/3)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1332
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+8,"t","Honey Bee Colonies: Released August 3, 2020, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, United States Department of Agriculture (USDA)."
+8,"t","Colonies, Maximum, Lost, Percent Lost, Added, Renovated, and Percent Renovated with Five or More Colonies – States and United States: October 1, 2019 and October-December 2019"
+8,"h","","","","","","","",""
+8,"h","","","October-December","October-December","October-December","October-December","October-December","October-December"
+8,"h","State","October 1","","","","","",""
+8,"h","","colonies","Maximum","Lost","Percent","Added","Renovated","Percent"
+8,"h","","","colonies 1/","colonies","lost 2/","colonies","colonies 3/","renovated 4/"
+8,"h","","","","","","","",""
+8,"u","","(number)","(number)","(number)","(percent)","(number)","(number)","(percent)"
+8,"d","Alabama",6000,6000,660,11,240,70,1
+8,"d","Arizona",34000,36000,7000,19,300,300,1
+8,"d","Arkansas",19000,19500,1600,8,430,310,2
+8,"d","California",700000,1300000,136000,10,160000,37000,3
+8,"d","Colorado",27000,27000,8000,30,1100,440,2
+8,"d","Connecticut",3800,4000,300,8,10,50,1
+8,"d","Florida",270000,300000,30000,10,28000,15000,5
+8,"d","Georgia",119000,131000,20000,15,10500,10500,8
+8,"d","Hawaii",17000,17000,1300,8,300,50,"(Z)"
+8,"d","Idaho",111000,196000,15500,8,1800,1000,1
+8,"d","",,,,,,,
+8,"d","Illinois",13000,13000,1700,13,1000,1500,12
+8,"d","Indiana",17500,17500,1300,7,160,180,1
+8,"d","Iowa",32000,32000,7500,23,1500,530,2
+8,"d","Kansas",4800,4900,650,13,190,460,9
+8,"d","Kentucky",8500,8500,410,5,190,170,2
+8,"d","Louisiana",41000,46000,2300,5,70,80,"(Z)"
+8,"d","Maine",11500,11500,770,7,110,40,"(Z)"
+8,"d","Maryland",6500,8000,1100,14,390,420,5
+8,"d","Massachusetts",5000,5000,1200,24,60,130,3
+8,"d","Michigan",84000,84000,6500,8,820,1500,2
+8,"d","",,,,,,,
+8,"d","Minnesota",97000,97000,15500,16,3400,60,"(Z)"
+8,"d","Mississippi",21000,29000,3400,12,350,50,"(Z)"
+8,"d","Missouri",9000,10000,1500,15,260,10,"(Z)"
+8,"d","Montana",71000,79000,7000,9,770,4000,5
+8,"d","Nebraska",37000,38000,2700,7,320,10,"(Z)"
+8,"d","New Jersey",15500,15500,220,1,60,80,1
+8,"d","New Mexico",6000,6000,70,1,30,10,"(Z)"
+8,"d","New York",65000,65000,10000,15,630,510,1
+8,"d","North Carolina",17500,18000,3200,18,240,770,4
+8,"d","North Dakota",420000,420000,27000,6,3000,4300,1
+8,"d","",,,,,,,
+8,"d","Ohio",19000,19000,2700,14,800,390,2
+8,"d","Oklahoma",6500,37000,2500,7,460,-,-
+8,"d","Oregon",115000,130000,15000,12,650,2000,2
+8,"d","Pennsylvania",21000,21000,3800,18,1600,1100,5
+8,"d","South Carolina",12500,13500,1900,14,1400,430,3
+8,"d","South Dakota",189000,189000,7500,4,-,40,"(Z)"
+8,"d","Tennessee",11000,11000,1300,12,20,70,1
+8,"d","Texas",129000,240000,17500,7,8000,1700,1
+8,"d","Utah",30000,32000,4400,14,970,90,"(Z)"
+8,"d","Vermont",7000,7000,190,3,100,270,4
+8,"d","",,,,,,,
+8,"d","Virginia",8000,8000,1200,15,10,190,2
+8,"d","Washington",89000,93000,12500,13,810,100,"(Z)"
+8,"d","West Virginia",7500,8000,1500,19,30,1600,20
+8,"d","Wisconsin",46000,46000,8500,18,1800,3000,7
+8,"d","Wyoming",27000,28000,3300,12,100,490,2
+8,"d","",,,,,,,
+8,"d","Other States 5/",11010,11510,1340,12,280,-,-
+8,"d","",,,,,,,
+8,"d","United States",3018110,"(X)",399510,13,233260,91000,3
+8,"c",""
+8,"f","-  Represents zero."
+8,"f","(X)  Not applicable."
+8,"f","(Z)  Less than half of the unit shown."
+8,"f","1/ October 1 colonies plus all colonies moved into that state during the quarter."
+8,"f","2/ Percent lost is the number of lost colonies divided by maximum colonies except for the United States, where percent lost is the number of lost colonies divided by the October 1 colonies."
+8,"f","3/ Defined as any surviving colony that was requeened or received new honey bees through nuc or package."
+8,"f","4/ Percent renovated is the number of renovated colonies divided by maximum colonies except for the United States, where percent renovated is the number of renovated colonies divided by the October 1 colonies."
+8,"f","5/ Includes data for States not published in this table."

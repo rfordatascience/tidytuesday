@@ -1,0 +1,27 @@
+{
+  "id": "red-snapper",
+  "name": "Red Snapper",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Sea"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      }
+    }
+  }
+}

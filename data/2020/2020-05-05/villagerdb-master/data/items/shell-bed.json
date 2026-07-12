@@ -1,0 +1,25 @@
+{
+  "id": "shell-bed",
+  "name": "Shell Bed",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40800
+        }
+      ],
+      "recipe": {
+        "giant-clam": 5,
+        "clay": 3,
+        "stone": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

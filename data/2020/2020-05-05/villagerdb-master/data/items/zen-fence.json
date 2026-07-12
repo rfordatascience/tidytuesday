@@ -1,0 +1,20 @@
+{
+  "id": "zen-fence",
+  "name": "Zen Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "recipe": {
+        "iron-nugget": 3,
+        "clay": 3,
+        "stone": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

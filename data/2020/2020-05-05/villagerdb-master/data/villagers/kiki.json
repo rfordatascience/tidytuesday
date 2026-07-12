@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "10-8",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "argyle-knit",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "argyle-knit",
+      "song": "K.K. Country"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "argyle-knit-shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat",
+      "quote": "Hang in there, kiddo."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "argyle-knit-shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "argyle-knit-shirt",
+      "song": "K.K. Country",
+      "phrase": "kitty cat",
+      "skill": "Fishing",
+      "goal": "Writer",
+      "fear": "Bug Mask",
+      "quote": "Nothing ventured, nothing gained.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "kitty cat",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Kiki",
+  "id": "kiki"
+}

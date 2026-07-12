@@ -1,0 +1,23 @@
+{
+  "id": "colorful-puzzle-flooring",
+  "name": "Colorful Puzzle Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 362
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1450
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

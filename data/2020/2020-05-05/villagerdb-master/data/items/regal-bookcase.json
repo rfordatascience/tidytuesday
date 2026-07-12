@@ -1,0 +1,28 @@
+{
+  "id": "regal-bookcase",
+  "name": "Regal Bookcase",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "set": "Regal",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 780
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3120
+        }
+      ]
+    }
+  }
+}

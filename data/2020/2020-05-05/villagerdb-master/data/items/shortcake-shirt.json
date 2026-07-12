@@ -1,0 +1,39 @@
+{
+  "id": "shortcake-shirt",
+  "name": "Shortcake Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 82
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 330
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Winter)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 82
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 330
+        }
+      ]
+    }
+  }
+}

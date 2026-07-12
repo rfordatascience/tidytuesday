@@ -1,0 +1,17 @@
+{
+  "id": "longhorn-beetle",
+  "name": "Longhorn Beetle",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 260
+      },
+      "sources": [
+        "On tree stumps."
+      ]
+    }
+  }
+}

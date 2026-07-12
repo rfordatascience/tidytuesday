@@ -1,0 +1,19 @@
+{
+  "id": "mush-umbrella",
+  "name": "Mush Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4800
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

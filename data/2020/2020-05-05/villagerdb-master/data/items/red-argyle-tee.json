@@ -1,0 +1,26 @@
+{
+  "id": "red-argyle-tee",
+  "name": "Red Argyle Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1450
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5800
+        }
+      ]
+    }
+  }
+}

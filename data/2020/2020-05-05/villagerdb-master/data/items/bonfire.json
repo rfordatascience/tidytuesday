@@ -1,0 +1,35 @@
+{
+  "id": "bonfire",
+  "name": "Bonfire",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1230
+      },
+      "recipe": {
+        "campfire": 1,
+        "wood": 10
+      }
+    },
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 560
+      },
+      "sources": [
+        "Camping NPC (tent)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2240
+        }
+      ]
+    }
+  }
+}

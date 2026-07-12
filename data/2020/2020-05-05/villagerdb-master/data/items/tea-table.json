@@ -1,0 +1,45 @@
+{
+  "id": "tea-table",
+  "name": "Tea Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Zen",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "jack"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1000
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1440
+      },
+      "recipe": {
+        "hardwood": 12
+      }
+    }
+  }
+}

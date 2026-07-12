@@ -1,0 +1,21 @@
+{
+  "id": "red-new-years-hat",
+  "name": "Red New Year's Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 75
+      },
+      "sources": [
+        "Countdown (Dec. 31st",
+        "Redd)"
+      ]
+    }
+  }
+}

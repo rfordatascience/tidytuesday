@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "9-4",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "ladybug-tank",
+      "song": "K.K. Love Song",
+      "phrase": "WHEE",
+      "skill": "Whistling",
+      "goal": "Professor",
+      "fear": "Skeleton Hood",
+      "quote": "It's always teatime somewhere.",
+      "siblings": "Eldest of 4 sisters",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "WHEE",
+      "song": "K.K. Love Song"
+    }
+  },
+  "name": "Cally",
+  "id": "cally"
+}

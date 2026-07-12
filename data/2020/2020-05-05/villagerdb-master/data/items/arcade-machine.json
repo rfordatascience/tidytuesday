@@ -1,0 +1,26 @@
+{
+  "id": "arcade-machine",
+  "name": "Arcade Machine",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1100
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4400
+        }
+      ]
+    }
+  }
+}

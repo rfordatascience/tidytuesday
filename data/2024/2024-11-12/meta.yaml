@@ -1,0 +1,19 @@
+title: "ISO Country Codes"
+article:
+  title: "ISO 3166 on Wikipedia"
+  url: "https://en.wikipedia.org/wiki/ISO_3166"
+data_source:
+  title: "ISOcodes R Package"
+  url: "https://cran.r-project.org/package=ISOcodes"
+images:
+- file: "Andora.png"
+  alt: >
+    Subdivisions of the Principality of Andorra by Wikimedia user Aotearoa. A
+    map of Andorra, with its seven parishes ("Parròquia" on the map) highlighted 
+    in different colors. Source: 
+    https://en.wikipedia.org/wiki/ISO_3166-2:AD#/media/File:Andora.png
+credit:
+  post: "Jon Harmon"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"

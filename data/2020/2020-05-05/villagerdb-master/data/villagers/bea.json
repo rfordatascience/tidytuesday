@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "10-15",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "go-go-shirt",
+      "song": "K.K. Soul",
+      "phrase": "bingo"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "go-go-shirt",
+      "song": "K.K. Soul"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "go-go-shirt",
+      "song": "K.K. Soul",
+      "phrase": "bingo",
+      "skill": "Waking up early",
+      "goal": "Dentist",
+      "fear": "Werewolf Hood",
+      "quote": "The perfect pair complements each other.",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "bingo",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Bea",
+  "id": "bea"
+}

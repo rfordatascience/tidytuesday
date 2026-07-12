@@ -1,0 +1,19 @@
+{
+  "id": "forest-flooring",
+  "name": "Forest Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140000
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

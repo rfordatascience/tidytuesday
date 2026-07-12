@@ -1,0 +1,51 @@
+{
+  "gender": "male",
+  "species": "bear",
+  "birthday": "7-1",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "mvp-shirt",
+      "song": "K.K. Jazz"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Jazz",
+      "phrase": "fuzzball",
+      "quote": "I'm watching you!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Jazz",
+      "phrase": "fuzzball"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "mvp-tee",
+      "song": "K.K. Lament",
+      "phrase": "fuzzball",
+      "fear": "Bug Mask",
+      "quote": "A bell saved is a bell earned.",
+      "skill": "Whistling",
+      "goal": "Carpenter",
+      "siblings": "Eldest of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "fuzzball",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Curt",
+  "id": "curt"
+}

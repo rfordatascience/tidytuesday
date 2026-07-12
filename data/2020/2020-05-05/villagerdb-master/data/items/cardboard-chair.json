@@ -1,0 +1,36 @@
+{
+  "id": "cardboard-chair",
+  "name": "Cardboard Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Re-Tail (flea market) or Police Station (lost and found)"
+      ]
+    },
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 240
+        }
+      ],
+      "recipe": {
+        "cardboard-box": 1
+      }
+    }
+  }
+}

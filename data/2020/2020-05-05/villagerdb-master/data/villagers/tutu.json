@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "9-15",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "heart-shirt",
+      "song": "K.K. Steppe",
+      "phrase": "twinkles"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "heart-shirt",
+      "song": "K.K. Steppe"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "heart-tee",
+      "song": "K.K. Steppe",
+      "phrase": "twinkles"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "heart-tee",
+      "song": "K.K. Steppe",
+      "phrase": "twinkles",
+      "skill": "Typing",
+      "goal": "Teacher",
+      "fear": "Skeleton Hood",
+      "quote": "Even best friends start out as strangers!",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "twinkles",
+      "song": "K.K. Steppe"
+    }
+  },
+  "name": "Tutu",
+  "id": "tutu"
+}

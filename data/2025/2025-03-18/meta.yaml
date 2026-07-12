@@ -1,0 +1,18 @@
+title: "Palm Trees"
+article:
+  title: "PalmTraits 1.0, a species-level functional trait database of palms worldwide"
+  url: "https://www.nature.com/articles/s41597-019-0189-0"
+data_source:
+  title: "{palmtrees} R package"
+  url: "https://github.com/EmilHvitfeldt/palmtrees"
+images:
+# Please include at least one image, and up to three images
+- file: "palmtraits.png"
+  alt: >
+    Collage of 15 different palm trees showing variation in palm growth forms, steam and leaf variation, and fruit variation.
+credit:
+  post: "Lydia Gibson"
+  github: "@lgibson7"
+  bluesky: "@lydz-gibby.bsky.social"
+  linkedin: "@lgibson7"
+  mastodon: "@lydz_gibby@fosstodon.org"

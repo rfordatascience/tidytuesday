@@ -1,0 +1,19 @@
+{
+  "id": "fish-drying-rack",
+  "name": "Fish-drying Rack",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

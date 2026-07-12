@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "chicken",
+  "birthday": "10-4",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "tropical-shirt",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "tropical-shirt",
+      "song": "K.K. Country"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "tropical-tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay",
+      "quote": "Who are you callin' chicken, chicken?!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "tropical-tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "tropical-tee",
+      "song": "K.K. Country",
+      "phrase": "buh-kay",
+      "skill": "Waking up early",
+      "goal": "Soccer player",
+      "fear": "Werewolf Hood",
+      "quote": "Birds of a feather crow together.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "white",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "buh-kay",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Goose",
+  "id": "goose"
+}

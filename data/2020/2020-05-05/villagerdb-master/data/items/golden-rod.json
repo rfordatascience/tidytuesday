@@ -1,0 +1,24 @@
+{
+  "id": "golden-rod",
+  "name": "Golden Rod",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Fishing Tourney (full fish/deep-sea catch encyclopedia)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10400
+      }
+    }
+  }
+}

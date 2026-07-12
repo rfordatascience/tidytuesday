@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "species": "cub",
+  "birthday": "6-11",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "green-ring-shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "green-ring-shirt",
+      "song": "Rockin' K.K."
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "green-ring-shirt",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy",
+      "quote": "Keep it real. Yeah."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "chichi-print-tee",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy"
+    },
+    "nl": {
+      "personality": "lazy",
+      "song": "Rockin' K.K.",
+      "phrase": "pudgy",
+      "skill": "Blowing bubbles",
+      "goal": "Chef",
+      "fear": "Ghost Mask",
+      "quote": "There's no such thing as a free lunch.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "pudgy",
+      "song": "Rockin' K.K."
+    }
+  },
+  "name": "Pudge",
+  "id": "pudge"
+}

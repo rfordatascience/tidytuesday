@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "deer",
+  "birthday": "7-27",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "comfy-sweater",
+      "song": "Neapolitan",
+      "phrase": "chow down",
+      "skill": "Playing horseshoes",
+      "goal": "Carpenter",
+      "fear": "Werewolf Hood",
+      "quote": "If you're afraid of wolves, don't go to the woods.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "chow down",
+      "song": "Neapolitan"
+    }
+  },
+  "name": "Erik",
+  "id": "erik"
+}

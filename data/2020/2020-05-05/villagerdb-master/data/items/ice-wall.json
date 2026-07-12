@@ -1,0 +1,33 @@
+{
+  "id": "ice-wall",
+  "name": "Ice Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Ice",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8888
+      },
+      "sources": [
+        "Snowmam"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 32800
+        }
+      ]
+    }
+  }
+}

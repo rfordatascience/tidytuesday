@@ -1,0 +1,23 @@
+{
+  "id": "green-delicate-blooms-wall",
+  "name": "Green Delicate-blooms Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

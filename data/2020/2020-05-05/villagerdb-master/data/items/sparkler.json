@@ -1,0 +1,26 @@
+{
+  "id": "sparkler",
+  "name": "Sparkler",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Isabelle (Countdown",
+        "Fireworks Show)",
+        "Redd (Fireworks Show -- dud ticket)",
+        "Nookling stores (August)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 500
+        },
+        {
+          "currency": "bells",
+          "value": 200
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "golden-flooring",
+  "name": "Golden Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40000
+      },
+      "recipe": {
+        "gold-nugget": 4
+      }
+    }
+  },
+  "category": "Flooring"
+}

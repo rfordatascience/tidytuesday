@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-11",
+  "games": {
+    "cf": {
+      "personality": "jock",
+      "clothes": "red-aloha-tee",
+      "song": "My Place",
+      "phrase": "woo woof"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "red-aloha-tee",
+      "song": "My Place",
+      "phrase": "woo woof",
+      "skill": "Doing chin-ups",
+      "goal": "Boxer",
+      "fear": "Skeleton Hood",
+      "quote": "Sometimes life is rough.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "woo woof",
+      "song": "My Place"
+    }
+  },
+  "name": "Mac",
+  "id": "mac"
+}

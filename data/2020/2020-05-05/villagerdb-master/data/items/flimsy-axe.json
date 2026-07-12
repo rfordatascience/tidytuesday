@@ -1,0 +1,28 @@
+{
+  "id": "flimsy-axe",
+  "name": "Flimsy Axe",
+  "category": "Tools",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ],
+      "recipe": {
+        "tree-branch": 5,
+        "stone": 1
+      }
+    }
+  }
+}

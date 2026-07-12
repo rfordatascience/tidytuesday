@@ -1,0 +1,23 @@
+{
+  "id": "yellow-violet",
+  "name": "Yellow Violet",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Gardening Store"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 160
+        }
+      ]
+    }
+  }
+}

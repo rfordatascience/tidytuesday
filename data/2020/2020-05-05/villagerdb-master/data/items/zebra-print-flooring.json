@@ -1,0 +1,23 @@
+{
+  "id": "zebra-print-flooring",
+  "name": "Zebra-print Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,43 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "4-13",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "ancient-knit",
+      "song": "K.K. Ragtime"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "deer-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "sweetie",
+      "skill": "Home repair",
+      "goal": "Judge",
+      "fear": "Monster Mask",
+      "quote": "The players may change, but the music stays the same.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "sweetie",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Candi",
+  "id": "candi"
+}

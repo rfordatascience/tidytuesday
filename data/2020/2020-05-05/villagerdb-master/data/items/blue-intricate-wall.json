@@ -1,0 +1,23 @@
+{
+  "id": "blue-intricate-wall",
+  "name": "Blue Intricate Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 392
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1570
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

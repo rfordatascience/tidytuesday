@@ -1,0 +1,21 @@
+{
+  "id": "oil-stained-floor",
+  "name": "Oil-stained Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cyrus",
+        "dobie"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

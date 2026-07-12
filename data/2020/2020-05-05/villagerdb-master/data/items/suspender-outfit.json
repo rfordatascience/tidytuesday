@@ -1,0 +1,23 @@
+{
+  "id": "suspender-outfit",
+  "name": "Suspender Outfit",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

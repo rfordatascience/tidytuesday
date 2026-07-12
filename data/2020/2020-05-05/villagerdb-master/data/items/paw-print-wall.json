@@ -1,0 +1,23 @@
+{
+  "id": "paw-print-wall",
+  "name": "Paw-print Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1560
+        }
+      ]
+    }
+  }
+}

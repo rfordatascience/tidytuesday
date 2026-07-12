@@ -1,0 +1,19 @@
+{
+  "id": "pink-blossoming-wall",
+  "name": "Pink Blossoming Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 440
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1760
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

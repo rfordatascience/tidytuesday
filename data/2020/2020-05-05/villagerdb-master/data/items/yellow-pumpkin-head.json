@@ -1,0 +1,27 @@
+{
+  "id": "yellow-pumpkin-head",
+  "name": "Yellow-pumpkin Head",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "sources": [
+        "Halloween (neighbor trick)"
+      ],
+      "rvs": [
+        "jack"
+      ]
+    }
+  }
+}

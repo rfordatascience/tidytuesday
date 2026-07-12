@@ -1,0 +1,29 @@
+{
+  "id": "cool-dress",
+  "name": "Cool Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Modern"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1600
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6400
+        }
+      ]
+    }
+  }
+}

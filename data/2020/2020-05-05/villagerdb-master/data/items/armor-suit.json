@@ -1,0 +1,31 @@
+{
+  "id": "armor-suit",
+  "name": "Armor Suit",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Historical"
+      ],
+      "set": "Knight Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    }
+  }
+}

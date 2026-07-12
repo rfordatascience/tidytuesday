@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "3-25",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "sharp-outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "sharp-outfit",
+      "song": "K.K. Sonata"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "sharp-outfit",
+      "song": "K.K. Sonata",
+      "phrase": "dagnaabit",
+      "skill": "Subsistence living",
+      "goal": "Archaeologist",
+      "fear": "Skeleton Hood",
+      "quote": "Old dogs can learn new tricks.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "dagnaabit",
+      "song": "K.K. Sonata"
+    }
+  },
+  "name": "Billy",
+  "id": "billy"
+}

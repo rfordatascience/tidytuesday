@@ -1,0 +1,27 @@
+{
+  "id": "green-bed",
+  "name": "Green Bed",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Green",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 540
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2160
+        }
+      ]
+    }
+  }
+}

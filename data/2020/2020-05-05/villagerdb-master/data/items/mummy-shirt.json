@@ -1,0 +1,30 @@
+{
+  "id": "mummy-shirt",
+  "name": "Mummy Shirt",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "set": "Mummy Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 45
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 180
+        }
+      ]
+    }
+  }
+}

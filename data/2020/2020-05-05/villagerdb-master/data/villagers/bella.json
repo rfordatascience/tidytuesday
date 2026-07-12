@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "mouse",
+  "birthday": "12-28",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "skull-shirt",
+      "song": "K.K. Metal",
+      "phrase": "eeks"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "skull-shirt",
+      "song": "K.K. Metal"
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "skull-tee",
+      "song": "K.K. Metal",
+      "phrase": "eeks",
+      "quote": "Would you like my autograph?"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "skull-tee",
+      "song": "K.K. Metal",
+      "phrase": "eeks"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "skull-tee",
+      "song": "K.K. Metal",
+      "phrase": "eeks",
+      "skill": "Staying up late",
+      "goal": "Singer",
+      "fear": "Monster Mask",
+      "quote": "A head shot is worth a thousand words.",
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "eeks",
+      "song": "K.K. Metal"
+    }
+  },
+  "name": "Bella",
+  "id": "bella"
+}

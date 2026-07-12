@@ -1,0 +1,22 @@
+{
+  "id": "sloppy-stereo",
+  "name": "Sloppy Stereo",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Sloppy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 135
+      },
+      "sources": [
+        "Re-Tail (flea market) or Police Station (lost and found)"
+      ]
+    }
+  }
+}

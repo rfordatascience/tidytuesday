@@ -1,0 +1,21 @@
+{
+  "id": "card-tower",
+  "name": "Card Tower",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Card",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      },
+      "sources": [
+        "GracieGrace (during sales)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rotten-cherry",
+  "name": "Rotten Cherry",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Dying perfect cherry tree",
+        "rotten cherry tree"
+      ]
+    }
+  }
+}

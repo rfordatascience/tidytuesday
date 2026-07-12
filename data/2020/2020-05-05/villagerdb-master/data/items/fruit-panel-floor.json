@@ -1,0 +1,18 @@
+{
+  "id": "fruit-panel-floor",
+  "name": "Fruit-panel Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "sources": [
+        "Start Story Mode in Puzzle League"
+      ]
+    }
+  }
+}

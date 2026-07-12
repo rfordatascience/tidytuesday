@@ -1,0 +1,23 @@
+{
+  "id": "dr-shrunks-jacket",
+  "name": "Dr. Shrunk's Jacket",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Dr. Shrunk"
+      ]
+    }
+  }
+}

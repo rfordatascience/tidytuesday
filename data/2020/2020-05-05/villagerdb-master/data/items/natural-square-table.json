@@ -1,0 +1,19 @@
+{
+  "id": "natural-square-table",
+  "name": "Natural Square Table",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1980
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7920
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

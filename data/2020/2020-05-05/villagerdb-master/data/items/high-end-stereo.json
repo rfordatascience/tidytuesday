@@ -1,0 +1,42 @@
+{
+  "id": "high-end-stereo",
+  "name": "High-end Stereo",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 688
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2752
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 10000
+        }
+      ]
+    }
+  }
+}

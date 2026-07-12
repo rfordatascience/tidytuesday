@@ -1,0 +1,35 @@
+{
+  "id": "old-board-floor",
+  "name": "Old Board Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "hornsby"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

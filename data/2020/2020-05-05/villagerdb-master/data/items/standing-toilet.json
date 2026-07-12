@@ -1,0 +1,23 @@
+{
+  "id": "standing-toilet",
+  "name": "Standing Toilet",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

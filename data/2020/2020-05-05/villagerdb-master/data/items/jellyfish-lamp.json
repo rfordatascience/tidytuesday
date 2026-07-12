@@ -1,0 +1,21 @@
+{
+  "id": "jellyfish-lamp",
+  "name": "Jellyfish Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Fish",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "sources": [
+        "Fishing Tourney"
+      ]
+    }
+  }
+}

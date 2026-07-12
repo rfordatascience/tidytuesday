@@ -1,0 +1,28 @@
+{
+  "id": "char",
+  "name": "Char",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3800
+      },
+      "sources": [
+        "In waterfalls."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Medium Shadows on Clifftop Rivers, Mar-Jun and Sep-Nov (4pm-9am)",
+        "South: Medium Shadows on Clifftop Rivers, Mar-May and Sep-Dec (4pm-9am)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3800
+      }
+    }
+  }
+}

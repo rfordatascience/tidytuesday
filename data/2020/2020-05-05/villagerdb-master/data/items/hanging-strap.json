@@ -1,0 +1,24 @@
+{
+  "id": "hanging-strap",
+  "name": "Hanging Strap",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "rvs": [
+        "rover"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

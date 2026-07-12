@@ -1,0 +1,18 @@
+title: "Measles cases across the world"
+article:
+  title: "Measles cases reach 1,046 in US as infections confirmed in 30 states: CDC"
+  url: "https://abcnews.go.com/Health/measles-cases-reach-1046-us-infections-confirmed-30/story?id=122108194"
+data_source:
+  title: "World Health Organisation Provisional monthly measles and rubella data"
+  url: "https://immunizationdata.who.int/global?topic=Provisional-measles-and-rubella-data&location="
+images:
+# Please include at least one image, and up to three images
+- file: "us_measles.png"
+  alt: >
+    The plot displays the number of monthly measles cases in the US from 2020 to 2025 using red points and lines. The pattern shows very low measles cases each month, until 2025, when there is a spike of cases, rising to more than 400 in March 2025
+credit:
+  post: "Jen Richmond (R-Ladies Sydney)"
+  github: "@jenrichmond"
+  bluesky: "@jenrichmondphd.bsky.social"
+  linkedin: "@jenrichmondPhD"
+  mastodon: "@jenrichmondPhD@mastodon.social"

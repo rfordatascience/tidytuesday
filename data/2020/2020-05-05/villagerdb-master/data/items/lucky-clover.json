@@ -1,0 +1,13 @@
+{
+  "id": "lucky-clover",
+  "name": "Lucky Clover",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Town weeds"
+      ]
+    }
+  }
+}

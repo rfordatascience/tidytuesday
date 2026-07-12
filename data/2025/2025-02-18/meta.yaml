@@ -1,0 +1,18 @@
+title: "Agencies from the FBI Crime Data API"
+article:
+  title: "Uniform Crime Reporting Program: Still Vital After 90 Years"
+  url: "https://le.fbi.gov/cjis-division/cjis-link/uniform-crime-reporting-program-still-vital-after-90-years-"
+data_source:
+  title: "FBI Crime Data API"
+  url: "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi"
+images:
+# Please include at least one image, and up to three images
+- file: "crime_data_explorer_page.png"
+  alt: >
+    A webpage from the FBI's Crime Data Explorer displaying crime data trends for 2023 and navigation options for exploring different types of crime data. For 2023, U.S. violent crime was down by 3%, with murder down 11.6%, rape down 9.4%, robbery down 0.3%, and aggravated assault down 2.8%. U.S. property crime was also down overall in 2023 by 2.4%, with burglary down 7.6% and larceny down 4.4%. Motor vehicle theft was the sole outlier, up by 12.6%.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Ford Johnson"
+  github: "https://github.com/bradfordjohnson"
+  linkedin: "https://linkedin.com/in/bradford-ford-johnson"

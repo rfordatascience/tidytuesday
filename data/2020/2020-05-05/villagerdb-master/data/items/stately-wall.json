@@ -1,0 +1,42 @@
+{
+  "id": "stately-wall",
+  "name": "Stately Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 613
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2452
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 612
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2450
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "golden-candlestick",
+  "name": "Golden Candlestick",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20000
+      },
+      "recipe": {
+        "gold-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

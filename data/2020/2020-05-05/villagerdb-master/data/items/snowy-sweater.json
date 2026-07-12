@@ -1,0 +1,38 @@
+{
+  "id": "snowy-sweater",
+  "name": "Snowy Sweater",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 105
+      },
+      "sources": [
+        "Able Sisters (winter)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 420
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 362
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1450
+        }
+      ]
+    }
+  }
+}

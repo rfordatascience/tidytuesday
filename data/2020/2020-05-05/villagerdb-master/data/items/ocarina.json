@@ -1,0 +1,18 @@
+{
+  "id": "ocarina",
+  "name": "Ocarina",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "recipe": {
+        "clay": 5
+      }
+    }
+  },
+  "category": "Usables"
+}

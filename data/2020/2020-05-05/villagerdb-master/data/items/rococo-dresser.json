@@ -1,0 +1,28 @@
+{
+  "id": "rococo-dresser",
+  "name": "Rococo Dresser",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "set": "Rococo",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 635
+      },
+      "sources": [
+        "Nookling stores (Spotlight)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2540
+        }
+      ]
+    }
+  }
+}

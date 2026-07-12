@@ -1,0 +1,20 @@
+{
+  "id": "ptera-right-wing",
+  "name": "Ptera Right Wing",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

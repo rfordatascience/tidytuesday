@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "3-27",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "natty-shirt",
+      "song": "K.K. Stroll"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "K.K. Stroll",
+      "phrase": "bonbon"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "K.K. Stroll",
+      "phrase": "bonbon",
+      "skill": "Peeling apples",
+      "goal": "Chef",
+      "fear": "Bug Mask",
+      "quote": "Laughter is the best medicine",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "bonbon",
+      "song": "K.K. Stroll"
+    }
+  },
+  "name": "Lolly",
+  "id": "lolly"
+}

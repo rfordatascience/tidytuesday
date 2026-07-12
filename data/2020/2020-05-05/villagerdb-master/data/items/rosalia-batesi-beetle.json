@@ -1,0 +1,20 @@
+{
+  "id": "rosalia-batesi-beetle",
+  "name": "Rosalia Batesi Beetle",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ]
+    }
+  },
+  "category": "Bugs"
+}

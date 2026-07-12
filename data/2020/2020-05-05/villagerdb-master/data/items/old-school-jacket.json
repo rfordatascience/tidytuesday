@@ -1,0 +1,19 @@
+{
+  "id": "old-school-jacket",
+  "name": "Old-school Jacket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1800
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

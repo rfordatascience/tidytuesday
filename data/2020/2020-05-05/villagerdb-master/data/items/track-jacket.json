@@ -1,0 +1,19 @@
+{
+  "id": "track-jacket",
+  "name": "Track Jacket",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 227
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 910
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

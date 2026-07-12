@@ -1,0 +1,14 @@
+{
+  "id": "wooden-washtub",
+  "name": "Wooden Washtub",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "xSize": 1,
+      "ySize": 1,
+      "recipe": {
+        "softwood": 4
+      }
+    }
+  }
+}

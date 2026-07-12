@@ -1,0 +1,19 @@
+{
+  "id": "tree-sweater",
+  "name": "Tree Sweater",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

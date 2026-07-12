@@ -1,0 +1,14 @@
+{
+  "id": "colorful-net",
+  "name": "Colorful Net",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

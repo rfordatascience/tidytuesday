@@ -1,0 +1,46 @@
+{
+  "gender": "female",
+  "species": "monkey",
+  "birthday": "4-2",
+  "games": {
+    "ww": {
+      "personality": "peppy",
+      "clothes": "new-spring-tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy",
+      "quote": "EEEEEEEEEEK!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "new-spring-tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "new-spring-tee",
+      "song": "Imperial K.K.",
+      "phrase": "chimpy",
+      "skill": "Making puns",
+      "goal": "Artist",
+      "fear": "Mummy Mask",
+      "quote": "Always be down to monkey around.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "chimpy",
+      "song": "Imperial K.K."
+    }
+  },
+  "name": "Tammi",
+  "id": "tammi"
+}

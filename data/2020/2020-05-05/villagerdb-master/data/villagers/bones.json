@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "8-4",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "caveman-tunic",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "caveman-tunic",
+      "song": "Forest Life"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "caveman-tank",
+      "song": "Forest Life",
+      "phrase": "yip yip",
+      "quote": "Thanks for the snacks. Hint hint."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "caveman-tank",
+      "song": "Forest Life",
+      "phrase": "yip yip"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "caveman-tank",
+      "song": "Forest Life",
+      "phrase": "yip yip",
+      "skill": "Telling jokes",
+      "goal": "Explorer",
+      "fear": "Mummy Mask",
+      "quote": "A snack a day keeps the vacuum away.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "yip yip",
+      "song": "Forest Life"
+    }
+  },
+  "name": "Bones",
+  "id": "bones"
+}

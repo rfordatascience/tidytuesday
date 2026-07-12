@@ -1,0 +1,22 @@
+{
+  "id": "gold-armor",
+  "name": "Gold Armor",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320000
+        }
+      ],
+      "recipe": {
+        "gold-nugget": 8
+      }
+    }
+  },
+  "category": "Dresses"
+}

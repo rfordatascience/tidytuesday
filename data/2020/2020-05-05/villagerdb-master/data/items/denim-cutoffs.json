@@ -1,0 +1,23 @@
+{
+  "id": "denim-cutoffs",
+  "name": "Denim Cutoffs",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Shopping, Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

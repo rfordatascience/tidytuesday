@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "4-17",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "red-aloha-shirt",
+      "song": "Mr. K.K."
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "red-warm-up-suit",
+      "song": "Mr. K.K.",
+      "phrase": "urgh",
+      "skill": "Hitting snooze",
+      "goal": "Archaeologist",
+      "fear": "Monster Mask",
+      "quote": "Actions speak louder than words.",
+      "siblings": "Youngest of 6 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "urgh",
+      "song": "Mr. K.K."
+    }
+  },
+  "name": "Charlise",
+  "id": "charlise"
+}

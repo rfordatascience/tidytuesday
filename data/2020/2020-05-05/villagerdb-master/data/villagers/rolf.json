@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "tiger",
+  "birthday": "8-22",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "bubble-shirt",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "bubble-shirt",
+      "song": "Spring Blossoms"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "bubble-tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf",
+      "quote": "I could eat you for lunch, you know."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "bubble-tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "bubble-tee",
+      "song": "Spring Blossoms",
+      "phrase": "grrrolf",
+      "skill": "Doing handstands",
+      "goal": "Pro wrestler",
+      "fear": "Skeleton Hood",
+      "quote": "Don't skip lunch. Ever.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "grrrolf",
+      "song": "Spring Blossoms"
+    }
+  },
+  "name": "Rolf",
+  "id": "rolf"
+}

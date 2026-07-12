@@ -1,0 +1,45 @@
+{
+  "id": "jungle-wall",
+  "name": "Jungle Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Museum Shop (complete the insects exhibit)"
+      ],
+      "rvs": [
+        "nat"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1380
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5520
+        }
+      ]
+    }
+  }
+}

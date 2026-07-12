@@ -1,0 +1,19 @@
+{
+  "id": "intercom-monitor",
+  "name": "Intercom Monitor",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 215
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 860
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

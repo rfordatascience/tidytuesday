@@ -1,0 +1,46 @@
+{
+  "id": "kettle",
+  "name": "Kettle",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "copper"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 177
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 710
+        }
+      ]
+    }
+  }
+}

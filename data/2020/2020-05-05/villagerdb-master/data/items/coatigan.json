@@ -1,0 +1,19 @@
+{
+  "id": "coatigan",
+  "name": "Coatigan",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 595
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2380
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

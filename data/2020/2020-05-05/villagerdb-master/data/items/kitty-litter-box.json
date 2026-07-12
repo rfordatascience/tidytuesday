@@ -1,0 +1,19 @@
+{
+  "id": "kitty-litter-box",
+  "name": "Kitty Litter Box",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mini-diy-workbench",
+  "name": "Mini DIY Workbench",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2580
+      },
+      "recipe": {
+        "wood": 3,
+        "hardwood": 3,
+        "softwood": 3,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

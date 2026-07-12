@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "9-2",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "fiendish-shirt",
+      "song": "Space K.K.",
+      "phrase": "cha",
+      "skill": "Limboing",
+      "goal": "Marathon runner",
+      "fear": "Werewolf Hood",
+      "quote": "Always keep a straight face.",
+      "siblings": "Youngest of 4 sisters",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "cha",
+      "song": "Space K.K."
+    }
+  },
+  "name": "Flo",
+  "id": "flo"
+}

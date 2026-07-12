@@ -1,0 +1,17 @@
+{
+  "id": "traditional-straw-coat",
+  "name": "Traditional Straw Coat",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      },
+      "recipe": {
+        "clump-of-weeds": 8
+      }
+    }
+  },
+  "category": "Tops"
+}

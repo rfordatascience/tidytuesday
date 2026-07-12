@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "10-6",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "blue-letter-jacket",
+      "song": "K.K. Metal",
+      "phrase": "picante",
+      "skill": "Sprinting",
+      "goal": "Basketball player",
+      "fear": "Ghost Mask",
+      "quote": "Rules were made to be broken.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "picante",
+      "song": "K.K. Metal"
+    }
+  },
+  "name": "Tex",
+  "id": "tex"
+}

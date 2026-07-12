@@ -1,0 +1,13 @@
+{
+  "id": "carp-model",
+  "name": "Carp Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  },
+  "category": "Furniture"
+}

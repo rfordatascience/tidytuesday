@@ -1,0 +1,20 @@
+{
+  "id": "humble-sweater",
+  "name": "Humble Sweater",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 287
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1150
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

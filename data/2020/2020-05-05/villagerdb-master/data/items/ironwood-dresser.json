@@ -1,0 +1,19 @@
+{
+  "id": "ironwood-dresser",
+  "name": "Ironwood Dresser",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3840
+      },
+      "recipe": {
+        "wood": 7,
+        "iron-nugget": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

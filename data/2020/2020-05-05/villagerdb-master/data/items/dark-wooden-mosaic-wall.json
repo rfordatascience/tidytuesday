@@ -1,0 +1,18 @@
+{
+  "id": "dark-wooden-mosaic-wall",
+  "name": "Dark Wooden-mosaic Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1800
+      },
+      "recipe": {
+        "wood": 15
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

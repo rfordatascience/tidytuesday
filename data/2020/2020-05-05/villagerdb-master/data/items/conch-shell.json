@@ -1,0 +1,17 @@
+{
+  "id": "conch-shell",
+  "name": "Conch Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

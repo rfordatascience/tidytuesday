@@ -1,0 +1,19 @@
+{
+  "id": "candy-skull-mask",
+  "name": "Candy-skull Mask",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

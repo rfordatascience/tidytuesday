@@ -1,0 +1,33 @@
+{
+  "id": "red-aloha-tee",
+  "name": "Red Aloha Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 187
+      },
+      "sources": [
+        "Island Gift Shop"
+      ],
+      "rvs": [
+        "kappn"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 15
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

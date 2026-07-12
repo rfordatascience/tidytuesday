@@ -1,0 +1,19 @@
+{
+  "id": "golden-toilet",
+  "name": "Golden Toilet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 240000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,15 @@
+title: "Brazilian Companies"
+article:
+  title: "Wikipedia's List of largest Brazilian companies"
+  url: "https://en.wikipedia.org/wiki/List_of_largest_Brazilian_companies"
+data_source:
+  title: "Open data CNPJ - December 2025"
+  url: "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-12/"
+images:
+- file: "br_capital_stock.png"
+  alt: >
+    A panel exploring a set of companies and their participation in the Brazilian capital stock.
+credit:
+  post: "Marcelo Silva"
+  github: "@MarcleoSilva"
+  linkedin: "@marcelo-araujo-s"

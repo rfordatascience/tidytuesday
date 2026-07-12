@@ -1,0 +1,28 @@
+{
+  "id": "sleigh",
+  "name": "Sleigh",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Snowtyke"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 960
+      },
+      "recipe": {
+        "wood": 8
+      }
+    }
+  }
+}

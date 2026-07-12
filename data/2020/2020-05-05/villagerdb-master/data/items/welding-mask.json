@@ -1,0 +1,19 @@
+{
+  "id": "welding-mask",
+  "name": "Welding Mask",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 260
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1040
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

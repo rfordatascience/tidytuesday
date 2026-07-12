@@ -1,0 +1,22 @@
+{
+  "id": "round-cushion",
+  "name": "Round Cushion",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "carrie",
+        "hopkins",
+        "vivian"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

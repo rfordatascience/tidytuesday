@@ -1,0 +1,24 @@
+{
+  "id": "blue-flooring",
+  "name": "Blue Flooring",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Blue",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 395
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1580
+        }
+      ]
+    }
+  }
+}

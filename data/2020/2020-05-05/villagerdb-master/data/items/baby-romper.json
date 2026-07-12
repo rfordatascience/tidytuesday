@@ -1,0 +1,19 @@
+{
+  "id": "baby-romper",
+  "name": "Baby Romper",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1920
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

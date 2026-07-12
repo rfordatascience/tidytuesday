@@ -1,0 +1,13 @@
+{
+  "id": "sugar",
+  "name": "Sugar",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Harvest Festival (villagers)"
+      ]
+    }
+  }
+}

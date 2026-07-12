@@ -1,0 +1,35 @@
+{
+  "id": "folding-chair",
+  "name": "Folding Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 600
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 230
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 920
+        }
+      ]
+    }
+  }
+}

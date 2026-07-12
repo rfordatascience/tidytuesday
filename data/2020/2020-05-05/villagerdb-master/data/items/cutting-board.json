@@ -1,0 +1,19 @@
+{
+  "id": "cutting-board",
+  "name": "Cutting Board",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 990
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3960
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

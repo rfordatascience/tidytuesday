@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "8-24",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid",
+      "clothes": "citrus-gingham"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "clothes": "citrus-gingham"
+    },
+    "ww": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid",
+      "clothes": "citrus-gingham",
+      "quote": "Nanny-nanny boo-boo!"
+    },
+    "cf": {
+      "personality": "normal",
+      "song": "K.K. Etude",
+      "phrase": "kid",
+      "clothes": "citrus-gingham"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "straw-shirt",
+      "song": "K.K. Etude",
+      "phrase": "kid",
+      "skill": "Playing horseshoes",
+      "goal": "Illustrator",
+      "fear": "Ghost Mask",
+      "quote": "Nanny-nanny boo-boo!",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "kid",
+      "song": "K.K. Etude"
+    }
+  },
+  "name": "Nan",
+  "id": "nan"
+}

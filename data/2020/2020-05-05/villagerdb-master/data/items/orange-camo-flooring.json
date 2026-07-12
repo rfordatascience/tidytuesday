@@ -1,0 +1,19 @@
+{
+  "id": "orange-camo-flooring",
+  "name": "Orange Camo Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 330
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1320
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

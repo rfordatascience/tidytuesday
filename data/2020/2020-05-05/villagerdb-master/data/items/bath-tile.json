@@ -1,0 +1,21 @@
+{
+  "id": "bath-tile",
+  "name": "Bath Tile",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Spa",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1700
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mounted-blue-marlin",
+  "name": "Mounted Blue Marlin",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

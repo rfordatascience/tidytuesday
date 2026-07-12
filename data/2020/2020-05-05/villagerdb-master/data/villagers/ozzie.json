@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "koala",
+  "birthday": "5-7",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "giraffe-shirt",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "giraffe-shirt",
+      "song": "Mr. K.K."
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "giraffe-tee",
+      "song": "Mr. K.K.",
+      "phrase": "ol' bear",
+      "skill": "Baton twirling",
+      "goal": "Pro golfer",
+      "fear": "Bug Mask",
+      "quote": "Half a loaf is better than none.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "ol' bear",
+      "song": "Mr. K.K."
+    }
+  },
+  "name": "Ozzie",
+  "id": "ozzie"
+}

@@ -1,0 +1,50 @@
+{
+  "gender": "female",
+  "species": "bird",
+  "birthday": "3-12",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "new-spring-shirt",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "new-spring-shirt",
+      "song": "K.K. Lullaby"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "new-spring-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "new-spring-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "tweedledee",
+      "skill": "Tongue twisters",
+      "goal": "Artist",
+      "fear": "Ghost Mask",
+      "quote": "When the world gets cold, just fly south.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "tweedledee",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Midge",
+  "id": "midge"
+}

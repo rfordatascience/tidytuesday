@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "10-28",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "swell-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "swell-shirt",
+      "song": "K.K. Dirge"
+    },
+    "ww": {
+      "personality": "cranky",
+      "clothes": "swell-tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou",
+      "quote": "Sacre bleu!"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "swell-tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "swell-tee",
+      "song": "K.K. Dirge",
+      "phrase": "mon chou",
+      "skill": "Ventriloquism",
+      "goal": "Tycoon",
+      "fear": "Werewolf Hood",
+      "quote": "An ear for an ear leaves everyone deaf.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "mon chou",
+      "song": "K.K. Dirge"
+    }
+  },
+  "name": "Gaston",
+  "id": "gaston"
+}

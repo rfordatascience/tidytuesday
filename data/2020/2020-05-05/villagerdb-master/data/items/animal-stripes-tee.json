@@ -1,0 +1,19 @@
+{
+  "id": "animal-stripes-tee",
+  "name": "Animal-stripes Tee",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

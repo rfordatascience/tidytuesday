@@ -1,0 +1,19 @@
+{
+  "id": "chic-mum-crown",
+  "name": "Chic Mum Crown",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 960
+      },
+      "recipe": {
+        "purple-mums": 3,
+        "pink-mums": 3
+      }
+    }
+  },
+  "category": "Hats"
+}

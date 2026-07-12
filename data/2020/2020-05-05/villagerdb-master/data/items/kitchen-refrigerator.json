@@ -1,0 +1,26 @@
+{
+  "id": "kitchen-refrigerator",
+  "name": "Kitchen Refrigerator",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "rvs": [
+        "admiral",
+        "franklin",
+        "norma"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

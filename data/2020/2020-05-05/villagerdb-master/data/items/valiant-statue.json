@@ -1,0 +1,27 @@
+{
+  "id": "valiant-statue",
+  "name": "Valiant Statue",
+  "category": "Art",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 980
+      },
+      "sources": [
+        "Redd (Redd's Gallery)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3920
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "3-16",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "vertigo-shirt",
+      "song": "Pondering",
+      "phrase": "ol' bunny"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "vertigo-shirt",
+      "song": "Pondering"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "vertigo-tee",
+      "song": "Pondering",
+      "phrase": "ol' bunny",
+      "skill": "Typing",
+      "goal": "Programmer",
+      "fear": "Ghost Mask",
+      "quote": "One cannot live on carrots alone.",
+      "siblings": "Older twin brother",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "ol' bunny",
+      "song": "Pondering"
+    }
+  },
+  "name": "Doc",
+  "id": "doc"
+}

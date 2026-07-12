@@ -1,0 +1,19 @@
+{
+  "id": "faux-fur-ankle-booties",
+  "name": "Faux-fur Ankle Booties",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 362
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1450
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

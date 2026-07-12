@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "9-21",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "chain-gang-tee",
+      "song": "K.K. Soul",
+      "phrase": "snoozit",
+      "skill": "Oversleeping",
+      "goal": "Writer",
+      "fear": "Werewolf Hood",
+      "quote": "The way to a frog's heart is through his stomach.",
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "snoozit",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Henry",
+  "id": "henry"
+}

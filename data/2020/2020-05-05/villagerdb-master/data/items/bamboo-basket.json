@@ -1,0 +1,24 @@
+{
+  "id": "bamboo-basket",
+  "name": "Bamboo Basket",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1120
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4480
+        }
+      ],
+      "recipe": {
+        "bamboo-piece": 7
+      }
+    }
+  },
+  "category": "Furniture"
+}

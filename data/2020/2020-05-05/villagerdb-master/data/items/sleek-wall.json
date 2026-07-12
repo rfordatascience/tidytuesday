@@ -1,0 +1,28 @@
+{
+  "id": "sleek-wall",
+  "name": "Sleek Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Trendy"
+      ],
+      "set": "Sleek",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 385
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1540
+        }
+      ]
+    }
+  }
+}

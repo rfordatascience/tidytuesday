@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "penguin",
+  "birthday": "1-5",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "cafe-shirt",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "cafe-shirt",
+      "song": "K.K. Parade"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "cafe-tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy",
+      "quote": "I'm not waddling! I'm working my glutes!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "cafe-tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "cafe-tee",
+      "song": "K.K. Parade",
+      "phrase": "b-b-buddy",
+      "skill": "Belly dancing",
+      "goal": "Pro golfer",
+      "fear": "Bug Mask",
+      "quote": "You must learn to waddle before you can swim.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "b-b-buddy",
+      "song": "K.K. Parade"
+    }
+  },
+  "name": "Roald",
+  "id": "roald"
+}

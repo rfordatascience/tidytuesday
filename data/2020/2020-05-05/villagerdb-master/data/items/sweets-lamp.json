@@ -1,0 +1,22 @@
+{
+  "id": "sweets-lamp",
+  "name": "Sweets Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 24500
+      },
+      "sources": [
+        "GracieGrace (fall",
+        "wall)"
+      ]
+    }
+  }
+}

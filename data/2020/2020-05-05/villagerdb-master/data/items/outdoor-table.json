@@ -1,0 +1,23 @@
+{
+  "id": "outdoor-table",
+  "name": "Outdoor Table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

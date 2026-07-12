@@ -1,0 +1,758 @@
+/* --------------------------------- */
+/* TABLES START */
+
+/* Data Tools Table */
+.bootstrap a, .col-a-head a, .col-b-head a{color: #205493;}
+table.matrix-table {
+	/*margin: 1em 0;*/
+	margin: 0 0 2em 0;
+	border-collapse:collapse;
+}
+.matrix-table th, .matrix-table thead td {
+	border-right: 1px solid #fff;
+	padding: 3px;
+	color: #fff;
+	text-align: center;
+	background-color: #122f51;
+	vertical-align:bottom;
+	font-weight: bold;
+	vertical-align: top;
+}
+.matrix-table th a, .matrix-table th a:hover {
+	color: #fff;
+}
+.matrix-table td {
+	border-bottom: 1px solid #999;
+	padding: 3px;
+	font-size: 92%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 160%;
+}
+.matrix-table .row-head {
+	background-color: #F5F7F9;
+	border-bottom: 1px solid #333;
+	font-size: 107%;
+	font-weight: bold;
+	text-align: left;
+	color:#122f51;
+}
+.matrix-table .row-head a {
+	color:#600;
+}
+.matrix-table .col-a-head {
+	background-color:#eee;
+	text-align: left;
+}
+.matrix-table .col-b-head {
+	background-color: #FFFFFF;
+	text-align: left;
+}
+.matrix-table .col-a {
+	/*background-color:#F5F7F9;*/
+	background-color:#EBEBDA;
+	text-align: center;
+}
+.matrix-table .col-b {
+	/*background-color: #FFFFFF;*/
+	background-color: #eee;
+	text-align: center;
+}
+.matrix-table .col-head {
+	background-color: #F5F7F9;
+	color: #003366;
+	text-align: right;
+}
+/* RSS Table */
+table.rss-table {
+}
+
+.rss-table th {
+	padding: 2px;
+	width: 30em;
+	text-align: left;
+}
+.rss-table td {
+	padding-right: 2px;
+}
+.rss-table-url {
+	width: 24em;
+}
+.rrsdate {
+	text-align : center;
+}
+
+
+/* Simple Tables */
+
+.data-table td, .data-table th {
+	border: 1px solid #999;
+	padding: 2px 4px;
+}
+
+.simple-table-border {
+	border-collapse : collapse;
+	empty-cells : show;
+	border : 1px solid #999;
+}
+
+.simple-table-border td, .simple-table-border th {
+	border: 1px solid #999;
+	padding: 2px 4px;	
+}
+
+.simple-table td, .simple-table th {
+	border: none;
+	padding: 2px 4px;	
+}
+
+
+
+
+/* --------------------------------- */
+
+/* 508 TABLES START */
+
+/* REGULAR DATA TABLE */ 
+table.regular-data {
+	font-size : 92%;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin : 1em 0;
+	border : 1px solid #aaa;
+	background-color: #fff;
+}
+table.regular-data caption {
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+}
+/* regular-data, all cells */
+table.regular-data th, table.regular-data td {
+	border-left : 1px solid #999;
+	/*background-color : #fff;*/
+	margin : 0;
+}
+table.regular-data th {
+	padding: 1px 4px;
+}
+table.regular-data td {
+	padding: 1px 4px;
+	white-space : nowrap;
+}
+table.regular-data p {
+	margin : 0;
+	line-height: 100%;
+}
+/* regular-data, head cells */
+table.regular-data thead th {
+	background: #dddddd;
+	text-align : center;
+	vertical-align : bottom;
+	border-bottom : 1px solid #999;
+}
+
+/* regular-data, body cells */
+table.regular-data tbody th {
+	text-align : left;
+	vertical-align : middle;
+	white-space : nowrap;
+	border-bottom : 1px solid #999;
+}
+table.regular-data tbody td {
+	text-align : right;
+	vertical-align : middle;
+	border-bottom : 1px solid #999;
+}
+table.regular-data tbody td.text {
+	text-align : left;
+}
+
+/* Grey alt stripes
+table.regular-data tbody tr.odd th {
+	background: #F4F4F4;
+}
+table.regular-data tbody tr.even th {
+	background: #ebebeb;
+}
+table.regular-data tbody tr.odd td {
+	background: #ffffff;
+}
+table.regular-data tbody tr.even td {
+	background: #F4F4F4;
+}
+*/
+/* Blue alternating stripes */
+table.regular-data tbody tr.odd th {
+	background: #eee; /* light stripe header */
+}
+table.regular-data tbody tr.even th {
+	background: #DBEAFF; /* dark stripe */
+}
+table.regular-data tbody tr.odd td {
+	background: #ffffff; /* white stripe */
+}
+table.regular-data tbody tr.even td {
+	background: #EEF4FF; /* light stripe */
+}
+
+/* regular-data, foot cells */
+table.regular-data tfoot td , table.regular-data tfoot th {
+	text-align : left;
+	border-top : 1px solid #999;
+}
+/* END REGULAR DATA TABLE */
+
+
+/* REGULAR TEXT TABLE */ 
+
+table.regular-text {
+	font-size : 92%;
+	border : 1px solid #aaa;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin : 1em 0;
+}
+table.regular-text caption {
+	
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+	color : #660000;	
+}
+table.regular-text th, table.regular-text td {
+	border : 1px solid #aaa;
+	background-color : #fff;
+	margin : 0;
+}
+table.regular-text th {
+	padding: 4px;
+}
+table.regular-text td {
+	padding: 4px;
+}
+
+table.regular-text p {
+	margin : 0;
+	line-height: 100%;
+}
+table.regular-text td.greenbar {
+	background-color : #e7f1d7;
+}
+table.regular-text thead th {
+	background : #EBEBDA;
+	text-align : center;
+	vertical-align : bottom;
+}
+table.regular-text tbody th {
+	background-color : #eee;
+	text-align : left;
+	vertical-align : middle;
+	mso-number-format:\@; /* Format all numbers as text when copying to Excel */	
+}
+table.regular-text tbody td {
+	mso-number-format:\@; /* Format all numbers as text when copying to Excel */
+}
+table.regular-text td.footnotes {
+	text-align : left;
+}
+table.regular-text td.endnotes {
+	text-align : left;
+}
+/* END REGULAR TEXT TABLE */
+
+/* REGULAR TABLE */
+
+table.regular {
+	width : 96%;
+	background-color : #fff;
+	border : 1px solid #aaa;
+	font-family : tahoma, arial, sans-serif;
+	font-size : 92%;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin: 1em 0;
+	
+}
+table.regular caption {
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+	color : #660000;
+}
+table.regular p {
+	margin: 0;
+	line-height: 100%;	
+}
+table.regular th, table.regular td {
+	border: 1px solid #aaa;	
+	background-color : #fff;
+	margin: 0;
+}
+table.regular th {
+	padding: 2px 4px 4px 4px;
+}
+table.regular td {
+	padding: 0px 2px 2px 2px;
+}
+table.regular td.footnotes,
+table.regular td.endnotes {
+	padding: 4px;
+	text-align : left;
+}
+table.regular td.footnotes p,
+table.regular td.endnotes p {
+	line-height: 140%;
+}
+table.regular .footnotestitle {
+	font-weight: bold;
+}
+
+table.regular thead th {
+	background: #dddddd;
+	text-align : center;
+	vertical-align : bottom;
+}
+table.regular tbody th {
+	background-color : #eee; /* light stripe header(same as dark stripe) */
+	text-align : left;
+	vertical-align : middle;
+}
+table.regular tbody td {
+	text-align : right;
+	background-color: #fff; /* light stripe */
+}
+table.regular tbody tr.greenbar th {
+	background-color : #DBEAFF; /* dark stripe header */
+}
+table.regular tbody tr.greenbar td {
+	background-color : #EEF4FF; /* dark stripe */
+}
+table.regular td.footnotes {
+	text-align : left;
+}
+table.regular td.endnotes {
+	text-align : left;
+}
+table.regular td.section {
+	background-color : #d8d8d8;
+	text-align : center;
+	font-weight : bold;
+}
+table.regular td.section2 {
+	background-color : #d8d8d8;
+}
+table.regular img.dinosaur {
+	vertical-align : middle;
+}
+table.regular tbody tr.sep {
+	padding-top : 2em;
+}
+table.regular tbody tr.sep td {
+	height : 0.4em;
+	background-color : #eaeaea;
+}
+table.regular td.greenbar {
+	background-color : #E7F1D7;
+}
+table.regular tr.menutable {
+	text-align : left;
+}
+table.menutable tbody th {
+	text-align : left;
+	vertical-align : middle;
+}
+table.regular tbody tr.highlight th {
+	background-color : #DFF3C9;
+}
+table.regular tbody tr.highlight td {
+	background-color : #EDF8E0;
+}
+table.regular tbody tr.spformat2 th {
+	background-color : #FFFFCC;
+}
+table.regular tbody tr.spformat2 td {
+	background-color : #FFFFDD;
+}
+table.regular tbody tr.spformat3 th {
+	background-color : #D5D0E8;
+}
+table.regular tbody tr.spformat3 td {
+	background-color : #E3E0EF;
+}
+
+table.regular span.footnoteRefs a, 
+table.regular tfoot tr.footnotes td.footnotes p.footnotes a[id$=".p"] { 
+	text-transform: uppercase; 
+	} 
+table.regular tfoot tr.footnotes td.footnotes p.footnotes a[id^="anch"] {
+	text-transform: none;
+	 }
+
+
+/* END Table-Regular Classes */
+
+/* 508 Classes used in span tabs within Regular Tables */
+
+.decimalpad1 {
+	padding-right : 0.7em;
+}
+.decimalpad2 {
+	padding-right : 1.2em;
+}
+.decimalpad3 {
+	padding-right : 1.7em;
+}
+.digitpad1 {
+	padding-right : 0.5em;
+}
+.digitpad2 {
+	padding-right : 1em;
+}
+.digitpad3 {
+	padding-right : 1.5em;
+}
+p.sub0 {
+
+}
+p.sub1 {
+	padding-left : 1em;
+}
+p.sub2 {
+	padding-left : 2em;
+}
+p.sub3 {
+	padding-left : 3em;
+}
+p.sub4 {
+	padding-left : 4em;
+}
+p.sub5 {
+	padding-left : 5em;
+}
+p.sub6 {
+	padding-left : 6em;
+}
+p.sub7 {
+	padding-left : 7em;
+}
+p.sub8 {
+	padding-left : 8em;
+}
+p.sub9 {
+	padding-left : 9em;
+}
+p.sub10 {
+	padding-left : 10em;
+}
+p.sub11 {
+	padding-left : 11em;
+}
+p.sub12 {
+	padding-left : 12em;
+}
+p.sub13 {
+	padding-left : 13em;
+}
+p.sub14 {
+	padding-left : 14em;
+}
+p.sub15 {
+	padding-left : 15em;
+}
+p.sub16 {
+	padding-left : 16em;
+}
+p.sub17 {
+	padding-left : 17em;
+}
+p.sub18 {
+	padding-left : 18em;
+}
+p.sub19 {
+	padding-left : 19em;
+}
+p.sub20 {
+	padding-left : 20em;
+}
+p.sub21 {
+	padding-left : 21em;
+}
+p.sub22 {
+	padding-left : 22em;
+}
+p.sub23 {
+	padding-left : 23em;
+}
+p.sub24 {
+	padding-left : 24em;
+}
+p.sub25 {
+	padding-left : 25em;
+}
+
+/* MISC Legacy Table Classes */
+.tableTitle {
+	font-size: 112%;
+	font-weight : bold;
+}
+.footnoteid {
+	font-size : 77%;
+	vertical-align: text-top;
+	cursor: hand;
+}
+.footnoteid a {
+	/*color: #666;*/
+}
+.datavalue {
+	white-space : nowrap;
+}
+.cpsnote {
+	font-size : 77%;
+}
+.link2pdq {
+	text-align : right;
+	vertical-align : middle;
+}
+table tbody tr.sep td {
+	height : 0.4em;
+	background-color : #efefef;
+}
+span.footnoteRefs {
+	font-size : 77%;
+	/* vertical-align : super; (not working properly in IE)*/
+	vertical-align: text-top;
+}
+span.footnoteRefs a:visited {
+	color : #0000ff;
+}
+span.footnoteRefs a {
+	color : #0000ff;
+}
+span.datavalue span.footnoteRefs {
+	margin-right : 0.5em;
+}
+.textvalue {
+	text-align : left;
+}
+table tbody tr.greenbar th {
+	background-color : #e0e9f8;
+}
+table tbody tr.greenbar td {
+	background-color : #e0e9f8;
+}
+
+/*  END MISC Table Classes */
+
+/* CPS Table */
+
+table.cps {
+	margin-bottom: 1em;
+	border-collapse : collapse;
+	empty-cells : show;
+}
+table.cps p {
+	margin: 0;
+}
+table.cps caption {
+	text-align : left;
+}
+table.cps th, table.cps td {
+	background-color : white;
+	border : 1px solid #666;
+	padding: 2px;
+	
+}
+table.cps thead th, table.cps thead th p {
+	text-align : center;
+	vertical-align : bottom;
+	background:#990000;
+	color:#FFFFFF;
+}
+table.cps tbody th {
+	text-align : left;
+	vertical-align : middle;
+	font-weight : normal;
+}
+table.cps tbody td {
+	text-align : center;
+}
+table.cps td.footnotes {
+	text-align : left;
+	border-top : 1px solid #666;
+}
+table.cps td.section {
+	padding-top : 20px;
+	text-align : center;
+	font-weight : bold;
+}
+
+table.cps thead a {
+	color: #fff;
+}
+
+/* END CPS Table */
+/* 508 TABLES END */
+/* --------------------------------- */
+
+span.headnote {display: block;}
+
+
+
+
+/*-----------------------matrix-table-------------------------*/
+
+
+.table-responsive .matrix-table .col-b-head , .table-responsive .matrix-table .col-a-head{min-width: 250px;} 
+.table-responsive .matrix-table .col-b ,.table-responsive .matrix-table .col-a  {height: 56px;}
+.matrix-table-container .matrix-table p{text-align: left;}
+table.matrix-table a img{width: 50px;height: 50px;}
+
+
+
+/*=====responsive/CSS based/accessible TABLES with 3 different implementations ======*/
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;  
+  padding: 0.5em;
+  overflow: hidden; 
+  list-style: none;
+  border-bottom: solid 1px #000;
+  border-right: solid 1px #000;
+  background: #fff;
+
+}
+
+
+/*------collapse Tables column sizing ------*/
+.Rtable--2cols > .Rtable-cell  { width: 50%; }
+.Rtable--3cols > .Rtable-cell  { width: 33.33%; }
+.Rtable--4cols > .Rtable-cell  { width: 25%; }
+.Rtable--5cols > .Rtable-cell  { width: 20%; }
+.Rtable--6cols > .Rtable-cell  { width: 16.6%; }
+
+
+.Rtable-cell--head { background-color: #C2C2C2; }
+.Rtable-cell--foot { background-color: #595959;color: #fff;}
+.Rtable .bold {font-weight: bold;}
+
+/*-------- Responsive -------- */
+
+@media all and (max-width: 600px) {
+  .Rtable--collapse  { display: block;}
+  .Rtable--collapse .Rtable-cell { width: 100% !important; }
+  .scroll-Rtable .flx-table{width: 800px;}
+}
+.flx-table .th{background-color: #122f51 !important;color: #fff;}
+
+
+.flx-table .th,
+.Rtable-cell--foot,
+.Rtable-cell--head {font-weight: 700;}
+.flx-table a, .Rtable a{color: #0044aa;}
+
+
+
+/*-------------------scroll table begin-----------------------*/
+
+
+.scroll-Rtable {display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;}
+
+.flx-table {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: .8rem;
+  line-height: 1.5;
+  border: 1px solid #d0d0d0;
+  flex: 1 1 auto;
+  margin: 10px 0;
+}
+
+
+
+.flx-table .th > .td {
+  white-space: normal;
+  justify-content: center;
+}
+
+.flx-table .tr {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flx-table .tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+.flx-table .tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.flx-table .td {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0px;
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.flx-table .td span{display: inline-block;padding: 5px;}
+.flx-table .tr .td:last-child{border-right: none;}
+.flx-table .tr:last-child .td{border-bottom: none;}
+
+.flx-table .tr.th{justify-content: center;}
+.flx-table .bold, .flx-table .tr.bold .td {font-weight: bold;}
+
+.flx-table .colgrow-2{flex-grow: 2 !important;}
+.flx-table .colgrow-3{flex-grow: 3 !important;}
+.flx-table .colgrow-4{flex-grow: 4 !important;}
+.flx-table .colgrow-5{flex-grow: 5 !important;}
+.flx-table .colgrow-6{flex-grow: 6 !important;}
+.flx-table .colgrow-7{flex-grow: 7 !important;}
+.flx-table .colgrow-8{flex-grow: 8 !important;}
+.flx-table .colgrow-9{flex-grow: 9 !important;}
+
+
+
+/*=====responsive/CSS based/accessible TABLES with 3 different implementations ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

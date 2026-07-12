@@ -1,0 +1,27 @@
+{
+  "id": "gold-nugget",
+  "name": "Gold Nugget",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "Inside rocks (smash with a shovel)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Hitting rocks with a shovel or axe"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      }
+    }
+  }
+}

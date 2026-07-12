@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "rabbit",
+  "birthday": "1-22",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "dark-polka-shirt",
+      "song": "I Love You"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "dark-polka-tee",
+      "song": "I Love You",
+      "phrase": "karat"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "dark-polka-tee",
+      "song": "I Love You",
+      "phrase": "karat",
+      "skill": "Pretending to sleep",
+      "goal": "Designer",
+      "fear": "Skeleton Hood",
+      "quote": "You can't have wise men if you don't have fools too.",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "karat",
+      "song": "I Love You"
+    }
+  },
+  "name": "Francine",
+  "id": "francine"
+}

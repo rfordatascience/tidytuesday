@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "ostrich",
+  "birthday": "11-27",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "dawn-tee",
+      "song": "Steep Hill",
+      "phrase": "hurk",
+      "skill": "Beat boxing",
+      "goal": "Baseball player",
+      "fear": "Mummy Mask",
+      "quote": "Best not say too much.",
+      "siblings": "Eldest quintuplet",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "blue",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "hurk",
+      "song": "Steep Hill"
+    }
+  },
+  "name": "Phil",
+  "id": "phil"
+}

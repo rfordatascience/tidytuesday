@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "goat",
+  "birthday": "12-26",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "corseted-shirt",
+      "song": "K.K. Tango",
+      "phrase": "kidders",
+      "skill": "Eating frequently",
+      "goal": "Pro golfer",
+      "fear": "Mummy Mask",
+      "quote": "Before you judge someone, walk a mile in her hooves.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "kidders",
+      "song": "K.K. Tango"
+    }
+  },
+  "name": "Pashmina",
+  "id": "pashmina"
+}

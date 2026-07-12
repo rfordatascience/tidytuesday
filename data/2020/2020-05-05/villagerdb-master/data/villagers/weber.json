@@ -1,0 +1,43 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "6-30",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "song": "K.K. Fusion",
+      "phrase": "quaa"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "fish-knit",
+      "song": "K.K. Fusion"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "bubble-tee",
+      "song": "K.K. Fusion",
+      "phrase": "quaa",
+      "skill": "Beat boxing",
+      "goal": "Musician",
+      "fear": "Monster Mask",
+      "quote": "Todays adults are yesterday's children.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "White",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "quaa",
+      "song": "K.K. Fusion"
+    }
+  },
+  "name": "Weber",
+  "id": "weber"
+}

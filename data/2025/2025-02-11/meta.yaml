@@ -1,0 +1,18 @@
+title: "CDC Datasets"
+article:
+  title: "Trump administration purges websites across federal health agencies"
+  url: "https://www.npr.org/sections/shots-health-news/2025/01/31/nx-s1-5282274/trump-administration-purges-health-websites"
+data_source:
+  title: "CDC datasets uploaded before January 28th, 2025"
+  url: "https://archive.org/details/20250128-cdc-datasets"
+images:
+# Please include at least one image, and up to three images
+- file: "cdc-not-found.png"
+  alt: >
+    A page at the Centers for Disease Control website showing the text The page you're looking for was not found. Many US government websites that hosted public data were deleted by the Trump administration in 2025.
+credit:
+  post: "Jon Harmon"
+  github: "@jonthegeek"
+  bluesky: "jonthegeek.com"
+  linkedin: "jonthegeek"
+  mastodon: "fosstodon.org/@jonthegeek"

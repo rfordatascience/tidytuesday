@@ -1,0 +1,20 @@
+{
+  "id": "antique-table",
+  "name": "Antique Table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 25000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

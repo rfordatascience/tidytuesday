@@ -1,0 +1,18 @@
+{
+  "id": "nooks-homes-model",
+  "name": "Nook's Homes Model",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "sources": [
+        "Happy Home Designer save data"
+      ]
+    }
+  }
+}

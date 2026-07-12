@@ -1,0 +1,19 @@
+{
+  "id": "welcome-horizons",
+  "name": "Welcome Horizons",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3200
+        }
+      ]
+    }
+  },
+  "category": "Music"
+}

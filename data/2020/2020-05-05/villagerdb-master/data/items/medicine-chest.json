@@ -1,0 +1,28 @@
+{
+  "id": "medicine-chest",
+  "name": "Medicine Chest",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky",
+        "Sci-Fi"
+      ],
+      "set": "Mad Scientist",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 570
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2280
+        }
+      ]
+    }
+  }
+}

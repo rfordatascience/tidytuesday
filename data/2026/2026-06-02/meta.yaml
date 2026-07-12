@@ -1,0 +1,18 @@
+title: "European Parenting Leave Policies"
+article:
+  title: "Tracking parenting leave policies in Europe over five decades"
+  url: "https://eplp-dataset.org/"
+data_source:
+  title: "The European Parenting Leave Policies (EPLP) Dataset"
+  url: "https://zenodo.org/records/17648712"
+images:
+# Please include at least one image, and up to three images
+- file: "chart.png"
+  alt: >
+    An area chart with lines showing changes in average parenting leave regulations across 21 European countries between 1970 and 2024. A general increase in total paid leave is seen until around 1990 where it then flattens out. However, after 1990 an increasing proportion of the leave is protected leave for co-parents. Total protected leave increased until around 2000 before flattening off.
+credit:
+  post: "Nicola Rennie"
+  github: "@nrennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@fosstodon.org/@nrennie"

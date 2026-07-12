@@ -1,0 +1,20 @@
+{
+  "id": "gingham-picnic-shirt",
+  "name": "Gingham Picnic Shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

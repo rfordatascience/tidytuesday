@@ -1,0 +1,19 @@
+{
+  "id": "toy-centipede",
+  "name": "Toy Centipede",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

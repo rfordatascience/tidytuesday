@@ -1,0 +1,28 @@
+{
+  "id": "princess-lamp",
+  "name": "Princess Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Fairy Tale"
+      ],
+      "set": "Princess",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 17000
+      },
+      "sources": [
+        "GracieGrace (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 68000
+        }
+      ]
+    }
+  }
+}

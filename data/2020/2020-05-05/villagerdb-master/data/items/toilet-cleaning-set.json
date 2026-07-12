@@ -1,0 +1,23 @@
+{
+  "id": "toilet-cleaning-set",
+  "name": "Toilet-cleaning Set",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 167
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 670
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

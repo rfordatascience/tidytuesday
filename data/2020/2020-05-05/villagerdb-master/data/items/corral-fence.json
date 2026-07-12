@@ -1,0 +1,18 @@
+{
+  "id": "corral-fence",
+  "name": "Corral Fence",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 72
+      },
+      "recipe": {
+        "wood": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

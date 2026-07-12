@@ -1,0 +1,19 @@
+{
+  "id": "sheep-costume",
+  "name": "Sheep Costume",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 425
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1700
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

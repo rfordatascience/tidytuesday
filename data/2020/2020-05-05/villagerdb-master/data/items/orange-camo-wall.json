@@ -1,0 +1,19 @@
+{
+  "id": "orange-camo-wall",
+  "name": "Orange Camo Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 287
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1150
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

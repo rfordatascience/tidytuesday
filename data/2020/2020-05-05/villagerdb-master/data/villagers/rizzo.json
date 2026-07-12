@@ -1,0 +1,49 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "1-17",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "lavender-robe",
+      "song": "K.K. Lament",
+      "phrase": "squee"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "lavender-robe",
+      "song": "K.K. Lament"
+    },
+    "cf": {
+      "personality": "cranky",
+      "song": "K.K. Lament",
+      "phrase": "squee"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "ninja-shirt",
+      "song": "K.K. Lament",
+      "phrase": "squee",
+      "skill": "Subsistence living",
+      "goal": "Police officer",
+      "fear": "Mummy Mask",
+      "quote": "Evil lurks everywhere.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "squee",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Rizzo",
+  "id": "rizzo"
+}

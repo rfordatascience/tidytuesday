@@ -1,0 +1,18 @@
+title: "Science Foundation Ireland Grants Commitments"
+article:
+  title: "Science Foundation Ireland Historical Grants Commitments"
+  url: "https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments"
+data_source:
+  title: "Science Foundation Ireland Historical Grants Commitments"
+  url: "https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments"
+images:
+# Please include at least one image, and up to three images
+- file: "sfi_funding.png"
+  alt: >
+    A line plot showing the amount of funding (in € millions) Science Foundation Ireland contributed to Higher Education Authorities in Ireland from 2000 to 2025. A map of Ireland is overlayed on the plot as the background. Funding starts a little below €100m in 2000, peaks above €400m in 2020, and drops to €0 in 2025 after Science Foundation Ireland was dissolved and merged with the Irish Research Council to form Taighde Éireann - Research Ireland.
+credit:
+  post: "Cormac Monaghan"
+  github: "@C-Monaghan"
+  bluesky: "c-monaghan.bsky.social"
+  linkedin: "@cormac-monaghan"
+

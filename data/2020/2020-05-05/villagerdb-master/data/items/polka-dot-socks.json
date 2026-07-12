@@ -1,0 +1,29 @@
+{
+  "id": "polka-dot-socks",
+  "name": "Polka-dot Socks",
+  "category": "Socks",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200
+        }
+      ]
+    }
+  }
+}

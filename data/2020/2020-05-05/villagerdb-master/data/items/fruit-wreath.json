@@ -1,0 +1,22 @@
+{
+  "id": "fruit-wreath",
+  "name": "Fruit Wreath",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2000
+      },
+      "recipe": {
+        "apple": 2,
+        "pear": 1,
+        "cherry": 3,
+        "orange": 3,
+        "peach": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

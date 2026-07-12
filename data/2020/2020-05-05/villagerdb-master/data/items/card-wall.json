@@ -1,0 +1,22 @@
+{
+  "id": "card-wall",
+  "name": "Card Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Card",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 49000
+      },
+      "sources": [
+        "GracieGrace (summer",
+        "during sales)"
+      ]
+    }
+  }
+}

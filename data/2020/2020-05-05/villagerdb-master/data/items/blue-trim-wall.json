@@ -1,0 +1,23 @@
+{
+  "id": "blue-trim-wall",
+  "name": "Blue-trim Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 355
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1420
+        }
+      ]
+    }
+  }
+}

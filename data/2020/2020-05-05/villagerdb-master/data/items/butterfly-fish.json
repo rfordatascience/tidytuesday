@@ -1,0 +1,18 @@
+{
+  "id": "butterfly-fish",
+  "name": "Butterfly Fish",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Small Shadows at Sea, Apr-Sep (All day)",
+        "South: Small Shadows at Sea, Oct-Mar (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      }
+    }
+  },
+  "category": "Fish"
+}

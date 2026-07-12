@@ -1,0 +1,23 @@
+{
+  "id": "cowboy-shirt",
+  "name": "Cowboy Shirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

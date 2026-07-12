@@ -1,0 +1,19 @@
+{
+  "id": "red-dot-flooring",
+  "name": "Red Dot Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

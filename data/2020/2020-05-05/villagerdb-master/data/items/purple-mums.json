@@ -1,0 +1,18 @@
+{
+  "id": "purple-mums",
+  "name": "Purple Mums",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Find on ground at mystery island",
+        "crossbreeding flowers"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      }
+    }
+  },
+  "category": "Flowers"
+}

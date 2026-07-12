@@ -1,0 +1,23 @@
+{
+  "id": "archelon-model",
+  "name": "Archelon Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7500
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gold-helmet",
+  "name": "Gold Helmet",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 50000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 200000
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

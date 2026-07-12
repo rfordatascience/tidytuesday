@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "5-13",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "mod-top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "mod-top",
+      "song": "K.K. Mambo"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "mod-top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg",
+      "quote": "Let sleeping dogs lie."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "mod-top",
+      "song": "K.K. Mambo",
+      "phrase": "dawg"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "deep-blue-tank",
+      "song": "K.K. Mambo",
+      "phrase": "dawg",
+      "skill": "Hitting snooze",
+      "goal": "Architect",
+      "fear": "Mummy Mask",
+      "quote": "Let sleeping dogs lie.",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "dawg",
+      "song": "K.K. Mambo"
+    }
+  },
+  "name": "Biskit",
+  "id": "biskit"
+}

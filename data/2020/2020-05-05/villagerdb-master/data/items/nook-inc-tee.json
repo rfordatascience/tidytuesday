@@ -1,0 +1,23 @@
+{
+  "id": "nook-inc-tee",
+  "name": "Nook Inc. Tee",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 600
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

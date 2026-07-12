@@ -1,0 +1,19 @@
+{
+  "id": "blue-rose-wall",
+  "name": "Blue-rose Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 430
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1720
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

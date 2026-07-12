@@ -1,0 +1,19 @@
+{
+  "id": "dal-mug",
+  "name": "Dal Mug",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1010
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4040
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

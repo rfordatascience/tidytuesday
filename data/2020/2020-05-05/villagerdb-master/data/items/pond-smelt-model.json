@@ -1,0 +1,17 @@
+{
+  "id": "pond-smelt-model",
+  "name": "Pond Smelt Model",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "recipe": {
+        "stone": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

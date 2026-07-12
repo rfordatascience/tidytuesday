@@ -1,0 +1,19 @@
+{
+  "id": "argyle-crew-socks",
+  "name": "Argyle Crew Socks",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 180
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 720
+        }
+      ]
+    }
+  },
+  "category": "Socks"
+}

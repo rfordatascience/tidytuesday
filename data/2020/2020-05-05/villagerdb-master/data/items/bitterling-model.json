@@ -1,0 +1,13 @@
+{
+  "id": "bitterling-model",
+  "name": "Bitterling Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2700
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,18 @@
+title: "Sustainable Energy for All"
+article:
+  title: "SE4ALL Database"
+  url: "https://energydata.info/dataset/dashboard/se4all-database"
+data_source:
+  title: "SE4ALL Database"
+  url: "https://energydata.info/dataset/se4all-database/resource/f779714e-d97f-4f57-a61f-057f5496d06f"
+images:
+# Please include at least one image, and up to three images
+- file: "sample_plot.png"
+  alt: >
+    A shaded area chart titled 'Wind Power Consumed by Population and Industry (%)' comparing wind energy consumption in Denmark, Ireland, and Norway from 1990 to 2010. The visualization uses an overlapping 'identity' position to show each country’s individual trajectory. Denmark (teal) shows an early and aggressive lead, peaking near 4% by 2010, while Ireland (light blue) demonstrates a significant surge starting around 2003. Norway (burnt orange) shows a more modest, steady climb that begins to level out after 2007. The plot illustrates the 'momentum' of the energy transition, inviting participants to explore similar shifts in renewables, energy access, and efficiency metrics across the full global dataset.
+credit:
+  post: "Ntobeko Sosibo, Data Analyst and CG Hobbyist"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"

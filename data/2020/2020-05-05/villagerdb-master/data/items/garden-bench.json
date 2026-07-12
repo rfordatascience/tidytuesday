@@ -1,0 +1,19 @@
+{
+  "id": "garden-bench",
+  "name": "Garden Bench",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4440
+      },
+      "recipe": {
+        "wood": 12,
+        "iron-nugget": 4
+      }
+    }
+  },
+  "category": "Furniture"
+}

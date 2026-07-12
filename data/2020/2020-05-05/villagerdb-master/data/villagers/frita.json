@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "7-16",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "reggae-tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "oh ewe",
+      "skill": "Chopping vegetables",
+      "goal": "Chef",
+      "fear": "Werewolf Hood",
+      "quote": "Don't sweat the small potatoes.",
+      "siblings": "Eldest of 8 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Official",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "oh ewe",
+      "song": "K.K. Rockabilly"
+    }
+  },
+  "name": "Frita",
+  "id": "frita"
+}

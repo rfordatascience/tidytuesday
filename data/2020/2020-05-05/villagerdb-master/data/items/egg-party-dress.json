@@ -1,0 +1,23 @@
+{
+  "id": "egg-party-dress",
+  "name": "Egg Party Dress",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7200
+      },
+      "recipe": {
+        "earth-egg": 3,
+        "stone-egg": 3,
+        "leaf-egg": 3,
+        "wood-egg": 3,
+        "sky-egg": 3,
+        "water-egg": 3
+      }
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "wood-plank-table",
+  "name": "Wood-plank Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "kappn",
+        "snooty",
+        "ursala"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hero-of-time-scroll",
+  "name": "Hero Of Time Scroll",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "rvs": [
+        "medli"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

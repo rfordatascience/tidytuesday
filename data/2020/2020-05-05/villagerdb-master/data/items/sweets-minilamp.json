@@ -1,0 +1,21 @@
+{
+  "id": "sweets-minilamp",
+  "name": "Sweets Minilamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 27500
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

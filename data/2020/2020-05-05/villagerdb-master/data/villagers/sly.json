@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "11-15",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "jungle-camo-tee",
+      "song": "K.K. Safari",
+      "phrase": "hoo-rah",
+      "skill": "Pretending to sleep",
+      "goal": "Explorer",
+      "fear": "Monster Mask",
+      "quote": "Don't bite off more than you can chew.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "hoo-rah",
+      "song": "K.K. Safari"
+    }
+  },
+  "name": "Sly",
+  "id": "sly"
+}

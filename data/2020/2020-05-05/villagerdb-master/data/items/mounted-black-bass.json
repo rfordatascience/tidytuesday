@@ -1,0 +1,20 @@
+{
+  "id": "mounted-black-bass",
+  "name": "Mounted Black Bass",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "round-carpet",
+  "name": "Round Carpet",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 270
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1080
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "rhino",
+  "birthday": "3-20",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "chevron-shirt",
+      "song": "Aloha K.K.",
+      "phrase": "schnozzle"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "chevron-shirt",
+      "song": "Aloha K.K"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "chevron-shirt",
+      "song": "K.K. Lament",
+      "phrase": "schnozzle",
+      "skill": "Bunting",
+      "goal": "An artist",
+      "fear": "Monster Mask",
+      "quote": "You can't hit a mosquito with a horseshoe.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "schnozzle",
+      "song": "K.K. Lament"
+    }
+  },
+  "name": "Hornsby",
+  "id": "hornsby"
+}

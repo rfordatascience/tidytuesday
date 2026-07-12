@@ -1,0 +1,21 @@
+{
+  "id": "hibiscus-clock",
+  "name": "Hibiscus Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 550
+      },
+      "sources": [
+        "Leif (Weeding Day -- Happy Generosity Award)"
+      ]
+    }
+  }
+}

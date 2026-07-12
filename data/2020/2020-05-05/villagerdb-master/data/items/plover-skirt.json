@@ -1,0 +1,19 @@
+{
+  "id": "plover-skirt",
+  "name": "Plover Skirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

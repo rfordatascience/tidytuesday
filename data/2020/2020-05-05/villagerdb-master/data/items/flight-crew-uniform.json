@@ -1,0 +1,19 @@
+{
+  "id": "flight-crew-uniform",
+  "name": "Flight-crew Uniform",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 700
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2800
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

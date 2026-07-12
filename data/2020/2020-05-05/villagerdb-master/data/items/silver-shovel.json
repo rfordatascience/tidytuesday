@@ -1,0 +1,17 @@
+{
+  "id": "silver-shovel",
+  "name": "Silver Shovel",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Museum Shop (after donating 15 or more fossils)"
+      ]
+    }
+  }
+}

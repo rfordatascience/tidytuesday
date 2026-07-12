@@ -1,0 +1,20 @@
+{
+  "id": "plain-sink",
+  "name": "Plain Sink",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2270
+      },
+      "recipe": {
+        "wood": 6,
+        "clay": 4,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

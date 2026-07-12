@@ -1,0 +1,27 @@
+{
+  "id": "blue-bureau",
+  "name": "Blue Bureau",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Blue",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 540
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2160
+        }
+      ]
+    }
+  }
+}

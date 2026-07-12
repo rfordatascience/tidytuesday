@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "12-5",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "blue-argyle-tee",
+      "song": "K.K. D & B",
+      "phrase": "groovy",
+      "skill": "Spoon bending",
+      "goal": "Painter",
+      "fear": "Ghost Mask",
+      "quote": "One good turn deserves another.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "groovy",
+      "song": "K.K. D & B"
+    }
+  },
+  "name": "Hans",
+  "id": "hans"
+}

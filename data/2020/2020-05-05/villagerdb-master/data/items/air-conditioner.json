@@ -1,0 +1,38 @@
+{
+  "id": "air-conditioner",
+  "name": "Air Conditioner",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "sources": [
+        "Nookling stores (wall)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 63000
+        }
+      ]
+    }
+  }
+}

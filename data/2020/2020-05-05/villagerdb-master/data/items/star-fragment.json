@@ -1,0 +1,16 @@
+{
+  "id": "star-fragment",
+  "name": "Star Fragment",
+  "games": {
+    "nh": {
+      "sources": [
+        "May be found on the beach the day after wishing on a star"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 250
+      }
+    }
+  },
+  "category": "Usables"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "wendells-painting",
+  "name": "Wendell's Painting",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "rvs": [
+        "wendell"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

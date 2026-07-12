@@ -1,0 +1,17 @@
+{
+  "id": "famous-mushroom",
+  "name": "Famous Mushroom",
+  "category": "Mushrooms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 16000
+      },
+      "sources": [
+        "Near tree stumps (rare)"
+      ]
+    }
+  }
+}

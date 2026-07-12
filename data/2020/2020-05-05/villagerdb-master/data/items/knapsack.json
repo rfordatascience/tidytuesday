@@ -1,0 +1,19 @@
+{
+  "id": "knapsack",
+  "name": "Knapsack",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 157
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 630
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

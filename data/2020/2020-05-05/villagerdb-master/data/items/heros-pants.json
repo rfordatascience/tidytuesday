@@ -1,0 +1,25 @@
+{
+  "id": "heros-pants",
+  "name": "Hero's Pants",
+  "category": "Bottoms",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "set": "Hero Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #5"
+      ]
+    }
+  }
+}

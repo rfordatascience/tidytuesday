@@ -1,0 +1,14 @@
+{
+  "id": "sapling-clock",
+  "name": "Sapling Clock",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Town anniversary gift"
+      ]
+    }
+  }
+}

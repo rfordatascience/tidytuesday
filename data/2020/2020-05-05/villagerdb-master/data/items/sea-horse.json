@@ -1,0 +1,24 @@
+{
+  "id": "sea-horse",
+  "name": "Sea Horse",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1100
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1100
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "executive-toy",
+  "name": "Executive Toy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Toy Shop",
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  }
+}

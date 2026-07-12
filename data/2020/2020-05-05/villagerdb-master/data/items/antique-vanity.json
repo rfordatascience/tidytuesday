@@ -1,0 +1,20 @@
+{
+  "id": "antique-vanity",
+  "name": "Antique Vanity",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 31000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

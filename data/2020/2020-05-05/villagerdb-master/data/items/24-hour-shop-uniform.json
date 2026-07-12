@@ -1,0 +1,29 @@
+{
+  "id": "24-hour-shop-uniform",
+  "name": "24-hour-shop Uniform",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Official"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 711
+      },
+      "sources": [
+        "DLC (JP)"
+      ],
+      "rvs": [
+        "filly"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

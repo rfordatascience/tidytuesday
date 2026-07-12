@@ -1,0 +1,21 @@
+{
+  "id": "triple-bananas",
+  "name": "Triple Bananas",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Nintendo",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #48"
+      ]
+    }
+  }
+}

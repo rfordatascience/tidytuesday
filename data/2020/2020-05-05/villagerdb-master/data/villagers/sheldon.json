@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "2-26",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "tiger-jacket",
+      "song": "K.K. Folk",
+      "phrase": "cardio",
+      "skill": "Making puns",
+      "goal": "Mayor",
+      "fear": "Mummy Mask",
+      "quote": "Winners don't quit, and quitters never win.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "a little bit of milk",
+        "sugar": "one spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "cardio",
+      "song": "K.K. Folk"
+    }
+  },
+  "name": "Sheldon",
+  "id": "sheldon"
+}

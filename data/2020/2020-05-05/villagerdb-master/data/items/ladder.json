@@ -1,0 +1,20 @@
+{
+  "id": "ladder",
+  "name": "Ladder",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1440
+      },
+      "recipe": {
+        "wood": 4,
+        "hardwood": 4,
+        "softwood": 4
+      }
+    }
+  },
+  "category": "Tools"
+}

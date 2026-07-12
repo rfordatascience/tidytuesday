@@ -1,0 +1,19 @@
+{
+  "id": "iron-wall-lamp",
+  "name": "Iron Wall Lamp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3400
+      },
+      "recipe": {
+        "iron-nugget": 4,
+        "clay": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

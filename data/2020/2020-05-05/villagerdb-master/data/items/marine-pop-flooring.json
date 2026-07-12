@@ -1,0 +1,23 @@
+{
+  "id": "marine-pop-flooring",
+  "name": "Marine Pop Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 505
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2020
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "barred-knifejaw",
+  "name": "Barred Knifejaw",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Medium Shadows at Sea, Mar-Nov (All day)",
+        "South: Medium Shadows at Sea, Sep-May (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  }
+}

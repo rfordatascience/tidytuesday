@@ -1,0 +1,17 @@
+{
+  "id": "sea-snail-shell",
+  "name": "Sea-snail Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

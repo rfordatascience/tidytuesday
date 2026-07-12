@@ -1,0 +1,21 @@
+{
+  "id": "fire-bar",
+  "name": "Fire Bar",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Mario",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #27"
+      ]
+    }
+  }
+}

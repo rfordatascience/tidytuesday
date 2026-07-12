@@ -1,0 +1,27 @@
+{
+  "id": "yellow-butterfly",
+  "name": "Yellow Butterfly",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "sources": [
+        "Around flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Around flowers (Mar-Jun, Sept-Oct)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 160
+      }
+    }
+  }
+}

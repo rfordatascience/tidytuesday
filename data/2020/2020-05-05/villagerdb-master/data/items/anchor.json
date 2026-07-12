@@ -1,0 +1,21 @@
+{
+  "id": "anchor",
+  "name": "Anchor",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 475
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

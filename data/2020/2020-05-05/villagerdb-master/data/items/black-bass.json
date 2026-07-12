@@ -1,0 +1,28 @@
+{
+  "id": "black-bass",
+  "name": "Black Bass",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Large Shadows on River, All Year (All day)",
+        "South: Large Shadows on River, All Year (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      }
+    }
+  }
+}

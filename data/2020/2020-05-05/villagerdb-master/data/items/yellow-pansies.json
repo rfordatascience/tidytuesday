@@ -1,0 +1,24 @@
+{
+  "id": "yellow-pansies",
+  "name": "Yellow Pansies",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Find on ground",
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 160
+        }
+      ]
+    }
+  },
+  "category": "Flowers"
+}

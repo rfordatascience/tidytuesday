@@ -1,0 +1,17 @@
+{
+  "id": "sky-egg-shoes",
+  "name": "Sky-egg Shoes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "sky-egg": 2
+      }
+    }
+  },
+  "category": "Shoes"
+}

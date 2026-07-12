@@ -1,0 +1,20 @@
+{
+  "id": "pet-bed",
+  "name": "Pet Bed",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

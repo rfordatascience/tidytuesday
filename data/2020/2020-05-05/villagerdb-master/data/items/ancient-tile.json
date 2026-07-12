@@ -1,0 +1,21 @@
+{
+  "id": "ancient-tile",
+  "name": "Ancient Tile",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

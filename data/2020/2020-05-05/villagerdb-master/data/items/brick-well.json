@@ -1,0 +1,20 @@
+{
+  "id": "brick-well",
+  "name": "Brick Well",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2800
+      },
+      "recipe": {
+        "clay": 8,
+        "wood": 5,
+        "flimsy-shovel": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

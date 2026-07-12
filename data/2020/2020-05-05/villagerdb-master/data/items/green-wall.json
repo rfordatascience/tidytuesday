@@ -1,0 +1,35 @@
+{
+  "id": "green-wall",
+  "name": "Green Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Green",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 263
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "bea",
+        "isabelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1052
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

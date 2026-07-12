@@ -1,0 +1,51 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "1-28",
+  "games": {
+    "afe+": {
+      "personality": "normal",
+      "clothes": "hot-spring-shirt",
+      "song": "K.K. Bossa"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "hot-spring-tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie",
+      "quote": "Keep your feet on the ground."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "hot-spring-tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "hot-spring-tee",
+      "song": "K.K. Bossa",
+      "phrase": "tootie",
+      "fear": "Skeleton Hood",
+      "quote": "Keep your feet on the ground.",
+      "skill": "Playing Old Maid",
+      "goal": "Pastry chef",
+      "siblings": "Third of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "tootie",
+      "song": "K.K. Bossa"
+    }
+  },
+  "name": "Margie",
+  "id": "margie"
+}

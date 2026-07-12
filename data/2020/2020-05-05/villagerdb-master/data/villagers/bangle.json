@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "tiger",
+  "birthday": "8-27",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "pop-bloom-shirt",
+      "song": "K.K. Soul",
+      "phrase": "growf"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "pop-bloom-shirt",
+      "song": "K.K. Soul"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "pop-bloom-tee",
+      "song": "K.K. Soul",
+      "phrase": "growf",
+      "skill": "Tongue twisters",
+      "goal": "President",
+      "fear": "Ghost Mask",
+      "quote": "Don't blink or you'll miss it.",
+      "siblings": "Second of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "growf",
+      "song": "K.K. Soul"
+    }
+  },
+  "name": "Bangle",
+  "id": "bangle"
+}

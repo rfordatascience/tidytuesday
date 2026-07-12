@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "3-7",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "canary-shirt",
+      "song": "K.K. Ballad",
+      "phrase": "quackidee",
+      "skill": "Drawing circles",
+      "goal": "Florist",
+      "fear": "Ghost Mask",
+      "quote": "Like water off a duck's back.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "quackidee",
+      "song": "K.K. Ballad"
+    }
+  },
+  "name": "Molly",
+  "id": "molly"
+}

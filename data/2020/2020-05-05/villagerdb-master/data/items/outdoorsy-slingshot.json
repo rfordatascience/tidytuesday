@@ -1,0 +1,14 @@
+{
+  "id": "outdoorsy-slingshot",
+  "name": "Outdoorsy Slingshot",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      }
+    }
+  },
+  "category": "Tools"
+}

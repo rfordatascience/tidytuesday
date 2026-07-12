@@ -1,0 +1,33 @@
+{
+  "id": "pansy-table",
+  "name": "Pansy Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Leif (Weeding Day -- Happy Generosity Award)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 760
+      },
+      "recipe": {
+        "yellow-pansies": 5,
+        "hardwood": 3
+      }
+    }
+  }
+}

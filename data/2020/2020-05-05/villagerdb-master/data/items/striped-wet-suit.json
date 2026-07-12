@@ -1,0 +1,19 @@
+{
+  "id": "striped-wet-suit",
+  "name": "Striped Wet Suit",
+  "category": "Wetsuits",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Island Gift Shop (Club Tortimer)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40
+        }
+      ]
+    }
+  }
+}

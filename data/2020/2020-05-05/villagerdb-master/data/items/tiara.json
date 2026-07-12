@@ -1,0 +1,19 @@
+{
+  "id": "tiara",
+  "name": "Tiara",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1075
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4300
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

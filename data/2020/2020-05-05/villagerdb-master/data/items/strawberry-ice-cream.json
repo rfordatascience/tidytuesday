@@ -1,0 +1,13 @@
+{
+  "id": "strawberry-ice-cream",
+  "name": "Strawberry Ice Cream",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Happy Home Showcase (8 StreetPass)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ramshackle-floor",
+  "name": "Ramshackle Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "jacob"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

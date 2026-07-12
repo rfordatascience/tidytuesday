@@ -1,0 +1,21 @@
+{
+  "id": "right-splatfest-sign",
+  "name": "Right Splatfest Sign",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "cece",
+        "viche"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

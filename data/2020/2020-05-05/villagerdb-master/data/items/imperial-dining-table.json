@@ -1,0 +1,19 @@
+{
+  "id": "imperial-dining-table",
+  "name": "Imperial Dining Table",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 18250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 73000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

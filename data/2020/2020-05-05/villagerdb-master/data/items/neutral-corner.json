@@ -1,0 +1,37 @@
+{
+  "id": "neutral-corner",
+  "name": "Neutral Corner",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "set": "Boxing",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1375
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5500
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1525
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 6100
+        }
+      ]
+    }
+  }
+}

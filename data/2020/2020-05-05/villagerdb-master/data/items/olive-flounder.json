@@ -1,0 +1,27 @@
+{
+  "id": "olive-flounder",
+  "name": "Olive Flounder",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Sea (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      }
+    }
+  }
+}

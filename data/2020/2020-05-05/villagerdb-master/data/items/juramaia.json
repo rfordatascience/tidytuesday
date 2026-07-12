@@ -1,0 +1,17 @@
+{
+  "id": "juramaia",
+  "name": "Juramaia",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      }
+    }
+  },
+  "category": "Fossils"
+}

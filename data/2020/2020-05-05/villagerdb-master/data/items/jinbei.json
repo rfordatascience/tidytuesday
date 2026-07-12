@@ -1,0 +1,19 @@
+{
+  "id": "jinbei",
+  "name": "Jinbei",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 455
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1820
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

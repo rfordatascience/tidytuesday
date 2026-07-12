@@ -1,0 +1,23 @@
+{
+  "id": "random-square-tile-flooring",
+  "name": "Random-square-tile Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

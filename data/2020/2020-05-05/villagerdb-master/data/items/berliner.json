@@ -1,0 +1,29 @@
+{
+  "id": "berliner",
+  "name": "Berliner",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Countdown (Isabelle -- German only)"
+      ],
+      "rvs": [
+        "pave"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

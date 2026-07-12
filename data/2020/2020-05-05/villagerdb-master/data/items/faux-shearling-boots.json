@@ -1,0 +1,19 @@
+{
+  "id": "faux-shearling-boots",
+  "name": "Faux-shearling Boots",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

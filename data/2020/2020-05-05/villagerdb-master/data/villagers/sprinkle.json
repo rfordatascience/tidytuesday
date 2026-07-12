@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "2-20",
+  "games": {
+    "nl": {
+      "personality": "peppy",
+      "clothes": "icy-shirt",
+      "song": "Cafe K.K.",
+      "phrase": "frappe",
+      "skill": "Jumping rope",
+      "goal": "Figure skater",
+      "fear": "Skeleton Hood",
+      "quote": "Frosting is just the icing on the cake.",
+      "siblings": "Fourth of 5 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "frappe",
+      "song": "Cafe K.K."
+    }
+  },
+  "name": "Sprinkle",
+  "id": "sprinkle"
+}

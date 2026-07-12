@@ -1,0 +1,19 @@
+{
+  "id": "throwback-race-car-bed",
+  "name": "Throwback Race-car Bed",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 950
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

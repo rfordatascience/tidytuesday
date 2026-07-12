@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "chicken",
+  "birthday": "10-24",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "fiendish-shirt",
+      "song": "K.K. Flamenco",
+      "phrase": "cluckadoo",
+      "skill": "Typing",
+      "goal": "Translator",
+      "fear": "Ghost Mask",
+      "quote": "Don't peck the hand that feeds you.",
+      "siblings": "Younger twin",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "black",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "cluckadoo",
+      "song": "K.K. Flamenco"
+    }
+  },
+  "name": "Broffina",
+  "id": "broffina"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "silver-can",
+  "name": "Silver Can",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 125
+      },
+      "sources": [
+        "Gardening Store (buy 50 or more bags of flower seeds)"
+      ]
+    }
+  }
+}

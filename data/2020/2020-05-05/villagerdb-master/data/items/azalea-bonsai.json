@@ -1,0 +1,28 @@
+{
+  "id": "azalea-bonsai",
+  "name": "Azalea Bonsai",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic"
+      ],
+      "set": "Bonsai",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      },
+      "sources": [
+        "Gardening Store (TIY)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1500
+        }
+      ]
+    }
+  }
+}

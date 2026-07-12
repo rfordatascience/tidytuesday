@@ -1,0 +1,19 @@
+{
+  "id": "ornament-mobile",
+  "name": "Ornament Mobile",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 340
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1360
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

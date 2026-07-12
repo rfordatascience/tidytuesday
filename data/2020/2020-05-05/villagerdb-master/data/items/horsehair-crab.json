@@ -1,0 +1,17 @@
+{
+  "id": "horsehair-crab",
+  "name": "Horsehair Crab",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "sources": [
+        "In the deep sea."
+      ]
+    }
+  }
+}

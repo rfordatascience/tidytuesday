@@ -1,0 +1,23 @@
+{
+  "id": "magnetic-knife-rack",
+  "name": "Magnetic Knife Rack",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

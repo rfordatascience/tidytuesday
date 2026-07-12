@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "11-18",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "garden-tank",
+      "song": "K.K. Marathon",
+      "phrase": "teacup",
+      "skill": "Writing letters",
+      "goal": "Dentist",
+      "fear": "Skeleton Hood",
+      "quote": "Tea is a cup of life.",
+      "siblings": "Fourth of 6 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "teacup",
+      "song": "K.K. Marathon"
+    }
+  },
+  "name": "Tia",
+  "id": "tia"
+}

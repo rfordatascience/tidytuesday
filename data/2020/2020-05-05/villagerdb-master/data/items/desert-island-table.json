@@ -1,0 +1,14 @@
+{
+  "id": "desert-island-table",
+  "name": "Desert Island Table",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Obtain high scores in the intermediate levels in Desert Island Escape"
+      ]
+    }
+  }
+}

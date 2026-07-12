@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "alligator",
+  "birthday": "2-12",
+  "games": {
+    "nl": {
+      "personality": "lazy",
+      "clothes": "dragon-suit",
+      "song": "Imperial K.K.",
+      "phrase": "burrrn",
+      "skill": "Blowing bubbles",
+      "goal": "Pilot",
+      "fear": "Bug Mask",
+      "quote": "There's no room for two dragons in one pond.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "burrrn",
+      "song": "Imperial K.K."
+    }
+  },
+  "name": "Drago",
+  "id": "drago"
+}

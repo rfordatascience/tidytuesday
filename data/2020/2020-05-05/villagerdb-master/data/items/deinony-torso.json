@@ -1,0 +1,17 @@
+{
+  "id": "deinony-torso",
+  "name": "Deinony Torso",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      }
+    }
+  },
+  "category": "Fossils"
+}

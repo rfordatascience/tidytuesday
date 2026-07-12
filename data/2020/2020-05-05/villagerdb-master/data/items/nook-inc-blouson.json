@@ -1,0 +1,23 @@
+{
+  "id": "nook-inc-blouson",
+  "name": "Nook Inc. Blouson",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook Miles System"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "buyPrices": [
+        {
+          "currency": "miles",
+          "value": 800
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

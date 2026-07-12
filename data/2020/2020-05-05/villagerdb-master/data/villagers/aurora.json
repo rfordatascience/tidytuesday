@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "penguin",
+  "birthday": "1-27",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "classic-top",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "afe+": {
+      "personality": "normal",
+      "song": "K.K. Gumbo"
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "pink-tartan-tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby",
+      "quote": "Just keep your cool."
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "pink-tartan-tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "pink-tartan-tee",
+      "song": "K.K. Gumbo",
+      "phrase": "b-b-baby",
+      "skill": "Making budgets",
+      "goal": "Doctor",
+      "fear": "Skeleton Hood",
+      "quote": "Just keep your cool.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "b-b-baby",
+      "song": "K.K. Gumbo"
+    }
+  },
+  "name": "Aurora",
+  "id": "aurora"
+}

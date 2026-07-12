@@ -1,0 +1,38 @@
+{
+  "id": "lacy-parasol",
+  "name": "Lacy Parasol",
+  "category": "Umbrellas",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 387
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1550
+        }
+      ]
+    }
+  }
+}

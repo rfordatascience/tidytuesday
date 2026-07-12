@@ -1,0 +1,38 @@
+{
+  "id": "gold-screen-wall",
+  "name": "Gold Screen Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 545
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2180
+        }
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20750
+      },
+      "recipe": {
+        "gold-nugget": 2,
+        "screen-wall": 1
+      }
+    }
+  }
+}

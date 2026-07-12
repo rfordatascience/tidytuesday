@@ -1,0 +1,19 @@
+{
+  "id": "plushie-muffler-coat",
+  "name": "Plushie-muffler Coat",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 490
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1960
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

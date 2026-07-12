@@ -1,0 +1,33 @@
+{
+  "id": "barrel",
+  "name": "Barrel",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Pascal"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2100
+      },
+      "recipe": {
+        "wood": 5,
+        "iron-nugget": 2
+      }
+    }
+  }
+}

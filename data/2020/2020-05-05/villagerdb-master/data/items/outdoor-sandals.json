@@ -1,0 +1,19 @@
+{
+  "id": "outdoor-sandals",
+  "name": "Outdoor Sandals",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 157
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 630
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

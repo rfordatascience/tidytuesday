@@ -1,0 +1,19 @@
+{
+  "id": "wooden-full-length-mirror",
+  "name": "Wooden Full-length Mirror",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1350
+      },
+      "recipe": {
+        "wood": 5,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

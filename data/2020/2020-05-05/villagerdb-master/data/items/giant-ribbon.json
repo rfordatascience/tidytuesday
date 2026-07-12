@@ -1,0 +1,19 @@
+{
+  "id": "giant-ribbon",
+  "name": "Giant Ribbon",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 367
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1470
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

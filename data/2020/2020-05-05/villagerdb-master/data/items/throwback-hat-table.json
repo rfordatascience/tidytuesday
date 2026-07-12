@@ -1,0 +1,23 @@
+{
+  "id": "throwback-hat-table",
+  "name": "Throwback Hat Table",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 950
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

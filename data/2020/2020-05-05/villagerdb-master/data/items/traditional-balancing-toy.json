@@ -1,0 +1,19 @@
+{
+  "id": "traditional-balancing-toy",
+  "name": "Traditional Balancing Toy",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1840
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 7360
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

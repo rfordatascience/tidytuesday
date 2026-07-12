@@ -1,0 +1,26 @@
+title: "Text Data From Amazon's Annual Reports"
+article:
+  title: "Exploring The Use of TidyText and LLMs to Understand Amazon’s Annual Reports"
+  url: "https://gregoryvdvinne.github.io/Text-Mining-Amazon-Budgets.html"
+data_source:
+  title: "Amazon's Annual Reports"
+  url: "https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx"
+images:
+# Please include at least one image, and up to three images
+- file: "Word_Frequency_Scatter.png"
+  alt: >
+    A scatter plot comparing word frequencies in annual reports from 2005–2013
+    and 2014–2023. Each orange dot represents a word, with its position indicating
+    how often it appeared in the two time periods. A dashed diagonal line
+    represents equal frequency across both periods. Some words, such as
+    'cash,' 'tax,' and 'billion,' appear more frequently in the later period.
+    Others, such as 'stock' and 'million,' appear less often in the later
+    period. A note explains that 2014–2023 word counts are adjusted to account
+    for the extra year in that period.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Gregory Vander Vinne"
+  linkedin: "https://www.linkedin.com/in/gregory-vander-vinne"
+  github: "https://github.com/GregoryVdvinne"
+  bluesky: "https://bsky.app/profile/GregoryVdvinne"

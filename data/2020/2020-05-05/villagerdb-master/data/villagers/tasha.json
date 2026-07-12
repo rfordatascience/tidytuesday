@@ -1,0 +1,35 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "11-30",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "leather-jerkin",
+      "song": "K.K. Disco"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "shearling-coat",
+      "song": "K.K. Disco",
+      "phrase": "yaruwane",
+      "skill": "Photography",
+      "goal": "Hairstylist",
+      "fear": "Werewolf Hood",
+      "quote": "There's no such thing as a safe secret.",
+      "siblings": "Third of 4 kids",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "2 spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "yaruwane",
+      "song": "K.K. Disco"
+    }
+  },
+  "name": "Tasha",
+  "id": "tasha"
+}

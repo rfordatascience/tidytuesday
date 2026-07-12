@@ -1,0 +1,20 @@
+{
+  "id": "good-luck-roll",
+  "name": "Good-luck Roll",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Bean Day (JP",
+        "Nookling stores)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  }
+}

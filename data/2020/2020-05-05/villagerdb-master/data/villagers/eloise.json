@@ -1,0 +1,55 @@
+{
+  "gender": "female",
+  "species": "elephant",
+  "birthday": "12-8",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "song": "K.K. Jazz"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "yellow-bar-tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot",
+      "quote": "You'll want to display this prominently!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "yellow-bar-tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "yellow-bar-tee",
+      "song": "K.K. Jazz",
+      "phrase": "tooooot",
+      "skill": "Memorizing stuff",
+      "goal": "Painter",
+      "fear": "Ghost Mask",
+      "quote": "An elephant never forgets.",
+      "siblings": "Second of 4 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "tooooot",
+      "song": "K.K. Jazz"
+    }
+  },
+  "name": "Eloise",
+  "id": "eloise"
+}

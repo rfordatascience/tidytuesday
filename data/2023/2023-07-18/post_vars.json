@@ -1,0 +1,5 @@
+{
+  "article_link": "https://arxiv.org/abs/2304.02819",
+  "pic1_alt": "Chart of Predicted probability that sample was written by AI for each GPT detector tool for native English speakers and non-native speakers. Detectors are Originality.ai, Quill.org, Sapling, OpenAI, Crossplag, GPTZero, ZeroGPT. For all detectors there is a much higher probability that the detectors classify non-native English writers as written by an AI.",
+  "pic2_alt": "Bar chart of percent of human-written misclassified as AI generated for different GPT detectors for real TOEFL essays and real US 8th-grade essays. Detectors are Originality.ai, Quill.org, Sapling, OpenAI, Crossplag, GPTZero, ZeroGPT. For all detectors, real TOEFL essays were misclassified between 40% and 75% more often than real 8th-grade essays. Originality.ai misclassifies the most at 76% and ZeroGPT the least at 48%."
+}

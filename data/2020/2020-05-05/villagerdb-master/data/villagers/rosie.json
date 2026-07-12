@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "2-27",
+  "games": {
+    "ac": {
+      "personality": "peppy",
+      "clothes": "shortcake-shirt",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "afe+": {
+      "personality": "peppy",
+      "song": "Bubblegum K.K."
+    },
+    "ww": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly",
+      "quote": "To the president of the Rosie Fan Club!"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "dazed-tee",
+      "song": "Bubblegum K.K.",
+      "phrase": "silly",
+      "skill": "Karaoke",
+      "goal": "Movie star",
+      "fear": "Werewolf Hood",
+      "quote": "One good purr deserves another.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "silly",
+      "song": "Bubblegum K.K."
+    }
+  },
+  "name": "Rosie",
+  "id": "rosie"
+}

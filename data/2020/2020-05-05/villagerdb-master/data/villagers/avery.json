@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "eagle",
+  "birthday": "2-22",
+  "games": {
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "uncommon-shirt",
+      "song": "K.K. Condor"
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "uncommon-shirt",
+      "song": "K.K. Condor",
+      "phrase": "skree-haw"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "uncommon-shirt",
+      "song": "K.K. Condor",
+      "phrase": "skree-haw",
+      "skill": "Skimming books",
+      "goal": "Professor",
+      "fear": "Ghost Mask",
+      "quote": "What goes around comes around.",
+      "siblings": "Older twin",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "brown",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "skree-haw",
+      "song": "K.K. Condor"
+    }
+  },
+  "name": "Avery",
+  "id": "avery"
+}

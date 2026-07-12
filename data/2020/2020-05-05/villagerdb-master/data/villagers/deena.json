@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "duck",
+  "birthday": "6-27",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "rainbow-shirt",
+      "song": "Mr. K.K.",
+      "phrase": "sugarbill"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "rainbow-shirt",
+      "song": "Mr. K.K."
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "Mr. K.K.",
+      "phrase": "sugarbill",
+      "quote": "I'm not a lame duck!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "Mr. K.K.",
+      "phrase": "sugarbill"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "kiddie-tee",
+      "song": "Mr. K.K.",
+      "phrase": "sugarbill",
+      "skill": "Blowing bubbles",
+      "goal": "Illustrator",
+      "fear": "Ghost Mask",
+      "quote": "Duck...duck...GOOSE!",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "sugarbill",
+      "song": "Mr. K.K."
+    }
+  },
+  "name": "Deena",
+  "id": "deena"
+}

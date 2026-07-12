@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "pig",
+  "birthday": "6-2",
+  "games": {
+    "ac": {
+      "personality": "normal",
+      "clothes": "natty-shirt",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "afe+": {
+      "personality": "normal",
+      "clothes": "natty-shirt",
+      "song": "Comrade K.K."
+    },
+    "ww": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink",
+      "quote": "This picture entitles you to one free smile!"
+    },
+    "cf": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink"
+    },
+    "nl": {
+      "personality": "normal",
+      "clothes": "natty-tee",
+      "song": "Comrade K.K.",
+      "phrase": "snoooink",
+      "skill": "Baton twirling",
+      "goal": "Tour guide",
+      "fear": "Monster Mask",
+      "quote": "The best is yet to come.",
+      "siblings": "Youngest triplet",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "snoooink",
+      "song": "Comrade K.K."
+    }
+  },
+  "name": "Lucy",
+  "id": "lucy"
+}

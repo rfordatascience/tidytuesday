@@ -1,0 +1,27 @@
+{
+  "id": "honeybee",
+  "name": "Honeybee",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "sources": [
+        "Around flowers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Around flowers (Mar-Jul)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  }
+}

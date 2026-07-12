@@ -1,0 +1,20 @@
+{
+  "id": "moms-tea-cozy",
+  "name": "Mom's Tea Cozy",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

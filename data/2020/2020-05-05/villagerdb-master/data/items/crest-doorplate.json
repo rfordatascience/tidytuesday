@@ -1,0 +1,24 @@
+{
+  "id": "crest-doorplate",
+  "name": "Crest Doorplate",
+  "games": {
+    "nh": {
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 12000
+        }
+      ],
+      "recipe": {
+        "wood": 3,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

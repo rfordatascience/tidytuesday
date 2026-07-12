@@ -1,0 +1,13 @@
+{
+  "id": "butter",
+  "name": "Butter",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Harvest Festival (villagers)"
+      ]
+    }
+  }
+}

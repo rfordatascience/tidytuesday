@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "9-30",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "grape-shirt",
+      "song": "K.K. Swing",
+      "phrase": "pffffft"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "grape-shirt",
+      "song": "K.K. Swing"
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "grape-tee",
+      "song": "K.K. Swing",
+      "phrase": "pffffft",
+      "quote": "No airbrushing necessary!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "grape-tee",
+      "song": "K.K. Swing",
+      "phrase": "pffffft"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "grape-tee",
+      "song": "K.K. Swing",
+      "phrase": "pffffft",
+      "skill": "Juggling",
+      "goal": "Drummer",
+      "fear": "Monster Mask",
+      "quote": "All publicity is good publicity!",
+      "siblings": "Eldest of 4 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "pffffft",
+      "song": "K.K. Swing"
+    }
+  },
+  "name": "Monique",
+  "id": "monique"
+}

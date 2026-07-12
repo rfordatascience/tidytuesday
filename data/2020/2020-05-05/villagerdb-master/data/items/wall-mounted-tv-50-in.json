@@ -1,0 +1,20 @@
+{
+  "id": "wall-mounted-tv-50-in",
+  "name": "Wall-mounted Tv (50 In.)",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 22000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

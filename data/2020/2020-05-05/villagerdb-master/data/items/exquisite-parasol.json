@@ -1,0 +1,19 @@
+{
+  "id": "exquisite-parasol",
+  "name": "Exquisite Parasol",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 417
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1670
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

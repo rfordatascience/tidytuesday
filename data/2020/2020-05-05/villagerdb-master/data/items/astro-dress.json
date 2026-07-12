@@ -1,0 +1,19 @@
+{
+  "id": "astro-dress",
+  "name": "Astro Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 625
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2500
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "raptor-skull",
+  "name": "Raptor Skull",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3000
+      },
+      "sources": [
+        "Underground (dig spot)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "long-polka-skirt",
+  "name": "Long Polka Skirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "homework-set",
+  "name": "Homework Set",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 170
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "blathers"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 680
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 82
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 330
+        }
+      ]
+    }
+  }
+}

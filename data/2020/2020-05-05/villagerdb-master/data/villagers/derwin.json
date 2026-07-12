@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "5-25",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-shirt",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-shirt",
+      "song": "The K. Funk"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr",
+      "quote": "Everything in moderation. Except for snacks."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "yellow-bar-tee",
+      "song": "The K. Funk",
+      "phrase": "derrrrr",
+      "skill": "Brainteasers",
+      "goal": "Doctor",
+      "fear": "Monster Mask",
+      "quote": "Everything in moderation. Except for snacks.",
+      "siblings": "Only child",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "derrrrr",
+      "song": "The K. Funk"
+    }
+  },
+  "name": "Derwin",
+  "id": "derwin"
+}

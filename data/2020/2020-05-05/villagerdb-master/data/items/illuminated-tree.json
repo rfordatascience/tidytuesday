@@ -1,0 +1,19 @@
+{
+  "id": "illuminated-tree",
+  "name": "Illuminated Tree",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 6700
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 26800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

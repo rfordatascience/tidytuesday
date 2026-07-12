@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "goat",
+  "birthday": "6-28",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "blue-aloha-shirt",
+      "song": "Comrade K.K."
+    },
+    "nl": {
+      "personality": "smug",
+      "clothes": "waistcoat",
+      "song": "Comrade K.K.",
+      "phrase": "wut",
+      "skill": "Blowing bubbles",
+      "goal": "Hair stylist",
+      "fear": "Monster Mask",
+      "quote": "Be yourself - everyone else is already taken.",
+      "siblings": "Youngest of 3 kids",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "wut",
+      "song": "Comrade K.K."
+    }
+  },
+  "name": "Kidd",
+  "id": "kidd"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "basement-wall",
+  "name": "Basement Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1875
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

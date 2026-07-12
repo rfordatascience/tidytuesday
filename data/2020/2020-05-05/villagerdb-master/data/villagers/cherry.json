@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "dog",
+  "birthday": "5-11",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "spiderweb-tee",
+      "song": "K.K. Fusion",
+      "phrase": "what what",
+      "skill": "Waking up early",
+      "goal": "Dancer",
+      "fear": "Ghost Mask",
+      "quote": "One dog barks at something; the rest bark at him.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Official",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "what what",
+      "song": "K.K. Fusion"
+    }
+  },
+  "name": "Cherry",
+  "id": "cherry"
+}

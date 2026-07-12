@@ -1,0 +1,19 @@
+{
+  "id": "jungle-flooring",
+  "name": "Jungle Flooring",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2200
+      },
+      "recipe": {
+        "clump-of-weeds": 10,
+        "clay": 10
+      }
+    }
+  },
+  "category": "Flooring"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "frog-umbrella",
+  "name": "Frog Umbrella",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 392
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1570
+        }
+      ]
+    }
+  },
+  "category": "Umbrellas"
+}

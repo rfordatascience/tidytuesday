@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "cat",
+  "birthday": "3-30",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "dapper-shirt",
+      "song": "K.K. Lullaby"
+    },
+    "cf": {
+      "personality": "peppy",
+      "clothes": "dapper-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "mimimi"
+    },
+    "nl": {
+      "personality": "peppy",
+      "clothes": "dapper-tee",
+      "song": "K.K. Lullaby",
+      "phrase": "mimimi",
+      "skill": "Rock-paper-scissors",
+      "goal": "Swimmer",
+      "fear": "Werewolf Hood",
+      "quote": "Love has no bounds.",
+      "siblings": "Second of 3 sisters",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "peppy",
+      "phrase": "mimimi",
+      "song": "K.K. Lullaby"
+    }
+  },
+  "name": "Felicity",
+  "id": "felicity"
+}

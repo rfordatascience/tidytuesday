@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "bird",
+  "birthday": "3-4",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "straw-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "straw-shirt",
+      "song": "K.K. Ragtime"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "earthy-knit-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp",
+      "quote": "I'm hungry."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "earthy-knit-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "earthy-knit-shirt",
+      "song": "K.K. Ragtime",
+      "phrase": "chuurp",
+      "skill": "Remembering stuff",
+      "goal": "Explorer",
+      "fear": "Mummy Mask",
+      "quote": "Why do today what you can put off until tomorrow.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "chuurp",
+      "song": "K.K. Ragtime"
+    }
+  },
+  "name": "Anchovy",
+  "id": "anchovy"
+}

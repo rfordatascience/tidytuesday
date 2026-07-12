@@ -1,0 +1,28 @@
+{
+  "id": "paulownia-closet",
+  "name": "Paulownia Closet",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Rustic"
+      ],
+      "set": "Zen",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 325
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1300
+        }
+      ]
+    }
+  }
+}

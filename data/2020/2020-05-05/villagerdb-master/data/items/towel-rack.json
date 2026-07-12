@@ -1,0 +1,27 @@
+{
+  "id": "towel-rack",
+  "name": "Towel Rack",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Harvey's shop"
+      ],
+      "rvs": [
+        "leopold"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        },
+        {
+          "currency": "meow",
+          "value": 5
+        }
+      ]
+    }
+  }
+}

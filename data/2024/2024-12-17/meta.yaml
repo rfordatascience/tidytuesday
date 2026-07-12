@@ -1,0 +1,34 @@
+title: "Dungeons and Dragons Spells (2024)"
+article:
+  title: "Start Playing Today with the 2024 D&D Free Rules"
+  url: "https://www.dndbeyond.com/posts/1804-start-playing-today-with-the-2024-d-d-free-rules"
+data_source:
+  title: "D&D Free Rules (2024), Spell Descriptions"
+  url: "https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions"
+images:
+# Please include at least one image, and up to three images
+- file: "dndfree2024.png"
+  alt: >
+    The cover of the Dungeons and Dragons Free Rules from the website
+    dndbeyond.com. The tagline at the top calls D&D the World's greatest
+    roleplaying game. The image shows a wizard with white hair and a red robe
+    casting a spell, with a pair of sword-wielding allies nearby. They're
+    battling a wyvern, a dragon-like creature with a scorpion's tail.
+- file: "spell_power.png"
+  alt: >
+    A bar plot of D&D Spell Power. Number of spells available at each level for
+    each class. Spells are counted by level, from cantrip, which is level 0, and
+    then 1 through 9. Columns are grouped by class, with paladin having the
+    fewest total spells available, and wizards having the most. Wizards have the
+    most spells available at every level except for cantrips, where they're
+    barely edged out by sorcerers. Only warlocks, clerics, druics, bard,
+    sorcerors, and wizards have spells above level 5. Paladins and Rangers only
+    have spells at levels 1 through 5.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Jon Harmon"
+  bluesky: "https://bsky.app/profile/jonthegeek.com"
+  linkedin: "https://www.linkedin.com/in/jonthegeek"
+  mastodon: "@jonthegeek@fosstodon.org"
+  github: "https://github.com/jonthegeek"

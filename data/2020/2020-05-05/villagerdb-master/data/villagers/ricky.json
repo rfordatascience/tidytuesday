@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "squirrel",
+  "birthday": "9-14",
+  "games": {
+    "ac": {
+      "personality": "cranky",
+      "clothes": "three-ball-shirt",
+      "song": "K.K. Western",
+      "phrase": "nutcase"
+    },
+    "afe+": {
+      "personality": "cranky",
+      "clothes": "three-ball-shirt",
+      "song": "K.K. Western"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "three-ball-tee",
+      "song": "K.K. Western",
+      "phrase": "nutcase",
+      "skill": "Making faces",
+      "goal": "Detective",
+      "fear": "Skeleton Hood",
+      "quote": "You gotta break a few shells to get to the nut.",
+      "siblings": "Eldest of 10 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "aqua",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "nutcase",
+      "song": "K.K. Western"
+    }
+  },
+  "name": "Ricky",
+  "id": "ricky"
+}

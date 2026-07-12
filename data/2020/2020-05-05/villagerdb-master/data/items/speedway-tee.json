@@ -1,0 +1,26 @@
+{
+  "id": "speedway-tee",
+  "name": "Speedway Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Basic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 73
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 292
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "log-wall-mounted-clock",
+  "name": "Log Wall-mounted Clock",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 990
+      },
+      "recipe": {
+        "hardwood": 2,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

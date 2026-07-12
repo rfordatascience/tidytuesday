@@ -1,0 +1,18 @@
+{
+  "id": "log-stakes",
+  "name": "Log Stakes",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 360
+      },
+      "recipe": {
+        "wood": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

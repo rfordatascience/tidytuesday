@@ -1,0 +1,18 @@
+{
+  "id": "raja-brooke",
+  "name": "Raja Brooke",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "In the air above freshwater (rivers",
+        "etc.)."
+      ]
+    }
+  }
+}

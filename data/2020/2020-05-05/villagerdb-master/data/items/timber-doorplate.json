@@ -1,0 +1,23 @@
+{
+  "id": "timber-doorplate",
+  "name": "Timber Doorplate",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ],
+      "recipe": {
+        "wood": 2,
+        "pink-roses": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

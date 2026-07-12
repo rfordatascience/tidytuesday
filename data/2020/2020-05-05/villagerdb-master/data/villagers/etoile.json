@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "sheep",
+  "birthday": "12-25",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "phrase": "fuzzy",
+      "clothes": "kiki-and-lala-outfit",
+      "skill": "Handiwork",
+      "goal": "Interior designer",
+      "song": "K.K. Lullaby",
+      "fear": "Werewolf Hood",
+      "quote": "Who knows what the stars have in store for us?",
+      "siblings": "Older twin sister",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfulls of sugar"
+      }
+    }
+  },
+  "name": "Étoile",
+  "id": "etoile"
+}

@@ -1,0 +1,16 @@
+title: "Roundabouts across the world"
+article:
+  title: "How Many Roundabouts Are in the United States?"
+  url: "https://www.kittelson.com/ideas/how-many-roundabouts-are-in-the-united-states/"
+data_source:
+  title: "roundabouts R package"
+  url: "https://github.com/EmilHvitfeldt/roundabouts"
+images:
+# Please include at least one image, and up to three images
+- file: "roundabouts_hex.png"
+  alt: >
+    Hexagonal illustration of a roundabout with three cars circling around a central island. The circular island features four green trees or bushes arranged in a clover-like pattern. The cars include an orange car, a red car, and a yellow car. Gray roads with white dashed lane markings connect to the roundabout from multiple directions, surrounded by green grass areas. The word 'roundabouts' appears in yellow text on the road.
+credit:
+  post: "Jen Richmond"
+  github: "@jenrichmond"
+  bluesky: "@jenrichmondPhD"

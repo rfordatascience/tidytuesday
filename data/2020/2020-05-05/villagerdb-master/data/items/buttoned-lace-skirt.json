@@ -1,0 +1,19 @@
+{
+  "id": "buttoned-lace-skirt",
+  "name": "Buttoned Lace Skirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

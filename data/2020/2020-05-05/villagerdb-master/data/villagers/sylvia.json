@@ -1,0 +1,38 @@
+{
+  "gender": "female",
+  "species": "kangaroo",
+  "birthday": "5-3",
+  "games": {
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "flowery-shirt",
+      "song": "Rockin' K.K."
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "yellow-aloha-tee",
+      "song": "Rockin' K.K.",
+      "phrase": "ne",
+      "skill": "Playing jacks",
+      "goal": "Tour guide",
+      "fear": "Mummy Mask",
+      "quote": "Hop first; ask questions later.",
+      "siblings": "Youngest of 5 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Historical",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "ne",
+      "song": "Rockin' K.K."
+    }
+  },
+  "name": "Sylvia",
+  "id": "sylvia"
+}

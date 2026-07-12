@@ -1,0 +1,23 @@
+{
+  "id": "kiki-and-lala-wand",
+  "name": "Kiki And Lala Wand",
+  "category": "Tools",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "etoile"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

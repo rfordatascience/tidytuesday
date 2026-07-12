@@ -1,0 +1,43 @@
+{
+  "id": "eye-patch",
+  "name": "Eye Patch",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Quirky",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "set": "Pirate Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      },
+      "sources": [
+        "Labelle"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 240
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 35
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 140
+        }
+      ]
+    }
+  }
+}

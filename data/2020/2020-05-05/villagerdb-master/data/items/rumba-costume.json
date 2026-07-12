@@ -1,0 +1,19 @@
+{
+  "id": "rumba-costume",
+  "name": "Rumba Costume",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 650
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2600
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

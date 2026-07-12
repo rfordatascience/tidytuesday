@@ -1,0 +1,18 @@
+{
+  "id": "gold-rose",
+  "name": "Gold Rose",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "Hybrid - Have a black Rose wilt",
+        "and water with a Golden watering can."
+      ]
+    }
+  }
+}

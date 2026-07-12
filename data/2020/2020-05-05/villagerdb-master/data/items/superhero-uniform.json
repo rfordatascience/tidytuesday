@@ -1,0 +1,23 @@
+{
+  "id": "superhero-uniform",
+  "name": "Superhero Uniform",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 910
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3640
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

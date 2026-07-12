@@ -1,0 +1,24 @@
+{
+  "id": "shamrock-hat",
+  "name": "Shamrock Hat",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "sources": [
+        "Shamrock Day (NA/EU",
+        "Isabelle)"
+      ]
+    }
+  }
+}

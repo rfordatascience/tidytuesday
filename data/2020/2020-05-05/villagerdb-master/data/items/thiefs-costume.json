@@ -1,0 +1,23 @@
+{
+  "id": "thiefs-costume",
+  "name": "Thief's Costume",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 650
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2600
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

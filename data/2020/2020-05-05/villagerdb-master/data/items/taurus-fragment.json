@@ -1,0 +1,13 @@
+{
+  "id": "taurus-fragment",
+  "name": "Taurus Fragment",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 500
+      }
+    }
+  },
+  "category": "Usables"
+}

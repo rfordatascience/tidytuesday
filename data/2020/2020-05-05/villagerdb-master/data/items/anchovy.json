@@ -1,0 +1,18 @@
+{
+  "id": "anchovy",
+  "name": "Anchovy",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Small Shadows at Sea, All Year (4am-9pm)",
+        "South: Small Shadows at Sea, All Year (4am-9pm)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      }
+    }
+  },
+  "category": "Fish"
+}

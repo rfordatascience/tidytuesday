@@ -1,0 +1,19 @@
+{
+  "id": "baseball-uniform",
+  "name": "Baseball Uniform",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 440
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1760
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

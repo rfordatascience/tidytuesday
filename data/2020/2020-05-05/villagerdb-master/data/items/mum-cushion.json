@@ -1,0 +1,19 @@
+{
+  "id": "mum-cushion",
+  "name": "Mum Cushion",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 440
+      },
+      "recipe": {
+        "yellow-mums": 3,
+        "clump-of-weeds": 10
+      }
+    }
+  },
+  "category": "Furniture"
+}

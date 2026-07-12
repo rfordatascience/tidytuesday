@@ -1,0 +1,24 @@
+{
+  "id": "newsprint-helmet",
+  "name": "Newsprint Helmet",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 20
+      },
+      "sources": [
+        "Boy's Day (JP",
+        "Isabelle)"
+      ]
+    }
+  }
+}

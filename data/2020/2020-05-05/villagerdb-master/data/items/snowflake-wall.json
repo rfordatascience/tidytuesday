@@ -1,0 +1,19 @@
+{
+  "id": "snowflake-wall",
+  "name": "Snowflake Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4800
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 19200
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

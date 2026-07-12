@@ -1,0 +1,17 @@
+{
+  "id": "walkingstick",
+  "name": "Walkingstick",
+  "category": "Bugs",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "On trees."
+      ]
+    }
+  }
+}

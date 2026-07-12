@@ -1,0 +1,39 @@
+{
+  "id": "wavy-tan-shirt",
+  "name": "Wavy Tan Shirt",
+  "category": "Tops",
+  "games": {
+    "ac": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Fall)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    },
+    "afe+": {
+      "orderable": true,
+      "sources": [
+        "Tom Nook (Fall)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 90
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 360
+        }
+      ]
+    }
+  }
+}

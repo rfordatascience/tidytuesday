@@ -1,0 +1,28 @@
+{
+  "gender": "male",
+  "species": "octopus",
+  "birthday": "6-2",
+  "collab": "Splatoon",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "phrase": "Splat!",
+      "clothes": "black-anchor-tee",
+      "song": "K.K. Adventure",
+      "fear": "Mummy Mask",
+      "quote": "A sucker is born every minute.",
+      "skill": "Defending territory",
+      "goal": "Squid",
+      "siblings": "Only child",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Cute/Fancy",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    }
+  },
+  "name": "Inkwell",
+  "id": "inkwell"
+}

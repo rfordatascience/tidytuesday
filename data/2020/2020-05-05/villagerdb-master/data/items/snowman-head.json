@@ -1,0 +1,24 @@
+{
+  "id": "snowman-head",
+  "name": "Snowman Head",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 666
+      },
+      "sources": [
+        "Snowboy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pool",
+  "name": "Pool",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 25000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 100000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

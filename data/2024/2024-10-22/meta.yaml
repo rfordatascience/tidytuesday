@@ -1,0 +1,16 @@
+title: "The CIA World Factbook"
+article:
+  title: "The World Factbook"
+  url: "https://www.cia.gov/the-world-factbook/"
+data_source:
+  title: "usdatasets R package"
+  url: "https://cran.r-project.org/package=usdatasets"
+images:
+# Please include at least one image, and up to three images
+- file: "world_factbook.png"
+  alt: >
+    The logo of the World Factbook, a blue globe with an eagle's head in white. 
+    The eagle is wearing a monocle.
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.

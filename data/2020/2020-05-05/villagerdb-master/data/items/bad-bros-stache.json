@@ -1,0 +1,23 @@
+{
+  "id": "bad-bros-stache",
+  "name": "Bad Bro's Stache",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Flashy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #44"
+      ]
+    }
+  }
+}

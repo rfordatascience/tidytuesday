@@ -1,0 +1,19 @@
+{
+  "id": "public-bench",
+  "name": "Public Bench",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 40000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "bear",
+  "birthday": "1-16",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "diner-uniform",
+      "song": "K.K. Country",
+      "phrase": "grooomph"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "diner-uniform",
+      "song": "K.K. Country"
+    },
+    "nl": {
+      "personality": "uchi",
+      "clothes": "pastel-stripe-tee",
+      "song": "K.K. Country",
+      "phrase": "grooomph",
+      "skill": "Staying positive",
+      "goal": "Florist",
+      "fear": "Monster Mask",
+      "quote": "Surround yourself with things you love.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "Red",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "grooomph",
+      "song": "K.K. Country"
+    }
+  },
+  "name": "Ursala",
+  "id": "ursala"
+}

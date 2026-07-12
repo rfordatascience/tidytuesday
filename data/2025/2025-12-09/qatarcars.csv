@@ -1,0 +1,106 @@
+origin,make,model,length,width,height,seating,trunk,economy,horsepower,price,mass,performance,type,enginetype
+Germany,BMW,3 Series Sedan,4.713,1.827,1.44,5,59,7.6,386,164257,1653,4.3,Sedan,Petrol
+Germany,BMW,X1,4.505,1.845,1.642,5,505,6.6,313,264000,1701,5.4,SUV,Petrol
+Germany,Audi,RS Q8,5.012,1.694,1.998,5,605,12.1,600,630000,2490,3.6,SUV,Petrol
+Germany,Audi,RS3,4.542,1.851,1.412,5,321,8.7,400,310000,1565,3.8,Sedan,Petrol
+Germany,Audi,A3,4.456,1.96,1.416,5,425,6.5,180,165000,1325,6.7,Sedan,Petrol
+Germany,Mercedes,Maybach,5.469,1.921,1.51,4,500,13.3,612,1281000,2376,4.1,Sedan,Petrol
+Germany,Mercedes,G-Wagon,4.613,1.984,1.969,5,480,13.1,585,1011500,2588,4.3,SUV,Petrol
+Germany,Mercedes,EQS,5.216,1.926,1.512,5,610,NA,333,564500,2495,5.6,SUV,Electric
+Germany,Mercedes,GLA,4.41,1.834,1.611,5,435,5.6,163,209500,1565,6.8,SUV,Petrol
+Germany,Mercedes,GLB 200,4.633,4.633,1.659,5,565,7.5,221,168997,1656,9,SUV,Hybrid
+Germany,Porsche,991 Carrera S,4.51,1.852,1.3,4,132,11.2,473,530000,1495,3.3,Coupe,Petrol
+Germany,Porsche,Cayenne,4.92,1.98,1.7,5,627,11,453,371500,2160,4.4,SUV,Petrol
+Germany,Porsche,Macan Standard,4.681,1.92,1.62,5,488,19,252,137000,2580,4.5,SUV,Petrol
+Germany,Volkswagen,Touareg,4.8,1.9,1.7,5,300,9.5,250,199000,2164,8,SUV,Petrol
+Germany,Volkswagen,Golf,4.287,1.789,1.478,5,245,6.5,245,139000,1446,4.8,Hatchback,Petrol
+Germany,Volkswagen,Tiguan,4.486,1.839,1.632,5,810,6.7,150,99900,1703,7.5,SUV,Petrol
+Germany,Volkswagen,T-Roc,4.24,1.819,1.573,5,445,7.3,150,88900,1516,8,SUV,Petrol
+Italy,Bugatti,Chiron,4.544,2.037,1.212,2,45,22.3,1578,13103960,1996,2.4,Coupe,Petrol
+Italy,Bugatti,Centodieci,4.544,2.047,1.2,2,0,22.5,1600,33000000,1976,2.4,Coupe,Petrol
+Italy,Maserati,Quattroporte,5.262,1.948,1.481,5,530,9.1,350,458000,1920,5.5,Sedan,Petrol
+Italy,Maserati,Ghibli,4.971,1.945,1.461,5,500,8.9,330,362500,1940,5.7,Sedan,Petrol
+Italy,Maserati,Grecale,4.846,1.948,1.67,5,535,8.7,300,289000,1895,5.6,SUV,Petrol
+Japan,Toyota,Yaris,4.425,1.74,1.48,5,286,5.1,97,57300,1135,11,Sedan,Petrol
+Japan,Toyota,Raize,4.03,1.71,1.635,5,369,5,87,57700,1680,12,SUV,Petrol
+Japan,Toyota,RAV4 Adventure,4.61,1.865,1.69,5,1085,7.3,203,130900,1583,8.2,SUV,Petrol
+Japan,Toyota,Rav4 Hybrid,4.6,1.855,1.685,5,1085,4.1,219,117700,1674,7.5,SUV,Hybrid
+Japan,Toyota,Fortuner,4.795,1.855,1.835,7,348,12.4,164,124000,2620,12,SUV,Petrol
+Japan,Toyota,Supra,4.379,1.854,1.292,2,290,7.2,382,220000,1410,4.1,Coupe,Petrol
+Japan,Honda,Civic Type R,4.594,1.89,1.407,5,609,9.8,315,189999,1446,5.4,Hatchback,Petrol
+Japan,Honda,CR-V,4.586,1.855,1.678,5,587,6.4,184,119999,1575,7.5,SUV,Petrol
+Japan,Honda,City,4.553,1.748,1.467,5,506,7.5,118,61999,1178,10.9,Sedan,Petrol
+Japan,Lexus,RC F,4.695,2.069,1.395,4,66,11.5,471,320000,1770,4.5,Coupe,Petrol
+Japan,Lexus,LC 500,4.759,1.92,1.346,4,197,12.3,471,395000,1970,4.4,Coupe,Petrol
+Japan,Lexus,UX 200,4.495,1.84,1.52,7,371,5.8,169,137000,1622,4.4,SUV,Petrol
+Japan,Lexus,LX,5.1,1.9,1.895,7,174,14.2,509,475000,2660,5.8,SUV,Petrol
+Japan,Mazda,MX-5,3.914,1.735,1.235,2,127,8.1,181,140000,1099,6.5,Sedan,Petrol
+Japan,Mazda,CX-5,4.55,1.84,1.675,5,824,6.8,152,105000,1492,9.4,SUV,Petrol
+Japan,Mazda,3,4.66,1.795,1.44,5,450,5.5,153,81500,1427,8.5,Sedan,Petrol
+Japan,Mazda,CX-3,4.275,1.765,1.535,5,264,6.3,148,72500,1294,9,SUV,Petrol
+Japan,Mitsubishi,Montero,4.785,1.815,1.8,7,131,7.7,181,117000,2045,9.7,SUV,Petrol
+Japan,Mitsubishi,Xpander,4.475,1.75,1.695,7,781,6.7,105,65000,1255,12.5,SUV,Petrol
+Japan,Mitsubishi,Attrage,4.245,1.67,1.515,5,450,4.8,76,45000,945,14,Sedan,Petrol
+Japan,Nissan,Nissan Patrol,5.35,2.03,1.955,7,550,11.8,316,222500,2746,6.5,SUV,Petrol
+Japan,Nissan,Nissan Patrol Safari,5.08,1.94,1.855,7,135,16.7,280,164500,2610,9.9,SUV,Petrol
+Japan,Nissan,Sunny,4.496,1.74,1.455,5,482,5.1,118,58500,1029,10.5,Sedan,Petrol
+Japan,Toyota,Land Cruiser,4.99,1.98,1.92,5,1150,10.7,326,228700,2438,6.7,SUV,Hybrid
+Japan,Toyota,Camry,4.91,1.84,1.45,5,428,5,181,103300,1565,7.2,Sedan,Hybrid
+Japan,Toyota,Corolla,4.63,1.78,1.435,5,368,6.9,121,73700,1388,8.2,Sedan,Hybrid
+PR China,Chery,Tiggo 8 Pro Max,4.722,1.86,1.705,7,117,6.7,254,112200,1541,7.3,SUV,Petrol
+PR China,Chery,Arrizo 8,4.78,1.843,1.469,5,455,6.5,250,91000,1428,8.9,Sedan,Petrol
+PR China,Geely,Lynk & Co 08 EM-P,4.82,1.915,1.685,5,1200,1.2,380,165000,2038,4,SUV,Petrol
+PR China,Geely,Monjaro,4.77,1.895,1.689,5,355,8.4,235,118000,1760,8,SUV,Petrol
+PR China,Geely,Emgrand,4.635,1.785,1.46,5,500,6.5,102,49400,1195,6.9,Sedan,Petrol
+PR China,Jetour,X90 Plus,4.858,1.925,1.78,7,510,8.3,197,99000,1653,8.5,SUV,Petrol
+PR China,Jetour,X70 Plus,4.749,1.9,1.72,5,57,7.6,154,76000,1582,8,SUV,Petrol
+PR China,MG,RX8,4.923,1.81,1.93,7,343,9.2,220,103000,1980,9,SUV,Petrol
+PR China,MG,MG One,4.679,1.866,1.617,5,336,10.2,181,73000,1515,8.8,SUV,Petrol
+PR China,MG,MG 5,4.601,1.818,1.489,5,512,8.1,112,46000,1318,7.7,Sedan,Petrol
+South Korea,Hyundai,Ioniq 5,4.635,1.89,1.605,5,527,NA,302,190900,2205,4.5,SUV,Electric
+South Korea,Hyundai,Tuscon,4.63,1.865,1.665,5,539,8.7,156,90900,1555,9.5,SUV,Petrol
+South Korea,Hyundai,Accent,4.44,1.729,1.475,5,387,6.5,130,58900,1215,11.1,Sedan,Petrol
+South Korea,Kia,EV9,5.009,1.979,1.75,7,572,NA,215,345000,2649,8.2,SUV,Electric
+South Korea,Kia,K8,5.015,1.875,1.455,5,510,9.4,300,123000,1640,7,Sedan,Hybrid
+South Korea,Kia,K5,4.905,1.86,1.445,5,510,6.2,150,96000,1465,7.4,Sedan,Petrol
+South Korea,Kia,Pegas,4.3,1.7,1.46,5,475,6.1,95,47000,1060,12,Sedan,Petrol
+Sweden,Volvo,XC90,4.953,2.14,1.776,7,71,7.1,249,245000,2315,5.3,SUV,Hybrid
+Sweden,Volvo,Volvo XC60,4.688,1.902,1.658,5,71,7.1,250,190000,2121,4.8,SUV,Hybrid
+Sweden,Volvo,XC40,4.425,1.91,1.652,5,54,7.7,197,160000,1751,6.4,SUV,Hybrid
+UK,Bentley,Flying Spur,5.316,2.013,1.483,5,351,10.9,521,1300000,2646,3.5,Sedan,Hybrid
+UK,Bentley,Continental GT,4.806,2.227,1.403,5,235,10.9,521,1150000,2459,3.3,Coupe,Hybrid
+UK,Bentley,Bentyaga,5.305,2.01,1.739,7,484,11.4,542,990000,2645,4.5,SUV,Petrol
+UK,Jaguar,I-Pace,4.682,2.011,1.565,5,656,NA,395,355200,2133,4.8,SUV,Electric
+UK,Land Rover,Defender,5.02,2.01,1.97,5,786,12.8,517,232500,2601,7.5,SUV,Hybrid
+UK,Land Rover,Range Rover,4.8,2.03,1.67,5,875,9.4,376,204800,2309,7.5,SUV,Petrol
+UK,Land Rover,Range Rover Evoque,4.371,1.996,1.649,5,472,7.4,200,221800,1785,8.5,SUV,Petrol
+UK,Lotus,Evija,4.459,2,1.122,2,0,NA,1973,8010200,1887,2.9,Coupe,Electric
+UK,McLaren,Senna,4.744,2.153,1.195,2,0,12.4,800,5000000,1198,2.8,Coupe,Petrol
+UK,McLaren,720S,4.543,2.059,1.196,2,0,10.7,710,1120000,1283,2.9,Coupe,Petrol
+UK,McLaren,Artura,4.539,1.976,1.193,2,0,4.6,671,945700,1395,3,Coupe,Hybrid
+USA,Cadillac,XT5,4.813,1.905,1.676,5,849,10,237,174400,1872,8.3,SUV,Petrol
+USA,Cadillac,CT4,4.75,1.814,1.422,5,303,10.6,240,141300,1552,6.4,Sedan,Petrol
+USA,Ford,Bronco Raptor,4.85,2.18,1.98,5,946,15.7,418,359000,2040,5.5,SUV,Petrol
+USA,Cadillac,Escalade,5.382,2.06,1.948,8,722,14,420,341900,2634,7,SUV,Petrol
+USA,Ford,Explorer,5.04,2.1,1.78,7,595,10,290,159000,1952,5.9,SUV,Petrol
+USA,Ford,Figo,3.8,1.68,1.43,5,284,5.5,84,37400,1056,9.5,Hatchback,Petrol
+USA,Tesla,Model X,5.057,2.271,1.684,5,1233,NA,670,318490,2330,6.9,SUV,Electric
+USA,Tesla,Model Y,4.751,1.921,1.624,5,480,NA,342,188490,1909,6.9,SUV,Electric
+USA,Tesla,Model 3,4.72,1.85,1.443,5,542,NA,460,158490,1765,3.1,Sedan,Electric
+PR China,BYD,Seal,4.8,1.875,1.46,5,400,NA,204,164000,2185,3.8,Sedan,Electric
+PR China,BYD,Atto 3,4.455,1.875,1.615,5,440,NA,201,148500,1680,7.3,SUV,Electric
+PR China,Jetour,T2,4.785,2.006,1.88,5,580,11,254,129000,1880,6,SUV,Petrol
+PR China,Chery,Arrizo 5,4.572,1.825,1.482,5,430,7,114,53000,1265,11.5,Sedan,Petrol
+PR China,Bestune,B70,4.8,1.82,1.472,5,522,7.6,145,59000,1440,9,Sedan,Petrol
+PR China,MG,ZS,4.314,1.809,1.624,5,448,5.8,112,59000,1258,10.9,SUV,Petrol
+South Korea,Kia,Telluride,5.001,2.009,1.801,7,601,7.8,291,205000,2033,6.8,SUV,Petrol
+Japan,Toyota,Crown,4.98,1.84,1.54,5,450,5.5,345,173000,1965,5.9,Sedan,Hybrid
+Germany,BMW,X3,4.708,1.891,1.676,5,550,7.3,248,305000,2055,6.3,SUV,Petrol
+Germany,BMW,8 Series Gran Coupe,5.082,1.932,1.407,4,440,7.2,340,435000,2090,5.2,Coupe,Petrol
+Germany,BMW,2 Series Coupe,4.432,1.984,1.418,4,390,5.9,252,224500,1765,5.6,Coupe,Petrol
+Japan,Subaru,BRZ 2025,4.265,1.775,1.31,4,178,9.5,237,125000,1285,6.3,Coupe,Petrol
+South Korea,Kia,Picanto,3.595,1.595,1.495,5,255,6,84,58000,976,13.7,Hatchback,Petrol
+PR China,Bestune,Oley,4.555,1.66,1.465,4,300,6.7,101,35000,1150,12.1,Hatchback,Petrol
+Japan,Mitsubishi,Mirage,3.78,1.665,1.5,5,235,4.8,77,44000,1050,13.9,Hatchback,Petrol
+South Korea,Hyundai,Grand i10,3.665,1.66,1.5,5,252,5.3,86,46900,1840,14.5,Hatchback,Petrol
+PR China,MG,MG3 Luxury,4.055,1.729,1.504,5,293,6.7,109,57000,1308,10.8,Hatchback,Petrol

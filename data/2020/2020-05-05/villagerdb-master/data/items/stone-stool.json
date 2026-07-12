@@ -1,0 +1,18 @@
+{
+  "id": "stone-stool",
+  "name": "Stone Stool",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "recipe": {
+        "stone": 3
+      }
+    }
+  }
+}

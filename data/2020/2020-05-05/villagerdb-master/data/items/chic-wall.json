@@ -1,0 +1,42 @@
+{
+  "id": "chic-wall",
+  "name": "Chic Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 490
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1960
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 490
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1960
+        }
+      ]
+    }
+  }
+}

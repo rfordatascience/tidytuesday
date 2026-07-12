@@ -1,0 +1,19 @@
+{
+  "id": "frozen-table",
+  "name": "Frozen Table",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 32800
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

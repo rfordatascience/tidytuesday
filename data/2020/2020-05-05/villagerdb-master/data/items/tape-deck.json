@@ -1,0 +1,36 @@
+{
+  "id": "tape-deck",
+  "name": "Tape Deck",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 178
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 712
+        }
+      ]
+    },
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 725
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2900
+        }
+      ]
+    }
+  }
+}

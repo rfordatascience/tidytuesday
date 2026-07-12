@@ -1,0 +1,17 @@
+{
+  "id": "museum-paper",
+  "name": "Museum Paper",
+  "category": "Stationery",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40
+      },
+      "sources": [
+        "Villager letters (rare)"
+      ]
+    }
+  }
+}

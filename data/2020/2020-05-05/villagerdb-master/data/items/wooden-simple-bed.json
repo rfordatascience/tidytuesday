@@ -1,0 +1,18 @@
+{
+  "id": "wooden-simple-bed",
+  "name": "Wooden Simple Bed",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2160
+      },
+      "recipe": {
+        "wood": 18
+      }
+    }
+  },
+  "category": "Furniture"
+}

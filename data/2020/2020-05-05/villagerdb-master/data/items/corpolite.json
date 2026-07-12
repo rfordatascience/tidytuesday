@@ -1,0 +1,17 @@
+{
+  "id": "corpolite",
+  "name": "Corpolite",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1100
+      }
+    }
+  },
+  "category": "Fossils"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "crayons",
+  "name": "Crayons",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "rvs": [
+        "blanca",
+        "carrie",
+        "wendell"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bitterling",
+  "name": "Bitterling",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      },
+      "sources": [
+        "In rivers."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "North: Tiny Shadows on River, Nov-Mar (All day)",
+        "South: Tiny Shadows on River, May-Sep (All day)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 900
+      }
+    }
+  }
+}

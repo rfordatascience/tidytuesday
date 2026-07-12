@@ -1,0 +1,19 @@
+{
+  "id": "system-kitchen",
+  "name": "System Kitchen",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 32500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 130000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bug-wand",
+  "name": "Bug Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1500
+      }
+    }
+  },
+  "category": "Tools"
+}

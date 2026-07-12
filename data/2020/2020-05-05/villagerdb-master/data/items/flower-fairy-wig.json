@@ -1,0 +1,22 @@
+{
+  "id": "flower-fairy-wig",
+  "name": "Flower Fairy Wig",
+  "category": "Hats",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Fancy"
+      ],
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "sources": [
+        "Obtain at least 10",
+        "000 points in Garbage Attack on any difficulty in Puzzle League"
+      ]
+    }
+  }
+}

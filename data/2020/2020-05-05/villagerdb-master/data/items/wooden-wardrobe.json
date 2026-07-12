@@ -1,0 +1,18 @@
+{
+  "id": "wooden-wardrobe",
+  "name": "Wooden Wardrobe",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1400
+      },
+      "recipe": {
+        "wood": 12
+      }
+    }
+  },
+  "category": "Furniture"
+}

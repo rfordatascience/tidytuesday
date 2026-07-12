@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "cow",
+  "birthday": "2-28",
+  "games": {
+    "nl": {
+      "personality": "snooty",
+      "clothes": "groovy-tee",
+      "song": "K.K. Milonga",
+      "phrase": "moolah",
+      "skill": "Photography",
+      "goal": "Designer",
+      "fear": "Ghost Mask",
+      "quote": "Moo like there's no tomorrow.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Modern",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "moolah",
+      "song": "K.K. Milonga"
+    }
+  },
+  "name": "Naomi",
+  "id": "naomi"
+}

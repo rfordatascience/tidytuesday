@@ -1,0 +1,19 @@
+{
+  "id": "dress-shirt",
+  "name": "Dress Shirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 560
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "12-31",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "chichi-print-tee",
+      "song": "Comrade K.K.",
+      "phrase": "non"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "chichi-print-tee",
+      "song": "Comrade K.K.",
+      "phrase": "non",
+      "skill": "Eating frequently",
+      "goal": "Artist",
+      "fear": "Mummy Mask",
+      "quote": "There's not a dog so bad that he won't wag his tail.",
+      "siblings": "Eldest of 5 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "non",
+      "song": "Comrade K.K."
+    }
+  },
+  "name": "Marcel",
+  "id": "marcel"
+}

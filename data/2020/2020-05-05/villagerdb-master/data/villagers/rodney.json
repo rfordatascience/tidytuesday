@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "hamster",
+  "birthday": "11-10",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "red-bar-tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "le ham",
+      "skill": "Hitting snooze",
+      "goal": "Chef",
+      "fear": "Werewolf Hood",
+      "quote": "Everything is temporary.",
+      "siblings": "Eldest of 9 kids",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Modern",
+      "favoriteColor": "colorful",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "smug",
+      "phrase": "le ham",
+      "song": "K.K. Rockabilly"
+    }
+  },
+  "name": "Rodney",
+  "id": "rodney"
+}

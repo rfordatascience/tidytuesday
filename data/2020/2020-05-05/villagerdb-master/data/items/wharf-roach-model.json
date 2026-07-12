@@ -1,0 +1,13 @@
+{
+  "id": "wharf-roach-model",
+  "name": "Wharf Roach Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      }
+    }
+  },
+  "category": "Furniture"
+}

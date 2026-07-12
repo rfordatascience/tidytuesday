@@ -1,0 +1,23 @@
+{
+  "id": "big-bros-mustache",
+  "name": "Big Bro's Mustache",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Cute"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 210
+      },
+      "sources": [
+        "Fortune cookie #45"
+      ]
+    }
+  }
+}

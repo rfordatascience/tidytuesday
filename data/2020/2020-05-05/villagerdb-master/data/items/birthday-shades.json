@@ -1,0 +1,32 @@
+{
+  "id": "birthday-shades",
+  "name": "Birthday Shades",
+  "category": "Accessories",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "fashionThemes": [
+        "Rock-n'-roll"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 60
+      },
+      "sources": [
+        "Birthday (if you're good friends with a neighbor)"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 620
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2480
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "alpine-sofa",
+  "name": "Alpine Sofa",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Alpine",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 590
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2360
+        }
+      ]
+    }
+  }
+}

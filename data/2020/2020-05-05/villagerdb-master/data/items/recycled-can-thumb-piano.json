@@ -1,0 +1,20 @@
+{
+  "id": "recycled-can-thumb-piano",
+  "name": "Recycled-can Thumb Piano",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 890
+      },
+      "recipe": {
+        "empty-can": 1,
+        "wood": 1,
+        "iron-nugget": 1
+      }
+    }
+  },
+  "category": "Furniture"
+}

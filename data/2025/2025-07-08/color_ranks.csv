@@ -1,0 +1,950 @@
+color,rank,hex
+purple,1,#7e1e9c
+green,2,#15b01a
+blue,3,#0343df
+pink,4,#ff81c0
+brown,5,#653700
+red,6,#e50000
+light blue,7,#95d0fc
+teal,8,#029386
+orange,9,#f97306
+light green,10,#96f97b
+magenta,11,#c20078
+yellow,12,#ffff14
+sky blue,13,#75bbfd
+grey,14,#929591
+lime green,15,#89fe05
+light purple,16,#bf77f6
+violet,17,#9a0eea
+dark green,18,#033500
+turquoise,19,#06c2ac
+lavender,20,#c79fef
+dark blue,21,#00035b
+tan,22,#d1b26f
+cyan,23,#00ffff
+aqua,24,#13eac9
+forest green,25,#06470c
+mauve,26,#ae7181
+dark purple,27,#35063e
+bright green,28,#01ff07
+maroon,29,#650021
+olive,30,#6e750e
+salmon,31,#ff796c
+beige,32,#e6daa6
+royal blue,33,#0504aa
+navy blue,34,#001146
+lilac,35,#cea2fd
+black,36,#000000
+hot pink,37,#ff028d
+light brown,38,#ad8150
+pale green,39,#c7fdb5
+peach,40,#ffb07c
+olive green,41,#677a04
+dark pink,42,#cb416b
+periwinkle,43,#8e82fe
+sea green,44,#53fca1
+lime,45,#aaff32
+indigo,46,#380282
+mustard,47,#ceb301
+light pink,48,#ffd1df
+rose,49,#cf6275
+bright blue,50,#0165fc
+neon green,51,#0cff0c
+burnt orange,52,#c04e01
+aquamarine,53,#04d8b2
+navy,54,#01153e
+grass green,55,#3f9b0b
+pale blue,56,#d0fefe
+dark red,57,#840000
+bright purple,58,#be03fd
+yellow green,59,#c0fb2d
+baby blue,60,#a2cffe
+gold,61,#dbb40c
+mint green,62,#8fff9f
+plum,63,#580f41
+royal purple,64,#4b006e
+brick red,65,#8f1402
+dark teal,66,#014d4e
+burgundy,67,#610023
+khaki,68,#aaa662
+blue green,69,#137e6d
+seafoam green,70,#7af9ab
+kelly green,71,#02ab2e
+puke green,72,#9aae07
+pea green,73,#8eab12
+taupe,74,#b9a281
+dark brown,75,#341c02
+deep purple,76,#36013f
+chartreuse,77,#c1f80a
+bright pink,78,#fe01b1
+light orange,79,#fdaa48
+mint,80,#9ffeb0
+pastel green,81,#b0ff9d
+sand,82,#e2ca76
+dark orange,83,#c65102
+spring green,84,#a9f971
+puce,85,#a57e52
+seafoam,86,#80f9ad
+grey blue,87,#6b8ba4
+army green,88,#4b5d16
+dark grey,89,#363737
+dark yellow,90,#d5b60a
+goldenrod,91,#fac205
+slate,92,#516572
+light teal,93,#90e4c1
+rust,94,#a83c09
+deep blue,95,#040273
+pale pink,96,#ffcfdc
+cerulean,97,#0485d1
+light red,98,#ff474c
+mustard yellow,99,#d2bd0a
+ochre,100,#bf9005
+pale yellow,101,#ffff84
+crimson,102,#8c000f
+fuchsia,103,#ed0dd9
+hunter green,104,#0b4008
+blue grey,105,#607c8e
+slate blue,106,#5b7c99
+pale purple,107,#b790d4
+sea blue,108,#047495
+pinkish purple,109,#d648d7
+puke,110,#a5a502
+light grey,111,#d8dcd6
+leaf green,112,#5ca904
+light yellow,113,#fffe7a
+eggplant,114,#380835
+steel blue,115,#5a7d9a
+moss green,116,#658b38
+robin's egg blue,117,#98eff9
+white,118,#ffffff
+grey green,119,#789b73
+sage,120,#87ae73
+brick,121,#a03623
+burnt sienna,122,#b04e0f
+reddish brown,123,#7f2b0a
+cream,124,#ffffc2
+coral,125,#fc5a50
+ocean blue,126,#03719c
+greenish,127,#40a368
+dark magenta,128,#960056
+red orange,129,#fd3c06
+bluish purple,130,#703be7
+midnight blue,131,#020035
+light violet,132,#d6b4fc
+dusty rose,133,#c0737a
+medium blue,134,#2c6fbb
+greenish yellow,135,#cdfd02
+yellowish green,136,#b0dd16
+purplish blue,137,#601ef9
+greyish blue,138,#5e819d
+grape,139,#6c3461
+light olive,140,#acbf69
+cornflower blue,141,#5170d7
+pinkish red,142,#f10c45
+bright red,143,#ff000d
+azure,144,#069af3
+blue purple,145,#5729ce
+dark turquoise,146,#045c5a
+electric blue,147,#0652ff
+off white,148,#ffffe4
+powder blue,149,#b1d1fc
+wine,150,#80013f
+dull green,151,#74a662
+apple green,152,#76cd26
+light turquoise,153,#7ef4cc
+neon purple,154,#bc13fe
+cobalt,155,#1e488f
+pinkish,156,#d46a7e
+olive drab,157,#6f7632
+dark cyan,158,#0a888a
+purple blue,159,#632de9
+dark violet,160,#34013f
+dark lavender,161,#856798
+forrest green,162,#154406
+vomit,163,#a2a415
+pale orange,164,#ffa756
+greenish blue,165,#0b8b87
+dark tan,166,#af884a
+green blue,167,#06b48b
+bluish green,168,#10a674
+pastel blue,169,#a2bffe
+moss,170,#769958
+grass,171,#5cac2d
+deep pink,172,#cb0162
+blood red,173,#980002
+sage green,174,#88b378
+aqua blue,175,#02d8e9
+terracotta,176,#ca6641
+pastel purple,177,#caa0ff
+sienna,178,#a9561e
+dark olive,179,#373e02
+green yellow,180,#c9ff27
+scarlet,181,#be0119
+greyish green,182,#82a67d
+chocolate,183,#3d1c02
+blue violet,184,#5d06e9
+cornflower,185,#6a79f7
+baby pink,186,#ffb7ce
+charcoal,187,#343837
+pine green,188,#0a481e
+pumpkin,189,#e17701
+greenish brown,190,#696112
+red brown,191,#8b2e16
+brownish green,192,#6a6e09
+tangerine,193,#ff9408
+salmon pink,194,#fe7b7c
+aqua green,195,#12e193
+raspberry,196,#b00149
+greyish purple,197,#887191
+rose pink,198,#f7879a
+neon pink,199,#fe019a
+cobalt blue,200,#030aa7
+orange brown,201,#be6400
+deep red,202,#9a0200
+orange red,203,#fd411e
+dirty yellow,204,#cdc50a
+orchid,205,#c875c4
+reddish pink,206,#fe2c54
+reddish purple,207,#910951
+yellow orange,208,#fcb001
+light cyan,209,#acfffc
+sky,210,#82cafc
+light magenta,211,#fa5ff7
+pale red,212,#d9544d
+emerald,213,#01a049
+dark beige,214,#ac9362
+ugly green,215,#7a9703
+jade,216,#1fa774
+greenish grey,217,#96ae8d
+dark salmon,218,#c85a53
+purplish pink,219,#ce5dae
+dark aqua,220,#05696b
+brownish orange,221,#cb7723
+light olive green,222,#a4be5c
+light aqua,223,#8cffdb
+clay,224,#b66a50
+medium green,225,#39ad48
+burnt umber,226,#a0450e
+dull blue,227,#49759c
+pale brown,228,#b1916e
+emerald green,229,#028f1e
+brownish,230,#9c6d57
+mud,231,#735c12
+dark rose,232,#b5485d
+brownish red,233,#9e3623
+pink purple,234,#db4bda
+pinky purple,235,#c94cbe
+camo green,236,#526525
+faded green,237,#7bb274
+dusty pink,238,#d58a94
+purple pink,239,#e03fd8
+vomit green,240,#89a203
+deep green,241,#02590f
+reddish orange,242,#f8481c
+mahogany,243,#4a0100
+aubergine,244,#3d0734
+dull pink,245,#d5869d
+evergreen,246,#05472a
+dark sky blue,247,#448ee4
+very light green,248,#d1ffbd
+pastel pink,249,#ffbacd
+grey purple,250,#826d8c
+very light blue,251,#d5ffff
+dark mauve,252,#874c62
+cadet blue,253,#4e7496
+ice blue,254,#d7fffe
+light tan,255,#fbeeac
+dirty green,256,#667e2c
+neon blue,257,#04d9ff
+wine red,258,#7b0323
+chocolate brown,259,#411900
+dull purple,260,#84597e
+yellow brown,261,#b79400
+denim,262,#3b638c
+eggshell,263,#ffffd4
+jungle green,264,#048243
+dark peach,265,#de7e5d
+poop,266,#7f5e00
+umber,267,#b26400
+light lavender,268,#dfc5fe
+bright yellow,269,#fffd01
+golden yellow,270,#fec615
+dusty blue,271,#5a86ad
+electric green,272,#21fc0d
+lighter green,273,#75fd63
+slate grey,274,#59656d
+teal green,275,#25a36f
+marine blue,276,#01386a
+avocado,277,#90b134
+terra cotta,278,#c9643b
+dusty purple,279,#825f87
+light maroon,280,#a24857
+reddish,281,#c44240
+dark lilac,282,#9c6da5
+dark periwinkle,283,#665fd1
+bluish grey,284,#748b97
+puke yellow,285,#c2be0e
+purplish,286,#94568c
+ultramarine,287,#2000b1
+barney purple,288,#a00498
+forest,289,#0b5509
+pea soup,290,#929901
+brownish yellow,291,#c9b003
+bright teal,292,#01f9c6
+bluegreen,293,#017a79
+green brown,294,#544e03
+blurple,295,#5539cc
+light sky blue,296,#c6fcff
+periwinkle blue,297,#8f99fb
+pale violet,298,#ceaefa
+true blue,299,#010fcc
+green grey,300,#77926f
+grey brown,301,#7f7053
+dark olive green,302,#3c4d03
+apricot,303,#ffb16d
+faded purple,304,#916e99
+cerise,305,#de0c62
+khaki green,306,#728639
+burnt red,307,#9f2305
+light forest green,308,#4f9153
+violet blue,309,#510ac9
+pale lavender,310,#eecffe
+acid green,311,#8ffe09
+purple grey,312,#866f85
+lemon,313,#fdff52
+bright orange,314,#ff5b00
+soft green,315,#6fc276
+blush,316,#f29e8e
+yellowish brown,317,#9b7a01
+fluorescent green,318,#08ff08
+electric purple,319,#aa23ff
+steel,320,#738595
+dull orange,321,#d8863b
+muddy green,322,#657432
+marigold,323,#fcc006
+ocean,324,#017b92
+light mauve,325,#c292a1
+bordeaux,326,#7b002c
+light blue green,327,#7efbb3
+yellowish,328,#faee66
+snot green,329,#9dc100
+light lime green,330,#b9ff66
+drab green,331,#749551
+faded blue,332,#658cbb
+dark forest green,333,#002d04
+hot purple,334,#cb00f5
+dark maroon,335,#3c0008
+brown green,336,#706c11
+swamp green,337,#748500
+light indigo,338,#6d5acf
+purpley blue,339,#5f34e7
+lightish blue,340,#3d7afd
+teal blue,341,#01889f
+denim blue,342,#3b5b92
+dark lime green,343,#7ebd01
+dull yellow,344,#eedc5b
+pistachio,345,#c0fa8b
+lemon yellow,346,#fdff38
+red violet,347,#9e0168
+dusky pink,348,#cc7a8b
+dirt,349,#8a6e45
+very dark green,350,#062e03
+medium purple,351,#9e43a2
+shit,352,#7f5f00
+dark mustard,353,#a88905
+pea soup green,354,#94a617
+bubblegum pink,355,#fe83cc
+barbie pink,356,#fe46a5
+military green,357,#667c3e
+pale teal,358,#82cbb2
+bronze,359,#a87900
+pinky red,360,#fc2647
+dull red,361,#bb3f3f
+darkish blue,362,#014182
+bluish,363,#2976bb
+dark gold,364,#b59410
+yellowy green,365,#bff128
+pine,366,#2b5d34
+dark blue green,367,#005249
+dirty pink,368,#ca7b80
+slate green,369,#658d6d
+prussian blue,370,#004577
+bright violet,371,#ad0afd
+lighter purple,372,#a55af4
+steel grey,373,#6f828a
+russet,374,#a13905
+vermillion,375,#f4320c
+greyish brown,376,#7a6a4f
+red purple,377,#820747
+red pink,378,#fa2a55
+bright turquoise,379,#0ffef9
+golden brown,380,#b27a01
+cerulean blue,381,#056eee
+soft blue,382,#6488ea
+easter green,383,#8cfd7e
+amber,384,#feb308
+mid blue,385,#276ab3
+shit brown,386,#7b5804
+hospital green,387,#9be5aa
+purpleish blue,388,#6140ef
+purply blue,389,#661aee
+silver,390,#c5c9c7
+sickly green,391,#94b21c
+melon,392,#ff7855
+dusky rose,393,#ba6873
+brown orange,394,#b96902
+darkish green,395,#287c37
+cranberry,396,#9e003a
+purpleish,397,#98568d
+ecru,398,#feffca
+mocha,399,#9d7651
+bright magenta,400,#ff08e8
+coffee,401,#a6814c
+sepia,402,#985e2b
+faded red,403,#d3494e
+canary yellow,404,#fffe40
+bluey purple,405,#6241c7
+pastel yellow,406,#fffe71
+pale turquoise,407,#a5fbd5
+greyish pink,408,#c88d94
+marine,409,#042e60
+purplish grey,410,#7a687f
+camel,411,#c69f59
+brownish grey,412,#86775f
+burnt yellow,413,#d5ab09
+cherry red,414,#f7022a
+orangey brown,415,#b16002
+soft pink,416,#fdb0c0
+dark sea green,417,#11875d
+aqua marine,418,#2ee8bb
+robin egg blue,419,#8af1fe
+light sea green,420,#98f6b0
+mud brown,421,#60460f
+sandstone,422,#c9ae74
+british racing green,423,#05480d
+faded pink,424,#de9dac
+maize,425,#f4d054
+ocre,426,#c69c04
+orange yellow,427,#ffad01
+dark khaki,428,#9b8f55
+light lime,429,#aefd6c
+bright light blue,430,#26f7fd
+jade green,431,#2baf6a
+barney,432,#ac1db8
+adobe,433,#bd6c48
+minty green,434,#0bf77d
+light navy blue,435,#2e5a88
+dusty green,436,#76a973
+very dark blue,437,#000133
+ocean green,438,#3d9973
+mustard green,439,#a8b504
+poop brown,440,#7a5901
+olive brown,441,#645403
+pink red,442,#f5054f
+light navy,443,#155084
+very light purple,444,#f6cefc
+ivory,445,#ffffcb
+bright lavender,446,#c760ff
+bright aqua,447,#0bf9ea
+robin's egg,448,#6dedfd
+muted green,449,#5fa052
+medium brown,450,#7f5112
+copper,451,#b66325
+dark lime,452,#84b701
+strawberry,453,#fb2943
+dirt brown,454,#836539
+celery,455,#c1fd95
+bright sky blue,456,#02ccfe
+poo brown,457,#885f01
+pinkish brown,458,#b17261
+celadon,459,#befdb7
+bright lime green,460,#65fe08
+auburn,461,#9a3001
+shocking pink,462,#fe02a2
+mulberry,463,#920a4e
+carolina blue,464,#8ab8fe
+lightish green,465,#61e160
+light lilac,466,#edc8ff
+pale olive,467,#b9cc81
+pumpkin orange,468,#fb7d07
+yellow ochre,469,#cb9d06
+fire engine red,470,#fe0002
+deep sky blue,471,#0d75f8
+watermelon,472,#fd4659
+bottle green,473,#044a05
+very dark purple,474,#2a0134
+wheat,475,#fbdd7e
+murky green,476,#6c7a0e
+brownish purple,477,#76424e
+kermit green,478,#5cb200
+primary blue,479,#0804f9
+orangey red,480,#fa4224
+pale lilac,481,#e4cbff
+rust red,482,#aa2704
+dirty orange,483,#c87606
+pinkish grey,484,#c8aca9
+light plum,485,#9d5783
+greeny blue,486,#42b395
+dark navy,487,#000435
+pink/purple,488,#ef1de7
+irish green,489,#019529
+baby poop,490,#937c00
+slime green,491,#99cc04
+purplish red,492,#b0054b
+rouge,493,#ab1239
+light rose,494,#ffc5cb
+drab,495,#828344
+dark navy blue,496,#00022e
+light yellow green,497,#ccfd7f
+easter purple,498,#c071fe
+snot,499,#acbb0d
+light salmon,500,#fea993
+purpley pink,501,#c83cb9
+poo,502,#8f7303
+berry,503,#990f4b
+medium grey,504,#7d7f7c
+brown red,505,#922b05
+blood,506,#770001
+soft purple,507,#a66fb5
+grey pink,508,#c3909b
+bluey green,509,#2bb179
+midnight,510,#03012d
+dark indigo,511,#1f0954
+warm grey,512,#978a84
+sandy brown,513,#c4a661
+cherry,514,#cf0234
+blue/purple,515,#5a06ef
+gunmetal,516,#536267
+deep violet,517,#490648
+tree green,518,#2a7e19
+orangish brown,519,#b25f03
+shamrock green,520,#02c14d
+orangish red,521,#f43605
+greeny yellow,522,#c6f808
+ugly yellow,523,#d0c101
+french blue,524,#436bad
+dusky purple,525,#895b7b
+butter yellow,526,#fffd74
+light beige,527,#fffeb6
+golden,528,#f5bf03
+dusky blue,529,#475f94
+lightblue,530,#7bc8f6
+purply pink,531,#f075e6
+off green,532,#6ba353
+ocher,533,#bf9b0c
+milk chocolate,534,#7f4e1e
+light peach,535,#ffd8b1
+deep magenta,536,#a0025c
+caramel,537,#af6f09
+greenish teal,538,#32bf84
+pale lime,539,#befd73
+purple red,540,#990147
+blueberry,541,#464196
+asparagus,542,#77ab56
+pale grey,543,#fdfdfe
+light grey blue,544,#9dbcd4
+pale lime green,545,#b1ff65
+grassy green,546,#419c03
+mossy green,547,#638b27
+earth,548,#a2653e
+deep orange,549,#dc4d01
+pale aqua,550,#b8ffeb
+rose red,551,#be013c
+stone,552,#ada587
+rusty orange,553,#cd5909
+pea,554,#a4bf20
+sick green,555,#9db92c
+chestnut,556,#742802
+blue/green,557,#0f9b8e
+amethyst,558,#9b5fc0
+dark mint green,559,#20c073
+pale rose,560,#fdc1c5
+muted blue,561,#3b719f
+fawn,562,#cfaf7b
+buff,563,#fef69e
+turquoise green,564,#04f489
+muddy brown,565,#886806
+sea,566,#3c9992
+tomato,567,#ef4026
+carnation pink,568,#ff7fa7
+banana,569,#ffff7e
+neon yellow,570,#cfff04
+greyish,571,#a8a495
+mid green,572,#50a747
+muted purple,573,#805b87
+electric pink,574,#ff0490
+sandy,575,#f1da7a
+ugly pink,576,#cd7584
+turquoise blue,577,#06b1c4
+light burgundy,578,#a8415b
+greenish tan,579,#bccb7a
+dark mint,580,#48c072
+light urple,581,#b36ff6
+midnight purple,582,#280137
+pinkish orange,583,#ff724c
+pear,584,#cbf85f
+dark plum,585,#3f012c
+tealish,586,#24bca8
+perrywinkle,587,#8f8ce7
+yellowish orange,588,#ffab0f
+pastel orange,589,#ff964f
+iris,590,#6258c4
+ultramarine blue,591,#1805db
+navy green,592,#35530a
+seaweed,593,#18d17b
+kiwi,594,#9cef43
+fluro green,595,#0aff02
+bright light green,596,#2dfe54
+vivid green,597,#2fef10
+frog green,598,#58bc08
+dull brown,599,#876e4b
+dusk,600,#4e5481
+mustard brown,601,#ac7e04
+leafy green,602,#51b73b
+cool blue,603,#4984b8
+almost black,604,#070d0d
+yellow/green,605,#c8fd3d
+heliotrope,606,#d94ff5
+green apple,607,#5edc1f
+baby poop green,608,#8f9805
+apple,609,#6ecb3c
+purpleish pink,610,#df4ec8
+night blue,611,#040348
+merlot,612,#730039
+lightgreen,613,#76ff7b
+tomato red,614,#ec2d01
+key lime,615,#aeff6e
+pale cyan,616,#b7fffa
+vomit yellow,617,#c7c10c
+purplish brown,618,#6b4247
+bubblegum,619,#ff6cb5
+shamrock,620,#01b44c
+mango,621,#ffa62b
+lime yellow,622,#d0fe1d
+hot green,623,#25ff29
+grape purple,624,#5d1451
+faded orange,625,#f0944d
+avocado green,626,#87a922
+peacock blue,627,#016795
+weird green,628,#3ae57f
+bright lilac,629,#c95efb
+fern green,630,#548d44
+dirty blue,631,#3f829d
+rust orange,632,#c45508
+heather,633,#a484ac
+deep teal,634,#00555a
+dark seafoam,635,#1fb57a
+baby poo,636,#ab9004
+yellowgreen,637,#bbf90f
+light sage,638,#bcecac
+light aquamarine,639,#7bfdc7
+spearmint,640,#1ef876
+bright lime,641,#87fd05
+vibrant green,642,#0add08
+very pale green,643,#cffdbc
+faded yellow,644,#feff7f
+bile,645,#b5c306
+viridian,646,#1e9167
+very light pink,647,#fff4f2
+puke brown,648,#947706
+medium pink,649,#f36196
+ugly purple,650,#a442a0
+sunshine yellow,651,#fffd37
+seaweed green,652,#35ad6b
+light periwinkle,653,#c1c6fc
+lemon green,654,#adf802
+greeny brown,655,#696006
+dark grey blue,656,#29465b
+bright olive,657,#9cbb04
+turtle green,658,#75b84f
+pale sky blue,659,#bdf6fe
+light mustard,660,#f7d560
+diarrhea,661,#9f8303
+dark aquamarine,662,#017371
+brownish pink,663,#c27e79
+baby shit green,664,#889717
+purpley,665,#8756e4
+greyblue,666,#77a1b5
+hot magenta,667,#f504c9
+blue/grey,668,#758da3
+pale,669,#fff9d0
+cool green,670,#33b864
+sandy yellow,671,#fdee73
+eggshell blue,672,#c4fff7
+barf green,673,#94ac02
+baby green,674,#8cff9e
+vibrant purple,675,#ad03de
+brown grey,676,#8d8468
+water blue,677,#0e87cc
+lipstick red,678,#c0022f
+banana yellow,679,#fafe4b
+wisteria,680,#a87dc2
+purple brown,681,#673a3f
+brown yellow,682,#b29705
+purple/pink,683,#d725de
+lemon lime,684,#bffe28
+grey/blue,685,#647d8e
+dusty red,686,#b9484e
+deep rose,687,#c74767
+dark seafoam green,688,#3eaf76
+muddy yellow,689,#bfac05
+carnation,690,#fd798f
+yellowy brown,691,#ae8b0c
+violet red,692,#a50055
+twilight blue,693,#0a437a
+pure blue,694,#0203e2
+lightish red,695,#fe2f4a
+brick orange,696,#c14a09
+velvet,697,#750851
+sunflower,698,#ffc512
+light mint green,699,#a6fbb2
+light grass green,700,#9af764
+lavender blue,701,#8b88f8
+rusty red,702,#af2f0d
+lightish purple,703,#a552e6
+dried blood,704,#4b0101
+light blue grey,705,#b7c9e2
+leaf,706,#71aa34
+orangish,707,#fc824a
+pale olive green,708,#b1d27b
+off yellow,709,#f1f33f
+dusty orange,710,#f0833a
+butter,711,#ffff81
+royal,712,#0c1793
+petrol,713,#005f6a
+greenish cyan,714,#2afeb7
+duck egg blue,715,#c3fbf4
+bubble gum pink,716,#ff69af
+bluegrey,717,#85a3b2
+warm brown,718,#964e02
+twilight,719,#4e518b
+saffron,720,#feb209
+purple/blue,721,#5d21d0
+dark sand,722,#a88f59
+vibrant blue,723,#0339f8
+putty,724,#beae8a
+lawn green,725,#4da409
+camouflage green,726,#4b6113
+blush pink,727,#fe828c
+reddy brown,728,#6e1005
+darkish red,729,#a90308
+algae green,730,#21c36f
+dark coral,731,#cf524e
+bright cyan,732,#41fdfe
+piss yellow,733,#ddd618
+pastel red,734,#db5856
+greenish turquoise,735,#00fbb0
+dark,736,#1b2431
+ruby,737,#ca0147
+poop green,738,#6f7c00
+orangered,739,#fe420f
+dandelion,740,#fedf08
+claret,741,#680018
+pale mauve,742,#fed0fc
+lipstick,743,#d5174e
+rosa,744,#fe86a4
+darkblue,745,#030764
+tan brown,746,#ab7e4c
+shit green,747,#758000
+red wine,748,#8c0034
+pinky,749,#fc86aa
+mud green,750,#606602
+light greenish blue,751,#63f7b4
+dull teal,752,#5f9e8f
+deep lavender,753,#8d5eb7
+vivid blue,754,#152eff
+raw umber,755,#a75e09
+light mint,756,#b6ffbb
+light light blue,757,#cafffb
+highlighter green,758,#1bfc06
+greeny grey,759,#7ea07a
+bluey grey,760,#89a0b0
+algae,761,#54ac68
+sap green,762,#5c8b15
+pale salmon,763,#ffb19a
+metallic blue,764,#4f738e
+ice,765,#d6fffa
+gross green,766,#a0bf16
+dodger blue,767,#3e82fc
+warm pink,768,#fb5581
+light green blue,769,#56fca2
+flat green,770,#699d4c
+dark blue grey,771,#1f3b4d
+clay brown,772,#b2713d
+sand yellow,773,#fce166
+grapefruit,774,#fd5956
+blood orange,775,#fe4b03
+very pale blue,776,#d6fffe
+old pink,777,#c77986
+neon red,778,#ff073a
+golden rod,779,#f9bc08
+plum purple,780,#4e0550
+pale peach,781,#ffe5ad
+dark yellow green,782,#728f02
+carmine,783,#9d0216
+deep sea blue,784,#015482
+dark hot pink,785,#d90166
+warm blue,786,#4b57db
+light khaki,787,#e6f2a2
+icky green,788,#8fae22
+greenblue,789,#23c48b
+dirty purple,790,#734a65
+rich blue,791,#021bf9
+mushroom,792,#ba9e88
+flat blue,793,#3c73a8
+dark slate blue,794,#214761
+dark sage,795,#598556
+coral pink,796,#ff6163
+true green,797,#089404
+darkish purple,798,#751973
+dark taupe,799,#7f684e
+cool grey,800,#95a3a6
+canary,801,#fdff63
+booger green,802,#96b403
+muted pink,803,#d1768f
+hazel,804,#8e7618
+dark royal blue,805,#02066f
+vivid purple,806,#9900fa
+racing green,807,#014600
+leather,808,#ac7434
+green/blue,809,#01c08d
+sunflower yellow,810,#ffda03
+rich purple,811,#720058
+pale magenta,812,#d767ad
+light yellowish green,813,#c2ff89
+indigo blue,814,#3a18b1
+dark fuchsia,815,#9d0759
+yellow tan,816,#ffe36e
+wintergreen,817,#20f986
+violet pink,818,#fb5ffc
+topaz,819,#13bbaf
+seafoam blue,820,#78d1b6
+light gold,821,#fddc5c
+grey/green,822,#86a17d
+foam green,823,#90fda9
+creme,824,#ffffb6
+clear blue,825,#247afd
+ugly blue,826,#31668a
+terracota,827,#cb6843
+very dark brown,828,#1d0200
+straw,829,#fcf679
+parchment,830,#fefcaf
+orangey yellow,831,#fdb915
+greyish teal,832,#719f91
+sapphire,833,#2138ab
+nice blue,834,#107ab0
+browny orange,835,#ca6b02
+washed out green,836,#bcf5a6
+tiffany blue,837,#7bf2da
+light seafoam,838,#a0febf
+light neon green,839,#4efd54
+light bright green,840,#53fe5c
+light bluish green,841,#76fda8
+rosy pink,842,#f6688e
+peachy pink,843,#ff9a8a
+pale light green,844,#b1fc99
+old rose,845,#c87f89
+fern,846,#63a950
+dusk blue,847,#26538d
+camo,848,#7f8f4e
+burnt siena,849,#b75203
+tealish green,850,#0cdc73
+swamp,851,#698339
+sand brown,852,#cba560
+rust brown,853,#8b3103
+orangeish,854,#fd8d49
+light royal blue,855,#3a2efe
+cocoa,856,#875f42
+baby purple,857,#ca9bf7
+raw sienna,858,#9a6200
+radioactive green,859,#2cfa1f
+light pea green,860,#c4fe82
+cinnamon,861,#ac4f06
+squash,862,#f2ab15
+charcoal grey,863,#3c4142
+bright yellow green,864,#9dff00
+baby puke green,865,#b6c406
+poison green,866,#40fd14
+light lavendar,867,#efc0fe
+indian red,868,#850e04
+dark cream,869,#fff39a
+toupe,870,#c7ac7d
+butterscotch,871,#fdb147
+burple,872,#6832e3
+tan green,873,#a9be70
+sun yellow,874,#ffdf22
+pale gold,875,#fdde6c
+light light green,876,#c8ffb0
+lichen,877,#8fb67b
+green/yellow,878,#b5ce08
+darkgreen,879,#054907
+azul,880,#1d5dec
+sunny yellow,881,#fff917
+sickly yellow,882,#d0e429
+kelley green,883,#009337
+bruise,884,#7e4071
+browny green,885,#6f6c0a
+battleship grey,886,#6b7c85
+off blue,887,#5684ae
+manilla,888,#fffa86
+greenish beige,889,#c9d179
+deep brown,890,#410200
+darkish pink,891,#da467d
+custard,892,#fffd78
+ugly brown,893,#7d7103
+stormy blue,894,#507b9c
+liliac,895,#c48efd
+baby shit brown,896,#ad900d
+reddish grey,897,#997570
+powder pink,898,#ffb2d0
+eggplant purple,899,#430541
+egg shell,900,#fffcc4
+very light brown,901,#d3b683
+tea green,902,#bdf8a3
+orange pink,903,#ff6f52
+light grey green,904,#b7e1a1
+kiwi green,905,#8ee53f
+boring green,906,#63b365
+light pastel green,907,#b2fba5
+candy pink,908,#ff63e9
+purply,909,#983fb2
+purpley grey,910,#947e94
+dusty lavender,911,#ac86a8
+desert,912,#ccad60
+deep lilac,913,#966ebd
+pig pink,914,#e78ea5
+olive yellow,915,#c2b709
+light seafoam green,916,#a7ffb5
+light moss green,917,#a6c875
+lavender pink,918,#dd85d7
+deep aqua,919,#08787f
+bland,920,#afa88b
+strong pink,921,#ff0789
+green teal,922,#0cb577
+deep turquoise,923,#017374
+dark green blue,924,#1f6357
+bright sea green,925,#05ffa6
+booger,926,#9bb53c
+blue with a hint of purple,927,#533cc6
+blue blue,928,#2242c7
+windows blue,929,#3778bf
+toxic green,930,#61de2a
+strong blue,931,#0c06f7
+spruce,932,#0a5f38
+pinkish tan,933,#d99b82
+macaroni and cheese,934,#efb435
+grey teal,935,#5e9b8a
+dusty teal,936,#4c9085
+dark grass green,937,#388004
+cement,938,#a5a391
+yellowish tan,939,#fcfc81
+warm purple,940,#952e8f
+tea,941,#65ab7c
+really light blue,942,#d4ffff
+nasty green,943,#70b23f
+light eggplant,944,#894585
+fresh green,945,#69d84f
+electric lime,946,#a8ff04
+dust,947,#b2996e
+dark pastel green,948,#56ae57
+cloudy blue,949,#acc2d9

@@ -1,0 +1,23 @@
+{
+  "id": "purple-rose-wall",
+  "name": "Purple-rose Wall",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 430
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1720
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

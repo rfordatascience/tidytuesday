@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "dog",
+  "birthday": "11-4",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "no-23-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "no-23-shirt",
+      "song": "K.K. Dirge"
+    },
+    "ww": {
+      "personality": "lazy",
+      "clothes": "no-23-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch",
+      "quote": "Ow."
+    },
+    "cf": {
+      "personality": "lazy",
+      "clothes": "no-23-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "no-23-shirt",
+      "song": "K.K. Dirge",
+      "phrase": "rrr-owch",
+      "skill": "Forgetting stuff",
+      "goal": "Doctor",
+      "fear": "Mummy Mask",
+      "quote": "Don't bite the hand that feeds you.",
+      "siblings": "Fourth quintuplet",
+      "favoriteStyle": "Flashy",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "rrr-owch",
+      "song": "K.K. Dirge"
+    }
+  },
+  "name": "Lucky",
+  "id": "lucky"
+}

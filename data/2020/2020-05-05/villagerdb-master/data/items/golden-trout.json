@@ -1,0 +1,14 @@
+{
+  "id": "golden-trout",
+  "name": "Golden Trout",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 15000
+      }
+    }
+  },
+  "category": "Fish"
+}

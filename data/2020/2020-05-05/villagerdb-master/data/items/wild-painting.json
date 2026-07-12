@@ -1,0 +1,27 @@
+{
+  "id": "wild-painting",
+  "name": "Wild Painting",
+  "category": "Art",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique",
+        "Harmonious"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 980
+      },
+      "sources": [
+        "Redd (Redd's Gallery)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3920
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "blue-bed",
+  "name": "Blue Bed",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Rustic"
+      ],
+      "set": "Blue",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 525
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2100
+        }
+      ]
+    }
+  }
+}

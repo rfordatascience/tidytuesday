@@ -1,0 +1,19 @@
+{
+  "id": "star-clock",
+  "name": "Star Clock",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

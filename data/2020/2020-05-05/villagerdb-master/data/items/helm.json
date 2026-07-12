@@ -1,0 +1,21 @@
+{
+  "id": "helm",
+  "name": "Helm",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Pirate Ship",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "sources": [
+        "Pascal"
+      ]
+    }
+  }
+}

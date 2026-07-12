@@ -1,0 +1,94 @@
+plot,vegetable,variety,number_seeds_planted,date,number_seeds_exact,notes
+A,peas,Super Sugar Snap,22,2020-04-19,TRUE,NA
+B,peas,Magnolia Blossom,24,2020-04-19,TRUE,NA
+H,onions,Long Keeping Rainbow,40,2020-04-26,FALSE,NA
+P,onions,Delicious Duo,25,2020-04-26,FALSE,NA
+C,lettuce,Farmer's Market Blend,60,2020-05-02,FALSE,NA
+C,radish,Garden Party Mix,20,2020-05-02,FALSE,NA
+D,potatoes,purple,5,2020-05-02,FALSE,NA
+D,potatoes,Russet,8,2020-05-02,FALSE,NA
+I,potatoes,yellow,10,2020-05-02,FALSE,NA
+P,kale,Heirloom Lacinto,30,2020-05-02,FALSE,NA
+G,radish,Garden Party Mix,30,2020-05-02,FALSE,NA
+H,carrots,Bolero,50,2020-05-02,FALSE,NA
+H,carrots,King Midas,50,2020-05-02,FALSE,NA
+H,carrots,Dragon,40,2020-05-02,FALSE,NA
+H,beets,Gourmet Golden,40,2020-05-02,FALSE,NA
+H,beets,Sweet Merlin,40,2020-05-02,FALSE,NA
+P,lettuce,Tatsoi,25,2020-05-02,FALSE,NA
+M,Swiss chard,Neon Glow,25,2020-05-02,FALSE,NA
+H,radish,Garden Party Mix,15,2020-05-02,FALSE,NA
+O,edamame,edamame,25,2020-05-16,FALSE,NA
+H,spinach,Catalina,50,2020-05-16,FALSE,NA
+P,broccoli,Yod Fah,25,2020-05-16,FALSE,NA
+M,beans,Bush Bush Slender,30,2020-05-16,FALSE,NA
+L,lettuce,Farmer's Market Blend,60,2020-05-16,FALSE,NA
+A,squash,Butternut (saved),8,2020-05-20,TRUE,NA
+A,squash,Red Kuri,4,2020-05-20,TRUE,NA
+A,squash,Blue (saved),4,2020-05-20,TRUE,NA
+A,squash,Waltham Butternut,4,2020-05-20,TRUE,NA
+A,pumpkins,Cinderalla's Carraige,3,2020-05-20,TRUE,NA
+B,squash,Red Kuri,4,2020-05-20,TRUE,NA
+B,squash,Blue (saved),8,2020-05-20,TRUE,NA
+B,pumpkins,Cinderella's Carraige,3,2020-05-20,TRUE,NA
+B,pumpkins,saved,8,2020-05-20,TRUE,NA
+J,tomatoes,Mortgage Lifter,1,2020-05-20,TRUE,died
+J,tomatoes,Old German,1,2020-05-20,TRUE,NA
+J,tomatoes,Better Boy,1,2020-05-20,TRUE,NA
+J,tomatoes,Amish Paste,1,2020-05-20,TRUE,NA
+J,tomatoes,Cherokee Purple,1,2020-05-20,TRUE,NA
+J,tomatoes,Brandywine,1,2020-05-20,TRUE,NA
+J,tomatoes,Bonny Best,1,2020-05-20,TRUE,NA
+N,tomatoes,Amish Paste,2,2020-05-20,TRUE,NA
+N,tomatoes,Big Beef,1,2020-05-20,TRUE,NA
+N,tomatoes,Mortgage Lifter,1,2020-05-20,TRUE,NA
+N,tomatoes,Black Krim,1,2020-05-20,TRUE,NA
+N,tomatoes,Jet Star,1,2020-05-20,TRUE,NA
+N,tomatoes,Better Boy,1,2020-05-20,TRUE,NA
+O,tomatoes,grape,1,2020-05-20,TRUE,NA
+K,peppers,green,12,2020-05-21,TRUE,NA
+O,peppers,green,5,2020-05-21,TRUE,NA
+potA,peppers,variety,3,2020-05-21,TRUE,NA
+potA,peppers,variety,3,2020-05-21,TRUE,NA
+potB,hot peppers,thai,1,2020-05-21,TRUE,NA
+potC,hot peppers,variety,6,2020-05-21,TRUE,NA
+potD,peppers,variety,1,2020-05-21,TRUE,NA
+potB,basil,Isle of Naxos,40,2020-05-16,FALSE,NA
+wagon,dill,Grandma Einck's,40,2020-05-16,FALSE,NA
+potD,cilantro,cilantro,15,2020-05-16,FALSE,NA
+D,beans,Bush Bush Slender,10,2020-05-21,TRUE,NA
+D,zucchini,Romanesco,3,2020-05-21,TRUE,NA
+D,brussels sprouts,Long Island,13,2020-05-21,TRUE,NA
+L,jalapeño,giant,4,2020-05-21,TRUE,NA
+D,broccoli,Main Crop Bravado,7,2020-05-22,TRUE,NA
+I,broccoli,Main Crop Bravado,7,2020-05-22,TRUE,NA
+I,potatoes,yellow,8,2020-05-22,TRUE,NA
+I,potatoes,red,3,2020-05-22,FALSE,NA
+side,pumpkins,Big Max,6,2020-05-24,TRUE,NA
+side,pumpkins,Cinderalla's Carraige,6,2020-05-24,TRUE,NA
+side,watermelon,Doll Babies,8,2020-05-24,TRUE,NA
+side,melon,honeydew,5,2020-05-24,TRUE,NA
+K,squash,Waltham Butternut,6,2020-05-25,TRUE,NA
+K,squash,delicata,8,2020-05-25,TRUE,NA
+K,pumpkins,New England Sugar,4,2020-05-25,TRUE,NA
+K,beans,Chinese Red Noodle,5,2020-05-25,TRUE,NA
+L,beans,Chinese Red Noodle,5,2020-05-25,TRUE,NA
+L,carrots,Bolero,50,2020-05-25,FALSE,NA
+L,carrots,King Midas,50,2020-05-25,FALSE,NA
+L,carrots,Dragon,50,2020-05-25,FALSE,NA
+E,rudabaga,Improved Helenor,30,2020-05-25,FALSE,NA
+L,cucumbers,pickling,20,2020-05-25,FALSE,NA
+F,strawberries,perennial,NA,NA,NA,NA
+N,tomatoes,volunteers,1,2020-06-03,TRUE,NA
+J,tomatoes,volunteers,1,2020-06-03,TRUE,NA
+side,squash,Red Kuri,1,2020-05-20,TRUE,NA
+front,tomatoes,volunteers,5,2020-06-03,TRUE,NA
+O,tomatoes,volunteers,2,2020-06-03,TRUE,NA
+A,corn,Dorinny Sweet,20,2020-05-25,FALSE,NA
+B,corn,Golden Bantam,20,2020-05-25,FALSE,NA
+front,kohlrabi,Crispy Colors Duo,10,2020-05-20,FALSE,NA
+E,spinach,Catalina,100,2020-06-20,FALSE,NA
+E,beans,Classic Slenderette,29,2020-06-20,TRUE,NA
+G,lettuce,Lettuce Mixture,200,2020-06-20,FALSE,NA
+E,cilantro,cilantro,20,2020-06-20,FALSE,NA
+front,kale,Heirloom Lacinto,30,2020-06-20,FALSE,NA

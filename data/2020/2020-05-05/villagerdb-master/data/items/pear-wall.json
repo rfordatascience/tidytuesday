@@ -1,0 +1,18 @@
+{
+  "id": "pear-wall",
+  "name": "Pear Wall",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "recipe": {
+        "pear": 20
+      }
+    }
+  },
+  "category": "Wallpaper"
+}

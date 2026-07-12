@@ -1,0 +1,17 @@
+{
+  "id": "sidewalk",
+  "name": "Sidewalk",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1950
+      },
+      "sources": [
+        "Saharah"
+      ]
+    }
+  }
+}

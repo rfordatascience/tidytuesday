@@ -1,0 +1,31 @@
+{
+  "id": "pink-zap-suit",
+  "name": "Pink-zap Suit",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "set": "Pink Superheroine",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 190
+      },
+      "sources": [
+        "Able Sisters"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 760
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "zap-boots",
+  "name": "Zap Boots",
+  "category": "Shoes",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Toy Shop"
+      ],
+      "fashionThemes": [
+        "Sporty"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 180
+      },
+      "sources": [
+        "Kicks"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 720
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 660
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2640
+        }
+      ]
+    }
+  }
+}

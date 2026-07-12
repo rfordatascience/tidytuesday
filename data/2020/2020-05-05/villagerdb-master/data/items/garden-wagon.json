@@ -1,0 +1,22 @@
+{
+  "id": "garden-wagon",
+  "name": "Garden Wagon",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3180
+      },
+      "recipe": {
+        "white-hyacinths": 3,
+        "red-cosmos": 3,
+        "yellow-roses": 3,
+        "wood": 8,
+        "iron-nugget": 2
+      }
+    }
+  },
+  "category": "Furniture"
+}

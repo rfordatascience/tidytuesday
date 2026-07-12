@@ -1,0 +1,34 @@
+{
+  "id": "harvest-rug",
+  "name": "Harvest Rug",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Harvest",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 834
+      },
+      "sources": [
+        "Nookling stores (11/1 through Harvest Festival)"
+      ],
+      "rvs": [
+        "franklin"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3336
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

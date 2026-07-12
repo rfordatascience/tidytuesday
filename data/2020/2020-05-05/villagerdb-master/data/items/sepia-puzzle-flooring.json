@@ -1,0 +1,19 @@
+{
+  "id": "sepia-puzzle-flooring",
+  "name": "Sepia Puzzle Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 362
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1450
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

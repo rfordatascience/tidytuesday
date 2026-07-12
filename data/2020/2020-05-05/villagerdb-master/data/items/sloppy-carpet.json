@@ -1,0 +1,21 @@
+{
+  "id": "sloppy-carpet",
+  "name": "Sloppy Carpet",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Quirky"
+      ],
+      "set": "Sloppy",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Re-Tail (flea market) or Police Station (lost and found)"
+      ]
+    }
+  }
+}

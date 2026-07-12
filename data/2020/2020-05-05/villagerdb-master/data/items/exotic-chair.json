@@ -1,0 +1,27 @@
+{
+  "id": "exotic-chair",
+  "name": "Exotic Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious"
+      ],
+      "set": "Exotic",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 350
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1400
+        }
+      ]
+    }
+  }
+}

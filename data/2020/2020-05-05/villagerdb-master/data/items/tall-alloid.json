@@ -1,0 +1,17 @@
+{
+  "id": "tall-alloid",
+  "name": "Tall Alloid",
+  "category": "Gyroids",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 828
+      },
+      "sources": [
+        "Dig up with a shovel"
+      ]
+    }
+  }
+}

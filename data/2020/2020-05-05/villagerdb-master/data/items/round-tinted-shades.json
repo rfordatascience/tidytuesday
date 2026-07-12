@@ -1,0 +1,23 @@
+{
+  "id": "round-tinted-shades",
+  "name": "Round Tinted Shades",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

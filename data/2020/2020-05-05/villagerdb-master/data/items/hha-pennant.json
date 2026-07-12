@@ -1,0 +1,28 @@
+{
+  "id": "hha-pennant",
+  "name": "Hha Pennant",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "HHA (20",
+        "000 points)"
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Mail after 10,000 HHA score"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 375
+      }
+    }
+  }
+}

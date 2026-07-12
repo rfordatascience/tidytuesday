@@ -1,0 +1,14 @@
+{
+  "id": "wii-u-game-shelf",
+  "name": "Wii U Game Shelf",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sources": [
+        "Clear all intermediate levels in Desert Island Escape"
+      ]
+    }
+  }
+}

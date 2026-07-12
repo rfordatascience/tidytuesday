@@ -1,0 +1,19 @@
+{
+  "id": "colorful-tile-wall",
+  "name": "Colorful-tile Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 355
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1420
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "kiddie-sneakers",
+  "name": "Kiddie Sneakers",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 175
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

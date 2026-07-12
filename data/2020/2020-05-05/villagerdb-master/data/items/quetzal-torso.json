@@ -1,0 +1,17 @@
+{
+  "id": "quetzal-torso",
+  "name": "Quetzal Torso",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Underground (dig spot)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4500
+      }
+    }
+  },
+  "category": "Fossils"
+}

@@ -1,0 +1,545 @@
+e,country,city,line,start_year,end_year,rr,length,tunnel_per,tunnel,stations,source1,cost,currency,year,ppp_rate,real_cost,cost_km_millions,source2,reference
+7136,CA,Vancouver,Broadway,2020,2025,0,5.7,87.72%,5,6,Plan,2830,CAD,2018,0.84,2377.2,417.0526316,Media,https://www.translink.ca/Plans-and-Projects/Rapid-Transit-Projects/Broadway-Subway-Project.aspx
+7137,CA,Toronto,Vaughan,2009,2017,0,8.6,100.00%,8.6,6,Media,3200,CAD,2013,0.81,2592,301.3953488,Media,https://www.thestar.com/news/gta/transportation/2017/12/15/trudeau-wynne-tory-on-hand-to-cut-ribbon-on-32-billion-subway-extension.html
+7138,CA,Toronto,Scarborough,2020,2030,0,7.8,100.00%,7.8,3,Wiki,5500,CAD,2018,0.84,4620,592.3076923,Media,https://urbantoronto.ca/news/2020/03/metrolinxs-preliminary-business-case-scarborough-subway-extension-raises-questions
+7139,CA,Toronto,Ontario,2020,2030,0,15.5,57.00%,8.8,15,Plan,8573,CAD,2019,0.84,7201.32,464.6012903,Plan,https://metrolinx.files.wordpress.com/2019/07/click-here-to-view-the-ontario-line-initial-business-case.pdf
+7144,CA,Toronto,Yonge to Richmond Hill,2020,2030,0,7.4,100.00%,7.4,6,Plan,5600,CAD,2020,0.84,4704,635.6756757,Media,https://www.thestar.com/news/gta/2020/06/24/metrolinx-considering-a-route-for-the-yonge-subway-extension-to-richmond-hill-that-would-take-it-above-ground.html
+7145,NL,Amsterdam,North-South,2003,2018,0,9.7,73.00%,7.1,8,Wiki,3100,EUR,2009,1.3,4030,415.4639175,Media,https://www.at5.nl/artikelen/184604/zaterdag-noordzuidlijn-eindelijk-open-de-opvallendste-feiten
+7146,CA,Montreal,Blue Line extension,2020,2026,0,5.8,100.00%,5.8,5,Media,4500,CAD,2018,0.84,3780,651.7241379,Media,https://montrealgazette.com/news/local-news/montreal-metro-green-light-for-blue-line-extension
+7147,US,Seattle,U-Link,2009,2016,0,5.1,100.00%,5.1,2,Media,1756,USD,2012,1,1756,344.3137255,Plan,https://www.soundtransit.org/sites/default/files/documents/2018-q3-link-light-rail_0.pdf
+7152,US,Los Angeles,Purple Phase 3,2020,2027,0,4.2,100.00%,4.2,2,Media,3600,USD,2023,1,3600,857.1428571,Media,https://la.streetsblog.org/2020/03/24/metro-signs-1-3-billion-full-funding-grant-agreement-for-westside-subway-phase-3/
+7153,US,Los Angeles,Purple Phase 2,2018,2026,0,4.2,100.00%,4.2,2,Trade,2400,USD,2021,1,2400,571.4285714,Trade,https://www.railjournal.com/in_depth/transit-projects-fly-in-the-city-of-angels
+7154,US,Los Angeles,Purple Phase 1,2014,2023,0,6.3,100.00%,6.3,3,Media,2800,USD,2018,1,2800,444.4444444,Media,https://la.streetsblog.org/2018/04/25/metro-celebrates-purple-line-extension-1-tunnel-machines-set-to-start-in-august/
+7155,US,Los Angeles,Regional Connector,2014,2022,0,3.1,100.00%,3.1,3,Plan,1756,USD,2018,1,1756,566.4516129,Plan,https://www.metro.net/projects/connector/
+7160,US,San Francisco,Central Subway,2010,2021,0,2.7,100.00%,2.7,4,Media,1670,USD,2014,1,1670,618.5185185,Media,https://www.sfchronicle.com/bayarea/article/Central-Subway-tab-likely-to-grow-by-55M-as-14447857.php
+7161,US,Boston,Green Line Extension,2012,2021,0,7.6,0.00%,0,7,Plan,2289,USD,2020,1,2289,301.1842105,Plan,https://www.ctps.org/data/pdf/plans/TIP/FFYs-2020-2024-Final-TIP-20190730.pdf
+7162,CA,Ottawa,Confederation,2013,2019,0,12.5,20.00%,2.5,13,Trade,2100,CAD,2016,0.83,1743,139.44,Trade,https://www.aecom.com/projects/ottawa-light-rail/
+7163,US,San Jose,BART,2022,2030,0,9.6,83.00%,8,4,Plan,6900,USD,2026,1,6900,718.75,Plan,https://www.mercurynews.com/2020/07/19/with-costs-rising-for-bart-extension-critics-question-500m-plan-for-redundant-santa-clara-segment/
+7168,BG,Sofia,Line 1 northern,2009,2012,0,5.1,60.00%,3.1,4,Measured,407,BGN,2010,1.69,687.83,134.8686275,Media,https://www.novinite.com/articles/167648/Subway+Trains+to+Sofia+Airport+Start+Running+at+1+pm+on+April+2
+7169,BG,Sofia,Line 1 southern,2013,2015,0,3,100.00%,3,3,Media,44,EUR,2014,3.32,146.08,48.69333333,Media,https://www.novinite.com/articles/168384/Subway+Extension+to+Business+Park+Sofia+Opens
+7170,BG,Sofia,Line 2,2008,2012,0,17,90.00%,15.3,11,Trade,952,EUR,2010,3.32,3160.64,185.92,Trade,https://www.railway-technology.com/uncategorised/newsbulgaria-opens-sofia-metro-line-2/
+7171,BG,Sofia,Line 2 extension,2012,2016,0,1.3,100.00%,1.3,1,Media,21,EUR,2014,3.32,69.72,53.63076923,Media,https://seenews.com/news/sofia-subway-launches-13-km-section-with-one-station-533330
+7176,BG,Sofia,Line 3,2016,2021,0,12,100.00%,12,12,Plan,500,EUR,2018,3.32,1660,138.3333333,Plan,https://europa.eu/investeu/projects/sofia-metro-line-3_en
+7177,BG,Sofia,Line 3 extension (Third Stage),2021,NA,0,3.1,100.00%,3.1,4,Plan,113,EUR,2021,3.32,373.5,120.483871,Trade,https://seenews.com/news/sofia-opens-1125-mln-euro-tender-for-subway-expansion-681553
+7178,PL,Warsaw,Line 2,2010,2015,0,6.5,100.00%,6.5,7,Trade,5900,PLN,2012,0.557,3286.3,505.5846154,Trade,https://www.railwaygazette.com/news/single-view/view/warszawa-opens-second-metro-line.html
+7179,PL,Warsaw,Line 2 extension to Trocka,2015,2019,0,3.1,100.00%,3.1,3,Trade,1070,PLN,2017,0.576,616.32,198.8129032,Trade,https://www.railjournal.com/passenger/metros/warsaw-metro-line-m2-reaches-targowek/
+7184,PL,Warsaw,Line 2 extenision to KJ,2015,2020,0,3.4,100.00%,3.4,3,Trade,1148,PLN,2017,0.576,661.248,194.4847059,Trade,https://www.railwaygazette.com/metros/warszawa-metro-line-m2-goes-west/56191.article
+7185,PL,Warsaw,Line 2 extension to Bródno,2018,2022,0,4,100.00%,4,3,Trade,1400,PLN,2020,0.571,799.4,199.85,Trade,https://www.railwaypro.com/wp/a-single-bidder-for-warsaw-metro-line-2-extension/
+7186,RO,Bucharest,Line 5,2014,2019,0,6.9,100.00%,6.9,10,Plan,3122,RON,2016,0.596,1860.712,269.6684058,Plan,http://www.metrorex.ro/Resurse/RaportActivitate/Metrorex%20eng%202018.pdf
+7187,RU,Moscow,Line 11,2017,2023,0,66.7,100.00%,66.7,31,Media,501000,RUB,2018,0.04,20040,300.4497751,Media,https://www.rbc.ru/politics/23/11/2017/5a16bd6a9a7947a6f487fe13
+7193,RU,Nizhniy Novgorod,Line 2 extension,2015,2018,0,2.5,100.00%,2.5,1,Trade,11000,RUB,2016,0.041,451,180.4,Trade,https://www.metro-report.com/analysis/single-news/view/the-winners-and-losers-of-russian-metros.html
+7194,RU,Saint Petersburg,Line 3 extension,2014,2018,0,5,100.00%,5,2,Trade,37000,RUB,2016,0.041,1517,303.4,Trade,https://www.metro-report.com/analysis/single-news/view/the-winners-and-losers-of-russian-metros.html
+7195,RU,Saint Petersburg,Line 5 extension,2013,2019,0,6.4,97.00%,6.2,3,Measured,44600,RUB,2016,0.041,1828.6,285.71875,Media,http://krti.gov.spb.ru/press/news/52016/?category=17
+7200,RU,Moscow,Line 1 extension,2016,2019,0,11.6,14.00%,1.6,3,Wiki,41033,RUB,2018,0.04,1641.31476,141.4926517,Plan,https://zakupki.gov.ru/epz/order/notice/oku44/view/supplier-results.html?regNumber=0173200001418000217
+7201,CZ,Prague,Line A extension,2010,2015,0,6.1,100.00%,6.1,4,Wiki,20200,CZK,2012,0.0752,1519.04,249.0229508,Trade,https://www.railjournal.com/passenger/metros/prague-opens-metro-line-a-western-extension/
+7202,HU,Budapest,Line 4,2006,2014,0,7.4,100.00%,7.4,10,Trade,452000,HUF,2010,0.00792,3579.84,483.7621622,Plan,https://www.europarl.europa.eu/doceo/document//P-8-2017-000299_EN.html
+7203,FR,Toulouse,Line 3,2021,2025,0,27,60.00%,16.2,21,Plan,2670,EUR,2016,1.3,3471,128.5555556,Plan,https://www.toulousemetro3.fr/le-projet/3eme-ligne.html
+7208,IT,Turin,Line 1 phases 1-3,2000,2011,0,13.2,100.00%,13.2,21,Wiki,1046,EUR,2005,1.25,1307.625,99.0625,Plan,http://www.otipiemonte.it/Pagine/Completo.asp?ID=86
+7209,IT,Turin,Line 1 south (phase 4),2012,2021,0,1.9,100.00%,1.9,2,Trade,194,EUR,2016,1.3,251.55,132.3947368,Plan,http://www.otipiemonte.it/Pagine/Completo.asp?ID=86
+7210,IT,Turin,Line 1 west (phase 5),2018,2024,0,3.4,100.00%,3.4,4,Media,304,EUR,2020,1.3,395.59,116.35,Plan,http://www.otipiemonte.it/Pagine/Completo.asp?ID=86
+7211,FI,Helsinki,West Metro,2009,2017,0,13.5,100.00%,13.5,8,Measured,1186,EUR,2013,1.3,1541.8,114.2074074,Plan,https://www.lansimetro.fi/en/information-on-the-project/costs/
+7216,FI,Helsinki,Ring Rail Line,2009,2015,1,18,44.00%,8,5,Plan,774,EUR,2012,1.3,1005.94,55.88555556,Plan,https://vayla.fi/web/en/projects/all-projects/ring-rail-line
+7217,SE,Stockholm,Arenastaden,2020,2030,0,4.1,100.00%,4.1,2,Plan,4700,SEK,2025,0.115,540.5,131.8292683,Plan,http://nyatunnelbanan.sll.se/sites/tunnelbanan/files/Faktablad_Upphandling_%20engelsk.pdf
+7218,SE,Stockholm,Nacka/Söderort,2020,2030,0,11.5,100.00%,11.5,6,Plan,14400,SEK,2025,0.115,1656,144,Plan,http://nyatunnelbanan.sll.se/sites/tunnelbanan/files/Faktablad_Upphandling_%20engelsk.pdf
+7219,SE,Stockholm,Barkarby,2020,2026,0,3.3,100.00%,3.3,2,Plan,3300,SEK,2023,0.115,379.5,115,Plan,http://nyatunnelbanan.sll.se/sites/tunnelbanan/files/Faktablad_Upphandling_%20engelsk.pdf
+7224,SE,Stockholm,Citybanan,2007,2017,1,7.4,81.00%,6,2,Plan,16800,SEK,2007,0.1125,1890,255.4054054,Plan,https://web.archive.org/web/20150402164159/http://www.trafikverket.se/en/startpage/Projects/Railway-construction-projects1/The-Stockholm-City-Line/
+7225,SE,Malmo,Citytunneln,2005,2010,1,17,35.00%,6,3,Trade,8450,SEK,2001,0.106,895.7,52.68823529,Trade,http://www.tunnel-online.info/en/artikel/artikel_en_1204638.html
+7226,UK,London,Northern Line Extension,2015,2021,0,3.2,100.00%,3.2,2,Media,1200,GBP,2017,1.47,1764,551.25,Media,http://www.cityam.com/257486/full-steam-ahead-tunnelling-12bn-northern-line-extension
+7227,MX,Mexico City,Line 12,2008,2012,0,24.5,43.00%,10.5,20,Wiki,47906,MXN,2010,0.13,6227.78,254.195102,Media,http://www.elfinanciero.com.mx/nacional/linea-12-costara-mas-que-el-tren-mexico-queretaro
+7232,TW,Taipei,Wanda Line Phase 2,2021,2028,0,13.3,21.05%,2.8,13,Media,55530,TWD,2018,0.068,3776.04,283.912782,Media,http://www.taipeitimes.com/News/taiwan/archives/2018/05/03/2003692436
+7233,IT,Milan,Line 5 phase 1,2007,2013,0,6.1,100.00%,6.1,9,Media,557,EUR,2010,1.3,724.1,118.704918,Trade,http://www.expofairs.com/pianeta-costruzioni/001/pagina_017.pdf
+7234,IT,Milan,Line 5 phase 2,2010,2015,0,6.5,100.00%,6.5,10,Plan,796,EUR,2012,1.3,1034.8,159.2,Plan,https://web.archive.org/web/20140508030702/http://cantieri.mit.gov.it/Lists/Scheda%20Tecnica/DispForm.aspx?ID=69&Source=http%3A%2F%2Fcantieri%2Emit%2Egov%2Eit%2FPagine%2FLombardia%2Easpx&ContentTypeId=0x01005F85B0B356E4DE4EBCF0C8A435933BF500F5F261BE3F32F347B9117D7DBB5780B0
+7235,IT,Milan,Line 4,2015,2023,0,15.2,100.00%,15.2,21,Wiki,1697,EUR,2019,1.3,2205.71,145.1125,Plan,https://www.metro4milano.it/wordpress/wp-content/uploads/2020/04/Quadro-Economico-_-Atto-Integrativo-n.1-alla-Convenzione-di-concessione_-allegato-13.pdf
+7240,FR,Paris,GPX,2017,2030,0,200,80.00%,160,68,Wiki,35080,EUR,2012,1.3,45604,228.02,Plan,https://www.scribd.com/document/369302347/Rapport-de-la-Cour-des-Comptes-Societe-Du-Grand-Paris
+7241,IT,Milan,Passante Railway,1984,2008,1,13,60.00%,7.8,10,Wiki,915,EUR,1996,1.3,1189.5,91.5,Media,https://www.milanolife.it/la-quinta-linea-il-passante-ferroviario-di-milano/
+7242,VN,Hanoi,Line 3,2010,2013,0,12.5,32.00%,4,12,Media,36000000,VND,2016,1.26e-4,4536,362.88,Media,https://vnexpress.net/thoi-su/thanh-tra-chi-ra-nhieu-vi-pham-tai-du-an-metro-1-7-ty-usd-o-ha-noi-3777287.html
+7243,VN,Hanoi,Line 2,2011,2020,0,11.5,74.00%,8.5,12,Media,19555000,VND,2015,1.26e-4,2463.93,214.2547826,Media,http://saigondautu.com.vn/chu-diem-su-kien/5-du-an-doi-von-khung-61311.html
+7248,KR,Seoul,Sinbundang,2005,2011,0,17.3,100.00%,17.3,6,Wiki,1169000,KRW,2002,0.0013,1519.7,87.84393064,Trade,https://books.google.de/books?id=B3-SBgAAQBAJ&pg=PA44&lpg=PA44&dq=shinbundang+line+construction+cost+11690&source=bl&ots=_CTZGAt6MP&sig=ACfU3U0qGvuRqbqwA60o8fLQNSdXTt8BlQ&hl=en&sa=X&ved=2ahUKEwi847D6oPPqAhXLqqQKHf_ZB1MQ6AEwEHoECAsQAQ#v=onepage&q=shinbundang%20line%20construction%20cost%2011690&f=false
+7249,KR,Seoul,Sinbundang phase 2,2011,2018,0,12.8,100.00%,12.8,7,Media,1025500,KRW,2006,0.0013,1333.15,104.1523438,Plan,https://shinbundang.co.kr/eng/index.jsp?pageID=/eng/intro/intro2_6.jsp&open_main=4&open_sub1=1&open_sub2=6
+7250,MX,Guadalajara,Line 3,2014,2020,0,21.5,25.00%,5.4,18,Trade,31500,MXN,2017,0.106,3339,155.3023256,Media,https://www.eleconomista.com.mx/estados/Linea-3-arriba-78-de-su-costo-20200121-0023.html
+7251,DE,Leipzig,City Tunnel,2003,2013,1,3.6,100.00%,3.6,4,Wiki,960,EUR,2008,1.3,1248,346.6666667,Plan,http://dip21.bundestag.de/dip21/btd/17/029/1702939.pdf
+7256,IT,Rome,Line B1 extension,2010,2015,0,3.9,100.00%,3.9,3,Plan,527,EUR,2012,1.3,685.49,175.7666667,Plan,https://www.comune.roma.it/PCR/resources/cms/documents/B1schedaillustrativaintervento.pdf
+7257,IT,Rome,Line C - section T6a,2007,2013,0,2.8,100.00%,2.8,4,Plan,399,EUR,2010,1.3,518.7,185.25,Plan,https://metrocspa.it/cms/wp-content/uploads/2016/12/2-Q.E.G.-12-set-2013.pdf
+7258,IT,Rome,Line C - section T4-5,2007,2013,0,7.3,100.00%,7.3,9,Plan,1090,EUR,2010,1.3,1417,194.109589,Plan,https://metrocspa.it/cms/wp-content/uploads/2016/12/2-Q.E.G.-12-set-2013.pdf
+7259,IT,Rome,Line C - section T3,2013,2023,0,2.8,100.00%,2.8,2,Plan,735,EUR,2018,1.3,955.5,341.25,Plan,https://metrocspa.it/cms/wp-content/uploads/2016/12/2-Q.E.G.-12-set-2013.pdf
+7264,DE,Berlin,U55,2004,2009,0,1.8,100.00%,1.8,3,Plan,320,EUR,2006,1.3,416,231.1111111,Plan,https://www.das-parlament.de/2019/31_32/kehrseite/652908-652908
+7265,DE,Berlin,U5-U55 connection,2010,2020,0,2.2,100.00%,2.2,3,Plan,525,EUR,2015,1.3,682.5,310.2272727,Plan,https://www.projekt-u5.de/de/die-neue-u5/
+7266,BE,Brussels,Line 3,2020,2028,0,4.4,100.00%,4.4,7,Plan,900,EUR,2024,1.3,1170,265.9090909,Plan,https://www.metro3.be/fr/faq
+7267,DK,Copenhagen,City Circle Line,2009,2019,0,15.5,100.00%,15.5,17,Media,25300,DKK,2014,0.138,3491.4,225.2516129,Media,https://www.thelocal.dk/20190930/in-pictures-copenhagens-new-city-ring-metro-line
+7272,NO,Oslo,Løren Line,2013,2016,0,1.6,100.00%,1.6,1,Trade,1330,NOK,2014,0.107,142.31,88.94375,Trade,https://www.railwaygazette.com/l%C3%B8renbanen-opens-in-oslo/42312.article
+7273,NO,Oslo,Fornebu Line,2020,2027,0,8.2,100.00%,8.2,6,Plan,16000,NOK,2020,0.1,1600,195.1219512,Plan,https://www.oslo.kommune.no/slik-bygger-vi-oslo/fornebubanen/
+7274,AU,Sydney,Metro City & SW,2017,2024,0,30,51.00%,15.3,7,Wiki,15500,AUD,2021,0.69,10695,356.5,Media,https://www.abc.net.au/news/2020-02-21/nsw-government-confirms-three-billion-metro-budget-blowout/11986968
+7275,AU,Sydney,Metro NW,2013,2019,0,36,42.00%,15.1,13,Wiki,7800,AUD,2016,0.69,5382,149.5,Plan,https://www.transport.nsw.gov.au/news-and-events/media-releases/sydney-metro-northwest-under-budget
+7280,AU,Melbourne,Metro Tunnel,2018,2025,0,9,100.00%,9,5,Plan,11000,AUD,2021,0.69,7590,843.3333333,Plan,https://metrotunnel.vic.gov.au/about-the-project/faq
+7281,SG,Singapore,Downtown MRT Line,2008,2017,0,41.9,100.00%,41.9,34,Wiki,21000,SGD,2012,1.18,24780,591.4081146,Plan,https://www.todayonline.com/singapore/comparing-singapores-newest-and-oldest-mrt-lines
+7282,SG,Singapore,Thomson MRT Line,2014,2024,0,43,100.00%,43,32,Media,25000,SGD,2019,1.13,28250,656.9767442,Media,https://www.straitstimes.com/singapore/transport/thomson-east-coast-line-6-more-stations-from-springleaf-to-caldecott-opening
+7283,CA,Toronto,Eglinton Crosstown,2011,2022,0,19,53.00%,10,25,Plan,5300,CAD,2016,0.83,4399,231.5263158,Trade,https://www.railwayage.com/news/eglinton-crosstown-behind-schedule/
+7288,IN,Mumbai,Monorail,2009,2019,0,20.2,0.00%,0,17,Plan,30000,INR,2014,0.054,1620,80.1980198,Media,https://indianexpress.com/article/cities/mumbai/indias-first-monorail-rolls-out-in-city/
+7289,IN,Mumbai,Line 3,2016,2022,0,33.5,100.00%,33.5,27,Media,320000,INR,2019,0.047,15040,448.9552239,Trade,https://housing.com/news/mumbai-metro-line-3-everything-you-need-to-know/
+7290,IN,Mumbai,Line 2A,2016,2021,0,18.6,0.00%,0,17,Media,64100,INR,2018,0.048,3076.8,165.4193548,Media,https://www.freepressjournal.in/mumbai/metro-line-2a-revised-deadline-is-may-2021
+7291,IN,Mumbai,Line 2B,2018,2023,0,23.5,0.00%,0,22,Plan,109860,INR,2020,0.047,5163.42,219.72,Plan,https://mmrda.maharashtra.gov.in/metro-line-2b
+7296,IN,Mumbai,Line 4,2018,2022,0,32.3,0.00%,0,32,Plan,145490,INR,2020,0.047,6838.03,211.7037152,Plan,https://mmrda.maharashtra.gov.in/metro-line-4#
+7297,IN,Mumbai,Line 4A,2019,2022,0,2.7,0.00%,0,2,Plan,7860,INR,2017,0.048,377.28,139.7333333,Plan,https://mmrda.maharashtra.gov.in/documents/10180/9283015/Metro+Line+4A/da25997a-6844-4c74-b4bd-9538285c9471
+7298,IN,Mumbai,Line 5,2017,2024,0,24.9,0.00%,0,16,Plan,84165,INR,2020,0.047,3955.755,158.8656627,Plan,https://mmrda.maharashtra.gov.in/metro-line-5#
+7299,IN,Mumbai,Line 6,2017,2022,0,14.5,0.00%,0,13,Wiki,55670,INR,2016,0.05,2783.5,191.9655172,Media,https://mmrda.maharashtra.gov.in/documents/10180/9283015/Metro+Line+6/17c5ed14-e9fb-4920-9521-02eebb25c4a9
+7304,IN,Mumbai,Line 7,2016,2021,0,16.5,0.00%,0,16,Wiki,62080,INR,2018,0.048,2979.84,180.5963636,Media,https://www.hindustantimes.com/mumbai-news/metro-lines-2a-7-to-be-delayed-by-3-months-mmrda-chief/story-UodpzX0AgmfV4e1OBrDxCK.html
+7305,IN,Mumbai,Line 7A + 9,2019,2022,0,13.5,16.00%,2.2,11,Plan,65180,INR,2020,0.047,3063.46,226.922963,Plan,https://mmrda.maharashtra.gov.in/metro-line-9#
+7306,IN,Mumbai,Line 10,2020,2024,0,9.2,8.00%,0.7,4,Plan,38210,INR,2018,0.048,1834.08,199.3565217,Plan,https://mmrda.maharashtra.gov.in/documents/10180/9283015/Metro+Line+10/076595c3-c882-424c-b49d-f22399e9a096
+7307,IN,Mumbai,Line 11,2020,2026,0,12.8,69.00%,8.8,10,Plan,70850,INR,2018,0.048,3400.8,265.6875,Plan,https://mmrda.maharashtra.gov.in/documents/10180/9283015/Metro+Line+11/8dc85106-19e2-48a5-875e-acdb289c357d
+7312,IN,Mumbai,Line 12,2020,2026,0,20.8,0.00%,0,17,Plan,47380,INR,2018,0.048,2274.24,109.3384615,Plan,https://mmrda.maharashtra.gov.in/documents/10180/9283015/Metro+Line+12/20c81fcb-0b2c-40c2-9e06-a7b4e7d46bdb
+7313,GR,Athens,Line 4,2019,2027,0,12.8,100.00%,12.8,15,Plan,1328,EUR,2023,1.3,1726.4,134.875,Plan,https://www.ametro.gr/?p=14801&lang=en
+7314,GR,Athens,Line 3 to Piraeus,2012,2021,0,7.6,100.00%,7.6,6,Plan,742,EUR,2016,1.3,964.6,126.9210526,Plan,https://www.ametro.gr/wp-content/uploads/2018/08/AM_Xrimatooikonomikes_katastaseis_2017.pdf
+7315,GR,Thessaloniki,Main line,2006,2020,0,9.5,100.00%,9.5,13,Plan,1112,EUR,2014,1.3,1445.6,152.1684211,Plan,https://omekgroup.com.gr/projects/thessaloniki-metro/
+7320,GR,Thessaloniki,Kalamaria Extension,2013,2021,0,4.8,100.00%,4.8,5,Plan,567,EUR,2017,1.3,737.1,153.5625,Plan,https://www.ametro.gr/wp-content/uploads/2018/08/AM_Xrimatooikonomikes_katastaseis_2017.pdf
+7321,KR,Busan,Line 1 extension,2009,2017,0,8,100.00%,8,6,Trade,959000,KRW,2013,0.00115,1102.85,137.85625,Trade,https://www.railwaygazette.com/asia/busan-metro-line-1-extends/44436.article
+7322,KR,Seoul,Gimpo Urban Railway,2014,2019,0,23.7,100.00%,23.7,10,Trade,1655300,KRW,2016,0.00116,1920.148,81.01890295,Media,http://www.kyeonggi.com/news/articleView.html?idxno=564944
+7323,KR,Seoul,Line 7 extension,2014,2021,0,3.9,100.00%,3.9,2,Wiki,432100,KRW,2017,0.0011,475.31,121.874359,Media,https://www.hankyung.com/society/article/2013061797248
+7328,KR,Seoul,2020s program,2020,2028,0,71,100.00%,71,53,Media,7230200,KRW,2024,0.0011,7953.22,112.0171831,Media,http://news1.kr/articles/?3552208
+7329,SG,Singapore,Circle Line Stage 6,2017,2025,0,4,100.00%,4,3,Media,4850,SGD,2021,1.13,5480.5,1370.125,Media,https://www.straitstimes.com/singapore/transport/last-stage-of-circle-line-to-cost-a-lot-more-than-first-5-stages
+7330,FR,Paris,Line 12 to Aubervilliers,2012,2021,0,1.7,100.00%,1.7,2,Plan,175,EUR,2006,1.25,218.875,128.75,Plan,https://www.prolongement-metro12.fr/faq-metro-m12/
+7331,FR,Paris,Line 1 extension,2020,2030,0,4.9,100.00%,4.9,3,Plan,910,EUR,2012,1.3,1183,241.4285714,Plan,http://www.val-de-fontenay.metro-ligne1.fr/download/fiches_thematiques/L1_Fiche_Co%C3%BBt-projet.pdf
+7336,UK,London,Jubilee line extension,1993,1999,0,16,80.00%,12.8,11,Wiki,3500,GBP,1996,1.4,4900,306.25,Media,http://news.bbc.co.uk/2/hi/uk_news/529006.stm
+7337,CL,Santiago,Line 7,2021,2026,0,24.8,100.00%,24.8,21,Plan,2900,USD,2022,1.7,4930,198.7903226,Trade,https://www.railwaygazette.com/projects-and-planning/santiago-tenders-line-7-construction/56621.article
+7338,CL,Santiago,Project 63,2013,2019,0,37,100.00%,37,28,Plan,3000,USD,2016,1.7,5100,137.8378378,Plan,https://www.metro.cl/files/documentos/metro-investor-201709.pdf
+7339,BR,Sao Paulo,Line 5 extension,2010,2019,0,12,100.00%,12,11,Wiki,6900,BRL,2014,0.55,3795,316.25,Trade,https://www.bnamericas.com/en/news/brazil-metro-cost-overruns-top-us9bn1
+7344,BR,Salvador,Lines 1-2,2000,2017,0,33,4.00%,1.4,20,Wiki,4800,BRL,2012,0.62,2976,90.18181818,Media,http://patrocinados.estadao.com.br/ccr/salvadors-subway-becomes-a-model-of-success/
+7345,PA,Panama City,Line 1,2010,2014,0,13.7,53.00%,7.3,12,Wiki,2009,USD,2012,1.74,3495.66,255.1576642,Media,http://elsiglo.com.pa/panama/justifican-costo-linea-1-metro/23828270
+7346,PA,Panama City,Line 2,2015,2019,0,21,0.00%,0,16,Trade,2130,USD,2017,2.01,4281.3,203.8714286,Trade,https://www.railjournal.com/regions/central-south-america/panama-city-metro-line-2-inaugurated/
+7347,PA,Panama City,Line 3,2020,2024,0,26.7,0.00%,0,14,Trade,2507,USD,2020,2.08,5214.56,195.3018727,Trade,https://www.railwaypro.com/wp/south-korean-consortium-to-build-panama-metro-line-3/
+7352,PH,Manila,Line 9,2019,2025,0,28.3,100.00%,28.3,13,Media,356960,PHP,2022,0.055,19632.8,693.7385159,Media,https://rappler.com/business/construction-metro-manila-subway-begins-february-2019
+7353,PH,Manila,Line 7,2015,2021,0,22.8,15.00%,3.4,14,Measured,69300,PHP,2018,0.055,3811.5,167.1710526,Trade,https://www.railwaygazette.com/news/single-view/view/manila-metro-line-7-breaks-ground.html
+7354,PH,Manila,Line 5,2019,2025,0,11,100.00%,11,10,Media,2500,USD,2022,2.66,6650,604.5454545,Media,https://news.abs-cbn.com/business/multimedia/infographic/07/27/18/the-makati-subway
+7355,PH,Manila,Line 4,2021,2025,0,15.6,0.00%,0,11,Wiki,59300,PHP,2023,0.055,3261.5,209.0705128,Media,https://newsinfo.inquirer.net/1211139/mrt-4-project-targeted-for-completion-in-2025
+7360,AT,Vienna,Line 2 extension,2010,2013,0,4.2,0.00%,0,3,Media,320,EUR,2012,1.3,416,99.04761905,Media,https://wien.orf.at/news/stories/2607445/
+7361,AT,Vienna,Line 1 extension,2012,2017,0,4.7,57.00%,2.7,5,Measured,600,EUR,2015,1.3,780,165.9574468,Plan,https://www.wien.gv.at/stadtentwicklung/projekte/verkehrsplanung/u-bahn/u1-oberlaa.html
+7362,AT,Vienna,U2/U5 cross,2019,2029,0,9,100.00%,9,11,Plan,2200,EUR,2023,1.3,2860,317.7777778,Media,https://wien.orf.at/news/stories/2940360/
+7363,IN,Kochi,Metro,2013,2017,0,13,0.00%,0,11,Plan,51810,INR,2015,0.052,2694.12,207.24,Plan,https://kochimetro.org/everything-you-need-to-know-about-the-kochi-metro/
+7368,IN,Delhi,Phase 3,2012,2020,0,160.6,33.00%,53,109,Wiki,410790,INR,2016,0.05,20539.5,127.892279,Plan,http://www.delhimetrorail.com/funding.aspx
+7369,IN,Delhi,Phase 4 first half,2019,2025,0,61.7,36.00%,22.3,46,Media,249487,INR,2022,0.047,11725.8655,190.0464425,Media,https://housing.com/news/delhi-metro-phase-iv-finally-approved-government/
+7370,IN,Delhi,Phase 4 second half,2019,2025,0,42.3,35.00%,14.7,43,Media,215364,INR,2022,0.047,10122.0845,239.2927778,Media,https://economictimes.indiatimes.com/news/politics-and-nation/operational-loss-in-delhi-metro-phase-iv-project-to-be-borne-by-delhi-govt-sc/articleshow/71008680.cms
+7371,IR,Tehran,Line 3 extension to SW,2012,2014,0,12,100.00%,12,11,Trade,20000000,IRR,2013,1.2e-4,2400,200,Trade,https://www.railjournal.com/passenger/metros/tehran-opens-metro-line-3-extension/
+7376,IR,Tehran,Line 6,NA,2020,0,31,100.00%,31,29,Media,90000000,IRR,2017,6.4e-5,5760,185.8064516,Media,https://financialtribune.com/articles/auto/78612/tehran-municipality-struggling-with-subway-development-costs
+7377,IR,Tehran,Line 7,NA,2019,0,27,100.00%,27,25,Media,90000000,IRR,2017,6.4e-5,5760,213.3333333,Media,https://financialtribune.com/articles/auto/78612/tehran-municipality-struggling-with-subway-development-costs
+7378,ES,Madrid,1995-98 program,1995,1998,0,56,68.00%,38,37,Trade,1579,EUR,1997,1.25,1973.75,35.24553571,Trade,https://tunnelbuilder.com/metrosur/edition2pdf/page2.pdf
+7379,ES,Madrid,1999-2003 program,1999,2003,0,75,77.00%,58,39,Trade,3157,EUR,2001,1.25,3946.25,52.61666667,Trade,https://tunnelbuilder.com/metrosur/edition2pdf/page2.pdf
+7384,PT,Lisbon,Circular line,2021,2023,0,2,100.00%,2,2,Media,216,EUR,2021,1.3,280.8,140.4,Trade,https://www.railjournal.com/passenger/metros/european-commission-approves-e83m-for-lisbon-metro-expansion/
+7385,PT,Porto,"Pink line, yellow line",2019,2023,0,6,47.00%,2.8,7,Media,308,EUR,2021,1.3,400.4,66.73333333,Media,https://www.themayor.eu/en/massive-lisbon-metro-expansion-scheduled-for-2020
+7386,ES,Madrid,Eje Transversal,2020,2028,1,10.5,100.00%,10.5,4,Measured,760,EUR,2024,1.3,988,94.0952381,Plan,https://www.esmadrid.com/sites/default/files/plan_integral_cercanias_madrid_2018_2025.pdf
+7387,ES,Madrid,Line 2 extension,2008,2011,0,4.6,100.00%,4.6,4,Trade,315,EUR,2010,1.3,409.5,89.02173913,Trade,https://www.metro-report.com/news/metro/single-view/view/madrid-metro-line-2-extended-to-las-rosas.html?sword_list[]=madrid&no_cache=1
+7392,ES,Madrid,Line 9 extension,2009,2015,0,3,100.00%,3,2,Plan,191,EUR,2012,1.3,248.3,82.76666667,Plan,https://web.archive.org/web/20150328212257/https://www.metromadrid.es/en/comunicacion/prensa/2015/March/noticia09.html
+7393,EC,Quito,Metro,2012,2019,0,22.9,100.00%,22.9,15,Wiki,2010,USD,2016,1.9,3819,166.768559,Plan,http://documents.worldbank.org/curated/en/872611529897472449/pdf/Ecuador-PP-06052018.pdf
+7394,ES,Madrid,Chamartin-Atocha tunnel,2003,2008,1,7.5,100.00%,7.5,3,Wiki,550,EUR,2006,1.25,687.5,91.66666667,Media,https://elpais.com/elpais/2008/07/09/actualidad/1215591420_850215.html
+7395,FR,Paris,Line 14,1993,2007,0,9.2,100.00%,9.2,9,Wiki,1211,EUR,2004,1.25,1514,164.5652174,Trade,http://www.omegacentre.bartlett.ucl.ac.uk/wp-content/uploads/2014/12/FRANCE_METEOR_PROFILE.pdf
+7400,CA,Toronto,Sheppard,1994,2002,0,5.5,100.00%,5.5,5,Media,1000,CAD,1998,0.81,810,147.2727273,Media,https://www.theglobeandmail.com/news/toronto/sheppard-subway-extension-a-quarter-the-stops-for-three-times-the-cost/article622366/
+7401,CA,Montreal,Laval extension,2001,2007,0,5.2,100.00%,5.2,3,Wiki,745,CAD,2004,0.81,603.45,116.0480769,Media,https://montrealgazette.com/news/local-news/the-sleepy-success-story-of-the-laval-metro-extension
+7402,DE,Karlsruhe,Kombilösung,2010,2021,1,4.8,100.00%,4.8,6,Plan,1457,EUR,2016,1.3,1894.49,394.6854167,Plan,https://www.diekombiloesung.de/haeufige-fragen.html
+7403,DE,Dusseldorf,Wehrhahn Line,2007,2016,0,3.4,100.00%,3.4,6,Wiki,929,EUR,2012,1.3,1207.7,355.2058824,Media,https://www.wz.de/nrw/duesseldorf/wehrhahn-linie-wird-noch-viel-teurer_aid-25646289
+7408,US,New York,7 extension,2007,2014,0,1.6,100.00%,1.6,1,Measured,2400,USD,2011,1,2400,1500,Plan,http://web.mta.info/nyct/service/new7LineExtension_to11Avenue.htm
+7409,US,New York,Second Avenue Phase 1,2007,2016,0,2.7,100.00%,2.7,3,Measured,4450,USD,2012,1,4450,1648.148148,Media,https://www.nytimes.com/2016/12/19/nyregion/second-avenue-subway-opening.html
+7410,US,New York,Second Avenue Phase 2,2019,2029,0,2.6,100.00%,2.6,3,Measured,6390,USD,2024,1,6390,2457.692308,Plan,https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-07/FY21-Annual-Report-on-Funding-Recommendations.pdf
+7411,US,New York,East Side Access,2007,2022,1,2.8,100.00%,2.8,1,Measured,11000,USD,2015,1,11000,3928.571429,Media,https://www.nytimes.com/2018/04/25/nyregion/mta-east-side-access-11-billion.html
+7416,US,New York,Gateway,2019,2026,1,5.3,100.00%,5.3,0,Measured,9500,USD,2023,1,9500,1792.45283,Plan,https://www.masstransitmag.com/rail/infrastructure/press-release/21094267/gateway-program-the-hudson-tunnel-projects-trims-14-billion-with-new-financial-plan
+7417,UK,London,Crossrail,2009,2021,1,21,100.00%,21,8,Measured,13328,GBP,2015,1.4,18659.2,888.5333333,FOI,NA
+7418,FR,Paris,Line 4 to Bagneux,2014,2021,0,1.8,100.00%,1.8,2,Plan,380,EUR,2011,1.3,494,274.4444444,Plan,http://www.prolongement-m4.fr/sites/default/files/documents/m4-bagneux-dossierpresse_180316_bd.pdf
+7419,FR,Paris,RER E extension,2018,2022,1,8,100.00%,8,2,Wiki,1800,EUR,2012,1.3,2340,292.5,Media,https://www.usinenouvelle.com/article/le-prolongement-a-l-ouest-de-paris-du-rer-e-devient-enfin-realite.N775434
+7424,FR,Paris,Line 4 to Montrouge,2008,2013,0,1.5,100.00%,1.5,1,Media,185,EUR,2010,1.3,240.89,160.5933333,Media,https://france3-regions.francetvinfo.fr/paris-ile-de-france/2013/03/22/ligne-4-montrouge-se-met-sur-les-rails-220977.html
+7425,FR,Paris,Line 8 to Pointe-du-Lac,2007,2011,0,1.3,0.00%,0,1,Wiki,83,EUR,2005,1.25,103.75,79.80769231,Media,https://www.railpassion.fr/materiel-actualites-rp/011-14751-la-ligne-8-du-metro-arrive-a-creteil-pointe-du-lac/
+7426,FR,Paris,Line 13 to Courtilles,2005,2008,0,1.9,100.00%,1.9,2,Plan,158,EUR,2006,1.25,197.5,103.9473684,Plan,https://web.archive.org/web/20120221232537/http://www.iledefrance.fr/lactualite/transports/metro-rer/ligne-13-deux-nouvelles-stations-a-asnieres-gennevilliers/
+7427,FR,Paris,Line 12 to Front Populaire,2007,2012,0,1.5,100.00%,1.5,1,Measured,295,EUR,2009,1.3,383.5,255.6666667,Plan,https://plainecommune.fr/projets/transports-et-mobilite/prolongement-de-la-ligne-12/
+7432,FR,Paris,Line 11,2016,2023,0,5.4,90.00%,5.4,6,Measured,1084,EUR,2014,1.3,1409.2,260.962963,Plan,https://www.ratp.fr/en/groupe-ratp/metrotrains/m11-extension-rosny-bois-perrier-and-then-noisy-champs
+7433,IL,Tel Aviv,Red Line,2015,2022,0,24,50.00%,12,34,Wiki,17600,NIS,2018,0.268,4716.8,196.5333333,Media,https://en.globes.co.il/en/article-first-third-of-red-line-completed-1001205843
+7434,IL,Tel Aviv,Green Line,2018,2024,0,38.6,12.00%,4.6,62,Wiki,20000,NIS,2020,0.268,5360,138.8601036,Media,http://www.xinhuanet.com/english/2019-05/21/c_138075072.htm
+7435,NZ,Auckland,City Rail Link,2013,2024,1,3.5,100.00%,3.5,4,Wiki,4419,NZD,2018,0.677,2991.663,854.7608571,Plan,https://ourauckland.aucklandcouncil.govt.nz/articles/news/2019/04/revised-cost-for-city-rail-link/
+7440,DE,Hamburg,U4 to HafenCity U,2007,2012,0,3.9,100.00%,3.9,2,Media,326,EUR,2009,1.3,424.19,108.7666667,Media,https://www.nahverkehrhamburg.de/u4-verlaengerung-in-horner-geest-soll-465-millionen-euro-kosten-9328/
+7441,DE,Hamburg,U4 to Elbbrücken,2014,2018,0,1.3,100.00%,1.3,1,Media,178,EUR,2016,1.3,231.4,178,Media,https://www.nahverkehrhamburg.de/u4-verlaengerung-in-horner-geest-soll-465-millionen-euro-kosten-9328/
+7442,DE,Hamburg,U4 to Dannerallee,2020,NA,0,2.6,100.00%,2.6,3,Media,511,EUR,2019,1.3,664.3,255.5,Media,https://www.nahverkehrhamburg.de/u4-kann-verlaengert-werden-planfeststellungsbeschluss-ist-da-14090/
+7443,ES,Barcelona,L3 to Trinitat Nova,2001,2008,0,1.9,100.00%,1.9,2,Plan,151,EUR,2004,1.25,188.75,99.34210526,Plan,https://pemb.cat/public/docs/794_r6_cat_b2_17_perllongament_linia_3_de_metro_corr.pdf
+7448,ES,Barcelona,Terrassa tunnel,2008,2015,0,4.5,100.00%,4.5,3,Plan,401,EUR,2011,1.3,521.3,115.8444444,Plan,https://govern.cat/govern/docs/2012/10/03/12/36/6b33e55c-7ef4-4200-8517-97c7501d026e.pdf
+7449,ES,Barcelona,Sabadell tunnel,2006,2017,0,4.4,100.00%,4.4,4,Plan,430,EUR,2011,1.3,559,127.0454545,Plan,https://govern.cat/govern/docs/2012/10/03/12/36/6b33e55c-7ef4-4200-8517-97c7501d026e.pdf
+7450,ES,Barcelona,L2 to Badalona,2006,2010,0,0.7,100.00%,0.7,1,Plan,70,EUR,2008,1.25,87.5,125,Plan,http://territori.scot.cat/cat/notices/2010/10/metro_lInia_2_2737.php
+7451,ES,Barcelona,L5 to Vall d'Hebron,2007,2010,0,2.5,100.00%,2.5,3,Media,320,EUR,2008,1.25,400,160,Media,https://www.ccma.cat/324/La-linia-5-del-Metro-de-Barcelona-samplia-dema-amb-les-estacions-del-Carmel-el-Collla-Teixonera-i-Vall-dHebron/noticia/790448/
+7456,ES,Barcelona,L9/10,2003,2026,0,47.8,91.00%,43.7,52,Plan,5954,EUR,2014,1.3,7740.2,161.9288703,Plan,https://www.eib.org/en/projects/pipelines/all/20160937
+7457,ES,Bilbao,Line 3,2007,2016,0,5.9,95.00%,5.6,7,Measured,279,EUR,2011,1.3,362.7,61.47457627,Media,https://www.eitb.eus/es/noticias/economia/detalle/4706859/inauguracion-linea-3-metro-bilbao-operada-euskotren-8-abril/
+7458,ES,Seville,Line 1,2003,2009,0,18.2,64.00%,11.6,22,Measured,892,EUR,2006,1.25,1115,61.26373626,Media,https://www.diariodesevilla.es/sevilla/construccion-linea-1-Metro-Sevilla_0_1341766366.html
+7459,ES,Malaga,Lines 1-2,2006,2014,0,11.3,81.00%,9.2,17,Wiki,870,EUR,2010,1.3,1131,100.0884956,Media,https://www.diariosur.es/20130217/local/malaga/obras-metro-malaga-costaran-201302170041.html
+7464,BD,Dhaka,Line 6,2015,2021,0,20,0.00%,0,16,Media,220000,BDT,2018,0.032,7040,352,Media,https://www.railwaygazette.com/projects-and-planning/tracklaying-starts-on-dhaka-metro/55647.article
+7465,BD,Dhaka,Line 1,2020,2026,0,31.2,64.00%,20,19,Media,525610,BDT,2023,0.032,16819.52,539.0871795,Media,https://bdnews24.com/economy/2019/10/15/govt-approves-two-more-metro-rail-projects-worth-tk-938bn
+7466,BD,Dhaka,Line 5,2020,2028,0,19.6,70.00%,14,14,Media,412380,BDT,2024,0.032,13196.16,673.2734694,Media,https://bdnews24.com/economy/2019/10/15/govt-approves-two-more-metro-rail-projects-worth-tk-938bn
+7467,ID,Jakarta,MRT first phase,2013,2019,0,15.7,38.00%,5.9,13,Media,13776070,IDR,2016,2.13e-4,2934.30291,186.8982745,Media,https://www.jttri.or.jp/docs/seminar190719-25.pdf
+7472,FR,Lyon,Line A to Vaulx,2005,2007,0,1,100.00%,1,1,Plan,53,EUR,2006,1.25,66.25,66.25,Plan,https://web.archive.org/web/20080312071952/http://www.sytral.fr/176.0.html
+7473,FR,Lyon,Line B to Oullins,2009,2013,0,1.8,100.00%,1.8,1,Media,222,EUR,2011,1.3,288.6,160.3333333,Media,https://www.lyon-entreprises.com/actualites/article/le-prolongement-de-la-ligne-b-du-metro-lyonnais-a-oullins-devrait-booster-le-developpement-du-sud-ouest-lyonnais
+7474,FR,Lyon,Line B to Hospital-Sud,2017,2023,0,2.5,100.00%,2.5,2,Plan,394,EUR,2020,1.3,512.2,204.88,Plan,http://www.oullins.fr/territoire-d-avenir/prolongement-du-metro-b-382.html
+7475,PK,Lahore,Orange Line,2015,2020,0,27.1,6.00%,1.6,26,Wiki,183000,PKR,2017,0.033,6039,222.8413284,Media,https://dailytimes.com.pk/470024/punjab-drops-plan-to-connect-orange-line-train-with-metro-bus-railway-station/
+7480,TH,Bangkok,Sukhumvit Line to Kheka,2012,2018,0,12.8,0.00%,0,9,Plan,21904,THB,2007,0.087,1905.648,148.87875,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/greenline/
+7481,TH,Bangkok,Sukhumvit Line to Khu Khot,2015,2020,0,19,0.00%,0,16,Plan,58862,THB,2017,0.081,4767.822,250.938,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/greenline/
+7482,TH,Bangkok,Blue Line extension,2011,2020,0,26.9,20.00%,5.4,19,Plan,71687,THB,2015,0.081,5806.647,215.8604833,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/blueline/?AspxAutoDetectCookieSupport=1
+7483,TH,Bangkok,Brown Line,2020,NA,0,22.1,0.00%,0,18,Plan,48386,THB,2020,0.081,3919.266,177.3423529,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/brownline/
+7488,TH,Bangkok,Pink Line,2017,2022,0,34.5,0.00%,0,30,Plan,56725,THB,2019,0.081,4594.725,133.1804348,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/pinkline/
+7489,TH,Bangkok,Yellow Line,2017,2022,0,30.4,0.00%,0,23,Wiki,54768,THB,2019,0.081,4436.208,145.9278947,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/yellowline/
+7490,TH,Bangkok,Orange Line,2017,2025,0,35.9,75.00%,27,28,Plan,235320,THB,2021,0.081,19060.92,530.9448468,Plan,https://www.mrta.co.th/en/projectelectrictrain/bangkok-and-vicinities/orangeline/
+7491,TH,Chiang Mai,Red Line,2022,2027,0,15.8,46.00%,7.2,12,Measured,27000,THB,2024,0.081,2187,138.4177215,Media,https://www.nationthailand.com/business/30382028
+7496,VN,Ho Chi Minh City,Line 1,2012,2021,0,19.7,13.00%,2.6,14,Plan,43600000,VND,2016,1.26e-4,5493.6,278.8629442,Media,https://e.vnexpress.net/news/news/hcmc-submits-plans-for-new-2-9-billion-metro-line-4095209.html
+7497,VN,Ho Chi Minh City,Line 2 first phase,2020,2026,0,11.3,82.00%,9.3,11,Media,48000000,VND,2023,1.26e-4,6048,535.2212389,Media,https://e.vnexpress.net/news/news/saigon-metro-lines-cost-escalation-cleared-construction-not-to-stop-4002027.html
+7498,VN,Ho Chi Minh City,Line 5 first phase,2025,2029,0,8.9,84.00%,7.5,7,Media,41600000,VND,2027,1.26e-4,5241.6,588.9438202,Media,https://saigoneer.com/saigon-news/12943-saigon-starts-seeking-investors-for-metro-line-5
+7499,JP,Osaka,Tokaido branch relocation,2015,2023,1,2.4,100.00%,2.4,1,Plan,69000,JPY,2019,0.01,690,287.5,Plan,https://www.westjr.co.jp/global/en/ir/library/fact-sheets/2018/pdf/fact2018.pdf
+7504,JP,Osaka,Higashi Line,1999,2019,1,20.3,0.00%,0,0,Plan,120000,JPY,2009,0.0087,1044,51.42857143,Plan,https://www.westjr.co.jp/global/en/ir/library/fact-sheets/2018/pdf/fact2018.pdf
+7505,JP,Osaka,Monorail extension,2018,2029,0,8.9,0.00%,0,4,Plan,105000,JPY,2019,0.01,1050,117.9775281,Plan,http://www.mlit.go.jp/common/001272230.pdf
+7506,JP,Tokyo,Fukutoshin Line,2001,2008,0,8.9,100.00%,8.9,8,Media,250000,JPY,2004,0.0074,1850,207.8651685,Media,https://www.japantimes.co.jp/news/2008/06/12/national/fukutoshin-subway-line-debuts/
+7507,JP,Tokyo,Minatomirai Line,1993,2004,1,4.1,100.00%,4.1,6,Trade,257000,JPY,1998,0.0063,1619.1,394.902439,Media,https://www.japantimes.co.jp/life/2004/02/13/travel/new-subway-signals-start-of-a-new-era/
+7512,JP,Tokyo,Oedo Line ring,1992,2000,0,27.8,100.00%,27.8,27,Plan,988600,JPY,1999,0.0064,6327.04,227.5913669,Plan,https://web.archive.org/web/20060517042836/http://www.kotsu.metro.tokyo.jp/news/pdf/sub_t_20060324a_01.pdf
+7513,JP,Tokyo,Haneda express line,2022,2029,1,5.6,100.00%,5.6,2,Measured,300000,JPY,2025,0.01,3000,535.7142857,Media,https://en.connectionjapan.com/2019/02/16/jr-east-construira-linha-para-ligar-toquio-ao-aeroporto-de-haneda/
+7514,JP,Tokyo,Tama Monorail first phase,1991,2000,0,16,0.00%,0,19,Trade,242200,JPY,1995,0.006,1453.2,90.825,Trade,https://www.ejrcf.or.jp/jrtr/jrtr26/pdf/t58_neh.pdf
+7515,JP,Tokyo,Monorail to Tokyo Station,2015,2025,1,3,0.00%,0,NA,Trade,109500,JPY,2020,0.01,1095,365,Trade,https://www.railwaygazette.com/tokyo-monorail-plans-to-extend/39875.article
+7520,JP,Tokyo,Tokyo-Ueno Line,2008,2015,1,3.8,0.00%,0,0,Trade,40000,JPY,2011,0.009,360,94.73684211,Trade,https://www.railwaygazette.com/cross-tokyo-link-inaugurated/40649.article
+7521,JP,Tokyo,Sotetsu Shin-Yokohama JR Line,2010,2019,1,2.7,78.00%,2.1,1,Measured,111400,JPY,2014,0.0097,1080.58,400.2148148,Media,https://resources.realestate.co.jp/living/faster-commute-and-lower-congestion-expected-as-sotetsu-main-line-and-jr-east-start-direct-rail-service-on-nov-30th/
+7522,JP,Tokyo,Sotetsu Shin-Yokohama Tokyu Line,2010,2022,1,10,80.00%,8,2,Measured,290800,JPY,2016,0.0095,2762.6,276.26,Trade,https://www.decn.co.jp/?p=89391
+7523,JP,Fukuoka,Nanakuma Line extension,2014,2022,0,1.6,100.00%,1.6,2,Wiki,58700,JPY,2018,0.01,587,366.875,Media,https://www.fukuoka-now.com/en/news/nanakuma-subway-line-extension-delayed/
+7528,BR,Sao Paulo,Line 6 phase 1,2015,2023,0,15.9,84.00%,13.4,15,Trade,9600,BRL,2020,0.44,4224,265.6603774,Trade,https://www.railjournal.com/passenger/metros/revival-of-sao-paulo-metro-line-6-orange-project-a-step-closer/
+7529,CH,Lucerne,Zentralbahn,2008,2013,1,1.5,90.00%,1.4,1,Plan,220,CHF,2010,0.68,149.736,99.824,Plan,https://www.luzernerzeitung.ch/zentralschweiz/luzern/seetalplatz-und-zentralbahn-60-millionen-guenstiger-als-budgetiert-ld.1150224
+7530,CH,Zurich,Durchmesserlinie,2007,2014,1,9.6,50.00%,4.8,1,Trade,2030,CHF,2010,0.68,1380.4,143.7916667,Trade,https://www.railwaygazette.com/infrastructure/cross-city-tunnel-opening-increases-capacity-in-zurich/39619.article
+7531,JP,Tokyo,Tsukuba Express,1997,2005,0,58.3,28.00%,16.3,20,Plan,949400,JPY,2001,0.0077,7310.38,125.3924528,Plan,https://www.jlgc.org.uk/en/news_letter/funding-local-infrastructure-and-the-tsukuba-express/
+7536,IN,Bangalore,Phase 2,2017,2024,0,73.9,0.00%,14,62,Trade,306950,INR,2020,0.047,14426.65,195.2185386,Media,https://www.metrorailnews.in/bengaluru-metros-yelachenahalli-anjanapura-line-supposed-to-be-ready-by-november-2020/
+7537,IN,Bangalore,Phase 1,2006,2017,0,42.3,20.00%,8.5,41,Wiki,144050,INR,2011,0.064,9219.2,217.9479905,Media,https://economictimes.indiatimes.com/industry/transportation/railways/cost-and-time-overrun-marks-bengaluru-metro-phase-i/articleshow/57550535.cms
+7538,IN,Gurgaon,Phase 1,2009,2013,0,5.5,0.00%,0,6,Wiki,10880,INR,2011,0.064,696.32,126.6036364,Media,http://archive.indianexpress.com/news/gurgaon-rapid-metro-begins-trial-runs/1011112/0
+7539,IN,Gurgaon,Phase 2,2013,2017,0,6.3,0.00%,0,5,Wiki,24230,INR,2015,0.052,1259.96,199.9936508,Media,http://www.ptinews.com/news/8562521_Second-phase-of-Gurgaon-s-Rapid-Metro-launched.html
+7544,IN,Nagpur,Phase 1,2014,2020,0,38.2,0.00%,0,40,Media,86800,INR,2014,0.054,4687.2,122.7015707,Plan,http://www.metrorailnagpur.com/projectprofile.aspx
+7545,IN,Nagpur,Phase 2,NA,NA,0,43.8,0.00%,0,32,Plan,112160,INR,2018,0.048,5383.68,122.9150685,Media,https://timesofindia.indiatimes.com/city/nagpur/mahametro-saves-rs1850cr-in-nagpur-metro-phase-ii/articleshow/67371648.cms
+7546,IN,Ahmadabad,Phase 1,2015,2023,0,40,16.00%,6.4,33,Wiki,127000,INR,2019,0.047,5969,149.225,Media,https://indianexpress.com/article/cities/ahmedabad/ahmedabad-metro-phase-1-delay-makes-cost-jump-by-rs-2000-cr-6486037/
+7547,IN,Hyderabad,Phase 1,2012,2020,0,72,0.00%,0,66,Media,188000,INR,2016,0.05,9400,130.5555556,Media,https://www.indiatoday.in/india/story/hyderabad-metro-project-delay-by-l-and-t-pushes-up-cost-by-over-30-per-cent-1094750-2017-11-26
+7552,IN,Hyderabad,Airport express,2020,NA,0,31,8.00%,2.5,10,Media,46500,INR,2020,0.047,2185.5,70.5,Media,https://www.thehindu.com/news/cities/Hyderabad/airport-metro-to-have-underground-section-connecting-to-passenger-terminal/article29317205.ece
+7553,IN,Chennai,Phase 1,2009,2019,0,45.1,53.00%,24,34,Trade,200000,INR,2014,0.054,10800,239.4678492,Media,https://www.business-standard.com/article/current-affairs/phase-ii-chennai-metro-project-to-cost-rs-36-000-cr-114022800932_1.html
+7554,IN,Chennai,Phase 1 extension,2016,2020,0,9.1,26.00%,2.4,9,Trade,37700,INR,2018,0.048,1809.6,198.8571429,Trade,https://themetrorailguy.com/chennai-metro-phase-1-extension-information-route-maps-tenders-updates/
+7555,IN,Chennai,Phase 2,2020,2026,0,118.9,36.00%,42.8,128,Media,691800,INR,2023,0.047,32514.6,273.4617325,Media,https://www.businesstoday.in/sectors/infra/relief-for-commuters-in-chennai-metro-network-to-expand-phase-ii-work-begins/story/350907.html
+7560,CH,Geneva,CEVA,2013,2019,1,8.8,96.00%,8.4,4,Measured,1567,CHF,2016,0.68,1065.56,121.0863636,Plan,https://www.ceva.ch/2017/05/11/financement-et-organisation/?b=https://www.ceva.ch/category/projet
+7561,UA,Kyiv,M3 to Vynohradar,2018,2022,0,3.7,100.00%,3.7,2,Plan,5993,UAH,2020,0.121,725.153,195.9872973,Media,https://www.unian.info/kiev/10350087-kyiv-metro-signs-contract-for-subway-line-construction-to-kyiv-s-vynohradar-district.html
+7562,UA,Kyiv,M4,2021,2026,0,20,65.00%,13,13,Trade,2000,USD,2023,3,6000,300,Trade,http://www.globalconstructionreview.com/news/china-railway-completes-feasibility-study-kiev-met/
+7563,UA,Kharkiv,M3 extension,2018,2024,0,3.5,100.00%,3.5,2,Plan,382,EUR,2021,3.9,1489.8,425.6571429,Trade,https://www.railwaygazette.com/vehicles/crrc-wins-kharkiv-metro-train-contract/56702.article
+7568,TW,Taipei,Sanying Line,2016,2023,0,14.29,0.00%,0,12,Plan,50200,TWD,2019,0.0664,3333.28,233.2596221,Plan,https://www.dorts.ntpc.gov.tw/home.jsp?id=90&act=be4f48068b2b0031&dataserno=09b73a18932ab2e245b25cd63399a208
+7569,TW,Taipei,Danhai LRT,2014,2024,0,14,0.00%,0,20,Wiki,15300,TWD,2016,0.0664,1015.92,72.56571429,Media,https://focustaiwan.tw/society/202003240018
+7570,TW,Taipei,Circular Line first section,2011,2020,0,15.4,7.00%,1.1,14,Measured,69970,TWD,2015,0.0664,4646.008,301.6888312,Media,https://www.taiwannews.com.tw/en/news/3861624
+7571,TW,Taipei,Airport MRT,2006,2017,0,51,21.00%,10.7,22,Wiki,113850,TWD,2011,0.0664,7559.64,148.2282353,Media,https://www.straitstimes.com/asia/east-asia/taipei-airport-rail-line-ready-to-roll
+7576,TW,Taipei,Taoyuan MRT Green Line,2019,2026,0,27.8,45.00%,12.5,21,Media,98264,TWD,2022,0.0664,6524.7296,234.7025036,Plan,https://dorts.tycg.gov.tw/en/business/mrt-green-line
+7577,TW,Taipei,Taoyuan MRT Brown Line,2019,NA,0,11.5,0.00%,0,8,Plan,19558,TWD,2020,0.0664,1298.6512,112.9261913,Plan,https://dorts.tycg.gov.tw/en/business/mrt-brown-line
+7578,TW,Taipei,Taoyuan Underground,2019,2030,1,17.9,100.00%,17.9,8,Wiki,105600,TWD,2024,0.0664,7011.84,391.722905,Media,https://www.cna.com.tw/news/firstnews/201908150041.aspx
+7579,TW,Kaohsiung,Red and Orange Lines,2001,2008,0,43,74.00%,31.8,38,Measured,181300,TWD,2004,0.0664,12038.32,279.9609302,Trade,https://www.railjournal.com/in_depth/taiwan-transit-in-transition
+7584,TW,Kaohsiung,Urban Railway Underground,2008,2018,1,15.4,100.00%,15.4,10,Plan,99870,TWD,2013,0.0664,6631.368,430.6083117,Plan,https://www.rb.gov.tw/en/showpage.php?lmenuid=24&smenuid=154
+7585,TW,Tainan,Underground Project,2019,2024,1,8.2,100.00%,8.2,3,Plan,29360,TWD,2021,0.0664,1949.504,237.7443902,Plan,https://www.rb.gov.tw/en/showpage.php?lmenuid=24&smenuid=159
+7586,TW,Taichung,Green Line,2010,2020,0,16.7,0.00%,0,18,Plan,59337,TWD,2015,0.0664,3939.9768,235.9267545,Plan,https://www.rb.gov.tw/en/showpage.php?lmenuid=24&smenuid=75
+7587,AU,Perth,Forrestfield-Airport Link,2016,2021,1,8.5,100.00%,8.5,3,Plan,1860,AUD,2018,0.69,1283.4,150.9882353,Plan,https://www.forrestfieldairportlink.wa.gov.au/Portals/14/Project%20Overview%20Fact%20Sheet%20-%20Dec18%20WEB.pdf
+7592,JP,Tokyo,Yurikamome,1988,1995,0,12,0.00%,0,12,Trade,170200,JPY,1991,0.0054,919.08,76.59,Trade,http://www.ejrcf.or.jp/jrtr/jrtr30/pdf/s42_aok.pdf
+7593,AR,Buenos Aires,RER,2020,2026,1,20,100.00%,20,4,Media,2300,USD,2023,2.02,4646,232.3,Media,https://tn.com.ar/economia/el-gobierno-relanzo-el-rer-el-proyecto-para-conectar-los-trenes-del-area-metropolitana_856411
+7594,DE,Nuremberg,U3 extension,2020,2025,0,0.6,100.00%,0.6,1,Media,138,EUR,2022,1.3,178.75,297.9166667,Media,https://www.nordbayern.de/region/nuernberg/trotz-corona-in-nurnbergs-untergrund-gehen-die-arbeiten-weiter-1.10063402
+7595,DE,Cologne,North-South Stadtbahn,2003,2015,0,4,100.00%,4,6,Wiki,1040,EUR,2009,1.3,1352,338,Plan,https://www.nord-sued-stadtbahn.de/projekt/gruende/hintergruende/index.html
+7600,DE,Berlin,U8 to Wittenau,1985,1994,0,3.6,100.00%,3.6,4,Wiki,520,EUR,2020,1.3,676,187.7777778,Trade,https://signalarchiv.de/Meldungen/10003834
+7601,DE,Berlin,U2 to Pankow,1997,2000,0,0.8,100.00%,0.8,1,Media,54,EUR,1998,1.3,70.2,87.75,Media,https://www.berliner-zeitung.de/endspurt-auf-der-baustelle-die-strecke-von-vinetastrasse-nach-bahnhof-pankow-wird-puenktlich-fertig-und-billiger-u-bahn-linie-2-ab-sonnabend-sind-die-pankower-am-zug-li.33430
+7602,DE,Frankfurt,U-Bahn Europaviertel,2019,2025,0,2.7,52.00%,1.4,4,Measured,374,EUR,2022,1.3,485.55,179.8333333,Media,https://www.fnp.de/frankfurt/frankfurt-u-bahn-u5-verlaengerung-spaeter-teurer-wegen-eva-zr-13449222.html
+7603,PE,Lima,Line 2,2014,2025,0,35,100.00%,35,35,Trade,5836,USD,2019,1.9,11088.4,316.8114286,Plan,https://projects.worldbank.org/en/projects-operations/project-detail/P145610
+7608,MY,Kuala Lumpur,Kajang Line,2012,2017,0,51,19.00%,9.5,31,Wiki,21000,MYR,2014,0.7,14700,288.2352941,Media,https://www.nst.com.my/news/nation/2017/07/258054/sbk-mrt-proud-achievement-which-will-save-commuters-cost-time-pm
+7609,MY,Kuala Lumpur,Putrajaya Line (MRT 2),2016,2023,0,52.2,26.00%,13.5,41,Wiki,30530,MYR,2019,0.7,21371,409.4061303,Media,https://www.thestar.com.my/business/business-news/2020/01/17/mrt-2-at-70-completion-guan-eng-says
+7610,TR,Istanbul,M2-M6,1992,2015,0,26.79,96.68%,22.6,19,Plan,1750,USD,2004,1.8,3150,117.58,Media,see scope
+7611,TR,Istanbul,M3 Phase 1,2006,2013,0,15.9,100.00%,15.9,11,Media,1356,USD,2010,1.6,2169.6,136.45,Meida,https://www.sabah.com.tr/Gundem/2013/06/14/istanbula-yeni-metro
+7616,TR,Istanbul,M4 Phase 1,2005,2012,0,21.7,100.00%,21.7,16,Plan,1288,USD,2009,1.7,2189.6,100.9,Media,https://railturkey.org/2016/10/15/kadikoy-kartal-tavsantepe-metro-m4/2/
+7617,TR,Istanbul,M4 Phase 2,2013,2016,0,4.4,100.00%,4.4,3,Media,145,USD,2015,2.3,333.5,75.8,Media,https://railturkey.org/2016/10/15/kadikoy-kartal-tavsantepe-metro-m4/2/
+7618,TR,Istanbul,M5 Phase 1,2011,2018,0,19.7,100.00%,19.7,16,Plan,866,USD,2015,2.3,1991.8,101.11,Media,http://www.uskudarumraniyecekmekoymetrosu.com/ana-sayfa/projenin-tarihcesi.aspx
+7619,TR,Istanbul,BC1,2004,2013,1,13.6,100.00%,13.6,5,Plan,1650,USD,2009,1.7,2805,206.25,Trade,NA
+7624,TR,Istanbul,CR3,2011,2019,1,63,0.00%,0,36,Plan,1298,USD,2015,2.3,2985.4,47.39,Trade,NA
+7625,TR,Istanbul,M7 Phase1-2,2014,2022,0,23.75,96.21%,22.85,19,Plan,896,USD,2018,3,2688,113.18,Media,see scope
+7626,TR,Izmir,M1 Phase 1,1995,2000,0,11.6,29.31%,3.4,10,Plan,600,USD,1998,2,1200,103.45,Media,https://www.hurriyet.com.tr/ege/metroluyuz-39155285
+7627,TR,Izmir,M1 Phase 2,2005,2014,0,5.35,100.00%,5.35,6,Plan,252,TRY,2010,1.1,277.2,51.81,Media,https://www.uab.gov.tr/uploads/pages/kutuphane/d38e678334e19c8.pdf
+7632,TR,Izmir,M1 Phase 3,2010,2012,0,2.25,100.00%,2.25,2,Plan,106,TRY,2011,1,106,47.11,Media,https://www.uab.gov.tr/uploads/pages/kutuphane/d38e678334e19c8.pdf
+7633,TR,Ankara,M4,2003,2017,0,9.22,100.00%,9.22,9,Plan,1000,TRY,2010,1.1,1100,119.31,Media,https://www.cnnturk.com/turkiye/efsanevi-kecioren-metrosu-aciliyor
+7634,TR,Bursa,Bursaray,1997,2014,0,39,16.03%,6.25,38,Media,425,EUR,2006,2.1,892.5,22.88,Media,see scope
+7640,CN,Beijing,Line 4,2004,2009,0,28.2,95.17%,26.837,24,Media,15300,CNY,2005,0.3517,5381.01,190.82,Media,http://zizhan.mot.gov.cn/zhuantizhuanlan/qita/quanqiuhuanjingjijin/zhishigongxiang/201601/P020160125565596507649.pdf
+7649,CN,Beijing,Line 13,1999,2003,0,40.85,0.00%,0,17,Wikiland,6570,CNY,1999,0.37,2430.90,59.51,Media,http://www.wikiwand.com/zh-sg/%E5%8C%97%E4%BA%AC%E5%9C%B0%E9%93%8113%E5%8F%B7%E7%BA%BF
+7658,CN,Shanghai,Line 2 Eastern Extension 1,1999,2000,0,2.72,31.99%,0.87,1,Wiki,314.77,CNY,1999,0.37,116.46,42.82,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A2%E5%8F%B7%E7%BA%BF
+7659,CN,Shanghai,Line 2 Western Extension 1,2001,2006,0,6.155,100.00%,6.155,4,Wiki,3488.42,CNY,2004,0.3545,1236.64,200.92,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A2%E5%8F%B7%E7%BA%BF
+7664,CN,Shanghai,Line 2 Eastern Extension 2,2006,2010,0,30.8,69.81%,21.5,10,Measured,11032,CNY,2008,0.3143,3467.36,112.58,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A2%E5%8F%B7%E7%BA%BF
+7666,CN,Shanghai,Line 3,1997,2000,0,24.975,0.00%,0,19,Wiki,9378,CNY,1998,0.37,3469.86,138.93,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A3%E5%8F%B7%E7%BA%BF
+7673,CN,Shanghai,Line 5 Phase 1,2000,2002,0,17.206,0.00%,0,11,Wiki,3437,CNY,2001,0.3683,1265.85,73.57,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A5%E5%8F%B7%E7%BA%BF
+7674,CN,Shanghai,Line 5 Southern Extension,2014,2018,0,19.628,39.47%,7.747,9,Wiki,10619,CNY,2016,0.2507,2662.18,135.63,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A5%E5%8F%B7%E7%BA%BF
+7675,CN,Shanghai,Line 7 Phase 1,2005,2009,0,34.388,100.00%,34.388,28,Wiki,18700,CNY,2007,0.3323,6214.01,180.7,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A7%E5%8F%B7%E7%BA%BF
+7680,CN,Shanghai,Line 7 Northern Extension,2009,2011,0,9.978,70.25%,7.01,5,Wiki,3157,CNY,2010,0.3004,948.36,95.05,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A7%E5%8F%B7%E7%BA%BF
+7683,CN,Shanghai,Line 9 Phase 2,2005,2009,0,14.5,100.00%,14.5,10,Wiki,8940,CNY,2007,0.3323,2970.76,204.88,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A9%E5%8F%B7%E7%BA%BF
+7688,CN,Shanghai,Line 9 Phase 3,2009,2012,0,5.372,100.00%,5.372,3,Wiki,2800,CNY,2010,0.3004,841.12,156.57,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A9%E5%8F%B7%E7%BA%BF
+7689,CN,Shanghai,Line 9 Phase 3 Eastern Extension,2013,2017,0,13.828,100.00%,13.828,9,Wiki,12713,CNY,2015,0.2583,3283.77,237.47,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A9%E5%8F%B7%E7%BA%BF
+7690,CN,Shanghai,Line 10 Phase 1,2005,2010,0,36.221,100.00%,36.221,31,Wiki,23784,CNY,2007,0.3323,7903.42,218.2,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A10%E5%8F%B7%E7%BA%BF
+7691,CN,Shanghai,Line 11 Phase 1,2007,2009,0,46.008,47.11%,21.676,21,Wiki,18950,CNY,2008,0.3143,5955.99,129.46,Plan,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A11%E5%8F%B7%E7%BA%BF
+7698,CN,Xuzhou,Line 3 Phase 2,4 years,NA,0,6.5,100.00%,6.5,5,Plan,5015.4,CNY,2020,0.2382,1194.67,183.8,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/202002/P020200210345113822478.pdf
+7699,CN,Xuzhou,Line 4 Phase 1,5 years,NA,0,25.4,100.00%,25.4,19,Plan,17354,CNY,2020,0.2382,4133.72,162.74,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/202002/P020200210345113822478.pdf
+7704,CN,Xuzhou,Line 5 Phase 1,5 years,NA,0,24.6,100.00%,24.6,20,Plan,16830,CNY,2020,0.2382,4008.91,162.96,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/202002/P020200210345113822478.pdf
+7705,CN,Xuzhou,Line 6 Phase 1,5 years,NA,0,22.8,100.00%,22.8,15,Plan,14392,CNY,2020,0.2382,3428.17,150.36,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/202002/P020200210345113822478.pdf
+7706,CN,Shenzhen,Line 6 Phase 1,2015,2020,0,37.626,34.58%,13.01,20,Media,16800,CNY,2013,0.2729,4585.15,121.86,Media,https://web.archive.org/web/20130322011109/http://www.sz.gov.cn/cn/xxgk/szgg/tzgg/201303/t20130313_2114458.htm
+7707,CN,Shenzhen,Line 6 (feeder),2018,2022,0,6.13,86.54%,5.305,4,Media,3795,CNY,2018,0.2379,902.71,147.26,Media,http://fgw.sz.gov.cn/zwgk/qt/tzgg/201902/P020190226346098115982.pdf; https://www.sohu.com/a/224155978_729676
+7712,CN,Shenzhen,Line 3 Phase 4,NA,2022,0,9.35,79.36%,7.42,7,Plan,10785,CNY,2020,0.2382,2568.99,274.76,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7713,CN,Shenzhen,Line 12 Phase 2,not start,NA,0,8.05,100.00%,8.05,6,Plan,9094,CNY,2020,0.2382,2166.19,269.09,Media,https://huacheng.gz-cmc.com/pages/2020/09/02/12217064331742859f82edec5e61f9ff.html
+7714,CN,Shenzhen,Line 13 Northern Extension,2020,NA,0,18.8,100.00%,18.8,11,Plan,22918,CNY,2020,0.2382,5459.07,290.38,Media,http://jt.sz.bendibao.com/z/metro/xl_617.shtml; https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%9C%B3%E5%9C%B0%E9%90%B513%E8%99%9F%E7%B7%9A
+7715,CN,Shenzhen,Line 13 Southern Extension,2020,2025,0,4.47,100.00%,4.47,3,Plan,4962,CNY,2020,0.2382,1181.95,264.42,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7720,CN,Shenzhen,Line 16 Phase 2,not start,NA,0,9.53,100.00%,9.53,7,Plan,10995,CNY,2020,0.2382,2619.01,274.82,Plan,http://fgw.sz.gov.cn/zwgk/qt/tzgg/content/post_7256583.html
+7721,CN,Shenzhen,Line 7 Phase 2,not start,NA,0,2.45,100.00%,2.45,2,Plan,2806,CNY,2020,0.2382,668.39,272.81,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/202004/t20200410_1225513.html
+7722,CN,Shenzhen,Line 8 Phase 3,NA,2025,0,4.26,100.00%,4.26,NA,Plan,8318,CNY,2020,0.2382,1981.35,465.11,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7723,CN,Shenzhen,Line 11 Phase 2,not start,NA,0,5.58,100.00%,5.58,3,Plan,6634,CNY,2020,0.2382,1580.22,283.19,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7728,CN,Shenzhen,Line 20 Phase 1,2020,2021,0,8.43,100.00%,8.43,5,Media,12516,CNY,2020,0.2382,2981.31,353.65,Media,https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%9C%B3%E5%9C%B0%E9%90%B520%E8%99%9F%E7%B7%9A; https://dy.163.com/article/FL78MJRI0539880T.html
+7729,CN,Hangzhou,Line 1 Phase 1,2007,2012,0,48,NA,NA,31,Plan,22076,CNY,2007,0.3323,7335.85,152.83,Plan,https://tieba.baidu.com/p/4042648134?red_tag=1976143705; https://www.sohu.com/a/277774667_180330; http://zzhz.zjol.com.cn/05zzhz/system/2007/01/10/008096707.shtml
+7730,CN,Nanjing,Line 1 Phase 1,2000,2005,0,21.72,65.98%,14.33,16,Media,8500,CNY,2000,0.3678,3126.15,143.93,Media,https://baike.baidu.com/item/%E5%8D%97%E4%BA%AC%E5%9C%B0%E9%93%811%E5%8F%B7%E7%BA%BF
+7731,CN,Wuhan,Line 1 Phase 1,2000,2003,0,10.234,0.00%,0,10,Wiki,2199,CNY,2000,0.3678,808.75,79.03,Media,https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A1%E5%8F%B7%E7%BA%BF#%E4%B8%80%E6%9C%9F%E5%B7%A5%E7%A8%8B; https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E5%9C%B0%E9%93%811%E5%8F%B7%E7%BA%BF/
+7736,CN,Wuhan,Line 1 Phase 2,2005,2010,0,18.25,0.00%,0,16,Media,4649.8,CNY,2005,0.3517,1635.33,89.61,Media,https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A1%E5%8F%B7%E7%BA%BF#%E4%B8%80%E6%9C%9F%E5%B7%A5%E7%A8%8B; https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E5%9C%B0%E9%93%811%E5%8F%B7%E7%BA%BF/
+7737,CN,Wuhan,Line 1 Phase 3 Hankou North,2011,2013,0,5.7,0.00%,0,3,Media,2361,CNY,2011,0.2838,670.05,117.55,Media,https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A1%E5%8F%B7%E7%BA%BF#%E4%B8%80%E6%9C%9F%E5%B7%A5%E7%A8%8B； http://www.whtpi.com/Service/22/1645.html
+7739,CN,Hefei,Line 2 Eastern Extension,not start,NA,0,14.5,100.00%,14.5,11,Plan,10107,CNY,2020,0.2382,2407.49,166.03,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7744,CN,Hefei,Line 3 Southern Extension,not start,NA,0,11.25,100.00%,11.25,8,Plan,8968,CNY,2020,0.2382,2136.18,189.88,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7745,CN,Hefei,Line 4 Southern Extension,not start,NA,0,12.91,51.12%,6.6,7,Plan,7067,CNY,2020,0.2382,1683.36,130.39,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7746,CN,Hefei,Line 6 Phase 1,not start,NA,0,27.3,100.00%,27.3,17,Plan,20585,CNY,2020,0.2382,4903.35,179.61,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7747,CN,Hefei,Line 7 Phase 1,not start,NA,0,21,100.00%,21,17,Plan,16881,CNY,2020,0.2382,4021.05,191.48,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7752,CN,Hefei,Line 8 Phase 1,not start,NA,0,23,100.00%,23,12,Plan,16201,CNY,2020,0.2382,3859.08,167.79,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=16921
+7753,CN,Kunming,Line 1 Phase 1 and Line 2 Phase 1,2010,2014,0,42.1,69.83%,29.4,31,Plan,23137,CNY,2010,0.3004,6950.14,165.09,Media,https://www.kankanyn.com/jianwen/34919.html
+7754,CN,Shanghai,Line 1 Western Extension,NA,NA,0,1.2,0.00%,0,1,Plan,3575,CNY,2018,0.2379,850.38,708.65,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7755,CN,Shanghai,Line 20 Phase 1,NA,NA,0,19.8,100.00%,19.8,16,Plan,39354,CNY,2018,0.2379,9361.08,472.78,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7760,CN,Beijing,Line 28,2017,2021,0,8.777,100.00%,8.777,9,Media,12750,CNY,2019,0.2382,3037.16,346.04,Media,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html; https://new.qq.com/rain/a/20200812A0UGAJ00
+7761,CN,Wuhan,Line 11 Phase 3,NA,NA,0,9.9,100.00%,9.9,6,Plan,13515,CNY,2019,0.2382,3219.39,325.19,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+7762,CN,Shanghai,Line 19,NA,NA,0,44.5,100.00%,44.5,32,Plan,60524,CNY,2018,0.2379,14396.76,323.52,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/t20181219_1145778.html; http://shanghai.metrofans.cn/thread-443669-1-1.html
+7763,CN,Shanghai,Line 21 Phase 1,NA,NA,0,28,100.00%,28,16,Plan,36956,CNY,2018,0.2379,8790.68,313.95,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf; https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%8121%E5%8F%B7%E7%BA%BF
+7768,CN,Shanghai,Line 13 Western Extension,NA,NA,0,9.8,100.00%,9.8,5,Plan,12629,CNY,2018,0.2379,3004.04,306.54,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7769,CN,Beijing,Line 11 West,2019,2021,0,4,100.00%,4,4,Plan,4890,CNY,2019,0.2382,1164.84,291.21,Media,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html
+7770,CN,Shanghai,Line 23 Phase 1,NA,NA,0,28,100.00%,28,22,Plan,33729,CNY,2018,0.2379,8023.07,286.54,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7771,CN,Shenzhen,Line 13,2018,2023,0,23,100.00%,23,14,Plan,21480,CNY,2017,0.239,5133.84,223.21,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7776,CN,Beijing,Line 3 Phase 1+2,2016,2021,0,37.4,55.61%,20.8,27,Plan,41500,CNY,2015,0.2583,10720.74,286.65,Plan,http://www.gov.cn/xinwen/2018-02/18/content_5267552.htm; https://zh.m.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7777,CN,Beijing,Line 12,2017,2021,0,29.2,100.00%,29.2,21,Plan,32400,CNY,2015,0.2583,8369.93,286.64,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7778,CN,Guangzhou,Line 13 Phase 2,2017,2021,0,33.6,100.00%,33.6,23,Plan,37075,CNY,2017,0.239,8861.14,263.72,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7779,CN,Guangzhou,Line 10,2017,2022,0,25.2,100.00%,25.2,19,Media,28920,CNY,2018,0.2379,6879.16,272.98,Media,https://www.bjhuizhu.com/Article/detail/id/1553.html
+7784,CN,Shenzhen,Line 12,2017,2022,0,40,100.00%,40,33,Plan,38140,CNY,2017,0.239,9115.68,227.89,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7785,CN,Beijing,Line 8 Phase 4,2016,2018,0,3.4,29.08%,0.9886,2,Wiki,3420,CNY,2015,0.2583,883.49,259.85,Media,https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%9C%B0%E9%93%818%E5%8F%B7%E7%BA%BF#%E4%B8%89%E6%9C%9F%E5%8F%8A%E5%9B%9B%E6%9C%9F%E5%B7%A5%E7%A8%8B
+7786,CN,Chengdu,Line 18 Phase 3,2019,2024,0,14.29,100.00%,14.29,7,Plan,14656,CNY,2019,0.2382,3491.19,244.31,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7787,CN,Tianjin,M8 Phase 1,2017,2020,0,20,100.00%,20,18,Plan,20053,CNY,2015,0.2583,5180.32,259.02,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+7792,CN,Beijing,Line 19 Phase 1,2017,2021,0,22.4,100.00%,22.4,10,Plan,22180,CNY,2015,0.2583,5729.79,255.79,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7793,CN,Beijing,Line 17,2015,2022,0,49.7,100.00%,49.7,21,Plan,49200,CNY,2015,0.2583,12709.89,255.73,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7794,CN,Beijing,Line 16,2013,2021,0,49.8,100.00%,49.8,29,Media,49500,CNY,2013,0.2729,13509.83,271.28,Media,http://www.bjnews.com.cn/news/2016/11/25/424943.html; https://baijiahao.baidu.com/s?id=1633332748114018963&wfr=spider&for=pc
+7795,CN,Beijing,Line 25 Phase 2 (Fangshan Northern Extension),2017,2020,0,5,NA,NA,4,Plan,4860,CNY,2015,0.2583,1255.49,251.1,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7800,CN,Tianjin,M10 Phase 1,2015,2020,0,24,100.00%,24,23,Plan,23203,CNY,2015,0.2583,5994.06,249.75,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+7801,CN,Tianjin,M7 Phase 1,2017,2020,0,26.9,100.00%,26.9,24,Plan,25704,CNY,2015,0.2583,6640.14,246.85,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+7802,CN,Wuhan,Line 12 (Ring),2020,2024,0,59.9,100.00%,59.9,37,Plan,58387,CNY,2018,0.2379,13888.44,231.86,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+7803,CN,Nanchang,Line 2 Eastern Extension,2017,2020,0,4.7,100.00%,4.7,4,Plan,4420,CNY,2015,0.2583,1141.82,242.94,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=316
+7808,CN,Chengdu,Line 8 Phase 2,2019,2024,0,7.83,100.00%,7.83,7,Plan,7452,CNY,2019,0.2382,1775.13,226.71,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7809,CN,Tianjin,M11 Phase 1,2017,2020,0,25.4,100.00%,25.4,25,Plan,23607,CNY,2015,0.2583,6098.42,240.1,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+7810,CN,Shenzhen,Line 16,2018,2023,0,27.6,100.00%,27.6,24,Media,27530,CNY,2017,0.239,6579.83,238.4,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7811,CN,Guangzhou,Line 12,2018,2023,0,37.6,100.00%,37.6,25,Plan,35120,CNY,2017,0.239,8393.88,223.24,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7816,CN,Beijing,Line 7 Phase 2 (Eastern Extension),2016,2020,0,17.2,87.21%,15,9,Plan,15330,CNY,2016,0.2507,3843.07,223.43,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7817,CN,Wuhan,Line 2 Southern Extension,NA,NA,0,13.35,100.00%,13.35,10,Media,16017,CNY,2014,0.266,4260.97,319.17,Media,https://baike.baidu.com/reference/17605858/8a2eRI10Oo3jPyB3RZawIu33fUj3OmCx5fKTFCUCJXoq4BKXZ94NcZoLUG7NPyweTNKYwYHoa5qBIK1P24XE4PGoXEqagKR9-p1ks_BmNh00igM
+7818,CN,Hangzhou,Line 9 Phase 1,2017,2022,0,17.8,NA,NA,14,Plan,15657,CNY,2016,0.2507,3925.04,220.51,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7819,CN,Shanghai,Jiamin,NA,NA,0,41.6,84.00%,35,15,Plan,37101,CNY,2018,0.2379,8825.17,212.14,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7824,CN,Beijing,Line 27 Phase 2 (Changping Southern Extension),2019,2021,0,16.6,NA,NA,8,Plan,14230,CNY,2015,0.2583,3676.05,221.45,Media,https://zh.wikisource.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9F%8E%E5%B8%82%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E7%AC%AC%E4%BA%8C%E6%9C%9F%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%EF%BC%882015%EF%BD%9E2021%E5%B9%B4%EF%BC%89
+7825,CN,Nanjing,Line 5,2015,2020,0,37.2,100.00%,37.2,29,Plan,31680,CNY,2015,0.2583,8183.93,220,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7826,CN,Tianjin,B1 Phase 1,2015,2020,0,31.4,90.13%,28.3,22,Plan,26488,CNY,2015,0.2583,6842.68,217.92,Media,http://www.rail-transit.com/file/upload/201907/15/10573644162.pdf
+7827,CN,Shenzhen,Line 14,2018,2022,0,51.9,100.00%,51.9,17,Plan,42970,CNY,2017,0.239,10270.08,197.88,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201707/W020190905497930956563.pdf
+7832,CN,Beijing,Line 6 Phase 1 and 2,2008,2014,0,42.85,100.00%,42.85,27,Wiki,32250,CNY,2009,0.3174,10234.85,238.85,Media,https://zh.wikisource.org/zh-hans/%E5%9B%BD%E5%AE%B6%E5%8F%91%E5%B1%95%E6%94%B9%E9%9D%A9%E5%A7%94%E5%85%B3%E4%BA%8E%E5%8C%97%E4%BA%AC%E5%B8%82%E5%9C%B0%E9%93%816%E5%8F%B7%E7%BA%BF%E5%B7%A5%E7%A8%8B%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E7%9A%84%E6%89%B9%E5%A4%8D
+7833,CN,Changsha,Line 6 Central,2017,2021,0,26.5,100.00%,26.5,20,Plan,22360,CNY,2017,0.239,5344.17,201.67,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+7834,CN,Nanjing,Line 1 Northern Extension,2015,2019,0,7.2,93.00%,6.7,5,Plan,5940,CNY,2015,0.2583,1534.49,213.12,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7835,CN,Hangzhou,Line 10 Phase 1,2018,2022,0,15.9,100.00%,15.9,13,Plan,13109,CNY,2016,0.2507,3286.29,206.68,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7840,CN,Wuhan,Line 8 Phase 2,2018,2021,0,16.7,100.00%,16.7,12,Plan,13772,CNY,2015,0.2583,3557.74,213.04,Plan,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+7841,CN,Changsha,Line 7 Phase 1,2017,2021,0,21.6,100.00%,21.6,16,Plan,18132,CNY,2017,0.239,4333.65,200.63,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+7842,CN,Nanchang,Line 3,2015,2020,0,26.8,100.00%,26.8,NA,Plan,22050,CNY,2015,0.2889,6370.99,237.72,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=316
+7843,CN,Xiamen,Line 6,2017,2022,0,44.5,100.00%,44.5,27,Plan,36464,CNY,2016,0.2507,9141.14,205.42,Plan,http://www.gov.cn/xinwen/2016-10/13/5118393/files/fc4eeffb973d4e0297ef1fb6bcaa4e73.pdf
+7848,CN,Nanjing,Line 4 Phase 2,2016,2020,0,9.7,100.00%,9.7,6,Plan,7895,CNY,2016,0.2507,1979.19,204.04,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201611/W020190905497856961234.pdf
+7849,CN,Wuhan,Line 19,NA,NA,0,20.6,100.00%,20.6,6,Plan,17190,CNY,2018,0.2379,4088.96,198.49,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+7850,CN,Nanjing,Line 10 Phase 2,2017,2020,0,12.1,100.00%,12.1,7,Plan,9720,CNY,2015,0.2583,2510.98,207.52,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7851,CN,Guangzhou,Line 14 Phase 2,2017,2021,0,11.6,100.00%,11.6,7,Plan,9494,CNY,2017,0.239,2269.12,195.61,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7856,CN,Chengdu,Line 13 Phase 1,2019,2024,0,28.85,91.16%,26.3,19,Plan,23644,CNY,2019,0.2382,5632.21,195.22,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7857,CN,Nanning,Line 5 Phase 1,2016,2020,0,20.6,100.00%,20.6,18,Media,15311,CNY,2015,0.2583,3955.31,192.01,Media,http://gx.people.com.cn/n/2015/0520/c179430-24930122-2.html
+7858,CN,Shanghai,Line 8 Phase 1,NA,2009,0,23.22,100.00%,23.22,22,Media,14493,CNY,2001,0.3683,5338.12,229.89,Media,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A8%E5%8F%B7%E7%BA%BF
+7859,CN,Guangzhou,Line 22,2017,2020,0,31.8,100.00%,31.8,6,Plan,25865,CNY,2017,0.239,6181.88,194.4,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7864,CN,Beijing,Line 22,NA,NA,0,78.6,62.00%,48.5,20,Plan,63930,CNY,2019,0.2382,15228.68,193.75,Plan,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html
+7865,CN,Guangzhou,Line 5 Eastern Extension,2018,2022,0,9.7,100.00%,9.7,6,Plan,7862,CNY,2017,0.239,1879.06,193.72,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7866,CN,Hangzhou,Line 6 Phase 2,2017,2022,0,8.3,100.00%,8.3,6,Plan,6550,CNY,2016,0.2507,1642.02,197.83,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7867,CN,Xiamen,Line 2 Phase 2,2016,2020,0,15.5,100.00%,15.5,9,Plan,12218,CNY,2016,0.2507,3062.92,197.61,Plan,http://www.gov.cn/xinwen/2016-10/13/5118393/files/fc4eeffb973d4e0297ef1fb6bcaa4e73.pdf
+7872,CN,Zhengzhou,Line 14 Phase 1,NA,NA,0,8.3,100.00%,8.3,6,Plan,6684,CNY,2019,0.2382,1592.19,191.83,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201904/W020190910670741123314.pdf
+7873,CN,Zhengzhou,Line 6 Phase 1,NA,NA,0,36.5,92.33%,33.7,24,Plan,29304,CNY,2019,0.2382,6980.47,191.25,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201904/W020190910670741123314.pdf
+7874,CN,Fuzhou,Line 5 Phase 1,2016,2020,0,24.6,100.00%,24.6,20,Plan,19288,CNY,2015,0.2583,4982.69,202.55,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201601/t20160112_1145713.html
+7875,CN,Nanjing,Line 9 Phase 1,2016,2020,0,18,100.00%,18,15,Plan,14110,CNY,2015,0.2583,3645.05,202.5,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7880,CN,Changsha,Line 5 South Extension,2018,2022,0,8.43,100.00%,8.43,7,Plan,6727,CNY,2017,0.239,1607.79,190.72,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+7881,CN,Wuhan,Line 5,2017,2021,0,31.9,100.00%,31.9,27,Plan,24964,CNY,2015,0.2583,6448.98,202.16,Media,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+7882,CN,Chongqing,Line 5 Northern Extension,2019,2024,0,8.95,100.00%,8.95,7,Plan,7168,CNY,2018,0.2379,1705.04,190.51,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+7883,CN,Beijing,Line 13A,2019,2022,0,30.2,60.26%,18.2,18,Plan,23960,CNY,2019,0.2382,5707.48,188.99,Plan,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html; https://baijiahao.baidu.com/s?id=1636643464335769195&wfr=spider&for=pc
+7888,CN,Zhengzhou,Line 7 Phase 1,NA,NA,0,26.9,100.00%,26.9,20,Plan,21158,CNY,2019,0.2382,5040.02,187.36,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201904/W020190910670741123314.pdf
+7889,CN,Changchun,Line 5 Phase 1,2020,2026,0,19.5,100.00%,19.5,18,Plan,15382,CNY,2018,0.2379,3658.90,187.64,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf
+7890,CN,Wuhan,Line 11 East,2017,2021,0,32.1,100.00%,32.1,20,Plan,24620,CNY,2015,0.2583,6360.11,198.13,Plan,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+7891,CN,Nanjing,Line 2 Western Extension,2017,2020,0,5.6,100.00%,5.6,4,Plan,4280,CNY,2015,0.2583,1105.66,197.44,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7896,CN,Nanning,Line 2 Eastern Extension,2017,2021,0,6.5,100.00%,6.5,4,Media,4898,CNY,2017,0.239,1170.65,180.1,Media,http://www.nngdjt.com/html/4061/8670.html
+7897,CN,Nanjing,Line 7,2016,2020,0,35.7,100.00%,35.7,25,Plan,27220,CNY,2015,0.2583,7031.77,196.97,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7898,CN,Fuzhou,Line 4 Phase 1,2017,2021,0,24.2,100.00%,24.2,21,Plan,18436,CNY,2015,0.2583,4762.59,196.8,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201601/t20160112_1145713.html
+7899,CN,Chengdu,Line 30 Phase 1,2019,2024,0,24.78,100.00%,24.78,24,Plan,19112,CNY,2019,0.2382,4552.64,183.72,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7904,CN,Beijing,Line 7 Phase 1,2009,2014,0,23.7,100.00%,23.7,21,Plan,16000,CNY,2014,0.266,4256.45,179.6,Media,http://bj.bendibao.com/news/20141120/171344.shtm
+7905,CN,Nanchang,Line 4 Phase 1,2016,2021,0,38.2,84.29%,32.2,29,Plan,28650,CNY,2015,0.2583,7401.19,193.75,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=316
+7906,CN,Xi'an,Line 8,NA,NA,0,50,100.00%,50,35,Plan,38286,CNY,2019,0.2382,9120.06,182.4,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+7907,CN,Hangzhou,Line 4 Phase 2,2017,2022,0,23.4,NA,NA,15,Plan,17388,CNY,2016,0.2507,4358.99,186.28,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7913,CN,Changsha,Line 6 West,2018,2022,0,10.05,100.00%,10.05,7,Plan,7565,CNY,2017,0.239,1808.08,179.91,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+7914,CN,Hangzhou,Line 8 Phase 1,2018,2022,0,17.2,100.00%,17.2,8,Plan,12638,CNY,2016,0.2507,3168.21,184.2,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7915,CN,Guangzhou,Line 7 Phase 2,2018,2022,0,21.8,100.00%,21.8,11,Plan,16235,CNY,2017,0.239,3880.26,177.99,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7920,CN,Suzhou,Line 7,NA,NA,0,27,100.00%,27,23,Plan,18560,CNY,2018,0.2379,4414.84,163.51,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201809/W020190905497960329280.pdf
+7921,CN,Hangzhou,Line 3 Phase 1,2017,2021,0,52.2,100.00%,52.2,35,Plan,37759,CNY,2016,0.2507,9465.78,181.34,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7922,CN,Guangzhou,Line 18,2017,2020,0,62.5,100.00%,62.5,9,Plan,46051,CNY,2017,0.239,11006.45,176.1,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+7923,CN,Shenyang,Line 6 Phase 1,2020,2026,0,36,NA,NA,32,Plan,26350,CNY,2019,0.2382,6276.80,174.36,Media,http://www.shenyangbus.com/a/sydt/2018/1227/10268.html
+7928,CN,Chengdu,Line 17 Phase 2,2019,2024,0,27.6,100.00%,27.6,17,Plan,20014,CNY,2019,0.2382,4767.51,172.74,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7929,CN,Nanning,Line 4 Phase 1,2015,2019,0,21.4,100.00%,21.4,17,Plan,15119,CNY,2015,0.2583,3905.71,182.51,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201505/t20150518_962149.html
+7930,CN,Nanning,Line 3 Phase1,2015,2019,0,27.7,100.00%,27.7,23,Plan,19343,CNY,2015,0.2583,4996.90,180.39,Media,http://www.nngdjt.com/html/4061/6290.html
+7931,CN,Guiyang,Line 3 Phase 1,2018,2023,0,43.135,100.00%,43.135,29,Media,31545,CNY,2017,0.239,7539.44,174.79,Media,https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A3%E5%8F%B7%E7%BA%BF/16024214#reference-[2]-15957490-wrap
+7936,CN,Hefei,Line 5 Phase 1,2016,2020,0,40.3,100.00%,40.3,34,Plan,28424,CNY,2014,0.266,7561.59,187.63,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201412/W020190905507203840468.pdf
+7937,CN,Hangzhou,Line 1 Phase 3,2017,2022,0,11.5,100.00%,11.5,5,Plan,7796,CNY,2016,0.2507,1954.37,169.95,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+7938,CN,Shenyang,Line 2 Southern Extension,NA,NA,0,14.3,NA,NA,8,Plan,10170,CNY,2019,0.2382,2422.58,169.41,Media,http://www.shenyangbus.com/a/sydt/2018/1227/10268.html
+7939,CN,Kunming,Line 1 Northwestern Extension,2014,2016,0,7.9,100.00%,7.9,7,Plan,5571,CNY,2013,0.2729,1520.47,192.46,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+7944,CN,Chongqing,Line 10,2014,2020,0,44.09,81.15%,35.78,27,Plan,31098,CNY,2018,0.2379,7397.24,167.78,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+7945,CN,Nanjing,Line 6,2016,2020,0,34.8,100.00%,34.8,17,Plan,23900,CNY,2015,0.2583,6174.12,177.42,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+7946,CN,Hefei,Line 3 Phase 1,2014,2019,0,37.7,92.00%,34.6,32,Plan,26071,CNY,2014,0.266,6935.62,183.97,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201412/W020190905507203840468.pdf
+7947,CN,Nanjing,Line S8 Southern Extension,2017,2020,0,2.5,100.00%,2.5,2,Plan,1711,CNY,2016,0.239,408.94,163.58,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201611/W020190905497856961234.pdf
+7952,CN,Chongqing,Line 5A,2019,2024,0,28.96,62.57%,18.12,19,Plan,20334,CNY,2018,0.2379,4836.82,167.02,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+7953,CN,Fuzhou,Line 6,2015,2019,0,40.5,79.01%,32,20,Plan,27716,CNY,2015,0.2583,7159.91,176.79,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201601/t20160112_1145713.html
+7954,CN,Shanghai,Airport Contact Line,2019,2025,0,68.6,83.00%,56.7,9,Plan,48054,CNY,2018,0.2379,11430.54,166.63,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf
+7955,CN,Zhengzhou,Line 12 Phase 1,NA,NA,0,17.036,100.00%,17.035,12,Plan,12600,CNY,2019,0.2382,3001.43,176.18,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201904/W020190910670741123314.pdf; https://zhuanlan.zhihu.com/p/84554499
+7960,CN,Beijing,Line 10 North and East,2003,2008,0,24.64,100.00%,24.64,22,Media,13700,CNY,2005,0.3517,4818.85,195.57,Media,http://news.sciencenet.cn/sbhtmlnews/2008/8/209799.html
+7961,CN,Changsha,Line 5 Phase 1,2014,2018,0,22.7,100.00%,22.7,18,Plan,15663,CNY,2012,0.2808,4398.48,193.77,Plan,https://www.ndrc.gov.cn/fzggw/jgsj/zcs/sjdt/201212/t20121224_1145294.html
+7962,CN,Wuhan,Line 7 South,2016,2020,0,14.2,100.00%,14.2,7,Plan,9600,CNY,2015,0.2583,2479.98,174.65,Plan,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+7963,CN,Changchun,Line 7 Phase 1,2020,2025,0,22.5,100.00%,22.5,19,Plan,15583,CNY,2018,0.2379,3706.71,164.74,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf; https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A7%E5%8F%B7%E7%BA%BF/17545289
+7968,CN,Shenyang,Line 1 Eastern Extension,2020,2025,0,15,100.00%,15,9,Plan,10350,CNY,2019,0.2382,2465.46,164.36,Media,http://www.shenyangbus.com/a/sydt/2018/1227/10268.html; https://3g.163.com/dy/article_cambrian/FBU1V3JE052590Q7.html
+7969,CN,Nanjing,Line 11 Phase 1,2017,2021,0,27,95.93%,25.9,20,Plan,18171,CNY,2016,0.239,4342.97,160.85,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201611/W020190905497856961234.pdf
+7970,CN,Xiamen,Line 3 Phase 2,2016,2020,0,22.6,74.34%,16.8,13,Plan,15154,CNY,2016,0.239,3621.89,160.26,Plan,http://www.gov.cn/xinwen/2016-10/13/5118393/files/fc4eeffb973d4e0297ef1fb6bcaa4e73.pdf
+7971,CN,Hefei,Line 4 Phase 1,2015,2020,0,36,100.00%,36,28,Plan,24289,CNY,2014,0.266,6461.56,179.49,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201412/W020190905507203840468.pdf
+7976,CN,Guiyang,Line 2 Phase 2,2017,2022,0,12.8,81.25%,10.4,8,Plan,8475,CNY,2016,0.239,2025.57,158.25,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=362
+7977,CN,Chengdu,Line 10 Phase 3,2019,2024,0,5.5,100.00%,5.5,4,Plan,3716,CNY,2019,0.2382,885.18,160.94,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7978,CN,Hefei,Line 1 Phase 1+2,2012,NA,0,24.58,100.00%,24.58,26,Measured,16496,CNY,2012,0.2808,4632.41,188.46,Media,https://www.sohu.com/a/112444814_268310
+7979,CN,Wuhan,Line 4 Western Extension,2016,2018,0,4,85.00%,3.4,2,Plan,2634,CNY,2015,0.2583,680.44,170.11,Plan,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+7984,CN,Tianjin,Z4 Phase 1,2015,2020,0,43.7,34.55%,15.1,20,Plan,28699,CNY,2015,0.2583,7413.85,169.65,Media,http://www.rail-transit.com/file/upload/201907/15/10573644162.pdf
+7985,CN,Beijing,Daxing Airport Express Phase 1,2016,2019,0,44,NA,NA,3,Plan,27820,CNY,2019,0.2382,6626.97,150.61,Plan,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html
+7986,CN,Beijing,Daxing Airport Express Phase 2,2019,NA,0,3.5,NA,NA,2,Plan,4040,CNY,2019,0.2382,962.36,274.96,Plan,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html
+7987,CN,Beijing,Line 8 Phase 1 for Olympics,2005,2008,0,4.528,100.00%,4.528,4,Media,2420,CNY,2005,0.3517,851.21,187.99,Media,https://www.360kuai.com/pc/9fb76b182add530db?cota=4&kuai_so=1&tj_url=so_rec&sign=360_7bc3b157; http://itdzs.org/OnLineMagazine/PDFView.aspx?ID=4
+7992,CN,Xi'an,Line 1 Phase 3,NA,NA,0,10.5,100.00%,10.5,7,Plan,7009,CNY,2019,0.2382,1669.60,159.01,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+7993,CN,Changsha,Line 3 Phase 1,2012,2016,0,35.6,100.00%,35.6,25,Plan,23628,CNY,2012,0.2808,6635.21,186.38,Plan,https://www.ndrc.gov.cn/fzggw/jgsj/zcs/sjdt/201212/t20121224_1145294.html
+7994,CN,Chengdu,Line 27 Phase 1,2019,2024,0,22.2,59.46%,13.2,20,Plan,14813,CNY,2019,0.2382,3528.59,158.95,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+7995,CN,Suzhou,Line 8,NA,NA,0,35.2,100.00%,35.2,26,Plan,23660,CNY,2018,0.2379,5627.97,159.89,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201809/W020190905497960329280.pdf
+8000,CN,Suzhou,Line S1,NA,2023,0,41,100.00%,41,27,Plan,27370,CNY,2018,0.2379,6510.47,158.79,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201809/W020190905497960329280.pdf
+8001,CN,Hangzhou,Line 7,2017,2021,0,45,100.00%,45,24,Plan,28997,CNY,2016,0.239,6930.45,154.01,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+8002,CN,Taiyuan,Line 1 Phase 1,2014,2018,0,24.1,NA,NA,21,Plan,15790,CNY,2012,0.2808,4434.15,183.99,Media,http://finance.sina.com.cn/roll/20120905/131013052588.shtml
+8003,CN,Changsha,Line 4 Phase 1,2013,2017,0,33.5,NA,NA,24,Plan,21938,CNY,2012,0.2808,6160.63,183.9,Plan,https://www.ndrc.gov.cn/fzggw/jgsj/zcs/sjdt/201212/t20121224_1145294.html
+8008,CN,Changchun,Line 6,2020,NA,0,29.7,100.00%,29.7,22,Plan,19549,CNY,2018,0.2379,4650.10,156.57,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf; https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A6%E5%8F%B7%E7%BA%BF
+8009,CN,Suzhou,Line 6,2018,2023,0,34.2,100.00%,34.2,28,Plan,23740,CNY,2018,0.2379,5647.00,165.12,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201809/W020190905497960329280.pdf
+8010,CN,Xi'an,Line 15 Phase 1,2020,2025,0,19,100.00%,19,11,Plan,12436,CNY,2019,0.2382,2962.36,155.91,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+8011,CN,Guiyang,S2 Phase 1 North,2017,2021,0,32.1,98.44%,31.6,16,Plan,20430,CNY,2016,0.239,4882.89,152.11,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=362
+8016,CN,Wuhan,Line 6 Phase 2,NA,NA,0,7,100.00%,7,5,Plan,4558,CNY,2018,0.2379,1084.21,154.89,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8017,CN,Zhengzhou,Line 10 Phase 1,NA,NA,0,21.3,100.00%,21.3,12,Plan,15495.46,CNY,2019,0.2382,3691.15,173.29,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8018,CN,Changsha,Line 2 West Extension Phase 2,2017,2021,0,13.99,98.50%,13.78,11,Plan,11138,CNY,2020,0.2382,2653.07,189.64,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf; http://www.rail-transit.com/shiping/show.php?itemid=851
+8019,CN,Kunming,Line 1 Feeder,2013,2015,0,5.2,100.00%,5.2,4,Plan,3306,CNY,2013,0.2729,902.29,173.52,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8024,CN,Hangzhou,Line 2 Phase 3,2017,2020,0,1.6,NA,NA,1,Plan,988,CNY,2016,0.239,236.14,147.59,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+8025,CN,Zhengzhou,Line 8 Phase 1,2020,2024,0,50.63,100.00%,50.63,27,Plan,31019.49,CNY,2019,0.2382,7389.11,145.94,Plan,https://4g.dahe.cn/news/20191106554486; https://henan.china.com/m/news/yw/2019/1107/253044399.html
+8026,CN,Chengdu,Line 19 Phase 2,2019,2024,0,45.6,100.00%,45.6,10,Plan,28425,CNY,2019,0.2382,6771.08,148.49,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201908/W020190905497973740066.pdf
+8027,CN,Zhengzhou,Line 3 Phase 2,NA,NA,0,6.305,100.00%,6.305,4,Plan,3800.9,CNY,2019,0.2382,905.41,143.6,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201904/W020190910670741123314.pdf; https://4g.dahe.cn/news/20191106554486
+8032,CN,Xi'an,Line 2 Phase 2,NA,NA,0,7,100.00%,7,4,Plan,4289,CNY,2019,0.2382,1021.68,145.95,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+8033,CN,Taiyuan,Line 2 Phase 1,2012,2016,0,25.1,NA,NA,22,Plan,15139,CNY,2012,0.2808,4251.33,169.38,Media,http://finance.sina.com.cn/roll/20120905/131013052588.shtml
+8034,CN,Xi'an,Line 14,NA,NA,0,13.8,100.00%,13.8,8,Plan,8315,CNY,2019,0.2382,1980.71,143.53,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+8035,CN,Shenyang,Line 3 Phase 1,2019,2025,0,38.4,NA,NA,28,Plan,23130,CNY,2019,0.2382,5509.77,143.48,Media,http://www.shenyangbus.com/a/sydt/2018/1227/10268.html
+8040,CN,Guangzhou,Line 3 Eastern Extension,2019,2022,0,9.6,100.00%,9.6,4,Plan,5698,CNY,2017,0.2382,1357.26,141.38,Plan,http://www.gov.cn/xinwen/2017-03/23/5180079/files/d764253433a944c0a620def88bf6f446.pdf
+8041,CN,Beijing,Daxing Line,2007,2010,0,21.8,80.28%,17.5,11,Media,10930,CNY,2007,0.3323,3632.44,166.63,Media,http://www.mtr.bj.cn/article/5d510c0aebb1a36f5ef5981f.html
+8043,CN,Shanghai,Chongming,NA,NA,0,44.6,59.00%,26.1,8,Plan,26426,CNY,2018,0.2379,6285.92,140.94,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670719961874.pdf; https://xxgk.eic.sh.cn/jsxmxxgk/eiareport/action/jsxm_eiaReportDetail.do?from=jsxm&stEiaId=3ddc18bc-61f2-41e9-af7a-02be49b0e715&type=%E6%8A%A5%E5%91%8A%E4%B9%A6
+8048,CN,Xi'an,Line 16 Phase 1,2019,2024,0,15.1,100.00%,15.1,8,Plan,8857,CNY,2019,0.2382,2109.81,139.72,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+8049,CN,Wuhan,Xingang,NA,NA,0,30.2,84.11%,25.4,11,Plan,17681,CNY,2018,0.2379,4205.76,139.26,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8050,CN,Tianjin,Z2 Phase 1,2017,2020,0,52.8,33.90%,17.9,5,Plan,29975,CNY,2015,0.2583,7743.48,146.66,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+8051,CN,Kunming,Line 3 Phase 2,2016,2018,0,4,0.00%,NA,3,Plan,2267,CNY,2013,0.2729,618.72,154.68,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8056,CN,Changchun,Line 2 Eastern Extension,2020,2025,0,9.1,100.00%,9.1,6,Plan,5131,CNY,2018,0.2379,1220.50,134.12,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf
+8057,CN,Hangzhou,Line 5 Phase 2,2017,2020,0,3.2,NA,NA,2,Plan,1754,CNY,2016,0.239,419.22,131.01,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201612/W020190905497886107757.pdf
+8058,CN,Guiyang,S1 Phase 1,2016,2020,0,28.5,52.98%,15.1,12,Plan,15479,CNY,2016,0.239,3699.57,129.81,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=362
+8059,CN,Chongqing,Line 4 Phase 2,NA,NA,0,32.6,63.40%,20.67,14,Plan,18068,CNY,2018,0.2379,4297.81,131.83,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+8064,CN,Changsha,Line 2 West Extension Phase 1,2012,2015,0,4.5,100.00%,4.5,4,Plan,2466,CNY,2012,0.2808,692.50,153.89,Plan,https://www.ndrc.gov.cn/fzggw/jgsj/zcs/sjdt/201212/t20121224_1145294.html
+8065,CN,Beijing,Line 5,2002,2007,0,27.6,NA,NA,23,Media,12000,CNY,2004,0.3545,4253.81,154.12,Media,http://finance.sina.com.cn/b/20040419/0854725033.shtml
+8066,CN,Chongqing,Ring Line,2012,2016,0,50.47,NA,NA,33,Media,27330,CNY,2013,0.2729,7459.06,147.79,Media,http://politics.people.com.cn/n/2013/0223/c70731-20575832.html
+8067,CN,Changsha,Line 1 North Extension Phase 1,2017,2021,0,9.93,54.38%,5.4,5,Plan,5337,CNY,2017,0.2382,1271.27,128.02,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/t20170323_962232.html
+8072,CN,Kunming,Line 5,2015,2018,0,24,NA,NA,20,Plan,12911,CNY,2013,0.2729,3523.74,146.82,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8073,CN,Xiamen,Line 4,2017,2022,0,69.6,44.83%,31.2,18,Plan,36256,CNY,2016,0.239,8665.39,124.5,Plan,http://www.gov.cn/xinwen/2016-10/13/5118393/files/fc4eeffb973d4e0297ef1fb6bcaa4e73.pdf
+8074,CN,Chongqing,Line 6 Branch (EXPO) Phase 2,2016,2020,0,13.99,63.83%,8.93,7,Plan,7474,CNY,2018,0.2379,1777.83,127.08,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+8075,CN,Wuhan,Line 8 Phase 3,NA,NA,0,4.9,100.00%,4.9,2,Plan,2597,CNY,2018,0.2379,617.75,126.07,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8080,CN,Nanjing,Line 3 Phase 3,2015,2017,0,6.6,100.00%,6.6,2,Plan,3370,CNY,2015,0.2583,870.58,131.91,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201505/W020190910670534928118.pdf
+8081,CN,Chongqing,Line 9 Phase 2,2016,2020,0,10.77,NA,NA,5,Media,5613,CNY,2013,0.2729,1531.93,142.24,Media,http://politics.people.com.cn/n/2013/0223/c70731-20575832.html
+8082,CN,Chongqing,Line 9,2015,2020,0,39,93.38%,36.417,26,Media,23339,CNY,2013,0.2729,6369.81,163.33,Media,https://web.archive.org/web/20130120033236/http://www.cqzb.gov.cn/zbgg-5-37684-1.aspx
+8083,CN,Wuhan,Line 7 Northern Extension,NA,NA,0,33.6,40.48%,13.6,10,Plan,17559,CNY,2018,0.2379,4176.74,124.31,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8088,CN,Wuhan,Line 2 Northern Extension,NA,NA,0,19.8,69.19%,13.7,7,Plan,9437,CNY,2013,0.2729,2575.60,130.08,Media,http://hb.sina.com.cn/news/b/2013-06-03/070979213.html
+8089,CN,Xi'an,Line 10 Phase 1,NA,NA,0,34.6,45.00%,15.6,15,Plan,17660,CNY,2019,0.2382,4206.77,121.58,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201907/W020190910670748591840.pdf
+8090,CN,Chongqing,Line 4 Phase 1,2013,2018,0,15.77,70.07%,11.05,9,Plan,8805,CNY,2013,0.2729,2403.11,152.38,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201812/W020190910670713741772.pdf
+8091,CN,Nanchang,Line 1 Eastern Extension,2018,2021,0,4.1,100.00%,4.1,2,Plan,2040,CNY,2015,0.2729,556.77,135.8,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=316
+8096,CN,Changsha,Line 6 East,2018,2022,0,12.15,100.00%,12.15,5,Plan,6140,CNY,2017,0.2382,1462.55,120.37,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+8097,CN,Changchun,Line 4 Southern Extension,2020,2023,0,4,0.00%,0,6,Plan,2013,CNY,2018,0.2379,478.83,119.71,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf
+8098,CN,Kunming,Line 4,2016,2019,0,43.5,100.00%,43.5,26,Plan,21564,CNY,2013,0.2729,5885.37,135.3,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8099,CN,Wuhan,Line 21,NA,NA,0,33.7,71.81%,24.2,15,Plan,16107,CNY,2015,0.2729,4396.02,130.45,Plan,http://img.thupdi.com/news/2015/08/1440573393290975.pdf
+8104,CN,Changsha,Line 4 North Extension,2018,2022,0,14.26,14.45%,2.06,8,Plan,6831,CNY,2017,0.2382,1627.14,114.11,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+8105,CN,Shanghai,Line 11 (to Disney),NA,2016,0,9.15,15.96%,1.46,3,Media,4371,CNY,2012,0.2808,1227.46,134.15,Media,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A11%E5%8F%B7%E7%BA%BF
+8106,CN,Wuhan,Line 16,NA,NA,0,32.3,39.01%,12.6,12,Plan,15420,CNY,2018,0.2379,3667.94,113.56,Plan,http://www.gov.cn/xinwen/2019-01/06/5355294/files/c3d503decf1d4b6b924324b210ee0f1a.pdf
+8107,CN,Nanchang,Line 2 Western Extension,2015,2018,0,8.5,100.00%,8.5,7,Plan,3930,CNY,2015,0.2729,1072.60,126.19,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=316
+8112,CN,Beijing,Line 15 Phase 1,2009,2014,0,41.4,66.91%,27.7,18,Media,18100,CNY,2010,0.3004,5437.07,131.33,Media,http://finance.ifeng.com/city/bj/20101117/2902241.shtml
+8113,CN,Shanghai,Line 6,2002,2011,0,33.09,63.61%,21.05,28,Plan,12000,CNY,2002,0.3719,4462.63,134.86,Media,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A6%E5%8F%B7%E7%BA%BF
+8114,CN,Wuhan,Line 1 Phase 4 (Jinghe),2015,2017,0,3.97,0.00%,0,3,Measured,1740,CNY,2015,0.2729,474.89,119.62,Wiki,https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A1%E5%8F%B7%E7%BA%BF#%E4%B8%80%E6%9C%9F%E5%B7%A5%E7%A8%8B
+8115,CN,Changchun,Line 9 (Konggang),2019,2025,0,28.2,49.29%,13.9,8,Plan,12640,CNY,2018,0.2379,3006.66,106.62,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf
+8120,CN,Tianjin,M3 Phase 2,NA,NA,0,3.9,0.00%,0,3,Plan,1704,CNY,2015,0.2729,465.07,119.25,Media,https://wenku.baidu.com/view/801ab19a8ad63186bceb19e8b8f67c1cfbd6ee6e.html
+8121,CN,Chongqing,Line 6 Branch (EXPO) Phase 1,NA,2013,0,12.2,NA,NA,6,Media,5292,CNY,2013,0.2729,1444.32,118.39,Media,http://politics.people.com.cn/n/2013/0223/c70731-20575832.html
+8123,CN,Chongqing,Line 5 Phase 1 North,2013,2018,0,16.42,100.00%,16.42,10,Media,9700,CNY,2013,0.2729,2647.38,161.23,Media,https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A5%E5%8F%B7%E7%BA%BF#reference-[4]-8074613-wrap
+8128,CN,Kunming,Line 6,2013,2015,0,25.4,NA,NA,6,Plan,10151,CNY,2013,0.2729,2770.47,109.07,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8129,CN,Beijing,Line 13B,2019,2022,0,32.2,31.99%,10.3,15,Plan,12640,CNY,2019,0.2382,3010.96,93.51,Plan,http://www.tzxm.gov.cn/flfg/law/201912/t20191220_12825.html
+8130,CN,Changsha,Line 5 North Extension,2019,2022,0,3.65,48.49%,1.77,2,Plan,1409,CNY,2017,0.2382,335.62,91.95,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/201703/W020190905497919692262.pdf
+8131,CN,Beijing,Line 8 Northern Extension,2011,2013,0,6.328,73.45%,4.648,3,Measured,3212.2,CNY,2011,0.2838,911.52,144.05,Media,https://max.book118.com/html/2017/1209/143431974.shtm
+8136,CN,Shanghai,Line 8 Phase 3 (Pujiang Line),2016,2018,0,6.689,0.00%,0,6,Media,3177,CNY,2015,0.2729,867.09,129.63,Media,https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E6%B5%A6%E6%B1%9F%E7%BA%BF#cite_note-4
+8137,CN,Kunming,Line 1 Southern Extension,2013,2015,0,7.3,NA,NA,3,Plan,2395,CNY,2013,0.2729,653.66,89.54,Plan,http://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=12400
+8138,CN,Changchun,Line 3 Southern Extension,NA,NA,0,3,26.67%,0.8,2,Plan,839,CNY,2018,0.2379,199.57,66.52,Plan,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514226164270.pdf
+8139,CN,Beijing,Capital Airport Express,2005,2008,0,28.1,0.00%,0,4,Measured,622.3,CNY,2005,0.3517,218.89,7.79,Media,http://news.sciencenet.cn/sbhtmlnews/2008/8/209799.html
+8146,CN,Wenzhou,S1 Phase 1,2013,2019,0,53.5,18.69%,10,21,Media,18606.829999999998,CNY,2014,0.266,4949.94,92.52,Media,http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1825/site/attach/0/150120083915404.pdf
+8147,CN,Wenzhou,S2 Phase 1,NA,NA,0,70.299,NA,NA,NA,Media,26200,CNY,2014,0.266,6969.94,99.15,Media,http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1825/site/attach/0/150120083915404.pdf
+8154,CN,Lanzhou,Line 2 Phase 1,2015,2020,0,9.4,100.00%,9.4,8,Plan,5762,CNY,2012,0.2808,1618.08,172.14,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zdgc/201209/t20120905_1145859.html
+8155,CN,Lanzhou,Line 1 Phase 1,2011,2016,0,26.6,100.00%,26.6,20,Plan,17160,CNY,2012,0.2808,4818.87,181.16,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zdgc/201209/t20120905_1145859.html
+8160,CN,Dongguan,Line 1 Phase 1,2019,2024,0,57.5,86.00%,49.5,24,Plan,36822,CNY,2019,0.2382,8771.32,152.54,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8161,CN,Dongguan,Line 1 Phase 2,2023,2028,0,10.9,34.86%,3.8,4,Plan,6055,CNY,2019,0.2382,1442.35,132.33,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8162,CN,Dongguan,Line 1 Phase 3,2020,2025,0,3.54,100.00%,3.5,1,Plan,1728,CNY,2019,0.2382,411.62,116.28,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8163,CN,Dongguan,Line 1 Feeder Phase 1,2022,2027,0,25.56,100.00%,25.6,10,Plan,17499,CNY,2019,0.2382,4168.41,163.08,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8168,CN,Dongguan,Line 2 Phase 3,2021,2026,0,17.5,97.54%,17.1,8,Plan,11532,CNY,2019,0.2382,2747.02,156.97,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8169,CN,Dongguan,Line 3 Phase 1,2023,2028,0,50.14,100.00%,50.1,18,Plan,32178,CNY,2019,0.2382,7665.08,152.87,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8170,CN,Dongguan,Line 3 feeder,2024,2028,0,1.8,100.00%,1.8,1,Plan,1297,CNY,2019,0.2382,308.96,171.64,Plan,https://baijiahao.baidu.com/s?id=1638089292564878111&wfr=spider&for=pc
+8171,SA,Riyadh,Blue,2015,2016,0,38,42.63%,16.2,22,Bechtel BACS,6561,USD,2013,1.82,11941.02,314.2373684,Official Website,http://www.riyadhmetro.sa/
+8176,SA,Riyadh,Red,2014,2020,0,25.3,0.00%,0,13,Bechtel BACS,2880,USD,2013,1.82,5241.6,207.1778656,Media,NA
+8177,SA,Riyadh,Orange,2014,2017,0,40.7,14.00%,5.7,20,Arriyadh New Mobility Group (ANM),5002,USD,2013,1.82,9103.64,223.6766585,Media,5.2
+8178,SA,Riyadh,Yellow,2014,2020,0,29.6,0.00%,0,8,Fast Consortium,2270,USD,2013,1.82,4131.4,139.5743243,Fast Consortium,https://www.fastmetroriyadh.com/about/our-lines/
+8179,SA,Riyadh,Green,2015,2016,0,12.9,93.02%,12,11,Fast Consortium,2220,USD,2013,1.82,4040.4,313.2093023,Fast Consortium,https://www.fastmetroriyadh.com/ar/%d8%a7%d9%84%d8%ae%d8%b1%d9%8a%d8%b7%d8%a9-2/
+8184,SA,Riyadh,Purple,2014,2019,0,29.9,0.00%,0,6,Fast Consortium,3330,USD,2013,1.82,6060.6,202.6956522,Fast Consortium,https://www.fastmetroriyadh.com/about/our-lines/
+8186,SA,Jeddah,Jeddah Metro,2014,2025,0,161.1,12.41%,20,81,SYSTRA,12000,USD,2015,1.435,17220,106.8901304,Official Website,http://www.metrojeddah.com.sa/page/Metro
+8187,SA,Mecca,Mecca Metro,2009,NA,NA,188,NA,NA,90,NA,62000,SAR,2010,0.6161429452,38200.8626,203.1960777,NA,NA
+8192,SA,Ad Dammam,Dammam Metro (a-Sharqiya),2014,NA,0,50,0.00%,0,NA,Tender is ongoing since 2018,16000,USD,2010,1.623,25968,519.36,NA,https://www.bncnetwork.net/Project/Dammam_Metro/lLeKWJzyKRk=
+8193,QA,Doha,Doha Metro,2013,2026,0,124,89.92%,111.5,NA,DB International,36000,USD,2013,2.5,90000,725.8064516,Media,https://www.railway-technology.com/projects/doha-metro/
+8194,BH,Bahrain,Phase 1 (Red & Blue),2018,2023,1,28.6,0.00%,0,20,NA,453,BD,2019,5,2265,79.1958042,Media,https://www.urbantransportnews.com/bahrain-to-finalise-109-km-light-metro-rail-bids-in-march-2020/
+8195,BH,Bahrain,Phase 2,2020,X,1,72.7,0.00%,0,NA,NA,1500,BD,2010,5,7500,103.1636864,Media,http://www.tradearabia.com/news/stn_178416.html
+8200,AE,Dubai,Phase 1 - Red Line,2005,2010,0,35,13.43%,4.7,29,Systra & Parsons Corporation,4200,USD,2005,1.8,7560,216,NA,NA
+8201,AE,Dubai,Phase 2 - Green Line,2006,2010,0,22.5,35.11%,7.9,20,NA,3600,USD,2006,1.9,6840,304,NA,NA
+8202,AE,Dubai,Phase 3 (Red Line Extension/Route 2020),2016,2020,0,15,21.33%,3.2,7,"Expolink (Alstom, Gluermark, Acciona, Parsons, Systra)",2900,USD,2016,1.9,5510,367.3333333,Media,https://www.railway-technology.com/projects/route-2020-dubai/
+8203,EG,Cairo,Line 1,1982,1987,1,44,14.32%,6.3,35,Orascom,973,EGP,1987,2.5,2432.5,55.28409091,Wiki,NA
+8208,EG,Cairo,Line 2,1993,2005,0,22,43.18%,9.5,20,Orascom,9700,EGP,2005,1,9700,440.9090909,Wiki,NA
+8210,EG,Cairo,Line 3 Phase 1,2006,2012,0,4.3,100.00%,4.3,5,Orascom,4200,EGP,2009,0.7142857143,3000,697.6744186,Media,http://english.ahram.org.eg/NewsContent/3/12/35035/Business/Economy/Cairos-rd-underground-line-opens-Tuesday-linking-A.aspx
+8211,EG,Cairo,Line 3 Phase 2,2009,2014,0,7.2,100.00%,7.2,4,Orascom,498,EU,2009,NA,0,NA,NA,NA
+8216,EG,Cairo,Line 3 Phase 3,2017,2022,0,11.6,100.00%,11.6,12,Orascom,0,EU,2016,NA,0,NA,NA,NA
+8218,EG,Cairo,Line 4 (4 Phases),2019,X,0,19,NA,NA,17,NA,3600,USD,2019,3.6,12960,682.1052632,NA,NA
+8224,EG,Cairo,Line 6,2017,X,0,21,65.24%,13.7,24,Bombardier,4000,USD,2017,3.1,12400,590.4761905,Media,https://tunnelbuilder.com/News/New-metro-line-6-in-Cairo-deal-signed-.aspx
+8225,KW,Kuwait City,Kuwait Metro,2020,2025,0,160,35.00%,56,68,"Ernst & Young, Ashurst and Atkins",20000,USD,2020,1.52,30400,190,Media,https://www.railjournal.com/passenger/metros/kuwait-announces-details-of-metro-project/
+9459,UZ,Tashkent,Sergeli Line,2017,2020,0,7.1,0.00%,7.1,6,Trade,142,USD,2018,5,711,100.1408451,Plan,http://www.uzbekembassy.in/construction-of-sergeli-metro-line-to-cost-170-1-million/
+9460,UZ,Tashkent,Yunusabad Line extension,2017,2020,0,2.9,100.00%,2.9,2,Trade,125,USD,2018,5,624,215.1724138,Trade,https://www.railwaypro.com/wp/tashkent-metro-extension-is-underway/
+9461,CN,Shanghai,Line 15,2015,2020,0,42.3,100.00%,42.3,30,Media,47650,CNY,2014,0.266,12676.24,299.67,Media,https://www.wikiwand.com/zh/%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81; http://jz.docin.com/p-947723260.html
+9462,CN,Shanghai,Line 14,2016,2020,0,38.514,100.00%,38.514,31,Media,57686,CNY,2013,0.2729,15744.00,408.79,Media,https://max.book118.com/html/2017/0817/128471200.shtm
+9467,CN,Shanghai,Line 16,2010,2014,0,58.96,23.22%,13.69,NA,Media,18160,CNY,2010,0.3004,5455.264,92.52,Media,https://www.sohu.com/a/134664821_249521;  https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A16%E5%8F%B7%E7%BA%BF
+9486,CN,Guangzhou,Line 13 Phase 1,2013,2017,0,27.03,100.00%,27.03,11,Media,19038,CNY,2013,0.2729,5195.96,192.23,Media,http://www.dcement.com/Article/201310/117609.html
+9491,CN,Guiyang,Line 1 Phase 1,2013,2017,0,34.3,84.55%,29,25,Media,19370,CNY,2010,0.3004,5818.75,169.64,Media,https://zh.wikipedia.org/wiki/%E8%B4%B5%E9%98%B3%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A1%E5%8F%B7%E7%BA%BF
+9492,CN,Wuhan,Line 4 Phase 1,2009,NA,0,15.4,100.00%,15.4,15,Media,9400,CNY,2009,0.3174,2983.18,193.71,Media,https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A4%E5%8F%B7%E7%BA%BF#%E4%B8%80%E6%9C%9F%E5%B7%A5%E7%A8%8B
+9493,CN,Chengdu,Line 8 Phase 1,2016,2020,0,27.4,100.00%,27.4,22,Plan,21863,CNY,2016,0.239,5225.38,190.71,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zdgc/201607/t20160715_1146086.html
+9494,CN,Chengdu,Line 9 Phase 1,2016,2020,0,22.2,100.00%,22.2,13,Plan,20253,CNY,2017,0.2382,4824.29,217.31,Plan,https://www.chengdurail.com/detail/7247.html
+9499,CN,Chengdu,Line 10 Phase 2,2016,2029,0,26.7,38.95%,10.4,9,Plan,13156,CNY,2016,0.239,3144.36,117.77,Plan,https://www.ndrc.gov.cn/fggz/zcssfz/zdgc/201607/W020190910671924062945.pdf
+9500,TR,Istanbul,M3 Phase 2,2015,2023,0,8.4,100.00%,8.4,7,Plan,333,USD,2019,3.1,1032.3,122.89,Plan,https://ekap.kik.gov.tr/EKAP/Ortak/IhaleArama/index.html
+9501,TR,Istanbul,M4 Phase 3,2015,2020,0,7.5,100.00%,7.5,4,Plan,170,EUR,2018,3.5,595,79.33,Plan,https://www.metro.istanbul/Hatlarimiz/ProjeHalindekiHatlar?projeInsaat=0&q=36
+9502,TR,Istanbul,M8,2016,2021,0,14.3,100.00%,14.3,11,Plan,635,USD,2019,3.1,1968.5,137.66,Plan,https://ekap.kik.gov.tr/EKAP/Ortak/IhaleArama/index.html
+9507,TR,Istanbul,M5 Phase 2-M13,2016,2022,0,17.8,100.00%,17.8,14,Plan,657,USD,2019,3.1,2036.7,114.42,Plan,https://ekap.kik.gov.tr/EKAP/Ortak/IhaleArama/index.html
+9508,TR,Istanbul,M12,2017,2022,0,13,100.00%,13,9,Plan,922,USD,2020,3.7,3411.4,262.42,Plan,https://ekap.kik.gov.tr/EKAP/Ortak/IhaleArama/index.html
+9509,TR,Istanbul,M11 Phase 1,2016,2021,0,37.5,100.00%,37.5,9,Plan,1130,USD,2019,3.1,3503,93.41,Media,https://www.insaatderyasi.com/gayrettepe-3-havalimani-metro-ihalesine-1-milyar-euro-1718h.htm
+9510,TR,Istanbul,M11 Phase 2,2019,2022,0,32,100.00%,32,7,Plan,916,USD,2020,3.7,3389.2,105.91,Trade,http://www.yatirimlar.com/haber-AYGM_Istanbul_Yeni_Havalimani___Halkali_Metro_Hatti_insaati_ile_Elektromekanik_Sistemlerinin_temin_montaj_ve_isletmeye_alma_isleri_ihalesi_icin_sozlesme_imzaladi-248098.htm
+9459,UZ,Tashkent,Sergeli Line,2017,2020,0,7.1,0.00%,7.1,6,Trade,142,USD,2018,5,711,100.1408451,Plan,http://www.uzbekembassy.in/construction-of-sergeli-metro-line-to-cost-170-1-million/
+9460,UZ,Tashkent,Yunusabad Line extension,2017,2020,0,2.9,100.00%,2.9,2,Trade,125,USD,2018,5,624,215.1724138,Trade,https://www.railwaypro.com/wp/tashkent-metro-extension-is-underway/
+NA,NA,NA,NA,NA,NA,NA,12256.983,NA,7790.7826,NA,NA,NA,NA,NA,NA,AVG,233.0799191,372.9278706,NA
+NA,NA,NA,NA,NA,NA,NA,7660.614375,NA,NA,NA,NA,NA,NA,NA,NA,MEDIAN,180.7028615,289.1245783,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,STD,258.7448892,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,MIN,7.789626266,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,QUARTILE 1,134.8632672,215.7812275,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,QUARTILE 3,241.4285714,386.2857143,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,567,NA,NA

@@ -1,0 +1,34 @@
+{
+  "id": "forest-wall",
+  "name": "Forest Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale",
+        "Rustic"
+      ],
+      "set": "Mush",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 0
+      },
+      "sources": [
+        "Pick mushrooms during November"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 44000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 176000
+        }
+      ]
+    }
+  }
+}

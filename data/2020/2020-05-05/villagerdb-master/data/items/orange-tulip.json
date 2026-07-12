@@ -1,0 +1,17 @@
+{
+  "id": "orange-tulip",
+  "name": "Orange Tulip",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 240
+      },
+      "sources": [
+        "Hybrid - From Red and Yellow tulips."
+      ]
+    }
+  }
+}

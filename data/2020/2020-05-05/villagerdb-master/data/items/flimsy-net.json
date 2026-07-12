@@ -1,0 +1,27 @@
+{
+  "id": "flimsy-net",
+  "name": "Flimsy Net",
+  "category": "Tools",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ],
+      "recipe": {
+        "tree-branch": 5
+      }
+    }
+  }
+}

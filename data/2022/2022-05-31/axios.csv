@@ -1,0 +1,501 @@
+company,industry,2022_rank,2022_rq,change,year,rank,rq
+Trader Joe's,Retail,1,82.4,NA,2017,NA,NA
+Trader Joe's,Retail,1,82.4,NA,2018,NA,NA
+Trader Joe's,Retail,1,82.4,NA,2019,NA,78.2
+Trader Joe's,Retail,1,82.4,NA,2020,NA,80.7
+Trader Joe's,Retail,1,82.4,NA,2021,NA,NA
+HEB Grocery,Retail,2,82,NA,2017,NA,NA
+HEB Grocery,Retail,2,82,NA,2018,NA,81.1
+HEB Grocery,Retail,2,82,NA,2019,NA,82.5
+HEB Grocery,Retail,2,82,NA,2020,NA,83.1
+HEB Grocery,Retail,2,82,NA,2021,NA,NA
+Patagonia,Retail,3,81.8,-2,2017,NA,NA
+Patagonia,Retail,3,81.8,-2,2018,9,80.44
+Patagonia,Retail,3,81.8,-2,2019,3,81.4
+Patagonia,Retail,3,81.8,-2,2020,32,76.1
+Patagonia,Retail,3,81.8,-2,2021,1,82.7
+The Hershey Company,Food & Beverage,4,81.8,NA,2017,NA,NA
+The Hershey Company,Food & Beverage,4,81.8,NA,2018,NA,NA
+The Hershey Company,Food & Beverage,4,81.8,NA,2019,NA,80.1
+The Hershey Company,Food & Beverage,4,81.8,NA,2020,NA,81.8
+The Hershey Company,Food & Beverage,4,81.8,NA,2021,NA,NA
+Wegmans,Groceries,5,80.6,8,2017,2,85.41
+Wegmans,Groceries,5,80.6,8,2018,2,82.75
+Wegmans,Groceries,5,80.6,8,2019,1,83
+Wegmans,Groceries,5,80.6,8,2020,6,80.4
+Wegmans,Groceries,5,80.6,8,2021,13,79.2
+Samsung,Tech,6,80.5,25,2017,49,67.55
+Samsung,Tech,6,80.5,25,2018,35,70.1
+Samsung,Tech,6,80.5,25,2019,7,73.2
+Samsung,Tech,6,80.5,25,2020,22,69.8
+Samsung,Tech,6,80.5,25,2021,31,77.5
+Toyota Motor Corporation,Automotive,7,80.3,11,2017,16,80.21
+Toyota Motor Corporation,Automotive,7,80.3,11,2018,42,76.1
+Toyota Motor Corporation,Automotive,7,80.3,11,2019,37,75.9
+Toyota Motor Corporation,Automotive,7,80.3,11,2020,15,78.5
+Toyota Motor Corporation,Automotive,7,80.3,11,2021,18,78.7
+Amazon.com,Ecommerce,8,80.3,2,2017,1,86.27
+Amazon.com,Ecommerce,8,80.3,2,2018,1,83.22
+Amazon.com,Ecommerce,8,80.3,2,2019,2,82.3
+Amazon.com,Ecommerce,8,80.3,2,2020,3,81.4
+Amazon.com,Ecommerce,8,80.3,2,2021,10,80
+Honda Motor Company,Automotive,9,80.1,-7,2017,30,77.8
+Honda Motor Company,Automotive,9,80.1,-7,2018,19,79.6
+Honda Motor Company,Automotive,9,80.1,-7,2019,36,76
+Honda Motor Company,Automotive,9,80.1,-7,2020,16,78.5
+Honda Motor Company,Automotive,9,80.1,-7,2021,2,81.6
+Sony,Tech,10,79.6,24,2017,42,76.76
+Sony,Tech,10,79.6,24,2018,31,78.06
+Sony,Tech,10,79.6,24,2019,10,79.4
+Sony,Tech,10,79.6,24,2020,NA,78.2
+Sony,Tech,10,79.6,24,2021,34,77.3
+IBM,Tech,11,79.5,28,2017,40,76.9
+IBM,Tech,11,79.5,28,2018,32,78.04
+IBM,Tech,11,79.5,28,2019,49,74.3
+IBM,Tech,11,79.5,28,2020,33,76
+IBM,Tech,11,79.5,28,2021,39,76.3
+Tesla Motors,Automotive,12,79.5,-4,2017,9,81.7
+Tesla Motors,Automotive,12,79.5,-4,2018,3,81.96
+Tesla Motors,Automotive,12,79.5,-4,2019,42,75.4
+Tesla Motors,Automotive,12,79.5,-4,2020,18,78.1
+Tesla Motors,Automotive,12,79.5,-4,2021,8,80.2
+Blue Cross Blue Shield Association,Healthcare,13,79.2,NA,2017,NA,NA
+Blue Cross Blue Shield Association,Healthcare,13,79.2,NA,2018,NA,NA
+Blue Cross Blue Shield Association,Healthcare,13,79.2,NA,2019,NA,NA
+Blue Cross Blue Shield Association,Healthcare,13,79.2,NA,2020,NA,71.5
+Blue Cross Blue Shield Association,Healthcare,13,79.2,NA,2021,NA,NA
+Berkshire Hathaway,Other,14,79.1,13,2017,22,79.19
+Berkshire Hathaway,Other,14,79.1,13,2018,24,78.97
+Berkshire Hathaway,Other,14,79.1,13,2019,45,75.1
+Berkshire Hathaway,Other,14,79.1,13,2020,40,75.3
+Berkshire Hathaway,Other,14,79.1,13,2021,27,78
+Microsoft,Tech,15,79,21,2017,20,79.29
+Microsoft,Tech,15,79,21,2018,11,80.42
+Microsoft,Tech,15,79,21,2019,9,79.7
+Microsoft,Tech,15,79,21,2020,19,77.8
+Microsoft,Tech,15,79,21,2021,36,76.8
+UPS,Logistics,16,78.9,3,2017,6,82.05
+UPS,Logistics,16,78.9,3,2018,7,81.12
+UPS,Logistics,16,78.9,3,2019,11,79.3
+UPS,Logistics,16,78.9,3,2020,10,79.4
+UPS,Logistics,16,78.9,3,2021,19,78.6
+USAA,Financial Services,17,78.9,-5,2017,11,81.37
+USAA,Financial Services,17,78.9,-5,2018,34,77.78
+USAA,Financial Services,17,78.9,-5,2019,17,78.8
+USAA,Financial Services,17,78.9,-5,2020,21,77.7
+USAA,Financial Services,17,78.9,-5,2021,12,79.2
+The Home Depot,Retail,18,78.9,27,2017,44,75.5
+The Home Depot,Retail,18,78.9,27,2018,26,78.78
+The Home Depot,Retail,18,78.9,27,2019,12,79.1
+The Home Depot,Retail,18,78.9,27,2020,46,74.6
+The Home Depot,Retail,18,78.9,27,2021,45,75.4
+Publix Supermarkets,Groceries,19,78.8,4,2017,3,82.78
+Publix Supermarkets,Groceries,19,78.8,4,2018,8,80.81
+Publix Supermarkets,Groceries,19,78.8,4,2019,6,80.3
+Publix Supermarkets,Groceries,19,78.8,4,2020,4,81.2
+Publix Supermarkets,Groceries,19,78.8,4,2021,23,78.2
+Subaru,Automotive,20,78.8,-6,2017,NA,NA
+Subaru,Automotive,20,78.8,-6,2018,NA,NA
+Subaru,Automotive,20,78.8,-6,2019,NA,NA
+Subaru,Automotive,20,78.8,-6,2020,NA,NA
+Subaru,Automotive,20,78.8,-6,2021,14,79.2
+Apple,Tech,21,78.6,-5,2017,5,82.07
+Apple,Tech,21,78.6,-5,2018,29,78.56
+Apple,Tech,21,78.6,-5,2019,32,76.4
+Apple,Tech,21,78.6,-5,2020,27,76.9
+Apple,Tech,21,78.6,-5,2021,16,79.1
+Netflix,Tech,22,78.5,16,2017,18,79.86
+Netflix,Tech,22,78.5,16,2018,21,79.3
+Netflix,Tech,22,78.5,16,2019,24,77.3
+Netflix,Tech,22,78.5,16,2020,17,78.4
+Netflix,Tech,22,78.5,16,2021,38,76.4
+General Electric,Industrial,23,78.4,17,2017,28,77.9
+General Electric,Industrial,23,78.4,17,2018,52,74.04
+General Electric,Industrial,23,78.4,17,2019,43,75.3
+General Electric,Industrial,23,78.4,17,2020,26,77
+General Electric,Industrial,23,78.4,17,2021,40,76.1
+3M Company,Industrial,24,78.4,1,2017,10,81.5
+3M Company,Industrial,24,78.4,1,2018,NA,81.34
+3M Company,Industrial,24,78.4,1,2019,NA,79.9
+3M Company,Industrial,24,78.4,1,2020,12,78.9
+3M Company,Industrial,24,78.4,1,2021,25,78.1
+The Kroger Company,Groceries,25,78.4,5,2017,21,79.2
+The Kroger Company,Groceries,25,78.4,5,2018,18,79.67
+The Kroger Company,Groceries,25,78.4,5,2019,21,77.9
+The Kroger Company,Groceries,25,78.4,5,2020,9,79.4
+The Kroger Company,Groceries,25,78.4,5,2021,30,77.5
+Costco,Retail,26,78.2,-17,2017,14,81.14
+Costco,Retail,26,78.2,-17,2018,17,79.78
+Costco,Retail,26,78.2,-17,2019,18,78.6
+Costco,Retail,26,78.2,-17,2020,7,80.3
+Costco,Retail,26,78.2,-17,2021,9,80.1
+LG Corporation,Tech,27,78.2,NA,2017,NA,NA
+LG Corporation,Tech,27,78.2,NA,2018,NA,78.9
+LG Corporation,Tech,27,78.2,NA,2019,NA,79
+LG Corporation,Tech,27,78.2,NA,2020,NA,77.4
+LG Corporation,Tech,27,78.2,NA,2021,NA,NA
+Chick-fil-A,Food & Beverage,28,78.1,-24,2017,25,78.52
+Chick-fil-A,Food & Beverage,28,78.1,-24,2018,4,81.68
+Chick-fil-A,Food & Beverage,28,78.1,-24,2019,22,77.5
+Chick-fil-A,Food & Beverage,28,78.1,-24,2020,11,79.2
+Chick-fil-A,Food & Beverage,28,78.1,-24,2021,4,81.1
+Adidas,Retail,29,77.9,20,2017,27,75.66
+Adidas,Retail,29,77.9,20,2018,NA,NA
+Adidas,Retail,29,77.9,20,2019,NA,77.3
+Adidas,Retail,29,77.9,20,2020,NA,78.8
+Adidas,Retail,29,77.9,20,2021,49,75.1
+Walgreens,Retail,30,77.9,16,2017,36,77.1
+Walgreens,Retail,30,77.9,16,2018,41,76.12
+Walgreens,Retail,30,77.9,16,2019,40,75.4
+Walgreens,Retail,30,77.9,16,2020,38,75.6
+Walgreens,Retail,30,77.9,16,2021,46,75.3
+Google,Tech,31,77.8,29,2017,8,82
+Google,Tech,31,77.8,29,2018,28,78.6
+Google,Tech,31,77.8,29,2019,41,75.4
+Google,Tech,31,77.8,29,2020,24,77.2
+Google,Tech,31,77.8,29,2021,60,73.3
+Target,Retail,32,77.8,9,2017,58,73.49
+Target,Retail,32,77.8,9,2018,49,74.36
+Target,Retail,32,77.8,9,2019,72,69.9
+Target,Retail,32,77.8,9,2020,51,74.2
+Target,Retail,32,77.8,9,2021,41,76
+UnitedHealth Group,Healthcare,33,77.5,NA,2017,NA,NA
+UnitedHealth Group,Healthcare,33,77.5,NA,2018,NA,NA
+UnitedHealth Group,Healthcare,33,77.5,NA,2019,NA,73
+UnitedHealth Group,Healthcare,33,77.5,NA,2020,NA,74.7
+UnitedHealth Group,Healthcare,33,77.5,NA,2021,NA,NA
+Lowe's,Retail,34,77.3,-12,2017,19,79.67
+Lowe's,Retail,34,77.3,-12,2018,22,79.27
+Lowe's,Retail,34,77.3,-12,2019,20,77.9
+Lowe's,Retail,34,77.3,-12,2020,29,76.5
+Lowe's,Retail,34,77.3,-12,2021,22,78.3
+Unilever,Consumer Goods,35,77.3,-20,2017,NA,73.08
+Unilever,Consumer Goods,35,77.3,-20,2018,37,76.8
+Unilever,Consumer Goods,35,77.3,-20,2019,25,77.3
+Unilever,Consumer Goods,35,77.3,-20,2020,35,75.9
+Unilever,Consumer Goods,35,77.3,-20,2021,15,79.2
+CVS (CVS Health),Retail,36,77.1,-12,2017,52,74.69
+CVS (CVS Health),Retail,36,77.1,-12,2018,47,75.16
+CVS (CVS Health),Retail,36,77.1,-12,2019,48,74.6
+CVS (CVS Health),Retail,36,77.1,-12,2020,37,75.6
+CVS (CVS Health),Retail,36,77.1,-12,2021,24,78.2
+Procter & Gamble Co.,Consumer Goods,37,77,-2,2017,54,74.1
+Procter & Gamble Co.,Consumer Goods,37,77,-2,2018,20,79.32
+Procter & Gamble Co.,Consumer Goods,37,77,-2,2019,8,79.8
+Procter & Gamble Co.,Consumer Goods,37,77,-2,2020,8,79.9
+Procter & Gamble Co.,Consumer Goods,37,77,-2,2021,35,77
+Dell,Tech,38,76.9,NA,2017,NA,73.4
+Dell,Tech,38,76.9,NA,2018,NA,77.3
+Dell,Tech,38,76.9,NA,2019,NA,77.1
+Dell,Tech,38,76.9,NA,2020,NA,73.5
+Dell,Tech,38,76.9,NA,2021,NA,NA
+FedEx Corporation,Logistics,39,76.8,-6,2017,23,78.99
+FedEx Corporation,Logistics,39,76.8,-6,2018,NA,78.05
+FedEx Corporation,Logistics,39,76.8,-6,2019,NA,77.2
+FedEx Corporation,Logistics,39,76.8,-6,2020,20,77.7
+FedEx Corporation,Logistics,39,76.8,-6,2021,33,77.4
+The Kraft Heinz Company,Food & Beverage,40,76.7,NA,2017,NA,76.2
+The Kraft Heinz Company,Food & Beverage,40,76.7,NA,2018,NA,80.2
+The Kraft Heinz Company,Food & Beverage,40,76.7,NA,2019,NA,79
+The Kraft Heinz Company,Food & Beverage,40,76.7,NA,2020,NA,77.3
+The Kraft Heinz Company,Food & Beverage,40,76.7,NA,2021,NA,NA
+Ford Motor Company,Automotive,41,76.6,9,2017,64,72.88
+Ford Motor Company,Automotive,41,76.6,9,2018,57,72.66
+Ford Motor Company,Automotive,41,76.6,9,2019,58,73
+Ford Motor Company,Automotive,41,76.6,9,2020,63,72.4
+Ford Motor Company,Automotive,41,76.6,9,2021,50,75.1
+Nestle,Consumer Goods,42,76.6,-13,2017,27,78.06
+Nestle,Consumer Goods,42,76.6,-13,2018,33,77.9
+Nestle,Consumer Goods,42,76.6,-13,2019,28,77.1
+Nestle,Consumer Goods,42,76.6,-13,2020,36,75.9
+Nestle,Consumer Goods,42,76.6,-13,2021,29,77.7
+Starbucks Corporation,Food & Beverage,43,76.6,22,2017,55,74.07
+Starbucks Corporation,Food & Beverage,43,76.6,22,2018,54,73.94
+Starbucks Corporation,Food & Beverage,43,76.6,22,2019,59,72.7
+Starbucks Corporation,Food & Beverage,43,76.6,22,2020,55,73.5
+Starbucks Corporation,Food & Beverage,43,76.6,22,2021,65,72.3
+Pfizer,Pharma,44,76.4,-37,2017,NA,69.54
+Pfizer,Pharma,44,76.4,-37,2018,NA,71.09
+Pfizer,Pharma,44,76.4,-37,2019,NA,64.2
+Pfizer,Pharma,44,76.4,-37,2020,61,73
+Pfizer,Pharma,44,76.4,-37,2021,7,80.2
+Stellantis,Automotive,45,76.3,30,2017,73,70.02
+Stellantis,Automotive,45,76.3,30,2018,79,66.73
+Stellantis,Automotive,45,76.3,30,2019,85,65.8
+Stellantis,Automotive,45,76.3,30,2020,NA,70.1
+Stellantis,Automotive,45,76.3,30,2021,75,70.8
+American Express,Financial Services,46,76,-2,2017,63,72.9
+American Express,Financial Services,46,76,-2,2018,50,74.27
+American Express,Financial Services,46,76,-2,2019,47,74.6
+American Express,Financial Services,46,76,-2,2020,NA,74.4
+American Express,Financial Services,46,76,-2,2021,44,75.6
+PepsiCo,Consumer Goods,47,75.8,-27,2017,53,74.34
+PepsiCo,Consumer Goods,47,75.8,-27,2018,45,75.39
+PepsiCo,Consumer Goods,47,75.8,-27,2019,50,74.2
+PepsiCo,Consumer Goods,47,75.8,-27,2020,14,78.7
+PepsiCo,Consumer Goods,47,75.8,-27,2021,20,78.5
+JPMorgan Chase & Co.,Financial Services,48,75.7,6,2017,80,67.07
+JPMorgan Chase & Co.,Financial Services,48,75.7,6,2018,63,70.82
+JPMorgan Chase & Co.,Financial Services,48,75.7,6,2019,52,73.6
+JPMorgan Chase & Co.,Financial Services,48,75.7,6,2020,62,72.7
+JPMorgan Chase & Co.,Financial Services,48,75.7,6,2021,54,74.5
+Hobby Lobby,Retail,49,75.5,4,2017,32,77.51
+Hobby Lobby,Retail,49,75.5,4,2018,44,75.45
+Hobby Lobby,Retail,49,75.5,4,2019,16,78.9
+Hobby Lobby,Retail,49,75.5,4,2020,NA,70.2
+Hobby Lobby,Retail,49,75.5,4,2021,53,74.5
+T-Mobile,Telecom,50,75.4,NA,2017,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2018,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2019,NA,NA
+T-Mobile,Telecom,50,75.4,NA,2020,NA,70.1
+T-Mobile,Telecom,50,75.4,NA,2021,NA,74.3
+Best Buy,Retail,51,75.4,-3,2017,46,75.41
+Best Buy,Retail,51,75.4,-3,2018,46,75.19
+Best Buy,Retail,51,75.4,-3,2019,34,76.1
+Best Buy,Retail,51,75.4,-3,2020,47,74.6
+Best Buy,Retail,51,75.4,-3,2021,48,75.2
+General Motors,Automotive,52,75.4,16,2017,77,67.84
+General Motors,Automotive,52,75.4,16,2018,64,70.73
+General Motors,Automotive,52,75.4,16,2019,70,70.2
+General Motors,Automotive,52,75.4,16,2020,54,73.8
+General Motors,Automotive,52,75.4,16,2021,68,72
+Yum! Brands,Food & Beverage,53,75.3,17,2017,61,73.2
+Yum! Brands,Food & Beverage,53,75.3,17,2018,53,74.02
+Yum! Brands,Food & Beverage,53,75.3,17,2019,68,71.4
+Yum! Brands,Food & Beverage,53,75.3,17,2020,49,74.4
+Yum! Brands,Food & Beverage,53,75.3,17,2021,70,71.5
+Nordstrom,Retail,54,74.8,9,2017,45,75.49
+Nordstrom,Retail,54,74.8,9,2018,55,73.54
+Nordstrom,Retail,54,74.8,9,2019,46,74.9
+Nordstrom,Retail,54,74.8,9,2020,65,72
+Nordstrom,Retail,54,74.8,9,2021,63,72.8
+State Farm Insurance,Financial Services,55,74.6,-3,2017,56,74.03
+State Farm Insurance,Financial Services,55,74.6,-3,2018,NA,71.05
+State Farm Insurance,Financial Services,55,74.6,-3,2019,66,71.5
+State Farm Insurance,Financial Services,55,74.6,-3,2020,45,74.6
+State Farm Insurance,Financial Services,55,74.6,-3,2021,52,74.7
+Nike,Retail,56,74.5,6,2017,33,77.46
+Nike,Retail,56,74.5,6,2018,12,80.24
+Nike,Retail,56,74.5,6,2019,35,76
+Nike,Retail,56,74.5,6,2020,56,73.4
+Nike,Retail,56,74.5,6,2021,62,72.8
+Progressive Corporation,Insurance,57,74.4,NA,2017,NA,72.7
+Progressive Corporation,Insurance,57,74.4,NA,2018,NA,73.2
+Progressive Corporation,Insurance,57,74.4,NA,2019,NA,71.5
+Progressive Corporation,Insurance,57,74.4,NA,2020,NA,74
+Progressive Corporation,Insurance,57,74.4,NA,2021,NA,NA
+The Coca-Cola Company,Food & Beverage,58,74.4,0,2017,12,81.18
+The Coca-Cola Company,Food & Beverage,58,74.4,0,2018,27,78.77
+The Coca-Cola Company,Food & Beverage,58,74.4,0,2019,31,76.8
+The Coca-Cola Company,Food & Beverage,58,74.4,0,2020,41,75.2
+The Coca-Cola Company,Food & Beverage,58,74.4,0,2021,58,73.7
+Spotify,Media,59,74.3,NA,2017,NA,NA
+Spotify,Media,59,74.3,NA,2018,NA,NA
+Spotify,Media,59,74.3,NA,2019,NA,74.8
+Spotify,Media,59,74.3,NA,2020,NA,71.9
+Spotify,Media,59,74.3,NA,2021,NA,NA
+Citigroup,Financial Services,60,73.8,-17,2017,83,66.39
+Citigroup,Financial Services,60,73.8,-17,2018,68,69.62
+Citigroup,Financial Services,60,73.8,-17,2019,75,68.8
+Citigroup,Financial Services,60,73.8,-17,2020,60,73.1
+Citigroup,Financial Services,60,73.8,-17,2021,43,75.7
+Kohl's,Retail,61,73.8,-6,2017,39,76.92
+Kohl's,Retail,61,73.8,-6,2018,38,76.65
+Kohl's,Retail,61,73.8,-6,2019,38,75.9
+Kohl's,Retail,61,73.8,-6,2020,39,75.4
+Kohl's,Retail,61,73.8,-6,2021,55,74.4
+Royal Dutch Shell,Energy,62,73.6,7,2017,79,75.17
+Royal Dutch Shell,Energy,62,73.6,7,2018,66,77.56
+Royal Dutch Shell,Energy,62,73.6,7,2019,56,80
+Royal Dutch Shell,Energy,62,73.6,7,2020,NA,77.6
+Royal Dutch Shell,Energy,62,73.6,7,2021,69,71.6
+Macy's,Retail,63,73.5,1,2017,51,74.79
+Macy's,Retail,63,73.5,1,2018,58,72.51
+Macy's,Retail,63,73.5,1,2019,69,70.7
+Macy's,Retail,63,73.5,1,2020,58,73.1
+Macy's,Retail,63,73.5,1,2021,64,72.3
+Wendy's,Food & Beverage,64,73.5,3,2017,NA,NA
+Wendy's,Food & Beverage,64,73.5,3,2018,NA,74.08
+Wendy's,Food & Beverage,64,73.5,3,2019,NA,72.3
+Wendy's,Food & Beverage,64,73.5,3,2020,50,74.3
+Wendy's,Food & Beverage,64,73.5,3,2021,67,72.1
+The Walt Disney Company,Media,65,73.4,-28,2017,7,82.04
+The Walt Disney Company,Media,65,73.4,-28,2018,5,81.53
+The Walt Disney Company,Media,65,73.4,-28,2019,5,80.4
+The Walt Disney Company,Media,65,73.4,-28,2020,23,77.4
+The Walt Disney Company,Media,65,73.4,-28,2021,37,76.7
+Delta Air Lines,Airline,66,73.1,NA,2017,NA,69
+Delta Air Lines,Airline,66,73.1,NA,2018,NA,73.5
+Delta Air Lines,Airline,66,73.1,NA,2019,NA,69.8
+Delta Air Lines,Airline,66,73.1,NA,2020,NA,NA
+Delta Air Lines,Airline,66,73.1,NA,2021,NA,70.4
+Verizon Communications,Telecom,67,72.9,-6,2017,71,71.12
+Verizon Communications,Telecom,67,72.9,-6,2018,65,70.32
+Verizon Communications,Telecom,67,72.9,-6,2019,64,71.6
+Verizon Communications,Telecom,67,72.9,-6,2020,52,73.9
+Verizon Communications,Telecom,67,72.9,-6,2021,61,73.2
+DoorDash,Food Delivery,68,72.7,-2,2017,41,76.79
+DoorDash,Food Delivery,68,72.7,-2,2018,48,75
+DoorDash,Food Delivery,68,72.7,-2,2019,57,73.1
+DoorDash,Food Delivery,68,72.7,-2,2020,78,69.1
+DoorDash,Food Delivery,68,72.7,-2,2021,66,72.1
+"Electronic Arts, Inc.",Tech,69,72.3,-18,2017,NA,NA
+"Electronic Arts, Inc.",Tech,69,72.3,-18,2018,NA,NA
+"Electronic Arts, Inc.",Tech,69,72.3,-18,2019,51,73.6
+"Electronic Arts, Inc.",Tech,69,72.3,-18,2020,NA,75.3
+"Electronic Arts, Inc.",Tech,69,72.3,-18,2021,51,74.7
+Chipotle,Food & Beverage,70,72.2,6,2017,84,66.36
+Chipotle,Food & Beverage,70,72.2,6,2018,75,67.69
+Chipotle,Food & Beverage,70,72.2,6,2019,81,66.8
+Chipotle,Food & Beverage,70,72.2,6,2020,70,71.2
+Chipotle,Food & Beverage,70,72.2,6,2021,76,70.8
+AT&T,Telecom,71,71.9,15,2017,75,68.42
+AT&T,Telecom,71,71.9,15,2018,70,68.31
+AT&T,Telecom,71,71.9,15,2019,74,69.5
+AT&T,Telecom,71,71.9,15,2020,76,69.3
+AT&T,Telecom,71,71.9,15,2021,86,67.6
+Johnson & Johnson,Pharma,72,71.8,0,2017,4,82.57
+Johnson & Johnson,Pharma,72,71.8,0,2018,40,76.49
+Johnson & Johnson,Pharma,72,71.8,0,2019,33,76.3
+Johnson & Johnson,Pharma,72,71.8,0,2020,68,71.4
+Johnson & Johnson,Pharma,72,71.8,0,2021,72,71.4
+Robinhood,Tech,73,71.8,6,2017,NA,NA
+Robinhood,Tech,73,71.8,6,2018,NA,NA
+Robinhood,Tech,73,71.8,6,2019,NA,NA
+Robinhood,Tech,73,71.8,6,2020,NA,NA
+Robinhood,Tech,73,71.8,6,2021,79,70.4
+Dollar Tree,Retail,74,70.9,0,2017,NA,70.38
+Dollar Tree,Retail,74,70.9,0,2018,61,71.5
+Dollar Tree,Retail,74,70.9,0,2019,65,71.5
+Dollar Tree,Retail,74,70.9,0,2020,NA,69.6
+Dollar Tree,Retail,74,70.9,0,2021,74,71.1
+Grubhub Inc.,Food Delivery,75,70.9,NA,2017,NA,NA
+Grubhub Inc.,Food Delivery,75,70.9,NA,2018,NA,NA
+Grubhub Inc.,Food Delivery,75,70.9,NA,2019,NA,NA
+Grubhub Inc.,Food Delivery,75,70.9,NA,2020,NA,72.3
+Grubhub Inc.,Food Delivery,75,70.9,NA,2021,NA,NA
+Big Lots,Retail,76,70.8,NA,2017,NA,NA
+Big Lots,Retail,76,70.8,NA,2018,NA,NA
+Big Lots,Retail,76,70.8,NA,2019,NA,NA
+Big Lots,Retail,76,70.8,NA,2020,NA,NA
+Big Lots,Retail,76,70.8,NA,2021,NA,NA
+Walmart,Retail,77,70.7,6,2017,76,67.96
+Walmart,Retail,77,70.7,6,2018,69,68.52
+Walmart,Retail,77,70.7,6,2019,79,66.9
+Walmart,Retail,77,70.7,6,2020,85,68.1
+Walmart,Retail,77,70.7,6,2021,83,69.7
+Shein,Retail,78,70.6,NA,2017,NA,NA
+Shein,Retail,78,70.6,NA,NA,NA,NA
+Shein,Retail,78,70.6,NA,2019,NA,NA
+Shein,Retail,78,70.6,NA,2020,NA,NA
+Shein,Retail,78,70.6,NA,2021,NA,NA
+Bank of America,Financial Services,79,70.5,-2,2017,95,59.69
+Bank of America,Financial Services,79,70.5,-2,2018,85,64.94
+Bank of America,Financial Services,79,70.5,-2,2019,92,60.9
+Bank of America,Financial Services,79,70.5,-2,2020,87,67.8
+Bank of America,Financial Services,79,70.5,-2,2021,77,70.5
+Goldman Sachs,Financial Services,80,70.4,NA,2017,NA,56.3
+Goldman Sachs,Financial Services,80,70.4,NA,2018,NA,61.4
+Goldman Sachs,Financial Services,80,70.4,NA,2019,NA,60
+Goldman Sachs,Financial Services,80,70.4,NA,2020,NA,73.8
+Goldman Sachs,Financial Services,80,70.4,NA,2021,NA,63.8
+Burger King,Food & Beverage,81,70.3,3,2017,70,71.41
+Burger King,Food & Beverage,81,70.3,3,2018,71,68.26
+Burger King,Food & Beverage,81,70.3,3,2019,NA,68
+Burger King,Food & Beverage,81,70.3,3,2020,82,68.4
+Burger King,Food & Beverage,81,70.3,3,2021,84,69.4
+Spectrum,Telecom,82,70.3,-71,2017,NA,NA
+Spectrum,Telecom,82,70.3,-71,2018,NA,NA
+Spectrum,Telecom,82,70.3,-71,2019,NA,NA
+Spectrum,Telecom,82,70.3,-71,2020,NA,63.5
+Spectrum,Telecom,82,70.3,-71,2021,11,79.9
+eBay,Ecommerce,83,69.8,-17,2017,41,76.79
+eBay,Ecommerce,83,69.8,-17,2018,48,75
+eBay,Ecommerce,83,69.8,-17,2019,57,73.1
+eBay,Ecommerce,83,69.8,-17,2020,78,69.1
+eBay,Ecommerce,83,69.8,-17,2021,66,72.1
+Subway,Food & Beverage,84,69.6,NA,2017,NA,NA
+Subway,Food & Beverage,84,69.6,NA,2018,NA,NA
+Subway,Food & Beverage,84,69.6,NA,2019,NA,68.5
+Subway,Food & Beverage,84,69.6,NA,2020,NA,69.4
+Subway,Food & Beverage,84,69.6,NA,2021,NA,NA
+Comcast,Media,85,69.5,7,2017,90,63.72
+Comcast,Media,85,69.5,7,2018,78,67.12
+Comcast,Media,85,69.5,7,2019,91,61.4
+Comcast,Media,85,69.5,7,2020,93,63.3
+Comcast,Media,85,69.5,7,2021,92,65.8
+McDonald's,Food & Beverage,86,69.3,-13,2017,74,69.74
+McDonald's,Food & Beverage,86,69.3,-13,2018,59,72.39
+McDonald's,Food & Beverage,86,69.3,-13,2019,88,63.7
+McDonald's,Food & Beverage,86,69.3,-13,2020,72,70.8
+McDonald's,Food & Beverage,86,69.3,-13,2021,73,71.1
+JCPenney,Retail,87,68.6,2,2017,57,74
+JCPenney,Retail,87,68.6,2,2018,72,68.07
+JCPenney,Retail,87,68.6,2,2019,83,66.6
+JCPenney,Retail,87,68.6,2,2020,92,63.5
+JCPenney,Retail,87,68.6,2,2021,89,66.3
+ExxonMobil,Energy,88,68.1,-8,2017,87,64.55
+ExxonMobil,Energy,88,68.1,-8,2018,80,66.54
+ExxonMobil,Energy,88,68.1,-8,2019,77,67.5
+ExxonMobil,Energy,88,68.1,-8,2020,73,70.6
+ExxonMobil,Energy,88,68.1,-8,2021,80,70.4
+BP,Energy,89,68,-4,2017,89,63.99
+BP,Energy,89,68,-4,2018,94,60.05
+BP,Energy,89,68,-4,2019,84,66.5
+BP,Energy,89,68,-4,2020,91,65.6
+BP,Energy,89,68,-4,2021,85,68.2
+My Pillow,Ecommerce,90,67.6,1,2017,NA,NA
+My Pillow,Ecommerce,90,67.6,1,2018,NA,NA
+My Pillow,Ecommerce,90,67.6,1,2019,NA,NA
+My Pillow,Ecommerce,90,67.6,1,2020,NA,NA
+My Pillow,Ecommerce,90,67.6,1,2021,91,66
+Uber,Tech,91,67.3,-1,2017,NA,72.13
+Uber,Tech,91,67.3,-1,2018,76,67.64
+Uber,Tech,91,67.3,-1,2019,78,67.3
+Uber,Tech,91,67.3,-1,2020,80,68.7
+Uber,Tech,91,67.3,-1,2021,90,66.2
+Wells Fargo & Company,Financial Services,92,67.1,3,2017,99,49.11
+Wells Fargo & Company,Financial Services,92,67.1,3,2018,97,57.78
+Wells Fargo & Company,Financial Services,92,67.1,3,2019,96,52.7
+Wells Fargo & Company,Financial Services,92,67.1,3,2020,96,61.2
+Wells Fargo & Company,Financial Services,92,67.1,3,2021,95,63
+Sears Holdings Corporation,Retail,93,64.2,3,2017,94,62.74
+Sears Holdings Corporation,Retail,93,64.2,3,2018,88,64.09
+Sears Holdings Corporation,Retail,93,64.2,3,2019,97,52.3
+Sears Holdings Corporation,Retail,93,64.2,3,2020,NA,63.7
+Sears Holdings Corporation,Retail,93,64.2,3,2021,96,61.2
+TikTok,Tech,94,63.7,0,2017,NA,NA
+TikTok,Tech,94,63.7,0,2018,NA,NA
+TikTok,Tech,94,63.7,0,2019,NA,NA
+TikTok,Tech,94,63.7,0,2020,NA,66.5
+TikTok,Tech,94,63.7,0,2021,94,63
+Spirit Airlines,Airline,95,63.3,NA,2017,NA,NA
+Spirit Airlines,Airline,95,63.3,NA,2018,NA,NA
+Spirit Airlines,Airline,95,63.3,NA,2019,NA,61.8
+Spirit Airlines,Airline,95,63.3,NA,2020,NA,62.8
+Spirit Airlines,Airline,95,63.3,NA,2021,NA,NA
+Fox Corporation,Media,96,62.3,3,2017,NA,NA
+Fox Corporation,Media,96,62.3,3,2018,NA,NA
+Fox Corporation,Media,96,62.3,3,2019,NA,NA
+Fox Corporation,Media,96,62.3,3,2020,94,63.1
+Fox Corporation,Media,96,62.3,3,2021,99,59.2
+Facebook,Tech,97,60.9,1,2017,66,72.29
+Facebook,Tech,97,60.9,1,2018,51,74.07
+Facebook,Tech,97,60.9,1,2019,94,58.1
+Facebook,Tech,97,60.9,1,2020,97,60.8
+Facebook,Tech,97,60.9,1,2021,98,60
+Twitter,Tech,98,60.3,-5,2017,NA,NA
+Twitter,Tech,98,60.3,-5,2018,NA,65.15
+Twitter,Tech,98,60.3,-5,2019,89,61.9
+Twitter,Tech,98,60.3,-5,2020,95,62.1
+Twitter,Tech,98,60.3,-5,2021,93,63.4
+Wish.com,Ecommerce,99,60.1,-2,2017,NA,NA
+Wish.com,Ecommerce,99,60.1,-2,2018,NA,NA
+Wish.com,Ecommerce,99,60.1,-2,2019,NA,NA
+Wish.com,Ecommerce,99,60.1,-2,2020,NA,NA
+Wish.com,Ecommerce,99,60.1,-2,2021,97,60.7
+The Trump Organization,Other,100,54.5,0,2017,NA,NA
+The Trump Organization,Other,100,54.5,0,2018,96,57.94
+The Trump Organization,Other,100,54.5,0,2019,98,50.1
+The Trump Organization,Other,100,54.5,0,2020,99,54.5
+The Trump Organization,Other,100,54.5,0,2021,100,56.9

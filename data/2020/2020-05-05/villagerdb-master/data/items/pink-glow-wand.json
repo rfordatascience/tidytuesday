@@ -1,0 +1,19 @@
+{
+  "id": "pink-glow-wand",
+  "name": "Pink Glow Wand",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Nookling stores (December)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        }
+      ]
+    }
+  }
+}

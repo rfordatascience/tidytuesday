@@ -1,0 +1,21 @@
+{
+  "id": "sweets-bookcase",
+  "name": "Sweets Bookcase",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Fairy Tale"
+      ],
+      "set": "Sweets",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 22500
+      },
+      "sources": [
+        "GracieGrace (fall)"
+      ]
+    }
+  }
+}

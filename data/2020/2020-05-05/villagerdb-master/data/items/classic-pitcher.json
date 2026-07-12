@@ -1,0 +1,18 @@
+{
+  "id": "classic-pitcher",
+  "name": "Classic Pitcher",
+  "category": "Furniture",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "clay": 4
+      }
+    }
+  }
+}

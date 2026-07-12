@@ -1,0 +1,19 @@
+{
+  "id": "snowflake-pochette",
+  "name": "Snowflake Pochette",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9600
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

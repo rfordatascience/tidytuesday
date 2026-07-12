@@ -1,0 +1,18 @@
+{
+  "id": "large-cardboard-boxes",
+  "name": "Large Cardboard Boxes",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "recipe": {
+        "cardboard-box": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "snowy-knit-cap",
+  "name": "Snowy Knit Cap",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 175
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 700
+        }
+      ]
+    }
+  },
+  "category": "Hats"
+}

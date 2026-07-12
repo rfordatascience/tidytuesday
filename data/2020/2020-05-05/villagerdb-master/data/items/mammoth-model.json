@@ -1,0 +1,23 @@
+{
+  "id": "mammoth-model",
+  "name": "Mammoth Model",
+  "category": "Fossils",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5500
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2200
+        }
+      ]
+    }
+  }
+}

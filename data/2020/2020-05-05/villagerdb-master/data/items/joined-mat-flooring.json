@@ -1,0 +1,19 @@
+{
+  "id": "joined-mat-flooring",
+  "name": "Joined-mat Flooring",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1050
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

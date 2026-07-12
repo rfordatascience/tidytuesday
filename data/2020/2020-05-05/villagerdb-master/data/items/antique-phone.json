@@ -1,0 +1,19 @@
+{
+  "id": "antique-phone",
+  "name": "Antique Phone",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 16000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

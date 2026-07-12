@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-wand",
+  "name": "Bamboo Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 3900
+      },
+      "recipe": {
+        "young-spring-bamboo": 6,
+        "star-fragment": 3
+      }
+    }
+  },
+  "category": "Tools"
+}

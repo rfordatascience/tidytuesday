@@ -1,0 +1,57 @@
+{
+  "gender": "male",
+  "species": "duck",
+  "birthday": "2-1",
+  "games": {
+    "ac": {
+      "personality": "jock",
+      "clothes": "no-2-shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "afe+": {
+      "personality": "jock",
+      "clothes": "no-2-shirt",
+      "song": "King K.K."
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "no-2-shirt",
+      "song": "King K.K.",
+      "phrase": "quacko",
+      "quote": "Even though there's no \"I\" in team, there's no \"everybody\" either!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "no-2-shirt",
+      "song": "King K.K.",
+      "phrase": "quacko"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "no-2-shirt",
+      "song": "King K.K.",
+      "phrase": "quacko",
+      "skill": "Bunting",
+      "goal": "Race car driver",
+      "fear": "Werewolf Hood",
+      "quote": "Even though there's no 'I' in team, there is a 'me'!",
+      "siblings": "Second quadruplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "green",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "quacko",
+      "song": "King K.K."
+    }
+  },
+  "name": "Bill",
+  "id": "bill"
+}

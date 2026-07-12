@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "2-21",
+  "collab": "Zelda",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "ganon-outfit",
+      "song": "K.K. Dirge",
+      "phrase": "heh heh",
+      "skill": "Javelin throwing",
+      "goal": "Master of the world",
+      "fear": "Ghost Mask",
+      "quote": "Never be ashamed to pig out.",
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "Black",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    }
+  },
+  "name": "Ganon",
+  "id": "ganon"
+}

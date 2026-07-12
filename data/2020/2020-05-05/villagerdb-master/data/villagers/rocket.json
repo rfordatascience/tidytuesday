@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "4-14",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "no-4-shirt",
+      "song": "K.K. Adventure",
+      "phrase": "vroom",
+      "skill": "Cramming for tests",
+      "goal": "Swimmer",
+      "fear": "Bug Mask",
+      "quote": "Art feeds the soul. So does pizza.",
+      "siblings": "Youngest of 4 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "The regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "vroom",
+      "song": "K.K. Adventure"
+    }
+  },
+  "name": "Rocket",
+  "id": "rocket"
+}

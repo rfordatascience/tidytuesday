@@ -1,0 +1,14 @@
+{
+  "id": "rotten-pear",
+  "name": "Rotten Pear",
+  "category": "Fruit",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Dying perfect pear tree",
+        "rotten pear tree"
+      ]
+    }
+  }
+}

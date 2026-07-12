@@ -1,0 +1,14 @@
+{
+  "id": "streetlamp",
+  "name": "Streetlamp",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 5000
+      }
+    }
+  },
+  "category": "Furniture"
+}

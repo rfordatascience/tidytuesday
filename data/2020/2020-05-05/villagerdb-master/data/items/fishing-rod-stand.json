@@ -1,0 +1,19 @@
+{
+  "id": "fishing-rod-stand",
+  "name": "Fishing-rod Stand",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

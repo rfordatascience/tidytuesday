@@ -1,0 +1,24 @@
+{
+  "id": "observatory-floor",
+  "name": "Observatory Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1200
+      },
+      "rvs": [
+        "celeste"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

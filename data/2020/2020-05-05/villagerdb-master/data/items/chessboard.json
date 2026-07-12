@@ -1,0 +1,19 @@
+{
+  "id": "chessboard",
+  "name": "Chessboard",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 23750
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 95000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,44 @@
+{
+  "gender": "male",
+  "species": "bull",
+  "birthday": "4-20",
+  "games": {
+    "ac": {
+      "personality": "lazy",
+      "clothes": "seven-ball-shirt",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude"
+    },
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "seven-ball-shirt",
+      "song": "K.K. Rockabilly"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "seven-ball-tee",
+      "song": "K.K. Rockabilly",
+      "phrase": "moo-dude",
+      "skill": "Hitting snooze",
+      "goal": "Firefighter",
+      "fear": "Ghost Mask",
+      "quote": "As a cow grows, so do its nostrils.",
+      "siblings": "Youngest of 2 kids",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "Brown",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "a little bit of milk",
+        "sugar": "1 spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "moo-dude",
+      "song": "K.K. Rockabilly"
+    }
+  },
+  "name": "Stu",
+  "id": "stu"
+}

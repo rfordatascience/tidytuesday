@@ -1,0 +1,27 @@
+{
+  "id": "horse-mackerel",
+  "name": "Horse Mackerel",
+  "category": "Fish",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "In the sea."
+      ]
+    },
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Sea (year round)"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "orange-lily",
+  "name": "Orange Lily",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Hybrid - From Yellow and Red Lily."
+      ]
+    }
+  }
+}

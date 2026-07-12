@@ -1,0 +1,19 @@
+{
+  "id": "red-perforated-board-wall",
+  "name": "Red Perforated-board Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 295
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1180
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

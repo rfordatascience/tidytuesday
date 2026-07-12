@@ -1,0 +1,17 @@
+{
+  "id": "blue-rose",
+  "name": "Blue Rose",
+  "category": "Flowers",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2500
+      },
+      "sources": [
+        "Hybrid - From two Red Roses that are offsprings of an Orange and Purple cross."
+      ]
+    }
+  }
+}

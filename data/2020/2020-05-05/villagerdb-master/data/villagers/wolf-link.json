@@ -1,0 +1,29 @@
+{
+  "gender": "male",
+  "species": "wolf",
+  "birthday": "12-2",
+  "collab": "Zelda",
+  "games": {
+    "nl": {
+      "personality": "smug",
+      "clothes": "wolf-link-outfit",
+      "song": "K.K. Western",
+      "phrase": "Ruff ruff",
+      "skill": "Howling",
+      "goal": "Normal boy",
+      "fear": "Skeleton Hood",
+      "quote": "Walk on the wild side.",
+      "siblings": "Only child",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Green",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "Regular amount of milk",
+        "sugar": "Two spoonfuls of sugar"
+      }
+    }
+  },
+  "name": "Wolf Link",
+  "id": "wolf-link"
+}

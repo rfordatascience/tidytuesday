@@ -1,0 +1,39 @@
+{
+  "id": "sailors-tee",
+  "name": "Sailor's Tee",
+  "category": "Tops",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Official"
+      ],
+      "set": "Sailor Outfit",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 80
+      },
+      "sources": [
+        "Able Sisters (spring)"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 320
+        }
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 262
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1050
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kitschy-wall",
+  "name": "Kitschy Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 310
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1240
+        }
+      ]
+    }
+  }
+}

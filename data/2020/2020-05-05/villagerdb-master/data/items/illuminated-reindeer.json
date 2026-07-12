@@ -1,0 +1,19 @@
+{
+  "id": "illuminated-reindeer",
+  "name": "Illuminated Reindeer",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 4350
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 17400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

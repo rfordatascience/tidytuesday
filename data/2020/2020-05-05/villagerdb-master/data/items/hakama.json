@@ -1,0 +1,19 @@
+{
+  "id": "hakama",
+  "name": "Hakama",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 795
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 3180
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

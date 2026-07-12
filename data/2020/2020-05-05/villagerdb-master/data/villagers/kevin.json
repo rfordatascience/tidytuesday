@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "pig",
+  "birthday": "4-26",
+  "games": {
+    "nl": {
+      "personality": "jock",
+      "clothes": "after-school-jacket",
+      "song": "K.K. Island",
+      "phrase": "weeweewee",
+      "skill": "Whistling",
+      "goal": "Sumo wrestler",
+      "fear": "Mummy Mask",
+      "quote": "Sometimes it's OK to get dirty.",
+      "siblings": "Second quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Official",
+      "favoriteColor": "orange",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "weeweewee",
+      "song": "K.K. Island"
+    }
+  },
+  "name": "Kevin",
+  "id": "kevin"
+}

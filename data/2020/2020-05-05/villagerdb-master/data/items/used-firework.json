@@ -1,0 +1,13 @@
+{
+  "id": "used-firework",
+  "name": "Used Firework",
+  "category": "Usables",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sources": [
+        "Using fountain firework"
+      ]
+    }
+  }
+}

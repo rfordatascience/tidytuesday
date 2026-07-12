@@ -1,0 +1,29 @@
+{
+  "gender": "female",
+  "species": "deer",
+  "birthday": "3-6",
+  "collab": "Sanrio",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "phrase": "pound cake",
+      "clothes": "my-melody-outfit",
+      "skill": "Making sweets",
+      "goal": "Pastry chef",
+      "song": "K.K. Stroll",
+      "fear": "Werewolf Hood",
+      "quote": "Always look a gift horse in the mouth.",
+      "siblings": "Eldest of 2 kids",
+      "favoriteStyle": "Cute/Fancy",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "Pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "3 spoonfulls of sugar"
+      }
+    }
+  },
+  "name": "Chelsea",
+  "id": "chelsea"
+}

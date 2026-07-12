@@ -1,0 +1,23 @@
+{
+  "id": "pleather-crossbody-bag",
+  "name": "Pleather Crossbody Bag",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Kicks"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

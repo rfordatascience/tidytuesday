@@ -1,0 +1,18 @@
+{
+  "id": "green-grass-skirt",
+  "name": "Green Grass Skirt",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 140
+      },
+      "recipe": {
+        "clump-of-weeds": 7
+      }
+    }
+  },
+  "category": "Bottoms"
+}

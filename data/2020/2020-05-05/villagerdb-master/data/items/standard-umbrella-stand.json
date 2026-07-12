@@ -1,0 +1,24 @@
+{
+  "id": "standard-umbrella-stand",
+  "name": "Standard Umbrella Stand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2250
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 9000
+        }
+      ],
+      "recipe": {
+        "iron-nugget": 3
+      }
+    }
+  },
+  "category": "Furniture"
+}

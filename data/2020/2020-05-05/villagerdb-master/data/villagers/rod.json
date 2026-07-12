@@ -1,0 +1,51 @@
+{
+  "gender": "male",
+  "species": "mouse",
+  "birthday": "8-14",
+  "games": {
+    "afe+": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. March"
+    },
+    "ww": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. March",
+      "phrase": "ace",
+      "quote": "You're not done 'til your muscles are screaming in agony!"
+    },
+    "cf": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. March",
+      "phrase": "ace"
+    },
+    "nl": {
+      "personality": "jock",
+      "clothes": "zipper-shirt",
+      "song": "K.K. March",
+      "phrase": "ace",
+      "fear": "Bug Mask",
+      "quote": "If you can't beat 'em, work harder.",
+      "skill": "Sprinting",
+      "goal": "Explorer",
+      "siblings": "Youngest quadruplet",
+      "favoriteStyle": "Rock",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "purple",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "jock",
+      "phrase": "ace",
+      "song": "K.K. March"
+    }
+  },
+  "name": "Rod",
+  "id": "rod"
+}

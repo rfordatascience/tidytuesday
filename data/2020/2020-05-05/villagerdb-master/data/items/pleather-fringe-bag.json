@@ -1,0 +1,19 @@
+{
+  "id": "pleather-fringe-bag",
+  "name": "Pleather Fringe Bag",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 600
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2400
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dance-warm-up-pants",
+  "name": "Dance Warm-up Pants",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 390
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1560
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

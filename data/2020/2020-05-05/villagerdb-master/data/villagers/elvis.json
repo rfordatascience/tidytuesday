@@ -1,0 +1,46 @@
+{
+  "gender": "male",
+  "species": "lion",
+  "birthday": "7-23",
+  "games": {
+    "ww": {
+      "personality": "cranky",
+      "clothes": "royal-shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh",
+      "quote": "Thank you very much."
+    },
+    "cf": {
+      "personality": "cranky",
+      "clothes": "royal-shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh"
+    },
+    "nl": {
+      "personality": "cranky",
+      "clothes": "royal-shirt",
+      "song": "K.K. Casbah",
+      "phrase": "unh-hunh",
+      "skill": "Competitive eating",
+      "goal": "Tycoon",
+      "fear": "Bug Mask",
+      "quote": "Better a live coward than a dead hero.",
+      "siblings": "Eldest quadruplet",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Basic",
+      "favoriteColor": "gray",
+      "coffee": {
+        "beans": "Blue Mountain",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "unh-hunh",
+      "song": "K.K. Casbah"
+    }
+  },
+  "name": "Elvis",
+  "id": "elvis"
+}

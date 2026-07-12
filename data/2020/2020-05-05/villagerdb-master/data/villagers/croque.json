@@ -1,0 +1,33 @@
+{
+  "gender": "male",
+  "species": "frog",
+  "birthday": "7-18",
+  "games": {
+    "nl": {
+      "personality": "cranky",
+      "clothes": "imperial-shirt",
+      "song": "K.K. Jongara",
+      "phrase": "as if",
+      "skill": "Bunting",
+      "goal": "Architect",
+      "fear": "Mummy Mask",
+      "quote": "Where there's smoke, there's fire.",
+      "siblings": "Eldest of 3 kids",
+      "favoriteStyle": "Iconic",
+      "dislikedStyle": "Cute/Fancy",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Kilamanjaro",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "cranky",
+      "phrase": "as if",
+      "song": "K.K. Jongara"
+    }
+  },
+  "name": "Croque",
+  "id": "croque"
+}

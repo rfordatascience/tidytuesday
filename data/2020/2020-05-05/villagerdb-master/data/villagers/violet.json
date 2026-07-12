@@ -1,0 +1,44 @@
+{
+  "gender": "female",
+  "species": "gorilla",
+  "birthday": "9-1",
+  "games": {
+    "afe+": {
+      "personality": "peppy",
+      "clothes": "red-aloha-shirt",
+      "song": "K.K. Faire"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "misty-tee",
+      "song": "K.K. Faire",
+      "phrase": "faboom"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "misty-tee",
+      "song": "K.K. Faire",
+      "phrase": "faboom",
+      "skill": "Blowing bubbles",
+      "goal": "Pharmacist",
+      "fear": "Werewolf Hood",
+      "quote": "Pearls are a pink gorilla's best friend.",
+      "siblings": "Second of 5 kids",
+      "favoriteStyle": "Historical",
+      "dislikedStyle": "Rock",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "faboom",
+      "song": "K.K. Faire"
+    }
+  },
+  "name": "Violet",
+  "id": "violet"
+}

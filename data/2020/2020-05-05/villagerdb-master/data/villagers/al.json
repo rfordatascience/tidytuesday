@@ -1,0 +1,39 @@
+{
+  "gender": "male",
+  "species": "gorilla",
+  "birthday": "10-18",
+  "games": {
+    "cf": {
+      "personality": "lazy",
+      "clothes": "red-warm-up-suit",
+      "song": "Steep Hill",
+      "phrase": "hoo hoo ha"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "red-warm-up-suit",
+      "song": "Steep Hill",
+      "phrase": "Ayyeeee",
+      "skill": "Jumping rope",
+      "goal": "Journalist",
+      "fear": "Mummy Mask",
+      "quote": "Life is a buffet - always go back for seconds.",
+      "siblings": "Eldest of 7 kids",
+      "favoriteStyle": "Basic",
+      "dislikedStyle": "Official",
+      "favoriteColor": "pink",
+      "coffee": {
+        "beans": "Mocha",
+        "milk": "Lots of milk",
+        "sugar": "Three spoonfuls of sugar"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "Ayyeeee",
+      "song": "Steep Hill"
+    }
+  },
+  "name": "Al",
+  "id": "al"
+}

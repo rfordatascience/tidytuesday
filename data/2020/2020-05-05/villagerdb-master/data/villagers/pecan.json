@@ -1,0 +1,57 @@
+{
+  "gender": "female",
+  "species": "squirrel",
+  "birthday": "9-10",
+  "games": {
+    "ac": {
+      "personality": "snooty",
+      "clothes": "red-check-shirt",
+      "song": "Cafe K.K.",
+      "phrase": "chipmunk"
+    },
+    "afe+": {
+      "personality": "snooty",
+      "clothes": "red-check-shirt",
+      "song": "Cafe K.K."
+    },
+    "ww": {
+      "personality": "snooty",
+      "clothes": "red-check-tee",
+      "song": "Cafe K.K.",
+      "phrase": "chipmunk",
+      "quote": "A picture of me is worth a thousand pictures of someone else!"
+    },
+    "cf": {
+      "personality": "snooty",
+      "clothes": "red-check-tee",
+      "song": "Cafe K.K.",
+      "phrase": "chipmunk"
+    },
+    "nl": {
+      "personality": "snooty",
+      "clothes": "red-check-tee",
+      "song": "Cafe K.K.",
+      "phrase": "chipmunk",
+      "skill": "Forgetting stuff",
+      "goal": "Translator",
+      "fear": "Werewolf Hood",
+      "quote": "Promises are like pie crusts - they're made to be broken.",
+      "siblings": "Older twin",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Sporty",
+      "favoriteColor": "red",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "No milk",
+        "sugar": "No sugar"
+      }
+    },
+    "nh": {
+      "personality": "snooty",
+      "phrase": "chipmunk",
+      "song": "Cafe K.K."
+    }
+  },
+  "name": "Pecan",
+  "id": "pecan"
+}

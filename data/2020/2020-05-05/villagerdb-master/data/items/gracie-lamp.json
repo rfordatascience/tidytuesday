@@ -1,0 +1,21 @@
+{
+  "id": "gracie-lamp",
+  "name": "Gracie Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Trendy"
+      ],
+      "set": "Gracie",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30000
+      },
+      "sources": [
+        "GracieGrace (summer)"
+      ]
+    }
+  }
+}

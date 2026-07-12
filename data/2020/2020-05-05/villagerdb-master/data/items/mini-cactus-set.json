@@ -1,0 +1,19 @@
+{
+  "id": "mini-cactus-set",
+  "name": "Mini-cactus Set",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 100
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 400
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

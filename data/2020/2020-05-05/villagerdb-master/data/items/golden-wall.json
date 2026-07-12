@@ -1,0 +1,33 @@
+{
+  "id": "golden-wall",
+  "name": "Golden Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Antique"
+      ],
+      "set": "Golden",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      },
+      "sources": [
+        "Re-Tail (refurbish)"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 40000
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 160000
+        }
+      ]
+    }
+  }
+}

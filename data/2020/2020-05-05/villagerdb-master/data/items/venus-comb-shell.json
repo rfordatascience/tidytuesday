@@ -1,0 +1,17 @@
+{
+  "id": "venus-comb-shell",
+  "name": "Venus-comb Shell",
+  "category": "Seashells",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 150
+      },
+      "sources": [
+        "Beach"
+      ]
+    }
+  }
+}

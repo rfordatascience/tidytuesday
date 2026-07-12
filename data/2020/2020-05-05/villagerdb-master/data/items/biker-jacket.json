@@ -1,0 +1,20 @@
+{
+  "id": "biker-jacket",
+  "name": "Biker Jacket",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 437
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1750
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

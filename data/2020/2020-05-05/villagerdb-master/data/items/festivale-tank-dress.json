@@ -1,0 +1,33 @@
+{
+  "id": "festivale-tank-dress",
+  "name": "Festivale Tank Dress",
+  "category": "Dresses",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "fashionThemes": [
+        "Iconic"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 170
+      },
+      "sources": [
+        "Able Sisters (the week before Festivale through Festivale)"
+      ],
+      "rvs": [
+        "pave"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 680
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

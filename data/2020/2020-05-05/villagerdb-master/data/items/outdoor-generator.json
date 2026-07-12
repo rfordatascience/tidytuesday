@@ -1,0 +1,23 @@
+{
+  "id": "outdoor-generator",
+  "name": "Outdoor Generator",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Nook's Cranny"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1225
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 4900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

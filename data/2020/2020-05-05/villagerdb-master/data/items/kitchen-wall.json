@@ -1,0 +1,30 @@
+{
+  "id": "kitchen-wall",
+  "name": "Kitchen Wall",
+  "category": "Wallpaper",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 280
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "rvs": [
+        "cashmere"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1120
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

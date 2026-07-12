@@ -1,0 +1,24 @@
+{
+  "id": "gold-hha-trophy",
+  "name": "Gold Hha Trophy",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      },
+      "sources": [
+        "HHA (100",
+        "000 points)"
+      ]
+    },
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 450
+      }
+    }
+  }
+}

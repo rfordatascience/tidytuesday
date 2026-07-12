@@ -1,0 +1,19 @@
+{
+  "id": "iron-worktable",
+  "name": "Iron Worktable",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 7500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 30000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rattan-vanity",
+  "name": "Rattan Vanity",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1475
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 5900
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

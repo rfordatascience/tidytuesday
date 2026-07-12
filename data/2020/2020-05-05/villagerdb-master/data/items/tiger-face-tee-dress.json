@@ -1,0 +1,19 @@
+{
+  "id": "tiger-face-tee-dress",
+  "name": "Tiger-face Tee Dress",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ]
+    }
+  },
+  "category": "Dresses"
+}

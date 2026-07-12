@@ -1,0 +1,35 @@
+{
+  "id": "paper-wall-lamp",
+  "name": "Paper Wall Lamp",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Harmonious",
+        "Quirky"
+      ],
+      "set": "Zen",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 200
+      },
+      "sources": [
+        "Nookling stores (wall)"
+      ],
+      "rvs": [
+        "joan"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 800
+        },
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lemon-skirt",
+  "name": "Lemon Skirt",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 220
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 880
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

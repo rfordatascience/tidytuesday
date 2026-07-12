@@ -1,0 +1,19 @@
+{
+  "id": "shower-sandals",
+  "name": "Shower Sandals",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 87
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 350
+        }
+      ]
+    }
+  },
+  "category": "Shoes"
+}

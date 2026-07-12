@@ -1,0 +1,38 @@
+{
+  "gender": "male",
+  "species": "rabbit",
+  "birthday": "3-11",
+  "games": {
+    "afe+": {
+      "personality": "lazy",
+      "clothes": "racer-shirt",
+      "song": "I Love You"
+    },
+    "nl": {
+      "personality": "lazy",
+      "clothes": "racer-tee",
+      "song": "I Love You",
+      "phrase": "thumper",
+      "skill": "Oversleeping",
+      "goal": "Chef",
+      "fear": "Ghost Mask",
+      "quote": "A wise man gives danger a wide berth.",
+      "siblings": "Youngest quintuplet",
+      "favoriteStyle": "Sporty",
+      "dislikedStyle": "Ornate",
+      "favoriteColor": "Yellow",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "None at all",
+        "sugar": "None at all"
+      }
+    },
+    "nh": {
+      "personality": "lazy",
+      "phrase": "thumper",
+      "song": "I Love You"
+    }
+  },
+  "name": "Hopkins",
+  "id": "hopkins"
+}

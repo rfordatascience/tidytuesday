@@ -1,0 +1,18 @@
+{
+  "id": "pot",
+  "name": "Pot",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "recipe": {
+        "clay": 5
+      }
+    }
+  },
+  "category": "Furniture"
+}

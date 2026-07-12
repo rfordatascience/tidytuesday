@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "ostrich",
+  "birthday": "4-22",
+  "games": {
+    "nl": {
+      "personality": "uchi",
+      "clothes": "flame-tee",
+      "song": "K.K. Flamenco",
+      "phrase": "sparky",
+      "skill": "Eating frequently",
+      "goal": "Swimmer",
+      "fear": "Skeleton Hood",
+      "quote": "You can't keep a good bird down.",
+      "siblings": "Fifth of 6 kids",
+      "favoriteStyle": "Ornate",
+      "dislikedStyle": "Iconic",
+      "favoriteColor": "yellow",
+      "coffee": {
+        "beans": "Kilimanjaro",
+        "milk": "Just a little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "uchi",
+      "phrase": "sparky",
+      "song": "K.K. Flamenco"
+    }
+  },
+  "name": "Phoebe",
+  "id": "phoebe"
+}

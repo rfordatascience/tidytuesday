@@ -1,0 +1,28 @@
+{
+  "id": "astro-floor",
+  "name": "Astro Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": true,
+      "interiorThemes": [
+        "Sci-Fi",
+        "Trendy"
+      ],
+      "set": "Astro",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 530
+      },
+      "sources": [
+        "Nookling stores"
+      ],
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 2120
+        }
+      ]
+    }
+  }
+}

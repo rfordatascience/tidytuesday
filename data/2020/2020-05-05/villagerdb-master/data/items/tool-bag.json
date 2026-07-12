@@ -1,0 +1,19 @@
+{
+  "id": "tool-bag",
+  "name": "Tool Bag",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 227
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 910
+        }
+      ]
+    }
+  },
+  "category": "Accessories"
+}

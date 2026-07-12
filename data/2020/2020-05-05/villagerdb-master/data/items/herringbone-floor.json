@@ -1,0 +1,22 @@
+{
+  "id": "herringbone-floor",
+  "name": "Herringbone Floor",
+  "category": "Flooring",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "set": "Welcome amiibo Update",
+      "rvs": [
+        "digby",
+        "julia",
+        "stella"
+      ],
+      "buyPrices": [
+        {
+          "currency": "meow",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

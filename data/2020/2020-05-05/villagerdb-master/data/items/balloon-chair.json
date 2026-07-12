@@ -1,0 +1,21 @@
+{
+  "id": "balloon-chair",
+  "name": "Balloon Chair",
+  "category": "Furniture",
+  "games": {
+    "nl": {
+      "orderable": false,
+      "interiorThemes": [
+        "Toy Shop"
+      ],
+      "set": "Balloon",
+      "sellPrice": {
+        "currency": "bells",
+        "value": 620
+      },
+      "sources": [
+        "Gift balloon"
+      ]
+    }
+  }
+}

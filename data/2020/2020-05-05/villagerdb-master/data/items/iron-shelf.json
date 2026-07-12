@@ -1,0 +1,19 @@
+{
+  "id": "iron-shelf",
+  "name": "Iron Shelf",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10500
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 42000
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

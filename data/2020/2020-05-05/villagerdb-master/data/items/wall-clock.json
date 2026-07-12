@@ -1,0 +1,19 @@
+{
+  "id": "wall-clock",
+  "name": "Wall Clock",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 172
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 690
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "thread-worn-sweater",
+  "name": "Thread-worn Sweater",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 245
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 980
+        }
+      ]
+    }
+  },
+  "category": "Tops"
+}

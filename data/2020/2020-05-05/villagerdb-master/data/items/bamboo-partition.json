@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-partition",
+  "name": "Bamboo Partition",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 2020
+      },
+      "recipe": {
+        "bamboo-piece": 7,
+        "stone": 6
+      }
+    }
+  },
+  "category": "Furniture"
+}

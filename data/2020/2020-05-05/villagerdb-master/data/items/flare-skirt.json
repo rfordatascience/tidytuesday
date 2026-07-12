@@ -1,0 +1,23 @@
+{
+  "id": "flare-skirt",
+  "name": "Flare Skirt",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 285
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1140
+        }
+      ]
+    }
+  },
+  "category": "Bottoms"
+}

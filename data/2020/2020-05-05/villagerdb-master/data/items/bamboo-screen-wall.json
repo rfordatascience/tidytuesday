@@ -1,0 +1,19 @@
+{
+  "id": "bamboo-screen-wall",
+  "name": "Bamboo-screen Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 442
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1770
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

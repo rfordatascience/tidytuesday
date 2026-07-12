@@ -1,0 +1,19 @@
+{
+  "id": "ice-flooring",
+  "name": "Ice Flooring",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 8200
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 32800
+        }
+      ]
+    }
+  },
+  "category": "Flooring"
+}

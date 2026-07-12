@@ -1,0 +1,20 @@
+{
+  "id": "moms-candle-set",
+  "name": "Mom's Candle Set",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 88
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 352
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

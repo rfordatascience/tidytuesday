@@ -1,0 +1,20 @@
+{
+  "id": "floating-biotope-planter",
+  "name": "Floating-biotope Planter",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 400
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1600
+        }
+      ]
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sturgeon-model",
+  "name": "Sturgeon Model",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 30000
+      }
+    }
+  },
+  "category": "Furniture"
+}

@@ -1,0 +1,18 @@
+title: "Twinned Cities"
+article:
+  title: "Twin Cities Explorer"
+  url: "https://bothness.github.io/twin-cities/"
+data_source:
+  title: "Wikidata Query Service"
+  url: "https://query.wikidata.org/"
+images:
+# Please include at least one image, and up to three images
+- file: "map.png"
+  alt: >
+    A screenshot of the twin cities explorer showing a minimalist world map. On the map points represent some cities, with lines connecting the different cities indicating a link between them. The highlighted cities include Hamburg, Marseille, Tunis, Paris, and Dubai. Links from those cities are largely concentrated within Europe.
+credit:
+  post: "Nicola Rennie"
+  github: "@nrennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"

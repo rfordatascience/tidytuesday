@@ -1,0 +1,33 @@
+{
+  "gender": "female",
+  "species": "rhino",
+  "birthday": "3-19",
+  "games": {
+    "nl": {
+      "personality": "normal",
+      "clothes": "chefs-outfit",
+      "song": "K.K. Stroll",
+      "phrase": "shortcake",
+      "skill": "Doodling",
+      "goal": "Pastry chef",
+      "fear": "Ghost Mask",
+      "quote": "Life is a piece of cake.",
+      "siblings": "Eldest triplet",
+      "favoriteStyle": "Official",
+      "dislikedStyle": "Flashy",
+      "favoriteColor": "beige",
+      "coffee": {
+        "beans": "Blend",
+        "milk": "A little bit of milk",
+        "sugar": "One spoonful of sugar"
+      }
+    },
+    "nh": {
+      "personality": "normal",
+      "phrase": "shortcake",
+      "song": "K.K. Stroll"
+    }
+  },
+  "name": "Merengue",
+  "id": "merengue"
+}
