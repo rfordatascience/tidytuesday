@@ -54,6 +54,7 @@ my_rows <- seq(grep("Sex", metadata$Variable),
 ## non-idempotent, watch out
 metadata <- slice(metadata, my_rows) |> select(-Source)
 write.csv(metadata, file = "metadata.csv", row.names = FALSE)
+# Used to construct data dictionary. Delete when that is finished.
 
 # Resolve Spheniscidae to an OTT ID
 sphen <- rotl::tnrs_match_names("Spheniscidae")
@@ -79,6 +80,8 @@ ape::write.tree(penguin_tree, "penguin.nwk")
 ##  species are not necessarily monophyletic based on mitochondrial data ...)
 
 if (cleanup) {
-  unlink("ELEData")
+  unlink("ELEData", recursive = TRUE)
   unlink("ELEData.zip")
+  unlink("Supplementary_dataset_2.xlsx")
+  unlink("metadata.csv")
 }

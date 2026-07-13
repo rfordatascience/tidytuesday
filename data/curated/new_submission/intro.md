@@ -1,4 +1,4 @@
-This data set gives morphometric data for 93 penguins from 18 species within 6 genera. It was inspired by the
+This dataset gives morphometric data for 93 penguins from 18 species within 6 genera. It was inspired by the
 now-classic "Palmer penguins data set". I attended a workshop where students were analyzing the Palmer-penguins
 data set with a hierarchical model with individuals grouped by species. However, because there are only three species
 represented in the Palmer data set (Adélie, Chinstrap, and Gentoo), this data set is not ideal for that purpose.
@@ -9,11 +9,15 @@ I found (with the assistance of a chatbot) the [AVONET dataset](https://opentrai
 
 I selected the penguin data from the database. The data set has 10 different morphometric measurements of penguin beaks, wings, tails, etc. (although up to 12% of some types of measurements are missing). 
 
-How do trait values covary within/across species and genera? Is there a good way to do ordination/visualization that handles the missingness of some of the traits nicely? Are there interesting ways to visualize these data in >2 dimensions?
+- How do trait values covary within/across species and genera? 
+- Is there a good way to do ordination/visualization that handles the missingness of some of the traits nicely? 
+- Are there interesting ways to visualize these data in >2 dimensions?
 
 I also found some basic phylogenetic (evolutionary relationship) data for these species. It doesn't easily fit into a tidy format, but if you want to use this information in your visualizations, are using R, and have the `ape` and `rotl` packages installed you can get it yourself as follows:
 
 ```r
+library(rotl)
+library(ape)
 # Resolve Spheniscidae to an OTT ID
 sphen <- rotl::tnrs_match_names("Spheniscidae")
 ## Pull the full synthetic subtree for all penguins (ignore singleton-node warning)
