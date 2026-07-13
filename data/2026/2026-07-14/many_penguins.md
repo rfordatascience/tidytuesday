@@ -15,13 +15,3 @@
 |hand-wing.index    |double        |100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list (mm). |
 |tail.length        |double        |Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices (mm). |
 
-
-
-
-
-
-
-
-
-
-
