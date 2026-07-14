@@ -4,6 +4,5 @@ Some things to look at:
 
 - Which makes get the most starring roles? And where do the star vehicles come from?
 - Do productions star the cars of their own day, or older classics? Compare the vehicle year with the release year.
-- Not every star vehicle is a car. The dataset has 46 vehicle classes, including buses, mopeds and trailer trucks. Do TV series star different kinds of vehicles than music videos?
-- 47 vehicles were built for the production itself and are listed under the make "Made for Movie". Which productions are they from?
-- Is your favorite movie car here? Only one Volkswagen Beetle got five stars, and there is no DeLorean at all.
+- Some models keep getting cast: the Ford Mustang has 21 starring roles, the Chevrolet Camaro 11. Which models star in the most titles, and in what kinds of productions?
+- The titles span more than a century, from silent-era shorts to series still running. How have the star vehicles changed over the decades, in age, body class, or country of origin?
