@@ -1,0 +1,19 @@
+title: "Movie Star Cars"
+article:
+  title: "Internet Movie Cars Database (Wikipedia)"
+  url: "https://en.wikipedia.org/wiki/Internet_Movie_Cars_Database"
+data_source:
+  title: "Internet Movie Cars Database (IMCDb.org)"
+  url: "https://www.imcdb.org/"
+images:
+# Please include at least one image, and up to three images
+- file: "star_car.png"
+  alt: >
+    Screen capture from the 2026 South Korean TV series Phantom Lawyer
+    (신이랑 법률사무소): a white 2023 Volvo XC60 drives up a steep concrete
+    hill road in a Korean city, with a river and apartment blocks in the
+    background. The XC60 is one of the 1,542 vehicles with a five-star
+    role on the Internet Movie Cars Database.
+credit:
+  post: "Georgios Karamanis"
+  github: "@gkaramanis"
