@@ -1,0 +1,18 @@
+title: "Ecotourism"
+article:
+  title: "Getting Started with the {ecotourism} Package"
+  url: "https://vahdatjavad.github.io/ecotourism/articles/getting-started.html"
+data_source:
+  title: "{ecotourism} R package"
+  url: "https://github.com/vahdatjavad/ecotourism/"
+images:
+# Please include at least one image, and up to three images
+- file: "map.png"
+  alt: >
+    Simple map of Australia with red dots indicating sightings of Manta rays. Most of the dots are close to the Eastern coast, with a few dots along the North West coast and some further out into the ocean.
+credit:
+  post: "Nicola Rennie"
+  github: "@nrennie"
+  bluesky: "@nrennie.bsky.social"
+  linkedin: "@nicola-rennie"
+  mastodon: "@nrennie@fosstodon.org"
