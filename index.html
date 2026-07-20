@@ -77,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-51ec0baac84c74459878fd0df95b10e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7256fd909bcc460ee6955cadf8407dae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#many-penguins" id="toc-many-penguins" class="nav-link active" data-scroll-target="#many-penguins">Many penguins</a>
+  <li><a href="#near-death-experiences-nderf" id="toc-near-death-experiences-nderf" class="nav-link active" data-scroll-target="#near-death-experiences-nderf">Near-Death Experiences (NDERF)</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -239,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#many_penguins.csv" id="toc-many_penguins.csv" class="nav-link" data-scroll-target="#many_penguins.csv"><code>many_penguins.csv</code></a></li>
+  <li><a href="#nde_experiences.csv" id="toc-nde_experiences.csv" class="nav-link" data-scroll-target="#nde_experiences.csv"><code>nde_experiences.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -252,75 +252,63 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="many-penguins" class="level1">
-<h1>Many penguins</h1>
-<p>This dataset gives morphometric data for 93 penguins from 18 species within 6 genera. It was inspired by the now-classic “Palmer penguins data set”. I attended a workshop where students were analyzing the Palmer-penguins data set with a hierarchical model with individuals grouped by species. However, because there are only three species represented in the Palmer data set (Adélie, Chinstrap, and Gentoo), this data set is not ideal for that purpose. I found (with the assistance of a chatbot) the <a href="https://opentraits.org/datasets/avonet.html">AVONET dataset</a> (Tobias <em>et al.</em> 2022):</p>
+<section id="near-death-experiences-nderf" class="level1">
+<h1>Near-Death Experiences (NDERF)</h1>
+<p>This week we’re exploring near-death experiences (NDEs) reported to the <a href="https://nderf.org/">Near Death Experience Research Foundation</a> (NDERF). The dataset contains 589 individual NDE records scraped from the <a href="https://search.nderf.org/">NDERF Search</a> site, which embeds structured JSON metadata for each experience. Each record includes demographics, a Greyson NDE Scale score, and AI-detected experience features. No narrative text is included in the extracted dataset, respecting NDERF’s copyright.</p>
+<p>Near-death experiences are reported by 10–23% of cardiac arrest survivors in prospective studies. They typically involve out-of-body perception, a feeling of peace, seeing a bright light, and encountering deceased relatives. The Greyson NDE Scale (0–32) is the standard validated instrument for measuring NDE depth. Score of 7 or higher indicates a genuine NDE.</p>
 <blockquote class="blockquote">
-<p>The AVONET database contains comprehensive functional trait data for all birds, including six ecological variables, eleven continuous morphological traits, and information on range size and location. Raw morphological measurements are available from 90020 individuals of 11009 extant bird species sampled from 181 countries.</p>
+<p>“62 patients (18%) reported NDE, of whom 41 (12%) described a core experience. Occurrence of the experience was not associated with duration of cardiac arrest or unconsciousness, medication, or fear of death before cardiac arrest.” — Van Lommel et al.&nbsp;2001, The Lancet</p>
 </blockquote>
-<p>I selected the penguin data from the database. The data set has 10 different morphometric measurements of penguin beaks, wings, tails, etc. (although up to 12% of some types of measurements are missing).</p>
 <ul>
-<li>How do trait values covary within/across species and genera?</li>
-<li>Is there a good way to do ordination/visualization that handles the missingness of some of the traits nicely?</li>
-<li>Are there interesting ways to visualize these data in &gt;2 dimensions?</li>
+<li>What features most commonly co-occur in NDEs? Are out-of-body experiences correlated with ESP or unity?</li>
+<li>How does the Greyson score distribution differ between genders or countries?</li>
+<li>Are distressing NDEs more common in certain demographics or time periods?</li>
+<li>How has the rate of NDERF submissions changed over time (1999–2025)?</li>
+<li>Do deeper NDEs (higher Greyson scores) tend to have longer narratives?</li>
 </ul>
-<p>I also found some basic phylogenetic (evolutionary relationship) data for these species. It doesn’t easily fit into a tidy format, but if you want to use this information in your visualizations, are using R, and have the <code>ape</code> and <code>rotl</code> packages installed you can get it yourself as follows:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rotl)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ape)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Resolve Spheniscidae to an OTT ID</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>sphen <span class="ot">&lt;-</span> rotl<span class="sc">::</span><span class="fu">tnrs_match_names</span>(<span class="st">"Spheniscidae"</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Pull the full synthetic subtree for all penguins (ignore singleton-node warning)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(rotl<span class="sc">::</span><span class="fu">tol_subtree</span>(<span class="at">ott_id =</span> <span class="fu">ott_id</span>(sphen), <span class="at">label_format =</span> <span class="st">"name"</span>))</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="do">## OTL represents some extant species at subspecies level (trinomials like</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="do">## Pygoscelis_papua_papua). Collapse to binomials then drop duplicate tips</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="do">## so each species appears once.</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>tree<span class="sc">$</span>tip.label <span class="ot">&lt;-</span> <span class="fu">sub</span>(<span class="st">"^([[:alpha:]]+_[[:alpha:]]+)_.*"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1"</span>, tree<span class="sc">$</span>tip.label)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">drop.tip</span>(tree, tree<span class="sc">$</span>tip.label[<span class="fu">duplicated</span>(tree<span class="sc">$</span>tip.label)])</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="do">## keep only the part of the tree involving species in our database</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>penguin_tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">keep.tip</span>(tree, tree<span class="sc">$</span>tip.label[tree<span class="sc">$</span>tip.label <span class="sc">%in%</span> <span class="fu">gsub</span>(<span class="st">" "</span>, <span class="st">"_"</span>, <span class="fu">levels</span>(many_penguins<span class="sc">$</span>species))])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Thank you to Ben Bolker, McMaster University for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/gdatascience">Tony Galvan, Golden Dome Data Science</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-07-21'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">29</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>nde_experiences</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-21/nde_experiences.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-07-14'</span>)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">28</span>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>many_penguins</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-14/many_penguins.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-07-21'</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-21/nde_experiences.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-07-14'</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-07-21"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-14/many_penguins.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-07-14"</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-14/many_penguins.csv"</span>)</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-14/many_penguins.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-21/nde_experiences.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-21/nde_experiences.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -341,13 +329,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="many_penguins.csv" class="level3">
-<h3 class="anchored" data-anchor-id="many_penguins.csv"><code>many_penguins.csv</code></h3>
+<section id="nde_experiences.csv" class="level3">
+<h3 class="anchored" data-anchor-id="nde_experiences.csv"><code>nde_experiences.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 19%">
-<col style="width: 53%">
+<col style="width: 24%">
+<col style="width: 20%">
+<col style="width: 55%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -358,74 +346,94 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">species</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Penguin species name.</td>
+<td style="text-align: left;">entry_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Unique NDERF experience identifier (numeric page ID on search.nderf.org).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">genus</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Penguin genus name.</td>
+<td style="text-align: left;">gender</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Gender of the experiencer (M or F).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">shortname</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Abbreviated species name.</td>
+<td style="text-align: left;">classification</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">NDERF classification of the experience (NDE, Probable NDE, Possible NDE, etc.). Multiple values separated by semicolons.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">sex</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Sex of the individual sampled: M = Male; F = Female; U = Unknown.</td>
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country of the experiencer, detected by AI from the narrative text.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">beak.length_culmen</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Length from the tip of the beak to the base of the skull (mm).</td>
+<td style="text-align: left;">category</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Experience category assigned by NDERF (e.g., NDE, FDE, STE, OBE).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">beak.length_nares</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Length from the anterior edge of the nostrils to the tip of the beak (mm).</td>
+<td style="text-align: left;">language</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Language of the submitted narrative (e.g., english, french, spanish).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">beak.width</td>
+<td style="text-align: left;">greyson_score</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Width of the beak at the anterior edge of the nostrils (mm).</td>
+<td style="text-align: left;">Score on the Greyson NDE Scale (0–32). A score of 7 or higher indicates a validated near-death experience.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">beak.depth</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Depth of the beak at the anterior edge of the nostrils (mm).</td>
+<td style="text-align: left;">post_date</td>
+<td style="text-align: left;">datetime<utc></utc></td>
+<td style="text-align: left;">Date the experience was submitted to NDERF.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">tarsus.length</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Length of the tarsus from the posterior notch between tibia and tarsus (mm).</td>
+<td style="text-align: left;">exp_date</td>
+<td style="text-align: left;">datetime<utc></utc></td>
+<td style="text-align: left;">Date the near-death experience occurred (self-reported).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">wing.length</td>
+<td style="text-align: left;">narrative_length</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing (mm).</td>
+<td style="text-align: left;">Character count of the narrative text (proxy for level of detail in the account).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">kipps.distance</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Length from the tip of the first secondary feather to the tip of the longest primary (mm).</td>
+<td style="text-align: left;">ai_obe</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected an out-of-body experience in the narrative.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">secondary1</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Length from the carpal joint (bend of the wing) to the tip of the first secondary (mm).</td>
+<td style="text-align: left;">ai_unity</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected a feeling of unity or oneness in the narrative.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">hand-wing.index</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al.&nbsp;(2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list (mm).</td>
+<td style="text-align: left;">ai_hellish</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected distressing or hellish imagery in the narrative.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">tail.length</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices (mm).</td>
+<td style="text-align: left;">ai_clinical</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected confirmed clinical death in the narrative.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ai_esp</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected extrasensory perception or seeing distant events in the narrative.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ai_past_lives</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected past life recall in the narrative.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ai_world_future</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected visions of the world’s future in the narrative.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ai_aliens</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether AI detected alien or extraterrestrial encounters in the narrative.</td>
 </tr>
 </tbody>
 </table>
@@ -433,93 +441,127 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://opentraits.org/datasets/avonet.html</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rotl)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ape)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>cleanup <span class="ot">&lt;-</span> <span class="cn">TRUE</span> <span class="do">## </span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="do">## retrieve full data file (17 MB)</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">file.exists</span>(<span class="st">"ELEData.zip"</span>)) {</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(<span class="st">"https://ndownloader.figshare.com/files/38429873"</span>,</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>                 <span class="at">destfile =</span> <span class="st">"ELEData.zip"</span>, <span class="at">mode =</span> <span class="st">"wb"</span>)</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>f0 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"AVONET_Raw_Data.csv"</span>, <span class="st">"AVONET_Extant_Species_List.csv"</span>)</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"ELEData/TraitData/"</span>, f0) <span class="sc">|&gt;</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">setNames</span>(<span class="fu">c</span>(<span class="st">"trait_data"</span>, <span class="st">"species_list"</span>))</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">all</span>(<span class="fu">file.exists</span>(files))) <span class="fu">unzip</span>(<span class="st">"ELEData.zip"</span>, files)</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="do">## info from species list</span></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>spp <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(files[[<span class="st">"species_list"</span>]], <span class="at">col_types =</span> <span class="st">"c"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">"Spheniscidae"</span>, Family.name)) <span class="sc">|&gt;</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="fu">c</span>(Species.name, Family.name)) <span class="sc">|&gt;</span></span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">distinct</span>()</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>many_penguins <span class="ot">&lt;-</span> (<span class="fu">read_csv</span>(files[[<span class="st">"trait_data"</span>]])</span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|&gt;</span> <span class="fu">right_join</span>(spp, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Species1_BirdLife"</span> <span class="ot">=</span> <span class="st">"Species.name"</span>))</span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>  <span class="do">## omit uninformative columns (e.g. Age=0 for all but one bird)</span></span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="at">Species =</span> Species1_BirdLife,</span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>            Sex, Beak.Length_Culmen, Beak.Length_Nares,  </span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>            Beak.Width, Beak.Depth, Tarsus.Length,</span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>            Wing.Length, Kipps.Distance, Secondary1,</span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Hand-wing.Index"</span>, Tail.Length)</span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">genus =</span> stringr<span class="sc">::</span><span class="fu">str_extract</span>(Species, <span class="st">"^[[:alpha:]]+"</span>),</span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>            <span class="at">.after =</span> <span class="dv">1</span>,</span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>            <span class="at">shortname =</span></span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>              stringr<span class="sc">::</span><span class="fu">str_replace</span>(Species, <span class="st">"^([[:alpha:]])[[:alpha:]]+"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1</span><span class="sc">\\</span><span class="st">."</span>))</span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>  <span class="do">## alphabetical order is probably fine, don't need to worry about e.g. forcats::fct_inorder()</span></span>
-<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), factor))</span>
-<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|&gt;</span> <span class="fu">rename_with</span>(tolower)</span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="do">## get 'Supplementary dataset 2.xlsx" from the site (contains metadata)</span></span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">file.exists</span>(<span class="st">"Supplementary_dataset_2.xlsx"</span>)) {</span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(</span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">url =</span> <span class="st">"https://ndownloader.figshare.com/files/34480862"</span>,</span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">destfile =</span> <span class="st">"Supplementary_dataset_2.xlsx"</span>,</span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">mode =</span> <span class="st">"wb"</span>  <span class="co"># binary mode — required for .xlsx</span></span>
-<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>metadata <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"Supplementary_dataset_2.xlsx"</span>)</span>
-<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>my_rows <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="fu">grep</span>(<span class="st">"Sex"</span>, metadata<span class="sc">$</span>Variable),</span>
-<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>               <span class="fu">grep</span>(<span class="st">"Tail.Length"</span>, metadata<span class="sc">$</span>Variable))</span>
-<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="do">## non-idempotent, watch out</span></span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>metadata <span class="ot">&lt;-</span> <span class="fu">slice</span>(metadata, my_rows) <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="sc">-</span>Source)</span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(metadata, <span class="at">file =</span> <span class="st">"metadata.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="co"># Used to construct data dictionary. Delete when that is finished.</span></span>
-<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="co"># Resolve Spheniscidae to an OTT ID</span></span>
-<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>sphen <span class="ot">&lt;-</span> rotl<span class="sc">::</span><span class="fu">tnrs_match_names</span>(<span class="st">"Spheniscidae"</span>)</span>
-<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a><span class="do">## Pull the full synthetic subtree for all penguins</span></span>
-<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a><span class="do">## (don't care about singleton-node warning)</span></span>
-<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">suppressWarnings</span>(rotl<span class="sc">::</span><span class="fu">tol_subtree</span>(<span class="at">ott_id =</span> <span class="fu">ott_id</span>(sphen), <span class="at">label_format =</span> <span class="st">"name"</span>))</span>
-<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a><span class="do">## OTL represents some extant species at subspecies level (trinomials like</span></span>
-<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a><span class="do">## Pygoscelis_papua_papua). Collapse to binomials then drop duplicate tips</span></span>
-<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a><span class="do">## so each species appears once.</span></span>
-<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>tree<span class="sc">$</span>tip.label <span class="ot">&lt;-</span> <span class="fu">sub</span>(<span class="st">"^([[:alpha:]]+_[[:alpha:]]+)_.*"</span>, <span class="st">"</span><span class="sc">\\</span><span class="st">1"</span>, tree<span class="sc">$</span>tip.label)</span>
-<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">drop.tip</span>(tree, tree<span class="sc">$</span>tip.label[<span class="fu">duplicated</span>(tree<span class="sc">$</span>tip.label)])</span>
-<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>penguin_tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">keep.tip</span>(tree, tree<span class="sc">$</span>tip.label[tree<span class="sc">$</span>tip.label <span class="sc">%in%</span> <span class="fu">gsub</span>(<span class="st">" "</span>, <span class="st">"_"</span>, <span class="fu">levels</span>(many_penguins<span class="sc">$</span>species))])</span>
-<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>ape<span class="sc">::</span><span class="fu">write.tree</span>(penguin_tree, <span class="st">"penguin.nwk"</span>)</span>
-<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a><span class="do">## data from Subramian et al 2013</span></span>
-<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a><span class="co"># Download manually via web browser</span></span>
-<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a><span class="do">## url &lt;- "https://datadryad.org/downloads/file_stream/438985"  # mitogenome_calibrated.tree</span></span>
-<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a><span class="do">## trees &lt;- read.nexus("~/Downloads/mitogenome_calibrated.tree")  # returns a multiPhylo</span></span>
-<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a><span class="do">## (too complicated: multiple tips per species,</span></span>
-<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a><span class="do">##  species are not necessarily monophyletic based on mitochondrial data ...)</span></span>
-<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (cleanup) {</span>
-<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlink</span>(<span class="st">"ELEData"</span>, <span class="at">recursive =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlink</span>(<span class="st">"ELEData.zip"</span>)</span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlink</span>(<span class="st">"Supplementary_dataset_2.xlsx"</span>)</span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlink</span>(<span class="st">"metadata.csv"</span>)</span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Near-Death Experience (NDE) data scraped from the NDERF Search site</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: https://search.nderf.org/</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># The Near Death Experience Research Foundation (NDERF) collects firsthand NDE</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># accounts submitted online. Their search site embeds structured JSON metadata</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># for each experience page. This script extracts that metadata (no narrative</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># text is reproduced, respecting NDERF's copyright).</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># The scrape covers IDs 1–10,100. Only ~6% of IDs contain valid structured data,</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># yielding ~589 records spanning 1999–2025.</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(httr2)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(jsonlite)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(purrr)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Scraping function ---</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Each NDERF search page embeds a JSON object in a &lt;script&gt; tag: `var exp = {...}`</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="co"># We extract structured fields only (no narrative text).</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>fetch_nderf_record <span class="ot">&lt;-</span> <span class="cf">function</span>(id) {</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"https://search.nderf.org/en/exp/"</span>, id)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  resp <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>(</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="fu">request</span>(url) <span class="sc">|&gt;</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">req_retry</span>(<span class="at">max_tries =</span> <span class="dv">3</span>, <span class="at">backoff =</span> <span class="sc">~</span><span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>      <span class="fu">req_throttle</span>(<span class="at">rate =</span> <span class="dv">3</span> <span class="sc">/</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>      <span class="fu">req_perform</span>(),</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NULL</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.null</span>(resp)) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>  html <span class="ot">&lt;-</span> <span class="fu">resp_body_string</span>(resp)</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Extract JSON from "var exp = {...};" line</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  json_match <span class="ot">&lt;-</span> <span class="fu">str_match</span>(html, <span class="st">'var exp = (</span><span class="sc">\\</span><span class="st">{.+?</span><span class="sc">\\</span><span class="st">});</span><span class="sc">\\</span><span class="st">s*</span><span class="sc">\\</span><span class="st">n'</span>)</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.na</span>(json_match[<span class="dv">1</span>, <span class="dv">2</span>])) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>  d <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>(</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fromJSON</span>(json_match[<span class="dv">1</span>, <span class="dv">2</span>], <span class="at">simplifyVector =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NULL</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.null</span>(d)) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.null</span>(d<span class="sc">$</span>GENDER)) <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>  <span class="co"># All types explicitly enforced to prevent bind_rows mismatches</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">entry_id =</span> <span class="fu">as.integer</span>(id),</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">gender =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>GENDER <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">classification =</span> <span class="fu">as.character</span>(<span class="fu">paste</span>(d<span class="sc">$</span>CLASSIFICATION <span class="sc">%||%</span> <span class="st">"NA"</span>, <span class="at">collapse =</span> <span class="st">";"</span>)),</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">country =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>COUNTRY_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">category =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>Category <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">language =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>LANGUAGE <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">greyson_score =</span> <span class="fu">as.integer</span>(d<span class="sc">$</span>experiences[[<span class="dv">1</span>]]<span class="sc">$</span>greyson <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">post_date =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>experiences[[<span class="dv">1</span>]]<span class="sc">$</span>POSTDATE <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">exp_date =</span> <span class="fu">as.character</span>(d<span class="sc">$</span>experiences[[<span class="dv">1</span>]]<span class="sc">$</span>EXPDATE <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">narrative_length =</span> <span class="fu">as.integer</span>(d<span class="sc">$</span>EXPLEN <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_obe =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>OBE_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_unity =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>UNITY_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_hellish =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>HELLISH_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_clinical =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>CLINICAL_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_esp =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>ESP_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_past_lives =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>PASTLIVES_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_world_future =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>WORLDFUTURE_AI <span class="sc">%||%</span> <span class="cn">NA</span>),</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_aliens =</span> <span class="fu">as.logical</span>(d<span class="sc">$</span>ai_categories<span class="sc">$</span>ALIENS_AI <span class="sc">%||%</span> <span class="cn">NA</span>)</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Scrape with periodic saves (every 250 IDs) ---</span></span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>cache_path <span class="ot">&lt;-</span> <span class="st">"nde_experiences.csv"</span></span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>all_ids <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10100</span></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>batch_size <span class="ot">&lt;-</span> <span class="dv">250</span></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (batch_start <span class="cf">in</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fu">length</span>(all_ids), <span class="at">by =</span> batch_size)) {</span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>  batch_end <span class="ot">&lt;-</span> <span class="fu">min</span>(batch_start <span class="sc">+</span> batch_size <span class="sc">-</span> <span class="dv">1</span>, <span class="fu">length</span>(all_ids))</span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>  batch_ids <span class="ot">&lt;-</span> all_ids[batch_start<span class="sc">:</span>batch_end]</span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Skip IDs already scraped</span></span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">file.exists</span>(cache_path)) {</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>    existing_ids <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(cache_path, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>entry_id</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>    batch_ids <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(batch_ids, existing_ids)</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(batch_ids) <span class="sc">==</span> <span class="dv">0</span>) <span class="cf">next</span></span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  batch_results <span class="ot">&lt;-</span> <span class="fu">map</span>(batch_ids, \(id) {</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>    <span class="fu">tryCatch</span>(<span class="fu">fetch_nderf_record</span>(id), <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NULL</span>)</span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>  valid_results <span class="ot">&lt;-</span> <span class="fu">compact</span>(batch_results)</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">length</span>(valid_results) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>    new_batch_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(valid_results)</span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">file.exists</span>(cache_path)) {</span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>      existing <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(cache_path, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>        <span class="fu">mutate</span>(<span class="at">post_date =</span> <span class="fu">as.character</span>(post_date),</span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>               <span class="at">exp_date =</span> <span class="fu">as.character</span>(exp_date))</span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>      combined <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(existing, new_batch_df) <span class="sc">|&gt;</span></span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>        <span class="fu">distinct</span>(entry_id, <span class="at">.keep_all =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>        <span class="fu">arrange</span>(entry_id)</span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>      combined <span class="ot">&lt;-</span> new_batch_df <span class="sc">|&gt;</span> <span class="fu">arrange</span>(entry_id)</span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>    <span class="fu">write_csv</span>(combined, cache_path)</span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>  total <span class="ot">&lt;-</span> <span class="cf">if</span> (<span class="fu">file.exists</span>(cache_path)) <span class="fu">nrow</span>(<span class="fu">read_csv</span>(cache_path, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)) <span class="cf">else</span> <span class="dv">0</span></span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">"[%s] IDs %d-%d | %d valid | Total: %d</span><span class="sc">\n</span><span class="st">"</span>,</span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>              <span class="fu">format</span>(<span class="fu">Sys.time</span>(), <span class="st">"%H:%M:%S"</span>),</span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>              <span class="fu">min</span>(batch_ids), <span class="fu">max</span>(batch_ids),</span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>              <span class="fu">length</span>(valid_results), total))</span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Load final dataset ---</span></span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>nde_experiences <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(cache_path, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Final dataset:"</span>, <span class="fu">nrow</span>(nde_experiences), <span class="st">"records x"</span>, <span class="fu">ncol</span>(nde_experiences), <span class="st">"columns</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
