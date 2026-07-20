@@ -25,7 +25,7 @@ import polars as pl
 
 # Load the events data
 dataset_url = "https://raw.githubusercontent.com/chendaniely/olympics-2026/refs/heads/main/data/final/olympics/olympics_events.csv"
-df = pl.read_csv(data_file)
+df = pl.read_csv(dataset_url)
 
 schedule = (
     df
