@@ -24,3 +24,4 @@
 |fobvalue               |double    |Total trade value measured free on board, capturing the value of the goods at the exporter's border excluding international shipping costs, reported in United States Dollars. |
 |primary_value          |double    |Principal monetary value used for primary trade analysis, reported in United States Dollars. |
 |legacy_estimation_flag |integer   |Status flag denoting processing classifications or historical estimation techniques applied to older records within the database. |
+
