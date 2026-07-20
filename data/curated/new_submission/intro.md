@@ -6,4 +6,4 @@ This week we're exploring ecotourism! The [{ecotourism}](https://vahdatjavad.git
 * How does weather affect tourism numbers in each region?
 * How do observations of the different animals relate to numbers of tourists?
 
-The [{ecotourism}](https://vahdatjavad.github.io/ecotourism) package provides additional datasets and ideas for analsyis. Remeber to cite the package with `citation("ecotourism")`!
+The [{ecotourism}](https://vahdatjavad.github.io/ecotourism) package provides additional datasets and ideas for analsyis. Remember to cite the package with `citation("ecotourism")`!

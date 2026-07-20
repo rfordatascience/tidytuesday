@@ -4,12 +4,12 @@
 |obs_lon       |double         |Longitude of the observation (decimal degrees). |
 |date          |date           |Observation date (YYYY-MM-DD). |
 |time          |character      |Observation time (HH:MM:SS, character). |
-|year          |double         |Observation year. |
-|month         |double         |Month of the observation. |
-|day           |double         |Day of the month. |
+|year          |integer        |Observation year. |
+|month         |integer        |Month of the observation. |
+|day           |integer        |Day of the month. |
 |hour          |integer        |Hour of the day (0–23). |
 |weekday       |character      |Day of the week. |
-|dayofyear     |double         |Day of the year (1–366). |
+|dayofyear     |integer        |Day of the year (1–366). |
 |sci_name      |character      |Scientific name of the observed species. |
 |organism_name |character      |Name of the type of animal or plant (e.g. "Orchid"). |
 |record_type   |character      |Type of observation (e.g., HUMAN_OBSERVATION). |

@@ -1,6 +1,6 @@
 |variable  |class     |description                           |
 |:---------|:---------|:-------------------------------------|
-|year      |double    |The year of the tourism data. |
+|year      |integer   |The year of the tourism data. |
 |quarter   |integer   |Quarter number (e.g., 1, 2, 3, 4). |
 |purpose   |character |Purpose of visit category (e.g. "Business"). |
 |trips     |double    |Number of overnight trips (in thousands). |
