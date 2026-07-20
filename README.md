@@ -67,6 +67,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   26|2026-06-30 |[Wreck Inventory of Ireland](data/2026/2026-06-30/readme.md)|[Wreck Inventory of Ireland](https://data.gov.ie/dataset/national-monuments-service-wreck-inventory-of-ireland)  |[Wreck Inventory of Ireland](https://www.archaeology.ie/advice-and-support/locate-a-monument-or-wreck/wreck-viewer/)|
 |   27|2026-07-07 |[UFC Athletes and Fight Data](data/2026/2026-07-07/readme.md)|[fightr: Analyze Fight Probabilities and Proportions via Statistical Frameworks](https://github.com/benyamindsmith/fightr/)|[fightr: Analyze Fight Probabilities and Proportions via Statistical Frameworks](https://github.com/benyamindsmith/fightr/)|
 |   28|2026-07-14 |[Many penguins](data/2026/2026-07-14/readme.md)            |[AVONET: morphological, ecological and geographical data for all birds](https://opentraits.org/datasets/avonet.html)|[AVONET: morphological, ecological and geographical data for all birds](http://dx.doi.org/10.1111/ele.13898)|
+|   29|2026-07-21 |[Near-Death Experiences (NDERF)](data/2026/2026-07-21/readme.md)|[NDERF Search](https://search.nderf.org/)                                                                        |[Near Death Experience Research Foundation](https://nderf.org/)                             |
 
 ***  
 
