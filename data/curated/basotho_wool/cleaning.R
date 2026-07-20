@@ -100,6 +100,3 @@ basotho_wool <- bind_rows( # Basotho is the culturally-respectful term
       is_aggregate                 # all the same value ("TRUE")
       )
     )
-
-# Writing the csv file
-write.csv(basotho_wool, file = "basotho_wool.csv", row.names = FALSE)
