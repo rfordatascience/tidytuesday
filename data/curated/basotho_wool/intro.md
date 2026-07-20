@@ -72,10 +72,10 @@ basotho_wool_plot <- basotho_wool_2023 |>
 
 # saving/exporting the plot
 ggsave(
-  "sample_basotho_wool_2023_primary_value_plot.png",
+  "sample_basotho_wool_2023_primary_value_plot.jpg",
   plot = basotho_wool_plot,
-  width = 18,
-  height = 6,
+  width = 9,
+  height = 3,
   dpi = 300
 )
 ```
