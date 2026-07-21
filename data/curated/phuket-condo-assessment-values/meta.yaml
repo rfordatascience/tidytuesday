@@ -1,0 +1,19 @@
+title: "Official condominium assessment rates in Phuket"
+article:
+  title: "Phuket condominium assessment values: official open-data extract"
+  url: "https://kvartiry-phuket.com/en/phuket-condo-assessment-values/"
+data_source:
+  title: "Thailand Treasury Department Condominium Valuation data via NHIC"
+  url: "https://gdcatalognhic.nha.co.th/dataset/condominium-valuation"
+images:
+- file: "phuket_condo_assessment_rates.png"
+  alt: >
+    A grouped horizontal bar chart of median official statutory condominium
+    assessment rates in Phuket, measured in Thai baht per square metre. For
+    residential-unit records, Mueang Phuket is 40,500, Kathu is 42,000, and
+    Thalang is 36,750. For holiday-residential-unit records, Mueang Phuket is
+    53,500, Kathu is 64,500, and Thalang is 70,500. A note states that the
+    values are assessment-rate records, not market prices, transactions, or
+    unit counts.
+credit:
+  post: "Alex P of Kvartiry-Phuket.com (a commercial Phuket property website)"
