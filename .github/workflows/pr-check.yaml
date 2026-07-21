@@ -12,7 +12,7 @@ on:
         description: 'Pull request number to run checks for'
         required: true
         type: number
-  pull_request_target:
+  pull_request:
     paths:
       - 'data/curated/**'
 
@@ -40,7 +40,7 @@ jobs:
 
       # For pull_request events, the action automatically checks out the PR's merge commit.
       - name: Checkout PR Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           ref: refs/pull/${{ env.PR_NUMBER }}/head
           fetch-depth: 0
