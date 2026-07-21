@@ -1,7 +1,7 @@
 # This GitHub Action checks incoming TidyTuesday dataset submissions.
 # It verifies that all required files are present, images meet size and 
 # dimension constraints, and provided URLs are accessible. Coded with the help 
-# of Google Gemini.
+# of Google Gemini, and edited with Posit Assistant/Claude Sonnet 4.6.
 
 name: PR Submission Check
 
@@ -18,7 +18,6 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
@@ -107,46 +106,9 @@ jobs:
         id: run_checks
         run: Rscript .github/scripts/check_curated.R
 
-      - name: Comment on PR
-        uses: actions/github-script@v7
-        env:
-          PR_NUMBER: ${{ env.PR_NUMBER }}
-        with:
-          script: |
-            const fs = require('fs');
-            const commentBody = fs.readFileSync('pr_comment.md', 'utf8');
-            const tag = '<!-- PR check -->';
-            const issueNumber = parseInt(process.env.PR_NUMBER, 10);
-
-            // Find existing comment with the tag (from the GitHub Actions bot)
-            const comments = await github.paginate(
-              github.rest.issues.listComments,
-              {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                per_page: 100,
-              }
-            );
-            const existing = comments.find(
-              c => c.user.type === 'Bot' && c.body && c.body.includes(tag)
-            );
-
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existing.id,
-                body: commentBody
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                body: commentBody
-              });
-            }
+      - name: Display Check Results
+        run: cat pr_comment.md
+        shell: bash
 
       - name: Fail workflow if checks failed
         if: steps.run_checks.outputs.check_status == 'failure'
