@@ -68,8 +68,8 @@ test_that("check_required_files() passes for a valid fixture", {
   expect_length(errors, 0)
 })
 
-test_that("check_required_files() flags each missing named file", {
-  for (f in c("meta.yaml", "cleaning.R", "intro.md")) {
+test_that("check_required_files() flags each always-required missing file", {
+  for (f in c("meta.yaml", "intro.md")) {
     dir <- withr::local_tempdir()
     fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
     fs::file_delete(fs::path(dir, f))
@@ -79,6 +79,38 @@ test_that("check_required_files() flags each missing named file", {
       label = paste("missing", f)
     )
   }
+})
+
+test_that("check_required_files() flags missing cleaning script when neither cleaning.R nor cleaning.py exists", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  fs::file_delete(fs::path(dir, "cleaning.R"))
+  errors <- check_required_files(dir)
+  expect_true(any(grepl("cleaning", errors, ignore.case = TRUE)))
+})
+
+test_that("check_required_files() passes when only cleaning.py is present", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  fs::file_delete(fs::path(dir, "cleaning.R"))
+  fs::file_create(fs::path(dir, "cleaning.py"))
+  errors <- check_required_files(dir)
+  expect_false(any(grepl("cleaning", errors, ignore.case = TRUE)))
+})
+
+test_that("check_required_files() passes when only cleaning.R is present", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  errors <- check_required_files(dir)
+  expect_false(any(grepl("cleaning", errors, ignore.case = TRUE)))
+})
+
+test_that("check_required_files() passes when both cleaning.R and cleaning.py are present", {
+  dir <- withr::local_tempdir()
+  fs::dir_copy(fs::path(fixtures, "valid"), dir, overwrite = TRUE)
+  fs::file_create(fs::path(dir, "cleaning.py"))
+  errors <- check_required_files(dir)
+  expect_false(any(grepl("cleaning", errors, ignore.case = TRUE)))
 })
 
 test_that("check_required_files() flags missing PNG", {
