@@ -1,0 +1,793 @@
+type,reason,band,percent,year
+Academic,For employment,<4,0.004236575,2024-2025
+Academic,For employment,4,0.009076371,2024-2025
+Academic,For employment,4.5,0.024998597,2024-2025
+Academic,For employment,5,0.063099714,2024-2025
+Academic,For employment,5.5,0.125610235,2024-2025
+Academic,For employment,6,0.183337074,2024-2025
+Academic,For employment,6.5,0.198277313,2024-2025
+Academic,For employment,7,0.177445149,2024-2025
+Academic,For employment,7.5,0.128247573,2024-2025
+Academic,For employment,8,0.068514674,2024-2025
+Academic,For employment,8.5,0.016455306,2024-2025
+Academic,For employment,9,7.0142e-4,2024-2025
+Academic,For higher education extended course (three months or more),<4,0.004584951,2024-2025
+Academic,For higher education extended course (three months or more),4,0.011374184,2024-2025
+Academic,For higher education extended course (three months or more),4.5,0.035275088,2024-2025
+Academic,For higher education extended course (three months or more),5,0.093558929,2024-2025
+Academic,For higher education extended course (three months or more),5.5,0.183891833,2024-2025
+Academic,For higher education extended course (three months or more),6,0.227921047,2024-2025
+Academic,For higher education extended course (three months or more),6.5,0.180179834,2024-2025
+Academic,For higher education extended course (three months or more),7,0.121667406,2024-2025
+Academic,For higher education extended course (three months or more),7.5,0.083009101,2024-2025
+Academic,For higher education extended course (three months or more),8,0.047133445,2024-2025
+Academic,For higher education extended course (three months or more),8.5,0.011204393,2024-2025
+Academic,For higher education extended course (three months or more),9,1.99789e-4,2024-2025
+Academic,For higher education short course (three months or less),<4,0.008782,2024-2025
+Academic,For higher education short course (three months or less),4,0.021754104,2024-2025
+Academic,For higher education short course (three months or less),4.5,0.051170933,2024-2025
+Academic,For higher education short course (three months or less),5,0.114739984,2024-2025
+Academic,For higher education short course (three months or less),5.5,0.190161864,2024-2025
+Academic,For higher education short course (three months or less),6,0.211887269,2024-2025
+Academic,For higher education short course (three months or less),6.5,0.165767421,2024-2025
+Academic,For higher education short course (three months or less),7,0.112673631,2024-2025
+Academic,For higher education short course (three months or less),7.5,0.075594076,2024-2025
+Academic,For higher education short course (three months or less),8,0.038256228,2024-2025
+Academic,For higher education short course (three months or less),8.5,0.008896797,2024-2025
+Academic,For higher education short course (three months or less),9,3.15693e-4,2024-2025
+Academic,For immigration,<4,0.005733848,2024-2025
+Academic,For immigration,4,0.011315918,2024-2025
+Academic,For immigration,4.5,0.024065298,2024-2025
+Academic,For immigration,5,0.05249844,2024-2025
+Academic,For immigration,5.5,0.112113598,2024-2025
+Academic,For immigration,6,0.172555104,2024-2025
+Academic,For immigration,6.5,0.188289458,2024-2025
+Academic,For immigration,7,0.172369597,2024-2025
+Academic,For immigration,7.5,0.136516181,2024-2025
+Academic,For immigration,8,0.089819046,2024-2025
+Academic,For immigration,8.5,0.033323777,2024-2025
+Academic,For immigration,9,0.001399734,2024-2025
+Academic,For other education purposes,<4,0.005550671,2024-2025
+Academic,For other education purposes,4,0.0123821,2024-2025
+Academic,For other education purposes,4.5,0.0340117,2024-2025
+Academic,For other education purposes,5,0.083674688,2024-2025
+Academic,For other education purposes,5.5,0.161184375,2024-2025
+Academic,For other education purposes,6,0.205055735,2024-2025
+Academic,For other education purposes,6.5,0.18442469,2024-2025
+Academic,For other education purposes,7,0.147888379,2024-2025
+Academic,For other education purposes,7.5,0.104488077,2024-2025
+Academic,For other education purposes,8,0.051783834,2024-2025
+Academic,For other education purposes,8.5,0.009421163,2024-2025
+Academic,For other education purposes,9,1.34588e-4,2024-2025
+Academic,For personal reasons,<4,0.006015074,2024-2025
+Academic,For personal reasons,4,0.01493013,2024-2025
+Academic,For personal reasons,4.5,0.041866505,2024-2025
+Academic,For personal reasons,5,0.105761723,2024-2025
+Academic,For personal reasons,5.5,0.19040297,2024-2025
+Academic,For personal reasons,6,0.225449736,2024-2025
+Academic,For personal reasons,6.5,0.179137654,2024-2025
+Academic,For personal reasons,7,0.124699246,2024-2025
+Academic,For personal reasons,7.5,0.075415478,2024-2025
+Academic,For personal reasons,8,0.03072866,2024-2025
+Academic,For personal reasons,8.5,0.005409583,2024-2025
+Academic,For personal reasons,9,1.83241e-4,2024-2025
+Academic,For professional registration (NOT medical),<4,0.002415675,2024-2025
+Academic,For professional registration (NOT medical),4,0.0064418,2024-2025
+Academic,For professional registration (NOT medical),4.5,0.012615192,2024-2025
+Academic,For professional registration (NOT medical),5,0.029614387,2024-2025
+Academic,For professional registration (NOT medical),5.5,0.061107632,2024-2025
+Academic,For professional registration (NOT medical),6,0.11631028,2024-2025
+Academic,For professional registration (NOT medical),6.5,0.194238168,2024-2025
+Academic,For professional registration (NOT medical),7,0.214010915,2024-2025
+Academic,For professional registration (NOT medical),7.5,0.187617429,2024-2025
+Academic,For professional registration (NOT medical),8,0.135277803,2024-2025
+Academic,For professional registration (NOT medical),8.5,0.039098148,2024-2025
+Academic,For professional registration (NOT medical),9,0.001252572,2024-2025
+Academic,For registration as a dentist,<4,0.004174695,2024-2025
+Academic,For registration as a dentist,4,0.008028259,2024-2025
+Academic,For registration as a dentist,4.5,0.018946692,2024-2025
+Academic,For registration as a dentist,5,0.051701991,2024-2025
+Academic,For registration as a dentist,5.5,0.078676943,2024-2025
+Academic,For registration as a dentist,6,0.120102762,2024-2025
+Academic,For registration as a dentist,6.5,0.225754656,2024-2025
+Academic,For registration as a dentist,7,0.228323699,2024-2025
+Academic,For registration as a dentist,7.5,0.16120745,2024-2025
+Academic,For registration as a dentist,8,0.08445729,2024-2025
+Academic,For registration as a dentist,8.5,0.017983301,2024-2025
+Academic,For registration as a dentist,9,6.42261e-4,2024-2025
+Academic,For registration as a doctor,<4,0.00195703,2024-2025
+Academic,For registration as a doctor,4,0.004296958,2024-2025
+Academic,For registration as a doctor,4.5,0.012210168,2024-2025
+Academic,For registration as a doctor,5,0.03041906,2024-2025
+Academic,For registration as a doctor,5.5,0.057477133,2024-2025
+Academic,For registration as a doctor,6,0.085854074,2024-2025
+Academic,For registration as a doctor,6.5,0.114571368,2024-2025
+Academic,For registration as a doctor,7,0.15796639,2024-2025
+Academic,For registration as a doctor,7.5,0.213911934,2024-2025
+Academic,For registration as a doctor,8,0.226334822,2024-2025
+Academic,For registration as a doctor,8.5,0.092958945,2024-2025
+Academic,For registration as a doctor,9,0.002042119,2024-2025
+Academic,For registration as a nurse (including CGFNS),<4,0.002172524,2024-2025
+Academic,For registration as a nurse (including CGFNS),4,0.003642173,2024-2025
+Academic,For registration as a nurse (including CGFNS),4.5,0.008945687,2024-2025
+Academic,For registration as a nurse (including CGFNS),5,0.025559105,2024-2025
+Academic,For registration as a nurse (including CGFNS),5.5,0.069329073,2024-2025
+Academic,For registration as a nurse (including CGFNS),6,0.178913738,2024-2025
+Academic,For registration as a nurse (including CGFNS),6.5,0.2685623,2024-2025
+Academic,For registration as a nurse (including CGFNS),7,0.250159744,2024-2025
+Academic,For registration as a nurse (including CGFNS),7.5,0.13884984,2024-2025
+Academic,For registration as a nurse (including CGFNS),8,0.046325879,2024-2025
+Academic,For registration as a nurse (including CGFNS),8.5,0.007412141,2024-2025
+Academic,For registration as a nurse (including CGFNS),9,1.27796e-4,2024-2025
+Academic,(Other),<4,0.009259498,2024-2025
+Academic,(Other),4,0.020257566,2024-2025
+Academic,(Other),4.5,0.04901481,2024-2025
+Academic,(Other),5,0.100566645,2024-2025
+Academic,(Other),5.5,0.167237605,2024-2025
+Academic,(Other),6,0.19605924,2024-2025
+Academic,(Other),6.5,0.169098519,2024-2025
+Academic,(Other),7,0.131242756,2024-2025
+Academic,(Other),7.5,0.093689633,2024-2025
+Academic,(Other),8,0.050779137,2024-2025
+Academic,(Other),8.5,0.01242112,2024-2025
+Academic,(Other),9,3.73471e-4,2024-2025
+General_Training,For employment,<4,0.02793268950508132,2024-2025
+General_Training,For employment,4,0.04515865767638885,2024-2025
+General_Training,For employment,4.5,0.08582865359578726,2024-2025
+General_Training,For employment,5,0.12505100751996578,2024-2025
+General_Training,For employment,5.5,0.15070050327419698,2024-2025
+General_Training,For employment,6,0.16888832753628819,2024-2025
+General_Training,For employment,6.5,0.15206070380661835,2024-2025
+General_Training,For employment,7,0.11130326642442143,2024-2025
+General_Training,For employment,7.5,0.07419893904358471,2024-2025
+General_Training,For employment,8,0.04323494549482152,2024-2025
+General_Training,For employment,8.5,0.014758175776771661,2024-2025
+General_Training,For employment,9,8.841303460738782e-4,2024-2025
+General_Training,For higher education extended course (three months or more),<4,0.036751751546687424,2024-2025
+General_Training,For higher education extended course (three months or more),4,0.04937108206662023,2024-2025
+General_Training,For higher education extended course (three months or more),4.5,0.09058876551808907,2024-2025
+General_Training,For higher education extended course (three months or more),5,0.14233621502028107,2024-2025
+General_Training,For higher education extended course (three months or more),5.5,0.16446101528250093,2024-2025
+General_Training,For higher education extended course (three months or more),6,0.1627811693366657,2024-2025
+General_Training,For higher education extended course (three months or more),6.5,0.1325439423116319,2024-2025
+General_Training,For higher education extended course (three months or more),7,0.0982095300528537,2024-2025
+General_Training,For higher education extended course (three months or more),7.5,0.07239726308026385,2024-2025
+General_Training,For higher education extended course (three months or more),8,0.03908714712992174,2024-2025
+General_Training,For higher education extended course (three months or more),8.5,0.011103371983447373,2024-2025
+General_Training,For higher education extended course (three months or more),9,3.6874667103699754e-4,2024-2025
+General_Training,For higher education short course (three months or less),<4,0.03228962818003914,2024-2025
+General_Training,For higher education short course (three months or less),4,0.04305283757338552,2024-2025
+General_Training,For higher education short course (three months or less),4.5,0.11790606653620352,2024-2025
+General_Training,For higher education short course (three months or less),5,0.13209393346379647,2024-2025
+General_Training,For higher education short course (three months or less),5.5,0.17710371819960857,2024-2025
+General_Training,For higher education short course (three months or less),6,0.18835616438356162,2024-2025
+General_Training,For higher education short course (three months or less),6.5,0.13111545988258316,2024-2025
+General_Training,For higher education short course (three months or less),7,0.07876712328767123,2024-2025
+General_Training,For higher education short course (three months or less),7.5,0.05821917808219178,2024-2025
+General_Training,For higher education short course (three months or less),8,0.0337573385518591,2024-2025
+General_Training,For higher education short course (three months or less),8.5,0.006360078277886496,2024-2025
+General_Training,For higher education short course (three months or less),9,9.784735812133072e-4,2024-2025
+General_Training,For immigration,<4,0.007911538921925781,2024-2025
+General_Training,For immigration,4,0.014061444855241197,2024-2025
+General_Training,For immigration,4.5,0.027939950900126704,2024-2025
+General_Training,For immigration,5,0.04936185974239505,2024-2025
+General_Training,For immigration,5.5,0.09145811265868814,2024-2025
+General_Training,For immigration,6,0.178146265225139,2024-2025
+General_Training,For immigration,6.5,0.2161726942369758,2024-2025
+General_Training,For immigration,7,0.17605940768478515,2024-2025
+General_Training,For immigration,7.5,0.12582802396724266,2024-2025
+General_Training,For immigration,8,0.07884888576713471,2024-2025
+General_Training,For immigration,8.5,0.03107475421832053,2024-2025
+General_Training,For immigration,9,0.003137061822025381,2024-2025
+General_Training,For other education purposes,<4,0.023706683372349893,2024-2025
+General_Training,For other education purposes,4,0.02502555310099245,2024-2025
+General_Training,For other education purposes,4.5,0.047940914636156816,2024-2025
+General_Training,For other education purposes,5,0.0864189389693033,2024-2025
+General_Training,For other education purposes,5.5,0.13363447525470673,2024-2025
+General_Training,For other education purposes,6,0.20580962115467044,2024-2025
+General_Training,For other education purposes,6.5,0.21306340466220453,2024-2025
+General_Training,For other education purposes,7,0.140492597843648,2024-2025
+General_Training,For other education purposes,7.5,0.07883543802960863,2024-2025
+General_Training,For other education purposes,8,0.03702726763163969,2024-2025
+General_Training,For other education purposes,8.5,0.007649444426126809,2024-2025
+General_Training,For other education purposes,9,3.9566091859276597e-4,2024-2025
+General_Training,For personal reasons,<4,0.019575068717034395,2024-2025
+General_Training,For personal reasons,4,0.028563999702845257,2024-2025
+General_Training,For personal reasons,4.5,0.0584280514077706,2024-2025
+General_Training,For personal reasons,5,0.098395364386004,2024-2025
+General_Training,For personal reasons,5.5,0.13992273976673353,2024-2025
+General_Training,For personal reasons,6,0.19066191219077336,2024-2025
+General_Training,For personal reasons,6.5,0.17829284599955425,2024-2025
+General_Training,For personal reasons,7,0.1334596240992497,2024-2025
+General_Training,For personal reasons,7.5,0.09397518757893172,2024-2025
+General_Training,For personal reasons,8,0.045018943614887445,2024-2025
+General_Training,For personal reasons,8.5,0.012740509620384815,2024-2025
+General_Training,For personal reasons,9,9.657529158309189e-4,2024-2025
+General_Training,For professional registration (NOT medical),<4,0.011106364801366937,2024-2025
+General_Training,For professional registration (NOT medical),4,0.01196070055531824,2024-2025
+General_Training,For professional registration (NOT medical),4.5,0.027338744126441692,2024-2025
+General_Training,For professional registration (NOT medical),5,0.0598035027765912,2024-2025
+General_Training,For professional registration (NOT medical),5.5,0.0914139256727894,2024-2025
+General_Training,For professional registration (NOT medical),6,0.1452370781717215,2024-2025
+General_Training,For professional registration (NOT medical),6.5,0.20546774882528834,2024-2025
+General_Training,For professional registration (NOT medical),7,0.18581802648440837,2024-2025
+General_Training,For professional registration (NOT medical),7.5,0.1520717642033319,2024-2025
+General_Training,For professional registration (NOT medical),8,0.07988039299444682,2024-2025
+General_Training,For professional registration (NOT medical),8.5,0.029474583511319947,2024-2025
+General_Training,For professional registration (NOT medical),9,4.2716787697565144e-4,2024-2025
+General_Training,For registration as a dentist,<4,0,2024-2025
+General_Training,For registration as a dentist,4,0,2024-2025
+General_Training,For registration as a dentist,4.5,0.03424657534246575,2024-2025
+General_Training,For registration as a dentist,5,0.03424657534246575,2024-2025
+General_Training,For registration as a dentist,5.5,0.0821917808219178,2024-2025
+General_Training,For registration as a dentist,6,0.11643835616438356,2024-2025
+General_Training,For registration as a dentist,6.5,0.2191780821917808,2024-2025
+General_Training,For registration as a dentist,7,0.18493150684931506,2024-2025
+General_Training,For registration as a dentist,7.5,0.18493150684931506,2024-2025
+General_Training,For registration as a dentist,8,0.11643835616438356,2024-2025
+General_Training,For registration as a dentist,8.5,0.0273972602739726,2024-2025
+General_Training,For registration as a dentist,9,0,2024-2025
+General_Training,For registration as a doctor,<4,0.004291845493562232,2024-2025
+General_Training,For registration as a doctor,4,0.009809932556713674,2024-2025
+General_Training,For registration as a doctor,4.5,0.017780502759043533,2024-2025
+General_Training,For registration as a doctor,5,0.030656039239730228,2024-2025
+General_Training,For registration as a doctor,5.5,0.05824647455548743,2024-2025
+General_Training,For registration as a doctor,6,0.10913549969343961,2024-2025
+General_Training,For registration as a doctor,6.5,0.19558553034947884,2024-2025
+General_Training,For registration as a doctor,7,0.20784794604537093,2024-2025
+General_Training,For registration as a doctor,7.5,0.1747394236664623,2024-2025
+General_Training,For registration as a doctor,8,0.13611281422440222,2024-2025
+General_Training,For registration as a doctor,8.5,0.05088902513795218,2024-2025
+General_Training,For registration as a doctor,9,0.004904966278356837,2024-2025
+General_Training,For registration as a nurse (including CGFNS),<4,0.005098324836125273,2024-2025
+General_Training,For registration as a nurse (including CGFNS),4,0.013109978150036417,2024-2025
+General_Training,For registration as a nurse (including CGFNS),4.5,0.035688273852876914,2024-2025
+General_Training,For registration as a nurse (including CGFNS),5,0.09249817916970139,2024-2025
+General_Training,For registration as a nurse (including CGFNS),5.5,0.15440640932265112,2024-2025
+General_Training,For registration as a nurse (including CGFNS),6,0.1981063364894392,2024-2025
+General_Training,For registration as a nurse (including CGFNS),6.5,0.1842680262199563,2024-2025
+General_Training,For registration as a nurse (including CGFNS),7,0.16460305899490166,2024-2025
+General_Training,For registration as a nurse (including CGFNS),7.5,0.10196649672250546,2024-2025
+General_Training,For registration as a nurse (including CGFNS),8,0.04442825928623452,2024-2025
+General_Training,For registration as a nurse (including CGFNS),8.5,0.005826656955571741,2024-2025
+General_Training,For registration as a nurse (including CGFNS),9,0,2024-2025
+General_Training,(Other),<4,0.017555746269780327,2024-2025
+General_Training,(Other),4,0.025731363958022797,2024-2025
+General_Training,(Other),4.5,0.05119171296505413,2024-2025
+General_Training,(Other),5,0.0755830585542858,2024-2025
+General_Training,(Other),5.5,0.11658159808482768,2024-2025
+General_Training,(Other),6,0.19600403511149253,2024-2025
+General_Training,(Other),6.5,0.2032009876989325,2024-2025
+General_Training,(Other),7,0.14807955794450214,2024-2025
+General_Training,(Other),7.5,0.09590917987864551,2024-2025
+General_Training,(Other),8,0.051206769351220316,2024-2025
+General_Training,(Other),8.5,0.01758585904211271,2024-2025
+General_Training,(Other),9,0.0013701311411235075,2024-2025
+Academic,For employment,<4,0.006589156540215342,2023-2024
+Academic,For employment,4,0.012175615346050089,2023-2024
+Academic,For employment,4.5,0.029878005108983693,2023-2024
+Academic,For employment,5,0.06394585432234345,2023-2024
+Academic,For employment,5.5,0.1204669706591544,2023-2024
+Academic,For employment,6,0.17791916346360448,2023-2024
+Academic,For employment,6.5,0.20982643779692986,2023-2024
+Academic,For employment,7,0.1838159810919856,2023-2024
+Academic,For employment,7.5,0.12269916680593024,2023-2024
+Academic,For employment,8,0.0583832692720892,2023-2024
+Academic,For employment,8.5,0.01402583140353809,2023-2024
+Academic,For employment,9,2.7454818917563924e-4,2023-2024
+Academic,For higher education extended course (three months or more),<4,0.004467455789616864,2023-2024
+Academic,For higher education extended course (three months or more),4,0.011331035991516074,2023-2024
+Academic,For higher education extended course (three months or more),4.5,0.03387829260232144,2023-2024
+Academic,For higher education extended course (three months or more),5,0.08956116220050385,2023-2024
+Academic,For higher education extended course (three months or more),5.5,0.18478499787177813,2023-2024
+Academic,For higher education extended course (three months or more),6,0.23820052246166226,2023-2024
+Academic,For higher education extended course (three months or more),6.5,0.18380389534423666,2023-2024
+Academic,For higher education extended course (three months or more),7,0.1219246159503377,2023-2024
+Academic,For higher education extended course (three months or more),7.5,0.07974393068875259,2023-2024
+Academic,For higher education extended course (three months or more),8,0.04273407466826374,2023-2024
+Academic,For higher education extended course (three months or more),8.5,0.009413826149873367,2023-2024
+Academic,For higher education extended course (three months or more),9,1.5619028113733418e-4,2023-2024
+Academic,For higher education short course (three months or less),<4,0.00862132128465014,2023-2024
+Academic,For higher education short course (three months or less),4,0.021272438637196238,2023-2024
+Academic,For higher education short course (three months or less),4.5,0.05592868482110148,2023-2024
+Academic,For higher education short course (three months or less),5,0.11735254609842471,2023-2024
+Academic,For higher education short course (three months or less),5.5,0.20168518744657465,2023-2024
+Academic,For higher education short course (three months or less),6,0.23035779704481618,2023-2024
+Academic,For higher education short course (three months or less),6.5,0.16006838441812185,2023-2024
+Academic,For higher education short course (three months or less),7,0.1009891317621199,2023-2024
+Academic,For higher education short course (three months or less),7.5,0.06569788740994016,2023-2024
+Academic,For higher education short course (three months or less),8,0.03155452436194895,2023-2024
+Academic,For higher education short course (three months or less),8.5,0.006227866650384662,2023-2024
+Academic,For higher education short course (three months or less),9,2.4423006472096715e-4,2023-2024
+Academic,For immigration,<4,0.006823828714766338,2023-2024
+Academic,For immigration,4,0.014277732206331656,2023-2024
+Academic,For immigration,4.5,0.03183660853335236,2023-2024
+Academic,For immigration,5,0.06715646064410286,2023-2024
+Academic,For immigration,5.5,0.13524020114840044,2023-2024
+Academic,For immigration,6,0.19393226101739244,2023-2024
+Academic,For immigration,6.5,0.1851706551588858,2023-2024
+Academic,For immigration,7,0.15398789780900413,2023-2024
+Academic,For immigration,7.5,0.11629040503108765,2023-2024
+Academic,For immigration,8,0.07175719533506901,2023-2024
+Academic,For immigration,8.5,0.022551921728069236,2023-2024
+Academic,For immigration,9,9.748326735380482e-4,2023-2024
+Academic,For other education purposes,<4,0.005738161323092486,2023-2024
+Academic,For other education purposes,4,0.012415680907224558,2023-2024
+Academic,For other education purposes,4.5,0.03465849439147862,2023-2024
+Academic,For other education purposes,5,0.0868417585126686,2023-2024
+Academic,For other education purposes,5.5,0.1697496886516171,2023-2024
+Academic,For other education purposes,6,0.21528943710762666,2023-2024
+Academic,For other education purposes,6.5,0.18300696655289525,2023-2024
+Academic,For other education purposes,7,0.13964134366485736,2023-2024
+Academic,For other education purposes,7.5,0.0967475251522738,2023-2024
+Academic,For other education purposes,8,0.04778825759668802,2023-2024
+Academic,For other education purposes,8.5,0.008027050117526045,2023-2024
+Academic,For other education purposes,9,9.563602205154145e-5,2023-2024
+Academic,For personal reasons,<4,0.006501510574018127,2023-2024
+Academic,For personal reasons,4,0.015081570996978853,2023-2024
+Academic,For personal reasons,4.5,0.04145015105740181,2023-2024
+Academic,For personal reasons,5,0.10392749244712991,2023-2024
+Academic,For personal reasons,5.5,0.19079959718026185,2023-2024
+Academic,For personal reasons,6,0.225877139979859,2023-2024
+Academic,For personal reasons,6.5,0.17980261832829808,2023-2024
+Academic,For personal reasons,7,0.12385901309164149,2023-2024
+Academic,For personal reasons,7.5,0.07717220543806647,2023-2024
+Academic,For personal reasons,8,0.03009869083585096,2023-2024
+Academic,For personal reasons,8.5,0.005325276938569989,2023-2024
+Academic,For personal reasons,9,1.0473313192346425e-4,2023-2024
+Academic,For professional registration (NOT medical),<4,0.0016698892599753912,2023-2024
+Academic,For professional registration (NOT medical),4,0.004394445420987872,2023-2024
+Academic,For professional registration (NOT medical),4.5,0.011161891369309195,2023-2024
+Academic,For professional registration (NOT medical),5,0.030497451221655827,2023-2024
+Academic,For professional registration (NOT medical),5.5,0.05914923536649675,2023-2024
+Academic,For professional registration (NOT medical),6,0.11645280365617859,2023-2024
+Academic,For professional registration (NOT medical),6.5,0.1882580418351204,2023-2024
+Academic,For professional registration (NOT medical),7,0.2231499384777641,2023-2024
+Academic,For professional registration (NOT medical),7.5,0.1996835999296889,2023-2024
+Academic,For professional registration (NOT medical),8,0.13200914044647566,2023-2024
+Academic,For professional registration (NOT medical),8.5,0.03260678502373001,2023-2024
+Academic,For professional registration (NOT medical),9,9.667779926173317e-4,2023-2024
+Academic,For registration as a dentist,<4,0.0037779715199070035,2023-2024
+Academic,For registration as a dentist,4,0.0034873583260680036,2023-2024
+Academic,For registration as a dentist,4.5,0.02034292356873002,2023-2024
+Academic,For registration as a dentist,5,0.049404242952630045,2023-2024
+Academic,For registration as a dentist,5.5,0.07585004359197907,2023-2024
+Academic,For registration as a dentist,6,0.1299040976460331,2023-2024
+Academic,For registration as a dentist,6.5,0.1952920662598082,2023-2024
+Academic,For registration as a dentist,7,0.24149956408020923,2023-2024
+Academic,For registration as a dentist,7.5,0.16913687881429815,2023-2024
+Academic,For registration as a dentist,8,0.09590235396687011,2023-2024
+Academic,For registration as a dentist,8.5,0.015111886079628014,2023-2024
+Academic,For registration as a dentist,9,2.906131938390003e-4,2023-2024
+Academic,For registration as a doctor,<4,0.0013021775302032843,2023-2024
+Academic,For registration as a doctor,4,0.004087390580915865,2023-2024
+Academic,For registration as a doctor,4.5,0.01190045576213557,2023-2024
+Academic,For registration as a doctor,5,0.027526586124574984,2023-2024
+Academic,For registration as a doctor,5.5,0.051616870433335744,2023-2024
+Academic,For registration as a doctor,6,0.08055414888229763,2023-2024
+Academic,For registration as a doctor,6.5,0.11871518483686609,2023-2024
+Academic,For registration as a doctor,7,0.1742385878608117,2023-2024
+Academic,For registration as a doctor,7.5,0.23037690805179772,2023-2024
+Academic,For registration as a doctor,8,0.21883816827027416,2023-2024
+Academic,For registration as a doctor,8.5,0.07831150980250308,2023-2024
+Academic,For registration as a doctor,9,0.002532011864284164,2023-2024
+Academic,For registration as a nurse (including CGFNS),<4,9.61254066844129e-4,2023-2024
+Academic,For registration as a nurse (including CGFNS),4,0.0029946761313220938,2023-2024
+Academic,For registration as a nurse (including CGFNS),4.5,0.006248151434486838,2023-2024
+Academic,For registration as a nurse (including CGFNS),5,0.019483880508725227,2023-2024
+Academic,For registration as a nurse (including CGFNS),5.5,0.06691807157645667,2023-2024
+Academic,For registration as a nurse (including CGFNS),6,0.17350635906536527,2023-2024
+Academic,For registration as a nurse (including CGFNS),6.5,0.282312925170068,2023-2024
+Academic,For registration as a nurse (including CGFNS),7,0.26715468796214137,2023-2024
+Academic,For registration as a nurse (including CGFNS),7.5,0.1357586512866016,2023-2024
+Academic,For registration as a nurse (including CGFNS),8,0.03889381839692398,2023-2024
+Academic,For registration as a nurse (including CGFNS),8.5,0.005693581780538303,2023-2024
+Academic,For registration as a nurse (including CGFNS),9,7.394262052647145e-5,2023-2024
+Academic,(Other),<4,0.008868928945799848,2023-2024
+Academic,(Other),4,0.018816928041436295,2023-2024
+Academic,(Other),4.5,0.04829095841983023,2023-2024
+Academic,(Other),5,0.09764043327235732,2023-2024
+Academic,(Other),5.5,0.16083283661850245,2023-2024
+Academic,(Other),6,0.19411958152631903,2023-2024
+Academic,(Other),6.5,0.16821162107167079,2023-2024
+Academic,(Other),7,0.13388691344829712,2023-2024
+Academic,(Other),7.5,0.10122705691324276,2023-2024
+Academic,(Other),8,0.05485787104597867,2023-2024
+Academic,(Other),8.5,0.012815242636630834,2023-2024
+Academic,(Other),9,4.316280599346392e-4,2023-2024
+General_Training,For employment,<4,0.03826972206670656,2023-2024
+General_Training,For employment,4,0.06054170929940733,2023-2024
+General_Training,For employment,4.5,0.12211303950526715,2023-2024
+General_Training,For employment,5,0.182879978377961,2023-2024
+General_Training,For employment,5.5,0.19482358089281004,2023-2024
+General_Training,For employment,6,0.16106488542249853,2023-2024
+General_Training,For employment,6.5,0.10963532114519586,2023-2024
+General_Training,For employment,7,0.06762678816193364,2023-2024
+General_Training,For employment,7.5,0.03857860833864232,2023-2024
+General_Training,For employment,8,0.019620713398585562,2023-2024
+General_Training,For employment,8.5,0.004691210255024229,2023-2024
+General_Training,For employment,9,1.5444313596787583e-4,2023-2024
+General_Training,For higher education extended course (three months or more),<4,0.04043869364380453,2023-2024
+General_Training,For higher education extended course (three months or more),4,0.06067154704341014,2023-2024
+General_Training,For higher education extended course (three months or more),4.5,0.10910613468759285,2023-2024
+General_Training,For higher education extended course (three months or more),5,0.1689943002242092,2023-2024
+General_Training,For higher education extended course (three months or more),5.5,0.17574758907587995,2023-2024
+General_Training,For higher education extended course (three months or more),6,0.1498689861962776,2023-2024
+General_Training,For higher education extended course (three months or more),6.5,0.10899808206596612,2023-2024
+General_Training,For higher education extended course (three months or more),7,0.08247116345660337,2023-2024
+General_Training,For higher education extended course (three months or more),7.5,0.05732191577298144,2023-2024
+General_Training,For higher education extended course (three months or more),8,0.03733218077203598,2023-2024
+General_Training,For higher education extended course (three months or more),8.5,0.008914341284205408,2023-2024
+General_Training,For higher education extended course (three months or more),9,1.3506577703341525e-4,2023-2024
+General_Training,For higher education short course (three months or less),<4,0.045025417574437183,2023-2024
+General_Training,For higher education short course (three months or less),4,0.06390704429920117,2023-2024
+General_Training,For higher education short course (three months or less),4.5,0.12018881626724764,2023-2024
+General_Training,For higher education short course (three months or less),5,0.1793754538852578,2023-2024
+General_Training,For higher education short course (three months or less),5.5,0.21350762527233116,2023-2024
+General_Training,For higher education short course (three months or less),6,0.14996368917937547,2023-2024
+General_Training,For higher education short course (three months or less),6.5,0.1038489469862019,2023-2024
+General_Training,For higher education short course (three months or less),7,0.05301379811183733,2023-2024
+General_Training,For higher education short course (three months or less),7.5,0.047204066811909945,2023-2024
+General_Training,For higher education short course (three months or less),8,0.020697167755991286,2023-2024
+General_Training,For higher education short course (three months or less),8.5,0.0032679738562091504,2023-2024
+General_Training,For higher education short course (three months or less),9,0,2023-2024
+General_Training,For immigration,<4,0.01318557674956745,2023-2024
+General_Training,For immigration,4,0.021214533643282487,2023-2024
+General_Training,For immigration,4.5,0.04466452249785052,2023-2024
+General_Training,For immigration,5,0.0739568406415523,2023-2024
+General_Training,For immigration,5.5,0.1102888259083527,2023-2024
+General_Training,For immigration,6,0.16086785763568237,2023-2024
+General_Training,For immigration,6.5,0.17703616427305247,2023-2024
+General_Training,For immigration,7,0.1578235625046439,2023-2024
+General_Training,For immigration,7.5,0.12460805230922736,2023-2024
+General_Training,For immigration,8,0.08284346506172445,2023-2024
+General_Training,For immigration,8.5,0.030960948529333714,2023-2024
+General_Training,For immigration,9,0.0025496502457302383,2023-2024
+General_Training,For other education purposes,<4,0.02892124959323137,2023-2024
+General_Training,For other education purposes,4,0.035632931988285065,2023-2024
+General_Training,For other education purposes,4.5,0.0779368695086235,2023-2024
+General_Training,For other education purposes,5,0.13537260006508298,2023-2024
+General_Training,For other education purposes,5.5,0.17002928734136025,2023-2024
+General_Training,For other education purposes,6,0.1794256426944354,2023-2024
+General_Training,For other education purposes,6.5,0.15103319232020826,2023-2024
+General_Training,For other education purposes,7,0.10872925479986983,2023-2024
+General_Training,For other education purposes,7.5,0.07049300357956394,2023-2024
+General_Training,For other education purposes,8,0.034249918646274,2023-2024
+General_Training,For other education purposes,8.5,0.007891311422063129,2023-2024
+General_Training,For other education purposes,9,2.847380410022779e-4,2023-2024
+General_Training,For personal reasons,<4,0.02140815105378632,2023-2024
+General_Training,For personal reasons,4,0.03320922810983312,2023-2024
+General_Training,For personal reasons,4.5,0.0739312545708397,2023-2024
+General_Training,For personal reasons,5,0.11834319526627218,2023-2024
+General_Training,For personal reasons,5.5,0.1551758526693704,2023-2024
+General_Training,For personal reasons,6,0.17083305631274517,2023-2024
+General_Training,For personal reasons,6.5,0.15338075925802805,2023-2024
+General_Training,For personal reasons,7,0.12123529020676817,2023-2024
+General_Training,For personal reasons,7.5,0.08985439797885779,2023-2024
+General_Training,For personal reasons,8,0.049963433282361545,2023-2024
+General_Training,For personal reasons,8.5,0.01213350176185094,2023-2024
+General_Training,For personal reasons,9,5.318795292866166e-4,2023-2024
+General_Training,For professional registration (NOT medical),<4,0.011579818031430935,2023-2024
+General_Training,For professional registration (NOT medical),4,0.016129032258064516,2023-2024
+General_Training,For professional registration (NOT medical),4.5,0.02812241521918941,2023-2024
+General_Training,For professional registration (NOT medical),5,0.07568238213399504,2023-2024
+General_Training,For professional registration (NOT medical),5.5,0.130686517783292,2023-2024
+General_Training,For professional registration (NOT medical),6,0.1546732837055418,2023-2024
+General_Training,For professional registration (NOT medical),6.5,0.18320926385442515,2023-2024
+General_Training,For professional registration (NOT medical),7,0.17411083540115802,2023-2024
+General_Training,For professional registration (NOT medical),7.5,0.130686517783292,2023-2024
+General_Training,For professional registration (NOT medical),8,0.0707196029776675,2023-2024
+General_Training,For professional registration (NOT medical),8.5,0.023573200992555835,2023-2024
+General_Training,For professional registration (NOT medical),9,8.271298593879239e-4,2023-2024
+General_Training,For registration as a dentist,<4,0.018433179723502304,2023-2024
+General_Training,For registration as a dentist,4,0,2023-2024
+General_Training,For registration as a dentist,4.5,0.013824884792626729,2023-2024
+General_Training,For registration as a dentist,5,0.055299539170506916,2023-2024
+General_Training,For registration as a dentist,5.5,0.0967741935483871,2023-2024
+General_Training,For registration as a dentist,6,0.1152073732718894,2023-2024
+General_Training,For registration as a dentist,6.5,0.10599078341013826,2023-2024
+General_Training,For registration as a dentist,7,0.1935483870967742,2023-2024
+General_Training,For registration as a dentist,7.5,0.2488479262672811,2023-2024
+General_Training,For registration as a dentist,8,0.11059907834101383,2023-2024
+General_Training,For registration as a dentist,8.5,0.041474654377880185,2023-2024
+General_Training,For registration as a dentist,9,0,2023-2024
+General_Training,For registration as a doctor,<4,0.008700102354145344,2023-2024
+General_Training,For registration as a doctor,4,0.0127942681678608,2023-2024
+General_Training,For registration as a doctor,4.5,0.020982599795291712,2023-2024
+General_Training,For registration as a doctor,5,0.03582395087001024,2023-2024
+General_Training,For registration as a doctor,5.5,0.056294779938587516,2023-2024
+General_Training,For registration as a doctor,6,0.09774820880245651,2023-2024
+General_Training,For registration as a doctor,6.5,0.14687819856704196,2023-2024
+General_Training,For registration as a doctor,7,0.17349027635619244,2023-2024
+General_Training,For registration as a doctor,7.5,0.16530194472876153,2023-2024
+General_Training,For registration as a doctor,8,0.18423746161719548,2023-2024
+General_Training,For registration as a doctor,8.5,0.09314227226202662,2023-2024
+General_Training,For registration as a doctor,9,0.004605936540429888,2023-2024
+General_Training,For registration as a nurse (including CGFNS),<4,0.009505703422053232,2023-2024
+General_Training,For registration as a nurse (including CGFNS),4,0.022338403041825092,2023-2024
+General_Training,For registration as a nurse (including CGFNS),4.5,0.06083650190114068,2023-2024
+General_Training,For registration as a nurse (including CGFNS),5,0.10979087452471482,2023-2024
+General_Training,For registration as a nurse (including CGFNS),5.5,0.15969581749049427,2023-2024
+General_Training,For registration as a nurse (including CGFNS),6,0.21292775665399236,2023-2024
+General_Training,For registration as a nurse (including CGFNS),6.5,0.18678707224334598,2023-2024
+General_Training,For registration as a nurse (including CGFNS),7,0.12547528517110265,2023-2024
+General_Training,For registration as a nurse (including CGFNS),7.5,0.07889733840304182,2023-2024
+General_Training,For registration as a nurse (including CGFNS),8,0.02756653992395437,2023-2024
+General_Training,For registration as a nurse (including CGFNS),8.5,0.005703422053231939,2023-2024
+General_Training,For registration as a nurse (including CGFNS),9,4.7528517110266154e-4,2023-2024
+General_Training,(Other),<4,0.018098212309735167,2023-2024
+General_Training,(Other),4,0.030737452971696954,2023-2024
+General_Training,(Other),4.5,0.06523717018712961,2023-2024
+General_Training,(Other),5,0.10770403521282612,2023-2024
+General_Training,(Other),5.5,0.14107261415890032,2023-2024
+General_Training,(Other),6,0.17102318833452185,2023-2024
+General_Training,(Other),6.5,0.15322005557331497,2023-2024
+General_Training,(Other),7,0.12540880812452357,2023-2024
+General_Training,(Other),7.5,0.09813853984803403,2023-2024
+General_Training,(Other),8,0.06250768436324292,2023-2024
+General_Training,(Other),8.5,0.024442422603093417,2023-2024
+General_Training,(Other),9,0.0024098163129810408,2023-2024
+Academic,For employment,<4,0.01,2022-2023
+Academic,For employment,4,0.01,2022-2023
+Academic,For employment,4.5,0.03,2022-2023
+Academic,For employment,5,0.06,2022-2023
+Academic,For employment,5.5,0.12,2022-2023
+Academic,For employment,6,0.18,2022-2023
+Academic,For employment,6.5,0.22,2022-2023
+Academic,For employment,7,0.2,2022-2023
+Academic,For employment,7.5,0.12,2022-2023
+Academic,For employment,8,0.05,2022-2023
+Academic,For employment,8.5,0.01,2022-2023
+Academic,For employment,9,0,2022-2023
+Academic,For higher education extended course (three months or more),<4,0,2022-2023
+Academic,For higher education extended course (three months or more),4,0.01,2022-2023
+Academic,For higher education extended course (three months or more),4.5,0.02,2022-2023
+Academic,For higher education extended course (three months or more),5,0.07,2022-2023
+Academic,For higher education extended course (three months or more),5.5,0.17,2022-2023
+Academic,For higher education extended course (three months or more),6,0.25,2022-2023
+Academic,For higher education extended course (three months or more),6.5,0.2,2022-2023
+Academic,For higher education extended course (three months or more),7,0.13,2022-2023
+Academic,For higher education extended course (three months or more),7.5,0.09,2022-2023
+Academic,For higher education extended course (three months or more),8,0.04,2022-2023
+Academic,For higher education extended course (three months or more),8.5,0.01,2022-2023
+Academic,For higher education extended course (three months or more),9,0,2022-2023
+Academic,For higher education short course (three months or less),<4,0.01,2022-2023
+Academic,For higher education short course (three months or less),4,0.01,2022-2023
+Academic,For higher education short course (three months or less),4.5,0.04,2022-2023
+Academic,For higher education short course (three months or less),5,0.1,2022-2023
+Academic,For higher education short course (three months or less),5.5,0.21,2022-2023
+Academic,For higher education short course (three months or less),6,0.27,2022-2023
+Academic,For higher education short course (three months or less),6.5,0.17,2022-2023
+Academic,For higher education short course (three months or less),7,0.09,2022-2023
+Academic,For higher education short course (three months or less),7.5,0.05,2022-2023
+Academic,For higher education short course (three months or less),8,0.02,2022-2023
+Academic,For higher education short course (three months or less),8.5,0,2022-2023
+Academic,For higher education short course (three months or less),9,0,2022-2023
+Academic,For immigration,<4,0.01,2022-2023
+Academic,For immigration,4,0.01,2022-2023
+Academic,For immigration,4.5,0.02,2022-2023
+Academic,For immigration,5,0.06,2022-2023
+Academic,For immigration,5.5,0.15,2022-2023
+Academic,For immigration,6,0.23,2022-2023
+Academic,For immigration,6.5,0.21,2022-2023
+Academic,For immigration,7,0.15,2022-2023
+Academic,For immigration,7.5,0.1,2022-2023
+Academic,For immigration,8,0.06,2022-2023
+Academic,For immigration,8.5,0.02,2022-2023
+Academic,For immigration,9,0,2022-2023
+Academic,For other education purposes,<4,0.01,2022-2023
+Academic,For other education purposes,4,0.01,2022-2023
+Academic,For other education purposes,4.5,0.03,2022-2023
+Academic,For other education purposes,5,0.08,2022-2023
+Academic,For other education purposes,5.5,0.17,2022-2023
+Academic,For other education purposes,6,0.23,2022-2023
+Academic,For other education purposes,6.5,0.19,2022-2023
+Academic,For other education purposes,7,0.13,2022-2023
+Academic,For other education purposes,7.5,0.09,2022-2023
+Academic,For other education purposes,8,0.04,2022-2023
+Academic,For other education purposes,8.5,0.01,2022-2023
+Academic,For other education purposes,9,0,2022-2023
+Academic,For personal reasons,<4,0.01,2022-2023
+Academic,For personal reasons,4,0.01,2022-2023
+Academic,For personal reasons,4.5,0.04,2022-2023
+Academic,For personal reasons,5,0.1,2022-2023
+Academic,For personal reasons,5.5,0.18,2022-2023
+Academic,For personal reasons,6,0.23,2022-2023
+Academic,For personal reasons,6.5,0.19,2022-2023
+Academic,For personal reasons,7,0.13,2022-2023
+Academic,For personal reasons,7.5,0.08,2022-2023
+Academic,For personal reasons,8,0.03,2022-2023
+Academic,For personal reasons,8.5,0.01,2022-2023
+Academic,For personal reasons,9,0,2022-2023
+Academic,For professional registration (NOT medical),<4,0,2022-2023
+Academic,For professional registration (NOT medical),4,0,2022-2023
+Academic,For professional registration (NOT medical),4.5,0.01,2022-2023
+Academic,For professional registration (NOT medical),5,0.02,2022-2023
+Academic,For professional registration (NOT medical),5.5,0.06,2022-2023
+Academic,For professional registration (NOT medical),6,0.11,2022-2023
+Academic,For professional registration (NOT medical),6.5,0.19,2022-2023
+Academic,For professional registration (NOT medical),7,0.23,2022-2023
+Academic,For professional registration (NOT medical),7.5,0.21,2022-2023
+Academic,For professional registration (NOT medical),8,0.13,2022-2023
+Academic,For professional registration (NOT medical),8.5,0.03,2022-2023
+Academic,For professional registration (NOT medical),9,0,2022-2023
+Academic,For registration as a dentist,<4,0,2022-2023
+Academic,For registration as a dentist,4,0.01,2022-2023
+Academic,For registration as a dentist,4.5,0.01,2022-2023
+Academic,For registration as a dentist,5,0.05,2022-2023
+Academic,For registration as a dentist,5.5,0.07,2022-2023
+Academic,For registration as a dentist,6,0.14,2022-2023
+Academic,For registration as a dentist,6.5,0.2,2022-2023
+Academic,For registration as a dentist,7,0.23,2022-2023
+Academic,For registration as a dentist,7.5,0.17,2022-2023
+Academic,For registration as a dentist,8,0.09,2022-2023
+Academic,For registration as a dentist,8.5,0.02,2022-2023
+Academic,For registration as a dentist,9,0,2022-2023
+Academic,For registration as a doctor,<4,0,2022-2023
+Academic,For registration as a doctor,4,0,2022-2023
+Academic,For registration as a doctor,4.5,0.01,2022-2023
+Academic,For registration as a doctor,5,0.02,2022-2023
+Academic,For registration as a doctor,5.5,0.04,2022-2023
+Academic,For registration as a doctor,6,0.07,2022-2023
+Academic,For registration as a doctor,6.5,0.11,2022-2023
+Academic,For registration as a doctor,7,0.19,2022-2023
+Academic,For registration as a doctor,7.5,0.25,2022-2023
+Academic,For registration as a doctor,8,0.23,2022-2023
+Academic,For registration as a doctor,8.5,0.07,2022-2023
+Academic,For registration as a doctor,9,0,2022-2023
+Academic,For registration as a nurse (including CGFNS),<4,0,2022-2023
+Academic,For registration as a nurse (including CGFNS),4,0,2022-2023
+Academic,For registration as a nurse (including CGFNS),4.5,0.01,2022-2023
+Academic,For registration as a nurse (including CGFNS),5,0.02,2022-2023
+Academic,For registration as a nurse (including CGFNS),5.5,0.06,2022-2023
+Academic,For registration as a nurse (including CGFNS),6,0.17,2022-2023
+Academic,For registration as a nurse (including CGFNS),6.5,0.29,2022-2023
+Academic,For registration as a nurse (including CGFNS),7,0.28,2022-2023
+Academic,For registration as a nurse (including CGFNS),7.5,0.14,2022-2023
+Academic,For registration as a nurse (including CGFNS),8,0.04,2022-2023
+Academic,For registration as a nurse (including CGFNS),8.5,0,2022-2023
+Academic,For registration as a nurse (including CGFNS),9,0,2022-2023
+Academic,(Other),<4,0.01,2022-2023
+Academic,(Other),4,0.02,2022-2023
+Academic,(Other),4.5,0.05,2022-2023
+Academic,(Other),5,0.1,2022-2023
+Academic,(Other),5.5,0.17,2022-2023
+Academic,(Other),6,0.2,2022-2023
+Academic,(Other),6.5,0.18,2022-2023
+Academic,(Other),7,0.13,2022-2023
+Academic,(Other),7.5,0.09,2022-2023
+Academic,(Other),8,0.04,2022-2023
+Academic,(Other),8.5,0.01,2022-2023
+Academic,(Other),9,0,2022-2023
+General_Training,For employment,<4,0.02,2022-2023
+General_Training,For employment,4,0.04,2022-2023
+General_Training,For employment,4.5,0.08,2022-2023
+General_Training,For employment,5,0.14,2022-2023
+General_Training,For employment,5.5,0.19,2022-2023
+General_Training,For employment,6,0.19,2022-2023
+General_Training,For employment,6.5,0.15,2022-2023
+General_Training,For employment,7,0.1,2022-2023
+General_Training,For employment,7.5,0.06,2022-2023
+General_Training,For employment,8,0.03,2022-2023
+General_Training,For employment,8.5,0.01,2022-2023
+General_Training,For employment,9,0,2022-2023
+General_Training,For higher education extended course (three months or more),<4,0.03,2022-2023
+General_Training,For higher education extended course (three months or more),4,0.04,2022-2023
+General_Training,For higher education extended course (three months or more),4.5,0.08,2022-2023
+General_Training,For higher education extended course (three months or more),5,0.14,2022-2023
+General_Training,For higher education extended course (three months or more),5.5,0.17,2022-2023
+General_Training,For higher education extended course (three months or more),6,0.17,2022-2023
+General_Training,For higher education extended course (three months or more),6.5,0.14,2022-2023
+General_Training,For higher education extended course (three months or more),7,0.1,2022-2023
+General_Training,For higher education extended course (three months or more),7.5,0.08,2022-2023
+General_Training,For higher education extended course (three months or more),8,0.04,2022-2023
+General_Training,For higher education extended course (three months or more),8.5,0.01,2022-2023
+General_Training,For higher education extended course (three months or more),9,0,2022-2023
+General_Training,For higher education short course (three months or less),<4,0.05,2022-2023
+General_Training,For higher education short course (three months or less),4,0.04,2022-2023
+General_Training,For higher education short course (three months or less),4.5,0.09,2022-2023
+General_Training,For higher education short course (three months or less),5,0.18,2022-2023
+General_Training,For higher education short course (three months or less),5.5,0.19,2022-2023
+General_Training,For higher education short course (three months or less),6,0.18,2022-2023
+General_Training,For higher education short course (three months or less),6.5,0.11,2022-2023
+General_Training,For higher education short course (three months or less),7,0.09,2022-2023
+General_Training,For higher education short course (three months or less),7.5,0.04,2022-2023
+General_Training,For higher education short course (three months or less),8,0.02,2022-2023
+General_Training,For higher education short course (three months or less),8.5,0.01,2022-2023
+General_Training,For higher education short course (three months or less),9,0,2022-2023
+General_Training,For immigration,<4,0.01,2022-2023
+General_Training,For immigration,4,0.01,2022-2023
+General_Training,For immigration,4.5,0.03,2022-2023
+General_Training,For immigration,5,0.06,2022-2023
+General_Training,For immigration,5.5,0.11,2022-2023
+General_Training,For immigration,6,0.17,2022-2023
+General_Training,For immigration,6.5,0.19,2022-2023
+General_Training,For immigration,7,0.17,2022-2023
+General_Training,For immigration,7.5,0.13,2022-2023
+General_Training,For immigration,8,0.09,2022-2023
+General_Training,For immigration,8.5,0.03,2022-2023
+General_Training,For immigration,9,0,2022-2023
+General_Training,For other education purposes,<4,0.03,2022-2023
+General_Training,For other education purposes,4,0.03,2022-2023
+General_Training,For other education purposes,4.5,0.06,2022-2023
+General_Training,For other education purposes,5,0.11,2022-2023
+General_Training,For other education purposes,5.5,0.17,2022-2023
+General_Training,For other education purposes,6,0.19,2022-2023
+General_Training,For other education purposes,6.5,0.16,2022-2023
+General_Training,For other education purposes,7,0.12,2022-2023
+General_Training,For other education purposes,7.5,0.07,2022-2023
+General_Training,For other education purposes,8,0.04,2022-2023
+General_Training,For other education purposes,8.5,0.01,2022-2023
+General_Training,For other education purposes,9,0,2022-2023
+General_Training,For personal reasons,<4,0.01,2022-2023
+General_Training,For personal reasons,4,0.02,2022-2023
+General_Training,For personal reasons,4.5,0.05,2022-2023
+General_Training,For personal reasons,5,0.1,2022-2023
+General_Training,For personal reasons,5.5,0.14,2022-2023
+General_Training,For personal reasons,6,0.18,2022-2023
+General_Training,For personal reasons,6.5,0.17,2022-2023
+General_Training,For personal reasons,7,0.15,2022-2023
+General_Training,For personal reasons,7.5,0.11,2022-2023
+General_Training,For personal reasons,8,0.06,2022-2023
+General_Training,For personal reasons,8.5,0.01,2022-2023
+General_Training,For personal reasons,9,0,2022-2023
+General_Training,For professional registration (NOT medical),<4,0.01,2022-2023
+General_Training,For professional registration (NOT medical),4,0.02,2022-2023
+General_Training,For professional registration (NOT medical),4.5,0.04,2022-2023
+General_Training,For professional registration (NOT medical),5,0.08,2022-2023
+General_Training,For professional registration (NOT medical),5.5,0.12,2022-2023
+General_Training,For professional registration (NOT medical),6,0.18,2022-2023
+General_Training,For professional registration (NOT medical),6.5,0.18,2022-2023
+General_Training,For professional registration (NOT medical),7,0.16,2022-2023
+General_Training,For professional registration (NOT medical),7.5,0.13,2022-2023
+General_Training,For professional registration (NOT medical),8,0.08,2022-2023
+General_Training,For professional registration (NOT medical),8.5,0.02,2022-2023
+General_Training,For professional registration (NOT medical),9,0,2022-2023
+General_Training,For registration as a dentist,<4,0.02,2022-2023
+General_Training,For registration as a dentist,4,0.01,2022-2023
+General_Training,For registration as a dentist,4.5,0.01,2022-2023
+General_Training,For registration as a dentist,5,0.05,2022-2023
+General_Training,For registration as a dentist,5.5,0.11,2022-2023
+General_Training,For registration as a dentist,6,0.15,2022-2023
+General_Training,For registration as a dentist,6.5,0.18,2022-2023
+General_Training,For registration as a dentist,7,0.24,2022-2023
+General_Training,For registration as a dentist,7.5,0.15,2022-2023
+General_Training,For registration as a dentist,8,0.05,2022-2023
+General_Training,For registration as a dentist,8.5,0.03,2022-2023
+General_Training,For registration as a dentist,9,0,2022-2023
+General_Training,For registration as a doctor,<4,0.01,2022-2023
+General_Training,For registration as a doctor,4,0.01,2022-2023
+General_Training,For registration as a doctor,4.5,0.02,2022-2023
+General_Training,For registration as a doctor,5,0.04,2022-2023
+General_Training,For registration as a doctor,5.5,0.06,2022-2023
+General_Training,For registration as a doctor,6,0.09,2022-2023
+General_Training,For registration as a doctor,6.5,0.12,2022-2023
+General_Training,For registration as a doctor,7,0.15,2022-2023
+General_Training,For registration as a doctor,7.5,0.19,2022-2023
+General_Training,For registration as a doctor,8,0.18,2022-2023
+General_Training,For registration as a doctor,8.5,0.11,2022-2023
+General_Training,For registration as a doctor,9,0,2022-2023
+General_Training,For registration as a nurse (including CGFNS),<4,0.01,2022-2023
+General_Training,For registration as a nurse (including CGFNS),4,0.02,2022-2023
+General_Training,For registration as a nurse (including CGFNS),4.5,0.06,2022-2023
+General_Training,For registration as a nurse (including CGFNS),5,0.12,2022-2023
+General_Training,For registration as a nurse (including CGFNS),5.5,0.21,2022-2023
+General_Training,For registration as a nurse (including CGFNS),6,0.23,2022-2023
+General_Training,For registration as a nurse (including CGFNS),6.5,0.17,2022-2023
+General_Training,For registration as a nurse (including CGFNS),7,0.1,2022-2023
+General_Training,For registration as a nurse (including CGFNS),7.5,0.05,2022-2023
+General_Training,For registration as a nurse (including CGFNS),8,0.02,2022-2023
+General_Training,For registration as a nurse (including CGFNS),8.5,0,2022-2023
+General_Training,For registration as a nurse (including CGFNS),9,0,2022-2023
+General_Training,(Other),<4,0.02,2022-2023
+General_Training,(Other),4,0.03,2022-2023
+General_Training,(Other),4.5,0.06,2022-2023
+General_Training,(Other),5,0.11,2022-2023
+General_Training,(Other),5.5,0.16,2022-2023
+General_Training,(Other),6,0.18,2022-2023
+General_Training,(Other),6.5,0.16,2022-2023
+General_Training,(Other),7,0.13,2022-2023
+General_Training,(Other),7.5,0.09,2022-2023
+General_Training,(Other),8,0.05,2022-2023
+General_Training,(Other),8.5,0.01,2022-2023
+General_Training,(Other),9,0,2022-2023
