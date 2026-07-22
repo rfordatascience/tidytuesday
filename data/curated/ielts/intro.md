@@ -7,7 +7,7 @@ The dataset comes from the [IELTS research website](https://ielts.org/researcher
 > It helps researchers and teachers understand the performance of the test and how test takers perform in particular countries or regions.
 
 The IELTS exam consists of 4 parts: Listening, Speaking, Reading and Writing. 
-Each part is score using a "band" system from 1 to 9, and then the four parts are averaged for an overall score. 
+Each part is scored using a "band" system from 1 to 9, and then the four parts are averaged for an overall score. 
 You can find more information on what each band means [in the IELTS website](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
 There are two versions of the exam: Academic and General Training. 
 The dataset provides values for the years 2022, 2023 and 2024. 
@@ -17,5 +17,5 @@ Some questions you can answer:
 
 - Do English speakers consistently get top marks on the English language test?
 - Which parts of the test do test takers find the most difficult? Is it the same for all test takers?
-- Do the reason to take the test affect the score?
+- Does the reason for taking the test affect the score?
 - Has there been a change in tests scores in the three years for which we have information?
