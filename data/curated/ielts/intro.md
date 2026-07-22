@@ -1,27 +1,21 @@
-<!-- 
-Describe the dataset. See previous weeks for the general format of the
-description. The description is the part of the readme.md file above "The Data";
-everything else will be filled in from the other md files in this directory +
-automatic scripts. We usually include brief introduction along the lines of
-"This week we're exploring DATASET" or "The dataset this week comes from 
-SOURCE".
--->
+This week we're exploring **International English Language Testing System (IELTS) Tests statistics**.
+The dataset comes from the [IELTS research website](https://ielts.org/researchers/our-research/test-statistics) and contains mean scores in various aggregations. 
 
-<!-- Add a quote from the source, starting lines with a ">" character, like 
-this:
-> Plant traits are critical to plant form and function — including growth, 
-> survival and reproduction — and therefore shape fundamental aspects of
-> population and ecosystem dynamics as well as ecosystem services. Here, we 
-> present a global species-level compilation of key functional traits for palms 
-> (Arecaceae), a plant family with keystone importance in tropical and 
-> subtropical ecosystems.
--->
 
-> PasteQuoteHere
+> IELTS is proud to offer transparent statistics on our testing system. 
+> The following data has been compiled from the scores achieved by various groups of test takers. 
+> It helps researchers and teachers understand the performance of the test and how test takers perform in particular countries or regions.
 
-<!--
-Optional: Add questions that users should try to answer. For example:
-- How does the sizes of the different species of palms vary across sub families?
-- Which fruit colors occur most often?
--->
+The IELTS exam consists of 4 parts: Listening, Speaking, Reading and Writing. 
+Each part is score using a "band" system from 1 to 9, and then the four parts are averaged for an overall score. 
+You can find more information on what each band means [in the IELTS website](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
+There are two versions of the exam: Academic and General Training. 
+The dataset provides values for the years 2022, 2023 and 2024. 
 
+
+Some questions you can answer:  
+
+- Do English speakers consistently get top marks on the English language test?
+- Which parts of the test do test takers find the most difficult? Is it the same for all test takers?
+- Do the reason to take the test affect the score?
+- Has there been a change in tests scores in the three years for which we have information?
