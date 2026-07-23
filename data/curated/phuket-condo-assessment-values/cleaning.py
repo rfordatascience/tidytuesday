@@ -30,9 +30,11 @@ SOURCE_URL = (
     "b115b105-58c6-4c3d-8ca8-687f7501e296?format=csv"
 )
 SOURCE_SHA256 = "89d14f4a0ff577035b843b258f85762f932d750dc2dca46530d61d3458b973a1"
-OUTPUT_SHA256 = "30f9817d5fbfe4d9a7f5c3d5731599b7784016ed98f8ab580589d6e42dad16bb"
+OUTPUT_SHA256 = "42ac4ee27c8aea208094bf0a0d75eee4d9798ddee82f4af584cb773d93c94889"
 SOURCE_ROW_COUNT = 122_112
 PHUKET_ROW_COUNT = 4_707
+CURATED_ROW_COUNT = 4_704
+EXACT_CONTENT_DUPLICATE_COUNT = 3
 PHUKET_PROVINCE_CODE = 83
 VALUE_BASIS = "official_statutory_assessment_rate_not_market_price"
 
@@ -71,7 +73,6 @@ OUTPUT_COLUMNS = [
     "floor_value_has_thai_month_token",
     "use_category_th",
     "assessed_value_thb_per_sqm",
-    "duplicate_of_datastore_row_id",
     "value_basis",
 ]
 
@@ -193,23 +194,27 @@ def build_dataset(source_payload: bytes) -> pd.DataFrame:
 
     # Rows are assessment-rate table records, not physical units. The source
     # contains three exact content duplicates when CKAN's internal _id is
-    # ignored. Retain those records and mark the first lower _id as canonical.
+    # ignored. Because _id is already verified as ascending, keep the lowest
+    # CKAN identifier from each equivalent group and remove later copies.
     content_columns = [name for name in SOURCE_COLUMNS if name != "_id"]
-    canonical_id = phuket_source.groupby(
-        content_columns,
-        sort=False,
-        dropna=False,
-    )["_id"].transform("first")
-    duplicate_id = canonical_id.where(canonical_id.ne(phuket_source["_id"]))
+    duplicate_mask = phuket_source.duplicated(
+        subset=content_columns,
+        keep="first",
+    )
+    if int(duplicate_mask.sum()) != EXACT_CONTENT_DUPLICATE_COUNT:
+        raise ValueError("Unexpected exact-content duplicate count")
+    phuket_source = phuket_source.loc[~duplicate_mask].copy()
+    if len(phuket_source) != CURATED_ROW_COUNT:
+        raise ValueError(
+            f"Unexpected curated row count: {len(phuket_source)} != "
+            f"{CURATED_ROW_COUNT}"
+        )
 
     phuket_condo_assessment = phuket_source.rename(columns=RENAME_COLUMNS)
     phuket_condo_assessment["floor_value_has_thai_month_token"] = (
         phuket_condo_assessment["floor_or_range_source"]
         .str.contains(THAI_MONTH_TOKEN, regex=True, na=False)
         .astype(bool)
-    )
-    phuket_condo_assessment["duplicate_of_datastore_row_id"] = duplicate_id.astype(
-        "Int64"
     )
     phuket_condo_assessment["value_basis"] = VALUE_BASIS
     phuket_condo_assessment = (
@@ -219,10 +224,10 @@ def build_dataset(source_payload: bytes) -> pd.DataFrame:
     )
 
     # Stable data-quality contract for this snapshot.
+    if len(phuket_condo_assessment) != CURATED_ROW_COUNT:
+        raise ValueError("Unexpected final curated row count")
     if phuket_condo_assessment["condominium_id"].nunique() != 304:
         raise ValueError("Unexpected distinct condominium_id count")
-    if phuket_condo_assessment["duplicate_of_datastore_row_id"].notna().sum() != 3:
-        raise ValueError("Unexpected exact-content duplicate count")
     if phuket_condo_assessment["floor_value_has_thai_month_token"].sum() != 578:
         raise ValueError("Unexpected Thai month-token flag count")
     literal_null = phuket_condo_assessment["subdistrict_code_source"].eq(

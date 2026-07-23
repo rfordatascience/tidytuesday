@@ -16,5 +16,4 @@
 |floor_value_has_thai_month_token|logical|Whether `floor_or_range_source` contains a Thai month abbreviation, flagging 578 potentially spreadsheet-coerced labels for cautious use.|
 |use_category_th|character|Use-category label in Thai exactly as supplied. The 108 raw variants are intentionally not normalized.|
 |assessed_value_thb_per_sqm|double|Official statutory assessed value rate in Thai baht per square metre. This is not an asking price, transaction price, market valuation, current availability, or tax bill.|
-|duplicate_of_datastore_row_id|double|Lower CKAN row identifier for an earlier exact-content duplicate when all source fields except `_id` match; otherwise missing. Three rows are flagged and retained.|
 |value_basis|character|Constant machine-readable warning: `official_statutory_assessment_rate_not_market_price`.|
