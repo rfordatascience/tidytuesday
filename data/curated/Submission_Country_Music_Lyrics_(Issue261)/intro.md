@@ -1,5 +1,5 @@
 
-"This week we're exploring **Country Music Lyrics**. The dataset comes from 
+This week we're exploring **Country Music Lyrics**. The dataset comes from 
 [Grady Smith](https://www.youtube.com/@GradySmith)'s investigation into some stereotypes associated with this music genre.  
 
 Here's an excerpt from his video, ["Every country song has these lyrics. Right?"](https://www.youtube.com/watch?v=48ZxNFGJTo8), where he discusses his findings:  
