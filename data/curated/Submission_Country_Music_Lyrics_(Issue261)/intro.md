@@ -11,6 +11,6 @@ Dana Gibbon created [this notebook](https://danagibbon.github.io/country-music-l
 Some questions you can answer:
 
 - Is country radio run by a small circle of hitmakers?  
-- How Has the Country 'Vocabulary' Shifted Over Time?    
+- How has the country 'vocabulary' shifted over time?    
 
 Thank you to [Jake Kaupp](https://github.com/jkaupp) for suggesting (issue #261) this dataset .
