@@ -11,6 +11,6 @@ Dana Gibbon created [this notebook](https://danagibbon.github.io/country-music-l
 Some questions you can answer:
 
 - Is country radio run by a small circle of hitmakers?  
-- Do summer country hits actually talk about different things than winter hits?  
+- How Has the Country 'Vocabulary' Shifted Over Time?    
 
 Thank you to [Jake Kaupp](https://github.com/jkaupp) for suggesting (issue #261) this dataset .
