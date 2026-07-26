@@ -132,15 +132,28 @@ check_required_files <- function(submission_dir) {
 
 #' Check that the named required files exist in a submission directory
 #'
+#' `meta.yaml` and `intro.md` must always be present. A cleaning script is also
+#' required, but either `cleaning.R` or `cleaning.py` (or both) satisfies that
+#' requirement.
+#'
 #' @param submission_dir `character(1)` Path to the submission directory.
 #' @returns A `character` vector of error strings, zero-length if all present.
 #' @keywords internal
 .check_main_files <- function(submission_dir) {
-  required_files <- c("meta.yaml", "cleaning.R", "intro.md")
-  missing <- required_files[
-    !fs::file_exists(fs::path(submission_dir, required_files))
+  always_required <- c("meta.yaml", "intro.md")
+  missing_always <- always_required[
+    !fs::file_exists(fs::path(submission_dir, always_required))
   ]
-  glue::glue("Missing required file: {missing}")
+
+  has_cleaning <- fs::file_exists(fs::path(submission_dir, "cleaning.R")) ||
+    fs::file_exists(fs::path(submission_dir, "cleaning.py"))
+  cleaning_error <- if (!has_cleaning) {
+    "Missing required file: cleaning.R or cleaning.py"
+  } else {
+    character()
+  }
+
+  c(glue::glue("Missing required file: {missing_always}"), cleaning_error)
 }
 
 #' Check that at least one PNG image exists in a submission directory
