@@ -9,6 +9,6 @@ The dataset comes from a landmark series of papers by Ho, Filippenko & Sargent t
 > we distinguish three classes — Seyfert nuclei, LINERs, and transition objects.
 
 - What types of nuclear activity are most common, and how does that vary with galaxy morphology (spirals vs. ellipticals)?
-- Can you recreate the classic [BPT diagnostic diagram](https://sites.google.com/site/agndiagnostics/agn-optical-line-diagnostics/bpt-diagrams) using the emission-line ratios? Where do the different activity types fall?
+- Can you recreate the classic [BPT diagnostic diagram](https://sdss-marvin.readthedocs.io/en/stable/tools/bpt.html) using the emission-line ratios? Where do the different activity types fall?
 - Is there a relationship between a galaxy's velocity dispersion (a proxy for central mass) and the type of nuclear activity it hosts?
 - Which galaxy morphological types are most likely to host Seyfert nuclei vs. LINERs?
