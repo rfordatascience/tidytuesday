@@ -1,0 +1,15 @@
+title: "Dead Sea Scrolls Manuscripts"
+article:
+  title: "The Leon Levy Dead Sea Scrolls Digital Library"
+  url: "https://www.deadseascrolls.org.il/"
+data_source:
+  title: "Israel Antiquities Authority - Leon Levy Dead Sea Scrolls Digital Library"
+  url: "https://www.deadseascrolls.org.il/explore-the-archive"
+images:
+# Please include at least one image, and up to three images
+- file: "dead_sea_scrolls.png"
+  alt: >
+    Bar chart showing manuscript copy counts by biblical book, with deuterocanonical books highlighted in orange alongside protocanonical books in blue.
+credit:
+  post: "Tony Galvan"
+  github: "@gdatascience-acorns"
