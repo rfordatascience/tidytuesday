@@ -70,6 +70,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   29|2026-07-21 |[Near-Death Experiences (NDERF)](data/2026/2026-07-21/readme.md)|[NDERF Search](https://search.nderf.org/)                                                                        |[Near Death Experience Research Foundation](https://nderf.org/)                                            |
 |   30|2026-07-28 |[Ecotourism](data/2026/2026-07-28/readme.md)               |[{ecotourism} R package](https://github.com/vahdatjavad/ecotourism/)                                             |[Getting Started with the {ecotourism} Package](https://vahdatjavad.github.io/ecotourism/articles/getting-started.html)|
 |   31|2026-08-04 |[Basotho Wool](data/2026/2026-08-04/readme.md)             |[UN Comtrade Database](https://comtradeplus.un.org/)                                                             |[The mountain men behind Lesotho’s wool wealth: More than 80,000 herders tend the country’s sheep and goats](https://groundup.org.za/article/the-mountain-men-behind-lesothos-wool-wealth/)|
+|   32|2026-08-11 |[the Palomar Spectroscopic Survey of Nearby Galaxies](data/2026/2026-08-11/readme.md)|[VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995, 1997, 2009)](https://vizier.cds.unistra.fr/viz-bin/VizieR-2?-source=J/ApJS/112/315)|[Demographics of Nuclear Activity in Nearby Galaxies](https://arxiv.org/abs/astro-ph/9704108)              |
 
 ***  
 
