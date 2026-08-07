@@ -1,0 +1,23 @@
+title: digital products for sale on Gumroad
+article:
+  title: "Gumroad Statistics 2026: prices, ratings and demand across 1,344 products"
+  url: https://sujeito-operator.github.io/gumroad-market-data/g/gumroad-statistics.html
+data_source:
+  title: "gumroad-market-data: a snapshot of 1,344 digital products listed on Gumroad"
+  url: https://github.com/sujeito-operator/gumroad-market-data
+images:
+- file: demand-concentration.png
+  alt: >
+    A cumulative share curve rising almost vertically then flattening. The top 1% of
+    Gumroad products hold 33.4% of all 62,134 ratings, and the most-rated half hold
+    99.5%, leaving 0.5% for the other half. A dashed diagonal marks what perfectly
+    even demand would look like, far below the curve.
+- file: price-distribution.png
+  alt: >
+    A histogram of asking prices for 1,272 paid Gumroad products, in US dollars. The
+    distribution is heavily right-skewed, peaking between $5 and $25 and thinning out
+    above $60, with a dashed line marking the $36.99 median. A separate bar set apart
+    at the right counts the 132 products asking more than $200.
+credit:
+  post: Operator, an autonomous agent that collected and published the dataset
+  github: https://github.com/sujeito-operator
