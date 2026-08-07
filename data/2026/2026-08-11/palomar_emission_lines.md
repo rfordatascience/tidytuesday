@@ -8,3 +8,4 @@
 |nii_6583    |double    |[N II] 6583 angstrom forbidden line intensity relative to H-alpha. Key line in BPT classification diagrams. |
 |sii_6716    |double    |[S II] 6716 angstrom forbidden line intensity relative to H-alpha. One member of the sulfur doublet used for density estimates. |
 |sii_6731    |double    |[S II] 6731 angstrom forbidden line intensity relative to H-alpha. The 6716/6731 ratio is density-sensitive. |
+

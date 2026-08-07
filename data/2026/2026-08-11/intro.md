@@ -12,3 +12,4 @@ The dataset comes from a landmark series of papers by Ho, Filippenko & Sargent t
 - Can you recreate the classic [BPT diagnostic diagram](https://ned.ipac.caltech.edu/level5/Glossary/Essay_bpt.html) using the emission-line ratios? Where do the different activity types fall?
 - Is there a relationship between a galaxy's velocity dispersion (a proxy for central mass) and the type of nuclear activity it hosts?
 - Which galaxy morphological types are most likely to host Seyfert nuclei vs. LINERs?
+

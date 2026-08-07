@@ -20,3 +20,4 @@
 |classification_confidence |character |Confidence level: "confident", "uncertain", or "very uncertain". |
 |velocity_dispersion_km_s  |double    |Adopted central stellar velocity dispersion in km/s. Correlates with central mass via the M-sigma relation. |
 |velocity_dispersion_error |double    |Measurement uncertainty on the velocity dispersion in km/s. |
+

@@ -107,3 +107,4 @@ palomar_emission_lines <- emission_lines |>
     sii_6716 = `[SII]a`,
     sii_6731 = `[SII]b`
   )
+
