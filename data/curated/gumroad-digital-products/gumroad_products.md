@@ -10,4 +10,4 @@
 |n_ratings    |integer   |Number of ratings the product has received. Zero where the product is unrated.                                                            |
 |is_rated     |logical   |Whether the product has at least one rating. A rating is a floor on buyers, not a sales count.                                            |
 |top_creator  |logical   |Whether Gumroad showed its "Top creator" badge on the listing.                                                                            |
-|card_text    |character |Text of the product card as rendered in search results, containing the title and seller name. Truncated by Gumroad's own display.         |
+|card_text    |character |Text of the product card as rendered in search results, containing the title and seller name. Truncated by Gumroad's own display. One seller had put an email address in their own product title; it is replaced with `[email removed]`. |
