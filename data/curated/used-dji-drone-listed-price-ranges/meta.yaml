@@ -1,0 +1,24 @@
+title: "Used DJI Drone Listed-Price Ranges"
+article:
+  title: "DJI Listed-Price Data Audit: Q3 2026"
+  url: "https://www.kaggle.com/code/thomaslau0229/dji-listed-price-data-audit-q3-2026"
+data_source:
+  title: "Reboot Hub DJI Drone Specs and Used Price Index: Q3 2026 Baseline"
+  url: "https://doi.org/10.5281/zenodo.21387578"
+images:
+- file: "configuration-coverage-by-model.png"
+  alt: >
+    A horizontal bar chart titled Highest configuration coverage in the Q3
+    2026 snapshot shows 12 DJI aircraft models. Every displayed model has 10
+    public catalog configurations summarized, including Mini, Air, Mavic, and
+    Mavic Air models.
+- file: "listed-price-ranges-top-coverage-models.png"
+  alt: >
+    A horizontal range chart compares the lowest and highest listed prices in
+    US dollars for the DJI aircraft models with the greatest configuration
+    coverage. Each line represents the observed public catalog price range for
+    one model rather than completed-sale prices.
+credit:
+  post: "Reboot Hub"
+  linkedin: "https://www.linkedin.com/company/reboot-hub-global"
+  github: "https://github.com/Reboot-Hub"
