@@ -1,0 +1,24 @@
+title: "U.S. federal surplus auctions"
+article:
+  title: "Open Dataset: U.S. Government (GSA) Surplus Auctions"
+  url: "https://govauctions.app/research/open-dataset"
+data_source:
+  title: "U.S. Government (GSA) Surplus Auction Dataset (GovAuctions, CC BY 4.0)"
+  url: "https://github.com/benswork-space/us-government-surplus-dataset"
+images:
+- file: "median_bid_by_category.png"
+  alt: >
+    A dot plot of the median winning bid for each category of U.S. federal
+    surplus lot, on a logarithmic scale running from $25 to $5,000. Vehicles are
+    highest at about $3,325, followed by military surplus at $2,500 and heavy
+    equipment at $1,550. Office furniture is lowest at $25, with electronics at
+    $50 and miscellaneous at $85.
+- file: "lots_by_state.png"
+  alt: >
+    A horizontal bar chart of the fifteen states with the most U.S. federal
+    surplus auction lots. Texas leads with 839 lots, then California with 766,
+    Illinois with 512 and Pennsylvania with 497. The remaining states run from
+    386 down to 236.
+credit:
+  post: "Ben Wallace, GovAuctions.app"
+  github: "https://github.com/benswork-space"
