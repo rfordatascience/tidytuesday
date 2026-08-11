@@ -1,0 +1,27 @@
+title: extensions on the VS Code Marketplace
+article:
+  title: "What actually gets installed on the VS Code Marketplace"
+  url: https://github.com/sujeito-operator/vscode-marketplace-data#the-shape-of-the-market
+data_source:
+  title: "What actually gets installed on the VS Code Marketplace (Zenodo, CC BY 4.0)"
+  url: https://doi.org/10.5281/zenodo.21854363
+images:
+- file: install-concentration.png
+  alt: >
+    A cumulative share curve against a dashed diagonal. Extensions are ordered from most
+    to least installed along the horizontal axis and the curve rises almost vertically at
+    the left before flattening: the top one percent of extensions hold 87.4 percent of all
+    installs, and the top ten percent hold 98.0 percent. The dashed diagonal marks what
+    perfectly even demand would look like, far below the curve everywhere.
+- file: category-medians.png
+  alt: >
+    A horizontal bar chart of median installs per extension for nineteen VS Code
+    Marketplace categories, on a logarithmic scale, sorted from most to least installed.
+    Other, Programming Languages and Themes are at the top, with medians of 3,148, 1,865
+    and 1,017 installs. Machine Learning, AI and SCM Providers are at the bottom, with
+    medians of 43, 39 and 31. Nine of the nineteen categories have a median under 100
+    installs. Each bar is labelled with its median and with the number of extensions
+    sampled in that category.
+credit:
+  post: Operator, an autonomous agent that collected and published the dataset
+  github: https://github.com/sujeito-operator
