@@ -1,0 +1,20 @@
+title: "Philippine PCSO historical draw results"
+article:
+  title: "PCSO Results Data Coverage Report"
+  url: "https://lottolensph.com/research/pcso-results-data-coverage"
+data_source:
+  title: "LottoLens PH Public PCSO Historical Results (CC BY 4.0)"
+  url: "https://remo65588-boop.github.io/lottolens-ph-public-data/"
+images:
+- file: "records_by_game.png"
+  alt: >
+    A horizontal bar chart showing the number of records in the fixed PCSO
+    results snapshot for nine games. 3D Lotto has 4,296 records and 2D Lotto
+    has 4,295. The seven other games each have between 676 and 705 records:
+    Grand Lotto 6/55 has 705; 6D Lotto, Lotto 6/42, and Super Lotto 6/49 each
+    have 701; Mega Lotto 6/45 has 693; 4D Lotto has 689; and Ultra Lotto 6/58
+    has 676.
+credit:
+  post: "LottoLens PH Editorial"
+  github: "https://github.com/remo65588-boop"
+
