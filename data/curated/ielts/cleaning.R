@@ -1,4 +1,3 @@
-
 # URL from https://ielts.org/researchers/our-research/test-statistics
 # and internet archive
 sources <- list(
@@ -14,8 +13,10 @@ sources <- list(
   )
 )
 
+root_dir <- "data/curated/ielts"
+
 download <- function(type, year) {
-  dir <- "data/curated/ielts/data/raw"
+  dir <- file.path(root_dir, "data/raw")
   url <- sources[[type]][[year]]
   destfile <- file.path(dir, glue::glue("{year}_{type}.xlsx"))
   if (file.exists(destfile)) {
@@ -71,7 +72,7 @@ read_page_performance <- function(file, page) {
 
 
 prepare <- function(name, pages_groups, read_page) {
-  dir <- "data/curated/ielts/data/cleaned"
+  dir <- file.path(root_dir, "data/cleaned")
   dir.create(dir, recursive = TRUE, showWarnings = FALSE)
   out <- list()
   for (group in names(pages_groups)) {
