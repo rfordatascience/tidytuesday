@@ -1,4 +1,3 @@
-
 This week we're exploring **Country Music Lyrics**. The dataset comes from 
 [Grady Smith](https://www.youtube.com/@GradySmith)'s investigation into some stereotypes associated with this music genre.  
 
@@ -13,4 +12,4 @@ Some questions you can answer:
 - Is country radio run by a small circle of hitmakers?  
 - How has the country 'vocabulary' shifted over time?    
 
-Thank you to [Jake Kaupp](https://github.com/jkaupp) for suggesting (issue #261) this dataset .
+Thank you to [Jake Kaupp](https://github.com/jkaupp) for [suggesting this dataset](https://github.com/rfordatascience/tidytuesday/issues/261).
