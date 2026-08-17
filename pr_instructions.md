@@ -25,6 +25,12 @@ Find a dataset that would be good for TidyTuesday: either one that is already re
 
 -   The data is publicly available and free for reuse, either with or without attribution.
 
+-   The dataset (and your submission) is not intended to promote a commercial business, product, or service.
+
+> [!NOTE]
+> We are not accepting datasets that promote a commercial business, product, or service.
+> If you are interested in promoting your product with a submission, please email <tidytuesday@dslc.io> with details instead of opening a pull request.
+
 You will also need:
 
 -   The source of the dataset
