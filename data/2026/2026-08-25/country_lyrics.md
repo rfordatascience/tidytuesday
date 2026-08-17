@@ -9,3 +9,4 @@
 |producer                     |character |Record producer(s) credited for the track (may contain multiple names separated by slashes/commas). |
 |rough_order                  |integer   |Original entry index or sequence number assigned during data collection. |
 |rules_top_30_country_airplay |double    |Original metadata / eligibility notes detailing chart inclusion rules (March 2014 – March 2017). |
+
