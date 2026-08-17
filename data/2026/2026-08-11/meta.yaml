@@ -1,0 +1,16 @@
+title: "the Palomar Spectroscopic Survey of Nearby Galaxies"
+article:
+  title: "Demographics of Nuclear Activity in Nearby Galaxies"
+  url: "https://arxiv.org/abs/astro-ph/9704108"
+data_source:
+  title: "VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995, 1997, 2009)"
+  url: "https://vizier.cds.unistra.fr/viz-bin/VizieR-2?-source=J/ApJS/112/315"
+images:
+# Please include at least one image, and up to three images
+- file: "palomar_bpt_diagram.png"
+  alt: >
+    A scatter plot showing the BPT diagnostic diagram for 408 nearby galaxies observed with the Hale Telescope. The x-axis is the log ratio of nitrogen to hydrogen emission lines and the y-axis is the log ratio of oxygen to hydrogen lines. Points are colored by nuclear activity type: blue for star-forming H II regions clustered at lower left, red for Seyfert nuclei at upper right, orange for LINERs at right, and green for transition objects between the groups.
+credit:
+  post: "Tony Galvan, Golden Dome Data Science"
+  github: "@gdatascience"
+  linkedin: "@anthony-raul-galvan"
