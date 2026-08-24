@@ -9,7 +9,7 @@ images:
 # Please include at least one image, and up to three images
 - file: "catholic_miracles_hero.png"
   alt: >
-    Timeline of 1990 documented Catholic miracles across 6 categories from 40 AD to 2018
+    Mosaic visualization of 1990 documented Catholic miracles where each tile represents one event sorted chronologically, colored by category (Marian Apparition, Eucharistic Miracle, Miraculous Image, Incorrupt Body, Lourdes Healing, Stigmata) with brightness indicating Church approval status
 credit:
   post: "Tony Galvan, Golden Dome Data Science"
   github: "@gdatascience"
