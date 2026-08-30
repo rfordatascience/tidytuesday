@@ -73,6 +73,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   32|2026-08-11 |[the Palomar Spectroscopic Survey of Nearby Galaxies](data/2026/2026-08-11/readme.md)|[VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995, 1997, 2009)](https://vizier.cds.unistra.fr/viz-bin/VizieR-2?-source=J/ApJS/112/315)|[Demographics of Nuclear Activity in Nearby Galaxies](https://arxiv.org/abs/astro-ph/9704108)              |
 |   33|2026-08-18 |[IELTS exam results](data/2026/2026-08-18/readme.md)       |[IELTS official statistics](https://ielts.org/researchers/our-research/test-statistics)                          |[IELTS Score Statistics - What is a Good IELTS Score in 2026?](https://sojourningscholar.com/ielts-score-statistics/)|
 |   34|2026-08-25 |[Country Music Lyrics](data/2026/2026-08-25/readme.md)     |[Country Lyrics Amazing Spreadsheet](https://drive.google.com/file/d/1lz-xpqufGggdPh4gUeIdYvtB2s8ePewn/view)     |[Every country song has these lyrics. Right?](https://www.youtube.com/watch?v=48ZxNFGJTo8)                 |
+|   35|2026-09-01 |[World Castles, Fortresses and Palaces](data/2026/2026-09-01/readme.md)|[Castlemap, curated from Wikidata](https://thecastlemap.com/data/)                                               |[Castlemap — Castles of the World dataset](https://thecastlemap.com/data/)                                 |
 
 ***  
 
