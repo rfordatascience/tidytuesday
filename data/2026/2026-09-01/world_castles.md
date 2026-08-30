@@ -15,3 +15,4 @@
 |sitelinks   |double    |Number of Wikipedia language editions with an article on the landmark, e.g. `95`. |
 |pageviews   |double    |Wikipedia pageviews over the trailing 365 days, e.g. `756430`. |
 |fame_rank   |double    |Global fame rank, blending `sitelinks` and `pageviews`, where `1` is the most famous. |
+
