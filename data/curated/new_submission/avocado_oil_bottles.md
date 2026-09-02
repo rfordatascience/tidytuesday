@@ -1,0 +1,37 @@
+|variable                    |class     |description                           |
+|:---------------------------|:---------|:-------------------------------------|
+|sample_code                 |character |Describe this field in sentence case. |
+|grade_labeled               |character |Describe this field in sentence case. |
+|purchasing_method           |character |Describe this field in sentence case. |
+|expiration_date             |character |Describe this field in sentence case. |
+|product_origin              |character |Describe this field in sentence case. |
+|cost_per_fl_oz              |double    |Describe this field in sentence case. |
+|packaging_type              |character |Describe this field in sentence case. |
+|oxidized                    |logical   |Describe this field in sentence case. |
+|purity_result               |character |Describe this field in sentence case. |
+|adulterant                  |character |Describe this field in sentence case. |
+|alpha_tocopherol_mg_kg      |double    |Describe this field in sentence case. |
+|gamma_beta_tocopherol_mg_kg |double    |Describe this field in sentence case. |
+|delta_tocopherol_mg_kg      |double    |Describe this field in sentence case. |
+|total_tocopherols_mg_kg     |double    |Describe this field in sentence case. |
+|c14_0_pct                   |double    |Describe this field in sentence case. |
+|c16_0_palmitic_pct          |double    |Describe this field in sentence case. |
+|c16_1_palmitoleic_pct       |double    |Describe this field in sentence case. |
+|c18_0_stearic_pct           |double    |Describe this field in sentence case. |
+|c18_1_oleic_pct             |double    |Describe this field in sentence case. |
+|c18_2_linoleic_pct          |double    |Describe this field in sentence case. |
+|c18_3_linolenic_pct         |double    |Describe this field in sentence case. |
+|c20_0_pct                   |double    |Describe this field in sentence case. |
+|c20_1_pct                   |double    |Describe this field in sentence case. |
+|c22_0_pct                   |double    |Describe this field in sentence case. |
+|c24_0_pct                   |double    |Describe this field in sentence case. |
+|brassicasterol_pct          |double    |Describe this field in sentence case. |
+|campesterol_pct             |double    |Describe this field in sentence case. |
+|stigmasterol_pct            |double    |Describe this field in sentence case. |
+|delta7_campesterol_pct      |double    |Describe this field in sentence case. |
+|clerosterol_pct             |double    |Describe this field in sentence case. |
+|beta_sitosterol_pct         |double    |Describe this field in sentence case. |
+|delta5_avenasterol_pct      |double    |Describe this field in sentence case. |
+|delta7_stigmasterol_pct     |double    |Describe this field in sentence case. |
+|delta7_avenasterol_pct      |double    |Describe this field in sentence case. |
+|total_sterols_mg_kg         |double    |Describe this field in sentence case. |

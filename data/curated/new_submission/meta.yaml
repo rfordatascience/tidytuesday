@@ -1,0 +1,15 @@
+title: "Avocado Oil Authenticity"
+article:
+  title: "That Avocado Oil Chip You're Eating May Not Be Made With Pure Avocado Oil"
+  url: "https://www.ucdavis.edu/food/news/avocado-oil-chip-youre-eating-may-not-be-made-pure-avocado-oil"
+data_source:
+  title: "Authenticity of avocado and olive oils used as ingredients in commercially processed foods"
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S2772502226007274"
+images:
+- file: "avocado_oil_pca.png"
+  alt: >
+    PCA biplot of fatty acid profiles from oils extracted from processed foods. Samples classified as consistent with authentic avocado oil cluster together on the right, clearly separated from inconsistent samples that cluster near vegetable oil comparators on the left, demonstrating that chemical fingerprinting can reliably distinguish authentic avocado oil from adulterated products.
+credit:
+  post: "Tony Galvan, Golden Dome Data Science"
+  github: "@gdatascience"
+  linkedin: "@anthony-raul-galvan"
