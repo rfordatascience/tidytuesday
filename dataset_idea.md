@@ -2,6 +2,10 @@
 
 Please consider [submitting the dataset through a pull request](pr_instructions.md) instead! This is the best way to help us.
 
+> [!NOTE]
+> We are not accepting datasets that promote a commercial business, product, or service.
+> If you are interested in promoting your product with a submission, please email <tidytuesday@dslc.io> with details instead of opening an issue.
+
 Look through [existing dataset suggestions](https://github.com/rfordatascience/tidytuesday/issues?q=is%3Aopen+is%3Aissue+label%3Adataset) to see if the dataset you have in mind has already been suggested. You may be able to provide more information to an existing suggestion.
 
 See our guide to [reviewing submitted datasets](dataset_review.md) for the checklist we will need to complete for the submitted dataset. The more you can do that in the initial issue, the better!

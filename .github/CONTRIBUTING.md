@@ -16,6 +16,11 @@ There are several ways you can help:
 These guidelines are for first-time contributors to get you started. 
 If you are a regular contributor, we may be working in a different mode, where the workflow is different. 
 
+## No commercial promotion
+
+We are not accepting datasets, issues, or pull requests whose purpose is to promote a commercial business, product, or service. 
+If you are interested in promoting your product through a submission, please email <tidytuesday@dslc.io> with details instead of opening an issue or pull request.
+
 ## Submitting general (non-dataset) issues
 
 If you found something wrong or confusing with the project, please submit an issue! 

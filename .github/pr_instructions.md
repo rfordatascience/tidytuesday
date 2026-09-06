@@ -5,7 +5,6 @@ Thank you for helping us help learners!
 > [!NOTE]
 > This article talks about submitting datasets "from scratch," but there's an easier way!
 > The {[tidytuesdayR](https://DSLC.io/tidytuesdayR)} R package has a [set of functions for curating TidyTuesday datasets in R](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)!
-> The functions currently only work in Rstudio, but [we hope to also support Positron soon!](https://github.com/dslc-io/tidytuesdayR/issues/139)
 
 There are 4 main steps to submit a dataset:
 
@@ -25,6 +24,12 @@ Find a dataset that would be good for TidyTuesday: either one that is already re
 -   You can describe each variable (either using an existing data dictionary or by creating your own dictionary).
 
 -   The data is publicly available and free for reuse, either with or without attribution.
+
+-   The dataset (and your submission) is not intended to promote a commercial business, product, or service.
+
+> [!NOTE]
+> We are not accepting datasets that promote a commercial business, product, or service.
+> If you are interested in promoting your product with a submission, please email <tidytuesday@dslc.io> with details instead of opening a pull request.
 
 You will also need:
 
