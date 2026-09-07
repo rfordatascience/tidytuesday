@@ -2,7 +2,7 @@ James Hoffmann is a YouTuber who explores coffee from many different angles. In 
 
 > Coffee, as a part of our economy, as an industry, is full of these awkward questions that I do think are worth asking.
 
-In the video, James presents the cappuccino index, which answers this at a country level. There are many interesting findings. I would suggest watching the whole video as context and entertainment. There are some important caveats, such as tips being excluded.
+In the video, James presents the cappuccino index, which answers this at a country level. There are many interesting findings. You may want to watch the whole video as context and entertainment. There are some important caveats, such as tips being excluded.
 
 You might think about:
 
