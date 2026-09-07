@@ -1,0 +1,2595 @@
+country,city,urban,suburban,rural,hourly_wage_gbp,price_gbp,original_currency,price,hourly_wage
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.04,10.31,DKK - Danish Krone,90,140
+China,Shenzhen,TRUE,FALSE,FALSE,3.29,9.44,CNY - Yuan Renminbi,86,30
+USA,West Richland,FALSE,TRUE,FALSE,13.25,8.89,USD - US dollar,12,17.88
+Switzerland,St. Moritz,FALSE,FALSE,TRUE,24.5,8.26,CHF - Swiss Franc,9,26.7
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.04,7.45,DKK - Danish Krone,65,140
+Singapore,Singapore,TRUE,FALSE,FALSE,11.19,6.89,SGD - Singapore Dollar,11.9,19.310000000000002
+France,Paris,TRUE,FALSE,FALSE,12.85,6.85,EUR - Euro,8,15
+Switzerland,Bern,FALSE,TRUE,FALSE,21.1,6.24,CHF - Swiss Franc,6.8,23
+Saudi Arabia,Jeddah,TRUE,FALSE,FALSE,4.16,6.33,SAR - Saudi Riyal,32,21
+Denmark,Copenhagen,TRUE,FALSE,FALSE,21.71,6.3,DKK - Danish Krone,55,189.5
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.04,6.19,DKK - Danish Krone,54,140
+Switzerland,Geneva,TRUE,FALSE,FALSE,24.77,5.96,CHF - Swiss Franc,6.5,27
+Switzerland,Geneva,TRUE,FALSE,FALSE,22.53,5.96,CHF - Swiss Franc,6.5,24.55
+France,Paris,TRUE,FALSE,FALSE,11.99,6,EUR - Euro,7,14
+Denmark,Aalborg,TRUE,FALSE,FALSE,18.33,5.96,DKK - Danish Krone,52,160
+Denmark,Copenhagen,TRUE,FALSE,FALSE,15.47,5.96,DKK - Danish Krone,52,135
+UK,Cambridge,TRUE,FALSE,FALSE,13,6,GBP - Pound Sterling,6,13
+USA,Holland,FALSE,TRUE,FALSE,9.72,5.93,USD - US dollar,8,13.12
+UK,Montclair,FALSE,TRUE,FALSE,15,5.8,GBP - Pound Sterling,5.8,15
+Denmark,Copenhagen,TRUE,FALSE,FALSE,14.32,5.73,DKK - Danish Krone,50,125
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.04,5.73,DKK - Danish Krone,50,140
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.61,5.73,DKK - Danish Krone,50,145
+Denmark,Copenhagen,TRUE,FALSE,FALSE,18.9,5.73,DKK - Danish Krone,50,165
+UK,London,TRUE,FALSE,FALSE,13,5.68,GBP - Pound Sterling,5.68,13
+Switzerland,Zürich,TRUE,FALSE,FALSE,25.69,5.51,CHF - Swiss Franc,6,28
+Switzerland,Zürich,TRUE,FALSE,FALSE,24.77,5.51,CHF - Swiss Franc,6,27
+Denmark,Copenhagen,FALSE,TRUE,FALSE,24.98,5.61,DKK - Danish Krone,49,218
+Switzerland,Zürich,TRUE,FALSE,FALSE,18.35,5.41,CHF - Swiss Franc,5.9,20
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.04,5.5,DKK - Danish Krone,48,140
+Denmark,Copenhagen,TRUE,FALSE,FALSE,17.19,5.5,DKK - Danish Krone,48,150
+Denmark,Vedbæk,FALSE,TRUE,FALSE,17.76,5.5,DKK - Danish Krone,48,155
+UK,Newcastle,TRUE,FALSE,FALSE,12.21,5.5,GBP - Pound Sterling,5.5,12.209999999999999
+Switzerland,Olten,TRUE,FALSE,FALSE,18.99,5.32,CHF - Swiss Franc,5.8,20.7
+USA,NA,FALSE,TRUE,FALSE,11.85,5.43,USD - US dollar,7.33,16
+Switzerland,Zürich,TRUE,FALSE,FALSE,22.94,5.23,CHF - Swiss Franc,5.7,25
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.61,5.27,DKK - Danish Krone,46,145
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.61,5.27,DKK - Danish Krone,46,145
+Denmark,Copenhagen,TRUE,FALSE,FALSE,18.9,5.27,DKK - Danish Krone,46,165
+Switzerland,Bern,TRUE,FALSE,FALSE,23.86,5.14,CHF - Swiss Franc,5.6,26
+Switzerland,Zürich,TRUE,FALSE,FALSE,21.8,5.14,CHF - Swiss Franc,5.6,23.759999999999998
+Iceland,Reykjavik,TRUE,FALSE,FALSE,16.99,5.29,ISK - Iceland Krona,880,2828
+USA,Waikiki,TRUE,FALSE,FALSE,13.34,5.19,USD - US dollar,7,18
+USA,"Catskill, NY",FALSE,FALSE,TRUE,20,5.19,USD - US dollar,7,27
+USA,Los Angeles,TRUE,FALSE,FALSE,12.97,5.19,USD - US dollar,7,17.5
+USA,Seattle,TRUE,FALSE,FALSE,15.56,5.19,USD - US dollar,7,21
+USA,New York City,TRUE,FALSE,FALSE,14.82,5.19,USD - US dollar,7,20
+USA,New York City,TRUE,FALSE,FALSE,22.23,5.19,USD - US dollar,7,30
+USA,Dallas,TRUE,FALSE,FALSE,9.63,5.19,USD - US dollar,7,13
+USA,Austin,TRUE,FALSE,FALSE,8.89,5.19,USD - US dollar,7,12
+USA,New York City,TRUE,FALSE,FALSE,14.45,5.19,USD - US dollar,7,19.5
+USA,San Francisco,TRUE,FALSE,FALSE,18.52,5.19,USD - US dollar,7,25
+USA,Prescott,TRUE,FALSE,FALSE,18.52,5.19,USD - US dollar,7,25
+Denmark,Aarhus,TRUE,FALSE,FALSE,9.51,5.16,DKK - Danish Krone,45,83
+Denmark,Copenhagen,TRUE,FALSE,FALSE,10.31,5.16,DKK - Danish Krone,45,90
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.61,5.16,DKK - Danish Krone,45,145
+Denmark,Copenhagen,TRUE,FALSE,FALSE,17.19,5.16,DKK - Danish Krone,45,150
+Denmark,Svendborg,FALSE,TRUE,FALSE,14.89,5.16,DKK - Danish Krone,45,130
+Denmark,Copenhagen,FALSE,TRUE,FALSE,17.19,5.16,DKK - Danish Krone,45,150
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.61,5.16,DKK - Danish Krone,45,145
+Switzerland,Aarau,TRUE,TRUE,FALSE,22.94,5.05,CHF - Swiss Franc,5.5,25
+Switzerland,Zürich,TRUE,FALSE,FALSE,19.27,5.05,CHF - Swiss Franc,5.5,21
+Switzerland,St.Gallen,TRUE,FALSE,FALSE,24.68,5.05,CHF - Swiss Franc,5.5,26.9
+Finland,Helsinki,TRUE,FALSE,FALSE,13.4,5.14,EUR - Euro,6,15.639999999999999
+Germany,Stuttgart,TRUE,FALSE,FALSE,42.83,5.14,EUR - Euro,6,50
+France,Toulouse,FALSE,TRUE,FALSE,11.14,5.14,EUR - Euro,6,13
+USA,"Saint Paul, MN",TRUE,FALSE,FALSE,12.13,5.09,USD - US dollar,6.87,16.37
+Qatar,Doha,TRUE,FALSE,FALSE,1.63,5.08,QAR - Qatari Rial,25,8
+Switzerland,Lausanne,TRUE,FALSE,FALSE,21.1,4.95,CHF - Swiss Franc,5.4,23
+Iceland,Akureyri,TRUE,FALSE,FALSE,11.41,5.11,ISK - Iceland Krona,850,1900
+Russia,Moscow,TRUE,FALSE,FALSE,2.69,4.93,RUB - Russian Ruble,550,300
+UAE,Abu Dhabi,TRUE,FALSE,FALSE,4.04,5.05,AED - UAE Dirham,25,20
+UAE,Umm al quwain,FALSE,FALSE,TRUE,3.03,5.05,AED - UAE Dirham,25,15
+Finland,Helsinki,TRUE,FALSE,FALSE,12.85,4.97,EUR - Euro,5.8,15
+UK,London,TRUE,FALSE,FALSE,14,5,GBP - Pound Sterling,5,14
+Denmark,Copenhagen,TRUE,FALSE,FALSE,16.27,4.93,DKK - Danish Krone,43,142
+USA,Seattle,TRUE,FALSE,FALSE,17.04,4.9,USD - US dollar,6.619999999999999,23
+UK,London,TRUE,FALSE,FALSE,17.5,4.9,GBP - Pound Sterling,4.9,17.5
+UK,London,TRUE,FALSE,FALSE,14,4.9,GBP - Pound Sterling,4.9,14
+USA,"League City, TX",FALSE,TRUE,FALSE,11.67,4.85,USD - US dollar,6.55,15.75
+Turkey,Istanbul,TRUE,FALSE,FALSE,0.86,4.5,TRY - Turkish Lira,290,55.5
+Denmark,Aarhus,TRUE,FALSE,FALSE,19.82,4.81,DKK - Danish Krone,42,173
+Denmark,Ebeltoft,FALSE,TRUE,FALSE,15.47,4.81,DKK - Danish Krone,42,135
+Denmark,Copenhagen,TRUE,FALSE,FALSE,20.62,4.81,DKK - Danish Krone,42,180
+Denmark,NA,TRUE,FALSE,FALSE,16.04,4.81,DKK - Danish Krone,42,140
+Denmark,Aarhus,TRUE,FALSE,FALSE,16.04,4.81,DKK - Danish Krone,42,140
+Denmark,Copenhagen,TRUE,FALSE,FALSE,17.19,4.81,DKK - Danish Krone,42,150
+USA,New York City,TRUE,FALSE,FALSE,14.82,4.82,USD - US dollar,6.5,20
+USA,Colorado Springs,TRUE,FALSE,FALSE,8.89,4.82,USD - US dollar,6.5,12
+USA,NA,FALSE,FALSE,TRUE,16.3,4.82,USD - US dollar,6.5,22
+USA,Wenatchee,FALSE,TRUE,FALSE,12.69,4.82,USD - US dollar,6.5,17.130000000000003
+USA,New York City,TRUE,FALSE,FALSE,8.89,4.82,USD - US dollar,6.5,12
+USA,Berkeley,TRUE,FALSE,FALSE,16.67,4.82,USD - US dollar,6.5,22.5
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.82,USD - US dollar,6.5,20
+USA,New York City,TRUE,FALSE,FALSE,13.34,4.82,USD - US dollar,6.5,18
+USA,San Francisco,TRUE,FALSE,FALSE,15,4.82,USD - US dollar,6.5,20.25
+Norway,Bergen,TRUE,TRUE,FALSE,13.24,4.91,NOK - Norwegian Krone,63,170
+UK,Sheffield,TRUE,FALSE,FALSE,12.21,4.8,GBP - Pound Sterling,4.8,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,15,4.8,GBP - Pound Sterling,4.8,15
+UK,NA,FALSE,FALSE,TRUE,14,4.8,GBP - Pound Sterling,4.8,14
+Sweden,Malmö,TRUE,FALSE,FALSE,13.3,4.69,SEK - Swedish Krona,60,170
+Sweden,Stockholm,FALSE,TRUE,FALSE,9.15,4.69,SEK - Swedish Krona,60,117
+Sweden,Malmö,TRUE,FALSE,FALSE,12.59,4.69,SEK - Swedish Krona,60,161
+Sweden,Malmö,TRUE,FALSE,FALSE,12.75,4.69,SEK - Swedish Krona,60,163
+Czechia,Prague,TRUE,FALSE,FALSE,5.65,4.77,CZK - Czech Koruna,135,160
+USA,"Fort Myers, FL",FALSE,TRUE,FALSE,11.11,4.73,USD - US dollar,6.38,15
+France,Paris,TRUE,FALSE,FALSE,12.85,4.71,EUR - Euro,5.5,15
+Netherlands,Rotterdam,TRUE,TRUE,FALSE,12.33,4.71,EUR - Euro,5.5,14.4
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,19.27,4.71,EUR - Euro,5.5,22.5
+France,Versailles,TRUE,FALSE,FALSE,6.85,4.71,EUR - Euro,5.5,8
+France,Paris,TRUE,FALSE,FALSE,10.3,4.71,EUR - Euro,5.5,12.02
+France,Paris,TRUE,FALSE,FALSE,11.14,4.71,EUR - Euro,5.5,13
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.7,USD - US dollar,6.35,20
+Switzerland,Nyon,TRUE,FALSE,FALSE,24.32,4.59,CHF - Swiss Franc,5,26.5
+Switzerland,Lausanne,TRUE,FALSE,FALSE,22.94,4.59,CHF - Swiss Franc,5,25
+UK,London,TRUE,FALSE,FALSE,18.5,4.7,GBP - Pound Sterling,4.7,18.5
+UK,London,TRUE,FALSE,FALSE,14.7,4.7,GBP - Pound Sterling,4.7,14.7
+Taiwan,Taichung,TRUE,FALSE,FALSE,5.06,4.6,TWD - New Taiwan Dollar,200,220
+USA,Los Angeles,TRUE,FALSE,FALSE,16.3,4.63,USD - US dollar,6.25,22
+USA,"Long Island, NY",FALSE,TRUE,FALSE,11.3,4.63,USD - US dollar,6.25,15.25
+USA,Boston,TRUE,FALSE,FALSE,14.08,4.63,USD - US dollar,6.25,19
+USA,San Francisco,TRUE,FALSE,FALSE,15.98,4.63,USD - US dollar,6.25,21.57
+USA,Westlake Village,FALSE,TRUE,FALSE,13.29,4.63,USD - US dollar,6.25,17.939999999999998
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.63,USD - US dollar,6.25,20
+Denmark,Copenhagen,TRUE,FALSE,FALSE,17.19,4.58,DKK - Danish Krone,40,150
+Denmark,Copenhagen,TRUE,FALSE,FALSE,14.89,4.58,DKK - Danish Krone,40,130
+France,Lyon,TRUE,FALSE,FALSE,8.57,4.58,EUR - Euro,5.35,10
+Norway,Stavanger,TRUE,FALSE,FALSE,15.95,4.67,NOK - Norwegian Krone,60,204.79
+Norway,Bergen,TRUE,FALSE,FALSE,15.97,4.67,NOK - Norwegian Krone,60,205
+Uruguay,Salto,TRUE,FALSE,FALSE,2.95,4.62,UYU - Peso Uruguayo,250,160
+USA,Kirkland Washington,TRUE,FALSE,FALSE,14.08,4.56,USD - US dollar,6.159999999999999,19
+UK,Lincoln,TRUE,FALSE,FALSE,14.83,4.6,GBP - Pound Sterling,4.6,14.83
+UK,Liverpool,TRUE,FALSE,FALSE,12.41,4.6,GBP - Pound Sterling,4.6,12.41
+UK,Liverpool,TRUE,FALSE,FALSE,12.7,4.6,GBP - Pound Sterling,4.6,12.7
+UK,London,TRUE,FALSE,FALSE,16,4.6,GBP - Pound Sterling,4.6,16
+Belgium,Leuven,TRUE,FALSE,FALSE,13.03,4.54,EUR - Euro,5.3,15.209999999999999
+Turkey,Istanbul,TRUE,FALSE,FALSE,2.02,4.19,TRY - Turkish Lira,270,130
+Norway,Sandnes,TRUE,FALSE,FALSE,14.61,4.6,NOK - Norwegian Krone,59,187.5
+Norway,Bodø,TRUE,FALSE,FALSE,15.95,4.6,NOK - Norwegian Krone,59,204.79
+Netherlands,Tilburg,TRUE,FALSE,FALSE,15.85,4.5,EUR - Euro,5.25,18.5
+Switzerland,Lucerne,FALSE,TRUE,FALSE,21.1,4.4,CHF - Swiss Franc,4.8,23
+USA,Sacramento,TRUE,FALSE,FALSE,12.52,4.49,USD - US dollar,6.06,16.9
+Denmark,Vejle,TRUE,FALSE,FALSE,16.04,4.47,DKK - Danish Krone,39,140
+USA,"Nashville, TN",TRUE,FALSE,FALSE,7.41,4.47,USD - US dollar,6.04,10
+USA,"Nashville, Tn",TRUE,FALSE,FALSE,9.63,4.47,USD - US dollar,6.04,13
+Ireland,Waterford,TRUE,FALSE,FALSE,12.03,4.45,EUR - Euro,5.2,14.05
+UK,Leeds,TRUE,FALSE,FALSE,12.21,4.5,GBP - Pound Sterling,4.5,12.209999999999999
+UK,Near York,FALSE,FALSE,TRUE,13.5,4.5,GBP - Pound Sterling,4.5,13.5
+UK,London,TRUE,FALSE,FALSE,13.5,4.5,GBP - Pound Sterling,4.5,13.5
+UK,Glasgow,FALSE,TRUE,FALSE,15,4.5,GBP - Pound Sterling,4.5,15
+UK,NA,FALSE,FALSE,TRUE,12.25,4.5,GBP - Pound Sterling,4.5,12.25
+UK,London,TRUE,FALSE,FALSE,14.25,4.5,GBP - Pound Sterling,4.5,14.25
+UK,London,TRUE,FALSE,FALSE,16.75,4.5,GBP - Pound Sterling,4.5,16.75
+UK,London,TRUE,FALSE,FALSE,17,4.5,GBP - Pound Sterling,4.5,17
+UK,London,TRUE,FALSE,FALSE,13.5,4.5,GBP - Pound Sterling,4.5,13.5
+UK,London,TRUE,FALSE,FALSE,19.8,4.5,GBP - Pound Sterling,4.5,19.8
+UK,London,TRUE,FALSE,FALSE,13.5,4.5,GBP - Pound Sterling,4.5,13.5
+UK,London,TRUE,FALSE,FALSE,14,4.5,GBP - Pound Sterling,4.5,14
+UK,NA,FALSE,FALSE,TRUE,13.75,4.5,GBP - Pound Sterling,4.5,13.75
+UK,Ballymena,FALSE,TRUE,FALSE,15,4.5,GBP - Pound Sterling,4.5,15
+UK,Bristol,TRUE,FALSE,FALSE,13.5,4.5,GBP - Pound Sterling,4.5,13.5
+UK,London,TRUE,FALSE,FALSE,13.85,4.5,GBP - Pound Sterling,4.5,13.850000000000001
+USA,"Dripping Springs, Texas",FALSE,TRUE,FALSE,11.11,4.45,USD - US dollar,6,15
+USA,Renton,FALSE,TRUE,FALSE,17.78,4.45,USD - US dollar,6,24
+USA,"Napa, Ca",TRUE,FALSE,FALSE,12.52,4.45,USD - US dollar,6,16.9
+USA,"San Marcos, TX",TRUE,FALSE,FALSE,4.63,4.45,USD - US dollar,6,6.25
+USA,Phoenix,FALSE,TRUE,FALSE,9.63,4.45,USD - US dollar,6,13
+USA,"West Hollywood, CA",TRUE,FALSE,FALSE,17.26,4.45,USD - US dollar,6,23.3
+USA,Minneapolis,TRUE,FALSE,FALSE,11.83,4.45,USD - US dollar,6,15.97
+USA,Salt Lake City,TRUE,FALSE,FALSE,11.85,4.45,USD - US dollar,6,16
+USA,Houghton,FALSE,FALSE,TRUE,12.45,4.45,USD - US dollar,6,16.8
+USA,"Houghton, MI",FALSE,FALSE,TRUE,11.97,4.45,USD - US dollar,6,16.150000000000002
+USA,"Speedway, Indiana",FALSE,TRUE,FALSE,14.08,4.45,USD - US dollar,6,19
+USA,"Staunton, VA",TRUE,FALSE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,San Francisco,TRUE,FALSE,FALSE,18.15,4.45,USD - US dollar,6,24.5
+USA,"Tulsa, OK",TRUE,FALSE,FALSE,11.85,4.45,USD - US dollar,6,16
+USA,Nashville,TRUE,FALSE,FALSE,15.56,4.45,USD - US dollar,6,21
+USA,New York City,TRUE,FALSE,FALSE,15.56,4.45,USD - US dollar,6,21
+USA,Aurora IL,FALSE,TRUE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,"Fayetteville, Ar",TRUE,FALSE,FALSE,8.89,4.45,USD - US dollar,6,12
+USA,New York City,TRUE,FALSE,FALSE,14.82,4.45,USD - US dollar,6,20
+USA,San Luis Obispo,FALSE,TRUE,FALSE,14.82,4.45,USD - US dollar,6,20
+USA,Los Angeles,TRUE,FALSE,FALSE,15.56,4.45,USD - US dollar,6,21
+USA,"Wilmington, DE",FALSE,TRUE,FALSE,9.26,4.45,USD - US dollar,6,12.5
+USA,Boston,TRUE,FALSE,FALSE,14.08,4.45,USD - US dollar,6,19
+USA,Washington DC,TRUE,FALSE,FALSE,12.6,4.45,USD - US dollar,6,17
+USA,Dallas,TRUE,FALSE,FALSE,11.11,4.45,USD - US dollar,6,15
+USA,NA,TRUE,FALSE,FALSE,12.6,4.45,USD - US dollar,6,17
+USA,Alexandria Virginia,FALSE,TRUE,FALSE,14.82,4.45,USD - US dollar,6,20
+USA,NA,FALSE,TRUE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,Nashville,FALSE,TRUE,FALSE,24.45,4.45,USD - US dollar,6,33
+USA,NA,FALSE,FALSE,TRUE,8.15,4.45,USD - US dollar,6,11
+USA,New York City,TRUE,FALSE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,Los Angeles,FALSE,TRUE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,"Nashville, TN",TRUE,FALSE,FALSE,13.34,4.45,USD - US dollar,6,18
+USA,NA,FALSE,TRUE,FALSE,12.22,4.45,USD - US dollar,6,16.5
+USA,New York City,TRUE,FALSE,FALSE,13.71,4.44,USD - US dollar,5.99,18.5
+USA,New York City,TRUE,FALSE,FALSE,10.37,4.44,USD - US dollar,5.99,14
+Norway,Oslo,TRUE,FALSE,FALSE,17.14,4.52,NOK - Norwegian Krone,58,220
+Norway,Oslo,TRUE,FALSE,FALSE,15.58,4.52,NOK - Norwegian Krone,58,200
+Poland,Warsaw,TRUE,FALSE,FALSE,8.77,4.38,PLN - Zloty,22,44
+USA,Boston,TRUE,FALSE,FALSE,8.52,4.41,USD - US dollar,5.95,11.5
+USA,Branson,TRUE,TRUE,FALSE,11.85,4.41,USD - US dollar,5.95,16
+USA,Los Angeles,TRUE,FALSE,FALSE,12.6,4.41,USD - US dollar,5.95,17
+USA,Burlingame,TRUE,FALSE,FALSE,17.78,4.4,USD - US dollar,5.94,24
+USA,"Milwaukee, WI",TRUE,FALSE,FALSE,23.15,4.39,USD - US dollar,5.92,31.25
+Finland,Helsinki,FALSE,TRUE,FALSE,20.56,4.37,EUR - Euro,5.1,24
+Austria,Salzburg,TRUE,FALSE,FALSE,14.56,4.37,EUR - Euro,5.1,17
+USA,"Hollywood, FL",TRUE,FALSE,FALSE,8.89,4.36,USD - US dollar,5.89,12
+Denmark,Silkeborg,TRUE,FALSE,FALSE,16.04,4.35,DKK - Danish Krone,38,140
+UK,London,TRUE,FALSE,FALSE,14.85,4.4,GBP - Pound Sterling,4.4,14.850000000000001
+UK,London,TRUE,FALSE,FALSE,13.5,4.4,GBP - Pound Sterling,4.4,13.5
+UK,Falmouth,FALSE,TRUE,TRUE,14.3,4.4,GBP - Pound Sterling,4.4,14.3
+UK,Derby,TRUE,FALSE,FALSE,12.03,4.4,GBP - Pound Sterling,4.4,12.03
+UK,Edinburgh,TRUE,FALSE,FALSE,13.3,4.4,GBP - Pound Sterling,4.4,13.3
+UK,Doncaster,FALSE,TRUE,FALSE,12.8,4.4,GBP - Pound Sterling,4.4,12.8
+UK,NA,FALSE,TRUE,FALSE,13.7,4.4,GBP - Pound Sterling,4.4,13.7
+UK,London,TRUE,FALSE,FALSE,12.21,4.4,GBP - Pound Sterling,4.4,12.209999999999999
+UK,Cambridge,TRUE,FALSE,FALSE,12.21,4.4,GBP - Pound Sterling,4.4,12.209999999999999
+UK,Edinburgh,TRUE,FALSE,FALSE,13,4.4,GBP - Pound Sterling,4.4,13
+UK,London,TRUE,FALSE,FALSE,16.5,4.4,GBP - Pound Sterling,4.4,16.5
+UK,London,TRUE,FALSE,FALSE,12.3,4.4,GBP - Pound Sterling,4.4,12.3
+UK,London,TRUE,FALSE,FALSE,17.1,4.4,GBP - Pound Sterling,4.4,17.1
+UK,Southampton,TRUE,FALSE,FALSE,12.39,4.4,GBP - Pound Sterling,4.4,12.39
+UK,NA,TRUE,FALSE,FALSE,12.4,4.4,GBP - Pound Sterling,4.4,12.4
+UK,Southampton,TRUE,FALSE,FALSE,12.5,4.4,GBP - Pound Sterling,4.4,12.5
+UK,Edinburgh,TRUE,FALSE,FALSE,12.5,4.4,GBP - Pound Sterling,4.4,12.5
+Sweden,Malmö,TRUE,FALSE,FALSE,12.13,4.3,SEK - Swedish Krona,55,155
+Sweden,Sundsvall,TRUE,FALSE,FALSE,11.66,4.3,SEK - Swedish Krona,55,149
+China,Hong Kong,TRUE,FALSE,FALSE,7.55,4.34,HKD - Hong Kong Dollar,46,80
+Norway,Bergen,TRUE,FALSE,FALSE,16.9,4.44,NOK - Norwegian Krone,57,217
+Norway,Trondheim,TRUE,FALSE,FALSE,15.89,4.44,NOK - Norwegian Krone,57,204
+USA,New York City,TRUE,FALSE,FALSE,12.6,4.31,USD - US dollar,5.819999999999999,17
+Canada,Calgary,TRUE,FALSE,FALSE,9.56,4.25,CAD - Canadian Dollar,8,18
+USA,Seattle,TRUE,FALSE,FALSE,15.38,4.29,USD - US dollar,5.79,20.759999999999998
+France,Paris,TRUE,FALSE,FALSE,9.85,4.28,EUR - Euro,5,11.5
+France,Paris,TRUE,FALSE,FALSE,10.28,4.28,EUR - Euro,5,12
+Germany,Berlin,TRUE,FALSE,FALSE,12.85,4.28,EUR - Euro,5,15
+Lithuania,Vilnius,TRUE,FALSE,FALSE,6.85,4.28,EUR - Euro,5,8
+Greece,Athens,TRUE,FALSE,FALSE,5.14,4.28,EUR - Euro,5,6
+France,Paris,TRUE,FALSE,FALSE,10.79,4.28,EUR - Euro,5,12.6
+France,Paris,TRUE,FALSE,FALSE,21.41,4.28,EUR - Euro,5,25
+Germany,Hamburg,TRUE,FALSE,FALSE,27.41,4.28,EUR - Euro,5,32
+Finland,Helsinki,TRUE,FALSE,FALSE,13.7,4.28,EUR - Euro,5,16
+Germany,Dortmund,TRUE,FALSE,FALSE,17.13,4.28,EUR - Euro,5,20
+Greece,Athens,TRUE,FALSE,FALSE,1.71,4.28,EUR - Euro,5,2
+France,Paris,TRUE,FALSE,FALSE,10.13,4.28,EUR - Euro,5,11.83
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,19.7,4.28,EUR - Euro,5,23
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.26,USD - US dollar,5.75,20
+USA,"Santa Barbara, CA",TRUE,FALSE,FALSE,13.34,4.26,USD - US dollar,5.75,18
+USA,Seatac,TRUE,FALSE,FALSE,14.94,4.26,USD - US dollar,5.75,20.17
+USA,Gresham Oregon,FALSE,TRUE,FALSE,12.22,4.26,USD - US dollar,5.75,16.5
+USA,"Merced, CA",TRUE,FALSE,TRUE,12.52,4.26,USD - US dollar,5.75,16.9
+USA,"Pasadena, CA",FALSE,TRUE,FALSE,13.37,4.26,USD - US dollar,5.75,18.04
+UK,London,TRUE,FALSE,FALSE,13.85,4.3,GBP - Pound Sterling,4.3,13.850000000000001
+UK,London,TRUE,FALSE,FALSE,17,4.3,GBP - Pound Sterling,4.3,17
+UK,London,TRUE,FALSE,FALSE,15.5,4.3,GBP - Pound Sterling,4.3,15.5
+UK,Bath,TRUE,FALSE,FALSE,13.5,4.3,GBP - Pound Sterling,4.3,13.5
+UK,London,TRUE,FALSE,FALSE,12.9,4.3,GBP - Pound Sterling,4.3,12.9
+UK,London,TRUE,FALSE,FALSE,16,4.3,GBP - Pound Sterling,4.3,16
+UK,Belfast,TRUE,FALSE,FALSE,12.44,4.3,GBP - Pound Sterling,4.3,12.44
+UK,London,TRUE,FALSE,FALSE,15.5,4.3,GBP - Pound Sterling,4.3,15.5
+UK,London,TRUE,FALSE,FALSE,17,4.3,GBP - Pound Sterling,4.3,17
+China,Hong Kong,TRUE,FALSE,FALSE,7.08,4.25,HKD - Hong Kong Dollar,45,75
+UAE,Dubai,TRUE,FALSE,FALSE,14.53,4.24,AED - UAE Dirham,21,72
+USA,Seattle,TRUE,FALSE,FALSE,15.78,4.22,USD - US dollar,5.7,21.3
+USA,Bowing Green Ohio,FALSE,FALSE,TRUE,7.41,4.22,USD - US dollar,5.6899999999999995,10
+UK,Edinburgh,TRUE,FALSE,FALSE,13,4.25,GBP - Pound Sterling,4.25,13
+UK,Manchester,TRUE,FALSE,FALSE,12.21,4.25,GBP - Pound Sterling,4.25,12.209999999999999
+UK,NA,TRUE,FALSE,FALSE,17.5,4.25,GBP - Pound Sterling,4.25,17.5
+USA,Austin,TRUE,FALSE,FALSE,13.93,4.21,USD - US dollar,5.68,18.8
+Germany,Hamburg,TRUE,FALSE,FALSE,12.85,4.2,EUR - Euro,4.9,15
+Germany,Oldenburg,TRUE,FALSE,FALSE,11.91,4.2,EUR - Euro,4.9,13.9
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.59,4.2,EUR - Euro,4.9,14.7
+France,Paris,TRUE,FALSE,FALSE,8.18,4.2,EUR - Euro,4.9,9.55
+France,Paris,TRUE,FALSE,FALSE,12.85,4.2,EUR - Euro,4.9,15
+USA,Boston,TRUE,TRUE,FALSE,13.34,4.2,USD - US dollar,5.67,18
+Norway,Oslo,TRUE,FALSE,FALSE,19.48,4.28,NOK - Norwegian Krone,55,250
+Norway,Stavanger,TRUE,FALSE,FALSE,15.19,4.28,NOK - Norwegian Krone,55,195
+Norway,Bergen,TRUE,FALSE,FALSE,17.92,4.28,NOK - Norwegian Krone,55,230
+USA,Santa Clara,FALSE,TRUE,FALSE,17.04,4.19,USD - US dollar,5.6499999999999995,23
+USA,Near Denver CO,FALSE,TRUE,FALSE,11.3,4.19,USD - US dollar,5.6499999999999995,15.25
+USA,Seattle,TRUE,FALSE,FALSE,16.15,4.19,USD - US dollar,5.6499999999999995,21.8
+USA,Phoenix,TRUE,FALSE,FALSE,10.37,4.18,USD - US dollar,5.64,14
+USA,Thousand Oaks,FALSE,TRUE,FALSE,12.97,4.17,USD - US dollar,5.63,17.5
+UK,Portsmouth,FALSE,TRUE,FALSE,13,4.2,GBP - Pound Sterling,4.2,13
+UK,Bath,TRUE,FALSE,FALSE,12.5,4.2,GBP - Pound Sterling,4.2,12.5
+UK,London,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Liverpool,FALSE,TRUE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Lewes,FALSE,TRUE,FALSE,13.5,4.2,GBP - Pound Sterling,4.2,13.5
+UK,Bristol,TRUE,FALSE,FALSE,14,4.2,GBP - Pound Sterling,4.2,14
+UK,London,FALSE,TRUE,FALSE,16,4.2,GBP - Pound Sterling,4.2,16
+UK,Hastings,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,13.85,4.2,GBP - Pound Sterling,4.2,13.850000000000001
+UK,Bristol,TRUE,FALSE,FALSE,13,4.2,GBP - Pound Sterling,4.2,13
+UK,Glasgow,TRUE,FALSE,FALSE,12.71,4.2,GBP - Pound Sterling,4.2,12.709999999999999
+UK,London,TRUE,FALSE,FALSE,14,4.2,GBP - Pound Sterling,4.2,14
+UK,London,TRUE,FALSE,FALSE,14,4.2,GBP - Pound Sterling,4.2,14
+UK,Poole,FALSE,TRUE,FALSE,7.55,4.2,GBP - Pound Sterling,4.2,7.55
+UK,Newcastle Upon Tyne,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Edinburgh,TRUE,FALSE,FALSE,12.8,4.2,GBP - Pound Sterling,4.2,12.8
+UK,Manchester,TRUE,FALSE,FALSE,12.64,4.2,GBP - Pound Sterling,4.2,12.639999999999999
+UK,London,TRUE,FALSE,FALSE,19.23,4.2,GBP - Pound Sterling,4.2,19.23
+UK,London,TRUE,FALSE,FALSE,17,4.2,GBP - Pound Sterling,4.2,17
+UK,Leeds,TRUE,TRUE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Cambridge,FALSE,TRUE,FALSE,13.2,4.2,GBP - Pound Sterling,4.2,13.2
+UK,NA,FALSE,FALSE,TRUE,13.44,4.2,GBP - Pound Sterling,4.2,13.44
+UK,London,TRUE,FALSE,FALSE,12.5,4.2,GBP - Pound Sterling,4.2,12.5
+UK,London,TRUE,FALSE,FALSE,14.8,4.2,GBP - Pound Sterling,4.2,14.8
+UK,London,TRUE,FALSE,FALSE,14.7,4.2,GBP - Pound Sterling,4.2,14.7
+UK,London,TRUE,FALSE,FALSE,15,4.2,GBP - Pound Sterling,4.2,15
+UK,Belfast,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Farnham,FALSE,TRUE,FALSE,14.4,4.2,GBP - Pound Sterling,4.2,14.4
+UK,Bristol,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,15,4.2,GBP - Pound Sterling,4.2,15
+UK,Cardiff,TRUE,TRUE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+UK,Aberdeen,TRUE,FALSE,FALSE,13,4.2,GBP - Pound Sterling,4.2,13
+UK,London,TRUE,FALSE,FALSE,14.5,4.2,GBP - Pound Sterling,4.2,14.5
+UK,Edinburgh,TRUE,FALSE,FALSE,13,4.2,GBP - Pound Sterling,4.2,13
+UK,Bristol,TRUE,FALSE,FALSE,12.5,4.2,GBP - Pound Sterling,4.2,12.5
+UK,Cambridge,FALSE,TRUE,FALSE,13.5,4.2,GBP - Pound Sterling,4.2,13.5
+UK,London,TRUE,FALSE,FALSE,12.95,4.2,GBP - Pound Sterling,4.2,12.950000000000001
+UK,Birmingham,TRUE,FALSE,FALSE,12.3,4.2,GBP - Pound Sterling,4.2,12.3
+UK,London,TRUE,FALSE,FALSE,12.21,4.2,GBP - Pound Sterling,4.2,12.209999999999999
+USA,Washington DC,TRUE,FALSE,FALSE,10,4.16,USD - US dollar,5.609999999999999,13.5
+Norway,Oslo,FALSE,TRUE,FALSE,19.48,4.21,NOK - Norwegian Krone,54,250
+Norway,Bergen,FALSE,TRUE,FALSE,17.14,4.21,NOK - Norwegian Krone,54,220
+Norway,Oslo,TRUE,FALSE,FALSE,15.42,4.21,NOK - Norwegian Krone,54,198
+Norway,Oslo,TRUE,FALSE,FALSE,17.99,4.21,NOK - Norwegian Krone,54,231
+Sweden,Stockholm,TRUE,FALSE,FALSE,13.06,4.07,SEK - Swedish Krona,52,167
+Sweden,Skövde,TRUE,FALSE,FALSE,12.59,4.07,SEK - Swedish Krona,52,161
+Sweden,Stora Höga,FALSE,TRUE,FALSE,12.99,4.07,SEK - Swedish Krona,52,166
+Austria,Vienna,TRUE,FALSE,FALSE,16.02,4.11,EUR - Euro,4.8,18.7
+Netherlands,Eindhoven,TRUE,FALSE,FALSE,11.41,4.11,EUR - Euro,4.8,13.32
+Austria,Vienna,TRUE,FALSE,FALSE,9.42,4.11,EUR - Euro,4.8,11
+Germany,Hamburg,TRUE,FALSE,FALSE,15.76,4.11,EUR - Euro,4.8,18.4
+Germany,Hamburg,TRUE,FALSE,FALSE,11.91,4.11,EUR - Euro,4.8,13.9
+Ireland,Dublin,FALSE,TRUE,FALSE,15.42,4.11,EUR - Euro,4.8,18
+Netherlands,Utrecht,TRUE,FALSE,FALSE,14.05,4.11,EUR - Euro,4.8,16.4
+Germany,Luebeck,FALSE,TRUE,FALSE,10.71,4.11,EUR - Euro,4.8,12.5
+UK,Liverpool,TRUE,FALSE,FALSE,12.71,4.15,GBP - Pound Sterling,4.1499999999999995,12.709999999999999
+USA,Seattle,TRUE,FALSE,FALSE,16.08,4.08,USD - US dollar,5.51,21.7
+USA,Deland,TRUE,FALSE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,New York City,TRUE,FALSE,FALSE,12.6,4.07,USD - US dollar,5.5,17
+USA,Berkeley,TRUE,FALSE,FALSE,15.56,4.07,USD - US dollar,5.5,21
+USA,Charleston,TRUE,FALSE,FALSE,14.82,4.07,USD - US dollar,5.5,20
+USA,Fairfax,FALSE,TRUE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,Austin,TRUE,FALSE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,San José,TRUE,FALSE,FALSE,13.71,4.07,USD - US dollar,5.5,18.5
+USA,New York City,TRUE,FALSE,FALSE,12.6,4.07,USD - US dollar,5.5,17
+USA,Chicago,TRUE,FALSE,FALSE,12.22,4.07,USD - US dollar,5.5,16.5
+USA,"Normal, IL",TRUE,TRUE,FALSE,10.37,4.07,USD - US dollar,5.5,14
+USA,"Santa Barbara, CA",TRUE,FALSE,FALSE,20,4.07,USD - US dollar,5.5,27
+USA,Los Angeles,TRUE,FALSE,FALSE,13.19,4.07,USD - US dollar,5.5,17.8
+USA,Seattle,TRUE,FALSE,FALSE,15.78,4.07,USD - US dollar,5.5,21.3
+USA,Detroit,TRUE,FALSE,FALSE,14.82,4.07,USD - US dollar,5.5,20
+USA,Washington DC,TRUE,FALSE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.07,USD - US dollar,5.5,20
+USA,Seattle,TRUE,FALSE,FALSE,15.56,4.07,USD - US dollar,5.5,21
+USA,Menlo Park,FALSE,TRUE,FALSE,17.04,4.07,USD - US dollar,5.5,23
+USA,New York City,TRUE,FALSE,FALSE,11.48,4.07,USD - US dollar,5.5,15.5
+USA,Biloxi,FALSE,TRUE,FALSE,9.63,4.07,USD - US dollar,5.5,13
+USA,Nashville,TRUE,FALSE,FALSE,11,4.07,USD - US dollar,5.5,14.850000000000001
+USA,Venice,FALSE,TRUE,FALSE,14.74,4.07,USD - US dollar,5.5,19.9
+USA,"Uxbridge, MA",FALSE,TRUE,FALSE,11.48,4.07,USD - US dollar,5.5,15.5
+USA,Newport Beach,FALSE,TRUE,FALSE,14.82,4.07,USD - US dollar,5.5,20
+USA,NA,FALSE,TRUE,FALSE,11.85,4.07,USD - US dollar,5.5,16
+USA,Dearborn Heights,FALSE,TRUE,FALSE,18.52,4.07,USD - US dollar,5.5,25
+USA,New York City,TRUE,FALSE,FALSE,15.56,4.07,USD - US dollar,5.5,21
+USA,Indianapolis,TRUE,FALSE,FALSE,12.6,4.07,USD - US dollar,5.5,17
+USA,Dana Point,FALSE,TRUE,FALSE,16.3,4.07,USD - US dollar,5.5,22
+USA,Minneapolis,TRUE,FALSE,FALSE,12.15,4.07,USD - US dollar,5.5,16.4
+USA,"Glendale, CA",FALSE,TRUE,FALSE,14.82,4.07,USD - US dollar,5.5,20
+USA,Seattle,TRUE,FALSE,FALSE,17.04,4.07,USD - US dollar,5.5,23
+USA,New York City,TRUE,FALSE,FALSE,12.6,4.07,USD - US dollar,5.5,17
+USA,Dallas,FALSE,TRUE,FALSE,7.41,4.07,USD - US dollar,5.5,10
+USA,"Saint Louis, MO",TRUE,FALSE,FALSE,8.15,4.07,USD - US dollar,5.5,11
+USA,San Antonio,TRUE,FALSE,FALSE,8.33,4.07,USD - US dollar,5.5,11.25
+USA,Washington DC,TRUE,FALSE,FALSE,14.08,4.07,USD - US dollar,5.5,19
+USA,Baltimore,TRUE,FALSE,FALSE,12.97,4.07,USD - US dollar,5.5,17.5
+USA,"Huntington Beach, California",FALSE,TRUE,FALSE,12.22,4.07,USD - US dollar,5.5,16.5
+USA,"Richmond, VA",TRUE,FALSE,FALSE,10,4.07,USD - US dollar,5.5,13.5
+USA,Huntington Beach,FALSE,TRUE,FALSE,12.97,4.07,USD - US dollar,5.5,17.5
+USA,Atlanta,TRUE,FALSE,FALSE,8.15,4.07,USD - US dollar,5.5,11
+USA,"Weatherford, Texas",FALSE,TRUE,FALSE,8.89,4.07,USD - US dollar,5.5,12
+USA,Long Beach,TRUE,FALSE,FALSE,14.08,4.07,USD - US dollar,5.5,19
+USA,Philadelphia,TRUE,FALSE,FALSE,19.26,4.07,USD - US dollar,5.5,26
+USA,St. Louis,TRUE,FALSE,FALSE,8.89,4.07,USD - US dollar,5.5,12
+USA,New Orleans,TRUE,FALSE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,New York City,TRUE,FALSE,FALSE,12.34,4.07,USD - US dollar,5.5,16.66
+USA,Washington DC,TRUE,FALSE,FALSE,11.11,4.07,USD - US dollar,5.5,15
+USA,Princeton,FALSE,TRUE,FALSE,11.85,4.07,USD - US dollar,5.5,16
+Netherlands,Rotterdam,TRUE,TRUE,FALSE,17.13,4.07,EUR - Euro,4.75,20
+USA,NA,FALSE,TRUE,FALSE,11.85,4.07,USD - US dollar,5.49,16
+USA,Germantown,FALSE,TRUE,FALSE,7.41,4.07,USD - US dollar,5.49,10
+USA,Washington DC,TRUE,FALSE,FALSE,14.08,4.07,USD - US dollar,5.49,19
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,4.07,USD - US dollar,5.49,20
+UK,Reading,TRUE,TRUE,FALSE,14.5,4.1,GBP - Pound Sterling,4.1,14.5
+UK,Stafford,TRUE,FALSE,FALSE,12.21,4.1,GBP - Pound Sterling,4.1,12.209999999999999
+UK,Edinburgh,TRUE,FALSE,FALSE,12.4,4.1,GBP - Pound Sterling,4.1,12.4
+UK,London,TRUE,FALSE,FALSE,14.5,4.1,GBP - Pound Sterling,4.1,14.5
+UK,Huddersfield,FALSE,FALSE,TRUE,15.3,4.1,GBP - Pound Sterling,4.1,15.3
+UK,London,FALSE,TRUE,FALSE,12,4.1,GBP - Pound Sterling,4.1,12
+UK,Huddersfield,TRUE,FALSE,FALSE,12.51,4.1,GBP - Pound Sterling,4.1,12.51
+UK,"Shrewsbury, Shropshire",TRUE,FALSE,FALSE,12.21,4.1,GBP - Pound Sterling,4.1,12.209999999999999
+UK,Bristol,TRUE,FALSE,FALSE,12.4,4.1,GBP - Pound Sterling,4.1,12.4
+UK,Eastbourne,FALSE,TRUE,FALSE,10.5,4.1,GBP - Pound Sterling,4.1,10.5
+UK,Oxford,TRUE,FALSE,FALSE,13,4.1,GBP - Pound Sterling,4.1,13
+UK,Swansea,TRUE,FALSE,FALSE,13,4.1,GBP - Pound Sterling,4.1,13
+UK,Edinburgh,TRUE,FALSE,FALSE,12.6,4.1,GBP - Pound Sterling,4.1,12.6
+UK,Bath,TRUE,FALSE,FALSE,12.4,4.1,GBP - Pound Sterling,4.1,12.4
+UK,Cardiff,TRUE,FALSE,FALSE,12.6,4.1,GBP - Pound Sterling,4.1,12.6
+UK,London,TRUE,FALSE,FALSE,15,4.1,GBP - Pound Sterling,4.1,15
+UK,Leeds,FALSE,TRUE,FALSE,12.21,4.1,GBP - Pound Sterling,4.1,12.209999999999999
+UK,Aberdeen,FALSE,TRUE,FALSE,12.21,4.1,GBP - Pound Sterling,4.1,12.209999999999999
+UK,Bath,TRUE,FALSE,FALSE,12.3,4.1,GBP - Pound Sterling,4.1,12.3
+UK,Oxford,TRUE,TRUE,FALSE,12.6,4.1,GBP - Pound Sterling,4.1,12.6
+UK,York,TRUE,FALSE,FALSE,13,4.1,GBP - Pound Sterling,4.1,13
+UK,Southampton,TRUE,FALSE,FALSE,12.21,4.1,GBP - Pound Sterling,4.1,12.209999999999999
+UK,Bath,TRUE,FALSE,FALSE,12.4,4.1,GBP - Pound Sterling,4.1,12.4
+UK,London,FALSE,TRUE,FALSE,12.75,4.1,GBP - Pound Sterling,4.1,12.75
+UK,Edinburgh,TRUE,FALSE,FALSE,12.6,4.1,GBP - Pound Sterling,4.1,12.6
+UK,London,TRUE,FALSE,FALSE,13.15,4.1,GBP - Pound Sterling,4.1,13.15
+UK,Leeds,TRUE,FALSE,FALSE,12.3,4.1,GBP - Pound Sterling,4.1,12.3
+UK,London,TRUE,FALSE,FALSE,13.15,4.1,GBP - Pound Sterling,4.1,13.15
+UK,Leeds,TRUE,FALSE,FALSE,12.5,4.1,GBP - Pound Sterling,4.1,12.5
+UK,Bath,TRUE,FALSE,FALSE,12.4,4.1,GBP - Pound Sterling,4.1,12.4
+USA,"Kalamazoo, MI",TRUE,TRUE,FALSE,11.3,4.04,USD - US dollar,5.45,15.25
+USA,"Chico, Ca",FALSE,TRUE,FALSE,12.22,4.04,USD - US dollar,5.45,16.5
+USA,"Newark, CA",FALSE,TRUE,FALSE,15,4.04,USD - US dollar,5.45,20.25
+USA,Brooklyn,TRUE,FALSE,FALSE,17.78,4.03,USD - US dollar,5.44,24
+USA,"Buffalo, NY",TRUE,FALSE,FALSE,13.34,4.03,USD - US dollar,5.44,18
+Germany,Kiel,TRUE,FALSE,FALSE,12.82,4.03,EUR - Euro,4.7,14.97
+France,Chamonix,TRUE,FALSE,FALSE,11.99,4.03,EUR - Euro,4.7,14
+Finland,Helsinki,TRUE,FALSE,FALSE,11.99,4.03,EUR - Euro,4.7,14
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,4.03,EUR - Euro,4.7,15
+Israel,Haifa,TRUE,FALSE,FALSE,11.12,4.2,ILS - New Israeli Sheqel,17,45
+Israel,Tel Aviv,TRUE,FALSE,FALSE,10.38,4.2,ILS - New Israeli Sheqel,17,42
+USA,Oyster bay,FALSE,TRUE,FALSE,8.89,4.02,USD - US dollar,5.430000000000001,12
+USA,San Antonio,TRUE,FALSE,FALSE,7.78,4.02,USD - US dollar,5.430000000000001,10.5
+Denmark,Copenhagen,TRUE,FALSE,FALSE,17.19,4.01,DKK - Danish Krone,35,150
+Poland,Warsaw,TRUE,FALSE,FALSE,6.97,3.98,PLN - Zloty,20,35
+USA,Boston,TRUE,FALSE,FALSE,18.15,4,USD - US dollar,5.4,24.5
+USA,"Traverse City, Michigan",FALSE,TRUE,FALSE,8.89,4,USD - US dollar,5.4,12
+USA,Seattle,TRUE,FALSE,FALSE,15.8,4,USD - US dollar,5.4,21.330000000000002
+USA,Albuquerque,TRUE,FALSE,FALSE,11.48,3.99,USD - US dollar,5.38,15.5
+USA,Tallahassee,FALSE,TRUE,FALSE,10.56,3.99,USD - US dollar,5.38,14.25
+Costa Rica,Heredia,TRUE,FALSE,FALSE,3.6,4.09,CRC - Costa Rican Colon,2500,2200
+USA,St. Paul,TRUE,FALSE,FALSE,12.74,3.98,USD - US dollar,5.37,17.2
+China,Hong Kong,TRUE,FALSE,FALSE,9.32,3.97,HKD - Hong Kong Dollar,42,98.7
+China,Hong Kong,TRUE,FALSE,FALSE,6.33,3.97,HKD - Hong Kong Dollar,42,67
+USA,Portland,FALSE,TRUE,FALSE,12.22,3.96,USD - US dollar,5.35,16.5
+USA,NA,TRUE,FALSE,FALSE,12.97,3.96,USD - US dollar,5.35,17.5
+USA,"Asheville, NC",TRUE,FALSE,FALSE,17.86,3.96,USD - US dollar,5.35,24.1
+UK,London,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,London,TRUE,FALSE,FALSE,12.5,4,GBP - Pound Sterling,4,12.5
+UK,Oxford,TRUE,FALSE,FALSE,11.5,4,GBP - Pound Sterling,4,11.5
+UK,Manchester,FALSE,TRUE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,Teesside,TRUE,FALSE,FALSE,14.9,4,GBP - Pound Sterling,4,14.9
+UK,Bath,TRUE,FALSE,FALSE,12.38,4,GBP - Pound Sterling,4,12.38
+UK,London,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,"Frome, Somerset",TRUE,FALSE,TRUE,14,4,GBP - Pound Sterling,4,14
+UK,London,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,Guildford,FALSE,TRUE,FALSE,11.21,4,GBP - Pound Sterling,4,11.209999999999999
+UK,Glasgow,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,London,FALSE,TRUE,FALSE,17,4,GBP - Pound Sterling,4,17
+UK,Gatwick,TRUE,FALSE,FALSE,16.2,4,GBP - Pound Sterling,4,16.2
+UK,Preston,FALSE,TRUE,FALSE,12.6,4,GBP - Pound Sterling,4,12.6
+UK,Edinburgh,TRUE,FALSE,FALSE,12,4,GBP - Pound Sterling,4,12
+UK,Bath,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,London,TRUE,FALSE,FALSE,15,4,GBP - Pound Sterling,4,15
+UK,NA,FALSE,TRUE,FALSE,12.5,4,GBP - Pound Sterling,4,12.5
+UK,Liverpool,FALSE,TRUE,FALSE,12.5,4,GBP - Pound Sterling,4,12.5
+UK,London,TRUE,FALSE,FALSE,16,4,GBP - Pound Sterling,4,16
+UK,Liverpool,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,Manchester,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,London,TRUE,FALSE,FALSE,15,4,GBP - Pound Sterling,4,15
+UK,Manchester,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,Hertfordshire,FALSE,TRUE,FALSE,12.21,4,GBP - Pound Sterling,4,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,15,4,GBP - Pound Sterling,4,15
+UK,St. James park ( westminster),TRUE,FALSE,FALSE,14.5,4,GBP - Pound Sterling,4,14.5
+UK,London,TRUE,FALSE,FALSE,15.5,4,GBP - Pound Sterling,4,15.5
+UK,London,FALSE,FALSE,TRUE,13,4,GBP - Pound Sterling,4,13
+UK,Leicester,TRUE,FALSE,FALSE,12.51,4,GBP - Pound Sterling,4,12.51
+UK,Winchester,FALSE,TRUE,TRUE,13,4,GBP - Pound Sterling,4,13
+UK,Manchester,TRUE,FALSE,FALSE,13.6,4,GBP - Pound Sterling,4,13.6
+UK,Edinburgh,TRUE,FALSE,FALSE,12.21,4,GBP - Pound Sterling,4,12.209999999999999
+UK,Leeds,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,Wakefield,FALSE,TRUE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,London,TRUE,FALSE,FALSE,14.85,4,GBP - Pound Sterling,4,14.850000000000001
+UK,London,TRUE,FALSE,FALSE,16.5,4,GBP - Pound Sterling,4,16.5
+UK,London,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,Exeter,TRUE,FALSE,FALSE,14.23,4,GBP - Pound Sterling,4,14.229999999999999
+UK,Leeds,TRUE,FALSE,FALSE,11.5,4,GBP - Pound Sterling,4,11.5
+UK,Eastbourne,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,Bournemouth,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,London,TRUE,FALSE,FALSE,15,4,GBP - Pound Sterling,4,15
+UK,Birmingham,TRUE,FALSE,FALSE,12.3,4,GBP - Pound Sterling,4,12.3
+UK,Worcester,FALSE,TRUE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,London,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,London,TRUE,FALSE,FALSE,14.75,4,GBP - Pound Sterling,4,14.75
+UK,Birmingham,TRUE,FALSE,FALSE,13,4,GBP - Pound Sterling,4,13
+UK,Lyme Regis,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,Bristol,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,Bournemouth,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,London,TRUE,FALSE,FALSE,14,4,GBP - Pound Sterling,4,14
+UK,London,TRUE,FALSE,FALSE,14.8,4,GBP - Pound Sterling,4,14.8
+UK,Edinburgh,TRUE,FALSE,FALSE,13.5,4,GBP - Pound Sterling,4,13.5
+UK,Edinburgh,TRUE,FALSE,FALSE,12.42,4,GBP - Pound Sterling,4,12.42
+UK,London,TRUE,FALSE,FALSE,14.8,4,GBP - Pound Sterling,4,14.8
+UK,London,TRUE,FALSE,FALSE,15,4,GBP - Pound Sterling,4,15
+UK,London,TRUE,FALSE,FALSE,14.2,4,GBP - Pound Sterling,4,14.2
+UK,Penryn,FALSE,TRUE,FALSE,12.8,4,GBP - Pound Sterling,4,12.8
+UK,Manchester,TRUE,FALSE,FALSE,13.6,4,GBP - Pound Sterling,4,13.6
+Sweden,Stockholm,TRUE,FALSE,FALSE,13.14,3.91,SEK - Swedish Krona,50,168
+Sweden,Stockholm,TRUE,FALSE,FALSE,13.22,3.91,SEK - Swedish Krona,50,169
+UK,London,TRUE,FALSE,FALSE,15,3.99,GBP - Pound Sterling,3.9899999999999998,15
+USA,"Joplin, Missouri",FALSE,TRUE,FALSE,12.6,3.95,USD - US dollar,5.33,17
+Germany,Frankfurt,TRUE,FALSE,FALSE,11.99,3.94,EUR - Euro,4.6,14
+Belgium,Brussels,TRUE,FALSE,FALSE,16.27,3.94,EUR - Euro,4.6,19
+UK,Milton Keynes,FALSE,TRUE,FALSE,12.21,3.95,GBP - Pound Sterling,3.9499999999999997,12.209999999999999
+UK,Manchester,TRUE,FALSE,FALSE,12.44,3.95,GBP - Pound Sterling,3.9499999999999997,12.44
+UK,Nottingham,TRUE,FALSE,FALSE,11.58,3.95,GBP - Pound Sterling,3.9499999999999997,11.58
+UK,Glasgow,TRUE,FALSE,FALSE,12.6,3.95,GBP - Pound Sterling,3.9499999999999997,12.6
+UK,Exeter,TRUE,FALSE,FALSE,13.5,3.95,GBP - Pound Sterling,3.9499999999999997,13.5
+UK,London,FALSE,TRUE,FALSE,13,3.95,GBP - Pound Sterling,3.9499999999999997,13
+UK,London,TRUE,FALSE,FALSE,12.21,3.95,GBP - Pound Sterling,3.9499999999999997,12.209999999999999
+UK,Bangor,FALSE,TRUE,FALSE,12.21,3.95,GBP - Pound Sterling,3.9499999999999997,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,14,3.95,GBP - Pound Sterling,3.9499999999999997,14
+UK,London,FALSE,TRUE,FALSE,13.85,3.95,GBP - Pound Sterling,3.9499999999999997,13.850000000000001
+UK,NA,FALSE,TRUE,FALSE,12.3,3.95,GBP - Pound Sterling,3.9499999999999997,12.3
+UK,Lytham,FALSE,TRUE,FALSE,13.6,3.95,GBP - Pound Sterling,3.9499999999999997,13.6
+UK,NA,FALSE,FALSE,TRUE,12.44,3.95,GBP - Pound Sterling,3.9499999999999997,12.44
+UK,London,TRUE,FALSE,FALSE,14,3.95,GBP - Pound Sterling,3.9499999999999997,14
+USA,Atlanta,TRUE,FALSE,FALSE,11.11,3.9,USD - US dollar,5.26,15
+USA,Half Moon Bay,FALSE,TRUE,FALSE,14.82,3.89,USD - US dollar,5.25,20
+USA,"Portland, OR",TRUE,FALSE,FALSE,13.96,3.89,USD - US dollar,5.25,18.84
+USA,Portland,TRUE,FALSE,FALSE,12.08,3.89,USD - US dollar,5.25,16.3
+USA,Manhattan,TRUE,FALSE,FALSE,12.6,3.89,USD - US dollar,5.25,17
+USA,New York City,TRUE,FALSE,FALSE,15.56,3.89,USD - US dollar,5.25,21
+USA,"Charlottesville, Virginia",TRUE,FALSE,FALSE,13.34,3.89,USD - US dollar,5.25,18
+USA,Miami,TRUE,FALSE,FALSE,15.93,3.89,USD - US dollar,5.25,21.5
+USA,"Montclair, New Jersey",FALSE,TRUE,FALSE,12.22,3.89,USD - US dollar,5.25,16.5
+USA,"Charlotte, NC",FALSE,TRUE,FALSE,10.15,3.89,USD - US dollar,5.25,13.7
+USA,"Newport Beach, California",TRUE,FALSE,FALSE,14.08,3.89,USD - US dollar,5.25,19
+USA,Las Vegas,TRUE,FALSE,FALSE,9.26,3.89,USD - US dollar,5.25,12.5
+USA,Dunnellon,FALSE,TRUE,FALSE,8.89,3.89,USD - US dollar,5.25,12
+USA,"Houston, TX",TRUE,FALSE,FALSE,11.48,3.89,USD - US dollar,5.25,15.5
+USA,Santee,FALSE,TRUE,FALSE,20,3.89,USD - US dollar,5.25,27
+USA,"Sonoma, CA",TRUE,FALSE,FALSE,12.85,3.89,USD - US dollar,5.25,17.35
+USA,Denver,TRUE,FALSE,FALSE,12.05,3.89,USD - US dollar,5.25,16.27
+USA,New York City,TRUE,FALSE,FALSE,16.3,3.89,USD - US dollar,5.25,22
+Barbados,NA,TRUE,FALSE,FALSE,7.38,3.88,BBD - Barbados Dollar,10.5,20
+USA,Vancouver,FALSE,TRUE,FALSE,13.34,3.89,USD - US dollar,5.25,18
+USA,Northern Virginia - Washington DC Metropolitan Statistical Area,FALSE,TRUE,FALSE,15.56,3.89,USD - US dollar,5.25,21
+USA,"Rochester, NY",TRUE,FALSE,FALSE,11.85,3.89,USD - US dollar,5.25,16
+USA,NA,FALSE,TRUE,FALSE,8.15,3.89,USD - US dollar,5.25,11
+USA,Boston,TRUE,FALSE,FALSE,13.71,3.89,USD - US dollar,5.25,18.5
+USA,Los Angeles,TRUE,FALSE,FALSE,14.82,3.89,USD - US dollar,5.25,20
+USA,Los Angeles,TRUE,FALSE,FALSE,14.08,3.89,USD - US dollar,5.25,19
+USA,Los Angeles,TRUE,FALSE,FALSE,14.08,3.89,USD - US dollar,5.25,19
+USA,"Lansing, MI",TRUE,FALSE,FALSE,11.11,3.89,USD - US dollar,5.25,15
+Sweden,Helsingborg,TRUE,FALSE,FALSE,11.73,3.83,SEK - Swedish Krona,49,150
+UK,NA,FALSE,FALSE,TRUE,12.6,3.9,GBP - Pound Sterling,3.9,12.6
+UK,NA,FALSE,TRUE,FALSE,12.15,3.9,GBP - Pound Sterling,3.9,12.15
+UK,Great Malvern,FALSE,TRUE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,Cardiff,TRUE,FALSE,FALSE,12.9,3.9,GBP - Pound Sterling,3.9,12.9
+UK,Aberdeen,FALSE,TRUE,FALSE,12.3,3.9,GBP - Pound Sterling,3.9,12.3
+UK,Bath,TRUE,FALSE,FALSE,13.5,3.9,GBP - Pound Sterling,3.9,13.5
+UK,St Albans,TRUE,FALSE,FALSE,12.82,3.9,GBP - Pound Sterling,3.9,12.82
+UK,Aberdeen,TRUE,FALSE,FALSE,12.12,3.9,GBP - Pound Sterling,3.9,12.12
+UK,Macclesfield,TRUE,FALSE,FALSE,17,3.9,GBP - Pound Sterling,3.9,17
+UK,Canterbury,FALSE,TRUE,FALSE,12,3.9,GBP - Pound Sterling,3.9,12
+UK,Glasgow,TRUE,FALSE,FALSE,12.71,3.9,GBP - Pound Sterling,3.9,12.709999999999999
+UK,Bristol,TRUE,FALSE,FALSE,13.44,3.9,GBP - Pound Sterling,3.9,13.44
+UK,Cardiff,TRUE,FALSE,FALSE,12.6,3.9,GBP - Pound Sterling,3.9,12.6
+UK,Sheffield,FALSE,TRUE,FALSE,12.6,3.9,GBP - Pound Sterling,3.9,12.6
+UK,Knaresborough,TRUE,FALSE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,Winchester,FALSE,TRUE,TRUE,12.5,3.9,GBP - Pound Sterling,3.9,12.5
+UK,Dundee,TRUE,FALSE,FALSE,12.41,3.9,GBP - Pound Sterling,3.9,12.41
+UK,Nottingham,TRUE,FALSE,FALSE,12.6,3.9,GBP - Pound Sterling,3.9,12.6
+UK,Belfast,FALSE,TRUE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,London,TRUE,FALSE,FALSE,15,3.9,GBP - Pound Sterling,3.9,15
+UK,London,TRUE,FALSE,FALSE,13.15,3.9,GBP - Pound Sterling,3.9,13.15
+UK,London,TRUE,FALSE,FALSE,13.5,3.9,GBP - Pound Sterling,3.9,13.5
+UK,NA,FALSE,FALSE,TRUE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,NA,FALSE,TRUE,FALSE,12.9,3.9,GBP - Pound Sterling,3.9,12.9
+UK,Nottinghamshire,FALSE,TRUE,FALSE,13.5,3.9,GBP - Pound Sterling,3.9,13.5
+UK,NA,FALSE,FALSE,TRUE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,Cardiff,TRUE,FALSE,FALSE,12.6,3.9,GBP - Pound Sterling,3.9,12.6
+UK,Milngavie,FALSE,TRUE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,NA,FALSE,TRUE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,Sheffield,TRUE,FALSE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,Cardiff,TRUE,FALSE,FALSE,13.8,3.9,GBP - Pound Sterling,3.9,13.8
+UK,London,TRUE,FALSE,FALSE,14.1,3.9,GBP - Pound Sterling,3.9,14.1
+UK,Bournemouth,TRUE,FALSE,FALSE,11,3.9,GBP - Pound Sterling,3.9,11
+UK,Edinburgh,TRUE,FALSE,FALSE,13.5,3.9,GBP - Pound Sterling,3.9,13.5
+UK,Leeds,TRUE,FALSE,FALSE,12.7,3.9,GBP - Pound Sterling,3.9,12.7
+UK,Leeds,TRUE,FALSE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,Glasgow,TRUE,FALSE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,NA,FALSE,FALSE,TRUE,12.5,3.9,GBP - Pound Sterling,3.9,12.5
+UK,NA,TRUE,FALSE,FALSE,13.9,3.9,GBP - Pound Sterling,3.9,13.9
+UK,Swansea,FALSE,TRUE,FALSE,8.6,3.9,GBP - Pound Sterling,3.9,8.6
+UK,Canterbury,TRUE,FALSE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,London,TRUE,FALSE,FALSE,14.5,3.9,GBP - Pound Sterling,3.9,14.5
+UK,NA,FALSE,TRUE,FALSE,13.21,3.9,GBP - Pound Sterling,3.9,13.209999999999999
+UK,London,FALSE,TRUE,FALSE,12.67,3.9,GBP - Pound Sterling,3.9,12.67
+UK,NA,FALSE,FALSE,TRUE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,15,3.9,GBP - Pound Sterling,3.9,15
+UK,Edinburgh,TRUE,FALSE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,Exeter,FALSE,TRUE,FALSE,14.3,3.9,GBP - Pound Sterling,3.9,14.3
+UK,NA,FALSE,TRUE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+UK,Nottingham,TRUE,FALSE,FALSE,12.7,3.9,GBP - Pound Sterling,3.9,12.7
+UK,Edinburgh,TRUE,FALSE,FALSE,12.21,3.9,GBP - Pound Sterling,3.9,12.209999999999999
+UK,Manchester,FALSE,TRUE,FALSE,13,3.9,GBP - Pound Sterling,3.9,13
+Australia,Sydney,TRUE,FALSE,FALSE,16.33,3.93,AUD - Australian Dollar,7.5,31.19
+Belgium,Brussels,TRUE,FALSE,FALSE,14.3,3.85,EUR - Euro,4.5,16.7
+Finland,Helsinki,TRUE,FALSE,FALSE,18.84,3.85,EUR - Euro,4.5,22
+Finland,Helsinki,TRUE,FALSE,FALSE,14.56,3.85,EUR - Euro,4.5,17
+Germany,Berlin,TRUE,FALSE,FALSE,13.7,3.85,EUR - Euro,4.5,16
+Ireland,Limerick,TRUE,FALSE,TRUE,12.12,3.85,EUR - Euro,4.5,14.15
+Belgium,Ghent,FALSE,TRUE,FALSE,14.56,3.85,EUR - Euro,4.5,17
+France,Paris,TRUE,FALSE,FALSE,11.14,3.85,EUR - Euro,4.5,13
+Germany,NA,FALSE,TRUE,FALSE,10.28,3.85,EUR - Euro,4.5,12
+Germany,Hamburg,TRUE,FALSE,FALSE,11.14,3.85,EUR - Euro,4.5,13
+Ireland,NA,FALSE,FALSE,TRUE,12.42,3.85,EUR - Euro,4.5,14.5
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,17.13,3.85,EUR - Euro,4.5,20
+Belgium,Brussels,TRUE,FALSE,FALSE,11.14,3.85,EUR - Euro,4.5,13
+Finland,Helsinki,TRUE,FALSE,FALSE,13.28,3.85,EUR - Euro,4.5,15.5
+Austria,Lake Attersee,FALSE,FALSE,TRUE,11.14,3.85,EUR - Euro,4.5,13
+Finland,Helsinki,TRUE,FALSE,FALSE,14.3,3.85,EUR - Euro,4.5,16.7
+Germany,Freiburg,TRUE,FALSE,FALSE,11.14,3.85,EUR - Euro,4.5,13
+Germany,Chemnitz,FALSE,TRUE,FALSE,11.99,3.85,EUR - Euro,4.5,14
+Germany,Kassel,TRUE,FALSE,FALSE,11.99,3.85,EUR - Euro,4.5,14
+Germany,Hamburg,TRUE,FALSE,FALSE,12.85,3.85,EUR - Euro,4.5,15
+Ireland,Newcastle West,FALSE,TRUE,FALSE,12.85,3.85,EUR - Euro,4.5,15
+Ireland,Kildare,FALSE,TRUE,FALSE,12.76,3.85,EUR - Euro,4.5,14.9
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,3.85,EUR - Euro,4.5,15
+Finland,Helsinki,TRUE,FALSE,FALSE,11.99,3.85,EUR - Euro,4.5,14
+Finland,Helsinki,TRUE,FALSE,FALSE,11.58,3.85,EUR - Euro,4.5,13.52
+Belgium,Brussels,TRUE,FALSE,FALSE,12.75,3.85,EUR - Euro,4.5,14.88
+Finland,Helsinki,TRUE,FALSE,FALSE,18.84,3.85,EUR - Euro,4.5,22
+Finland,Helsinki,TRUE,FALSE,FALSE,10.28,3.85,EUR - Euro,4.5,12
+France,Paris,TRUE,FALSE,FALSE,10.9,3.85,EUR - Euro,4.5,12.719999999999999
+France,Lyon,TRUE,FALSE,FALSE,11.56,3.85,EUR - Euro,4.5,13.5
+France,Paris,TRUE,FALSE,FALSE,11.14,3.85,EUR - Euro,4.5,13
+Germany,NA,TRUE,FALSE,FALSE,12.85,3.85,EUR - Euro,4.5,15
+Ireland,Limerick,TRUE,TRUE,FALSE,12.42,3.85,EUR - Euro,4.5,14.5
+Ireland,Dublin,TRUE,FALSE,FALSE,12.12,3.85,EUR - Euro,4.5,14.15
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,15.76,3.85,EUR - Euro,4.5,18.4
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,8.57,3.85,EUR - Euro,4.5,10
+USA,"Lawrence, Kansas",FALSE,TRUE,FALSE,11.85,3.85,USD - US dollar,5.1899999999999995,16
+USA,Norfolk,TRUE,FALSE,FALSE,9.63,3.85,USD - US dollar,5.1899999999999995,13
+USA,Atlanta,TRUE,FALSE,FALSE,8.89,3.83,USD - US dollar,5.17,12
+USA,New York City,TRUE,FALSE,FALSE,19.26,3.83,USD - US dollar,5.17,26
+USA,Phoenix,TRUE,TRUE,FALSE,9.63,3.82,USD - US dollar,5.159999999999999,13
+USA,Boston,TRUE,FALSE,FALSE,12.97,3.82,USD - US dollar,5.1499999999999995,17.5
+USA,"Tulsa, OK",FALSE,TRUE,FALSE,7.41,3.82,USD - US dollar,5.1499999999999995,10
+USA,"Boca Raton, FL",FALSE,TRUE,FALSE,8.89,3.82,USD - US dollar,5.1499999999999995,12
+UK,Exeter,FALSE,FALSE,TRUE,13.8,3.85,GBP - Pound Sterling,3.8499999999999996,13.8
+UK,Bath,TRUE,FALSE,FALSE,12.2,3.85,GBP - Pound Sterling,3.8499999999999996,12.2
+UK,Halesowen,TRUE,FALSE,FALSE,12.6,3.85,GBP - Pound Sterling,3.8499999999999996,12.6
+UK,Leeds,TRUE,FALSE,FALSE,12.5,3.85,GBP - Pound Sterling,3.8499999999999996,12.5
+UK,Bristol,TRUE,FALSE,FALSE,12.6,3.85,GBP - Pound Sterling,3.8499999999999996,12.6
+UK,London,TRUE,FALSE,FALSE,12.21,3.85,GBP - Pound Sterling,3.8499999999999996,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,12.21,3.85,GBP - Pound Sterling,3.8499999999999996,12.209999999999999
+UK,Stratford-upon-Avon,FALSE,FALSE,TRUE,12.21,3.85,GBP - Pound Sterling,3.8499999999999996,12.209999999999999
+UK,NA,FALSE,FALSE,TRUE,12.5,3.85,GBP - Pound Sterling,3.8499999999999996,12.5
+UK,NA,FALSE,TRUE,FALSE,7.55,3.85,GBP - Pound Sterling,3.8499999999999996,7.55
+UK,London,TRUE,FALSE,FALSE,16.4,3.85,GBP - Pound Sterling,3.8499999999999996,16.4
+UK,"Pewsey, Wiltshire",FALSE,FALSE,TRUE,12.5,3.85,GBP - Pound Sterling,3.8499999999999996,12.5
+Poland,Kraków,TRUE,FALSE,FALSE,7.17,3.79,PLN - Zloty,19,36
+Poland,Warsaw,TRUE,FALSE,FALSE,6.65,3.79,PLN - Zloty,19,33.4
+Poland,Tychy,TRUE,FALSE,FALSE,4.77,3.79,PLN - Zloty,19,23.939999999999998
+Poland,Wrocław,TRUE,FALSE,FALSE,5.98,3.79,PLN - Zloty,19,30
+Poland,Warsaw,TRUE,FALSE,FALSE,6.97,3.79,PLN - Zloty,19,35
+Poland,Kraków,TRUE,TRUE,FALSE,6.26,3.79,PLN - Zloty,19,31.4
+Poland,Warsaw,TRUE,FALSE,FALSE,6.67,3.79,PLN - Zloty,19,33.5
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.57,3.79,PLN - Zloty,19,33
+USA,Fort Worth,TRUE,FALSE,FALSE,11.85,3.81,USD - US dollar,5.14,16
+Sweden,Malmö,TRUE,FALSE,FALSE,12.52,3.75,SEK - Swedish Krona,48,160
+USA,Atlanta,TRUE,FALSE,FALSE,7.85,3.79,USD - US dollar,5.119999999999999,10.6
+USA,Bonney Lake,FALSE,TRUE,FALSE,14.34,3.79,USD - US dollar,5.119999999999999,19.35
+Israel,Tel Aviv,TRUE,FALSE,FALSE,12.36,3.96,ILS - New Israeli Sheqel,16,50
+Israel,Tel Aviv,TRUE,FALSE,FALSE,14.83,3.96,ILS - New Israeli Sheqel,16,60
+Israel,Tel Aviv,TRUE,FALSE,FALSE,12.36,3.96,ILS - New Israeli Sheqel,16,50
+Israel,Rishon lezion,FALSE,TRUE,FALSE,11.12,3.96,ILS - New Israeli Sheqel,16,45
+China,Hong Kong,TRUE,FALSE,FALSE,7.08,3.78,HKD - Hong Kong Dollar,40,75
+China,Hong Kong,TRUE,FALSE,FALSE,7.08,3.78,HKD - Hong Kong Dollar,40,75
+China,Hong Kong,TRUE,FALSE,FALSE,6.61,3.78,HKD - Hong Kong Dollar,40,70
+Austria,Linz,TRUE,FALSE,FALSE,11.08,3.77,EUR - Euro,4.4,12.93
+Finland,Helsinki,TRUE,FALSE,FALSE,11.14,3.77,EUR - Euro,4.4,13
+Germany,NA,TRUE,FALSE,FALSE,10.71,3.77,EUR - Euro,4.4,12.5
+Germany,Berlin,TRUE,FALSE,FALSE,14.56,3.77,EUR - Euro,4.4,17
+Germany,Cologne,TRUE,FALSE,FALSE,10.63,3.77,EUR - Euro,4.4,12.41
+Canada,Toronto,TRUE,FALSE,FALSE,9.56,3.72,CAD - Canadian Dollar,7,18
+Canada,Toronto,TRUE,FALSE,FALSE,9.03,3.72,CAD - Canadian Dollar,7,17
+USA,Traverse City,FALSE,TRUE,FALSE,11.11,3.77,USD - US dollar,5.09,15
+UK,London,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Leeds,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,London,FALSE,TRUE,FALSE,16.85,3.8,GBP - Pound Sterling,3.8,16.85
+UK,NA,FALSE,FALSE,TRUE,13.4,3.8,GBP - Pound Sterling,3.8,13.4
+UK,Belfast,FALSE,TRUE,FALSE,13.5,3.8,GBP - Pound Sterling,3.8,13.5
+UK,"Taunton, Somerset",TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,London,TRUE,FALSE,FALSE,14.4,3.8,GBP - Pound Sterling,3.8,14.4
+UK,North Berwick,FALSE,TRUE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,London,TRUE,FALSE,FALSE,13.25,3.8,GBP - Pound Sterling,3.8,13.25
+UK,York,FALSE,TRUE,FALSE,12.3,3.8,GBP - Pound Sterling,3.8,12.3
+UK,NA,FALSE,TRUE,FALSE,10,3.8,GBP - Pound Sterling,3.8,10
+UK,The Lake District,FALSE,FALSE,TRUE,12.75,3.8,GBP - Pound Sterling,3.8,12.75
+UK,Belfast,TRUE,FALSE,FALSE,16.5,3.8,GBP - Pound Sterling,3.8,16.5
+UK,London,TRUE,FALSE,FALSE,12.6,3.8,GBP - Pound Sterling,3.8,12.6
+UK,Oxford,TRUE,FALSE,FALSE,13.1,3.8,GBP - Pound Sterling,3.8,13.1
+UK,NA,FALSE,FALSE,TRUE,12,3.8,GBP - Pound Sterling,3.8,12
+UK,London,TRUE,FALSE,FALSE,14.15,3.8,GBP - Pound Sterling,3.8,14.15
+UK,NA,FALSE,FALSE,TRUE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,London,TRUE,TRUE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Edinburgh,TRUE,FALSE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Glasgow,TRUE,FALSE,FALSE,13.2,3.8,GBP - Pound Sterling,3.8,13.2
+UK,Chester,TRUE,FALSE,FALSE,12.8,3.8,GBP - Pound Sterling,3.8,12.8
+UK,Sutton,FALSE,TRUE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,NA,FALSE,TRUE,FALSE,12.74,3.8,GBP - Pound Sterling,3.8,12.739999999999998
+UK,St.Ives,FALSE,FALSE,TRUE,12.6,3.8,GBP - Pound Sterling,3.8,12.6
+UK,Salisbury,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,Birmingham,FALSE,TRUE,FALSE,14.75,3.8,GBP - Pound Sterling,3.8,14.75
+UK,Bangor,FALSE,TRUE,FALSE,13.5,3.8,GBP - Pound Sterling,3.8,13.5
+UK,Edinburgh,TRUE,FALSE,FALSE,12.41,3.8,GBP - Pound Sterling,3.8,12.41
+UK,Manchester,TRUE,FALSE,FALSE,12.35,3.8,GBP - Pound Sterling,3.8,12.350000000000001
+UK,London,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Edinburgh,TRUE,FALSE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,Manchester,TRUE,FALSE,FALSE,12.75,3.8,GBP - Pound Sterling,3.8,12.75
+UK,NA,FALSE,TRUE,FALSE,12.7,3.8,GBP - Pound Sterling,3.8,12.7
+UK,Sheffield,TRUE,FALSE,FALSE,12.41,3.8,GBP - Pound Sterling,3.8,12.41
+UK,Bristol,TRUE,FALSE,FALSE,14.33,3.8,GBP - Pound Sterling,3.8,14.33
+UK,Belfast,TRUE,FALSE,FALSE,14.42,3.8,GBP - Pound Sterling,3.8,14.42
+UK,Southampton,FALSE,TRUE,FALSE,15,3.8,GBP - Pound Sterling,3.8,15
+UK,Belfast,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,Newcastle upon tyne,TRUE,FALSE,FALSE,12.6,3.8,GBP - Pound Sterling,3.8,12.6
+UK,Manchester,TRUE,FALSE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Sunderland,TRUE,FALSE,FALSE,12.31,3.8,GBP - Pound Sterling,3.8,12.31
+UK,NA,FALSE,TRUE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,York,FALSE,TRUE,FALSE,12.8,3.8,GBP - Pound Sterling,3.8,12.8
+UK,London,TRUE,FALSE,FALSE,16.5,3.8,GBP - Pound Sterling,3.8,16.5
+UK,Brighton,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,London,TRUE,TRUE,FALSE,17,3.8,GBP - Pound Sterling,3.8,17
+UK,London,FALSE,TRUE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Huddersfield,TRUE,FALSE,FALSE,13.43,3.8,GBP - Pound Sterling,3.8,13.43
+UK,Kinross,FALSE,FALSE,TRUE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Manchester,FALSE,TRUE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,London,TRUE,FALSE,FALSE,14.8,3.8,GBP - Pound Sterling,3.8,14.8
+UK,London,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Birmingham,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,Newcastle-under-Lyme,TRUE,FALSE,FALSE,12.75,3.8,GBP - Pound Sterling,3.8,12.75
+UK,Oxford,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Dundee,TRUE,FALSE,FALSE,13.55,3.8,GBP - Pound Sterling,3.8,13.55
+UK,Liverpool,TRUE,FALSE,FALSE,13.3,3.8,GBP - Pound Sterling,3.8,13.3
+UK,Bristol,FALSE,TRUE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,London,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,London,TRUE,FALSE,FALSE,15.6,3.8,GBP - Pound Sterling,3.8,15.6
+UK,Manchester,FALSE,TRUE,FALSE,12.8,3.8,GBP - Pound Sterling,3.8,12.8
+UK,Glasgow,TRUE,FALSE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,Bristol,TRUE,TRUE,FALSE,13.67,3.8,GBP - Pound Sterling,3.8,13.67
+UK,Leeds,TRUE,FALSE,FALSE,12.35,3.8,GBP - Pound Sterling,3.8,12.350000000000001
+UK,Colwyn Bay,FALSE,TRUE,FALSE,12.42,3.8,GBP - Pound Sterling,3.8,12.42
+UK,Hitchin,FALSE,TRUE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Wrexham,TRUE,FALSE,FALSE,12.8,3.8,GBP - Pound Sterling,3.8,12.8
+UK,London,TRUE,FALSE,FALSE,12,3.8,GBP - Pound Sterling,3.8,12
+UK,London,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,Plymouth,TRUE,FALSE,FALSE,12.71,3.8,GBP - Pound Sterling,3.8,12.709999999999999
+UK,Cheltenham,FALSE,TRUE,FALSE,14.25,3.8,GBP - Pound Sterling,3.8,14.25
+UK,Glasgow,TRUE,FALSE,FALSE,12.5,3.8,GBP - Pound Sterling,3.8,12.5
+UK,Bristol,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Bristol,TRUE,FALSE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,Birmingham,TRUE,FALSE,FALSE,13.77,3.8,GBP - Pound Sterling,3.8,13.77
+UK,Bristol,TRUE,FALSE,FALSE,13.5,3.8,GBP - Pound Sterling,3.8,13.5
+UK,London,TRUE,FALSE,FALSE,17,3.8,GBP - Pound Sterling,3.8,17
+UK,Liverpool,TRUE,FALSE,FALSE,15,3.8,GBP - Pound Sterling,3.8,15
+UK,London,TRUE,FALSE,FALSE,14,3.8,GBP - Pound Sterling,3.8,14
+UK,London,TRUE,FALSE,FALSE,15,3.8,GBP - Pound Sterling,3.8,15
+UK,Bristol,TRUE,FALSE,FALSE,12.25,3.8,GBP - Pound Sterling,3.8,12.25
+UK,Oxford,TRUE,FALSE,FALSE,13.5,3.8,GBP - Pound Sterling,3.8,13.5
+UK,London,TRUE,FALSE,FALSE,12.51,3.8,GBP - Pound Sterling,3.8,12.51
+UK,Glasgow,TRUE,FALSE,FALSE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,NA,FALSE,TRUE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,Harrogate,FALSE,TRUE,FALSE,14.5,3.8,GBP - Pound Sterling,3.8,14.5
+UK,Glasgow,TRUE,FALSE,FALSE,12,3.8,GBP - Pound Sterling,3.8,12
+UK,Newcastle,TRUE,FALSE,FALSE,12.4,3.8,GBP - Pound Sterling,3.8,12.4
+UK,Leeds,TRUE,FALSE,FALSE,12.7,3.8,GBP - Pound Sterling,3.8,12.7
+UK,Derry closest,FALSE,FALSE,TRUE,13,3.8,GBP - Pound Sterling,3.8,13
+UK,Oxford,TRUE,FALSE,FALSE,12.36,3.8,GBP - Pound Sterling,3.8,12.360000000000001
+UK,Cheltenham,TRUE,FALSE,FALSE,12.21,3.8,GBP - Pound Sterling,3.8,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,9.86,3.8,GBP - Pound Sterling,3.8,9.860000000000001
+USA,"St. Petersburg, FL",TRUE,FALSE,FALSE,11.11,3.76,USD - US dollar,5.08,15
+Singapore,NA,TRUE,FALSE,FALSE,5.79,3.77,SGD - Singapore Dollar,6.5,10
+Singapore,NA,TRUE,FALSE,FALSE,10.43,3.77,SGD - Singapore Dollar,6.5,18
+Singapore,NA,TRUE,FALSE,FALSE,5.79,3.77,SGD - Singapore Dollar,6.5,10
+UK,Plymouth,FALSE,FALSE,TRUE,12.5,3.79,GBP - Pound Sterling,3.79,12.5
+UK,NA,FALSE,FALSE,TRUE,12.5,3.79,GBP - Pound Sterling,3.79,12.5
+USA,McKinney Texas,FALSE,TRUE,FALSE,10.37,3.74,USD - US dollar,5.05,14
+USA,Austin,TRUE,FALSE,FALSE,8.15,3.74,USD - US dollar,5.05,11
+USA,NA,FALSE,FALSE,TRUE,8.89,3.74,USD - US dollar,5.05,12
+USA,"Houston, TX",FALSE,TRUE,FALSE,10.56,3.73,USD - US dollar,5.04,14.25
+Japan,Tokyo,TRUE,FALSE,FALSE,5.61,3.74,JPY - Yen,800,1200
+Mexico,Ciudad de México,TRUE,FALSE,FALSE,1.78,3.89,MXN - Mexican Peso,90,41.25
+USA,"Kansas City, Missouri",TRUE,FALSE,FALSE,16.3,3.73,USD - US dollar,5.03,22
+USA,"Ocean city, Maryland",FALSE,FALSE,TRUE,13.34,3.73,USD - US dollar,5.03,18
+USA,Ypsilanti,TRUE,FALSE,FALSE,14.82,3.73,USD - US dollar,5.03,20
+Sweden,Stockholm,TRUE,FALSE,FALSE,6.84,3.68,SEK - Swedish Krona,47,87.5
+USA,Chicago,TRUE,FALSE,FALSE,16.67,3.72,USD - US dollar,5.02,22.5
+UK,Nottingham,TRUE,FALSE,FALSE,12.41,3.75,GBP - Pound Sterling,3.75,12.41
+UK,Norwich,TRUE,FALSE,FALSE,12.6,3.75,GBP - Pound Sterling,3.75,12.6
+UK,Belfast,TRUE,FALSE,FALSE,12.5,3.75,GBP - Pound Sterling,3.75,12.5
+UK,Cardiff,TRUE,FALSE,FALSE,13,3.75,GBP - Pound Sterling,3.75,13
+UK,Manchester,FALSE,TRUE,FALSE,11,3.75,GBP - Pound Sterling,3.75,11
+UK,Brighton and Hove,TRUE,FALSE,FALSE,16.2,3.75,GBP - Pound Sterling,3.75,16.2
+UK,London,TRUE,FALSE,FALSE,14.85,3.75,GBP - Pound Sterling,3.75,14.850000000000001
+UK,Nottinghamshire,FALSE,TRUE,FALSE,12.21,3.75,GBP - Pound Sterling,3.75,12.209999999999999
+UK,Ross-on-wye,FALSE,TRUE,FALSE,12.25,3.75,GBP - Pound Sterling,3.75,12.25
+UK,NA,FALSE,FALSE,TRUE,12.21,3.75,GBP - Pound Sterling,3.75,12.209999999999999
+UK,Belfast,TRUE,FALSE,FALSE,12.5,3.75,GBP - Pound Sterling,3.75,12.5
+UK,NA,FALSE,FALSE,TRUE,13,3.75,GBP - Pound Sterling,3.75,13
+UK,NA,FALSE,FALSE,TRUE,14.5,3.75,GBP - Pound Sterling,3.75,14.5
+UK,Bristol,TRUE,FALSE,FALSE,12.7,3.75,GBP - Pound Sterling,3.75,12.7
+UK,Edinburgh,TRUE,FALSE,FALSE,14.25,3.75,GBP - Pound Sterling,3.75,14.25
+UK,Lancaster,FALSE,TRUE,FALSE,12.3,3.75,GBP - Pound Sterling,3.75,12.3
+UK,Leeds,FALSE,TRUE,FALSE,14.25,3.75,GBP - Pound Sterling,3.75,14.25
+UK,Topsham,FALSE,TRUE,TRUE,13.5,3.75,GBP - Pound Sterling,3.75,13.5
+UK,Exeter,TRUE,TRUE,FALSE,13.75,3.75,GBP - Pound Sterling,3.75,13.75
+UK,Blackpool,TRUE,FALSE,FALSE,12.8,3.75,GBP - Pound Sterling,3.75,12.8
+USA,Salt Lake City,TRUE,FALSE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,San Francisco,TRUE,FALSE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,"Santa Barbara, CA",TRUE,FALSE,FALSE,17.78,3.7,USD - US dollar,5,24
+USA,"Murfreesboro, TN",FALSE,TRUE,FALSE,15.56,3.7,USD - US dollar,5,21
+USA,"Olympia, WA",FALSE,TRUE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,Atlanta,TRUE,FALSE,FALSE,8.89,3.7,USD - US dollar,5,12
+USA,Savannah,TRUE,FALSE,FALSE,8.89,3.7,USD - US dollar,5,12
+USA,Knoxville,TRUE,FALSE,FALSE,7.41,3.7,USD - US dollar,5,10
+USA,Traverse City,FALSE,TRUE,FALSE,10.74,3.7,USD - US dollar,5,14.5
+USA,Chico,TRUE,FALSE,TRUE,15.93,3.7,USD - US dollar,5,21.5
+USA,"Lexington, KY",TRUE,FALSE,FALSE,6.67,3.7,USD - US dollar,5,9
+USA,Las Vegas,TRUE,FALSE,FALSE,15.56,3.7,USD - US dollar,5,21
+USA,Duluth,TRUE,FALSE,FALSE,9.63,3.7,USD - US dollar,5,13
+USA,San Luis Obispo,FALSE,FALSE,TRUE,13.34,3.7,USD - US dollar,5,18
+USA,San Francisco,TRUE,FALSE,FALSE,15.56,3.7,USD - US dollar,5,21
+USA,Salem MA,TRUE,FALSE,FALSE,11.48,3.7,USD - US dollar,5,15.5
+USA,"Santa Barbara, CA",FALSE,TRUE,FALSE,12.22,3.7,USD - US dollar,5,16.5
+USA,"Austin, Texas",TRUE,FALSE,FALSE,2.96,3.7,USD - US dollar,5,4
+USA,Los Angeles,TRUE,FALSE,FALSE,16.3,3.7,USD - US dollar,5,22
+USA,Boise,TRUE,FALSE,FALSE,11.85,3.7,USD - US dollar,5,16
+USA,New York City,TRUE,FALSE,FALSE,12.97,3.7,USD - US dollar,5,17.5
+USA,Pittsburgh,TRUE,FALSE,FALSE,10.37,3.7,USD - US dollar,5,14
+USA,New York City,TRUE,FALSE,FALSE,13.34,3.7,USD - US dollar,5,18
+USA,Lexington,TRUE,FALSE,FALSE,9.63,3.7,USD - US dollar,5,13
+USA,Denver,TRUE,FALSE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,"Nashville, TN",TRUE,FALSE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,Los Angeles,TRUE,FALSE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,Boston,FALSE,TRUE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,"Eureka, CA",TRUE,FALSE,FALSE,13.34,3.7,USD - US dollar,5,18
+USA,New Orleans,FALSE,TRUE,FALSE,8.15,3.7,USD - US dollar,5,11
+USA,"Portland, ME",TRUE,FALSE,FALSE,17.78,3.7,USD - US dollar,5,24
+USA,Indianapolis,TRUE,FALSE,FALSE,12.97,3.7,USD - US dollar,5,17.5
+USA,Lancaster,FALSE,TRUE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,"Philadelphia, PA",TRUE,FALSE,FALSE,12.6,3.7,USD - US dollar,5,17
+USA,"Madison, WI",TRUE,FALSE,FALSE,10.37,3.7,USD - US dollar,5,14
+USA,San José,TRUE,FALSE,FALSE,13.71,3.7,USD - US dollar,5,18.5
+USA,"Huntsville, Alabama",FALSE,TRUE,FALSE,10,3.7,USD - US dollar,5,13.5
+USA,"Taylor, TX",TRUE,FALSE,FALSE,7.41,3.7,USD - US dollar,5,10
+USA,"Memphis, TN",TRUE,FALSE,FALSE,10.37,3.7,USD - US dollar,5,14
+USA,"Fullerton, CA & Orange, CA",FALSE,TRUE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,Jersey City,TRUE,FALSE,FALSE,9.26,3.7,USD - US dollar,5,12.5
+USA,Roanoke,FALSE,TRUE,FALSE,11.85,3.7,USD - US dollar,5,16
+USA,"Fayetteville, AR",FALSE,TRUE,FALSE,8.15,3.7,USD - US dollar,5,11
+USA,"Dallas, TX",TRUE,FALSE,FALSE,9.08,3.7,USD - US dollar,5,12.25
+USA,Los Angeles,TRUE,FALSE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,Los Angeles,TRUE,FALSE,FALSE,13.15,3.7,USD - US dollar,5,17.75
+USA,"Midland, TX",FALSE,TRUE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,San Francisco,TRUE,FALSE,FALSE,13.34,3.7,USD - US dollar,5,18
+USA,San Antonio,TRUE,FALSE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,Phoenix,TRUE,FALSE,FALSE,11.22,3.7,USD - US dollar,5,15.15
+USA,Kansas City,TRUE,FALSE,FALSE,13.34,3.7,USD - US dollar,5,18
+USA,Chicago,FALSE,TRUE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,Fontana,FALSE,TRUE,FALSE,14.17,3.7,USD - US dollar,5,19.12
+USA,"Portland, OR",TRUE,FALSE,FALSE,11.85,3.7,USD - US dollar,5,16
+USA,New York City,TRUE,FALSE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,"Troy, New York",TRUE,TRUE,FALSE,9.26,3.7,USD - US dollar,5,12.5
+USA,Toledo,TRUE,FALSE,FALSE,9.26,3.7,USD - US dollar,5,12.5
+USA,Sioux Falls,FALSE,FALSE,TRUE,13.34,3.7,USD - US dollar,5,18
+USA,Minneapolis,TRUE,FALSE,FALSE,12.16,3.7,USD - US dollar,5,16.41
+USA,"Lexington, KY",TRUE,FALSE,FALSE,6.67,3.7,USD - US dollar,5,9
+USA,"Lexington, KY",TRUE,FALSE,FALSE,6.67,3.7,USD - US dollar,5,9
+USA,"Lexington, KY",TRUE,FALSE,FALSE,9.63,3.7,USD - US dollar,5,13
+USA,New York City,TRUE,FALSE,FALSE,24.45,3.7,USD - US dollar,5,33
+USA,New York City,TRUE,FALSE,FALSE,12.6,3.7,USD - US dollar,5,17
+USA,New York City,TRUE,FALSE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,Ogden,FALSE,TRUE,FALSE,7.41,3.7,USD - US dollar,5,10
+USA,Selmer,FALSE,FALSE,TRUE,8.89,3.7,USD - US dollar,5,12
+USA,"Lexington, KY",FALSE,TRUE,FALSE,10.19,3.7,USD - US dollar,5,13.75
+USA,Tucson,TRUE,FALSE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,"Lexington, KY",FALSE,TRUE,FALSE,10,3.7,USD - US dollar,5,13.5
+USA,"Ames, Iowa",TRUE,FALSE,FALSE,12.6,3.7,USD - US dollar,5,17
+USA,Aurora,FALSE,TRUE,FALSE,12.22,3.7,USD - US dollar,5,16.5
+USA,"Billings, MT",FALSE,TRUE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,"Atlanta, GA",TRUE,FALSE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,"Santa Barbara, CA",TRUE,FALSE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,Olympia,FALSE,TRUE,FALSE,12.97,3.7,USD - US dollar,5,17.5
+USA,"Cincinnati, Ohio",TRUE,FALSE,FALSE,12.6,3.7,USD - US dollar,5,17
+USA,Omaha Nebraska,TRUE,FALSE,FALSE,11.11,3.7,USD - US dollar,5,15
+USA,"Wallingford, Connecticut",TRUE,FALSE,FALSE,11.85,3.7,USD - US dollar,5,16
+USA,New York City,TRUE,FALSE,FALSE,12.6,3.7,USD - US dollar,5,17
+USA,Orange County,FALSE,TRUE,FALSE,14.08,3.7,USD - US dollar,5,19
+USA,Miami,TRUE,FALSE,FALSE,11.85,3.7,USD - US dollar,5,16
+USA,Boston,TRUE,FALSE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,Minneapolis,TRUE,FALSE,FALSE,15.56,3.7,USD - US dollar,5,21
+USA,New York City,TRUE,FALSE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,Washington DC,TRUE,FALSE,FALSE,16.3,3.7,USD - US dollar,5,22
+USA,"Beverly, MA",FALSE,TRUE,FALSE,12.97,3.7,USD - US dollar,5,17.5
+USA,"Madison, WI",TRUE,FALSE,FALSE,17.04,3.7,USD - US dollar,5,23
+USA,Austin,TRUE,FALSE,FALSE,16.3,3.7,USD - US dollar,5,22
+USA,New York City,TRUE,FALSE,FALSE,15.56,3.7,USD - US dollar,5,21
+USA,"Madison, WI",TRUE,FALSE,FALSE,16.67,3.7,USD - US dollar,5,22.5
+USA,Boston,TRUE,FALSE,FALSE,6.67,3.7,USD - US dollar,5,9
+USA,San José,FALSE,TRUE,FALSE,17.04,3.7,USD - US dollar,5,23
+USA,Portland,TRUE,FALSE,FALSE,10.37,3.7,USD - US dollar,5,14
+USA,"Houston, TX",TRUE,FALSE,FALSE,14.82,3.7,USD - US dollar,5,20
+USA,San Diego,TRUE,FALSE,FALSE,13.15,3.7,USD - US dollar,5,17.75
+USA,Billings,FALSE,TRUE,FALSE,18.52,3.7,USD - US dollar,5,25
+USA,Olympia,FALSE,TRUE,FALSE,15.23,3.7,USD - US dollar,5,20.56
+USA,Columbia,TRUE,FALSE,FALSE,12.43,3.69,USD - US dollar,4.98,16.779999999999998
+Germany,Freiburg im Breisgau,TRUE,FALSE,FALSE,11.99,3.68,EUR - Euro,4.3,14
+Germany,Freiburg,TRUE,FALSE,FALSE,12.42,3.68,EUR - Euro,4.3,14.5
+Germany,Kiel,TRUE,FALSE,FALSE,17.99,3.68,EUR - Euro,4.3,21
+Germany,Kiel,TRUE,FALSE,FALSE,14.13,3.68,EUR - Euro,4.3,16.5
+Belgium,Tournai,TRUE,FALSE,FALSE,11.99,3.68,EUR - Euro,4.3,14
+Estonia,Tallinn,TRUE,FALSE,FALSE,8.14,3.68,EUR - Euro,4.3,9.5
+Germany,Frankfurt,TRUE,FALSE,FALSE,16.06,3.68,EUR - Euro,4.3,18.75
+Germany,Cologne,TRUE,FALSE,FALSE,12.68,3.68,EUR - Euro,4.3,14.8
+Germany,Dresden,TRUE,FALSE,FALSE,17.13,3.68,EUR - Euro,4.3,20
+Germany,Frankfurt,TRUE,FALSE,FALSE,11.99,3.68,EUR - Euro,4.3,14
+Ireland,Dublin,TRUE,FALSE,FALSE,12.76,3.68,EUR - Euro,4.3,14.9
+Ireland,Sligo,TRUE,FALSE,FALSE,12.12,3.68,EUR - Euro,4.3,14.15
+Ireland,Dublin,FALSE,TRUE,FALSE,12.42,3.68,EUR - Euro,4.3,14.5
+Netherlands,Tilburg,TRUE,FALSE,FALSE,13.49,3.68,EUR - Euro,4.3,15.75
+Turkey,Çanakkale,FALSE,TRUE,FALSE,2.25,3.41,TRY - Turkish Lira,220,145
+USA,Fairfax,FALSE,TRUE,FALSE,11.85,3.67,USD - US dollar,4.95,16
+USA,Columbus,FALSE,TRUE,FALSE,9.26,3.67,USD - US dollar,4.95,12.5
+UK,Conwy,FALSE,FALSE,TRUE,13.5,3.7,GBP - Pound Sterling,3.7,13.5
+UK,Sevenoaks,FALSE,TRUE,FALSE,12.6,3.7,GBP - Pound Sterling,3.7,12.6
+UK,Bristol,TRUE,FALSE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,Brighton,TRUE,FALSE,FALSE,12.5,3.7,GBP - Pound Sterling,3.7,12.5
+UK,Dundee,TRUE,FALSE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Ambleside,FALSE,FALSE,TRUE,14,3.7,GBP - Pound Sterling,3.7,14
+UK,Manchester,TRUE,FALSE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Whitley Bay,TRUE,FALSE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Alsager,FALSE,TRUE,FALSE,12,3.7,GBP - Pound Sterling,3.7,12
+UK,Watford,TRUE,FALSE,FALSE,13.5,3.7,GBP - Pound Sterling,3.7,13.5
+UK,Bristol,FALSE,TRUE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Newcastle,TRUE,FALSE,FALSE,12,3.7,GBP - Pound Sterling,3.7,12
+UK,Sheffield,FALSE,TRUE,FALSE,12.45,3.7,GBP - Pound Sterling,3.7,12.450000000000001
+UK,Aberdeen,FALSE,FALSE,TRUE,12.25,3.7,GBP - Pound Sterling,3.7,12.25
+UK,Bristol,FALSE,TRUE,FALSE,13.5,3.7,GBP - Pound Sterling,3.7,13.5
+UK,Belfast,TRUE,FALSE,FALSE,12.6,3.7,GBP - Pound Sterling,3.7,12.6
+UK,Exeter,TRUE,FALSE,FALSE,13.25,3.7,GBP - Pound Sterling,3.7,13.25
+UK,NA,FALSE,FALSE,TRUE,15,3.7,GBP - Pound Sterling,3.7,15
+UK,London,TRUE,FALSE,FALSE,13.7,3.7,GBP - Pound Sterling,3.7,13.7
+UK,London,TRUE,FALSE,FALSE,15.5,3.7,GBP - Pound Sterling,3.7,15.5
+UK,Winchester,TRUE,FALSE,FALSE,12.71,3.7,GBP - Pound Sterling,3.7,12.709999999999999
+UK,Newcastle Upon Tyne,TRUE,FALSE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,belfast,TRUE,FALSE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,NA,FALSE,FALSE,TRUE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,NA,FALSE,TRUE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Dorking,FALSE,TRUE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,Sheffield,TRUE,FALSE,FALSE,12.5,3.7,GBP - Pound Sterling,3.7,12.5
+UK,NA,FALSE,FALSE,TRUE,12.3,3.7,GBP - Pound Sterling,3.7,12.3
+UK,York,TRUE,FALSE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,Leeds,TRUE,FALSE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,Bristol,TRUE,FALSE,FALSE,13.5,3.7,GBP - Pound Sterling,3.7,13.5
+UK,Newcastle upon Tyne,FALSE,TRUE,FALSE,12.5,3.7,GBP - Pound Sterling,3.7,12.5
+UK,NA,FALSE,FALSE,TRUE,12.7,3.7,GBP - Pound Sterling,3.7,12.7
+UK,Oxford,TRUE,FALSE,FALSE,12.25,3.7,GBP - Pound Sterling,3.7,12.25
+UK,NA,TRUE,FALSE,FALSE,12.51,3.7,GBP - Pound Sterling,3.7,12.51
+UK,NA,FALSE,TRUE,FALSE,13.75,3.7,GBP - Pound Sterling,3.7,13.75
+UK,Reading,TRUE,FALSE,FALSE,12.21,3.7,GBP - Pound Sterling,3.7,12.209999999999999
+UK,Llandudno,FALSE,TRUE,FALSE,13.88,3.7,GBP - Pound Sterling,3.7,13.88
+UK,NA,FALSE,TRUE,FALSE,12.5,3.7,GBP - Pound Sterling,3.7,12.5
+UK,NA,FALSE,TRUE,FALSE,12.5,3.7,GBP - Pound Sterling,3.7,12.5
+UK,Surrey,FALSE,TRUE,FALSE,12.6,3.7,GBP - Pound Sterling,3.7,12.6
+UK,Isle of Wight,FALSE,FALSE,TRUE,12.49,3.7,GBP - Pound Sterling,3.7,12.49
+UK,Bristol,FALSE,TRUE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,London,TRUE,FALSE,FALSE,13,3.7,GBP - Pound Sterling,3.7,13
+UK,Edinburgh,TRUE,FALSE,FALSE,12.28,3.7,GBP - Pound Sterling,3.7,12.28
+UK,London,TRUE,FALSE,FALSE,13.5,3.7,GBP - Pound Sterling,3.7,13.5
+Norway,Oslo,TRUE,FALSE,FALSE,20.1,3.74,NOK - Norwegian Krone,48,258
+Norway,Oslo,TRUE,FALSE,FALSE,15.5,3.74,NOK - Norwegian Krone,48,199
+Norway,Oslo,TRUE,FALSE,FALSE,17.61,3.74,NOK - Norwegian Krone,48,226
+Norway,Oslo,TRUE,FALSE,FALSE,15.89,3.74,NOK - Norwegian Krone,48,204
+Greece,Athens,TRUE,FALSE,FALSE,4.8,3.64,EUR - Euro,4.25,5.6
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,3.64,EUR - Euro,4.25,15
+Netherlands,Enschede,FALSE,TRUE,FALSE,13.11,3.64,EUR - Euro,4.25,15.3
+Oman,Muscat,TRUE,FALSE,FALSE,1.29,3.64,OMR - Rial Omani,1.8900000000000001,0.6699999999999999
+USA,Atlanta,TRUE,FALSE,FALSE,12.22,3.63,USD - US dollar,4.9,16.5
+USA,Yemasse,FALSE,FALSE,TRUE,9.26,3.63,USD - US dollar,4.9,12.5
+USA,Indianapolis,TRUE,FALSE,FALSE,12.6,3.63,USD - US dollar,4.9,17
+USA,Anderson,FALSE,TRUE,FALSE,7.41,3.63,USD - US dollar,4.9,10
+USA,Santa Cruz,FALSE,TRUE,FALSE,12.52,3.63,USD - US dollar,4.9,16.9
+UK,Manchester,TRUE,FALSE,FALSE,12.46,3.65,GBP - Pound Sterling,3.65,12.46
+UK,NA,FALSE,TRUE,FALSE,12.6,3.65,GBP - Pound Sterling,3.65,12.6
+UK,NA,FALSE,TRUE,FALSE,13.53,3.65,GBP - Pound Sterling,3.65,13.53
+UK,North east Lincolnshire,FALSE,FALSE,TRUE,12.21,3.65,GBP - Pound Sterling,3.65,12.209999999999999
+UK,Glasgow,TRUE,FALSE,FALSE,12.93,3.65,GBP - Pound Sterling,3.65,12.93
+UK,Horsham,TRUE,FALSE,FALSE,12.21,3.65,GBP - Pound Sterling,3.65,12.209999999999999
+UK,NA,FALSE,FALSE,TRUE,12.45,3.65,GBP - Pound Sterling,3.65,12.450000000000001
+UK,NA,FALSE,FALSE,TRUE,13,3.65,GBP - Pound Sterling,3.65,13
+UK,Hamilton (Glasgow),TRUE,TRUE,FALSE,12.6,3.65,GBP - Pound Sterling,3.65,12.6
+UK,NA,FALSE,FALSE,TRUE,15,3.65,GBP - Pound Sterling,3.65,15
+Poland,Wrocław,TRUE,FALSE,FALSE,6.57,3.59,PLN - Zloty,18,33
+Poland,Kraków,FALSE,TRUE,FALSE,6.77,3.59,PLN - Zloty,18,34
+Poland,Kraków,TRUE,FALSE,FALSE,6.28,3.59,PLN - Zloty,18,31.5
+Poland,Kraków,TRUE,FALSE,FALSE,5.58,3.59,PLN - Zloty,18,28
+Poland,Kraków,TRUE,FALSE,FALSE,5.18,3.59,PLN - Zloty,18,26
+Poland,Warsaw,TRUE,FALSE,FALSE,5.98,3.59,PLN - Zloty,18,30
+Poland,Szczecin,TRUE,FALSE,FALSE,6.26,3.59,PLN - Zloty,18,31.4
+Poland,Warsaw,TRUE,FALSE,FALSE,6.26,3.59,PLN - Zloty,18,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,6.08,3.59,PLN - Zloty,18,30.5
+Poland,Warsaw,TRUE,FALSE,FALSE,7.17,3.59,PLN - Zloty,18,36
+Poland,NA,TRUE,FALSE,FALSE,6.18,3.59,PLN - Zloty,18,31
+Poland,Bielsko-Biała,FALSE,TRUE,FALSE,4.58,3.59,PLN - Zloty,18,23
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.18,3.59,PLN - Zloty,18,31
+Poland,Kraków,TRUE,FALSE,FALSE,5.38,3.59,PLN - Zloty,18,27
+Poland,Kraków,TRUE,FALSE,FALSE,6.26,3.59,PLN - Zloty,18,31.4
+USA,NA,FALSE,TRUE,FALSE,6.48,3.61,USD - US dollar,4.87,8.75
+USA,"Richardson, TX",FALSE,TRUE,FALSE,7.41,3.61,USD - US dollar,4.87,10
+Hungary,Budapest,TRUE,FALSE,FALSE,6.62,3.88,HUF - Forint,1640,2800
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,3.67,AUD - Australian Dollar,7,33
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,3.67,AUD - Australian Dollar,7,33
+France,Paris,TRUE,FALSE,FALSE,11.56,3.6,EUR - Euro,4.2,13.5
+Germany,Mannheim,TRUE,FALSE,FALSE,11.99,3.6,EUR - Euro,4.2,14
+Germany,Braunschweig,FALSE,TRUE,FALSE,12.85,3.6,EUR - Euro,4.2,15
+Germany,Osnabrück,TRUE,FALSE,FALSE,13.84,3.6,EUR - Euro,4.2,16.16
+Finland,Helsinki,FALSE,TRUE,FALSE,23.98,3.6,EUR - Euro,4.2,28
+France,Montpellier,TRUE,FALSE,FALSE,9.42,3.6,EUR - Euro,4.2,11
+Germany,Berlin,TRUE,FALSE,FALSE,11.91,3.6,EUR - Euro,4.2,13.9
+Germany,Rosenheim,TRUE,FALSE,FALSE,15.42,3.6,EUR - Euro,4.2,18
+Germany,Berlin,TRUE,FALSE,FALSE,11.14,3.6,EUR - Euro,4.2,13
+Germany,Berlin,TRUE,FALSE,FALSE,13.7,3.6,EUR - Euro,4.2,16
+Germany,Munich,TRUE,FALSE,FALSE,12.85,3.6,EUR - Euro,4.2,15
+Germany,NA,TRUE,FALSE,FALSE,11.14,3.6,EUR - Euro,4.2,13
+Germany,Düsseldorf,TRUE,FALSE,FALSE,11.91,3.6,EUR - Euro,4.2,13.9
+Portugal,Lisbon,TRUE,FALSE,FALSE,6.51,3.6,EUR - Euro,4.2,7.6
+Germany,Hannover,FALSE,TRUE,FALSE,10.66,3.6,EUR - Euro,4.2,12.450000000000001
+Germany,Cologne,TRUE,FALSE,FALSE,12.85,3.6,EUR - Euro,4.2,15
+Germany,Düsseldorf,TRUE,FALSE,FALSE,11.91,3.6,EUR - Euro,4.2,13.9
+Greece,Chania,FALSE,TRUE,FALSE,6,3.6,EUR - Euro,4.2,7
+Ireland,Dublin,TRUE,FALSE,FALSE,12.12,3.6,EUR - Euro,4.2,14.15
+Ireland,Dublin,TRUE,FALSE,FALSE,13.28,3.6,EUR - Euro,4.2,15.5
+Ireland,Dublin,TRUE,FALSE,FALSE,12.76,3.6,EUR - Euro,4.2,14.9
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,13.7,3.6,EUR - Euro,4.2,16
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,13.7,3.6,EUR - Euro,4.2,16
+Germany,Mannheim,TRUE,FALSE,FALSE,12.85,3.6,EUR - Euro,4.2,15
+Lithuania,Vilnius,TRUE,FALSE,FALSE,5.57,3.6,EUR - Euro,4.2,6.5
+Germany,Berlin,TRUE,FALSE,FALSE,13.28,3.6,EUR - Euro,4.2,15.5
+Germany,Karlsruhe,TRUE,FALSE,FALSE,11.14,3.6,EUR - Euro,4.2,13
+Netherlands,Den Haag,TRUE,FALSE,FALSE,10.28,3.6,EUR - Euro,4.2,12
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,13.7,3.6,EUR - Euro,4.2,16
+China,Kowloon Bay,TRUE,FALSE,FALSE,6.61,3.59,HKD - Hong Kong Dollar,38,70
+Canada,Ottawa,TRUE,FALSE,FALSE,8.48,3.54,CAD - Canadian Dollar,6.67,15.96
+USA,"Princeton, NJ",FALSE,TRUE,FALSE,11.85,3.59,USD - US dollar,4.85,16
+USA,St. Ives,TRUE,FALSE,FALSE,12.6,3.59,USD - US dollar,4.85,17
+USA,Dayton,FALSE,TRUE,FALSE,12.15,3.59,USD - US dollar,4.85,16.4
+USA,Pittsburgh,FALSE,TRUE,FALSE,8.15,3.59,USD - US dollar,4.85,11
+UK,Tynemouth,FALSE,TRUE,FALSE,11.25,3.6,GBP - Pound Sterling,3.6,11.25
+UK,NA,FALSE,TRUE,FALSE,12.71,3.6,GBP - Pound Sterling,3.6,12.709999999999999
+UK,Belfast,TRUE,FALSE,FALSE,11,3.6,GBP - Pound Sterling,3.6,11
+UK,Preston,FALSE,TRUE,FALSE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,NA,TRUE,FALSE,FALSE,12.6,3.6,GBP - Pound Sterling,3.6,12.6
+UK,Keswick,FALSE,FALSE,TRUE,13.13,3.6,GBP - Pound Sterling,3.6,13.129999999999999
+UK,London,TRUE,FALSE,FALSE,15.5,3.6,GBP - Pound Sterling,3.6,15.5
+UK,NA,FALSE,TRUE,FALSE,12.5,3.6,GBP - Pound Sterling,3.6,12.5
+UK,Sunderland,TRUE,FALSE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,"Yeovil, South Somerset",TRUE,FALSE,FALSE,12.4,3.6,GBP - Pound Sterling,3.6,12.4
+UK,Bristol,TRUE,FALSE,FALSE,13.75,3.6,GBP - Pound Sterling,3.6,13.75
+UK,Southend,FALSE,TRUE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Dundee,TRUE,FALSE,FALSE,12.71,3.6,GBP - Pound Sterling,3.6,12.709999999999999
+UK,Greater Manchester,FALSE,TRUE,FALSE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,London,TRUE,FALSE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Aberdeen,FALSE,TRUE,FALSE,12.75,3.6,GBP - Pound Sterling,3.6,12.75
+UK,Norwich,TRUE,FALSE,FALSE,14.5,3.6,GBP - Pound Sterling,3.6,14.5
+UK,Innerleithen,FALSE,FALSE,TRUE,13.2,3.6,GBP - Pound Sterling,3.6,13.2
+UK,Bristol,TRUE,FALSE,FALSE,12,3.6,GBP - Pound Sterling,3.6,12
+UK,Brighton,TRUE,FALSE,FALSE,14.5,3.6,GBP - Pound Sterling,3.6,14.5
+UK,Preston,TRUE,FALSE,FALSE,12.25,3.6,GBP - Pound Sterling,3.6,12.25
+UK,Bath,TRUE,FALSE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Belfast,TRUE,FALSE,FALSE,12.5,3.6,GBP - Pound Sterling,3.6,12.5
+UK,Liverpool,TRUE,FALSE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Belfast,FALSE,TRUE,FALSE,14,3.6,GBP - Pound Sterling,3.6,14
+UK,London,TRUE,FALSE,FALSE,11,3.6,GBP - Pound Sterling,3.6,11
+UK,Newcastle Upon Tyne,TRUE,FALSE,FALSE,12.5,3.6,GBP - Pound Sterling,3.6,12.5
+UK,NA,FALSE,TRUE,FALSE,12.5,3.6,GBP - Pound Sterling,3.6,12.5
+UK,Sheffield,FALSE,TRUE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Southampton,FALSE,TRUE,FALSE,12.2,3.6,GBP - Pound Sterling,3.6,12.2
+UK,Marlow,FALSE,TRUE,FALSE,13.5,3.6,GBP - Pound Sterling,3.6,13.5
+UK,Market Harborough,FALSE,TRUE,TRUE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,Margate,TRUE,FALSE,FALSE,13.5,3.6,GBP - Pound Sterling,3.6,13.5
+UK,Prestwich,FALSE,TRUE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Ayr,TRUE,FALSE,FALSE,12.21,3.6,GBP - Pound Sterling,3.6,12.209999999999999
+UK,Tonbridge,FALSE,TRUE,FALSE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,Newport,FALSE,FALSE,TRUE,10,3.6,GBP - Pound Sterling,3.6,10
+UK,NA,FALSE,TRUE,FALSE,13.85,3.6,GBP - Pound Sterling,3.6,13.850000000000001
+UK,Glasgow,TRUE,FALSE,FALSE,14.4,3.6,GBP - Pound Sterling,3.6,14.4
+UK,Newcastle upon Tyne,TRUE,FALSE,FALSE,13.5,3.6,GBP - Pound Sterling,3.6,13.5
+UK,Sheffield,TRUE,FALSE,FALSE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,NA,FALSE,FALSE,TRUE,13,3.6,GBP - Pound Sterling,3.6,13
+UK,London,TRUE,FALSE,FALSE,15,3.6,GBP - Pound Sterling,3.6,15
+Sweden,Lund,TRUE,FALSE,FALSE,11.34,3.52,SEK - Swedish Krona,45,145
+Sweden,Malmö,FALSE,TRUE,FALSE,15.25,3.52,SEK - Swedish Krona,45,195
+Sweden,Malmö,TRUE,FALSE,FALSE,15.49,3.52,SEK - Swedish Krona,45,198
+India,Hyderabad,TRUE,FALSE,FALSE,1.17,3.5,INR - Indian Rupee,450,150
+Israel,Tel Aviv,TRUE,FALSE,FALSE,9.89,3.71,ILS - New Israeli Sheqel,15,40
+Israel,Tel Aviv,TRUE,FALSE,FALSE,11.12,3.71,ILS - New Israeli Sheqel,15,45
+Israel,Tel Aviv,TRUE,FALSE,FALSE,12.36,3.71,ILS - New Israeli Sheqel,15,50
+Israel,Tel Aviv,TRUE,FALSE,FALSE,13.6,3.71,ILS - New Israeli Sheqel,15,55
+USA,Detroit,TRUE,FALSE,FALSE,14.08,3.53,USD - US dollar,4.7700000000000005,19
+USA,"Rochester, MI",FALSE,TRUE,FALSE,8.71,3.53,USD - US dollar,4.7700000000000005,11.75
+USA,Philadelphia,TRUE,TRUE,FALSE,17.78,3.53,USD - US dollar,4.7700000000000005,24
+USA,"Lexington, KY",TRUE,FALSE,FALSE,10.19,3.52,USD - US dollar,4.75,13.75
+USA,"Rochester Hills, MI",FALSE,TRUE,FALSE,12.97,3.52,USD - US dollar,4.75,17.5
+USA,Los Altos,FALSE,TRUE,FALSE,15.56,3.52,USD - US dollar,4.75,21
+USA,NA,TRUE,FALSE,FALSE,14.08,3.52,USD - US dollar,4.75,19
+USA,Washington DC,TRUE,FALSE,FALSE,15.93,3.52,USD - US dollar,4.75,21.5
+USA,"Austin, Texas",TRUE,FALSE,FALSE,10.37,3.52,USD - US dollar,4.75,14
+USA,Waco,FALSE,TRUE,FALSE,9.63,3.52,USD - US dollar,4.75,13
+USA,"Springdale, AR",FALSE,TRUE,FALSE,14.82,3.52,USD - US dollar,4.75,20
+USA,Austin,TRUE,FALSE,FALSE,11.11,3.52,USD - US dollar,4.75,15
+USA,Cincinnati,FALSE,TRUE,FALSE,16.67,3.52,USD - US dollar,4.75,22.5
+USA,Bannockburn,FALSE,TRUE,FALSE,10.37,3.52,USD - US dollar,4.75,14
+USA,Indianapolis,TRUE,FALSE,FALSE,11.11,3.52,USD - US dollar,4.75,15
+USA,"Portland, OR",TRUE,FALSE,FALSE,13.34,3.52,USD - US dollar,4.75,18
+USA,Southlake,FALSE,TRUE,FALSE,8.89,3.52,USD - US dollar,4.75,12
+USA,"Bellevue, WA",FALSE,TRUE,FALSE,12.69,3.52,USD - US dollar,4.75,17.130000000000003
+USA,"St. Petersburg, FL",FALSE,TRUE,FALSE,10.37,3.52,USD - US dollar,4.75,14
+USA,Dallas,TRUE,TRUE,FALSE,9.63,3.52,USD - US dollar,4.75,13
+USA,Hillsboro,TRUE,FALSE,FALSE,12.63,3.52,USD - US dollar,4.75,17.05
+USA,"Fort Worth, Texas",TRUE,FALSE,FALSE,7.41,3.52,USD - US dollar,4.75,10
+USA,Norman,TRUE,FALSE,FALSE,5.37,3.52,USD - US dollar,4.75,7.25
+USA,Raleigh,FALSE,TRUE,FALSE,11.91,3.52,USD - US dollar,4.75,16.07
+UK,NA,TRUE,FALSE,FALSE,12.54,3.55,GBP - Pound Sterling,3.55,12.54
+Ireland,Dublin,TRUE,FALSE,FALSE,20.56,3.51,EUR - Euro,4.1,24
+Austria,Graz,TRUE,FALSE,FALSE,10.03,3.51,EUR - Euro,4.1,11.709999999999999
+Austria,Vienna,TRUE,FALSE,FALSE,10.54,3.51,EUR - Euro,4.1,12.3
+Germany,Kiel,TRUE,TRUE,FALSE,12.85,3.51,EUR - Euro,4.1,15
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,3.51,EUR - Euro,4.1,15
+Germany,Kiel,TRUE,FALSE,FALSE,12.85,3.51,EUR - Euro,4.1,15
+Austria,Graz,TRUE,FALSE,FALSE,12.79,3.51,EUR - Euro,4.1,14.93
+Germany,Oldenburg,TRUE,FALSE,FALSE,11.91,3.51,EUR - Euro,4.1,13.9
+Germany,Bamberg,TRUE,FALSE,FALSE,11.91,3.51,EUR - Euro,4.1,13.9
+Ireland,Dublin,FALSE,TRUE,FALSE,14.13,3.51,EUR - Euro,4.1,16.5
+Ireland,Tullamore,TRUE,FALSE,FALSE,12.85,3.51,EUR - Euro,4.1,15
+Slovakia,Trenčín,TRUE,FALSE,FALSE,11.99,3.51,EUR - Euro,4.1,14
+Ireland,Dublin,TRUE,FALSE,FALSE,12.16,3.51,EUR - Euro,4.1,14.2
+Germany,Jena,TRUE,FALSE,FALSE,11.99,3.51,EUR - Euro,4.1,14
+Ireland,Galway,TRUE,FALSE,FALSE,17.13,3.51,EUR - Euro,4.1,20
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,12.6,3.51,EUR - Euro,4.1,14.709999999999999
+Netherlands,Amsterdam,TRUE,TRUE,FALSE,14.07,3.51,EUR - Euro,4.1,16.43
+Norway,Oslo,TRUE,FALSE,FALSE,13.71,3.58,NOK - Norwegian Krone,46,176
+Poland,Wrocław,TRUE,FALSE,FALSE,6.67,3.49,PLN - Zloty,17.5,33.5
+Poland,Toruń,TRUE,FALSE,FALSE,6.28,3.49,PLN - Zloty,17.5,31.5
+Poland,Warsaw,TRUE,FALSE,FALSE,6.26,3.49,PLN - Zloty,17.5,31.4
+Turkey,Çanakkale,TRUE,FALSE,FALSE,2.09,3.26,TRY - Turkish Lira,210,135
+Kuwait,Kuwait city,TRUE,FALSE,FALSE,12,3.48,KWD - Kuwaiti Dinar,1.45,5
+Costa Rica,San José,TRUE,FALSE,FALSE,4.9,3.6,CRC - Costa Rican Colon,2200,3000
+Costa Rica,"La Fortuna, San Carlos",FALSE,FALSE,TRUE,3.27,3.6,CRC - Costa Rican Colon,2200,2000
+Canada,Hamilton,FALSE,TRUE,FALSE,9.35,3.45,CAD - Canadian Dollar,6.5,17.6
+Canada,Victoria,TRUE,FALSE,FALSE,9.48,3.45,CAD - Canadian Dollar,6.5,17.85
+Canada,Hamilton,TRUE,FALSE,FALSE,8.13,3.45,CAD - Canadian Dollar,6.5,15.3
+Japan,Tokyo,TRUE,FALSE,FALSE,5.38,3.51,JPY - Yen,750,1150
+USA,"Houston, TX",TRUE,FALSE,FALSE,12.6,3.49,USD - US dollar,4.71,17
+USA,Lubbock,TRUE,FALSE,FALSE,15.56,3.49,USD - US dollar,4.71,21
+USA,Raleigh,TRUE,FALSE,FALSE,9.26,3.48,USD - US dollar,4.7,12.5
+USA,Atlanta,FALSE,TRUE,FALSE,8.89,3.48,USD - US dollar,4.7,12
+USA,Jacksonville,FALSE,TRUE,FALSE,11.11,3.47,USD - US dollar,4.6899999999999995,15
+Singapore,Singapore,TRUE,FALSE,FALSE,11.59,3.48,SGD - Singapore Dollar,6,20
+Singapore,Singapore,TRUE,FALSE,FALSE,14.48,3.48,SGD - Singapore Dollar,6,25
+Singapore,Singapore,TRUE,FALSE,FALSE,8.4,3.48,SGD - Singapore Dollar,6,14.5
+Singapore,Singapore,TRUE,TRUE,FALSE,11.59,3.48,SGD - Singapore Dollar,6,20
+Singapore,NA,TRUE,FALSE,FALSE,4.63,3.48,SGD - Singapore Dollar,6,8
+Oman,Muscat,TRUE,FALSE,FALSE,1.93,3.47,OMR - Rial Omani,1.8,1
+Oman,Muscat,TRUE,FALSE,FALSE,2.12,3.47,OMR - Rial Omani,1.8,1.1
+UK,Glasgow,TRUE,FALSE,FALSE,13.5,3.5,GBP - Pound Sterling,3.5,13.5
+UK,Newcastle upon Tyne,TRUE,FALSE,FALSE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,Gorleston,FALSE,TRUE,FALSE,13.75,3.5,GBP - Pound Sterling,3.5,13.75
+UK,Exeter,TRUE,TRUE,FALSE,20,3.5,GBP - Pound Sterling,3.5,20
+UK,NA,FALSE,FALSE,TRUE,12.22,3.5,GBP - Pound Sterling,3.5,12.219999999999999
+UK,Glasgow,TRUE,FALSE,FALSE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Sheffield,FALSE,TRUE,FALSE,12.32,3.5,GBP - Pound Sterling,3.5,12.32
+UK,Nailsea,FALSE,TRUE,FALSE,12.8,3.5,GBP - Pound Sterling,3.5,12.8
+UK,Brighton,TRUE,FALSE,FALSE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Anglesey,FALSE,FALSE,TRUE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Northampton,TRUE,FALSE,FALSE,15,3.5,GBP - Pound Sterling,3.5,15
+UK,NA,TRUE,FALSE,FALSE,15,3.5,GBP - Pound Sterling,3.5,15
+UK,Edinburgh,TRUE,FALSE,FALSE,13.6,3.5,GBP - Pound Sterling,3.5,13.6
+UK,Edinburgh,TRUE,FALSE,FALSE,13.6,3.5,GBP - Pound Sterling,3.5,13.6
+UK,Trowbridge,FALSE,TRUE,FALSE,14,3.5,GBP - Pound Sterling,3.5,14
+UK,London,TRUE,TRUE,FALSE,15,3.5,GBP - Pound Sterling,3.5,15
+UK,Hertford,FALSE,TRUE,FALSE,13,3.5,GBP - Pound Sterling,3.5,13
+UK,Manchester,FALSE,TRUE,FALSE,12.51,3.5,GBP - Pound Sterling,3.5,12.51
+UK,Manchester,TRUE,FALSE,FALSE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,London,FALSE,TRUE,FALSE,16,3.5,GBP - Pound Sterling,3.5,16
+UK,NA,FALSE,FALSE,TRUE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,Halifax,TRUE,FALSE,FALSE,14,3.5,GBP - Pound Sterling,3.5,14
+UK,Cheltenham,FALSE,TRUE,FALSE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,London,TRUE,FALSE,FALSE,14.85,3.5,GBP - Pound Sterling,3.5,14.850000000000001
+UK,"Bigton, Shetland",FALSE,FALSE,TRUE,13.5,3.5,GBP - Pound Sterling,3.5,13.5
+UK,Salford,FALSE,TRUE,FALSE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,Brighton,FALSE,TRUE,FALSE,12.6,3.5,GBP - Pound Sterling,3.5,12.6
+UK,NA,FALSE,FALSE,TRUE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,Leamington Spa,FALSE,TRUE,FALSE,12.9,3.5,GBP - Pound Sterling,3.5,12.9
+UK,Isle of Arran,FALSE,FALSE,TRUE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Belfast,TRUE,FALSE,FALSE,13,3.5,GBP - Pound Sterling,3.5,13
+UK,Swansea,FALSE,TRUE,FALSE,13.5,3.5,GBP - Pound Sterling,3.5,13.5
+UK,Cardiff,TRUE,FALSE,FALSE,13.45,3.5,GBP - Pound Sterling,3.5,13.450000000000001
+UK,Norwich,TRUE,FALSE,FALSE,13,3.5,GBP - Pound Sterling,3.5,13
+UK,Lincoln,TRUE,FALSE,FALSE,13,3.5,GBP - Pound Sterling,3.5,13
+UK,Swansea,FALSE,TRUE,FALSE,11,3.5,GBP - Pound Sterling,3.5,11
+UK,Congleton,FALSE,TRUE,FALSE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Nottingham,TRUE,FALSE,FALSE,13.44,3.5,GBP - Pound Sterling,3.5,13.44
+UK,Oxford,TRUE,FALSE,FALSE,12.5,3.5,GBP - Pound Sterling,3.5,12.5
+UK,Edinburgh,FALSE,FALSE,TRUE,12.21,3.5,GBP - Pound Sterling,3.5,12.209999999999999
+UK,NA,FALSE,FALSE,TRUE,13.1,3.5,GBP - Pound Sterling,3.5,13.1
+UK,Bristol,TRUE,FALSE,FALSE,10.4,3.5,GBP - Pound Sterling,3.5,10.4
+UK,London,TRUE,FALSE,FALSE,13,3.5,GBP - Pound Sterling,3.5,13
+UK,Brighton,TRUE,FALSE,FALSE,12.6,3.5,GBP - Pound Sterling,3.5,12.6
+UK,NA,FALSE,FALSE,TRUE,15,3.5,GBP - Pound Sterling,3.5,15
+UK,NA,FALSE,FALSE,TRUE,10,3.5,GBP - Pound Sterling,3.5,10
+UK,Weybridge,TRUE,FALSE,FALSE,11,3.5,GBP - Pound Sterling,3.5,11
+UK,Edinburgh,TRUE,FALSE,FALSE,12.44,3.5,GBP - Pound Sterling,3.5,12.44
+USA,"Ocala, Florida",FALSE,TRUE,FALSE,11.3,3.47,USD - US dollar,4.68,15.25
+USA,Washington DC,FALSE,TRUE,FALSE,11.11,3.47,USD - US dollar,4.68,15
+USA,"Saint Paul, MN",TRUE,FALSE,FALSE,12.78,3.45,USD - US dollar,4.659999999999999,17.25
+USA,Cincinnati,FALSE,TRUE,FALSE,13.34,3.45,USD - US dollar,4.6499999999999995,18
+USA,"West Lafayette, IN",TRUE,FALSE,FALSE,11.3,3.45,USD - US dollar,4.6499999999999995,15.25
+USA,"Forest, VA",FALSE,TRUE,FALSE,9.26,3.45,USD - US dollar,4.6499999999999995,12.5
+USA,Santa Clarita,FALSE,TRUE,FALSE,14.89,3.45,USD - US dollar,4.6499999999999995,20.1
+USA,Oregon City,TRUE,FALSE,FALSE,16.95,3.45,USD - US dollar,4.6499999999999995,22.88
+USA,"Fayetteville, AR",FALSE,TRUE,FALSE,11.67,3.45,USD - US dollar,4.6499999999999995,15.75
+USA,Mineola,FALSE,TRUE,FALSE,17.91,3.45,USD - US dollar,4.6499999999999995,24.17
+Norway,Oslo,TRUE,FALSE,FALSE,14.02,3.51,NOK - Norwegian Krone,45,180
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,11.14,3.43,EUR - Euro,4,13
+Netherlands,Hilversum,TRUE,FALSE,FALSE,12.6,3.43,EUR - Euro,4,14.709999999999999
+Netherlands,The Hague,FALSE,TRUE,FALSE,21.41,3.43,EUR - Euro,4,25
+France,Bordeaux,TRUE,FALSE,FALSE,10.28,3.43,EUR - Euro,4,12
+France,Nantes,FALSE,TRUE,FALSE,29.98,3.43,EUR - Euro,4,35
+Germany,Rhede,FALSE,FALSE,TRUE,11.99,3.43,EUR - Euro,4,14
+Germany,Bielefeld,TRUE,FALSE,FALSE,17.99,3.43,EUR - Euro,4,21
+Greece,Chania,TRUE,FALSE,FALSE,6.85,3.43,EUR - Euro,4,8
+Ireland,NA,FALSE,TRUE,FALSE,12.42,3.43,EUR - Euro,4,14.5
+Netherlands,Amsterdam,FALSE,TRUE,FALSE,16.27,3.43,EUR - Euro,4,19
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,20.56,3.43,EUR - Euro,4,24
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,12.96,3.43,EUR - Euro,4,15.129999999999999
+Netherlands,Groningen,TRUE,FALSE,FALSE,12.33,3.43,EUR - Euro,4,14.4
+Austria,Vienna,TRUE,FALSE,FALSE,10.28,3.43,EUR - Euro,4,12
+Belgium,Antwerp,TRUE,FALSE,FALSE,12.85,3.43,EUR - Euro,4,15
+Belgium,Antwerp,TRUE,FALSE,FALSE,12.51,3.43,EUR - Euro,4,14.6
+Belgium,Ghent,TRUE,FALSE,FALSE,14.13,3.43,EUR - Euro,4,16.5
+Belgium,Brussels,TRUE,FALSE,FALSE,11.99,3.43,EUR - Euro,4,14
+Belgium,Antwerp,TRUE,FALSE,FALSE,14.73,3.43,EUR - Euro,4,17.2
+France,Lyon,TRUE,FALSE,FALSE,11.54,3.43,EUR - Euro,4,13.47
+France,NA,TRUE,FALSE,FALSE,15.42,3.43,EUR - Euro,4,18
+Germany,Hamburg,TRUE,FALSE,FALSE,15.42,3.43,EUR - Euro,4,18
+Germany,Oldenburg,TRUE,FALSE,FALSE,14.13,3.43,EUR - Euro,4,16.5
+Germany,Munich,TRUE,FALSE,FALSE,18.84,3.43,EUR - Euro,4,22
+Germany,Neu-Ulm,FALSE,TRUE,FALSE,21.41,3.43,EUR - Euro,4,25
+Germany,Neu-Ulm,FALSE,TRUE,FALSE,16.27,3.43,EUR - Euro,4,19
+Germany,Neu-Ulm,FALSE,TRUE,FALSE,11.99,3.43,EUR - Euro,4,14
+Germany,Mannheim,TRUE,FALSE,FALSE,11.14,3.43,EUR - Euro,4,13
+Germany,Hamburg,TRUE,FALSE,FALSE,16.27,3.43,EUR - Euro,4,19
+Germany,Hamburg,TRUE,FALSE,FALSE,13.7,3.43,EUR - Euro,4,16
+Germany,Esslingen,TRUE,FALSE,FALSE,11.91,3.43,EUR - Euro,4,13.9
+Germany,Leipzig,TRUE,FALSE,FALSE,11.91,3.43,EUR - Euro,4,13.9
+Germany,Bielefeld,TRUE,FALSE,FALSE,11.99,3.43,EUR - Euro,4,14
+Germany,Munchen,TRUE,FALSE,FALSE,12.85,3.43,EUR - Euro,4,15
+Greece,Corfu,TRUE,FALSE,FALSE,4.28,3.43,EUR - Euro,4,5
+Greece,NA,FALSE,TRUE,FALSE,5.57,3.43,EUR - Euro,4,6.5
+Greece,Nafplio,FALSE,FALSE,TRUE,4.28,3.43,EUR - Euro,4,5
+Ireland,Galway,TRUE,FALSE,FALSE,12.42,3.43,EUR - Euro,4,14.5
+Ireland,Limerick,TRUE,FALSE,FALSE,12.68,3.43,EUR - Euro,4,14.8
+Ireland,Galway,FALSE,TRUE,FALSE,11.14,3.43,EUR - Euro,4,13
+Ireland,Lahinch,FALSE,FALSE,TRUE,12.42,3.43,EUR - Euro,4,14.5
+Ireland,Dublin,TRUE,FALSE,FALSE,12.42,3.43,EUR - Euro,4,14.5
+Ireland,Cork,FALSE,TRUE,FALSE,12.85,3.43,EUR - Euro,4,15
+Ireland,Drogheda,FALSE,TRUE,FALSE,12.68,3.43,EUR - Euro,4,14.8
+Netherlands,Eindhoven,TRUE,FALSE,FALSE,16.31,3.43,EUR - Euro,4,19.04
+Netherlands,Delft,TRUE,FALSE,FALSE,13.7,3.43,EUR - Euro,4,16
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.46,3.43,EUR - Euro,4,14.55
+Netherlands,Den Haag,FALSE,TRUE,FALSE,12.85,3.43,EUR - Euro,4,15
+Netherlands,Amersfoort,TRUE,FALSE,FALSE,12.71,3.43,EUR - Euro,4,14.84
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,13.52,3.43,EUR - Euro,4,15.79
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.56,3.43,EUR - Euro,4,17
+Portugal,Porto,TRUE,FALSE,FALSE,4.5,3.43,EUR - Euro,4,5.25
+Portugal,Lisbon,FALSE,TRUE,FALSE,6.42,3.43,EUR - Euro,4,7.5
+Germany,Potsdam,TRUE,FALSE,FALSE,12.85,3.43,EUR - Euro,4,15
+Germany,Leipzig,TRUE,FALSE,FALSE,17.13,3.43,EUR - Euro,4,20
+Germany,Essen,TRUE,FALSE,FALSE,11.99,3.43,EUR - Euro,4,14
+UK,Newcastle,TRUE,FALSE,FALSE,13.7,3.45,GBP - Pound Sterling,3.4499999999999997,13.7
+UK,Cardiff,TRUE,FALSE,FALSE,14.25,3.45,GBP - Pound Sterling,3.4499999999999997,14.25
+UK,Stockport,FALSE,TRUE,FALSE,10.5,3.45,GBP - Pound Sterling,3.4499999999999997,10.5
+USA,"Boise, ID",TRUE,FALSE,FALSE,11.11,3.42,USD - US dollar,4.609999999999999,15
+Canada,NA,FALSE,FALSE,TRUE,9.56,3.36,CAD - Canadian Dollar,6.33,18
+Poland,Kraków,TRUE,FALSE,FALSE,6.26,3.39,PLN - Zloty,17,31.4
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.26,3.39,PLN - Zloty,17,31.4
+Poland,Warsaw,TRUE,FALSE,FALSE,6.26,3.39,PLN - Zloty,17,31.4
+Poland,Gdańsk,TRUE,FALSE,FALSE,7.07,3.39,PLN - Zloty,17,35.5
+Poland,Wrocław,TRUE,FALSE,FALSE,6.26,3.39,PLN - Zloty,17,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,5.78,3.39,PLN - Zloty,17,29
+Poland,NA,TRUE,FALSE,FALSE,6.48,3.39,PLN - Zloty,17,32.5
+Poland,Warsaw,TRUE,FALSE,FALSE,5.98,3.39,PLN - Zloty,17,30
+Poland,Warsaw,TRUE,FALSE,FALSE,7.77,3.39,PLN - Zloty,17,39
+Poland,Warsaw,TRUE,FALSE,FALSE,7.97,3.39,PLN - Zloty,17,40
+USA,Pittsburgh,TRUE,FALSE,FALSE,13.34,3.41,USD - US dollar,4.6,18
+USA,"Waco, Texas",TRUE,FALSE,FALSE,7.04,3.41,USD - US dollar,4.6,9.5
+USA,"Newburgh, New York",TRUE,FALSE,FALSE,12.6,3.41,USD - US dollar,4.6,17
+USA,"Fort Collins, CO",TRUE,FALSE,FALSE,9,3.4,USD - US dollar,4.59,12.15
+Iraq,Erbil,TRUE,FALSE,FALSE,2.01,3.41,IQD - Iraqi Dinar,6000,3540
+USA,"Poplar Bluff, MO",FALSE,FALSE,TRUE,14.26,3.39,USD - US dollar,4.58,19.25
+USA,"Poplar Bluff, MO",FALSE,FALSE,TRUE,14.26,3.39,USD - US dollar,4.58,19.25
+Maldives,Malé,TRUE,FALSE,FALSE,2.88,3.4,MVR - Rufiyaa,70.8,60
+Poland,Warsaw,TRUE,FALSE,FALSE,6.67,3.37,PLN - Zloty,16.9,33.5
+Netherlands,Heemstede,FALSE,TRUE,FALSE,12.85,3.38,EUR - Euro,3.9499999999999997,15
+Ireland,Dublin,FALSE,TRUE,FALSE,12.12,3.38,EUR - Euro,3.9499999999999997,14.15
+USA,"Greenwood, sc",FALSE,FALSE,TRUE,5.37,3.38,USD - US dollar,4.56,7.25
+USA,NA,FALSE,TRUE,FALSE,11.3,3.37,USD - US dollar,4.55,15.25
+UK,Edinburgh,TRUE,FALSE,FALSE,12.9,3.4,GBP - Pound Sterling,3.4,12.9
+UK,Brighton and Hove,TRUE,FALSE,FALSE,13,3.4,GBP - Pound Sterling,3.4,13
+UK,Liverpool,TRUE,FALSE,FALSE,12.6,3.4,GBP - Pound Sterling,3.4,12.6
+UK,NA,FALSE,FALSE,TRUE,12.21,3.4,GBP - Pound Sterling,3.4,12.209999999999999
+UK,NA,FALSE,FALSE,TRUE,13.5,3.4,GBP - Pound Sterling,3.4,13.5
+UK,Bournemouth,TRUE,FALSE,FALSE,13,3.4,GBP - Pound Sterling,3.4,13
+UK,Birmingham,TRUE,FALSE,FALSE,13.5,3.4,GBP - Pound Sterling,3.4,13.5
+UK,Bolton,TRUE,FALSE,FALSE,12.25,3.4,GBP - Pound Sterling,3.4,12.25
+UK,Manchester,TRUE,FALSE,FALSE,13.77,3.4,GBP - Pound Sterling,3.4,13.77
+UK,Newcastle,TRUE,FALSE,FALSE,12.21,3.4,GBP - Pound Sterling,3.4,12.209999999999999
+UK,Newcastle,TRUE,FALSE,FALSE,12.41,3.4,GBP - Pound Sterling,3.4,12.41
+UK,Bristol,TRUE,FALSE,FALSE,13,3.4,GBP - Pound Sterling,3.4,13
+UK,NA,FALSE,FALSE,TRUE,12.75,3.4,GBP - Pound Sterling,3.4,12.75
+UK,NA,TRUE,FALSE,FALSE,12.21,3.4,GBP - Pound Sterling,3.4,12.209999999999999
+Romania,Bucharest,TRUE,FALSE,FALSE,4.72,3.27,RON - Romanian Leu,20,28.85
+USA,Knoxville,FALSE,TRUE,FALSE,8.15,3.36,USD - US dollar,4.54,11
+UK,Glasgow,TRUE,FALSE,FALSE,12.25,3.39,GBP - Pound Sterling,3.3899999999999997,12.25
+USA,Montclair,TRUE,FALSE,FALSE,11.85,3.36,USD - US dollar,4.53,16
+Australia,Canberra,TRUE,FALSE,FALSE,16.92,3.4,AUD - Australian Dollar,6.5,32.309999999999995
+Australia,Ballarat,TRUE,FALSE,FALSE,15.71,3.4,AUD - Australian Dollar,6.5,30
+Australia,Uluru,FALSE,FALSE,TRUE,16.24,3.4,AUD - Australian Dollar,6.5,31
+Australia,Melbourne,FALSE,TRUE,FALSE,16.76,3.4,AUD - Australian Dollar,6.5,32
+Australia,Sydney,FALSE,TRUE,FALSE,18.85,3.4,AUD - Australian Dollar,6.5,36
+Australia,Melbourne,TRUE,FALSE,FALSE,18.33,3.4,AUD - Australian Dollar,6.5,35
+Germany,NA,TRUE,FALSE,FALSE,12.85,3.34,EUR - Euro,3.9,15
+Germany,Landsberg am Lech,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Düsseldorf,TRUE,TRUE,FALSE,11.91,3.34,EUR - Euro,3.9,13.9
+Germany,Würzburg,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Bremen,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Jena,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Ireland,NA,FALSE,FALSE,TRUE,12.63,3.34,EUR - Euro,3.9,14.75
+Belgium,Antwerp,TRUE,FALSE,FALSE,12.85,3.34,EUR - Euro,3.9,15
+Finland,Mikkeli,TRUE,FALSE,FALSE,13.36,3.34,EUR - Euro,3.9,15.6
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Munich,TRUE,FALSE,FALSE,19.7,3.34,EUR - Euro,3.9,23
+Germany,Regensburg,TRUE,FALSE,FALSE,12.85,3.34,EUR - Euro,3.9,15
+Germany,Hamburg,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Coburg,TRUE,FALSE,FALSE,11.91,3.34,EUR - Euro,3.9,13.9
+Ireland,NA,FALSE,FALSE,TRUE,12.42,3.34,EUR - Euro,3.9,14.5
+Ireland,Dublin,TRUE,FALSE,FALSE,14.56,3.34,EUR - Euro,3.9,17
+Ireland,NA,FALSE,TRUE,FALSE,13.28,3.34,EUR - Euro,3.9,15.5
+Austria,Vienna,TRUE,FALSE,FALSE,9.08,3.34,EUR - Euro,3.9,10.6
+Austria,Vienna,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Belgium,Ghent,TRUE,FALSE,FALSE,14.46,3.34,EUR - Euro,3.9,16.88
+Belgium,NA,TRUE,FALSE,FALSE,16.7,3.34,EUR - Euro,3.9,19.5
+France,Lyon,TRUE,FALSE,FALSE,11.14,3.34,EUR - Euro,3.9,13
+Germany,Oldenburg,TRUE,FALSE,FALSE,11.91,3.34,EUR - Euro,3.9,13.9
+Germany,NA,TRUE,FALSE,FALSE,13.7,3.34,EUR - Euro,3.9,16
+Germany,Cologne,TRUE,FALSE,FALSE,11.91,3.34,EUR - Euro,3.9,13.9
+Germany,Karlsruhe,TRUE,FALSE,FALSE,13.28,3.34,EUR - Euro,3.9,15.5
+Germany,Munich,TRUE,FALSE,FALSE,13.7,3.34,EUR - Euro,3.9,16
+Germany,Karlsruhe,FALSE,FALSE,TRUE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Münster,TRUE,FALSE,FALSE,12.17,3.34,EUR - Euro,3.9,14.209999999999999
+Germany,Munich,TRUE,FALSE,FALSE,15.42,3.34,EUR - Euro,3.9,18
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Saarbrücken,TRUE,FALSE,FALSE,13.7,3.34,EUR - Euro,3.9,16
+Germany,Giessen,TRUE,FALSE,FALSE,14.56,3.34,EUR - Euro,3.9,17
+Germany,Erfurt,TRUE,FALSE,FALSE,13.12,3.34,EUR - Euro,3.9,15.32
+Ireland,Galway,FALSE,TRUE,FALSE,12.63,3.34,EUR - Euro,3.9,14.75
+Netherlands,Rotterdam,TRUE,FALSE,FALSE,15.09,3.34,EUR - Euro,3.9,17.62
+Netherlands,Maastricht,TRUE,FALSE,FALSE,12.33,3.34,EUR - Euro,3.9,14.4
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.56,3.34,EUR - Euro,3.9,17
+Germany,Freiburg,TRUE,FALSE,FALSE,12.42,3.34,EUR - Euro,3.9,14.5
+Germany,Karlsruhe,TRUE,FALSE,FALSE,11.91,3.34,EUR - Euro,3.9,13.9
+Germany,Jena,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Hamburg,TRUE,FALSE,FALSE,12.85,3.34,EUR - Euro,3.9,15
+Germany,Freiburg im Breisgau,TRUE,FALSE,FALSE,11.56,3.34,EUR - Euro,3.9,13.5
+Germany,Überlingen,FALSE,FALSE,TRUE,15.42,3.34,EUR - Euro,3.9,18
+Germany,Hamburg,TRUE,FALSE,FALSE,18.84,3.34,EUR - Euro,3.9,22
+Germany,Hamburg,TRUE,FALSE,FALSE,15.42,3.34,EUR - Euro,3.9,18
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.34,EUR - Euro,3.9,14
+Germany,Hamburg,TRUE,FALSE,FALSE,17.13,3.34,EUR - Euro,3.9,20
+Ireland,Castlebar,FALSE,TRUE,FALSE,13.7,3.34,EUR - Euro,3.9,16
+Latvia,Riga,TRUE,FALSE,FALSE,3.85,3.34,EUR - Euro,3.9,4.5
+Netherlands,Maastricht,TRUE,FALSE,FALSE,12.33,3.34,EUR - Euro,3.9,14.4
+Hungary,Budapest,TRUE,FALSE,FALSE,8.51,3.59,HUF - Forint,1520,3600
+USA,Washington DC,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,"Austin, Texas",TRUE,FALSE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,DC,TRUE,FALSE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,Cypress,FALSE,TRUE,FALSE,8.89,3.33,USD - US dollar,4.5,12
+USA,"Pittsburgh, Pennsylvania",TRUE,FALSE,FALSE,11.85,3.33,USD - US dollar,4.5,16
+USA,Phoenixville,FALSE,TRUE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,Redlands,FALSE,TRUE,FALSE,14.82,3.33,USD - US dollar,4.5,20
+USA,Hayfork,FALSE,FALSE,TRUE,12.52,3.33,USD - US dollar,4.5,16.9
+USA,Minneapolis,TRUE,FALSE,FALSE,11.83,3.33,USD - US dollar,4.5,15.97
+USA,Rockland,FALSE,TRUE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,"Omaha, Nebraska",FALSE,TRUE,FALSE,14.63,3.33,USD - US dollar,4.5,19.75
+USA,"Carmel, Indiana",FALSE,TRUE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,Brownsville,FALSE,TRUE,FALSE,6.67,3.33,USD - US dollar,4.5,9
+USA,NA,FALSE,FALSE,TRUE,12.97,3.33,USD - US dollar,4.5,17.5
+USA,NA,TRUE,FALSE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,Atlanta,FALSE,TRUE,FALSE,8.89,3.33,USD - US dollar,4.5,12
+USA,Greenville,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,Alpharetta,TRUE,FALSE,FALSE,14.82,3.33,USD - US dollar,4.5,20
+USA,Rochester,FALSE,TRUE,FALSE,13.71,3.33,USD - US dollar,4.5,18.5
+USA,San Francisco,TRUE,FALSE,FALSE,17.78,3.33,USD - US dollar,4.5,24
+USA,Salt Lake City,TRUE,FALSE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,Seattle,TRUE,FALSE,FALSE,17.04,3.33,USD - US dollar,4.5,23
+USA,Indianapolis,FALSE,TRUE,FALSE,19.26,3.33,USD - US dollar,4.5,26
+USA,"Long Branch, NJ",FALSE,TRUE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,Milwaukee,TRUE,FALSE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,Phoenix,FALSE,TRUE,FALSE,12.04,3.33,USD - US dollar,4.5,16.25
+USA,Austin,TRUE,FALSE,FALSE,8.71,3.33,USD - US dollar,4.5,11.75
+USA,"Lafayette, LA",TRUE,FALSE,FALSE,7.41,3.33,USD - US dollar,4.5,10
+USA,New Hampshire,FALSE,FALSE,TRUE,11.11,3.33,USD - US dollar,4.5,15
+USA,"Houston, TX",TRUE,FALSE,FALSE,8.89,3.33,USD - US dollar,4.5,12
+USA,"Richmond, VA",TRUE,FALSE,FALSE,14.08,3.33,USD - US dollar,4.5,19
+USA,Madison,TRUE,FALSE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,"St. Louis, MO",FALSE,TRUE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,San Diego California,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,Fort Worth,FALSE,TRUE,FALSE,10.37,3.33,USD - US dollar,4.5,14
+USA,"Gainesville, FL",FALSE,TRUE,FALSE,8.15,3.33,USD - US dollar,4.5,11
+USA,"Missoula, MT",FALSE,TRUE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,"Sawyer, MI",FALSE,FALSE,TRUE,8.89,3.33,USD - US dollar,4.5,12
+USA,"Nashville, TN",TRUE,FALSE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,Kokomo,FALSE,TRUE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,NA,FALSE,FALSE,TRUE,7.78,3.33,USD - US dollar,4.5,10.5
+USA,"Naugatuck, CT",FALSE,TRUE,FALSE,12.11,3.33,USD - US dollar,4.5,16.35
+USA,Milwaukee,TRUE,FALSE,FALSE,10.37,3.33,USD - US dollar,4.5,14
+USA,Dallas,TRUE,FALSE,FALSE,8.89,3.33,USD - US dollar,4.5,12
+USA,"Bismarck, ND",TRUE,FALSE,FALSE,9.26,3.33,USD - US dollar,4.5,12.5
+USA,Chicago,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,Austin,TRUE,FALSE,FALSE,7.41,3.33,USD - US dollar,4.5,10
+USA,"Milwaukee, WI",TRUE,FALSE,FALSE,8.89,3.33,USD - US dollar,4.5,12
+USA,"Portland, OR",TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,San Luis Obispo,TRUE,FALSE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,Duluth MN,TRUE,FALSE,FALSE,10.21,3.33,USD - US dollar,4.5,13.78
+USA,"Columbus, OH",TRUE,FALSE,FALSE,9.26,3.33,USD - US dollar,4.5,12.5
+USA,"Lexington, KY",TRUE,FALSE,FALSE,13.89,3.33,USD - US dollar,4.5,18.75
+USA,"Madison, WI",TRUE,FALSE,FALSE,15.56,3.33,USD - US dollar,4.5,21
+USA,Mission Viejo,FALSE,TRUE,FALSE,14.82,3.33,USD - US dollar,4.5,20
+USA,Minneapolis,TRUE,FALSE,FALSE,15.56,3.33,USD - US dollar,4.5,21
+USA,"Portland, OR",TRUE,FALSE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,"Uniontown, OH",FALSE,TRUE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,"Denver, CO",FALSE,TRUE,FALSE,20.74,3.33,USD - US dollar,4.5,28
+USA,"Athens, GA",FALSE,TRUE,FALSE,5.56,3.33,USD - US dollar,4.5,7.5
+USA,Omaha,TRUE,FALSE,FALSE,9.63,3.33,USD - US dollar,4.5,13
+USA,"Waitsburg, WA",FALSE,FALSE,TRUE,12.97,3.33,USD - US dollar,4.5,17.5
+USA,Orlando,TRUE,FALSE,FALSE,10.37,3.33,USD - US dollar,4.5,14
+USA,Kansas City,TRUE,FALSE,FALSE,17.78,3.33,USD - US dollar,4.5,24
+USA,Orange County,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,Chicago,TRUE,FALSE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,San Francisco,TRUE,FALSE,FALSE,15.37,3.33,USD - US dollar,4.5,20.75
+USA,Knoxville,FALSE,TRUE,FALSE,9.08,3.33,USD - US dollar,4.5,12.25
+USA,"Arlington, VA",TRUE,FALSE,FALSE,17.41,3.33,USD - US dollar,4.5,23.5
+USA,Minneapolis,TRUE,FALSE,FALSE,17.04,3.33,USD - US dollar,4.5,23
+USA,"Arlington, VA",TRUE,FALSE,FALSE,11.85,3.33,USD - US dollar,4.5,16
+USA,Philadelphia,TRUE,FALSE,FALSE,10.37,3.33,USD - US dollar,4.5,14
+USA,"Gainesville, GA",FALSE,TRUE,FALSE,11.11,3.33,USD - US dollar,4.5,15
+USA,Pittsburgh,TRUE,FALSE,FALSE,8.15,3.33,USD - US dollar,4.5,11
+USA,"Portland, OR",FALSE,TRUE,FALSE,12.97,3.33,USD - US dollar,4.5,17.5
+USA,"Fort Collins, CO",FALSE,TRUE,FALSE,10,3.33,USD - US dollar,4.5,13.5
+USA,Bozeman,TRUE,FALSE,FALSE,10.37,3.33,USD - US dollar,4.5,14
+USA,Portland,TRUE,FALSE,FALSE,12.22,3.33,USD - US dollar,4.5,16.5
+USA,Albany NY,FALSE,TRUE,FALSE,14.82,3.33,USD - US dollar,4.5,20
+USA,Atlanta,TRUE,FALSE,FALSE,13.34,3.33,USD - US dollar,4.5,18
+USA,"Fairlee, VT",FALSE,FALSE,TRUE,11.85,3.33,USD - US dollar,4.5,16
+Czechia,Prague,TRUE,FALSE,FALSE,6,3.35,CZK - Czech Koruna,95,170
+Czechia,Prague,TRUE,FALSE,FALSE,7.77,3.35,CZK - Czech Koruna,95,220
+Sweden,Växjö,TRUE,FALSE,FALSE,12.36,3.29,SEK - Swedish Krona,42,158
+USA,"Wilmington, NC",TRUE,FALSE,FALSE,8.45,3.33,USD - US dollar,4.49,11.4
+UK,London,TRUE,FALSE,FALSE,10,3.35,GBP - Pound Sterling,3.3499999999999996,10
+UK,Liverpool,TRUE,FALSE,FALSE,10,3.35,GBP - Pound Sterling,3.3499999999999996,10
+Israel,Be'er Sheva,TRUE,FALSE,FALSE,9.39,3.46,ILS - New Israeli Sheqel,14,38
+Poland,Warsaw,TRUE,FALSE,FALSE,6.57,3.29,PLN - Zloty,16.5,33
+Ireland,Dublin,FALSE,TRUE,FALSE,13.29,3.3,EUR - Euro,3.8499999999999996,15.52
+Hungary,Budapest,TRUE,FALSE,FALSE,6.62,3.55,HUF - Forint,1500,2800
+Singapore,NA,TRUE,FALSE,FALSE,7.24,3.3,SGD - Singapore Dollar,5.7,12.5
+USA,Boston,TRUE,FALSE,FALSE,11.11,3.3,USD - US dollar,4.45,15
+USA,Milwaukee,TRUE,FALSE,FALSE,10.39,3.3,USD - US dollar,4.45,14.03
+USA,Milwaukee,TRUE,FALSE,FALSE,12.67,3.3,USD - US dollar,4.45,17.1
+USA,Columbus,FALSE,TRUE,FALSE,11.85,3.3,USD - US dollar,4.45,16
+Jamaica,Kingston,TRUE,FALSE,FALSE,2.34,3.28,JMD - Jamaican Dollar,700,500
+USA,Pooler,FALSE,TRUE,FALSE,9.45,3.29,USD - US dollar,4.44,12.75
+UK,Preston,FALSE,FALSE,TRUE,12.25,3.3,GBP - Pound Sterling,3.3,12.25
+UK,Brighton,TRUE,FALSE,FALSE,12.7,3.3,GBP - Pound Sterling,3.3,12.7
+UK,Newcastle,TRUE,FALSE,FALSE,12.51,3.3,GBP - Pound Sterling,3.3,12.51
+USA,"Atlanta, GA",TRUE,FALSE,FALSE,8.15,3.27,USD - US dollar,4.41,11
+Japan,Tokyo,FALSE,TRUE,FALSE,5.61,3.27,JPY - Yen,700,1200
+USA,Ann Arbor,TRUE,FALSE,FALSE,11.85,3.26,USD - US dollar,4.4,16
+USA,"Chaimpaign, Illinois",FALSE,TRUE,FALSE,15.56,3.26,USD - US dollar,4.4,21
+Ireland,NA,TRUE,FALSE,FALSE,12.85,3.25,EUR - Euro,3.8,15
+Latvia,Riga,TRUE,FALSE,FALSE,5.35,3.25,EUR - Euro,3.8,6.25
+Netherlands,Bergen op Zoom,TRUE,FALSE,FALSE,15.42,3.25,EUR - Euro,3.8,18
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.56,3.25,EUR - Euro,3.8,17
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Hamburg,TRUE,FALSE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Berlin,TRUE,FALSE,FALSE,13.7,3.25,EUR - Euro,3.8,16
+Germany,Münster,FALSE,TRUE,FALSE,11.91,3.25,EUR - Euro,3.8,13.9
+Germany,Cologne,TRUE,FALSE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Munich,TRUE,FALSE,FALSE,12.33,3.25,EUR - Euro,3.8,14.4
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.32,3.25,EUR - Euro,3.8,16.72
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.68,3.25,EUR - Euro,3.8,14.8
+Belgium,Ghent,TRUE,FALSE,FALSE,13.7,3.25,EUR - Euro,3.8,16
+Belgium,Antwerp,FALSE,TRUE,FALSE,12.85,3.25,EUR - Euro,3.8,15
+France,NA,FALSE,TRUE,FALSE,8.45,3.25,EUR - Euro,3.8,9.860000000000001
+Germany,Münster,TRUE,FALSE,FALSE,11.91,3.25,EUR - Euro,3.8,13.9
+Germany,Frankfurt,FALSE,TRUE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Munich,TRUE,FALSE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Munich,TRUE,FALSE,FALSE,17.13,3.25,EUR - Euro,3.8,20
+Germany,Berlin,TRUE,FALSE,FALSE,11.14,3.25,EUR - Euro,3.8,13
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.25,EUR - Euro,3.8,14
+Germany,Berlin,TRUE,FALSE,FALSE,13.28,3.25,EUR - Euro,3.8,15.5
+Germany,Leipzig,TRUE,FALSE,FALSE,12.42,3.25,EUR - Euro,3.8,14.5
+Germany,Berlin,TRUE,FALSE,FALSE,13.28,3.25,EUR - Euro,3.8,15.5
+Germany,Hamburg,FALSE,TRUE,FALSE,11.56,3.25,EUR - Euro,3.8,13.5
+Germany,Würzburg,TRUE,FALSE,FALSE,16.27,3.25,EUR - Euro,3.8,19
+Germany,Aachen,TRUE,FALSE,FALSE,11.91,3.25,EUR - Euro,3.8,13.9
+Germany,Heidelberg,TRUE,FALSE,FALSE,11.14,3.25,EUR - Euro,3.8,13
+Greece,Rhodes,FALSE,TRUE,FALSE,5.14,3.25,EUR - Euro,3.8,6
+Ireland,Cork,TRUE,FALSE,FALSE,12.42,3.25,EUR - Euro,3.8,14.5
+Ireland,NA,FALSE,FALSE,TRUE,14.13,3.25,EUR - Euro,3.8,16.5
+Ireland,NA,FALSE,TRUE,FALSE,13.49,3.25,EUR - Euro,3.8,15.75
+Netherlands,The Hague,TRUE,FALSE,FALSE,13.15,3.25,EUR - Euro,3.8,15.350000000000001
+Netherlands,Haarlem,TRUE,FALSE,FALSE,12.85,3.25,EUR - Euro,3.8,15
+Netherlands,NA,FALSE,TRUE,FALSE,12.81,3.25,EUR - Euro,3.8,14.950000000000001
+France,Anglet,TRUE,FALSE,FALSE,10.39,3.25,EUR - Euro,3.8,12.129999999999999
+Slovakia,Poprad,FALSE,TRUE,FALSE,7.71,3.25,EUR - Euro,3.8,9
+Canada,Calgary,TRUE,FALSE,FALSE,10.36,3.21,CAD - Canadian Dollar,6.04,19.5
+Canada,Sherbrooke,TRUE,FALSE,FALSE,10.62,3.19,CAD - Canadian Dollar,6,20
+Canada,Halifax,TRUE,FALSE,FALSE,9.66,3.19,CAD - Canadian Dollar,6,18.19
+Canada,Guelph,TRUE,FALSE,FALSE,9.43,3.19,CAD - Canadian Dollar,6,17.75
+Canada,Toronto,TRUE,FALSE,FALSE,13.28,3.19,CAD - Canadian Dollar,6,25
+Canada,Montréal,TRUE,FALSE,FALSE,9.3,3.19,CAD - Canadian Dollar,6,17.5
+Canada,Nova Scotia,FALSE,FALSE,TRUE,9.56,3.19,CAD - Canadian Dollar,6,18
+Chile,Talcahuano,TRUE,FALSE,FALSE,3.04,3.24,CLP - Chilean Peso,3990,3750
+USA,"Chandler, AZ",TRUE,FALSE,FALSE,11.85,3.22,USD - US dollar,4.35,16
+USA,Rock Hill,TRUE,FALSE,FALSE,9.08,3.22,USD - US dollar,4.35,12.25
+USA,Queen Creek,TRUE,FALSE,FALSE,13.34,3.22,USD - US dollar,4.35,18
+USA,"Greer, South Carolina",FALSE,TRUE,FALSE,14.85,3.22,USD - US dollar,4.35,20.05
+USA,Minneapolis,FALSE,TRUE,FALSE,21.49,3.22,USD - US dollar,4.35,29
+USA,"O'Fallon, Missouri",FALSE,TRUE,FALSE,11.94,3.22,USD - US dollar,4.35,16.110000000000003
+USA,Baton Rouge,FALSE,TRUE,FALSE,11.3,3.22,USD - US dollar,4.35,15.25
+USA,"Little Rock, Arkansas",FALSE,TRUE,FALSE,14.64,3.22,USD - US dollar,4.35,19.759999999999998
+USA,Phoenix,FALSE,TRUE,FALSE,12.04,3.22,USD - US dollar,4.35,16.25
+USA,Dallas,FALSE,TRUE,FALSE,14.08,3.22,USD - US dollar,4.35,19
+USA,"Winston-Salem, NC",FALSE,TRUE,FALSE,14.82,3.22,USD - US dollar,4.35,20
+USA,Lehi,FALSE,TRUE,FALSE,12.48,3.22,USD - US dollar,4.35,16.84
+UK,NA,TRUE,FALSE,FALSE,12.25,3.25,GBP - Pound Sterling,3.25,12.25
+USA,Salt Lake City,FALSE,TRUE,FALSE,8.89,3.22,USD - US dollar,4.34,12
+USA,"Nashville, TN",TRUE,FALSE,FALSE,12.66,3.22,USD - US dollar,4.34,17.09
+USA,Columbia MO,TRUE,FALSE,FALSE,10.19,3.22,USD - US dollar,4.34,13.75
+Netherlands,Sittard,TRUE,FALSE,FALSE,8.57,3.21,EUR - Euro,3.75,10
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.6,3.21,EUR - Euro,3.75,14.709999999999999
+Netherlands,Eindhoven,FALSE,TRUE,FALSE,12.33,3.21,EUR - Euro,3.75,14.4
+Netherlands,Elst,FALSE,TRUE,FALSE,12.6,3.21,EUR - Euro,3.75,14.709999999999999
+Netherlands,Rotterdam,FALSE,TRUE,FALSE,11.99,3.21,EUR - Euro,3.75,14
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.18,3.19,PLN - Zloty,16,31
+Poland,Kraków,TRUE,FALSE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,4.98,3.19,PLN - Zloty,16,25
+Poland,Poznań,TRUE,FALSE,FALSE,6.38,3.19,PLN - Zloty,16,32
+Poland,Warsaw,TRUE,FALSE,FALSE,6.38,3.19,PLN - Zloty,16,32
+Poland,Kraków,TRUE,FALSE,FALSE,6.06,3.19,PLN - Zloty,16,30.4
+Poland,Kolobrzeg,TRUE,FALSE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,6.18,3.19,PLN - Zloty,16,31
+Poland,Opole,FALSE,TRUE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,5.58,3.19,PLN - Zloty,16,28
+Poland,Gliwice,TRUE,FALSE,FALSE,4.98,3.19,PLN - Zloty,16,25
+Poland,Warsaw,TRUE,FALSE,FALSE,15.94,3.19,PLN - Zloty,16,80
+Poland,Wrocław,TRUE,FALSE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+Poland,Łódź,TRUE,FALSE,FALSE,6.26,3.19,PLN - Zloty,16,31.4
+USA,Peoria,TRUE,FALSE,FALSE,11.11,3.21,USD - US dollar,4.33,15
+USA,"Amarillo, TX",TRUE,FALSE,FALSE,11.85,3.21,USD - US dollar,4.33,16
+USA,Philadelphia,TRUE,FALSE,FALSE,6.85,3.2,USD - US dollar,4.319999999999999,9.25
+Canada,Toronto,TRUE,FALSE,FALSE,9.35,3.15,CAD - Canadian Dollar,5.930000000000001,17.6
+Poland,Żory,TRUE,TRUE,FALSE,6.08,3.17,PLN - Zloty,15.9,30.5
+USA,"Forest, VA",FALSE,TRUE,FALSE,11.11,3.19,USD - US dollar,4.3,15
+USA,"Tulsa, OK",TRUE,FALSE,FALSE,11.11,3.19,USD - US dollar,4.3,15
+Singapore,Singapore,TRUE,FALSE,FALSE,6.95,3.19,SGD - Singapore Dollar,5.5,12
+Singapore,NA,TRUE,FALSE,FALSE,8.11,3.19,SGD - Singapore Dollar,5.5,14
+Singapore,NA,TRUE,FALSE,FALSE,8.69,3.19,SGD - Singapore Dollar,5.5,15
+Singapore,Singapore,TRUE,FALSE,FALSE,4.63,3.19,SGD - Singapore Dollar,5.5,8
+Singapore,NA,TRUE,FALSE,FALSE,6.95,3.19,SGD - Singapore Dollar,5.5,12
+Argentina,Buenos Aires,TRUE,FALSE,FALSE,1.98,2.97,ARS - Argentine Peso,6000,4000
+USA,Lincoln,TRUE,FALSE,FALSE,9.63,3.18,USD - US dollar,4.29,13
+Germany,NA,FALSE,FALSE,TRUE,10.98,3.17,EUR - Euro,3.7,12.82
+Belgium,Brussels,TRUE,FALSE,FALSE,12.85,3.17,EUR - Euro,3.7,15
+Estonia,Tallinn,FALSE,TRUE,FALSE,6.85,3.17,EUR - Euro,3.7,8
+Germany,Berlin,TRUE,FALSE,FALSE,11.91,3.17,EUR - Euro,3.7,13.9
+Ireland,Cork,TRUE,FALSE,FALSE,12.08,3.17,EUR - Euro,3.7,14.1
+Germany,Cologne,TRUE,FALSE,FALSE,11.14,3.17,EUR - Euro,3.7,13
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,19.7,3.17,EUR - Euro,3.7,23
+Netherlands,Nijmegen,TRUE,FALSE,FALSE,12.81,3.17,EUR - Euro,3.7,14.950000000000001
+Netherlands,Utrecht,TRUE,FALSE,FALSE,12.6,3.17,EUR - Euro,3.7,14.709999999999999
+Germany,Cologne,TRUE,FALSE,FALSE,12.85,3.17,EUR - Euro,3.7,15
+Germany,NA,FALSE,TRUE,FALSE,11.99,3.17,EUR - Euro,3.7,14
+Netherlands,Amsterdam,FALSE,TRUE,FALSE,19.7,3.17,EUR - Euro,3.7,23
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,3.17,EUR - Euro,3.7,15
+USA,"Liberty, IN",FALSE,FALSE,TRUE,5.93,3.17,USD - US dollar,4.28,8
+UK,NA,FALSE,TRUE,FALSE,12.61,3.2,GBP - Pound Sterling,3.2,12.61
+UK,NA,FALSE,FALSE,TRUE,12.75,3.2,GBP - Pound Sterling,3.2,12.75
+UK,Liverpool,TRUE,FALSE,FALSE,13.45,3.2,GBP - Pound Sterling,3.2,13.450000000000001
+UK,"Poole, Dorset",FALSE,TRUE,FALSE,13,3.2,GBP - Pound Sterling,3.2,13
+UK,NA,FALSE,TRUE,FALSE,13.5,3.2,GBP - Pound Sterling,3.2,13.5
+UK,Birmingham,TRUE,FALSE,FALSE,12.4,3.2,GBP - Pound Sterling,3.2,12.4
+UK,Sunerland,TRUE,FALSE,FALSE,13,3.2,GBP - Pound Sterling,3.2,13
+Sweden,Lund,TRUE,FALSE,FALSE,14.08,3.13,SEK - Swedish Krona,40,180
+Czechia,Brno,TRUE,FALSE,FALSE,5.65,3.18,CZK - Czech Koruna,90,160
+USA,"Clarksville, Tennessee",FALSE,TRUE,FALSE,11.11,3.15,USD - US dollar,4.25,15
+USA,Charleston,FALSE,TRUE,FALSE,10,3.15,USD - US dollar,4.25,13.5
+USA,Winfield,FALSE,TRUE,FALSE,10,3.15,USD - US dollar,4.25,13.5
+USA,NA,FALSE,TRUE,FALSE,5.37,3.15,USD - US dollar,4.25,7.25
+USA,"Glendora, California",FALSE,TRUE,FALSE,14.45,3.15,USD - US dollar,4.25,19.5
+USA,San Antonio,TRUE,FALSE,FALSE,6.67,3.15,USD - US dollar,4.25,9
+USA,San Diego,TRUE,FALSE,FALSE,12.78,3.15,USD - US dollar,4.25,17.25
+USA,Fresno,FALSE,TRUE,FALSE,14.08,3.15,USD - US dollar,4.25,19
+USA,Albuquerque,TRUE,FALSE,FALSE,8.89,3.15,USD - US dollar,4.25,12
+USA,"Salem, Oregon",FALSE,TRUE,FALSE,11.15,3.15,USD - US dollar,4.25,15.05
+USA,"Lake Zurich, IL",FALSE,TRUE,FALSE,11.85,3.15,USD - US dollar,4.25,16
+USA,NA,FALSE,TRUE,FALSE,9.45,3.15,USD - US dollar,4.25,12.75
+USA,Belmont,FALSE,TRUE,FALSE,13.34,3.15,USD - US dollar,4.25,18
+USA,Ann Arbor,FALSE,TRUE,FALSE,15.56,3.15,USD - US dollar,4.25,21
+USA,Cincinnati,TRUE,FALSE,FALSE,12.6,3.15,USD - US dollar,4.25,17
+USA,"Newberg, Oregon",FALSE,TRUE,FALSE,12.04,3.15,USD - US dollar,4.25,16.25
+USA,Charlottesville,TRUE,FALSE,FALSE,7.41,3.15,USD - US dollar,4.25,10
+USA,Johns Creek,FALSE,TRUE,FALSE,8.15,3.15,USD - US dollar,4.25,11
+USA,"Iowa City, IA",TRUE,FALSE,FALSE,12.78,3.15,USD - US dollar,4.25,17.25
+USA,Delmar NY,FALSE,FALSE,TRUE,13.34,3.15,USD - US dollar,4.25,18
+USA,Jacksonville,FALSE,TRUE,FALSE,11.11,3.15,USD - US dollar,4.25,15
+USA,Cincinnati,TRUE,FALSE,FALSE,14.08,3.15,USD - US dollar,4.25,19
+USA,Tucson,TRUE,FALSE,FALSE,11.45,3.15,USD - US dollar,4.25,15.450000000000001
+USA,"Beverly, MA",FALSE,TRUE,FALSE,11.11,3.15,USD - US dollar,4.25,15
+USA,"Lafayette, LA",TRUE,FALSE,FALSE,7.04,3.15,USD - US dollar,4.25,9.5
+USA,NA,FALSE,TRUE,FALSE,15.93,3.15,USD - US dollar,4.25,21.5
+USA,Spruce Pine,FALSE,TRUE,TRUE,11.85,3.14,USD - US dollar,4.24,16
+USA,"Harrisburg, PA",TRUE,FALSE,FALSE,7.04,3.14,USD - US dollar,4.24,9.5
+Canada,Toronto,TRUE,FALSE,FALSE,9.93,3.08,CAD - Canadian Dollar,5.8,18.7
+UK,Bovey Tracey,FALSE,FALSE,TRUE,12.4,3.15,GBP - Pound Sterling,3.15,12.4
+UK,Cardiff,TRUE,FALSE,FALSE,12.21,3.15,GBP - Pound Sterling,3.15,12.209999999999999
+Canada,Vancouver,TRUE,FALSE,FALSE,10.86,3.07,CAD - Canadian Dollar,5.78,20.45
+USA,St. Louis,FALSE,TRUE,FALSE,13.71,3.11,USD - US dollar,4.2,18.5
+Mexico,Mérida,TRUE,FALSE,FALSE,1.73,3.24,MXN - Mexican Peso,75,40
+Mexico,México city,TRUE,FALSE,FALSE,1.7,3.24,MXN - Mexican Peso,75,39.3
+Canada,Toronto,TRUE,FALSE,FALSE,10.09,3.05,CAD - Canadian Dollar,5.75,19
+Canada,Montréal,TRUE,FALSE,FALSE,10.62,3.05,CAD - Canadian Dollar,5.75,20
+Canada,Edmonton,TRUE,FALSE,FALSE,7.97,3.05,CAD - Canadian Dollar,5.75,15
+Canada,Victoria,TRUE,FALSE,FALSE,9.48,3.05,CAD - Canadian Dollar,5.75,17.85
+Canada,Montréal,TRUE,FALSE,FALSE,10.09,3.05,CAD - Canadian Dollar,5.75,19
+Australia,Launceston,TRUE,FALSE,FALSE,17.54,3.14,AUD - Australian Dollar,6,33.5
+Australia,Katoomba,FALSE,TRUE,FALSE,16.76,3.14,AUD - Australian Dollar,6,32
+Australia,Canberra,TRUE,FALSE,FALSE,16.76,3.14,AUD - Australian Dollar,6,32
+Australia,Melbourne,FALSE,TRUE,FALSE,19.9,3.14,AUD - Australian Dollar,6,38
+Australia,Perth,TRUE,FALSE,FALSE,17.48,3.14,AUD - Australian Dollar,6,33.379999999999995
+Australia,Newcastle,TRUE,FALSE,FALSE,16.76,3.14,AUD - Australian Dollar,6,32
+Australia,Canberra,TRUE,FALSE,FALSE,13.54,3.14,AUD - Australian Dollar,6,25.85
+Australia,Katoomba,FALSE,FALSE,TRUE,13.54,3.14,AUD - Australian Dollar,6,25.85
+Australia,NA,TRUE,TRUE,FALSE,16.89,3.14,AUD - Australian Dollar,6,32.25
+Australia,Geelong,FALSE,TRUE,FALSE,16.4,3.14,AUD - Australian Dollar,6,31.32
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,3.14,AUD - Australian Dollar,6,33
+Australia,Melbourne,TRUE,FALSE,FALSE,18.07,3.14,AUD - Australian Dollar,6,34.5
+Australia,Melbourne,FALSE,TRUE,FALSE,16.92,3.14,AUD - Australian Dollar,6,32.309999999999995
+Australia,Melbourne,TRUE,FALSE,FALSE,14.66,3.14,AUD - Australian Dollar,6,28
+Australia,Melbourne,TRUE,FALSE,FALSE,13.62,3.14,AUD - Australian Dollar,6,26
+Australia,Melbourne,FALSE,TRUE,FALSE,13.9,3.14,AUD - Australian Dollar,6,26.55
+Australia,Melbourne,FALSE,TRUE,FALSE,18.59,3.14,AUD - Australian Dollar,6,35.5
+Australia,NA,FALSE,FALSE,TRUE,15.78,3.14,AUD - Australian Dollar,6,30.130000000000003
+Australia,Brisbane,TRUE,FALSE,FALSE,16.24,3.14,AUD - Australian Dollar,6,31
+Australia,Melbourne,TRUE,FALSE,FALSE,16.92,3.14,AUD - Australian Dollar,6,32.309999999999995
+Australia,Sydney,TRUE,FALSE,FALSE,17.81,3.14,AUD - Australian Dollar,6,34
+France,Strasbourg,TRUE,FALSE,FALSE,8.15,3.08,EUR - Euro,3.6,9.52
+Netherlands,Nijmegen,TRUE,FALSE,FALSE,12.51,3.08,EUR - Euro,3.6,14.6
+Germany,Bremen,TRUE,FALSE,FALSE,13.7,3.08,EUR - Euro,3.6,16
+Germany,Freiburg,TRUE,FALSE,FALSE,16.27,3.08,EUR - Euro,3.6,19
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.08,EUR - Euro,3.6,14
+Ireland,NA,FALSE,FALSE,TRUE,12.85,3.08,EUR - Euro,3.6,15
+Netherlands,The Hague,TRUE,FALSE,FALSE,15.16,3.08,EUR - Euro,3.6,17.7
+Germany,Berlin,TRUE,FALSE,FALSE,11.99,3.08,EUR - Euro,3.6,14
+Germany,Bonn,TRUE,FALSE,FALSE,11.14,3.08,EUR - Euro,3.6,13
+Germany,Trier,FALSE,TRUE,FALSE,11.99,3.08,EUR - Euro,3.6,14
+Germany,Bonn,TRUE,FALSE,FALSE,12.51,3.08,EUR - Euro,3.6,14.6
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,13.96,3.08,EUR - Euro,3.6,16.3
+Germany,Berlin,TRUE,FALSE,FALSE,14.56,3.08,EUR - Euro,3.6,17
+Netherlands,Groningen,TRUE,FALSE,FALSE,12.05,3.08,EUR - Euro,3.6,14.07
+Hungary,Budapest,TRUE,FALSE,FALSE,6.85,3.31,HUF - Forint,1400,2900
+Hungary,Budapest,TRUE,FALSE,FALSE,6.85,3.31,HUF - Forint,1400,2900
+Israel,NA,FALSE,FALSE,TRUE,9.89,3.21,ILS - New Israeli Sheqel,13,40
+Argentina,Ciudad Autónoma de Buenos Aires,TRUE,FALSE,FALSE,3.31,2.87,ARS - Argentine Peso,5800,6700
+USA,"Dallas, TX",TRUE,FALSE,FALSE,12.22,3.07,USD - US dollar,4.1499999999999995,16.5
+Chile,Santiago,TRUE,FALSE,FALSE,2.03,3.08,CLP - Chilean Peso,3800,2500
+Canada,Montréal,TRUE,FALSE,FALSE,9.03,3.03,CAD - Canadian Dollar,5.7,17
+Canada,Toronto,TRUE,FALSE,FALSE,10.2,3.03,CAD - Canadian Dollar,5.7,19.2
+UK,Aldershot,TRUE,FALSE,FALSE,14.42,3.1,GBP - Pound Sterling,3.1,14.42
+UK,Huddersfield,TRUE,FALSE,FALSE,13.5,3.1,GBP - Pound Sterling,3.1,13.5
+UK,Manchester,FALSE,TRUE,FALSE,13.5,3.1,GBP - Pound Sterling,3.1,13.5
+UK,Torquay,FALSE,TRUE,FALSE,12.21,3.1,GBP - Pound Sterling,3.1,12.209999999999999
+UK,NA,TRUE,FALSE,FALSE,12.5,3.1,GBP - Pound Sterling,3.1,12.5
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.99,2.97,MYR - Malaysian Ringgit,16.4,11
+Singapore,NA,TRUE,FALSE,FALSE,6.95,3.07,SGD - Singapore Dollar,5.3,12
+Canada,Toronto,TRUE,FALSE,FALSE,9.56,3.02,CAD - Canadian Dollar,5.6899999999999995,18
+USA,Ellensburg,FALSE,TRUE,FALSE,13.2,3.05,USD - US dollar,4.119999999999999,17.810000000000002
+Canada,Toronto,TRUE,FALSE,FALSE,9.35,3,CAD - Canadian Dollar,5.6499999999999995,17.6
+Canada,Toronto,TRUE,FALSE,FALSE,11.16,3,CAD - Canadian Dollar,5.6499999999999995,21
+Cyprus,Larnaca,TRUE,FALSE,FALSE,4.07,3.04,EUR - Euro,3.55,4.75
+USA,"Hillsborough, NC",FALSE,TRUE,FALSE,11.85,3.04,USD - US dollar,4.1,16
+Canada,Vancouver,TRUE,FALSE,FALSE,9.69,2.99,CAD - Canadian Dollar,5.63,18.25
+Japan,Tokyo,TRUE,FALSE,FALSE,5.61,3.04,JPY - Yen,650,1200
+Japan,"Koenji, Tokyo",FALSE,TRUE,FALSE,5.84,3.04,JPY - Yen,650,1250
+Russia,Kazan,TRUE,FALSE,FALSE,2.15,2.96,RUB - Russian Ruble,330,240
+Romania,Cluj-Napoca,TRUE,FALSE,FALSE,3.44,2.94,RON - Romanian Leu,18,21
+USA,Louisville,TRUE,FALSE,FALSE,8.52,3.02,USD - US dollar,4.08,11.5
+Canada,Toronto,TRUE,FALSE,FALSE,10.62,2.97,CAD - Canadian Dollar,5.6,20
+Canada,"Edmonton, Alberta",TRUE,FALSE,FALSE,8.23,2.97,CAD - Canadian Dollar,5.6,15.5
+Canada,Toronto,TRUE,FALSE,FALSE,9.56,2.97,CAD - Canadian Dollar,5.6,18
+Canada,Vancouver,TRUE,FALSE,FALSE,9.75,2.97,CAD - Canadian Dollar,5.6,18.35
+Canada,"Kingston, ON",FALSE,TRUE,FALSE,10.62,2.97,CAD - Canadian Dollar,5.59,20
+Poland,Wrocław,TRUE,FALSE,FALSE,6.26,2.99,PLN - Zloty,15,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,6.26,2.99,PLN - Zloty,15,31.4
+Poland,Poznań,TRUE,FALSE,FALSE,6.38,2.99,PLN - Zloty,15,32
+Poland,Warsaw,TRUE,FALSE,FALSE,5.38,2.99,PLN - Zloty,15,27
+Poland,Warsaw,TRUE,FALSE,FALSE,7.37,2.99,PLN - Zloty,15,37
+Poland,Warsaw,TRUE,FALSE,FALSE,8.97,2.99,PLN - Zloty,15,45
+Poland,Wrocław,TRUE,FALSE,FALSE,6.38,2.99,PLN - Zloty,15,32
+Poland,Toruń,TRUE,FALSE,FALSE,6.38,2.99,PLN - Zloty,15,32
+Poland,Warsaw,TRUE,FALSE,FALSE,7.47,2.99,PLN - Zloty,15,37.5
+Poland,Warsaw,TRUE,FALSE,FALSE,9.96,2.99,PLN - Zloty,15,50
+Poland,Cieszyn,TRUE,FALSE,FALSE,5.38,2.99,PLN - Zloty,15,27
+Poland,Warsaw,TRUE,FALSE,FALSE,6.77,2.99,PLN - Zloty,15,34
+Poland,Warsaw,TRUE,FALSE,FALSE,6.57,2.99,PLN - Zloty,15,33
+Poland,Kraków,FALSE,TRUE,FALSE,6.26,2.99,PLN - Zloty,15,31.4
+Poland,Warsaw,TRUE,FALSE,FALSE,6.26,2.99,PLN - Zloty,15,31.4
+Poland,Kraków,TRUE,FALSE,FALSE,6.38,2.99,PLN - Zloty,15,32
+Poland,Warsaw,TRUE,FALSE,FALSE,6.38,2.99,PLN - Zloty,15,32
+Poland,Kraków,TRUE,FALSE,FALSE,6.26,2.99,PLN - Zloty,15,31.4
+Turkey,Istanbul,TRUE,FALSE,FALSE,3.06,2.79,TRY - Turkish Lira,180,197
+Germany,Hamburg,TRUE,FALSE,FALSE,17.13,3,EUR - Euro,3.5,20
+Germany,Giessen,TRUE,FALSE,FALSE,12.85,3,EUR - Euro,3.5,15
+Portugal,Lisbon,FALSE,FALSE,TRUE,6.85,3,EUR - Euro,3.5,8
+Spain,Málaga,TRUE,FALSE,FALSE,8.14,3,EUR - Euro,3.5,9.5
+Germany,Berlin,FALSE,TRUE,FALSE,11.99,3,EUR - Euro,3.5,14
+Lithuania,Vilnius,TRUE,FALSE,FALSE,6.42,3,EUR - Euro,3.5,7.5
+Spain,Barcelona,TRUE,FALSE,FALSE,7.71,3,EUR - Euro,3.5,9
+Spain,Barcelona,TRUE,FALSE,FALSE,6.85,3,EUR - Euro,3.5,8
+Belgium,Antwerp,TRUE,FALSE,FALSE,12.85,3,EUR - Euro,3.5,15
+France,Châtellaion-Plage,FALSE,TRUE,FALSE,7.71,3,EUR - Euro,3.5,9
+Germany,NA,FALSE,FALSE,TRUE,13.7,3,EUR - Euro,3.5,16
+Germany,Munich,TRUE,FALSE,FALSE,29.98,3,EUR - Euro,3.5,35
+Germany,Olpe,FALSE,TRUE,FALSE,11.56,3,EUR - Euro,3.5,13.5
+Germany,NA,TRUE,FALSE,FALSE,12.85,3,EUR - Euro,3.5,15
+Germany,Cologne,TRUE,FALSE,FALSE,12.42,3,EUR - Euro,3.5,14.5
+Germany,Münster,TRUE,FALSE,FALSE,11.14,3,EUR - Euro,3.5,13
+Germany,Düsseldorf,TRUE,FALSE,FALSE,14.56,3,EUR - Euro,3.5,17
+Germany,NA,TRUE,FALSE,FALSE,11.14,3,EUR - Euro,3.5,13
+Germany,Heidelberg,TRUE,FALSE,FALSE,11.14,3,EUR - Euro,3.5,13
+Ireland,Galway,TRUE,FALSE,FALSE,12.42,3,EUR - Euro,3.5,14.5
+Latvia,Riga,FALSE,TRUE,FALSE,6.6,3,EUR - Euro,3.5,7.7
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,12.85,3,EUR - Euro,3.5,15
+Netherlands,Wageningen,FALSE,TRUE,FALSE,17.99,3,EUR - Euro,3.5,21
+Netherlands,Arnhem,TRUE,FALSE,FALSE,12.85,3,EUR - Euro,3.5,15
+Netherlands,Boskoop,FALSE,FALSE,TRUE,12.59,3,EUR - Euro,3.5,14.7
+Portugal,Cascais,FALSE,TRUE,FALSE,6.42,3,EUR - Euro,3.5,7.5
+Portugal,Porto,TRUE,FALSE,FALSE,4.7,3,EUR - Euro,3.5,5.49
+Spain,Málaga,TRUE,FALSE,FALSE,7.93,3,EUR - Euro,3.5,9.26
+Spain,Barcelona,TRUE,FALSE,FALSE,8.57,3,EUR - Euro,3.5,10
+Germany,NA,FALSE,FALSE,TRUE,12.85,3,EUR - Euro,3.5,15
+Germany,Coburg,TRUE,FALSE,FALSE,14.56,3,EUR - Euro,3.5,17
+USA,Greenville,FALSE,TRUE,FALSE,9.63,3,USD - US dollar,4.05,13
+Malaysia,Petaling Jaya,FALSE,TRUE,FALSE,1.45,2.9,MYR - Malaysian Ringgit,16,8
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,5.66,2.9,MYR - Malaysian Ringgit,16,31.25
+Australia,Brisbane,FALSE,TRUE,FALSE,17.54,3.04,AUD - Australian Dollar,5.8,33.5
+Mexico,Ciudad de México,TRUE,FALSE,FALSE,1.7,3.11,MXN - Mexican Peso,72,39.379999999999995
+Czechia,Prague,TRUE,FALSE,FALSE,7.06,3,CZK - Czech Koruna,85,200
+Czechia,Prague,TRUE,FALSE,FALSE,5.65,3,CZK - Czech Koruna,85,160
+Czechia,Brno,TRUE,FALSE,FALSE,5.47,3,CZK - Czech Koruna,85,155
+Czechia,Prague,TRUE,FALSE,FALSE,6.35,3,CZK - Czech Koruna,85,180
+Czechia,Brno,FALSE,TRUE,FALSE,7.7,3,CZK - Czech Koruna,85,218
+Czechia,Prague,TRUE,FALSE,FALSE,5.65,3,CZK - Czech Koruna,85,160
+Czechia,Brno,TRUE,FALSE,FALSE,5.65,3,CZK - Czech Koruna,85,160
+Czechia,Prague,TRUE,FALSE,FALSE,5.29,3,CZK - Czech Koruna,85,150
+Czechia,Prague,TRUE,FALSE,FALSE,5.29,3,CZK - Czech Koruna,85,150
+Czechia,Prague,TRUE,FALSE,FALSE,6,3,CZK - Czech Koruna,85,170
+Czechia,Prague,TRUE,FALSE,FALSE,7.06,3,CZK - Czech Koruna,85,200
+Czechia,Prague,TRUE,FALSE,FALSE,7.94,3,CZK - Czech Koruna,85,225
+Czechia,Česke Budějovice,TRUE,FALSE,FALSE,7.06,3,CZK - Czech Koruna,85,200
+Czechia,Brno,TRUE,FALSE,FALSE,7.06,3,CZK - Czech Koruna,85,200
+Czechia,Olomouc,TRUE,FALSE,FALSE,5.29,3,CZK - Czech Koruna,85,150
+UK,Southampton,FALSE,TRUE,TRUE,12.18,3,GBP - Pound Sterling,3,12.18
+UK,Winchester,TRUE,FALSE,FALSE,13,3,GBP - Pound Sterling,3,13
+UK,NA,FALSE,FALSE,TRUE,12.5,3,GBP - Pound Sterling,3,12.5
+UK,Newark,TRUE,FALSE,FALSE,12.61,3,GBP - Pound Sterling,3,12.61
+UK,Torbay,TRUE,FALSE,FALSE,12.5,3,GBP - Pound Sterling,3,12.5
+UK,Canterbury,FALSE,TRUE,FALSE,14,3,GBP - Pound Sterling,3,14
+UK,NA,FALSE,FALSE,TRUE,10,3,GBP - Pound Sterling,3,10
+UK,York,TRUE,FALSE,FALSE,11,3,GBP - Pound Sterling,3,11
+UK,Sheffield,TRUE,FALSE,FALSE,12.21,3,GBP - Pound Sterling,3,12.209999999999999
+UK,Gowerton,FALSE,TRUE,FALSE,7.55,3,GBP - Pound Sterling,3,7.55
+Canada,Vancouver,FALSE,TRUE,FALSE,9.96,2.93,CAD - Canadian Dollar,5.51,18.75
+Argentina,Buenos Aires,FALSE,TRUE,FALSE,2.85,2.77,ARS - Argentine Peso,5600,5769
+Canada,Peterborough,TRUE,FALSE,FALSE,13.41,2.92,CAD - Canadian Dollar,5.5,25.25
+Canada,North Vancouver,FALSE,TRUE,FALSE,11.69,2.92,CAD - Canadian Dollar,5.5,22
+Canada,Edmonton,FALSE,TRUE,FALSE,7.97,2.92,CAD - Canadian Dollar,5.5,15
+Canada,Montréal,TRUE,FALSE,FALSE,7.44,2.92,CAD - Canadian Dollar,5.5,14
+Canada,Saskatoon,TRUE,FALSE,FALSE,11.69,2.92,CAD - Canadian Dollar,5.5,22
+Canada,Rocky Mountain House,FALSE,FALSE,TRUE,9.56,2.92,CAD - Canadian Dollar,5.5,18
+Canada,Vancouver,TRUE,FALSE,FALSE,10.09,2.92,CAD - Canadian Dollar,5.5,19
+Canada,Port Moody,FALSE,TRUE,FALSE,10.09,2.92,CAD - Canadian Dollar,5.5,19
+Canada,Ottawa,FALSE,TRUE,FALSE,12.48,2.92,CAD - Canadian Dollar,5.5,23.5
+Canada,Ottawa,FALSE,TRUE,FALSE,12.22,2.92,CAD - Canadian Dollar,5.5,23
+Canada,Toronto,TRUE,FALSE,FALSE,10.62,2.92,CAD - Canadian Dollar,5.5,20
+Canada,Vancouver,TRUE,FALSE,FALSE,9.3,2.92,CAD - Canadian Dollar,5.5,17.5
+Canada,Toronto,TRUE,FALSE,FALSE,9.56,2.92,CAD - Canadian Dollar,5.5,18
+Canada,Toronto,TRUE,FALSE,FALSE,9.56,2.92,CAD - Canadian Dollar,5.5,18
+Canada,Victoria,TRUE,FALSE,FALSE,10.09,2.92,CAD - Canadian Dollar,5.5,19
+Canada,Vancouver,TRUE,FALSE,FALSE,10.36,2.92,CAD - Canadian Dollar,5.5,19.5
+USA,Cleveland,TRUE,FALSE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,NA,FALSE,TRUE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,NA,TRUE,TRUE,TRUE,8.15,2.96,USD - US dollar,4,11
+USA,Frostburg,FALSE,FALSE,TRUE,11.85,2.96,USD - US dollar,4,16
+USA,"Milwaukee, WI",TRUE,FALSE,FALSE,11.85,2.96,USD - US dollar,4,16
+USA,NA,FALSE,TRUE,FALSE,12.22,2.96,USD - US dollar,4,16.5
+USA,"Chambersburg, Pennsylvania",FALSE,TRUE,FALSE,9.63,2.96,USD - US dollar,4,13
+USA,Dallas,FALSE,TRUE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,"Little Rock, Arkansas",FALSE,TRUE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,Orland Park,FALSE,TRUE,FALSE,17.78,2.96,USD - US dollar,4,24
+USA,NA,TRUE,FALSE,FALSE,14.82,2.96,USD - US dollar,4,20
+USA,Waco,FALSE,TRUE,FALSE,8.15,2.96,USD - US dollar,4,11
+USA,"Lafayette, IN",FALSE,TRUE,FALSE,13.93,2.96,USD - US dollar,4,18.8
+USA,Westminster,TRUE,FALSE,FALSE,11.85,2.96,USD - US dollar,4,16
+USA,Cartersville,FALSE,TRUE,FALSE,15.19,2.96,USD - US dollar,4,20.5
+USA,Seattle,TRUE,FALSE,FALSE,16.3,2.96,USD - US dollar,4,22
+USA,Greensboro,TRUE,TRUE,FALSE,8.15,2.96,USD - US dollar,4,11
+USA,San Francisco,TRUE,FALSE,FALSE,15.56,2.96,USD - US dollar,4,21
+USA,Chagrin Falls,FALSE,FALSE,TRUE,13.34,2.96,USD - US dollar,4,18
+USA,NA,FALSE,TRUE,FALSE,10.67,2.96,USD - US dollar,4,14.4
+USA,"Northfield, Illinois",FALSE,TRUE,FALSE,13.34,2.96,USD - US dollar,4,18
+USA,"Boise, Idaho",TRUE,FALSE,FALSE,8.89,2.96,USD - US dollar,4,12
+USA,"Moscow, Idaho",FALSE,TRUE,FALSE,9.63,2.96,USD - US dollar,4,13
+USA,milwaukee,FALSE,TRUE,FALSE,8.15,2.96,USD - US dollar,4,11
+USA,Scranton,TRUE,FALSE,FALSE,8.89,2.96,USD - US dollar,4,12
+USA,"Richmond, IN",FALSE,FALSE,TRUE,6.85,2.96,USD - US dollar,4,9.25
+USA,NA,TRUE,FALSE,FALSE,6.67,2.96,USD - US dollar,4,9
+USA,Little Rock,TRUE,TRUE,FALSE,8.89,2.96,USD - US dollar,4,12
+USA,"Portland, ME",FALSE,TRUE,FALSE,17.78,2.96,USD - US dollar,4,24
+USA,NA,FALSE,TRUE,FALSE,11.85,2.96,USD - US dollar,4,16
+USA,Denver,TRUE,FALSE,FALSE,14.29,2.96,USD - US dollar,4,19.29
+El Salvador,San Salvador,TRUE,FALSE,FALSE,1.85,2.96,USD - US dollar,4,2.5
+USA,Dallas,FALSE,TRUE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,Indianapolis,TRUE,FALSE,FALSE,9.63,2.96,USD - US dollar,4,13
+USA,San Francisco,TRUE,FALSE,FALSE,13.34,2.96,USD - US dollar,4,18
+USA,"Houston, TX",TRUE,FALSE,FALSE,11.11,2.96,USD - US dollar,4,15
+USA,"Glen Ellyn, IL",FALSE,TRUE,FALSE,8.89,2.96,USD - US dollar,4,12
+Canada,Welland,TRUE,FALSE,FALSE,9.56,2.91,CAD - Canadian Dollar,5.48,18
+USA,Flagstaff,TRUE,FALSE,FALSE,14.34,2.95,USD - US dollar,3.98,19.35
+Canada,Calgary,TRUE,FALSE,FALSE,8.63,2.9,CAD - Canadian Dollar,5.46,16.25
+Czechia,Brno,TRUE,FALSE,FALSE,5.75,2.97,CZK - Czech Koruna,84,163
+Russia,Moscow,TRUE,FALSE,FALSE,3.94,2.87,RUB - Russian Ruble,320,440
+Russia,Moscow,TRUE,FALSE,FALSE,3.4,2.87,RUB - Russian Ruble,320,380
+Canada,Halifax,TRUE,FALSE,FALSE,10.02,2.9,CAD - Canadian Dollar,5.45,18.86
+Canada,Montréal,TRUE,FALSE,FALSE,9.56,2.9,CAD - Canadian Dollar,5.45,18
+Canada,Vancouver,TRUE,FALSE,FALSE,10.36,2.9,CAD - Canadian Dollar,5.45,19.5
+Australia,Alice Springs,TRUE,FALSE,FALSE,23.57,2.99,AUD - Australian Dollar,5.7,45
+USA,"Madison, WI",FALSE,TRUE,FALSE,10.37,2.93,USD - US dollar,3.9499999999999997,14
+USA,Warner Robins,TRUE,FALSE,FALSE,7.41,2.93,USD - US dollar,3.9499999999999997,10
+USA,San Antonio,FALSE,TRUE,FALSE,11.11,2.93,USD - US dollar,3.9499999999999997,15
+UK,Cardiff,TRUE,FALSE,FALSE,12.25,2.95,GBP - Pound Sterling,2.9499999999999997,12.25
+Argentina,Buenos Aires,TRUE,FALSE,FALSE,3.09,2.72,ARS - Argentine Peso,5500,6250
+Argentina,Mar del Plata,TRUE,FALSE,FALSE,2.47,2.72,ARS - Argentine Peso,5500,5000
+Portugal,NA,FALSE,FALSE,TRUE,7.71,2.91,EUR - Euro,3.4,9
+Cyprus,Nicosia,TRUE,FALSE,FALSE,6,2.91,EUR - Euro,3.4,7
+Germany,Munich,FALSE,TRUE,FALSE,14.82,2.91,EUR - Euro,3.4,17.3
+Spain,Madrid,TRUE,FALSE,FALSE,9.17,2.91,EUR - Euro,3.4,10.7
+Ireland,Cork,TRUE,FALSE,FALSE,12.85,2.91,EUR - Euro,3.4,15
+Spain,Valencia,TRUE,FALSE,FALSE,7.62,2.91,EUR - Euro,3.4,8.9
+Germany,Dussseldorf,FALSE,TRUE,FALSE,12.85,2.91,EUR - Euro,3.4,15
+Chile,Santiago,TRUE,FALSE,FALSE,2.58,2.92,CLP - Chilean Peso,3600,3180
+Canada,Vancouver,TRUE,FALSE,FALSE,9.69,2.87,CAD - Canadian Dollar,5.4,18.25
+Czechia,Ostrava,TRUE,FALSE,FALSE,5.12,2.93,CZK - Czech Koruna,83,145
+Mexico,Monterrey,TRUE,FALSE,FALSE,1.53,3.03,MXN - Mexican Peso,70,35.5
+Mexico,Mérida,FALSE,TRUE,FALSE,2.16,3.03,MXN - Mexican Peso,70,50
+Mexico,CDMX,FALSE,TRUE,FALSE,1.45,3.03,MXN - Mexican Peso,70,33.5
+Canada,Toronto,TRUE,FALSE,FALSE,10.89,2.85,CAD - Canadian Dollar,5.37,20.5
+Singapore,Singapore,TRUE,FALSE,FALSE,6.95,2.9,SGD - Singapore Dollar,5,12
+Singapore,Singapore,TRUE,FALSE,FALSE,6.95,2.9,SGD - Singapore Dollar,5,12
+Australia,NA,FALSE,FALSE,TRUE,15.72,2.93,AUD - Australian Dollar,5.6,30.02
+Australia,Melbourne,FALSE,TRUE,FALSE,15.61,2.93,AUD - Australian Dollar,5.6,29.8
+Canada,Kelowna,TRUE,FALSE,FALSE,9.48,2.84,CAD - Canadian Dollar,5.35,17.85
+UK,Dundee,TRUE,FALSE,FALSE,12.21,2.9,GBP - Pound Sterling,2.9,12.209999999999999
+UK,London,TRUE,FALSE,FALSE,17.1,2.9,GBP - Pound Sterling,2.9,17.1
+Romania,Bucharest,TRUE,FALSE,FALSE,3.93,2.78,RON - Romanian Leu,17,24
+Romania,Bucharest,TRUE,FALSE,FALSE,4.33,2.78,RON - Romanian Leu,17,26.5
+Hungary,Budapest,TRUE,FALSE,FALSE,5.44,3.07,HUF - Forint,1300,2300
+Hungary,Budapest,TRUE,FALSE,FALSE,5.55,3.07,HUF - Forint,1300,2350
+USA,Billings,TRUE,FALSE,FALSE,8.04,2.85,USD - US dollar,3.8499999999999996,10.850000000000001
+Israel,Karmiel (north),TRUE,TRUE,FALSE,17.55,2.97,ILS - New Israeli Sheqel,12,71
+Israel,Jerusalem,TRUE,FALSE,FALSE,8.65,2.97,ILS - New Israeli Sheqel,12,35
+Turkey,Çanakkale,TRUE,FALSE,FALSE,2.23,2.64,TRY - Turkish Lira,170,144
+Chile,Santiago,TRUE,FALSE,FALSE,9.94,2.85,CLP - Chilean Peso,3509,12250
+Iraq,Baghdad,TRUE,FALSE,FALSE,1.93,2.84,IQD - Iraqi Dinar,5000,3400
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,2.88,AUD - Australian Dollar,5.5,33
+Australia,Melbourne,FALSE,TRUE,FALSE,13.09,2.88,AUD - Australian Dollar,5.5,25
+Australia,Townsville,TRUE,FALSE,FALSE,13.62,2.88,AUD - Australian Dollar,5.5,26
+Australia,Brisbane,FALSE,TRUE,FALSE,16.24,2.88,AUD - Australian Dollar,5.5,31
+Australia,Melbourne,TRUE,FALSE,FALSE,16.76,2.88,AUD - Australian Dollar,5.5,32
+Australia,Brisbane,FALSE,TRUE,FALSE,13.62,2.88,AUD - Australian Dollar,5.5,26
+Australia,Melbourne,TRUE,FALSE,FALSE,16.76,2.88,AUD - Australian Dollar,5.5,32
+Australia,Melbourne,TRUE,FALSE,FALSE,16.24,2.88,AUD - Australian Dollar,5.5,31
+Australia,Sydney,FALSE,TRUE,FALSE,17.28,2.88,AUD - Australian Dollar,5.5,33
+Australia,Melbourne,FALSE,TRUE,FALSE,15.65,2.88,AUD - Australian Dollar,5.5,29.88
+Australia,Melbourne,TRUE,FALSE,FALSE,18.85,2.88,AUD - Australian Dollar,5.5,36
+Australia,Brisbane,TRUE,FALSE,FALSE,17.28,2.88,AUD - Australian Dollar,5.5,33
+Australia,Sydney,TRUE,FALSE,FALSE,15.81,2.88,AUD - Australian Dollar,5.5,30.19
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,2.88,AUD - Australian Dollar,5.5,33
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,2.88,AUD - Australian Dollar,5.5,33
+Australia,Cronulla,FALSE,TRUE,FALSE,18.33,2.88,AUD - Australian Dollar,5.5,35
+Australia,Melbourne,TRUE,FALSE,FALSE,16.76,2.88,AUD - Australian Dollar,5.5,32
+Australia,Newcastle,FALSE,TRUE,FALSE,15.89,2.88,AUD - Australian Dollar,5.5,30.35
+Australia,Sydney,TRUE,FALSE,FALSE,15.71,2.88,AUD - Australian Dollar,5.5,30
+Australia,Rockhampton,TRUE,FALSE,FALSE,16.24,2.88,AUD - Australian Dollar,5.5,31
+Australia,Perth,TRUE,FALSE,FALSE,17.48,2.88,AUD - Australian Dollar,5.5,33.379999999999995
+Australia,Sydney,FALSE,TRUE,FALSE,20.95,2.88,AUD - Australian Dollar,5.5,40
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.88,AUD - Australian Dollar,5.5,35
+Australia,Melbourne,TRUE,FALSE,FALSE,16.6,2.88,AUD - Australian Dollar,5.5,31.7
+Australia,Sydney,FALSE,TRUE,FALSE,13.09,2.88,AUD - Australian Dollar,5.5,25
+Australia,Melbourne,TRUE,FALSE,FALSE,18.33,2.88,AUD - Australian Dollar,5.5,35
+Australia,Brisbane,TRUE,FALSE,FALSE,17.48,2.88,AUD - Australian Dollar,5.5,33.379999999999995
+Australia,Hobart,FALSE,TRUE,FALSE,12.31,2.88,AUD - Australian Dollar,5.5,23.5
+Australia,Torquay,FALSE,TRUE,FALSE,15.71,2.88,AUD - Australian Dollar,5.5,30
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.88,AUD - Australian Dollar,5.5,35
+Australia,Perth,FALSE,TRUE,FALSE,16.92,2.88,AUD - Australian Dollar,5.5,32.309999999999995
+Australia,Townsville,FALSE,TRUE,FALSE,17.75,2.88,AUD - Australian Dollar,5.5,33.9
+Australia,Melbourne,TRUE,FALSE,FALSE,16.76,2.88,AUD - Australian Dollar,5.5,32
+Australia,Wollongong,FALSE,TRUE,FALSE,16.24,2.88,AUD - Australian Dollar,5.5,31
+Australia,Melbourne,FALSE,TRUE,FALSE,17.48,2.88,AUD - Australian Dollar,5.5,33.379999999999995
+Australia,Melbourne,FALSE,TRUE,FALSE,16.88,2.88,AUD - Australian Dollar,5.5,32.24
+Australia,Sydney,FALSE,TRUE,FALSE,11.89,2.88,AUD - Australian Dollar,5.5,22.7
+Australia,Melbourne,TRUE,FALSE,FALSE,14.66,2.88,AUD - Australian Dollar,5.5,28
+Australia,Melbourne,TRUE,FALSE,FALSE,18.33,2.88,AUD - Australian Dollar,5.5,35
+Chile,Santiago,TRUE,FALSE,FALSE,3.25,2.84,CLP - Chilean Peso,3500,4000
+Germany,Berlin,TRUE,FALSE,FALSE,15.42,2.83,EUR - Euro,3.3,18
+Germany,NA,TRUE,FALSE,FALSE,15.42,2.83,EUR - Euro,3.3,18
+Slovakia,Bratislava,TRUE,FALSE,FALSE,6,2.83,EUR - Euro,3.3,7
+Germany,Berlin,TRUE,FALSE,FALSE,11.91,2.83,EUR - Euro,3.3,13.9
+Austria,Vienna,TRUE,FALSE,FALSE,9.42,2.83,EUR - Euro,3.3,11
+Canada,Nelson BC,TRUE,FALSE,FALSE,11.16,2.79,CAD - Canadian Dollar,5.25,21
+Canada,Vaughan,FALSE,TRUE,FALSE,10.32,2.79,CAD - Canadian Dollar,5.25,19.43
+Canada,Calgary,FALSE,TRUE,FALSE,9.03,2.79,CAD - Canadian Dollar,5.25,17
+Canada,Vancouver,TRUE,FALSE,FALSE,12.22,2.79,CAD - Canadian Dollar,5.25,23
+UK,NA,FALSE,TRUE,FALSE,15.6,2.85,GBP - Pound Sterling,2.8499999999999996,15.6
+Mexico,Tijuana,TRUE,FALSE,FALSE,2.38,2.94,MXN - Mexican Peso,68,55
+USA,"Columbus, OH",TRUE,FALSE,FALSE,11.11,2.82,USD - US dollar,3.8,15
+USA,"Columbus, OH",TRUE,FALSE,FALSE,12.78,2.82,USD - US dollar,3.8,17.25
+USA,"Columbus, OH",TRUE,FALSE,FALSE,8.22,2.82,USD - US dollar,3.8,11.1
+Argentina,Ciudad Autónoma de Buenos Aires,TRUE,FALSE,FALSE,2.22,2.62,ARS - Argentine Peso,5300,4500
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.81,2.72,MYR - Malaysian Ringgit,15,10
+Poland,Toruń,TRUE,FALSE,FALSE,6.26,2.79,PLN - Zloty,14,31.4
+Poland,Warsaw,TRUE,FALSE,FALSE,6.18,2.79,PLN - Zloty,14,31
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.57,2.79,PLN - Zloty,14,33
+Poland,Warsaw,TRUE,FALSE,FALSE,6.18,2.79,PLN - Zloty,14,31
+Poland,Warsaw,TRUE,FALSE,FALSE,4.98,2.79,PLN - Zloty,14,25
+Poland,Elbląg,TRUE,FALSE,FALSE,13.95,2.79,PLN - Zloty,14,70
+Poland,Gdańsk,TRUE,FALSE,FALSE,6.77,2.79,PLN - Zloty,14,34
+Poland,Poznań,TRUE,FALSE,FALSE,6.57,2.79,PLN - Zloty,14,33
+Poland,Łódź,TRUE,FALSE,FALSE,6.26,2.79,PLN - Zloty,14,31.4
+Poland,Gliwice,TRUE,FALSE,FALSE,6.18,2.79,PLN - Zloty,14,31
+Poland,Łódź,TRUE,FALSE,FALSE,6.18,2.79,PLN - Zloty,14,31
+Poland,Warsaw,TRUE,FALSE,FALSE,5.98,2.79,PLN - Zloty,14,30
+Poland,Kraków,TRUE,FALSE,FALSE,5.28,2.79,PLN - Zloty,14,26.5
+Poland,Częstochowa,TRUE,FALSE,FALSE,4.98,2.79,PLN - Zloty,14,25
+Poland,Wrocław,TRUE,FALSE,FALSE,6.38,2.79,PLN - Zloty,14,32
+Poland,Warsaw,TRUE,FALSE,FALSE,5.78,2.79,PLN - Zloty,14,29
+Poland,Warsaw,TRUE,FALSE,FALSE,5.58,2.79,PLN - Zloty,14,28
+Canada,Ottawa,TRUE,FALSE,FALSE,9.56,2.76,CAD - Canadian Dollar,5.2,18
+Canada,Vancouver,TRUE,FALSE,FALSE,8.5,2.76,CAD - Canadian Dollar,5.2,16
+Canada,Vancouver,TRUE,FALSE,FALSE,10.31,2.76,CAD - Canadian Dollar,5.2,19.4
+Czechia,Olomouc,TRUE,FALSE,FALSE,6.35,2.82,CZK - Czech Koruna,80,180
+Czechia,Prague,FALSE,TRUE,FALSE,9.53,2.82,CZK - Czech Koruna,80,270
+Czechia,Prague,FALSE,TRUE,FALSE,5.29,2.82,CZK - Czech Koruna,80,150
+Czechia,Kutná Hora,TRUE,FALSE,FALSE,6,2.82,CZK - Czech Koruna,80,170
+Czechia,Prague,TRUE,FALSE,FALSE,4.94,2.82,CZK - Czech Koruna,80,140
+Czechia,Ostrava,TRUE,FALSE,FALSE,5.65,2.82,CZK - Czech Koruna,80,160
+Czechia,Prague,TRUE,FALSE,FALSE,7.84,2.82,CZK - Czech Koruna,80,222
+Czechia,Prague,TRUE,FALSE,FALSE,5.65,2.82,CZK - Czech Koruna,80,160
+Czechia,Prague,TRUE,FALSE,FALSE,5.29,2.82,CZK - Czech Koruna,80,150
+Czechia,Česke Budějovice,FALSE,TRUE,FALSE,7.06,2.82,CZK - Czech Koruna,80,200
+Czechia,Znojmo,TRUE,FALSE,FALSE,5.47,2.82,CZK - Czech Koruna,80,155
+Czechia,Prague,TRUE,FALSE,FALSE,5.65,2.82,CZK - Czech Koruna,80,160
+Czechia,Brno,FALSE,TRUE,FALSE,5.29,2.82,CZK - Czech Koruna,80,150
+Czechia,Brno,TRUE,FALSE,FALSE,4.73,2.82,CZK - Czech Koruna,80,134
+Czechia,Prague,TRUE,FALSE,FALSE,8.82,2.82,CZK - Czech Koruna,80,250
+Czechia,Prague,TRUE,FALSE,FALSE,8.82,2.82,CZK - Czech Koruna,80,250
+Czechia,Prague,TRUE,FALSE,FALSE,6.71,2.82,CZK - Czech Koruna,80,190
+Czechia,Brno,TRUE,FALSE,FALSE,4.94,2.82,CZK - Czech Koruna,80,140
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
+New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.84,NZD - New Zealand Dollar,6.5,28
+New Zealand,NA,FALSE,TRUE,FALSE,11.57,2.84,NZD - New Zealand Dollar,6.5,26.5
+New Zealand,Hawkes Bay,TRUE,FALSE,FALSE,13.1,2.84,NZD - New Zealand Dollar,6.5,30
+New Zealand,Auckland,FALSE,TRUE,FALSE,14.76,2.84,NZD - New Zealand Dollar,6.5,33.8
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
+Japan,Kyoto,TRUE,FALSE,FALSE,5.94,2.81,JPY - Yen,600,1270
+Canada,Sherbrooke,TRUE,FALSE,FALSE,8.77,2.75,CAD - Canadian Dollar,5.18,16.5
+Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.13,2.78,EUR - Euro,3.25,16.5
+Netherlands,Heerlen,TRUE,FALSE,FALSE,12.6,2.78,EUR - Euro,3.25,14.709999999999999
+Australia,Adelaide,TRUE,FALSE,FALSE,16.24,2.83,AUD - Australian Dollar,5.4,31
+Australia,Albury,FALSE,FALSE,TRUE,14.95,2.83,AUD - Australian Dollar,5.4,28.55
+USA,Cullman,TRUE,FALSE,TRUE,13.15,2.78,USD - US dollar,3.75,17.75
+USA,"Arlington, WA",FALSE,FALSE,TRUE,13.43,2.78,USD - US dollar,3.75,18.130000000000003
+USA,Kansas City,FALSE,TRUE,FALSE,14.82,2.78,USD - US dollar,3.75,20
+USA,"Charlotte, NC",TRUE,FALSE,FALSE,8.89,2.78,USD - US dollar,3.75,12
+USA,"Butler, Pennsylvania",TRUE,FALSE,FALSE,7.41,2.78,USD - US dollar,3.75,10
+UK,London,TRUE,FALSE,FALSE,13.95,2.8,GBP - Pound Sterling,2.8,13.950000000000001
+Argentina,Buenos Aires,TRUE,FALSE,FALSE,2.47,2.57,ARS - Argentine Peso,5200,5000
+Hungary,NA,TRUE,FALSE,FALSE,5.37,2.95,HUF - Forint,1250,2270
+Germany,Hagen,TRUE,FALSE,FALSE,17.13,2.74,EUR - Euro,3.2,20
+Germany,Hannover,TRUE,FALSE,FALSE,13.7,2.74,EUR - Euro,3.2,16
+Netherlands,Den Burg,FALSE,FALSE,TRUE,14.05,2.74,EUR - Euro,3.2,16.4
+Slovakia,Bratislava,TRUE,FALSE,FALSE,6.85,2.74,EUR - Euro,3.2,8
+Latvia,Riga,TRUE,FALSE,FALSE,5.74,2.74,EUR - Euro,3.2,6.7
+Portugal,Porto,TRUE,FALSE,FALSE,4.28,2.74,EUR - Euro,3.2,5
+Bulgaria,Sofia,TRUE,FALSE,FALSE,4.45,2.74,EUR - Euro,3.2,5.2
+Bulgaria,Sofia,FALSE,TRUE,FALSE,4.8,2.74,EUR - Euro,3.2,5.6
+Germany,Munich,TRUE,FALSE,FALSE,9.85,2.74,EUR - Euro,3.2,11.5
+Germany,Munich,TRUE,FALSE,FALSE,12.85,2.74,EUR - Euro,3.2,15
+Germany,Schwäbisch Hall,TRUE,FALSE,FALSE,15.42,2.74,EUR - Euro,3.2,18
+Bulgaria,Sofia,TRUE,FALSE,FALSE,5.14,2.74,EUR - Euro,3.2,6
+Greece,Patras,TRUE,FALSE,FALSE,4.28,2.74,EUR - Euro,3.2,5
+Lebanon,Jal El Dib,TRUE,FALSE,FALSE,2.78,2.74,USD - US dollar,3.7,3.75
+Canada,Ottawa,TRUE,FALSE,FALSE,9.69,2.7,CAD - Canadian Dollar,5.08,18.25
+Australia,Sydney,TRUE,FALSE,FALSE,15.89,2.78,AUD - Australian Dollar,5.3,30.35
+Australia,Melbourne,TRUE,FALSE,FALSE,15.71,2.78,AUD - Australian Dollar,5.3,30
+Australia,Melbourne,TRUE,FALSE,FALSE,16.33,2.78,AUD - Australian Dollar,5.3,31.19
+Australia,Adelaide,FALSE,TRUE,FALSE,13.09,2.78,AUD - Australian Dollar,5.3,25
+UK,Kelso,FALSE,FALSE,TRUE,8.56,2.75,GBP - Pound Sterling,2.75,8.56
+UK,Bristol,FALSE,TRUE,FALSE,12.6,2.75,GBP - Pound Sterling,2.75,12.6
+South Korea,Songdo-dong,TRUE,FALSE,FALSE,6.27,2.87,KRW - Won,5500,12000
+Bulgaria,Rouse,TRUE,FALSE,FALSE,3.25,2.72,EUR - Euro,3.17,3.8
+USA,rutland,TRUE,FALSE,FALSE,16.3,2.7,USD - US dollar,3.65,22
+USA,"Richmond, VA",TRUE,TRUE,FALSE,11.45,2.7,USD - US dollar,3.65,15.450000000000001
+Australia,NA,FALSE,TRUE,FALSE,12.05,2.75,AUD - Australian Dollar,5.25,23
+Canada,Hamilton,TRUE,FALSE,FALSE,10.09,2.66,CAD - Canadian Dollar,5,19
+Canada,Shawinigan,TRUE,FALSE,FALSE,23.9,2.66,CAD - Canadian Dollar,5,45
+Canada,Kingston,FALSE,TRUE,FALSE,7.97,2.66,CAD - Canadian Dollar,5,15
+Canada,"Fonthill, Ontario",FALSE,TRUE,FALSE,10.62,2.66,CAD - Canadian Dollar,5,20
+Canada,Vancouver,FALSE,TRUE,FALSE,9.56,2.66,CAD - Canadian Dollar,5,18
+Canada,Fredericton,TRUE,FALSE,FALSE,11.16,2.66,CAD - Canadian Dollar,5,21
+Canada,Cambridge,FALSE,TRUE,FALSE,11.16,2.66,CAD - Canadian Dollar,5,21
+Canada,Tantramar,FALSE,FALSE,TRUE,9.56,2.66,CAD - Canadian Dollar,5,18
+Canada,Toronto,TRUE,FALSE,FALSE,10.62,2.66,CAD - Canadian Dollar,5,20
+Canada,London,TRUE,FALSE,FALSE,10.62,2.66,CAD - Canadian Dollar,5,20
+Canada,Vancouver,TRUE,FALSE,FALSE,13.81,2.66,CAD - Canadian Dollar,5,26
+Canada,Vancouver,TRUE,FALSE,FALSE,10.36,2.66,CAD - Canadian Dollar,5,19.5
+Canada,Montréal,TRUE,FALSE,FALSE,7.97,2.66,CAD - Canadian Dollar,5,15
+Canada,Winnipeg,TRUE,FALSE,FALSE,8.5,2.66,CAD - Canadian Dollar,5,16
+Canada,Montréal,TRUE,FALSE,FALSE,9.56,2.66,CAD - Canadian Dollar,5,18
+Canada,Montréal,TRUE,FALSE,FALSE,9.3,2.66,CAD - Canadian Dollar,5,17.5
+Canada,Kenora,FALSE,FALSE,TRUE,11.16,2.66,CAD - Canadian Dollar,5,21
+Canada,Vancouver,TRUE,FALSE,FALSE,9.24,2.66,CAD - Canadian Dollar,5,17.4
+Canada,Waterloo ontario,TRUE,FALSE,FALSE,11.71,2.66,CAD - Canadian Dollar,5,22.05
+Mexico,México city,TRUE,FALSE,FALSE,1.95,2.81,MXN - Mexican Peso,65,45
+Mexico,CDMX,TRUE,FALSE,FALSE,2.66,2.81,MXN - Mexican Peso,65,61.54
+Mexico,Puebla,TRUE,FALSE,FALSE,1.73,2.81,MXN - Mexican Peso,65,40
+Mexico,Mexicali,TRUE,TRUE,FALSE,1.73,2.81,MXN - Mexican Peso,65,40
+Mexico,Axtla de Terrazas,FALSE,FALSE,TRUE,2.38,2.81,MXN - Mexican Peso,65,55
+Romania,Bucharest,TRUE,FALSE,FALSE,4.09,2.62,RON - Romanian Leu,16,25
+Romania,Bucharest,TRUE,FALSE,FALSE,7.36,2.62,RON - Romanian Leu,16,45
+Romania,Cluj-Napoca,TRUE,FALSE,FALSE,1.8,2.62,RON - Romanian Leu,16,11
+Romania,Bucharest,TRUE,FALSE,FALSE,4.91,2.62,RON - Romanian Leu,16,30
+Romania,Bucharest,TRUE,FALSE,FALSE,2.13,2.62,RON - Romanian Leu,16,13
+Romania,Brasov,TRUE,FALSE,FALSE,3.27,2.62,RON - Romanian Leu,16,20
+Canada,Toronto,FALSE,TRUE,FALSE,9.61,2.65,CAD - Canadian Dollar,4.98,18.1
+Australia,Moonah,FALSE,TRUE,FALSE,16.76,2.72,AUD - Australian Dollar,5.2,32
+Australia,Brisbane,FALSE,TRUE,FALSE,18.33,2.72,AUD - Australian Dollar,5.2,35
+Australia,Geelong,FALSE,TRUE,FALSE,15.08,2.72,AUD - Australian Dollar,5.2,28.8
+Australia,Lismore,FALSE,TRUE,FALSE,17.39,2.72,AUD - Australian Dollar,5.2,33.2
+Australia,Sunshine Coast,FALSE,TRUE,FALSE,18.33,2.72,AUD - Australian Dollar,5.2,35
+Australia,Perth,TRUE,FALSE,FALSE,16.92,2.72,AUD - Australian Dollar,5.2,32.309999999999995
+Australia,"Newcastle, NSW",TRUE,TRUE,FALSE,9.27,2.72,AUD - Australian Dollar,5.2,17.7
+UK,Birmingham,TRUE,FALSE,FALSE,12.9,2.7,GBP - Pound Sterling,2.7,12.9
+UK,Cheltenham,FALSE,TRUE,FALSE,13,2.7,GBP - Pound Sterling,2.7,13
+Turkey,Ankara,TRUE,FALSE,FALSE,4.65,2.48,TRY - Turkish Lira,160,300
+Turkey,Ordu,TRUE,FALSE,FALSE,2.51,2.48,TRY - Turkish Lira,160,162
+Turkey,Istanbul,TRUE,FALSE,FALSE,3.1,2.48,TRY - Turkish Lira,160,200
+New Zealand,Wellington,TRUE,FALSE,FALSE,11.09,2.71,NZD - New Zealand Dollar,6.2,25.4
+Chile,Santiago,TRUE,FALSE,FALSE,2.03,2.68,CLP - Chilean Peso,3300,2500
+Canada,Vancouver,TRUE,FALSE,FALSE,9.48,2.63,CAD - Canadian Dollar,4.95,17.85
+Canada,Bradford,FALSE,TRUE,TRUE,9.03,2.63,CAD - Canadian Dollar,4.95,17
+Canada,Toronto,TRUE,FALSE,FALSE,11.69,2.63,CAD - Canadian Dollar,4.95,22
+Canada,Toronto,TRUE,FALSE,FALSE,9.43,2.63,CAD - Canadian Dollar,4.95,17.75
+Canada,Toronto,TRUE,FALSE,FALSE,9.35,2.63,CAD - Canadian Dollar,4.95,17.6
+Russia,Moscow,TRUE,FALSE,FALSE,3.23,2.6,RUB - Russian Ruble,290,360
+Chile,San Pedro de la Paz,TRUE,FALSE,FALSE,2.7,2.67,CLP - Chilean Peso,3290,3330
+Bulgaria,Plovdiv,TRUE,FALSE,FALSE,3.47,2.66,EUR - Euro,3.1,4.05
+Germany,Weimar,TRUE,FALSE,FALSE,12.42,2.66,EUR - Euro,3.1,14.5
+Argentina,Bariloche,TRUE,FALSE,FALSE,2.21,2.47,ARS - Argentine Peso,5000,4464
+Argentina,La Plata,TRUE,FALSE,FALSE,1.73,2.47,ARS - Argentine Peso,5000,3500
+Argentina,Ciudad Autónoma de Buenos Aires,TRUE,FALSE,FALSE,2.61,2.47,ARS - Argentine Peso,5000,5284
+Argentina,Córdoba,TRUE,FALSE,FALSE,0.79,2.47,ARS - Argentine Peso,5000,1600
+Hungary,Budapest,TRUE,FALSE,FALSE,5.91,2.84,HUF - Forint,1200,2500
+Hungary,Pécs,TRUE,FALSE,FALSE,4.23,2.84,HUF - Forint,1200,1790
+Hungary,Budapest,TRUE,FALSE,FALSE,5.2,2.84,HUF - Forint,1200,2200
+Canada,Vancouver,TRUE,FALSE,FALSE,9.56,2.59,CAD - Canadian Dollar,4.88,18
+Canada,"Mont-Tremblant, Québec",FALSE,TRUE,FALSE,9.69,2.59,CAD - Canadian Dollar,4.88,18.25
+Czechia,Brno,TRUE,FALSE,FALSE,5.82,2.65,CZK - Czech Koruna,75,165
+Czechia,Vyškov,FALSE,TRUE,FALSE,5.29,2.65,CZK - Czech Koruna,75,150
+Czechia,Brno,FALSE,TRUE,FALSE,5.29,2.65,CZK - Czech Koruna,75,150
+Czechia,Olomouc,TRUE,FALSE,FALSE,4.94,2.65,CZK - Czech Koruna,75,140
+Czechia,Brno,TRUE,FALSE,FALSE,5.29,2.65,CZK - Czech Koruna,75,150
+Czechia,Olomouc,TRUE,FALSE,FALSE,4.94,2.65,CZK - Czech Koruna,75,140
+Czechia,Brno,TRUE,FALSE,FALSE,5.29,2.65,CZK - Czech Koruna,75,150
+Czechia,Prague,TRUE,FALSE,FALSE,3.88,2.65,CZK - Czech Koruna,75,110
+Czechia,Prague,TRUE,FALSE,FALSE,7.06,2.65,CZK - Czech Koruna,75,200
+Czechia,Brno,FALSE,TRUE,FALSE,4.77,2.65,CZK - Czech Koruna,75,135
+Czechia,Chrudim,TRUE,FALSE,FALSE,4.94,2.65,CZK - Czech Koruna,75,140
+Czechia,Bořetice,FALSE,FALSE,TRUE,5.29,2.65,CZK - Czech Koruna,75,150
+Czechia,Olomouc,TRUE,FALSE,FALSE,5.12,2.65,CZK - Czech Koruna,75,145
+Czechia,Olomouc,TRUE,FALSE,FALSE,4.94,2.65,CZK - Czech Koruna,75,140
+Czechia,Prague,FALSE,TRUE,FALSE,6.6,2.65,CZK - Czech Koruna,75,187
+Czechia,Olomouc,TRUE,TRUE,FALSE,5.12,2.65,CZK - Czech Koruna,75,145
+Czechia,Brno,TRUE,FALSE,FALSE,5.65,2.65,CZK - Czech Koruna,75,160
+UK,Cheltenham,FALSE,TRUE,FALSE,13,2.65,GBP - Pound Sterling,2.65,13
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,2.17,2.54,MYR - Malaysian Ringgit,14,12
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,2.83,2.54,MYR - Malaysian Ringgit,14,15.62
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.81,2.54,MYR - Malaysian Ringgit,14,10
+Malaysia,Petaling Jaya,FALSE,TRUE,FALSE,1.81,2.54,MYR - Malaysian Ringgit,14,10
+Canada,Calgary,FALSE,TRUE,FALSE,9.03,2.58,CAD - Canadian Dollar,4.85,17
+Canada,Halifax,TRUE,FALSE,FALSE,9.04,2.58,CAD - Canadian Dollar,4.85,17.01
+Hungary,Pécs,TRUE,FALSE,FALSE,4.25,2.81,HUF - Forint,1188,1800
+Poland,Lublin,TRUE,FALSE,FALSE,4.18,2.59,PLN - Zloty,13,21
+Poland,Katowice,TRUE,FALSE,FALSE,6.26,2.59,PLN - Zloty,13,31.4
+Poland,Gdynia,TRUE,FALSE,FALSE,6.97,2.59,PLN - Zloty,13,35
+Poland,Lubliniec,TRUE,FALSE,FALSE,3.98,2.59,PLN - Zloty,13,20
+Singapore,Singapore,TRUE,FALSE,FALSE,8.11,2.61,SGD - Singapore Dollar,4.5,14
+Singapore,Singapore,TRUE,FALSE,FALSE,8.69,2.61,SGD - Singapore Dollar,4.5,15
+Kazakstan,Almaty,TRUE,FALSE,FALSE,3.18,2.68,KZT - Tenge,1690,2000
+USA,Rome,FALSE,FALSE,TRUE,5.37,2.59,USD - US dollar,3.5,7.25
+USA,Marion,FALSE,TRUE,FALSE,6.67,2.59,USD - US dollar,3.5,9
+USA,"Springfield, MO",TRUE,FALSE,FALSE,6.26,2.59,USD - US dollar,3.5,8.450000000000001
+USA,Northbrook,FALSE,TRUE,FALSE,13.6,2.59,USD - US dollar,3.5,18.36
+USA,Ontario,FALSE,TRUE,FALSE,11.85,2.59,USD - US dollar,3.5,16
+USA,"Portland, OR",TRUE,FALSE,FALSE,18.52,2.59,USD - US dollar,3.5,25
+Ecuador,Quito,TRUE,FALSE,FALSE,2.07,2.59,USD - US dollar,3.5,2.8
+USA,Portland,TRUE,FALSE,FALSE,16.3,2.59,USD - US dollar,3.5,22
+USA,Cincinnati,TRUE,FALSE,FALSE,9.26,2.59,USD - US dollar,3.5,12.5
+Chile,Pucón,TRUE,FALSE,FALSE,2.03,2.6,CLP - Chilean Peso,3200,2500
+Canada,Vancouver,TRUE,FALSE,FALSE,9.48,2.55,CAD - Canadian Dollar,4.8,17.85
+Canada,Guelph,FALSE,TRUE,FALSE,9.16,2.55,CAD - Canadian Dollar,4.8,17.25
+New Zealand,Auckland,TRUE,FALSE,FALSE,14.25,2.62,NZD - New Zealand Dollar,6,32.64
+New Zealand,Auckland,FALSE,TRUE,FALSE,13.1,2.62,NZD - New Zealand Dollar,6,30
+New Zealand,Wellington,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
+New Zealand,Christchurch,TRUE,FALSE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
+New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.62,NZD - New Zealand Dollar,6,28
+New Zealand,Wellington,FALSE,TRUE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
+New Zealand,Dunedin,TRUE,FALSE,FALSE,15.28,2.62,NZD - New Zealand Dollar,6,35
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
+New Zealand,Taupo,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
+New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,10.92,2.62,NZD - New Zealand Dollar,6,25
+Canada,Calgary,TRUE,FALSE,FALSE,11.6,2.54,CAD - Canadian Dollar,4.78,21.84
+Australia,Melbourne,TRUE,FALSE,FALSE,17.39,2.62,AUD - Australian Dollar,5,33.21
+Australia,Sydney,FALSE,TRUE,FALSE,15.71,2.62,AUD - Australian Dollar,5,30
+Australia,Melbourne,FALSE,TRUE,FALSE,13.09,2.62,AUD - Australian Dollar,5,25
+Australia,Adelaide,FALSE,TRUE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Australia,Perth,FALSE,TRUE,FALSE,13.54,2.62,AUD - Australian Dollar,5,25.85
+Australia,NA,FALSE,FALSE,TRUE,16.33,2.62,AUD - Australian Dollar,5,31.19
+Australia,Cootamundra,FALSE,FALSE,TRUE,13.09,2.62,AUD - Australian Dollar,5,25
+Australia,Ballarat,FALSE,FALSE,TRUE,15.71,2.62,AUD - Australian Dollar,5,30
+Australia,Brisbane,TRUE,FALSE,FALSE,18.33,2.62,AUD - Australian Dollar,5,35
+Australia,Adelaide,FALSE,TRUE,FALSE,16.34,2.62,AUD - Australian Dollar,5,31.2
+Australia,Sydney,TRUE,FALSE,FALSE,15.19,2.62,AUD - Australian Dollar,5,29
+Australia,Melbourne,TRUE,FALSE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Australia,Melbourne,FALSE,TRUE,FALSE,19.38,2.62,AUD - Australian Dollar,5,37
+Australia,Perth,FALSE,TRUE,FALSE,17.98,2.62,AUD - Australian Dollar,5,34.33
+Australia,Cessnock,FALSE,TRUE,FALSE,17.38,2.62,AUD - Australian Dollar,5,33.190000000000005
+Australia,Melbourne,TRUE,FALSE,FALSE,17.45,2.62,AUD - Australian Dollar,5,33.309999999999995
+Australia,Melbourne,TRUE,FALSE,FALSE,12.57,2.62,AUD - Australian Dollar,5,24
+Australia,Brisbane,TRUE,FALSE,FALSE,16.76,2.62,AUD - Australian Dollar,5,32
+Australia,Melbourne,FALSE,TRUE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Australia,NA,FALSE,FALSE,TRUE,17.28,2.62,AUD - Australian Dollar,5,33
+Australia,Melbourne,TRUE,FALSE,FALSE,16.63,2.62,AUD - Australian Dollar,5,31.75
+Australia,Brisbane,FALSE,TRUE,FALSE,15.71,2.62,AUD - Australian Dollar,5,30
+Australia,NA,FALSE,TRUE,TRUE,20.43,2.62,AUD - Australian Dollar,5,39
+Australia,Launceston,TRUE,FALSE,FALSE,14.14,2.62,AUD - Australian Dollar,5,27
+Australia,Darwin,TRUE,FALSE,FALSE,13.09,2.62,AUD - Australian Dollar,5,25
+Australia,Brisbane,FALSE,TRUE,FALSE,17.38,2.62,AUD - Australian Dollar,5,33.190000000000005
+Australia,Melbourne,FALSE,TRUE,FALSE,15.78,2.62,AUD - Australian Dollar,5,30.130000000000003
+Australia,Townsville,FALSE,TRUE,FALSE,20.95,2.62,AUD - Australian Dollar,5,40
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.62,AUD - Australian Dollar,5,35
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.62,AUD - Australian Dollar,5,35
+Australia,Melbourne,FALSE,TRUE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Australia,Brisbane,FALSE,TRUE,FALSE,13.62,2.62,AUD - Australian Dollar,5,26
+Australia,Sunshine Coast,FALSE,TRUE,FALSE,17.89,2.62,AUD - Australian Dollar,5,34.15
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.62,AUD - Australian Dollar,5,35
+Australia,Castlemaine,FALSE,FALSE,TRUE,18.33,2.62,AUD - Australian Dollar,5,35
+Australia,Gold Coast,TRUE,FALSE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Australia,Adelaide,FALSE,TRUE,FALSE,13.07,2.62,AUD - Australian Dollar,5,24.959999999999997
+Australia,Brisbane,TRUE,FALSE,FALSE,16.92,2.62,AUD - Australian Dollar,5,32.309999999999995
+Australia,Melbourne,FALSE,TRUE,FALSE,16.03,2.62,AUD - Australian Dollar,5,30.6
+Australia,NA,FALSE,TRUE,FALSE,11.94,2.62,AUD - Australian Dollar,5,22.8
+Australia,Adelaide,FALSE,TRUE,FALSE,17.48,2.62,AUD - Australian Dollar,5,33.379999999999995
+Australia,Dunsborough,TRUE,FALSE,FALSE,14.66,2.62,AUD - Australian Dollar,5,28
+Australia,NA,FALSE,FALSE,TRUE,15.71,2.62,AUD - Australian Dollar,5,30
+Australia,Adelaide,FALSE,TRUE,FALSE,17.81,2.62,AUD - Australian Dollar,5,34
+Australia,Sydney,FALSE,TRUE,FALSE,18.85,2.62,AUD - Australian Dollar,5,36
+Australia,Hastings,TRUE,FALSE,FALSE,15.71,2.62,AUD - Australian Dollar,5,30
+Australia,Townsville,FALSE,TRUE,FALSE,16.76,2.62,AUD - Australian Dollar,5,32
+Australia,Brisbane,TRUE,FALSE,FALSE,16.76,2.62,AUD - Australian Dollar,5,32
+Australia,Sunshine Coast,FALSE,TRUE,FALSE,16.24,2.62,AUD - Australian Dollar,5,31
+Germany,Berlin,TRUE,FALSE,FALSE,15.85,2.57,EUR - Euro,3,18.5
+Germany,Landau in der Pfalz,TRUE,FALSE,FALSE,11.99,2.57,EUR - Euro,3,14
+Netherlands,Amstelveen,FALSE,TRUE,FALSE,7.71,2.57,EUR - Euro,3,9
+Germany,Berlin,TRUE,FALSE,FALSE,10.28,2.57,EUR - Euro,3,12
+Germany,Wernau,TRUE,FALSE,FALSE,11.99,2.57,EUR - Euro,3,14
+Portugal,Porto,TRUE,FALSE,FALSE,5.68,2.57,EUR - Euro,3,6.63
+Spain,Valencia,TRUE,FALSE,FALSE,8.03,2.57,EUR - Euro,3,9.38
+Austria,Vienna,TRUE,FALSE,FALSE,9.42,2.57,EUR - Euro,3,11
+Bulgaria,Burgas,TRUE,FALSE,FALSE,5.14,2.57,EUR - Euro,3,6
+Croatia,Zagreb,TRUE,FALSE,FALSE,5.31,2.57,EUR - Euro,3,6.2
+Cyprus,Nicosia,TRUE,FALSE,FALSE,6,2.57,EUR - Euro,3,7
+Greece,Mytilene,FALSE,TRUE,FALSE,4.28,2.57,EUR - Euro,3,5
+Greece,Arta,FALSE,TRUE,FALSE,4.28,2.57,EUR - Euro,3,5
+Portugal,Matosinhos,TRUE,FALSE,FALSE,5.14,2.57,EUR - Euro,3,6
+Portugal,Lisbon,TRUE,FALSE,FALSE,5.82,2.57,EUR - Euro,3,6.8
+Portugal,Lisbon,TRUE,FALSE,FALSE,6,2.57,EUR - Euro,3,7
+Spain,Girona,FALSE,TRUE,FALSE,5.14,2.57,EUR - Euro,3,6
+Spain,Barcelona,TRUE,FALSE,FALSE,8.31,2.57,EUR - Euro,3,9.7
+Germany,Jena,TRUE,FALSE,FALSE,11.91,2.57,EUR - Euro,3,13.9
+Slovenia,Ljubljana,TRUE,FALSE,FALSE,7.71,2.57,EUR - Euro,3,9
+Croatia,Zagreb,TRUE,FALSE,FALSE,9.42,2.57,EUR - Euro,3,11
+Spain,Valencia,TRUE,FALSE,FALSE,7.19,2.57,EUR - Euro,3,8.4
+Spain,Madrid,TRUE,FALSE,FALSE,7.49,2.57,EUR - Euro,3,8.75
+Japan,"Kiryu, Gunma",TRUE,TRUE,FALSE,4.91,2.57,JPY - Yen,550,1050
+Armenia,Yerevan,TRUE,FALSE,FALSE,3.06,2.65,AMD - Armenian Dram,1300,1500
+Canada,Toronto,TRUE,FALSE,FALSE,11.16,2.52,CAD - Canadian Dollar,4.75,21
+Canada,Montréal,TRUE,FALSE,FALSE,11.69,2.52,CAD - Canadian Dollar,4.75,22
+Canada,Montréal,TRUE,FALSE,FALSE,8.77,2.52,CAD - Canadian Dollar,4.75,16.5
+USA,"Santa Rosa, CA",FALSE,TRUE,FALSE,15,2.56,USD - US dollar,3.4499999999999997,20.25
+Argentina,Buenos Aires,TRUE,FALSE,FALSE,2.47,2.37,ARS - Argentine Peso,4800,5000
+Canada,Sherbrooke,TRUE,FALSE,FALSE,8.63,2.5,CAD - Canadian Dollar,4.71,16.25
+Brazil,Marilia,TRUE,FALSE,FALSE,2.04,2.62,BRL - Brazilian Real,18,14
+Vietnam,Ho Chi Minh city,TRUE,FALSE,FALSE,0.91,2.55,VND - Dong,90000,32000
+Hungary,Budapest,TRUE,FALSE,FALSE,6.15,2.72,HUF - Forint,1150,2600
+Romania,Cluj-Napoca,TRUE,FALSE,FALSE,2.78,2.45,RON - Romanian Leu,15,17
+Romania,Iaşi,TRUE,FALSE,FALSE,2.94,2.45,RON - Romanian Leu,15,18
+Romania,Iaşi,TRUE,FALSE,FALSE,3.11,2.45,RON - Romanian Leu,15,19
+Romania,Iaşi,TRUE,FALSE,FALSE,2.78,2.45,RON - Romanian Leu,15,17
+Australia,Brisbane,FALSE,TRUE,FALSE,15.71,2.57,AUD - Australian Dollar,4.9,30
+Australia,Sydney,FALSE,TRUE,FALSE,12.57,2.57,AUD - Australian Dollar,4.9,24
+Australia,Brisbane,TRUE,FALSE,FALSE,10.16,2.57,AUD - Australian Dollar,4.9,19.4
+Czechia,Prostějov,FALSE,TRUE,FALSE,4.41,2.54,CZK - Czech Koruna,72,125
+Turkey,Istanbul,TRUE,FALSE,FALSE,2.33,2.33,TRY - Turkish Lira,150,150
+Canada,Montréal,TRUE,FALSE,FALSE,15.94,2.47,CAD - Canadian Dollar,4.6499999999999995,30
+Canada,Edmonton,TRUE,FALSE,FALSE,9.47,2.47,CAD - Canadian Dollar,4.6499999999999995,17.830000000000002
+New Zealand,Auckland,TRUE,FALSE,FALSE,10.7,2.53,NZD - New Zealand Dollar,5.8,24.5
+New Zealand,Cambridge,TRUE,TRUE,FALSE,10.11,2.53,NZD - New Zealand Dollar,5.8,23.150000000000002
+New Zealand,Tāmaki Makaurau (Auckland),FALSE,TRUE,FALSE,11.35,2.53,NZD - New Zealand Dollar,5.8,26
+Argentina,Mendoza,TRUE,FALSE,FALSE,1.68,2.32,ARS - Argentine Peso,4700,3400
+Slovakia,Dubnica nad Váhom,TRUE,FALSE,FALSE,4.71,2.48,EUR - Euro,2.9,5.5
+Spain,Madrid,TRUE,FALSE,FALSE,7.49,2.48,EUR - Euro,2.9,8.75
+Spain,Ibiza,TRUE,FALSE,FALSE,5.87,2.48,EUR - Euro,2.9,6.85
+Spain,Barcelona,TRUE,FALSE,FALSE,4.63,2.48,EUR - Euro,2.9,5.41
+Slovakia,Trenčín,TRUE,FALSE,FALSE,5.14,2.48,EUR - Euro,2.9,6
+Germany,Berlin,TRUE,FALSE,FALSE,11.91,2.48,EUR - Euro,2.9,13.9
+Ireland,Cork,FALSE,TRUE,FALSE,11.56,2.48,EUR - Euro,2.9,13.5
+Slovakia,Bratislava,TRUE,FALSE,FALSE,5.48,2.48,EUR - Euro,2.9,6.4
+Spain,A Coruña,TRUE,FALSE,FALSE,5.63,2.48,EUR - Euro,2.9,6.57
+Slovakia,Bratislava,TRUE,FALSE,FALSE,6.17,2.48,EUR - Euro,2.9,7.2
+Spain,Madrid,TRUE,FALSE,FALSE,6,2.48,EUR - Euro,2.9,7
+Spain,Madrid,TRUE,FALSE,FALSE,7.9,2.48,EUR - Euro,2.9,9.219999999999999
+Mexico,Mérida,TRUE,FALSE,FALSE,2.16,2.59,MXN - Mexican Peso,60,50
+Mexico,Monterrey,TRUE,FALSE,FALSE,2.25,2.59,MXN - Mexican Peso,60,52
+Mexico,Guadalajara,TRUE,FALSE,FALSE,4.32,2.59,MXN - Mexican Peso,60,100
+Canada,Charlottetown,TRUE,FALSE,FALSE,9.3,2.44,CAD - Canadian Dollar,4.6,17.5
+South Korea,Seoul,TRUE,FALSE,FALSE,5.48,2.61,KRW - Won,5000,10500
+Australia,Sydney,FALSE,TRUE,FALSE,17.39,2.51,AUD - Australian Dollar,4.8,33.2
+Australia,Adelaide,TRUE,FALSE,FALSE,16.76,2.51,AUD - Australian Dollar,4.8,32
+Serbia,Belgrade,TRUE,FALSE,FALSE,3.28,2.45,RSD - Serbian Dinar,335,450
+Canada,Cambridge,TRUE,FALSE,FALSE,12.22,2.42,CAD - Canadian Dollar,4.55,23
+Canada,Squamish,FALSE,TRUE,FALSE,12.09,2.42,CAD - Canadian Dollar,4.55,22.75
+Canada,Calgary,TRUE,FALSE,FALSE,14.34,2.42,CAD - Canadian Dollar,4.55,27
+Canada,Calgary,TRUE,FALSE,FALSE,11.27,2.42,CAD - Canadian Dollar,4.55,21.21
+Czechia,Prague,TRUE,FALSE,FALSE,6,2.47,CZK - Czech Koruna,70,170
+Czechia,Příbram,TRUE,FALSE,FALSE,5.65,2.47,CZK - Czech Koruna,70,160
+Czechia,Ústí nad Labem,TRUE,FALSE,FALSE,4.94,2.47,CZK - Czech Koruna,70,140
+Czechia,Příbram,FALSE,TRUE,FALSE,4.73,2.47,CZK - Czech Koruna,70,134
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,2.49,AUD - Australian Dollar,4.75,33
+USA,Saratoga,FALSE,TRUE,FALSE,12.6,2.44,USD - US dollar,3.3,17
+USA,"Gadsden, AL",FALSE,TRUE,TRUE,9.63,2.44,USD - US dollar,3.3,13
+Spain,Las Palmas de Gran Canaria,TRUE,FALSE,FALSE,7.71,2.44,EUR - Euro,2.8499999999999996,9
+Argentina,La plata,TRUE,FALSE,FALSE,2.47,2.27,ARS - Argentine Peso,4600,5000
+USA,"Buffalo, NY",TRUE,FALSE,FALSE,12.6,2.44,USD - US dollar,3.29,17
+Canada,Canmore,TRUE,FALSE,FALSE,10.09,2.4,CAD - Canadian Dollar,4.52,19
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.63,2.36,MYR - Malaysian Ringgit,13,9
+Canada,Calgary,TRUE,FALSE,FALSE,11.69,2.39,CAD - Canadian Dollar,4.5,22
+Canada,Toronto,TRUE,FALSE,FALSE,9.67,2.39,CAD - Canadian Dollar,4.5,18.2
+Canada,Toronto,TRUE,FALSE,FALSE,10.09,2.39,CAD - Canadian Dollar,4.5,19
+Canada,"Dartmouth, Nova Scotia",TRUE,FALSE,FALSE,11.69,2.39,CAD - Canadian Dollar,4.5,22
+Canada,Invermere,FALSE,FALSE,TRUE,11.33,2.39,CAD - Canadian Dollar,4.5,21.32
+Canada,Fredericton,FALSE,TRUE,FALSE,8.5,2.39,CAD - Canadian Dollar,4.5,16
+Canada,Toronto,TRUE,FALSE,FALSE,16.27,2.39,CAD - Canadian Dollar,4.5,30.630000000000003
+Canada,Montréal,TRUE,FALSE,FALSE,10.36,2.39,CAD - Canadian Dollar,4.5,19.5
+Guatemala,Ciudad de Guatemala,TRUE,FALSE,FALSE,2.08,2.43,GTQ - Quetzal,25,21.35
+Australia,Perth,FALSE,TRUE,FALSE,16.76,2.46,AUD - Australian Dollar,4.7,32
+Australia,Melbourne,FALSE,TRUE,FALSE,18.33,2.46,AUD - Australian Dollar,4.7,35
+Australia,Melbourne,TRUE,FALSE,FALSE,20.95,2.46,AUD - Australian Dollar,4.7,40
+Australia,Brisbane,FALSE,TRUE,FALSE,11.13,2.46,AUD - Australian Dollar,4.7,21.25
+Hungary,Budapest,TRUE,FALSE,FALSE,5.79,2.6,HUF - Forint,1100,2450
+USA,St. Paul,TRUE,FALSE,FALSE,12.41,2.41,USD - US dollar,3.25,16.75
+Poland,Łódź,FALSE,TRUE,FALSE,6.77,2.39,PLN - Zloty,12,34
+Poland,Tychy,TRUE,FALSE,FALSE,6.38,2.39,PLN - Zloty,12,32
+Greece,Athens,TRUE,FALSE,FALSE,4.71,2.4,EUR - Euro,2.8,5.5
+Slovakia,Košice,TRUE,FALSE,FALSE,4.71,2.4,EUR - Euro,2.8,5.5
+Germany,Stuttgart,FALSE,TRUE,FALSE,11.56,2.4,EUR - Euro,2.8,13.5
+Slovakia,Bratislava,TRUE,FALSE,FALSE,5.48,2.4,EUR - Euro,2.8,6.4
+Spain,Seville,TRUE,FALSE,FALSE,7.07,2.4,EUR - Euro,2.8,8.25
+Brazil,Florianópolis,TRUE,FALSE,FALSE,2.91,2.48,BRL - Brazilian Real,17,20
+Russia,Obninsk,TRUE,FALSE,FALSE,3.05,2.33,RUB - Russian Ruble,260,340
+Argentina,Tucuman,TRUE,FALSE,FALSE,1.53,2.22,ARS - Argentine Peso,4500,3100
+Argentina,"Crespo, Entre Rios",TRUE,FALSE,FALSE,2.22,2.22,ARS - Argentine Peso,4500,4500
+USA,Chicago,TRUE,FALSE,FALSE,14.08,2.38,USD - US dollar,3.21,19
+UK,Norwich,FALSE,TRUE,FALSE,12.44,2.4,GBP - Pound Sterling,2.4,12.44
+New Zealand,Wellington,TRUE,FALSE,FALSE,10.26,2.4,NZD - New Zealand Dollar,5.5,23.5
+New Zealand,"Paraparaumu, Kapit Coast",FALSE,TRUE,FALSE,12.01,2.4,NZD - New Zealand Dollar,5.5,27.5
+New Zealand,Palmerston North,FALSE,TRUE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.4,NZD - New Zealand Dollar,5.5,26
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
+India,Bangalore,TRUE,FALSE,FALSE,0.89,2.33,INR - Indian Rupee,300,115
+Australia,Brisbane,TRUE,FALSE,FALSE,17.37,2.41,AUD - Australian Dollar,4.6,33.17
+Australia,Melbourne,TRUE,FALSE,FALSE,14.66,2.41,AUD - Australian Dollar,4.6,28
+Mexico,Colima,TRUE,FALSE,FALSE,1.7,2.46,MXN - Mexican Peso,57,39.379999999999995
+Romania,Bucharest,TRUE,FALSE,FALSE,5.73,2.29,RON - Romanian Leu,14,35
+Canada,Nanaimo,TRUE,FALSE,FALSE,12.2,2.32,CAD - Canadian Dollar,4.359999999999999,22.97
+Czechia,NA,TRUE,FALSE,FALSE,5.29,2.36,CZK - Czech Koruna,67,150
+Serbia,NA,TRUE,TRUE,FALSE,4.01,2.34,RSD - Serbian Dinar,320,550
+Japan,Nishinoomote,FALSE,FALSE,TRUE,7.01,2.34,JPY - Yen,500,1500
+Moldova,Chisinau,TRUE,FALSE,FALSE,3.85,2.35,MDL - Moldovan Leu,55,90
+New Zealand,Christchurch,FALSE,TRUE,FALSE,11.35,2.36,NZD - New Zealand Dollar,5.4,26
+Australia,Horsham,FALSE,FALSE,TRUE,9.82,2.36,AUD - Australian Dollar,4.5,18.75
+Australia,Sydney,FALSE,TRUE,FALSE,17.02,2.36,AUD - Australian Dollar,4.5,32.5
+Australia,Perth,FALSE,TRUE,FALSE,16.76,2.36,AUD - Australian Dollar,4.5,32
+Australia,Melbourne,FALSE,TRUE,FALSE,16.55,2.36,AUD - Australian Dollar,4.5,31.6
+Australia,NA,FALSE,TRUE,FALSE,15.71,2.36,AUD - Australian Dollar,4.5,30
+Australia,Melbourne,TRUE,FALSE,FALSE,17.02,2.36,AUD - Australian Dollar,4.5,32.5
+Australia,Sydney,TRUE,FALSE,FALSE,12.57,2.36,AUD - Australian Dollar,4.5,24
+Australia,Townsville,TRUE,FALSE,FALSE,16.76,2.36,AUD - Australian Dollar,4.5,32
+Australia,Brisbane,FALSE,TRUE,FALSE,16.76,2.36,AUD - Australian Dollar,4.5,32
+Australia,Melbourne,TRUE,FALSE,FALSE,17.28,2.36,AUD - Australian Dollar,4.5,33
+Australia,Brisbane,FALSE,TRUE,FALSE,18.33,2.36,AUD - Australian Dollar,4.5,35
+Australia,Melbourne,FALSE,TRUE,FALSE,13.75,2.36,AUD - Australian Dollar,4.5,26.25
+Australia,Sydney,TRUE,FALSE,FALSE,28.8,2.36,AUD - Australian Dollar,4.5,55
+Australia,Sydney,FALSE,TRUE,FALSE,14.4,2.36,AUD - Australian Dollar,4.5,27.5
+Australia,Sydney,FALSE,TRUE,FALSE,16.34,2.36,AUD - Australian Dollar,4.5,31.2
+Australia,Newcastle,TRUE,FALSE,FALSE,14.66,2.36,AUD - Australian Dollar,4.5,28
+Croatia,Zagreb,FALSE,TRUE,FALSE,5.14,2.31,EUR - Euro,2.7,6
+Greece,Thessaloniki,TRUE,FALSE,FALSE,5.05,2.31,EUR - Euro,2.7,5.9
+Spain,Málaga,TRUE,FALSE,FALSE,7.54,2.31,EUR - Euro,2.7,8.8
+Slovenia,Ljubljana,TRUE,FALSE,FALSE,6.63,2.31,EUR - Euro,2.7,7.74
+Canada,Montréal,TRUE,FALSE,FALSE,9.03,2.26,CAD - Canadian Dollar,4.25,17
+Canada,Montréal,TRUE,FALSE,FALSE,10.36,2.26,CAD - Canadian Dollar,4.25,19.5
+Argentina,La plata,TRUE,FALSE,FALSE,2.97,2.13,ARS - Argentine Peso,4300,6000
+Argentina,Buenos Aires,TRUE,FALSE,FALSE,2.72,2.13,ARS - Argentine Peso,4300,5500
+Argentina,La Plata,TRUE,FALSE,FALSE,2.97,2.13,ARS - Argentine Peso,4300,6000
+Mexico,Matamoros,TRUE,FALSE,FALSE,2.68,2.38,MXN - Mexican Peso,55,62
+Mexico,Puebla,TRUE,FALSE,FALSE,1.51,2.38,MXN - Mexican Peso,55,35
+Mexico,Puebla,TRUE,FALSE,FALSE,1.73,2.38,MXN - Mexican Peso,55,40
+Mexico,Tepic,TRUE,FALSE,FALSE,2,2.38,MXN - Mexican Peso,55,46.160000000000004
+Mexico,México city,TRUE,FALSE,FALSE,3.24,2.38,MXN - Mexican Peso,55,75
+Czechia,Olomouc,TRUE,FALSE,FALSE,7.77,2.29,CZK - Czech Koruna,65,220
+Czechia,Brno,FALSE,TRUE,FALSE,5.29,2.29,CZK - Czech Koruna,65,150
+Serbia,Novi Sad,TRUE,FALSE,FALSE,2.71,2.26,RSD - Serbian Dinar,310,371
+Australia,Melbourne,TRUE,FALSE,FALSE,15.08,2.3,AUD - Australian Dollar,4.4,28.8
+Chile,Santiago,TRUE,FALSE,FALSE,2.43,2.27,CLP - Chilean Peso,2800,3000
+Canada,Vancouver,TRUE,FALSE,FALSE,9.16,2.23,CAD - Canadian Dollar,4.2,17.25
+USA,"Columbus, OH",TRUE,FALSE,FALSE,11.91,2.25,USD - US dollar,3.04,16.07
+Brazil,Londrina,TRUE,FALSE,FALSE,2.91,2.33,BRL - Brazilian Real,16,20
+Brazil,São Paulo,TRUE,FALSE,FALSE,3.5,2.33,BRL - Brazilian Real,16,24
+Brazil,Erechim / Rio Grande do Sul,TRUE,FALSE,FALSE,1.6,2.33,BRL - Brazilian Real,16,11
+Russia,Rostov-in-Don,TRUE,FALSE,FALSE,2.06,2.2,RUB - Russian Ruble,245,230
+Russia,Obninsk,TRUE,FALSE,FALSE,2.42,2.2,RUB - Russian Ruble,245,270
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.45,2.17,MYR - Malaysian Ringgit,12,8
+Malaysia,Shah Alam,FALSE,TRUE,FALSE,2.54,2.17,MYR - Malaysian Ringgit,12,14
+Malaysia,Klang,FALSE,TRUE,FALSE,1.81,2.17,MYR - Malaysian Ringgit,12,10
+Czechia,Poděbrady,TRUE,FALSE,FALSE,5.29,2.26,CZK - Czech Koruna,64,150
+Czechia,Poděbrady,TRUE,FALSE,FALSE,6,2.26,CZK - Czech Koruna,64,170
+New Zealand,Wellington,FALSE,TRUE,FALSE,11.57,2.27,NZD - New Zealand Dollar,5.2,26.5
+Serbia,Belgrade,TRUE,FALSE,FALSE,3.36,2.23,RSD - Serbian Dinar,305,460
+Croatia,Zagreb,TRUE,FALSE,FALSE,4.82,2.23,EUR - Euro,2.6,5.63
+Spain,Valencia,TRUE,FALSE,FALSE,8.03,2.23,EUR - Euro,2.6,9.370000000000001
+Latvia,Riga,TRUE,FALSE,FALSE,4.28,2.23,EUR - Euro,2.6,5
+Argentina,Rosario,TRUE,FALSE,FALSE,2.47,2.08,ARS - Argentine Peso,4200,5000
+Philippines,Baguio City,TRUE,FALSE,FALSE,0.72,2.19,PHP - Philippine Peso,180,58.75
+USA,"Modesto, CA",FALSE,TRUE,FALSE,12.97,2.22,USD - US dollar,3,17.5
+USA,NA,FALSE,TRUE,FALSE,12.6,2.22,USD - US dollar,3,17
+USA,Baltimore,TRUE,FALSE,FALSE,5.19,2.22,USD - US dollar,3,7
+USA,"Houston, TX",TRUE,FALSE,FALSE,7.41,2.22,USD - US dollar,3,10
+USA,NA,FALSE,TRUE,FALSE,8.89,2.22,USD - US dollar,3,12
+USA,NA,FALSE,FALSE,TRUE,11.11,2.22,USD - US dollar,3,15
+Australia,Melbourne,TRUE,FALSE,FALSE,15.71,2.25,AUD - Australian Dollar,4.3,30
+India,lucknow uttar pradesh,TRUE,TRUE,TRUE,0.62,2.18,INR - Indian Rupee,280,80
+Poland,Lublin,TRUE,FALSE,FALSE,6.57,2.19,PLN - Zloty,11,33
+Poland,Rawa Mazowiecka,TRUE,FALSE,FALSE,6.38,2.19,PLN - Zloty,11,32
+Poland,Warsaw,TRUE,TRUE,FALSE,6.57,2.19,PLN - Zloty,10.99,32.99
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.23,NZD - New Zealand Dollar,5.1,26
+Chile,Santiago,TRUE,FALSE,FALSE,3.53,2.19,CLP - Chilean Peso,2700,4350
+Canada,NA,TRUE,FALSE,FALSE,9,2.12,CAD - Canadian Dollar,4,16.95
+Canada,Fredericton,TRUE,FALSE,FALSE,9.56,2.12,CAD - Canadian Dollar,4,18
+Canada,"Princeton, BC",FALSE,FALSE,TRUE,10.09,2.12,CAD - Canadian Dollar,4,19
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,12.66,2.18,NZD - New Zealand Dollar,5,29
+New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.79,2.18,NZD - New Zealand Dollar,5,27
+USA,NA,FALSE,TRUE,FALSE,9.26,2.15,USD - US dollar,2.9,12.5
+Bolivia,La Paz,TRUE,FALSE,FALSE,0.86,1.25,BOB - Boliviano,20,13.75
+Malta,Sliema,TRUE,FALSE,FALSE,6.85,2.14,EUR - Euro,2.5,8
+Portugal,NA,FALSE,TRUE,FALSE,5.14,2.14,EUR - Euro,2.5,6
+Spain,Madrid,TRUE,FALSE,FALSE,8.57,2.14,EUR - Euro,2.5,10
+Greece,Athens,TRUE,FALSE,FALSE,5.05,2.14,EUR - Euro,2.5,5.9
+Greece,Athens,TRUE,FALSE,FALSE,4.28,2.14,EUR - Euro,2.5,5
+Greece,Drama,TRUE,FALSE,FALSE,3.85,2.14,EUR - Euro,2.5,4.5
+Italy,Milan,TRUE,FALSE,FALSE,8.57,2.14,EUR - Euro,2.5,10
+Italy,Pesaro,TRUE,FALSE,FALSE,5.14,2.14,EUR - Euro,2.5,6
+Serbia,Belgrade,TRUE,FALSE,FALSE,2.55,2.12,RSD - Serbian Dinar,290,350
+Brazil,Florianópolis,TRUE,TRUE,FALSE,2.77,2.19,BRL - Brazilian Real,15,19
+Hungary,Szeged,TRUE,FALSE,FALSE,4.39,2.25,HUF - Forint,950,1856
+Malaysia,Selangor,TRUE,TRUE,FALSE,1.81,1.99,MYR - Malaysian Ringgit,11,10
+Malaysia,Kota Kinabalu,FALSE,TRUE,FALSE,1.45,1.99,MYR - Malaysian Ringgit,11,8
+Malaysia,Kuala Lumpur,TRUE,FALSE,FALSE,1.09,1.99,MYR - Malaysian Ringgit,11,6
+Malaysia,Subang Jaya,TRUE,FALSE,FALSE,2.17,1.99,MYR - Malaysian Ringgit,11,12
+Australia,Sydney,TRUE,FALSE,FALSE,18.33,2.09,AUD - Australian Dollar,4,35
+Sweden,Stockholm,TRUE,FALSE,FALSE,19.56,2.03,SEK - Swedish Krona,26,250
+Australia,Perth,FALSE,TRUE,FALSE,19.9,2.09,AUD - Australian Dollar,4,38
+Australia,Melbourne,FALSE,TRUE,FALSE,17.02,2.09,AUD - Australian Dollar,4,32.5
+Latvia,Liepaja,TRUE,FALSE,FALSE,3.43,2.06,EUR - Euro,2.4,4
+Netherlands,The Hague,TRUE,FALSE,FALSE,16.45,2.06,EUR - Euro,2.4,19.2
+Greece,Thessaloniki,TRUE,FALSE,FALSE,4.71,2.06,EUR - Euro,2.4,5.5
+Greece,Thessaloniki,TRUE,FALSE,FALSE,4.28,2.06,EUR - Euro,2.4,5
+Slovenia,Celje,TRUE,FALSE,FALSE,8.57,2.06,EUR - Euro,2.4,10
+Spain,Girona,TRUE,FALSE,FALSE,10.28,2.06,EUR - Euro,2.4,12
+Croatia,Omiš,TRUE,FALSE,FALSE,5.83,2.06,EUR - Euro,2.4,6.81
+Germany,NA,TRUE,FALSE,FALSE,12.85,2.06,EUR - Euro,2.4,15
+Greece,Thessaloniki,FALSE,TRUE,FALSE,3.85,2.06,EUR - Euro,2.4,4.5
+Ireland,Galway,TRUE,FALSE,FALSE,9.81,2.06,EUR - Euro,2.4,11.450000000000001
+Croatia,Zagreb,TRUE,FALSE,FALSE,6.85,2.06,EUR - Euro,2.4,8
+India,Hyderabad,TRUE,FALSE,FALSE,1.01,2.02,INR - Indian Rupee,260,130
+Serbia,Novi Sad,FALSE,TRUE,FALSE,2.92,2.04,RSD - Serbian Dinar,280,400
+Philippines,Manila,TRUE,FALSE,FALSE,1.06,2.01,PHP - Philippine Peso,165,86.88
+USA,Lakewood,FALSE,TRUE,FALSE,13.34,2.04,USD - US dollar,2.75,18
+Ukraine,Kyiv,TRUE,FALSE,FALSE,1.33,1.99,UAH - Hryvnia,120,80
+Russia,Khabarovsk,TRUE,FALSE,FALSE,3.14,1.97,RUB - Russian Ruble,220,350
+Romania,Iaşi,TRUE,FALSE,FALSE,3.11,1.96,RON - Romanian Leu,12,19
+Argentina,San Miguel de Tucumán,TRUE,FALSE,FALSE,3.06,1.88,ARS - Argentine Peso,3800,6200
+Argentina,Córdoba,TRUE,FALSE,FALSE,2.22,1.88,ARS - Argentine Peso,3800,4500
+Mauritius,Pamplemousses,FALSE,FALSE,TRUE,1.89,1.97,MUR - Mauritius Rupee,125,120
+South Korea,Seoul,TRUE,FALSE,FALSE,5.74,2.09,KRW - Won,4000,11000
+Philippines,Makati City,TRUE,FALSE,FALSE,1.37,1.95,PHP - Philippine Peso,160,112.5
+Philippines,Malolos City,FALSE,TRUE,FALSE,0.84,1.95,PHP - Philippine Peso,160,69
+Indonesia,Bali,TRUE,FALSE,FALSE,0.83,1.88,IDR - Rupiah,45000,20000
+India,Ludhiana,TRUE,FALSE,FALSE,0.86,1.94,INR - Indian Rupee,250,111
+Greece,Kastoria,FALSE,TRUE,FALSE,4.28,1.97,EUR - Euro,2.3,5
+Spain,Gijon,TRUE,FALSE,FALSE,7.49,1.97,EUR - Euro,2.3,8.75
+Italy,Florence,TRUE,FALSE,FALSE,6.85,1.97,EUR - Euro,2.3,8
+Slovenia,Ljubljana,TRUE,FALSE,FALSE,12.85,1.97,EUR - Euro,2.3,15
+Spain,Oviedo,TRUE,FALSE,FALSE,7.28,1.97,EUR - Euro,2.3,8.5
+Brazil,"Joinville, SC",TRUE,FALSE,FALSE,2.02,2.04,BRL - Brazilian Real,14,13.89
+Brazil,São Sebastião,FALSE,TRUE,FALSE,2.91,2.04,BRL - Brazilian Real,14,20
+Brazil,"Joinville, SC",TRUE,FALSE,FALSE,2.41,2.04,BRL - Brazilian Real,14,16.52
+Brazil,Caxias do Sul,TRUE,FALSE,FALSE,1.17,2.04,BRL - Brazilian Real,14,8
+Brazil,Porto Alegre,TRUE,FALSE,FALSE,1.75,2.04,BRL - Brazilian Real,14,12
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.27,1.97,NZD - New Zealand Dollar,4.5,28.1
+New Zealand,Wellington,TRUE,FALSE,FALSE,10.7,1.97,NZD - New Zealand Dollar,4.5,24.5
+Guatemala,Antigua,TRUE,FALSE,FALSE,3.31,1.95,GTQ - Quetzal,20,34
+India,Mumbai,TRUE,FALSE,FALSE,0.78,1.91,INR - Indian Rupee,245,100
+Bolivia,Santa Cruz,TRUE,FALSE,FALSE,0.94,1.13,BOB - Boliviano,18,15
+Puerto Rico,Arecibo,TRUE,FALSE,FALSE,7.78,1.93,USD - US dollar,2.6,10.5
+Nicaragua,Estelí,TRUE,FALSE,FALSE,0.93,1.92,NIO - Cordoba Oro,95,45.83
+South Africa,Modderfontein,FALSE,TRUE,FALSE,2.25,2.02,ZAR - Rand,44,49
+Brazil,Rio de Janeiro,FALSE,TRUE,FALSE,1.11,1.97,BRL - Brazilian Real,13.5,7.63
+Colombia,Monteria,TRUE,FALSE,FALSE,1.88,2.24,COP - Colombian Peso,9500,7959
+India,Delhi,TRUE,FALSE,FALSE,0.7,1.87,INR - Indian Rupee,240,90
+Spain,Madrid,TRUE,FALSE,FALSE,8.01,1.88,EUR - Euro,2.2,9.350000000000001
+Croatia,Rijeka,TRUE,FALSE,FALSE,6,1.88,EUR - Euro,2.2,7
+Italy,Milan,TRUE,FALSE,FALSE,9.42,1.88,EUR - Euro,2.2,11
+Croatia,Osijek,TRUE,FALSE,FALSE,4.71,1.88,EUR - Euro,2.2,5.5
+Canada,St. John’s,TRUE,FALSE,FALSE,8.77,1.86,CAD - Canadian Dollar,3.5,16.5
+Malaysia,Kuala Lumpur,FALSE,TRUE,FALSE,2.17,1.81,MYR - Malaysian Ringgit,10,12
+Japan,Kobe,TRUE,FALSE,FALSE,7.01,1.87,JPY - Yen,400,1500
+Mexico,Ciudad Guzmán,TRUE,FALSE,FALSE,3.59,1.95,MXN - Mexican Peso,45,83
+Pakistan,Islamabad,TRUE,FALSE,FALSE,0.45,1.87,PKR - Pakistan Rupee,700,170
+Pakistan,Lahore,TRUE,FALSE,FALSE,0.36,1.87,PKR - Pakistan Rupee,700,135
+Ecuador,Quito,TRUE,FALSE,FALSE,5.93,1.85,USD - US dollar,2.5,8
+Russia,Krasnoyarsk,TRUE,FALSE,FALSE,2.06,1.79,RUB - Russian Ruble,200,230
+Jordan,Amman,FALSE,TRUE,FALSE,1.41,1.83,JOD - Jordanian Dinar,1.75,1.35
+Brazil,Belém,FALSE,TRUE,FALSE,1.75,1.89,BRL - Brazilian Real,13,12
+Vietnam,Hanoi,TRUE,FALSE,FALSE,0.68,1.84,VND - Dong,65000,24000
+Canada,Edmonton,TRUE,FALSE,FALSE,13.28,1.78,CAD - Canadian Dollar,3.36,25
+Australia,Sydney,TRUE,FALSE,FALSE,16.94,1.83,AUD - Australian Dollar,3.5,32.349999999999994
+Greece,Athens,TRUE,FALSE,FALSE,6,1.8,EUR - Euro,2.1,7
+Colombia,Chia,TRUE,FALSE,FALSE,1.65,2.12,COP - Colombian Peso,9000,7000
+India,Mumbai,TRUE,FALSE,FALSE,0.17,1.75,INR - Indian Rupee,225,22
+India,Lucknow,TRUE,FALSE,FALSE,0.45,1.75,INR - Indian Rupee,225,58
+Hungary,Budapest,TRUE,FALSE,FALSE,4.25,1.89,HUF - Forint,800,1800
+Czechia,NA,FALSE,FALSE,TRUE,5.29,1.76,CZK - Czech Koruna,50,150
+Russia,NA,TRUE,FALSE,FALSE,2.24,1.7,RUB - Russian Ruble,190,250
+Russia,Tomsk,TRUE,FALSE,FALSE,2.46,1.7,RUB - Russian Ruble,190,274
+Philippines,Makati City,TRUE,FALSE,FALSE,1.46,1.71,PHP - Philippine Peso,140,120
+Philippines,Makati City,TRUE,FALSE,FALSE,1.05,1.71,PHP - Philippine Peso,140,86
+Philippines,Makati City,TRUE,FALSE,FALSE,0.98,1.71,PHP - Philippine Peso,140,80
+Croatia,Zagreb,TRUE,FALSE,FALSE,7.28,1.71,EUR - Euro,2,8.5
+Italy,Modena,TRUE,FALSE,FALSE,8.57,1.71,EUR - Euro,2,10
+Italy,Udine,TRUE,FALSE,FALSE,8.14,1.71,EUR - Euro,2,9.5
+Italy,Milano,TRUE,FALSE,FALSE,6.85,1.71,EUR - Euro,2,8
+Italy,Rome,TRUE,FALSE,FALSE,4.28,1.71,EUR - Euro,2,5
+Italy,Rome,TRUE,FALSE,FALSE,10.28,1.71,EUR - Euro,2,12
+Spain,San Sebastian basque country,TRUE,FALSE,FALSE,13.7,1.71,EUR - Euro,2,16
+Spain,Alicante,TRUE,FALSE,FALSE,8.57,1.71,EUR - Euro,2,10
+Iraq,Sulaymaniyah,TRUE,FALSE,FALSE,2.55,1.7,IQD - Iraqi Dinar,3000,4500
+South Africa,Gqeberha,TRUE,FALSE,FALSE,0.96,1.79,ZAR - Rand,39,21
+Brazil,São Paulo,TRUE,FALSE,FALSE,2.91,1.75,BRL - Brazilian Real,12,20
+Vietnam,Hanoi,TRUE,FALSE,FALSE,0.57,1.7,VND - Dong,60000,20000
+Vietnam,Hanoi,TRUE,FALSE,FALSE,0.65,1.7,VND - Dong,60000,23000
+Malaysia,Shah Alam,TRUE,FALSE,FALSE,1.81,1.63,MYR - Malaysian Ringgit,9,10
+Romania,Bucharest,TRUE,FALSE,FALSE,3.16,1.64,RON - Romanian Leu,10,19.3
+North Macedonia,Skopje,TRUE,FALSE,FALSE,3.27,1.67,MKD - Denar,120,235
+Djibouti,Djibouti,TRUE,TRUE,FALSE,0.58,1.67,DJF - Djiboutian Franc,400,138.8
+Russia,Saint-Petersburg,TRUE,FALSE,FALSE,1.88,1.61,RUB - Russian Ruble,180,210
+Russia,Moscow,TRUE,FALSE,FALSE,3.58,1.61,RUB - Russian Ruble,180,400
+South Africa,Johannesburg,TRUE,FALSE,FALSE,6.88,1.74,ZAR - Rand,38,150
+Georgia,Tbilisi,TRUE,FALSE,FALSE,2.27,1.7,GEL - Lari,6,8
+Canada,Vancouver,TRUE,FALSE,FALSE,9.56,1.59,CAD - Canadian Dollar,3,18
+Philippines,Batangas city,FALSE,TRUE,FALSE,0.91,1.59,PHP - Philippine Peso,130,75
+South Africa,Rosendal,FALSE,FALSE,TRUE,1.83,1.7,ZAR - Rand,37,40
+Colombia,"Bucaramanga, Santander",TRUE,FALSE,FALSE,1.88,1.89,COP - Colombian Peso,8000,7959
+South Africa,Durban north,FALSE,TRUE,FALSE,1.58,1.65,ZAR - Rand,36,34.5
+Vietnam,Hanoi,TRUE,FALSE,FALSE,0.65,1.56,VND - Dong,55000,23000
+Vietnam,Hanoi,TRUE,FALSE,FALSE,0.57,1.56,VND - Dong,55000,20000
+Australia,Perth,TRUE,FALSE,FALSE,17.02,1.57,AUD - Australian Dollar,3,32.5
+Philippines,La Carlota City,FALSE,TRUE,FALSE,0.61,1.52,PHP - Philippine Peso,125,50
+Indonesia,Jakarta,TRUE,FALSE,FALSE,0.63,1.46,IDR - Rupiah,35000,15000
+Indonesia,Surabaya,TRUE,FALSE,FALSE,0.56,1.46,IDR - Rupiah,35000,13500
+Ukraine,Kyiv,TRUE,FALSE,FALSE,2.49,1.49,UAH - Hryvnia,90,150
+South Africa,NA,FALSE,TRUE,FALSE,5.5,1.6,ZAR - Rand,35,120
+Belarus,Zhlobin,TRUE,FALSE,FALSE,1,1.5,BYN - Belarussian Ruble,6,4
+Belarus,Minsk,TRUE,FALSE,FALSE,1.62,1.5,BYN - Belarussian Ruble,6,6.5
+Serbia,Belgrade,TRUE,FALSE,FALSE,2.55,1.46,RSD - Serbian Dinar,200,350
+Italy,Verona,FALSE,TRUE,FALSE,8.57,1.46,EUR - Euro,1.7,10
+Italy,Casalbuttano (CR),FALSE,FALSE,TRUE,6.85,1.46,EUR - Euro,1.7,8
+Mexico,México city,TRUE,FALSE,FALSE,2.38,1.51,MXN - Mexican Peso,35,55
+Ukraine,Odesa,TRUE,TRUE,FALSE,2.16,1.41,UAH - Hryvnia,85,130
+South Korea,Wonju,FALSE,TRUE,FALSE,5.39,1.51,KRW - Won,2900,10320
+Hungary,Szeged,TRUE,FALSE,FALSE,4.96,1.54,HUF - Forint,650,2100
+India,Bangalore,TRUE,FALSE,FALSE,0.47,1.4,INR - Indian Rupee,180,60
+Sri Lanka,Wattala,FALSE,TRUE,FALSE,0.58,1.33,LKR - Sri Lanka Rupee,600,260
+Indonesia,Makassar,TRUE,FALSE,FALSE,0.75,1.33,IDR - Rupiah,32000,18000
+Algeria,Algiers,TRUE,FALSE,FALSE,0.96,1.39,DZD - Algerian Dinar,250,173.08
+Colombia,Pasto,TRUE,FALSE,FALSE,2.24,1.65,COP - Colombian Peso,7000,9500
+Italy,Padua,TRUE,FALSE,FALSE,6.85,1.37,EUR - Euro,1.6,8
+Greece,Thessaloniki,TRUE,FALSE,FALSE,3.85,1.37,EUR - Euro,1.6,4.5
+Spain,Sant Cugat del Vallés,TRUE,FALSE,FALSE,6.42,1.37,EUR - Euro,1.6,7.5
+Thailand,Pathum Thani,FALSE,TRUE,FALSE,1.68,1.35,THB - Baht,60,75
+Ukraine,Kyiv,TRUE,FALSE,FALSE,2.16,1.33,UAH - Hryvnia,80,130
+Egypt,Cairo,TRUE,FALSE,FALSE,0.77,1.34,EGP - Egyptian Pound,90,52
+South Africa,Mosselbay,TRUE,FALSE,FALSE,1.38,1.33,ZAR - Rand,29,30
+Philippines,Bacolod City,TRUE,FALSE,FALSE,0.73,1.22,PHP - Philippine Peso,100,60
+Philippines,Antipolo City,TRUE,FALSE,FALSE,0.46,1.22,PHP - Philippine Peso,100,38
+Italy,Rieti,FALSE,FALSE,TRUE,12.85,1.2,EUR - Euro,1.4,15
+South Africa,Potchefstroom,FALSE,TRUE,FALSE,1.42,1.24,ZAR - Rand,27,31
+Italy,Sezto Fiorentino,TRUE,FALSE,FALSE,6,1.11,EUR - Euro,1.3,7
+Colombia,Bogotá,FALSE,TRUE,FALSE,2.17,1.3,COP - Colombian Peso,5500,9200
+Colombia,Bogotá,FALSE,TRUE,FALSE,2.17,1.3,COP - Colombian Peso,5500,9200
+Indonesia,Bandung,TRUE,FALSE,FALSE,0.88,1.04,IDR - Rupiah,25000,21000
+Italy,Ancona,FALSE,TRUE,FALSE,13.7,1.03,EUR - Euro,1.2,16
+India,Meerut,FALSE,TRUE,FALSE,0.4,0.93,INR - Indian Rupee,120,52
+Indonesia,Sleman,FALSE,TRUE,FALSE,0.38,0.88,IDR - Rupiah,21000,9000
+Indonesia,Samarinda,TRUE,FALSE,FALSE,0.54,0.83,IDR - Rupiah,20000,12980
+Indonesia,Jakarta,TRUE,FALSE,FALSE,2.92,0.83,IDR - Rupiah,20000,70000
