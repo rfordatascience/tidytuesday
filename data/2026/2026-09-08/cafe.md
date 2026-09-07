@@ -10,3 +10,4 @@
 |original_currency |character |The original currency used by the cafe. |
 |price             |double    |The price of a small cappuccino from the cafe, in the original currency. |
 |hourly_wage       |double    |The hourly wage of a barista working in the cafe, in the original currency. |
+

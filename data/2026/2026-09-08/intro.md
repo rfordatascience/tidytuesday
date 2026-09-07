@@ -9,3 +9,4 @@ You might think about:
 - Some sample sizes are small. How uncertain is the ranking?
 - Which countries have the biggest variability in the price of a small cappuccino?
 - Are there any outliers?
+

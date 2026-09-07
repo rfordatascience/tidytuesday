@@ -6,3 +6,4 @@
 |minutes       |double    |The number of whole minutes in index. |
 |seconds       |double    |The remaining number of seconds in index. |
 |index_as_time |character |Index formatted as minutes and seconds, i.e., MM:SS. |
+
