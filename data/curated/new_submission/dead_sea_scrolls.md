@@ -12,7 +12,7 @@
 |site_parent      |character |Broad site name: "Qumran", "Masada", "Wadi Murabba'at", or "Nahal Hever". |
 |cave             |integer   |Cave number (1-11) for Qumran manuscripts. NA for non-Qumran sites. |
 |num_images       |integer   |Number of high-resolution photographic plates of this manuscript in the IAA digital archive. Serves as a proxy for manuscript size and preservation state. |
-|keywords         |character |Thematic keywords assigned by IAA curators (e.g., "Garden of Eden, Abraham"). NA for most manuscripts. |
+|keywords         |character |Thematic keywords assigned by IAA curators (e.g., "Garden of Eden, Abraham"). Sometimes includes Hebrew terms. NA for most manuscripts. |
 |biblical_book    |character |Identified biblical book or composition name, standardized for analysis (e.g., "Genesis", "Tobit", "Jubilees", "Pesher (Commentary)"). NA if unidentified. |
 |canon_status     |character |Canonical status in modern Christian traditions: "Protocanonical" (accepted by both Catholics and Protestants), "Deuterocanonical" (Catholic canon only, rejected by Protestants), "Non-canonical" (not in any modern Christian canon), or "Unidentified". |
 |bible_section    |character |Section of the Bible or literature type: "Torah", "Nevi'im" (Prophets), "Ketuvim" (Writings), "Deuterocanonical", "Pseudepigrapha", "Sectarian", "Liturgical", "Wisdom", "Documentary", "Biblical Translation", "Other", or "Unidentified". |
