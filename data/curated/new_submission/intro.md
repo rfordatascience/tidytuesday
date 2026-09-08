@@ -9,3 +9,5 @@ The Dead Sea Scrolls were discovered between 1947 and 1956 in caves near the Dea
 - How do the copy counts of non-canonical works like Jubilees and 1 Enoch compare to accepted biblical books?
 - What does the distribution of manuscripts across caves tell us about the library's organization?
 - Is there a relationship between manuscript language (Hebrew vs Aramaic vs Greek) and content category?
+
+This entry was compiled with the help of an AI agent, but reviewed by a human.
