@@ -14,6 +14,8 @@ You might think about:
 
 Thank you to [Filip Reierson](https://github.com/freierson) for curating this week's dataset.
 
+**Note:** In both `cafe.csv` and `cappuccino_index.csv`, the `country` values for New Zealand and South Africa contain a non-breaking space (U+00A0) instead of a regular space. This can make those countries fail to match or join as expected, so the code below replaces them with regular spaces.
+
 ## The Data
 
 ```r
@@ -32,6 +34,11 @@ cappuccino_index <- tuesdata$cappuccino_index
 
 cafe <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cafe.csv')
 cappuccino_index <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cappuccino_index.csv')
+
+# With either option, replace the non-breaking spaces in `country`
+
+cafe$country <- gsub("\u00a0", " ", cafe$country)
+cappuccino_index$country <- gsub("\u00a0", " ", cappuccino_index$country)
 ```
 
 ```python
@@ -48,6 +55,11 @@ pydytuesday.get_date('2026-09-08')
 
 cafe = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cafe.csv')
 cappuccino_index = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cappuccino_index.csv')
+
+# With either option, replace the non-breaking spaces in `country`
+
+cafe['country'] = cafe['country'].str.replace('\u00a0', ' ')
+cappuccino_index['country'] = cappuccino_index['country'].str.replace('\u00a0', ' ')
 ```
 
 ```julia
@@ -68,6 +80,11 @@ cappuccino_index = read_csv("https://raw.githubusercontent.com/rfordatascience/t
 # Option 3: Read directly from Github and assign without Tidier dependencies
 cafe = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cafe.csv", DataFrame)
 cappuccino_index = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-08/cappuccino_index.csv", DataFrame)
+
+# With any of the options above, replace the non-breaking spaces in `country`
+
+cafe.country = replace.(cafe.country, '\ua0' => ' ')
+cappuccino_index.country = replace.(cappuccino_index.country, '\ua0' => ' ')
 ```
 
 ## How to Participate
