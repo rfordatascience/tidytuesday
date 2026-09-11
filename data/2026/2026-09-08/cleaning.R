@@ -11,6 +11,8 @@ cafe <- readr::read_csv(
 ) |>
   janitor::clean_names() |>
   dplyr::mutate(
+    # New Zealand and South Africa had non-breaking spaces in their names
+    country = stringr::str_replace_all(country, "\uA0", " "),
     urban = stringr::str_detect(urban_classification, "Urban"),
     suburban = stringr::str_detect(urban_classification, "Suburban"),
     rural = stringr::str_detect(urban_classification, "Rural")
