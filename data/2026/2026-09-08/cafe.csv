@@ -2012,12 +2012,12 @@ Czechia,Prague,TRUE,FALSE,FALSE,8.82,2.82,CZK - Czech Koruna,80,250
 Czechia,Prague,TRUE,FALSE,FALSE,8.82,2.82,CZK - Czech Koruna,80,250
 Czechia,Prague,TRUE,FALSE,FALSE,6.71,2.82,CZK - Czech Koruna,80,190
 Czechia,Brno,TRUE,FALSE,FALSE,4.94,2.82,CZK - Czech Koruna,80,140
-New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
-New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.84,NZD - New Zealand Dollar,6.5,28
-New Zealand,NA,FALSE,TRUE,FALSE,11.57,2.84,NZD - New Zealand Dollar,6.5,26.5
-New Zealand,Hawkes Bay,TRUE,FALSE,FALSE,13.1,2.84,NZD - New Zealand Dollar,6.5,30
-New Zealand,Auckland,FALSE,TRUE,FALSE,14.76,2.84,NZD - New Zealand Dollar,6.5,33.8
-New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
+New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.84,NZD - New Zealand Dollar,6.5,28
+New Zealand,NA,FALSE,TRUE,FALSE,11.57,2.84,NZD - New Zealand Dollar,6.5,26.5
+New Zealand,Hawkes Bay,TRUE,FALSE,FALSE,13.1,2.84,NZD - New Zealand Dollar,6.5,30
+New Zealand,Auckland,FALSE,TRUE,FALSE,14.76,2.84,NZD - New Zealand Dollar,6.5,33.8
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.84,NZD - New Zealand Dollar,6.5,26
 Japan,Kyoto,TRUE,FALSE,FALSE,5.94,2.81,JPY - Yen,600,1270
 Canada,Sherbrooke,TRUE,FALSE,FALSE,8.77,2.75,CAD - Canadian Dollar,5.18,16.5
 Netherlands,Amsterdam,TRUE,FALSE,FALSE,14.13,2.78,EUR - Euro,3.25,16.5
@@ -2101,7 +2101,7 @@ UK,Cheltenham,FALSE,TRUE,FALSE,13,2.7,GBP - Pound Sterling,2.7,13
 Turkey,Ankara,TRUE,FALSE,FALSE,4.65,2.48,TRY - Turkish Lira,160,300
 Turkey,Ordu,TRUE,FALSE,FALSE,2.51,2.48,TRY - Turkish Lira,160,162
 Turkey,Istanbul,TRUE,FALSE,FALSE,3.1,2.48,TRY - Turkish Lira,160,200
-New Zealand,Wellington,TRUE,FALSE,FALSE,11.09,2.71,NZD - New Zealand Dollar,6.2,25.4
+New Zealand,Wellington,TRUE,FALSE,FALSE,11.09,2.71,NZD - New Zealand Dollar,6.2,25.4
 Chile,Santiago,TRUE,FALSE,FALSE,2.03,2.68,CLP - Chilean Peso,3300,2500
 Canada,Vancouver,TRUE,FALSE,FALSE,9.48,2.63,CAD - Canadian Dollar,4.95,17.85
 Canada,Bradford,FALSE,TRUE,TRUE,9.03,2.63,CAD - Canadian Dollar,4.95,17
@@ -2165,17 +2165,17 @@ USA,Cincinnati,TRUE,FALSE,FALSE,9.26,2.59,USD - US dollar,3.5,12.5
 Chile,Pucón,TRUE,FALSE,FALSE,2.03,2.6,CLP - Chilean Peso,3200,2500
 Canada,Vancouver,TRUE,FALSE,FALSE,9.48,2.55,CAD - Canadian Dollar,4.8,17.85
 Canada,Guelph,FALSE,TRUE,FALSE,9.16,2.55,CAD - Canadian Dollar,4.8,17.25
-New Zealand,Auckland,TRUE,FALSE,FALSE,14.25,2.62,NZD - New Zealand Dollar,6,32.64
-New Zealand,Auckland,FALSE,TRUE,FALSE,13.1,2.62,NZD - New Zealand Dollar,6,30
-New Zealand,Wellington,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
-New Zealand,Christchurch,TRUE,FALSE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
-New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.62,NZD - New Zealand Dollar,6,28
-New Zealand,Wellington,FALSE,TRUE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
-New Zealand,Dunedin,TRUE,FALSE,FALSE,15.28,2.62,NZD - New Zealand Dollar,6,35
-New Zealand,Palmerston North,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
-New Zealand,Taupo,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
-New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
-New Zealand,Auckland,TRUE,FALSE,FALSE,10.92,2.62,NZD - New Zealand Dollar,6,25
+New Zealand,Auckland,TRUE,FALSE,FALSE,14.25,2.62,NZD - New Zealand Dollar,6,32.64
+New Zealand,Auckland,FALSE,TRUE,FALSE,13.1,2.62,NZD - New Zealand Dollar,6,30
+New Zealand,Wellington,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
+New Zealand,Christchurch,TRUE,FALSE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
+New Zealand,Christchurch,TRUE,FALSE,FALSE,12.23,2.62,NZD - New Zealand Dollar,6,28
+New Zealand,Wellington,FALSE,TRUE,FALSE,10.26,2.62,NZD - New Zealand Dollar,6,23.5
+New Zealand,Dunedin,TRUE,FALSE,FALSE,15.28,2.62,NZD - New Zealand Dollar,6,35
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
+New Zealand,Taupo,TRUE,FALSE,FALSE,11.79,2.62,NZD - New Zealand Dollar,6,27
+New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.62,NZD - New Zealand Dollar,6,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,10.92,2.62,NZD - New Zealand Dollar,6,25
 Canada,Calgary,TRUE,FALSE,FALSE,11.6,2.54,CAD - Canadian Dollar,4.78,21.84
 Australia,Melbourne,TRUE,FALSE,FALSE,17.39,2.62,AUD - Australian Dollar,5,33.21
 Australia,Sydney,FALSE,TRUE,FALSE,15.71,2.62,AUD - Australian Dollar,5,30
@@ -2271,9 +2271,9 @@ Czechia,Prostějov,FALSE,TRUE,FALSE,4.41,2.54,CZK - Czech Koruna,72,125
 Turkey,Istanbul,TRUE,FALSE,FALSE,2.33,2.33,TRY - Turkish Lira,150,150
 Canada,Montréal,TRUE,FALSE,FALSE,15.94,2.47,CAD - Canadian Dollar,4.6499999999999995,30
 Canada,Edmonton,TRUE,FALSE,FALSE,9.47,2.47,CAD - Canadian Dollar,4.6499999999999995,17.830000000000002
-New Zealand,Auckland,TRUE,FALSE,FALSE,10.7,2.53,NZD - New Zealand Dollar,5.8,24.5
-New Zealand,Cambridge,TRUE,TRUE,FALSE,10.11,2.53,NZD - New Zealand Dollar,5.8,23.150000000000002
-New Zealand,Tāmaki Makaurau (Auckland),FALSE,TRUE,FALSE,11.35,2.53,NZD - New Zealand Dollar,5.8,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,10.7,2.53,NZD - New Zealand Dollar,5.8,24.5
+New Zealand,Cambridge,TRUE,TRUE,FALSE,10.11,2.53,NZD - New Zealand Dollar,5.8,23.150000000000002
+New Zealand,Tāmaki Makaurau (Auckland),FALSE,TRUE,FALSE,11.35,2.53,NZD - New Zealand Dollar,5.8,26
 Argentina,Mendoza,TRUE,FALSE,FALSE,1.68,2.32,ARS - Argentine Peso,4700,3400
 Slovakia,Dubnica nad Váhom,TRUE,FALSE,FALSE,4.71,2.48,EUR - Euro,2.9,5.5
 Spain,Madrid,TRUE,FALSE,FALSE,7.49,2.48,EUR - Euro,2.9,8.75
@@ -2339,11 +2339,11 @@ Argentina,Tucuman,TRUE,FALSE,FALSE,1.53,2.22,ARS - Argentine Peso,4500,3100
 Argentina,"Crespo, Entre Rios",TRUE,FALSE,FALSE,2.22,2.22,ARS - Argentine Peso,4500,4500
 USA,Chicago,TRUE,FALSE,FALSE,14.08,2.38,USD - US dollar,3.21,19
 UK,Norwich,FALSE,TRUE,FALSE,12.44,2.4,GBP - Pound Sterling,2.4,12.44
-New Zealand,Wellington,TRUE,FALSE,FALSE,10.26,2.4,NZD - New Zealand Dollar,5.5,23.5
-New Zealand,"Paraparaumu, Kapit Coast",FALSE,TRUE,FALSE,12.01,2.4,NZD - New Zealand Dollar,5.5,27.5
-New Zealand,Palmerston North,FALSE,TRUE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
-New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.4,NZD - New Zealand Dollar,5.5,26
-New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
+New Zealand,Wellington,TRUE,FALSE,FALSE,10.26,2.4,NZD - New Zealand Dollar,5.5,23.5
+New Zealand,"Paraparaumu, Kapit Coast",FALSE,TRUE,FALSE,12.01,2.4,NZD - New Zealand Dollar,5.5,27.5
+New Zealand,Palmerston North,FALSE,TRUE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.4,NZD - New Zealand Dollar,5.5,26
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.23,2.4,NZD - New Zealand Dollar,5.5,28
 India,Bangalore,TRUE,FALSE,FALSE,0.89,2.33,INR - Indian Rupee,300,115
 Australia,Brisbane,TRUE,FALSE,FALSE,17.37,2.41,AUD - Australian Dollar,4.6,33.17
 Australia,Melbourne,TRUE,FALSE,FALSE,14.66,2.41,AUD - Australian Dollar,4.6,28
@@ -2354,7 +2354,7 @@ Czechia,NA,TRUE,FALSE,FALSE,5.29,2.36,CZK - Czech Koruna,67,150
 Serbia,NA,TRUE,TRUE,FALSE,4.01,2.34,RSD - Serbian Dinar,320,550
 Japan,Nishinoomote,FALSE,FALSE,TRUE,7.01,2.34,JPY - Yen,500,1500
 Moldova,Chisinau,TRUE,FALSE,FALSE,3.85,2.35,MDL - Moldovan Leu,55,90
-New Zealand,Christchurch,FALSE,TRUE,FALSE,11.35,2.36,NZD - New Zealand Dollar,5.4,26
+New Zealand,Christchurch,FALSE,TRUE,FALSE,11.35,2.36,NZD - New Zealand Dollar,5.4,26
 Australia,Horsham,FALSE,FALSE,TRUE,9.82,2.36,AUD - Australian Dollar,4.5,18.75
 Australia,Sydney,FALSE,TRUE,FALSE,17.02,2.36,AUD - Australian Dollar,4.5,32.5
 Australia,Perth,FALSE,TRUE,FALSE,16.76,2.36,AUD - Australian Dollar,4.5,32
@@ -2402,7 +2402,7 @@ Malaysia,Shah Alam,FALSE,TRUE,FALSE,2.54,2.17,MYR - Malaysian Ringgit,12,14
 Malaysia,Klang,FALSE,TRUE,FALSE,1.81,2.17,MYR - Malaysian Ringgit,12,10
 Czechia,Poděbrady,TRUE,FALSE,FALSE,5.29,2.26,CZK - Czech Koruna,64,150
 Czechia,Poděbrady,TRUE,FALSE,FALSE,6,2.26,CZK - Czech Koruna,64,170
-New Zealand,Wellington,FALSE,TRUE,FALSE,11.57,2.27,NZD - New Zealand Dollar,5.2,26.5
+New Zealand,Wellington,FALSE,TRUE,FALSE,11.57,2.27,NZD - New Zealand Dollar,5.2,26.5
 Serbia,Belgrade,TRUE,FALSE,FALSE,3.36,2.23,RSD - Serbian Dinar,305,460
 Croatia,Zagreb,TRUE,FALSE,FALSE,4.82,2.23,EUR - Euro,2.6,5.63
 Spain,Valencia,TRUE,FALSE,FALSE,8.03,2.23,EUR - Euro,2.6,9.370000000000001
@@ -2420,15 +2420,15 @@ India,lucknow uttar pradesh,TRUE,TRUE,TRUE,0.62,2.18,INR - Indian Rupee,280,80
 Poland,Lublin,TRUE,FALSE,FALSE,6.57,2.19,PLN - Zloty,11,33
 Poland,Rawa Mazowiecka,TRUE,FALSE,FALSE,6.38,2.19,PLN - Zloty,11,32
 Poland,Warsaw,TRUE,TRUE,FALSE,6.57,2.19,PLN - Zloty,10.99,32.99
-New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.23,NZD - New Zealand Dollar,5.1,26
+New Zealand,Auckland,FALSE,TRUE,FALSE,11.35,2.23,NZD - New Zealand Dollar,5.1,26
 Chile,Santiago,TRUE,FALSE,FALSE,3.53,2.19,CLP - Chilean Peso,2700,4350
 Canada,NA,TRUE,FALSE,FALSE,9,2.12,CAD - Canadian Dollar,4,16.95
 Canada,Fredericton,TRUE,FALSE,FALSE,9.56,2.12,CAD - Canadian Dollar,4,18
 Canada,"Princeton, BC",FALSE,FALSE,TRUE,10.09,2.12,CAD - Canadian Dollar,4,19
-New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
-New Zealand,Auckland,TRUE,FALSE,FALSE,12.66,2.18,NZD - New Zealand Dollar,5,29
-New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
-New Zealand,Auckland,TRUE,FALSE,FALSE,11.79,2.18,NZD - New Zealand Dollar,5,27
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,12.66,2.18,NZD - New Zealand Dollar,5,29
+New Zealand,Christchurch,TRUE,FALSE,FALSE,11.35,2.18,NZD - New Zealand Dollar,5,26
+New Zealand,Auckland,TRUE,FALSE,FALSE,11.79,2.18,NZD - New Zealand Dollar,5,27
 USA,NA,FALSE,TRUE,FALSE,9.26,2.15,USD - US dollar,2.9,12.5
 Bolivia,La Paz,TRUE,FALSE,FALSE,0.86,1.25,BOB - Boliviano,20,13.75
 Malta,Sliema,TRUE,FALSE,FALSE,6.85,2.14,EUR - Euro,2.5,8
@@ -2486,14 +2486,14 @@ Brazil,São Sebastião,FALSE,TRUE,FALSE,2.91,2.04,BRL - Brazilian Real,14,20
 Brazil,"Joinville, SC",TRUE,FALSE,FALSE,2.41,2.04,BRL - Brazilian Real,14,16.52
 Brazil,Caxias do Sul,TRUE,FALSE,FALSE,1.17,2.04,BRL - Brazilian Real,14,8
 Brazil,Porto Alegre,TRUE,FALSE,FALSE,1.75,2.04,BRL - Brazilian Real,14,12
-New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.27,1.97,NZD - New Zealand Dollar,4.5,28.1
-New Zealand,Wellington,TRUE,FALSE,FALSE,10.7,1.97,NZD - New Zealand Dollar,4.5,24.5
+New Zealand,Palmerston North,TRUE,FALSE,FALSE,12.27,1.97,NZD - New Zealand Dollar,4.5,28.1
+New Zealand,Wellington,TRUE,FALSE,FALSE,10.7,1.97,NZD - New Zealand Dollar,4.5,24.5
 Guatemala,Antigua,TRUE,FALSE,FALSE,3.31,1.95,GTQ - Quetzal,20,34
 India,Mumbai,TRUE,FALSE,FALSE,0.78,1.91,INR - Indian Rupee,245,100
 Bolivia,Santa Cruz,TRUE,FALSE,FALSE,0.94,1.13,BOB - Boliviano,18,15
 Puerto Rico,Arecibo,TRUE,FALSE,FALSE,7.78,1.93,USD - US dollar,2.6,10.5
 Nicaragua,Estelí,TRUE,FALSE,FALSE,0.93,1.92,NIO - Cordoba Oro,95,45.83
-South Africa,Modderfontein,FALSE,TRUE,FALSE,2.25,2.02,ZAR - Rand,44,49
+South Africa,Modderfontein,FALSE,TRUE,FALSE,2.25,2.02,ZAR - Rand,44,49
 Brazil,Rio de Janeiro,FALSE,TRUE,FALSE,1.11,1.97,BRL - Brazilian Real,13.5,7.63
 Colombia,Monteria,TRUE,FALSE,FALSE,1.88,2.24,COP - Colombian Peso,9500,7959
 India,Delhi,TRUE,FALSE,FALSE,0.7,1.87,INR - Indian Rupee,240,90
@@ -2534,7 +2534,7 @@ Italy,Rome,TRUE,FALSE,FALSE,10.28,1.71,EUR - Euro,2,12
 Spain,San Sebastian basque country,TRUE,FALSE,FALSE,13.7,1.71,EUR - Euro,2,16
 Spain,Alicante,TRUE,FALSE,FALSE,8.57,1.71,EUR - Euro,2,10
 Iraq,Sulaymaniyah,TRUE,FALSE,FALSE,2.55,1.7,IQD - Iraqi Dinar,3000,4500
-South Africa,Gqeberha,TRUE,FALSE,FALSE,0.96,1.79,ZAR - Rand,39,21
+South Africa,Gqeberha,TRUE,FALSE,FALSE,0.96,1.79,ZAR - Rand,39,21
 Brazil,São Paulo,TRUE,FALSE,FALSE,2.91,1.75,BRL - Brazilian Real,12,20
 Vietnam,Hanoi,TRUE,FALSE,FALSE,0.57,1.7,VND - Dong,60000,20000
 Vietnam,Hanoi,TRUE,FALSE,FALSE,0.65,1.7,VND - Dong,60000,23000
@@ -2544,13 +2544,13 @@ North Macedonia,Skopje,TRUE,FALSE,FALSE,3.27,1.67,MKD - Denar,120,235
 Djibouti,Djibouti,TRUE,TRUE,FALSE,0.58,1.67,DJF - Djiboutian Franc,400,138.8
 Russia,Saint-Petersburg,TRUE,FALSE,FALSE,1.88,1.61,RUB - Russian Ruble,180,210
 Russia,Moscow,TRUE,FALSE,FALSE,3.58,1.61,RUB - Russian Ruble,180,400
-South Africa,Johannesburg,TRUE,FALSE,FALSE,6.88,1.74,ZAR - Rand,38,150
+South Africa,Johannesburg,TRUE,FALSE,FALSE,6.88,1.74,ZAR - Rand,38,150
 Georgia,Tbilisi,TRUE,FALSE,FALSE,2.27,1.7,GEL - Lari,6,8
 Canada,Vancouver,TRUE,FALSE,FALSE,9.56,1.59,CAD - Canadian Dollar,3,18
 Philippines,Batangas city,FALSE,TRUE,FALSE,0.91,1.59,PHP - Philippine Peso,130,75
-South Africa,Rosendal,FALSE,FALSE,TRUE,1.83,1.7,ZAR - Rand,37,40
+South Africa,Rosendal,FALSE,FALSE,TRUE,1.83,1.7,ZAR - Rand,37,40
 Colombia,"Bucaramanga, Santander",TRUE,FALSE,FALSE,1.88,1.89,COP - Colombian Peso,8000,7959
-South Africa,Durban north,FALSE,TRUE,FALSE,1.58,1.65,ZAR - Rand,36,34.5
+South Africa,Durban north,FALSE,TRUE,FALSE,1.58,1.65,ZAR - Rand,36,34.5
 Vietnam,Hanoi,TRUE,FALSE,FALSE,0.65,1.56,VND - Dong,55000,23000
 Vietnam,Hanoi,TRUE,FALSE,FALSE,0.57,1.56,VND - Dong,55000,20000
 Australia,Perth,TRUE,FALSE,FALSE,17.02,1.57,AUD - Australian Dollar,3,32.5
@@ -2558,7 +2558,7 @@ Philippines,La Carlota City,FALSE,TRUE,FALSE,0.61,1.52,PHP - Philippine Peso,125
 Indonesia,Jakarta,TRUE,FALSE,FALSE,0.63,1.46,IDR - Rupiah,35000,15000
 Indonesia,Surabaya,TRUE,FALSE,FALSE,0.56,1.46,IDR - Rupiah,35000,13500
 Ukraine,Kyiv,TRUE,FALSE,FALSE,2.49,1.49,UAH - Hryvnia,90,150
-South Africa,NA,FALSE,TRUE,FALSE,5.5,1.6,ZAR - Rand,35,120
+South Africa,NA,FALSE,TRUE,FALSE,5.5,1.6,ZAR - Rand,35,120
 Belarus,Zhlobin,TRUE,FALSE,FALSE,1,1.5,BYN - Belarussian Ruble,6,4
 Belarus,Minsk,TRUE,FALSE,FALSE,1.62,1.5,BYN - Belarussian Ruble,6,6.5
 Serbia,Belgrade,TRUE,FALSE,FALSE,2.55,1.46,RSD - Serbian Dinar,200,350
@@ -2579,11 +2579,11 @@ Spain,Sant Cugat del Vallés,TRUE,FALSE,FALSE,6.42,1.37,EUR - Euro,1.6,7.5
 Thailand,Pathum Thani,FALSE,TRUE,FALSE,1.68,1.35,THB - Baht,60,75
 Ukraine,Kyiv,TRUE,FALSE,FALSE,2.16,1.33,UAH - Hryvnia,80,130
 Egypt,Cairo,TRUE,FALSE,FALSE,0.77,1.34,EGP - Egyptian Pound,90,52
-South Africa,Mosselbay,TRUE,FALSE,FALSE,1.38,1.33,ZAR - Rand,29,30
+South Africa,Mosselbay,TRUE,FALSE,FALSE,1.38,1.33,ZAR - Rand,29,30
 Philippines,Bacolod City,TRUE,FALSE,FALSE,0.73,1.22,PHP - Philippine Peso,100,60
 Philippines,Antipolo City,TRUE,FALSE,FALSE,0.46,1.22,PHP - Philippine Peso,100,38
 Italy,Rieti,FALSE,FALSE,TRUE,12.85,1.2,EUR - Euro,1.4,15
-South Africa,Potchefstroom,FALSE,TRUE,FALSE,1.42,1.24,ZAR - Rand,27,31
+South Africa,Potchefstroom,FALSE,TRUE,FALSE,1.42,1.24,ZAR - Rand,27,31
 Italy,Sezto Fiorentino,TRUE,FALSE,FALSE,6,1.11,EUR - Euro,1.3,7
 Colombia,Bogotá,FALSE,TRUE,FALSE,2.17,1.3,COP - Colombian Peso,5500,9200
 Colombia,Bogotá,FALSE,TRUE,FALSE,2.17,1.3,COP - Colombian Peso,5500,9200

@@ -30,6 +30,11 @@ cafe <- readr::read_csv(
     hourly_wage = hourly_wage
   )
 
+# The sheet converts prices and wages to GBP with live exchange rates, so the
+# *_gbp columns (and the index below) shift slightly every time this is re-run.
+# Missing cities are written as "NA" to match the original published file
+readr::write_csv(cafe, "cafe.csv", na = "NA")
+
 cappuccino_index <- cafe |>
   summarise(index = sum(price_gbp)/sum(hourly_wage_gbp)*60, n=n(), .by=country) |>
   arrange(index) |>
