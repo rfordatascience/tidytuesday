@@ -75,6 +75,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   34|2026-08-25 |[Country Music Lyrics](data/2026/2026-08-25/readme.md)     |[Country Lyrics Amazing Spreadsheet](https://drive.google.com/file/d/1lz-xpqufGggdPh4gUeIdYvtB2s8ePewn/view)     |[Every country song has these lyrics. Right?](https://www.youtube.com/watch?v=48ZxNFGJTo8)                 |
 |   35|2026-09-01 |[World Castles, Fortresses and Palaces](data/2026/2026-09-01/readme.md)|[Castlemap, curated from Wikidata](https://thecastlemap.com/data/)                                               |[Castlemap — Castles of the World dataset](https://thecastlemap.com/data/)                                 |
 |   36|2026-09-08 |[The Cappuccino Index](data/2026/2026-09-08/readme.md)     |[The 2026 Cappuccino Index](https://datastudio.google.com/reporting/b3354e23-eaff-4bd6-a776-24736dddf4c3/page/DqZ5F?s=iUIPWXb58zs)|[The Surprising Things We Discovered In The Cost Of A Cappuccino](https://www.youtube.com/watch?v=WtlE3BW9Nqs)|
+|   37|2026-09-15 |[Dead Sea Scrolls Manuscripts](data/2026/2026-09-15/readme.md)|[Israel Antiquities Authority - Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/explore-the-archive)|[The Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/)                       |
 
 ***  
 
