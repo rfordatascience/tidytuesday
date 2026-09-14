@@ -278,3 +278,4 @@ dead_sea_scrolls <- dead_sea_scrolls |>
     )
   ) |>
   select(-scroll_name_wiki, -description_wiki)
+

@@ -18,3 +18,4 @@
 |bible_section    |character |Section of the Bible or literature type: "Torah", "Nevi'im" (Prophets), "Ketuvim" (Writings), "Deuterocanonical", "Pseudepigrapha", "Sectarian", "Liturgical", "Wisdom", "Documentary", "Biblical Translation", "Other", or "Unidentified". |
 |testament        |character |Whether the manuscript is from the Old Testament ("OT"), "Non-biblical", or "Unknown" (if unidentified). |
 |content_category |character |Broad content classification: "Biblical", "Biblical (Deuterocanonical)", "Parabiblical", "Sectarian", "Liturgical", "Wisdom Literature", "Documentary", "Biblical Translation", "Other Non-biblical", or "Unidentified". |
+

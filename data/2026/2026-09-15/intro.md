@@ -11,3 +11,4 @@ The Dead Sea Scrolls were discovered between 1947 and 1956 in caves near the Dea
 - Is there a relationship between manuscript language (Hebrew vs Aramaic vs Greek) and content category?
 
 This entry was compiled with the help of an AI agent, but reviewed by a human.
+
