@@ -1,15 +1,14 @@
 title: "Health metrics in urban centres worldwide"
 article:
-  title: "Global human settlement health in urban centres database"
-  url: "https://human-settlement.emergency.copernicus.eu/download.php?ds=ucdb"
-data_source:
   title: "GHSL - Global Human Settlement Layer"
   url: "https://human-settlement.emergency.copernicus.eu/ghs_ucdb_2024.php"
+data_source:
+  title: "Global human settlement health in urban centres database"
+  url: "https://human-settlement.emergency.copernicus.eu/download.php?ds=ucdb"
 images:
-# Please include at least one image, and up to three images
-- file: "acton-crawford-8PB_TFEy2XQ-unsplash.png"
+- file: "acton-crawford.png"
   alt: >
-    Exterior of a modern hospital building at dusk, with a brick and glass facade lit from within, a colorful sculpture of a child holding balloons on the wall, young trees and a landscaped walkway in front, and a U.S. flag near the entrance.
+    Exterior of a modern hospital building at dusk, with a brick and glass facade lit from within, a colorful sculpture of a child holding balloons on the wall, young trees and a landscaped walkway in front, and a U.S. flag near the entrance. Photo by Acton Crawford on Unsplash, https://unsplash.com/photos/brown-and-white-concrete-building-near-green-trees-under-blue-sky-during-daytime-8PB_TFEy2XQ
 credit:
   post: "Gabriela Palomo-Munoz"
   github: "@GabsPalomo"
