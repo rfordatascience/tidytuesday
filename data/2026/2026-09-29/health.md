@@ -17,3 +17,4 @@
 |HL_POP_PHA_2025 |double    |Population living within 1 km buffer from a pharmacy in 2025. |
 |HL_SHP_HOS_2025 |double    |Share of the urban centre population living within 1 km buffer from a hospital in 2025. |
 |HL_SHP_PHA_2025 |double    |Share of the urban centre population living within 1 km buffer from a pharmacy in 2025. |
+

@@ -12,3 +12,4 @@ Mari Rivero, Ines;  Melchiorri, Michele;  Florio, Pietro;  Schiavina, Marcello; 
 - Do urban centres that belong to a higher income group have a higher density of hospitals compared to those in a lower income group? 
 - Do cities with more hospitals also have more pharmacies, or are the two resources unrelated?
 - Are there cities well-served by pharmacies but not hospitals (or the otherway around)?
+

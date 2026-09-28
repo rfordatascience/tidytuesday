@@ -29,3 +29,4 @@ health |>
   pivot_longer(everything(), names_to = "column", values_to = "n_missing") |>
   mutate(n_rows = nrow(health)) |>
   arrange(desc(n_missing))
+

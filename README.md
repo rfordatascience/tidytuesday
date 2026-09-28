@@ -77,6 +77,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   36|2026-09-08 |[The Cappuccino Index](data/2026/2026-09-08/readme.md)     |[The 2026 Cappuccino Index](https://datastudio.google.com/reporting/b3354e23-eaff-4bd6-a776-24736dddf4c3/page/DqZ5F?s=iUIPWXb58zs)|[The Surprising Things We Discovered In The Cost Of A Cappuccino](https://www.youtube.com/watch?v=WtlE3BW9Nqs)|
 |   37|2026-09-15 |[Dead Sea Scrolls Manuscripts](data/2026/2026-09-15/readme.md)|[Israel Antiquities Authority - Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/explore-the-archive)|[The Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/)                       |
 |   38|2026-09-22 |[Average share of green areas across cities](data/2026/2026-09-22/readme.md)|[Open Spaces and Green Areas](https://data.unhabitat.org/pages/open-spaces-and-green-areas)                      |[Open Spaces and Green Areas](https://data.unhabitat.org/pages/open-spaces-and-green-areas)                |
+|   39|2026-09-29 |[Health metrics in urban centres worldwide](data/2026/2026-09-29/readme.md)|[Global human settlement health in urban centres database](https://human-settlement.emergency.copernicus.eu/download.php?ds=ucdb)|[GHSL - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/ghs_ucdb_2024.php) |
 
 ***  
 
