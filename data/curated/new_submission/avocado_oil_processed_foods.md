@@ -18,12 +18,12 @@
 |c12_0_pct                     |double    |Lauric acid (C12:0) as percent of total fatty acids. NA if not detected. |
 |c14_0_pct                     |double    |Myristic acid (C14:0) as percent of total fatty acids. NA if not detected. |
 |c16_0_palmitic_pct            |double    |Palmitic acid (C16:0) as percent of total fatty acids. Codex range for avocado oil: 11.0-26.0%. |
-|c16_1_palmitoleic_pct         |double    |Palmitoleic acid (C16:1) as percent of total fatty acids. Key authenticity marker — Codex range for avocado oil: 4.0-17.1%. Low values indicate adulteration. |
+|c16_1_palmitoleic_pct         |double    |Palmitoleic acid (C16:1) as percent of total fatty acids. A key authenticity marker. Codex range for avocado oil is 4.0 to 17.1%; low values indicate adulteration. |
 |c17_0_pct                     |double    |Margaric acid (C17:0) as percent of total fatty acids. NA if not detected. |
 |c17_1_pct                     |double    |Heptadecenoic acid (C17:1) as percent of total fatty acids. NA if not detected. |
 |c18_0_stearic_pct             |double    |Stearic acid (C18:0) as percent of total fatty acids. Codex range for avocado oil: 0.1-1.3%. Elevated values suggest vegetable oil substitution. |
 |c18_1_oleic_pct               |double    |Oleic acid (C18:1) as percent of total fatty acids. The dominant fatty acid in authentic avocado oil. Codex range: 42.0-75.0%. |
-|c18_1n7_vaccenic_pct          |double    |Cis-vaccenic acid (C18:1 n-7) as percent of total fatty acids. Strong discriminatory marker — authentic avocado oil typically 4-6%, adulterated samples typically 1-2%. |
+|c18_1n7_vaccenic_pct          |double    |Cis-vaccenic acid (C18:1 n-7) as percent of total fatty acids. A strong discriminatory marker. Authentic avocado oil is typically 4 to 6%, while adulterated samples are typically 1 to 2%. |
 |c18_2_linoleic_pct            |double    |Linoleic acid (C18:2) as percent of total fatty acids. Codex range for avocado oil: 7.8-19.0%. |
 |c18_3_linolenic_pct           |double    |Alpha-linolenic acid (C18:3) as percent of total fatty acids. Codex range for avocado oil: 0.5-2.1%. |
 |c20_0_pct                     |double    |Arachidic acid (C20:0) as percent of total fatty acids. |
