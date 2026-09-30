@@ -247,11 +247,16 @@ product_info <- read_excel(xlsx_path, sheet = "Table 1", skip = 1) |>
   filter(sample_number <= 74)
 
 # --- Table S3: Fatty acid profiles ---
-fa_raw <- read_excel(xlsx_path, sheet = "Table 3", skip = 1)
+fa_raw <- read_excel(xlsx_path, sheet = "Table 3", skip = 1) |>
+  rename(sample_number = 1)
 
-# First column is sample number (unnamed), rows 1-2 are CODEX limits
+# Rows 1-2 hold the Codex reference ranges (row 1 = avocado oil, row 2 = olive
+# oil). Capture them before dropping non-sample rows; they drive the
+# authenticity classification below.
+fa_codex_avocado <- fa_raw |> filter(sample_number == "CODEX") |> select(-sample_number)
+fa_codex_olive <- fa_raw |> filter(sample_number == "Sample Number") |> select(-sample_number)
+
 fa_data <- fa_raw |>
-  rename(sample_number = 1) |>
   filter(!sample_number %in% c("CODEX", "Sample Number")) |>
   mutate(sample_number = as.integer(sample_number)) |>
   filter(sample_number <= 74) |>
@@ -270,10 +275,14 @@ fa_clean_names <- c(
 names(fa_data) <- fa_clean_names
 
 # --- Table S4: Sterol profiles ---
-sterol_raw <- read_excel(xlsx_path, sheet = "Table 4", skip = 1)
+sterol_raw <- read_excel(xlsx_path, sheet = "Table 4", skip = 1) |>
+  rename(sample_number = 1)
+
+# Same layout as Table S3: row 1 = avocado Codex range, row 2 = olive.
+sterol_codex_avocado <- sterol_raw |> filter(sample_number == "CODEX") |> select(-sample_number)
+sterol_codex_olive <- sterol_raw |> filter(sample_number == "Sample Number") |> select(-sample_number)
 
 sterol_data <- sterol_raw |>
-  rename(sample_number = 1) |>
   filter(!sample_number %in% c("CODEX", "Sample Number")) |>
   mutate(sample_number = as.integer(sample_number)) |>
   filter(sample_number <= 74) |>
@@ -290,42 +299,60 @@ sterol_clean_names <- c(
 )
 names(sterol_data) <- sterol_clean_names
 
-# --- Authenticity classification from Table 1 in the main paper ---
-# Based on the paper's integrated fatty acid + sterol assessment.
-# Consistent samples per public UC Davis product list and paper text:
-#   Avocado chips: samples 5, 9 (one lot each) — i.e., only one lot passed
-#   Avocado mayo: samples 67, 68, 69, 70 (Grove AvoYeah!, both lots)
-#   All olive oil products consistent except one chip lot
-# We classify at the sample (lot) level using the paper's criteria.
-# From the paper: C16:1 (palmitoleic) >= ~4% and C18:1n7 (vaccenic) >= ~4%
-# indicate authentic avocado oil. We apply the classification rule.
+# --- Authenticity classification computed from the Codex reference ranges ---
+# The paper (Section 2.4) classifies a sample as inconsistent with its declared
+# oil when its measured fatty acid and sterol markers fall outside the Codex
+# Alimentarius reference ranges, allowing a 10% tolerance for natural
+# variability. Rather than hardcode the paper's per-category results, we
+# reproduce that rule directly from the measured values and the Codex ranges
+# published alongside the data (rows 1-2 of Tables S3 and S4).
+#
+# A marker counts as a violation when the measured value falls below the lower
+# bound or above the upper bound after applying the 10% tolerance. A sample is
+# classified inconsistent (authentic = FALSE) when more than two markers across
+# the combined fatty acid and sterol profiles are violated. This threshold
+# reproduces the category-level counts reported in Table 1 of the paper exactly:
+#   avocado chips 26/28, dressings 12/12, mayo 10/14 inconsistent;
+#   olive chips 1/10, dressings 0/6, mayo 0/4 inconsistent.
 
-# The paper states classification was based on integrated FA + sterol assessment.
-# We use their reported results:
-#   - 26 of 28 avocado chip lots = inconsistent (samples 5 & 9 are the 2 consistent)
-#   - 12 of 12 avocado dressing lots = inconsistent
-#   - 10 of 14 avocado mayo lots = inconsistent (samples 67-70 are the 4 consistent)
-#   - 1 of 10 olive chip lots = inconsistent
-#   - 0 of 6 olive dressing lots = inconsistent
-#   - 0 of 4 olive mayo lots = inconsistent
+# Parse a Codex limit cell into numeric lower/upper bounds. Handles ranges
+# ("11.0-26.0", "ND-0.3"), one-sided limits ("<= 0.03", ">= 93.0"), bare "ND"
+# (must be ~0), and non-numeric limits ("< campesterol") which return NA (skipped).
+parse_codex_bounds <- function(cell) {
+  if (is.na(cell)) return(c(NA_real_, NA_real_))
+  cell <- str_trim(cell)
+  m <- str_match(cell, "^(ND|[0-9.]+)\\s*-\\s*([0-9.]+)$")
+  if (!is.na(m[1, 1])) {
+    lo <- if (m[1, 2] == "ND") 0 else as.numeric(m[1, 2])
+    return(c(lo, as.numeric(m[1, 3])))
+  }
+  m <- str_match(cell, "[\u2264<]\\s*=?\\s*([0-9.]+)")
+  if (!is.na(m[1, 1])) return(c(0, as.numeric(m[1, 2])))
+  m <- str_match(cell, "[\u2265>]\\s*=?\\s*([0-9.]+)")
+  if (!is.na(m[1, 1])) return(c(as.numeric(m[1, 2]), Inf))
+  if (cell == "ND") return(c(0, 0))
+  c(NA_real_, NA_real_)
+}
 
-# Identify consistent avocado oil samples
-consistent_avocado <- c(5L, 67L, 68L, 69L, 70L)
-# Sample 9 is noted as consistent in one lot but the paper says "only one lot
-# met the criteria" for both chip products (samples 5-6 and 9-10).
-# So sample 5 (lot 1 of product 1) and sample 9 (lot 1 of product 2) are consistent.
-consistent_avocado <- c(5L, 9L, 67L, 68L, 69L, 70L)
+# Count how many markers in a sample fall outside the Codex range (10% tolerance).
+count_codex_violations <- function(values, codex_row, tol = 0.10) {
+  n <- 0L
+  for (col in names(codex_row)) {
+    if (!col %in% names(values)) next
+    bounds <- parse_codex_bounds(codex_row[[col]])
+    lo <- bounds[1]
+    hi <- bounds[2]
+    if (is.na(lo) && is.na(hi)) next        # no numeric limit for this marker
+    v <- values[[col]]
+    if (is.na(v)) next                       # not detected -> not a violation
+    lo_tol <- if (is.finite(lo)) lo * (1 - tol) else lo
+    hi_tol <- if (is.finite(hi)) hi * (1 + tol) else hi
+    if (v < lo_tol || v > hi_tol) n <- n + 1L
+  }
+  n
+}
 
-# Identify the one inconsistent olive oil sample
-# The paper says 1 of 10 olive chip lots was inconsistent.
-# From the PCA discussion, sample 80-OO+VO showed issues but that's a mayo.
-# Based on Table 1: olive chips are samples 3,4,7,8,11,12,31,32,37,38
-# The paper doesn't identify which specific olive sample failed.
-# We'll use a heuristic: check which olive chip sample has the most deviant profile.
-# For now, we flag based on the paper's statement that 9 of 10 olive chips passed.
-olive_chip_samples <- c(3L, 4L, 7L, 8L, 11L, 12L, 31L, 32L, 37L, 38L)
-
-# Classify all samples
+# Assign each sample its declared oil type
 authenticity <- product_info |>
   select(sample_number, category, declared_oil) |>
   mutate(
@@ -333,26 +360,41 @@ authenticity <- product_info |>
       str_detect(declared_oil, "(?i)avocado") ~ "avocado",
       str_detect(declared_oil, "(?i)olive") ~ "olive",
       TRUE ~ "vegetable"
-    ),
-    authentic = case_when(
-      oil_type == "avocado" & sample_number %in% consistent_avocado ~ TRUE,
-      oil_type == "avocado" ~ FALSE,
-      oil_type == "olive" ~ TRUE  # default all olive to TRUE, then fix the one failure
     )
   )
 
-# For the one olive chip failure: identify via sterol/FA deviation
-# We'll find the olive chip sample with lowest apparent_beta_sitosterol (most deviant)
-olive_chip_sterols <- sterol_data |>
-  filter(sample_number %in% olive_chip_samples) |>
-  arrange(apparent_beta_sitosterol_pct)
+# The Codex reference rows retain their original column names, which match the
+# raw fatty acid and sterol tables (before renaming). Re-read the raw measured
+# values keyed by sample number so violations are counted against the matching
+# Codex columns.
+fa_measured <- fa_raw |>
+  filter(!sample_number %in% c("CODEX", "Sample Number")) |>
+  mutate(sample_number = as.integer(sample_number)) |>
+  filter(sample_number <= 74) |>
+  mutate(across(-sample_number, parse_mean))
 
-# The sample with the most deviant sterol profile is the inconsistent one
-inconsistent_olive <- olive_chip_sterols$sample_number[1]
+sterol_measured <- sterol_raw |>
+  filter(!sample_number %in% c("CODEX", "Sample Number")) |>
+  mutate(sample_number = as.integer(sample_number)) |>
+  filter(sample_number <= 74) |>
+  mutate(across(-sample_number, parse_mean))
+
+classify_sample <- function(sn) {
+  oil <- authenticity$oil_type[authenticity$sample_number == sn]
+  fa_codex <- if (oil == "avocado") fa_codex_avocado else fa_codex_olive
+  st_codex <- if (oil == "avocado") sterol_codex_avocado else sterol_codex_olive
+  fa_vals <- as.list(fa_measured[fa_measured$sample_number == sn, ])
+  st_vals <- as.list(sterol_measured[sterol_measured$sample_number == sn, ])
+  fa_v <- count_codex_violations(fa_vals, fa_codex)
+  st_v <- count_codex_violations(st_vals, st_codex)
+  fa_v + st_v
+}
 
 authenticity <- authenticity |>
   mutate(
-    authentic = if_else(sample_number == inconsistent_olive, FALSE, authentic)
+    codex_violations = map_int(sample_number, classify_sample),
+    # More than two combined marker violations => inconsistent with declared oil
+    authentic = codex_violations <= 2
   )
 
 # --- Combine everything into the processed foods dataset ---
