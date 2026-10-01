@@ -77,7 +77,8 @@ anura_curated <- anura_df %>%
   mutate(
     amphib_id   = as.integer(amphib_id),
     submit_date = ymd(submit_date),
-    edit_date   = ymd(edit_date)
+    edit_date   = ymd(edit_date),
+    interntnl_status = as.character(interntnl_status)
   )
 
 # 8. Export final curated CSV file
