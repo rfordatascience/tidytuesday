@@ -1,0 +1,42 @@
+title: "AmphibiaWeb"
+article:
+  title: "Pleistocene Forest Stability Predicts Patterns of Frog Diversity in Central Africa"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/ece3.73207"
+data_source:
+  title: "How to dynamically retrieve an AmphibiaWeb XML species account"
+  url: "https://amphibiaweb.org/amphib_dump.xml"
+images:
+- file: "amphibiaweb_family_phylogeny_2019.png"
+  alt: >
+    A phylogenetic family tree diagram for Class Amphibia, produced by AmphibiaWeb in January 2019. The tree branches into three color-coded major orders: Gymnophiona (caecilians) in purple at the top, Caudata (salamanders) in orange in the middle, and Anura (frogs and toads) forming the large green section at the bottom. Individual clade and family names are listed along the tips of each branch.
+- file: "jongsma_2026_diversity_patterns.png"
+  alt: >
+    A four-panel spatial analysis grid showing amphibian diversity metrics in Central Africa plotted against distance from historical Pleistocene forest refugia in kilometers. Panel A displays species richness (R^2 = 0.71), Panel B displays phylogenetic diversity (R^2 = 0.75), Panel C displays relative phylogenetic diversity (R^2 = 0.56), and Panel D displays phylogenetic endemism (R^2 = 0.09). Each panel includes a regional spatial map above a corresponding scatter plot with a negative linear trendline.
+- file: "jongsma_2026_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news summary on how ancient Pleistocene forest stability predicts modern frog diversity in Central Africa, paired with a photo collage of diverse Afrobatrachian frogs.
+- file: "chang_2024_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news post about male frogs getting confused during mating season—featuring a photo of three common toads aggressively trying to mate with a tennis ball.
+- file: "mk_2024_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news post about 20 years of field research uncovering 10 major amphibian biodiversity hotspots in China, paired with a photo of a tiny concave-eared torrent frog perched on a rock.
+- file: "mcguire_2025_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news post detailing a massive genetic and taxonomic update for over 170 tree frog species across Australia and New Guinea, featuring a photo of a mossy fringed tree frog (Litoria serrata).
+- file: "womack_2025_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news post on a community science project uncovering rare blue (axanthic) frogs on iNaturalist, featuring a photo of a striking blue-tinted green frog (Rana clamitans).
+- file: "whitcher_2024_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news post discussing how glowing biofluorescence in frogs matches twilight light levels and frog vision, featuring a photo of a bright green tree frog glowing under blue light.
+- file: "ochoa_ochoa_2024_post.png"
+  alt: >
+    Screenshot of an AmphibiaWeb news entry exploring high endemism in Mexican amphibians and reptiles across biogeographic transition zones, accompanied by a photo of a speckled green tree frog (Charadrahyla nephila).
+
+credit:
+  post: "Ntobeko Sosibo"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"
