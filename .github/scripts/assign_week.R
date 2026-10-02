@@ -138,21 +138,30 @@ data_dictionary <- glue::glue(
   .sep = "\n\n"
 )
 
-cleaning_ext <- fs::path_ext(cleaning_src)
-language_tag <- switch(
-  tolower(cleaning_ext),
-  r = "r",
-  py = "python",
-  jl = "julia",
-  cli::cli_abort("Unknown cleaning script extension: {cleaning_ext}")
+cleaning_scripts <- purrr::map2_chr(
+  cleaning_src,
+  fs::path_ext(cleaning_src),
+  function(script, extension) {
+    language_tag <- switch(
+      tolower(extension),
+      r = "r",
+      py = "python",
+      jl = "julia",
+      cli::cli_abort("Unknown cleaning script extension: {extension}")
+    )
+    code_block <- paste0("```", language_tag, "\n", read_piece(script), "```")
+    if (length(cleaning_src) > 1) {
+      paste0("### `", basename(script), "`\n\n", code_block)
+    } else {
+      code_block
+    }
+  }
 )
 
 cleaning_script <- paste(
-  "## Cleaning Script\n",
-  paste0("```", language_tag),
-  read_piece(cleaning_src),
-  "```",
-  sep = "\n"
+  "## Cleaning Script",
+  paste(cleaning_scripts, collapse = "\n\n"),
+  sep = "\n\n"
 )
 
 the_data <- whisker::whisker.render(
