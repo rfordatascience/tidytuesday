@@ -78,6 +78,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   37|2026-09-15 |[Dead Sea Scrolls Manuscripts](data/2026/2026-09-15/readme.md)|[Israel Antiquities Authority - Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/explore-the-archive)|[The Leon Levy Dead Sea Scrolls Digital Library](https://www.deadseascrolls.org.il/)                       |
 |   38|2026-09-22 |[Average share of green areas across cities](data/2026/2026-09-22/readme.md)|[Open Spaces and Green Areas](https://data.unhabitat.org/pages/open-spaces-and-green-areas)                      |[Open Spaces and Green Areas](https://data.unhabitat.org/pages/open-spaces-and-green-areas)                |
 |   39|2026-09-29 |[Health metrics in urban centres worldwide](data/2026/2026-09-29/readme.md)|[Global human settlement health in urban centres database](https://human-settlement.emergency.copernicus.eu/download.php?ds=ucdb)|[GHSL - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/ghs_ucdb_2024.php) |
+|   40|2026-10-06 |[Avocado Oil Authenticity](data/2026/2026-10-06/readme.md) |[Authenticity of avocado and olive oils used as ingredients in commercially processed foods](https://linkinghub.elsevier.com/retrieve/pii/S2772502226007274)|[That Avocado Oil Chip You're Eating May Not Be Made With Pure Avocado Oil](https://www.ucdavis.edu/food/news/avocado-oil-chip-youre-eating-may-not-be-made-pure-avocado-oil)|
 
 ***  
 
