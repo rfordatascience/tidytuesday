@@ -9,7 +9,6 @@
 
 library(tidyverse)
 library(rvest)
-library(httr)
 
 # =============================================================================
 # HELPER: Scrape miraclehunter.com period pages (table 9 pattern)
@@ -33,7 +32,7 @@ scrape_mh_pages <- function(base_url, pages, sleep = 0.5) {
 # 1. MARIAN APPARITIONS (approved/traditional) — miraclehunter.com
 # =============================================================================
 
-cat("--- [1/7] Scraping Marian apparitions (approved) from miraclehunter.com ---\n")
+cat("--- [1/8] Scraping Marian apparitions (approved) from miraclehunter.com ---\n")
 
 marian_approved_raw <- scrape_mh_pages(
   "https://www.miraclehunter.com/marian_apparitions/approved_apparitions/",
@@ -44,12 +43,15 @@ marian_approved_raw <- scrape_mh_pages(
     "apparitions_1700-1799.html", "apparitions_1800-1899.html")
 )
 
-# These are 3-col: year, place, details
+# Raw table has 3 data columns (year, place, details) plus the source_page
+# column added by scrape_mh_pages(), so a valid scrape has >= 4 columns.
 if (ncol(marian_approved_raw) >= 4) {
   marian_approved <- marian_approved_raw |>
     select(year_raw = 1, place = 2, details = 3, source_page) |>
     filter(nchar(place) > 1) |>
     mutate(approval_status = "Approved (traditional/episcopal)")
+} else {
+  marian_approved <- tibble()
 }
 cat(sprintf("  Approved/traditional apparitions: %d rows\n", nrow(marian_approved)))
 
@@ -57,7 +59,7 @@ cat(sprintf("  Approved/traditional apparitions: %d rows\n", nrow(marian_approve
 # 2. MARIAN APPARITIONS (since 1900, with rulings) — miraclehunter.com
 # =============================================================================
 
-cat("--- [2/7] Scraping Marian apparitions (since 1900) from miraclehunter.com ---\n")
+cat("--- [2/8] Scraping Marian apparitions (since 1900) from miraclehunter.com ---\n")
 
 marian_page <- read_html(
   "https://www.miraclehunter.com/marian_apparitions/approved_apparitions/index.html")
@@ -94,7 +96,7 @@ cat(sprintf("  Combined Marian apparitions: %d rows\n", nrow(marian_all)))
 # 3. EUCHARISTIC MIRACLES — miraclehunter.com
 # =============================================================================
 
-cat("--- [3/7] Scraping Eucharistic miracles from miraclehunter.com ---\n")
+cat("--- [3/8] Scraping Eucharistic miracles from miraclehunter.com ---\n")
 
 euch_mh_raw <- scrape_mh_pages(
   "https://www.miraclehunter.com/eucharistic-miracles/",
@@ -120,7 +122,7 @@ cat(sprintf("  Eucharistic miracles (miraclehunter.com): %d rows\n", nrow(euch_m
 # 4. EUCHARISTIC MIRACLES — miracolieucaristici.org (Carlo Acutis)
 # =============================================================================
 
-cat("--- [4/7] Scraping Eucharistic miracles from miracolieucaristici.org ---\n")
+cat("--- [4/8] Scraping Eucharistic miracles from miracolieucaristici.org ---\n")
 
 euch_acutis_page <- read_html("https://www.miracolieucaristici.org/en/Liste/list.html")
 all_links <- euch_acutis_page |> html_elements("a")
@@ -185,7 +187,7 @@ cat(sprintf("  Eucharistic miracles (miracolieucaristici.org): %d rows\n", nrow(
 # 5. STIGMATA — miraclehunter.com
 # =============================================================================
 
-cat("--- [5/7] Scraping Stigmata from miraclehunter.com ---\n")
+cat("--- [5/8] Scraping Stigmata from miraclehunter.com ---\n")
 
 stig_raw <- scrape_mh_pages(
   "https://www.miraclehunter.com/stigmata/",
@@ -193,9 +195,10 @@ stig_raw <- scrape_mh_pages(
     "1600-1700.html", "1700-1800.html", "1800-1900.html", "1900-2000.html")
 )
 
-# Stigmata tables may have 3 or 4+ columns; normalize
+# Columns 1-3 are Date, Place, and People Involved. The source also has an
+# approval column, but it is sparsely populated, so approval_status is left NA
+# for stigmata rather than scraped.
 if (nrow(stig_raw) > 0) {
-  # Find the data columns — typically first few are Date, Place, People, Approval
   stig <- stig_raw |>
     select(year_raw = 1, place = 2, details = 3, source_page) |>
     filter(nchar(place) > 1, !str_detect(year_raw, "^Date$|^$")) |>
@@ -216,7 +219,7 @@ cat(sprintf("  Stigmata: %d rows\n", nrow(stig)))
 # 6. INCORRUPTIBLES — miraclehunter.com
 # =============================================================================
 
-cat("--- [6/7] Scraping Incorruptibles from miraclehunter.com ---\n")
+cat("--- [6/8] Scraping Incorruptibles from miraclehunter.com ---\n")
 
 inc_raw <- scrape_mh_pages(
   "https://www.miraclehunter.com/incorruptibles/",
@@ -226,7 +229,7 @@ inc_raw <- scrape_mh_pages(
 )
 
 if (nrow(inc_raw) > 0) {
-  # Incorruptibles have: Name, Dates, Location, Exhibition, Status (5 cols + source_page)
+  # We keep the first 3 columns: Name, Dates (birth-death), and Location.
   inc <- inc_raw |>
     select(person = 1, dates = 2, place = 3, source_page) |>
     filter(nchar(person) > 1, !str_detect(person, "^Incorruptible$|^$")) |>
@@ -244,10 +247,6 @@ if (nrow(inc_raw) > 0) {
 }
 
 cat(sprintf("  Incorruptibles: %d rows\n", nrow(inc)))
-
-# =============================================================================
-# 7. LOURDES HEALING CURES — lourdes-france.com
-# =============================================================================
 
 # =============================================================================
 # 7. MIRACULOUS IMAGES — miraclehunter.com
@@ -323,8 +322,9 @@ cat(sprintf("  Lourdes cures: %d rows\n", nrow(lourdes)))
 
 cat("\n--- Combining all sources ---\n")
 
-# Standardize columns across all sources
-standardize <- function(df, cat_name) {
+# Standardize columns across all sources. Each input already carries the
+# category, year, place, details, approval_status, and source_reference columns.
+standardize <- function(df) {
   df |>
     transmute(
       category = category,
@@ -337,13 +337,13 @@ standardize <- function(df, cat_name) {
 }
 
 combined <- bind_rows(
-  standardize(marian_all, "Marian Apparition"),
-  standardize(euch_mh, "Eucharistic Miracle") |> mutate(source_reference = "miraclehunter.com"),
-  standardize(euch_acutis |> rename(details = details), "Eucharistic Miracle"),
-  standardize(stig, "Stigmata"),
-  standardize(inc, "Incorrupt Body"),
-  standardize(img, "Miraculous Image"),
-  standardize(lourdes, "Lourdes Healing")
+  standardize(marian_all),
+  standardize(euch_mh),
+  standardize(euch_acutis),
+  standardize(stig),
+  standardize(inc),
+  standardize(img),
+  standardize(lourdes)
 )
 
 # Deduplicate Eucharistic miracles (some appear in both miraclehunter + acutis)
