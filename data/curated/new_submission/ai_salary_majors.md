@@ -2,7 +2,8 @@
 |:----------------------|:---------|:-------------------------------------|
 |cip4                   |character |Four-digit Classification of Instructional Programs (CIP) 2020 code identifying the field of study. |
 |field_of_study         |character |Human-readable name of the college major (from the College Scorecard CIP description). |
-|broad_field            |character |Broad academic area the major belongs to, derived from the two-digit CIP family (e.g. Engineering, Health Professions, Business). |
+|broad_field            |character |Official NCES title of the two-digit CIP family the major belongs to (from the CIP 2020 code file), title-cased with the trailing period removed. For example, CIP family 52 is "Business, Management, Marketing, and Related Support Services". |
+|broad_field_short      |character |A short, chart-friendly label for the CIP family, keyed to the two-digit family code. This is a convenience label for plotting and grouping, not an official NCES title (e.g. the family above is shortened to "Business"). |
 |median_starting_salary |double    |Median earnings in US dollars one year after graduation, pooled across institutions offering the major (bachelor's degree graduates). This is the starting-salary measure. |
 |median_salary_4yr      |double    |Median earnings in US dollars four years after graduation, pooled across institutions. Missing for a few majors without four-year follow-up data. |
 |ai_exposure            |double    |Average AI Occupational Exposure (AIOE) score across the occupations this major feeds into. The AIOE is standardized (mean 0, standard deviation 1); higher values mean more of the occupation's abilities overlap with what AI can do. |
