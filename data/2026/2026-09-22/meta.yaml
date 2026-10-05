@@ -1,0 +1,18 @@
+title: "Average share of green areas across cities"
+article:
+  title: "Open Spaces and Green Areas"
+  url: "https://data.unhabitat.org/pages/open-spaces-and-green-areas"
+data_source:
+  title: "Open Spaces and Green Areas"
+  url: "https://data.unhabitat.org/pages/open-spaces-and-green-areas"
+images:
+# Please include at least one image, and up to three images
+- file: "urban.png"
+  alt: >
+    A map of the world, with each country colored in shades of yellow-green by the average share of urban area that is green, by country in 2020.
+    Portugal, Belize, and Fiji appear to be the most green at about 25-30% green in urban areas.
+credit:
+  post: "Gabriela Palomo-Munoz"
+  github: "@GabsPalomo"
+  bluesky: "@gabspalomo.bsky.social"
+  linkedin: "@gabriela-palomo-munoz"

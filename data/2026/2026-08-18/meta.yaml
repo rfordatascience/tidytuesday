@@ -1,0 +1,21 @@
+title: "IELTS exam results"
+article:
+  title: "IELTS Score Statistics - What is a Good IELTS Score in 2026?"
+  url: "https://sojourningscholar.com/ielts-score-statistics/"
+data_source:
+  title: "IELTS official statistics"
+  url: "https://ielts.org/researchers/our-research/test-statistics"
+images:
+# Please include at least one image, and up to three images
+- file: "ielts-distribution.png"
+  alt: >
+    Plot showing distribution of IELTS scores by native language ordered by median score.
+    German, Marathi, Russian and Afrikaans have a higher median score than English.
+    The distributions are also different.
+    The most frequent score for Germans and Russians is 8, while the most frequent score for English-speakers is 6.
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Elio Campitelli"
+  mastodon: "eliocamp@mastodon.social"
+  github: "https://github.com/eliocamp"
