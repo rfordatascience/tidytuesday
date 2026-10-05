@@ -9,7 +9,7 @@ Jongsma, G. F. M., N. Barve, J. M. Allen, H. L. Owens, and D. C. Blackburn. 2026
 
 ### Tailor the exploration to your interests  
 
-The article above needn't be the only place to draw inspiration. Included in this week's packet are additional screenshots of posts linking to other interesting articles to guide your exploration of the *Anuran Order*.
+The article above needn't be the only place to draw inspiration. Included in this week's packet is an additional screenshot of a post linking to another interesting article to guide your exploration of the *Anuran Order*.
 
 
 ### Exploring the Data
