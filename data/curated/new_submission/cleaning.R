@@ -26,6 +26,11 @@
 # C. NCES / BLS CIP (2020) -> SOC (2018) Crosswalk. Maps fields of study to the
 #    occupations their graduates enter.
 #    https://nces.ed.gov/ipeds/cipcode/resources.aspx
+#
+# D. NCES Classification of Instructional Programs (CIP) 2020 code file. Supplies
+#    the official title for each 2-digit CIP family, used for the broad_field
+#    grouping.
+#    https://nces.ed.gov/ipeds/cipcode/resources.aspx
 # =============================================================================
 
 library(readr)
@@ -43,6 +48,7 @@ aioe_url <- "https://github.com/AIOE-Data/AIOE/raw/main/AIOE_DataAppendix.xlsx"
 lm_url   <- "https://github.com/AIOE-Data/AIOE/raw/main/Language%20Modeling%20AIOE%20and%20AIIE.xlsx"
 ig_url   <- "https://github.com/AIOE-Data/AIOE/raw/main/Image%20Generation%20AIOE%20and%20AIIE.xlsx"
 xw_url   <- "https://nces.ed.gov/ipeds/cipcode/Files/CIP2020_SOC2018_Crosswalk.xlsx"
+cip_url  <- "https://nces.ed.gov/ipeds/cipcode/Files/CIPCode2020.csv"
 sc_url   <- paste0("https://ed-public-download.scorecard.network/downloads/",
                    "Most-Recent-Cohorts-Field-of-Study_06102026.zip")
 
@@ -50,12 +56,14 @@ aioe_file <- file.path(tmp, "AIOE_DataAppendix.xlsx")
 lm_file   <- file.path(tmp, "LanguageModeling_AIOE.xlsx")
 ig_file   <- file.path(tmp, "ImageGeneration_AIOE.xlsx")
 xw_file   <- file.path(tmp, "CIP2020_SOC2018_Crosswalk.xlsx")
+cip_file  <- file.path(tmp, "CIPCode2020.csv")
 sc_zip    <- file.path(tmp, "fos.zip")
 
 download.file(aioe_url, aioe_file, mode = "wb", quiet = TRUE)
 download.file(lm_url,   lm_file,   mode = "wb", quiet = TRUE)
 download.file(ig_url,   ig_file,   mode = "wb", quiet = TRUE)
 download.file(xw_url,   xw_file,   mode = "wb", quiet = TRUE)
+download.file(cip_url,  cip_file,  mode = "wb", quiet = TRUE)
 download.file(sc_url,   sc_zip,    mode = "wb", quiet = TRUE)
 
 sc_csv <- unzip(sc_zip, exdir = file.path(tmp, "fos"))
@@ -93,6 +101,53 @@ crosswalk <- read_excel(xw_file, sheet = "CIP-SOC") |>
   filter(soc != "99-9999") |>
   mutate(cip4 = str_sub(str_remove(cip6, fixed(".")), 1, 4)) |>
   distinct(cip4, soc, .keep_all = TRUE)
+
+# -----------------------------------------------------------------------------
+# 2b. CIP family (2-digit) labels, from the official NCES CIP 2020 code file
+#     The CSV wraps every value as an Excel text guard (e.g. ="01"), so strip
+#     that first. The family-header row is the one whose CIPCode equals its
+#     CIPFamily. broad_field is the official NCES title (title-cased, trailing
+#     period removed). broad_field_short is a chart-friendly label I maintain by
+#     hand, keyed to the family code; it is a convenience, not an NCES label.
+# -----------------------------------------------------------------------------
+unguard <- function(x) str_replace_all(x, '^="?|"$', "")
+
+cip_families <- read_csv(cip_file, col_types = cols(.default = col_character())) |>
+  transmute(fam = unguard(CIPFamily), code = unguard(CIPCode), title = CIPTitle) |>
+  filter(code == fam) |>
+  distinct(fam, title) |>
+  mutate(broad_field = title |>
+           str_remove("\\.$") |>
+           str_to_title() |>
+           str_replace_all("\\bAnd\\b", "and") |>
+           str_replace_all("\\bOf\\b", "of")) |>
+  select(fam, broad_field)
+
+broad_field_short <- tribble(
+  ~fam, ~broad_field_short,
+  "01", "Agriculture",              "03", "Natural Resources",
+  "04", "Architecture",             "05", "Area & Ethnic Studies",
+  "09", "Communication",            "10", "Communications Tech",
+  "11", "Computer Science",         "12", "Culinary & Personal Svc",
+  "13", "Education",                "14", "Engineering",
+  "15", "Engineering Tech",         "16", "Foreign Languages",
+  "19", "Family & Consumer Sci",    "22", "Legal",
+  "23", "English",                  "24", "Liberal Arts",
+  "25", "Library Science",          "26", "Biological Sciences",
+  "27", "Mathematics & Statistics", "28", "Military Science",
+  "29", "Military Tech",            "30", "Interdisciplinary",
+  "31", "Parks & Recreation",       "38", "Philosophy & Religion",
+  "39", "Theology & Religion",      "40", "Physical Sciences",
+  "41", "Science Tech",             "42", "Psychology",
+  "43", "Homeland Security",        "44", "Public Administration",
+  "45", "Social Sciences",          "46", "Construction Trades",
+  "47", "Mechanic & Repair Tech",   "48", "Precision Production",
+  "49", "Transportation",           "50", "Visual & Performing Arts",
+  "51", "Health Professions",       "52", "Business",
+  "54", "History"
+)
+
+cip_families <- cip_families |> left_join(broad_field_short, by = "fam")
 
 # -----------------------------------------------------------------------------
 # 3. Starting salary by major (College Scorecard, bachelor's degrees)
@@ -151,32 +206,30 @@ major_exposure <- crosswalk |>
 # -----------------------------------------------------------------------------
 ai_salary_majors <- salary |>
   inner_join(major_exposure, by = "cip4") |>
+  mutate(fam = str_sub(cip4, 1, 2)) |>
+  left_join(cip_families, by = "fam") |>
   mutate(
-    broad_field = recode(str_sub(cip4, 1, 2),
-      "01" = "Agriculture", "03" = "Natural Resources", "04" = "Architecture",
-      "05" = "Area & Ethnic Studies", "09" = "Communication", "10" = "Communications Tech",
-      "11" = "Computer Science", "12" = "Personal & Culinary", "13" = "Education",
-      "14" = "Engineering", "15" = "Engineering Tech", "16" = "Foreign Languages",
-      "19" = "Family & Consumer Sci", "22" = "Legal", "23" = "English",
-      "24" = "Liberal Arts", "25" = "Library Science", "26" = "Biological Sciences",
-      "27" = "Mathematics & Statistics", "28" = "Military Science", "29" = "Military Tech",
-      "30" = "Interdisciplinary", "31" = "Parks & Recreation", "38" = "Philosophy & Religion",
-      "40" = "Physical Sciences", "41" = "Science Tech", "42" = "Psychology",
-      "43" = "Homeland Security", "44" = "Public Administration", "45" = "Social Sciences",
-      "46" = "Construction Trades", "47" = "Mechanic & Repair Tech", "48" = "Precision Production",
-      "49" = "Transportation", "50" = "Visual & Performing Arts", "51" = "Health Professions",
-      "52" = "Business", "54" = "History", .default = "Other"
-    ),
     ai_exposure_percentile = round(100 * (rank(ai_exposure) - 1) / (n() - 1), 1)
   ) |>
   select(
-    cip4, field_of_study, broad_field,
+    cip4, field_of_study, broad_field, broad_field_short,
     median_starting_salary, median_salary_4yr,
     ai_exposure, ai_exposure_percentile,
     ai_exposure_language, ai_exposure_image,
     n_occupations, n_institutions, n_graduates
   ) |>
   arrange(ai_exposure)
+
+# Fail loudly if any major did not match an NCES CIP family label, rather than
+# silently emitting NA or an "Other" bucket. This guards future data refreshes.
+if (anyNA(ai_salary_majors$broad_field) ||
+    anyNA(ai_salary_majors$broad_field_short)) {
+  missing <- ai_salary_majors |>
+    filter(is.na(broad_field) | is.na(broad_field_short)) |>
+    distinct(fam = str_sub(cip4, 1, 2))
+  stop("Unmapped CIP family codes (add them to the lookups): ",
+       paste(missing$fam, collapse = ", "))
+}
 
 # -----------------------------------------------------------------------------
 # 6. Supporting dataset: which occupations drive each major's exposure
