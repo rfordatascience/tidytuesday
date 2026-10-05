@@ -8,31 +8,13 @@ data_source:
 images:
 - file: "amphibiaweb_family_phylogeny_2019.png"
   alt: >
-    A phylogenetic family tree diagram for Class Amphibia, produced by AmphibiaWeb in January 2019. The tree branches into three color-coded major orders: Gymnophiona (caecilians) in purple at the top, Caudata (salamanders) in orange in the middle, and Anura (frogs and toads) forming the large green section at the bottom. Individual clade and family names are listed along the tips of each branch.
+    A broad phylogenetic family tree diagram for Class Amphibia produced by AmphibiaWeb. The tree branches into three major color-coded orders radiating from a shared ancestor: Gymnophiona (caecilians) in purple at the top, Caudata (salamanders and newts) in orange in the middle section, and Anura (frogs and toads) forming the largest green clade along the bottom. Individual taxonomic families and key clades are labeled at the tips of each branch, illustrating the evolutionary relationships and relative family diversity across the three amphibian orders.
 - file: "jongsma_2026_diversity_patterns.png"
   alt: >
-    A four-panel spatial analysis grid showing amphibian diversity metrics in Central Africa plotted against distance from historical Pleistocene forest refugia in kilometers. Panel A displays species richness (R^2 = 0.71), Panel B displays phylogenetic diversity (R^2 = 0.75), Panel C displays relative phylogenetic diversity (R^2 = 0.56), and Panel D displays phylogenetic endemism (R^2 = 0.09). Each panel includes a regional spatial map above a corresponding scatter plot with a negative linear trendline.
-- file: "jongsma_2026_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news summary on how ancient Pleistocene forest stability predicts modern frog diversity in Central Africa, paired with a photo collage of diverse Afrobatrachian frogs.
-- file: "chang_2024_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news post about male frogs getting confused during mating season—featuring a photo of three common toads aggressively trying to mate with a tennis ball.
-- file: "mk_2024_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news post about 20 years of field research uncovering 10 major amphibian biodiversity hotspots in China, paired with a photo of a tiny concave-eared torrent frog perched on a rock.
-- file: "mcguire_2025_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news post detailing a massive genetic and taxonomic update for over 170 tree frog species across Australia and New Guinea, featuring a photo of a mossy fringed tree frog (Litoria serrata).
-- file: "womack_2025_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news post on a community science project uncovering rare blue (axanthic) frogs on iNaturalist, featuring a photo of a striking blue-tinted green frog (Rana clamitans).
-- file: "whitcher_2024_post.png"
-  alt: >
-    Screenshot of an AmphibiaWeb news post discussing how glowing biofluorescence in frogs matches twilight light levels and frog vision, featuring a photo of a bright green tree frog glowing under blue light.
+    A four-panel scientific grid analyzing amphibian diversity in Central Africa against distance from historical Pleistocene forest refugia in kilometers. Panel A plots species richness, showing a strong negative linear relationship (R-squared = 0.71) where species richness decreases significantly as distance from historical refugia increases. Panel B plots phylogenetic diversity, displaying a matching steep negative trend (R-squared = 0.75). Panel C plots relative phylogenetic diversity with a moderate negative trend (R-squared = 0.56). Panel D plots phylogenetic endemism, showing a weak relationship (R-squared = 0.09). Each panel features a spatial map of Central Africa above its scatter plot, illustrating highest species concentration clustered directly within historical forest refugia zones.
 - file: "ochoa_ochoa_2024_post.png"
   alt: >
-    Screenshot of an AmphibiaWeb news entry exploring high endemism in Mexican amphibians and reptiles across biogeographic transition zones, accompanied by a photo of a speckled green tree frog (Charadrahyla nephila).
+    A screenshot of an AmphibiaWeb news post dated October 21, 2024, by Leticia Ochoa Ochoa highlighting Mexican amphibian biodiversity. On the left is a photograph by Vicente Mata-Silva showing a mottled green tree frog (Charadrahyla nephila) resting on a thick stem against a dark background. On the right, the news text summarizes a 2024 study by Lemos-Espinal and Smith on Mexican herpetofauna endemism and biogeography. Key takeaways note that over 70% of Mexican amphibian species are endemic, with the Nearctic-Neotropical Transition Zone housing 90.8% of amphibian species. It highlights highest species richness in the Sierra Madre del Sur, Trans-volcanic Belt, and Sierra Madre Oriental provinces along a latitudinal gradient. The post notes that the underlying study provides a presence-absence matrix across biogeographic provinces and an updated species list for conservation.
 
 credit:
   post: "Ntobeko Sosibo"
