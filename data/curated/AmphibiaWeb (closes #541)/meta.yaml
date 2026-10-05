@@ -1,0 +1,24 @@
+title: "AmphibiaWeb"
+article:
+  title: "Pleistocene Forest Stability Predicts Patterns of Frog Diversity in Central Africa"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/ece3.73207"
+data_source:
+  title: "How to dynamically retrieve an AmphibiaWeb XML species account"
+  url: "https://amphibiaweb.org/amphib_dump.xml"
+images:
+- file: "amphibiaweb_family_phylogeny_2019.png"
+  alt: >
+    A broad phylogenetic family tree diagram for Class Amphibia produced by AmphibiaWeb. The tree branches into three major color-coded orders radiating from a shared ancestor: Gymnophiona (caecilians) in purple at the top, Caudata (salamanders and newts) in orange in the middle section, and Anura (frogs and toads) forming the largest green clade along the bottom. Individual taxonomic families and key clades are labeled at the tips of each branch, illustrating the evolutionary relationships and relative family diversity across the three amphibian orders.
+- file: "jongsma_2026_diversity_patterns.png"
+  alt: >
+    A four-panel scientific grid analyzing amphibian diversity in Central Africa against distance from historical Pleistocene forest refugia in kilometers. Panel A plots species richness, showing a strong negative linear relationship (R-squared = 0.71) where species richness decreases significantly as distance from historical refugia increases. Panel B plots phylogenetic diversity, displaying a matching steep negative trend (R-squared = 0.75). Panel C plots relative phylogenetic diversity with a moderate negative trend (R-squared = 0.56). Panel D plots phylogenetic endemism, showing a weak relationship (R-squared = 0.09). Each panel features a spatial map of Central Africa above its scatter plot, illustrating highest species concentration clustered directly within historical forest refugia zones.
+- file: "ochoa_ochoa_2024_post.png"
+  alt: >
+    A screenshot of an AmphibiaWeb news post dated October 21, 2024, by Leticia Ochoa Ochoa highlighting Mexican amphibian biodiversity. On the left is a photograph by Vicente Mata-Silva showing a mottled green tree frog (Charadrahyla nephila) resting on a thick stem against a dark background. On the right, the news text summarizes a 2024 study by Lemos-Espinal and Smith on Mexican herpetofauna endemism and biogeography. Key takeaways note that over 70% of Mexican amphibian species are endemic, with the Nearctic-Neotropical Transition Zone housing 90.8% of amphibian species. It highlights highest species richness in the Sierra Madre del Sur, Trans-volcanic Belt, and Sierra Madre Oriental provinces along a latitudinal gradient. The post notes that the underlying study provides a presence-absence matrix across biogeographic provinces and an updated species list for conservation.
+
+credit:
+  post: "Ntobeko Sosibo"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"
