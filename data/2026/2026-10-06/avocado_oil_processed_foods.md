@@ -45,3 +45,4 @@
 |delta7_stigmastenol_pct       |double    |Delta-7-stigmastenol as percent of total sterols. Codex limit for olive oil: ≤0.5%. |
 |delta7_avenasterol_pct        |double    |Delta-7-avenasterol as percent of total sterols. Codex range for avocado oil: ND-1.5%. Elevated values indicate vegetable oil substitution. |
 |apparent_beta_sitosterol_pct  |double    |Apparent beta-sitosterol (sum of delta-5,23-stigmastadienol, clerosterol, beta-sitosterol, sitostanol, delta-5-avenasterol, and delta-5,24-stigmastadienol) as percent of total sterols. Codex requirement for olive oil: ≥93.0%. |
+

@@ -11,3 +11,4 @@ The bottled oil dataset includes detailed chemical fingerprints (fatty acid prof
 - How does the failure rate differ across product categories (chips vs. mayo vs. dressings), and why might mayo fare better?
 - Does price correlate with authenticity for bottled oils? Are consumers paying more for genuine products?
 - How do the olive oil results compare to avocado oil results, and what does that tell us about the value of industry regulation?
+

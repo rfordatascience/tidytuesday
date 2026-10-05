@@ -35,3 +35,4 @@
 |delta7_stigmasterol_pct     |double    |Delta-7-stigmasterol as a percent of total sterols. NA if not detected. |
 |delta7_avenasterol_pct      |double    |Delta-7-avenasterol as a percent of total sterols. NA if not detected. |
 |total_sterols_mg_kg         |double    |Total sterol content in milligrams per kilogram of oil. |
+
