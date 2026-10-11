@@ -1,4 +1,4 @@
-This week's data is IKEA sofas and armchairs and the Swedish places they are named after. Ingvar Kamprad, IKEA's founder, had dyslexia and found names easier to remember than number codes. Sofas and armchairs are named after places in Sweden. KLIPPAN is a town in Skåne and EKTORP a suburb of Stockholm, but many are hamlets of a few houses. 
+This week's data is IKEA sofas and armchairs and the Swedish places they are named after. Ingvar Kamprad, IKEA's founder, had dyslexia and found names easier to remember than number codes. Since December 2020, new products get Swedish names only, and sofas and armchairs are named after places in Sweden. KLIPPAN is a town in Skåne and EKTORP a suburb of Stockholm, but many are hamlets of a few houses. 
 
 One table lists every sofa and armchair on ikea.com in 50 countries on 28 September 2026, with prices in local currency and US dollars. The other has the places in Sweden that share each name, from OpenStreetMap.
 
