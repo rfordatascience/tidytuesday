@@ -158,8 +158,8 @@ ikea_places <- geocoded |>
   filter(
     osm_class %in% place_classes,
     str_to_lower(place) == str_to_lower(name),
-    # A Stockholm city block, too weak a match to count
-    !(name == "KLIPPAN" & place_type == "city_block")
+    # City blocks are too weak a match to count
+    place_type != "city_block"
   ) |>
   distinct(name, municipality, .keep_all = TRUE) |>
   select(-osm_class) |>
