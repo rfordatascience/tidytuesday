@@ -89,3 +89,4 @@ tibble(
   sample_value = map_chr(anura_curated, ~ as.character(na.omit(.x))[1] %||% NA_character_)
 ) %>% 
   print(n = Inf)
+
