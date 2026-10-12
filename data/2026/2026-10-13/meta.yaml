@@ -1,0 +1,20 @@
+title: "AmphibiaWeb"
+article:
+  title: "Pleistocene Forest Stability Predicts Patterns of Frog Diversity in Central Africa"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/ece3.73207"
+data_source:
+  title: "How to dynamically retrieve an AmphibiaWeb XML species account"
+  url: "https://amphibiaweb.org/api/ws.html"
+images:
+- file: "amphibiaweb_family_phylogeny_2019.png"
+  alt: >
+    A broad phylogenetic family tree diagram for Class Amphibia produced by AmphibiaWeb. The tree branches into three major color-coded orders radiating from a shared ancestor: Gymnophiona (caecilians) in purple at the top, Caudata (salamanders and newts) in orange in the middle section, and Anura (frogs and toads) forming the largest green clade along the bottom. Individual taxonomic families and key clades are labeled at the tips of each branch, illustrating the evolutionary relationships and relative family diversity across the three amphibian orders.
+- file: "jongsma_2026_diversity_patterns.png"
+  alt: >
+    A four-panel scientific grid analyzing amphibian diversity in Central Africa against distance from historical Pleistocene forest refugia in kilometers. Panel A plots species richness, showing a strong negative linear relationship (R-squared = 0.71) where species richness decreases significantly as distance from historical refugia increases. Panel B plots phylogenetic diversity, displaying a matching steep negative trend (R-squared = 0.75). Panel C plots relative phylogenetic diversity with a moderate negative trend (R-squared = 0.56). Panel D plots phylogenetic endemism, showing a weak relationship (R-squared = 0.09). Each panel features a spatial map of Central Africa above its scatter plot, illustrating highest species concentration clustered directly within historical forest refugia zones.
+credit:
+  post: "Ntobeko Sosibo"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"
