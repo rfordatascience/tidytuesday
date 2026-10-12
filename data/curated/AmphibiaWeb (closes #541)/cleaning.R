@@ -6,8 +6,8 @@
 # HTTP script downloads. 
 #
 # INSTRUCTIONS:
-# 1. Download 'amphib_dump.xml' manually from:
-#    https://amphibiaweb.org/amphib_dump.xml
+# 1. Download 'amphib_dump.xml' manually from the link at the bottom of
+#    https://amphibiaweb.org/api/ws.html
 # 2. Place 'amphib_dump.xml' into your working directory.
 # 3. Run this script to parse, filter, clean, and export the final dataset.
 # ==============================================================================
@@ -21,7 +21,7 @@ raw_xml_file <- "amphib_dump.xml"
 if (!file.exists(raw_xml_file)) {
   stop(
     "\n[ERROR] Missing source file: 'amphib_dump.xml'\n",
-    "Please download the XML file directly from https://amphibiaweb.org/amphib_dump.xml\n",
+    "Please download the XML file directly from https://amphibiaweb.org/api/ws.html\n",
     "and save it in your project directory before running this script."
   )
 }
@@ -81,21 +81,7 @@ anura_curated <- anura_df %>%
     interntnl_status = as.character(interntnl_status)
   )
 
-# 8. Export final curated CSV file
-# Target the TidyTuesday dataset sub-directory if it exists, otherwise fall back to root
-target_dir <- "frogs_and_toads_amphibiaweb"
-output_filename <- "frogs_and_toads_amphibiaweb.csv"
-
-output_path <- if (dir.exists(target_dir)) {
-  file.path(target_dir, output_filename)
-} else {
-  output_filename
-}
-
-write_csv(x = anura_curated, file = output_path)
-message(paste0("Done! Successfully exported ", nrow(anura_curated), " species to '", output_path, "'."))
-
-# 9. Print dataset dictionary summary table
+# 8. Print dataset dictionary summary table
 message("Dataset Schema Overview:")
 tibble(
   column_name  = names(anura_curated),

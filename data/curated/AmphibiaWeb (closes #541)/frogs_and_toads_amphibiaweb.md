@@ -25,4 +25,4 @@
 |subfamily          |character |Taxonomic subfamily designation beneath family. |
 |submit_date        |date      |Date when the species account was originally submitted to AmphibiaWeb. |
 |submittedby        |character |Author/contributor who compiled or updated the species account. |
-|trends_and_threats |character |Known threats(e.g., chytrid fungus, habitat loss) and population trend notes. |
+|trends_and_threats |character |Known threats (e.g., chytrid fungus, habitat loss) and population trend notes. |
