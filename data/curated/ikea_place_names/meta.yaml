@@ -1,0 +1,21 @@
+title: "IKEA Sofas and Their Swedish Places"
+article:
+  title: "IKEA place names"
+  url: "https://karaman.is/ikea-place-names"
+data_source:
+  title: "IKEA product listings, OpenStreetMap Nominatim and fawazahmed0 exchange rates"
+  url: "https://nominatim.openstreetmap.org/"
+images:
+- file: "ikea_place_names.png"
+  alt: >
+    Map of Sweden with a dot for each place that shares its name with an
+    IKEA sofa or armchair in the Swedish range. Filled dots are sofas,
+    hollow dots armchairs, and ringed dots names used for both. The dots
+    are densest in the south, especially in Skåne, Småland and around
+    Stockholm, and thin out towards the north, where only a handful sit
+    in the interior of Norrland. A red cross marks Älmhult in Småland,
+    where IKEA started. One place, Herråkra in Småland, is highlighted
+    with its name in a blue label.
+credit:
+  post: "Georgios Karamanis"
+  github: "@gkaramanis"
