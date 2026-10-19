@@ -233,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#amphibiaweb" id="toc-amphibiaweb" class="nav-link active" data-scroll-target="#amphibiaweb">AmphibiaWeb</a>
+  <li><a href="#which-college-majors-are-safest-from-ai-and-do-they-pay" id="toc-which-college-majors-are-safest-from-ai-and-do-they-pay" class="nav-link active" data-scroll-target="#which-college-majors-are-safest-from-ai-and-do-they-pay">Which College Majors Are Safest From AI (and Do They Pay)?</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -242,7 +242,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#frogs_and_toads_amphibiaweb.csv" id="toc-frogs_and_toads_amphibiaweb.csv" class="nav-link" data-scroll-target="#frogs_and_toads_amphibiaweb.csv"><code>frogs_and_toads_amphibiaweb.csv</code></a></li>
+  <li><a href="#ai_salary_majors.csv" id="toc-ai_salary_majors.csv" class="nav-link" data-scroll-target="#ai_salary_majors.csv"><code>ai_salary_majors.csv</code></a></li>
+  <li><a href="#major_occupations.csv" id="toc-major_occupations.csv" class="nav-link" data-scroll-target="#major_occupations.csv"><code>major_occupations.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -255,41 +256,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="amphibiaweb" class="level1">
-<h1>AmphibiaWeb</h1>
-<p>This week we’re exploring <strong>Frogs and Toads</strong> through <a href="https://amphibiaweb.org/index.html"><strong>AmphibiaWeb</strong></a>’s massive dataset! The quote below is taken from one of the many weekly articles linked in their <strong>Amphibian News!</strong> portal, with entries going all the way back to 2009.</p>
+<section id="which-college-majors-are-safest-from-ai-and-do-they-pay" class="level1">
+<h1>Which College Majors Are Safest From AI (and Do They Pay)?</h1>
+<p>This week we’re looking at which college majors are safest from AI, and whether the safe ones actually pay well.</p>
+<p>The dataset joins three public sources at the level of the college major. Starting salaries come from the U.S. Department of Education’s <a href="https://collegescorecard.ed.gov/data/">College Scorecard</a> field-of-study files, using median earnings one year after graduation for bachelor’s degrees. AI disruption risk comes from the <a href="https://github.com/AIOE-Data/AIOE">AI Occupational Exposure (AIOE) index</a> of Felten, Raj and Seamans (2021), which scores how much each occupation’s required abilities overlap with what AI can do. It also includes separate scores for language tasks and image tasks. To connect the two, I used the <a href="https://nces.ed.gov/ipeds/cipcode/resources.aspx">NCES/BLS CIP-to-SOC crosswalk</a>, which maps fields of study to the occupations their graduates tend to enter.</p>
+<p>The result is 285 majors, each with a starting salary and an AI exposure score. What stands out is that the two barely relate to each other (r is about 0.01). Hands-on technical fields like nuclear, marine, and aerospace engineering technology show low exposure and high pay. Registered nursing sits near the 20th percentile of AI exposure and pays around $75,000 to start. On the other end, several humanities majors are both highly exposed and among the lowest paid.</p>
+<p>One thing to know about the exposure score: the AIOE is standardized to a mean of 0 and a standard deviation of 1. A value of 0 is an average occupation, and negative values fall below average. High exposure does not necessarily mean a job will be automated away, since AI can also assist the work rather than replace it. So that you don’t need a stats background to read it, the main table also includes <code>ai_exposure_percentile</code>, a plain 0 to 100 rank across all majors.</p>
 <blockquote class="blockquote">
-<p>Understanding why biodiversity is unevenly distributed is fundamental to ecology and evolution. Should we look to contemporary climate to explain where species diversity is highest, or look deeper into the past? Jongsma et al.&nbsp;(2026) tackled this question in the Lower Guinean Forests of Central Africa… Pleistocene forest stability explained 65-71% of spatial variance in species richness and phylogenetic diversity, which far exceeds contemporary temperature, precipitation, or forest cover.</p>
-<p>– <strong>Greg Jongsma via <a href="https://amphibiaweb.org/resources/amphibian_news.html">AmphibiaWeb News</a></strong> (referencing <a href="https://doi.org/10.1002/ece3.73207">Jongsma et al., 2026</a>)</p>
+<p>The AIOE links ten common AI applications with fifty-two distinct occupational abilities used by O*NET and uses the relative prevalence of these abilities within an occupation to generate an occupational measure of AI exposure. (Felten, Raj and Seamans 2021; description rephrased for compliance with licensing restrictions.)</p>
 </blockquote>
-<section id="citation" class="level4">
-<h4 class="anchored" data-anchor-id="citation">Citation</h4>
-<p>Jongsma, G. F. M., N. Barve, J. M. Allen, H. L. Owens, and D. C. Blackburn. 2026. “Pleistocene Forest Stability Predicts Patterns of Frog Diversity in Central Africa.” <em>Ecology and Evolution</em> 16 (3): e73207. <a href="https://doi.org/10.1002/ece3.73207">https://doi.org/10.1002/ece3.73207</a>.</p>
-<p>The article above needn’t be the only place to draw inspiration. <a href="https://amphibiaweb.org/resources/amphibian_news.html">AmphibiaWeb News</a> highlights an amphibian-related journal article every week!</p>
-<p>Here are a few questions you might answer with your visualisations this week:</p>
+<p>Some questions to explore:</p>
 <ul>
-<li>Which frog families contain the highest species counts, and how is diversity distributed across genera?</li>
-<li>Which countries host the highest numbers of native frog/toad species?</li>
-<li>How do IUCN status designations (<code>interntnl_status</code>) vary across families or geographical regions?</li>
-<li>Can historical geographic range notes or habitat descriptions explain current regional species clustering?</li>
+<li>Which majors are both safe from AI and well paid, and which are both exposed and low paid?</li>
+<li>Does the picture change when you look at language-task exposure versus image-task exposure?</li>
+<li>Do broad fields like Engineering, Health Professions, Business, and Humanities cluster together?</li>
+<li>The AIOE measures exposure, not automation. How would the story change if high exposure mostly meant AI assisting the work rather than replacing it?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/afrikaniz3d-za">Ntobeko Sosibo</a> for curating this week’s dataset.</p>
-</section>
+<p>Thank you to <a href="https://github.com/gdatascience">Tony Galvan, Golden Dome Data Science</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-10-13'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-10-20'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">41</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">42</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>frogs_and_toads_amphibiaweb <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>frogs_and_toads_amphibiaweb</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>frogs_and_toads_amphibiaweb <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-13/frogs_and_toads_amphibiaweb.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>ai_salary_majors</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>major_occupations</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -297,11 +297,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-10-13'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-10-20'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>frogs_and_toads_amphibiaweb <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-13/frogs_and_toads_amphibiaweb.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -309,14 +310,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-10-13"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-10-20"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>frogs_and_toads_amphibiaweb <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-13/frogs_and_toads_amphibiaweb.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>frogs_and_toads_amphibiaweb <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-13/frogs_and_toads_amphibiaweb.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv"</span>, DataFrame)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -337,13 +340,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="frogs_and_toads_amphibiaweb.csv" class="level3">
-<h3 class="anchored" data-anchor-id="frogs_and_toads_amphibiaweb.csv"><code>frogs_and_toads_amphibiaweb.csv</code></h3>
+<section id="ai_salary_majors.csv" class="level3">
+<h3 class="anchored" data-anchor-id="ai_salary_majors.csv"><code>ai_salary_majors.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 28%">
+<col style="width: 32%">
 <col style="width: 14%">
-<col style="width: 56%">
+<col style="width: 53%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -354,134 +357,123 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">amphib_id</td>
+<td style="text-align: left;">cip4</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Four-digit Classification of Instructional Programs (CIP) 2020 code identifying the field of study.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">field_of_study</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Human-readable name of the college major (from the College Scorecard CIP description).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">broad_field</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Official NCES title of the two-digit CIP family the major belongs to (from the CIP 2020 code file), title-cased with the trailing period removed. For example, CIP family 52 is “Business, Management, Marketing, and Related Support Services”.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">broad_field_short</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">A short, chart-friendly label for the CIP family, keyed to the two-digit family code. This is a convenience label for plotting and grouping, not an official NCES title (e.g.&nbsp;the family above is shortened to “Business”).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">median_starting_salary</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median earnings in US dollars one year after graduation, pooled across institutions offering the major (bachelor’s degree graduates). This is the starting-salary measure.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">median_salary_4yr</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Median earnings in US dollars four years after graduation, pooled across institutions. Missing for a few majors without four-year follow-up data.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ai_exposure</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Average AI Occupational Exposure (AIOE) score across the occupations this major feeds into. The AIOE is standardized (mean 0, standard deviation 1); higher values mean more of the occupation’s abilities overlap with what AI can do.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ai_exposure_percentile</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Rank of this major’s AI exposure on a 0 to 100 scale relative to all 285 majors in the dataset. 0 is the least AI-exposed major, 100 the most.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ai_exposure_language</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Average AIOE score for the language-modeling application of generative AI (text-based tasks) across the major’s occupations. Standardized like ai_exposure.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ai_exposure_image</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Average AIOE score for the image-generation application of generative AI (visual tasks) across the major’s occupations. Standardized like ai_exposure.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_occupations</td>
 <td style="text-align: left;">integer</td>
-<td style="text-align: left;">Unique identifier assigned to the species record in AmphibiaWeb.</td>
+<td style="text-align: left;">Number of distinct occupations (SOC codes) the major maps to in the CIP-SOC crosswalk; the exposure scores are averaged over these occupations.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">clade</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">The taxonomic clade to which the individual belongs, representing a monophyletic group of frogs or toads sharing a common ancestor.</td>
+<td style="text-align: left;">n_institutions</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Number of institutions whose graduates contributed to the pooled starting-salary figure for this major.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">comments</td>
+<td style="text-align: left;">n_graduates</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Total count of graduates with measured earnings one year out, summed across institutions offering the major.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="major_occupations.csv" class="level3">
+<h3 class="anchored" data-anchor-id="major_occupations.csv"><code>major_occupations.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 14%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">cip4</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">General notes, taxonomic discussions, or miscellaneous observations regarding the species record.</td>
+<td style="text-align: left;">Four-digit CIP 2020 code for the field of study; joins to <code>cip4</code> in the ai_salary_majors table.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">common_name</td>
+<td style="text-align: left;">field_of_study</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Primary vernacular or English common name (often NA if none exists).</td>
+<td style="text-align: left;">Name of the college major from the CIP-SOC crosswalk.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">description</td>
+<td style="text-align: left;">soc</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Free-text narrative detailing physical features, morphology, or coloration.</td>
+<td style="text-align: left;">Six-digit Standard Occupational Classification (SOC) 2018 code for an occupation this major can lead to.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">distribution</td>
+<td style="text-align: left;">occupation</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">Geographic range description, country codes, or regional distribution notes.</td>
+<td style="text-align: left;">Human-readable occupation title for the SOC code.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">edit_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Date when the species account was last edited or updated.</td>
+<td style="text-align: left;">ai_exposure</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Overall AI Occupational Exposure (AIOE) score for this occupation. Standardized (mean 0, SD 1); higher means more exposed to AI.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">editedby</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Editor(s) who reviewed or revised the account entry.</td>
+<td style="text-align: left;">ai_exposure_language</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">AIOE score for the language-modeling application of generative AI for this occupation.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">family</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Taxonomic family (e.g., Hylidae, Bufonidae).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">genus</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Taxonomic genus name.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">interntnl_status</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">International conservation status designation (e.g., IUCN Red List category).</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">intro_isocc</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">ISO country codes indicating regions where the species has been introduced.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">isocc</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">ISO country codes representing the native range and occurrence of the species.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">lannoo</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Account summary or commentary derived from Lannoo’s Amphibian Declines reference texts.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">larva</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Morphological description, traits, or ecology of the larval or tadpole stage.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">life_history</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Habitat, ecology, breeding behavior, clutch size, or larval traits.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">national_status</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Conservation or legal status of the species within specific national jurisdictions.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ordr</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Higher taxonomic order (Anura, Caudata, Gymnophiona).</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">refs</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Citations and bibliographic references supporting the species account.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">regional_status</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Local or regional conservation assessment status.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">relation_to_humans</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Anthropogenic interaction, pet trade notes, or cultural significance.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">specificepithet</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Specific epithet / species name.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">subfamily</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Taxonomic subfamily designation beneath family.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">submit_date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Date when the species account was originally submitted to AmphibiaWeb.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">submittedby</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Author/contributor who compiled or updated the species account.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">trends_and_threats</td>
-<td style="text-align: left;">character</td>
-<td style="text-align: left;">Known threats (e.g., chytrid fungus, habitat loss) and population trend notes.</td>
+<td style="text-align: left;">ai_exposure_image</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">AIOE score for the image-generation application of generative AI for this occupation.</td>
 </tr>
 </tbody>
 </table>
@@ -489,97 +481,260 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ==============================================================================</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># AmphibiaWeb (Order Anura - Frogs &amp; Toads)</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># </span><span class="al">NOTE</span><span class="co">:</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># AmphibiaWeb enforces Cloudflare Turnstile protection, which blocks automated</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># HTTP script downloads. </span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># INSTRUCTIONS:</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Download 'amphib_dump.xml' manually from the link at the bottom of</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">#    https://amphibiaweb.org/api/ws.html</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Place 'amphib_dump.xml' into your working directory.</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Run this script to parse, filter, clean, and export the final dataset.</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># ==============================================================================</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(xml2)</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>raw_xml_file <span class="ot">&lt;-</span> <span class="st">"amphib_dump.xml"</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Check for required local XML dump</span></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">file.exists</span>(raw_xml_file)) {</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"</span><span class="sc">\n</span><span class="st">[ERROR] Missing source file: 'amphib_dump.xml'</span><span class="sc">\n</span><span class="st">"</span>,</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Please download the XML file directly from https://amphibiaweb.org/api/ws.html</span><span class="sc">\n</span><span class="st">"</span>,</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"and save it in your project directory before running this script."</span></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Reading local AmphibiaWeb XML dump..."</span>)</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Read XML document with recovery mode enabled for minor syntax tolerance</span></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>xml_doc <span class="ot">&lt;-</span> <span class="fu">read_xml</span>(raw_xml_file, <span class="at">options =</span> <span class="st">"RECOVER"</span>)</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Extract species nodes</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>species_nodes <span class="ot">&lt;-</span> <span class="fu">xml_find_all</span>(xml_doc, <span class="st">"//species"</span>)</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="fu">paste</span>(<span class="st">"Successfully found"</span>, <span class="fu">length</span>(species_nodes), <span class="st">"total species records in XML."</span>))</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Unnest XML nodes into a wide data frame</span></span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Unnesting XML nodes into tabular format..."</span>)</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>raw_df <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(species_nodes, <span class="cf">function</span>(node) {</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>  children <span class="ot">&lt;-</span> <span class="fu">xml_children</span>(node)</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  keys <span class="ot">&lt;-</span> <span class="fu">xml_name</span>(children)</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  vals <span class="ot">&lt;-</span> <span class="fu">xml_text</span>(children)</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tibble</span>(<span class="at">key =</span> keys, <span class="at">val =</span> vals) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(key) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(<span class="at">val =</span> <span class="fu">paste</span>(val, <span class="at">collapse =</span> <span class="st">" | "</span>), <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> key, <span class="at">values_from =</span> val)</span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Clean column names and locate order field</span></span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>raw_df_clean <span class="ot">&lt;-</span> raw_df <span class="sc">%&gt;%</span> </span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename_with</span>(str_to_lower)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># =============================================================================</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># TidyTuesday dataset: College majors, AI disruption risk, and starting salaries</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># =============================================================================</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># This script is fully self-contained. It downloads three public data sources,</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># joins them at the level of the college major (4-digit CIP code), and produces</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># two tidy data frames:</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">#   1. ai_salary_majors   - one row per major: starting salary + AI exposure</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">#   2. major_occupations  - the major -&gt; occupation crosswalk with per-occupation</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co">#                           AI exposure scores (the detail behind each major's</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co">#                           exposure)</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># SOURCES</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># -------</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co"># A. AI Occupational Exposure (AIOE), Felten, Raj &amp; Seamans (2021), Strategic</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co">#    Management Journal 42(12):2195-2217. Occupation-level (SOC) exposure to AI,</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co">#    plus generative-AI variants for language modeling and image generation.</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="co">#    https://github.com/AIOE-Data/AIOE</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co"># B. U.S. Department of Education, College Scorecard, Field of Study data files</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="co">#    (updated 2026-06-10). Median earnings one year after graduation, by</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co">#    institution x 4-digit CIP code x credential level.</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co">#    https://collegescorecard.ed.gov/data/</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># C. NCES / BLS CIP (2020) -&gt; SOC (2018) Crosswalk. Maps fields of study to the</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co">#    occupations their graduates enter.</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co">#    https://nces.ed.gov/ipeds/cipcode/resources.aspx</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="co"># D. NCES Classification of Instructional Programs (CIP) 2020 code file. Supplies</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="co">#    the official title for each 2-digit CIP family, used for the broad_field</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="co">#    grouping.</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="co">#    https://nces.ed.gov/ipeds/cipcode/resources.aspx</span></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="co"># =============================================================================</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="co"># 0. Download raw files to a temporary directory</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>tmp <span class="ot">&lt;-</span> <span class="fu">tempdir</span>()</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>aioe_url <span class="ot">&lt;-</span> <span class="st">"https://github.com/AIOE-Data/AIOE/raw/main/AIOE_DataAppendix.xlsx"</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>lm_url   <span class="ot">&lt;-</span> <span class="st">"https://github.com/AIOE-Data/AIOE/raw/main/Language%20Modeling%20AIOE%20and%20AIIE.xlsx"</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>ig_url   <span class="ot">&lt;-</span> <span class="st">"https://github.com/AIOE-Data/AIOE/raw/main/Image%20Generation%20AIOE%20and%20AIIE.xlsx"</span></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>xw_url   <span class="ot">&lt;-</span> <span class="st">"https://nces.ed.gov/ipeds/cipcode/Files/CIP2020_SOC2018_Crosswalk.xlsx"</span></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>cip_url  <span class="ot">&lt;-</span> <span class="st">"https://nces.ed.gov/ipeds/cipcode/Files/CIPCode2020.csv"</span></span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>sc_url   <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"https://ed-public-download.scorecard.network/downloads/"</span>,</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Most-Recent-Cohorts-Field-of-Study_06102026.zip"</span>)</span>
 <span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>order_col <span class="ot">&lt;-</span> <span class="fu">names</span>(raw_df_clean)[<span class="fu">str_detect</span>(<span class="fu">names</span>(raw_df_clean), <span class="st">"^ordr$|^order$"</span>)][<span class="dv">1</span>]</span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">is.na</span>(order_col)) {</span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(<span class="st">"Could not locate an 'ordr' or 'order' column in the parsed XML dataset."</span>)</span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="fu">paste</span>(<span class="st">"Filtering records on order column:"</span>, order_col))</span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. Filter strictly for Order Anura (Frogs &amp; Toads)</span></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>anura_df <span class="ot">&lt;-</span> raw_df_clean <span class="sc">%&gt;%</span> </span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_trim</span>(<span class="fu">str_to_lower</span>(.data[[order_col]])) <span class="sc">==</span> <span class="st">"anura"</span>)</span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="co"># 7. Clean whitespace, convert empty strings to NA, and parse column data types</span></span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Curating columns and parsing data types..."</span>)</span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>anura_curated <span class="ot">&lt;-</span> anura_df <span class="sc">%&gt;%</span> </span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 7.1. Strip leading/trailing whitespace and \n characters across all character columns</span></span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), str_trim)) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 7.2. Convert empty strings ("") or whitespace-only strings to true R NAs</span></span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.character), <span class="sc">~</span> <span class="fu">na_if</span>(.x, <span class="st">""</span>))) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 7.3. Explicitly parse numeric and date columns</span></span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>    <span class="at">amphib_id   =</span> <span class="fu">as.integer</span>(amphib_id),</span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>    <span class="at">submit_date =</span> <span class="fu">ymd</span>(submit_date),</span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>    <span class="at">edit_date   =</span> <span class="fu">ymd</span>(edit_date),</span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">interntnl_status =</span> <span class="fu">as.character</span>(interntnl_status)</span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>aioe_file <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"AIOE_DataAppendix.xlsx"</span>)</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>lm_file   <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"LanguageModeling_AIOE.xlsx"</span>)</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>ig_file   <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"ImageGeneration_AIOE.xlsx"</span>)</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>xw_file   <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"CIP2020_SOC2018_Crosswalk.xlsx"</span>)</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>cip_file  <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"CIPCode2020.csv"</span>)</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>sc_zip    <span class="ot">&lt;-</span> <span class="fu">file.path</span>(tmp, <span class="st">"fos.zip"</span>)</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(aioe_url, aioe_file, <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(lm_url,   lm_file,   <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(ig_url,   ig_file,   <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(xw_url,   xw_file,   <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(cip_url,  cip_file,  <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(sc_url,   sc_zip,    <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>sc_csv <span class="ot">&lt;-</span> <span class="fu">unzip</span>(sc_zip, <span class="at">exdir =</span> <span class="fu">file.path</span>(tmp, <span class="st">"fos"</span>))</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>sc_csv <span class="ot">&lt;-</span> sc_csv[<span class="fu">grepl</span>(<span class="st">"Field-of-Study</span><span class="sc">\\</span><span class="st">.csv$"</span>, sc_csv)][<span class="dv">1</span>]</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. AI exposure by occupation (SOC)</span></span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a><span class="co">#    AIOE scores are standardized (mean 0, SD 1). Higher = more exposed to AI.</span></span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>aioe <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(aioe_file, <span class="at">sheet =</span> <span class="st">"Appendix A"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">soc =</span> <span class="st">`</span><span class="at">SOC Code</span><span class="st">`</span>, <span class="at">occupation =</span> <span class="st">`</span><span class="at">Occupation Title</span><span class="st">`</span>, <span class="at">aioe =</span> AIOE) <span class="sc">|&gt;</span></span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(soc, occupation, aioe)</span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>lm <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(lm_file, <span class="at">sheet =</span> <span class="st">"LM AIOE"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">soc =</span> <span class="st">`</span><span class="at">SOC Code</span><span class="st">`</span>, <span class="at">aioe_language =</span> <span class="st">`</span><span class="at">Language Modeling AIOE</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(soc, aioe_language)</span>
 <span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a><span class="co"># 8. Print dataset dictionary summary table</span></span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Dataset Schema Overview:"</span>)</span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a><span class="fu">tibble</span>(</span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  <span class="at">column_name  =</span> <span class="fu">names</span>(anura_curated),</span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  <span class="at">data_type    =</span> <span class="fu">map_chr</span>(anura_curated, <span class="sc">~</span> <span class="fu">class</span>(.x)[<span class="dv">1</span>]),</span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>  <span class="at">sample_value =</span> <span class="fu">map_chr</span>(anura_curated, <span class="sc">~</span> <span class="fu">as.character</span>(<span class="fu">na.omit</span>(.x))[<span class="dv">1</span>] <span class="sc">%||%</span> <span class="cn">NA_character_</span>)</span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n =</span> <span class="cn">Inf</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>ig <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(ig_file, <span class="at">sheet =</span> <span class="st">"IG AIOE"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">soc =</span> <span class="st">`</span><span class="at">SOC Code</span><span class="st">`</span>, <span class="at">aioe_image =</span> <span class="st">`</span><span class="at">Image Generation AIOE</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(soc, aioe_image)</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>exposure <span class="ot">&lt;-</span> aioe <span class="sc">|&gt;</span></span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(lm, <span class="at">by =</span> <span class="st">"soc"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(ig, <span class="at">by =</span> <span class="st">"soc"</span>)</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. CIP (2020) -&gt; SOC (2018) crosswalk</span></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="co">#    A major maps to one or more occupations. Drop the "NO MATCH" sentinel.</span></span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a><span class="co">#    Normalize the dotted 6-digit CIP (e.g. "11.0701") to the 4-digit key</span></span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a><span class="co">#    ("1107") used by the College Scorecard field-of-study file.</span></span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>crosswalk <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(xw_file, <span class="at">sheet =</span> <span class="st">"CIP-SOC"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">cip6 =</span> CIP2020Code, <span class="at">cip_title =</span> CIP2020Title,</span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>         <span class="at">soc  =</span> SOC2018Code, <span class="at">soc_title =</span> SOC2018Title) <span class="sc">|&gt;</span></span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(soc <span class="sc">!=</span> <span class="st">"99-9999"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">cip4 =</span> <span class="fu">str_sub</span>(<span class="fu">str_remove</span>(cip6, <span class="fu">fixed</span>(<span class="st">"."</span>)), <span class="dv">1</span>, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(cip4, soc, <span class="at">.keep_all =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a><span class="co"># 2b. CIP family (2-digit) labels, from the official NCES CIP 2020 code file</span></span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a><span class="co">#     The CSV wraps every value as an Excel text guard (e.g. ="01"), so strip</span></span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a><span class="co">#     that first. The family-header row is the one whose CIPCode equals its</span></span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a><span class="co">#     CIPFamily. broad_field is the official NCES title (title-cased, trailing</span></span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a><span class="co">#     period removed). broad_field_short is a chart-friendly label I maintain by</span></span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a><span class="co">#     hand, keyed to the family code; it is a convenience, not an NCES label.</span></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>unguard <span class="ot">&lt;-</span> <span class="cf">function</span>(x) <span class="fu">str_replace_all</span>(x, <span class="st">'^="?|"$'</span>, <span class="st">""</span>)</span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>cip_families <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(cip_file, <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="fu">col_character</span>())) <span class="sc">|&gt;</span></span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(<span class="at">fam =</span> <span class="fu">unguard</span>(CIPFamily), <span class="at">code =</span> <span class="fu">unguard</span>(CIPCode), <span class="at">title =</span> CIPTitle) <span class="sc">|&gt;</span></span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(code <span class="sc">==</span> fam) <span class="sc">|&gt;</span></span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(fam, title) <span class="sc">|&gt;</span></span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">broad_field =</span> title <span class="sc">|&gt;</span></span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">.$"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_to_title</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_replace_all</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">bAnd</span><span class="sc">\\</span><span class="st">b"</span>, <span class="st">"and"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_replace_all</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">bOf</span><span class="sc">\\</span><span class="st">b"</span>, <span class="st">"of"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(fam, broad_field)</span>
+<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>broad_field_short <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>fam, <span class="sc">~</span>broad_field_short,</span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>  <span class="st">"01"</span>, <span class="st">"Agriculture"</span>,              <span class="st">"03"</span>, <span class="st">"Natural Resources"</span>,</span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>  <span class="st">"04"</span>, <span class="st">"Architecture"</span>,             <span class="st">"05"</span>, <span class="st">"Area &amp; Ethnic Studies"</span>,</span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>  <span class="st">"09"</span>, <span class="st">"Communication"</span>,            <span class="st">"10"</span>, <span class="st">"Communications Tech"</span>,</span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>  <span class="st">"11"</span>, <span class="st">"Computer Science"</span>,         <span class="st">"12"</span>, <span class="st">"Culinary &amp; Personal Svc"</span>,</span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>  <span class="st">"13"</span>, <span class="st">"Education"</span>,                <span class="st">"14"</span>, <span class="st">"Engineering"</span>,</span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>  <span class="st">"15"</span>, <span class="st">"Engineering Tech"</span>,         <span class="st">"16"</span>, <span class="st">"Foreign Languages"</span>,</span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>  <span class="st">"19"</span>, <span class="st">"Family &amp; Consumer Sci"</span>,    <span class="st">"22"</span>, <span class="st">"Legal"</span>,</span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>  <span class="st">"23"</span>, <span class="st">"English"</span>,                  <span class="st">"24"</span>, <span class="st">"Liberal Arts"</span>,</span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>  <span class="st">"25"</span>, <span class="st">"Library Science"</span>,          <span class="st">"26"</span>, <span class="st">"Biological Sciences"</span>,</span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>  <span class="st">"27"</span>, <span class="st">"Mathematics &amp; Statistics"</span>, <span class="st">"28"</span>, <span class="st">"Military Science"</span>,</span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>  <span class="st">"29"</span>, <span class="st">"Military Tech"</span>,            <span class="st">"30"</span>, <span class="st">"Interdisciplinary"</span>,</span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>  <span class="st">"31"</span>, <span class="st">"Parks &amp; Recreation"</span>,       <span class="st">"38"</span>, <span class="st">"Philosophy &amp; Religion"</span>,</span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>  <span class="st">"39"</span>, <span class="st">"Theology &amp; Religion"</span>,      <span class="st">"40"</span>, <span class="st">"Physical Sciences"</span>,</span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>  <span class="st">"41"</span>, <span class="st">"Science Tech"</span>,             <span class="st">"42"</span>, <span class="st">"Psychology"</span>,</span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>  <span class="st">"43"</span>, <span class="st">"Homeland Security"</span>,        <span class="st">"44"</span>, <span class="st">"Public Administration"</span>,</span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a>  <span class="st">"45"</span>, <span class="st">"Social Sciences"</span>,          <span class="st">"46"</span>, <span class="st">"Construction Trades"</span>,</span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>  <span class="st">"47"</span>, <span class="st">"Mechanic &amp; Repair Tech"</span>,   <span class="st">"48"</span>, <span class="st">"Precision Production"</span>,</span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>  <span class="st">"49"</span>, <span class="st">"Transportation"</span>,           <span class="st">"50"</span>, <span class="st">"Visual &amp; Performing Arts"</span>,</span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>  <span class="st">"51"</span>, <span class="st">"Health Professions"</span>,       <span class="st">"52"</span>, <span class="st">"Business"</span>,</span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>  <span class="st">"54"</span>, <span class="st">"History"</span></span>
+<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a>cip_families <span class="ot">&lt;-</span> cip_families <span class="sc">|&gt;</span> <span class="fu">left_join</span>(broad_field_short, <span class="at">by =</span> <span class="st">"fam"</span>)</span>
+<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Starting salary by major (College Scorecard, bachelor's degrees)</span></span>
+<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a><span class="co">#    CREDLEV == 3 is Bachelor's Degree. EARN_MDN_1YR is median earnings one year</span></span>
+<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a><span class="co">#    after completion. Aggregate institution-level values to a national median</span></span>
+<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a><span class="co">#    per 4-digit CIP. "PrivacySuppressed" cells are treated as missing.</span></span>
+<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a>scorecard <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(</span>
+<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a>  sc_csv,</span>
+<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a>  <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">.default =</span> <span class="fu">col_character</span>()),</span>
+<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a>  <span class="at">na =</span> <span class="fu">c</span>(<span class="st">""</span>, <span class="st">"NA"</span>, <span class="st">"NULL"</span>, <span class="st">"PrivacySuppressed"</span>)</span>
+<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(CREDLEV <span class="sc">==</span> <span class="st">"3"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a>    <span class="at">cip4        =</span> <span class="fu">str_pad</span>(CIPCODE, <span class="dv">4</span>, <span class="st">"left"</span>, <span class="st">"0"</span>),</span>
+<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>    <span class="at">cip_desc    =</span> <span class="fu">str_squish</span>(<span class="fu">str_remove</span>(CIPDESC, <span class="st">"</span><span class="sc">\\</span><span class="st">.$"</span>)),</span>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a>    <span class="at">earn_1yr    =</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(EARN_MDN_1YR)),</span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a>    <span class="at">earn_4yr    =</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(EARN_MDN_4YR)),</span>
+<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>    <span class="at">grad_count  =</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(EARN_COUNT_WNE_1YR))</span>
+<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a>salary <span class="ot">&lt;-</span> scorecard <span class="sc">|&gt;</span></span>
+<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(earn_1yr)) <span class="sc">|&gt;</span></span>
+<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(cip4) <span class="sc">|&gt;</span></span>
+<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a>    <span class="at">field_of_study         =</span> <span class="fu">first</span>(cip_desc),</span>
+<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a>    <span class="at">median_starting_salary =</span> <span class="fu">round</span>(<span class="fu">median</span>(earn_1yr, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)),</span>
+<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a>    <span class="at">median_salary_4yr      =</span> <span class="fu">round</span>(<span class="fu">median</span>(earn_4yr, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)),</span>
+<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_institutions         =</span> <span class="fu">n</span>(),</span>
+<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_graduates            =</span> <span class="fu">sum</span>(grad_count, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Major-level AI exposure</span></span>
+<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a><span class="co">#    Average the occupation-level AIOE scores across every occupation a major</span></span>
+<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a><span class="co">#    maps to. Attach the standardized scores to the salary table.</span></span>
+<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a>major_exposure <span class="ot">&lt;-</span> crosswalk <span class="sc">|&gt;</span></span>
+<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(exposure, <span class="at">by =</span> <span class="st">"soc"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(cip4) <span class="sc">|&gt;</span></span>
+<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_occupations    =</span> <span class="fu">n_distinct</span>(soc),</span>
+<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure       =</span> <span class="fu">mean</span>(aioe, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure_language =</span> <span class="fu">mean</span>(aioe_language, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-196"><a href="#cb4-196" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure_image    =</span> <span class="fu">mean</span>(aioe_image, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Final major-level dataset</span></span>
+<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a><span class="co">#    Keep majors that have BOTH a starting salary and an AI-exposure score.</span></span>
+<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a><span class="co">#    Add a 0-100 percentile rank for AI exposure so a non-specialist can read</span></span>
+<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a><span class="co">#    "how exposed is this major relative to all others" without needing to know</span></span>
+<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a><span class="co">#    that the raw score is a z-score.</span></span>
+<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="ot">&lt;-</span> salary <span class="sc">|&gt;</span></span>
+<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(major_exposure, <span class="at">by =</span> <span class="st">"cip4"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-209"><a href="#cb4-209" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">fam =</span> <span class="fu">str_sub</span>(cip4, <span class="dv">1</span>, <span class="dv">2</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(cip_families, <span class="at">by =</span> <span class="st">"fam"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-211"><a href="#cb4-211" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure_percentile =</span> <span class="fu">round</span>(<span class="dv">100</span> <span class="sc">*</span> (<span class="fu">rank</span>(ai_exposure) <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">/</span> (<span class="fu">n</span>() <span class="sc">-</span> <span class="dv">1</span>), <span class="dv">1</span>)</span>
+<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a>    cip4, field_of_study, broad_field, broad_field_short,</span>
+<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a>    median_starting_salary, median_salary_4yr,</span>
+<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a>    ai_exposure, ai_exposure_percentile,</span>
+<span id="cb4-218"><a href="#cb4-218" aria-hidden="true" tabindex="-1"></a>    ai_exposure_language, ai_exposure_image,</span>
+<span id="cb4-219"><a href="#cb4-219" aria-hidden="true" tabindex="-1"></a>    n_occupations, n_institutions, n_graduates</span>
+<span id="cb4-220"><a href="#cb4-220" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-221"><a href="#cb4-221" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(ai_exposure)</span>
+<span id="cb4-222"><a href="#cb4-222" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-223"><a href="#cb4-223" aria-hidden="true" tabindex="-1"></a><span class="co"># Fail loudly if any major did not match an NCES CIP family label, rather than</span></span>
+<span id="cb4-224"><a href="#cb4-224" aria-hidden="true" tabindex="-1"></a><span class="co"># silently emitting NA or an "Other" bucket. This guards future data refreshes.</span></span>
+<span id="cb4-225"><a href="#cb4-225" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">anyNA</span>(ai_salary_majors<span class="sc">$</span>broad_field) <span class="sc">||</span></span>
+<span id="cb4-226"><a href="#cb4-226" aria-hidden="true" tabindex="-1"></a>    <span class="fu">anyNA</span>(ai_salary_majors<span class="sc">$</span>broad_field_short)) {</span>
+<span id="cb4-227"><a href="#cb4-227" aria-hidden="true" tabindex="-1"></a>  missing <span class="ot">&lt;-</span> ai_salary_majors <span class="sc">|&gt;</span></span>
+<span id="cb4-228"><a href="#cb4-228" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="fu">is.na</span>(broad_field) <span class="sc">|</span> <span class="fu">is.na</span>(broad_field_short)) <span class="sc">|&gt;</span></span>
+<span id="cb4-229"><a href="#cb4-229" aria-hidden="true" tabindex="-1"></a>    <span class="fu">distinct</span>(<span class="at">fam =</span> <span class="fu">str_sub</span>(cip4, <span class="dv">1</span>, <span class="dv">2</span>))</span>
+<span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(<span class="st">"Unmapped CIP family codes (add them to the lookups): "</span>,</span>
+<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a>       <span class="fu">paste</span>(missing<span class="sc">$</span>fam, <span class="at">collapse =</span> <span class="st">", "</span>))</span>
+<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. Supporting dataset: which occupations drive each major's exposure</span></span>
+<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------------------------------------</span></span>
+<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a>major_occupations <span class="ot">&lt;-</span> crosswalk <span class="sc">|&gt;</span></span>
+<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(exposure, <span class="at">by =</span> <span class="st">"soc"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a>  <span class="fu">semi_join</span>(ai_salary_majors, <span class="at">by =</span> <span class="st">"cip4"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a>    cip4,</span>
+<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a>    <span class="at">field_of_study      =</span> <span class="fu">str_squish</span>(<span class="fu">str_remove</span>(cip_title, <span class="st">"</span><span class="sc">\\</span><span class="st">.$"</span>)),</span>
+<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a>    soc,</span>
+<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a>    occupation,</span>
+<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure          =</span> <span class="fu">round</span>(aioe, <span class="dv">3</span>),</span>
+<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure_language =</span> <span class="fu">round</span>(aioe_language, <span class="dv">3</span>),</span>
+<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a>    <span class="at">ai_exposure_image    =</span> <span class="fu">round</span>(aioe_image, <span class="dv">3</span>)</span>
+<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(cip4, <span class="fu">desc</span>(ai_exposure))</span>
+<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a><span class="co"># round the standardized scores in the main table for readability</span></span>
+<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a>ai_salary_majors <span class="ot">&lt;-</span> ai_salary_majors <span class="sc">|&gt;</span></span>
+<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(ai_exposure, ai_exposure_language, ai_exposure_image),</span>
+<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a>                \(x) <span class="fu">round</span>(x, <span class="dv">3</span>)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
