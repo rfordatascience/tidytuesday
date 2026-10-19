@@ -7,3 +7,4 @@
 |ai_exposure          |double    |Overall AI Occupational Exposure (AIOE) score for this occupation. Standardized (mean 0, SD 1); higher means more exposed to AI. |
 |ai_exposure_language |double    |AIOE score for the language-modeling application of generative AI for this occupation. |
 |ai_exposure_image    |double    |AIOE score for the image-generation application of generative AI for this occupation. |
+

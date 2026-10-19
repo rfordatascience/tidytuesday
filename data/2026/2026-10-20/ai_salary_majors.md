@@ -13,3 +13,4 @@
 |n_occupations          |integer   |Number of distinct occupations (SOC codes) the major maps to in the CIP-SOC crosswalk; the exposure scores are averaged over these occupations. |
 |n_institutions         |integer   |Number of institutions whose graduates contributed to the pooled starting-salary figure for this major. |
 |n_graduates            |double    |Total count of graduates with measured earnings one year out, summed across institutions offering the major. |
+

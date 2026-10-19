@@ -1,3 +1,128 @@
+# Which College Majors Are Safest From AI (and Do They Pay)?
+
+This week we're looking at which college majors are safest from AI, and whether the safe ones actually pay well.
+
+The dataset joins three public sources at the level of the college major. Starting salaries come from the U.S. Department of Education's [College Scorecard](https://collegescorecard.ed.gov/data/) field-of-study files, using median earnings one year after graduation for bachelor's degrees. AI disruption risk comes from the [AI Occupational Exposure (AIOE) index](https://github.com/AIOE-Data/AIOE) of Felten, Raj and Seamans (2021), which scores how much each occupation's required abilities overlap with what AI can do. It also includes separate scores for language tasks and image tasks. To connect the two, I used the [NCES/BLS CIP-to-SOC crosswalk](https://nces.ed.gov/ipeds/cipcode/resources.aspx), which maps fields of study to the occupations their graduates tend to enter.
+
+The result is 285 majors, each with a starting salary and an AI exposure score. What stands out is that the two barely relate to each other (r is about 0.01). Hands-on technical fields like nuclear, marine, and aerospace engineering technology show low exposure and high pay. Registered nursing sits near the 20th percentile of AI exposure and pays around $75,000 to start. On the other end, several humanities majors are both highly exposed and among the lowest paid.
+
+One thing to know about the exposure score: the AIOE is standardized to a mean of 0 and a standard deviation of 1. A value of 0 is an average occupation, and negative values fall below average. High exposure does not necessarily mean a job will be automated away, since AI can also assist the work rather than replace it. So that you don't need a stats background to read it, the main table also includes `ai_exposure_percentile`, a plain 0 to 100 rank across all majors.
+
+> The AIOE links ten common AI applications with fifty-two distinct occupational abilities used by O*NET and uses the relative prevalence of these abilities within an occupation to generate an occupational measure of AI exposure. (Felten, Raj and Seamans 2021; description rephrased for compliance with licensing restrictions.)
+
+Some questions to explore:
+
+- Which majors are both safe from AI and well paid, and which are both exposed and low paid?
+- Does the picture change when you look at language-task exposure versus image-task exposure?
+- Do broad fields like Engineering, Health Professions, Business, and Humanities cluster together?
+- The AIOE measures exposure, not automation. How would the story change if high exposure mostly meant AI assisting the work rather than replacing it?
+
+Thank you to [Tony Galvan, Golden Dome Data Science](https://github.com/gdatascience) for curating this week's dataset.
+
+## The Data
+
+```r
+# Using R
+# Option 1: tidytuesdayR R package 
+## install.packages("tidytuesdayR")
+
+tuesdata <- tidytuesdayR::tt_load('2026-10-20')
+## OR
+tuesdata <- tidytuesdayR::tt_load(2026, week = 42)
+
+ai_salary_majors <- tuesdata$ai_salary_majors
+major_occupations <- tuesdata$major_occupations
+
+# Option 2: Read directly from GitHub
+
+ai_salary_majors <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv')
+major_occupations <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv')
+```
+
+```python
+# Using Python
+# Option 1: pydytuesday python library
+## pip install pydytuesday
+
+import pydytuesday
+
+# Download files from the week, which you can then read in locally
+pydytuesday.get_date('2026-10-20')
+
+# Option 2: Read directly from GitHub and assign to an object
+
+ai_salary_majors = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv')
+major_occupations = pandas.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv')
+```
+
+```julia
+# Using Julia
+# Option 1: TidierTuesday.jl library
+## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")
+
+using TidierTuesday
+
+# Download datasets for the week, and load them as a NamedTuple of DataFrames
+data = tt_load("2026-10-20")
+
+# Option 2: Read directly from GitHub and assign to an object with TidierFiles
+
+ai_salary_majors = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv")
+major_occupations = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv")
+
+# Option 3: Read directly from Github and assign without Tidier dependencies
+ai_salary_majors = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/ai_salary_majors.csv", DataFrame)
+major_occupations = CSV.read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/major_occupations.csv", DataFrame)
+```
+
+## How to Participate
+
+- [Explore the data](https://r4ds.hadley.nz/), watching out for interesting relationships. We would like to emphasize that you should not draw conclusions about **causation** in the data. There are various moderating variables that affect all data, many of which might not have been captured in these datasets. As such, our suggestion is to use the data provided to practice your data tidying and plotting techniques, and to consider for yourself what nuances might underlie these relationships.
+- Create a visualization, a model, a [Quarto](https://quarto.org/) report, a [shiny app](https://shiny.posit.co/), or some other piece of data-science-related output, using R, Python, or another programming language.
+- [Share your output and the code used to generate it](../../../sharing.md) on social media with the #TidyTuesday hashtag.
+- [Submit your own dataset!](../../../pr_instructions.md)
+
+### PydyTuesday: A Posit collaboration with TidyTuesday
+
+- Exploring the TidyTuesday data in Python? Posit has some extra resources for you! Have you tried making a [Quarto dashboard](https://quarto.org/docs/dashboards/)? Find videos and other resources in [Posit's PydyTuesday repo](https://github.com/posit-dev/python-tidytuesday-challenge).
+- Share your work with the world using the hashtags #TidyTuesday and #PydyTuesday so that Posit has the chance to highlight your work, too!
+- Deploy or share your work however you want! If you'd like a super easy way to publish your work, give [Connect Cloud](https://connect.posit.cloud/) a try.
+
+## Data Dictionary
+
+### `ai_salary_majors.csv`
+
+|variable               |class     |description                           |
+|:----------------------|:---------|:-------------------------------------|
+|cip4                   |character |Four-digit Classification of Instructional Programs (CIP) 2020 code identifying the field of study. |
+|field_of_study         |character |Human-readable name of the college major (from the College Scorecard CIP description). |
+|broad_field            |character |Official NCES title of the two-digit CIP family the major belongs to (from the CIP 2020 code file), title-cased with the trailing period removed. For example, CIP family 52 is "Business, Management, Marketing, and Related Support Services". |
+|broad_field_short      |character |A short, chart-friendly label for the CIP family, keyed to the two-digit family code. This is a convenience label for plotting and grouping, not an official NCES title (e.g. the family above is shortened to "Business"). |
+|median_starting_salary |double    |Median earnings in US dollars one year after graduation, pooled across institutions offering the major (bachelor's degree graduates). This is the starting-salary measure. |
+|median_salary_4yr      |double    |Median earnings in US dollars four years after graduation, pooled across institutions. Missing for a few majors without four-year follow-up data. |
+|ai_exposure            |double    |Average AI Occupational Exposure (AIOE) score across the occupations this major feeds into. The AIOE is standardized (mean 0, standard deviation 1); higher values mean more of the occupation's abilities overlap with what AI can do. |
+|ai_exposure_percentile |double    |Rank of this major's AI exposure on a 0 to 100 scale relative to all 285 majors in the dataset. 0 is the least AI-exposed major, 100 the most. |
+|ai_exposure_language   |double    |Average AIOE score for the language-modeling application of generative AI (text-based tasks) across the major's occupations. Standardized like ai_exposure. |
+|ai_exposure_image      |double    |Average AIOE score for the image-generation application of generative AI (visual tasks) across the major's occupations. Standardized like ai_exposure. |
+|n_occupations          |integer   |Number of distinct occupations (SOC codes) the major maps to in the CIP-SOC crosswalk; the exposure scores are averaged over these occupations. |
+|n_institutions         |integer   |Number of institutions whose graduates contributed to the pooled starting-salary figure for this major. |
+|n_graduates            |double    |Total count of graduates with measured earnings one year out, summed across institutions offering the major. |
+
+### `major_occupations.csv`
+
+|variable             |class     |description                           |
+|:--------------------|:---------|:-------------------------------------|
+|cip4                 |character |Four-digit CIP 2020 code for the field of study; joins to `cip4` in the ai_salary_majors table. |
+|field_of_study       |character |Name of the college major from the CIP-SOC crosswalk. |
+|soc                  |character |Six-digit Standard Occupational Classification (SOC) 2018 code for an occupation this major can lead to. |
+|occupation           |character |Human-readable occupation title for the SOC code. |
+|ai_exposure          |double    |Overall AI Occupational Exposure (AIOE) score for this occupation. Standardized (mean 0, SD 1); higher means more exposed to AI. |
+|ai_exposure_language |double    |AIOE score for the language-modeling application of generative AI for this occupation. |
+|ai_exposure_image    |double    |AIOE score for the image-generation application of generative AI for this occupation. |
+
+## Cleaning Script
+
+```r
 # =============================================================================
 # TidyTuesday dataset: College majors, AI disruption risk, and starting salaries
 # =============================================================================
@@ -252,3 +377,5 @@ major_occupations <- crosswalk |>
 ai_salary_majors <- ai_salary_majors |>
   mutate(across(c(ai_exposure, ai_exposure_language, ai_exposure_image),
                 \(x) round(x, 3)))
+
+```

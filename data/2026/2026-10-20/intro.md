@@ -14,3 +14,4 @@ Some questions to explore:
 - Does the picture change when you look at language-task exposure versus image-task exposure?
 - Do broad fields like Engineering, Health Professions, Business, and Humanities cluster together?
 - The AIOE measures exposure, not automation. How would the story change if high exposure mostly meant AI assisting the work rather than replacing it?
+
