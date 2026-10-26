@@ -166,3 +166,4 @@ ikea_places <- geocoded |>
   filter(!name %in% hand_placed$name) |>
   bind_rows(hand_placed) |>
   arrange(name, municipality)
+

@@ -81,6 +81,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   40|2026-10-06 |[Avocado Oil Authenticity](data/2026/2026-10-06/readme.md) |[Authenticity of avocado and olive oils used as ingredients in commercially processed foods](https://linkinghub.elsevier.com/retrieve/pii/S2772502226007274)|[That Avocado Oil Chip You're Eating May Not Be Made With Pure Avocado Oil](https://www.ucdavis.edu/food/news/avocado-oil-chip-youre-eating-may-not-be-made-pure-avocado-oil)|
 |   41|2026-10-13 |[AmphibiaWeb](data/2026/2026-10-13/readme.md)              |[How to dynamically retrieve an AmphibiaWeb XML species account](https://amphibiaweb.org/api/ws.html)                   |[Pleistocene Forest Stability Predicts Patterns of Frog Diversity in Central Africa](https://onlinelibrary.wiley.com/doi/10.1002/ece3.73207)|
 |   42|2026-10-20 |[Which College Majors Are Safest From AI (and Do They Pay)?](data/2026/2026-10-20/readme.md)|[US Dept. of Education College Scorecard + AI Occupational Exposure (Felten, Raj & Seamans) + NCES/BLS CIP-SOC crosswalk](https://collegescorecard.ed.gov/data/)|[How will Language Modelers like ChatGPT Affect Occupations and Industries?](https://arxiv.org/abs/2303.01157)|
+|   43|2026-10-27 |[IKEA Sofas and Their Swedish Places](data/2026/2026-10-27/readme.md)|[IKEA product listings, OpenStreetMap Nominatim and fawazahmed0 exchange rates](https://nominatim.openstreetmap.org/)   |[IKEA place names](https://karaman.is/ikea-place-names)                                                    |
 
 ***  
 

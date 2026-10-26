@@ -12,3 +12,4 @@
 |currency     |character |ISO 4217 currency code of the price (`SEK`, `EUR`, `USD`). |
 |variants     |integer   |Number of other variants of the product, such as different covers or colours. |
 |url          |character |Product page on ikea.com. |
+

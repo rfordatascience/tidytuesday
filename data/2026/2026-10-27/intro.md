@@ -8,3 +8,4 @@ Sources: product listings from ikea.com; places from OpenStreetMap via Nominatim
 - Which names are sold in the most countries, and which only in a few?
 - How does the price of the same product (`item_no`) differ between countries in US dollars (`price_usd`)?
 - What kinds of places are they: villages, single farms, lakes, islets?
+

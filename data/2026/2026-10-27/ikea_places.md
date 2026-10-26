@@ -8,3 +8,4 @@
 |latitude     |double    |Latitude in decimal degrees (WGS 84). |
 |longitude    |double    |Longitude in decimal degrees (WGS 84). |
 |osm_id       |character |OpenStreetMap object (`node/7455615607`), viewable at `openstreetmap.org/<osm_id>`. Missing for the three places located by hand. |
+
