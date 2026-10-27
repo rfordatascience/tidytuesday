@@ -1,0 +1,16 @@
+title: "Cholesterol and Mortality in US Adults"
+article:
+  title: "Association of high-density lipoprotein cholesterol with all-cause and cause-specific mortality in the general population: insights from NHANES 1999-2018"
+  url: "https://doi.org/10.1186/s12889-025-22251-z"
+data_source:
+  title: "NHANES (CDC/NCHS) linked to the NCHS Public-Use Linked Mortality Files"
+  url: "https://www.cdc.gov/nchs/nhanes/index.html"
+images:
+# Please include at least one image, and up to three images
+- file: "cholesterol_mortality.png"
+  alt: >
+    Two line charts sharing a vertical axis of age at death for US adults who died. The top chart, total cholesterol, is a nearly flat hump near 76 years across the whole range. The bottom chart, the total-to-HDL cholesterol ratio, slides steadily downward from about 78 years at a ratio of 2 to about 71 years at a ratio of 8, a six-year drop. The contrast shows the ratio tracks age at death far more sharply than total cholesterol alone.
+credit:
+  post: "Tony Galvan, Golden Dome Data Science"
+  github: "@gdatascience"
+  linkedin: "@anthony-raul-galvan"
