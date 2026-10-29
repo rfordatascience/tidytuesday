@@ -1,0 +1,21 @@
+
+title: "Grambank"
+article:
+  title: "Grambank reveals the importance of genealogical constraints on linguistic diversity and highlights the impact of language loss"
+  url: "https://www.science.org/doi/10.1126/sciadv.adg6175"
+data_source:
+  title: "Grambank Database v1.0.3 (Zenodo)"
+  url: "https://zenodo.org/records/7844558"
+images:
+- file: "map.png"
+  alt: >
+    This map displays the global distribution of language samples coded in the Grambank dataset on a world map centered on the Pacific Ocean. Light yellow landmasses contrast against light blue oceans, with thousands of white dots representing sampled languages scattered across the globe. Sampling density varies significantly by region: the highest concentration of overlapping dots covers Papunesia (New Guinea, Island Melanesia, Australia), Southeast Asia, Sub-Saharan Africa (particularly West, Central, and East Africa), Mesoamerica, and the Andean/Amazonian regions of South America. Moderate density extends across North America (notably the West Coast), Western Europe, the Caucasus, and South Asia along the Himalayas. Lower density appears across northern Eurasia (Siberia), interior Australia, and northern North America, reflecting underlying regional language distribution and data coverage.
+- file: "variance_explained_by_geography.png"
+  alt: >
+    A 4-panel scatter plot grid (A–D) compares variance explained by phylogeny (x-axis, 0–100%) versus geography (y-axis, 0–100%) across four linguistic domains, each featuring points with shaded confidence ellipses and a dashed diagonal reference line. Panel A (clause, red circles) clusters at 50–90% phylogenetic variance and 0–20% geographic variance, plus one outlier near 5% phylogeny and 20% geography. Panel B (nominal domain, orange squares) clusters at 75–100% phylogenetic variance and mostly under 25% geographic variance. Panel C (pronoun, purple diamonds) concentrates tightly in the bottom-right corner at 75–100% phylogenetic variance and near 0% geographic variance. Panel D (verbal domain, cyan triangles) clusters heavily at 75–100% phylogenetic variance with minimal geographic variance, except for an outlier near 35% phylogeny and 25% geography. Across all domains, variation is overwhelmingly driven by language family history over spatial proximity.
+credit:
+  post: "Ntobeko Sosibo"
+  github: "@afrikaniz3d-za"
+  bluesky: "@afrikaniz3d.bsky.social"
+  linkedin: "@ntobeko-sosibo"
+  mastodon: "@afrikaniz3d@mastodon.social"
