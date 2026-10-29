@@ -1,0 +1,21 @@
+title: evidence-graded power rankings of fictional characters
+article:
+  title: The dead, every cited kill, and the ones that didn't stick
+  url: https://citedfeats.com/deaths/
+data_source:
+  title: Cited Feats open data (CC BY 4.0)
+  url: https://citedfeats.com/data/
+images:
+# Please include at least one image, and up to three images
+- file: deaths_undone.png
+  alt: >
+    Bar chart of the share of recorded deaths later undone, for the seven
+    franchises with at least ten recorded deaths. Marvel undoes the most, 13 of
+    49 (27%), followed by Overlord (5 of 20), Solo Leveling (9 of 39), Final
+    Fantasy (4 of 40), Star Wars (3 of 38), Jujutsu Kaisen (1 of 25) and
+    Westeros, which undoes the fewest, 2 of 67 (3%).
+credit:
+# We want to thank you for curating this dataset! If you do not want a 
+# particular type of credit, please delete the related line.
+  post: Cited Feats
+  bluesky: https://bsky.app/profile/citedfeats.bsky.social
