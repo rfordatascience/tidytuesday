@@ -19,7 +19,7 @@ Find a dataset that would be good for TidyTuesday: either one that is already re
 
 -   Data can be saved as one or more CSV files.
 
--   The whole dataset (all files) is less than 20MB.
+-   Each file is less than 20MB.
 
 -   You can describe each variable (either using an existing data dictionary or by creating your own dictionary).
 
