@@ -1,6 +1,4 @@
-
-This week we're exploring languages! The dataset comes from 
-[**Grambank**](https://grambank.clld.org/), a massive, open-access digital database that maps the grammatical structures of over 2,400 of the world’s languages. Instead of looking at the vocabulary, Grambank focuses purely on grammar rules and structural features.  
+This week we're exploring languages! The dataset comes from [**Grambank**](https://grambank.clld.org/), a massive, open-access digital database that maps the grammatical structures of over 2,400 of the world's languages. Instead of looking at the vocabulary, Grambank focuses purely on grammar rules and structural features.  
 
 For any given language, it looks at things like:
 
@@ -10,7 +8,6 @@ For any given language, it looks at things like:
 • Sound and Structure: How are plurals, tenses, or questions formed?  
  
 It's a tool built by an international team of linguists to show just how diverse (and how connected) human speech really is.  
-
 
 > "...An analysis of the consequences of language loss reveals that the reduction in diversity will be strikingly uneven across the major linguistic regions of the world. Without sustained efforts to document and revitalize endangered languages, our linguistic window into human history, cognition, and culture will be seriously fragmented."    
 
@@ -24,5 +21,3 @@ Here are a few questions you can answer with your visualisations this week:
 - How do specific grammatical features (like word order or head-marking) spread spatially across borders compared to within language families?  
 - Which typological features frequently co-occur across the world's languages?
 - How similar are languages structurally across families and macro-regions?  
-
-This dataset was suggested by [Jon Harmon](https://github.com/jonthegeek), and curated by [Ntobeko Sosibo](https://github.com/afrikaniz3d-za)
