@@ -63,7 +63,10 @@ grambank_parameters <- parameters_raw |>
     feature_description = Description,
     word_order = Word_Order,
     locus_of_marking = Locus_of_Marking
-  ) 
+  ) |>
+  mutate(
+    across(c(word_order, locus_of_marking), as.integer)
+  )
 
 # 6. Clean up temporary download artifacts
 unlink(temp_zip)

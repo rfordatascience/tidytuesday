@@ -213,7 +213,7 @@ Ryding, Karin C. 2005. *A reference grammar of Modern Standard Arabic*. Cambridg
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",FALSE,NA
+",0,NA
 GB023,Are there postnominal articles?,"## Are there postnominal articles?
 
 ## Summary
@@ -275,7 +275,7 @@ Ryding, Karin C. 2005. *A reference grammar of Modern Standard Arabic*. Cambridg
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",TRUE,NA
+",1,NA
 GB024,What is the order of numeral and noun in the NP?,"## What is the order of numeral and noun in the NP?
 
 ## Summary
@@ -1153,7 +1153,7 @@ Osam, Emmanuel Kweku Ahen. 1994. *Aspects of Akan grammar: A functional perspect
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB043,Is there productive morphological dual marking on nouns?,"## Is there a productive morphological dual marker on nouns?
 
 ## Summary
@@ -1221,7 +1221,7 @@ Breen, Gavan 2003. [Wanyi and Garrwa comparative data](https://core.ac.uk/downlo
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB044,Is there productive morphological plural marking on nouns?,"## Is there a productive morphological plural marker on nouns?
 
 ## Summary
@@ -1304,7 +1304,7 @@ Teleman, Ulf, Staffan Hellberg & Erik Andersson. 1999. *Svenska Akademiens gramm
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB046,Is there an associative plural marker for nouns?,"## Is there an associative plural marker for nouns?
 
 ## Summary
@@ -2279,7 +2279,7 @@ Tsunoda, Tasaku. 2011. *A grammar of Warrongo.* (Mouton Grammar Library, 53.) Be
 
 ## Patron
 Jakob Lesage
-",NA,FALSE
+",NA,0
 GB071,Are there morphological cases for pronominal core arguments (i.e. S/A/P)?,"## Are there morphological cases for phonologically independent personal pronominal core arguments (i.e. S, A or P)?
 
 ## Summary
@@ -2363,7 +2363,7 @@ Klokeid, Terry J. 1976. *Topics in Lardil grammar*. Cambridge: MIT. (Doctoral di
 
 ## Patron
 Jakob Lesage
-",NA,FALSE
+",NA,0
 GB072,Are there morphological cases for oblique non-pronominal NPs (i.e. not S/A/P)?,"## Are there morphological cases for oblique non-pronominal NPs (i.e. not S, A or P)?
 
 
@@ -2504,7 +2504,7 @@ Tsunoda, Tasaku. 2011. *A grammar of Warrongo*. (Mouton Grammar Library, 53.) Be
 
 ## Patron
 Jakob Lesage
-",NA,FALSE
+",NA,0
 GB073,Are there morphological cases for independent oblique personal pronominal arguments (i.e. not S/A/P)?,"## Are there morphological cases for phonologically independent oblique personal pronouns (i.e. not S, A or P)?
 
 ## Summary
@@ -2586,7 +2586,7 @@ Lynch, John. 2000. *A grammar of Anejom̃*. (Pacific Linguistics, 507.) Canberra
 
 ## Patron
 Jakob Lesage
-",NA,FALSE
+",NA,0
 GB074,Are there prepositions?,"## Are there prepositions?
 
 ## Summary
@@ -2698,7 +2698,7 @@ Luo, Yongxian. 2008. Zhuang. In Anthony V. N. Diller, Jerold A. Edmondson & Yong
 ## Patron
 
 Jakob Lesage
-",TRUE,NA
+",1,NA
 GB075,Are there postpositions?,"## Are there postpositions?
 
 
@@ -2796,7 +2796,7 @@ Souag, Mostafa Lameen. 2010. *Grammatical contact in the Sahara: Arabic, Berber,
 
 ## Patron
 Jakob Lesage
-",FALSE,NA
+",0,NA
 GB079,"Do verbs have prefixes/proclitics, other than those that only mark A, S or P (do include portmanteau: A & S + TAM)?","## Do verbs have prefixes or proclitics other than S, A or P indexes (do include indexes that also mark TAM or negation)?
 
 ## Summary
@@ -3389,7 +3389,7 @@ Montag, Richard. 2005. Participant referencing in Cashinahua. (2005-013.) *SIL E
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB090,Can the S argument be indexed by a prefix/proclitic on the verb in the simple main clause?,"## Can the S argument be indexed by a prefix/proclitic on the verb in the simple independent clause?
 
 ## Summary
@@ -3482,7 +3482,7 @@ Huber, Juliette. 2011. *A grammar of Makalero: A Papuan language of East Timor*.
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB091,Can the A argument be indexed by a suffix/enclitic on the verb in the simple main clause?,"## Can the A argument be indexed by a suffix/enclitic on the verb in the simple independent clause?
 
 
@@ -3606,7 +3606,7 @@ Montag, Richard. 2005. *Participant referencing in Cashinahua*. SIL Electronic W
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB092,Can the A argument be indexed by a prefix/proclitic on the verb in the simple main clause?,"## Can the A argument be indexed by a prefix/proclitic on the verb in the simple independent clause?
 
 
@@ -3677,7 +3677,7 @@ Huber, Juliette. 2011. *A grammar of Makalero: A Papuan language of East Timor*.
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB093,Can the P argument be indexed by a suffix/enclitic on the verb in the simple main clause?,"## Can the P argument be indexed by a suffix/enclitic on the verb in the simple independent clause?
 
 
@@ -3744,7 +3744,7 @@ de Vries, Lourens & Gerrit J. van Enk. 1997. *The Korowai of Irian Jaya: Their l
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB094,Can the P argument be indexed by a prefix/proclitic on the verb in the simple main clause?,"## Can the P argument be indexed by a prefix/proclitic on the verb in the simple independent clause?
 
 ## Summary
@@ -3821,7 +3821,7 @@ van Gijn, Erik. 2006. *A grammar of Yurakaré.* Nijmegen: Radboud University. (D
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB095,Are variations in marking strategies of core participants based on TAM distinctions?,"## Are variations in marking strategies of core participants based on TAM distinctions?
 
 
@@ -4228,7 +4228,7 @@ Features GB089-GB090 coding indexing patterns:
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB103,Is there a benefactive applicative marker on the verb (including indexing)?,"## Can a verb have a benefactive marker (applicative marker or index)?
 
 ## Summary
@@ -4602,7 +4602,7 @@ Kimball, Geoffrey D. 1991. *Koasati grammar*. (Studies in the Anthropology of No
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB110,Is there verb suppletion for tense or aspect?,"## Is there verb suppletion for tense or aspect?
 
 ## Summary
@@ -4885,7 +4885,7 @@ Tamura, Suzuko. 2000. *The Ainu language*. (ICHEL Linguistic Studies, 2.) Tokyo:
 
 ## Patron
 Jakob Lesage
-",NA,TRUE
+",NA,1
 GB115,Is there a phonologically bound reciprocal marker on the verb?,"## Is there a phonologically bound reciprocal marker on the verb?
 
 ## Summary
@@ -4961,7 +4961,7 @@ Stover, Wesley Maier. 1885. *Observations upon the grammatical structure and use
 
 ## Patron
 Jakob Lesage
-",NA,TRUE
+",NA,1
 GB116,"Do verbs classify the shape, size or consistency of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?","## Do verbs classify the shape, size or consistency of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?
 
 ## Summary
@@ -5916,7 +5916,7 @@ Enfield, Nick J. 2007. *A grammar of Lao*. (Mouton grammar library, 38.) Berlin:
 
 ## Patron
 Hannah J. Haynie
-",TRUE,NA
+",1,NA
 GB132,Is a pragmatically unmarked constituent order verb-medial for transitive clauses?,"## Is a pragmatically unmarked constituent order verb-medial for transitive clauses?
 
 ## Summary
@@ -6132,7 +6132,7 @@ Merlan, Francesca. 1989. *Mangarayi*. (Lingua Descriptive Studies, 4.) London: R
 
 ## Patron
 Hannah J. Haynie
-",FALSE,NA
+",0,NA
 GB134,Is the order of constituents the same in main and subordinate clauses?,"## Is the order of constituents the same in main and subordinate clauses?
 
 ## Summary
@@ -7786,7 +7786,7 @@ Brown, Jason, Alex Muir, Kimberley Craig & Karika Anea. 2016. *A short grammar o
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB166,Is there productive morphological paucal marking on nouns?,"## Is there a productive morphological paucal marker on nouns?
 
 ## Summary
@@ -7860,7 +7860,7 @@ Elliott, George Robert. 1976. *A description of Sa, a New Hebrides language*. Sy
 
 ## Patron
 Hedvig Skirgård
-",NA,TRUE
+",NA,1
 GB167,Is there a logophoric pronoun?,"## Is there a logophoric pronoun?
 
 ## Summary
@@ -7969,7 +7969,7 @@ Treis, Yvonne. 2008. *A grammar of Kambaata, vol. 1: Phonology, nominal morpholo
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB171,Can an adnominal demonstrative agree with the noun in gender/noun class?,"## Can an adnominal demonstrative agree with the noun in noun class/gender?
 
 ## Summary
@@ -8016,7 +8016,7 @@ Mutzafi, Hezy. 2004. *The Jewish Neo-Aramaic Dialect of Koy Sanjaq (Iraqi Kurdis
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB172,Can an article agree with the noun in gender/noun class?,"## Can an article agree with the noun in noun class/gender?
 
 ## Summary
@@ -8075,7 +8075,7 @@ Rennison, John R. 1997. *Koromfe*. (Descriptive Grammars Series.) London: Routle
 ## Patron
 
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB177,"Can the verb carry a marker of animacy of argument, unrelated to any gender/noun class of the argument visible in the NP domain?","## Can the verb carry a marker of animacy of argument, unrelated to any noun class/gender of the argument visible in the NP domain?
 
 ## Summary
@@ -8132,7 +8132,7 @@ Petzell, Malin. 2008. *The Kagulu language of Tanzania: grammar, text and vocabu
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,TRUE
+",NA,1
 GB184,Can an adnominal property word agree with the noun in number?,"## Can an adnominal property word agree with the noun in number?
 
 ## Summary
@@ -8187,7 +8187,7 @@ Wilson, Jennifer. 2017. *A grammar of Yeri: A Torricelli language of Papua New G
 * [GB186 Can an article agree with the noun in number?](https://github.com/grambank/Grambank/wiki/GB186)
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB185,Can an adnominal demonstrative agree with the noun in number?,"## Can an adnominal demonstrative agree with the noun in number?
 
 ## Summary
@@ -8235,7 +8235,7 @@ Valdman, Albert. 1988. *Ann Pale Kreyol: An introductory course in Haitian Creol
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB186,Can an article agree with the noun in number?,"## Can an article agree with the noun in number?
 
 ## Summary
@@ -8287,7 +8287,7 @@ Dum-Tragut, Jasmine. 2009. *Armenian: Modern Eastern Armenian*. Amsterdam: John 
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB187,Is there any productive diminutive marking on the noun (exclude marking by system of nominal classification only)?,"## Is there any productive diminutive marking on the noun (exclude marking by system of nominal classification only)?
 
 ## Summary
@@ -8733,7 +8733,7 @@ Santandrea, Stefano. 1976. *The Kresh Group, Aja and Baka languages (Sudan): A l
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",NA,FALSE
+",NA,0
 GB203,What is the order of the adnominal collective universal quantifier ('all') and the noun?,"## What is the order of the adnominal collective universal quantifier (‘all’) and the noun?
 
 ## Summary
@@ -9220,7 +9220,7 @@ McGregor, William B. 2004. *The languages of the Kimberley, Western Australia.* 
 
 ## Patron
 Jay Latarche and Jeremy Collins
-",TRUE,NA
+",1,NA
 GB263,Is there a clause-final polar interrogative particle?,"## Is there a clause-final polar interrogative particle?
 
 ## Summary
@@ -11815,7 +11815,7 @@ Head, June. 2011. *A grammar of Umbu-Ungu.* Ukarumpa: Ms., SIL.
 ## Patron
 
 Jakob Lesage
-",TRUE,NA
+",1,NA
 GB328,Can the relative clause precede the noun?,"## Can the relative clause precede the noun?
 
 ## Summary
@@ -11900,7 +11900,7 @@ Head, June. 2011. *A grammar of Umbu-Ungu.* Ukarumpa: Ms., SIL.
 ## Patron
 
 Jakob Lesage
-",FALSE,NA
+",0,NA
 GB329,Are there internally-headed relative clauses?,"## Are there internally-headed relative clauses that are not correlative relative clauses?
 
 ## Summary
@@ -12838,7 +12838,7 @@ Seiler, Walter. 1985. *Imonda, a Papuan Language*. (Pacific Linguistics: Series 
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,FALSE
+",NA,0
 GB409,Is there any ergative alignment of flagging?,"## Is there any ergative alignment of flagging?
 
 ## Summary
@@ -12912,7 +12912,7 @@ Schackow, Diana. 2015. *A grammar of Yakkha*. (Studies in Diversity Linguistics 
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,FALSE
+",NA,0
 GB410,Is there any neutral alignment of flagging?,"## Is there any neutral alignment of flagging?
 
 ## Summary
@@ -13032,7 +13032,7 @@ Seiler, Walter. 1985. *Imonda, a Papuan Language*. (Pacific Linguistics: Series 
 
 ## Patron
 Alena Witzlack-Makarevich
-",NA,FALSE
+",NA,0
 GB415,Is there a politeness distinction in 2nd person forms?,"## Is there a politeness distinction in second person forms?
 
 ## Summary
@@ -13114,7 +13114,7 @@ Holmes, Philip & Ian Hinchliffe. 2013. *Swedish: a comprehensive grammar*. Londo
 
 ## Patron
 Hedvig Skirgård
-",TRUE,NA
+",1,NA
 GB422,Is there a postposed complementizer in complements of verbs of thinking and/or knowing?,"## Is there a postposed complementizer for complements of verbs of thinking and/or knowing?
 
 ## Summary
@@ -13153,7 +13153,7 @@ Namai, Kenichi. 1997. *The multiple subject construction in Japanese*.  Washingt
 
 ## Patron
 Hedvig Skirgård
-",FALSE,NA
+",0,NA
 GB430,Can adnominal possession be marked by a prefix on the possessor?,"## Can adnominal possession be marked by a prefix on the possessor?
 
 ## Summary
@@ -13201,7 +13201,7 @@ de Dreu, Merijn. 2008. *[The internal structure of the Zulu DP](https://ling.auf
 
 ## Patron
 Hannah J. Haynie
-",NA,FALSE
+",NA,0
 GB431,Can adnominal possession be marked by a prefix on the possessed noun?,"## Can adnominal possession be marked by a prefix on the possessed noun?
 
 ## Summary
@@ -13254,7 +13254,7 @@ Michael, Lev. 2012. [Possession in Nanti](http://linguistics.berkeley.edu/~levmi
 
 ## Patron
 Hannah J. Haynie
-",NA,TRUE
+",NA,1
 GB432,Can adnominal possession be marked by a suffix on the possessor?,"## Can adnominal possession be marked by a suffix on the possessor?
 
 ## Summary
@@ -13329,7 +13329,7 @@ Thompson, Sandra A., Joseph Sung-Yul Park & Charles N. Li. 2014. *A reference gr
 
 ## Patron
 Hannah J. Haynie
-",NA,FALSE
+",NA,0
 GB433,Can adnominal possession be marked by a suffix on the possessed noun?,"## Can adnominal possession be marked by a suffix on the possessed noun?
 
 ## Summary
@@ -13381,7 +13381,7 @@ Wagner-Nagy, Beáta. 2014. Possessive constructions in Nganasan. *Томский
 
 ## Patron
 Hannah J. Haynie
-",NA,TRUE
+",NA,1
 GB519,"Can mood be marked by a non-inflecting word (""auxiliary particle"")?","## Can mood be marked by a non-inflecting word (‘auxiliary particle')?
 
 ## Summary
