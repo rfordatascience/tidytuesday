@@ -8,3 +8,4 @@
 |longitude     |double    |Geographic longitude coordinate in decimal degrees. |
 |family_name   |character |Top-level language family name (e.g., Austronesian, Atlantic-Congo). |
 |lineage       |character |Full genealogical path/hierarchy of language families from Glottolog. |
+

@@ -20,4 +20,5 @@ Here are a few questions you can answer with your visualisations this week:
 
 - How do specific grammatical features (like word order or head-marking) spread spatially across borders compared to within language families?  
 - Which typological features frequently co-occur across the world's languages?
-- How similar are languages structurally across families and macro-regions?  
+- How similar are languages structurally across families and macro-regions?
+
