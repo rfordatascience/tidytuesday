@@ -1,0 +1,21 @@
+title: WNBA Finals Attendance
+article:
+  title: WNBA Finals ratings and attendance by year
+  url: https://fullcourtbuckets.com/news/2026-wnba-finals-ratings-tracker/
+data_source:
+  title: WNBA Finals Attendance by Year (2002-2025), compiled from official WNBA.com box scores
+  url: https://huggingface.co/datasets/fullcourtbuckets/wnba-finals-attendance
+images:
+# Please include at least one image, and up to three images
+- file: wnba_finals_avg_attendance.png
+  alt: >
+    Line chart of average attendance per game at the WNBA Finals from 2002 to
+    2025, with point size showing the number of games in each series. Averages
+    mostly range between about 10,000 and 17,000 fans per game. The lowest is
+    2019 at about 6,000, there is a gap in 2020 when the bubble Finals had no
+    fans, and the highest is 2024 at 18,520 per game before falling to about
+    13,700 in 2025.
+credit:
+  post: Ryan Moalemi, Full Court Buckets
+  linkedin: https://www.linkedin.com/in/ryan-moalemi-552654446/
+  github: https://github.com/ryanmoalemi
