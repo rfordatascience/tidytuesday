@@ -15,3 +15,4 @@
 |stated         |double    |Number of the entry's citations graded stated: asserted by a character, narrator or guidebook. |
 |scaled         |double    |Number of the entry's citations graded scaled: inferred by comparison, the weakest grade. |
 |url            |character |The entry's page on citedfeats.com. |
+

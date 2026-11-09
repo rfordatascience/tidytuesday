@@ -83,6 +83,7 @@ Our over-arching goal for TidyTuesday is to provide real-world datasets so that 
 |   42|2026-10-20 |[Which College Majors Are Safest From AI (and Do They Pay)?](data/2026/2026-10-20/readme.md)|[US Dept. of Education College Scorecard + AI Occupational Exposure (Felten, Raj & Seamans) + NCES/BLS CIP-SOC crosswalk](https://collegescorecard.ed.gov/data/)|[How will Language Modelers like ChatGPT Affect Occupations and Industries?](https://arxiv.org/abs/2303.01157)                 |
 |   43|2026-10-27 |[IKEA Sofas and Their Swedish Places](data/2026/2026-10-27/readme.md)|[IKEA product listings, OpenStreetMap Nominatim and fawazahmed0 exchange rates](https://nominatim.openstreetmap.org/)   |[IKEA place names](https://karaman.is/ikea-place-names)                                                                        |
 |   44|2026-11-03 |[Grambank](data/2026/2026-11-03/readme.md)                 |[Grambank Database v1.0.3 (Zenodo)](https://zenodo.org/records/7844558)                                                 |[Grambank reveals the importance of genealogical constraints on linguistic diversity and highlights the impact of language loss](https://www.science.org/doi/10.1126/sciadv.adg6175)|
+|   45|2026-11-10 |[evidence-graded power rankings of fictional characters](data/2026/2026-11-10/readme.md)|[Cited Feats open data (CC BY 4.0)](https://citedfeats.com/data/)                                                       |[The dead, every cited kill, and the ones that didn't stick](https://citedfeats.com/deaths/)                                   |
 
 ***  
 

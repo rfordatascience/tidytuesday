@@ -11,3 +11,4 @@ The site also records who killed whom, and whether the death was later undone. T
 - Which franchises undo their deaths most often? Is there a relationship between how often deaths are undone and how much is shown on page?
 - Who are the most prolific killers in each franchise, and how many of their kills were reversed?
 - How often does a lower-ranked character kill a higher-ranked one (an "upset")?
+

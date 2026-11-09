@@ -11,3 +11,4 @@
 |undone         |logical   |Whether the death was later reversed (the character came back, or the timeline was changed). |
 |verdict        |character |The site's verdict on whether the death moves the ranking, filled only where a matchup page argues it: confirms (the higher-ranked killed the lower-ranked), upset (the lower-ranked killed the higher-ranked), undone (reversed, so the ranking does not move) or off-scale (one side is unranked). NA otherwise. |
 |matchup_url    |character |The citedfeats.com matchup page arguing the verdict, where there is one. |
+

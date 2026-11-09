@@ -28,3 +28,4 @@ fiction_citations <- read_citedfeats("citations.csv") |>
 # One row per recorded death, and whether it was later undone.
 fiction_deaths <- read_citedfeats("kills.csv") |>
   filter(franchise_slug != "scp")
+

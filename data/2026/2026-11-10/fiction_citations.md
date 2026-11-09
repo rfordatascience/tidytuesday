@@ -11,3 +11,4 @@
 |url            |character |A link to the source where one exists online. Almost always NA: citations point to the work and locator instead. |
 |claim          |character |The part of the feat this citation backs, in the site's own words. |
 |confidence     |character |Evidence grade: shown (depicted on page or screen), stated (asserted by a character, narrator or guidebook) or scaled (inferred by comparison with someone else's feat, the weakest). |
+
