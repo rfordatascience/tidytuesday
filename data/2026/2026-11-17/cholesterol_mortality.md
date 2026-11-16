@@ -18,3 +18,4 @@
 |survey_weight   |double        |NHANES two-year MEC exam sampling weight. Divide by the number of pooled cycles when combining cycles. Use with psu and strata for survey-weighted estimates. |
 |psu             |double        |Masked variance pseudo-PSU (primary sampling unit) for the complex survey design. |
 |strata          |double        |Masked variance pseudo-stratum for the complex survey design. |
+

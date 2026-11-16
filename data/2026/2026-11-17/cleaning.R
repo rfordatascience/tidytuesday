@@ -142,3 +142,4 @@ cholesterol_mortality <- survey_all |>
          ldl_hdl_ratio = ldl_hdl,
          died, followup_months, cause_of_death = cod,
          survey_weight = weight_mec, psu, strata)
+

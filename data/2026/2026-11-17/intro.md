@@ -17,3 +17,4 @@ Two things to keep in mind. LDL and triglycerides come from the fasting morning 
 - Is low LDL linked to higher death because of reverse causality, where sick people already have low cholesterol?
 - Does the cause of death differ along the cholesterol range? For example, is low cholesterol tied more to cancer deaths and high cholesterol tied more to heart disease?
 - How much do the answers change once you apply the NHANES survey weights?
+
