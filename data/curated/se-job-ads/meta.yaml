@@ -1,0 +1,20 @@
+title: "Sales Engineering Job Ads"
+article:
+  title: "What SE job ads mention: November 2026"
+  url: "https://topmoller.com/experiments/sales-engineer-job-ads/"
+data_source:
+  title: "SE Job Ad Index (public Greenhouse, Lever and Ashby job boards of 250 B2B software companies)"
+  url: "https://github.com/jacobtop-tcg/se-job-ad-index"
+images:
+# Please include at least one image, and up to three images
+- file: "se_job_ads_terms.png"
+  alt: >
+    Horizontal bar chart of the share of 1,502 SE-type job ads that mention
+    each term. Demo is mentioned most often at 58.7%, followed by generative AI
+    terms at 45.1%, discovery at 43.8%, Python at 43.3%, proof of concept or
+    value at 40.1% and a cloud platform at 37.4%. SQL, value selling and
+    JavaScript sit between 19.8% and 23%. MEDDIC-family terms and other named
+    sales methods appear in about 5% of the ads.
+credit:
+  post: "Jacob Top Møller"
+  github: "https://github.com/jacobtop-tcg"
