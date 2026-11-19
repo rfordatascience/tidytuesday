@@ -14,3 +14,5 @@ A few things to keep in mind. `created_at` is the date the GitHub repository was
 - How many plugins work with the current Zotero, and how popular were the ones left behind on Zotero 6 (`hidden_reason` "legacy")?
 - Do stars, downloads or contributors go with better grades?
 - How do plugins with Chinese and English documentation differ in what they do?
+
+Thanks to [Ilya Kashnitsky](https://github.com/ikashnitsky) for suggesting this dataset!
