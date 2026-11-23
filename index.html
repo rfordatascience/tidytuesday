@@ -81,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ce0f0d1e95892c391167071f7e5e54e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fae47caf9e852e6e4b6ee8ceec8e0f71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -231,7 +231,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cholesterol-and-mortality-in-us-adults" id="toc-cholesterol-and-mortality-in-us-adults" class="nav-link active" data-scroll-target="#cholesterol-and-mortality-in-us-adults">Cholesterol and Mortality in US Adults</a>
+  <li><a href="#filming-locations" id="toc-filming-locations" class="nav-link active" data-scroll-target="#filming-locations">Filming Locations</a>
   <ul class="collapse">
   <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
   <li><a href="#how-to-participate" id="toc-how-to-participate" class="nav-link" data-scroll-target="#how-to-participate">How to Participate</a>
@@ -240,7 +240,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a>
   <ul class="collapse">
-  <li><a href="#cholesterol_mortality.csv" id="toc-cholesterol_mortality.csv" class="nav-link" data-scroll-target="#cholesterol_mortality.csv"><code>cholesterol_mortality.csv</code></a></li>
+  <li><a href="#locations.csv" id="toc-locations.csv" class="nav-link" data-scroll-target="#locations.csv"><code>locations.csv</code></a></li>
+  <li><a href="#production_locations.csv" id="toc-production_locations.csv" class="nav-link" data-scroll-target="#production_locations.csv"><code>production_locations.csv</code></a></li>
+  <li><a href="#productions.csv" id="toc-productions.csv" class="nav-link" data-scroll-target="#productions.csv"><code>productions.csv</code></a></li>
   </ul></li>
   <li><a href="#cleaning-script" id="toc-cleaning-script" class="nav-link" data-scroll-target="#cleaning-script">Cleaning Script</a></li>
   </ul></li>
@@ -253,40 +255,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="cholesterol-and-mortality-in-us-adults" class="level1">
-<h1>Cholesterol and Mortality in US Adults</h1>
-<p>This week we’re looking at cholesterol and death in US adults, built from the National Health and Nutrition Examination Survey (NHANES) linked to the NCHS public-use mortality records.</p>
-<p>A 2019 study of 12.8 million Korean adults found a U-shaped link between total cholesterol and death: people at the low and high ends died at higher rates than people in the middle. It’s a striking result, but the authors said plainly that they only had total cholesterol. They could not see LDL, HDL, or triglycerides, so they could not say which part of the cholesterol picture was doing the work.</p>
-<p>That gap is the reason for this dataset. NHANES measures the full lipid panel and the US government links those participants to the National Death Index, so we can ask the question the Korean study could not. I pooled ten NHANES cycles from 1999 to 2018, kept the adults who gave a blood sample and were eligible for mortality follow-up, and joined each person to their mortality outcome. The result is 52,678 adults, 7,643 of whom had died by the end of 2019.</p>
-<p>Researchers have already used this same NHANES data to dig into the fractions. A 2025 study of the 1999 to 2018 cycles found a U-shaped link between HDL and death, where both low and high HDL carried higher risk. That is the kind of question you can ask here that the total-cholesterol-only studies could not.</p>
-<p>Each row is one person. You get total cholesterol, HDL, LDL, and triglycerides, plus the two ratios doctors actually read off a lab report (total-to-HDL and LDL-to-HDL). You also get age, sex, race, the survey design columns, and the mortality outcome: whether the person died, how many months of follow-up they had, and the cause of death.</p>
-<p>Two things to keep in mind. LDL and triglycerides come from the fasting morning exam, so they are missing for about half the sample. And NHANES is a complex survey with weights, so population estimates need the <code>survey_weight</code>, <code>psu</code>, and <code>strata</code> columns fed into a package like <code>survey</code> or <code>srvyr</code>.</p>
+<section id="filming-locations" class="level1">
+<h1>Filming Locations</h1>
+<p>This week we’re exploring filming locations: where films and TV series were shot, as recorded on Wikidata. The data comes from <a href="https://moviescenemap.com/">Movie Scene Map</a>, a free map of filming locations that publishes its files under CC0 at <a href="https://moviescenemap.com/data/">moviescenemap.com/data</a>. This cut keeps only Wikidata’s “filming location” (P915) statements: 20,283 links between 12,134 films and series and 7,128 places in 130 countries, from Man Walking Around a Corner (1887) to announced releases. Places read from Wikipedia articles, film archives and city permits, which the site keeps in separate columns, are left out, and so are the video games, anime and manga it places where their stories are set.</p>
 <blockquote class="blockquote">
-<p>The NHANES combines interviews and physical examinations to assess the health and nutritional status of adults and children in the United States. The survey is unique in that it combines interviews and physical examinations, and it has been a major program of the National Center for Health Statistics since the early 1960s.</p>
+<p>A place is not a scene. P915 records that a production filmed at a place and stops there. Which scene was shot where is not in the data, so it is not in these files either, and it must not be inferred from them.</p>
 </blockquote>
 <ul>
-<li>Does the total-cholesterol U-curve from the Korean study show up in US adults, and does it survive adjusting for age?</li>
-<li>Which single lipid measure best separates who dies from who survives: total cholesterol, LDL, HDL, or one of the ratios?</li>
-<li>Is low LDL linked to higher death because of reverse causality, where sick people already have low cholesterol?</li>
-<li>Does the cause of death differ along the cholesterol range? For example, is low cholesterol tied more to cancer deaths and high cholesterol tied more to heart disease?</li>
-<li>How much do the answers change once you apply the NHANES survey weights?</li>
+<li>Which cities have hosted the most productions, and has that changed from decade to decade?</li>
+<li>Do TV series film in more places than films do?</li>
+<li>In which countries are productions filmed at specific spots rather than recorded only at the city level?</li>
 </ul>
-<p>Thank you to <a href="https://github.com/gdatascience">Tony Galvan, Golden Dome Data Science</a> for curating this week’s dataset.</p>
+<p>Thank you to <a href="https://github.com/Flightmussy">Flightmussy, maker of Movie Scene Map</a> for curating this week’s dataset.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The Data</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using R</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: tidytuesdayR R package </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## install.packages("tidytuesdayR")</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-11-17'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2026-11-24'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">46</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">47</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>cholesterol_mortality</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>locations <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>locations</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>production_locations <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>production_locations</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>productions <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>productions</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-17/cholesterol_mortality.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>locations <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/locations.csv'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>production_locations <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/production_locations.csv'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>productions <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/productions.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Python</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: pydytuesday python library</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">## pip install pydytuesday</span></span>
@@ -294,11 +293,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pydytuesday</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download files from the week, which you can then read in locally</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-11-17'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>pydytuesday.get_date(<span class="st">'2026-11-24'</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-17/cholesterol_mortality.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>locations <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/locations.csv'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>production_locations <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/production_locations.csv'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> pandas.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/productions.csv'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Julia</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1: TidierTuesday.jl library</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Pkg.add(url="https://github.com/TidierOrg/TidierTuesday.jl")</span></span>
@@ -306,14 +307,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">TidierTuesday</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Download datasets for the week, and load them as a NamedTuple of DataFrames</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-11-17"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">tt_load</span>(<span class="st">"2026-11-24"</span>)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2: Read directly from GitHub and assign to an object with TidierFiles</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-17/cholesterol_mortality.csv"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-17/cholesterol_mortality.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>locations <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/locations.csv"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>production_locations <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/production_locations.csv"</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/productions.csv"</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3: Read directly from Github and assign without Tidier dependencies</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>locations <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/locations.csv"</span>, DataFrame)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>production_locations <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/production_locations.csv"</span>, DataFrame)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-11-24/productions.csv"</span>, DataFrame)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="how-to-participate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-participate">How to Participate</h2>
@@ -334,13 +339,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<section id="cholesterol_mortality.csv" class="level3">
-<h3 class="anchored" data-anchor-id="cholesterol_mortality.csv"><code>cholesterol_mortality.csv</code></h3>
+<section id="locations.csv" class="level3">
+<h3 class="anchored" data-anchor-id="locations.csv"><code>locations.csv</code></h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 20%">
-<col style="width: 55%">
+<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 61%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -351,94 +356,137 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">seqn</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">NHANES respondent sequence number, the unique participant ID that links the survey and mortality records.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">cycle</td>
+<td style="text-align: left;">location_id</td>
 <td style="text-align: left;">character</td>
-<td style="text-align: left;">The two-year NHANES survey cycle the participant was enrolled in, from 1999-2000 through 2017-2018.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">age</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Age in years at the time of the exam. Ages 80 and older are top-coded at 80 in 1999-2006 and at 85 from 2007 on, per NHANES disclosure rules.</td>
+<td style="text-align: left;">Wikidata item ID of the place, e.g.&nbsp;<code>Q65</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">sex</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Sex recorded at the exam: Male or Female.</td>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Place name, in English where available, e.g.&nbsp;<code>Los Angeles</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">race</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Race and Hispanic origin: Mexican American, Other Hispanic, Non-Hispanic White, Non-Hispanic Black, or Other/Multi.</td>
+<td style="text-align: left;">category</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Type of place: <code>city</code> (a city, town or district), <code>landmark</code>, <code>nature</code>, <code>street</code>, <code>castle</code> or <code>studio</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">total_chol</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Total cholesterol in mg/dL. Measured for all participants who gave a blood sample.</td>
+<td style="text-align: left;">resolution</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;"><code>exact</code> for a specific spot such as a building, street, park or studio; <code>town</code> for a whole city, town or district.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">hdl</td>
+<td style="text-align: left;">latitude</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">HDL (high-density lipoprotein, the “good” cholesterol) in mg/dL.</td>
+<td style="text-align: left;">Latitude in WGS84 decimal degrees, e.g.&nbsp;<code>34.05223</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">ldl</td>
+<td style="text-align: left;">longitude</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">LDL (low-density lipoprotein, the “bad” cholesterol) in mg/dL, calculated by the Friedewald equation. Only measured on the fasting morning subsample, so it is missing for about half of participants.</td>
+<td style="text-align: left;">Longitude in WGS84 decimal degrees, e.g.&nbsp;<code>-118.24368</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">triglycerides</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Triglycerides in mg/dL. Like LDL, only measured on the fasting morning subsample.</td>
+<td style="text-align: left;">country</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Country the place is in, e.g.&nbsp;<code>United States</code>. Missing for the few places the source puts in no country, such as research stations in Antarctica and ships.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">non_hdl</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Non-HDL cholesterol in mg/dL, total cholesterol minus HDL.</td>
+<td style="text-align: left;">country_code</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">ISO 3166-1 alpha-2 country code, e.g.&nbsp;<code>US</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">tc_hdl_ratio</td>
+<td style="text-align: left;">n_productions</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Ratio of total cholesterol to HDL. A common clinical risk measure where lower is generally considered better.</td>
+<td style="text-align: left;">Number of films and series linked to the place in <code>production_locations</code>, e.g.&nbsp;<code>1113</code>.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">ldl_hdl_ratio</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Ratio of LDL to HDL. Available only when LDL is present (the fasting subsample).</td>
+<td style="text-align: left;">wikipedia</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">URL of the English Wikipedia article on the place, e.g.&nbsp;<code>https://en.wikipedia.org/wiki/Los_Angeles</code>. Missing where there is none.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="production_locations.csv" class="level3">
+<h3 class="anchored" data-anchor-id="production_locations.csv"><code>production_locations.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">production_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Wikidata item ID of the film or series, e.g.&nbsp;<code>Q23572</code> (Game of Thrones). Joins to <code>productions</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">location_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Wikidata item ID of a place it was filmed at, e.g.&nbsp;<code>Q1722</code> (Dubrovnik). Joins to <code>locations</code>. Each row is one Wikidata filming location (P915) statement.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="productions.csv" class="level3">
+<h3 class="anchored" data-anchor-id="productions.csv"><code>productions.csv</code></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">production_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Wikidata item ID of the film or series, e.g.&nbsp;<code>Q23572</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">title</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">Title, in English where Wikidata has an English label, e.g.&nbsp;<code>Game of Thrones</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">died</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">All-cause mortality status at the end of follow-up: 1 if the participant had died, 0 if assumed alive.</td>
+<td style="text-align: left;">kind</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;"><code>film</code> or <code>tv</code> (a television series).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">followup_months</td>
-<td style="text-align: left;">integer</td>
-<td style="text-align: left;">Months from the exam date to death or to the censoring date of December 31, 2019, whichever came first.</td>
+<td style="text-align: left;">year</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Year of first release, e.g.&nbsp;<code>2011</code>. Missing where Wikidata records none. A few are announced releases after 2026.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">cause_of_death</td>
-<td style="text-align: left;">factor</td>
-<td style="text-align: left;">Underlying cause of death for those who died, using the ten NCHS leading-cause categories: Heart disease, Cancer, Chronic respiratory disease, Accidents, Cerebrovascular (stroke), Alzheimer’s disease, Diabetes, Influenza and pneumonia, Kidney disease, and All other causes. Missing for participants who were still alive.</td>
+<td style="text-align: left;">end_year</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Year a series ended, e.g.&nbsp;<code>2019</code>. Missing for films, and for series still running or with no end date on Wikidata.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">survey_weight</td>
+<td style="text-align: left;">sitelinks</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">NHANES two-year MEC exam sampling weight. Divide by the number of pooled cycles when combining cycles. Use with psu and strata for survey-weighted estimates.</td>
+<td style="text-align: left;">Number of Wikimedia sites (Wikipedia language editions and others) linked to the item, a rough measure of fame, e.g.&nbsp;<code>139</code>.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">psu</td>
+<td style="text-align: left;">n_locations</td>
 <td style="text-align: left;">double</td>
-<td style="text-align: left;">Masked variance pseudo-PSU (primary sampling unit) for the complex survey design.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">strata</td>
-<td style="text-align: left;">double</td>
-<td style="text-align: left;">Masked variance pseudo-stratum for the complex survey design.</td>
+<td style="text-align: left;">Number of places the production is linked to in <code>production_locations</code>, e.g.&nbsp;<code>8</code>.</td>
 </tr>
 </tbody>
 </table>
@@ -446,150 +494,124 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="cleaning-script" class="level2">
 <h2 class="anchored" data-anchor-id="cleaning-script">Cleaning Script</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># =============================================================================</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Cholesterol fractions and mortality in US adults (NHANES 1999-2018)</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># This script is fully self-contained: it runs from a fresh R session and</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># downloads everything it needs from public CDC / NCHS sources.</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># It builds one data frame:</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#   cholesterol_mortality : one row per mortality-eligible adult, with the four</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">#                           lipid measures, derived ratios, demographics, survey</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">#                           design columns, and the linked mortality outcome.</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># A small internal `cod_lookup` table maps the NCHS cause-of-death codes to the</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># readable labels used in the `cause_of_death` column; it is not a shipped file.</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Data sources (both US public domain):</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co">#   - NHANES survey tables (demographics + lipid labs), via the nhanesA package.</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co">#   - NCHS Public-Use Linked Mortality Files (LMF), parsed from the published</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co">#     fixed-width .dat layout so the mortality step is fully transparent.</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co"># =============================================================================</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nhanesA)</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(purrr)</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Cycle -&gt; table-name map ------------------------------------------------</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co"># NHANES renames its lab files across cycles. These are the correct table names</span></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># per cycle for total cholesterol, HDL, and the fasting triglyceride/LDL file.</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Total cholesterol and HDL share one file for 1999-2004, then split from 2005.</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>cycle_map <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>cycle,        <span class="sc">~</span>demo,     <span class="sc">~</span>tc_tbl,   <span class="sc">~</span>hdl_tbl,  <span class="sc">~</span>hdl_var, <span class="sc">~</span>trig_tbl,</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="st">"1999-2000"</span>,   <span class="st">"DEMO"</span>,    <span class="st">"Lab13"</span>,   <span class="st">"Lab13"</span>,   <span class="st">"LBDHDL"</span>, <span class="st">"Lab13AM"</span>,</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2001-2002"</span>,   <span class="st">"DEMO_B"</span>,  <span class="st">"l13_b"</span>,   <span class="st">"l13_b"</span>,   <span class="st">"LBDHDL"</span>, <span class="st">"l13am_b"</span>,</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2003-2004"</span>,   <span class="st">"DEMO_C"</span>,  <span class="st">"l13_c"</span>,   <span class="st">"l13_c"</span>,   <span class="st">"LBXHDD"</span>, <span class="st">"l13am_c"</span>,</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2005-2006"</span>,   <span class="st">"DEMO_D"</span>,  <span class="st">"TCHOL_D"</span>, <span class="st">"HDL_D"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_D"</span>,</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2007-2008"</span>,   <span class="st">"DEMO_E"</span>,  <span class="st">"TCHOL_E"</span>, <span class="st">"HDL_E"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_E"</span>,</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2009-2010"</span>,   <span class="st">"DEMO_F"</span>,  <span class="st">"TCHOL_F"</span>, <span class="st">"HDL_F"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_F"</span>,</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2011-2012"</span>,   <span class="st">"DEMO_G"</span>,  <span class="st">"TCHOL_G"</span>, <span class="st">"HDL_G"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_G"</span>,</span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2013-2014"</span>,   <span class="st">"DEMO_H"</span>,  <span class="st">"TCHOL_H"</span>, <span class="st">"HDL_H"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_H"</span>,</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2015-2016"</span>,   <span class="st">"DEMO_I"</span>,  <span class="st">"TCHOL_I"</span>, <span class="st">"HDL_I"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_I"</span>,</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>  <span class="st">"2017-2018"</span>,   <span class="st">"DEMO_J"</span>,  <span class="st">"TCHOL_J"</span>, <span class="st">"HDL_J"</span>,   <span class="st">"LBDHDD"</span>, <span class="st">"TRIGLY_J"</span></span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>get_tbl <span class="ot">&lt;-</span> <span class="cf">function</span>(tbl) <span class="fu">nhanes</span>(tbl, <span class="at">translated =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Pull and assemble one cycle of survey data ----------------------------</span></span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>build_cycle <span class="ot">&lt;-</span> <span class="cf">function</span>(cycle, demo, tc_tbl, hdl_tbl, hdl_var, trig_tbl) {</span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>  demo_d <span class="ot">&lt;-</span> <span class="fu">get_tbl</span>(demo) <span class="sc">|&gt;</span></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">transmute</span>(</span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>      SEQN,</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>      <span class="at">cycle      =</span> cycle,</span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>      <span class="at">age        =</span> RIDAGEYR,</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>      <span class="at">sex        =</span> RIAGENDR,              <span class="co"># 1 = male, 2 = female</span></span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>      <span class="at">race       =</span> RIDRETH1,</span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>      <span class="at">weight_mec =</span> WTMEC2YR,</span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>      <span class="at">psu        =</span> SDMVPSU,</span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>      <span class="at">strata     =</span> SDMVSTRA</span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>  tc_d  <span class="ot">&lt;-</span> <span class="fu">get_tbl</span>(tc_tbl)   <span class="sc">|&gt;</span> <span class="fu">select</span>(SEQN, <span class="at">TC_mgdl =</span> LBXTC)</span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>  hdl_d <span class="ot">&lt;-</span> <span class="fu">get_tbl</span>(hdl_tbl)  <span class="sc">|&gt;</span> <span class="fu">select</span>(SEQN, <span class="at">HDL_mgdl =</span> <span class="fu">all_of</span>(hdl_var))</span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  tg_d  <span class="ot">&lt;-</span> <span class="fu">get_tbl</span>(trig_tbl) <span class="sc">|&gt;</span> <span class="fu">select</span>(SEQN, <span class="at">TG_mgdl =</span> LBXTR, <span class="at">LDL_mgdl =</span> LBDLDL)</span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  demo_d <span class="sc">|&gt;</span></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(tc_d,  <span class="at">by =</span> <span class="st">"SEQN"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(hdl_d, <span class="at">by =</span> <span class="st">"SEQN"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(tg_d,  <span class="at">by =</span> <span class="st">"SEQN"</span>)</span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Downloading NHANES survey tables with nhanesA ..."</span>)</span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>survey_all <span class="ot">&lt;-</span> <span class="fu">pmap</span>(cycle_map, build_cycle) <span class="sc">|&gt;</span> <span class="fu">bind_rows</span>()</span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Mortality: parse the NCHS public-use Linked Mortality Files ------------</span></span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a><span class="co"># Published fixed-width column layout (from the CDC-provided R/SAS read code):</span></span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a><span class="co">#   SEQN         cols  1-6</span></span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a><span class="co">#   eligstat     col  15      1 = eligible, 2 = under 18, 3 = ineligible</span></span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a><span class="co">#   mortstat     col  16      0 = assumed alive, 1 = assumed deceased</span></span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a><span class="co">#   ucod_leading cols 17-19   underlying cause recode (001 = heart disease, ...)</span></span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a><span class="co">#   diabetes     col  20      diabetes among multiple causes of death (0/1)</span></span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a><span class="co">#   hyperten     col  21      hypertension among multiple causes of death (0/1)</span></span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a><span class="co">#   permth_int   cols 43-45   person-months of follow-up from interview date</span></span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a><span class="co">#   permth_exm   cols 46-48   person-months of follow-up from MEC exam date</span></span>
-<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>lmf_base <span class="ot">&lt;-</span> <span class="st">"https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/"</span></span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>read_lmf <span class="ot">&lt;-</span> <span class="cf">function</span>(cycle) {</span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>  yrs <span class="ot">&lt;-</span> <span class="fu">strsplit</span>(cycle, <span class="st">"-"</span>)[[<span class="dv">1</span>]]</span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  fn  <span class="ot">&lt;-</span> <span class="fu">sprintf</span>(<span class="st">"NHANES_%s_%s_MORT_2019_PUBLIC.dat"</span>, yrs[<span class="dv">1</span>], yrs[<span class="dv">2</span>])</span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  tmp <span class="ot">&lt;-</span> <span class="fu">tempfile</span>(<span class="at">fileext =</span> <span class="st">".dat"</span>)</span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>  utils<span class="sc">::</span><span class="fu">download.file</span>(<span class="fu">paste0</span>(lmf_base, fn), tmp, <span class="at">mode =</span> <span class="st">"wb"</span>, <span class="at">quiet =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_fwf</span>(</span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>    tmp,</span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fwf_cols</span>(<span class="at">SEQN =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">6</span>), <span class="at">eligstat =</span> <span class="fu">c</span>(<span class="dv">15</span>, <span class="dv">15</span>), <span class="at">mortstat =</span> <span class="fu">c</span>(<span class="dv">16</span>, <span class="dv">16</span>),</span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>             <span class="at">ucod_leading =</span> <span class="fu">c</span>(<span class="dv">17</span>, <span class="dv">19</span>), <span class="at">diabetes =</span> <span class="fu">c</span>(<span class="dv">20</span>, <span class="dv">20</span>), <span class="at">hyperten =</span> <span class="fu">c</span>(<span class="dv">21</span>, <span class="dv">21</span>),</span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>             <span class="at">permth_int =</span> <span class="fu">c</span>(<span class="dv">43</span>, <span class="dv">45</span>), <span class="at">permth_exm =</span> <span class="fu">c</span>(<span class="dv">46</span>, <span class="dv">48</span>)),</span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>    <span class="at">col_types =</span> <span class="st">"iiiiiiii"</span>, <span class="at">na =</span> <span class="fu">c</span>(<span class="st">""</span>, <span class="st">"."</span>)</span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">cycle =</span> cycle)</span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Downloading and parsing NCHS Linked Mortality Files ..."</span>)</span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>mort_all <span class="ot">&lt;-</span> <span class="fu">map</span>(cycle_map<span class="sc">$</span>cycle, read_lmf) <span class="sc">|&gt;</span> <span class="fu">bind_rows</span>()</span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Cause-of-death recode lookup (internal; builds cause_of_death) ---------</span></span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>cod_lookup <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>ucod_leading, <span class="sc">~</span>cod,</span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span>L,  <span class="st">"Heart disease"</span>,</span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>  <span class="dv">2</span>L,  <span class="st">"Cancer"</span>,</span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>  <span class="dv">3</span>L,  <span class="st">"Chronic respiratory disease"</span>,</span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>  <span class="dv">4</span>L,  <span class="st">"Accidents"</span>,</span>
-<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a>  <span class="dv">5</span>L,  <span class="st">"Cerebrovascular (stroke)"</span>,</span>
-<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a>  <span class="dv">6</span>L,  <span class="st">"Alzheimer's disease"</span>,</span>
-<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>  <span class="dv">7</span>L,  <span class="st">"Diabetes"</span>,</span>
-<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>  <span class="dv">8</span>L,  <span class="st">"Influenza and pneumonia"</span>,</span>
-<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>  <span class="dv">9</span>L,  <span class="st">"Kidney disease"</span>,</span>
-<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>  <span class="dv">10</span>L, <span class="st">"All other causes"</span></span>
-<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- Merge, filter to eligible adults, derive outcome + ratios --------------</span></span>
-<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>cholesterol_mortality <span class="ot">&lt;-</span> survey_all <span class="sc">|&gt;</span></span>
-<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">SEQN =</span> <span class="fu">as.integer</span>(SEQN)) <span class="sc">|&gt;</span></span>
-<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(mort_all, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"SEQN"</span>, <span class="st">"cycle"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(eligstat <span class="sc">==</span> <span class="dv">1</span>, age <span class="sc">&gt;=</span> <span class="dv">18</span>) <span class="sc">|&gt;</span>          <span class="co"># mortality-eligible adults only</span></span>
-<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(TC_mgdl) <span class="sc">|</span> <span class="sc">!</span><span class="fu">is.na</span>(HDL_mgdl) <span class="sc">|</span>  <span class="co"># must have at least one lipid</span></span>
-<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>         <span class="sc">!</span><span class="fu">is.na</span>(LDL_mgdl) <span class="sc">|</span> <span class="sc">!</span><span class="fu">is.na</span>(TG_mgdl)) <span class="sc">|&gt;</span></span>
-<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(cod_lookup, <span class="at">by =</span> <span class="st">"ucod_leading"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>    <span class="at">sex  =</span> <span class="fu">factor</span>(sex, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Male"</span>, <span class="st">"Female"</span>)),</span>
-<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>    <span class="at">race =</span> <span class="fu">factor</span>(race, <span class="at">levels =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>,</span>
-<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>                  <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Mexican American"</span>, <span class="st">"Other Hispanic"</span>,</span>
-<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>                             <span class="st">"Non-Hispanic White"</span>, <span class="st">"Non-Hispanic Black"</span>,</span>
-<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>                             <span class="st">"Other/Multi"</span>)),</span>
-<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">died        =</span> mortstat,                      <span class="co"># 1 = died, 0 = alive at censor</span></span>
-<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>    <span class="at">followup_months =</span> permth_exm,                <span class="co"># months from MEC exam</span></span>
-<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>    <span class="at">cod   =</span> <span class="fu">factor</span>(cod, <span class="at">levels =</span> cod_lookup<span class="sc">$</span>cod),</span>
-<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>    <span class="at">non_hdl =</span> TC_mgdl <span class="sc">-</span> HDL_mgdl,                <span class="co"># non-HDL cholesterol</span></span>
-<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>    <span class="at">tc_hdl  =</span> <span class="fu">round</span>(TC_mgdl <span class="sc">/</span> HDL_mgdl, <span class="dv">2</span>),      <span class="co"># total-to-HDL ratio</span></span>
-<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>    <span class="at">ldl_hdl =</span> <span class="fu">round</span>(LDL_mgdl <span class="sc">/</span> HDL_mgdl, <span class="dv">2</span>)      <span class="co"># LDL-to-HDL ratio</span></span>
-<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">seqn =</span> SEQN, cycle, age, sex, race,</span>
-<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>         <span class="at">total_chol =</span> TC_mgdl, <span class="at">hdl =</span> HDL_mgdl, <span class="at">ldl =</span> LDL_mgdl,</span>
-<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>         <span class="at">triglycerides =</span> TG_mgdl, non_hdl, <span class="at">tc_hdl_ratio =</span> tc_hdl,</span>
-<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>         <span class="at">ldl_hdl_ratio =</span> ldl_hdl,</span>
-<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a>         died, followup_months, <span class="at">cause_of_death =</span> cod,</span>
-<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>         <span class="at">survey_weight =</span> weight_mec, psu, strata)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">"""Clean the Movie Scene Map open data into three tidy tables of filming locations.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">Source: https://moviescenemap.com/data/ (the files are offered under CC0).</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">Only Wikidata "filming location" (P915) statements on films and TV series are</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">kept. The source files also hold places read from Wikipedia articles, from two</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">national film archives and from city filming permits, each in its own columns,</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">and video games, anime and manga placed where their story is set (P840). None</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">of those are in these tables.</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co">Python dependencies: pandas, requests.</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co">Install with: pip install pandas requests</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">"""</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> __future__ <span class="im">import</span> annotations</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>BASE_URL <span class="op">=</span> <span class="st">"https://moviescenemap.com/data/"</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>HEADERS <span class="op">=</span> {<span class="st">"User-Agent"</span>: <span class="st">"tidytuesday-cleaning (+https://github.com/rfordatascience/tidytuesday)"</span>}</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fetch_csv(file_name: <span class="bu">str</span>) <span class="op">-&gt;</span> pd.DataFrame:</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Download one of the source CSV files and read every column as text."""</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> requests.get(BASE_URL <span class="op">+</span> file_name, headers<span class="op">=</span>HEADERS, timeout<span class="op">=</span><span class="dv">120</span>)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    response.raise_for_status()</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> pd.read_csv(</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        io.StringIO(response.content.decode(<span class="st">"utf-8"</span>)),</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>        dtype<span class="op">=</span><span class="bu">str</span>,</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>        keep_default_na<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>productions_raw <span class="op">=</span> fetch_csv(<span class="st">"productions.csv"</span>)</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>locations_raw <span class="op">=</span> fetch_csv(<span class="st">"filming-locations.csv"</span>)</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Places: the slug in each place's page address is the key the productions</span></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="co"># file uses in its place_slugs column.</span></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>locations_raw[<span class="st">"slug"</span>] <span class="op">=</span> locations_raw[<span class="st">"url"</span>].<span class="bu">str</span>.rstrip(<span class="st">"/"</span>).<span class="bu">str</span>.split(<span class="st">"/"</span>).<span class="bu">str</span>[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>places <span class="op">=</span> locations_raw[locations_raw[<span class="st">"resolution"</span>].isin([<span class="st">"exact"</span>, <span class="st">"town"</span>])]</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Films and TV series with at least one Wikidata filming location statement.</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>films <span class="op">=</span> productions_raw[</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    productions_raw[<span class="st">"kind"</span>].isin([<span class="st">"film"</span>, <span class="st">"tv"</span>])</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="op">&amp;</span> (productions_raw[<span class="st">"relation"</span>] <span class="op">==</span> <span class="st">"filmed at"</span>)</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    <span class="op">&amp;</span> (productions_raw[<span class="st">"place_slugs"</span>] <span class="op">!=</span> <span class="st">""</span>)</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a><span class="co"># One row per statement: a production and a place it was filmed at.</span></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>production_locations <span class="op">=</span> (</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    films[[<span class="st">"qid"</span>, <span class="st">"place_slugs"</span>]]</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>    .assign(slug<span class="op">=</span>films[<span class="st">"place_slugs"</span>].<span class="bu">str</span>.split(<span class="st">"; "</span>))</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    .explode(<span class="st">"slug"</span>)</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    .merge(places[[<span class="st">"slug"</span>, <span class="st">"qid"</span>]], on<span class="op">=</span><span class="st">"slug"</span>, suffixes<span class="op">=</span>(<span class="st">""</span>, <span class="st">"_place"</span>))</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    .rename(columns<span class="op">=</span>{<span class="st">"qid"</span>: <span class="st">"production_id"</span>, <span class="st">"qid_place"</span>: <span class="st">"location_id"</span>})</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    [[<span class="st">"production_id"</span>, <span class="st">"location_id"</span>]]</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    .drop_duplicates()</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>    .sort_values([<span class="st">"production_id"</span>, <span class="st">"location_id"</span>])</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>    .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> (</span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>    films.rename(columns<span class="op">=</span>{<span class="st">"qid"</span>: <span class="st">"production_id"</span>, <span class="st">"name"</span>: <span class="st">"title"</span>})</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>    .merge(</span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>        production_locations.groupby(<span class="st">"production_id"</span>).size().rename(<span class="st">"n_locations"</span>),</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">"production_id"</span>,</span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>    .assign(</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>        year<span class="op">=</span><span class="kw">lambda</span> d: pd.to_numeric(d[<span class="st">"year"</span>], errors<span class="op">=</span><span class="st">"coerce"</span>).astype(<span class="st">"Int64"</span>),</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>        end_year<span class="op">=</span><span class="kw">lambda</span> d: pd.to_numeric(d[<span class="st">"end_year"</span>], errors<span class="op">=</span><span class="st">"coerce"</span>).astype(<span class="st">"Int64"</span>),</span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>        sitelinks<span class="op">=</span><span class="kw">lambda</span> d: pd.to_numeric(d[<span class="st">"sitelinks"</span>], errors<span class="op">=</span><span class="st">"coerce"</span>).astype(<span class="st">"Int64"</span>),</span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>    [[<span class="st">"production_id"</span>, <span class="st">"title"</span>, <span class="st">"kind"</span>, <span class="st">"year"</span>, <span class="st">"end_year"</span>, <span class="st">"sitelinks"</span>, <span class="st">"n_locations"</span>]]</span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>    .sort_values(<span class="st">"production_id"</span>)</span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>    .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>locations <span class="op">=</span> (</span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>    places.rename(columns<span class="op">=</span>{<span class="st">"qid"</span>: <span class="st">"location_id"</span>, <span class="st">"iso"</span>: <span class="st">"country_code"</span>})</span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>    .merge(</span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>        production_locations.groupby(<span class="st">"location_id"</span>).size().rename(<span class="st">"n_productions"</span>),</span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">"location_id"</span>,</span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>    .assign(</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>        latitude<span class="op">=</span><span class="kw">lambda</span> d: pd.to_numeric(d[<span class="st">"latitude"</span>]),</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>        longitude<span class="op">=</span><span class="kw">lambda</span> d: pd.to_numeric(d[<span class="st">"longitude"</span>]),</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>        wikipedia<span class="op">=</span><span class="kw">lambda</span> d: d[<span class="st">"wikipedia"</span>].replace(<span class="st">""</span>, pd.NA),</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>        [</span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>            <span class="st">"location_id"</span>,</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>            <span class="st">"name"</span>,</span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>            <span class="st">"category"</span>,</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>            <span class="st">"resolution"</span>,</span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a>            <span class="st">"latitude"</span>,</span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>            <span class="st">"longitude"</span>,</span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a>            <span class="st">"country"</span>,</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>            <span class="st">"country_code"</span>,</span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a>            <span class="st">"n_productions"</span>,</span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a>            <span class="st">"wikipedia"</span>,</span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>        ]</span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>    .sort_values(<span class="st">"location_id"</span>)</span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>    .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a><span class="co"># Every statement joins to a production and a place.</span></span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> production_locations[<span class="st">"production_id"</span>].isin(productions[<span class="st">"production_id"</span>]).<span class="bu">all</span>()</span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> production_locations[<span class="st">"location_id"</span>].isin(locations[<span class="st">"location_id"</span>]).<span class="bu">all</span>()</span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> name, table <span class="kw">in</span> {</span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>        <span class="st">"productions"</span>: productions,</span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>        <span class="st">"locations"</span>: locations,</span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>        <span class="st">"production_locations"</span>: production_locations,</span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>    }.items():</span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>        table.to_csv(<span class="ss">f"</span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">.csv"</span>, index<span class="op">=</span><span class="va">False</span>, lineterminator<span class="op">=</span><span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
