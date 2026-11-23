@@ -1,0 +1,19 @@
+title: US companies worth $1 billion or more that delisted
+article:
+  title: "Delisted Stocks Report: What Happened to US Companies Worth $1B+"
+  url: https://www.quotelinks.com/delisted-stocks-report.html
+data_source:
+  title: Quotelinks Delisted Companies dataset (with SEC EDGAR data)
+  url: https://github.com/quotelinks/us-delisted-companies
+images:
+- file: delisted_companies.png
+  alt: >
+    Stacked bar chart of 473 US companies worth $1 billion or more that left
+    the NYSE, Nasdaq or NYSE American, by year and outcome. Each year from 2022
+    to 2026 had between 77 and 101 delistings, with a peak of 101 in 2025. In
+    every year most were acquired by another company, the second largest group
+    was taken private, and mergers, moves to foreign exchanges and other
+    reasons were small slices.
+credit:
+  post: Quotelinks Data Team
+  github: https://github.com/quotelinks
