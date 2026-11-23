@@ -80,6 +80,14 @@ jobs:
 
           echo "Validated changed files in folder: ${unique_curated_folders[0]}"
 
+      # Manual runs may target a PR branch that predates these scripts, so use
+      # the scripts from the ref the workflow was dispatched on.
+      - name: Use check scripts from the dispatched ref
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git fetch origin "${{ github.sha }}"
+          git checkout "${{ github.sha }}" -- .github/scripts
+
       - name: Install DuckDB
         run: |
           curl -fsSL -o duckdb.zip https://github.com/duckdb/duckdb/releases/latest/download/duckdb_cli-linux-amd64.zip
