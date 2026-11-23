@@ -14,7 +14,7 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_COMMENT_BODY: ${{ github.event.comment.body }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - uses: r-lib/actions/pr-fetch@v2
         with:
