@@ -1,0 +1,103 @@
+# TEMPORARY: exercises the paths of the bash scripts that other workflows don't
+# hit before merge (Pillow install/resize, the accept flow on real PR data, and
+# /assign comment parsing). Delete this file before merging.
+
+name: TEMP Exercise Scripts
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temp-exercise-scripts.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exercise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Tool versions
+        run: |
+          for t in bash perl python3 pip3 yq jq curl awk git; do
+            printf '%s: ' "$t"; command -v "$t" || echo "MISSING"
+          done
+          python3 --version
+          python3 -c 'import PIL; print("Pillow preinstalled:", PIL.__version__)' || echo "Pillow not preinstalled"
+          pip3 --version || true
+
+      - name: Pillow install and resize timing
+        run: |
+          source .github/scripts/lib.sh
+          mkdir -p "$RUNNER_TEMP/img"
+          src=.github/scripts/fixtures/oversized.png
+          start=$(date +%s.%N)
+          resize_image "$src" "$RUNNER_TEMP/img/out.png" 60
+          end=$(date +%s.%N)
+          elapsed=$(awk -v s="$start" -v e="$end" 'BEGIN { printf "%.1f", e - s }')
+          echo "resize_image (including any Pillow install) took ${elapsed}s"
+          read -r w h < <(png_dims "$RUNNER_TEMP/img/out.png")
+          echo "output dimensions: ${w}x${h}; bytes: $(file_bytes "$RUNNER_TEMP/img/out.png")"
+          [ "$w" -gt 0 ] && [ "$h" -gt 0 ]
+          awk -v t="$elapsed" 'BEGIN { exit !(t < 30) }' || { echo "Pillow step too slow"; exit 1; }
+          # Second call must be fast because Pillow is now installed.
+          start=$(date +%s.%N)
+          resize_image "$src" "$RUNNER_TEMP/img/out2.png" 60
+          end=$(date +%s.%N)
+          awk -v s="$start" -v e="$end" 'BEGIN { printf "second resize_image call took %.1fs\n", e - s }'
+
+      - name: Test /assign comment parsing
+        run: |
+          parse() {
+            GITHUB_COMMENT_BODY=$1
+            read -r _ target_date src_folder_name _ <<< "$GITHUB_COMMENT_BODY"
+            echo "body=[$1] -> date=[${target_date:-}] folder=[${src_folder_name:-}]"
+          }
+          parse "/assign"
+          parse "/assign 2026-12-01"
+          parse "/assign 2026-12-01 my-folder"
+          parse $'/assign 2026-12-01 my-folder\nextra line'
+          parse "/assign  2026-12-01"
+
+      - name: Accept PR 1101 data (real data, no push)
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git fetch origin pull/1101/head
+          git checkout FETCH_HEAD -- data/curated/wnba-finals-attendance
+          start=$(date +%s)
+          bash .github/scripts/assign_week.sh 2026-12-01
+          echo "assign_week.sh took $(( $(date +%s) - start ))s"
+          # Same commit step as pr-assign-command.yaml.
+          git add --all
+          git commit -m 'Accept submission'
+          git show --stat --format=%s HEAD | tail -25
+          test -f data/2026/2026-12-01/readme.md
+          test -f data/2026/2026-12-01/wnba_finals_games.csv
+          test ! -e data/curated/wnba-finals-attendance
+          grep -q '2026-12-01' README.md
+          grep -q '2026-12-01' data/2026/readme.md
+          grep -q '^48,2026-12-01,2026,wnba_finals_games.csv' static/tt_data_type.csv
+          echo "Accept flow OK"
+
+      - name: Accept an oversized image (check flags it, assign shrinks it)
+        run: |
+          source .github/scripts/lib.sh
+          git reset -q --hard HEAD~1
+          git fetch origin pull/1101/head
+          git checkout FETCH_HEAD -- data/curated/wnba-finals-attendance
+          d=data/curated/wnba-finals-attendance
+          img=$(yq -r '.images[0].file' "$d/meta.yaml")
+          cp .github/scripts/fixtures/oversized.png "$d/$img"
+          echo "oversized input bytes: $(file_bytes "$d/$img")"
+          bash .github/scripts/check_curated.sh || true
+          grep -q 'too large' pr_comment.md
+          bash .github/scripts/assign_week.sh 2026-12-01
+          out_bytes=$(file_bytes "data/2026/2026-12-01/$img")
+          echo "resized output bytes: ${out_bytes}"
+          [ "$out_bytes" -lt "$MAX_BSKY_BYTES" ]
+          echo "Oversized image OK"
