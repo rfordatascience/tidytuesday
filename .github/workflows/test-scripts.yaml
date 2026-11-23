@@ -1,0 +1,32 @@
+# Runs the bash test suite for the submission check and assign scripts.
+
+name: Test Scripts
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/test-scripts.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install DuckDB
+        run: |
+          curl -fsSL -o duckdb.zip https://github.com/duckdb/duckdb/releases/latest/download/duckdb_cli-linux-amd64.zip
+          sudo unzip -o duckdb.zip duckdb -d /usr/local/bin
+          rm duckdb.zip
+
+      - name: Run script tests
+        run: bash .github/scripts/test.sh

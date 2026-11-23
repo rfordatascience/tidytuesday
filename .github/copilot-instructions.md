@@ -32,8 +32,8 @@ Also consider whether the dataset has already been used in TidyTuesday (see the 
 
 If the dataset is approved, a maintainer will comment with `/assign`. This triggers a workflow on the PR:
 
-1. `.github/workflows/pr-assign-command.yaml` triggers `.github/scripts/assign_week.R`.
-2. `assign_week.R` reads `meta.yaml`, copies files to `data/{year}/{date}/`, and builds `readme.md`. Notes on the script's behavior:
+1. `.github/workflows/pr-assign-command.yaml` triggers `.github/scripts/assign_week.sh`.
+2. `assign_week.sh` reads `meta.yaml`, copies files to `data/{year}/{date}/`, and builds `readme.md`. Notes on the script's behavior:
    - It aborts if `title`, `data_source.title`, `data_source.url`, `article.title`, or `article.url` is missing, so all five are effectively required.
    - Only images listed under `images` in `meta.yaml` are copied (unlisted PNGs are dropped). Images over the Bluesky size limit are automatically downsized.
    - HTML comments (`<!-- -->`) in `.md` files and the cleaning script are stripped.
@@ -48,7 +48,7 @@ If the dataset is approved, a maintainer will comment with `/assign`. This trigg
 
 ## Automated Checks
 
-Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.github/scripts/check_curated.R` (sourcing `.github/scripts/check_functions.R`). A failure does **not** automatically mean the dataset should be rejected, but each flagged item deserves a closer look.
+Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.github/scripts/check_curated.sh` (sourcing `.github/scripts/lib.sh`). A failure does **not** automatically mean the dataset should be rejected, but each flagged item deserves a closer look.
 
 The automated checks verify:
 - Exactly one submission folder is present under `data/curated/`.
@@ -82,7 +82,7 @@ When reviewing a dataset submission PR, check the following:
 - [ ] `article.title`, `article.url`, `data_source.title`, and `data_source.url` are all present, since the assign script fails without them. The article should describe or use the dataset. The URLs should be publicly accessible; if you are not able to verify this, ask a maintainer to verify them.
 - [ ] The `images` section lists between one and three PNGs (each also present in this submission); each entry has a `file` and an `alt` field. PNGs in the folder that are not listed in `meta.yaml` are not published.
 - [ ] Alt text is in sentence case, and is 1000 characters or fewer, and serves as a *replacement* for the image (e.g. "A bar chart showing widgets produced per country in 1997. Peru has the largest value with 27 widgets, Kenya has the second largest value at 24, and other countries are evenly distributed down to the United States with only 3 widgets."), not simply a description of the image (e.g. "A bar chart of countries and widgets."). If you are able to evaluate the image, do so to assess the alt text. If not, still assess the alt text as described here.
-- [ ] The `credit` block is filled in, and in particular `credit.post` (name and optional affiliation) is present. If only `credit.github` is given, `assign_week.R` produces a broken credit line (a literal "@credit_handle"). Unused credit fields (`bluesky`, `linkedin`, `mastodon`, `github`) should be deleted rather than left as placeholders. The submitter will be automatically thanked with the line "Thank you to {credit} for curating this week's dataset." (where `{credit}` is a Markdown link to their GitHub profile if `credit.github` is provided). If anyone else is thanked in `intro.md`, check that it won't produce awkward or duplicate acknowledgements alongside the auto-generated credit line.
+- [ ] The `credit` block is filled in, and in particular `credit.post` (name and optional affiliation) is present. If only `credit.github` is given, `assign_week.sh` produces a broken credit line (a literal "@credit_handle"). Unused credit fields (`bluesky`, `linkedin`, `mastodon`, `github`) should be deleted rather than left as placeholders. The submitter will be automatically thanked with the line "Thank you to {credit} for curating this week's dataset." (where `{credit}` is a Markdown link to their GitHub profile if `credit.github` is provided). If anyone else is thanked in `intro.md`, check that it won't produce awkward or duplicate acknowledgements alongside the auto-generated credit line.
 
 ### CSV files vs. data dictionaries (`{dataset}.md`)
 - [ ] Every `*.csv` file has a matching `{dataset}.md` dictionary (same file stem).
@@ -136,7 +136,7 @@ Check for:
 
 - `pr_instructions.md` — submission instructions for contributors (R-focused; the same logic applies using `cleaning.py` or `cleaning.jl` for Python/Julia submissions). Contributors may instead use the {tidytuesdayR} curation functions (`tt_clean()`, `tt_save_dataset()`, `tt_intro()`, `tt_meta()`, `tt_submit()`), which generate the same files in a `tt_submission` folder.
 - `data/curated/template/` — the template folder that submitters can copy and edit.
-- `.github/scripts/check_curated.R` and `.github/scripts/check_functions.R` — automated check logic.
-- `.github/scripts/assign_week.R` — the script that processes accepted submissions (sources `parse_readme.R`, `dates.R`, and `metadata.R`).
+- `.github/scripts/check_curated.sh` and `.github/scripts/lib.sh` — automated check logic.
+- `.github/scripts/assign_week.sh` — the script that processes accepted submissions (sources `lib.sh`).
 - `data/2026/` — examples of processed submissions (e.g. `data/2026/2026-10-20/`).
 - `.github/pull_request_template.md` — the checklist contributors are asked to complete before submitting.

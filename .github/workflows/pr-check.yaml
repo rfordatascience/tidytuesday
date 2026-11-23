@@ -80,31 +80,15 @@ jobs:
 
           echo "Validated changed files in folder: ${unique_curated_folders[0]}"
 
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - name: Install R dependencies
+      - name: Install DuckDB
         run: |
-          install.packages("pak")
-          pak::pak(c(
-            "cli",
-            "fs",
-            "glue",
-            "httr",
-            "knitr",
-            "magick",
-            "purrr",
-            "readr",
-            "stringr",
-            "yaml"
-          ))
-        shell: Rscript {0}
+          curl -fsSL -o duckdb.zip https://github.com/duckdb/duckdb/releases/latest/download/duckdb_cli-linux-amd64.zip
+          sudo unzip -o duckdb.zip duckdb -d /usr/local/bin
+          rm duckdb.zip
 
       - name: Run Submission Checks
         id: run_checks
-        run: Rscript .github/scripts/check_curated.R
+        run: bash .github/scripts/check_curated.sh
 
       - name: Display Check Results
         run: cat pr_comment.md
