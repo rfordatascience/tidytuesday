@@ -153,6 +153,16 @@ for u in http://localhost/api http://127.0.0.1/secret http://169.254.169.254/met
 done
 
 # Reachability, using a stub curl so tests don't need the network.
+resolve_host() { case "$1" in *rebind*) echo 127.0.0.1 ;; *nxdomain*) ;; *) echo 93.184.216.34 ;; esac; }
+errors=()
+check_url "https://rebind.example.com/x" source
+assert_contains "check_url: hostname resolving to loopback rejected" "${errors[*]:-}" "resolves to a private"
+errors=()
+check_url "https://nxdomain.example.com/x" source
+assert_contains "check_url: unresolvable host" "${errors[*]:-}" "Could not reach URL"
+assert_true "private host: metadata ip" is_private_host 169.254.169.254
+assert_true "private host: mapped ipv6" is_private_host ::ffff:127.0.0.1
+assert_false "private host: public ip" is_private_host 93.184.216.34
 stub_dir=$(new_dir)
 for code in 200 404 000; do
   printf '#!/usr/bin/env bash\nprintf "%s"\n' "${code}" >"${stub_dir}/curl"

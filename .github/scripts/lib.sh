@@ -99,8 +99,45 @@ is_ssrf_risk() {
   fi
   host=${host,,}
   [[ -z ${host} ]] && return 0
-  local pattern='^(localhost$|127\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|::1$|f[cd][0-9a-f]{2}:)'
-  [[ ${host} =~ ${pattern} ]]
+  is_private_host "${host}"
+}
+
+# True (0) if a host name or IP literal is private/internal/reserved.
+is_private_host() {
+  local pattern='^(localhost$|0\.|127\.|10\.|100\.(6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|::1?$|::ffff:|f[cd][0-9a-f]{2}:|fe[89ab][0-9a-f]:)'
+  [[ ${1,,} =~ ${pattern} ]]
+}
+
+# Print the IP addresses a host name resolves to (one per line).
+resolve_host() {
+  perl -MSocket=:all -e '
+    my ($err, @res) = Socket::getaddrinfo($ARGV[0], "", {socktype => SOCK_STREAM});
+    exit 0 if $err;
+    my %seen;
+    for my $r (@res) {
+      my ($e, $ip) = Socket::getnameinfo($r->{addr}, NI_NUMERICHOST, NIx_NOSERV);
+      print "$ip\n" unless $e || $seen{$ip}++;
+    }' "$1" 2>/dev/null
+}
+
+# Print "host port" for a URL.
+url_host_port() {
+  local rest=${1#*://} host port scheme=${1%%://*}
+  rest=${rest%%[/?#]*}
+  rest=${rest##*@}
+  if [[ ${rest} == \[* ]]; then
+    host=${rest#\[}
+    host=${host%%]*}
+    port=${rest##*]}
+    port=${port#:}
+  else
+    host=${rest%%:*}
+    [[ ${rest} == *:* ]] && port=${rest##*:}
+  fi
+  if [[ -z ${port:-} ]]; then
+    [[ ${scheme,,} == https ]] && port=443 || port=80
+  fi
+  printf '%s %s\n' "${host,,}" "${port}"
 }
 
 check_url() {
@@ -126,7 +163,25 @@ check_url() {
       fi
       return 0
     fi
-    output=$(curl -s -o /dev/null -I -m 10 \
+    # Resolve here, validate every address, and pin curl to them so DNS
+    # cannot change between the check and the request (rebinding).
+    local host port ips ip pin=()
+    read -r host port < <(url_host_port "${url}")
+    if [[ ! ${host} =~ ^[0-9.]+$ && ${host} != *:* ]]; then
+      ips=$(resolve_host "${host}")
+      if [[ -z ${ips} ]]; then
+        errors+=("Could not reach URL for '${name}'. Please check manually: ${orig}")
+        return 0
+      fi
+      while read -r ip; do
+        if is_private_host "${ip}"; then
+          errors+=("URL for '${name}' resolves to a private or reserved address (${ip}): ${url}")
+          return 0
+        fi
+      done <<<"${ips}"
+      pin=(--resolve "${host}:${port}:$(paste -sd, - <<<"${ips}")")
+    fi
+    output=$(curl -s -o /dev/null -I -m 10 "${pin[@]}" \
       -A "Mozilla/5.0 (compatible; TidyTuesdayBot/1.0)" \
       -w '%{http_code} %{redirect_url}' -- "${url}") || output="000 "
     read -r code next <<<"${output}"

@@ -62,7 +62,9 @@ src_dir=data/curated/${src_folder_name}
 target_year=${target_date:0:4}
 target_week=$(week_of_year "${target_date}")
 target_dir=data/${target_year}/${target_date}
-mkdir -p "${target_dir}"
+mkdir -p "data/${target_year}"
+# Atomic create: refuse to overwrite an existing assignment.
+mkdir "${target_dir}" 2>/dev/null || die "${target_dir} already exists; refusing to overwrite."
 
 shopt -s nullglob
 mapfile -t cleaning_src < <(cleaning_scripts "${src_dir}")
