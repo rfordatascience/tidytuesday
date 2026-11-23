@@ -52,7 +52,7 @@ Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.
 
 The automated checks verify:
 - Exactly one submission folder is present under `data/curated/`.
-- `meta.yaml`, `intro.md`, and a cleaning script (`cleaning.R`, `cleaning.py`, or `cleaning.jl`) are present. Exactly one cleaning script is allowed; the check flags submissions with more than one. The automated check is guidance only and never blocks acceptance, so don't treat such a flag as a reason to reject.
+- `meta.yaml`, `intro.md`, and a cleaning script (`cleaning.R`, `cleaning.py`, or `cleaning.jl`) are present. At most one cleaning script per language (R, Python, Julia) is allowed; the check flags two scripts for the same language. The automated check is guidance only and never blocks acceptance, so don't treat such a flag as a reason to reject.
 - At least one `*.png` image is present.
 - At least one `*.csv` is present, and each `*.csv` has a matching `*.md` data dictionary.
 - All CSV files are valid UTF-8.
@@ -97,7 +97,7 @@ When reviewing a dataset submission PR, check the following:
 
 ### `cleaning.R` / `cleaning.py` / `cleaning.jl`
 - [ ] The script can plausibly be run to reproduce the CSV files from their original source. You should *not* actually execute this code, though.
-- [ ] There is exactly one cleaning script, with `library()` calls (or imports) at the top, and it produces data frames matching the submitted CSVs.
+- [ ] There is at most one cleaning script per language, each with `library()` calls (or imports) at the top, and it produces data frames matching the submitted CSVs.
 - [ ] It does not depend on local absolute paths or private credentials. If the data cannot be re-downloaded (e.g. it was hand-compiled), the script or intro explains where it came from.
 - [ ] If fetching from GitHub, the raw URL is used.
 - [ ] Data frames are given descriptive names (e.g. `players`, `teams`; not `df1`, `df2`). The CSV and dictionary file names follow these object names.

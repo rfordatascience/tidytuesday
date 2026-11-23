@@ -67,8 +67,9 @@ mkdir -p "${target_dir}"
 shopt -s nullglob
 mapfile -t cleaning_src < <(cleaning_scripts "${src_dir}")
 [[ ${#cleaning_src[@]} -gt 0 ]] || die "No cleaning script found in ${src_dir}."
-[[ ${#cleaning_src[@]} -eq 1 ]] ||
-  die "Multiple cleaning scripts found in ${src_dir}: ${cleaning_src[*]##*/}"
+dup=$(duplicate_cleaning_languages "${cleaning_src[@]}")
+[[ -z ${dup} ]] ||
+  die "More than one cleaning script for the same language (${dup}) in ${src_dir}."
 dataset_files=("${src_dir}"/*.csv)
 [[ ${#dataset_files[@]} -gt 0 ]] || die "No csv files found in ${src_dir}."
 
@@ -181,16 +182,24 @@ for name in "${dataset_names[@]}"; do
 done
 data_dictionary="## Data Dictionary"$'\n\n'"${dictionaries}"
 
-cleaning_file=${cleaning_src[0]}
-case "${cleaning_file##*.}" in
-  R | r) language_tag=r ;;
-  py) language_tag=python ;;
-  jl) language_tag=julia ;;
-  *) die "Unknown cleaning script extension: ${cleaning_file##*.}" ;;
-esac
-cleaning_script="## Cleaning Script"$'\n\n'"\`\`\`${language_tag}"$'\n'
-cleaning_script+=$(read_piece "${cleaning_file}")$'\n\n'
-cleaning_script+='```'$'\n'
+cleaning_script="## Cleaning Script"
+((${#cleaning_src[@]} > 1)) && cleaning_script="## Cleaning Scripts"
+cleaning_script+=$'\n\n'
+for cleaning_file in "${cleaning_src[@]}"; do
+  case "${cleaning_file##*.}" in
+    R | r) language_tag=r ;;
+    py) language_tag=python ;;
+    jl) language_tag=julia ;;
+    *) die "Unknown cleaning script extension: ${cleaning_file##*.}" ;;
+  esac
+  if ((${#cleaning_src[@]} > 1)); then
+    cleaning_script+="### \`$(basename "${cleaning_file}")\`"$'\n\n'
+  fi
+  cleaning_script+="\`\`\`${language_tag}"$'\n'
+  cleaning_script+=$(read_piece "${cleaning_file}")$'\n\n'
+  cleaning_script+='```'$'\n\n'
+done
+cleaning_script=${cleaning_script%$'\n'}
 
 {
   printf '# %s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s' \

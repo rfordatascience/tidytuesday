@@ -281,8 +281,16 @@ if command -v yq >/dev/null 2>&1 && command -v jq >/dev/null 2>&1; then
   d=$(copy_valid)
   touch "${d}/cleaning.py"
   run_check "${d}"
-  assert_contains "check: multiple cleaning scripts rejected" "${report}" "Multiple cleaning scripts"
-  assert_contains "check: multiple scripts named" "${report}" "cleaning.R, cleaning.py"
+  assert_not_contains "check: one script per language allowed" "${report}" "cleaning scripts"
+
+  d=$(copy_valid)
+  touch "${d}/cleaning.r"
+  if [[ -f "${d}/cleaning.r" && $(ls "${d}" | grep -c '^cleaning\.[Rr]$') -eq 2 ]]; then
+    run_check "${d}"
+    assert_contains "check: two scripts same language rejected" "${report}" "same language (r)"
+  fi
+  assert_eq "duplicate languages: none" "" "$(duplicate_cleaning_languages a/cleaning.R b/cleaning.py c/cleaning.jl)"
+  assert_eq "duplicate languages: r" "r" "$(duplicate_cleaning_languages a/cleaning.R a/cleaning.r)"
 
   d=$(copy_valid)
   rm "${d}/image.png"

@@ -44,9 +44,12 @@ done
 mapfile -t cleaning_files < <(cleaning_scripts "${submission_dir}")
 if ((${#cleaning_files[@]} == 0)); then
   errors+=("Missing required file: cleaning.R, cleaning.py, or cleaning.jl")
-elif ((${#cleaning_files[@]} > 1)); then
-  names=$(printf '%s, ' "${cleaning_files[@]##*/}")
-  errors+=("Multiple cleaning scripts found (${names%, }); submit exactly one.")
+else
+  dup=$(duplicate_cleaning_languages "${cleaning_files[@]}")
+  if [[ -n ${dup} ]]; then
+    names=$(printf '%s, ' "${cleaning_files[@]##*/}")
+    errors+=("Multiple cleaning scripts for the same language (${dup}): ${names%, }; submit at most one per language.")
+  fi
 fi
 shopt -s nullglob
 pngs=("${submission_dir}"/*.png)

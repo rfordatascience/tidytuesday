@@ -225,3 +225,16 @@ cleaning_scripts() {
     esac
   done
 }
+
+# Print the languages used by more than one of the cleaning script paths given
+# (comma-separated); empty if each language appears at most once.
+duplicate_cleaning_languages() {
+  local f
+  for f in "$@"; do
+    case "${f##*.}" in
+      R | r) echo r ;;
+      py) echo python ;;
+      jl) echo julia ;;
+    esac
+  done | sort | uniq -d | paste -sd, -
+}
