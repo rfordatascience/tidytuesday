@@ -7,3 +7,4 @@
 |end_year      |double    |Year a series ended, e.g. `2019`. Missing for films, and for series still running or with no end date on Wikidata. |
 |sitelinks     |double    |Number of Wikimedia sites (Wikipedia language editions and others) linked to the item, a rough measure of fame, e.g. `139`. |
 |n_locations   |double    |Number of places the production is linked to in `production_locations`, e.g. `8`. |
+

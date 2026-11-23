@@ -118,3 +118,4 @@ if __name__ == "__main__":
         "production_locations": production_locations,
     }.items():
         table.to_csv(f"{name}.csv", index=False, lineterminator="\n")
+

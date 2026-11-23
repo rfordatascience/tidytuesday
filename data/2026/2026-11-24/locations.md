@@ -10,3 +10,4 @@
 |country_code  |character |ISO 3166-1 alpha-2 country code, e.g. `US`. |
 |n_productions |double    |Number of films and series linked to the place in `production_locations`, e.g. `1113`. |
 |wikipedia     |character |URL of the English Wikipedia article on the place, e.g. `https://en.wikipedia.org/wiki/Los_Angeles`. Missing where there is none. |
+
