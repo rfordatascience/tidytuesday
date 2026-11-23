@@ -40,7 +40,7 @@ jobs:
           end=$(date +%s.%N)
           elapsed=$(awk -v s="$start" -v e="$end" 'BEGIN { printf "%.1f", e - s }')
           echo "resize_image (including any Pillow install) took ${elapsed}s"
-          read -r w h < <(png_dims "$RUNNER_TEMP/img/out.png")
+          read -r w h <<< "$(png_dims "$RUNNER_TEMP/img/out.png")"
           echo "output dimensions: ${w}x${h}; bytes: $(file_bytes "$RUNNER_TEMP/img/out.png")"
           [ "$w" -gt 0 ] && [ "$h" -gt 0 ]
           awk -v t="$elapsed" 'BEGIN { exit !(t < 30) }' || { echo "Pillow step too slow"; exit 1; }
