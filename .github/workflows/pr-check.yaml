@@ -80,31 +80,21 @@ jobs:
 
           echo "Validated changed files in folder: ${unique_curated_folders[0]}"
 
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - name: Install R dependencies
+      # Manual runs may target a PR branch that predates these scripts, so use
+      # the scripts from the ref the workflow was dispatched on.
+      - name: Use check scripts from the dispatched ref
+        if: github.event_name == 'workflow_dispatch'
         run: |
-          install.packages("pak")
-          pak::pak(c(
-            "cli",
-            "fs",
-            "glue",
-            "httr",
-            "knitr",
-            "magick",
-            "purrr",
-            "readr",
-            "stringr",
-            "yaml"
-          ))
-        shell: Rscript {0}
+          git fetch origin "${{ github.sha }}"
+          git checkout "${{ github.sha }}" -- .github/scripts
+
+      - name: Install DuckDB
+        run: |
+          curl -fsSL "https://github.com/duckdb/duckdb/releases/latest/download/duckdb-cli-linux-amd64.tar.gz" | sudo tar -xz -C /usr/local/bin duckdb
 
       - name: Run Submission Checks
         id: run_checks
-        run: Rscript .github/scripts/check_curated.R
+        run: bash .github/scripts/check_curated.sh
 
       - name: Display Check Results
         run: cat pr_comment.md

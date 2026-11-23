@@ -1,0 +1,23 @@
+title: "Filming Locations"
+article:
+  title: "Movie Scene Map"
+  url: "https://moviescenemap.com/"
+data_source:
+  title: "Movie Scene Map open data, built from Wikidata"
+  url: "https://moviescenemap.com/data/"
+images:
+- file: "filming_locations_map.png"
+  alt: >
+    World map titled "Where films and TV series were shot, according to
+    Wikidata". Blue dots mark 7,128 places linked to 12,134 films and series by
+    20,283 filming location statements, each dot sized by how many productions
+    filmed there. The largest dots are Los Angeles with 1,113 productions and
+    New York City with 1,064, followed by Paris with 508, Vancouver with 491
+    and Pinewood Studios near London with 451. Europe is densely covered with
+    small dots, as are the coasts of the United States, while Africa, Central
+    Asia and most of South America hold only scattered points.
+credit:
+  post: "Flightmussy, maker of Movie Scene Map"
+  bluesky: "https://bsky.app/profile/flightmussy.bsky.social"
+  mastodon: "@flightmussy@mastodon.social"
+  github: "https://github.com/Flightmussy"
