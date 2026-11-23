@@ -1,0 +1,1286 @@
+manuscript_id,short_name,composition,composition_type,language,script_type,material,period,site,site_parent,cave,num_images,keywords,biblical_book,canon_status,bible_section,testament,content_category
+1Q1,1Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,4,"Garden of Eden, Abraham, Binding of Isaac, camel
+גן עדן, אברהם, עקדת יצחק, גמל",Genesis,Protocanonical,Torah,OT,Biblical
+1Q2,1Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,10,"manna, ten commandments, decalogue
+עשרת הדברות",Exodus,Protocanonical,Torah,OT,Biblical
+1Q3,1Q paleoLev-Num,paleoLeviticus-Numbers,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,15,"Passover
+פסח",Leviticus,Protocanonical,Torah,OT,Biblical
+1Q4,1Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,14,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+1Q5,1Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,142,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+1Q6,1Q Judg,Judges,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,Judges,Protocanonical,Nevi'im,OT,Biblical
+1Q7,1Q Sam,Samuel,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+1Q8,1Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,35,"Babylon, Garden of Eden
+בבל, גן עדן",Isaiah,Protocanonical,Nevi'im,OT,Biblical
+1Q9,1Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,10,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+1Q10,1Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,8,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+1Q11,1Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+1Q12,1Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,3,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+1Q13,1Q Phyl,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,14,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q14,1Q pMic,Pesher Micah,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,7,"Teacher of Righteousness, End of Days
+מורה צדק, מורה הצדק, מורי צדק, אחרית הימים",Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q15,1Q pZeph,Pesher Zephaniah,Pesher,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q16,1Q pPs,Pesher Psalms,Pesher,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,10,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q17,1Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q18,1Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 1",Qumran,1,4,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q19,1Q Noah,Noah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,9,NA,Book of Noah,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q20,1Q apGen,Genesis Apocryphon,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,11,NA,Genesis Apocryphon,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q21,1Q ALD,Aramaic Levi Document,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 1",Qumran,1,18,NA,Aramaic Levi Document,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q22,1Q DM,Words of Moses,Parabiblical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,10,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q23,1Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 1",Qumran,1,11,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q24,1Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,7,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q25,1Q Apocr. Prophecy,Apocryphal Prophecy,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,3,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q26,1Q Instruction,Instruction,Sapiential Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 1",Qumran,1,1,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+1Q27,1Q Myst,Mysteries,Sapiential Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,14,NA,Book of Mysteries,Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q28,1Q Sb,Rule of Blessings,Sectarian Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 1",Qumran,1,25,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q29,,Multiple Compositions,Other,,,Parchment,,"Qumran, Cave 1",Qumran,1,55,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q30,1Q Liturgical Text(?) A,Liturgical Text?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q31,1Q Liturgical Text(?) B,Liturgical Text?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+1Q32,1Q NJ(?),New Jerusalem?,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,12,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+1Q33,1Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,1,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q34,1Q PrFetes,Festival Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,1,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q35,1Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,3,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+1Q36,1Q Hymns,Hymns,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,8,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q37,1Q Hymnic Composition(?),Hymnic Composition?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,3,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q38,1Q Hymnic Composition(?),Hymnic Composition?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,5,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q39,1Q Hymnic Composition(?),Hymnic Composition?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 1",Qumran,1,2,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q40,1Q Hymnic Composition(?),Hymnic Composition?,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,"Belial
+בליעל",Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+1Q41,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,6,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q42,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q43,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q44,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q45,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q46,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q47,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q48,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q49,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q50,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q51,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q52,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q53,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q54,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q55,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q56,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q57,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q58,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q59,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q60,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q61,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q62,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q63,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q64,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q65,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q66,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q67,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q68,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q69,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,22,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q70,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+1Q71,1Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,0,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+1Q72,1Q Dan,Daniel,Scripture,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 1",Qumran,1,0,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+2Q1,2Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,8,"Abraham
+אברהם",Genesis,Protocanonical,Torah,OT,Biblical
+2Q2,2Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,33,"Ten Plagues
+עשר המכות",Exodus,Protocanonical,Torah,OT,Biblical
+2Q3,2Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,4,NA,Exodus,Protocanonical,Torah,OT,Biblical
+2Q4,2Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,11,NA,Exodus,Protocanonical,Torah,OT,Biblical
+2Q5,2Q paleoLev,paleoLeviticus,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 2",Qumran,2,5,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+2Q6,2Q Num,Numbers,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,9,NA,Numbers,Protocanonical,Torah,OT,Biblical
+2Q7,2Q Num,Numbers,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,Numbers,Protocanonical,Torah,OT,Biblical
+2Q8,2Q Num,Numbers,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,6,NA,Numbers,Protocanonical,Torah,OT,Biblical
+2Q9,2Q Num(?),Numbers?,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,5,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+2Q10,2Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+2Q11,2Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+2Q12,2Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+2Q13,2Q Jer,Jeremiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,56,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+2Q14,2Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,8,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+2Q15,2Q Job,Job,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,Job,Protocanonical,Ketuvim,OT,Biblical
+2Q16,2Q Ruth,Ruth,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,38,NA,Ruth,Protocanonical,Ketuvim,OT,Biblical
+2Q17,2Q Ruth,Ruth,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 2",Qumran,2,8,NA,Ruth,Protocanonical,Ketuvim,OT,Biblical
+2Q18,2Q Sir,Ben Sira,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,9,NA,Sirach,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+2Q19,2Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,7,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+2Q20,2Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,12,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+2Q21,2Q apocrMoses(?),Apocryphon of Moses?,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+2Q22,2Q apocrDavid,Narrative and Poetic Composition,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+2Q23,2Q Apocr. Prophecy,Apocr. Prophecy,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,19,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+2Q24,2Q NJ,New Jerusalem,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,29,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+2Q25,2Q Juridical Text,Juridical Text,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+2Q26,2Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+2Q27,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 2",Qumran,2,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q28,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q29,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q30,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q31,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q32,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+2Q33,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 2",Qumran,2,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q1,3Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,6,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+3Q2,3Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,5,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+3Q3,3Q Lam,Lamentations,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,7,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+3Q4,3Q pIsa,Pesher Isaiah,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,5,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+3Q5,3Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,19,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+3Q6,3Q Hymn,Hymn,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,8,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+3Q7,3Q TJud(?),Testament of Judah?,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,18,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+3Q8,3Q Text Mentioning Angel of Peace,Text Mentioning Angel of Peace,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+3Q9,3Q Sectarian Text,Sectarian Text,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 3",Qumran,3,18,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q10,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 3",Qumran,3,11,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q11,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 3",Qumran,3,8,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q12,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 3",Qumran,3,8,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q13,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 3",Qumran,3,12,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q14,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 3",Qumran,3,55,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+3Q15,,Copper Scroll,Other,Hebrew,Square,Copper,Roman,"Qumran, Cave 3",Qumran,3,0,NA,Copper Scroll,Non-canonical,Documentary,Non-biblical,Documentary
+4Q1,4Q Gen-Exod,Genesis-Exodus,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,133,"Abraham, Binding of Isaac, milk and honey
+אברהם, עקדת יצחק, דבש, חלב ודבש",Genesis,Protocanonical,Torah,OT,Biblical
+4Q2,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Roman,"Qumran, Cave 4",Qumran,4,10,"Am I my brother's keeper? Garden of Eden
+השומר אחי אנוכי, השומר אחי אנכי, קול דמי אחיך צועקים אלי
+מו האדמה, קול דמי אחיך צעקים אלי מו האדמה, גן עדן",Genesis,Protocanonical,Torah,OT,Biblical
+4Q3,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q4,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,4,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q5,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,28,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q6,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q7,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,18,"In the beginning when God created the heavens and the earth, the
+earth was a formless void and darkness covered the face of the deep,
+while a wind from God swept over the face of the waters. Then God
+said, ""Let there be light""; and there was light. And God saw that
+the
+light was good; and God separated the light from the darkness. God
+called the light Day, and the darkness he called Night. And there
+was
+evening and there was morning, the first day.
+
+creation
+
+בריאת העולם
+בראשית ברא אלהים את השמים ואת הארץ והארץ היתה תהו ובהו וחשך על פני
+תהום ורוח אלהים מרחפת על פני המים ויאמר אלהים יהי אור ויהי אור ד
+וירא
+אלהים את האור כי טוב ויבדל אלהים בין האור ובין החשךויקרא אלהים לאור
+יום ולחשך קרא לילה ויהי ערב ויהי בקר יום אחד -|- In the beginning when God created the heavens and the earth the
+earth
+was a formless void and darkness covered the face of the deep while
+a
+wind from God swept over the face of the water Then God said Let
+there be light and there was light And God saw that the light was
+good and God separated the light from the darkness God called the
+light Day and the darkness he called Night And there was evening and
+there was morning the first day
+
+creation
+
+בריאת העולם
+
+בראשית ברא אלהים את השמים ואת הארץ והארץ היתה תהו ובהו וחשך על פני
+תהום ורוח אלהים מרחפת על פני המים ויאמר אלהים יהי אור ויהי אור  ד
+וירא אלהים את האור כי טוב ויבדל אלהים בין האור ובין החשך  ה ויקרא
+אלהים לאור יום ולחשך קרא לילה ויהי ערב ויהי-בקר יום אחד",Genesis,Protocanonical,Torah,OT,Biblical
+4Q8,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,"Abraham
+אברהם",Genesis,Protocanonical,Torah,OT,Biblical
+4Q9,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,36,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q10,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,18,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q11,4Q paleoGen-Exod,paleoGenesis-Exodus,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,186,"ten commandments, decalogue
+עשרת הדברות",Genesis,Protocanonical,Torah,OT,Biblical
+4Q12,4Q paleoGen,paleoGenesis,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,4,"Abraham
+אברהם",Genesis,Protocanonical,Torah,OT,Biblical
+4Q13,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,"Abraham, milk and honey
+אברהם, חלב ודבש, דבש",Exodus,Protocanonical,Torah,OT,Biblical
+4Q14,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,91,"Miriam
+מרים",Exodus,Protocanonical,Torah,OT,Biblical
+4Q15,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q16,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,"milk and honey
+חלב ודבש, דבש",Exodus,Protocanonical,Torah,OT,Biblical
+4Q17,4Q Exod-Lev,Exodus-Leviticus,Scripture,Hebrew,Square,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,25,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q18,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q19,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q20,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q21,4Q Exod,Exodus,Scripture,Hebrew,Square,Parchment,Roman,"Qumran, Cave 4",Qumran,4,5,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q22,4Q paleoExod,paleoExodus,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,444,"ten commandments, decalogue, an eye for an eye, a tooth for a tooth,
+milk and honey
+עשרת הדברות, שן תחת שן, עין תחת עין, שן בשן, עין בעין,
+חלב ודבש, דבש",Exodus,Protocanonical,Torah,OT,Biblical
+4Q23,4Q Lev-Num,Leviticus-Numbers,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,240,"Miriam
+מרים",Leviticus,Protocanonical,Torah,OT,Biblical
+4Q24,4Q Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,69,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q25,4Q Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,35,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q26,4Q Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,53,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q27,4Q Num,Numbers,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,391,NA,Numbers,Protocanonical,Torah,OT,Biblical
+4Q28,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q29,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,26,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q30,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,149,"milk and honey
+חלב ודבש, דבש",Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q31,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,13,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q32,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,28,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q33,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,92,"an eye for an eye, a tooth for a tooth, milk and honey
+שן תחת שן, עין תחת עין, שן בשן, עין בעין, חלב ודבש, דבש",Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q34,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,32,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q35,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,44,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q36,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,15,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q37,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,94,"ten commandments, decalogue, milk and honey
+I am the Lord your God, who brought you out of the land of Egypt out
+of the house of slavery; you shall have no other gods before me
+
+You shall not make for yourself an idol whether in the form of
+anything that is in heaven above or that is on the earth beneath or
+that is in the water under the earth You shall not bow down to them
+or worship them for I the Lord your God am a jealous God, punishing
+children for the iniquity of parents to the third and fourth
+generation of those who reject me but showing steadfast love to the
+thousandth generation of those who love me and keep my commandments.
+
+11 You shall not make wrongful use of the name of the Lord your God,
+for the Lord will not acquit anyone who misuses his name.
+
+12 Observe the sabbath day and keep it holy, as the Lord your God
+commanded you. 13For six days you shall labour and do all your work.
+14But the seventh day is a sabbath to the Lord your God; you shall
+not do any work you or your son or your daughter, or your male or
+female slave, or your ox or your donkey, or any of your livestock,
+or
+the resident alien in your towns, so that your male and female slave
+may rest as well as you. 15Remember that you were a slave in the
+land
+of Egypt, and the Lord your God brought you out from there with a
+mighty hand and an outstretched arm; therefore the Lord your God
+commanded you to keep the sabbath day
+Honour your father and your mother as the Lord your God commanded
+you so that your days may be long and that it may go well with you
+in the land that the Lord your God is giving you
+You shall not murder
+Neither shall you commit adultery
+Neither shall you steal
+Neither shall you bear false witness against your neighbour
+Neither shall you covet your neighbour’s wife
+Neither shall you desire your neighbour’s house or field or male or
+female slave or ox or donkey or anything that belongs to your
+neighbour
+
+עשרת הדברות, חלב ודבש, דבש
+
+ויקרא משה אל כל ישראל ויאמר אלהם שמע ישראל את החקים ואת המשפטים אשר
+אנכי דבר באזניכם היום ולמדתם אתם ושמרתם לעשתם יהוה אלהינו, כרת עמנו
+ברית בחרב לא את אבתינו, כרת יהוה את הברית הזאת כי אתנו אנחנו אלה פה
+היום כלנו חיים פנים בפנים, דבר יהוה עמכם בהר מתוך האש אנכי עמד בין
+יהוה וביניכם בעת ההוא להגיד לכם את דבר יהוה  כי יראתם מפני האש
+ולא-עליתם בהר לאמר אנכי יהוה אלהיך אשר הוצאתיך מארץ מצרים מבית עבדים
+
+לא יהיה לך אלהים אחרים על פני לא תעשה לך פסל כל תמונה אשר בשמים ממעל
+ואשר בארץ מתחת ואשר במים מתחת לארץ לא תשתחוה להם ולא תעבדם כי אנכי
+יהוה אלהיך אל קנא פקד עון אבות על בנים ועל שלשים ועל רבעים לשנאי
+ועשה
+חסד לאלפים לאהבי ולשמרי מצותו מצותי לא תשא את שם יהוה אלהיך לשוא  כי
+לא ינקה יהוה את אשר ישא את שמו לשוא
+שמור את יום השבת לקדשו כאשר צוך יהוה אלהיך ששת ימים תעבד ועשית כל
+לאכתך ויום השביעי שבת ליהוה אלהיךלא תעשה כל מלאכה אתה ובנך ובתך
+ועבדך
+ואמתך ושורך וחמרך וכל בהמתך וגרך אשר בשעריך למען ינוח עבדך ואמתך
+כמוך
+וזכרת, כי עבד היית בארץ מצרים ויצאך יהוה אלהיך משם ביד חזקה ובזרע
+נטויה על כן צוך יהוה אלהיך לעשות את יום השבת  כבד את אביך ואת אמך
+כאשר צוך יהוה אלהיך למען יאריכן ימיך ולמען ייטב לך על האדמה אשר יהוה
+אלהיך נתן לך לא תרצח ולא תנאף  ולא תגנב  ולא תענה ברעך עד שוא  
+ולא תחמד אשת רעך ולא תתאוה בית רעך שדהו ועבדו ואמתו שורו וחמרו וכל
+אשר לרעך את הדברים האלה דבר יהוה אל כל קהלכם בהר מתוך האש הענן
+והערפל
+קול גדול ולא יסף ויכתבם על שני לחת אבנים ויתנם אלי",Exodus,Protocanonical,Torah,OT,Biblical
+4Q38,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,48,"ten commandments, decalogue
+עשרת הדברות -|- milk and honey
+חלב ודבש, דבש",Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q39,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,29,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q40,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,14,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q41,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,10,"Ten commandments, Decalogue, milk and honey
+
+I am the Lord your God who brought you out of the land of Egypt out
+of the house of slavery you shall have no other gods before me You
+shall not make for yourself an idol, whether in the form of anything
+that is in heaven above, or that is on the earth beneath, or that is
+in the water under the earth You shall not bow down to them or
+worship them for I the Lord your God am a jealous God punishing
+children for the iniquity of parents to the third and fourth
+generation of those who reject me but showing steadfast love to the
+thousandth generation of those who love me and keep my commandments
+You shall not make wrongful use of the name of the Lord your God,
+for
+the Lord will not acquit anyone who misuses his name. Observe the
+sabbath day and keep it holy as the Lord your God commanded you For
+six days you shall labour and do all your work But the seventh day
+is
+a sabbath to the Lord your God you shall not do any work you or your
+son or your daughter or your male or female slave or  your ox or
+your
+donkey or any of your livestock or the resident alien in your towns
+so that your male and female slave may rest as well as you Remember
+that you were a slave in the land of Egypt, and the Lord your God
+brought you out from there with a mighty hand and an outstretched
+arm
+therefore the Lord your God commanded you to keep the sabbath day
+Honour your father and your mother, as the Lord your God commanded
+you, so that your days may be long and that it may go well with you
+in the land that the Lord your God is giving you You shall not
+murder
+Neither shall you commit adultery Neither shall you steal Neither
+shall you bear false witness against your neighbour Neither shall
+you
+covet your neighbour’s wife Neither shall you desire your
+neighbour’s
+house or field, or male or female slave or ox or donkey or anything
+that belongs to your neighbour
+
+עשרת הדברות, ברכת המזון, חלב ודבש, דבש
+
+ויקרא משה אל כל ישראל ויאמר אלהם שמע ישראל את החקים ואת המשפטים אשר
+אנכי דבר באזניכם היום ולמדתם אתם ושמרתם לעשתם יהוה אלהינו, כרת עמנו
+ברית בחרב לא את אבתינו, כרת יהוה את הברית הזאת כי אתנו אנחנו אלה פה
+היום כלנו חיים פנים בפנים, דבר יהוה עמכם בהר מתוך האש אנכי עמד בין
+יהוה וביניכם בעת ההוא להגיד לכם את דבר יהוה  כי יראתם מפני האש
+ולא-עליתם בהר לאמר אנכי יהוה אלהיך אשר הוצאתיך מארץ מצרים מבית עבדים
+לא יהיה לך אלהים אחרים על פני לא תעשה לך פסל כל תמונה אשר בשמים
+ממעל
+ואשר בארץ מתחת ואשר במים מתחת לארץ לא תשתחוה להם ולא תעבדם כי אנכי
+יהוה אלהיך אל קנא פקד עון אבות על בנים ועל שלשים ועל רבעים לשנאי
+ועשה
+חסד לאלפים לאהבי ולשמרי מצותו מצותי לא תשא את שם יהוה אלהיך לשוא  כי
+לא ינקה יהוה את אשר ישא את שמו לשוא שמור את יום השבת לקדשו כאשר צוך
+יהוה אלהיך ששת ימים תעבד ועשית כל לאכתך ויום השביעי שבת ליהוה
+אלהיךלא
+תעשה כל מלאכה אתה ובנך ובתך ועבדך ואמתך ושורך וחמרך וכל בהמתך וגרך
+אשר בשעריך למען ינוח עבדך ואמתך כמוך וזכרת, כי עבד היית בארץ מצרים
+ויצאך יהוה אלהיך משם ביד חזקה ובזרע נטויה על כן צוך יהוה אלהיך לעשות
+את יום השבת  כבד את אביך ואת אמך כאשר צוך יהוה אלהיך למען יאריכן
+ימיך
+ולמען ייטב לך על האדמה אשר יהוה אלהיך נתן לך לא תרצח ולא תנאף  ולא
+תגנב  ולא תענה ברעך עד שוא  													
+ולא תחמד אשת רעך ולא תתאוה בית רעך שדהו ועבדו ואמתו שורו וחמרו וכל
+אשר לרעך את הדברים האלה דבר יהוה אל כל קהלכם בהר מתוך האש הענן
+והערפל
+קול גדול ולא יסף ויכתבם על שני לחת אבנים ויתנם אלי",Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q42,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,38,"ten commandments, decalogue
+עשרת הדברות",Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q43,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q44,4Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,3,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q45,4Q paleoDeut,paleoDeuteronomy,Scripture,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q46,4Q paleoDeut,paleoDeuteronomy,Scripture,Hebrew,Paleo-Hebrew,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,1,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q47,4Q Josh,Joshua,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,44,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+4Q48,4Q Josh,Joshua,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,18,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+4Q49,4Q Judg,Judges,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Judges,Protocanonical,Nevi'im,OT,Biblical
+4Q50,4Q Judg,Judges,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Judges,Protocanonical,Nevi'im,OT,Biblical
+4Q51,,Samuel,Unidentified Text,Unidentified,,Parchment,,"Qumran, Cave 4",Qumran,4,726,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+4Q52,4Q Sam,Samuel,Scripture,Hebrew,Square,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,54,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+4Q53,4Q Sam,Samuel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,39,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+4Q54,4Q Kgs,Kings,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,24,NA,Kings,Protocanonical,Nevi'im,OT,Biblical
+4Q55,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,47,"Babylonia
+בבל",Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q56,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,87,"Babylonia
+בבל",Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q57,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,181,"The wolf also shall dwell with the lamb, and the leopard shall lie
+down with the kid; and the calf and the young lion and the fatling
+together; and a little child shall lead them.
+
+וגר זאב עם-כבש, ונמר עם-גדי ירבץ; ועגל וכפיר ומריא יחדו, ונער קטן נהג
+בם.",Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q58,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,52,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q59,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,"Babylonia
+בבל",Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q60,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,87,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q61,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,19,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q62,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q63,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q64,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q65,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q66,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,21,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q67,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q68,4Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q69,4Q papIsa,Isaiah,Scripture,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+4Q70,4Q Jer,Jeremiah,Scripture,Hebrew,Square,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,108,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q71,4Q Jer,Jeremiah,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q72,4Q Jer,Jeremiah,Scripture,Hebrew,Square,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,170,"Babylonia
+בבל",Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q73,4Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,"Throne Vision
+חזון המרכבה -|- Throne Vision	
+חזון המרכבה",Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q74,4Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q75,4Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q76,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,65,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q77,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,17,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q78,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,111,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q79,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q80,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,"Babylonia
+בבל",Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q81,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q82,4Q XII,Minor Prophets,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,356,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+4Q83,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,46,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q84,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,65,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q85,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,67,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q86,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,37,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q87,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,91,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q88,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,52,"Belial, star
+בליעל, כוכב",Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q89,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q90,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q91,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,31,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q92,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q93,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q94,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q95,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q96,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q97,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q98,4Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,20,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q99,4Q Job,Job,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,51,NA,Job,Protocanonical,Ketuvim,OT,Biblical
+4Q100,4Q Job,Job,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,Job,Protocanonical,Ketuvim,OT,Biblical
+4Q101,4Q paleoJob,paleoJob,Scripture,Hebrew,Paleo-Hebrew,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,4,NA,Job,Protocanonical,Ketuvim,OT,Biblical
+4Q102,4Q Prov,Proverbs,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Proverbs,Protocanonical,Ketuvim,OT,Biblical
+4Q103,4Q Prov,Proverbs,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,Proverbs,Protocanonical,Ketuvim,OT,Biblical
+4Q104,4Q Ruth,Ruth,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Ruth,Protocanonical,Ketuvim,OT,Biblical
+4Q105,4Q Ruth,Ruth,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,Ruth,Protocanonical,Ketuvim,OT,Biblical
+4Q106,4Q Cant,Song of Songs,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q107,4Q Cant,Song of Songs,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q108,4Q Cant,Song of Songs,Scripture,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q109,4Q Qoh,Qohelet,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,Ecclesiastes,Protocanonical,Ketuvim,OT,Biblical
+4Q110,4Q Qoh,Qohelet,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,NA,Ecclesiastes,Protocanonical,Ketuvim,OT,Biblical
+4Q111,4Q Lam,Lamentations,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+4Q112,4Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,49,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q113,4Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,44,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q114,4Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q115,4Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,40,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q116,4Q Dan,Daniel,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,13,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q117,4Q Ezra,Ezra,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,10,NA,Ezra,Protocanonical,Ketuvim,OT,Biblical
+4Q118,4Q Chr,Chronicles,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Chronicles,Protocanonical,Ketuvim,OT,Biblical
+4Q119,4Q LXXLev,LXXLeviticus,Translation of Scripture,Greek,Greek,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q120,4Q papLXXLev,papLXXLeviticus,Translation of Scripture,Greek,Greek,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,77,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q121,4Q LXXNum,LXXNumbers,Translation of Scripture,Greek,Greek,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,48,NA,Numbers,Protocanonical,Torah,OT,Biblical
+4Q122,4Q LXXDeut,LXXDeuteronomy,Translation of Scripture,Greek,Greek,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,13,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+4Q123,4Q paleo paraJosh,paleo paraJoshua,Scripture?,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,4,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+4Q124,,Unidentified,Unidentified Text,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q125,,Unidentified,Unidentified Text,Hebrew,Paleo-Hebrew,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q126,,Unidentified text,Translation of Scripture?,Greek,Greek,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,27,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q127,4Q pap paraExod,papParaphrase of Exodus,Scripture?,Greek,Greek,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q128,4Q Phyl A,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,12,"Passover, star, milk and honey
+פסח, כוכב, חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q129,4Q Phyl B,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,"Passover, ten commandments, decalogue
+I am the Lord your God who brought you out of the land of Egypt out
+of the house of slavery you shall have no other gods before me You
+shall not make for yourself an idol, whether in the form of anything
+that is in heaven above, or that is on the earth beneath, or that is
+in the water under the earth You shall not bow down to them or
+worship them for I the Lord your God am a jealous God punishing
+children for the iniquity of parents to the third and fourth
+generation of those who reject me but showing steadfast love to the
+thousandth generation of those who love me and keep my
+commandments You shall not make wrongful use of the name of
+the Lord your God, for the Lord will not acquit anyone who misuses
+his name. Observe the sabbath day and keep it holy as the Lord your
+God commanded you For six days you shall labour and do all your
+work But the seventh day is a sabbath to the Lord your God you shall
+not do any work you or your son or your daughter or your male or
+female slave or  your ox or your donkey or any of your livestock or
+the resident alien in your towns so that your male and female slave
+may rest as well as you Remember that you were a slave in the land
+of
+Egypt, and the Lord your God brought you out from there with a
+mighty
+hand and an outstretched arm therefore the Lord your God commanded
+you to keep the sabbath day Honour your father and your mother, as
+the Lord your God commanded you, so that your days may be long and
+that it may go well with you in the land that the Lord your God is
+giving you You shall not murder Neither shall you commit
+adultery Neither shall you steal Neither shall you bear false
+witness
+against your neighbour Neither shall you covet your neighbour’s
+wife Neither shall you desire your neighbour’s house or field, or
+male or female slave or ox or donkey or anything that belongs to
+your
+neighbour
+
+עשרת הדברות, פסח
+
+ויקרא משה אל כל ישראל ויאמר אלהם שמע ישראל את החקים ואת המשפטים אשר
+אנכי דבר באזניכם היום ולמדתם אתם ושמרתם לעשתם יהוה אלהינו, כרת עמנו
+ברית בחרב לא את אבתינו, כרת יהוה את הברית הזאת כי אתנו אנחנו אלה פה
+היום כלנו חיים פנים בפנים, דבר יהוה עמכם בהר מתוך האש אנכי עמד בין
+יהוה וביניכם בעת ההוא להגיד לכם את דבר יהוה  כי יראתם מפני האש
+ולא-עליתם בהר לאמר אנכי יהוה אלהיך אשר הוצאתיך מארץ מצרים מבית עבדים
+לא יהיה לך אלהים אחרים על פני לא תעשה לך פסל כל תמונה אשר בשמים
+ממעל
+ואשר בארץ מתחת ואשר במים מתחת לארץ לא תשתחוה להם ולא תעבדם כי אנכי
+יהוה אלהיך אל קנא פקד עון אבות על בנים ועל שלשים ועל רבעים לשנאי
+ועשה
+חסד לאלפים לאהבי ולשמרי מצותו מצותי לא תשא את שם יהוה אלהיך לשוא  כי
+לא ינקה יהוה את אשר ישא את שמו לשוא שמור את יום השבת לקדשו כאשר צוך
+יהוה אלהיך ששת ימים תעבד ועשית כל לאכתך ויום השביעי שבת ליהוה
+אלהיךלא
+תעשה כל מלאכה אתה ובנך ובתך ועבדך ואמתך ושורך וחמרך וכל בהמתך וגרך
+אשר בשעריך למען ינוח עבדך ואמתך כמוך וזכרת, כי עבד היית בארץ מצרים
+ויצאך יהוה אלהיך משם ביד חזקה ובזרע נטויה על כן צוך יהוה אלהיך לעשות
+את יום השבת  כבד את אביך ואת אמך כאשר צוך יהוה אלהיך למען יאריכן
+ימיך
+ולמען ייטב לך על האדמה אשר יהוה אלהיך נתן לך לא תרצח ולא תנאף  ולא
+תגנב  ולא תענה ברעך עד שוא   ולא תחמד אשת רעך ולא תתאוה בית רעך שדהו
+ועבדו ואמתו שורו וחמרו וכל אשר לרעך את הדברים האלה דבר יהוה אל כל
+קהלכם בהר מתוך האש הענן והערפל קול גדול ולא יסף ויכתבם על שני לחת
+אבנים ויתנם אלי",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q130,4Q Phyl C,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,3,"Passover
+פסח",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q131,4Q Phyl D,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,2,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q132,4Q Phyl E,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,2,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q133,4Q Phyl F,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,"Passover
+פסח",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q134,4Q Phyl G,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,"ten commandments, decalogue
+
+I am the Lord your God who brought you out of the land of Egypt out
+of the house of slavery you shall have no other gods before me You
+shall not make for yourself an idol, whether in the form of anything
+that is in heaven above, or that is on the earth beneath, or that is
+in the water under the earth You shall not bow down to them or
+worship them for I the Lord your God am a jealous God punishing
+children for the iniquity of parents to the third and fourth
+generation of those who reject me but showing steadfast love to the
+thousandth generation of those who love me and keep my
+commandments You shall not make wrongful use of the name of
+the Lord your God, for the Lord will not acquit anyone who misuses
+his name. Observe the sabbath day and keep it holy as the Lord your
+God commanded you For six days you shall labour and do all your
+work But the seventh day is a sabbath to the Lord your God you shall
+not do any work you or your son or your daughter or your male or
+female slave or  your ox or your donkey or any of your livestock or
+the resident alien in your towns so that your male and female slave
+may rest as well as you Remember that you were a slave in the land
+of
+Egypt, and the Lord your God brought you out from there with a
+mighty
+hand and an outstretched arm therefore the Lord your God commanded
+you to keep the sabbath day Honour your father and your mother, as
+the Lord your God commanded you, so that your days may be long and
+that it may go well with you in the land that the Lord your God is
+giving you You shall not murder Neither shall you commit
+adultery Neither shall you steal Neither shall you bear false
+witness
+against your neighbour Neither shall you covet your neighbour’s
+wife Neither shall you desire your neighbour’s house or field, or
+male or female slave or ox or donkey or anything that belongs to
+your
+neighbour
+
+עשרת הדברות
+
+ויקרא משה אל כל ישראל ויאמר אלהם שמע ישראל את החקים ואת המשפטים אשר
+אנכי דבר באזניכם היום ולמדתם אתם ושמרתם לעשתם יהוה אלהינו, כרת עמנו
+ברית בחרב לא את אבתינו, כרת יהוה את הברית הזאת כי אתנו אנחנו אלה פה
+היום כלנו חיים פנים בפנים, דבר יהוה עמכם בהר מתוך האש אנכי עמד בין
+יהוה וביניכם בעת ההוא להגיד לכם את דבר יהוה  כי יראתם מפני האש
+ולא-עליתם בהר לאמר אנכי יהוה אלהיך אשר הוצאתיך מארץ מצרים מבית עבדים
+לא יהיה לך אלהים אחרים על פני לא תעשה לך פסל כל תמונה אשר בשמים
+ממעל
+ואשר בארץ מתחת ואשר במים מתחת לארץ לא תשתחוה להם ולא תעבדם כי אנכי
+יהוה אלהיך אל קנא פקד עון אבות על בנים ועל שלשים ועל רבעים לשנאי
+ועשה
+חסד לאלפים לאהבי ולשמרי מצותו מצותי לא תשא את שם יהוה אלהיך לשוא  כי
+לא ינקה יהוה את אשר ישא את שמו לשוא
+שמור את יום השבת לקדשו כאשר צוך יהוה אלהיך ששת ימים תעבד ועשית כל
+לאכתך ויום השביעי שבת ליהוה אלהיךלא תעשה כל מלאכה אתה ובנך ובתך
+ועבדך
+ואמתך ושורך וחמרך וכל בהמתך וגרך אשר בשעריך למען ינוח עבדך ואמתך
+כמוך וזכרת, כי עבד היית בארץ מצרים ויצאך יהוה אלהיך משם ביד חזקה
+ובזרע נטויה על כן צוך יהוה אלהיך לעשות את יום השבת  כבד את אביך ואת
+אמך כאשר צוך יהוה אלהיך למען יאריכן ימיך ולמען ייטב לך על האדמה אשר
+יהוה אלהיך נתן לך לא תרצח ולא תנאף  ולא תגנב  ולא תענה ברעך עד שוא  
+ולא תחמד אשת רעך ולא תתאוה בית רעך שדהו ועבדו ואמתו שורו וחמרו וכל
+אשר לרעך את הדברים האלה דבר יהוה אל כל קהלכם בהר מתוך האש הענן
+והערפל
+קול גדול ולא יסף ויכתבם על שני לחת אבנים ויתנם אלי",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q135,4Q Phyl H,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,16,"ten commandments, decalogue, milk and honey
+עשרת הדברות, חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q136,4Q Phyl I,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,"Passover, milk and honey
+פסח, חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q138,4Q Phyl K,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,"milk and honey
+חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q139,4Q Phyl L,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,"ten commandments, decalogue
+עשרת הדברות",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q140,4Q Phyl M,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,"Passover, milk and honey
+פסח, חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q141,4Q Phyl N,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q142,4Q Phyl O,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,"ten commandments, decalogue
+עשרת הדברות",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q143,4Q Phyl P,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q144,4Q Phyl Q,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q145,4Q Phyl R,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,6,"Passover, milk and honey
+פסח, חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q146,4Q Phyl S,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,6,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q147,4Q Phyl T,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,9,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q148,4Q Phyl U,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,12,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q149,4Q Mez A,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,"ten commandments, decalogue
+עשרת הדברות",Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q150,4Q Mez B,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q151,4Q Mez C,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q152,4Q Mez D,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,1,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q153,4Q Mez E,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,1,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q154,4Q Mez F,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q155,4Q Mez G,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,"Passover
+פסח",Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q156,4Q tgLev,Targum Leviticus,Translation of Scripture,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,Targum,Non-canonical,Biblical Translation,Non-biblical,Biblical Translation
+4Q157,4Q tgJob,Targum Job,Translation of Scripture,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Targum,Non-canonical,Biblical Translation,Non-biblical,Biblical Translation
+4Q158,4Q RP A,Reworked Pentateuch,Scripture?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,53,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q159,4Q Ordinances A,Ordinances,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,25,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q160,4Q VisSam,Vision of Samuel,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,35,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+4Q161,4Q pIsa A,Pesher Isaiah,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,44,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q162,4Q pIsa B,Pesher Isaiah,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,2,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q163,4Q pap pIsa C,papPesher Isaiah,Pesher,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,127,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q164,4Q pIsa D,Pesher Isaiah,Pesher,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q165,4Q pIsa E,Pesher Isaiah,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,35,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q166,4Q pHos A,Pesher Hosea,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,4,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q167,4Q pHos B,Pesher Hosea,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,94,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q168,4Q pMic(?),Pesher Micah?,Pesher?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q169,4Q pNah,Pesher Nahum,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q170,4Q pZeph,Pesher Zephaniah,Pesher,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,6,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q171,4Q pPs A,Pesher Psalms,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,42,"Belial, Teacher of Righteousness
+בליעל, מורה צדק, מורה הצדק, מורי צדק -|- Belial, Teacher of Righteousness
+בליעל, מורה צדק, מורה הצדק, מורי צדק -|- Belial, Teacher of Righteousness
+בליעל, מורה צדק, מורה הצדק, מורי צדק",Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q172,4Q pUnid,Unidentified Pesharim,Pesher,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,16,"Teacher of Righteousness, End of Days
+מורה צדק, מורה הצדק, מורי צדק, אחרית הימים",NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q173,4Q pPs B,Pesher Psalms,Pesher,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,19,"Teacher of Righteousness
+מורה צדק, מורה הצדק, מורי צדק",Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q174,4Q Eschatological Commentary A,Eschatological Commentary,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,74,"Belial
+בליעל -|- Belial
+בליעל",Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q175,4Q Test,Testimonia,Exegetical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,2,"Belial, star
+בליעל, כוכב",Testimonia,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q176,,Multiple Compositions,Other,,,Parchment,,"Qumran, Cave 4",Qumran,4,110,"Belial
+בליעל -|- Belial
+בליעל",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q177,4Q Eschatological Commentary B,Eschatological Commentary,Exegetical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,75,"Belial, Sons of Light
+בליעל, בני אור -|- Belial, Sons of Light	
+בליעל, בני אור",Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q178,4Q Eschatological Commentary D(?),Eschatological Commentary,Exegetical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,36,"Belial
+בליעל",Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q179,4Q apocrLam A,Apocryphal Lamentations,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,24,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+4Q180,4Q Pesher on the Periods A,Pesher on the Periods,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,30,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q181,4Q Pesher on the Periods B,Pesher on the Periods,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q182,4Q Eschatological Commentary C(?),Eschatological Commentary,Pesher,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q183,4Q Eschatological Commentary E(?),Eschatological Commentary,Exegetical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,NA,Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q184,4Q Sapiential Admonitions A,Sapiential Admonitions A,Sapiential Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,23,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q185,4Q Sapiential Admonitions B,Sapiential Admonitions B,Sapiential Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,31,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q186,4Q Horoscope,Horoscope,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,27,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q196,4Q papTob,papTobit,Apocrypha,Aramaic,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,133,NA,Tobit,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+4Q197,4Q Tob,Tobit,Apocrypha,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,39,NA,Tobit,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+4Q198,4Q Tob,Tobit,Apocrypha,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,Tobit,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+4Q199,4Q Tob,Tobit,Apocrypha,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,Tobit,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+4Q200,4Q Tob,Tobit,Apocrypha,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,34,NA,Tobit,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+4Q201,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,59,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q202,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,71,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q203,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,37,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q204,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,72,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q205,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q206,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,41,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q207,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q208,4Q Enastr,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Early Hellenistic,"Qumran, Cave 4",Qumran,4,79,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q209,4Q Enastr,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,71,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q210,4Q Enastr,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q211,4Q Enastr,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q212,4Q En,Enoch,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,26,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q213,4Q ALD,Aramaic Levi Document,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,32,"watchers, nefilim, enoch
+עירים, נפילים, חנוך",Aramaic Levi Document,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q214,4Q ALD,Aramaic Levi Document,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,17,NA,Aramaic Levi Document,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q215,4Q TNaph,Testament of Naphtali,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q216,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,45,"star, garden of eden, milk and honey
+כוכב, גן עדן, חלב ודבש, דבש",Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q217,4Q papJub(?),papJubilees?,Parabiblical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,40,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q218,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q219,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,25,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q220,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,3,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q221,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,51,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q222,4Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,18,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q223,4Q papJub,papJubilees,Parabiblical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,12,"binding of isaac, star
+עקדת יצחק, כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q224,4Q papJub,papJubilees,Parabiblical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,4,"star
+כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q225,4Q psJub,pseudo-Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,19,"Belial, binding of Isaac, star
+בליעל, עקדת יצחק, כוכב",Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q226,4Q psJub,pseudo-Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,35,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q227,4Q psJub(?),pseudo-Jubilees?,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q228,4Q Text with a Citation of Jubilees,Text with a Citation of Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,22,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q230,,Catalogue of Spirits,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,26,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q234,4Q Exercitium Calami A,Exercitium Calami,Scribal Exercise,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q235,,Unidentified,Unidentified Text,Nabataean,Nabatean,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q238,4Q Words of Judgment,Words of Judgment,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q242,4Q PrNab,Prayer of Nabonidus,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,13,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q243,4Q psDan,Pseudo-Daniel,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,84,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q244,4Q psDan,Pseudo-Daniel,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,40,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q245,4Q psDan,Pseudo-Daniel,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q246,4Q apocrDan,Apocryphon of Daniel,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Daniel,Protocanonical,Ketuvim,OT,Biblical
+4Q247,4Q Pesher on the Apocalypse of Weeks,Pesher on the Apocalypse of Weeks,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,Pesher (Commentary),Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q248,4Q Historical Text A,Historical Text,Historical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q249,,Unidentified,Other,Hebrew,Cryptic A,Papyrus,Early Hellenistic,"Qumran, Cave 4",Qumran,4,502,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q250,,papCryptic A Text Concerning Cultic Service,Poetical/Liturgical Texts,Hebrew,Cryptic A,Papyrus,Early Hellenistic,"Qumran, Cave 4",Qumran,4,50,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q251,4Q Halakha A,Halakha,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,70,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q252,4Q CommGen A,Commentary on Genesis,Exegetical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,28,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q253,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,"Belial
+בליעל",Genesis,Protocanonical,Torah,OT,Biblical
+4Q254,4Q CommGen C,Commentary on Genesis,Exegetical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,40,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q255,4Q papS,papCommunity Rule,Sectarian Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,25,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q256,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,41,"Sons of Darkness
+בני חושך",Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q257,4Q papS,papCommunity Rule,Sectarian Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,23,"Belial
+בליעל",Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q258,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,43,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q259,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,54,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q260,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,21,"Belial
+בליעל",Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q261,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,44,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q262,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q263,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q264,4Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q265,4Q Miscellaneous Rules,Miscellaneous Rules,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,62,"Garden of Eden
+גן עדן -|- Garden of Eden
+גן עדן",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q266,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,416,"Belial, Sons of Light
+בליעל, בני אור",Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q267,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,96,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q268,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,21,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q269,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,39,"star
+כוכב",Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q270,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,162,"Teacher of Righteousness, End of Days, Garden of Eden
+מורה צדק, מורה הצדק, מורי צדק, אחרית הימים, גן עדן",Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q271,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,40,"Belial
+בליעל",Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q272,4Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,39,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q273,4Q papD,papDamascus Document,Sectarian Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,32,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q274,4Q Tohorot A,Tohorot,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,22,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q275,4Q Communal Ceremony,Communal Ceremony,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q276,4Q Tohorot B,Tohorot,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q277,4Q Tohorot B,Tohorot,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q278,4Q Tohorot C,Tohorot,Legal Texts,Hebrew,Square,Parchment,Roman,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q279,4Q Four Lots,Four Lots,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q280,4Q Curses,Curses,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,"Melchiresha, Sons of Light
+מלכירשע, בני אור",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q281,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q282,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,46,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q284,4Q Purification Liturgy,Purification Liturgy,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q285,4Q Sefer ha-Milhamah,Sefer ha-Milhamah,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,37,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q286,4Q Ber,Berakhot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,67,"Belial
+בליעל",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q287,4Q Ber,Berakhot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,26,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q288,4Q Ber,Berakhot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q289,4Q Ber,Berakhot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q290,4Q Ber,Berakhot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q291,4Q Work Containing Prayers A,Work Containing Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q292,4Q Work Containing Prayers B,Work Containing Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q293,4Q Work Containing Prayers C,Work Containing Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q294,4Q Sapiential-Didactic Work C,Sapiential-Didactic Work,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q298,4Q cryptA Words of the Maskil to All Sons of Dawn,Cryptic A Words of the Maskil to All Sons of Dawn,Sapiential Texts,Hebrew,Cryptic A,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,29,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q299,4Q Myst,Mysteries,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,213,"star
+כוכב",Book of Mysteries,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q300,4Q Myst,Mysteries,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,35,NA,Book of Mysteries,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q301,4Q Myst,Mysteries,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,27,NA,Book of Mysteries,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q302,4Q papAdmonitory Parable,papAdmonitory Parable,Sapiential Texts?,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,41,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q303,4Q Meditation on Creation A,Meditation on Creation,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q304,4Q Meditation on Creation B,Meditation on Creation,Sapiential Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q305,4Q Meditation on Creation C,Meditation on Creation,Sapiential Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q306,4Q Men of People Who Err,Men of People Who Err,Other,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q307,4Q Text Mentioning the Temple,Text Mentioning Temple,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q313,,Unidentified,Unidentified Text,Hebrew,Cryptic A,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,15,"כתב סתרים
+Cryptic Text -|- כתב סתרים
+Cryptic Text",NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q317,4Q Cryptic A Lunisolar Calendar,Cryptic A Lunisolar Calendar,Calendrical Texts,Hebrew,Cryptic A,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,193,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q318,4Q Zodiology and Brontology,Zodiology and Brontology,Calendrical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q319,4Q Otot,Otot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,88,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q320,4Q Cal. Doc./Mishmarot A,Calendrical Document/Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,20,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q321,4Q Cal. Doc./Mishmarot B,Calendrical Document/Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,48,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q322,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q323,4Q Mishmarot B,Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q324,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,190,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q325,4Q Cal. Doc./Mishmarot D,Calendrical Document/Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q326,4Q Cal. Doc. C,Calendar,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q328,4Q Mishmarot F,Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q329,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q330,4Q Mishmarot I,Mishmarot,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q331,4Q papHistorical Text C,papHistorical Text,Historical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q332,4Q Historical Text D,Historical Text,Other,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q333,4Q Historical Text E,Historical Text,Historical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q334,4Q Ordo,Ordo,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,21,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q337,4Q Cal. Doc. E,Calendar,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q338,4Q Genealogical List(?),Genealogical List?,Other,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,6,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q339,4Q List of False Prophets,List of False Prophets,Other,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,10,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q340,4Q List of Netinim,List of Netinim,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q341,4Q Exercitium Calami C,Exercitium Calami,Scribal Exercise,Hebrew,Greek,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q342,4Q Letter(?),Letter?,Alleged Qumran Documents,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q343,4Q Letter,Letter,Alleged Qumran Documents,Nabataean,Nabatean,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q344,4Q Acknowledgment of Debt,papAcknowledgment of Debt,Alleged Qumran Documents,Aramaic,Square,Parchment,Roman,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q345,4Q Deed A,Deed,Alleged Qumran Documents,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q346,,Multiple Compositions,Other,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,18,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q347,4Q papDeed F,papDeed,Alleged Qumran Documents,Aramaic,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q348,4Q Deed B,Deed,Alleged Qumran Documents,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q350,4Q Account,Account,Other,Greek,Greek,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q351,4Q Account of Cereal A,Account of Cereal,Alleged Qumran Documents,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q352,4Q papAccount A,papAccount,Alleged Qumran Documents,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q353,4Q papAccount of Cereal or Liquid,papAccount of Cereal or Liquid,Alleged Qumran Documents,Aramaic,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q354,4Q Account B,Account,Alleged Qumran Documents,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q355,4Q Account C,Account,Alleged Qumran Documents,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q356,4Q Account D,Account,Alleged Qumran Documents,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q357,4Q Account E,Account,Alleged Qumran Documents,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q358,4Q papAccount F(?),papAccount?,Alleged Qumran Documents,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q359,4Q papDeed C(?),papDeed?,Alleged Qumran Documents,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q360,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q361,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q362,,Unidentified,Unidentified Text,Hebrew,Cryptic B,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q363,,Unidentified,Unidentified Text,Hebrew,Cryptic C,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,51,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q364,4Q RP B,Reworked Pentateuch,Parabiblical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,274,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q365,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,192,"Miriam, Song of the Sea
+מרים, שירת הים -|- Miriam, Song of the Sea
+מרים, שירת הים -|- Miriam, Song of the Sea
+מרים, שירת הים -|- Miriam, Song of the Sea
+מרים, שירת הים -|- Miriam, Song of the Sea
+מרים, שירת הים -|- Miriam, Song of the Sea
+מרים, שירת הים",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q366,4Q RP D,Reworked Pentateuch,Parabiblical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,23,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q367,4Q RP E,Reworked Pentateuch,Parabiblical Texts?,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,25,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q368,4Q apocrPent. A,Apocryphal Pentateuch,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,43,"star
+כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q369,4Q Prayer of Enosh (Possibly: Prayer of Enosh a or Prayer Concerning God and Israel?),Prayer of Enosh,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,24,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q370,4Q AdmonFlood,Admonition Based on the Flood,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q371,4Q Narrative and Poetic Composition,Narrative and Poetic Composition,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,37,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q372,4Q Narrative and Poetic Composition,Narrative and Poetic Composition,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,67,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q373,4Q Narrative and Poetic Composition,Narrative and Poetic Composition,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q374,4Q Exodus/Conquest Tradition,Exodus/Conquest Tradition,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,41,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q375,4Q apocrMoses,apocrMoses,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q376,4Q apocrMoses(?),apocrMoses?,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q377,4Q apocrPent. B,Apocryphal Pentateuch,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,25,"Miriam
+מרים",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q378,4Q apocrJosh,Apocryphon of Joshua,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,74,"milk and honey
+חלב ודבש, דבש",Exodus,Protocanonical,Torah,OT,Biblical
+4Q379,4Q apocrJosh,Apocryphon of Joshua b,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,57,NA,Exodus,Protocanonical,Torah,OT,Biblical
+4Q380,4Q Non-Canonical Psalms A,Non-Canonical Psalms,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,26,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q381,4Q Non-Canonical Psalms B,Non-Canonical Psalms,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,246,"star
+כוכב",Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q382,4Q papParaphrase of Kings,papParaphrase of Kings,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,316,NA,Kings,Protocanonical,Nevi'im,OT,Biblical
+4Q383,4Q apocrJer A,Apocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,40,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q384,4Q pap apocrJer B(?),papApocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q385,4Q psEzek,Pseudo-Ezekiel,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,147,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q386,4Q psEzek,Pseudo-Ezekiel,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,"Belial
+בליעל",Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q387,4Q apocrJer,Apocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,54,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q388,4Q apocrJer C,Apocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,49,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q389,4Q apocrJer,Apocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,60,NA,Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q390,4Q apocrJer,Apocryphon of Jeremiah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,29,"Belial
+בליעל",Jeremiah,Protocanonical,Nevi'im,OT,Biblical
+4Q391,4Q pap psEzek,papPseudo-Ezekiel,Parabiblical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,119,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+4Q392,4Q Works of God,Works of God,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,32,"star
+כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q393,4Q Communal Confession,Communal Confession,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,29,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q394,4Q Cal. Doc. D,Calendar,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,67,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q395,4Q MMT,Miqsat Ma`ase ha-Torah,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,NA,MMT,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q396,4Q MMT,Miqsat Ma`ase ha-Torah,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,MMT,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q397,4Q MMT,Miqsat Ma`ase ha-Torah,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,49,NA,MMT,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q398,4Q papMMT,papMiqsat Ma`ase ha-Torah,Sectarian Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,7,"Belial
+בליעל -|- Belial
+בליעל",MMT,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q399,4Q MMT,Miqsat Ma`ase ha-Torah,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,MMT,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q400,4Q Non-Canonical Psalms A,Non-Canonical Psalms,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean (period),"Qumran, Cave 4",Qumran,4,40,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q401,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,84,"Melchizedek
+מלכיצדק",Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q402,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,38,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q403,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q404,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,69,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q405,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,249,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q406,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,12,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q407,4Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q408,4Q apocrMoses,Apocryphon of Moses,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q409,4Q Liturgical Work A,Liturgical Work,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q410,4Q Vision and Interpretation,Vision and Interpretation,Sapiential Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q411,4Q Sapiential Hymn,Sapiential Hymn,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q412,4Q Sapiential-Didactic Work A,Sapiential-Didactic Work,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,21,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q413,4Q Composition Concerning Divine Providence,Composition concerning Divine Providence,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q414,4Q RitPur A,Ritual of Purification,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,99,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q415,4Q Instruction,Instruction,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,92,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q416,4Q Instruction,Instruction,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,81,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q417,4Q Instruction,Instruction,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,111,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q418,,Multiple Compositions,Other,,,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,703,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q419,4Q Instruction-like Composition A,Instruction-like Composition,Sapiential Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,33,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q420,4Q Ways of Righteousness,Ways of Righteousness,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,24,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q421,4Q Ways of Righteousness,Ways of Righteousness,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,43,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q422,4Q Paraphrase of Genesis and Exodus,Paraphrase of Genesis and Exodus,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,62,NA,Genesis,Protocanonical,Torah,OT,Biblical
+4Q423,4Q Instruction,Instruction,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,70,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q424,4Q Instruction-like Composition B,Instruction-like Composition,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,23,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q425,4Q Sapiential-Didactic Work B,Sapiential-Didactic Work,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,16,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q426,4Q Sapiential-Hymnic Work A,Sapiential-Hymnic Work A,Sapiential Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,35,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q427,4Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,75,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q428,4Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,169,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q429,4Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,31,"Belial
+בליעל",Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q430,4Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q431,4Q H,Hodayot,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q432,4Q papH,papHodayot,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,80,"Belial
+בליעל",Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q433,4Q Hodayot-like Text A,Hodayot-like Text,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q434,4Q Barkhi Nafshi,Barkhi Nafshi,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,53,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q435,4Q Barkhi Nafshi,Barkhi Nafshi,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q436,4Q Barkhi Nafshi,Barkhi Nafshi,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q437,4Q Barkhi Nafshi,Barkhi Nafshi,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,43,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q438,4Q Barkhi Nafshi,Barkhi Nafshi,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q439,4Q Lament by a Leader,Lament by a Leader,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q440,4Q Hodayot-like Text C,Hodayot-like Text,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Thanksgiving Hymns,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q441,4Q Individual Thanksgiving A,Individual Thanksgiving,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q442,4Q Individual Thanksgiving B,Individual Thanksgiving,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q443,4Q Personal Prayer,Personal Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,33,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q444,4Q Incantation,Incantation,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,18,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q445,4Q Lament A,Lament,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q446,4Q Poetic Text A,Poetic Text,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q447,4Q Poetic Text B,Poetic Text,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q448,4Q Apocr.  Psalm and Prayer,Apocryphal Psalm and Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,10,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+4Q449,4Q Prayer A,Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q450,4Q Prayer B(?),Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q451,4Q Prayer C,Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q452,4Q Prayer D(?),Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q453,4Q Lament B,Lament,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q454,4Q Prayer E(?),Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q455,4Q Didactic Work C,Didactic Work,Sapiential Texts?,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q456,4Q Halleluyah,Halleluyah,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q457,4Q Creation(?),Creation,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q458,4Q Narrative A,Narrative,Other,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,45,"star
+כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q459,4Q Narrative Work Mentioning Lebanon,Narrative Work Mentioning Lebanon,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q460,4Q Narrative Work and Prayer,Narrative Work and Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,28,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q461,4Q Narrative B,Narrative,Other,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q462,4Q Narrative C,Narrative,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,21,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q463,4Q Narrative D,Narrative,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,12,"Belial
+בליעל",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q464,4Q Exposition on the Patriarchs,Exposition on the Patriarchs,Other,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,30,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q465,4Q papText Mentioning Samson(?),papText Mentioning Samson?,Parabiblical Texts?,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q466,4Q Text Mentioning the Congregation of the Lord,Text Mentioning the Congregation of the,Other,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q467,"4Q Text Mentioning ""Light to Jacob""","Text Mentioning ""Light to Jacob""",Other,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,10,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q468,,Multiple Compositions,Unidentified Text,,,Parchment,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,79,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q469,4Q Narrative I,Narrative,Poetical/Liturgical Texts?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,30,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q470,4Q Text Mentioning Zedekiah,Text Mentioning Zedekiah,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q471,4Q War Scroll-like Text B,War Scroll-like Text,Sectarian Texts,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,35,"Belial
+בליעל",War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q472,4Q Halakha C,Halakha,Legal Texts,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q473,4Q The Two Ways,The Two Ways,Sapiential Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q474,4Q Text Concerning Rachel and Joseph,Text Concerning Rachel and Joseph,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q475,4Q Renewed Earth,Renewed Earth,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q476,4Q Liturgical Work B,Liturgical Work,Poetical/Liturgical Texts,Hebrew,Square,Parchment,,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q477,4Q Rebukes Reported by the Overseer,Rebukes Reported by the Overseer,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,17,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q478,4Q papFragment Mentioning Festivals,papFragment Mentioning Festivals,Other,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q479,4Q Text Mentioning Descendants of David,Text Mentioning Descendants of David,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,10,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q480,4Q Narrative F,Narrative,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,9,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q481,4Q Fragments with Red Ink,Fragments with Red Ink,Unidentified Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,47,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q482,4Q papJub(?),papJubilees?,Parabiblical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,48,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q483,4Q papGen o or papJub j?,papGenesis o or papJubilees j?,Scripture?,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q484,4Q papTJud(?),papTestament of Judah?,Parabiblical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,104,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q485,4Q papProph,papProphecy,Other,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q486,4Q papSap A(?),papSapiential Work A?,Sapiential Texts?,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q487,4Q papSap B(?),papSapiential Work B?,Sapiential Texts?,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,140,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q488,4Q papApocryphon,papApocryphon,Other,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q489,4Q papApocalypse,papApocalypse,Other,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,10,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q490,,Unidentified,Unidentified Text,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q491,4Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,89,"Belial
+בליעל",War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q492,4Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q493,4Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,8,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q494,4Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q495,4Q M,War Scroll,Sectarian Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q496,4Q papM,papWarScroll,Sectarian Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,247,"Belial
+בליעל -|- Belial
+בליעל -|- Belial
+בליעל -|- Belial
+בליעל -|- Belial
+בליעל -|- Belial
+בליעל",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q497,4Q papWar Scroll-like Text A,papWar Scroll-like Text,Sectarian Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,121,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q498,4Q papSap/Hymn,papHymnic or Sapiential fragments,Sapiential Texts?,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,46,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q499,4Q papHymns/Prayers (=Prayer of Enosh b?),papHymns/Prayers,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,126,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q500,4Q papBened,papBenediction,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,12,NA,Rule of the Blessing,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q501,4Q apocrLam B,Apocryphal Lamentations,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,4,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+4Q502,4Q papRitMar,papRitual of Marriage,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,728,"star
+כוכב -|- star
+כוכב",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q503,4Q papPrQuot,papDaily Prayers,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,471,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q504,4Q DibHam,Words of the Luminaries,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,101,"Garden of Eden
+גן עדן",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q505,4Q papDibHam,papWords of the Luminaries,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,30,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q506,4Q papDibHam,papWords of the Luminaries,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,136,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q507,4Q PrFetes,Festival Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q508,4Q PrFetes,Festival Prayers,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,94,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q509,4Q papPrFetes,papFestival Prayers,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,661,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q510,4Q Shir,Songs of the Maskil,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,36,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q511,4Q Shir,Songs of the Maskil,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,505,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+4Q512,4Q papRitPur B,papRitual of Purification,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,462,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q513,4Q Ordinances B,Ordinances,Legal Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,103,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q514,4Q Ordinances C,Ordinances,Legal Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,13,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q515,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q516,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 4",Qumran,4,14,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q517,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,124,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q518,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,20,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q519,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,14,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q520,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 4",Qumran,4,20,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q521,4Q Messianic Apocalypse,Messianic Apocalypse,Other,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,52,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q522,4Q Prophecy of Joshua (apocrJosh c?),Prophecy of Joshua,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,84,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+4Q523,4Q Jonathan,Jonathan,Other,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,21,NA,Numbers,Protocanonical,Torah,OT,Biblical
+4Q524,4Q T,Temple Scroll,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,84,NA,Temple Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+4Q525,4Q Beatitudes,Beatitudes,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,104,"Belial
+בליעל, אשרי",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q526,4Q Testament(?),Testament?,Parabiblical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q527,4Q Liturgical Work D(?),Liturgy,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q528,4Q Hymnic or Sapiential Work B,Hymnic or Sapiential Work,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,Instruction (Musar),Non-canonical,Wisdom,Non-biblical,Wisdom Literature
+4Q529,4Q Words of Michael,Words of Michael,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q530,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,46,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q531,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,66,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q532,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q533,4Q EnGiants,"Enoch, Book of Giants",Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,15,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q534,4Q Birth of Noah,Birth of Noah,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,22,NA,Book of Noah,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q535,4Q Birth of Noah,Birth of Noah,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,Book of Noah,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q536,4Q Birth of Noah,Birth of Noah,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,15,NA,Book of Noah,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q537,4Q TJacob(?),Testament of Jacob?,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,62,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q538,4Q TBenjamin,Testament of Benjamin,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q539,4Q TJoseph,Testament of Joseph,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,15,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q540,4Q apocrLevi(?),Apocryphon of Levi,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q541,4Q apocrLevi(?),Apocryphon of Levi,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,65,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+4Q542,4Q TKohath (TQahat),Testament of Qahat,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,Testament of Qahat,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q543,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,109,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q544,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q545,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,42,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q546,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,58,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q547,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,32,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q548,4Q Visions of Amram,Visions of Amram,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q549,4Q Visions of Amram,Visions of Amram?,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,Visions of Amram,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q550,4Q Jews at the Persian Court,Jews at the Persian Court,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,67,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q551,4Q Narrative,Narrative,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q552,4Q Four Kingdoms,Four Kingdoms,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,16,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q553,4Q Four Kingdoms,Four Kingdoms,Parabiblical Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,37,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q554,4Q NJ,New Jerusalem,Parabiblical Texts,Aramaic,Square,Parchment,,"Qumran, Cave 4",Qumran,4,36,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q555,4Q NJ,New Jerusalem,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,13,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+4Q556,4Q Prophecy,Prophecy,Other,Aramaic,Square,,Herodian,"Qumran, Cave 4",Qumran,4,27,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q557,4Q Vision,Vision,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q558,4Q papVision,papVision,Other,Aramaic,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,272,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q559,4Q papBiblical Chronology,papBiblical Chronology,Parabiblical Texts,Aramaic,Square,Papyrus,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q560,4Q Magical Booklet,Magical Booklet,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,14,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q561,4Q Zodiacal Physiognomy,Horoscope,Other,,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,21,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q562,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,29,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q563,4Q Wisdom Composition,Wisdom Composition,Sapiential Texts,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q564,,Unidentified,Unidentified Text,Unidentified,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q565,4Q Vision(?),Vision?,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q566,4Q Prophecy(?),Prophecy?,Other,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q567,,Unidentified,Unidentified Text,Unidentified,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,6,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q568,4Q Prophecy,Prophecy,Other,,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q569,4Q Aramaic Proverbs,Aramaic Proverbs,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,12,NA,Proverbs,Protocanonical,Ketuvim,OT,Biblical
+4Q570,,Unidentified,Unidentified Text,Unidentified,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,21,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q571,4Q Words of Michael,Words of Michael,Other,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,7,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q572,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,6,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q573,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 4",Qumran,4,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q574,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+4Q575,,Multiple Compositions,Unidentified Text,,,Parchment,,"Qumran, Cave 4",Qumran,4,11,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+4Q576,4Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 4",Qumran,4,9,NA,Genesis,Protocanonical,Torah,OT,Biblical
+5Q1,5Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Early Hellenistic,"Qumran, Cave 5",Qumran,5,3,"milk and honey
+חלב ודבש",Deuteronomy,Protocanonical,Torah,OT,Biblical
+5Q2,5Q Kgs,Kings,Scripture,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 5",Qumran,5,6,NA,Kings,Protocanonical,Nevi'im,OT,Biblical
+5Q3,5Q Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,1,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+5Q4,,Amos,Other,,,Parchment,,"Qumran, Cave 5",Qumran,5,2,NA,Amos,Protocanonical,Nevi'im,OT,Biblical
+5Q5,5Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,3,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+5Q6,5Q Lam,Lamentations,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,4,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+5Q7,5Q Lam,Lamentations,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,Lamentations,Protocanonical,Ketuvim,OT,Biblical
+5Q8,5Q Phyl,Phylacteries,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,1,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+5Q9,5Q apocrJosh,Prophecy of Joshua,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+5Q10,5Q apocrMal,Apocryphon of Malachi,Parabiblical Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,0,NA,Malachi,Protocanonical,Nevi'im,OT,Biblical
+5Q11,5Q S,Community Rule,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,Community Rule,Non-canonical,Sectarian,Non-biblical,Sectarian
+5Q12,5Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,1,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+5Q13,5Q Rule,Rule,Legal Texts,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,2,"Belial
+בליעל",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+5Q14,5Q Curses,Curses,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+5Q15,5Q NJ,New Jerusalem,Parabiblical Texts,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,5,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+5Q16,,Unidentified,Other,Unidentified,,Parchment,,"Qumran, Cave 5",Qumran,5,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q17,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q18,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q19,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q20,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q21,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q22,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q23,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q24,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+5Q25,,Unclassified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 5",Qumran,5,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q1,6Q paleoGen,paleoGenesis,Scripture,Hebrew,Paleo-Hebrew,Parchment,Early Hellenistic,"Qumran, Cave 6",Qumran,6,4,"Flood
+המבול",Genesis,Protocanonical,Torah,OT,Biblical
+6Q2,6Q paleoLev,paleoLeviticus,Scripture,Hebrew,Paleo-Hebrew,Parchment,Early Hellenistic,"Qumran, Cave 6",Qumran,6,3,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+6Q3,6Q papDeut(?),papDeuteronomy?,Scripture?,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,2,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+6Q4,6Q papKgs,papKings,Scripture,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 6",Qumran,6,170,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q5,6Q papPs(?),papPsalms?,Scripture?,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q6,6Q Cant,Song of Songs,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,6,NA,Song of Songs,Protocanonical,Ketuvim,OT,Biblical
+6Q7,6Q papDan,papDaniel,Scripture,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,29,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q8,6Q papGiants,papGiants,Parabiblical Texts,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,3,NA,Book of Giants,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+6Q9,6Q pap apocrSam-Kgs,papApocryphon on Samuel-Kings,Parabiblical Texts,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 6",Qumran,6,9,NA,Samuel,Protocanonical,Nevi'im,OT,Biblical
+6Q10,6Q papProph,papProphecy,Other,Hebrew,Square,Papyrus,Hasmonean,"Qumran, Cave 6",Qumran,6,56,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q11,6Q Allegory of the Vine,Allegory of the Vine,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q12,6Q Apocryphal Prophecy,Apocryphal Prophecy,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q13,6Q Priestly Prophecy,Priestly Prophecy,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,5,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q14,6Q Apocalypse,Apocalypse,Other,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,8,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q15,6Q D,Damascus Document,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,15,NA,Damascus Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+6Q16,6Q papBened,papBenediction,Poetical/Liturgical Texts,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,Rule of the Blessing,Non-canonical,Sectarian,Non-biblical,Sectarian
+6Q17,6Q Cal. Doc.,Calendar,Calendrical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,Calendrical Document,Non-canonical,Sectarian,Non-biblical,Sectarian
+6Q18,6Q papHymn,papHymn,Poetical/Liturgical Texts,,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,5,"Belial
+בליעל",Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+6Q19,6Q Text Related to Genesis,Text Related to Genesis,Scripture?,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,Genesis,Protocanonical,Torah,OT,Biblical
+6Q20,6Q Deut(?),Deuteronomy?,Scripture?,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,4,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+6Q21,6Q Prophetic Text(?),Prophetic Text?,Other,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,3,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q22,,Unclassified fragments,Unidentified Text,Hebrew,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q23,,Unclassified fragments,Unidentified Text,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q24,,Unclassified fragments,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q25,,Unclassified fragments,Unidentified Text,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q26,6Q papAccount or Contract,papAccount or Contract,Other,Aramaic,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q27,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+6Q28,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+6Q29,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Hellenistic-Roman,"Qumran, Cave 6",Qumran,6,1,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+6Q30,6Q papProv,papProverbs,Scripture,Hebrew,Square,Papyrus,Roman,"Qumran, Cave 6",Qumran,6,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+6Q31,,Unclassified fragments,Unidentified Text,Aramaic,Square,Papyrus,Herodian,"Qumran, Cave 6",Qumran,6,3,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+7Q1,7Q papLXXExod,papLXXExodus,Scripture,Greek,Greek,Papyrus,Hasmonean,"Qumran, Cave 7",Qumran,7,4,NA,Exodus,Protocanonical,Torah,OT,Biblical
+7Q2,7Q papEpJer,papEpistle of Jeremiah,Apocrypha,Greek,Greek,Papyrus,Hasmonean,"Qumran, Cave 7",Qumran,7,2,NA,Letter of Jeremiah,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+7Q3,,Unidentified,Scripture?,Greek,Greek,Papyrus,Herodian,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q4,,Unidentified,Parabiblical Texts?,Greek,Greek,Papyrus,Hasmonean,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q5,,Unidentified,Scripture,Greek,Greek,Papyrus,Herodian,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q6,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q7,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q8,,Enoch?,Other,,,Papyrus,,"Qumran, Cave 7",Qumran,7,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+7Q9,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q10,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q11,,Enoch?,Other,,,Papyrus,,"Qumran, Cave 7",Qumran,7,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+7Q12,,Enoch?,Other,,,Papyrus,,"Qumran, Cave 7",Qumran,7,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+7Q13,,Enoch?,Other,,,Papyrus,,"Qumran, Cave 7",Qumran,7,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+7Q14,,Enoch?,Other,,,Papyrus,,"Qumran, Cave 7",Qumran,7,2,NA,1 Enoch,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+7Q15,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q16,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q17,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q18,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+7Q19,,papImprint,Unidentified Text,Greek,Greek,Stone,Hellenistic-Roman,"Qumran, Cave 7",Qumran,7,10,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+8Q1,8Q Gen,Genesis,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 8",Qumran,8,12,"Abraham
+אברהם",Genesis,Protocanonical,Torah,OT,Biblical
+8Q2,8Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 8",Qumran,8,32,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+8Q3,8Q Phyl,Phylacteries,Tefillin,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 8",Qumran,8,2,"milk and honey
+חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+8Q4,8Q Mez,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 8",Qumran,8,33,"milk and honey
+חלב ודבש, דבש",Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+8Q5,8Q Hymn,Hymn,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 8",Qumran,8,10,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+9Q1,,Unidentified,Unidentified Text,Hebrew,Square,Papyrus,Roman,"Qumran, Cave 9",Qumran,9,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q1,11Q paleoLev,paleoLeviticus,Scripture,Hebrew,Paleo-Hebrew,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,132,"Molech
+מולך",Leviticus,Protocanonical,Torah,OT,Biblical
+11Q2,11Q Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,34,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+11Q3,11Q Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,6,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+11Q4,11Q Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,3,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+11Q5,11Q Ps,Psalms,Scripture?,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,62,"I will sing of loyalty and of justice to you, O LORD, I will sing I
+will study the way that is blameless. When shall I attain it? I will
+walk with integrity of heart within my house;  I will not set before
+my eyes anything that is base. I hate the work of those who fall
+away; it shall not cling to me.  Perverseness of heart shall be far
+from me; I will know nothing of evil.  One who secretly slanders a
+neighbor I will destroy. A haughty look and an arrogant heart I will
+not tolerate I will look with favor on the faithful in the land, so
+that they may live with me; whoever walks in the way that is
+blameless shall minister to me.  No one who practices deceit shall
+remain in my house; no one who utters lies shall continue in my
+presence. 8 Morning by morning I will destroy all the wicked in the
+land, cutting off all evildoers from the city of the LORD.
+
+(Psalm 102) Hear my prayer, O LORD; let my cry come to you. 2 Do not
+hide your face from me in the day of my distress. Incline your ear
+to
+me; answer me speedily in the day when I call.
+
+תהילים פרק קא
+
+לדוד, מזמור:    חסד-ומשפט אשירה; לך יהוה אזמרה.
+אשכילה, בדרך תמים--    מתי, תבוא אלי;
+אתהלך בתם-לבבי,    בקרב ביתי.
+לא-אשית, לנגד עיני--    דבר-בליעל:
+עשה-סטים שנאתי לא ידבק בי
+לבב עקש, יסור ממני רע, לא אדע.
+מלושני (מלשני) בסתר, רעהו אותו אצמית:
+גבה עינים, ורחב לבב    אתו, לא אוכל.
+עיני, בנאמני ארץ    לשבת עמדי
+הלך, בדרך תמים   הוא, ישרתני.
+לא-ישב, בקרב ביתי    עשה רמיה:
+דבר שקרים  לא יכון, לנגד עיני לבקרים אצמית כל-רשעי-ארץ;
+להכרית מעיר יהוה,    כל-פעלי און.
+
+ -|- (Psalm 133 How very good and pleasant it is when kindred live
+together in unity!  It is like the precious oil on the head, running
+down upon the beard, on the beard of Aaron, running down over the
+collar of his robes. It is like the dew of Hermon, which falls on
+the
+mountains of Zion. For there the LORD ordained his blessing, life
+forevermore.
+
+שיר המעלות, לדוד:
+הנה מה-טוב, ומה-נעים    שבת אחים גם-יחד.
+כשמן הטוב,    על-הראש
+ירד,    על-הזקן זקן-אהרן
+שירד,    על-פי מדותיו.
+כטל-חרמון    שירד, על-הררי ציון
+כי שם צוה יהוה,    את-הברכה חיים,    עד-העולם. -|- Save us, we beseech you, O LORD! O LORD, we beseech you, give us
+success!  Blessed is the one who comes in the name of the LORD. We
+bless you from the house of the LORD.  The LORD is God, and he has
+given us light. Bind the festal procession with branches, up to the
+horns of the altar. You are my God, and I will give thanks to you;
+you are my God, I will extol you.  O give thanks to the LORD, for he
+is good, for his steadfast love endures forever.
+
+אנא יהוה, הושיעה נא;    אנא יהוה, הצליחה נא.
+ברוך הבא, בשם יהוה;    ברכנוכם, מבית יהוה.
+אל, יהוה--ויאר-לנו:    אסרו-חג בעבתים--עד קרנות, המזבח.
+אלי אתה ואודך;    אלהי, ארוממך.
+הודו ליהוה כי-טוב:    כי לעולם חסדו.",Sirach,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+11Q6,11Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,43,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+11Q7,11Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,33,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+11Q8,11Q Ps,Psalms,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,39,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+11Q9,11Q Ps(?),Psalms?,Scripture,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,1,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+11Q10,11Q tgJob,Targum Job,Translation of Scripture,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,114,NA,Targum,Non-canonical,Biblical Translation,Non-biblical,Biblical Translation
+11Q11,11Q apocrPs,Apocryphal Psalms,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,28,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+11Q12,11Q Jub,Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,40,"Abraham, Abram, star
+אברהם, אברם, כוכב",Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+11Q13,11Q Melch,Melchizedek,Exegetical Texts,Hebrew,Square,Parchment,Hasmonean,"Qumran, Cave 11",Qumran,11,45,"Belial, Melchizedek
+בליעל, מלכיצדק",NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+11Q14,11Q Sefer ha-Milhamah,Sefer ha-Milhamah,Sectarian Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,19,NA,War Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+11Q15,11Q Hymns,Hymns,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,15,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+11Q16,11Q Hymns,Hymns,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,4,NA,Hymns,Non-canonical,Liturgical,Non-biblical,Liturgical
+11Q17,11Q ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,108,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+11Q18,11Q NJ,New Jerusalem,Parabiblical Texts,Aramaic,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,122,NA,New Jerusalem,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+11Q20,11Q T,Temple Scroll,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,172,NA,Temple Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+11Q21,11Q T,Temple Scroll,Legal Texts,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,13,NA,Temple Scroll,Non-canonical,Sectarian,Non-biblical,Sectarian
+11Q22,,Unidentified,Unidentified Text,Hebrew,Paleo-Hebrew,Parchment,Hasmonean,"Qumran, Cave 11",Qumran,11,14,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q23,,Unidentified,Unidentified Text,Hebrew,Cryptic A,Parchment,Hellenistic-Roman,"Qumran, Cave 11",Qumran,11,11,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q24,,Unidentified,Unidentified Text,Aramaic,Square,Parchment,Hasmonean,"Qumran, Cave 11",Qumran,11,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q25,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,20,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q26,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,7,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q27,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 11",Qumran,11,8,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q28,,Unidentified,Unidentified Text,Unidentified,,Papyrus,Hellenistic-Roman,"Qumran, Cave 11",Qumran,11,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q30,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Herodian,"Qumran, Cave 11",Qumran,11,53,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+11Q31,,Unidentified,Unidentified Text,Hebrew,Square,Parchment,Hellenistic-Roman,"Qumran, Cave 11",Qumran,11,2,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+Mas 1,Mas Gen,Genesis,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,2,NA,Genesis,Protocanonical,Torah,OT,Biblical
+Mas 1a,Mas Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,0,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+Mas 1b,Mas Lev,Leviticus,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,4,NA,Leviticus,Protocanonical,Torah,OT,Biblical
+Mas 1c,Mas Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,2,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+Mas 1d,Mas Ezek,Ezekiel,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,1,NA,Ezekiel,Protocanonical,Nevi'im,OT,Biblical
+Mas 1e,Mas Ps,Psalms,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,4,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+Mas 1f,Mas Ps,Psalms,Scripture,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,7,NA,Psalms,Protocanonical,Ketuvim,OT,Biblical
+Mas 1h,Mas Sir,Ben Sira,Sapiential Texts,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,1,NA,Sirach,Deuterocanonical,Deuterocanonical,OT,Biblical (Deuterocanonical)
+Mas 1j,Mas Jub or psJub,Jubilees or pseudo-Jubilees,Parabiblical Texts,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,6,NA,Jubilees,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+Mas 1k,Mas ShirShabb,Songs of the Sabbath Sacrifice,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,5,NA,Songs of Sabbath Sacrifice,Non-canonical,Liturgical,Non-biblical,Liturgical
+Mas 1l,Mas apocrJosh,Apocryphon of Joshua,Parabiblical Texts,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,0,NA,Joshua,Protocanonical,Nevi'im,OT,Biblical
+Mas 1m,Mas apocrGen,Genesis Apocryphon,Other,Hebrew,Square,Parchment,Roman,Masada,Masada,NA,2,NA,Genesis Apocryphon,Non-canonical,Pseudepigrapha,Non-biblical,Parabiblical
+MUR1,,Numbers,Scripture,,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,18,NA,Numbers,Protocanonical,Torah,OT,Biblical
+MUR2,MUR Deut,Deuteronomy,Scripture,Hebrew,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,8,NA,Deuteronomy,Protocanonical,Torah,OT,Biblical
+MUR3,MUR Isa,Isaiah,Scripture,Hebrew,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,5,NA,Isaiah,Protocanonical,Nevi'im,OT,Biblical
+MUR4,MUR Phyl,Phylacteries,Tefillin,Hebrew,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,10,"milk and honey
+חלב ודבש, דבש",Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+MUR5,MUR Mez,Mezuzah,Mezuzah,Hebrew,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,1,NA,Mezuzah,Non-canonical,Liturgical,Non-biblical,Liturgical
+MUR6,,Unidentified Literary Text,Other,,,Parchment,,Wadi Murabba'at,Wadi Murabba'at,NA,4,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+MUR7,,Contract?,Other,Hebrew,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+MUR8,,papAccount of Cereals and Vegetables,Other,Aramaic,Square,Parchment,Roman,Wadi Murabba'at,Wadi Murabba'at,NA,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+MUR9,,Account,Other,Aramaic,Square,Parchment,Hellenistic-Roman,Wadi Murabba'at,Wadi Murabba'at,NA,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+MUR10,,Abecedary,Scribal Exercise,,Square,Parchment,,Wadi Murabba'at,Wadi Murabba'at,NA,2,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se 8,,papDeed of Sale,Other,Hebrew,Square,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se 8a,,papDeed of Sale,Other,Aramaic,Square,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se Nab. 2 (862),,papDeed of Sale,Other,Nabataean,Nabatean,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,27,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se Nab. 5 (864),,papContract,Other,Nabataean,Nabatean,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,1,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se5,,Tefillin,Tefillin,Hebrew,Square,Parchment,Hellenistic-Roman,Unknown Cave,Nahal Hever,NA,12,NA,Phylactery (Tefillin),Non-canonical,Liturgical,Non-biblical,Liturgical
+XHev/Se6,XHev/Se Eschatological Hymn,Eschatological Hymn,Other,Hebrew,Square,Parchment,Herodian,Unknown Cave,Nahal Hever,NA,12,NA,Florilegium,Non-canonical,Sectarian,Non-biblical,Sectarian
+XHev/Se7,XHev/Se Deed of Sale A,Deed of Sale A,Other,Aramaic,Square,Parchment,Roman,Unknown Cave,Nahal Hever,NA,6,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se10,,papReceipt?,Other,Aramaic,Square,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,16,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se11,,papMarriage Contract?,Other,Aramaic,Square,Papyrus,Roman,Unknown Cave,Nahal Hever,NA,4,NA,NA,Non-canonical,Other,Non-biblical,Other Non-biblical
+XHev/Se15,,Unidentified,Unidentified Text,Aramaic,Square,Papyrus,,Unknown Cave,Nahal Hever,NA,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+XHev/Se16,,Unidentified,Unidentified Text,Unidentified,,Papyrus,,Unknown Cave,Nahal Hever,NA,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+XHev/Se17,,Unidentified,Unidentified Text,Unidentified,,Papyrus,,Unknown Cave,Nahal Hever,NA,3,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+8Hev1,8Hev XII,Minor Prophets,Translation of Scripture,Greek,Greek,Parchment,Roman,Cave of Horror,Nahal Hever,NA,111,NA,Minor Prophets (Twelve),Protocanonical,Nevi'im,OT,Biblical
+8Hev2,,Prayer,Poetical/Liturgical Texts,Hebrew,Square,Parchment,Roman,Cave of Horror,Nahal Hever,NA,14,NA,Liturgical Prayer,Non-canonical,Liturgical,Non-biblical,Liturgical
+8Hev3,,Unidentified,Unidentified Text,Unidentified,,Papyrus,Herodian,Cave of Horror,Nahal Hever,NA,10,NA,NA,Unidentified,Unidentified,Unknown,Unidentified
+8Hev4,,Unidentified,Unidentified Text,Greek,Greek,Papyrus,Hellenistic-Roman,Cave of Horror,Nahal Hever,NA,5,NA,NA,Unidentified,Unidentified,Unknown,Unidentified

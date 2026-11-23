@@ -1,0 +1,16 @@
+title: "Which College Majors Are Safest From AI (and Do They Pay)?"
+article:
+  title: "How will Language Modelers like ChatGPT Affect Occupations and Industries?"
+  url: "https://arxiv.org/abs/2303.01157"
+data_source:
+  title: "US Dept. of Education College Scorecard + AI Occupational Exposure (Felten, Raj & Seamans) + NCES/BLS CIP-SOC crosswalk"
+  url: "https://collegescorecard.ed.gov/data/"
+images:
+# Please include at least one image, and up to three images
+- file: "ai_salary_majors.png"
+  alt: >
+    Scatter plot of 285 bachelors majors comparing the AI exposure of the occupations each major leads to (x-axis, left is least exposed) against median starting salary one year after graduation (y-axis). Points are green when a major is in the safer, higher-paid half and purple when more AI-exposed. Bubble size shows the number of graduates measured. The points are spread out with no real correlation between AI exposure and starting salary. Registered nursing, nuclear engineering technology, and marine transportation are safe from AI and well paid, while English and philosophy are among the most exposed and lowest paid.
+credit:
+  post: "Tony Galvan, Golden Dome Data Science"
+  github: "@gdatascience"
+  linkedin: "@anthony-raul-galvan"
