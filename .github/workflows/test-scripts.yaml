@@ -24,9 +24,7 @@ jobs:
 
       - name: Install DuckDB
         run: |
-          curl -fsSL -o duckdb.zip https://github.com/duckdb/duckdb/releases/latest/download/duckdb_cli-linux-amd64.zip
-          sudo unzip -o duckdb.zip duckdb -d /usr/local/bin
-          rm duckdb.zip
+          curl -fsSL "https://github.com/duckdb/duckdb/releases/latest/download/duckdb-cli-linux-amd64.tar.gz" | sudo tar -xz -C /usr/local/bin duckdb
 
       - name: Run script tests
         run: bash .github/scripts/test.sh
