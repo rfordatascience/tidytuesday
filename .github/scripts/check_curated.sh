@@ -41,8 +41,12 @@ echo "1. Checking for required files..."
 for f in meta.yaml intro.md; do
   [[ -f ${submission_dir}/${f} ]] || errors+=("Missing required file: ${f}")
 done
-if [[ ! -f ${submission_dir}/cleaning.R && ! -f ${submission_dir}/cleaning.py ]]; then
-  errors+=("Missing required file: cleaning.R or cleaning.py")
+mapfile -t cleaning_files < <(cleaning_scripts "${submission_dir}")
+if ((${#cleaning_files[@]} == 0)); then
+  errors+=("Missing required file: cleaning.R, cleaning.py, or cleaning.jl")
+elif ((${#cleaning_files[@]} > 1)); then
+  names=$(printf '%s, ' "${cleaning_files[@]##*/}")
+  errors+=("Multiple cleaning scripts found (${names%, }); submit exactly one.")
 fi
 shopt -s nullglob
 pngs=("${submission_dir}"/*.png)
@@ -141,14 +145,16 @@ if [[ -f ${meta} ]]; then
     check_url "$(yq -r '.article.url // ""' "${meta}")" article
     check_url "$(yq -r '.data_source.url // ""' "${meta}")" data_source
 
-    if [[ $(yq -r '.images | tag' "${meta}") != '!!seq' ]]; then
-      errors+=("'images' section is missing or malformed in meta.yaml.")
+    if [[ $(yq -r '.images | tag' "${meta}") != '!!seq' || $(yq -r '.images | length' "${meta}") -eq 0 ]]; then
+      errors+=("'images' section is missing, empty, or malformed in meta.yaml.")
     else
       while IFS= read -r item; do
         file=$(jq -r 'if type == "object" then (.file // "") else "" end' <<<"${item}")
         alt=$(jq -r 'if type == "object" then (.alt // "") else "" end' <<<"${item}")
         img="${submission_dir}/${file}"
-        if [[ -z ${file} || ! -f ${img} ]]; then
+        if [[ -n ${file} ]] && ! is_safe_name "${file}"; then
+          errors+=("Image file '${file}' must be a plain filename inside the submission folder.")
+        elif [[ -z ${file} || ! -f ${img} ]]; then
           errors+=("Image file '${file}' listed in meta.yaml does not exist.")
         elif ! dims=$(png_dims "${img}"); then
           errors+=("Image '${file}' could not be read.")

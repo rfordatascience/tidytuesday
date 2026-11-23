@@ -52,7 +52,7 @@ Every dataset PR is checked by `.github/workflows/pr-check.yaml`, which calls `.
 
 The automated checks verify:
 - Exactly one submission folder is present under `data/curated/`.
-- `meta.yaml`, `intro.md`, and a cleaning script (`cleaning.R`, `cleaning.py`, or `cleaning.jl`) are present. `cleaning.jl` is an accepted cleaning script, but the check may not recognize it (see issue #1098), in which case a Julia submission is wrongly flagged as missing one. The automated check is guidance only and never blocks acceptance, so don't treat such a flag as a reason to reject.
+- `meta.yaml`, `intro.md`, and a cleaning script (`cleaning.R`, `cleaning.py`, or `cleaning.jl`) are present. Exactly one cleaning script is allowed; the check flags submissions with more than one. The automated check is guidance only and never blocks acceptance, so don't treat such a flag as a reason to reject.
 - At least one `*.png` image is present.
 - At least one `*.csv` is present, and each `*.csv` has a matching `*.md` data dictionary.
 - All CSV files are valid UTF-8.

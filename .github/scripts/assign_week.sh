@@ -55,6 +55,8 @@ echo "src_folder_name = ${src_folder_name}"
 
 # Sources and targets ---------------------------------------------------------
 
+is_safe_name "${src_folder_name}" ||
+  die "Invalid folder name (must be a single directory under data/curated): ${src_folder_name}"
 src_dir=data/curated/${src_folder_name}
 [[ -d ${src_dir} ]] || die "${src_dir} does not exist."
 target_year=${target_date:0:4}
@@ -63,9 +65,10 @@ target_dir=data/${target_year}/${target_date}
 mkdir -p "${target_dir}"
 
 shopt -s nullglob
-cleaning_src=()
-for f in "${src_dir}"/cleaning.{R,r,py,jl}; do [[ -f $f ]] && cleaning_src+=("$f"); done
+mapfile -t cleaning_src < <(cleaning_scripts "${src_dir}")
 [[ ${#cleaning_src[@]} -gt 0 ]] || die "No cleaning script found in ${src_dir}."
+[[ ${#cleaning_src[@]} -eq 1 ]] ||
+  die "Multiple cleaning scripts found in ${src_dir}: ${cleaning_src[*]##*/}"
 dataset_files=("${src_dir}"/*.csv)
 [[ ${#dataset_files[@]} -gt 0 ]] || die "No csv files found in ${src_dir}."
 
@@ -120,6 +123,8 @@ done
 mapfile -t image_files < <(yq -r '.images[].file' "${meta}")
 for image in "${image_files[@]}"; do
   [[ -n ${image} && ${image} != null ]] || continue
+  is_safe_name "${image}" ||
+    die "Image ${image} in meta.yaml must be a plain filename inside the submission folder."
   original=${src_dir}/${image}
   [[ -f ${original} ]] || die "Image ${image} listed in meta.yaml does not exist."
   size=$(file_bytes "${original}")

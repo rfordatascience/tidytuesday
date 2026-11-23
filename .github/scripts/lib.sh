@@ -104,23 +104,42 @@ is_ssrf_risk() {
 }
 
 check_url() {
-  local url=$1 name=$2
+  local url=$1 name=$2 hop output code next
   [[ -z ${url} ]] && return 0
-  if [[ ! ${url,,} =~ ^https?:// ]]; then
-    errors+=("URL for '${name}' must use http:// or https:// scheme: ${url}")
+  local orig=${url}
+  # Follow redirects by hand (at most 5) so every hop is re-validated; letting
+  # curl follow them would let a public URL redirect to an internal address.
+  for ((hop = 0; hop <= 5; hop++)); do
+    if [[ ! ${url,,} =~ ^https?:// ]]; then
+      if ((hop == 0)); then
+        errors+=("URL for '${name}' must use http:// or https:// scheme: ${url}")
+      else
+        errors+=("URL for '${name}' redirects to a non-http(s) address: ${url}")
+      fi
+      return 0
+    fi
+    if is_ssrf_risk "${url}"; then
+      if ((hop == 0)); then
+        errors+=("URL for '${name}' targets a private or reserved address: ${url}")
+      else
+        errors+=("URL for '${name}' redirects to a private or reserved address: ${url}")
+      fi
+      return 0
+    fi
+    output=$(curl -s -o /dev/null -I -m 10 \
+      -A "Mozilla/5.0 (compatible; TidyTuesdayBot/1.0)" \
+      -w '%{http_code} %{redirect_url}' -- "${url}") || output="000 "
+    read -r code next <<<"${output}"
+    if [[ ${code} =~ ^3[0-9]{2}$ && -n ${next:-} ]]; then
+      url=${next}
+      continue
+    fi
+    if [[ ${code} == 000 || ${code} -ge 400 ]]; then
+      errors+=("Could not reach URL for '${name}'. Please check manually: ${orig}")
+    fi
     return 0
-  fi
-  if is_ssrf_risk "${url}"; then
-    errors+=("URL for '${name}' targets a private or reserved address: ${url}")
-    return 0
-  fi
-  local code
-  code=$(curl -s -o /dev/null -I -L -m 10 \
-    -A "Mozilla/5.0 (compatible; TidyTuesdayBot/1.0)" \
-    -w '%{http_code}' -- "${url}") || code=000
-  if [[ ${code} == 000 || ${code} -ge 400 ]]; then
-    errors+=("Could not reach URL for '${name}'. Please check manually: ${url}")
-  fi
+  done
+  errors+=("Could not reach URL for '${name}' (too many redirects). Please check manually: ${orig}")
 }
 
 # UTF-8 check -----------------------------------------------------------------
@@ -186,4 +205,23 @@ week_of_year() {
   local yday
   yday=$((10#$(date -d "$1" +%j)))
   echo $(((yday - 1) / 7 + 1))
+}
+
+# Path safety and cleaning scripts --------------------------------------------
+
+# True (0) if $1 is a plain single path component: non-empty, not hidden (which
+# also excludes . and ..), and with no path separators.
+is_safe_name() {
+  [[ -n $1 && $1 != .* && $1 != */* && $1 != *'\'* ]]
+}
+
+# Print the cleaning scripts (cleaning.R, .r, .py, .jl) in directory $1.
+cleaning_scripts() {
+  local f
+  for f in "$1"/cleaning.*; do
+    [[ -f ${f} ]] || continue
+    case "${f##*.}" in
+      R | r | py | jl) printf '%s\n' "${f}" ;;
+    esac
+  done
 }

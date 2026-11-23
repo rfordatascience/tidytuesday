@@ -166,6 +166,50 @@ for code in 200 404 000; do
   fi
 done
 
+# Redirects are re-validated at every hop.
+printf '%s\n' '#!/usr/bin/env bash' \
+  'url=${@: -1}' \
+  'case "${url}" in' \
+  '  *redirect-internal*) printf "301 http://169.254.169.254/latest" ;;' \
+  '  *redirect-loop*) printf "302 https://example.com/redirect-loop" ;;' \
+  '  *redirect-ok*) printf "301 https://example.com/final" ;;' \
+  '  *redirect-ftp*) printf "301 ftp://example.com/x" ;;' \
+  '  *) printf "200 " ;;' \
+  'esac' >"${stub_dir}/curl"
+errors=()
+PATH="${stub_dir}:${PATH}" check_url "https://example.com/redirect-ok" article
+assert_eq "check_url: safe redirect followed" 0 "${#errors[@]}"
+errors=()
+PATH="${stub_dir}:${PATH}" check_url "https://example.com/redirect-internal" article
+assert_contains "check_url: redirect to metadata IP blocked" "${errors[*]:-}" "redirects to a private or reserved"
+errors=()
+PATH="${stub_dir}:${PATH}" check_url "https://example.com/redirect-ftp" article
+assert_contains "check_url: redirect to non-http blocked" "${errors[*]:-}" "non-http"
+errors=()
+PATH="${stub_dir}:${PATH}" check_url "https://example.com/redirect-loop" article
+assert_contains "check_url: redirect loop stops" "${errors[*]:-}" "too many redirects"
+printf '#!/usr/bin/env bash\nprintf "200"\n' >"${stub_dir}/curl"
+
+# is_safe_name / cleaning_scripts -----------------------------------------
+
+for n in my-folder wnba_finals data2026; do
+  assert_true "safe_name: ${n}" is_safe_name "${n}"
+done
+for n in "" . .. ../x a/b /abs "../../data/2026/2026-11-24" '.hidden' 'a\b'; do
+  assert_false "safe_name rejects [${n}]" is_safe_name "${n}"
+done
+
+d=$(new_dir)
+assert_eq "cleaning_scripts: none" "" "$(cleaning_scripts "${d}")"
+touch "${d}/cleaning.jl" "${d}/cleaning.txt" "${d}/cleaning.R.bak"
+assert_eq "cleaning_scripts: only recognised extensions" "${d}/cleaning.jl" "$(cleaning_scripts "${d}")"
+touch "${d}/cleaning.py"
+assert_eq "cleaning_scripts: multiple listed" 2 "$(cleaning_scripts "${d}" | wc -l | tr -d ' ')"
+
+# assign_week.sh rejects traversal in the folder name before touching anything.
+out=$(bash "${script_dir}/assign_week.sh" 2099-01-06 "../../data/2026/2026-11-24" 2>&1)
+assert_contains "assign: traversal folder rejected" "${out}" "Invalid folder name"
+
 # utf8_error --------------------------------------------------------------
 
 assert_eq "utf8: valid file has no error" "" "$(utf8_error "${fixtures}/valid/data.csv")"
@@ -223,16 +267,22 @@ if command -v yq >/dev/null 2>&1 && command -v jq >/dev/null 2>&1; then
   d=$(copy_valid)
   rm "${d}/cleaning.R"
   run_check "${d}"
-  assert_contains "check: missing cleaning script" "${report}" "cleaning.R or cleaning.py"
+  assert_contains "check: missing cleaning script" "${report}" "cleaning.R, cleaning.py, or cleaning.jl"
 
   touch "${d}/cleaning.py"
   run_check "${d}"
   assert_not_contains "check: cleaning.py alone is enough" "${report}" "cleaning"
 
+  rm "${d}/cleaning.py"
+  touch "${d}/cleaning.jl"
+  run_check "${d}"
+  assert_not_contains "check: cleaning.jl alone is enough" "${report}" "cleaning"
+
   d=$(copy_valid)
   touch "${d}/cleaning.py"
   run_check "${d}"
-  assert_not_contains "check: both cleaning scripts ok" "${report}" "Missing required file: cleaning"
+  assert_contains "check: multiple cleaning scripts rejected" "${report}" "Multiple cleaning scripts"
+  assert_contains "check: multiple scripts named" "${report}" "cleaning.R, cleaning.py"
 
   d=$(copy_valid)
   rm "${d}/image.png"
@@ -296,6 +346,16 @@ if command -v yq >/dev/null 2>&1 && command -v jq >/dev/null 2>&1; then
   run_check "${d}"
   assert_not_contains "check: no title, no controversy link" "${report}" "controversy"
   assert_contains "check: images section missing" "${report}" "'images' section"
+
+  d=$(copy_valid)
+  printf 'title: "T"\narticle:\n  url: "https://example.com"\ndata_source:\n  url: "https://example.com"\nimages: []\n' >"${d}/meta.yaml"
+  run_check "${d}"
+  assert_contains "check: empty images list rejected" "${report}" "missing, empty, or malformed"
+
+  d=$(copy_valid)
+  sed -i 's#file: "image.png"#file: "../image.png"#' "${d}/meta.yaml"
+  run_check "${d}"
+  assert_contains "check: traversal image path rejected" "${report}" "plain filename"
 
   d=$(copy_valid)
   sed -i 's#https://example.com/article#http://localhost/x#' "${d}/meta.yaml"
