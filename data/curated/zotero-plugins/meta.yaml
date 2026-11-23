@@ -1,0 +1,30 @@
+title: "Zotero plugins"
+article:
+  title: "The state of Zotero plugins"
+  url: "https://zoteroplugins.org/state-of-zotero-plugins"
+data_source:
+  title: "zoteroplugins.org open data (CC BY 4.0)"
+  url: "https://zoteroplugins.org/api/plugins.json"
+images:
+# Please include at least one image, and up to three images
+- file: "new_plugins_per_month.png"
+  alt: >
+    Bar chart of new Zotero plugin repositories per month from January 2023 to
+    November 2026, forks left out. Through 2023 and 2024 there are at most seven
+    a month, and Zotero 7's release in August 2024 brings no immediate jump. The
+    numbers rise through 2025 (13 in June) and take off in 2026: about 90 a month
+    in the spring, around 190 in August and September, and 290 in October.
+    November has 98 by the 18th.
+- file: "grades_by_category.png"
+  alt: >
+    Stacked bar chart of the share of each Zotero Plugins grade among listed
+    plugins, by main category. Organising & tags and Citing & writing have the
+    most plugins graded A+ or A (recommended), about seven in ten, followed by
+    Interface & look at about two thirds. Translation and AI & summaries have the
+    fewest, 30% and 35%: most of their plugins are graded B, use with care (57%
+    and 56%), and they have the most graded C, not recommended (13% and 9%).
+credit:
+# We want to thank you for curating this dataset! If you do not want a
+# particular type of credit, please delete the related line.
+  post: "Ilias Beshimov"
+  github: "https://github.com/iliasbeshimov"
